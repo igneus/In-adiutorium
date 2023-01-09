@@ -3187,6 +3187,44 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c c( d) d \barMin f e f g f e d d d \barMaior
+      f e d f e d e c c \barMax
+
+      d d d c a c d d d \barMaior
+      d f f e f d d \mark\sipka e( f d) c c( d) d \barMax
+
+      c d f e f g f( d) d \barMaior
+      f d d f e d c c \barMaior
+      c a( c d) d d( f) e c( d) d \barMax
+
+      e f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Od vý -- cho -- du při -- šli do Bet -- lé -- ma mu -- dr -- ci,
+      a -- by se po -- klo -- ni -- li Pá -- nu;
+
+      o -- te -- vře -- li své po -- klad -- ni -- ce
+      a o -- bě -- to -- va -- li mu vzác -- né da -- ry:
+
+      zla -- to ve -- li -- ké -- mu Krá -- li,
+      ka -- did -- lo pra -- vé -- mu Bo -- hu
+      a myr -- hu k_je -- ho po -- hřbu.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "7-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -3943,6 +3981,29 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g a f g( a) g g \barMaior
+      g f( g) g( a) a \barMin
+      c c c b( a) g g
+      f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- jdou všich -- ni ze Sá -- by
+      a při -- ne -- sou zla -- to a ka -- did -- lo.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "10-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisDen {11. ledna}}
@@ -3988,6 +4049,28 @@ ale na diferenci žalmového nápěvu?}
       quid = "ant. k Benedictus"
       modus = "I"
       differentia = "D"
+      psalmus = ""
+      id = "11-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c d c b c a g g \barMin
+      a( g) f g( a) a \barMaior
+      a c c c b( c a) a g( f) a g g \barFinalis
+    }
+    \addlyrics {
+      Ti, kte -- ří te -- bou po -- hr -- da -- li,
+      při -- jdou k_to -- bě
+      a bu -- dou se ko -- řit u tvých no -- hou.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
       psalmus = ""
       id = "11-aben"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -4081,7 +4164,78 @@ ale na diferenci žalmového nápěvu?}
       modus = "I"
       differentia = "a"
       psalmus = ""
+      placet = "přinejmenším lepší závěr"
       id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a a g( a) a \barMaior
+      a g f d d \barMin d f e f d c c \barMaior
+      d f g( a g) f e( d) c( d) d \barFinalis
+    }
+    \addlyrics {
+      V_ga -- li -- lej -- ské Ká -- ně
+      % prohozeno 'Jezis' a 'ucinil'
+      u -- či -- nil Je -- žíš po -- čá -- tek všech zna -- me -- ní,
+      a tím zje -- vil svou slá -- vu.
+    }
+    \header {
+      textus_approbatus = "V galilejské Káně Ježíš učinil počátek všech znamení, a tím zjevil svou slávu."
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      id = "12-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a c c d( c e d) d \barMin
+      d c d( e) d d c d c b a g g \barMaior
+      a a g( a g) f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      V_ga -- li -- lej -- ské Ká -- ně
+      Je -- žíš u -- či -- nil po -- čá -- tek všech zna -- me -- ní,
+      a tím zje -- vil svou slá -- vu.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      fial = "antifony/mezidobi_nedeleC_02_10.ly#ne2c-ne2-mag?zacatek=14"
+      id = "12-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a c c d( c e d) d \barMin
+      d c d( e) d d c d c b a g g \barMaior
+      a \mark\sipka c b( c a) a g( f) g g \barFinalis
+    }
+    \addlyrics {
+      V_ga -- li -- lej -- ské Ká -- ně
+      Je -- žíš u -- či -- nil po -- čá -- tek všech zna -- me -- ní,
+      a tím zje -- vil svou slá -- vu.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      fial = "antifony/mezidobi_nedeleC_02_10.ly#ne2c-ne2-mag?zacatek=14"
+      id = "12-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
