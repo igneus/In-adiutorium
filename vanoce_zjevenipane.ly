@@ -1026,8 +1026,8 @@
       \choralniRezim
       d4 d d f e f( g) g \barMin
       f( e) d f( e) d d \barMaior
-      f f f f e d e d c \barMaior
-      d d c d d f f
+      d f f f e f d c c \barMaior
+      d d c d e f f
       f g( a) f e c d d \barFinalis
     }
     \addlyrics {
@@ -1053,10 +1053,10 @@
     \relative c'' {
       \choralniRezim
       d4( f e c) d \barMin
-      c( a) b c d4. d \barMaior
-      d4 b c a( g) g \barMax
-      a( f) g a( c b) b \barMin
-      a f g g \barFinalis
+      c( a) b c d d \barMin
+      d4 b c a( g) g \barMaior
+      a a g f
+      g a a( g) g \barFinalis
     }
     \addlyrics {
       Pojď -- me,
@@ -1070,7 +1070,6 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
-      placet = "melisma z _v něm_ pryč; závěr lépe"
       id = "krtu-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1126,7 +1125,7 @@
     \relative c' {
       \choralniRezim
       d4 f e d c \barMin
-      d c d f g f d d \barFinalis
+      d c d f f e f( d) d \barFinalis
     }
     \addlyrics {
       Bůh buď ve -- le -- ben,
@@ -1176,15 +1175,15 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4 f g f( d) e4. e \barMin
-      e4 d( c) b4. b \barMin
-      b4( c) d f e( d) e \barMax
+      e4 f g f( d) e e \barMin
+      e4 d( c) b b \barMin
+      c4 d f e( d) e \barMax
 
-      a a a( b) g a a( c) b \barMaior
-      a g( a) f( g) g g f e d( f) e e \barMaior
-      e c( b) b c( d e) f e \barMax
+      a a b g a a( c) b \barMaior
+      a b g g a g f d( f) e e \barMaior
+      e d c d( f e) d e \barMax
 
-      e a g( a e) \barMin
+      a a g( a e) \barMin
       f g a f e \barFinalis
     }
     \addlyrics {
@@ -1211,18 +1210,17 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4( d) c c( d) d \barMin
-      e( d) c c( d) c b a( b g4.) g4. \barMaior
-      g4( a) f g a( b c) \barMin
-      c( d) c b( c) a g( a g) g \barMax
+      g4 a c( d) d \barMin
+      e e d c d( e) d d \barMaior
+      c d c b( a g) \barMin
+      a g f a a( g) g \barMax
 
-      c( b c) d( e) d \barMin
-      c( d e) d b c( a g) g \barMin
-      a( b c) a g a( g) g \barMax
-
-      a( f) f g( a) g4.( c) \barMin
-      c4 c c c( d c) b( a g) g \barMin
-      g( a) f( e) f( g) g \barFinalis
+      a( c b) c( d) d \barMin
+      d c d e( d) d \barMin
+      e f e d( c d4.) d \barMaior
+      c4 b g( a) g \barMin
+      g f g a( c) b( a) a \barMin
+      c( b) a g( a g4.) g \barFinalis
     }
     \addlyrics {
       Když se Kris -- tus
@@ -1233,7 +1231,6 @@
       S_ra -- dos -- tí
       čer -- pej -- te vo -- du
       z_pra -- me -- nů spá -- sy;
-
       Kris -- tus, náš Bůh,
       to -- tiž dnes po -- svě -- til
       všech -- no tvor -- stvo.
@@ -1243,7 +1240,6 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Dan 3-III"
-      placet = "má několik drhnoucích míst"
       id = "krtu-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1280,37 +1276,36 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
 
-      \neviditelna a
-      a4( c) b a a g f g( a) f( e) d4. \barMax
-      e4 g a f e4. e \barFinalis
-
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a g( a) g f( g) g( a) \barMax
+      % R
       \neviditelna g
-      a4 a a a b( c) a f( e) d \barMax
-      \neviditelna e
-      e4 g a f e4. e \barFinalis
-
-      a4 a c b c a a4 \barMin
-      a4 b g f e e4 \barFinalis
+      g( f d) f g g f f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
     }
     \addlyrics {
       \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
       smi -- luj se nad ná -- mi.
-
       \Verse Ty, kte -- rý ses zje -- vil svě -- tu,_*
       \Response smi -- luj se nad ná -- mi.
-
       \textRespDoxologie
     }
     \header {
       quid = "resp."
-      modus = "III"
+      modus = "VI"
       piece = \markup\sestavTitulekResp
-      placet = "relikt dávných dob - aktualisovat"
       id = "krtu-rch-resp"
       fons = "Kromě verše vše viz neděle 1. týdne žaltáře."
+      fial = "responsoria.ly#1ne-rch?jiny_vers"
     }
   }
 
@@ -1449,7 +1444,7 @@
       c4 d d( f) d d \barMin
       f e d c( d) c c f( g) a a( g) g \barMaior
       g f g g( a g f) e( d) \barMin
-      d( e) c c( d) d \barFinalis
+      e( f) d c( d) d \barFinalis
     }
     \addlyrics {
       V_ře -- ce Jor -- dá -- nu
