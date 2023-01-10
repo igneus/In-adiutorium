@@ -240,26 +240,26 @@
   \relative c' {
     \choralniRezim
     d4 d d( f e) d f( g) g a g( f) e \barMin
-    f g e( d) d e( d) c c d d \barMaior
-    a c d e d e( f) d d \barMin
-    c f e f d c c( d) d \barMaior
-    a' g a a( c b) a( g) f( e) \barMin
-    d d f e f d( c) c( d) d \barFinalis
+    f g f( d) d f( e) c c d d \barMaior
+    a c d d c e( f) d d \barMin
+    d f f f e c c( d) d \barMaior
+    a' g f f g f d d \barMin
+    c d e f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Dnes se zje -- vil svě -- tu Syn Bo -- ží,
     na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
     mu -- dr -- ci se mu kla -- ně -- jí
     a při -- ná -- še -- jí mu da -- ry;
-    všich -- ni se po -- kloň -- me
-    to -- mu, kte -- rý nás vy -- kou -- pil.
+    všich -- ni se po -- kloň -- me to -- mu,
+    kte -- rý nás vy -- kou -- pil.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "nepříliš povedená"
+    fial = "vanoce_narozenipane.ly#28-amag?konec&volne"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -500,8 +500,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f e d( e) d d \barMin e f g g g( a g c) a \barMin
-    b c c a g g \barFinalis
+    d4 c( d) d d c( b) a( g) g \barMin
+    f g a a a( c) b \barMin
+    c a c b g( a g) g \barFinalis
   }
   \addlyrics {
     Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
@@ -509,10 +510,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 110"
-    placet = "ozdoba _slávou_ je neorganická"
+    fial = "vanoce_narozenipane.ly#vden-1ne-a1?zacatek=10"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }

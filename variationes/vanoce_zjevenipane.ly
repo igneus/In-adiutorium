@@ -1174,7 +1174,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f e) d f( g) g a g( f) e \barMin
     f g e( d) d e( d) c c d d \barMaior
@@ -1196,6 +1196,66 @@ ale na diferenci žalmového nápěvu?}
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "nepříliš povedená"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f e) d f( g) g a g( f) e \barMin
+    f g \mark\sipka f( d) d \mark\sipka f( e) c c d d \barMaior
+    a c d \mark\sipka d c e( f) d d \barMin
+    \mark\sipka d f f f e c c( d) d \barMaior
+    a' g \mark\sipka f f g f d d \barMin
+    d c d e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me to -- mu,
+    kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#28-amag?konec&volne"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f e) d f( g) g a g( f) e \barMin
+    f g f( d) d f( e) c c d d \barMaior
+    a c d d c e( f) d d \barMin
+    d f f f e c c( d) d \barMaior
+    a' g f f g f d d \barMin
+    \mark\sipka c d e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me to -- mu,
+    kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#28-amag?konec&volne"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2472,11 +2532,34 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c( d) d d c( b) a( g) g \barMin
+    \mark\sipka f g a a a( c) b \barMin
+    c a c b g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
+    všech -- ny krá -- le svě -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    fial = "vanoce_narozenipane.ly#vden-1ne-a1?zacatek=10"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f e d( e) d d \barMin e f g g g( a g c) a \barMin
     b c c a g g \barFinalis
@@ -2632,6 +2715,56 @@ ale na diferenci žalmového nápěvu?}
     quid = "2. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 112"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g \barMin
+    c b a( b) g \barMin
+    g a g f a a( g) \barMaior
+    a( b c) d c( b) a a \barMin
+    a a c b a b g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- srd -- ný,
+    do -- bro -- ti -- vý
+    a spra -- ve -- dli -- vý Bůh
+    zá -- ří v_tem -- no -- tách
+    ja -- ko svět -- lo řád -- ným li -- dem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 112"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g \barMin
+    c b a( b) g \barMin
+    g a g f a a( g) \barMaior
+    a( b c) d c( b) a a \barMin
+    \mark\sipka c c a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- srd -- ný,
+    do -- bro -- ti -- vý
+    a spra -- ve -- dli -- vý Bůh
+    zá -- ří v_tem -- no -- tách
+    ja -- ko svět -- lo řád -- ným li -- dem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 112"
     piece = \markup {\sestavTitulek}
   }
