@@ -1620,6 +1620,34 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g f g( a) a \barMin b( c) a g a a \barMax
+    c c c b g b( c) a a \barMin a b c a g g \barMaior
+    g f( g) g( a) a \barMin
+    a a g( a) g f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost zazáří nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

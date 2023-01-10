@@ -474,6 +474,102 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka g f g g( a) a( g) \barMax
+    g a \mark\sipka g( f d4.) d \barMin f4( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a( bes) a a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g a \mark\sipka g( f d4.) d \barMin f4( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, můj Bo -- že,_*
+    chci tě chvá -- lit na -- vě -- ky.
+    \Verse Můj ná -- řek jsi ob -- rá -- til v_já -- sot;_*
+    \Response chci tě chvá -- lit na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f g g( a) a( g) \barMax
+    g a g( f d4.) d \barMin f4( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a( bes) a a a \mark\sipka g( a) g f( g) a( g) \barMax
+    % R
+    \neviditelna a
+    g a g( f d4.) d \barMin f4( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, můj Bo -- že,_*
+    chci tě chvá -- lit na -- vě -- ky.
+    \Verse Můj ná -- řek jsi ob -- rá -- til v_já -- sot;_*
+    \Response chci tě chvá -- lit na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g( a) a( g) \barMax
+    \mark\sipka f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a a( bes) a a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, můj Bo -- že,_*
+    chci tě chvá -- lit na -- vě -- ky.
+    \Verse Můj ná -- řek jsi ob -- rá -- til v_já -- sot;_*
+    \Response chci tě chvá -- lit na -- vě -- ky.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -982,6 +1078,28 @@
     \choralniRezim
     g4 g g( a) a a( g) a a( b) b \barMin
     b c d c b g a a \barMaior
+    a a g4.( e) \barMin \mark\sipka f4 g a a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a a( g) a a( b) b \barMin
+    b c d c b g a a \barMaior
     a a g4.( e) \barMin \mark\sipka f4 g f e d e e \barFinalis
   }
   \addlyrics {
@@ -1391,8 +1509,33 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyIII
     \choralniRezim
     d4 e f e( d) c \barMin
+    f( g a) a( g) g \barMaior
+    a g f d d
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 c c d d \barMin
     f( g a) a( g) g \barMaior
     a g f d d
     e c c( d) d \barFinalis
