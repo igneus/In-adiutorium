@@ -2241,10 +2241,37 @@ podobně.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g d' d d c b c( d) \barMaior
     d c b c a g-- g \barMin a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dnes po -- zná -- te, že při -- jde Pán,
+    a zít -- ra u -- vi -- dí -- te je -- ho slá -- vu.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "invitatorium"
+    id = "predvanocni-24-invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Zpívat tu pasáž s dlouhou slabikou zdůrazněnou na úkor následující
+  krátké je legitimní možnost, ale zpívat je obě stejně je neméně
+  legitimní a spíš přirozenější/intuitivnější, takže tu rytmické znaménko
+  není vhodné.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g d' d d c b c( d) \barMaior
+    d c b c a \mark\sipka g g \barMin a g f( g) g \barFinalis
   }
   \addlyrics {
     Dnes po -- zná -- te, že při -- jde Pán,

@@ -404,7 +404,7 @@
   \relative c'' {
     \choralniRezim
     g4 g d' d d c b c( d) \barMaior
-    d c b c a g-- g \barMin a g f( g) g \barFinalis
+    d c b c a g g \barMin a g f( g) g \barFinalis
   }
   \addlyrics {
     Dnes po -- zná -- te, že při -- jde Pán,
