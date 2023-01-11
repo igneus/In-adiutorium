@@ -670,7 +670,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
     a4 b c4. g \barMin
@@ -686,6 +686,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "pořád to není ono; _služebnici_ jinak"
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -715,7 +716,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
     a4 b c4. g \barMin
@@ -1147,6 +1148,28 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "t1-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g) \barMin g f g a bes a( g) a \barMaior
+    a g a4. d, \barMin
+    f4 f g f e d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bí má du -- še Hos -- po -- di -- na,
+    ne -- boť shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g2"
     psalmus = ""
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}

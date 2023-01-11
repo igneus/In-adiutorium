@@ -33,7 +33,7 @@ tIpondeliAntMagnificat = \score {
     \choralniRezim
     g4 f( g) a( c4.) \barMin c4 d c b c a( g) f4.( g) \barMaior
     a4 b c4. g \barMin
-    c4 c c b a g a( b) a g g \barFinalis
+    c4 c c b a g a g f( g) g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bí má du -- še Hos -- po -- di -- na,
@@ -45,7 +45,6 @@ tIpondeliAntMagnificat = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "pořád to není ono; _služebnici_ jinak"
     id = "t1-po-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
