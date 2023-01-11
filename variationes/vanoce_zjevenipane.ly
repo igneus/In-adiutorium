@@ -4653,6 +4653,54 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d c d d( f) f \barMin
+      g f e f d d \barMaior
+      f f e d c d d( c) c \barMaior
+      d d( f) f f e( f d) c d \barFinalis
+    }
+    \addlyrics {
+      Jak -- mi -- le byl Je -- žíš po -- křtěn,
+      vy -- stou -- pil hned z_vo -- dy.
+      O -- tev -- ře -- lo se mu ne -- be
+      a z_ne -- be se o -- zval hlas.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "1 Tim 3"
+      id = "krtu-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d d d c d d( f) f \barMin
+      g f e f d d \barMaior
+      f f e d c d \mark\sipka d( f) f \barMaior
+      f g f f e( f d) c d \barFinalis
+    }
+    \addlyrics {
+      Jak -- mi -- le byl Je -- žíš po -- křtěn,
+      vy -- stou -- pil hned z_vo -- dy.
+      O -- tev -- ře -- lo se mu ne -- be
+      a z_ne -- be se o -- zval hlas.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "1 Tim 3"
+      id = "krtu-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {

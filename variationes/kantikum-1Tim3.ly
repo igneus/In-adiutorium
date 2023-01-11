@@ -98,6 +98,42 @@ mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFina
   }
 }
 
+mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinalis }
+\score {
+  \relative c'  {
+    \key f \major
+    \choralniRezim
+    \mRespII
+    \neviditelna d
+    f4 f f f f f f g f f \barMaior
+    f f f f f e c d \barFinalis
+    \mRespII
+    \neviditelna d
+    f4 f f f g f f \barMaior
+    f f e c d d \barFinalis
+    \mRespII
+    \neviditelna d
+    f4 f f f g f f \barMaior
+    f e c d d \barFinalis
+    \mRespII
+    \neviditelna d
+    f4 f f f f g f \barMaior
+    f f e c d d \barFinalis
+    \mRespII
+    \neviditelna d
+    f4 f f f f f f f f f f f g f \barMaior
+    f f f f f e c d \barFinalis
+  }
+  \addlyrics { \text }
+  \header {
+    quid = "kantikum"
+    modus = "II"
+    differentia = "D"
+    id = "ii"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 mRespVI = \relative c' { \neviditelna f f4 f f( a) a \barMin g f g f f \barFinalis }
 \score {
   \relative c''  {

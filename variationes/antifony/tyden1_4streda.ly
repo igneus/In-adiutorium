@@ -537,6 +537,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4( c b) c \barMin c4 d e d c a( g) g \barMax
+    a4 a a g f \mark\sipka g( a) a \barMin c4 d c b c a4. g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, jsi ve -- li -- ký a slav -- ný,
+    po -- di -- vu -- hod -- ný mo -- cí a ne -- pře -- mo -- ži -- tel -- ný.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Jdt 16"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4( b) g \barMin f a a a a g( a) g \barMaior
 
   }
@@ -686,6 +706,26 @@
     \zvyraznovacModry
     \choralniRezim
     f4 g a g( f) g \barMin
+    f d f( g) g f \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- te Bo -- hu
+    ra -- dost -- ným hla -- sem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 47"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a g \barMin
     f d f( g) g f \barFinalis
   }
   \addlyrics {

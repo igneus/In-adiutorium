@@ -1495,6 +1495,24 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 d f g f( d) d \barMin c d e d \barFinalis
+  }
+  \addlyrics {
+    Veď mě ve své prav -- dě, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 25-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4( e f d) d( c) \barMin f f g f e f d d \barFinalis
   }
   \addlyrics {
