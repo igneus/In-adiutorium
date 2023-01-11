@@ -191,8 +191,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 f d( c) c4.( d) \barMaior
-    f4 f e( c) a4. \barMin e'4 f( d) d4. \barMax
+    e4 f d( c) c( d) \barMin
+    f4 f e( d) c e f( d) d \barMaior
     d4 e( f) f( g) g \barMin f4 f g f e c d d \barFinalis
   }
   \addlyrics {
@@ -205,7 +205,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 7-II"
-    placet = "_spravedlivý a mocný_ je dost excentrické, zvážit krotší variantu"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }

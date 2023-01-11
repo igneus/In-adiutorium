@@ -1286,6 +1286,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 f d( c) c4.( d) \barMaior
     f4 f e( c) a4. \barMin e'4 f( d) d4. \barMax
@@ -1301,6 +1302,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 7-II"
+    placet = "_spravedlivý a mocný_ je dost excentrické, zvážit krotší variantu"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -1308,7 +1310,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     e4 f d( c) c( d) \barMin
     f4 f \mark\sipka e( d) c e f( d) d \barMaior
@@ -1357,6 +1359,28 @@
     c4 d d( f) f \barMin
     g a g( f) d e d( c) c \barMaior
     d c( d) d( f) f \barMin f f g f e c d d \barFinalis
+  }
+  \addlyrics {
+    Bůh je soud -- ce
+    spra -- ved -- li -- vý a moc -- ný;
+    on u -- chrá -- ní li -- di u -- pří -- mné -- ho srd -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 7-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g f e d c c( d) d \barMaior
+    d e( f) d( c) c \barMin d c d f e c d d \barFinalis
   }
   \addlyrics {
     Bůh je soud -- ce
