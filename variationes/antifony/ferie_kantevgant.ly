@@ -2415,6 +2415,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c( d) c c \mark\sipka d( e d) c c( d) d \barMaior
+    d c b a g \mark\sipka a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a g f g( a bes) a g( a) g \barMaior
     g f g a a g( f e) c( d) d \barFinalis
   }

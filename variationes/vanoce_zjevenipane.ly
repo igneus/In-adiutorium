@@ -4798,6 +4798,38 @@ ale na diferenci žalmového nápěvu?}
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      % R
+      \neviditelna g
+      g4 g g a g a b( c) b4. b \barMin b4( c) d c b a( b) b \barMax
+      c4 c c c a4.( c) b4 a a( b) b \barMaior g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
+      % V
+      \neviditelna c
+      c4 c c( d) c \mark\sipka c b a a( b) b \barFinalis
+      % R
+      \neviditelna c
+      c4 c c c a4.( c) b4 a a( b) b \barMaior g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
+      % Slava
+      c4 c c( d) c b a( b c) b \barMin b a g a( b) b( a) a \barFinalis
+    }
+    \addlyrics {
+      \Response Bo -- že, tys u -- ha -- sil na pouš -- ti ží -- zeň své -- ho li -- du;_*
+      o -- tev -- ři i nám pra -- men vo -- dy trys -- ka -- jí -- cí do ži -- vo -- ta věč -- né -- ho.
+      \Verse Roz -- množ ví -- ru svých slu -- žeb -- ní -- ků;_*
+      \Response o -- tev -- ři i nám pra -- men vo -- dy trys -- ka -- jí -- cí do ži -- vo -- ta věč -- né -- ho.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VIII"
+      id = "krtu-1ne-resp"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \markup\justify{

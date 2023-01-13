@@ -1224,6 +1224,37 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f g f g( a) a( g) \barMax
+      \mark\sipka g( a) g g \barMin f( d) f g g f f \barFinalis
+      % V
+      \neviditelna g
+      a a a( bes) a a a( g) g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      \mark\sipka g( a) g g \barMin f( d) f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Hos -- po -- din po -- má -- há své -- mu li -- du,_* ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
+      \Verse Me -- dem ze ská -- ly nás sy -- tí,_*
+      \Response ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ct-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \markup\nadpisDen{"pátek"}
