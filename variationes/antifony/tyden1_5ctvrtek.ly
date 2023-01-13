@@ -1348,7 +1348,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f \mark\sipka a( g) g \barMin f d e d \barFinalis
   }
@@ -1360,6 +1360,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 25-I"
+    placet = "_ve své pravdě_ je na takhle krátkém textu hodně extravagantní"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -1475,7 +1476,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d d( f) f \barMin \mark\sipka e d e d \barFinalis
   }
@@ -1494,6 +1495,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 d f g f( d) d \barMin c d e d \barFinalis
   }

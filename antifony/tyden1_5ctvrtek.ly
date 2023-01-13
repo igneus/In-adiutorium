@@ -177,7 +177,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f a( g) g \barMin f d e d \barFinalis
+    d4 d c d d( f) f \barMin e d e d \barFinalis
   }
   \addlyrics {
     Veď mě ve své prav -- dě, Hos -- po -- di -- ne.
@@ -187,7 +187,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 25-I"
-    placet = "_ve své pravdě_ je na takhle krátkém textu hodně extravagantní"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
   }
