@@ -185,6 +185,7 @@ tIctvrtekAntMagnificat = \score {
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "první půlka je hrubá"
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
