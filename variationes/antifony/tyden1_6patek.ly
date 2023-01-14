@@ -515,6 +515,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka g4 a c c d( e d4.) d \barMin
+    c4 d c b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "a"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka c4 d e c d d \barMin
     c4 d c b a( g) g \barMaior
     a g f g a a( g) g \barFinalis
@@ -539,6 +561,28 @@
     \choralniRezim
     c4 d e c c( d) d \barMin
     c4 b a b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "c"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c c( d) d \barMin
+    c4 \mark\sipka a c b a( g) g \barMaior
     a g f g a a( g) g \barFinalis
   }
   \addlyrics {

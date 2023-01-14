@@ -486,6 +486,24 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    \bold{Confitémini} Dómino,
+    quia \bold{[...]} % český text je tady delší
+    in ætérnum misericórdia eius.
+  }
+}
+\markup\justify{
+  Patrně podle Žalmu 100, 4-5.
+  České znění antifony bere z verše 5 k druhé části i tu první.
+}
+\markup\justify{
+  (V latinském znění je nečekané ono \italic{quia.}
+  Rozhodně bych v tomhle kontextu - nejen podle volně citované části žalmu 100 -
+  v latině žalmů a liturgických zpěvů čekal spíš \italic{quóniam.})
+}
+
 %tIpatekInvitatorium =
 \score {
   \relative c'' {
@@ -679,6 +697,31 @@ pojdmeKlanmeSeCele = {
     modus = "VII"
     differentia = "a"
     dies = "pátek"
+    id = "t1pa"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d e c c( d) d \barMin
+    d c b a( g) g \barMaior
+    a a c b a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky!
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    dies = "pátek"
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1?konec=21"
     id = "t1pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }
