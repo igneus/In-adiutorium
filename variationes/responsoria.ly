@@ -1758,6 +1758,38 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f( g) f \barMin f f f f g( f) g( a) a( g) \barMax
+      g f g( a) \mark\sipka g g \barMin g f d f g g( f) f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a a g( a) g \barMin g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g f g( a) \mark\sipka g g \barMin g f d f g g( f) f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Od vý -- cho -- du slun -- ce až do je -- ho zá -- pa -- du_*
+      ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
+      \Verse Ne -- be -- sa vy -- pra -- vu -- jí o Bo -- ží slá -- vě._*
+      \Response Ať je chvá -- le -- no Hos -- po -- di -- no -- vo jmé -- no.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2ne-1ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \score {
