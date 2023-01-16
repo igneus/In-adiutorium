@@ -2171,6 +2171,68 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 \barMin f f e f d \barMaior
+    f g a a g f e( d) \barMin d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, Be -- rá -- nek Bo -- ží,
+    ten, kte -- rý na se -- be vzal hří -- chy svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f e f d \barMaior
+    f g a a g f e( d) \barMin d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, Be -- rá -- nek Bo -- ží,
+    ten, kte -- rý na se -- be vzal hří -- chy svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g( f) e \barMin
+    d d e f e f d( c) \barMin
+    d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, Be -- rá -- nek Bo -- ží,
+    ten, kte -- rý na se -- be vzal hří -- chy svě -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    fial = "vanoce_narozenipane.ly#bohorodicka-rch-a2?konec&-aleluja"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g( a) g f f( g) g \barMaior
     g f g a g f g( f) \barMin d f g( f) f \barFinalis
   }

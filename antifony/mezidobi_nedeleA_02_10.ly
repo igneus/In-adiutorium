@@ -30,8 +30,8 @@
   \relative c'' {
     \choralniRezim
     c4 d c a c b( a) \barMaior
-    g g g( a) f g \barMin a b c c( d) c a( b) a a( g) \barMaior
-    f g a a g f e \barFinalis
+    g g g( a) f g \barMin a b c d c a( b) a a \barMaior
+    a g a a g f e \barFinalis
   }
   \addlyrics {
     Jan vy -- dal svě -- dec -- tví:
@@ -52,9 +52,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( d) d e( d c) c( d) d \barMin
-    c c c d c b g g \barMaior
-    g f( g) g a b a g g \barFinalis
+    d4 e c d( e) d d \barMin
+    d d c d c b a( g) g \barMaior
+    a a( c b g) g a g f g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý se -- stou -- pil
