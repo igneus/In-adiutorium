@@ -3886,6 +3886,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d f \barMin
+    g f e d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4( f e) d c d e \barMin
     f( g f) e d d \barFinalis
   }
@@ -3991,6 +4011,26 @@
     \choralniRezim
     g4 c b c a \barMin
     b a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c b c a( g) \barMin
+    f g a g \barFinalis
   }
   \addlyrics {
     Ve -- leb, du -- še má,
