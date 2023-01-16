@@ -321,6 +321,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 110"
+    placet = "půjde lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
