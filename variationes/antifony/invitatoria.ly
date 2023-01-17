@@ -1332,6 +1332,26 @@ pojdmeKlanmeSeCele = {
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f f e f d( c) c \barMaior
+    f e f g g a g f f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f f g a f f \barMaior
     f d( f) f( g) g g a g f f \barFinalis
   }
