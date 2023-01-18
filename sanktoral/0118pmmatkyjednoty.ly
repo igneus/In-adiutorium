@@ -21,8 +21,8 @@
     c4 c c c( d c) c \barMin
     c c b a g( a) g \barMaior
     f g a g( a) a \barMin
-    c c c b( a) g g \barMin
-    f g a a( g) g \barFinalis
+    c d c b( c) a a \barMin
+    g f a g g \barFinalis
   }
   \addlyrics {
     Je -- di -- ným svět -- lem
@@ -73,7 +73,7 @@
     a4 a g f d d \barMin
     d( f) f g f d( c) c \barMaior
     d d c d f g f d d \barMin
-    e( f) d c( d) d \barFinalis
+    d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Ať ve va -- šem srd -- ci vlád -- ne Kris -- tův po -- koj:
@@ -180,10 +180,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e d c d f e d d \barMaior
+    d4 d c d d f e d d \barMaior
     d c f f f g( f) f \barMin
     g a g f g f e d e d d( c) \barMaior
-    a c d e( f) d c d d \barFinalis
+    a c d d( f) e c d d \barFinalis
   }
   \addlyrics {
     Sná -- šej -- te se na -- vzá -- jem v_lás -- ce
@@ -231,15 +231,15 @@
 
     % R
     \neviditelna f
-    f4 f g( f) \barMin f f g f g a a( g) \barMax
-    g a g( f d) f g f f \barFinalis
+    f4 f g \barMin f f g f g a g \barMax
+    f d f g g f f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a g( a) g \barMin
     g g g a g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g a g( f d) f g f f \barFinalis
+    f d f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -262,9 +262,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 a b a g( a) e \barMin f e d e e \barMaior
-    d e e g a a a g a c b a \barMin
-    g( a) g f e d d e e \barMaior
+    e4 a b a g( a) a \barMin g f d e e \barMaior
+    e d e g a a a a g b a a \barMin
+    g( a) g g f e d e e \barMaior
     d( c d) d( f) f f g f e e \barFinalis
   }
   \addlyrics {
