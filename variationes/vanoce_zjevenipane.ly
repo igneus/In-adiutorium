@@ -1648,6 +1648,90 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin c( d) e c d d \barMaior
+    d d d c b c( a) g g f g a a g g \barMaior
+    a f( g) g( a) a \barMin
+    a a c( d) c b c a
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost zazáří nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin c( d) e c d d \barMaior
+    d d d c b \mark\sipka a( b) g g f g a a g g \barMaior
+    a f( g) g( a) a \barMin
+    a a c( d) c b c a
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost zazáří nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c( d) d \barMin c( d) e c d d \barMaior
+    d d d c b a( b) g g \mark\sipka a g f g a a \barMaior
+    a b( c) a( g) g \barMin
+    a a a( c) b c a g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost zazáří nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
