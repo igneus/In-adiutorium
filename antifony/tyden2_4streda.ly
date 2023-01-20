@@ -153,7 +153,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g f e d f g( a) a \barMaior
+    g4 a g f e f g g( a) a \barMaior
     a c c c b a c( a) a \barMin
     a g f e e \barFinalis
    }
@@ -167,7 +167,6 @@
     modus = "III"
     differentia = "g"
     psalmus = "Žalm 119-ח"
-    placet = "první část není moc pěkná"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
