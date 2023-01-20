@@ -1511,7 +1511,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( f) e d f( g) g \barMin a( f) g f d4. d \barMax
@@ -1597,6 +1597,37 @@ ale na diferenci žalmového nápěvu?}
     d4 f g g( a) a \barMin a g f g g \barMaior
     a a a g f e( f) d d d e f d c c \barMaior
     d \mark\sipka c( d) d( f) f \barMin
+    f f g f e d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost zazáří nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
+    a a a g f \mark\sipka g( a) g g g f e d c c \barMaior
+    d c( d) d( f) f \barMin
     f f g f e d c
     e f d d \barFinalis
   }

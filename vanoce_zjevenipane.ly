@@ -323,9 +323,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( f) e d f( g) g \barMin a( f) g f d4. d \barMax
-    d4 d d d d f g g g f g a( bes) a a \barMaior
-    a g( a) g( f) d \barMin
+    d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
+    a a a g f g( a) g g g f e d c c \barMaior
+    d c( d) d( f) f \barMin
     f f g f e d c
     e f d d \barFinalis
   }
@@ -344,7 +344,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 149"
-    placet = "zkusit lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
