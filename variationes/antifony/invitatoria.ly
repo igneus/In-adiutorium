@@ -2053,6 +2053,28 @@ pojdmeKlanmeSeCele = {
 \score {
   \relative c' {
     \choralniRezim
+    d4 e f f f g f g g( bes a) a4. \barMaior
+    \mark\sipka a4 g f e( f) d d \barMin
+    c d f f e f d c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 e f f f e f d d( c) c \barMaior
     d c d d( f) f f \barMin
     g f f f e f d c d \barFinalis
@@ -2089,6 +2111,26 @@ pojdmeKlanmeSeCele = {
     quid = "ant."
     modus = "II"
     differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f d c c
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = ""
+    differentia = ""
     id = "t2so"
     piece = \markup {\sestavTitulekBezZalmu}
   }
