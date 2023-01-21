@@ -87,11 +87,7 @@ namespace :sanity do
 
   desc "Find scores where music and lyrics length do not match"
   task :length do
-    files = (Dir['*.ly'] +
-             Dir['antifony/*.ly'] +
-             Dir['commune/*.ly'] +
-             Dir['sanktoral/*.ly'] +
-             Dir['reholni/*/*.ly'])
+    files = all_ly_files
     files -= (['psalmodie.ly', 'kratkeverse.ly', 'zakladni_napevy.ly',
                'zakladni_napevy2.ly', 'antifony.ly'] +
               Dir['kantikum-*.ly'] +
