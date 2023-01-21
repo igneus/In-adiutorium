@@ -106,7 +106,12 @@ namespace :sanity do
 
   desc "Print count of known issues marked in the scores"
   task :known_issues do
-    sh 'grep placet *.ly antifony/*.ly commune/*.ly sanktoral/*.ly | wc -l'
+    # list files with issues
+    sh "grep --count placet #{all_ly_files.join(' ')}" +
+       " | grep --invert ':0$'" # skip files with no issues
+
+    # total count
+    sh "grep placet #{all_ly_files.join(' ')} | wc -l"
   end
 
   desc "Search for scores missing an ID"
