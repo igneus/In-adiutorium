@@ -145,8 +145,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 d e e( a) a g( a) b g a a \barMaior
-    a g a f e d e e \barFinalis
+    e4 d e e( a) a g( a) b g g( a) a \barMaior
+    a g a g f d e e \barFinalis
   }
   \addlyrics {
     Je -- di -- ně je -- mu za -- cho -- vám věr -- nost,
@@ -167,16 +167,16 @@
     \choralniRezim
     g4 a a( c) c \barMin
     c c c( d) c a a \barMin
-    c b g a( g) g \barMaior
-    a a f( e) d \barMin
-    d e f g( a) a g g g \barFinalis
+    c b a g( a) g \barMaior
+    a a g a g f g( a) \barMin
+    a( c) b g g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím tě,
     Ot -- če mé -- ho Pá -- na
     Je -- ží -- še Kris -- ta,
-    skr -- ze ně -- ho
-    jsi mi dal sí -- lu k_ví -- těz -- ství.
+    skr -- ze ně -- ho jsi mi dal
+    sí -- lu k_ví -- těz -- ství.
   }
   \header {
     quid = "3. ant."
@@ -196,9 +196,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f( e d) c( d) d \barMaior
-    \stemUp d( a' bes) a a a( c) c c( a) a
-    a c b! a( g) g \barMax
+    c4 d e( f d) c( d) d \barMaior
+    \stemUp d( a' bes) a a a( c) a g( a) a \barMin
+    f g f d d \barMax
 
     f4 g f( d) d \barMin
     f d d f e d( c) c \barMaior
