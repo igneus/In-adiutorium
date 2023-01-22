@@ -134,6 +134,29 @@ mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinal
   }
 }
 
+\score {
+  \relative c' { \choralniRezim \neviditelna d c4 d d( f) f \barMin \mark\sipka e( f d) c c d d \barFinalis }
+  \addlyrics { \tResp }
+}
+
+\score {
+  \relative c' { \choralniRezim \neviditelna d c4 d d( f) f \barMin \mark\sipka e( f) d c d d \barFinalis }
+  \addlyrics { \tResp }
+}
+
+\score {
+  \relative c' { \choralniRezim \neviditelna d f4 f e( f) d \barMin d c d f e \barFinalis }
+  \addlyrics { \tResp }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim \neviditelna f f4 f f f f f \mark\sipka g g f f \barMaior
+  }
+  \addlyrics { \Verse On při -- šel v_lid -- ské při -- ro -- ze -- nos -- ti,_* }
+}
+
 mRespVI = \relative c' { \neviditelna f f4 f f( a) a \barMin g f g f f \barFinalis }
 \score {
   \relative c''  {

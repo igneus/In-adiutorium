@@ -204,7 +204,7 @@
   }
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 f e f g( a) a f( e) e \barMin
       g f e f \mark\sipka d d \barMaior
@@ -279,10 +279,11 @@
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
       d4 d d d c d d( f) f \barMin
       g f e f d d \barMaior
-      f f e d c d \mark\sipka d( f) f \barMaior
+      f f e d c d \mark\sipka d( f) f \barMin
       f g f f e( f d) c d \barFinalis
     }
     \addlyrics {

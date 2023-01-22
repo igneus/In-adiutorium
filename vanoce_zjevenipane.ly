@@ -963,25 +963,22 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 f e f g( a) a f( e) e \barMin
+      d4 d d d c d d( f) f \barMin
       g f e f d d \barMaior
-
-      d4( g f) g( a) g f e f f( g) g \barMaior
-      g a( f) f f e( f e) c d \barFinalis
+      f f e d c d d( f) f \barMin
+      f g f f e( f d) c d \barFinalis
     }
     \addlyrics {
       Jak -- mi -- le byl Je -- žíš po -- křtěn,
       vy -- stou -- pil hned z_vo -- dy.
-
       O -- tev -- ře -- lo se mu ne -- be
       a z_ne -- be se o -- zval hlas.
     }
     \header {
       quid = "3. ant."
-      modus = "I"
+      modus = "II"
       differentia = "D"
       psalmus = "1 Tim 3"
-      placet = "půjde lépe"
       id = "krtu-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
