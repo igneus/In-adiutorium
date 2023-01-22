@@ -91,13 +91,13 @@
     % R
     \neviditelna f
     f4 f f g f f g( a) a( g) \barMax
-    g( f d) f g g( f) f \barFinalis
+    f d f( g) g f \barFinalis
     % V
     \neviditelna a
     a4 a a g( a) g \barMin g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g( f d) f g g( f) f \barFinalis
+    f d f( g) g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -124,11 +124,11 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f( e) d \barMin f f e g a \barMax
+    f4 f f f f f g f \barMin f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f f f f e g a \barMax
+    f4 f f g f \barMin f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -432,7 +432,7 @@
     f g a g( f) f \barFinalis
     % V
     \neviditelna f
-    a4 a a a a( bes) a g( a) g \barMax
+    a4 a a a a( bes) a g( a) a( g) \barMax
     % R
     \neviditelna a
     f g a g( f) f \barFinalis
@@ -462,7 +462,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f e g( a) \barMax
+    f4 f f g f \barMin f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
