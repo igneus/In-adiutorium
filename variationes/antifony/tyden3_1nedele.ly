@@ -1105,6 +1105,54 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f
+    g g f g g a a \barMaior
+    a a g f d f g( f) f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te
+    me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a
+    g a g f f g g \barMaior
+    a a g f d e d( c) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te
+    me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tInedeleIInespAntIII }
 
 %\score { \tInedeleIInespResp }
