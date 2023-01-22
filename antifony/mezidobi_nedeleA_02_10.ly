@@ -126,12 +126,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g( a) a f g g a a \barMin
-    f g f d d d \barMaior
-    d f( g f) g( a) a g \barMin
-    f f f f e c c( d) d \barFinalis
+    f4 g g( a) a g f g( a) g g \barMin
+    a g f e( f) d( c) c \barMaior
+    d c d d( f) f \barMin
+    g g f e f d c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš hlá -- sal e -- van -- ge -- li -- um
@@ -142,7 +142,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a2"
+    differentia = "f"
     psalmus = ""
     annus = "A"
     id = "ne3a-2ne-amag"
