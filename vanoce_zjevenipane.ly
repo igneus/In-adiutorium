@@ -743,21 +743,24 @@
   \markup {\nadpisDen {9. ledna}}
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      c( d e) d( c) a b g \barMin a b c c b c e( d c) d \barMaior
-      d d d d c b a( g) g \barMin a a f a g g \barFinalis
+      f4 g g a a \barMin
+      a a a a g f e( f d c) c \barMaior
+      d d d d d( f) e f( g) g \barMin
+      a f e f d d \barFinalis
     }
     \addlyrics {
-      U -- vi -- dě -- li jsme na vý -- cho -- dě je -- ho hvěz -- du,
-      a pro -- to jsme při -- šli s_da -- ry po -- klo -- nit se Pá -- nu.
+      U -- vi -- dě -- li jsme
+      na vý -- cho -- dě je -- ho hvěz -- du,
+      a pro -- to jsme při -- šli s_da -- ry
+      po -- klo -- nit se Pá -- nu.
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "VII"
-      differentia = "c"
+      modus = "I"
+      differentia = "f"
       psalmus = ""
-      placet = "_Uviděli jsme_ raději sylabicky"
       id = "9-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -883,23 +886,21 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a g a f( g) g \barMaior
-      g f e d d f g a c b g a \barMaior
-      a a g( a g) f e( f) d d \barFinalis
+      g4 a c c d( c e d) d \barMin
+      e d c( d) c c b c a g a g g \barMaior
+      a a f( g a) a c( b) g g \barFinalis
     }
     \addlyrics {
       V_ga -- li -- lej -- ské Ká -- ně
-      % prohozeno 'Jezis' a 'ucinil'
-      u -- či -- nil Je -- žíš po -- čá -- tek všech zna -- me -- ní,
+      Je -- žíš u -- či -- nil po -- čá -- tek všech zna -- me -- ní,
       a tím zje -- vil svou slá -- vu.
     }
     \header {
-      textus_approbatus = "V galilejské Káně Ježíš učinil počátek všech znamení, a tím zjevil svou slávu."
       quid = "ant. k Benedictus"
-      modus = "I"
+      modus = "VII"
       differentia = "a"
       psalmus = ""
-      placet = "přinejmenším lepší závěr"
+      fial = "antifony/mezidobi_nedeleC_02_10.ly#ne2c-ne2-mag?zacatek=10"
       id = "12-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -994,12 +995,12 @@
       c4 c c c a4.( c) b4 a a( b) b \barMaior g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
       % V
       \neviditelna c
-      c4( a) c d( c) c c a b c4. b \barFinalis
+      c4 c c( d) c b a b c4. b \barFinalis
       % R
       \neviditelna c
       c4 c c c a4.( c) b4 a a( b) b \barMaior g( a b) a( g) e4. e \barMin g4 g a b a g g \barFinalis
       % Slava
-      c4 c a( c) c c a( b c) b \barMin c c( d) a a b b \barFinalis
+      c4 c c( d) c b a( b c) b \barMin b a g a( b) b( a) a \barFinalis
     }
     \addlyrics {
       \Response Bo -- že, tys u -- ha -- sil na pouš -- ti ží -- zeň své -- ho li -- du;_*
@@ -1011,8 +1012,6 @@
     \header {
       quid = "resp."
       modus = "VIII"
-      placet = "verš a doxologii jinak;
-      ve verši by se mohla hodit větší ozdoba na _Rozmnož_ a odlehčený zbytek"
       id = "krtu-1ne-resp"
       piece = \markup\sestavTitulekResp
     }

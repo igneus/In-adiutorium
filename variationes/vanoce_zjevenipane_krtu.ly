@@ -306,6 +306,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -331,6 +332,8 @@
     \header {
       quid = "resp."
       modus = "VIII"
+      placet = "verš a doxologii jinak;
+      ve verši by se mohla hodit větší ozdoba na _Rozmnož_ a odlehčený zbytek"
       piece = \markup\sestavTitulekResp
     }
   }
@@ -369,6 +372,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
 
       % R
