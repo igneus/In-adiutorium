@@ -1493,6 +1493,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       c4( d c) c \barMin
       c b( c) a g( a g) g \barMaior
@@ -1515,6 +1516,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 149"
+      placet = "_Spasiteli_ jinak, melisma ze začátku pryč"
       piece = \markup {\sestavTitulek}
     }
   }
@@ -1606,6 +1608,32 @@
   \score {
     \relative c'' {
       \choralniRezim
+      c4 c \barMin
+      c \mark\sipka b a g( a) g \barMin
+      a g f g a a g g \barMaior
+      a a a c b c( d) c b a( b a g) g \barMaior
+      a f( e d) d f( g) a a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- že,
+      náš Spa -- si -- te -- li,
+      všich -- ni tě o -- sla -- vu -- je -- me,
+      ne -- boť ty Du -- chem sva -- tým a oh -- něm
+      v_nás ni -- číš ná -- ka -- zu hří -- chu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 149"
+      id = "krtu-rch-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       a4 a \barMin
       a f g g( a) a \barMin
       a g f g a a g g \barMax
@@ -1624,6 +1652,33 @@
       modus = "VIII"
       differentia = "G*"
       psalmus = "Žalm 149"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c \barMin
+      c b a g( a) g \barMin
+      a g f g a a g g \barMaior
+      a a a c b c( d) c b a a \barMaior
+      c b( a g) g a( g) f a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- že,
+      náš Spa -- si -- te -- li,
+      všich -- ni tě o -- sla -- vu -- je -- me,
+      ne -- boť ty Du -- chem sva -- tým a oh -- něm
+      v_nás ni -- číš ná -- ka -- zu hří -- chu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 149"
+      id = "krtu-rch-a3"
       piece = \markup {\sestavTitulek}
     }
   }
