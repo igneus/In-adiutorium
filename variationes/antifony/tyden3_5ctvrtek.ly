@@ -785,6 +785,26 @@ si hrát:}
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    d4-- c( d e d) d \barMin c b a b( c a g) g \barMaior
+    a g f g( a) a a g \barFinalis
+  }
+  \addlyrics {
+    Pán při -- jde s_ve -- li -- kou mo -- cí
+    a je -- ho od -- pla -- ta s_ním.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Iz 40"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     c4 d( f) f \barMin g a f g( f e) d \barMaior

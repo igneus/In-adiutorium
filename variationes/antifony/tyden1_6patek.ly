@@ -1300,6 +1300,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    a4 c c( d) d d e( f d) c c( d) d \barMin
+    f g f e d c c d( e f d) d \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy při -- jdou, Pa -- ne, a bu -- dou se
+    před te -- bou kla -- nět.
+  }
+  \header {
+    modus = "II"
+    differentia = "D"
+    quid = "3. ant."
+    psalmus = "Zj. 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIpatekNespAntIII }
 
 %\score { \tIpatekAntMagnificat }

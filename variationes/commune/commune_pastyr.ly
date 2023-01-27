@@ -1627,6 +1627,31 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a g f f \mark\sipka e( f) d c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne po -- slal do svě -- ta,
+    tak i já jsem je po -- slal do svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "tercie"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     g4( a) a \barMin a a a g( a) g f g a a \barMaior
