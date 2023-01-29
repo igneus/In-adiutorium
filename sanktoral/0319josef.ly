@@ -386,7 +386,7 @@
     d d c d f g g \barMin
     a g f a a f e d( e) d d \barFinalis
 
-    c^\markup\rubrVelikAleluja d f( e) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a

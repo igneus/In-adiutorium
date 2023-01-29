@@ -1130,7 +1130,7 @@
       f4 e d c d c \barMaior
       d d c d f g g \barMin
       a g f a a f e d( e) d d \barMaior
-      e f d d \barFinalis
+      e^\markup\rubrVelikAleluja f d( c) d \barFinalis
     }
     \addlyrics {
       Jo -- sef a Ma -- ri -- a
@@ -1145,7 +1145,7 @@
       psalmus = "Benedictus"
       annus = "B"
       id = "svrodiny-rch-abenB"
-      fial = "fial://vanoce_narozenipane.ly#vden-atercie?konec&+aleluja"
+      fial = "sanktoral/0319josef.ly#rch-a2?konec=26"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }

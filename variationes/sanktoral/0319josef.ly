@@ -1257,6 +1257,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 f f g a g f d f f e d \barMaior
@@ -1278,6 +1279,35 @@
     differentia = "f"
     psalmus = "Dan 3-III"
     fial = "fial://vanoce_narozenipane.ly#vden-atercie?aleluja"
+    fons = "Narození Páně, uprostřed dne, ant. dopoledne + aleluja"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g a g f d f f e d \barMaior
+    d d c d f g g \barMin
+    a g f a a f e d( e) d d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+    by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+    kte -- rá o něm sly -- še -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Dan 3-III"
+    fial = "fial://vanoce_narozenipane.ly#vden-atercie?+aleluja"
     fons = "Narození Páně, uprostřed dne, ant. dopoledne + aleluja"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

@@ -2709,7 +2709,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 e d c d c \barMaior
       d d c d f g g \barMin
@@ -2730,6 +2730,38 @@
       annus = "B"
       id = "svrodiny-rch-abenB"
       fial = "fial://vanoce_narozenipane.ly#vden-atercie?jiny_text&+aleluja"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \markup\justify{
+    (Doteď měla jedna antifona dva potomky přidávající aleluja, každý s jiným
+    nápěvem. Změna rodiče zajišťuje, že nápěv onoho doplněného aleluja bude napříště
+    jednotný.)
+  }
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 e d c d c \barMaior
+      d d c d f g g \barMin
+      a g f a a f e d( e) d d \barMaior
+      \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef a Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu
+      nad slo -- vy, kte -- rá o něm sly -- še -- li.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
+      psalmus = "Benedictus"
+      annus = "B"
+      id = "svrodiny-rch-abenB"
+      fial = "sanktoral/0319josef.ly#rch-a2?konec=26"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
