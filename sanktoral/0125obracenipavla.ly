@@ -40,7 +40,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g f g( a) a \barMin
+    a4 g bes g a a \barMin
     a a g f e f e d d \barFinalis
   }
   \addlyrics {
@@ -62,7 +62,7 @@
     \choralniRezim
     g4 b c d c d( e) d \barMaior
     d d d( e) d e f d c d( c) \barMin
-    b( a g) a g g \barFinalis
+    a c( b) a( g) g \barFinalis
   }
   \addlyrics {
     Bůh si vy -- vo -- lil Šav -- la,
@@ -74,7 +74,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 64"
-    placet = "dlouhé melisma na _všem_ se mi nelíbí"
+    placet = "spíš lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -161,7 +161,7 @@
     \choralniRezim
     c4( b c) c( d) \barMin c d e f e d d \barMaior
     c d c b a g a( g) g \barMaior
-    f g a( c) c b( c) a g a( g) g \barFinalis
+    f g a( c) c b( c) a g f( g) g \barFinalis
   }
   \addlyrics {
     Mi -- lost,_* kte -- rou mi Bůh u -- dě -- lil,
@@ -273,8 +273,8 @@
     \choralniRezim
     f4 g a g f g g a a \barMin
     a g f g g f f \barMaior
-    f d f g f a( c a) a \barMaior
-    a( g f) g( f) f( d) \barMin e f d c c( d) d \barFinalis
+    f d f g g a( c a) a \barMaior
+    a( g f) g( f) f( d) \barMin f f e f d( c d) d \barFinalis
   }
   \addlyrics {
     Když se Ša -- vel blí -- žil k_Da -- maš -- ku,
@@ -295,7 +295,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4-- e d c d d \barMaior
+    d4-- c d e( f) d d \barMaior
     c d d( f) f g( a g) f( e) d d \barMin
     e d c d f e c d d \barFinalis
   }
@@ -430,7 +430,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a g f g g( a) a \barMin
+    a4 a g a g f g( a) a \barMin
     c d c b d( a) a g f g f e g a a \barMaior
     b c a g a g f g g( f) \barMin
     g f e f d c d d \barFinalis
@@ -444,7 +444,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "g"
+    differentia = "a"
     psalmus = ""
     fial = "commune/commune_ucitel.ly#2ne-amag?jiny_text"
     id = "ne-amag"

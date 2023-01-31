@@ -1509,11 +1509,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( b c) c( d) \barMin c d e f e d d \barMaior
     c d c b a g a( g) g \barMaior
     f g a( c) c \mark\sipka b( c) a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lost,_* kte -- rou mi Bůh u -- dě -- lil,
+    ne -- zů -- sta -- la le -- žet la -- dem,
+    a -- le stá -- le zů -- stá -- vá ve mně.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( b c) c( d) \barMin c d e f e d d \barMaior
+    c d c b a g a( g) g \barMaior
+    f g a( c) c b( c) a g \mark\sipka f( g) g \barFinalis
   }
   \addlyrics {
     Mi -- lost,_* kte -- rou mi Bůh u -- dě -- lil,

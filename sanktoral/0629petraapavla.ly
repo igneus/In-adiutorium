@@ -285,7 +285,7 @@
     \choralniRezim
     c4( b c) c( d) \barMin c d e f e d d \barMaior
     c d c b a g a( g) g \barMaior
-    f g a( c) c b( c) a g a( g) g \barFinalis
+    f g a( c) c b( c) a g f( g) g \barFinalis
   }
   \addlyrics {
     Mi -- lost,_* kte -- rou mi Bůh u -- dě -- lil,
