@@ -45,6 +45,25 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \mark\sipka g g( a) a \barMin
+    a a a c g f( e) d \barFinalis
+  }
+  \addlyrics {
+    Vy -- pro -- šuj -- te Je -- ru -- za -- lé -- mu po -- koj.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 122"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1255,6 +1274,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c b( c) a( g) g \barMaior
+    a a a g f g a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   ... zato tady původní verze antifony slovní přízvuk přesouvala zcela nepochybně.
 }
@@ -1649,6 +1690,54 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 c c d d \barMin
+    d e d c a a \barMin
+    c b g a a( g) g \barMaior
+    f g a a g f \mark\sipka g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c d d \barMin
+    d e d c a a \barMin
+    c b g a a( g) g \barMaior
+    f g a a \mark\sipka a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 112"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}

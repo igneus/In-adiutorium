@@ -451,6 +451,30 @@
   \relative c'' {
     \choralniRezim
     g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c d c c b c a g g \barMin
+    a a g f \mark\sipka g a a \barMin
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
     c4 c d c c b \mark\sipka g a c b \barMaior
     c c a g a g f \barMin
     g a g g \barFinalis
@@ -465,6 +489,76 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c \mark\sipka c( d) c c a g a c b \barMaior
+    c c a g a g f \barMin
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d( e) d \barMaior
+    e d c( d) c c b c a g g \barMaior
+    a a g f g a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f f( g f d) d \barMaior
+    c d d f f g( a) g f( g) f f \barMaior
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = ""
+    differentia = ""
     psalmus = "Flp 2"
     id = "1ne-ant3"
     piece = \markup {\sestavTitulek}
