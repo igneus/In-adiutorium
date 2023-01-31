@@ -275,6 +275,10 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 63"
+    placet = "přistání na tónice _a jsem přesvědčen_ se opravdu hrubě míjí
+    se strukturou textu;
+    _spravedlivý soudce_ by bylo vhodnější odsadit;
+    delší recitace na e je pro antifony VII. modu hodně netypická"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
