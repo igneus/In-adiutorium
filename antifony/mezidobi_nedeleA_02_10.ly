@@ -208,7 +208,7 @@
     \choralniRezim
     d4( a') g g a a a( c) b g a a \barMaior
     f g a a g f d( e) d( c) c \barMin
-    d f e c( d) d \barFinalis
+    d f e d( e d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
