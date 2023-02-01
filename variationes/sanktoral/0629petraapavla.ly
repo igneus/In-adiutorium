@@ -1602,6 +1602,94 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g a a \barMaior
+    a b c a a \barMin
+    c b a g g \barFinalis
+  }
+  \addlyrics {
+    Do -- brý boj jsem bo -- jo -- val,_*
+    svůj běh jsem skon -- čil,
+    ví -- ru u -- cho -- val.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g a a \barMaior
+    a b c a a \barMin
+    c b a g g \barFinalis
+  }
+  \addlyrics {
+    Do -- brý boj jsem bo -- jo -- val,_*
+    svůj běh jsem skon -- čil,
+    ví -- ru u -- cho -- val.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c a g g \barMaior
+    a g f g( a) a \barMin
+    g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Do -- brý boj jsem bo -- jo -- val,_*
+    svůj běh jsem skon -- čil,
+    ví -- ru u -- cho -- val.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c a g g \barMaior
+    a g f g( a) a \barMin
+    \mark\sipka a( c) b g g g \barFinalis
+  }
+  \addlyrics {
+    Do -- brý boj jsem bo -- jo -- val,_*
+    svůj běh jsem skon -- čil,
+    ví -- ru u -- cho -- val.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
