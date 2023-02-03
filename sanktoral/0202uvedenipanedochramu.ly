@@ -351,13 +351,13 @@
     % R
     \neviditelna f
     f4 f f g f g g( a) a( g) \barMax
-    g g( f d) f g g( f) f \barFinalis
+    a g( f d) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
     a( bes) a a a g f g( a) a( g) \barMax
     % R
     \neviditelna g
-    g g( f d) f g g( f) f \barFinalis
+    a g( f d) d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -405,11 +405,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e e c( d) e( g) g \barMin
-    g g a g f g g f( g) d d \barMaior
-    d d d c( b a4.) a \barMin
-    c4 d d c d( f) f \barMin
-    e( f) f f e c d4. d \barFinalis
+    d4 c d d( f) f f \barMin
+    f f g g g f g g f f \barMaior
+    f d f e( d c4.) c \barMin
+    d4 d c d d( f) f \barMin
+    e( f) d d e c c( d) d \barFinalis
   }
   \addlyrics {
     Od Du -- cha sva -- té -- ho
@@ -423,7 +423,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 110"
-    placet = "lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
