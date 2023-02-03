@@ -315,6 +315,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_velebil Boha_ lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
