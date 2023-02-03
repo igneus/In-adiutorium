@@ -5719,6 +5719,29 @@ ale sám o sobě se mi líbí.}
     \choralniRezim
     d4 e f e f g e \barMin
     d d c e d c d \barMaior
+    f f e( f d) d \barMin
+    e \mark\sipka c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj, Hos -- po -- di -- ne,
+    na své mi -- lo -- sr -- den -- ství,
+    jak jsi slí -- bil na -- šim před -- kům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e f g e \barMin
+    d d c e d c d \barMaior
     f f e( f d \mark\sipka c) c \barMin
     a c c( d) d \barFinalis
   }

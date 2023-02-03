@@ -1454,6 +1454,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g g a \barMaior
+    a g a g \barMin g f g g f f \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tIIpatekAntBenedictus }
@@ -1487,6 +1507,26 @@
     \key f \major
     f4 f g( a) a( g) a \barMin a bes bes a g a( g) g \barMin
     f e d d \barFinalis
+  }
+  \addlyrics {
+    Hoj -- ný po -- koj těm, kdo mi -- lu -- jí tvůj zá -- kon,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-ש"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a g) g \barMaior f g a a g f g( f) d \barMin
+    f g g f \barFinalis
   }
   \addlyrics {
     Hoj -- ný po -- koj těm, kdo mi -- lu -- jí tvůj zá -- kon,
@@ -1553,6 +1593,44 @@
     \choralniRezim
     c4 c d( e) d( c) c \breathe a a b c c( d) d \breathe
     d b c a( g) g \bar "||"
+  }
+  \addlyrics {
+    O -- bec vě -- ří -- cích mě -- la jed -- no srd -- ce a jed -- nu du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 133"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e) d( c) c \barMin a a b c c( d) d \barMin
+    d b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- bec vě -- ří -- cích mě -- la jed -- no srd -- ce a jed -- nu du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 133"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c \mark\sipka c( d) d( c) c \barMin a a b c c( d) d \mark\sipka
+    d b c a( g) g \barFinalis
   }
   \addlyrics {
     O -- bec vě -- ří -- cích mě -- la jed -- no srd -- ce a jed -- nu du -- ši.
