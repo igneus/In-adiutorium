@@ -15,7 +15,7 @@
   \relative c'' {
     \choralniRezim
     c4 c d e e e d c d d \barMaior
-    d e d c a b a( g) g \barMin
+    e e d c a b a( g) g \barMin
     a a g f g( a) a g g \barFinalis
 
     f^\rubrVelikAleluja g( a) g g \barFinalis
@@ -138,7 +138,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 f e e f g f e e \barMin
+    e4 f e e f g a g g \barMin
     a g f d e e \barFinalis
   }
   \addlyrics {
