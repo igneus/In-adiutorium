@@ -1613,7 +1613,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
 
@@ -1642,6 +1642,78 @@
   \header {
     quid = "resp."
     modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f \mark\sipka f( g) f f \barMin
+    f f f f g f g g( a) a( g) \barMax
+    g \mark\sipka f g g( a) g g \barMin f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g \mark\sipka f g g( a) g g \barMin f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bo -- že, tvá cír -- kev je před -- ob -- raz
+    ne -- bes -- ké -- ho Je -- ru -- za -- lé -- ma,_*
+    je to dům mod -- lit -- by pro všech -- ny ná -- ro -- dy.
+    \Verse V_ní si shro -- maž -- ďu -- ješ svůj lid,_*
+    \Response je to dům mod -- lit -- by pro všech -- ny ná -- ro -- dy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f( g) f f \barMin
+    f f f f g f g g( a) a( g) \barMax
+    g g \mark\sipka f g( a) g g \barMin f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g \mark\sipka f g( a) g g \barMin f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bo -- že, tvá cír -- kev je před -- ob -- raz
+    ne -- bes -- ké -- ho Je -- ru -- za -- lé -- ma,_*
+    je to dům mod -- lit -- by pro všech -- ny ná -- ro -- dy.
+    \Verse V_ní si shro -- maž -- ďu -- ješ svůj lid,_*
+    \Response je to dům mod -- lit -- by pro všech -- ny ná -- ro -- dy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    placet = "styk dvou m na rozhraní slov _dům modlitby_ se v téhle verzi citelně hůře vyslovuje"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
