@@ -680,30 +680,6 @@
     \choralniRezim
     c4 d d( f) f \barMin
     g g g f e d d \barMaior
-    \mark\sipka d( e) c c( d) d \barFinalis
-  }
-  \addlyrics {
-    Pa -- ma -- tuj -- me
-    na smlou -- vu s_Hos -- po -- di -- nem,
-    na -- ším Bo -- hem.
-
-    % aleluja v breviari neni
-  }
-  \header {
-    quid = "2. ant."
-    modus = "II"
-    differentia = "D"
-    psalmus = "Žalm 106-II"
-    id = "mc-a-ant2"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    c4 d d( f) f \barMin
-    g g g f e d d \barMaior
     \mark\sipka f e d( e c d) d \barFinalis
   }
   \addlyrics {
