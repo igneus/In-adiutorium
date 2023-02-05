@@ -1260,6 +1260,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 a c b a( g) g \barMaior
+    g f g a a a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Ez 36"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g f g g( a) a \barMaior
     a c c b a g f a g g \barFinalis
   }
@@ -1303,6 +1323,24 @@
     \zvyraznovacModry
     \choralniRezim
     c4 a( c) c \barMin c4 b( c) a( g) g \barMin f g a f g g \barFinalis
+  }
+  \addlyrics {
+    Z_úst dě -- tí a ne -- mluv -- ňat sis při -- pra -- vil slá -- vu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 8"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a( c) c \mark\sipka c4 b( c) a( g) g \barMin f g a f g g \barFinalis
   }
   \addlyrics {
     Z_úst dě -- tí a ne -- mluv -- ňat sis při -- pra -- vil slá -- vu.

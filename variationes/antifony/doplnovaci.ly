@@ -646,3 +646,23 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g g a a \barMin
+    g a g( f) d f g g f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze kaž -- dé -- mu,
+    kdo se bo -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 128"
+    id = "nona-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}

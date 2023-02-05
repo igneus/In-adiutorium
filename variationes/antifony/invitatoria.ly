@@ -2075,6 +2075,73 @@ pojdmeKlanmeSeCele = {
 \score {
   \relative c' {
     \choralniRezim
+    d4 e f f f g a f f( g) g \barMaior
+    a4 g f d( e) d( c) c \barMin
+    d e f f e f d c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f g a f f( g) g \barMaior
+    a4 g f d( e) d( c) c \barMin
+    \mark\sipka d d c d f e d c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    d4 e f f f g \mark\sipka f g g( a) a \barMaior
+    a4 g f d( e) d( c) c \barMin
+    d d c d f e d c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 e f f f e f d d( c) c \barMaior
     d c d d( f) f f \barMin
     g f f f e f d c d \barFinalis

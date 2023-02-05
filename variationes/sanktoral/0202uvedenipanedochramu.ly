@@ -525,6 +525,58 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g a g g \barMaior
+    g g( a) g f( g) \barMin f d f e d( c) c \barMax
+    \mark\sipka d c d f( g a g) f( g) \barMin
+    a bes a g( f g) g \barMaior
+    f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sta -- řec dr -- ží v_ná -- ru -- čí dí -- tě
+    a vi -- dí v_něm své -- ho Spa -- si -- te -- le.
+    Pan -- na se kla -- ní
+    Bo -- ží -- mu Sy -- nu,
+    kte -- ré -- ho po -- ro -- di -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g a g g \barMaior
+    g g( a) g f( g) \barMin f d f e d( c) c \barMax
+    d c d \mark\sipka d( f) f \barMin
+    g a bes a( g) f( g) \barMaior
+    f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sta -- řec dr -- ží v_ná -- ru -- čí dí -- tě
+    a vi -- dí v_něm své -- ho Spa -- si -- te -- le.
+    Pan -- na se kla -- ní
+    Bo -- ží -- mu Sy -- nu,
+    kte -- ré -- ho po -- ro -- di -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
