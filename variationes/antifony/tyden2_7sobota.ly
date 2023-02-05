@@ -225,6 +225,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( f) e f e d c \barMaior
     d d d d c c d d \barFinalis
@@ -245,6 +246,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( f) e f e d c \barMaior
     d d d d c c d d \barFinalis
@@ -262,6 +264,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-I"
+    placet = "nepříliš zpěvná"
     id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -461,6 +464,31 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f f e d c c \barMaior
+    d e f d \mark\sipka c c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 c d f f \mark\sipka g f d d \barMaior
     f e f d c c d d \barFinalis
@@ -580,7 +608,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) f \barMin
     g g g f e d d \barMaior
@@ -629,6 +657,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d d( f) f \barMin
     g g g f e d d \barMaior
@@ -657,6 +686,30 @@
     c4 d d( f) f \barMin
     g g g f e d d \barMaior
     \mark\sipka e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj -- me
+    na smlou -- vu s_Hos -- po -- di -- nem,
+    na -- ším Bo -- hem.
+
+    % aleluja v breviari neni
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-II"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g g g f e d d \barMaior
+    e c \mark\sipka d( e d) d \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj -- me

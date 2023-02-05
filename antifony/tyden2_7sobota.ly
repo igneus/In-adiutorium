@@ -17,8 +17,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( f) e f e d c \barMaior
-    d d d d c c d d \barFinalis
+    d4 c d f f e d c c \barMaior
+    d e f d c c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis
   }
@@ -33,7 +33,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 106-I"
-    placet = "nepříliš zpěvná"
     id = "mc-a-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -44,7 +43,7 @@
     \choralniRezim
     c4 d d( f) f \barMin
     g g g f e d d \barMaior
-    e( f d) c c( d) d \barFinalis
+    d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj -- me
