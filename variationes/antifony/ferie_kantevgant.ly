@@ -1460,6 +1460,52 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f\major
+    f4 g a a bes a g g( a) a \barMin
+    a a g f g( f d) d \barMin
+    f f g( a) a a g( f) f \barFinalis
+  }
+  \addlyrics {
+    U -- či -- nil mi ve -- li -- ké vě -- ci
+    ten, kte -- rý je moc -- ný,
+    je -- ho jmé -- no je sva -- té.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "t1-st-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f\major
+    f4 g a a bes a g g( a) a \barMin
+    a a g f g( f d) d \barMin
+    \mark\sipka c d f( g) a a g( f) f \barFinalis
+  }
+  \addlyrics {
+    U -- či -- nil mi ve -- li -- ké vě -- ci
+    ten, kte -- rý je moc -- ný,
+    je -- ho jmé -- no je sva -- té.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "t1-st-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 % ctvrtek
