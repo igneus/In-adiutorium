@@ -2735,3 +2735,159 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a c c d c d d( e c) \barMin
+    d c b c a g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c d( e) d c c( d) \barMin
+    d d c b c( a) a( g) g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c d( e) d c \mark\sipka d( c) \barMin
+    d d c b c( a) a( g) g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e d4.) d \barMin
+  }
+  \addlyrics {
+    Je mi dá -- na
+    veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) a b( c) a g a( g) \barMin
+  }
+  \addlyrics {
+    Je mi dá -- na
+    veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( e c d) d \barMin
+    c b g a( g f) \barMaior
+    g g f g g a a \barMin
+    g f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na
+    veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d( e c d) d \barMin
+    e( f) d c d( c) \barMaior
+    c c b a g( a) g g
+    f a g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na
+    veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
