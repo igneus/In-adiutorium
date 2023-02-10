@@ -264,6 +264,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "oba texty na stejnou melodii jsou nuda"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
