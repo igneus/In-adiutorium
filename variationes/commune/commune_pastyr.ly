@@ -1279,6 +1279,89 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) e d( c) c \barMaior
+    d d c d d( f) \barMin
+    f f g f e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne5a-rch-aben?zacatek=9"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) e d( c) c \barMaior
+    d d c d d( f) \barMin
+    f f \mark\sipka e f d c c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne5a-rch-aben?zacatek=9"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) e d( c) c \barMaior
+    f g a f g( f d) \barMin
+    f f f e d c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne5a-rch-aben?zacatek=9"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 a a( d a g) a( b c) \barMin b c d( e f) e d( e) e \barMaior
