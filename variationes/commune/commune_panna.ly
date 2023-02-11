@@ -328,6 +328,37 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
+    d4( a' bes) a \barMin a a a g( a) g \barMaior
+    f g a( g) f( e d4.) d \barMin
+    d4 c d
+    f f e c c( d) d \barFinalis
+
+    f^\markup\rubrVelikAleluja f f f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho
+    \markup{\Dagger ná} -- sle -- du -- jí pan -- ny.
+
+    \markup{\Dagger ná} -- sle -- du -- jí pan -- ny.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4( g) g \barMin a g a f( g f) f \barMaior
     g g f( e) d( c) c \barMin
     d c d f g a a g( f) f \barFinalis
