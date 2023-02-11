@@ -232,8 +232,8 @@
   \relative c'' {
     \choralniRezim
     a4 g e g( a) a \barMaior
-    e e e e f( d) d( f) e d \barMin
-    g f g g f e e \barFinalis
+    a a a g a a( b) g4. e \barMin
+    f g4 a g f e e \barFinalis
   }
   \addlyrics {
     Vy jste sůl ze -- mě;
@@ -254,15 +254,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d d( f) e c( d) d \barMax
-
-    a c d d( f) d f( g) f d d \barMaior
-    f f e( f) d d f e d e d( a) a \barMaior
-    a c( d c) d( f) d d \barMin f e f f( g) f d( e) d d \barFinalis
+    c4 d d( f) e d( c) c \barMaior
+    d c d d( f) f g( a) g f f \barMaior
+    g f e( f) d d f e d c d( c) c \barMaior
+    d c d d( f) f \barMin f f f g f e( f) d d \barFinalis
   }
   \addlyrics {
     Vy jste svět -- lo svě -- ta,
-
     ať va -- še svět -- lo sví -- tí li -- dem,
     a -- by vi -- dě -- li va -- še dob -- ré skut -- ky
     a ve -- le -- bi -- li va -- še -- ho Ot -- ce v_ne -- be -- sích.
@@ -281,10 +279,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c( d) c a( b) a a \barMin
-    g f g g a g a( c) c \barMaior
-    c c c( d e) c( b a) a \barMin
-    g( a g) f( g) g \barFinalis
+    c4 c c( d) c b( c) a a \barMin
+    c c b a c b a( g) g \barMaior
+    c d e( d) c( b a) a \barMin
+    g( f) g( a g) g \barFinalis
   }
   \addlyrics {
     Buď -- te ja -- ko sví -- til -- na
