@@ -1272,10 +1272,40 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c d f e f( g) g \barMin
+    a g a bes a g g \barMaior
+    a a g f( g) f \barMin g g g g a a g
+    f g f d( c) c \barMaior
+    d e f e d e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- bu -- de -li va -- še spra -- ve -- dl -- nost
+    mno -- hem do -- ko -- na -- lej -- ší
+    než spra -- ve -- dl -- nost u -- či -- te -- lů Zá -- ko -- na
+    a fa -- ri -- ze -- ů,
+    do ne -- bes -- ké -- ho krá -- lov -- ství
+    ne -- ve -- jde -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne6a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f e c c( f) d d \barMaior
     f g a \[ a( bes a \] \[ c a) \] g( a) a \barMin
@@ -1284,6 +1314,100 @@
     d c d e f f( g) g f g g( f) f \barMaior
     g g g g( a) g g( f d) \barMin
     d d( e f) e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři
+    a tam si vzpo -- me -- neš,
+    že tvůj bra -- tr má ně -- co pro -- ti to -- bě,
+    nech tam svůj dar před ol -- tá -- řem
+    a jdi se na -- před smí -- řit se svým brat -- rem;
+    te -- pr -- ve po -- tom přijď
+    a o -- bě -- tuj svůj dar.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne6a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f e c c( f) d d \barMaior
+    f g a \[ a( bes a \] \[ c a) \] g( a) a \barMin
+    a a g( f) f f g f g f d d \barMaior
+    d( e) d c d( f) g f d d \barMin
+    d c d \mark\sipka f e f( g) g f g g( f) f \barMaior
+    g g g g( a) g g( f d) \barMin
+    d d( e f) e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři
+    a tam si vzpo -- me -- neš,
+    že tvůj bra -- tr má ně -- co pro -- ti to -- bě,
+    nech tam svůj dar před ol -- tá -- řem
+    a jdi se na -- před smí -- řit se svým brat -- rem;
+    te -- pr -- ve po -- tom přijď
+    a o -- bě -- tuj svůj dar.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne6a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f e c c( f) d d \barMaior
+    f g a \[ a( bes a \] \[ c a) \] g( a) a \barMin
+    a a g( f) f f g f g f d d \barMaior
+    d( e) d c d( f) g f d d \barMin
+    d \mark\sipka f f e d f( g) g f g g( f) f \barMaior
+    g g g g( a) g g( f d) \barMin
+    d d( e f) e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři
+    a tam si vzpo -- me -- neš,
+    že tvůj bra -- tr má ně -- co pro -- ti to -- bě,
+    nech tam svůj dar před ol -- tá -- řem
+    a jdi se na -- před smí -- řit se svým brat -- rem;
+    te -- pr -- ve po -- tom přijď
+    a o -- bě -- tuj svůj dar.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne6a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f e c c( f) d d \barMaior
+    f g a \[ a( bes a \] \[ c a) \] g( a) a \barMin
+    a a g( f) f f g f g f d d \barMaior
+    d( e) d c d( f) g f d d \barMin
+    d f f e d f( g) g f g g( f) f \barMaior
+    g g g g( a) g g( f d) \barMin
+    d \mark\sipka c( d f) e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři
