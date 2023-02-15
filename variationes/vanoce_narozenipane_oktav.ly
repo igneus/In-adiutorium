@@ -1608,6 +1608,29 @@
   \score {
     \relative c' {
       \choralniRezim
+      d4 d c e d c d \barMin
+      c d e f4. e \barMaior
+      \mark\sipka f4 f e d c d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Ra -- duj -- te se, ne -- be -- sa,
+      za -- já -- sej, ze -- mě,
+      před Hos -- po -- di -- nem,
+      že při -- chá -- zí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 96"
+      id = "31-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       d4 d c d d f f \barMin
       g a f f( g) g \barMaior
       a g f d d d c( e) d d \barFinalis

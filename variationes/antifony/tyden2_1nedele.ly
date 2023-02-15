@@ -319,6 +319,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a c d c( a) a \barMin
+    c b a( g) g \barMaior
+    \mark\sipka a a g( a) g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost,
+    Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 3
 
 \score {
@@ -337,6 +359,28 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c d e d d \barMin
+    e d c( a) a \barMaior
+    b a g( b) a \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost,
+    Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 16"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
