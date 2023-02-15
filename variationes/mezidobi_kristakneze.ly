@@ -2066,7 +2066,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g d d \barMin
     d f f f e d c( d) c c \barMaior
@@ -2221,6 +2221,30 @@
     quid = "1. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 110"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a a \barMin
+    a c c c b g b( c) a a \barMaior
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din pří -- sa -- hal
+    a ne -- bu -- de to -- ho li -- to -- vat:
+    Ty jsi kněz na -- vě -- ky.
+
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}

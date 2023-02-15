@@ -304,11 +304,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f g d d \barMin
-    d f f f e d c( d) c c \barMaior
-    bes c d( f e) c d d \barFinalis
+    g4 g f g a a \barMin
+    a c c c b g b( c) a a \barMaior
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din pří -- sa -- hal
@@ -318,10 +318,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
-    placet = "půjde lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
