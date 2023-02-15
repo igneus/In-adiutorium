@@ -877,6 +877,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c d( e) d \barMin
+    d c a b a g g \barMaior
+    b a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vše -- chno, co dý -- chá, ať chvá -- lí Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 164"
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 150"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIInedeleLaudResp }
 
 \pageBreak

@@ -12,6 +12,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f \barMin g( f) e f d( c) c \barMaior
     d d c d f4.( g) \barMin f4( g) f e c( d) d \barFinalis
@@ -52,6 +53,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4( f) f \barMin g( f) e f d( c) c \barMaior
     d d c d d( f) \barMin \mark\sipka e( f) d c c( d) d \barFinalis
@@ -293,6 +295,35 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\justify{
+  (Inspirace z AR1912 [107]
+  a Rituale Romano-Pragense I, Pragae 1700, 298,
+  ale podobnost výsledku není taková,
+  aby mělo smysl ji deklarovat.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f( e f) d( c) c4.( d) \barMaior
+    f4( g a) f g( f) d \barMin e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Od věč -- né zá -- hu -- by
+    za -- chraň, Pa -- ne, mou du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    fons = "melodie z: Bílá sobota, ranní chvály, 2. ant."
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -699,7 +730,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c f e f g \barMin
     g a f \mark\sipka e f d d \barFinalis
@@ -733,6 +764,108 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c d d \barMin
+    f g f e f c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň, Hos -- po -- di -- ne,
+    a vy -- svo -- boď mou du -- ši.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c d d \barMin
+    f g f e f \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň, Hos -- po -- di -- ne,
+    a vy -- svo -- boď mou du -- ši.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c d d \barMin
+    \mark\sipka d f f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň, Hos -- po -- di -- ne,
+    a vy -- svo -- boď mou du -- ši.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c d d \barMin
+    d f f \mark\sipka f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň, Hos -- po -- di -- ne,
+    a vy -- svo -- boď mou du -- ši.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c a c d d \barMin
+    \mark\sipka d f d f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň, Hos -- po -- di -- ne,
+    a vy -- svo -- boď mou du -- ši.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/tyden1_4streda.ly#up-ant3?zacatek=7&konec=5"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1048,10 +1181,132 @@
   }
 }
 
+\markup\justify{
+  (Jde o
+  \with-url #"https://books.google.cz/books?id=lTpdAAAAcAAJ" {tuhle knížku})
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d e d d \barMin
+    d d d c a b a g g \barMaior
+    a g a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš -- -li u -- cho -- vá -- vat
+    v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
+    Pa -- ne, kdo ob -- sto -- jí?
+  }
+  \header {
+    fons_externus = "volně podle Rituale Romano-Pragense I, Pragae 1700, 242"
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 130"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d e d d \barMin
+    d d d \mark\sipka c( d) c b c a( g) g \barMaior
+    c a b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš -- -li u -- cho -- vá -- vat
+    v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
+    Pa -- ne, kdo ob -- sto -- jí?
+  }
+  \header {
+    fons_externus = "volně podle Rituale Romano-Pragense I, Pragae 1700, 242"
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 130"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d b d e d d \barMin
+    d d d c a b a g g \barMaior
+    c a b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš -- -li u -- cho -- vá -- vat
+    v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
+    Pa -- ne, kdo ob -- sto -- jí?
+  }
+  \header {
+    fons_externus = "volně podle Rituale Romano-Pragense I, Pragae 1700, 242"
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 130"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f e f g g \barMin
+    g g g a g f g a a \barMaior
+    f d e( f) g( a) a g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš -- -li u -- cho -- vá -- vat
+    v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
+    Pa -- ne, kdo ob -- sto -- jí?
+  }
+  \header {
+    fons_externus = "volně podle AR1912 [100]"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 130"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g \mark\sipka g f e f( g) g \barMin
+    g g g a g f g a a \barMaior
+    \mark\sipka f( d) e f g( a) a g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš -- -li u -- cho -- vá -- vat
+    v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
+    Pa -- ne, kdo ob -- sto -- jí?
+  }
+  \header {
+    fons_externus = "volně podle AR1912 [100]"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 130"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) a a( g) a a( b) b \barMin
     b c d c b g a a \barMaior
@@ -1075,6 +1330,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g( a) a a( g) a a( b) b \barMin
     b c d c b g a a \barMaior
@@ -1100,7 +1356,95 @@
     \choralniRezim
     g4 g g( a) a a( g) a a( b) b \barMin
     b c d c b g a a \barMaior
+    a a g4.( e) \barMin f4 g a a \mark\sipka g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a a( g) a a( b) b \barMin
+    b c d c b g a a \barMaior
+    a a g4.( e) \barMin f4 g a a g( f) \mark\sipka d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a a( g) a a( b) b \barMin
+    b c d c b g a a \barMaior
+    a a g4.( e) \barMin f4 g a a g( f) \mark\sipka g e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a a( g) a a( b) b \barMin
+    b c d c b g a a \barMaior
     a a g4.( e) \barMin \mark\sipka f4 g f e d e e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a a( g) a a( b) b \barMin
+    b c d c b g a a \barMaior
+    a a g4.( e) \barMin f4 g f e \mark\sipka d( f) e e \barFinalis
   }
   \addlyrics {
     Ja -- ko O -- tec kří -- sí mrt -- vé
@@ -1335,6 +1679,38 @@
     a( b a) g4.( e) f4 e d c d d( e) e \barFinalis
     % Slava
     e( a b) a g( a) g f f( e) e \barMin e f g g( a) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*
+    dej jim od -- po -- či -- nu -- tí věč -- né.
+    \Verse Ty při -- jdeš sou -- dit ži -- vé i mrt -- vé,_*
+    \Response dej jim od -- po -- či -- nu -- tí věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "ne-resp2"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a g a a a g f g( a) a \barMax
+    a( b g) g( e) \barMin f4 g a g f d( e) e \barFinalis
+    % V
+    \neviditelna e
+    e e( a) a g( a b a) a \barMin a g f g( a) a \barMax
+    % R
+    \neviditelna a
+    a( b g) g( e) \barMin f4 g a g f d( e) e \barFinalis
+    % Slava
+    e( a) a a( b) a g g( a) a \barMin a g f d( e) e e \barFinalis
   }
   \addlyrics {
     \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*

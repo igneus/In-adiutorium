@@ -14,7 +14,7 @@
   \relative c' {
     \choralniRezim
     d4( f) f \barMin g( f) e f d( c) c \barMaior
-    d d c d f4.( g) \barMin f4( g) f e c( d) d \barFinalis
+    d d c d d( f) \barMin e( f) d c c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu;
@@ -278,8 +278,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c f e f g \barMin
-    g a f e f d d \barFinalis
+    d4 c a c d d \barMin
+    d f d f g f( d) d \barFinalis
   }
   \addlyrics {
     Za -- chraň, Hos -- po -- di -- ne,
@@ -290,6 +290,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    fial = "antifony/tyden1_4streda.ly#up-ant3?zacatek=7&konec=5"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -388,7 +389,7 @@
     \choralniRezim
     g4 g g( a) a a( g) a a( b) b \barMin
     b c d c b g a a \barMaior
-    a a g4.( e) \barMin f4( e) f g g g( a) g g \barFinalis
+    a a g4.( e) \barMin f4 g a a g( a) g g \barFinalis
   }
   \addlyrics {
     Ja -- ko O -- tec kří -- sí mrt -- vé
