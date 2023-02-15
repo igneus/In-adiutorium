@@ -29,6 +29,15 @@ end
 # Comparison of two scores, checking if 'child' is (still) a copy
 # (or deterministically modified copy) of 'parent'.
 class ChildParentComparison
+  # Is the FIAL considered auto-verifiable?
+  # Auto-verifiable is FIAL for which ChildParentComparison
+  # can reliably tell if the child matches the parent
+  # according to the specification encoded in the FIAL.
+  def self.auto_verifiable?(fial)
+    Set.new(fial.additional.keys) <
+      Set.new(%w(+aleluja -aleluja zacatek konec zaver cast))
+  end
+
   def initialize(child, parent, logger: nil)
     @child = child
     @parent = parent
