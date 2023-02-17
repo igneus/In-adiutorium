@@ -463,6 +463,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f g a a g \barMin
+    f d \mark\sipka f( g) g f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din kra -- lu -- je,
+    za -- já -- sej, ze -- mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 97"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g g a \barMin
     g a g f f \barFinalis
   }
