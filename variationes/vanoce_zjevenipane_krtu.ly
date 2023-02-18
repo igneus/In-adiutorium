@@ -2855,6 +2855,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       c4 c c b a c c c \barMin
       c d c c b c g4. g \barMax
@@ -2878,6 +2879,188 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Magnificat"
+      placet = "divisiones; oddíl _a udělal_ půjde lépe"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b a c \mark\sipka d d \barMin
+      d e d c b c g g \barMaior
+      g4 a \mark\sipka a a a g f g g( a) a \barMaior
+      a c c b( c a) a \barMin
+      b( c) a g g \barMaior
+      \mark\sipka a a a c b c c( d) d \barMin
+      c b g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš Kris -- tus nás mi -- lu -- je,
+      svou kr -- ví nás zba -- vil hří -- chů
+      a u -- dě -- lal z_nás krá -- lov -- ský ná -- rod
+      a kně -- ze Bo -- ha,
+      své -- ho Ot -- ce;
+      je -- mu buď slá -- va a vlá -- da
+      na věč -- né vě -- ky.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "krtu-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b a c d d \barMin
+      d e d c b c g g \barMaior
+      g4 a a a a g f g g( a) a \barMaior
+      a c c b( c a) a \barMin
+      b( c) a g g \barMaior
+      a a a c b \mark\sipka a g( a) g \barMin
+      f g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš Kris -- tus nás mi -- lu -- je,
+      svou kr -- ví nás zba -- vil hří -- chů
+      a u -- dě -- lal z_nás krá -- lov -- ský ná -- rod
+      a kně -- ze Bo -- ha,
+      své -- ho Ot -- ce;
+      je -- mu buď slá -- va a vlá -- da
+      na věč -- né vě -- ky.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "krtu-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b a c d d \barMin
+      d e d c b c g g \barMaior
+      g4 a a a a g f g g( a) a \barMaior
+      a c c b( c a) a \barMin
+      b( c) a g g \barMaior
+      \mark\sipka g g g a g a a( c) c \barMin
+      a f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš Kris -- tus nás mi -- lu -- je,
+      svou kr -- ví nás zba -- vil hří -- chů
+      a u -- dě -- lal z_nás krá -- lov -- ský ná -- rod
+      a kně -- ze Bo -- ha,
+      své -- ho Ot -- ce;
+      je -- mu buď slá -- va a vlá -- da
+      na věč -- né vě -- ky.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "krtu-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c b a c d d \barMin
+      d e d c b c g g \barMaior
+      g4 a a a a g f g g( a) a \barMaior
+      a c c b( c a) a \barMin
+      b( c) a g g \barMaior
+      g g g a g \mark\sipka f g( a) a \barMin
+      g f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš Kris -- tus nás mi -- lu -- je,
+      svou kr -- ví nás zba -- vil hří -- chů
+      a u -- dě -- lal z_nás krá -- lov -- ský ná -- rod
+      a kně -- ze Bo -- ha,
+      své -- ho Ot -- ce;
+      je -- mu buď slá -- va a vlá -- da
+      na věč -- né vě -- ky.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "krtu-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b a c d d \barMin
+      d e d c b c g g \barMaior
+      g4 a a a a g f g g( a) a \barMaior
+      a c c b( c a) a \barMin
+      b( c) a g g \barMaior
+      g g g a g f g( a) a \barMin
+      \mark\sipka b c a g( f g) g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš Kris -- tus nás mi -- lu -- je,
+      svou kr -- ví nás zba -- vil hří -- chů
+      a u -- dě -- lal z_nás krá -- lov -- ský ná -- rod
+      a kně -- ze Bo -- ha,
+      své -- ho Ot -- ce;
+      je -- mu buď slá -- va a vlá -- da
+      na věč -- né vě -- ky.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "krtu-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c b a c d d \barMin
+      d e d c b c g g \barMaior
+      g4 a a a a g f g g( a) a \barMaior
+      a c c b( c a) a \barMin
+      b( c) a g g \barMaior
+      g g g \mark\sipka a( c) b c a( g) g \barMin
+      a f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš Kris -- tus nás mi -- lu -- je,
+      svou kr -- ví nás zba -- vil hří -- chů
+      a u -- dě -- lal z_nás krá -- lov -- ský ná -- rod
+      a kně -- ze Bo -- ha,
+      své -- ho Ot -- ce;
+      je -- mu buď slá -- va a vlá -- da
+      na věč -- né vě -- ky.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "krtu-2ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

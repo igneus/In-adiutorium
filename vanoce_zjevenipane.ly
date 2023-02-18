@@ -1520,13 +1520,13 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 c c b a c c c \barMin
-      c d c c b c g4. g \barMax
-      g4 a f f f e f f f( g) g \barMaior
-      g a a b( c a) a \barMin
-      b( c) a g4. g \barMax
-      g4 g g a f e g4. g \barMin
-      a4( b) c a g( f g) g \barFinalis
+      c4 c c b a c d d \barMin
+      d e d c b c g g \barMaior
+      g4 a a a a g f g g( a) a \barMaior
+      a c c b( c a) a \barMin
+      b( c) a g g \barMaior
+      g g g a g f g( a) a \barMin
+      g f a a( g) g \barFinalis
     }
     \addlyrics {
       Je -- žíš Kris -- tus nás mi -- lu -- je,
@@ -1539,10 +1539,9 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "VIII"
+      modus = "VII"
       differentia = "c"
       psalmus = "Magnificat"
-      placet = "divisiones; oddíl _a udělal_ půjde lépe"
       id = "krtu-2ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
