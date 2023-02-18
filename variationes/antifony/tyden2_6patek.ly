@@ -914,6 +914,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g a a g g \barMin
+    a g a c b( g) a a \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným a po -- kor -- ným
+    srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   (Průběh melodie je - přinejmenším co do frázování a co do rozmístění a směřování melismat -
   podobný antifoně z materiálu \typewriter{zalm51.ly} z rané fáze projektu.)

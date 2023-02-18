@@ -68,6 +68,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin c d e c \mark\sipka c( d) d \barMaior
+    d c a c b a g g \barMaior
+    c d e c d c c \barMin \mark\sipka c b c a g g \barMaior
+    \mark\sipka f g a b c a g( a) a \barMaior
+    \mark\sipka b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Zví -- tě -- zil Be -- rán -- ko -- vou kr -- ví
+    a slo -- vem své -- ho svě -- dec -- tví,
+    pro -- to -- že ne -- mi -- lo -- val svůj ži -- vot na -- to -- lik,
+    že by se za -- le -- kl smr -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
