@@ -1346,7 +1346,7 @@
     a a g( a g) g \barMin g f g a a( g) \barMax
     % R
     \neviditelna f
-    g f g( a) g f( g) f f \barMin f d f g g a g f f \barFinalis
+    f g a g f( g) f f \barMin f d f g g a g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
