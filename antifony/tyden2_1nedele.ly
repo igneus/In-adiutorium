@@ -21,7 +21,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 119-נ"
-    placet = "tady ty dvě antifony stejného modu a končící stejným aleluja působí nelibě jednotvárně"
     id = "1ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -32,7 +31,7 @@
     \choralniRezim
     g4 a a a c d c( a) a \barMin
     c b a( g) g \barMaior
-    f a g( f) g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     U te -- be je hoj -- ná ra -- dost,
@@ -44,6 +43,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 16"
+    placet = "byl by vhodnější nápěv jiného modu, aby byla psalmodie rozmanitější"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }
