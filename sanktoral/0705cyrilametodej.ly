@@ -85,6 +85,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Dan 3-III"
+    placet = "není to ono"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -93,8 +94,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( c) c c d c b c a4. a \barMaior
-    a4 g f g g( a) g( d) d \barMin f g a b c( a g4.) g \barFinalis
+    g4 g g( c) c c d c b c a a \barMaior
+    c c b a g a g g f g a g g \barFinalis
   }
   \addlyrics {
     By -- li vá -- že -- ní u svých sou -- čas -- ní -- ků
@@ -105,7 +106,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "_si_ je divné, asi by mělo zůstat na d"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -310,14 +310,14 @@
     \choralniRezim
     % R
     \neviditelna f
-    f4 f g f g g f f \barMin g f g( a) a( g) \barMax
-    g f g( a) g f( g) f f \barMin f d f g g a g f f \barFinalis
+    f4 f f f f f( g) f f \barMin g f g( a) a( g) \barMax
+    g g f g g( a) g g \barMin g g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a a g( a) g \barMin g f g a a( g) \barMax
+    a a g( a g4.) g \barMin g4 f g g( a) a( g) \barMax
     % R
     \neviditelna f
-    g f g( a) g f( g) f f \barMin f d f g g a g f f \barFinalis
+    g g f g g( a) g g \barMin g g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
