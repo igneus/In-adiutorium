@@ -235,7 +235,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) g \mark\sipka g f g c b a g a \barMin
     b c a a a g g \barMaior
@@ -257,6 +257,62 @@
     differentia = "G"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g g( a) g g f e f g g \barMin
+    a c b a b g g \barMaior
+    a a f g g( a) a \barMin
+    c a a c b a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus
+    po -- vo -- lal e -- van -- ge -- lis -- ty
+    a u -- či -- te -- le ví -- ry,
+    a -- by v_je -- ho círk -- vi
+    ko -- na -- li služ -- bu slo -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e d) d \barMin
+    d c b c a a g g \barMin
+    a f g a a c b \barMaior
+    c d e d c( d c a) a \barMin
+    c c c b a g( a) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus
+    po -- vo -- lal e -- van -- ge -- lis -- ty
+    a u -- či -- te -- le ví -- ry,
+    a -- by v_je -- ho círk -- vi
+    ko -- na -- li služ -- bu slo -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

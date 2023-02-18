@@ -42,11 +42,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g g f g c b a g a \barMin
-    b c a a a g g \barMaior
+    g4 g f g g( a) g g f e f g g \barMin
+    a c b a b g g \barMaior
     a a f g g( a) a \barMin
-    c( d) c( a) a b a a( g) g \barMaior
-    g f( a) g g \barFinalis
+    c a a c b a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus
@@ -61,7 +61,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "lépe"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
