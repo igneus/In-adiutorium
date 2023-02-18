@@ -102,7 +102,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d d f( e d) c c d d \barMaior
     f g f e( d c) \barMin d e f \mark\sipka e d( e) d d \barFinalis
@@ -116,6 +116,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 113"
+    placet = "tím, jak se stále drží při finále, poněkud únavná a málo zpěvná"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -186,6 +187,51 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c c d( e) c c d d \barMaior
+    e d c d( c a) \barMin
+    b g a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je kní -- že po -- ko -- je
+    a je -- ho trůn
+    sto -- jí pev -- ně na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d( e) c c d d \barMaior
+    e d c d( c a) \barMin
+    b g \mark\sipka c b a( b) a a \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je kní -- že po -- ko -- je
+    a je -- ho trůn
+    sto -- jí pev -- ně na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -215,7 +261,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( d c) c( d) d \barMin d c b a b( a g a) a \barMaior
     f g a( b) a a b c d c( d e) d \barMin
@@ -231,6 +277,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 117"
+    placet = "_mu_ a _a_ je nepřirozené; celou druhou půli jinak"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -459,6 +506,31 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( b) c( d) d \barMin
+    d c d( e) e d d \barMaior
+    e e d e d c b c a( g) g \barMin
+    a a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ho krá -- lov -- ství
+    je krá -- lov -- ství věč -- né;
+    všich -- ni krá -- lo -- vé mu bu -- dou slou -- žit
+    a bu -- dou ho po -- slou -- chat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 117"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -499,12 +571,37 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d \mark\sipka d( a') a g f g( a) \barMaior
     a c( b c) a g f( g) g( a) a \barMax
     a b c \mark\sipka c( d) d d c( b) a( b) a( g) \barMaior
     g f e d( e) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tu by -- lo dá -- no vla -- dař -- ství
+    a krá -- lov -- ská dů -- stoj -- nost;
+    li -- dé všech kme -- nů a ja -- zy -- ků
+    mu bu -- dou na -- vě -- ky slou -- žit.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 4"
+    placet = "druhá půle je nejen extravagantní rozsahem, ale také nedrží úplně dobře pohromadě"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( a') a g f g( a) \barMaior
+    a c( b c) a g f( g) g( a) a \barMax
+    a b c \mark\sipka a( g) g g f( e) d( e) d( c) \barMaior
+    \mark\sipka d c d e( f) d c c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tu by -- lo dá -- no vla -- dař -- ství
@@ -527,8 +624,8 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     \choralniRezim
     d4 d c d d( a') a g f g( a) \barMaior
     a c( b c) a g f( g) g( a) a \barMax
-    a b c \mark\sipka a( g) g g f( e) d( e) d( c) \barMaior
-    \mark\sipka d c d e( f) d c c( d) d \barFinalis
+    a b c a( g) g g \mark\sipka a( g) f( d) d \barMaior
+    d c d \mark\sipka f e c c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tu by -- lo dá -- no vla -- dař -- ství
@@ -618,6 +715,105 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d( e) d d \barMin
+    f g( a) g f f g g \barMaior
+    a g f e( f) d c d c c \barMin
+    d c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tu by -- lo dá -- no vla -- dař -- ství
+    a krá -- lov -- ská dů -- stoj -- nost;
+    li -- dé všech kme -- nů a ja -- zy -- ků
+    mu bu -- dou na -- vě -- ky slou -- žit.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d( e) d d \barMin
+    f g( a) g f f g g \barMaior
+    \mark\sipka a a a g( a) g f e( f) d( c) c \barMin
+    d c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tu by -- lo dá -- no vla -- dař -- ství
+    a krá -- lov -- ská dů -- stoj -- nost;
+    li -- dé všech kme -- nů a ja -- zy -- ků
+    mu bu -- dou na -- vě -- ky slou -- žit.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d( e) d d \barMin
+    f g( a) g f f g g \barMaior
+    a a a \mark\sipka g( f) f f e( f) d( c) c \barMin
+    d c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tu by -- lo dá -- no vla -- dař -- ství
+    a krá -- lov -- ská dů -- stoj -- nost;
+    li -- dé všech kme -- nů a ja -- zy -- ků
+    mu bu -- dou na -- vě -- ky slou -- žit.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f e d( e) d d \barMin
+    f g( a) g f f g g \barMaior
+    a a a \mark\sipka g f f e( f) d( c) c \barMin
+    d c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tu by -- lo dá -- no vla -- dař -- ství
+    a krá -- lov -- ská dů -- stoj -- nost;
+    li -- dé všech kme -- nů a ja -- zy -- ků
+    mu bu -- dou na -- vě -- ky slou -- žit.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -653,9 +849,15 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\markup\justify{
+  V roce 2015 jsem si poznamenal, že by melodie responsa
+  měla lépe zohledňovat jednoslabičné _moc_,
+  ale reálně na daném úseku melodie žádnou možnost skutečného
+  zlepšení nevidím.
+}
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -688,18 +890,83 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f f g f g a a( g) \barMax
+    g \mark\sipka f g( a) g( f) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 g( a) g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g \mark\sipka f g( a) g( f) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Tvá je, Hos -- po -- di -- ne, ve -- li -- kost a moc,_*
+    to -- bě pří -- slu -- ší kra -- lo -- vat.
+    \Verse Ty vlád -- neš na -- de vším,_*
+    \Response to -- bě pří -- slu -- ší kra -- lo -- vat.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
 
     % R
     \neviditelna f
     f4 f g f f f g f g a \mark\sipka a \barMax
-    g \mark\sipka f g( a) g( f) d f( g) g( f) f \barFinalis
+    g f g( a) g( f) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
     a4 \mark\sipka a( bes) a g a a( g) \barMax
     % R
     \neviditelna a
-    g \mark\sipka f g( a) g( f) d f( g) g( f) f \barFinalis
+    g f g( a) g( f) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Tvá je, Hos -- po -- di -- ne, ve -- li -- kost a moc,_*
+    to -- bě pří -- slu -- ší kra -- lo -- vat.
+    \Verse Ty vlád -- neš na -- de vším,_*
+    \Response to -- bě pří -- slu -- ší kra -- lo -- vat.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f f g f g \mark\sipka g g( a) \barMax
+    g f g( a) g( f) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a( bes) a g a a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g( f) d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -1420,7 +1687,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( d' c) b c( a) g f g g \barMaior
     a b c( b) c( d) d \barMin c d e d c b b c a( g) g \barMaior
@@ -1436,6 +1703,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "_přináší_ lépe; možná zkusit i celou melodii jinak"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -1443,6 +1711,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g g( d' c) b c( a) g f g g \barMaior
     a b c( b) c( d) d \barMin c d e d c b b c a( g) g \barMaior
@@ -2429,6 +2698,141 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     differentia = "F"
     psalmus = "Zj 19"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) g g a( f) g g \barMin
+    \mark\sipka a g f( d) d \barMaior
+    c d f g a f f( g) g \barMin
+    g a g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů
+    a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 f f( g) g g a( f) g g \barMin
+    a g f( d) d \barMaior
+    c d f g a \mark\sipka g f( g) f \barMin
+    d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů
+    a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a a g( f) g g \barMin f e d( c) c \barMaior
+    d c d f( g) a f g g \barMin g a g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) g g a( f) f( g) g \barMin a g f( g f4.) f \barMaior
+    f4 f f e f d c( d) c \barMin d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a a b( g) a a \barMin g f e( d) e \barMaior
+    a g a b a b c( a) a \barMin
+    g f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a a b( g) a a \barMin g f e( d) e \barMaior
+    \mark\sipka f e d f( g) a g e e \barMin
+    e f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -14,21 +14,22 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d c( d) d d f( e d) c c d d \barMaior
-    f g f e( d c) \barMin d e f e d( e) d d \barFinalis
+    g4 a c c c d( e) c c d d \barMaior
+    e d c d( c a) \barMin
+    b g a( c) b g a a \barFinalis
   }
   \addlyrics {
     Je -- ho jmé -- no je kní -- že po -- ko -- je
-    a je -- ho trůn sto -- jí pev -- ně na -- vě -- ky.
+    a je -- ho trůn
+    sto -- jí pev -- ně na -- vě -- ky.
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 113"
-    placet = "tím, jak se stále drží při finále, poněkud únavná a málo zpěvná"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -37,12 +38,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( d c) c( d) d \barMin d c b a b( a g a) a \barMaior
-    f g a( b) a a b c d c( d e) d \barMin
-    c b a g a( f) g g \barFinalis
+    g4 a c( b) c( d) d \barMin
+    d c d( e) e d d \barMaior
+    e e d e d c b c a( g) g \barMin
+    a a g f g( a) g g \barFinalis
   }
   \addlyrics {
-    Je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né;
+    Je -- ho krá -- lov -- ství
+    je krá -- lov -- ství věč -- né;
     všich -- ni krá -- lo -- vé mu bu -- dou slou -- žit
     a bu -- dou ho po -- slou -- chat.
   }
@@ -51,7 +54,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 117"
-    placet = "_mu_ a _a_ je nepřirozené; celou druhou půli jinak"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -60,10 +62,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d d( a') a g f g( a) \barMaior
-    a c( b c) a g f( g) g( a) a \barMax
-    a b c c( d) d d c( b) a( b) a( g) \barMaior
-    g f e d( e) d c c( d) d \barFinalis
+    d4 d c d f e d( e) d d \barMin
+    f g( a) g f f g g \barMaior
+    a a a g f f e( f) d( c) c \barMin
+    d c d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tu by -- lo dá -- no vla -- dař -- ství
@@ -76,7 +78,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 4"
-    placet = "druhá půle je nejen extravagantní rozsahem, ale také nedrží úplně dobře pohromadě"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -89,13 +90,13 @@
     % R
     \neviditelna f
     f4 f g f f f g f g a a( g) \barMax
-    g g g( a) g( f) d f( g) g( f) f \barFinalis
+    g f g( a) g( f) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
     a4 g( a) g f g g( a) \barMax
     % R
     \neviditelna a
-    g g g( a) g( f) d f( g) g( f) f \barFinalis
+    g f g( a) g( f) d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -109,7 +110,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "r1 možná půjde jinak, lépe, při zohlednění jednoslabičného _moc_"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -338,7 +338,7 @@
     \choralniRezim
     g4 g g g( d' c) b c( a) g f g g \barMaior
     a b c( b) c( d) d \barMin c d e d c b b c a( g) g \barMaior
-    a a( c) b( a) a \barMin g( f g) a a g g \barFinalis
+    a a( c) b( a) a \barMin g( f) g( a) a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
@@ -350,7 +350,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
-    placet = "_přináší_ lépe; možná zkusit i celou melodii jinak"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
