@@ -2681,6 +2681,27 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f( d) d d f( e) g f \barMin g a \mark\sipka a( g f g) g \barMaior
+    a a a a g f f( g) f \barMin d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f( g) g g a( f) g g \barMin
     f g f( e d c) c \barMaior
     d c d d( f) f f g( a g) g \barMin
@@ -2821,6 +2842,72 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     e4 g g( a) a a b( g) a a \barMin g f e( d) e \barMaior
     \mark\sipka f e d f( g) a g e e \barMin
     e f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a a b( g) a a \barMin g f \mark\sipka d( e) e \barMaior
+    f e d f( g) a g e e \barMin
+    \mark\sipka f g e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a a b( g) a a \barMin g f d( e) e \barMaior
+    \mark\sipka e e e f e d f( g a g) g \barMin
+    g a g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a a b( g) a a \barMin g \mark\sipka a b( a) a \barMaior
+    e g a a g a b( a) a \barMin
+    a g f d( e) e \barFinalis
   }
   \addlyrics {
     Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.

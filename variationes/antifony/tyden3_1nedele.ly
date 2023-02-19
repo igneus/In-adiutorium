@@ -72,6 +72,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g f d c \barMin
+    \mark\sipka f e f a g \barMin
+    a a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Vez -- mu ka -- lich spá -- sy a bu -- du vzý -- vat
+    jmé -- no Hos -- po -- di -- no -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 116"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tInedeleInespAntIII }
 
 %\score { \tInedeleInespResp }
@@ -890,6 +911,27 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b g g a g f g g a a \barMin
+    \mark\sipka a a a a g f e d
+    d f e e \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 111"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}

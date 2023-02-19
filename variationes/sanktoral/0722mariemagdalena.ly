@@ -986,6 +986,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g f( g) a( g) g \barMaior
+    c4 d e c4. a \barMin \mark\sipka c4 b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Ma -- ri -- i:_* Že -- no, proč plá -- češ?
+    Ko -- ho hle -- dáš?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 122"
+    id = "ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {

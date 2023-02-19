@@ -2283,6 +2283,35 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 c d d( a' bes) a a \barMin
+    a a a g a( bes a g) \barMin
+    f g a f e d( e) d( c) \barMaior
+    d \mark\sipka d d c( d) d( f) f \barMin
+    g a g f( e d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te nej -- pr -- ve
+    Bo -- ží krá -- lov -- ství
+    a je -- ho spra -- ve -- dl -- nost
+    a všech -- no o -- stat -- ní
+    vám bu -- de při -- dá -- no.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 474"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"9. neděle"}}
@@ -2347,6 +2376,31 @@
     f( g a bes) a \barMin a g a g f f g g \barMaior
     a a g f e f d( c) c \barMin
     \mark\sipka d c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne kaž -- dý, kdo mi ří -- ká Pa -- ne, Pa -- ne,
+    ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství,
+    a -- le ten, kdo pl -- ní vů -- li
+    mé -- ho ne -- bes -- ké -- ho Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne9a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 d c d e f e f g f( d) d \barMaior
+    f( g a bes) a \barMin a g a g f f g g \barMaior
+    a a g f e f d( c) c \barMin
+    d c d f e c \mark\sipka d d \barFinalis
   }
   \addlyrics {
     Ne kaž -- dý, kdo mi ří -- ká Pa -- ne, Pa -- ne,
