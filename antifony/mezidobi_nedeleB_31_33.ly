@@ -6,22 +6,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( c d) d \barMin e( f) e f( g f e) e \barMaior
-    d( e) d c c( d) d \barMax
-
-    d d d( e) d d( f) d( e) e( d) \barMin
-    e e e( d c) c( d) d \barMax
-
-    f f g f e( d) e( f) d d \barMin
-    d d e d c c( d) d \barFinalis
+    d4 d c( d) d \barMin d( e) f d d \barMin
+    e d c c( d) d \barMaior
+    f f g f e( f) d( c) c \barMin
+    d c f e( d) d \barMaior
+    f g a g f g f( d) d \barMin
+    c d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Mi -- luj Pá -- na, své -- ho Bo -- ha,
     ce -- lým svým srd -- cem.
-
     Mi -- luj své -- ho bliž -- ní -- ho
     ja -- ko sám se -- be.
-
     Žád -- né ji -- né při -- ká -- zá -- ní
     ne -- ní vět -- ší než ta -- to.
   }
@@ -30,7 +26,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "prospěje zjednodušení, viz podobné"
     id = "ne31b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -39,17 +34,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    a4 a a g a( g) \barMin f g g g g( a) \barMax
-    bes bes a g a g \barMin f( g) g e e \barMaior
-    d d d d( f) e \barMin
-    f g bes a a \barMaior
-    bes a g a( g) f \barMin
-    f g( a) f e d d \barFinalis
+    a4 a a g g( a) \barMin a g f g e \barMax
+    f f g a g( a) a \barMin a( b) c a a \barMin
+    b a g g( a) a \barMaior
+    a b c a a \barMin
+    a g f g e \barMaior
+    d f( g a) a g( f) e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din, náš Bůh, je je -- di -- ný Pán.
-
     Pro -- to mi -- luj Pá -- na, své -- ho Bo -- ha,
     ce -- lým svým srd -- cem,
     ce -- lou svou du -- ší,
@@ -58,10 +51,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "a"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
-    placet = "_je_ nesmí být takto odsazené"
     id = "ne31b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -98,10 +90,10 @@
     \choralniRezim
     f4 g a( c) a a \barMin
     a a a a g a g f g( f d) d \barMaior
-    e e e f( g f) d d \barMax
+    f e f f( g f) d d \barMax
 
-    f( g a) g f( g) g g f( g f d) e( d) \barMaior
-    e d c f e c( d) d \barFinalis
+    f( g a) f f( g) g g f( g f d) e( d) \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Mno -- ho bo -- há -- čů
