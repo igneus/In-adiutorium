@@ -1273,8 +1273,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "per"
+    differentia = ""
     psalmus = "Dan 3-III"
     id = "rch-a2"
     fial = "fial://commune/commune_jedenmucednik.ly#rch-a2?jiny text"
