@@ -1017,6 +1017,9 @@
 
 \pageBreak
 
+\markup\justify{
+  Z této verze (a na ni navazujících) jsem vždycky měl rád melodii _na svém mlatě_.
+}
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -1044,7 +1047,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) a \barMin
     a b c d c a b a \barMaior
@@ -1065,6 +1068,120 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    placet = "hlavně úvodní části moc nedrží pohromadě"
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( b d e) d \barMin
+    d c b c a g a g \barMaior
+    f g a c c \barMin
+    d c c d e d( c a) a \barMaior
+    c b( c) a( g) g \barMin
+    a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jan ří -- kal:
+    Při -- chá -- zí moc -- něj -- ší než já,
+    a -- by pro -- čis -- til
+    o -- bi -- lí na svém mla -- tě
+    a pše -- ni -- ci
+    u -- lo -- žil na sýp -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( b d e) d \barMin
+    d c b c a g a g \barMaior
+    f g a \mark\sipka a( c) c \barMin
+    d c c d e d( c a) a \barMaior
+    c b( c) a( g) g \barMin
+    a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jan ří -- kal:
+    Při -- chá -- zí moc -- něj -- ší než já,
+    a -- by pro -- čis -- til
+    o -- bi -- lí na svém mla -- tě
+    a pše -- ni -- ci
+    u -- lo -- žil na sýp -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f( g) g \barMin
+    a g f g a a a g \barMaior
+    a c b( c) a a \barMin
+    c c c b a g( a) g \barMaior
+    g f( g) g( a) a \barMin
+    c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jan ří -- kal:
+    Při -- chá -- zí moc -- něj -- ší než já,
+    a -- by pro -- čis -- til
+    o -- bi -- lí na svém mla -- tě
+    a pše -- ni -- ci
+    u -- lo -- žil na sýp -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( g) g \barMin
+    a g f g a a a g \barMaior
+    a c b( c) a a \barMin
+    c c c b a g( a) g \barMaior
+    g f( g) g( a) a \barMin
+    \mark\sipka a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jan ří -- kal:
+    Při -- chá -- zí moc -- něj -- ší než já,
+    a -- by pro -- čis -- til
+    o -- bi -- lí na svém mla -- tě
+    a pše -- ni -- ci
+    u -- lo -- žil na sýp -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -212,13 +212,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g( a) a \barMin
-    a b c d c a b a \barMaior
-    c c c( d) c c \barMin
-    c c c d c e d \barMaior
-    d c( d c) c( a) a \barMin
+    d4 f( g) g \barMin
+    a g f g a a a g \barMaior
+    a c b( c) a a \barMin
+    c c c b a g( a) g \barMaior
+    g f( g) g( a) a \barMin
     c b a g( a) g g \barFinalis
   }
   \addlyrics {
@@ -231,10 +231,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
-    placet = "hlavně úvodní části moc nedrží pohromadě"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
