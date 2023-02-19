@@ -4270,7 +4270,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c( e d) c( d) d \barMin c b a g a g g \barMaior
     f( a) a \barMin c \mark\sipka c b a a g g \barFinalis
@@ -4284,6 +4284,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 116-II"
+    placet = "To melisma na _Ví_ se špatně zpívá - jednak že vykračuje z obvyklého
+    rozsahu modu hned na samém začátku melodie, jednak to asi má co dělat se samohláskou í"
     id = "so-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -4315,6 +4317,27 @@
     \choralniRezim
     \mark\sipka c( b c) c( d) d \barMin c b a g a g g \barMaior
     \mark\sipka a f a c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c( d) d( c) c \barMin c b a g a g g \barMaior
+    \mark\sipka f g a c b c a g g \barFinalis
   }
   \addlyrics {
     Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
