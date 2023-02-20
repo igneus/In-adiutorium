@@ -122,6 +122,7 @@ parser = OptionParser.new do |opts|
   opts.on '-a', '--diff-all', 'print diff for all mismatches'
   opts.on '-f', '--diff-full-score', 'diff full scores, not just the music part'
   opts.on '-M', '--mismatches', 'print only mismatches'
+  opts.on '-x', '--xargs', 'print only FIALs of offending scores, one per line (useful as input for the xargs command)'
   opts.on '-c PATH', '--children=PATH', 'check only children of the specified file or FIAL'
   opts.on '-s PATH', '--save=PATH', 'save list of mismatches to a file, report new mismatches not found in the save from the previous run'
   opts.on '--update_save', 'if save exists, update it'
@@ -129,6 +130,12 @@ end
 
 options = {}
 arguments = parser.parse ARGV, into: options
+if options[:xargs]
+  options[:mismatches] = true
+  if options[:save] || options[:update_save]
+    STDERR.puts 'WARNING: options --save and --update_save have no effect if combined with --xargs'
+  end
+end
 
 music_repository = MusicRepository.new
 fial_count = 0
@@ -169,6 +176,11 @@ arguments.each do |file_or_fial|
       next
     end
 
+    if options[:xargs]
+      puts score_ref
+      next
+    end
+
     puts header + 'MISMATCH'
     debug.(comparison)
     mismatches << score_ref
@@ -179,6 +191,8 @@ arguments.each do |file_or_fial|
     end
   end
 end
+
+exit if options[:xargs]
 
 puts
 puts "#{mismatches.size} mismatches in #{fial_count} fial references checked"
