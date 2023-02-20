@@ -1746,6 +1746,30 @@
   \relative c'' {
     \choralniRezim
     a4 c c d d \barMin
+    d e d c \mark\sipka c( d) c \barMin
+    b c a g a( g) g \barMaior
+    f g a a \mark\sipka a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c d d \barMin
     d e d c a a \barMin
     c b g a a( g) g \barMaior
     f g a a \mark\sipka a a a( c) b g g \barFinalis
@@ -1760,6 +1784,30 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "a"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g a a \barMin
+    a b a g a a \barMin
+    g f d f e e \barMaior
+    f g a a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 112"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
@@ -1806,6 +1854,31 @@
     modus = "II"
     differentia = "A"
     psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMin
+    d f( g) e f d d \barMin
+    f e d c d( c) c \barMaior
+    d c d f f f g( a f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    fial = "commune/commune_vicemucedniku.ly#rch-aben?zacatek&volne"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }

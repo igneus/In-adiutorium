@@ -1411,6 +1411,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \key d \minor
+
+    \choralniRezim
+    a4 a a g( a) g g \barMin f g a a bes a g a a \barMaior
+    c c c a g f \barMin g d f e d d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a při -- ja -- la po -- žeh -- ná -- ní od Hos -- po -- di -- na,
+    od -- mě -- nu od Bo -- ha, své -- ho spa -- si -- te -- le.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

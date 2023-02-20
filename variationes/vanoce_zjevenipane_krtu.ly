@@ -1166,6 +1166,34 @@
   \score {
     \relative c'' {
       \choralniRezim
+      g4 g g f( e f g) g \barMin
+      c b a c( b) g g \barMaior
+      a a a f( e d) \barMin
+      f g g( a) f f( g) g \barMaior
+      \mark\sipka a b c d c b c a( g) \barMin
+      a f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Když Kris -- tus vstou -- pil
+      do ře -- ky Jor -- dá -- nu,
+      pra -- me -- ny vod
+      by -- ly po -- svě -- ce -- ny,
+      a -- by se člo -- věk mo -- hl stát
+      no -- vým stvo -- ře -- ním.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "krtu-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       d4 d d c( b g a) a( g) \barMin
       a g f g( a) g g \barMaior
       a c b c( d) \barMin

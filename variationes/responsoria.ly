@@ -700,6 +700,37 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g f g( a) a( g) \barMax
+      \mark\sipka g4 a g f( d) f( g) g f \barFinalis
+      % V
+      \neviditelna g
+      a( bes) a a g a a( g) \barMax
+      % R
+      \neviditelna g
+      \mark\sipka g4 a g f( d) f( g) g f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response U -- zdrav mě, Hos -- po -- di -- ne,_* zhře -- šil jsem pro -- ti to -- bě.
+      \Verse Smi -- luj se na -- de mnou,
+      \Response zhře -- šil jsem pro -- ti to -- bě.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1po-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \markup\nadpisDen{"úterý"}
