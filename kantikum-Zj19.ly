@@ -6,19 +6,22 @@
 
 \include "spolecne.ly"
 
-\markup {
-  \justify {
-Nápěv a rozložení refrénů Aleluja je převzatý z materiálů z webu
-\with-url "http://www.transitofvenus.nl/LiturgiaHorarum/" {
-\italic {Liturgia horarum in cantu gregoriano} (http://www.transitofvenus.nl/LiturgiaHorarum/)
-  } . Rozložením refrénů se tedy drobně liší od schváleného textu českého breviáře.
-}
+\markup\justify {
+  Nápěv podle webu
+  \with-url "http://www.kleingraduale.nl/LiturgiaHorarum/" {
+    \italic {Liturgia horarum in cantu gregoriano} (http://www.kleingraduale.nl/LiturgiaHorarum/).
+  }
+  Srov. též \italic{Antiphonale Romanum II,} Solesmes 2009, s. 457 a par.
+  Aleluja na začátku veršů latinské zpěvníky vynechávají (proto zde v závorkách),
+  ale my ho doplňujeme, aby se učinilo zadost přesnému textu podle breviáře.
 }
 
 % melodie aleluja
+mial = { f4 f g f \barMin }
 mal = { \barFinalis \neviditelna f f f d c \barFinalis \break }
 malal = { \barFinalis \neviditelna a a a( g) g f \barMin d f( g) g f \barFinalis \break }
 % text aleluja
+ial = \lyricmode { (A -- le -- lu -- ja.) }
 al = \lyricmode { \Response A -- le -- lu -- ja. }
 alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
@@ -27,6 +30,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     \choralniRezim
     % Vitezstvi..
     \neviditelna f
+    \mial
     f f f f f f f f f e g a
     \mal
     \neviditelna f
@@ -35,6 +39,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
     % Chvalte...
     \neviditelna f
+    \mial
     f f f f f f f f f f e g a a
     \mal
     \neviditelna f
@@ -43,6 +48,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
     % Pan, nas...
     \neviditelna f
+    \mial
     f f f f f f f f e g a a
     \mal
     \neviditelna f
@@ -51,6 +57,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
     % Nebot...
     \neviditelna f
+    \mial
     f f f f f f f f e g a
     \mal
     \neviditelna f
@@ -74,22 +81,26 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     \malal
   }
   \addlyrics {
-    \Verse Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
+    \Verse \ial
+    Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
     \al
     \Verse ne -- boť je -- ho sou -- dy jsou prav -- di -- vé a spra -- ved -- li -- vé.
     \alal
 
-    \Verse Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
+    \Verse \ial
+    Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
     \al
     \Verse a kdo se ho bo -- jí -- te, ma -- lí i vel -- cí!
     \alal
 
-    \Verse Pán, náš Bůh vše -- vlád -- ný se u -- jal krá -- lov -- ství!
+    \Verse \ial
+    Pán, náš Bůh vše -- vlád -- ný se u -- jal krá -- lov -- ství!
     \al
     \Verse Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest!
     \alal
 
-    \Verse Ne -- boť na -- de -- šla Be -- rán -- ko -- va svat -- ba,
+    \Verse \ial
+    Ne -- boť na -- de -- šla Be -- rán -- ko -- va svat -- ba,
     \al
     \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
     \alal
