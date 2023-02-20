@@ -52,7 +52,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     f f f f f f f f e g a a
     \mal
     \neviditelna f
-    f f f f f f f f f f e g( a)
+    f f f f f f f f f e g a
     \malal
 
     % Nebot...

@@ -101,6 +101,18 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
+    \neviditelna f
+    f f f f f f f f f \mark\sipka e g a
+  }
+  \addlyrics {
+    \Verse Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest!
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
     % Slava...
     \neviditelna f
     f f f f e g a
@@ -127,12 +139,5 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     \al
     \Verse a na vě -- ky vě -- ků. A -- men.
     \alal
-  }
-  \header {
-    quid = ""
-    modus = ""
-    differentia = ""
-    psalmus = ""
-    id = ""
   }
 }
