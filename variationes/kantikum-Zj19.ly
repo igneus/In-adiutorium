@@ -59,18 +59,10 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
     % Slava...
     \neviditelna f
-    f f f f e g a
+    f f f f f f f f f e g a a
     \mal
     \neviditelna f
-    f f e g a a
-    \malal
-
-    % Jako byla...
-    \neviditelna f
-    f f f f f f f f f f f e g a
-    \mal
-    \neviditelna f
-    f f f f f e g a
+    f f f f f f e g a
     \malal
   }
   \addlyrics {
@@ -94,6 +86,38 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la.
     \alal
 
+    \Verse Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
+    \al
+    \Verse po všech -- ny vě -- ky vě -- ků. A -- men.
+    \alal
+  }
+  \header {
+    piece = "kantikum Zj 19 - modus VI"
+    id = "vi"
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    % Slava...
+    \neviditelna f
+    f f f f e g a
+    \mal
+    \neviditelna f
+    f f e g a a
+    \malal
+
+    % Jako byla...
+    \neviditelna f
+    f f f f f f f f f f f e g a
+    \mal
+    \neviditelna f
+    f f f f f e g a
+    \malal
+  }
+  \addlyrics {
     \Verse Slá -- va Ot -- ci i Sy -- nu
     \al
     \Verse i Du -- chu sva -- té -- mu.
@@ -105,7 +129,10 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     \alal
   }
   \header {
-    piece = "kantikum Zj 19 - modus VI"
-    id = "vi"
+    quid = ""
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
   }
 }
