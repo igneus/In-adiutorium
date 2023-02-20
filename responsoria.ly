@@ -210,13 +210,13 @@ doxologieResponsoriumVI = \relative c'' {
       % R
       \neviditelna f
       f4 f f f f g( f) g( a) a( g) \barMax
-      g( f d) f g g f f \barFinalis
+      f( d) f g g f f \barFinalis
       % V
       \neviditelna a
-      a a a a a( bes) a( g) g( a) a( g) \barMax
+      a a a a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g( f d) f g g f f \barFinalis
+      f( d) f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }
@@ -229,7 +229,6 @@ doxologieResponsoriumVI = \relative c'' {
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "verš je dost netypický"
       id = "1po-rch"
       piece = \markup\sestavTitulekResp
     }

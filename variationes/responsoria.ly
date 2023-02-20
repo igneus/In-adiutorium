@@ -478,6 +478,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -502,6 +503,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "verš je dost netypický"
       id = "1po-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -587,6 +589,38 @@ doxologieResponsoriumVI = {}
       \mark\sipka f( d) f g g f f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Po -- žeh -- na -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
+      \Verse Je -- nom on sám ko -- ná di -- vy_*
+      \Response od vě -- ků na vě -- ky.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1po-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f g( f) g( a) a( g) \barMax
+      f( d) f g g f f \barFinalis
+      % V
+      \neviditelna a
+      a a a a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      f( d) f g g f f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Po -- žeh -- na -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
