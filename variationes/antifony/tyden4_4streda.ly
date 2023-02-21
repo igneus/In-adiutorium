@@ -738,6 +738,29 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a a( c) c \mark\sipka \barMin
+    b c a( g) g \barMaior
+    a g f g a \mark\sipka g g \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě,
+    Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g g( a) a
@@ -986,8 +1009,48 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d d( f) f \barMin g a g g \barMaior
+    \mark\sipka f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a a g f g g \barMin
     g f d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g a a \barMin
+    a g f g a g( f) f \barFinalis
   }
   \addlyrics {
     Vo -- lám k_to -- bě, Hos -- po -- di -- ne,

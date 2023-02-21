@@ -858,6 +858,24 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f e d( e) c \barMin
+    d e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d f e( f) d \barMin
     c a c c( d) d \barFinalis
   }
@@ -999,6 +1017,40 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d d( f) f \barMin \mark\sipka e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin \mark\sipka f e c e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f f e( f) d \barMin f e c c( d) d \barFinalis
   }
   \addlyrics {
@@ -1070,6 +1122,42 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d e f( d) d \barMin e c d e d d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f( d) d \barMin e c a c d d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d d( c a) a \barMin d e f d d( c) d \barFinalis
   }
   \addlyrics {
@@ -1107,6 +1195,42 @@
   \relative c' {
     \choralniRezim
     d4 c d d( f) f \barMin g g f e d d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e d d \barMin e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d e( c) c \barMin d e f d c( d) d \barFinalis
   }
   \addlyrics {
     Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.

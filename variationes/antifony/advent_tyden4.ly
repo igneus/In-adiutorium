@@ -26,6 +26,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -40,6 +42,46 @@
     quid = "2. ant."
     modus = "III"
     differentia = "a"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin d e c d d \barMaior
+    d d c( a) a bes a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Přijď, Pa -- ne, a ne -- pro -- dlé -- vej;
+    za -- hlaď hří -- chy své -- ho li -- du.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin d e c d d \barMaior
+    d d c( a) a \mark\sipka a( bes) g a a \barFinalis
+  }
+  \addlyrics {
+    Přijď, Pa -- ne, a ne -- pro -- dlé -- vej;
+    za -- hlaď hří -- chy své -- ho li -- du.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 130"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
