@@ -331,8 +331,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f( g) g \barMin b c a g a g f \barMaior
-    c'( d) d d d( c) \barMin b g f g( a g) g \barFinalis
+    f4 g g( a) a \barMin b c a g a g f \barMaior
+    c' d d d( c) \barMin a g f g( a g) g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
@@ -343,7 +343,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "začátek o sekundu nahoru; zkusit celou lépe?"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

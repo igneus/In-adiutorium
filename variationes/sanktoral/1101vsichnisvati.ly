@@ -1255,8 +1255,18 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Hymnus ómnibus sanctis eius,
+    fíliis Israel, pópulo appropinquánti sibi;
+    glória hæc est ómnibus sanctis eius.
+  }
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f( g) g \barMin b c a g a g f \barMaior
     c'( d) d d d( c) \barMin b g f g( a g) g \barFinalis
@@ -1281,6 +1291,27 @@
     \choralniRezim
     \mark\sipka g4 g g( a) a \barMin b c a g a g f \barMaior
     \mark\sipka c' d d c \barMin a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 g g( a) a \barMin b c a g a g f \barMaior
+    c' d d \mark\sipka d( c) \barMin a g f g( a g) g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
