@@ -1001,6 +1001,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c( b) c a a \barMin
     b c a a( g) f( e) e \barMax
@@ -1021,6 +1022,33 @@
     differentia = "c"
     psalmus = ""
     placet = "poslední část nedrží se zbytkem pohromadě"
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c a a \barMin
+    a c b a( b) a( g) g \barMaior
+    f g a a g a c b \barMin
+    c c a g a g f \barMaior
+    d f g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
     id = "ne5b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1080,6 +1108,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
     \choralniRezim
     g4 f a g g \barMin
     a c b a( g) f( g) g \barMaior

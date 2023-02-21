@@ -218,11 +218,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c( b) c a a \barMin
-    b c a a( g) f( e) e \barMax
-    g a( c) c c b c d( c) c \barMin
-    d c b c a( g) a a( g) \barMax
-    d f g a( g f) f( g) g \barFinalis
+    c4 b c a a \barMin
+    a c b a( b) a( g) g \barMaior
+    f g a a g a c b \barMin
+    c c a g a g f \barMaior
+    d f g a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer
@@ -236,7 +236,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "poslední část nedrží se zbytkem pohromadě"
     id = "ne5b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
