@@ -255,6 +255,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 g a g f g g \barMaior
     g a4.( c) \bar ";" \[ d4(^\markup{možno vynechat} c b \] \[ c d c b \] \[ a4. g \] \barMin \[ a4 c d c) \] \bar ";"
@@ -270,6 +271,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Flp 2"
+    placet = "volitelné melisma lépe nebo pryč"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -321,6 +323,30 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e d f( g a g) g \barMaior
+    g \[ \mark\sipka a( bes a g \] \[ f g) \] \barMaior
+    g4 f e f( d c) c \barMin d( f) e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- ší je -- di -- nou chlou -- bou
+    je kříž
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    fial = "pust_svatytyden.ly#odpo?konec=15"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     f4 f g a f f( g) g \barMaior
     g f( g f d e4. d) \barMin
@@ -343,8 +369,22 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    R. \bold{Hoc signum erit in cælo, * Cum Dóminus vénerit.}
+    V. Leváte cápita vestra: appropínquat redémptio vestra.
+  }
+}
+\markup\justify{
+  DMC se snaží být bibličtější a na první dobrou srozumitelnější -
+  a je výrazně ukecanější, což je nevýhodné z hlediska použitelnosti
+  tradičního nápěvu krátkých responsorií.
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -373,6 +413,177 @@
     quid = "resp."
     modus = "IV"
     placet = "úplně celé marné není, ale jako celek nic moc"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna g
+    g4 g a g f g g( a) a \barMax
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
+    % V
+    \neviditelna g
+    g( d' e) d d \barMin d e( f) d c c( d) d \barMaior
+    d d d d c( b a4.) a \barMin c4 b g a a( g) g \barMax
+    % R
+    \neviditelna a
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
+    % Slava
+    g( d' e) d e( f) d c c( d) d \barMin d c b c( a) g g \barFinalis
+  }
+  \addlyrics {
+    \Response Až se při -- blí -- ží den sou -- du,_*
+    ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \Verse Vzpřim -- te se a zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží va -- še vy -- kou -- pe -- ní;_*
+    \Response ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VII"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna g
+    g4 g a g f g g( a) a \barMax
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
+    % V
+    \neviditelna g
+    g( d' e) d d \barMin d e( f) d c c( d) d \barMaior
+    d d \mark\sipka c b c( a g4.) g \barMin a4 g f g g( a) a \barMax
+    % R
+    \neviditelna a
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
+    % Slava
+    g( d' e) d e( f) d c c( d) d \barMin d c b c( a) g g \barFinalis
+  }
+  \addlyrics {
+    \Response Až se při -- blí -- ží den sou -- du,_*
+    ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \Verse Vzpřim -- te se a zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží va -- še vy -- kou -- pe -- ní;_*
+    \Response ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VII"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna g
+    g4 g a g f g g( a) a \barMax
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
+    % V
+    \neviditelna g
+    g( d' e) d d \barMin d e( f) d c c( d) d \barMaior
+    d d c b c( a g4.) g \barMin a4 g f g g( a) a \barMax
+    % R
+    \neviditelna a
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
+    % Slava
+    g( d' e) d e( f) d c c( d) d \barMin d c b \mark\sipka a( b) g g( a) \barFinalis
+  }
+  \addlyrics {
+    \Response Až se při -- blí -- ží den sou -- du,_*
+    ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \Verse Vzpřim -- te se a zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží va -- še vy -- kou -- pe -- ní;_*
+    \Response ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VII"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f f g( a) a( g) \barMax
+    g g g f g( a) g g \barMin g g g( f d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a \barMin a a a a g( a) g \barMaior
+    g g g g a g g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g f g( a) g g \barMin g g g( f d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Až se při -- blí -- ží den sou -- du,_*
+    ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \Verse Vzpřim -- te se a zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží va -- še vy -- kou -- pe -- ní;_*
+    \Response ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f \mark\sipka g g( a) a( g) \barMax
+    g g g f g( a) g g \barMin \mark\sipka g f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a \barMin a a a a g( a) g \barMaior
+    g g g \mark\sipka f g( a) g \barMin g \mark\sipka f g a a( g) g \barMax
+    % R
+    \neviditelna a
+    g g g f g( a) g g \barMin \mark\sipka g f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Až se při -- blí -- ží den sou -- du,_*
+    ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \Verse Vzpřim -- te se a zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží va -- še vy -- kou -- pe -- ní;_*
+    \Response ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -483,6 +694,29 @@
     d4 c f g f( a) a \barMin
     a a( b c) a a \barMaior
     g f \mark\sipka e( f d) d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus mu -- sel tr -- pět
+    a vstát z_mrt -- vých,
+    a tak ve -- jít do své slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a a( b c) a a \barMaior
+    g f \mark\sipka e( f d c) c d( f) e d d \barFinalis
   }
   \addlyrics {
     Kris -- tus mu -- sel tr -- pět

@@ -61,45 +61,45 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 g a g f g g \barMaior
-    g a4.( c) \bar ";" \[ d4(^\markup\small\italic{možno vynechat} c b \] \[ c d c b \] \[ a4. g \] \barMin \[ a4 c d c) \] \bar ";"
-    c4( d e) c b a a \barMin g( f e) f g a( g) g \barFinalis
+    d4 d f e d f( g a g) g \barMaior
+    g \[ a( bes a g \] \[ f g) \] \barMaior
+    g4 f e f( d c) c \barMin d( f) e d c( d) d \barFinalis
   }
   \addlyrics {
     Na -- ší je -- di -- nou chlou -- bou
-    je kříž \skip 1
+    je kříž
     na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "I"
+    differentia = "D"
     psalmus = "Flp 2"
-    placet = "volitelné melisma lépe nebo pryč"
+    fial = "pust_svatytyden.ly#odpo?konec=15"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
 
     % R
-    \neviditelna e
-    e e a a a g g( a) a \barMax
-    a( b a) g( a) g a g e e \barMin f f f f( g a) f e( f) e e \barFinalis
+    \neviditelna g
+    g4 g a g f g g( a) a \barMax
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
     % V
-    \neviditelna a
-    e( a) a a \barMin g e( a) a a b( a) a \barMaior
-    a a a a f( e d) d \barMin e e f( a) g g( a) a \barMax
+    \neviditelna g
+    g( d' e) d d \barMin d e( f) d c c( d) d \barMaior
+    d d c b c( a g4.) g \barMin a4 g f g g( a) a \barMax
     % R
     \neviditelna a
-    a( b a) g( a) g a g e e \barMin f f f f( g a) f e( f) e e \barFinalis
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
     % Slava
-    e( a) a a( g) g b b( a) a \barMin f g a g( a) a a \barFinalis
+    g( d' e) d e( f) d c c( d) d \barMin d c b c( a) g g \barFinalis
   }
   \addlyrics {
     \Response Až se při -- blí -- ží den sou -- du,_*
@@ -111,8 +111,7 @@
   }
   \header {
     quid = "resp."
-    modus = "IV"
-    placet = "úplně celé marné není, ale jako celek nic moc"
+    modus = "VII"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -139,6 +138,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
