@@ -103,6 +103,48 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a \mark\sipka g( f) g( a) a \barMaior
+    a4 bes a a g( a) f e f d d \barMin e d c d d \barFinalis
+  }
+  \addlyrics {
+    Když se pos -- tí -- te,
+    ne -- dě -- lej -- te ztrá -- pe -- ný ob -- li -- čej
+    ja -- ko po -- kryt -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a \mark\sipka g( a) g g \barMaior
+    a4 bes a a g( a) f e f d d \barMin e d c d d \barFinalis
+  }
+  \addlyrics {
+    Když se pos -- tí -- te,
+    ne -- dě -- lej -- te ztrá -- pe -- ný ob -- li -- čej
+    ja -- ko po -- kryt -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c a c b( g) a \barMaior
     g e e e f e f g a a \barMin
     b c b( a) g g \barFinalis
@@ -116,6 +158,28 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g( a) g g \barMaior
+    a c c c b( c) a g a g g \barMin
+    a g f g g \barFinalis
+  }
+  \addlyrics {
+    Když se pos -- tí -- te,
+    ne -- dě -- lej -- te ztrá -- pe -- ný ob -- li -- čej
+    ja -- ko po -- kryt -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -1461,6 +1461,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a a( b) g g( a) a \barMin
+    a g a g f d e e \barMaior
+    a b c( a) \barMin g a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -608,6 +608,28 @@
   \score {
     \relative c' {
       \choralniRezim
+      g'4( a) a-- g a b g g( a) a \barMin
+      a g \mark\sipka f e( d) e e \barMaior
+      \mark\sipka f e e f a g f( e) e \barFinalis
+    }
+    \addlyrics {
+      Vrať nás, Hos -- po -- di -- ne, k_so -- bě,
+      a my se vrá -- tí -- me,
+      ob -- nov nám bý -- va -- lé ča -- sy.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       c4 d f g f e c( d) d \barMin
       f e d c( d) c c \barMaior
       f d d f g f d d \barFinalis
@@ -763,6 +785,27 @@
     \relative c'' {
       \choralniRezim
 
+      a4 c b a b g g e \barMin
+      f f f g a f e e \barFinalis
+    }
+    \addlyrics {
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+
       c4 a a c b g a g \barMin
 
     }
@@ -885,6 +928,27 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      a4 a g f g a a g \barMin
+      a a a b c a g g \barFinalis
+    }
+    \addlyrics {
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {
@@ -954,6 +1018,52 @@
       psalmus = ""
       placet = "melisma na konci _bezbožný_ je netypické (není ani na konci fráze);
       dnes už bych to takhle asi nenapsal, ale tady se mi zatím líbí"
+      id = "sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      g4 g f g \mark\sipka g a f( g) g \barMaior
+      a4 b c c c d d c d a \barMin
+      f4 g g \barFinalis
+    }
+    \addlyrics {
+      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel,
+      a -- le a -- by se o -- brá -- til a žil,
+      pra -- ví Pán.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      a4 a a a g f g g( a) a \barMaior
+      a4 b c c c d c b c a \barMin
+      g f g \barFinalis
+    }
+    \addlyrics {
+      Ne -- chci, a -- by bez -- bož -- ný ze -- mřel,
+      a -- le a -- by se o -- brá -- til a žil,
+      pra -- ví Pán.
+    }
+    \header {
+      quid = "ant. v poledne"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = ""
       id = "sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
