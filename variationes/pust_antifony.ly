@@ -387,7 +387,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       e4 g g( a) a \barMin
       a g e f e d e e \barFinalis
@@ -408,9 +408,30 @@
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
       e4 g \mark\sipka a a \barMin
       a g e f e d e e \barFinalis
+    }
+    \addlyrics {
+      Ob -- rať -- te se
+      a věř -- te e -- van -- ge -- li -- u!
+    }
+    \header {
+      quid = "ant."
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 g a a \barMin
+      a \mark\sipka b g a g f e e \barFinalis
     }
     \addlyrics {
       Ob -- rať -- te se
