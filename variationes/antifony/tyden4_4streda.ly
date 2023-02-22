@@ -377,12 +377,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 f g a c c c \barMin
     \mark\sipka a g f a g g \barFinalis
 
     f^\rubrVelikAleluja \mark\sipka a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te Hos -- po -- di -- na,
+    všech -- na je -- ho dí -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 103-III"
+    id = "cte-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka a g a c c c \barMin
+    a g f a g g \barFinalis
+
+    f^\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te Hos -- po -- di -- na,
@@ -418,6 +443,30 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 103-III"
+    id = "cte-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b a g g \barMin
+    a g f a g g \barFinalis
+
+    a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te Hos -- po -- di -- na,
+    všech -- na je -- ho dí -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 103-III"
     id = "cte-ant3"
     piece = \markup {\sestavTitulek}
