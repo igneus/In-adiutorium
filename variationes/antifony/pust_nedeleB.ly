@@ -927,6 +927,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( e) e f( e) f f( g) g \barMin
     f( g) a( c) b( a) a \barMaior
@@ -1129,6 +1130,59 @@
     c c c b a g g \barMin
     g f g g( a) a \barMin
     a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu,
+    a -- by se u -- ká -- za -- lo,
+    že je -- ho skut -- ky
+    jsou vy -- ko -- ná -- ny v_Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    a \mark\sipka c( b) a( g) g \barMaior
+    c \mark\sipka d c b a g g \barMin
+    \mark\sipka a f e d( e) d \barMin
+    d f g a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu,
+    a -- by se u -- ká -- za -- lo,
+    že je -- ho skut -- ky
+    jsou vy -- ko -- ná -- ny v_Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    \mark\sipka c b( c) a( g) g \barMaior
+    c d c b a g g \barMin
+    a f e d( e) d \barMin
+    d f g a f f( g) g \barFinalis
   }
   \addlyrics {
     Kdo jed -- ná po -- dle prav -- dy,
