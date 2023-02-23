@@ -114,5 +114,22 @@ module Typographus
         .sub(/\\neviditelna\s+[a-g]\s+/, '')
         .sub(/(\\addlyrics\s*{\s*)(\\\w+)+(\{.*?\})?\s+/, '\1')
     end
+
+    def add_header(ly, name, value=nil)
+      unless name =~ /^[a-z_]+$/i
+        raise "Invalid LilyPond header name #{name.inspect}"
+      end
+
+      id_re = /^(\s*)id\s*=\s*".*?"/
+      unless ly =~ id_re
+        raise "'id' header not found'"
+      end
+
+      ly.sub(id_re) do |id_header|
+        Regexp.last_match[1] +
+          "#{name} = \"#{value}\"\n" +
+          id_header
+      end
+    end
   end
 end

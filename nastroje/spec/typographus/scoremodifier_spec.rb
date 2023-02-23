@@ -396,4 +396,63 @@ describe Typographus::ScoreModifier do
 }'
     end
   end
+
+  describe '#add_header' do
+    let(:score) do
+'\score {
+  \relative c'' { \choralniRezim \neviditelna c c }
+  \header {
+    id = "id"
+  }
+}'
+    end
+
+    it 'adds a new header' do
+      expect(subject.add_header(score, 'new_header', 'value'))
+        .to eq '\score {
+  \relative c'' { \choralniRezim \neviditelna c c }
+  \header {
+    new_header = "value"
+    id = "id"
+  }
+}'
+    end
+
+    it 'works with value unspecified' do
+      expect(subject.add_header(score, 'new_header'))
+        .to eq '\score {
+  \relative c'' { \choralniRezim \neviditelna c c }
+  \header {
+    new_header = ""
+    id = "id"
+  }
+}'
+    end
+
+    describe 'invalid header names' do
+      [
+        'header1',
+        'with spaces',
+        '#$%^&',
+      ].each do |name|
+        it "fails on #{name.inspect}" do
+          expect { subject.add_header score, name }
+            .to raise_exception /Invalid LilyPond header name/
+        end
+      end
+    end
+
+    it 'fails if there\'s no id header' do
+      # the method requires the score to already have t
+      he 'id' header field,
+      ly = '\score {
+  \relative c'' { \choralniRezim \neviditelna c c }
+  \header {
+    not_id = "id"
+  }
+}'
+      expect { subject.add_header ly, 'new_header' }
+        .to raise_exception /header not found/
+    end
+  end
 end
