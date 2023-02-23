@@ -28,6 +28,7 @@ bgcolor =
 #})
 
 % zeleny - kandidat na misto v oficialni verzi
+% (cim vyssi cislo, tim mene horky kandidat)
 zvyraznovacZeleny = { \bgcolor "(rgb-color 0.3 1 0.3)" }
 zvyraznovacZelenyII = { \bgcolor "(rgb-color 0.6 1 0.6)" }
 zvyraznovacZelenyIII = { \bgcolor "(rgb-color 0.8 1 0.8)" }
