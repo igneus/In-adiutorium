@@ -41,7 +41,7 @@
     \choralniRezim
     a4 a \barMin g a b g g( a) a \barMaior
     a g a e \barMin
-    e f g g( a) a c b a a \barMaior
+    f g a a( g) a c b a a \barMaior
     a a a g( f e) d \barMaior
     c d e e f g a g f( g) g e e \barFinalis
   }
