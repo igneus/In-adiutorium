@@ -95,3 +95,67 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g a a \barMin
+    a g a \mark\sipka c b a a \barMaior
+    c \mark\sipka b c a \barMin
+    a a a \mark\sipka g f f g a g f d d \barMin
+    d d d e f \mark\sipka d c c \barMax
+
+    \mark\sipka d f e d e( f d c) c \barMaior
+    f f g a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne Je -- ží -- ši Kris -- te,
+    můj dob -- rý u -- či -- te -- li,
+    dě -- ku -- ji ti,
+    že jsem s_tvou po -- mo -- cí do -- ká -- za -- la sná -- šet
+    všech -- ny ú -- tra -- py mu -- če -- ní;
+
+    dej, ať šťast -- ně do -- jdu
+    do tvé ne -- po -- mí -- je -- jí -- cí slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g a a \barMin
+    a g a c b a a \barMaior
+    c b c a \barMin
+    a a a g f f g a g f d d \barMin
+    d d d e f d c c \barMax
+
+    d f e \mark\sipka f a( g f g) g \barMaior
+    f e f g f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne Je -- ží -- ši Kris -- te,
+    můj dob -- rý u -- či -- te -- li,
+    dě -- ku -- ji ti,
+    že jsem s_tvou po -- mo -- cí do -- ká -- za -- la sná -- šet
+    všech -- ny ú -- tra -- py mu -- če -- ní;
+
+    dej, ať šťast -- ně do -- jdu
+    do tvé ne -- po -- mí -- je -- jí -- cí slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

@@ -5137,6 +5137,30 @@ se bude hodit.}
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a f e d( e) e \barMin
+    f g a a b a b c( a) a \barMaior
+    a g( a g) f e d e e \barFinalis
+  }
+  \addlyrics {
+    Roz -- ptyl, Hos -- po -- di -- ne,
+    ty, kdo v_srd -- ci smý -- šle -- jí pyš -- ně
+    a po -- vyš po -- ní -- že -- né.
+  }
+  \header {
+    textus_approbatus = "Hospodine, rozptyl ty, kdo v srdci smýšlejí pyšně a povyš ponížené."
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "t2-st-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 % ctvrtek
@@ -5348,6 +5372,51 @@ ale sám o sobě se mi líbí.}
   \relative c' {
     \choralniRezim
     e4 g a a \barMin
+    a a a b a a g a g( f e) e \barMaior
+    \mark\sipka e f e d f g g( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    e4 g a a \barMin
+    a a a b a a g a g( f e) e \barMaior
+    e f e d \mark\sipka f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a \barMin
     a a a b a a g a \mark\sipka a( b) b \barMaior
     b a( b) a a g f e e \barFinalis
   }
@@ -5394,6 +5463,52 @@ ale sám o sobě se mi líbí.}
     e4 g a a \barMin
     a a a b a a g a a( b) b \barMaior
     b c a a \mark\sipka g( a g) f e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    e4 g a a \barMin
+    a a a b a a g a a( b) b \barMaior
+    b c a \mark\sipka g a g e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    e4 g a a \barMin
+    a a a b a a g a a( b) b \barMaior
+    b c a g \mark\sipka f g e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,

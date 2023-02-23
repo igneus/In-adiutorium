@@ -680,6 +680,64 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f \mark\sipka e d e f d d \barMin
+    d f f f e c c( d) d \barMaior
+    d \mark\sipka f( g) g f g a( g) g \barMin
+    f( g f) e d d \barMaior
+    \mark\sipka e c d f f f
+    e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Když u -- vi -- díš na -- hé -- ho, ob -- lék -- ni ho
+    a ne -- po -- hr -- dej svým bra -- trem;
+
+    tvůj pří -- klad bu -- de zá -- řit
+    ja -- ko svět -- lo
+    a tvá spra -- ve -- dl -- nost
+    pů -- jde před te -- bou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d e f d d \barMin
+    d f f f e c c( d) d \barMaior
+    d f( g) g f g a( g) g \barMin
+    f( g f) e d d \barMaior
+    \mark\sipka a c c d d d
+    e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Když u -- vi -- díš na -- hé -- ho, ob -- lék -- ni ho
+    a ne -- po -- hr -- dej svým bra -- trem;
+
+    tvůj pří -- klad bu -- de zá -- řit
+    ja -- ko svět -- lo
+    a tvá spra -- ve -- dl -- nost
+    pů -- jde před te -- bou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

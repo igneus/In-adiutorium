@@ -611,6 +611,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a g( c) c \barMin
+    \mark\sipka d c d d c c \barMin
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Dej, ať zá -- hy
+    do -- jdu tvé mi -- los -- ti,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 143"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a \mark\sipka a( c) c \barMin
     c( d) c b a g g \barMin
     f g a g \barFinalis
@@ -839,6 +861,42 @@
     \zvyraznovacModry
     \choralniRezim
     c4. a c4 c b a g g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh si za -- slou -- ží chvá -- ly.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-I"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4. a c4 \mark\sipka a g a g g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh si za -- slou -- ží chvá -- ly.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-I"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4. a c4 \mark\sipka b a b g g \barFinalis
   }
   \addlyrics {
     Náš Bůh si za -- slou -- ží chvá -- ly.

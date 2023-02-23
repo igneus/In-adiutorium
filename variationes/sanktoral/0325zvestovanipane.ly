@@ -2930,3 +2930,36 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d e( f) d d e d c d d c c \barMaior
+
+    d4 f( d) d
+    d e f g( f) e \barMin
+    d c( d) d \barMaior
+    d d c d d f e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
+
+    Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+    Pán s_te -- bou!
+    Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    fons = "druhá část: advent, uprostřed dne, ant. v poledne"
+    fial = "fial://advent_antifony.ly#spol-sexta?konec&+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
