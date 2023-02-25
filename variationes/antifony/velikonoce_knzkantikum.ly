@@ -128,6 +128,31 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 f g( a g) g \barMin
+    f g a a g( a) a \barMaior
+    c c b( c a) a \barMin
+    c b a g( a) g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať ti slou -- ží_*
+    všech -- no tvor -- stvo, Bo -- že,
+    ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 4"
+    id = "t1-ut"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a c( d) d \barMin
     c d e c c( d) d \barMaior
     a d b( c) a( g) \barMin

@@ -291,6 +291,28 @@
   \relative c' {
     \choralniRezim
     d4 e f f f f e d c c f( g) f g a a \barMin
+    a( c) b a( g) g( a) a \barMaior
+    a \mark\sipka g( a) g( f) e f d d \barFinalis
+  }
+  \addlyrics {
+    Při -- po -- mí -- nej -- me si dob -- ro -- di -- ní Pan -- ny Ma -- ri -- e,
+    Mat -- ky Kar -- me -- lu,
+    a ra -- duj -- me se v_Pá -- nu.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f f f e d c c f( g) f g a a \barMin
     \mark\sipka c c b( a) g( a) a \barMaior
     \mark\sipka g f e f d c( d) d \barFinalis
   }
@@ -1171,6 +1193,32 @@
   \header {
     quid = "ant. dopoledne"
     modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g f g a g f e( d) \barMin
+    e( c) c( d) d \barMaior
+    d d( e d c) c \barMin
+    f g a g f e d d \barMin
+    e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    tvé dě -- ti
+    si tě bu -- dou při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "tercie"

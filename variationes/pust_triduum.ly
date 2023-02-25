@@ -2747,6 +2747,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin
+    f( g) f e d4. d \barMaior
+    d4 d c d f \mark\sipka f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#invit?zacatek"
+    id = "so-invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}

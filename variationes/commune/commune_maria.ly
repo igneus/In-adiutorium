@@ -3500,6 +3500,32 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d c e( d) d \barMin
+    d c b c( a g) g \barMin
+    f g a a g g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jsem slu -- žeb -- ni -- ce Pá -- ně:
+    ať se mi sta -- ne
+    po -- dle tvé -- ho slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {

@@ -713,7 +713,7 @@
   \relative c' {
     \choralniRezim
     d4 d c d f e d e f d d \barMin
-    d f f f e c c( d) d \barMaior
+    \mark\sipka c f f f e c c( d) d \barMaior
     d f( g) g f g a( g) g \barMin
     f( g f) e d d \barMaior
     \mark\sipka a c c d d d
@@ -824,6 +824,28 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( b) g a( b c) \barMin
+    c c c c c( d) c c b a g( a) a( g) \barMaior
+    f g a a a a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
