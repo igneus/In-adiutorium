@@ -275,15 +275,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e f d d \barMin
-    d e f g( f) e \barMin
+    d4 f e f e d \barMin
+    d c d f e \barMin
     d c( d) d \barMaior
     d d c d d f e c d d \barFinalis
   }
   \addlyrics {
-    Buď zdrá -- va, Ma -- ria,
+    Buď zdrá -- va, Ma -- ri -- a,
     mi -- los -- ti pl -- ná,
-    Pán s te -- bou,
+    Pán s_te -- bou,
     po -- žeh -- na -- ná jsi me -- zi že -- na -- mi.
   }
   \header {
@@ -291,7 +291,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Dan 3-III"
-    fial = "advent_antifony.ly#spol-sexta?konec"
+    fial = "advent_antifony.ly#spol-sexta?konec=16"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }

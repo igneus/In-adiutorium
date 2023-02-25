@@ -728,7 +728,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f d d \barMin
     d e f g( f) e \barMin
@@ -747,6 +747,60 @@
     differentia = "D"
     psalmus = "Dan 3-III"
     fial = "advent_antifony.ly#spol-sexta?konec"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup{
+  (Jen oprava dělení slabik)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d d \barMin
+    d e f g( f) e \barMin
+    d c( d) d \barMaior
+    d d c d d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti pl -- ná,
+    Pán s_te -- bou,
+    po -- žeh -- na -- ná jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    fial = "advent_antifony.ly#spol-sexta?konec"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e f \mark\sipka e d \barMin
+    d \mark\sipka c d f e \barMin
+    d c( d) d \barMaior
+    d d c d d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti pl -- ná,
+    Pán s_te -- bou,
+    po -- žeh -- na -- ná jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    fial = "advent_antifony.ly#spol-sexta?konec=16"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
