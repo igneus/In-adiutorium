@@ -30,7 +30,7 @@
   \relative c' {
     \choralniRezim
     d4 c( d) e( f) g( f) d d \barMin
-    g4 f( g) g( a) a \barMax
+    g4 f( g) g( a) a \barMaior
     a4 g( f e) e \barMin
     d4( f) e d d \barFinalis
   }
@@ -43,7 +43,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 142"
-    placet = "není to spíš modus I? ; aktualisovat divisiones a zbytečná rytmická znaménka"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }

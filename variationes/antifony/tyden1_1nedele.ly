@@ -234,11 +234,73 @@ je atypická a může bt těžké z ní přejít na žalm.}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( d) e( f) g( f) d d4. \barMin
     g4 f( g) g( a) a4. \barMax
     a4 g( f e) e \barMin
     d4( f) e d d4. \barFinalis
+  }
+  \addlyrics {
+    Tys mé ú -- to -- čiš -- tě, Hos -- po -- di -- ne,
+    můj ú -- děl v_ze -- mi ži -- vých.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 142"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 c( d) e( f) g( f) d d \barMin
+    g4 f( g) g( a) a \barMax
+    a4 g( f e) e \barMin
+    d4( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Tys mé ú -- to -- čiš -- tě, Hos -- po -- di -- ne,
+    můj ú -- děl v_ze -- mi ži -- vých.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 142"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Delší dobu jsem u této antifony měl poznámku, jestli fakticky nepatří
+  spíš modu I. Je pravda, že stoupá nad obvyklý rozsah modu II a dokonce
+  má jeden z dílčích závěrů na \italic{a}, ale prostě ji mám rád jakožto antifonu
+  modu II vykračující z obvyklého rozsahu. Přeřazení do modu I by ji
+  jaksi nivelisovalo. Krom toho na \italic{a} sice dělá dílčí závěr, ale
+  nedá se tvrdit, že by na něm recitovala,
+  a ráz úvodního a závěrečného oddílu dobře odpovídají modu II.
+  A ani v tradičním chorálním repertoáru nejsou antifony modu II, které
+  dosahují \italic{a} a mají na něm dílčí závěr, nijak vzácné.
+}
+
+\markup\justify{
+  (Jen divisiones upraveny podle nynějšího standardu.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c( d) e( f) g( f) d d \barMin
+    g4 f( g) g( a) a \barMaior
+    a4 g( f e) e \barMin
+    d4( f) e d d \barFinalis
   }
   \addlyrics {
     Tys mé ú -- to -- čiš -- tě, Hos -- po -- di -- ne,
