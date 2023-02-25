@@ -1342,6 +1342,40 @@
   }
 }
 
+\markup\justify{
+  Tohle aleluja má antifona \italic{Inclyte martyr}
+  v rukopisech (zbytek melodie na latinské antifoně pochopitelně není nijak závislý -
+  v době jejího psaní jsem ještě ani netušil, že jde o upravený tradiční text).
+  Zdá se být specifické pro antifony modu IV, které před aleluja končí na c
+  (srov. z českého svatovojtěšského oficia
+  antifony \italic{O qualem, Ipse vero, Hic martyr, Qui quidem, Fontes et omnia})
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a a \barMin c b a g a4. e \barMaior
+    f4 f g( a) a( g) a \barMin a( b) g e( a) a \barMaior
+    f4 g a a a( b) g e4. e \barMin
+    g4 f( g) f \mark\sipka e d( c) c
+    \mark\sipka d d( e f) e e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Voj -- tě -- chu, slav -- ný mu -- čed -- ní -- ku,
+    dob -- rý pas -- tý -- ři, chlou -- bo Če -- chů,
+    při -- mlou -- vej se za náš ná -- rod
+    i za ce -- lou cír -- kev.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim

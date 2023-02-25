@@ -2851,6 +2851,29 @@
   \relative c'' {
     \choralniRezim
     d f e d d e d c c( d) d \barMaior
+    a a a c b( g) \barMin
+    a g f g( a) \mark\sipka g g \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d f e d d e d c c( d) d \barMaior
     \mark\sipka d c b c b( g) \barMin
     a g f g( a) a( g) g \barFinalis
   }

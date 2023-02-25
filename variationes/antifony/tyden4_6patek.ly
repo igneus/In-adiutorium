@@ -1524,6 +1524,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 f g( a g) g \barMaior f g a a g f g( f) d \barMin
     f g g f \barFinalis
@@ -1534,8 +1535,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 119-ש"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
