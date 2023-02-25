@@ -97,14 +97,14 @@
 \markup\nadpisDen{Pátek}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g a c a a d c b( c) a \barMin
-    g c c c b g g( a) a \barMaior
-    a a( d) d d c e( d) d \barMin
-    c( d c) b a a \barMaior
-    f g g a a a
-    a( c) b g a a \barFinalis
+    d4 d c d f e d e f d d \barMin
+    c f f f e c c( d) d \barMaior
+    c d( f) f g f a( g) g \barMin
+    f( g f) e d d \barMaior
+    a c c d d d
+    e( f) d c d d \barFinalis
   }
   \addlyrics {
     Když u -- vi -- díš na -- hé -- ho, ob -- lék -- ni ho
@@ -117,8 +117,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -128,9 +128,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( c d) \barMin
-    c d f e f( g) g g f e d( e) d( c) \barMaior
-    a c d d( f) e d e d c( d) d \barFinalis
+    d4 f e( d c) \barMin
+    d d c d d( f) f g f e d( e) d( c) \barMaior
+    a c d d d d f e c( d) d \barFinalis
   }
   \addlyrics {
     Při -- jdou dny,
