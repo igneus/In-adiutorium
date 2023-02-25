@@ -66,6 +66,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c f g a a \barMin
     a g a bes a g a \barMaior
@@ -130,6 +131,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c f g a a \barMin
     a g a c b a a \barMaior

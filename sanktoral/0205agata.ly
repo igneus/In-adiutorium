@@ -42,13 +42,13 @@
   \relative c' {
     \choralniRezim
     d4 d c f g a a \barMin
-    a g a bes a g a \barMaior
-    c c a a \barMin
-    a a a a g f g g f e d d \barMin
-    d d d e f d( e) d d \barMax
+    a g a c b a a \barMaior
+    c b c a \barMin
+    a a a g f f g a g f d d \barMin
+    d d d e f d c c \barMax
 
-    d( c d) \barMin d f e f( d) c \barMaior
-    f f g a g f e f d d \barFinalis
+    d f e f a( g f g) g \barMaior
+    f e f g f e d c d d \barFinalis
   }
   \addlyrics {
     Pa -- ne Je -- ží -- ši Kris -- te,
