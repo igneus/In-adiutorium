@@ -6,20 +6,23 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c( d) d( e) d e f g f( e) d \barMaior
-    a'4 a a a( c) a a g( f) g g \barMax
-    f f f f f g f d \barMin
-    f f e d e( d) d \barMaior
-    c d e f d c( d) d \barFinalis
+    d4 d d d( f) d d e f d c( d) d \barMaior
+    f g a a g f g( a) g g \barMax
+    d f e f( g) g a g a f( e d) \barMin
+    f f e f d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš byl vy -- ve -- den od Du -- cha na poušť,
     a -- by byl po -- kou -- šen od ďáb -- la.
-    Když se pos -- til čty -- ři -- cet dní
+    A když se pos -- til čty -- ři -- cet dní
     a čty -- ři -- cet no -- cí,
     na -- ko -- nec vy -- hla -- do -- věl.
   }
   \header {
+    textus_approbatus = "Ježíš byl vyveden od Ducha na poušť,
+    aby byl pokoušen od ďábla.
+    Když se postil čtyřicet dní a čtyřicet nocí, nakonec vyhladověl."
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
@@ -56,11 +59,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e d( e) e \barMin
-    a g g g a a \barMin
-    g a a e e \barMaior
-    f f f f g f f g f e e \barMin
-    f g a( g) f e e \barFinalis
+    d4 c c( d) d \barMaior
+    f e d e( f) d d \barMin
+    f g g f f \barMaior
+    g g \barMin g g a g f e f d( c) c \barMin
+    d c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
@@ -71,8 +74,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "imag2"

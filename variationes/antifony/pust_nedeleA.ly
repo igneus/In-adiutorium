@@ -6,6 +6,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( d) d( e) d e f g f( e) d \barMaior
     a'4 a a a( c) a a g( f) g g \barMax
@@ -97,6 +98,37 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d( f) d d e f d c( d) d \barMaior
+    f g a a g f g( a) g g \barMax
+    d f e f( g) g a g a f( e d) \barMin
+    f f e f d( c) c \barMaior
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš byl vy -- ve -- den od Du -- cha na poušť,
+    a -- by byl po -- kou -- šen od ďáb -- la.
+    A když se pos -- til čty -- ři -- cet dní
+    a čty -- ři -- cet no -- cí,
+    na -- ko -- nec vy -- hla -- do -- věl.
+  }
+  \header {
+    textus_approbatus = "Ježíš byl vyveden od Ducha na poušť,
+    aby byl pokoušen od ďábla.
+    Když se postil čtyřicet dní a čtyřicet nocí, nakonec vyhladověl."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -147,10 +179,87 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( a) a b( c) a a( g) g \barMaior
+    a a c b a c( d e d) d \barMin
+    e d c( d) c c \barMin b( c a) g a \barFinalis
+  }
+  \addlyrics {
+    Ne -- jen z_chle -- ba ži -- je člo -- věk,
+    a -- le z_kaž -- dé -- ho slo -- va,
+    kte -- ré vy -- chá -- zí z_Bo -- žích úst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( a) a b( c) a a( g) g \barMaior
+    a \mark\sipka g a c c d( e d) d \barMin
+    e d c( d) c c \barMin b( c a) \mark\sipka a g \barFinalis
+  }
+  \addlyrics {
+    Ne -- jen z_chle -- ba ži -- je člo -- věk,
+    a -- le z_kaž -- dé -- ho slo -- va,
+    kte -- ré vy -- chá -- zí z_Bo -- žích úst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a g( e) e f e d( e) e \barMaior
+    f g a g a b( a) a \barMaior
+    b a g( a) g g \barMin f( g) g4. e \barFinalis
+  }
+  \addlyrics {
+    Ne -- jen z_chle -- ba ži -- je člo -- věk,
+    a -- le z_kaž -- dé -- ho slo -- va,
+    kte -- ré vy -- chá -- zí z_Bo -- žích úst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
+
+\markup\justify{
+  Textově příbuzná antifona je mezi antifonami k žalmům
+  těch samých druhých nešpor 1. neděle postní,
+  proto je sjednocování nápěvů, i kdyby se nabízelo, nežádoucí.
+}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e d( e) e \barMin
     a g g g a a \barMin
@@ -169,6 +278,88 @@
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "E"
+    psalmus = ""
+    annus = "A"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f d( e) e \barMaior
+    a g a b a a \barMin
+    g a g e e \barMaior
+    f f \barMin f f g f g a g e e \barMaior
+    d e f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    O -- de -- jdi sa -- ta -- ne,
+    ne -- boť je psá -- no:
+    Pá -- nu, své -- mu Bo -- hu, se bu -- deš kla -- nět
+    a jen je -- mu slou -- žit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "A"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f d( e) e \barMaior
+    a g a b a a \barMin
+    g a g e e \barMaior
+    f f \barMin f f g f g a g e e \barMaior
+    d \mark\sipka c d( f g) f e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    O -- de -- jdi sa -- ta -- ne,
+    ne -- boť je psá -- no:
+    Pá -- nu, své -- mu Bo -- hu, se bu -- deš kla -- nět
+    a jen je -- mu slou -- žit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "A"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c c( d) d \barMaior
+    f e d e( f) d d \barMin
+    f g g f f \barMaior
+    g g \barMin g g a g f e f d( c) c \barMin
+    d c d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    O -- de -- jdi sa -- ta -- ne,
+    ne -- boť je psá -- no:
+    Pá -- nu, své -- mu Bo -- hu, se bu -- deš kla -- nět
+    a jen je -- mu slou -- žit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "imag2"
