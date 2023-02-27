@@ -114,6 +114,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 d d \barMin f f e f g f e d( e) d d \barMaior
     f g( a) g f( e f) \barMin d( e f g) f d d \barMaior
@@ -136,6 +137,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 d d \barMin f f e f g f e d( e) d d \barMaior
     f g( a) g f( e f) \barMin d( e f g) f d d \barMin
@@ -397,11 +399,12 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     f4 d d \barMin
     f g( a) g f( e f) \barMin
     d( e f g) f d d \barMaior
-    c d e( d) d \barFinalis
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Fi -- li -- pe,
@@ -415,7 +418,7 @@
     differentia = "D"
     psalmus = "Žalm 116-II"
     id = "ne-a1"
-    fial = "sanktoral/0503filipjakub.ly#rch-a2?zacatek=4&konec=22"
+    fial = "sanktoral/0503filipjakub.ly#rch-a2?zacatek=4&konec=22&divisiones=ignore_quantity"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -446,7 +449,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d \barMin
     e d c d \barMaior
@@ -465,6 +468,31 @@
     differentia = "c"
     psalmus = "Žalm 116-II"
     placet = "_kdo viděl mne_ nezpěvně úsečné"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d \barMin
+    \mark\sipka d d( e) c c( d) \barMaior
+    c b g( a g) g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Fi -- li -- pe,
+    kdo vi -- děl mne,
+    vi -- děl Ot -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 116-II"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }

@@ -42,8 +42,8 @@
   \relative c' {
     \choralniRezim
     f4 d d \barMin f f e f g f e d( e) d d \barMaior
-    f g( a) g f( e f) \barMin d( e f g) f d d \barMaior
-    c d e( d) d \barFinalis
+    f g( a) g f( e f) \barMin d( e f g) f d d \barMin
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Fi -- li -- pe, tak dlou -- ho jsem s_vá -- mi, a ne -- znáš mě?
@@ -125,9 +125,9 @@
   \relative c'' {
     \choralniRezim
     c4 d d \barMin
-    e d c d \barMaior
-    c b g( a g) f
-    a b g g \barFinalis
+    d d( e) c c( d) \barMaior
+    c b g( a g) g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Fi -- li -- pe,
@@ -140,7 +140,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 116-II"
-    placet = "_kdo viděl mne_ nezpěvně úsečné"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
