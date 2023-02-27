@@ -1333,6 +1333,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c c( d) d c( b) a a \barMaior
+    \mark\sipka e'4 d( c) c( d) d \barMin d c b a( b) a a \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 147-II"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 e f f( g) g f( e) d d \barMaior

@@ -877,6 +877,46 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f d f e d c \barMin
+    d d c d f e c d \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným a po -- kor -- ným
+    srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d e f d d( c) c \barMin
+    d f e f d d \barFinalis
+  }
+  \addlyrics {
+    Zkrou -- še -- ným a po -- kor -- ným
+    srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c c d e c c( d) d \barMin
     f e f d c( d) d \barFinalis
   }
