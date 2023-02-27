@@ -628,12 +628,65 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f( a) g( f) g \barMin
     a c d c c d( e) \mark\sipka e d d \barMaior
     d d c b c( a g) g \barMin
     a \mark\sipka c b g a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- bys -- te zna -- li mne,
+    zna -- li bys -- te i mé -- ho Ot -- ce.
+    Ny -- ní už ho zná -- te
+    a vi -- dě -- li jste ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( a) g( f) g \barMin
+    a c d c c d( e) e d d \barMaior
+    d d c b c( a g4.) g \barMin
+    a4 c b \mark\sipka a g g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- bys -- te zna -- li mne,
+    zna -- li bys -- te i mé -- ho Ot -- ce.
+    Ny -- ní už ho zná -- te
+    a vi -- dě -- li jste ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f( a) g( f) g \barMin
+    a c d c c d( e) e d d \barMaior
+    \mark\sipka e d c d c( b a4.) a \barMin
+    a4 c b a g g
     f a g g \barFinalis
   }
   \addlyrics {
