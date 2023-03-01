@@ -1255,9 +1255,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d \barMin
+    f e d e( f) d d \barMaior
+    f g f e( d c) \barMin
+    d f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    na -- uč nás mod -- lit se,
+    ja -- ko i Jan
+    na -- u -- čil své u -- čed -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-1ne-amag"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \barMin
     f e d e( f) d d \barMaior
     f g f e( d c) \barMin
     d f f f e c d d \barFinalis
