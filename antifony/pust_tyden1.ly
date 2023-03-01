@@ -327,7 +327,7 @@
     a4 a a b g g \barMin
     g a g f d e \barMaior
     d f g a a \barMin
-    a a a a a( b) a a a g a f e e \barMin
+    a a g a b a a a g a f e e \barMin
     d f( g a) g f g g e e \barFinalis
   }
   \addlyrics {

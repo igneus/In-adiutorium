@@ -1488,13 +1488,93 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a b g g \barMin
     g a g f d e \barMaior
     d f g a a \barMin
     a a a a a( b) a a \mark\sipka a g a f e e \barMin
     \mark\sipka d f( g a) g f g g e e \barFinalis
+  }
+  \addlyrics {
+    To -- to po -- ko -- le -- ní
+    je po -- ko -- le -- ní zlé.
+    Hle -- dá zna -- me -- ní,
+    a -- le ji -- né zna -- me -- ní mu dá -- no ne -- bu -- de
+    než zna -- me -- ní Jo -- ná -- šo -- vo.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    placet = "rytmus _ale jiné znamení..._"
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a b g g \barMin
+    g a g f d e \barMaior
+    d f g a a \barMin
+    a a \mark\sipka g a b a a a g a f e e \barMin
+    d f( g a) g f g g e e \barFinalis
+  }
+  \addlyrics {
+    To -- to po -- ko -- le -- ní
+    je po -- ko -- le -- ní zlé.
+    Hle -- dá zna -- me -- ní,
+    a -- le ji -- né zna -- me -- ní mu dá -- no ne -- bu -- de
+    než zna -- me -- ní Jo -- ná -- šo -- vo.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b g g \barMin
+    g a g f d e \barMaior
+    d f g a a \barMin
+    a a g a b a a a g a f e e \barMin
+    \mark\sipka f g( a) g f g f e e \barFinalis
+  }
+  \addlyrics {
+    To -- to po -- ko -- le -- ní
+    je po -- ko -- le -- ní zlé.
+    Hle -- dá zna -- me -- ní,
+    a -- le ji -- né zna -- me -- ní mu dá -- no ne -- bu -- de
+    než zna -- me -- ní Jo -- ná -- šo -- vo.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b g g \barMin
+    \mark\sipka a g a g d e \barMaior
+    d f g a a \barMin
+    a a a a a( b) a a a g a f e e \barMin
+    d f( g a) g f g g e e \barFinalis
   }
   \addlyrics {
     To -- to po -- ko -- le -- ní
