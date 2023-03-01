@@ -747,9 +747,34 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f( a) a g a bes a( g a) a \barMaior
     a a a( f) e( d) d \barMin c d4.( f) \barMin e4( f) d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ne -- u -- šet -- řil_* vlast -- ní -- ho Sy -- na,
+    a -- le vy -- dal ho za nás za všec -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "1 Petr 2"
+    fial = "pust_triduum.ly#pa-rch-ant1"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e f( a) a g a bes a( g a) a \barMaior
+    a a a( f) e( d) d c d4.( f) e4( f) d d \barFinalis
   }
   \addlyrics {
     Bůh ne -- u -- šet -- řil_* vlast -- ní -- ho Sy -- na,

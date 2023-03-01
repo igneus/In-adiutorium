@@ -253,7 +253,7 @@
   \relative c' {
     \choralniRezim
     d4 f e f( a) a g a bes a( g a) a \barMaior
-    a a a( f) e( d) d \barMin c d4.( f) \barMin e4( f) d d \barFinalis
+    a a a( f) e( d) d c d4.( f) e4( f) d d \barFinalis
   }
   \addlyrics {
     Bůh ne -- u -- šet -- řil_* vlast -- ní -- ho Sy -- na,

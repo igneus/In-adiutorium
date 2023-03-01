@@ -758,6 +758,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f( a) a g a bes a( g a) a \barMaior
     a a a( f) e( d) d \barMin c d4.( f) \barMin e4( f) d d \barFinalis
@@ -781,6 +782,7 @@
 }
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 f e f( a) a g a bes a( g a) a \barMaior
     a a a( f) e( d) d \mark\sipka c d4.( f) e4( f) d d \barFinalis
