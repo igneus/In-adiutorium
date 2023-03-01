@@ -205,6 +205,36 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \modIial
+    a4 a g( a) g f e( f d) d \barFinalis
+    \modIal
+    \neviditelna a
+    a' g a b( g) a a \barFinalis
+    \modIalal
+
+    \modIial
+    c4 c b a c b g g \barMin a a g f e( d) d \barFinalis
+    \modIal
+    \neviditelna a
+    a' a a a g f e( f d c) c \barFinalis
+    \modIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXdoxologie
+  }
+  \header {
+    quid = ""
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 modIIial = \relative c' { \neviditelna d c4 d d( f) f \barMax }
