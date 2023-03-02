@@ -1750,6 +1750,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka f4 g g( a) a \barMin a a a g( a) a a c a g( a) a \barMaior
+    g f e( f d) d \barMin e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, vo -- lal jsem k_to -- bě a
+    u -- zdra -- vils mě; chci tě chvá -- lit na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 30"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 f g( a) a \barMin a a a g( a) a a c a g( a) a \barMaior
     g \mark\sipka a g( f d) d \barMin e( d) c( d) d \barFinalis
   }

@@ -750,6 +750,29 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e f d( c) \barMaior
+    d c d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a a( b) g g4.( e) \barMin f4( g) g( a) a \barMax
