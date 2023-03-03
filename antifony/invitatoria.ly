@@ -114,10 +114,10 @@ tIctvrtekInvitatorium = \score {
 tIpatekInvitatorium = \score {
   \relative c'' {
     \choralniRezim
-    a4 a g f c' a g a \barMin
-    f g f d( e) d \barMaior
-    c d f g f e d \barMin
-    f e f d d \barFinalis
+    a4 a a a g f f( g) g \barMin
+    a g f d( c) c \barMaior
+    d d c d f g g \barMin
+    g a g f f \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Hos -- po -- di -- na,
@@ -127,10 +127,9 @@ tIpatekInvitatorium = \score {
   }
   \header {
     quid = "ant."
-    modus = "I"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     dies = "pátek"
-    placet = "zkusit krotší variantu"
     id = "t1pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }
