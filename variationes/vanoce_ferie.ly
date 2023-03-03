@@ -733,7 +733,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 b d( e) d d \barMin
     \mark\sipka c b c( d) d \barMax
@@ -741,6 +741,36 @@
     a a a a( d) c b c b a g a a \barMaior
     f g a a( c d) c( d) d \barMin c b g a( g) g \barMaior
     f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    placet = "napojení _stal se..._ je dost exotické;
+    _učinil_ drhne"
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    c b c( d) d \barMax
+    a a a c b( g) \barMin
+    a a a a( d) c b c b a g a a \barMaior
+    \mark\sipka a c d d( e) d d \barMin c b g \mark\sipka a g
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     V_Kris -- tu pře -- bý -- vá
@@ -764,11 +794,68 @@
   \relative c'' {
     \choralniRezim
     d4 b d( e) d d \barMin
-    c b c( d) d \barMax
-    a a a c b( g) \barMin
-    a a a a( d) c b c b a g a a \barMaior
-    \mark\sipka a c d d( e) d d \barMin c b g \mark\sipka a g
-    f a a( g) g \barFinalis
+    c b \mark\sipka a( b) a \barMaior
+    c b c d c( a) \barMin
+    c b a g( a) g g f g a g a( c) b \barMaior
+    c d e c( b a) g a( g) \barMin a a a g f
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    c b a( b) a \barMaior
+    c b c d c( a) \barMin
+    c b a g( a) g g f g a g a( c) b \barMaior
+    c d e \mark\sipka c( b) a a \barMin c c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    c b \mark\sipka a( g) g \barMaior
+    a g f g g( a) \barMin
+    c b c d( e) d d e f e d c( d) d \barMaior
+    d c b a( b) g g \barMin a a a g f
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     V_Kris -- tu pře -- bý -- vá

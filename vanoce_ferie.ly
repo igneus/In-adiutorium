@@ -122,11 +122,11 @@
   \relative c'' {
     \choralniRezim
     d4 b d( e) d d \barMin
-    c b c( d) d \barMax
-    a a a c b( g) \barMin
-    a a a a( d) c b c b a g a a \barMaior
-    f g a a( c d) c( d) d \barMin c b g a( g) g \barMaior
-    f g a( g) g \barFinalis
+    c b a( g) g \barMaior
+    a g f g g( a) \barMin
+    c b c d( e) d d e f e d c( d) d \barMaior
+    d c b a( b) g g \barMin a a a g f
+    g a a( g) g \barFinalis
   }
   \addlyrics {
     V_Kris -- tu pře -- bý -- vá
@@ -141,8 +141,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "napojení _stal se..._ je dost exotické;
-    _učinil_ drhne"
     id = "4aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
