@@ -2133,6 +2133,32 @@
   \relative c' {
     \choralniRezim
     d4 f e f d d \barMin
+    \mark\sipka f f e f d c c \barMaior
+    d d c d d( f) f \barMin
+    g f g a f e d d \barMin
+    e c d \barFinalis
+  }
+  \addlyrics {
+    Mo -- dle -- te se za ty,
+    kdo vás pro -- ná -- sle -- du -- jí.
+    Tak bu -- de -- te sy -- ny
+    své -- ho ne -- bes -- ké -- ho Ot -- ce,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d d \barMin
     \mark\sipka f e f a a g g \barMaior
     f f e d c( d) c \barMin
     d c d f e c d d \barMin
