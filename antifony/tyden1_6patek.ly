@@ -111,9 +111,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d a g c( d) d \barMin
-    e d c4. a4( b) a( g) g \barMaior
-    a b c4.( a) g4 f g g \barFinalis
+    c4 d e c c( d) d \barMin
+    c4 d c b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Ví -- těz -- ství a slá -- vy
@@ -125,7 +125,6 @@
     differentia = "c"
     quid = "2. ant."
     psalmus = "Iz 45"
-    placet = "ve více ohledech netypická"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

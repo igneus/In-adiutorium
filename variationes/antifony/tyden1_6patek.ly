@@ -447,7 +447,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d a g c( d) d \barMin
     e d c4. a4( b) a( g) g \barMaior
@@ -463,6 +463,7 @@
     differentia = "c"
     quid = "2. ant."
     psalmus = "Iz 45"
+    placet = "ve více ohledech netypická"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -537,7 +538,52 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a c c \mark\sipka c( e) d \barMin
+    \mark\sipka e4 d c b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "a"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka c4 d e c d d \barMin
+    c4 d c b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "c"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d e c \mark\sipka c( d) d \barMin
     c4 d c b a( g) g \barMaior
     a g f g a a( g) g \barFinalis
   }
@@ -600,7 +646,56 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c \mark\sipka d( e d4.) d \barMin
+    c4 a c b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "c"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    a a g a g( f) f \barMaior
+    f d f g a f f \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VI"
+    differentia = "F"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
+
+\markup\justify{
+  (Stejný text v žaltáři figuruje i jako invitatorium,
+  sbližování nápěvů je spíše nežádoucí.)
+}
 
 \score {
   \relative c'' {
