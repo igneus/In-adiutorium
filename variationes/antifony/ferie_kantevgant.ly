@@ -2256,7 +2256,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 d c c d c a a \barMaior
     a c c b a \mark\sipka g( a) g g \barFinalis
@@ -2270,6 +2270,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "první půlka je hrubá"
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2342,6 +2343,27 @@
     \choralniRezim
     c4 c( d) c c b \mark\sipka c a( g) g \barMaior
     g f g a a c( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 d d c b c a( g) g \barMaior
+    g f g a a \mark\sipka a( b) g g \barFinalis
   }
   \addlyrics {
     Bůh se -- sa -- dil moc -- né z_trů -- nu
@@ -2482,6 +2504,26 @@
     \zvyraznovacZelenyII
     \choralniRezim
     g4 a g f g a g g \barMaior
+    a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a \mark\sipka a g f g g( a) a \barMaior
     a c c b a g( a) g g \barFinalis
   }
   \addlyrics {

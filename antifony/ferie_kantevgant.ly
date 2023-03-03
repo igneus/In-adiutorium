@@ -173,8 +173,8 @@ tIctvrtekAntBenedictus = \score {
 tIctvrtekAntMagnificat = \score {
   \relative c'' {
     \choralniRezim
-    c4 d c c d c a a \barMaior
-    a c c b a g( a) g g \barFinalis
+    c4 d d c b c a( g) g \barMaior
+    g f g a a a( b) g g \barFinalis
   }
   \addlyrics {
     Bůh se -- sa -- dil moc -- né z_trů -- nu
@@ -185,7 +185,6 @@ tIctvrtekAntMagnificat = \score {
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "první půlka je hrubá"
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
