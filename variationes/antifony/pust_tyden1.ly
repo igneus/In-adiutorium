@@ -2078,7 +2078,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f d d \barMin
     d f e d e d c \barMaior
@@ -2131,6 +2131,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 f e f d d \barMin
     \mark\sipka f f e f d c c \barMaior
