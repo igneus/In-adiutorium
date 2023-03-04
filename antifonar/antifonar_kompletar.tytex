@@ -163,15 +163,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \rubrikaNebo
 
-\simpleScore{#salve}
-
-\rubrikaNebo
-
 \simpleScore{#salve2}
-
-\rubrikaNebo
-
-\simpleScore{#subtuum}
 
 \rubrikaNebo
 
@@ -183,6 +175,19 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \noindent\rubrika{V době velikonoční:
   \textup{Vesel se, nebes Královno} (v hymnáři).}
+
+\noindent\hrulefill{}
+
+\noindent\rubrika{Pro ty závěrečné mariánské antifony,
+  které jsou běžně recitovány jako modlitby, následují
+  chorální nápěvy i pro známější znění otištěné v Kancionálu.
+  Tyto texty nejsou součástí Denní modlitby církve.}
+
+\simpleScore{#salve}
+
+\simpleScore{#subtuum}
+
+\simpleScore{#reginacaeli}
 
 \newpage % ZLOM
 
