@@ -219,13 +219,20 @@
 % Nasledujici prikazy slouzi strukturovani uvnitr textu antifonare
 %
 
+\newcommand{\ziveZahlaviLicha}[1]{%
+  \fancyhead[CO]{#1}}
+\newcommand{\ziveZahlaviSuda}[1]{%
+  \fancyhead[CE]{#1}}
+\newcommand{\ziveZahlaviObe}[1]{%
+  \fancyhead[CO,CE]{#1}}
+
 % tyden
 \newcommand{\nadpisTyden}[2]{
   \phantomsection%
   \begin{center}
   {\LARGE \textsc{#1}}
   \end{center}
-  \fancyhead[CE]{#2}
+  \ziveZahlaviSuda{#2}
   \addcontentsline{toc}{section}{#2}
 }
 
@@ -235,7 +242,7 @@
   \begin{center}
   {\LARGE #1}
   \end{center}
-  \fancyhead[CO]{#1}
+  \ziveZahlaviLicha{#1}
   \addcontentsline{toc}{subsection}{#1}
 }
 
@@ -250,7 +257,7 @@
 % index
 \newcommand{\nadpisIndex}[1]{%
   \nadpisTyden{#1}{#1}
-  \fancyhead[CE,CO]{#1}
+  \ziveZahlaviObe{#1}
 }
 
 % invitatorium samozrejme neni samostatna hodinka,

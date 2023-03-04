@@ -32,6 +32,9 @@
 \newenvironment{psalmodia}{\begin{multicols}{2}}{\end{multicols}}
 \renewenvironment{psalmus}{}{}
 
+% at prikazy definovane v spolecne.tex nenastavuji zive zahlavi
+\renewcommand{\ziveZahlaviLicha}[1]{}
+
 % Typographus
 \setChantBasedir{..}
 \setPsalmsDir{zalmy}
@@ -98,6 +101,7 @@ která je u něj uvedena.}
 \phantomsection%
 \label{respantifony}
 \nadpisTypTextu{Antifony zpívané místo responsoria}
+\ziveZahlaviObe{Společné části}
 
 \rubrika{1. ve Velikonočním triduu se místo responsoria zpívá po krátkém
 čtení následující antifona, a to tak, že na Zelený čtvrtek
@@ -146,6 +150,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 \vspace{5mm}
 
 \rubrika{Připojí se některá ze závěrečných mariánských antifon.}
+\ziveZahlaviObe{Závěrečné mariánské antifony}
 
 \rubrika{(Kromě českých chorálních antifon níže viz také hymnář
   pro latinské antifony a české písňové parafráze.)}
@@ -199,6 +204,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 \setChantSource{kompletar.ly}
 
 \nadpisDen{Neděle po 2. nešporách}
+\ziveZahlaviObe{}
 
 \velikAntifona
 
