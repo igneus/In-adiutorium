@@ -143,6 +143,8 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \simpleScore{zakladni_napevy.ly#pokojnounoc}
 
+\vspace{5mm}
+
 \rubrika{Připojí se některá ze závěrečných mariánských antifon.}
 
 \rubrika{(Kromě českých chorálních antifon níže viz také hymnář
@@ -157,6 +159,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 \setChantSource{marianske_antifony.ly}
 \simpleScore{#alma}
 
+\newpage % ZLOM
 \rubrikaNebo
 
 \simpleScore{#averegina}
@@ -173,10 +176,11 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \simpleScore{#avemaria}
 
+\vspace{5mm}
 \noindent\rubrika{V době velikonoční:
   \textup{Vesel se, nebes Královno} (v hymnáři).}
 
-\noindent\hrulefill{}
+\newpage % ZLOM
 
 \noindent\rubrika{Pro ty závěrečné mariánské antifony,
   které jsou běžně recitovány jako modlitby, následují
@@ -187,6 +191,7 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \simpleScore{#subtuum}
 
+\newpage % ZLOM
 \simpleScore{#reginacaeli}
 
 \newpage % ZLOM
@@ -252,8 +257,10 @@ responsoria zpívá příslušná antifona, str. \pageref{respantifony}.}
 
 \responsoriumOdkaz
 
-\pagebreak
+\newpage
 \pagestyle{empty}
+
+\mbox{} \newpage % ZLOM
 \tiraz
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
