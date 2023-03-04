@@ -167,4 +167,4 @@ strofa = { \barFinalis \break }
       #:center-column
       (#:raise -2 #:tiny annotI
         #:pad-around 0.5 #:tiny annotII
-        #:fontsize 11 litera))))
+        #:fontsize 10 litera))))
