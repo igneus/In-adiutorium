@@ -2014,6 +2014,26 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f e( f) d( c) c \barMin
+    d c d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 c b a b( c) a a \barMin
@@ -2056,8 +2076,47 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f f g( a g) f g( f) \barMin
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f e d f( g a) g g \barMin
     g a a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f( g) a( g) g \barMin
+    g a a f e d( e) d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din dá od -- mě -- nu
@@ -2145,6 +2204,39 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g( a) a( g) \barMax
+    \mark\sipka f g( a) g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a( b) a g( a) g g \barMin g f g g( a) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f g( a) g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- že -- ní jsou všich -- ni_* kdo tě vi -- dě -- li.
+    \Verse A by -- li vy -- zna -- me -- ná -- ni tvým přá -- tel -- stvím._*
+    \Response Kdo tě vi -- dě -- li.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

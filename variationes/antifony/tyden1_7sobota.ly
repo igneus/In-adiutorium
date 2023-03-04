@@ -753,6 +753,56 @@
   }
 }
 
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d4 \mark\sipka c d d( a' bes) g g( a) a \barMin a g bes g a( g f) e \barMaior
+    d d( e f) e( f) d d e( c) d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din pa -- ma -- to -- val na své sva -- té slo -- vo,
+    a vy -- svo -- bo -- dil svůj lid.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-III"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d4 d \mark\sipka c f g g( a) a \barMin a g bes g a( g f) e \barMaior
+    d d( e f) e( f) d d e( c) d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din pa -- ma -- to -- val na své sva -- té slo -- vo,
+    a vy -- svo -- bo -- dil svůj lid.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-III"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \markup{Načaté omylem, než jsem si všiml, že tyto antifony už mám}
