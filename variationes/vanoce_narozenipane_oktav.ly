@@ -1377,6 +1377,11 @@
 
   \pageBreak
 
+  \markup\justify{
+    Ten text by se svou povahou dobře hodil jako další možnost
+    k Benedictus Sobotní památky Panny Marie.
+  }
+
   \score {
     \relative c'' {
       \zvyraznovacSedy
@@ -1520,7 +1525,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 a g a g \barMin
       a( g) a a b b \barMaior
@@ -1542,6 +1547,7 @@
       modus = "II"
       differentia = "A"
       psalmus = "Magnificat"
+      placet = "v rámci korpusu má značně exotický ráz a není moc pěkná"
       id = "30-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1597,6 +1603,147 @@
       quid = "ant. k Magnificat"
       modus = "II"
       differentia = "A"
+      psalmus = "Magnificat"
+      id = "30-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g a g \barMin
+      f g g a a \barMaior
+      a g a c( d) a \barMin
+      c( b) a a( b) g a a \barMax
+      c b a g( a) g \barMin
+      f g a a c b \mark\sipka g g \barFinalis
+    }
+    \addlyrics {
+      Dě -- ku -- je -- me ti,
+      Pan -- no Ma -- ri -- a,
+      žes da -- la svě -- tu
+      Kris -- ta Spa -- si -- te -- le,
+      o -- chra -- ňuj všech -- ny,
+      kdo se k_to -- bě u -- tí -- ka -- jí.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = "Magnificat"
+      id = "30-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g a g \barMin
+      f g g a a \barMaior
+      a g a c( d) a \barMin
+      c( b) a a( b) g a a \barMax
+      c b a g( a) \mark\sipka a \barMin
+      a a g a c b g g \barFinalis
+    }
+    \addlyrics {
+      Dě -- ku -- je -- me ti,
+      Pan -- no Ma -- ri -- a,
+      žes da -- la svě -- tu
+      Kris -- ta Spa -- si -- te -- le,
+      o -- chra -- ňuj všech -- ny,
+      kdo se k_to -- bě u -- tí -- ka -- jí.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = "Magnificat"
+      id = "30-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g a g \barMin
+      f g g a a \barMaior
+      a g a c( d) a \barMin
+      c( b) a a( b) g a a \barMax
+      \mark\sipka a g a f( e) e \barMin
+      f g a g f g e e \barFinalis
+    }
+    \addlyrics {
+      Dě -- ku -- je -- me ti,
+      Pan -- no Ma -- ri -- a,
+      žes da -- la svě -- tu
+      Kris -- ta Spa -- si -- te -- le,
+      o -- chra -- ňuj všech -- ny,
+      kdo se k_to -- bě u -- tí -- ka -- jí.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = "Magnificat"
+      id = "30-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g a g \barMin
+      f g g a a \barMaior
+      a g a \mark\sipka bes( c) g \barMin
+      bes( a) g g( a) f g g \barMax
+      g f g g( a) a \barMin
+      a a g f g a f f \barFinalis
+    }
+    \addlyrics {
+      Dě -- ku -- je -- me ti,
+      Pan -- no Ma -- ri -- a,
+      žes da -- la svě -- tu
+      Kris -- ta Spa -- si -- te -- le,
+      o -- chra -- ňuj všech -- ny,
+      kdo se k_to -- bě u -- tí -- ka -- jí.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Magnificat"
+      id = "30-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a g a g \barMin
+      f g g a a \barMaior
+      a g a bes( c) g \barMin
+      bes( a) g g( a) f g g \barMax
+      g f g g( a) a \barMin
+      a a g f \mark\sipka e f d d \barFinalis
+    }
+    \addlyrics {
+      Dě -- ku -- je -- me ti,
+      Pan -- no Ma -- ri -- a,
+      žes da -- la svě -- tu
+      Kris -- ta Spa -- si -- te -- le,
+      o -- chra -- ňuj všech -- ny,
+      kdo se k_to -- bě u -- tí -- ka -- jí.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
       psalmus = "Magnificat"
       id = "30-amag"
       piece = \markup {\sestavTitulekBezZalmu}

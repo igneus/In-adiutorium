@@ -1684,11 +1684,11 @@
     \relative c'' {
       \choralniRezim
       a4 a g a g \barMin
-      a( g) a a b b \barMaior
-      b a b c( d) a \barMin
-      c( b) a a( b) g a a \barMax
-      a g a f( e) e \barMin
-      f g a a c b a a \barFinalis
+      f g g a a \barMaior
+      a g a bes( c) g \barMin
+      bes( a) g g( a) f g g \barMax
+      g f g g( a) a \barMin
+      a a g f e f d d \barFinalis
     }
     \addlyrics {
       Dě -- ku -- je -- me ti,
@@ -1700,10 +1700,9 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "II"
-      differentia = "A"
+      modus = "I"
+      differentia = "a"
       psalmus = "Magnificat"
-      placet = "v rámci korpusu má značně exotický ráz a není moc pěkná"
       id = "30-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
