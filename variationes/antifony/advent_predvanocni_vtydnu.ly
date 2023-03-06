@@ -210,6 +210,28 @@
   \relative c' {
     \choralniRezim
     d4 f e d f g g \barMin
+    f g f e4. c \barMin
+    \mark\sipka f4( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f g g \barMin
     f g f \mark\sipka e( f) d
     c c( d) d \barFinalis
   }
@@ -222,6 +244,72 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f g g \barMin
+    f g f e( f) d
+    c \mark\sipka e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f g g \barMin
+    \mark\sipka a g f e( f) d
+    c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g a a \barMin
+    c b a b( c) a
+    g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "predvanocni-zlm-po-a3"
     piece = \markup {\sestavTitulekBezZalmu}

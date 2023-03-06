@@ -297,6 +297,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a f g f \barMin
+    \mark\sipka f f d f f g g \barMaior
+    bes( a g) f g \barMin
+    \mark\sipka f g bes a g f f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Hos -- po -- di -- na,
+    všich -- ni je -- ho an -- dě -- lé,
+    chval -- te ho,
+    všech -- ny je -- ho zá -- stu -- py.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

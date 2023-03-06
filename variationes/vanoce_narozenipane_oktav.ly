@@ -1575,6 +1575,34 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g a g \barMin
+      f g g a a \barMaior
+      a g a \mark\sipka b( c) a \barMin
+      c( b) a a( b) g a a \barMax
+      c b a g( a) g \barMin
+      f g a a c b g( a) a \barFinalis
+    }
+    \addlyrics {
+      Dě -- ku -- je -- me ti,
+      Pan -- no Ma -- ri -- a,
+      žes da -- la svě -- tu
+      Kris -- ta Spa -- si -- te -- le,
+      o -- chra -- ňuj všech -- ny,
+      kdo se k_to -- bě u -- tí -- ka -- jí.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "A"
+      psalmus = "Magnificat"
+      id = "30-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisDen {31. prosince}}

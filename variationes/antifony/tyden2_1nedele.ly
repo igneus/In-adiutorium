@@ -970,6 +970,35 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin
+    c(^\markup\small\italic{Mimo dobu postní:} d e) c( a) a c c a g g \barMaior
+    f g( a) g g \barFinalis
+
+    \mark\sipka b4(^\markup\small\italic{V době postní:} c) a( g) g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     a4 a f g f g( a) \barMin c c b( c a) a \barMaior
     c d( c d) d( c) \barMin
@@ -977,6 +1006,34 @@ Potřebuje výraznější úpravu:}
     f g( a) g g \barFinalis
 
     \mark\sipka b4^\markup\small\italic{V době postní:} g g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+
+    \markup{ \Dagger k ra } -- dos -- ti lid -- ské -- ho srd -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin
+    c(^\markup\small\italic{Mimo dobu postní:} d e) c( a) a c c a g g \barMaior
+    f g( a) g g \barFinalis
+
+    \mark\sipka b4^\markup\small\italic{V době postní:} c a g f a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
@@ -1049,6 +1106,28 @@ Potřebuje výraznější úpravu:}
     a4 g( d') d e e d c d d \barMaior
     b c c \mark\sipka a b a a( g) g \barMaior
     f^\markup\small\italic{Mimo dobu postní:} g a g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( d') d e e d c d d \barMaior
+    b c c a \mark\sipka g f g( a g) g \barMaior
+    f^\markup\small\italic{Mimo dobu postní:} g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh vi -- děl všech -- no, co u -- dě -- lal,

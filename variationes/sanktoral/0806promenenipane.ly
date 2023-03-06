@@ -1825,6 +1825,37 @@
   }
 }
 
+\markup\justify{
+  (Začátek předpokládá \italic{Když sestupovali} jako jediný
+  rytmický celek, tzn. s přízvukem na \italic{Když})
+}
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a \mark\sipka a a g f e( f d c) c \barMin
+    \mark\sipka f g a f f( g) g \barMaior
+    \mark\sipka a a a g f g a g f d d \barMin d e f d c c \barMaior
+    \mark\sipka f e d f( g) a( g) g \barMin g( a g) f( e) d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Když se -- stu -- po -- va -- li s_ho -- ry,_*
+    při -- ká -- zal jim Je -- žíš,
+    a -- by ni -- ko -- mu ne -- vy -- pra -- vo -- va -- li o tom, co vi -- dě -- li,
+    do -- kud Syn člo -- vě -- ka ne -- vsta -- ne z_mrt -- vých.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "1 Tim 3"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Verše kantika zpívá kantor na běžný nápěv psalmodie.}
