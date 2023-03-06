@@ -258,7 +258,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f g f a( g) g \barMin
+    d4 d c f g f( a) a \barMin
     a a a g f g( a) g g \barMaior
     d d( f) d c c( d) d \barFinalis
   }
@@ -281,8 +281,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( g a) g \barMin
-    f g bes g bes a \barFinalis
+    c4 c b
+    g b( c) a a g g \barFinalis
   }
   \addlyrics {
     Bůh se -- slal
@@ -290,10 +290,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "g3"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 115"
-    placet = "spíš lépe"
     id = "ne2-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -305,8 +304,8 @@
     a4 a a a a g b a \barMin
     c c b( c a) \barMaior
     c d e d( e) d c( b a) a \barMin
-    c b a g a( g) g \barMaior
-    f g g g \barFinalis
+    c b g a a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Na -- ro -- dil se nám král krá -- lů,
@@ -320,7 +319,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Zj 19"
-    placet = "aleluja rozhodně jinak; celou zkusit lépe"
+    placet = "líbí se mi, ale začátek by asi byl vhodnější zpěvněji"
     id = "ne2-a3"
     piece = \markup {\sestavTitulek}
   }
