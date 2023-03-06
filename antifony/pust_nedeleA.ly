@@ -146,9 +146,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g g f( g a) g g a( b) a g g \barMaior
-    g f e d( e) d d \barMin
-    e f g g( a) g f( g) g \barFinalis
+    a4 a a g f e( f) d d f( g) a g g \barMaior
+    a b c a( g) f( g) g \barMin
+    g f e e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
@@ -158,8 +158,8 @@
   \header {
     textus_approbatus = "Nikomu o tom vidění neříkejte, dokud nebude Syn člověka vzkříšen z mrtvých."
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = "iimag2"

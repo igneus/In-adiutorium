@@ -2576,6 +2576,128 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 110"
+      placet = "od _v něm_ do konce zjednodušit"
+      id = "krtu-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d c( b g) g a( c b) c c4.( d) \barMax
+      d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
+      \mark\sipka g4 a c b c( d) d \barMaior
+      d d c( d c) b( a g) f( g) g \barFinalis
+    }
+    \addlyrics {
+      Z_ne -- be se o -- zval Ot -- cův hlas:
+      To je můj mi -- lo -- va -- ný Syn,
+      v_něm mám za -- lí -- be -- ní;
+      to -- ho po -- slou -- chej -- te.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 110"
+      id = "krtu-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d c( b g) g a( c b) c c4.( d) \barMax
+      d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
+      \mark\sipka c b( a g) a g f( g) g \barMaior
+      f g a( c b) a( g) f( g) g \barFinalis
+    }
+    \addlyrics {
+      Z_ne -- be se o -- zval Ot -- cův hlas:
+      To je můj mi -- lo -- va -- ný Syn,
+      v_něm mám za -- lí -- be -- ní;
+      to -- ho po -- slou -- chej -- te.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 110"
+      id = "krtu-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d c( b g) g a( c b) c c4.( d) \barMax
+      d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
+      c b( a g) a g f( g) g \barMaior
+      f g \mark\sipka a( c d) c( b) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Z_ne -- be se o -- zval Ot -- cův hlas:
+      To je můj mi -- lo -- va -- ný Syn,
+      v_něm mám za -- lí -- be -- ní;
+      to -- ho po -- slou -- chej -- te.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 110"
+      id = "krtu-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d c( b g) g a( c b) c c4.( d) \barMax
+      d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
+      c \mark\sipka a b c a( g) g \barMaior
+      f g a( c b) a( g) f( g) g \barFinalis
+    }
+    \addlyrics {
+      Z_ne -- be se o -- zval Ot -- cův hlas:
+      To je můj mi -- lo -- va -- ný Syn,
+      v_něm mám za -- lí -- be -- ní;
+      to -- ho po -- slou -- chej -- te.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 110"
+      id = "krtu-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d c( b g) g a( c b) c c4.( d) \barMax
+      \mark\sipka f4 e d( e c) \barMin b c a a g \barMaior
+      c d c b a( g) g \barMin
+      a f g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Z_ne -- be se o -- zval Ot -- cův hlas:
+      To je můj mi -- lo -- va -- ný Syn,
+      v_něm mám za -- lí -- be -- ní;
+      to -- ho po -- slou -- chej -- te.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 110"
+      id = "krtu-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
   }
