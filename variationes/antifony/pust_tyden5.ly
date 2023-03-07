@@ -389,6 +389,68 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 c( d) d d e( d c) c( d) d4.( a) \barMin
+    a4( b g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží byl po -- sluš -- ný
+    až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    fial = "pust_triduum.ly#ct-resp?konec=17"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \mark\sipka d c d e( d c) c( d) d4.( a) \barMin
+    a4( b g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží byl po -- sluš -- ný
+    až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    fial = "pust_triduum.ly#ct-resp?konec=16"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f e( f) d( c) c \barMin
+    d( f e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží byl po -- sluš -- ný
+    až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}

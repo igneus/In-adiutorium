@@ -1256,6 +1256,54 @@
   \score {
     \relative c'' {
       \choralniRezim
+      c4 b a \mark\sipka b g \barMin
+      \mark\sipka f g a c b a a \barMaior
+      c( d c) b( a) g \barMin
+      a g f( g) a g g \barFinalis
+    }
+    \addlyrics {
+      U -- sta -- no -- vil jsem
+      své -- ho vy -- vo -- le -- né -- ho
+      nej -- vyš -- ším
+      me -- zi krá -- li ze -- mě.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 89-II"
+      id = "30-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 b a b g \barMin
+      f g a c b a a \barMaior
+      \mark\sipka a( b c) a( g) g \barMin
+      g f g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      U -- sta -- no -- vil jsem
+      své -- ho vy -- vo -- le -- né -- ho
+      nej -- vyš -- ším
+      me -- zi krá -- li ze -- mě.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 89-II"
+      id = "30-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       \mark\sipka a4 g f g g \barMin
       a g a c b a a \barMaior
       c( d c) b( a) g \barMin
@@ -1355,6 +1403,66 @@
       a( c) b a g \barMaior
       c c c( d) d d c a \barMin
       c b g( a g) g \barFinalis
+    }
+    \addlyrics {
+      Zá -- stu -- py an -- dě -- lů zpí -- va -- ly:
+      Sva -- tý,
+      sva -- tý,
+      sva -- tý
+      je Pán, Bůh zá -- stu -- pů,
+      ce -- lá ze -- mě je pl -- ná
+      je -- ho slá -- vy.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Benedictus"
+      id = "30-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 c d d( e) d c b( c a) g g \barMaior
+      g( a) a \barMin
+      c( d) d \barMin
+      d( e) d
+      c d( c) \barMin b( c) a g g \barMaior
+      a c c( d) d d c a \barMin
+      c b g( a g4.) g4 \barFinalis
+    }
+    \addlyrics {
+      Zá -- stu -- py an -- dě -- lů zpí -- va -- ly:
+      Sva -- tý,
+      sva -- tý,
+      sva -- tý
+      je Pán, Bůh zá -- stu -- pů,
+      ce -- lá ze -- mě je pl -- ná
+      je -- ho slá -- vy.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Benedictus"
+      id = "30-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 c d d( e) d c b( c a) g g \barMaior
+      g( a) a \barMin
+      c( d) d \barMin
+      d( e) d
+      c d( c) \barMin b( c) a g g \barMaior
+      \mark\sipka a f g( a) a a c d
+      c b c( a g4.) g4 \barFinalis
     }
     \addlyrics {
       Zá -- stu -- py an -- dě -- lů zpí -- va -- ly:
