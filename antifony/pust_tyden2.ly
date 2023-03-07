@@ -68,6 +68,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Flp 2"
+    placet = "zkusit lépe"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
