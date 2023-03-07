@@ -1651,14 +1651,13 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4 d d c d d d( e c) a a \barMaior
-      g( a) a \barMin
+      d4 c d d( e) d c b( c a) g g \barMaior
+      a g
       c( d) d \barMin
-      d( e c) c( a) \barMaior
-      a g( a) \barMin
-      a( c) b a g \barMaior
-      c c c( d) d d c a \barMin
-      c b g( a g) g \barFinalis
+      d( e) d
+      c d( c) \barMin b( c) a g g \barMaior
+      a f g( a) a a c d
+      c b c( a g4.) g4 \barFinalis
     }
     \addlyrics {
       Zá -- stu -- py an -- dě -- lů zpí -- va -- ly:
@@ -1674,7 +1673,6 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Benedictus"
-      placet = "lépe; dílčí ohavnost zvlášť hodná řešení je césura před _je_"
       id = "30-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }

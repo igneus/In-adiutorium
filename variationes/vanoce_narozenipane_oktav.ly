@@ -1393,7 +1393,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d c d d d( e c) a a \barMaior
       g( a) a \barMin
@@ -1418,6 +1418,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Benedictus"
+      placet = "lépe; dílčí ohavnost zvlášť hodná řešení je césura před _je_"
       id = "30-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1462,6 +1463,37 @@
       d( e) d
       c d( c) \barMin b( c) a g g \barMaior
       \mark\sipka a f g( a) a a c d
+      c b c( a g4.) g4 \barFinalis
+    }
+    \addlyrics {
+      Zá -- stu -- py an -- dě -- lů zpí -- va -- ly:
+      Sva -- tý,
+      sva -- tý,
+      sva -- tý
+      je Pán, Bůh zá -- stu -- pů,
+      ce -- lá ze -- mě je pl -- ná
+      je -- ho slá -- vy.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Benedictus"
+      id = "30-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 c d d( e) d c b( c a) g g \barMaior
+      \mark\sipka a g
+      c( d) d \barMin
+      d( e) d
+      c d( c) \barMin b( c) a g g \barMaior
+      a f g( a) a a c d
       c b c( a g4.) g4 \barFinalis
     }
     \addlyrics {
