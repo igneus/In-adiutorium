@@ -1214,6 +1214,23 @@
   }
 }
 
+\markup\justify{
+  Kantikum má hodně veršů, kde mediace se dvěma akcenty nevychází dobře,
+  ale antifona je dobrá a nechci ji kvůli tomu předělávat.
+  Jako elegantní řešení se nabízí doporučit
+  (ať už pro celé kantikum, nebo jen pro dotyčné verše)
+  místo dvouakcentové mediace
+  moderních chorálních edic výjimečně použít jednoakcentovou mediaci
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a a g-! \parenthesize a a
+    }
+  }
+  v naší éře známou asi už jen z cisterciáckých knih,
+  ale z dřívějška dosvědčenou i českými diecésními prameny.
+}
+
 \pageBreak
 
 \markup\nadpisDen{Pondělí}
@@ -1537,6 +1554,13 @@
   }
 }
 
+\markup\justify{
+  Melodie \italic{ani si nedávejte říkat} je bezesporu nezvyklá
+  a při setkání po delší době působí jako zjevná nešikovnost
+  vyžadující opravu (nějaký pokus už je níže),
+  ale na druhý pohled dává smysl.
+  Nepředělávat unáhleně.
+}
 \score {
   \relative c'' {
     \zvyraznovacModry
@@ -1568,6 +1592,148 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g a( g) g \barMax
+
+    g a g a a c c \barMin
+    d d d c d( e) d c( b a) a \barMaior
+    c c c g g f g( a) a \barMin
+    a b a g g \barMax
+
+    d' d c d \mark\sipka e d c b c a g a( g) \barMaior
+    a a c a g f g a a
+    g g \barFinalis
+  }
+  \addlyrics {
+    Vy všich -- ni jste brat -- ři.
+
+    A ni -- ko -- mu na ze -- mi
+    ne -- dá -- vej -- te jmé -- no „o -- tec“,
+    je -- nom je -- den je váš O -- tec,
+    a ten je v_ne -- bi.
+
+    A -- ni si ne -- dá -- vej -- te ří -- kat „u -- či -- tel“,
+    je -- nom je -- den je váš U -- či -- tel_–
+    Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b \mark\sipka a g( a g) g \barMax
+
+    g a g a a c c \barMin
+    d d d c d( e) d c( b a) a \barMaior
+    c c c g g f g( a) a \barMin
+    a b a g g \barMax
+
+    d' d c d d d d d( e) d c( b a) g a( g) \barMaior
+    a a c a g f g a a
+    g g \barFinalis
+  }
+  \addlyrics {
+    Vy všich -- ni jste brat -- ři.
+
+    A ni -- ko -- mu na ze -- mi
+    ne -- dá -- vej -- te jmé -- no „o -- tec“,
+    je -- nom je -- den je váš O -- tec,
+    a ten je v_ne -- bi.
+
+    A -- ni si ne -- dá -- vej -- te ří -- kat „u -- či -- tel“,
+    je -- nom je -- den je váš U -- či -- tel_–
+    Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b \mark\sipka a b( a) a \barMax
+
+    g a g a a c c \barMin
+    d d d c d( e) d c( b a) a \barMaior
+    c c c g g f g( a) a \barMin
+    a b a g g \barMax
+
+    d' d c d d d d d( e) d c( b a) g a( g) \barMaior
+    a a c a g f g a a
+    g g \barFinalis
+  }
+  \addlyrics {
+    Vy všich -- ni jste brat -- ři.
+
+    A ni -- ko -- mu na ze -- mi
+    ne -- dá -- vej -- te jmé -- no „o -- tec“,
+    je -- nom je -- den je váš O -- tec,
+    a ten je v_ne -- bi.
+
+    A -- ni si ne -- dá -- vej -- te ří -- kat „u -- či -- tel“,
+    je -- nom je -- den je váš U -- či -- tel_–
+    Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d e( d) d \barMax
+
+    c d c d d f f \barMin
+    g g g f g( a) g f( e d) d \barMaior
+    c d f f e c d( c) c \barMin
+    d f e d d \barMax
+
+    f f f g a g f e f d c c \barMaior
+  }
+  \addlyrics {
+    Vy všich -- ni jste brat -- ři.
+
+    A ni -- ko -- mu na ze -- mi
+    ne -- dá -- vej -- te jmé -- no „o -- tec“,
+    je -- nom je -- den je váš O -- tec,
+    a ten je v_ne -- bi.
+
+    A -- ni si ne -- dá -- vej -- te ří -- kat „u -- či -- tel“,
+    je -- nom je -- den je váš U -- či -- tel_–
+    Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}

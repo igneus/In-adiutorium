@@ -1564,6 +1564,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin e c d e d d \barMin
+    e e e d c b( c a g) g \barMaior
+    a a f( g a) a \barMin
+    a c c b a g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- den set -- ník po -- slal k_Je -- ží -- šo -- vi
+    ži -- dov -- ské star -- ší s_pros -- bou,
+    a -- by při -- šel
+    a u -- zdra -- vil mu slu -- žeb -- ní -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
