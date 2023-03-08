@@ -710,6 +710,24 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c a c b( a) g \barMin a f g a c b g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d c d( e) d d \barMin d c b a b a g g \barFinalis
   }
   \addlyrics {
@@ -836,7 +854,61 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g( a) g f f( g) g \barMin g \mark\sipka f g a a g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin g bes a g a g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f g a( f) f( g) g \barMin g f g a a g f f \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f g g( a) a \barMin a a g f g g f f \barFinalis
   }
   \addlyrics {
     Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.

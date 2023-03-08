@@ -812,6 +812,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4( a) a( g) g \barMin f g a c b a( g) \mark\sipka a \barMaior
+    \mark\sipka \[ a( c \] \[ d c d) \] d( c) \barMin b c a g g \barFinalis
+  }
+  \addlyrics {
+    U -- zře -- ly všech -- ny kon -- či -- ny ze -- mě
+    spá -- su na -- še -- ho Bo -- ha.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 98"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f f f( g) f g( a) g f f( g) g \barMaior

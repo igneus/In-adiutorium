@@ -1572,6 +1572,200 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f \mark\sipka g f f \barMin
+    f f f \mark\sipka g f g( a) f \barMaior
+    f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f g f \barMin f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Na tvých hrad -- bách, Je -- ru -- za -- lé -- me,
+    u -- sta -- no -- vil jsem stráž -- né;
+    bu -- dou bdít nad mým li -- dem._* \textRespAleluja
+    \Verse A -- ni ve dne, a -- ni v_no -- ci
+    ne -- smě -- jí ni -- kdy ml -- čet._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f \mark\sipka g f g g( f) f \barMin f f f e f d c \barMaior
+    f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f g f \barMin f f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Na tvých hrad -- bách, Je -- ru -- za -- lé -- me,
+    u -- sta -- no -- vil jsem stráž -- né;
+    bu -- dou bdít nad mým li -- dem._* \textRespAleluja
+    \Verse A -- ni ve dne, a -- ni v_no -- ci
+    ne -- smě -- jí ni -- kdy ml -- čet._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f f \barMin
+    f f f g f \[ g( a \] \[ bes a g) \] g( f) \barMaior
+    f f f( e f) d c f( g) a( bes a) \barMax
+    bes bes bes( a g) f \barMin d( f) g( a bes a) g( f) f \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f g f \[ g( a \] \[ bes a g) \] g( f) \barMaior
+    f e f d c f( g) a( bes a) \barMax
+    % R
+    \neviditelna a
+    bes bes bes( a g) f \barMin d( f) g( a bes a) g( f) f \barFinalis
+    % Slava
+    f4 f g f g \[ g( a \] \[ bes a g) \] g( f) \barMaior
+    f d c f f( g) a( bes a) \barFinalis
+  }
+  \addlyrics {
+    \Response Na tvých hrad -- bách, Je -- ru -- za -- lé -- me,
+    u -- sta -- no -- vil jsem stráž -- né;
+    bu -- dou bdít nad mým li -- dem._* \textRespAleluja
+    \Verse A -- ni ve dne, a -- ni v_no -- ci
+    ne -- smě -- jí ni -- kdy ml -- čet._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fons_externus = "volně podle Jistebnického kancionálu, f. 119r a n."
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  (Věčná otázka Jeruzaléma: na přízvučnou slabiku, nebo na nepřízvučnou dlouhou?)
+}
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f \mark\sipka f g f \barMin
+    f f f g f \[ g( a \] \[ bes a g) \] g( f) \barMaior
+    f \mark\sipka e f d c f( g) a( bes a) \barMax
+    bes bes bes( a g) f \barMin d( f) g( a bes a) g( f) f \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f g f \[ g( a \] \[ bes a g) \] g( f) \barMaior
+    f e f d c f( g) a( bes a) \barMax
+    % R
+    \neviditelna a
+    bes bes bes( a g) f \barMin d( f) g( a bes a) g( f) f \barFinalis
+    % Slava
+    f4 f g f g \[ g( a \] \[ bes a g) \] g( f) \barMaior
+    f d c f f( g) a( bes a) \barFinalis
+  }
+  \addlyrics {
+    \Response Na tvých hrad -- bách, Je -- ru -- za -- lé -- me,
+    u -- sta -- no -- vil jsem stráž -- né;
+    bu -- dou bdít nad mým li -- dem._* \textRespAleluja
+    \Verse A -- ni ve dne, a -- ni v_no -- ci
+    ne -- smě -- jí ni -- kdy ml -- čet._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fons_externus = "volně podle Jistebnického kancionálu, f. 119r a n."
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f g f \barMin
+    f f f g f g( a) f \barMaior
+    f f f f( e) d( c) f( g d) f( g a bes a) \barMax
+    bes bes( a g) g( a) f \barMin d( \grace c) \[ f( g \] \[ a bes \] \[ a g f) \] g( a f) f \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f g f g( a) f \barMin
+    f f f f( e) d( c) f( g d) f( g a bes a) \barMax
+    % R
+    \neviditelna a
+    bes bes( a g) g( a) f \barMin d( \grace c) \[ f( g \] \[ a bes \] \[ a g f) \] g( a f) f \barFinalis
+    % Slava
+    f4 f g( a) f \barMin g f( e) d( c) \barMaior
+    d( \grace c) f( g a bes) a g( f e) g( f) f \barFinalis
+  }
+  \addlyrics {
+    \Response Na tvých hrad -- bách, Je -- ru -- za -- lé -- me,
+    u -- sta -- no -- vil jsem stráž -- né;
+    bu -- dou bdít nad mým li -- dem._* \textRespAleluja
+    \Verse A -- ni ve dne, a -- ni v_no -- ci
+    ne -- smě -- jí ni -- kdy ml -- čet._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fons_externus = "volně podle Antiphonale monasticum 1934, s. 838"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {

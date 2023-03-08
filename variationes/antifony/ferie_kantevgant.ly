@@ -4784,6 +4784,44 @@ se bude hodit.}
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f e f d \barMaior
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g f( d) d \barMaior
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 e f d e d d \barMaior
   }
   \addlyrics {
