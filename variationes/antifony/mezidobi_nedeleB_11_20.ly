@@ -542,6 +542,28 @@
     \choralniRezim
     a4 a c b c( d) d \barMaior
     d d( e) d c b c a( g) g \barMin
+    \mark\sipka a( c b) g a a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl že -- ně:
+    Tvá ví -- ra tě za -- chrá -- ni -- la,
+    jdi v_po -- ko -- ji!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ne13b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c( d) d \barMaior
+    d d( e) d c b c a( g) g \barMin
     a \mark\sipka g( a) g g \barFinalis
   }
   \addlyrics {

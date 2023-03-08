@@ -8,7 +8,7 @@
     \choralniRezim
     g4 a a( bes) a a \barMin g a g f e f d d \barMaior
     f f e d f g g a( bes) a g g \barMaior
-    g g f g g( a) g f e( f) e( d) d \barFinalis
+    g g f g g( a) g f e( f) d d \barFinalis
   }
   \addlyrics {
     Že -- na hříš -- ni -- ce při -- stou -- pi -- la k_Je -- ží -- šo -- vi,

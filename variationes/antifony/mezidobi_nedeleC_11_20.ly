@@ -28,11 +28,35 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( bes) a a \barMin g a g f e f d d \barMaior
     f f e d f g g a( bes) a g g \barMaior
     g g f g g( a) g f e( f) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Že -- na hříš -- ni -- ce při -- stou -- pi -- la k_Je -- ží -- šo -- vi,
+    za -- ča -- la mu sl -- za -- mi smá -- čet no -- hy
+    a vlast -- ní -- mi vla -- sy je u -- tí -- rat.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne11c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( bes) a a \barMin g a g f e f d d \barMaior
+    f f e d f g g a( bes) a g g \barMaior
+    g g f g g( a) g f e( f) \mark\sipka d d \barFinalis
   }
   \addlyrics {
     Že -- na hříš -- ni -- ce při -- stou -- pi -- la k_Je -- ží -- šo -- vi,

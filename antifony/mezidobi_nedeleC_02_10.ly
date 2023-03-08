@@ -531,12 +531,12 @@
 \markup {\nadpisDen {"9. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 e d( e) d \barMin c( d) d f e f( g) g( f) \barMin
-    g g g g( a f) e d( c) c \barMaior
-    d d d( e f d) d \barMin
-    d f e d c d( e) e d d \barFinalis
+    g4 a c( d) d \barMin e c d e d d \barMin
+    e e e d c b( c a g) g \barMaior
+    a c b( c a) a \barMin
+    a c c b a b a g( a) a \barFinalis
   }
   \addlyrics {
     Je -- den set -- ník po -- slal k_Je -- ží -- šo -- vi
@@ -546,11 +546,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     annus = "C"
-    placet = "nemá spád"
     id = "ne9c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -586,11 +585,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e( f) f a( g) f( g) g \barMin
-    f g g g f( e d) d \barMin
-    c f e( d) d \barMaior
-    d c f( g a) a( g) g( a) a \barMin
-    a f e d e d c d d \barFinalis
+    f4 d f a( g) f( g) g \barMin
+    a a g f e( f d c) c \barMin
+    d f e( d) d \barMaior
+    f g a( g) f f( g f d) d \barMin
+    d c( d) d( f) f \barMin e f d c( d) d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- sly -- šel
@@ -605,7 +604,6 @@
     differentia = "f"
     psalmus = ""
     annus = "C"
-    placet = "lépe"
     id = "ne9c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -614,12 +612,12 @@
 \markup {\nadpisDen {"10. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 e4.( f) f4 g e d d \barMin
-    e d e f e4. d \barMin c4( d) c b b \barMaior
-    c d e e e( f) e e f( g f) e e \barMaior
-    \[ g( f g \] \[ a g f e) \] e4.( d4 f e) \barFinalis
+    a4 g a b g g( a) a \barMaior
+    g f e f e4. d \barMin c4 d d( e) e \barMaior
+    f g a a g( a) g f d e e \barMaior
+    a( g a g) f( e) \barFinalis
   }
   \addlyrics {
     Když Pán u -- vi -- děl vdo -- vu
@@ -630,20 +628,19 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = ""
     annus = "C"
-    placet = "závěr scestný; melodie je modu IV celkově spíš cizorodá"
     id = "ne10c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 e f f g g g a( bes) a g( f g) g \barMaior
-    a g f e( f d c) c \barMin d( f) e c( d) d \barFinalis
+    a4 g a c d d \barMin d d( e) c c( d) d \barMaior
+    e d c b( c a g) g \barMin a( c) b g( a) a \barFinalis
   }
   \addlyrics {
     Mrt -- vý se po -- sa -- dil a za -- čal mlu -- vit.
@@ -651,8 +648,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "f"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     annus = "C"
     id = "ne10c-rch-aben"
