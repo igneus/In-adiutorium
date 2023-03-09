@@ -1891,6 +1891,52 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e f e d e d d \barMin c d e( f) e d( e) e \barMaior
+    a( g f g) \mark\sipka g( e) \barMin f g f e e \barFinalis
+  }
+  \addlyrics {
+    Bo -- háč,
+    kte -- rý ne -- dal La -- za -- ro -- vi a -- ni drob -- ty chle -- ba,
+    pro -- sil
+    o kap -- ku vo -- dy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e f e d e d d \barMin c d e( f) e d( e) e \barMaior
+    \mark\sipka e( g a g) g \barMin f e d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Bo -- háč,
+    kte -- rý ne -- dal La -- za -- ro -- vi a -- ni drob -- ty chle -- ba,
+    pro -- sil
+    o kap -- ku vo -- dy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

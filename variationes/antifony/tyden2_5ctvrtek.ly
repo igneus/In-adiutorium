@@ -851,6 +851,78 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f e d c \barMin f g a( g f g) g \barMaior
+    a a g f e( f d c) c \barMaior
+    bes c c( d) d \barMin
+    d c d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám tě ná -- ro -- dům ja -- ko svět -- lo,
+    a -- by se má spá -- sa
+    roz -- ší -- ři -- la
+    až do kon -- čin ze -- mě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 72-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f( e) f( g) g \barMin f g a( g f g) g \barMaior
+    a a g f e( f d c) c \barMaior
+    d c d( f) f \barMin
+    g f e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám tě ná -- ro -- dům ja -- ko svět -- lo,
+    a -- by se má spá -- sa
+    roz -- ší -- ři -- la
+    až do kon -- čin ze -- mě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 72-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f( e) f( g) g \barMin f g a( g f g) g \barMaior
+    a a \mark\sipka a a g( f e d) d \barMaior
+    c d d( f) f \barMin
+    g f e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám tě ná -- ro -- dům ja -- ko svět -- lo,
+    a -- by se má spá -- sa
+    roz -- ší -- ři -- la
+    až do kon -- čin ze -- mě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 72-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \key f \major
     d4 d f g a a a \barMin a a a a a( bes) a a g( f) e( d) d \barFinalis
   }
