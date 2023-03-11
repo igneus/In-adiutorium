@@ -2139,6 +2139,106 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b g g( a) a \barMaior
+    g f e f e4. d \barMin c4 d d( e) e \barMaior
+    f g a a g( a) g f d e e \barMaior
+    \mark\sipka g( a f e) d( e) \barFinalis
+  }
+  \addlyrics {
+    Když Pán u -- vi -- děl vdo -- vu
+    o -- pla -- ká -- va -- jí -- cí své -- ho sy -- na,
+    by -- lo mu jí lí -- to a ře -- kl jí:
+    Ne -- plač!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne10c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b g g( a) a \barMaior
+    g f e f e4. d \barMin c4 d d( e) e \barMaior
+    f g a a g( a) g f d e e \barMaior
+    \mark\sipka f( g f e) e \barFinalis
+  }
+  \addlyrics {
+    Když Pán u -- vi -- děl vdo -- vu
+    o -- pla -- ká -- va -- jí -- cí své -- ho sy -- na,
+    by -- lo mu jí lí -- to a ře -- kl jí:
+    Ne -- plač!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne10c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b g g( a) a \barMaior
+    g f e f e4. d \barMin c4 d d( e) e \barMaior
+    f g a a g( a) g f d e e \barMaior
+    \mark\sipka f( g e) e \barFinalis
+  }
+  \addlyrics {
+    Když Pán u -- vi -- děl vdo -- vu
+    o -- pla -- ká -- va -- jí -- cí své -- ho sy -- na,
+    by -- lo mu jí lí -- to a ře -- kl jí:
+    Ne -- plač!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne10c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b g g( a) a \barMaior
+    g f e f e4. d \barMin c4 d d( e) e \barMaior
+    f g a a g( a) g f d e e \barMaior
+    \mark\sipka f( d f) e \barFinalis
+  }
+  \addlyrics {
+    Když Pán u -- vi -- děl vdo -- vu
+    o -- pla -- ká -- va -- jí -- cí své -- ho sy -- na,
+    by -- lo mu jí lí -- to a ře -- kl jí:
+    Ne -- plač!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne10c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
