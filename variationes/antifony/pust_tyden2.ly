@@ -1931,6 +1931,8 @@
   }
 }
 
+\pageBreak
+
 \markup\nadpisDen{Pátek}
 
 \score {
@@ -1963,10 +1965,65 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( f) d d c a c c d d \barMaior
+    \mark\sipka d d c b a( b) a( g) g \barMin a g f g g \barMaior
+    f f g a b c( a) g g \barMin
+    c( d c) b( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Pán vi -- ni -- ce zlo -- sy -- ny za -- hu -- bí
+    a vi -- ni -- ci pro -- na -- jme
+    ji -- ným vi -- na -- řům,
+    kte -- ří mu bu -- dou ve svůj čas
+    od -- vá -- dět vý -- tě -- žek.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne27a-rch-aben"
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( f) d d c a c c d d \barMaior
+    \mark\sipka d d d d c( d) c c b c a g g \barMaior
+    f f g a b c( a) g g \barMin
+    c( d c) b( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Pán vi -- ni -- ce zlo -- sy -- ny za -- hu -- bí
+    a vi -- ni -- ci pro -- na -- jme
+    ji -- ným vi -- na -- řům,
+    kte -- ří mu bu -- dou ve svůj čas
+    od -- vá -- dět vý -- tě -- žek.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne27a-rch-aben"
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d f e d( e d c) c \barMaior
     d e f f e( d) e( d) d \barMaior
@@ -2003,6 +2060,95 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka c d f e f d( c) c \barMaior
+    d e f e d e( d) d \barMaior
+    f f \mark\sipka e d e d c c a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
+    a -- le mě -- li strach z_li -- du,
+    pro -- to -- že ho po -- va -- žo -- val za pro -- ro -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f e f d( c) c \barMaior
+    d e f e d e( d) d \barMaior
+    f \mark\sipka g a f g f d d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
+    a -- le mě -- li strach z_li -- du,
+    pro -- to -- že ho po -- va -- žo -- val za pro -- ro -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e f d( c) c \barMaior
+    f g a g f g( f) f \barMaior
+    g g f e f d c c a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
+    a -- le mě -- li strach z_li -- du,
+    pro -- to -- že ho po -- va -- žo -- val za pro -- ro -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a g f f( g) g \barMaior
+    f g a g f g( f) f \barMaior
+    d f g g a a g f g a f f \barFinalis
+  }
+  \addlyrics {
+    Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
+    a -- le mě -- li strach z_li -- du,
+    pro -- to -- že ho po -- va -- žo -- val za pro -- ro -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}

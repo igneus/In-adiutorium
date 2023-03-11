@@ -456,9 +456,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d d f e d( e d c) c \barMaior
-    d e f f e( d) e( d) d \barMaior
-    d e d c d c a a \barMin a c c( d) d \barFinalis
+    d4 d c d f e f d( c) c \barMaior
+    d e f e d e( d) d \barMaior
+    f g a f g f d d e d c( d) d \barFinalis
   }
   \addlyrics {
     Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
