@@ -244,9 +244,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( e d e) e \barMin
+    d4( e) e \barMin
     f f f f g( a) g f d e e \barMaior
-    e4( a) a c a g \barMin
+    a4 a c a g \barMin
     a a a g f g g g( a) e \barMaior
     a a a g( f e) d \barMin
     f e f g a g f d( e) e \barFinalis

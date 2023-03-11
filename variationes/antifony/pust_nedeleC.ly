@@ -934,7 +934,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka f4( e d e) e \barMin
     f f f f g( a) g f d e e \barMaior
@@ -942,6 +942,35 @@
     a a a g f g g g( a) e \barMaior
     a a a g( f e) d \barMin
     \mark\sipka f e f g a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Vsta -- nu,
+    pů -- jdu k_své -- mu ot -- ci a řek -- nu mu:
+    Ot -- če, zhře -- šil jsem
+    pro -- ti Bo -- hu i pro -- ti to -- bě;
+    už ne -- jsem ho -- den,
+    a -- bych se na -- zý -- val tvým sy -- nem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4( e) e \barMin
+    f f f f g( a) g f d e e \barMaior
+    \mark\sipka a4 a c a g \barMin
+    a a a g f g g g( a) e \barMaior
+    a a a g( f e) d \barMin
+    f e f g a g f d( e) e \barFinalis
   }
   \addlyrics {
     Vsta -- nu,

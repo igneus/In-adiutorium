@@ -2301,6 +2301,35 @@
     a a a g f g g g( a) e \barMaior
     a a a g( f e) d \barMin
     f f f g a g f e e \barMaior
+    f \mark\sipka e d f g a g g \barMin
+    a g f g e e \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, zhře -- šil jsem
+    pro -- ti Bo -- hu i pro -- ti to -- bě.
+    Už ne -- jsem ho -- den,
+    a -- bych se na -- zý -- val tvým sy -- nem.
+    Vez -- mi mě ja -- ko jed -- no -- ho
+    ze svých ná -- de -- ní -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    fial = "antifony/pust_nedeleC.ly#ivmag1?rozsireno"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e( a) a c a g \barMin
+    a a a g f g g g( a) e \barMaior
+    a a a g( f e) d \barMin
+    f f f g a g f e e \barMaior
     \mark\sipka g( a) a g a g f e e \barMin
     d e f g e e \barFinalis
   }
@@ -2325,7 +2354,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4( a) a c a g \barMin
     a a a g f g g g( a) e \barMaior
@@ -2348,6 +2377,36 @@
     differentia = "E"
     psalmus = ""
     fial = "antifony/pust_nedeleC.ly#ivmag1?rozsireno"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 a c a g \barMin
+    a a a g f g g g( a) e \barMaior
+    a a a g( f e) d \barMin
+    f f f g a g f e e \barMaior
+    d( f g) a a \barMin
+    a a g( a) g f g g f g e e \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, zhře -- šil jsem
+    pro -- ti Bo -- hu i pro -- ti to -- bě.
+    Už ne -- jsem ho -- den,
+    a -- bych se na -- zý -- val tvým sy -- nem.
+    Vez -- mi mě
+    ja -- ko jed -- no -- ho ze svých ná -- de -- ní -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/pust_nedeleC.ly#ivmag1?cast=1,2,3"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -478,9 +478,9 @@
 \markup\nadpisDen{Sobota}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4( a) a c a g \barMin
+    a4 a c a g \barMin
     a a a g f g g g( a) e \barMaior
     a a a g( f e) d \barMin
     f f f g a g f e e \barMaior
@@ -498,7 +498,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = ""
     fial = "antifony/pust_nedeleC.ly#ivmag1?cast=1,2,3"
     id = "so-aben"
