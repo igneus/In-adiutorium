@@ -5682,6 +5682,26 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a \mark\sipka f f( g) g \barMin
+      f g f g a f e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Dá -- vám svůj ži -- vot
+      a za -- se ho při -- jmu na -- zpá -- tek.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a2"
+      psalmus = ""
+      id = "ut-ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup\nadpisDen{Středa}
