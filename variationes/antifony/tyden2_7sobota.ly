@@ -1464,6 +1464,29 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \key f \major
+    g4 a bes a \barMin
+    a g f g a( bes) a \barMin
+    \mark\sipka a a g( f) f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
+    je tvé jmé -- no po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 8"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d d c \barMin
     c d c b a( g) g \barMin
     f g a( c) c c b a g g \barFinalis
@@ -1477,6 +1500,50 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 8"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a( b) g \barMin
+    a g f g g( a) a \barMin
+    c c b( c) a a g f g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
+    je tvé jmé -- no po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 8"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g \barMin
+    c b c a g g \barMin
+    f g g( a) a a g f g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    jak po -- di -- vu -- hod -- né
+    je tvé jmé -- no po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 8"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}

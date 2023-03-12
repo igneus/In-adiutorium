@@ -2913,6 +2913,58 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a \barMin
+    b a g( a) g \barMin
+    g f g a g e( f) \barMaior
+    d( e d) c d( f) g( a) a \barMin
+    a a g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- srd -- ný,
+    do -- bro -- ti -- vý
+    a spra -- ve -- dli -- vý Bůh
+    zá -- ří v_tem -- no -- tách
+    ja -- ko svět -- lo řád -- ným li -- dem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 112"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a
+    b g a a \barMin
+    a g f e d e \barMaior
+    e( f) d c( d) d( e) e \barMin
+    f g a g f g e e \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- srd -- ný,
+    do -- bro -- ti -- vý
+    a spra -- ve -- dli -- vý Bůh
+    zá -- ří v_tem -- no -- tách
+    ja -- ko svět -- lo řád -- ným li -- dem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 112"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 % Melodie castecne prevzata z antifon ze zaltare:
