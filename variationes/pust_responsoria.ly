@@ -85,6 +85,21 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    R. Atténde, Dómine, et miserére, * Quia peccávimus tibi.
+    V. Exáudi, Christe, supplicántum preces.
+  }
+}
+\markup\justify{
+  To je shledání vskutku nečekané.
+  Hledat za českým zněním citaci z \italic{Attende Domine}
+  by mě nenapadlo.
+  A zrovna tak by mě nenapadlo čekat, že Consilium takový text propašovalo
+  do breviáře jako responsorium.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
