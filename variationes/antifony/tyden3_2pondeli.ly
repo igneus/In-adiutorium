@@ -1015,6 +1015,29 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4( g a) f g \barMaior
+    g a a a g f g( f) d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm,
+    kdo pře -- bý -- va -- jí v_tvém do -- mě,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 f g \barMaior
@@ -1216,6 +1239,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a \mark\sipka a g a g( f) f \barMin
+    g f d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm, kdo pře -- bý -- va -- jí
+    v_tvém do -- mě, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1307,6 +1350,26 @@
     \choralniRezim
     c4 d d c b a( g) g \barMin
     \mark\sipka a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Hos -- po -- di -- nu,
+    ve -- leb -- te je -- ho jmé -- no.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 96"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d c b a( g) g \barMin
+    a g f \mark\sipka g( a) a g g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- te Hos -- po -- di -- nu,
