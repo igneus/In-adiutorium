@@ -422,6 +422,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( g f) f \barMaior
     a( c) a g a \barMin
@@ -442,6 +443,63 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\justify{
+  Naznačené dělení sledující logickou strukturu textu
+  v praxi nedodržuji a zpívám ji spíš takhle,
+  jak si žádá spád melodie
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( g f) f \barMin
+    a( c) a g a \barMaior
+    a a a g f g g a g f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Žád -- ný pro -- rok
+    ne -- ní ví -- ta -- ný ve svém do -- mo -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne4c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Nebo takhle
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( g f) f \barMin
+    a( c) a g a \barMin
+    a a a g f g g a g f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Žád -- ný pro -- rok
+    ne -- ní ví -- ta -- ný ve svém do -- mo -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne4c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

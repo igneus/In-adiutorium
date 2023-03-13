@@ -1240,6 +1240,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( g) f f \barMaior
     a( c) a g a \barMin
@@ -1256,6 +1257,32 @@
     differentia = "F"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-rch-ben?upraveno"
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( g) f f \barMin
+    a( c) a g a \barMaior
+    a a a g f g g a g f \barFinalis
+  }
+  \addlyrics {
+    A -- men, pra -- vím vám:
+    Žád -- ný pro -- rok
+    ne -- ní ví -- ta -- ný ve svém do -- mo -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-rch-ben?konec=17"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -207,8 +207,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( g) f f \barMaior
-    a( c) a g a \barMin
+    a4 a a( g) f f \barMin
+    a( c) a g a \barMaior
     a a a g f g g a g f \barFinalis
   }
   \addlyrics {
@@ -221,7 +221,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-rch-ben?konec"
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-rch-ben?konec=17"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
