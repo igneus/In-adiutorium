@@ -192,10 +192,10 @@
   \relative c' {
     \choralniRezim
     d4 c e f d d \barMin f f g f( e) d \barMaior
-    d d d c( d) c( b) a \barMin d f d( c) d \barMaior
+    d e d c( d) c( b) a \barMin c d( e) d d \barMaior
     d e f e d c c( b) a \barMax
 
-    d d d( f) d f e d c \barMaior
+    f'4 f g f e f d d \barMaior
     d c e d c d \barFinalis
   }
   \addlyrics {

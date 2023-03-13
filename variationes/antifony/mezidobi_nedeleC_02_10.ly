@@ -503,12 +503,133 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c e f d d \barMin f f g f( e) d \barMaior
     d d d c( d) c( b) a \barMin d f d( c) d \barMaior
     d e f e d c c( b) a \barMax
 
     d d d( f) d f e d c \barMaior
+    d c e d c d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni v_sy -- na -- gó -- ze vzpla -- nu -- li hně -- vem
+    a ved -- li Je -- ží -- še na sráz ho -- ry,
+    a -- by ho sra -- zi -- li do -- lů.
+
+    On však pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne4c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e f d d \barMin f f g f( e) d \barMaior
+    d \mark\sipka e d c( d) c( b) a \barMin \mark\sipka c d( e) d d \barMaior
+    d e f e d c c( b) a \barMax
+
+    d d d( f) d f e d c \barMaior
+    d c e d c d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni v_sy -- na -- gó -- ze vzpla -- nu -- li hně -- vem
+    a ved -- li Je -- ží -- še na sráz ho -- ry,
+    a -- by ho sra -- zi -- li do -- lů.
+
+    On však pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne4c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Zpětná recepce části melodie z odvozené antifony.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c e f d d \barMin f f g f( e) d \barMaior
+    d e d c( d) c( b) a \barMin c d( e) d d \barMaior
+    d e f e d c c( b) a \barMax
+
+    \mark\sipka f'4 f g f e f d d \barMaior
+    d c e d c d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni v_sy -- na -- gó -- ze vzpla -- nu -- li hně -- vem
+    a ved -- li Je -- ží -- še na sráz ho -- ry,
+    a -- by ho sra -- zi -- li do -- lů.
+
+    On však pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne4c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e f d d \barMin f f g f( e) d \barMaior
+    d e d c( d) c( b) a \barMin c d( e) d d \barMaior
+    \mark\sipka f f d f f g f( e) d \barMax
+
+    c d d( f) d f e d c \barMaior
+    d c e d c d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni v_sy -- na -- gó -- ze vzpla -- nu -- li hně -- vem
+    a ved -- li Je -- ží -- še na sráz ho -- ry,
+    a -- by ho sra -- zi -- li do -- lů.
+
+    On však pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne4c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c e f d d \barMin f f g f( e) d \barMaior
+    d e d c( d) c( b) a \barMin c d( e) d d \barMaior
+    f f d f f g f( e) d \barMax
+
+    \mark\sipka f d f e d e c c \barMaior
     d c e d c d \barFinalis
   }
   \addlyrics {
