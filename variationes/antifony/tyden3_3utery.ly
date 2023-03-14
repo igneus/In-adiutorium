@@ -922,7 +922,45 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f f e( f) d d \barMin
+    e4 f d c d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj, Bo -- že, na svůj lid, kte -- rý sis vy -- vo -- lil.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 74-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f f f e d( c) c \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, u -- jmi se své vě -- ci, ne -- pří -- tel se ti rou -- hal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 74-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e f d \barMin
     f e c e f d d \barFinalis
   }
   \addlyrics {
@@ -1417,6 +1455,26 @@
     \choralniRezim
     c4 c c c b g \barMin
     f g a a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je všu -- de
+    ko -- lem své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 125"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g a g \barMin
+    a g f a a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je všu -- de
