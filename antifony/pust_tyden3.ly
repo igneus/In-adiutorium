@@ -255,8 +255,8 @@
     \choralniRezim
     d4 e d c c( d) d \barMin
     d d c b a c d d \barMaior
-    d d d d d( e) d c d c a( g) g \barMin
-    a b g \barFinalis
+    d d c b a( b) g f a a g g \barMin
+    a f g \barFinalis
   }
   \addlyrics {
     Ne -- ří -- kám ti, Pet -- ře,
@@ -269,7 +269,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne24a-1ne-amag?volne"
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne24a-1ne-amag?cast=3"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -280,7 +280,7 @@
     \choralniRezim
     g4 g g f g g( a) a \barMin
     c a a c b a g g \barMaior
-    c c c c( d) c b a( g) g g f a a( g) g \barFinalis
+    c c c c( d) c b a( g) g g a g f( g) g \barFinalis
   }
   \addlyrics {
     Jest -- li -- že své -- mu brat -- ru
