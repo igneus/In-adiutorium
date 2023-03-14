@@ -1309,7 +1309,7 @@
 
 \markup\wordwrap{
   Následující melodii už jsem někde slyšel
-  http://www.inadiutorium.cz/blog/20160705-nespory-ze-slavnosti-sv-prokopa-kostel-vsech-svatych
+  \url-link "http://www.inadiutorium.cz/blog/20160705-nespory-ze-slavnosti-sv-prokopa-kostel-vsech-svatych"
 }
 
 \score {
