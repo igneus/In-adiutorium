@@ -115,10 +115,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g a f( g) g \barMaior
-    a c b( g) g \barMin a( g) f e d( e d) d \barMax
-    f( e) g a g( a) a \barMin a b c c( d c) b a( g) f( g) g \barMaior
-    g a g g \barFinalis
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    a-- b c a a \barMin
+    a b c a g f g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Já jsem dob -- rý pas -- týř;_*
@@ -128,10 +129,10 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
-    placet = "půjde lépe"
+    fial = "pust_svatytyden.ly#po?zacatek=7"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

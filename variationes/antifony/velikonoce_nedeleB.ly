@@ -352,7 +352,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g a f( g) g \barMaior
     a c b( g) g \barMin a( g) f e \mark\sipka d( e d) d \barMax
@@ -394,6 +394,215 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    a g f g( a) a \barMin
+    c b c d d c d c \barMin
+    a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    a g f g( a) a \barMin
+    \mark\sipka a b c a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    a g f g( a) a \barMin
+    \mark\sipka a a a c c b c a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    \mark\sipka a b c a a \barMin
+    c c c b a b a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    a-- b c a a \barMin
+    \mark\sipka c b c a g f g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    a-- b c a a \barMin
+    \mark\sipka a b c a g f g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;_*
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    \mark\sipka a g a a( c) c \barMin
+    c c c d d c d c \barMin
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    a g a a( c) c \barMin
+    \mark\sipka d c b c a g a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
