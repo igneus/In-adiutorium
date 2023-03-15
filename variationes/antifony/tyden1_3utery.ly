@@ -734,6 +734,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b c a( g) g \barMin
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f f g f g( a) a \barMin
@@ -878,6 +898,26 @@
     \choralniRezim
     f4 g a g a bes a \barMin
     a g f f g g f \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g g \barMin
+    g( a g f) d d f g g( f) f \barFinalis
   }
   \addlyrics {
     Slu -- ší se, a -- by do -- bří

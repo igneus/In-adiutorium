@@ -1107,6 +1107,46 @@ si hrát:}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f g( a) g \barMin
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- moz mi, Hos -- po -- di -- ne,
+    a bu -- du za -- chrá -- něn.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Žalm 119-XV"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f g( a) g \barMin
+    a \mark\sipka bes a( g) f( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- moz mi, Hos -- po -- di -- ne,
+    a bu -- du za -- chrá -- něn.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Žalm 119-XV"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

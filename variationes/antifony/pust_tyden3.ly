@@ -1917,6 +1917,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 g f( a) a \barMin
     a g f g f( d) d \barMin
@@ -2022,6 +2023,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -2060,6 +2063,47 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g f d e d d \barMaior
+    a' a a g a c( a) a \barMin
+    a g f g( a) a \barMaior
+    a c c b c a g a a \barMax
+
+    g f g f( d) d \barMaior
+    d c d f g g a a \barMaior
+    a a g f g f( d) d \barMin
+    d c f e c d d \barFinalis
+  }
+  \addlyrics {
+    Jed -- na že -- na ze zá -- stu -- pu zvo -- la -- la:
+    Bla -- ho -- sla -- ve -- ný ži -- vot,
+    kte -- rý tě no -- sil,
+    a pr -- sy, kte -- ré tě ko -- ji -- ly.
+
+    Je -- žíš však ře -- kl:
+    Spí -- še jsou bla -- ho -- sla -- ve -- ní, % ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    textus_approbatus = "Jedna žena ze zástupu zvolala:
+    Blahoslavený život, který tě nosil, a prsy, které tě kojily.
+    Ježíš však řekl:
+    Spíše jsou blahoslavení ti,
+    kdo slyší Boží slovo a zachovávají ho."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Pátek}
 

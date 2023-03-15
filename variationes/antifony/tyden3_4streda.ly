@@ -153,6 +153,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g a \mark\sipka g f( g) f \barMin
+    \mark\sipka g g f e d c d( f) g( f) f \barFinalis
+
+    g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky chci zpí -- vat
+    o Hos -- po -- di -- no -- vých mi -- los -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a f f( g) g \barMin
     f f f f g a g f f \barFinalis
 
@@ -280,6 +304,32 @@
     d f \mark\sipka g( a) g f f \barFinalis
 
     g^\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus, Syn Bo -- ží,
+    po -- chá -- zí ja -- ko člo -- věk
+    z_ro -- du Da -- vi -- do -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 89-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f f g g( a) a \barMin
+    \mark\sipka a g f g f d( c) c \barMin
+    d f g a f f \barFinalis
+
+    g^\rubrVelikAleluja a \mark\sipka g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
@@ -1142,6 +1192,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g( a) a g f g g \barMin
+    c b a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák,
+    Bo -- že, po -- moz mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g( a) a g \mark\sipka a c b \barMin
+    a f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák,
+    Bo -- že, po -- moz mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1239,6 +1329,24 @@
     quid = "1. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 126"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b a \barMin a g a f e e \barFinalis
+  }
+  \addlyrics {
+    Kdo se -- jí v_sl -- zách, žnout bu -- dou s_já -- so -- tem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 126"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
