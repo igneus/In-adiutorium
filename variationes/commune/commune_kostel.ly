@@ -739,11 +739,60 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
     d c b c( a g) g \barMin g f g a4. g \barFinalis
     \mark\sipka a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on si z_nás sta -- ví svůj du -- chov -- ní chrám.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4( d) d \barMin d c e d d \barMin
+    e f e d( c d) d \barMaior
+    d c b c( a g) g \barMin g f g a4. g \barFinalis
+    a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on si z_nás sta -- ví svůj du -- chov -- ní chrám.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4( e c d) d \barMin c( a) b c d d \barMin
+    e f e d( c d) d \barMaior
+    d c b c( a g) g \barMin g f g a4. g \barFinalis
+    a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -813,7 +862,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
     d c d c b \mark\sipka g( a g) g \barFinalis
@@ -830,6 +879,8 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "když jsou dvě invitatoria na výběr, je praktičtější, aby byla po hudební stránce různá,
+    i když je text stavěný tak podobně jako tady a použití stejné melodie se nabízí"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -928,6 +979,35 @@
   }
 }
 
+\markup\nadpisSkupiny "Jiné nápěvy"
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4( d) d \barMin d c e d d \barMaior
+    e f e d( c d) d \barMax
+    d c b g a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on mi -- lu -- je svou cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "sanktoral/0822pmkralovny.ly#invit?zacatek"
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -975,6 +1055,60 @@
     differentia = "D"
     psalmus = ""
     fial = "pust_svatytyden.ly#invit?zacatek"
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g \barMin a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    d f g a g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on mi -- lu -- je svou cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#invit?zacatek"
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4( a' bes) a \barMin g( a) bes a g g \barMaior
+    g a g f( e d c) c \barMax
+    d f f e d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on mi -- lu -- je svou cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0822pmkralovny.ly#invit?zacatek=21"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

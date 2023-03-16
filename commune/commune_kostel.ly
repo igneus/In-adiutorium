@@ -234,7 +234,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
+    d4( e c d) d \barMin c( a) b c d d \barMin
+    e f e d( c d) d \barMaior
     d c b c( a g) g \barMin g f g a4. g \barFinalis
     a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
@@ -257,11 +258,14 @@
 \markup\italic{Nebo:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4( c b a) a( b) \barMin g( a) c c c( d) d \barMin e f e d( c d) d \barMaior
-    d c d c b g( a g) g \barFinalis
-    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    \key f \major
+    d4( a' bes) a \barMin g( a) bes a g g \barMaior
+    g a g f( e d c) c \barMax
+    d f f e d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -271,10 +275,10 @@
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
-    placet = "oba texty na stejnou melodii jsou nuda"
+    fial = "sanktoral/0822pmkralovny.ly#invit?zacatek=21"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
