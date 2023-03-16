@@ -119,10 +119,10 @@
     \choralniRezim
     d4 d c f g f( a) a \barMin
     a( c b g) g f( g) f g( a) a \barMaior
-    a a g a g a c b a a \barMin
+    a a a a g a c b a a \barMin
     g( a) g f( e d c) c \barMaior
-    d f g a g f g( f) \barMin
-    f f e c e( f) d c( d) d \barFinalis
+    d f g( a) g f g g( f) \barMin
+    g g f e f d c( d) d \barFinalis
   }
   \addlyrics {
     Vzne -- še -- ná Mat -- ko Bo -- ží,
@@ -151,7 +151,7 @@
     \choralniRezim
     d4 e f f f f e d c c f( g) f g a a \barMin
     a( c) b a( g) g( a) a \barMaior
-    a g( a g) f( e) d e c( d) d \barFinalis
+    a g f e c e( f d4.) d \barFinalis
   }
   \addlyrics {
     Při -- po -- mí -- nej -- me si dob -- ro -- di -- ní Pan -- ny Ma -- ri -- e,
@@ -223,8 +223,8 @@
     \choralniRezim
     c4 d d( a') a a bes a g f g g( a) a \barMin
     a( c) b g( a) a \barMaior
-    a a g f g d d \barMin
-    c d d( f) e c( d) d \barFinalis
+    a a g f e( f) d( c) c \barMin
+    d c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
