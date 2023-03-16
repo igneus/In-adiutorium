@@ -723,6 +723,50 @@
   Nakonec se mi nejzdařilejší stejně zdá původní varianta.
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c d f e c c( d) \barMaior
+    d c b a( g) a \barMin
+    a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď -- te, jak slav -- ný je Pán;
+    při -- chá -- zí na svět
+    a při -- ná -- ší spá -- su.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c d f e c c( d) \barMaior
+    d c b \mark\sipka a( b) g \barMin
+    f f a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď -- te, jak slav -- ný je Pán;
+    při -- chá -- zí na svět
+    a při -- ná -- ší spá -- su.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

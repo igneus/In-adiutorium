@@ -2543,6 +2543,26 @@ o slabiku později.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d d \barMin d \mark\sipka c d e c c( d) d \barMaior
+    d c b \mark\sipka a( g) a( g) \barMin f g a( c) b( a) a \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že vy -- há -- ním zlé du -- chy prs -- tem Bo -- žím,
+    pak už k_vám při -- šlo Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ne10b-mag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
