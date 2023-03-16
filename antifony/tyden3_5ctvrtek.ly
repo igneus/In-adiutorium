@@ -126,8 +126,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a b( c d) c( b) a a \barMin a g f f( g) e \barMaior
-    g a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
+    g4 c c c b c c( d) d \barMin d c b a( g) g \barMaior
+    a a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
@@ -138,7 +138,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 99"
-    placet = "dlouhé melisma na _Hospodina_ je čímsi neorganické/nadbytečné"
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1?zacatek=17"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

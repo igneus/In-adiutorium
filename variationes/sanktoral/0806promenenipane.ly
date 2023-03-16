@@ -748,7 +748,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a b( c d) c( b) a a \barMin a g f f( g) e \barMaior
     g a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
@@ -789,6 +789,31 @@
     differentia = "G"
     psalmus = "Žalm 99"
     fial = "antifony/tyden3_5ctvrtek.ly#rch-ant3?kratsi_text"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 c c c b c c( d) d \barMin d c b a( g) g \barMaior
+    a a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
+    a klaň -- te se mu na je -- ho sva -- té ho -- ře.
+  }
+  \header {
+    textus_approbatus = "Oslavujte Hospodina, našeho Boha, klaňte se na jeho svaté hoře."
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant3"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }

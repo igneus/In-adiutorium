@@ -848,6 +848,7 @@ si hrát:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a b( c d) c( b) a a \barMin a g f f( g) e \barMaior
     g a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
@@ -861,6 +862,7 @@ si hrát:}
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 99"
+    placet = "dlouhé melisma na _Hospodina_ je čímsi neorganické/nadbytečné"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -882,6 +884,48 @@ si hrát:}
     differentia = "G"
     psalmus = "Žalm 99"
     fial = "antifony/tyden4_2pondeli.ly#ne-ant1?zacatek=17"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 c c c b c c( d) d \barMin d c b a( g) g \barMaior
+    \mark\sipka a a( c) b a( g) g \barMin f f g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
+    a klaň -- te se mu na je -- ho sva -- té ho -- ře.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
+    fial = "antifony/tyden4_2pondeli.ly#ne-ant1?zacatek=17"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a f f( g) g \barMin a c b a( g) a \barMaior
+    c c( d) c b( a) g \barMin f f g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na, na -- še -- ho Bo -- ha,
+    a klaň -- te se mu na je -- ho sva -- té ho -- ře.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
