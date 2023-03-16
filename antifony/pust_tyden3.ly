@@ -378,15 +378,15 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) d e f e d c d d \barMaior
-    a' b c b a c( a) a \barMin
-    g a g f( g a) a \barMaior
-    a c c c b a c a a \barMax
+    d4 d c d f g f d e d d \barMaior
+    a' a a g a c( a) a \barMin
+    a b c a a \barMaior
+    a c c b c a g a a \barMax
 
     g f g f( d) d \barMaior
-    d e f g( a bes) a( g) f g g \barMaior
-    g a g f g f( d) d \barMin
-    e f g f e d d \barFinalis
+    d c d f g f e d( c) \barMaior
+    f a g f g g( f) f \barMin
+    f g f e f d d \barFinalis
   }
   \addlyrics {
     Jed -- na že -- na ze zá -- stu -- pu zvo -- la -- la:
@@ -400,11 +400,11 @@
     a za -- cho -- vá -- va -- jí ho.
   }
   \header {
-    textus_approbatus = \markup{Jedna žena ze zástupu zvolala:
+    textus_approbatus = "Jedna žena ze zástupu zvolala:
     Blahoslavený život, který tě nosil, a prsy, které tě kojily.
     Ježíš však řekl:
     Spíše jsou blahoslavení ti,
-    kdo slyší Boží slovo a zachovávají ho.}
+    kdo slyší Boží slovo a zachovávají ho."
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
