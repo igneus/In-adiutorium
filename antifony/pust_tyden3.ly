@@ -419,10 +419,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f a g g \barMin
-    a c c c b( a) g( a) g \barMaior
-    a a a( c) c \barMin c( d) c a a \barMin
-    f g a g( f) f \barFinalis
+    d4 b d e d d \barMin
+    d c b a c( b) a( g) g \barMaior
+    f g g( a) a \barMin a( b) c a a \barMin
+    a b a g g \barFinalis
   }
   \addlyrics {
     Kte -- ré při -- ká -- zá -- ní
@@ -432,8 +432,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "V"
-    differentia = "a"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -457,6 +457,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
+    placet = "spíš lépe"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

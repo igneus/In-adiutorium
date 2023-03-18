@@ -2212,6 +2212,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f a g g \barMin
     a c c c b( a) g( a) g \barMaior
@@ -2237,6 +2238,81 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g f a g g \barMin
+    a c c c b( c) a( g) g \barMaior
+    c c c( d) c \barMin c( d) c a a \barMin
+    g f a g g \barFinalis
+  }
+  \addlyrics {
+    Kte -- ré při -- ká -- zá -- ní
+    je v_Zá -- ko -- ně nej -- vět -- ší?
+    „Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem.“
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g g \barMin
+    f a c c b( c) a( g) g \barMaior
+    c c c( d) c \barMin c( d) c a a \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Kte -- ré při -- ká -- zá -- ní
+    je v_Zá -- ko -- ně nej -- vět -- ší?
+    „Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem.“
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d e d d \barMin
+    d c b a c( b) a( g) g \barMaior
+    f g g( a) a \barMin a( b) c a a \barMin
+    a b a g g \barFinalis
+  }
+  \addlyrics {
+    Kte -- ré při -- ká -- zá -- ní
+    je v_Zá -- ko -- ně nej -- vět -- ší?
+    „Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem.“
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 b c d( c) b( a) a \barMin
     g f g( a f) e e \barMaior
     e f( a) \barMin a g a b a g f g( e) e \barFinalis
@@ -2250,6 +2326,94 @@
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c d( c) b( a) a \barMin
+    g f g( a f) e e \barMaior
+    e \mark\sipka f e f( g) g a g f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d( e) d d \barMin
+    e d e( f e) d d \barMaior
+    d c d c b c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) f( a) a \barMin
+    a b c a a \barMaior
+    a g a g f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) f( a) a \barMin
+    a b c a a \barMaior
+    a \mark\sipka g( a g) \barMin g f g a a f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
