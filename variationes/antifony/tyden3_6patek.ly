@@ -102,6 +102,28 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a a \mark\sipka g a bes g a \barMin
+    a f g a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Do po -- kr -- mu mi da -- li žluč
+    a v_žíz -- ni mě na -- po -- ji -- li oc -- tem.
+
+    % nema aleluja
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     a4 g a bes( g) a \barMin
@@ -153,6 +175,30 @@
     f e f g f d( e) d d \barFinalis
 
     \mark\sipka e^\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a bes( g) a \barMin
+    \mark\sipka a g f e g f d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te Bo -- ha,

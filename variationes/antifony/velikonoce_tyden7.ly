@@ -1024,6 +1024,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a \barMin a g a g f g g( a) a
+    b( c) a g a a \barMaior
+    a c( b a) g g( e) \barMaior
+    d d d d( a') a g b( c a) a \barMin
+    \mark\sipka a g d f( e) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jdě -- te, zí -- skej -- te za u -- čed -- ní -- ky
+    všech -- ny ná -- ro -- dy
+    a křtě -- te je
+    ve jmé -- nu Ot -- ce i Sy -- na
+    i Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
