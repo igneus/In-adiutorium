@@ -9,7 +9,7 @@
   \relative c' {
     \choralniRezim
     f4 g a g a bes a a \barMin
-    g( f d) e f g f f \barFinalis
+    a g f g( a) f f \barFinalis
   }
   \addlyrics {
     Do do -- mu Hos -- po -- di -- no -- va

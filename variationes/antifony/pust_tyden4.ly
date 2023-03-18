@@ -6,6 +6,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g a bes a a \barMin
     g( f d) e f g f f \barFinalis
@@ -20,6 +21,30 @@
     differentia = "F"
     psalmus = "Žalm 122"
     fial = "commune_kostel.ly#2ne-a2?-aleluja"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g a bes a a \barMin
+    a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Do do -- mu Hos -- po -- di -- no -- va
+    pů -- jde -- me s_ra -- dos -- tí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 122"
+    fial = "commune/commune_kostel.ly#2ne-a2?-aleluja"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }

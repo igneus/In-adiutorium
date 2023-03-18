@@ -3147,11 +3147,61 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g a bes a a \barMin
     g( f d) e f g f f \barFinalis
 
     g^\markup\rubrVelikAleluja a( g) f f \barFinalis
+  }
+  \addlyrics {
+    Do do -- mu Hos -- po -- di -- no -- va
+    pů -- jde -- me s_ra -- dos -- tí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 122"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g a bes a a \barMin
+    \mark\sipka a g f g( a) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Do do -- mu Hos -- po -- di -- no -- va
+    pů -- jde -- me s_ra -- dos -- tí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 122"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g a bes a a \barMin
+    a g f g( a) \mark\sipka g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Do do -- mu Hos -- po -- di -- no -- va
