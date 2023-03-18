@@ -150,6 +150,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 117"
+    placet = "závěr je podezřelý"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
