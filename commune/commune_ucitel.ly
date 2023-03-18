@@ -211,7 +211,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
+    d4( a') a a g f g( f d) \barMin e d e( f d) c d d \barMax
     a'4 a( c a) \barMin a a g a a( bes) a a g a g f e e \barMaior
     c d d( a' bes) a a( c a) g g( a) a \barMaior
     g( a) f( e) d e( d c) d \barFinalis
@@ -231,7 +231,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "začátek je dost divoký; melisma na _skvít_ se poměrně těžko zpívá"
+    placet = "melisma na _skvít_ se poměrně těžko zpívá; _ti_ mám rád, ale je pochybné"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

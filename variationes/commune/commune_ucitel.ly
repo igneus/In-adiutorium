@@ -701,7 +701,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
     a'4 a( c a) \barMin a a g a a( bes) a a g a g f e e \barMaior
@@ -709,6 +709,36 @@
     g( a) f( e) d e( d c) d \barFinalis
 
     \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    placet = "začátek je dost divoký; melisma na _skvít_ se poměrně těžko zpívá"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a') \mark\sipka a a g f g( f d) \barMin e d e( f d) c d d \barMax
+    a'4 a( c a) \barMin a a g a a( bes) a a g a g f e e \barMaior
+    c d d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
