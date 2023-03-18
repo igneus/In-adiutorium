@@ -732,6 +732,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c e f d d \barMaior
+    d e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- staň se mě, Hos -- po -- di -- ne,
+    a po -- moz mi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 119-ע"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f e d c d c c \barMin
     d e( f) d d \barFinalis
   }
@@ -863,6 +883,26 @@
     quid = "1. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 119-ע"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c a g f g g \barMin
+    g g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Za -- staň se mě, Hos -- po -- di -- ne,
+    a po -- moz mi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 119-ע"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}

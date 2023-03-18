@@ -103,8 +103,6 @@
   }
 }
 
-\pageBreak
-
 \markup\italic{V době postní:}
 
 \score {
@@ -121,6 +119,27 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "a"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a g4.) g \barMaior
+    c c c b g a( g f g) g \barFinalis
+  }
+  \addlyrics {
+    V_Hos -- po -- di -- no -- vě chrá -- mě
+    vo -- la -- jí všich -- ni: Slá -- va!
+  }
+  \header {
+    textus_approbatus = "V Hospodinově chrámě všichni volají: Sláva!"
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 147-I"
     id = "1ne-a1-pust"
     piece = \markup {\sestavTitulek}
