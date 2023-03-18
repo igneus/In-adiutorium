@@ -486,7 +486,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?konec"
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?konec=24"
+    placet = "bylo by dobré, kdyby se přeci jen podařilo zachovat motiv _pozdvihnout oči k nebi_ ze zdrojové antifony"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
