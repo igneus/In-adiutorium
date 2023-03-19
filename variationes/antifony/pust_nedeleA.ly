@@ -1177,8 +1177,23 @@
 
 \markup\nadpisDen{4. neděle postní}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Rabbi, quis peccávit, hic aut paréntes eius, ut cæcus nascerétur?
+    Respóndit Iesus: Neque hic peccávit neque paréntes eius, sed ut manifesténtur ópera Dei in illo.
+  }
+}
+\markup\justify{
+  Čili jeden z těch případů, kdy DMC nahrazuje text úplně jiným.
+  Alespoň by se dalo říci, že jde o antifonu tradiční, \cantusid-link "002592" .
+  (Což je i ta antifona z LH, které se překladatelé DMC z nějakého důvodu štítili.
+  \cantusid-link "004571" )
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d b( c) b c( d) d \barMin c b a( b) \barMaior
     b b g a a( b) b \barMin
@@ -1202,6 +1217,181 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d b( c) b c( d) d \barMin c b a( b) \barMaior
+    b b g a a( b) b \barMin
+    \mark\sipka b a g a( b) a a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b( c) b c( d) d \barMin c b a( b) \barMaior
+    b b g a a( b) b \barMin
+    b a g a( b) a \mark\sipka g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) g f( g) g \barMin f e d( c) \barMaior
+    d d f( g a) f f( g) g \barMin
+    g g f g( a) g g f f \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4 g g( a) \mark\sipka f f( g) g \barMin f e d( c) \barMaior
+    \mark\sipka f f g( a) g f( g) f \barMin
+    f d f g g g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a' bes) a g( a) a \barMin g f g( a) \barMaior
+    a a a( c) b g( a) a \barMin
+    a g f e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g( a g) g \barMin f e f( g) \barMaior
+    a a g f g( a) a \barMin
+    c c c b( c a) g a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f c'( a g) a \barMin g f g( a) \barMaior
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Homo, qui dícitur Iesus, lutum fecit et unxit óculos meos:
+    ábii et lavi et modo vídeo.
+  }
+}
+\markup{
+  DMC má opět text nezávislý na předloze.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( b a b) b \barMaior
     c c c c( d) d c b a a \barMin
@@ -1223,11 +1413,63 @@
   }
 }
 
-\pageBreak
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( b c d) d \barMaior
+    d d d c b c a g g \barMin
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Mu -- sí -- me ko -- nat skut -- ky to -- ho,
+    kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
     \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) a \barMaior
+    a a a g f g f d d \barMin
+    d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Mu -- sí -- me ko -- nat skut -- ky to -- ho,
+    kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\markup\justify{
+  (Tradiční antifona, \cantusid-link "001194" ;
+  melodie převažující v CantusIndexu známých pramenech je náhodou také II. modu.)
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e( f d) d e d c d d( c) c \barMin
     d d d c a c d d \barMaior
@@ -1268,6 +1510,53 @@
     psalmus = ""
     annus = "A"
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin g g f g g( f) f \barMaior
+    f d d f e d c c \barMaior
+    d f e( f d) d c d d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či
+    sle -- pé -- mu od na -- ro -- ze -- ní,
+    je -- nom Kris -- tus, Bo -- ží Syn.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin c d e c c( d) d \barMaior
+    d c b a g a g g \barMaior
+    f g g( a) a \barMin b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či
+    sle -- pé -- mu od na -- ro -- ze -- ní,
+    je -- nom Kris -- tus, Bo -- ží Syn.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

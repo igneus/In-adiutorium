@@ -85,6 +85,13 @@
      (interpret-markup layout props
        #{ \markup\with-url #urlWithScheme { #url } #} )))
 
+#(define-markup-command (cantusid-link layout props cantusid) (string?)
+   "odkaz na CANTUS ID na CantusIndexu"
+   (let ((href (string-append "https://www.cantusindex.org/id/" cantusid))
+         (text (string-append "CANTUS " cantusid)))
+     (interpret-markup layout props
+       #{ \markup\with-url #href { #text } #} )))
+
 % procedure for \on-the-fly to only render markup argument
 % in a development build (i.e. build with the point-and-click feature);
 #(define (development-build layout props arg)

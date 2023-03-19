@@ -249,7 +249,7 @@
     \choralniRezim
     d4 d b( c) b c( d) d \barMin c b a( b) \barMaior
     b b g a a( b) b \barMin
-    c c c c( d) c b( a) g g \barFinalis
+    b a g a( b) a a g g \barFinalis
   }
   \addlyrics {
     Já jsem svět -- lo svě -- ta, pra -- ví Pán:
@@ -258,7 +258,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII" % je mi ponekud podezrela. dost mozna do modu nesedi.
+    modus = "VII"
     differentia = "d"
     psalmus = ""
     annus = "A"
@@ -268,11 +268,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d c( b a b) b \barMaior
-    c c c c( d) d c b a a \barMin
-    g a b a( g) g \barFinalis
+    f4 g g( a) a \barMaior
+    a a a g f g f d d \barMin
+    d e c c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
@@ -281,8 +281,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "d"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "A"
     id = "ivben"
@@ -293,9 +293,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e( f d) d e d c d d( c) c \barMin
-    d d d c a c d d \barMaior
-    f f g( f d) d \barMin c d d \barFinalis
+    c4 d d( f) f \barMin g g f g g( f) f \barMaior
+    f d d f e d c c \barMaior
+    d f e( f d) d c d d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či
