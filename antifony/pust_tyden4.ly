@@ -89,6 +89,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 118"
+    placet = "nevím"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -164,7 +165,7 @@
   \relative c' {
     \choralniRezim
     f4 g f( a) a \barMaior
-    a a a g a g f \barMin g f g f d( c) c \barMaior
+    a a f g f d d \barMin f f e f d( c) c \barMaior
     d f f g a g f f \barFinalis
   }
   \addlyrics {
