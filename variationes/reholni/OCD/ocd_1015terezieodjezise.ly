@@ -560,6 +560,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a g f g g \barMaior
+    a \mark\sipka a g f g f d \barMin
+    f g g f \barFinalis
+  }
+  \addlyrics {
+    Ve sbo -- ru sva -- tých bu -- du zpí -- vat
+    o tvém mi -- lo -- sr -- den -- ství,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {

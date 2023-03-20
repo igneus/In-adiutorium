@@ -676,6 +676,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c c( d) c c \mark\sipka b c a g g \barMaior
+    a a g f g a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a c c c d( e) d \barMaior
     e d c( d) c c b c a g g \barMaior
     a a g f g a a \barMin

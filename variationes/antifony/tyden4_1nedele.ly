@@ -388,6 +388,47 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g a f f( g) g \barMaior
+    g f g a a a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Slyš -- te, všich -- ni bo -- ha -- boj -- ní,
+    co Bůh pro -- ká -- zal mé du -- ši.
+  }
+  \header {
+    textus_approbatus = "Slyšte, všichni bohabojní, co prokázal Bůh mé duši."
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-II"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g a f f( g) g \barMaior
+    a a g f d( c) \barMin f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Slyš -- te, všich -- ni bo -- ha -- boj -- ní,
+    co pro -- ká -- zal Bůh mé du -- ši.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-II"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny "off topic"
 
 \score {
