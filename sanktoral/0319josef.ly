@@ -263,7 +263,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d c( d) d( f) f e( f) d( c) c \barMaior
+    d4 d c d d( f) d d e( f) d( c) c \barMaior
     f( g) f f \barMin f f g a f e d( e) d( c) c \barMaior
     a c d d e f d c( d) d \barFinalis
 
@@ -294,12 +294,12 @@
   \relative c'' {
     \choralniRezim
     g4 g g g( a) g g f e f( g) g \barMaior
-    a( c) c d c c b c a( g) g \barMin
-    a a a f e d f( g) g \barMaior
-    a b c b c( d) c \barMin
-    a( g) a a g g \barFinalis
+    a( c) c d c c d c a a \barMin
+    c c c b c a g( a) g \barMaior
+    a a a a f( e) d
+    f g( a) a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Jo -- sef se o -- de -- bral z_Na -- za -- re -- ta
@@ -510,8 +510,8 @@
     \choralniRezim
     g4 g g g( c) a g a g f( g) g \barMaior
     a c b c d d \barMin
-    c c d c b a( b) a a \barMin
-    a( b c) a g( a) g g \barMaior
+    d d e d c c( d) c c \barMin
+    b( c a) g a g g \barMaior
     g g g( a) g g( f d) f f f( g) g \barFinalis
 
     a(^\markup\rubrVelikAleluja b) c( a) g( a) g \barFinalis
@@ -717,7 +717,7 @@
     \choralniRezim
     g4 g g a f g g e \barMaior
     f e d e f g \barMaior
-    g g( a) a a f g g a a \barMin
+    g a a a f g g a a \barMin
     c c c b a g g \barFinalis
 
     f^\markup\rubrVelikAleluja a a( g) g \barFinalis
