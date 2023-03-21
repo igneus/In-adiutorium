@@ -1538,6 +1538,28 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 \score {
   \relative c' {
     \choralniRezim
+    f4 f \mark\sipka d f g \barMin
+    g f g a g \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f g( f) g( a) a \barMin
     g f g f f \barMin
     d f g( f) f \barFinalis
@@ -1585,6 +1607,28 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     f4 f g g( a) a \barMin
     g f g a g \barMin
     f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f \barMin
+    f d f g g \barMin
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých,_*
@@ -1768,6 +1812,28 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     c4 b g a g \barMin
     g f g a a \barMin
     b a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g \barMin
+    g f g a a \barMin
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých,_*

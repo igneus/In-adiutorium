@@ -1672,6 +1672,59 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e( a) a g a b( a) a \barMin
+    a g a e e e f d d( e) e \barMaior
+    a g a b( g e) e \barMin
+    f g e \barFinalis
+  }
+  \addlyrics {
+    Kdo sly -- ší mo -- je slo -- vo
+    a vě -- ří to -- mu, kte -- rý mě po -- slal,
+    má věč -- ný ži -- vot,
+    pra -- ví Pán.
+  }
+  \header {
+    textus_approbatus = "Kdo slyší mé slovo a věří tomu, který mě poslal,
+    má věčný život, praví Pán."
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    e4 e( a) a g a \mark\sipka b( a g) a \barMaior
+    a g a e e \mark\sipka \barMin e f d d( e) e \barMaior
+    a-- g a b( g e) e \barMin
+    f g e \barFinalis
+  }
+  \addlyrics {
+    Kdo sly -- ší mo -- je slo -- vo
+    a vě -- ří to -- mu, kte -- rý mě po -- slal,
+    má věč -- ný ži -- vot,
+    pra -- ví Pán.
+  }
+  \header {
+    textus_approbatus = "Kdo slyší mé slovo a věří tomu, který mě poslal,
+    má věčný život, praví Pán."
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1917,6 +1970,28 @@
     \choralniRezim
     g4 g d' c e d \barMaior
     c d c b \mark\sipka g a a( g) g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám,
+    svěd -- čí, že mě O -- tec po -- slal,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' c e d \barMaior
+    \mark\sipka d d c d c b a( g) g \barMin
     a f g \barFinalis
   }
   \addlyrics {
@@ -2196,6 +2271,26 @@
     \choralniRezim
     d4 d f e d \mark\sipka e d c \barMin
     a c d d e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy tak ne -- mlu -- vil,
+    ja -- ko mlu -- ví ten -- to člo -- věk.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d e d c \barMin
+    a c \mark\sipka c( d) d e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ni -- kdy tak ne -- mlu -- vil,

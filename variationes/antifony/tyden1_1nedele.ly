@@ -1025,6 +1025,26 @@ je atypická a může bt těžké z ní přejít na žalm.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f g g g a( f) g \barMin
+    g f g a g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ty jsi, Hos -- po -- di -- ne, můj štít,
+    ty mi po -- zve -- dáš hla -- vu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 3"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup{Koná-li se vigilie:}

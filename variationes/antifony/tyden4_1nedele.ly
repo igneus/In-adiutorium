@@ -1359,6 +1359,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c b( c) a( g) g \barMaior
+    a a a g f \mark\sipka a c b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   ... zato tady původní verze antifony slovní přízvuk přesouvala zcela nepochybně.
 }
@@ -1526,6 +1548,28 @@
     c4 c c a( c) c b a g g \barMin
     g a \mark\sipka a a g f g( a g) g \barMaior
     f a g g \barFinalis
+  }
+  \addlyrics {
+    Plň -- te své sli -- by Hos -- po -- di -- nu
+    a při -- ná -- šej -- te mu da -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c a( c) c b a g g \mark\sipka \barMaior
+    g a a a g f \mark\sipka a( c) b \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Plň -- te své sli -- by Hos -- po -- di -- nu
@@ -1920,6 +1964,30 @@
     differentia = "D"
     psalmus = "Žalm 112"
     fial = "commune/commune_vicemucedniku.ly#rch-aben?zacatek&volne"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a \barMin
+    a a g f d d \barMin
+    f f e f d( c) c \barMaior
+    d f g g g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 112"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }

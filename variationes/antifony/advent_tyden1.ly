@@ -1656,6 +1656,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a \mark\sipka g c b a b \barMin
+    c d e e c d d \barMaior
+    e( d c) b a g \barMin
+    f( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Hos -- po -- di -- na,
+    když je mož -- né ho na -- jít,
+    vzý -- vej -- te ho,
+    když je blíz -- ko!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Středa 1. týdne}}
