@@ -786,6 +786,105 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d d f e d( e) d d \barMax
+    f( g) f e( d) c( d) d \barFinalis
+    % V
+    \neviditelna f
+    d4 c a c( d) d \barMin d f f f e( f) d( c) c \barMax
+    % R
+    \neviditelna f
+    f( g) f e( d) c( d) d \barFinalis
+    % Slava
+    d4 d d c a c( d) d \barMin d f f e( f) d( c) c \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    titulus = "ferie - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "fe-ne"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d d f d e f g \barMax
+    g( a) f e( f) d d \barFinalis
+    % V
+    \neviditelna f
+    d4 f e d( e) c \barMin d f e d e f g \barMax
+    % R
+    \neviditelna f
+    g( a) f e( f) d d \barFinalis
+    % Slava
+    d4 d f e d d( e) c \barMin d f d e f g \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    titulus = "ferie - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "fe-ne"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f d f f a( g) f( g) g \barMax
+    a( g) f g( a) f f \barFinalis
+    % V
+    \neviditelna d
+    c4 d f f( g) g \barMin g a g f g( a) g g \barMax
+    % R
+    \neviditelna a
+    a( g) f g( a) f f \barFinalis
+    % Slava
+    c4 d f f f f( g) g \barMin g a f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    titulus = "ferie - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "fe-ne"
+  }
+}
+
 \markup\nadpisSkupiny "tradiční nápěv"
 
 \score {
