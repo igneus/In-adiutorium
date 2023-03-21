@@ -208,10 +208,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e f e d d( e) e e \barMin
+    e4 e e( f) e d d e e \barMin
     f( g a) g f g e e \barMaior
     a g( a b) g g( a) \barMin
-    a g f e( f) g f d( e) e \barFinalis
+    a a a g( a) g f d( e) e \barFinalis
   }
   \addlyrics {
     Je -- den krá -- lov -- ský ú -- řed -- ník
