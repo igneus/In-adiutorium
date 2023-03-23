@@ -1647,7 +1647,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e( a) a b a g( a) a \barMin
     e d( e) e f( g a) g f g g e e \barMaior
@@ -1700,7 +1700,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     e4 e( a) a g a \mark\sipka b( a g) a \barMaior
     a g a e e \mark\sipka \barMin e f d d( e) e \barMaior
@@ -1765,6 +1765,34 @@
     d d f g a a \barMin
     a b g \mark\sipka g( a) a a \barMaior
     \mark\sipka a a g f f g e e \barMin
+    f d e \barFinalis
+  }
+  \addlyrics {
+    Já sám ze se -- be
+    ne -- mo -- hu dě -- lat nic.
+    Sou -- dím po -- dle to -- ho,
+    co sly -- ším od Ot -- ce,
+    a můj soud je spra -- ved -- li -- vý,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) f g g \barMin
+    a g g f d e \barMaior
+    d d f g a a \barMin
+    a b g g( a) a a \barMaior
+    a \mark\sipka b a g a g e e \barMin
     f d e \barFinalis
   }
   \addlyrics {

@@ -307,10 +307,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e( a) a b a g( a) a \barMin
-    e d( e) e f( g a) g f g g e e \barMaior
-    a b g a( f e) e \barMin
-    f d e \barFinalis
+    e4 e( a) a g a b( a g) a \barMaior
+    a g a e e \barMin e f d d( e) e \barMaior
+    a-- g a b( g e) e \barMin
+    f g e \barFinalis
   }
   \addlyrics {
     Kdo sly -- ší mo -- je slo -- vo
