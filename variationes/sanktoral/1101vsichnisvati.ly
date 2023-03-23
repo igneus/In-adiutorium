@@ -1114,7 +1114,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f \mark\sipka g a a a a b a g g \barMax
     c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
@@ -1139,6 +1139,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 \mark\sipka d f g g g \barMin f g a g g \barMax
     c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
@@ -1155,7 +1156,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?konec=16&-aleluja"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }

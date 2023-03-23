@@ -76,6 +76,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c b( c) c \barMin d( c) b c( a) a( g) g \barMaior
+    a \mark\sipka a c( a) b a g \barMaior
+    a b g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Pá -- na ve dnech ra -- dos -- ti
+    a o -- sla -- vuj -- te ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Tob 13"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c c( d) c \barMin d( c) b c( a) a( g) g \barMaior
+    a a( c) a b a g \barMaior
+    a b g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te Pá -- na ve dnech ra -- dos -- ti
+    a o -- sla -- vuj -- te ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Tob 13"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

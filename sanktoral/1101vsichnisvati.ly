@@ -263,7 +263,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a a a a b a g g \barMax
+    g4 d f g g g \barMin f g a g g \barMax
     c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
     a a( c) a b a g \barFinalis
   }
@@ -276,10 +276,9 @@
   \header {
     quid = "ant. ke kantikům vigilie"
     modus = "VIII"
-    differentia = ""
+    differentia = "G"
     psalmus = ""
-    placet = "začátek půjde lépe"
-    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?konec&-aleluja"
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?konec=16&-aleluja"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
