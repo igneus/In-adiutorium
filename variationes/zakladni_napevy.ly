@@ -529,6 +529,7 @@ uvodniVers = \lyricmode {
 
   \score {
     \transpose f' c'' { \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       \neviditelna f
       f4 f d \barFinalis
@@ -552,6 +553,38 @@ uvodniVers = \lyricmode {
     \header {
       fons = "dominikáni: http://www.op.cz/download/liturgie/initio_tisk.pdf"
       piece = ""
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c a \barFinalis
+      \neviditelna c
+      c c a \barFinalis
+      \neviditelna c
+      c c c c \bar "" c c b a c \barMaior
+      c b a c \barMin
+      c c c a \barFinalis
+      \neviditelna c
+      c c \barFinalis
+    }
+    \addlyrics {
+      \Verse Pán s_vá -- mi.
+      \Response I s_te -- bou.
+      \Verse Po -- žeh -- nej vás vše -- mo -- hou -- cí Bůh
+      O -- tec i Syn
+      i Duch sva -- tý.
+      \Response A -- men.
+    }
+    \header {
+      fons_externus = "Mešní řád s modlitbami nad dary a s prefacemi, Praha 1984, s. 316."
+      id = "konec-pozehnani"
+      piece = ""
+    }
+    \layout {
+      ragged-right = ##t
     }
   }
 
