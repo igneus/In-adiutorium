@@ -13,6 +13,14 @@
   ragged-bottom = ##t
 }
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Christe, Fili Dei vivi, * Miserére nobis.
+    V. Qui \bold{attrítus es propter scélera nostra.}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -236,6 +244,17 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Ipse liberábit me * De láqueo venántium.
+    V. Et a verbo malígno.
+  }
+}
+\markup{
+  Čili český text je na latinské předloze nezávislý.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -337,6 +356,14 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Ego dixi: Dómine, * Miserére mei.
+    V. Sana ánimam meam, quia peccávi tibi.
+  }
+}
 
 \score {
   \relative c'' {
