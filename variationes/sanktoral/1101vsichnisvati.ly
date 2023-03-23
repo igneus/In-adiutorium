@@ -1137,6 +1137,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka d f g g g \barMin f g a g g \barMax
+    c( d) c c \barMin d( c) b c( a) a( g) g \barMaior
+    a a( c) a b a g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni vy -- vo -- le -- ní,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho ve dnech ra -- dos -- ti
+    a o -- sla -- vuj -- te ho.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a2?delsi_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}

@@ -1028,7 +1028,8 @@
 
 \pageBreak
 
-tIIstredaNespAntIII = \score {
+% tIIstredaNespAntIII =
+\score {
   \relative c'' {
     \choralniRezim
     d4 d d e( f) d c c( d) d \barMin d c a b( c) a a4. \barFinalis
@@ -1046,6 +1047,46 @@ tIIstredaNespAntIII = \score {
   }
 }
 
-\score { \tIIstredaNespAntIII }
+% \score { \tIIstredaNespAntIII }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b c a g( a) g \barMin
+    g a f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_něm by -- lo stvo -- ře -- no všech -- no
+    a všech -- no v_něm tr -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) a a a g f g( a) g \barMaior
+    g f d f( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_něm by -- lo stvo -- ře -- no všech -- no
+    a všech -- no v_něm tr -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Kol 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 %\score { \tIIstredaAntMagnificat }
