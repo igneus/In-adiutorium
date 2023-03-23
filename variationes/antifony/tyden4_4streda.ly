@@ -744,9 +744,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c( d) c \barMin
     b c a( g) g \barMax
+    a b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě,
+    Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Jen aktualisovány divisiones)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) c \barMin
+    b c a( g) g \barMaior
     a b c a g f( g) g \barFinalis
   }
   \addlyrics {

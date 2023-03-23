@@ -156,7 +156,7 @@
   \relative c'' {
     \choralniRezim
     g4 a c( d) c \barMin
-    b c a( g) g \barMax
+    b c a( g) g \barMaior
     a b c a g f( g) g \barFinalis
   }
   \addlyrics {
