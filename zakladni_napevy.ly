@@ -862,11 +862,16 @@
     (\italic{Všeobecné pokyny k Denní modlitbě církve}, odst. 92).
   }
   \markup\justify{
-    2. Dříve platné přiřazení bylo:
+    2. Jako vodítko lze doporučit schéma z potridentského římského breviáře:
     \italic{Alma Redemptoris Mater}
     od prvních nešpor 1. adventní neděle
     do 2. nešpor Uvedení Páně do chrámu.
 
+    % Pozn.: Je rozšířené přesvědčení, že svátkem Uvedení Páně do chrámu
+    % (resp. tehdy Očišťování PM) v předkoncilním kalendáři končila doba vánoční,
+    % ale to není pravda. Svátek tvoří předěl pouze v repertoáru "mariánské periferie" -
+    % mariánské votivní mše, malého mariánského oficia a právě závěrečných mariánských
+    % antifon.
     \italic{Ave, Regina caelorum}
     od 2. nešpor Uvedení Páně do chrámu
     do kompletáře středy Svatého týdne.
@@ -878,30 +883,6 @@
     \italic{Salve regina}
     od prvních nešpor Nejsvětější Trojice
     do nony v sobotu před 1. nedělí adventní.
-  }
-
-  \markup\justify{
-    3. S ohledem na mezitím provedené změny v uspořádání liturgického roku
-    lze doporučit následující schéma:
-
-    \column{
-      \line{\italic{Alma Redemptoris Mater}
-      v době adventní a vánoční, příp. pak ještě dále v liturgickém mezidobí}
-      \line{až do Uvedení Páně do chrámu včetně.}
-
-      \line{\italic{Ave, Regina caelorum}
-      od začátku liturgického mezidobí nebo od dne následujícího po
-      Uvedení Páně}
-      \line{do chrámu do středy Svatého týdne včetně.}
-
-      \line{\italic{Regina caeli}
-      od kompletáře Zmrtvýchvstání Páně
-      do Seslání Ducha svatého.}
-
-      \line{\italic{Salve regina}
-      od pondělí po Seslání Ducha svatého
-      do pátku před 1. nedělí adventní.}
-    }
   }
 
   \markup\sekce{VI.2 Zdroje nápěvů}
