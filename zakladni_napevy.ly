@@ -622,7 +622,8 @@
     }
     \header {
       fons_externus = "podle Antiphonale Romanum 1912, 29*n." % absoluce pred ctenimi matutina
-      placet = "měl by se nápěv amen sjednotit s předchozím?"
+      placet = "měl by se nápěv amen sjednotit s předchozím?
+      (podobně i požehnání na konci kompletáře)"
       id = "konec-prosba"
       piece = ""
     }
