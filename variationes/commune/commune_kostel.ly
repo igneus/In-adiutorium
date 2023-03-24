@@ -561,6 +561,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d e d c b c a( g) g \barMaior
+    a f g( a) a \barMin g( f) a g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, tvá cír -- kev ti vzdá -- vá dí -- ky
+    skr -- ze Kris -- ta, tvé -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Kol 1"
+    id = "1ne-a3-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}

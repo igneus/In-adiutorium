@@ -277,6 +277,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a \mark\sipka c d d e( c) d \barMaior
+    e e d c b \barMin
+    a g a c c b g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ne -- skrý -- vej svou tvář,
+    ne -- za -- po -- mí -- nej
+    na na -- ši bí -- du a ú -- tisk.
+
+    % v breviari neni aleluja
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 44-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}

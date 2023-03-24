@@ -1195,6 +1195,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a g f g( a) g g \barMaior
+    a a g f d f g( f) f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te
+    me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tInedeleIInespAntIII }
 
 %\score { \tInedeleIInespResp }

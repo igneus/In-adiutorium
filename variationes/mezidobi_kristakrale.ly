@@ -2263,6 +2263,30 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d e c d d \barMaior
+    d b c a( g) \barMin
+    f g a( c) a a \barFinalis
+  }
+  \addlyrics {
+    Pán je náš soud -- ce,
+    on nám dal svůj zá -- kon;
+    Pán je náš král,
+    on nás za -- chrá -- ní.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

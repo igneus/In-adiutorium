@@ -861,6 +861,91 @@
     a byl ko -- ru -- no -- ván slá -- vou mu -- čed -- ní -- ků.
   }
   \header {
+    textus_approbatus = "Svatý Štěpán uviděl otevřené nebe
+    a jako první byl korunován slávou mučedníků."
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Nekrácený oficiální text:
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e c d( e) d d \barMin c d c b \mark\sipka g g \barMaior
+    \mark\sipka a a a c b a c d e( d) d \barMin c( d c) b c a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ště -- pán u -- vi -- děl o -- te -- vře -- né ne -- be
+    a ja -- ko prv -- ní byl ko -- ru -- no -- ván slá -- vou mu -- čed -- ní -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e c d( e) d d \barMin c d c b g g \barMaior
+    a a a c b a c \mark\sipka b c( d) d \barMin c( d c) b c a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ště -- pán u -- vi -- děl o -- te -- vře -- né ne -- be
+    a ja -- ko prv -- ní byl ko -- ru -- no -- ván slá -- vou mu -- čed -- ní -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e c d( e) d d \barMin c d c b g g \barMaior
+    \mark\sipka a f g g a a c d c c \barMin c( d c) b c a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ště -- pán u -- vi -- děl o -- te -- vře -- né ne -- be
+    a ja -- ko prv -- ní byl ko -- ru -- no -- ván slá -- vou mu -- čed -- ní -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e c d( e) d d \barMin c d c b g g \barMaior
+    \mark\sipka a g f g a a c d c c \barMin c( d c) b c a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ště -- pán u -- vi -- děl o -- te -- vře -- né ne -- be
+    a ja -- ko prv -- ní byl ko -- ru -- no -- ván slá -- vou mu -- čed -- ní -- ků.
+  }
+  \header {
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"

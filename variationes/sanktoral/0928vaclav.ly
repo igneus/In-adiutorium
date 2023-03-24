@@ -973,6 +973,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d e c c( d) d \barMaior
+    c b a( b) g g \barMin f g a g g \barFinalis
+  }
+  \addlyrics {
+    Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
+    a v_něm na -- chá -- zel ra -- dost a sí -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 4
 
 \score {
