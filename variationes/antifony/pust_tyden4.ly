@@ -1898,11 +1898,38 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c b g g \barMin
     a g f g( a) a g( a) g \barMaior
     a c b c( d) d \mark\sipka \barMin c( d e) c c( d) d \barMaior
+    d c b b c a g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Já ne -- při -- jí -- mám
+    svě -- dec -- tví od člo -- vě -- ka,
+    a -- le co ří -- kám, ří -- kám pro -- to,
+    a -- by -- ste do -- sáh -- li spá -- sy,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c b g g \barMin
+    a g f \mark\sipka g a a( g) g \barMaior
+    a c b c( d) d \barMin c( d e) c c( d) d \barMaior
     d c b b c a g g \barMin
     a f g \barFinalis
   }
@@ -1998,6 +2025,50 @@
     \choralniRezim
     g4 g d' c e d \barMaior
     c d c b \mark\sipka g a a( g) g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám,
+    svěd -- čí, že mě O -- tec po -- slal,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' c e d \barMaior
+    c d c b \mark\sipka c a a( g) g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám,
+    svěd -- čí, že mě O -- tec po -- slal,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' c e d \barMaior
+    \mark\sipka d d c b c a g( a g) g \barMin
     a f g \barFinalis
   }
   \addlyrics {

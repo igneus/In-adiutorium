@@ -364,7 +364,7 @@
   \relative c'' {
     \choralniRezim
     d4 c b g g \barMin
-    a g f g( a) a g( a) g \barMaior
+    a g f g a a( g) g \barMaior
     a c b c( d) d \barMin c( d e) c c( d) d \barMaior
     d c b b c a g g \barMin
     a f g \barFinalis
