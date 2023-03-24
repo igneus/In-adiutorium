@@ -101,7 +101,6 @@ mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFina
 mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinalis }
 \score {
   \relative c'  {
-    \key f \major
     \choralniRezim
     \mRespII
     \neviditelna d
