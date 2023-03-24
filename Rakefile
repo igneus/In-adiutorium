@@ -73,10 +73,16 @@ end
 desc "build all sheet music"
 task :build => build_standalone_ly + [:psalmodie]
 
+desc 'run convert-ly for all LilyPond source files'
 task :convert_ly do
   all_ly_files.each do |source|
     sh 'convert-ly', '--edit', '--diff-version-update', source
   end
+end
+
+desc 'list all score header fields in use'
+task :header_fields do
+  ruby 'nastroje/header_fields.rb', *all_ly_files
 end
 
 #
