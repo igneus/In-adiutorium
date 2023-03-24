@@ -118,12 +118,12 @@ namespace :sanity do
 
   desc "Search for scores missing an ID"
   task :missing_ids do
-    sh 'ruby', 'nastroje/missing_ids.rb', *all_ly_files
+    ruby 'nastroje/missing_ids.rb', *all_ly_files
   end
 
   desc "Check if copied scores still match the sources"
   task :copies do
-    sh 'ruby', 'nastroje/checkcopies.rb',
+    ruby 'nastroje/checkcopies.rb',
        '--save=.last_mismatches.yml',
        '--mismatches',
        # invoke `UPDATE=1 rake sanity:copies` to update the save
@@ -135,13 +135,13 @@ namespace :sanity do
   task :copies_of_modified do
     # TODO get list of fials of modified scores and `checkcopies.rb -c` each
     modified_ly_files.call.each do |m|
-      sh 'ruby', 'nastroje/checkcopies.rb', '-af', '-c', m, *all_ly_files
+      ruby 'nastroje/checkcopies.rb', '-af', '-c', m, *all_ly_files
     end
   end
 
   desc 'Report scores with b flat in key signature, but no b flat in music'
   task :bflat_unused do
-    sh 'ruby', 'nastroje/bflat_unused.rb', *all_ly_files
+    ruby 'nastroje/bflat_unused.rb', *all_ly_files
   end
 
   task :all => [:length]
