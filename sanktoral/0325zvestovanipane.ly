@@ -288,10 +288,10 @@
     \choralniRezim
     c4 c b a g g a a g a g \barMaior
     f g a g a( c) c \barMin
-    b c d c b c a g a( g) g \barMaior
+    b c d d c b c a g g \barMaior
     a a a f e d d f g a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     V_tom se u -- ká -- za -- la Bo -- ží lás -- ka k_nám,
@@ -504,28 +504,30 @@
 
 \score {
   \relative c' {
-    \key f \major
     \choralniRezim
-    f4 f f g a a( g) g \barMin
-    g g g g( a) g a( bes) c bes( a) g \barMaior
-    f f f f( a) g g( f) f \barMin g( f e) d e c c \barMaior
-    d( e f) g a g f f \barFinalis
+    d4 d f e d f( g a4.) a \barMin
+    a4 a a a( c) a g f g( a g) g \barMaior
+    a a a g f f( g) f \barMin
+    f d f( e) d( c) c \barMaior
+    d c d f( e) c( d) d \barFinalis
 
-    g^\markup\rubrVelikAleluja a f f \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Ve své ve -- li -- ké lás -- ce
     po -- slal Bůh na svět své -- ho Sy -- na,
-    a ten se v_čis -- tém tě -- le Pan -- ny Ma -- ri -- e
+    a ten se v_čis -- tém tě -- le
+    Pan -- ny Ma -- ri -- e
     stal pro nás člo -- vě -- kem.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VI"
-    differentia = "F"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
+    fial = "vanoce_narozenipane.ly#bohorodicka-1ne-amag?zacatek=13"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -590,16 +592,15 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( f) f \barMin
-    f f f( g f) f \barMin
-    d f e d c d c c \barMaior
-    d c( d f) f \barMin
-    g( a) g f e( d) d \barMin
-    f e( f) d c c d d \barFinalis
+    g4 a c c c( d) d \barMin
+    d c d e c d d d \barMaior
+    d d4( e d4.) d \barMin
+    c4( d) c b a( g) g \barMaior
+    g a g f g( a) a( g) g \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- tus,
@@ -613,9 +614,10 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
+    fial = "mezidobi_kristakrale.ly#rch-a2?konec&+aleluja"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
