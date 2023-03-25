@@ -847,6 +847,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    e4 e \mark\sipka g a g( a) a \barMin
+    g a b a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Pán mě vy -- svo -- bo -- dí
+    od těch, kte -- ří na mě do -- rá -- že -- jí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-II"
+    id = "mc-b-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka e4 d f g g( a) a \barMin
     g a b a g f g g e e \barFinalis
   }
@@ -1082,6 +1102,26 @@
     \choralniRezim
     f4 g a a g a bes( a) g \barMaior
     f g g( a) a \barMin a a g f g( f) e d \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g a bes( a) g \barMaior
+    f g g( a) a \barMin \mark\sipka g f e f e d d \barFinalis
   }
   \addlyrics {
     Stvoř mi čis -- té srd -- ce, Bo -- že,
@@ -1479,6 +1519,26 @@
     \choralniRezim
     g4 g g a f g( a) g g \barMaior
     a c( d) \mark\sipka c( a) a \barMin a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a f g( a) g g \barMaior
+    \mark\sipka c c( d) c( a) a \barMin a c b a g g \barFinalis
   }
   \addlyrics {
     Chval své -- ho Bo -- ha, Si -- ó -- ne,
