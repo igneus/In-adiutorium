@@ -414,9 +414,9 @@
   \relative c'' {
     \choralniRezim
     d4 a a d c b a g g( a) \barMaior
-    a g a a b( c) a a c( d c) c d d \barMaior
-    d c d e d c a( g) g \barMin
-    a f g \barFinalis
+    a c c c b( c) a( g) g c( d) d c c \barMaior
+    d c d e d c b( c a) a \barMin
+    g f g \barFinalis
   }
   \addlyrics {
     Zná -- te mě a ví -- te, od -- kud jsem,
