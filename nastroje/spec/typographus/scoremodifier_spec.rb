@@ -443,8 +443,7 @@ describe Typographus::ScoreModifier do
     end
 
     it 'fails if there\'s no id header' do
-      # the method requires the score to already have t
-      he 'id' header field,
+      # the method requires the score to already have the 'id' header field,
       ly = '\score {
   \relative c'' { \choralniRezim \neviditelna c c }
   \header {
