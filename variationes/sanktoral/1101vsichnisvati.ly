@@ -1273,6 +1273,7 @@
     modus = "per"
     differentia = ""
     psalmus = "Dan 3-III"
+    fial = "commune/commune_jedenmucednik.ly#rch-a2?-aleluja&konec=11"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

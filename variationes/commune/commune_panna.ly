@@ -1132,6 +1132,7 @@
     modus = "per"
     differentia = ""
     psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#rch-a2?konec=15"
     id = "rch-aben3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
