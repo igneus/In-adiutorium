@@ -2,6 +2,7 @@ require 'lyv'
 
 require_relative 'score_comparison'
 require_relative 'development_clean'
+require_relative 'development_files_finder'
 
 # knows how to find new official versions of chants in
 # development files and introduce them in production files
@@ -65,12 +66,9 @@ class Updater
   end
 
   def development_files(main_file)
-    main_dev = File.join(@development_dir, main_file)
-    return [main_dev] unless partial_files
-
-    wildcarded = main_file.sub /(\.ly)$/i, '_*\1'
-    parts = Dir[File.join(@development_dir, wildcarded)]
-    parts.unshift main_dev
+    DevelopmentFilesFinder
+      .new(@development_dir)
+      .find_for(main_file, partial_files: partial_files)
   end
 
   def marked_for_production?(score)
