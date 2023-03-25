@@ -65,6 +65,8 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 147-II"
+    placet = "Nedrží pohromadě, není náležitě celistvá a zaokrouhlená.
+    Ten začátek z delší antifony na takhle malé ploše použít nejde."
     id = "1ne-a2"
     fons = "1. část: Krista Krále, 1. nešp., k Magnificat"
     fial = "mezidobi_kristakrale.ly#1ne-amag?zacatek"
@@ -191,6 +193,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "možná má falešný závěr"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
