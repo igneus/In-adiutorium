@@ -38,7 +38,10 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f e d f( g a4.) a \barMin
+    a4 a( c a) a g f g g \barMaior
+    a a g f g f e f d c c \barMin
+    d d( f) f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Mou je -- di -- nou chlou -- bou
@@ -48,9 +51,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
+    fial = "sanktoral/0914povysenisvatehokrize.ly#1ne-a3?zacatek&volne"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

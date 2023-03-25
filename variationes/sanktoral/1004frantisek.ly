@@ -296,6 +296,8 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -441,6 +443,8 @@
   }
 }
 
+\markup\nadpisSkupiny 3
+
 \score {
   \relative c' {
     \choralniRezim
@@ -458,6 +462,82 @@
     modus = "I?"
     differentia = "D"
     psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f( g a4.) a \barMin
+    a4 a( c a) a g f g g \barMaior
+    a a g f g f e f d c c \barMin
+    d d( f) e d e c d d \barFinalis
+  }
+  \addlyrics {
+    Mou je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na;
+    vždyť já na svém tě -- le no -- sím zna -- me -- ní,
+    že ná -- le -- žím Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0914povysenisvatehokrize.ly#1ne-a3?zacatek&volne"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d f( g a4.) a \barMin
+    a4 a( c a) a g f g g \barMaior
+    a a g f g f e f d c c \barMin
+    d d( f) \mark\sipka f f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mou je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na;
+    vždyť já na svém tě -- le no -- sím zna -- me -- ní,
+    že ná -- le -- žím Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0914povysenisvatehokrize.ly#1ne-a3?zacatek&volne"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f( g a4.) a \barMin
+    a4 a( c a) a g f g g \barMaior
+    a a \mark\sipka a a g a g f g f f \barMin
+    f e( f) d c e f d d \barFinalis
+  }
+  \addlyrics {
+    Mou je -- di -- nou chlou -- bou
+    je kříž na -- še -- ho Pá -- na;
+    vždyť já na svém tě -- le no -- sím zna -- me -- ní,
+    že ná -- le -- žím Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0914povysenisvatehokrize.ly#1ne-a3?zacatek&volne"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
