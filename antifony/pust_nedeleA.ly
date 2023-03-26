@@ -319,7 +319,7 @@
   \relative c' {
     \choralniRezim
     e4 e e f e d( e) \barMaior
-    f f a a g a f e e \barFinalis
+    f g a a g f d e e \barFinalis
   }
   \addlyrics {
     Náš pří -- tel La -- zar spí,
@@ -365,10 +365,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) d \barMin
+    g4 a c( d) d \barMin
     d e c c d d \barMaior
-    a( d) c( b) a( g) \barMin
-    a g a b( c) a g( a) a \barFinalis
+    a( d) b( c) a( g) \barMin
+    f g a c b g( a) a \barFinalis
   }
   \addlyrics {
     Pa -- ne, vě -- řím,
@@ -379,7 +379,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "d"
+    differentia = "A"
     psalmus = ""
     annus = "A"
     id = "vmag2"

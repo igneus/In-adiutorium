@@ -1567,9 +1567,32 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e f e d( e) \barMaior
     f f a a g a f e e \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e f e d( e) \barMaior
+    f \mark\sipka g a a g f d e e \barFinalis
   }
   \addlyrics {
     Náš pří -- tel La -- zar spí,
@@ -1607,6 +1630,132 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a g e( f) \barMaior
+    d c d f g f d e e \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a g e \barMaior
+    d c d f g f d e e \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f d f g a \barMaior
+    a a g a g f e d d \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c d d( a' bes) a g( a) \barMaior
+    g f g a g f e d d \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a( bes a) a g f g( a) \barMaior
+    a a g a g f e d d \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a( bes a) g f g g( a) \barMaior
+    g f e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1637,6 +1786,17 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Ego crédidi quia tu es Christus Fílius Dei, qui in mundum \bold{venísti.}
+  }
+}
+\markup\justify{
+  Nicméně jako latinská verze je doslovný citát Jan 11, 27 podle Vulgáty,
+  tak česká verze je doslovný citát z ČLP.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -1663,7 +1823,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d \barMin
     d e c c d d \barMaior
@@ -1680,6 +1840,32 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a c( d) d \barMin
+    d e c c d d \barMaior
+    a( d) \mark\sipka b( c) a( g) \barMin
+    \mark\sipka f g a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, vě -- řím,
+    že ty jsi Me -- si -- áš,
+    Syn Bo -- ží,
+    kte -- rý má při -- jít na svět.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     annus = "A"
     id = "vmag2"
