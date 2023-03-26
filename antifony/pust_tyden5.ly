@@ -32,10 +32,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g a g f g a a \barMaior
-    g a g g f g a bes a g( a) a \barMaior
+    a4 a g a g f g( a) g g \barMaior
+    f g g( a) a \barMin a g a bes a g( a) a \barMaior
     a g f g( a) g f d d \barMin
-    e( f) d c( d) d \barFinalis
+    d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Všech -- no po -- va -- žu -- ji za ško -- du
@@ -123,9 +123,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a b) g g( a) \barMaior
-    a a g( a) e e \barMin
-    d c d( f) f( e) e \barFinalis
+    a4 g a( b c) a a \barMaior
+    b a g( a) e e \barMin
+    d c d( f e) d( e) e \barFinalis
   }
   \addlyrics {
     Při -- šla ho -- di -- na,
@@ -147,9 +147,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 c d d( a') a( b) a c b( c) a a \barMaior
-    a a g f g( a) g g \barMin
-    f( e) c d d \barFinalis
+    d4 d c f( g) g( a) a \barMin g( f) g( a) g g \barMaior
+    a a g f e( f) d( c) c \barMin
+    d( f e) c d d \barFinalis
   }
   \addlyrics {
     Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
@@ -167,11 +167,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 b c c d d c( d) a a \barMin
-    a4 c b g g( e) e \barMaior
-    f g( a) a g a f e e \barFinalis
+    d4 d d f e d f( g) a a \barMin
+    a4 c b g g( a) a \barMaior
+    g a g f e f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din zá -- stu -- pů po -- má -- há
@@ -180,8 +180,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "III"
-    differentia = "h"
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 114"
     id = "ne-ne2-a2"
     piece = \markup {\sestavTitulek}
