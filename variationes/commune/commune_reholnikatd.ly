@@ -132,6 +132,77 @@
     }
   }
 
+  \markup\justify{
+    (Řazení vzorů jmen od nejkratšího k delším.)
+  }
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g \neviditelna g \bar ";"
+      a( b c) c \bar ";"
+      a( b c) d( c) c \bar ";"
+      d( e c d) c( b) a( g) a g g \barMaior
+      g f g \mark\sipka a( c b) c( d) d \barMin d d( f e) d( c) d c \barMaior
+      d \mark\sipka c b a g a( b) g g \barFinalis
+
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Sva -- tý \markup\Nomen
+      Mar -- tin
+      Be -- ne -- dikt
+      hle -- dal své -- ho Pá -- na,
+      a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
+      a do -- ve -- dl ho ke spá -- se.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "rehol-amag2"
+      fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g \neviditelna g \bar ";"
+      \mark\sipka a( c) c \bar ";"
+      a( b c) d( c) c \bar ";"
+      d( e c d) c( b) a( g) a g g \barMaior
+      g f g a( c b) c( d) d \barMin d d( f e) d( c) d c \barMaior
+      d c b a g a( b) g g \barFinalis
+
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Sva -- tý \markup\Nomen
+      Mar -- tin
+      Be -- ne -- dikt
+      hle -- dal své -- ho Pá -- na,
+      a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
+      a do -- ve -- dl ho ke spá -- se.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "rehol-amag2"
+      fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
+
   \markup\italic{o řeholnici:}
 
   \score {

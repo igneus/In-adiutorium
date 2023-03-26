@@ -43,6 +43,30 @@
     \choralniRezim
     d4 d f e d c d d( f) f \barMin
     f g a g f( g) f d d \barMaior
+    \mark\sipka c( d f e) d( e d) d( c) \barMin
+    e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ob -- rá -- til o -- či vzhů -- ru
+    a za -- vo -- lal moc -- ným hla -- sem:
+    La -- za -- re,
+    pojď ven!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d c d d( f) f \barMin
+    f g a g f( g) f d d \barMaior
     \mark\sipka c( d f g) a( g) f( g) \barMin
     f( e c) c( d) \barFinalis
   }

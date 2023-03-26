@@ -1212,7 +1212,7 @@
     \choralniRezim
     a4 a a( d) d d d( c d) e c c( d) d \barMaior
     d d( c d) c( a) a b c a a( g) g( a) a \barMax
-    a a a4.( d) \barMin d4 c d e( d) d d c b a( g a) a \barFinalis
+    \mark\sipka a a a4.( d) \barMin d4 c d e( d) d d c b a( g a) a \barFinalis
   }
   \addlyrics {
     Tvé -- mu kří -- ži_* se kla -- ní -- me, Pa -- ne,
@@ -1223,6 +1223,51 @@
     quid = "3. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 147-II"
+    id = "pa-rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( d) d d d( c d) e c c( d) d \barMaior
+    d d( c d) c( a) a b c a a( g) g( a) a \barMax
+    \mark\sipka g f g( a) \barMin a b c a( g) g \barMin c( b) c c( d c) a a \barFinalis
+  }
+  \addlyrics {
+    Tvé -- mu kří -- ži_* se kla -- ní -- me, Pa -- ne,
+    a sla -- ví -- me tvé sva -- té vzkří -- še -- ní.
+    Ne -- boť kříž při -- ne -- sl ra -- dost ce -- lé -- mu svě -- tu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 147-II"
+    id = "pa-rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a a a a g a( b c a) a \barMaior
+    a b( a) g( a) g \barMin g g( a) g g( f) d( f) e( f) \barMaior
+    d f g( a) \barMin a g a a( b a) a \barMin g( f) g g( a g) e e \barFinalis
+  }
+  \addlyrics {
+    Tvé -- mu kří -- ži_* se kla -- ní -- me, Pa -- ne,
+    a sla -- ví -- me tvé sva -- té vzkří -- še -- ní.
+    Ne -- boť kříž při -- ne -- sl ra -- dost ce -- lé -- mu svě -- tu.
+  }
+  \header {
+    fons_externus = "volně podle Graduale simplex 1975, s. 141"
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
     psalmus = "Žalm 147-II"
     id = "pa-rch-ant3"
     piece = \markup {\sestavTitulek}
