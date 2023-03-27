@@ -1613,12 +1613,39 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 c d c( d) \barMin
     d e c c d d \barMaior
     d d c b a a g a a( c) c \barMaior
     \mark\sipka c d e c( b a) a \barMin
+    g a a \barFinalis
+  }
+  \addlyrics {
+    Ne -- je -- nom já
+    svěd -- čím sám o so -- bě,
+    a -- le svěd -- čí o mně ta -- ké O -- tec,
+    kte -- rý mě po -- slal,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d c( d) \barMin
+    d e c c d d \barMaior
+    d d c b a a g a a( c) c \barMin
+    \mark\sipka d e d c( b a) a \barMin
     g a a \barFinalis
   }
   \addlyrics {

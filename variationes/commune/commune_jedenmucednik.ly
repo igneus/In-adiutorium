@@ -148,6 +148,66 @@
   }
 }
 
+\markup\justify{
+  Velikonoční varianta z původní verze je prostě dobrá.
+}
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMaior
+    d f g f g( a) \barMin g( a) g g f f \barFinalis
+
+    \mark\sipka d^\markup\rubrVelikAleluja f g g g f g a( bes) a a \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    \markup{\Dagger a} -- le bu -- de mít svět -- lo ži -- vo -- ta.
+
+    \markup{\Dagger a} -- le bu -- de mít svět -- lo ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "1ne-a2"
+    fial = "antifony/tyden3_4streda.ly#up-ant1?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMaior
+    d f g f g( a) \barMin \mark\sipka g f g( a) f f \barFinalis
+
+    d^\markup\rubrVelikAleluja f g g g f g a( bes) a a \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    \markup{\Dagger a} -- le bu -- de mít svět -- lo ži -- vo -- ta.
+
+    \markup{\Dagger a} -- le bu -- de mít svět -- lo ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "1ne-a2"
+    fial = "antifony/tyden3_4streda.ly#up-ant1?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim

@@ -240,8 +240,8 @@
     \choralniRezim
     a4 c d c( d) \barMin
     d e c c d d \barMaior
-    d d c b a a g a a( c) c \barMaior
-    c d e c( b a) a \barMin
+    d d c b a a g a a( c) c \barMin
+    d e d c( b a) a \barMin
     g a a \barFinalis
   }
   \addlyrics {
