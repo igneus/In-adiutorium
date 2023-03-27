@@ -103,6 +103,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g \neviditelna g
       \bar ";" a( b c) d( c) c \bar ";" a( b c) c \bar ";"
@@ -137,6 +138,7 @@
   }
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       g4 g \neviditelna g \bar ";"
       a( b c) c \bar ";"

@@ -45,17 +45,19 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g \neviditelna g
-      \bar ";" a( b c) d( c) c \bar ";" a( b c) c \bar ";"
+      g4 g \neviditelna g \bar ";"
+      a( b c) c \bar ";"
+      a( b c) d( c) c \bar ";"
       d( e c d) c( b) a( g) a g g \barMaior
-      g f g g( a b) c( d) d \barMin d d( f e) d( c) d c \barMaior
-      d d( c b) a( g) f g a( b) g g \barFinalis
+      g f g a( c b) c( d) d \barMin d d( f e) d( c) d c \barMaior
+      d c b a g a( b) g g \barFinalis
 
-      f^\markup\rubrVelikAleluja a( b) g g \barFinalis
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
     }
     \addlyrics {
       Sva -- tý \markup\Nomen
-      Be -- ne -- dikt Mar -- tin
+      Mar -- tin
+      Be -- ne -- dikt
       hle -- dal své -- ho Pá -- na,
       a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
       a do -- ve -- dl ho ke spá -- se.
