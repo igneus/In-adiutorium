@@ -1138,6 +1138,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f \mark\sipka f f g( a) g \barMaior
+    a( bes) a g f g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- ny za -- svě -- ce -- né Pá -- nu,
+    chval -- te Pá -- na na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "per"
+    differentia = ""
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#rch-a2?konec=15"
+    id = "rch-aben3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}

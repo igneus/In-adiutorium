@@ -1741,6 +1741,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    d( e) c c d d \barMaior
+    a d b c a g a( g) \barMin
+    a( c) a a \barFinalis
+  }
+  \addlyrics {
+    Až po -- vý -- ší -- te
+    Sy -- na člo -- vě -- ka,
+    po -- zná -- te,
+    že jsem to já,
+    pra -- ví Pán.
+  }
+  \header {
+    textus_approbatus = "Až povýšíte Syna člověka,
+    tehdy poznáte, že jsem to já, praví Pán."
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

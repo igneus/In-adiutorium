@@ -1074,6 +1074,33 @@ uvodniVers = \lyricmode {
     }
   }
 
+  \markup\justify{
+    V pramenech jsou jednodušší verze závěru (\italic{in aeternum})
+    než byla pojata do Editio Vaticana:
+    srov. např.
+    \with-url #"https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-MVCHK_HR_1_II_A_1_33SY9L6-cs" {CZ-HKm Hr-1,}
+    f. 194r
+  }
+  \score {
+    \relative c' {
+      \choralniRezim
+      % Pane, k tobe
+      c d( f) f( e) d f g( a) g( f) \mark\sipka e( f) d( c) \barMaior c d( f) f f e d f g( a) \mark\sipka g( f e) e \barFinalis
+    }
+    \addlyrics {
+      Pa -- ne, k_to -- bě se u -- tí -- ká -- me, ať ne -- jsme za -- han -- be -- ni na vě -- ky.
+    }
+    \header {
+      quid = "Te Deum laudamus"
+      modus = "III"
+      differentia = ""
+      psalmus = ""
+      id = ""
+      fons = "melodie volně podle: Mešní zpěvy, s. 995nn"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\italic{\bold{\with-color #red "*"} Poslední část se může vynechat.}
 
   \markup\justify{
