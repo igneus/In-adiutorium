@@ -1282,7 +1282,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a \bar ";" \neviditelna a
 
@@ -1365,8 +1365,9 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
-    g4 a \bar ";" \neviditelna a
+    g4 a \neviditelna a \bar ";"
 
     f4(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g a) a \bar ";"
     a4( g f) g( a) a \bar ";"
@@ -1380,7 +1381,7 @@
     c^\markup\rubrVelikAleluja d e( d) d \barFinalis
   }
   \addlyrics {
-    Sva -- tý \markup{\Dagger \Nomen}
+    Sva -- tý \markup\Nomen
 
     Pe -- tře, % Damiani / Chrysolog / Kanisius
     Va -- vřin -- če, % z Brindisi
