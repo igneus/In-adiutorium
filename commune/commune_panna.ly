@@ -541,18 +541,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( f)
-    \bar ";" g\breve \bar ";"
-    f4 g a g f g g( f d) \barMaior
-    g g( a c) a g a g f( g) f \barMaior
-    e f g g( a) g \barMin
-    f g f e f d d \barFinalis
+    a4 g( f) \neviditelna f \bar ";"
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    g(^\markup\rubrJmenoSvateho a) a( g) g \bar ";"
+    g a a( g) g \bar ";"
+
+    f4 g a g f g g( f d) \barMin
+    f g a g f g g( f) f \barMaior
+    g a g g( f d) d \barMin
+    d e c e f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
-    Sva -- tá
-    \markup\with-color #red N
+    Sva -- tá \markup\Nomen
+
+    Ma -- ri -- e % Goretti
+    Ka -- te -- ři -- na % Alexandrijská; též Terezie (Benedikta od Kříže)
+
     vza -- la na se -- be svůj kříž
     a ná -- sle -- do -- va -- la Kris -- ta,
     Že -- ni -- cha pa -- nen
@@ -703,8 +709,6 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-
-\pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 

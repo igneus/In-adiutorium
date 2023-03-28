@@ -1023,6 +1023,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( f)
     \bar ";" g\breve \bar ";"
@@ -1052,6 +1053,85 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( f) \neviditelna f \bar ";"
+
+    g(^\markup\rubrJmenoSvateho a) g g \bar ";"
+    g a a( g) g \bar ";"
+
+    f4 g a g f g g( f d) \barMaior
+    g g( a c) a g a g f( g) f \barMaior
+    e f g g( a) g \barMin
+    f g f e f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá \markup\Nomen
+
+    Ma -- ri -- e % Goretti
+    Ka -- te -- ři -- na % Alexandrijská; též Terezie (Benedikta od Kříže)
+
+    vza -- la na se -- be svůj kříž
+    a ná -- sle -- do -- va -- la Kris -- ta,
+    Že -- ni -- cha pa -- nen
+    a Krá -- le mu -- čed -- ní -- ků.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( f) \neviditelna f \bar ";"
+
+    g(^\markup\rubrJmenoSvateho a) \mark\sipka a( g) g \bar ";"
+    g a a( g) g \bar ";"
+
+    f4 g a g f g g( f d) \barMin
+    \mark\sipka f g a g f g g( f) f \barMaior
+    g a g g( f d) d \barMin
+    d e c e f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá \markup\Nomen
+
+    Ma -- ri -- e % Goretti
+    Ka -- te -- ři -- na % Alexandrijská; též Terezie (Benedikta od Kříže)
+
+    vza -- la na se -- be svůj kříž
+    a ná -- sle -- do -- va -- la Kris -- ta,
+    Že -- ni -- cha pa -- nen
+    a Krá -- le mu -- čed -- ní -- ků.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\italic{O jedná panně:}
 

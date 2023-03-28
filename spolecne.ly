@@ -21,3 +21,5 @@
 % oznacuje volitelne aleluja na konci
 rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 rubrMimoPust = \markup\small\italic{Mimo dobu postní:}
+
+rubrJmenoSvateho = \markup\small\italic{Jméno se zpívá podle vzoru s odpovídajícím počtem slabik:}

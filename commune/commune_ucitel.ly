@@ -316,7 +316,7 @@
     \choralniRezim
     g4 a \neviditelna a \bar ";"
 
-    f4(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} g a) a \bar ";"
+    f4(^\markup\rubrJmenoSvateho g a) a \bar ";"
     a4( g f) g( a) a \bar ";"
     a4( g) f g( a) a \bar ";"
     a4 g f g( a) a \bar ";"

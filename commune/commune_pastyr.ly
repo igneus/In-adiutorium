@@ -745,7 +745,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g \bar ";" g( a) a\breve \bar ";"
+    g4 g \neviditelna g \bar ";"
+
+    g(^\markup\rubrJmenoSvateho a) \bar ";"
+    g( a) a \bar ";"
+    f( g) g( a) a \bar ";"
+    g( a) f g( a) a \bar ";"
+    g a f g( a) a \bar ";"
+
     a4 a a( b c) b c c( d) c b a a \barMaior
     g g g g( a e) \barMin
     f g a a b a c b a a \barMaior
@@ -755,7 +762,14 @@
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Sva -- tý \markup\with-color #red N _
+    Sva -- tý \markup\Nomen
+
+    Jan % Bosco a další
+    Raj -- mund % z Peñafortu
+    Fa -- bi -- án
+    Hi -- la -- ri -- us
+    Bo -- na -- ven -- tu -- ra
+
     je ten věr -- ný a roz -- váž -- ný správ -- ce,
     kte -- ré -- ho Pán
     u -- sta -- no -- vil nad svým slu -- žeb -- nic -- tvem,
@@ -769,7 +783,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "vypracovat varianty pro všechny potřebné délky jmen"
     id = "2ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

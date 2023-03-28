@@ -46,7 +46,7 @@
     \relative c'' {
       \choralniRezim
       g4 g \neviditelna g \bar ";"
-      a( b c) c \bar ";"
+      a(^\markup\rubrJmenoSvateho b c) c \bar ";"
       a( b c) d( c) c \bar ";"
       d( e c d) c( b) a( g) a g g \barMaior
       g f g a( c b) c( d) d \barMin d d( f e) d( c) d c \barMaior
