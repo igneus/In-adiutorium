@@ -156,6 +156,76 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e e a a g f g( a) a \barMaior
+    g f \mark\sipka g g( a) a \barMin
+    a a g f g f e e \barMin
+    d d d g( f) g e \barMax
+
+    \mark\sipka a a a g f g( a) a \barMaior
+    e g( a) a \barMin
+    b a g e f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    Ďá -- bel Je -- ží -- šo -- vi ře -- kl:
+    Jsi -- -li Syn Bo -- ží,
+    řek -- ni to -- mu -- to ka -- me -- ní,
+    ať se z_něj sta -- ne chléb! % orig.: "z neho"
+
+    Je -- žíš mu od -- po -- vě -- děl:
+    Je psá -- no:
+    Ne -- jen z_chle -- ba ži -- je člo -- věk.
+  }
+  \header {
+    textus_approbatus = "Ďábel Ježíšovi řekl:
+    Jsi-li Syn Boží, řekni tomuto kamení, ať se z něho stane chléb!
+    Ježíš mu odpověděl: Je psáno: Nejen z chleba žije člověk."
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e e a a g f g( a) a \barMaior
+    g f g g( a) a \barMin
+    a a g f g f e e \barMin
+    d d d g( f) g e \barMax
+
+    \mark\sipka g a b a g a a \barMaior
+    e g( a) a \barMin
+    b a g e f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    Ďá -- bel Je -- ží -- šo -- vi ře -- kl:
+    Jsi -- -li Syn Bo -- ží,
+    řek -- ni to -- mu -- to ka -- me -- ní,
+    ať se z_něj sta -- ne chléb! % orig.: "z neho"
+
+    Je -- žíš mu od -- po -- vě -- děl:
+    Je psá -- no:
+    Ne -- jen z_chle -- ba ži -- je člo -- věk.
+  }
+  \header {
+    textus_approbatus = "Ďábel Ježíšovi řekl:
+    Jsi-li Syn Boží, řekni tomuto kamení, ať se z něho stane chléb!
+    Ježíš mu odpověděl: Je psáno: Nejen z chleba žije člověk."
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1066,6 +1136,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f e f( d) d \barMaior
+    f g( a) g f( g) f f \barMin
+    d f e d( c) \barMaior
+    \mark\sipka d c a c c d d \barFinalis
+  }
+  \addlyrics {
+    O -- tec u -- vi -- děl své -- ho sy -- na
+    a po -- hnut sou -- ci -- tem
+    vy -- šel mu vstříc,
+    ob -- jal ho a po -- lí -- bil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1150,6 +1244,41 @@
     f g a g f g f d d d f( e) d( c) c \barMaior
     d d d f d f g f e d d \barMin d c a c( d) d \barMaior
     \mark\sipka d f( g f d) e( d) \barMin c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, ty jsi po -- řád se mnou
+    a všech -- no, co
+    mám, %orig: je mo -- je,
+    je i tvo -- je.
+
+    A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
+    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev a za -- se ži -- je,
+    byl ztra -- cen, a je za -- se na -- le -- zen.
+  }
+  \header {
+    textus_approbatus = "Dítě, ty jsi pořád se mnou
+    a všechno, co je moje, je i tvoje.
+    Ale máme proč se veselit a radovat,
+    protože tento tvůj bratr byl mrtev a zase žije,
+    byl ztracen, a je zase nalezen."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4. d f4 f e d c( d) d \barMaior
+    d f g f d( c) \barMin a c c( d) d \barMax
+
+    f g a g f g f d d d f( e) d( c) c \barMaior
+    d d d f d f g f e d d \barMin d c a c( d) d \barMaior
+    d f( g f d) e( d) \barMin c d f e c \mark\sipka e d \barFinalis
   }
   \addlyrics {
     Dí -- tě, ty jsi po -- řád se mnou

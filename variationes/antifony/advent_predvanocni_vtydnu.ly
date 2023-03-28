@@ -295,6 +295,50 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f f \barMin
+    f f f e( f) d
+    c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f f \barMin
+    \mark\sipka g f e e( f) d
+    c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g f g g a a \barMin

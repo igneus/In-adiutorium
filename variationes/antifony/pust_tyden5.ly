@@ -1768,6 +1768,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    \mark\sipka c( d e) c d d d \barMaior
+    a d b c a g a( g) \barMin
+    a( c) a a \barFinalis
+  }
+  \addlyrics {
+    Až po -- vý -- ší -- te
+    Sy -- na člo -- vě -- ka,
+    po -- zná -- te,
+    že jsem to já,
+    pra -- ví Pán.
+  }
+  \header {
+    textus_approbatus = "Až povýšíte Syna člověka,
+    tehdy poznáte, že jsem to já, praví Pán."
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1869,6 +1896,31 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    \mark\sipka d4 d c d f e c c( d) d \barMaior
+    f g a a g f \mark\sipka f( g) g \barMaior
+    \mark\sipka a a a g( f d) \barMin f e d( e) d( c) \barMin
+    d d e f d d \barFinalis
+  }
+  \addlyrics {
+    Ten, kte -- rý mě po -- slal, je se mnou.
+    Ne -- ne -- chal mě sa -- mot -- né -- ho,
+    pro -- to -- že já stá -- le ko -- nám
+    to, co se mu lí -- bí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}

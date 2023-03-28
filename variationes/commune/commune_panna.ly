@@ -1894,6 +1894,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( c) a a g a a a a( f e) \barMaior
+    a \[ a( c b \] \[ c d c) \] b a( g a) g( f) g \barMaior
+    g f g g( a) g g \barMin a b g g( e) \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify{
   Pokus vyjít z odpovídající latinské antifony (AR1912, [63]).
   Výsledek je ale tak nepodobný, že deklarovat nějaký vztah by bylo spíš zavádějící.
@@ -2042,6 +2068,32 @@
     c c c b( c) a a \barMin g f a g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d e) d \barMin e d c d( e) e( d) d \barMaior
+    d c a c( d e) d( c) c( d) \barMaior
+    d e d c( d) c c \barMin a g a a( g) \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Při -- stup, ne -- věs -- to Kris -- to -- va,
