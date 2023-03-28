@@ -2064,8 +2064,13 @@
 
 \markup\italic{O více pannách:}
 
+\markup\justify{
+  (Tradiční antifona, \cantusid-link "002999" )
+}
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 g a bes a g a \barMin
@@ -2083,6 +2088,167 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    id = "2ne-amag3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f g a \barMin
+    a bes a g f g( a) g g \barMaior
+    g a g f g( f) \barMin g f e f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    To je po -- ko -- le -- ní těch,
+    kdo tou -- ží po Hos -- po -- di -- nu,
+    kdo hle -- da -- jí tvář Ja -- ku -- bo -- va Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d f e f g a \barMin
+    a bes a g f g( a) g g \barMaior
+    g a g f g( f) \barMin \mark\sipka e f d c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    To je po -- ko -- le -- ní těch,
+    kdo tou -- ží po Hos -- po -- di -- nu,
+    kdo hle -- da -- jí tvář Ja -- ku -- bo -- va Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f g a \barMin
+    a bes a g f g( a) g g \barMaior
+    g \mark\sipka g( a) g f g( f) \barMin g f e f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    To je po -- ko -- le -- ní těch,
+    kdo tou -- ží po Hos -- po -- di -- nu,
+    kdo hle -- da -- jí tvář Ja -- ku -- bo -- va Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Pokus vyjít z nápěvů latinské antifony ve vybraných pramenech
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c a g a( c) \barMin
+    c b a b a a g g \barMaior
+    g a g f g( a) \barMin g a g f e e \barFinalis
+
+    f^\markup\rubrVelikAleluja e d( e) e \barFinalis
+  }
+  \addlyrics {
+    To je po -- ko -- le -- ní těch,
+    kdo tou -- ží po Hos -- po -- di -- nu,
+    kdo hle -- da -- jí tvář Ja -- ku -- bo -- va Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "2ne-amag3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c \mark\sipka b a c \barMin
+    c d c b c a g g \barMaior
+    g a g f g( a) \barMin g a g f e e \barFinalis
+
+    f^\markup\rubrVelikAleluja e d( e) e \barFinalis
+  }
+  \addlyrics {
+    To je po -- ko -- le -- ní těch,
+    kdo tou -- ží po Hos -- po -- di -- nu,
+    kdo hle -- da -- jí tvář Ja -- ku -- bo -- va Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "2ne-amag3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c b a \mark\sipka c( d) \barMin
+    d c d c b a g g \barMaior
+    g a g f g( a) \barMin g a g f e e \barFinalis
+
+    f^\markup\rubrVelikAleluja e d( e) e \barFinalis
+  }
+  \addlyrics {
+    To je po -- ko -- le -- ní těch,
+    kdo tou -- ží po Hos -- po -- di -- nu,
+    kdo hle -- da -- jí tvář Ja -- ku -- bo -- va Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g"
     psalmus = ""
     id = "2ne-amag3"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -919,12 +919,13 @@
 \markup\italic{O více pannách:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    f4 g a bes a g a \barMin
-    a f( a bes a) g f g a a e \barMaior
-    d d( e f) g( a) g \barMin a4.( bes) g4 f e f d d \barFinalis
+    g4 a c c b a c( d) \barMin
+    d c d c b a g g \barMaior
+    g a g f g( a) \barMin g a g f e e \barFinalis
+
+    f^\markup\rubrVelikAleluja e d( e) e \barFinalis
   }
   \addlyrics {
     To je po -- ko -- le -- ní těch,
@@ -935,8 +936,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "III"
+    differentia = "g"
     psalmus = ""
     id = "2ne-amag3"
     piece = \markup {\sestavTitulekBezZalmu}
