@@ -59,7 +59,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 c( d) d d c d d f f \barMaior
       f g f g f e d \barMaior
@@ -99,6 +99,30 @@
       psalmus = "Žalm 135-I"
       id = "krtu-1ne-a1"
       fial = "antifony/advent_nedeleB.ly#iiben?konec"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 e c d d f e( f) d d \barMaior
+      \mark\sipka d d( f) e c d f e \barMaior
+      f f e f g f e f d d \barFinalis
+    }
+    \addlyrics {
+      Jan Křti -- tel vy -- stou -- pil na pouš -- ti
+      a hlá -- sal křest po -- ká -- ní,
+      a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Žalm 135-I"
+      id = "krtu-1ne-a1"
+      fial = "antifony/advent_nedeleB.ly#iiben?konec=11"
       piece = \markup {\sestavTitulek}
     }
   }

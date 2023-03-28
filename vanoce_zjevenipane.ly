@@ -915,8 +915,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 c( d) d d c d d f f \barMaior
-      f g f g f e d \barMaior
+      d4 e c d d f e( f) d d \barMaior
+      d d( f) e c d f e \barMaior
       f f e f g f e f d d \barFinalis
     }
     \addlyrics {
@@ -929,9 +929,8 @@
       modus = "II"
       differentia = "D"
       psalmus = "Žalm 135-I"
-      placet = "lépe"
       id = "krtu-1ne-a1"
-      fial = "antifony/advent_nedeleB.ly#iiben?konec"
+      fial = "antifony/advent_nedeleB.ly#iiben?konec=11"
       piece = \markup {\sestavTitulek}
     }
   }
