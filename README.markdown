@@ -67,8 +67,12 @@ LilyPond 2.19.x is currently being used in development.
 
 ## See also
 
-Repository [Meum intende](https://github.com/igneus/Meum-intende) contains some music for
-Liturgy of the Hours in Czech by other authors.
+- [Meum intende](https://github.com/igneus/Meum-intende) -
+  some music for Liturgy of the Hours in Czech by other authors.
+- [antiphonalia-bohemica](https://github.com/igneus/antiphonalia-bohemica) -
+  transcriptions of Czech Divine Office chants from older sources
+- [proprium-pragense-antiphonale](https://github.com/igneus/proprium-pragense-antiphonale) -
+  notated Divine Office proper (in Latin) of the ecclesiastical province of Prague
 
 ## Related tools
 
