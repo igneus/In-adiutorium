@@ -22,6 +22,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "půjde lépe"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -64,12 +65,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( d) c d d \barMin
+    a( d) c c( d) d \barMin
     d d( e) c c( d) d \barMaior
     d c( b) a g a a \barMin
     g a c d d( c) d \barMaior
-    d c( d) \barMin
-    d e( f) d c d( c) \barMin
+    d d
+    c d e( f) d d( c) \barMin
     a g( a) c( b a) a \barFinalis
   }
   \addlyrics {
@@ -114,6 +115,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "půjde lépe"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -123,8 +125,8 @@
   \relative c' {
     \choralniRezim
     f4 g a a g f g g \barMaior
-    f( g a) g \barMin
-    g a f e f d d \barFinalis
+    g( a bes a) g( a) \barMin
+    a g f e f d d \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl Je -- ží -- šo -- vi:
@@ -185,6 +187,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "lépe"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -257,6 +260,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "konec spíš lépe"
     id = "ivmag1"
     fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
     fial = "pust_svatytyden.ly#po-ne-amag?zacatek"
@@ -341,6 +345,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "má pár méně elegantních míst"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -349,10 +354,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d c d f( a) a \barMin
-    a g a( bes) a g( a) a \barMaior
-    g4 g( a) f f4.( d) \barMin
-    f4 e f g f e( f) d d \barFinalis
+    d4 d d c f g f( a) a \barMin
+    a a a( c) a g( a) a \barMaior
+    a g f g( f d) \barMin
+    d c d f e d( e) d d \barFinalis
   }
   \addlyrics {
     Jest -- li -- že mi kdo chce slou -- žit,
