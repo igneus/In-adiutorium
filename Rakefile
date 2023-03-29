@@ -144,6 +144,11 @@ namespace :sanity do
     sh 'bash', 'nastroje/bflat_unused.sh', *all_ly_files
   end
 
+  desc 'Report scores with unhealthy divisiones structure'
+  task :divisiones do
+    sh 'bash', 'nastroje/divisiones_gap.sh', *all_ly_files
+  end
+
   task :all => [:length]
 end
 

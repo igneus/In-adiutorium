@@ -3,6 +3,6 @@
 
 ruby nastroje/find_scores.rb \
      --fail-if-found \
-     --matching='score.music =~ /\\key\s+(f\s*\\major|d\s*\\minor)/' \
-     --matching="!(score.music =~ /[\s^]bes[^a-zA-Z]/ || score.music.include?('\respVIdoxologie'))" \
+     --matching='music =~ /\\key\s+(f\s*\\major|d\s*\\minor)/' \
+     --matching="!(music =~ /[\s^]bes[^a-zA-Z]/ || music.include?('\respVIdoxologie'))" \
      "$@"

@@ -40,6 +40,7 @@ end.parse!
 matches_conditions = lambda do |x|
   score = x
   header = x.header
+  music = x.music
   conditions.all? {|c| eval c }
 end
 
