@@ -984,6 +984,84 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f d) c( d) d \barMin
+    f g a g( a) a \barMaior
+    c c c b a g g \barMin f g a g( a) a \barMax
+    a g f g( a g f) d( c) \barMin
+    d f e d( e d4.) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se,
+    bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f d) c( d) d \barMin
+    f g a g( a) a \barMaior
+    c c c b a g g \barMin f g \mark\sipka f g4. a \barMax
+    \mark\sipka a4 a a g( f e d) d \barMin
+    e d c e( f d4.) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se,
+    bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f d) c( d) d \barMin
+    f g a g( a) a \barMaior
+    c c c b a g g \barMin f g f \mark\sipka g( a) a \barMax
+    a4 g f g( a g f) d( c) \barMin
+    d f e d( e d4.) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se,
+    bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
