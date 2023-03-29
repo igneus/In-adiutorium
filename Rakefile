@@ -118,7 +118,7 @@ namespace :sanity do
 
   desc "Search for scores missing an ID"
   task :missing_ids do
-    ruby 'nastroje/missing_ids.rb', *all_ly_files
+    sh 'bash', 'nastroje/missing_ids.sh', *all_ly_files
   end
 
   desc "Check if copied scores still match the sources"
@@ -141,7 +141,7 @@ namespace :sanity do
 
   desc 'Report scores with b flat in key signature, but no b flat in music'
   task :bflat_unused do
-    ruby 'nastroje/bflat_unused.rb', *all_ly_files
+    sh 'bash', 'nastroje/bflat_unused.sh', *all_ly_files
   end
 
   task :all => [:length]
