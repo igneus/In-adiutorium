@@ -1986,13 +1986,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c c c d( e) d \barMaior
     d c d \mark\sipka d( e) e e d c d e d d \barMin
     c d d \barMaior
     e d c c( d c a) a \barMin
     g a( c) c c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Když vy -- tr -- vá -- te v_mém slo -- vu,
+    bu -- de -- te o -- prav -- du mý -- mi u -- čed -- ní -- ky,
+    pra -- ví Pán.
+    Po -- zná -- te prav -- du,
+    a prav -- da vás o -- svo -- bo -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c c c d( e) d \barMaior
+    d c d \mark\sipka e e e d c d e d d \barMin
+    c d d \barMaior
+    e d c c( d c a) a \barMin
+    g \mark\sipka a c c b g g( a) a \barFinalis
   }
   \addlyrics {
     Když vy -- tr -- vá -- te v_mém slo -- vu,
@@ -2044,6 +2071,28 @@
     a4 a g a g f g a a \barMaior
     a a a b a g( a) e e \barMin
     d e f f( g) f e e \barFinalis
+  }
+  \addlyrics {
+    Proč mi u -- klá -- dá -- te o ži -- vot?
+    Proč chce -- te za -- bít člo -- vě -- ka,
+    kte -- rý vám mlu -- vil prav -- du?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a g f g a a \barMaior
+    a a a b a g( a) e e \barMin
+    \mark\sipka d c d f e d( e) e \barFinalis
   }
   \addlyrics {
     Proč mi u -- klá -- dá -- te o ži -- vot?
