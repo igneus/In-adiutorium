@@ -1,4 +1,5 @@
 require 'lyv'
+require 'colorized_string'
 
 require_relative 'score_comparison'
 require_relative 'development_clean'
@@ -48,11 +49,21 @@ class Updater
         score_text_cleaned = clean_score score.text
         score_text_cleaned = indent score_text_cleaned, indentation_level(production_score.text)
 
-        if scores_differ?(production_score, score) && @filter_proc.call(production_score, score_text_cleaned)
-          @log.puts "updating ##{score_id}"
-          changes += 1
+        if scores_differ?(production_score, score)
+          if lyrics_differ?(production_score, score)
+            @log.puts
+            @log.puts ColorizedString.new("##{score_id}: WARNING: lyrics changed").colorize(color: :magenta, mode: :bold)
+            @log.puts "  - #{production_score.lyrics_readable}"
+            @log.puts "  + #{score.lyrics_readable}"
+            @log.puts
+          end
 
-          main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
+          if @filter_proc.call(production_score, score_text_cleaned)
+            @log.puts "updating ##{score_id}"
+            changes += 1
+
+            main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
+          end
         end
       end
 
@@ -82,6 +93,10 @@ class Updater
 
   def scores_differ?(production_score, development_score)
     ScoreComparison.new(production_score, development_score, comparison_options).differs?
+  end
+
+  def lyrics_differ?(production_score, development_score)
+    production_score.lyrics_readable != development_score.lyrics_readable
   end
 
   # how many spaces is the lilypond score indented?
