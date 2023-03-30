@@ -2923,6 +2923,84 @@
   \score {
     \relative c' {
       \choralniRezim
+      \mark\sipka f4 f f( g a) \barMin
+      a g bes( a) g f g4. g \barMax
+      g4 g g g g g f e d d \barMaior
+      f e f( g) g \barMin
+      g a a a f( e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka f4( g) f g( a) \barMin
+      a g bes( a) g f g4. g \barMax
+      g4 g g g g g f e d d \barMaior
+      f e f( g) g \barMin
+      g a a a f( e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka f4 g g( a) \barMin
+      a g bes( a) g f g4. g \barMax
+      g4 g g g g g f e d d \barMaior
+      f e f( g) g \barMin
+      g a a a f( e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       \mark\sipka d4( e) c d( e f) \barMin
       g f g( a) g f g g \barMax
       a a a g a g f e d d \barMaior
