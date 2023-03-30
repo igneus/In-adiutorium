@@ -386,6 +386,7 @@
     modus = "I"
     differentia = "g2"
     psalmus = ""
+    placet = "melisma na _Vy_ není moc šťastné"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
