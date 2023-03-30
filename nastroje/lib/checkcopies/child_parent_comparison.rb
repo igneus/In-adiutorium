@@ -139,6 +139,7 @@ class ChildParentComparison
 
     n = strip_alleluia(n) if strip_aeuia
     n = delete_responsory_verse(n) if @fial.additional.has_key?('jiny_vers')
+    n = delete_key_signatures(n) if @fial.additional.has_key?('zacatek')
 
     p n if @debug
 
@@ -155,6 +156,10 @@ class ChildParentComparison
 
   def delete_responsory_verse(music)
     music.sub(/(?<=\\barFinalis).*?\\barMax/, '')
+  end
+
+  def delete_key_signatures(music)
+    music.gsub(/\s+\\key\s+[a-g]([ei]?s)?\s+\\(major|minor)\s+/, ' ')
   end
 
   def strip_wrappers(music)

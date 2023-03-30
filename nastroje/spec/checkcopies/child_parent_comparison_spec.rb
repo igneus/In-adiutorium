@@ -43,6 +43,11 @@ describe ChildParentComparison do
         .not_to be_match
     end
 
+    it 'key signature differs' do
+      expect(described_class.new(score(music: '\key f \major a'), score(music: 'a')))
+        .not_to be_match
+    end
+
     # often an antifon ending with alleluia exists in copies differing
     # just in quality of a bar before alleluia, as some are for the
     # Eastertide (alleluia is always sung) and dome for general use
@@ -120,6 +125,13 @@ describe ChildParentComparison do
 
       expect(described_class.new(child, parent))
         .to be_match
+    end
+
+    it 'key signature differs' do
+      child = score(fial: fial, music: '\key f \major a \barFinalis a \barFinalis')
+
+      expect(described_class.new(child, score))
+        .not_to be_match
     end
   end
 
@@ -365,6 +377,38 @@ describe ChildParentComparison do
               score(music: music, modus: mode_b, differentia: diff_b)
             )
           ).to be_match
+        end
+      end
+    end
+
+    describe 'handling key signature' do
+      it 'ignores difference in key signature' do
+        expect(
+          described_class.new(
+            score(music: '              a b c d e   a a a', fial: fial),
+            score(music: '\key f \major a b c d e   c c c')
+          )
+        ).to be_match # difference in key signature is not significant
+      end
+
+      it 'does not consider the key signature as part of the shared beginning even if it is the same' do
+        (1..5).each do |i|
+          expect(
+            described_class.new(
+              score(music: '\key f \major a b c d e   a a a', fial: "parent_path#id?zacatek=#{i}"),
+              score(music: '\key f \major a b c d e   c c c')
+            )
+          ).to be_match
+        end
+
+        # were the key signature considered, these would pass as well
+        (6..8).each do |i|
+          expect(
+            described_class.new(
+              score(music: '\key f \major a b c d e   a a a', fial: "parent_path#id?zacatek=#{i}"),
+              score(music: '\key f \major a b c d e   c c c')
+            )
+          ).not_to be_match
         end
       end
     end
