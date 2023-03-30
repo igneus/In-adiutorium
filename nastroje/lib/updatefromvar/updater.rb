@@ -17,9 +17,10 @@ class Updater
     @partial_files = true
     @filter_proc = proc { true }
     @compare_music_only = false
+    @dry_run = false
   end
 
-  attr_accessor :partial_files, :filter_proc, :compare_music_only
+  attr_accessor :partial_files, :filter_proc, :compare_music_only, :dry_run
 
   def update(main_file)
     main_src = File.read main_file
@@ -55,7 +56,7 @@ class Updater
         end
       end
 
-      if changes > 0
+      if changes > 0 && !dry_run
         File.open(main_file, 'w') do |fw|
           fw.write(main_src)
         end

@@ -45,6 +45,10 @@ optparse = OptionParser.new do|opts|
   opts.on "-p", "--patch", "Select changes to apply interactively" do
     setup[:interactive] = true
   end
+
+  opts.on "-d", "--dry-run", "Perform all actions, but don't save the results" do
+    setup[:dry_run] = true
+  end
 end
 
 optparse.parse!
@@ -54,6 +58,7 @@ begin
   updater = Updater.new('variationes', STDOUT)
   updater.partial_files = setup[:partial_files]
   updater.compare_music_only = setup[:compare_music_only]
+  updater.dry_run = setup[:dry_run]
   if setup[:interactive]
     updater.filter_proc = InteractiveFilter.new highline
   end
