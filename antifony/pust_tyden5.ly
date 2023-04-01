@@ -415,12 +415,12 @@
 \markup\nadpisDen{Pátek}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a c d d \barMin
-    d d c d e d c d d \barMaior
-    d b c a( g) \barMin
-    a c b g( a) a \barFinalis
+    d4 d d f e( c) \barMin
+    d d d f g f e d d \barMaior
+    f g f e( d c) \barMin
+    d c d f( e d) d \barFinalis
   }
   \addlyrics {
     U -- ká -- zal jsem vám
@@ -430,8 +430,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -441,7 +441,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f g f e d( c) \barMin
+    d4 c d f f e f d( c) \barMin
     f g a g( f g) f \barMaior
     d f f( g a g) f( g) \barMin
     f e c c( d) d \barFinalis
