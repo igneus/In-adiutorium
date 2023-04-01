@@ -2667,6 +2667,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a c d d \barMin
+    e c b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než byl A -- bra -- hám,
+    já jsem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f d f f( g a) g g \barMin

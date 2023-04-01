@@ -2401,6 +2401,35 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( a' g) g( a) a \barMaior
+      c c b c a \barMin
+      g g f( g) g( a) a \barMin
+      \mark\sipka g a f e e \barMaior
+      a a g a c( b) a a \barMin c b c a g g a a \barMin
+      g f e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Ho -- sa -- na!
+      Po -- žeh -- na -- ný ten,
+      kte -- rý při -- chá -- zí
+      ve jmé -- nu Pá -- ně!
+      Po -- žeh -- na -- né krá -- lov -- ství na -- še -- ho ot -- ce Da -- vi -- da,
+      kte -- ré při -- chá -- zí.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      annus = "B"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "ne-rch-aben-B"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
   \pageBreak
 
   \score {
