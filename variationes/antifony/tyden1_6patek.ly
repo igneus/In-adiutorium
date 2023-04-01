@@ -604,6 +604,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     c4 d e c c( d) d \barMin
     c4 b a b a( g) g \barMaior

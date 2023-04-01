@@ -949,6 +949,27 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      \mark\sipka g4 g g f g a a g \barMin
+      a a a b c a g g \barFinalis
+    }
+    \addlyrics {
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {
