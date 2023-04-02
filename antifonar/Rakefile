@@ -2,7 +2,7 @@
 
 require_relative '../nastroje/rakefile_common'
 
-task :all => [:kompletar, :zaltar, :festzaltar, :nedele, :triduum]
+task :all => [:kompletar, :zaltar, :nedele, :triduum]
 task :default => [:all]
 
 RUBY_COMMAND = 'ruby'
