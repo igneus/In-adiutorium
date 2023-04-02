@@ -278,8 +278,8 @@
     \relative c'' {
       \choralniRezim
       d4 c c d e c a a \barMaior
-      c c( d) d \barMin
-      d d d c b a( b) a( g) g \barMaior
+      g a c( d) \barMin
+      d d d c b a( b) a a( g) \barMaior
       a a a( c) a a \barMin
       b c a( g) g a g f g( a) a( g) g \barFinalis
     }
@@ -346,6 +346,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = ""
+      placet = "obě poloviny končící prakticky totožným motivem působí jednotvárně"
       id = "ne-1ne-amag-C"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
