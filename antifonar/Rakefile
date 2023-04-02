@@ -13,7 +13,7 @@ def genzalm(zalm, options="", adresar='generovane/')
   wd = Dir.pwd
   syrovy = wd+"/zalmy/"+zalm
   peceny = adresar+zalm.gsub(/\.zalm/, '')+'.tex'
-  file peceny => [syrovy] do
+  file peceny => [syrovy, adresar] do
     if options.is_a? Array then
       sh PSALM_PREPROCESSOR, *options, syrovy
     else
@@ -116,32 +116,14 @@ end
 
 Rake::Task["test_lilypondbook_version"].execute
 
-def make_dirs(struc)
-  wd = Dir.pwd
-  
-  struc.each_key do |k|
-    if ! FileTest.directory?(k) then
-      Dir.mkdir k
-    end
-    Dir.chdir k
-    make_dirs struc[k]
-    Dir.chdir '..'
+def dir_task(dir)
+  file dir do
+    FileUtils.mkdir_p dir
   end
 end
 
-# create directory structure used by the tasks
-dirs = { 
-  'generovane' => {
-    'kompletar' => {},
-    'nedele' => {},
-    'zaltar' => {},
-    'svatecnizaltar' => {},
-    'triduum' => {},
-    'nespornizpevy' => {}
-  },
-  'vystup' => {}
-}
-make_dirs dirs
+# directory expected to exist by all the older tasks
+FileUtils.mkdir_p 'vystup'
 
 ##############
 # promenne pouzivane vice ulohami - argumenty pro program psalmpreprocessor.rb

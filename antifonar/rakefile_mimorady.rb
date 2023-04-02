@@ -97,6 +97,8 @@ dan3iiioptions = $commonoptions_withoutdoxology+$o_canticletitle+" --output-appe
 
 nedele_splitscores_command = $splitscores_command + " --output-dir #{adresar_nedele} "
 
+dir_task adresar_nedele
+
 cislazalmu_nedele.each do |z|
   zalmynedele << genzalm("zalm"+z+".zalm", nedelecommonoptions, adresar_nedele)
 end

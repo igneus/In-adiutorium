@@ -18,6 +18,8 @@ cislazalmu_zaltar = Set.new
 cislazalmu_zaltar_pokracovani = Set.new
 kantika_zaltar = Set.new
 
+dir_task adresar_zaltar
+
 # read list of psalms and canticles used
 File.open('antifonar_zaltar.ltex') do |fr|
   fr.each_line do |l|
@@ -53,7 +55,7 @@ cislazalmu_zaltar_pokracovani.each do |z|
 
   zalmyzaltare << output
 
-  file output => [input] do
+  file output => [input, adresar_zaltar] do
     File.write(
       output,
       # strip "Žalm XXX-" at the beginning of the psalm title,
@@ -86,7 +88,7 @@ zalmyzaltare << genzalm('kantikum_magnificat.zalm', magnificatoptions_zaltar+" -
 zalmyzaltare << genzalm("kantikum_nuncdimittis.zalm", options_zaltar+" --pretitle \"Simeonovo kantikum\\\\\\\\(Nunc dimittis)\\\\\\\\ \"", adresar_zaltar)
 
 # index of festal psalms
-file adresar_zaltar+'svatecnizaltar_index.yml.index.tex' => ['svatecnizaltar_index.yml', 'antifonar_zaltar.tex', 'skripty/listofpsalms.rb', 'skripty/pagerefoptimal.rb'] do |t|
+file adresar_zaltar+'svatecnizaltar_index.yml.index.tex' => ['svatecnizaltar_index.yml', 'antifonar_zaltar.tex', 'skripty/listofpsalms.rb', 'skripty/pagerefoptimal.rb', adresar_zaltar] do |t|
   inputf, labelsf, script = t.prerequisites
   sh "#{RUBY_COMMAND} #{script} -d #{adresar_zaltar} #{inputf} #{labelsf}"
 end
@@ -97,7 +99,7 @@ file 'antifonar_zaltar.tex' => ['antifonar_zaltar.ltex', 'skripty/labelpsalm.rb'
 end
 
 # versicles
-file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'skripty/versicles.rb'] do |t|
+file adresar_zaltar+'versiky.tex' => ['versiky.yml', 'skripty/versicles.rb', adresar_zaltar] do |t|
   inputf, script = t.prerequisites
   sh "#{RUBY_COMMAND} #{script} #{inputf} > #{t.name}"
   sh "vlna #{t.name}"

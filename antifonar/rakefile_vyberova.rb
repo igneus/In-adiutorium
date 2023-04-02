@@ -44,15 +44,17 @@ verse_tones = {
 }
 triduum_verse = verse_tones.each_pair.collect do |name,tone|
   target = File.join adresar_triduum, "verse_#{name}.ly"
-  file target => ['triduum_verse.yaml', '../nastroje/versicles.rb'] do |t|
+  file target => ['triduum_verse.yaml', '../nastroje/versicles.rb', adresar_triduum] do |t|
     sh "ruby #{t.prerequisites[1]} #{t.prerequisites[0]} '#{tone}' > #{target}"
   end
 
   target
 end
 
+dir_task adresar_triduum
+
 # add dependencies
-Rake::Task[triduum_lytex].enhance(zalmy_triduum + triduum_verse)
+Rake::Task['antifonar_triduum.lytex'].enhance(zalmy_triduum + triduum_verse)
 
 desc "Triduum sacrum."
 task :triduum => [triduum_lytex]
