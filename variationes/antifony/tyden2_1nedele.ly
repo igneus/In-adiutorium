@@ -937,7 +937,7 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a f g f g( a) \barMin c c b( c a) a \barMaior
     c d( c d) d( c) \barMin
@@ -994,11 +994,11 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     a4 a f g f g( a) \barMin c c b( c a) a \barMaior
     c d( c d) d( c) \barMin
-    c(^\markup\small\italic{Mimo dobu postní:} d e) c( a) a c c a g g \barMaior
+    c(^\markup\rubrMimoPust d e) c( a) a c c a g g \barMaior
     f g( a) g g \barFinalis
 
     \mark\sipka b4(^\markup\small\italic{V době postní:} c) a( g) g f g a g g \barFinalis
@@ -1125,7 +1125,7 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( d') d e e d c d d \barMaior
     b c c \mark\sipka a b a a( g) g \barMaior
@@ -1170,9 +1170,58 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 \mark\sipka c( d) d e e d c d d \barMaior
+    b^\markup\rubrMimoPust c c a b a a( g) g \barMaior
+    f g a g \barFinalis
+
+    b^\markup\small\italic{V době postní:} c c a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    \markup{\Dagger a} by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+
+    \markup{\Dagger a} by -- lo to vel -- mi dob -- ré.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     a4 g( d') d e e d c d d \barMaior
     \mark\sipka d d c b b( c) a a( g) g \barMaior
+    f^\markup\rubrMimoPust g a g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( d') d e e d c d d \barMaior
+    \mark\sipka d c b a b a a( g) g \barMaior
     f^\markup\rubrMimoPust g a g \barFinalis
   }
   \addlyrics {

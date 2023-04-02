@@ -111,11 +111,10 @@ tIInedeleInespAntIII = \score {
     \choralniRezim
     a4 a f g f g( a) \barMin c c b( c a) a \barMaior
     c d( c d) d( c) \barMin
-
     c(^\markup\rubrMimoPust d e) c( a) a c c a g g \barMaior
     f g( a) g g \barFinalis
 
-    c4(^\markup\small\italic{V době postní:} d c) b( g) g f g a g g \barFinalis
+    b4(^\markup\small\italic{V době postní:} c) a( g) g f g a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
@@ -139,21 +138,24 @@ tIInedeleInespAntIII = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( d') d e e d c d d \barMaior
-    b c c a b a a( g) g \barMaior
-    f^\markup\rubrMimoPust g a g \barFinalis
+    a4 c( d) d e e d c d d \barMaior
+    b^\markup\rubrMimoPust c c a b a a( g) g \barMaior
+    f g a g \barFinalis
+
+    b^\markup\small\italic{V době postní:} c c a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Bůh vi -- děl všech -- no, co u -- dě -- lal,
-    a by -- lo to vel -- mi dob -- ré.
+    \markup{\Dagger a} by -- lo to vel -- mi dob -- ré.
     A -- le -- lu -- ja.
+
+    \markup{\Dagger a} by -- lo to vel -- mi dob -- ré.
   }
   \header {
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-III"
-    placet = "~"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
