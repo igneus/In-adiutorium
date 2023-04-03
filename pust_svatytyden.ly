@@ -60,7 +60,7 @@
       \neviditelna a
       e f f f g f e( d) e \barFinalis
       % Slava
-      a a a( b) a g g( a) a \barMin a g e f( g) e e \barFinalis
+      a a a( b) a g g( a) a \barMin a g f f( g) e e \barFinalis
     }
     \addlyrics {
       \Response Pa -- ne, ty ses dal při -- bít na kříž_*
@@ -787,7 +787,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 f f f f( g) g \barMin
+      f4 f e d f( g) g \barMin
       a( bes) a g( a) g g \barMaior
       f g a g f g( f d) d \barMin
       c d f e c c( d) d \barFinalis
@@ -813,7 +813,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a f e e g f g( a) a \barMaior
+      a4 a f e e d f g( a) a \barMaior
       a a bes( f) \barMin f f f g f e f d d \barFinalis
     }
     \addlyrics {
@@ -825,7 +825,6 @@
       modus = "I"
       differentia = "a2"
       psalmus = "Žalm 45-I"
-      placet = "krok na _ani_ je v daném kontextu nezpěvný - upravit začátek lépe"
       id = "po-ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -859,10 +858,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g f g a c c b \barMin
+      g4 g a g a c c b \barMin
       c a c c b a g( a) g \barMaior
       g( a) g f g f d d \barMin
-      f g a a g \barFinalis
+      f g g( a) a g \barFinalis
     }
     \addlyrics {
       Bůh nás ob -- da -- řil mi -- los -- tí

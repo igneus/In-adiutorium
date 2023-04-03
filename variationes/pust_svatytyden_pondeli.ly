@@ -439,12 +439,61 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f f( g) \mark\sipka g \barMin
     \mark\sipka a( bes) a g( a) g g \barMaior
     f g a g f \mark\sipka g( f d) d \barMin
     \mark\sipka c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý Ot -- če,
+    svět tě ne -- po -- znal,
+    a -- le já jsem tě po -- znal,
+    pro -- to -- že tys mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "po-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 \mark\sipka g a f f( g) g \barMin
+    a( bes) a g( a) g g \barMaior
+    f g a g f g( f d) d \barMin
+    c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý Ot -- če,
+    svět tě ne -- po -- znal,
+    a -- le já jsem tě po -- znal,
+    pro -- to -- že tys mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "po-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 \mark\sipka f e d f( g) g \barMin
+    a( bes) a g( a) g g \barMaior
+    f g a g f g( f d) d \barMin
+    c d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vý Ot -- če,
@@ -468,6 +517,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a f e e g f g( a) a \barMaior
     a a bes( f) \barMin f f f g f e f d d \barFinalis
@@ -481,6 +531,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Žalm 45-I"
+    placet = "krok na _ani_ je v daném kontextu nezpěvný - upravit začátek lépe"
     id = "po-ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -528,6 +579,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a f e e \mark\sipka d f g( a) a \barMaior
     a a bes( f) \barMin f f f g f e f d d \barFinalis
@@ -900,7 +952,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a c c b \barMin
     c a c c b a g( a) g \barMaior
@@ -925,8 +977,9 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
-    g4 g f g a c c b \barMin
+    g4 g \mark\sipka a g a c c b \barMin
     c a c c b a g( a) g \barMaior
     g( a) g f g f d d \barMin
     f g \mark\sipka g( a) a g \barFinalis

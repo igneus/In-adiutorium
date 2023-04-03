@@ -151,7 +151,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -184,6 +184,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
 
       % R
@@ -198,6 +199,38 @@
       e f f f g f e( d) e \barFinalis
       % Slava
       a a a( b) a g g( a) a \barMin a g \mark\sipka f f( g) e e \barFinalis
+    }
+    \addlyrics {
+      \Response Pa -- ne, ty ses dal při -- bít na kříž_*
+      a pro -- lil jsi za nás svou krev.
+      \Verse Vy -- dal ses za spá -- su ce -- lé -- ho svě -- ta_*
+      \Response a pro -- lil jsi za nás svou krev.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "IV"
+      id = "rch-resp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna e
+      e4 e e e e f e d( e) e \barMax
+      e a a a g f e( d) e \barFinalis
+      % V
+      \neviditelna e
+      e4( d c) d( e) e \barMin e e e f e f d( e) e \barMax
+      % R
+      \neviditelna e
+      e a a a g f e( d) e \barFinalis
+      % Slava
+      % TODO \barFinalis
     }
     \addlyrics {
       \Response Pa -- ne, ty ses dal při -- bít na kříž_*
