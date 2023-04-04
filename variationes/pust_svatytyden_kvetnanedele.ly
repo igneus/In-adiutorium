@@ -45,7 +45,7 @@
     Tak dlou -- ho jsem u -- čil u vás v_chrá -- mě,
     a ne -- zmoc -- ni -- li jste se mě;
     ny -- ní jste mě zbi -- čo -- va -- li
-    a ve -- de -- te mě na křížxxx.
+    a ve -- de -- te mě na kříž.
   }
   \header {
     quid = "1. ant."
