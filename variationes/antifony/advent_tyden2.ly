@@ -1334,6 +1334,21 @@
 
 \markup {\nadpisDen {Středa 2. týdne}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Super sólium David et super regnum eius sedébit in ætérnum, allelúia.
+  }
+  (Tradiční antifona, \cantusid-link "005064")
+}
+\markup\justify{
+  Další varianty nápěvu jsou u kopie, \fial-link "mezidobi_kristakrale.ly#2ne-a1" ,
+  protože jsem si léta nevšiml, že jde o stejný text,
+  a udržoval jsem dvě nezávislé melodie.
+  (Text je v latinské předloze u obou antifon stejný,
+  v češtině se liší o to _bude_, které jsem si tady dovolil vynechat.)
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -1418,6 +1433,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     g4 g g( a) g \barMin
     a g f g a a( g) g \barMaior
@@ -1451,6 +1467,34 @@
     c d e d c d d \barMaior
     d a( g) a \barMin
     g f g a c
+    c bes a a \barFinalis
+  }
+  \addlyrics {
+    Bu -- de se -- dět
+    na Da -- vi -- do -- vě trů -- nu
+    a vlád -- nout
+    po všech -- ny vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Bude sedět na Davidově trůnu
+    a bude vládnout po všechny věky. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e d c d d \barMaior
+    d \mark\sipka b( c) a( g) \barMin
+    g f g a \mark\sipka a
     c bes a a \barFinalis
   }
   \addlyrics {

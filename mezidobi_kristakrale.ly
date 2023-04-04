@@ -536,9 +536,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( d) c \barMin b c d c b a a \barMaior
-    c d( e d c) a( g) \barMin a( b) c a g( f) g \barMaior
-    g g( a) g g \barFinalis
+    g4 g g( a) a \barMin
+    c c c b a g( a) g \barMaior
+    c c( d c a) a \barMin
+    c c c a g
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     Bu -- de se -- dět na Da -- vi -- do -- vě trů -- nu
@@ -547,9 +549,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 110"
+    fial = "antifony/advent_tyden2.ly#st-aben"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }

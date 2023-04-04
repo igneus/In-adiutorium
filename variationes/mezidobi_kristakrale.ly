@@ -2508,7 +2508,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) c \barMin \mark\sipka b c d c b a a \barMaior
     c d( e d c) a( g) \barMin a( b) c a g( f) g \barMaior
@@ -2568,6 +2568,32 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( a) a \barMin
+    c c c b a g( a) g \barMaior
+    c c( d c a) a \barMin
+    c c c a g
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bu -- de se -- dět na Da -- vi -- do -- vě trů -- nu
+    a vlád -- nout po všech -- ny vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    fial = "antifony/advent_tyden2.ly#st-aben"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
