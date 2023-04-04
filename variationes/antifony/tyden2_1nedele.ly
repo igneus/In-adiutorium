@@ -2180,6 +2180,28 @@ tIInedeleLaudResp = \score {
   \relative c'' {
     \choralniRezim
     a4 a c b c d d \barMaior
+    \mark\sipka c a c c c c b a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c d d \barMaior
     e d c( d c4.) c \barMin b4 c a a g g \barMaior
     f g( a) g g \barFinalis
   }

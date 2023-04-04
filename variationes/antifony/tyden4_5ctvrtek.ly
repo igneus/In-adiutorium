@@ -1178,6 +1178,52 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
+    f4 g g g g bes a f f( g) g \barMin
+    a4 \mark\sipka bes g f( d) d \barMin
+    e c c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g g g g bes a f f( g) g \barMin
+    \mark\sipka g g( a) f f( d) d \barMin
+    e c c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4( g a) f g4. g \barMin
     f4 g a( g) f g f d d \barFinalis
   }
