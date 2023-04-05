@@ -205,6 +205,29 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g g g g( c) a g( a) g g \barMaior
+    c c c \mark\sipka b c( d) c \barMin
+    b c a g f g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že jsme s_Kris -- tem u -- mře -- li,
+    vě -- ří -- me, že s_Kris -- tem
+    bu -- de -- me ta -- ké žít.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "1 Sam 2"
+    id = "st-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4 g g g g( c) a g( a) g g \barMaior
     \mark\sipka f g a a a( c) b \barMin
@@ -366,7 +389,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 f e d f( g) g \barMin
@@ -415,8 +438,12 @@
   }
 }
 
+\markup{
+  Tento závěr je přesvědčivější/uspokojivější.
+}
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4 f e d f( g) g \barMin
@@ -525,6 +552,39 @@
     quid = "ant. k Benedictus"
     modus = "III"
     differentia = "a"
+    psalmus = ""
+    id = "st-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Oficiální text:
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g f g( a) a \barMin
+    a a b c a b( c a g) g \barMaior
+    a a( d) d c d d( e d) c b c a a \barMax
+    a a a4.( e) \barMin
+    e4 f e f e g a a a g a c( b a) a \barMaior
+    a b c c( d) d c( b a4.) a \barMin
+    \mark\sipka a4 b g e( g a) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- ne -- sl Bo -- hu
+    skr -- ze věč -- né -- ho Du -- cha
+    sám se -- be ja -- ko o -- běť bez po -- skvr -- ny.
+    Je -- ho krev
+    o -- čis -- tí na -- še svě -- do -- mí od mrt -- vých skut -- ků,
+    a -- by -- chom moh -- li slou -- žit
+    Bo -- hu ži -- vé -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "st-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -675,6 +735,54 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 62"
+    id = "st-ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( b g e) e \barMaior
+    c d e e f( g) a f e e \barMaior
+    a g a a( b) a \barMin
+    a g f g e e \barFinalis
+  }
+  \addlyrics {
+    Bez -- bož -- ní řek -- li:
+    U -- tla -- čuj -- me spra -- ved -- li -- vé -- ho,
+    ne -- boť se sta -- ví
+    pro -- ti na -- šim skut -- kům.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 62"
+    id = "st-ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( b g e) e \barMaior
+    c d e e f( g) a f e e \barMaior
+    \mark\sipka f g a a( b) a \barMin
+    a g f g e e \barFinalis
+  }
+  \addlyrics {
+    Bez -- bož -- ní řek -- li:
+    U -- tla -- čuj -- me spra -- ved -- li -- vé -- ho,
+    ne -- boť se sta -- ví
+    pro -- ti na -- šim skut -- kům.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 62"
     id = "st-ne-a1"
     piece = \markup {\sestavTitulek}

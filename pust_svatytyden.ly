@@ -1140,7 +1140,7 @@
       f4 f e d f( g) g \barMin
       g f g( a) a g( a) g g \barMaior
       bes a g f g \barMin
-      g g g f e d e d d \barFinalis
+      g g g f g a g f f \barFinalis
     }
     \addlyrics {
       Bůh nám po -- slal Kris -- ta
@@ -1150,8 +1150,8 @@
     }
     \header {
       quid = "3. ant."
-      modus = "I"
-      differentia = "f"
+      modus = "VI"
+      differentia = "F"
       psalmus = "Žalm 97"
       id = "st-rch-a3"
       piece = \markup {\sestavTitulek}
