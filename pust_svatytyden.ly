@@ -1179,6 +1179,10 @@
       ži -- vé -- mu Bo -- hu.
     }
     \header {
+      textus_approbatus = "Kristus přinesl Bohu skrze věčného Ducha
+      sám sebe jako oběť bez poskvrny.
+      Jeho krev očistí naše svědomí od mrtvých skutků,
+      abychom mohli sloužit Bohu živému."
       quid = "ant. k Benedictus"
       modus = "IV alt"
       differentia = "A"
