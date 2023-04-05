@@ -684,11 +684,35 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) a g( a) g g \barMaior
     \mark\sipka f g a a a a c-- \barMin
     b a g g \barFinalis
+  }
+  \addlyrics {
+    Když jsme s_Kris -- tem u -- mře -- li,
+    bu -- de -- me s_ním ta -- ké žít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 116-II"
+    fial = "pust_svatytyden.ly#st-rch-a2?zacatek"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( c) a g( a) g g \barMaior
+    f g a a \mark\sipka g a c-- \barMin
+    b a \mark\sipka g( a) g \barFinalis
   }
   \addlyrics {
     Když jsme s_Kris -- tem u -- mře -- li,

@@ -178,8 +178,8 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c) a g( a) g g \barMaior
-    f g a a a a c-- \barMin
-    b a g g \barFinalis
+    f g a a g a c-- \barMin
+    b a g( a) g \barFinalis
   }
   \addlyrics {
     Když jsme s_Kris -- tem u -- mře -- li,
