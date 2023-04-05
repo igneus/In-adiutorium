@@ -403,6 +403,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e( f) d( c) c \barMin
+    d( f) e f( g) g \barMin g f g( a g) g \barMaior
+    a g f e( f d c) c d e( f) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
