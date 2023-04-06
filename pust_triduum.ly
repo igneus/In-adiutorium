@@ -77,6 +77,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 11"
+    placet = "melisma na _Beránkovou_ nějak nesedí"
     id = "ct-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
