@@ -406,11 +406,38 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 g( a) a \barMin g f g g4.( a) \barMaior
     bes4 a g( f) g \barMaior
     f( d) d \barMin d d( f) f f e f d d \barFinalis
+  }
+  \addlyrics {
+    Když jed -- li,_* vzal Je -- žíš chléb,
+    po -- žeh -- nal ho,
+    lá -- mal a dá -- val svým u -- čed -- ní -- kům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    quidbreve = "ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "ct-nesp-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Jen úprava frázování a zytečných explicitních délek.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) a \barMin g f g g( a) \barMaior
+    bes4 a g( f) g \barMin
+    f( d) d \barMaior d d( f) f f e f d d \barFinalis
   }
   \addlyrics {
     Když jed -- li,_* vzal Je -- žíš chléb,

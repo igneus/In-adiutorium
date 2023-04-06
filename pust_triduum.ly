@@ -105,9 +105,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) a \barMin g f g g4.( a) \barMaior
-    bes4 a g( f) g \barMaior
-    f( d) d \barMin d d( f) f f e f d d \barFinalis
+    g4 g( a) a \barMin g f g g( a) \barMaior
+    bes4 a g( f) g \barMin
+    f( d) d \barMaior d d( f) f f e f d d \barFinalis
   }
   \addlyrics {
     Když jed -- li,_* vzal Je -- žíš chléb,
