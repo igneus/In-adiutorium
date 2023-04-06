@@ -515,6 +515,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) g a g f g( a) g g \barMaior
+    \mark\sipka g( a) g g( f d) \barMin f g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás ži -- ví ja -- dr -- nou pše -- ni -- cí,
+    sy -- tí nás me -- dem ze ská -- ly.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 81"
+    id = "ct-rch-a3"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
