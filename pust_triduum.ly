@@ -239,6 +239,8 @@
     no -- vé -- ho ži -- vo -- ta.
   }
   \header {
+    textus_approbatus = "Když voják probodl kopím bok Ukřižovaného Pána,
+    vytryskla krev a voda, a otevřel se nám pramen nového života."
     quid = "ant. ke kantikům vigilie"
     modus = "I"
     differentia = "D"
