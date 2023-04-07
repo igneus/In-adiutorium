@@ -451,6 +451,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 116-II"
+    placet = "nevím, jestli nebude lepší vrátit se k předchozí verzi"
     id = "pa-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
