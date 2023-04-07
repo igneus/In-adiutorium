@@ -316,9 +316,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g a g4.( f) \barMin
-      a4 c b( c) a4.( g4 f)
-      g( a) a g4. g \barFinalis
+      g4 g a g( f) \barMin
+      a4 c b( c) a( g f)
+      g( a) a g g \barFinalis
     }
     \addlyrics {
       A -- le -- lu -- ja,_*
@@ -331,10 +331,9 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "nebylo by lepší nevázat se na solesmeskou rytmizaci a vyjít z AR1912?"
       id = "pasch"
       piece = \markup {\sestavTitulekBezZalmu}
-      fons_externus = "Liber usualis, New York-Tournai, 1961, 266."
+      fons_externus = "AR1912, 47"
     }
   }
 

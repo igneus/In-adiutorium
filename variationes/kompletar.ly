@@ -1790,6 +1790,7 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g a g4.( f) \barMin
       a4 c b( c) a4.( g4 f)
@@ -1811,10 +1812,60 @@ sledují melodii antifony \italic{Salva nos} podle Liber usualis.}
     }
   }
 
+  \score {
+    \relative c'' {
+      \zvyraznovacSedy
+      \choralniRezim
+      g4 g a g4.( f) \barMin
+      a4 c b( c) a4.( g4 f)
+      g( a) a g4. g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k žalmům"
+      quidbreve = "ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "pasch"
+      piece = \markup {\sestavTitulekBezZalmu}
+      fons_externus = "Liber usualis, New York-Tournai, 1961, 266."
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g a g( f) \barMin
+      a4 c b( c) a( g f)
+      g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k žalmům"
+      quidbreve = "ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "pasch"
+      piece = \markup {\sestavTitulekBezZalmu}
+      fons_externus = "AR1912, 47"
+    }
+  }
+
   \markup\justify{
     Alelujatické antifony tradičního repertoáru jsou často založené na odpovídající
     antifoně zpívané mimo dobu velikonoční. To je i případ antifony výše,
-    založené na antifoně \italic{Miserere mihi Domine} (CANTUS 203130).
+    založené na antifoně \italic{Miserere mihi Domine} (\cantusid-link "203130").
     V této logice by bylo možné postavit alelujatickou antifonu z odpovídající
     antifony české - spíš z jedné vybrané než z každé, protože ne všechny
     se k tomu délkou textu a charakterem nápěvu dobře hodí.
