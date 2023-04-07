@@ -848,6 +848,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a') a b a g g( a) \barMin
+    c b a g f g g( e) e \barMaior
+    f( g) g( a) a c b a( b a) a \barMaior
+    a a g f d \mark\sipka c d( f g a) a \barMin
+    g( f e) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Když vo -- ják pro -- bo -- dl bok
+    U -- kři -- žo -- va -- né -- ho Pá -- na,
+    vy -- try -- skla krev a vo -- da,
+    a o -- te -- vřel se nám pra -- men
+    no -- vé -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -1071,6 +1097,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     \mark\sipka d4 d f e f d c c \barMin
     d e f d d e c d d \barFinalis
@@ -1278,11 +1305,42 @@
   }
 }
 
+\markup\justify{
+  (Pokusit se o adaptaci tradičního nápěvu ve znění novodobých chorálních knih mě přimělo čtení článku
+  Moran N.: \with-url #"https://www.academia.edu/5970359/A_second_medial_mode_Palestinian_chant_in_Old_Roman_Beneventan_and_Frankish_sources" \italic{
+    A second medial mode Palestinian chant in Old Roman, Beneventan and Frankish sources,
+  }
+  Plainsong and Medieval Music 19 (2010), s. 1-19.)
+}
+
 \score {
   \relative c' {
     \choralniRezim
     e4 g g( a) a a a a g a( b c a) a \barMaior
     a b( a) g( a) g \barMin g g( a) g g( f) d( f) e( f) \barMaior
+    d f g( a) \barMin a g a a( b a) a \barMin g( f) g g( a g) e e \barFinalis
+  }
+  \addlyrics {
+    Tvé -- mu kří -- ži_* se kla -- ní -- me, Pa -- ne,
+    a sla -- ví -- me tvé sva -- té vzkří -- še -- ní.
+    Ne -- boť kříž při -- ne -- sl ra -- dost ce -- lé -- mu svě -- tu.
+  }
+  \header {
+    fons_externus = "volně podle Graduale simplex 1975, s. 141"
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 147-II"
+    id = "pa-rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a a a a g a( b c a) a \barMaior
+    a b( a) g( a) g \barMin g \mark\sipka a g f( e) d( e) e \barMaior
     d f g( a) \barMin a g a a( b a) a \barMin g( f) g g( a g) e e \barFinalis
   }
   \addlyrics {
@@ -1356,7 +1414,8 @@
 \markup\justify{
   Latinské znění:
   \italic{Posuerunt super caput eius causam ipsius scriptam: Iesus Nazarenus, rex Iudaeorum.}
-  Starobylá antifona (ve stejném znění a stejné funkci v tridentském breviáři a dávno před ním).
+  Starobylá antifona (ve stejném znění a stejné funkci v tridentském breviáři a dávno před ním,
+  \cantusid-link "004343").
   Text kombinuje formulace Mt 27, 37 a Jan 19, 19.
   Překladatelé Denní modlitby církve tento kombinovaný charakter buďto nepoznali, nebo zavrhli,
   a české znění antifony je cele založené na verši janovském (byť není doslovným citátem,
@@ -1399,6 +1458,50 @@
     d4 d d c d d d f e f g f d d \barMaior
     \mark\sipka f f e f d d \barMin
     c d e4. d \barFinalis
+  }
+  \addlyrics {
+    Pi -- lát dal zho -- to -- vit_* a při -- pev -- nit na kříž ná -- pis:
+    Je -- žíš Na -- za -- ret -- ský, ži -- dov -- ský král.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d d f e f g f d d \barMaior
+    f f e f d d \barMin
+    \mark\sipka e c f4. d \barFinalis
+  }
+  \addlyrics {
+    Pi -- lát dal zho -- to -- vit_* a při -- pev -- nit na kříž ná -- pis:
+    Je -- žíš Na -- za -- ret -- ský, ži -- dov -- ský král.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d d f e f g f d d \barMaior
+    f f e f \mark\sipka d( c) c \barMin
+    d e f4. d \barFinalis
   }
   \addlyrics {
     Pi -- lát dal zho -- to -- vit_* a při -- pev -- nit na kříž ná -- pis:
@@ -2030,6 +2133,86 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b a( b g) g \barMin
+    a a a g f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Můj duch ve mně chřad -- ne,_*
+    srd -- ce mi str -- nu -- lo v_nit -- ru.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 143"
+    id = "pa-nesp-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g( f e) e \barMin
+    f d d f e d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Můj duch ve mně chřad -- ne,_*
+    srd -- ce mi str -- nu -- lo v_nit -- ru.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 143"
+    id = "pa-nesp-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a b( g e) e \barMin
+    f g a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Můj duch ve mně chřad -- ne,_*
+    srd -- ce mi str -- nu -- lo v_nit -- ru.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 143"
+    id = "pa-nesp-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e( f) e d( e) e \barMin
+    f g a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Můj duch ve mně chřad -- ne,_*
+    srd -- ce mi str -- nu -- lo v_nit -- ru.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 143"
+    id = "pa-nesp-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2279,6 +2462,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a a g f g( a) a \barMin
+    c c b c a \barMaior
+    a g f g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet, ře -- kl:_*
+    Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
@@ -2287,6 +2492,29 @@
     d4 d c f g f( a) a \barMin
     bes a g g a f( e) d \barMaior
     g a g f( g) f e d d  \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet,_*
+    ře -- kl: Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 369"
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    bes a g g a f( e) d \barMaior
+    g a g f( g) f e \mark\sipka c( d) d  \barFinalis
   }
   \addlyrics {
     Když Je -- žíš při -- jal o -- cet,_*
@@ -2848,6 +3076,30 @@
     g f g g( a) a \barMin
     a g bes a a \barMaior
     a4 a \mark\sipka g f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "so-invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    g f g g( a) a \barMin
+    a g bes a a \barMaior
+    a4 a \mark\sipka a a g a g f e( f d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me,_*

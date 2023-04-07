@@ -698,6 +698,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c e d \barMin
+    e f d d e c d e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    ne -- ká -- rej mě ve svém roz -- hor -- le -- ní.
+
+    % aleluja v breviari neni
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 38-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     c4 d e( f) d \barMin
     f e d e c( d) d \barFinalis
 
@@ -731,6 +753,58 @@
     Pa -- ne, ty víš
     o kaž -- dé mé tou -- ze.
 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 38-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f d( c) \barMin
+    d f e c d d \barFinalis
+
+    d^\markup\rubrVelikAleluja d d f g f
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš
+    \markup{\Dagger o} kaž -- dé mé tou -- ze.
+
+    \markup{\Dagger o} kaž -- dé mé tou -- ze.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 38-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 d d( e) c \barMin
+    d f e c d d \barFinalis
+
+    d^\markup\rubrVelikAleluja d d f g f
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš
+    \markup{\Dagger o} kaž -- dé mé tou -- ze.
+
+    \markup{\Dagger o} kaž -- dé mé tou -- ze.
     A -- le -- lu -- ja.
   }
   \header {

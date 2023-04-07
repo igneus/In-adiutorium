@@ -695,6 +695,43 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d e f e( d) d \barMin \mark\sipka d c a c( d) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Dě -- lí se o můj o -- děv, lo -- su -- jí o můj šat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d d e f e( d) d \barMin d c a \mark\sipka c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dě -- lí se o můj o -- děv, lo -- su -- jí o můj šat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 22-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d e f e( d) \mark\sipka c \barMin d c d e( f) d d \barFinalis
   }
   \addlyrics {
