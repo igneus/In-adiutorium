@@ -365,7 +365,7 @@
       d4 d d( f) f \barMin g g g g f e d d \barMaior
       e( d) c c d c a a \barMin
       a c d f g f e d4. d \barMaior
-      c4 c( f) e( d) d \barFinalis
+      e4 c c( d) d \barFinalis
     }
     \addlyrics {
       Zá -- hy zrá -- na_* prv -- ní -- ho dne po so -- bo -- tě
