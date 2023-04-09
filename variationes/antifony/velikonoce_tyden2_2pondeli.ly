@@ -119,6 +119,30 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a g f) f( g) \barMin
+    g f e d( c) c \barMaior
+    d e c d f f( g) \barMin
+    g a g f f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,_*
+    tak prah -- ne du -- še má po to -- bě, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 42"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 g a c( d) d \barMin
