@@ -541,7 +541,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f( g) g( a) a \barMin
     a a g f g a g g \barMaior
@@ -569,6 +569,31 @@
     \choralniRezim
     d4 d f( g) g( a) a \barMin
     a a g f \mark\sipka g( a) a g g \barMaior
+    f g a a g f g f d( c) c \barMaior
+    d d d f e f d( c) c f f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Kdo smí vy -- stou -- pit
+    na Hos -- po -- di -- no -- vu ho -- ru,
+    kdo smí stát na je -- ho sva -- tém mís -- tě?
+    Ten, kdo má ne -- vin -- né ru -- ce a čis -- té srd -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f( g) g( a) a \barMin
+    a a \mark\sipka a a g f g( a g) g \barMaior
     f g a a g f g f d( c) c \barMaior
     d d d f e f d( c) c f f( g) f d d \barFinalis
   }
@@ -1426,7 +1451,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f g a g f g f d \barMin
     f( e) \mark\sipka d( c) c \barMaior
@@ -1453,6 +1478,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 c d f g a g f g f d \barMin
     f( e) d( c) c \barMaior

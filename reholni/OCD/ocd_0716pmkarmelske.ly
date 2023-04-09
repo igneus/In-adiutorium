@@ -181,7 +181,7 @@
   \relative c' {
     \choralniRezim
     d4 d f( g) g( a) a \barMin
-    a a g f g a g g \barMaior
+    a a a a g f g( a g) g \barMaior
     f g a a g f g f d( c) c \barMaior
     d d d f e f d( c) c f f( g) f d d \barFinalis
   }
@@ -405,7 +405,7 @@
     f( e) d( c) c \barMaior
     d d( f) f \barMin
     f f f f g( a g) f( e) d d \barMin
-    f( e c) c( d) d \barFinalis
+    d( e c) c( d) d \barFinalis
   }
   \addlyrics {
     Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
