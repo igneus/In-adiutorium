@@ -720,6 +720,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d e f \barMin
+    g a g f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    ne -- ká -- rej mě ve svém roz -- hor -- le -- ní.
+
+    % aleluja v breviari neni
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 38-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     c4 d e( f) d \barMin
     f e d e c( d) d \barFinalis
 

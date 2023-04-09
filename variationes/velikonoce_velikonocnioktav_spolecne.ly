@@ -887,6 +887,30 @@ a In adiutorium se omezuje na staré známé modální nápěvy.}
   \relative c'' {
     \choralniRezim
     g4 g g( c) a( g) \barMaior
+    a-- g( f) g( a) a \barMin
+    a b c a g g
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja._*
+    Pán vstal z_mrt -- vých,
+    jak to před -- po -- vě -- děl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) a( g) \barMaior
     \mark\sipka a-- g( f) g( a) a \barMin
     \mark\sipka c c b a g g
     f a g g \barFinalis
@@ -1535,6 +1559,31 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
   }
 }
 
+\markup{
+  (Jen doplněna rytmická znaménka podle nynějších konvencí.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f a g f \barMin
+    g f g \mark\sipka a4. g \barMin
+    f4 g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1607,6 +1656,28 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     f4 f g g( a) a \barMin
     g f g a g \barMin
     f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    \mark\sipka a g f d4. c \barMin
+    f4 g g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých,_*
