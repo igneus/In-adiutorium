@@ -409,7 +409,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e d( e) e e
+    e4( f) e d e e \barMin
     e( a) a b( g) g \barMin a g( f) e( d e) e \barMaior
     e e e4.( a) \barMin g4( a) g( f) e \barMaior
     e( d g) f e d( f) f( e) e \barFinalis
@@ -426,7 +426,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "neumím pojmenovat čím přesně, ale vadí mi melisma na _ho_diny"
     id = "pa-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -533,8 +532,8 @@
     \choralniRezim
     d4( f d) d \barMin
     g( f g a g) f e f( g a) a \barMin
-    a g bes a( g a) a \barMaior
-    a4 a a a a( g f) g( f) e f d( c d) d \barFinalis
+    a g bes a( g a4.) a \barMaior
+    a4 a g f g f e f d( c d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me,_*
@@ -550,7 +549,7 @@
     placet = "melisma na _pohřben_ nejde moc do pusy"
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
-    fial = "pust_triduum.ly#pa-invit?zacatek"
+    fial = "pust_triduum.ly#pa-invit?zacatek=17"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -560,7 +559,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 d f g f e c d d \barFinalis
+    d4 d c f f e f d d \barFinalis
   }
   \addlyrics {
     Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
@@ -693,8 +692,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) d \barMaior
-    c d4.( f) e4( f) d4.( c) b4 c b c( d) d \barMaior
+    d4 c e d \barMaior
+    d e( f) d d( c) \barMin b4 c b c( d) d \barMaior
     d d e( c a4.) a \barMin b4 c a g a g g \barFinalis
   }
   \addlyrics {
@@ -869,7 +868,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c( d) d( c) c \barMin c b a g a g g \barMaior
+    c( b c) c( d) d \barMin c b a g a g g \barMaior
     f g a c b c a g g \barFinalis
   }
   \addlyrics {
@@ -903,6 +902,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 143"
+    placet = "poslední césuru lze - a asi je vhodnější - vypustit"
     id = "so-nesp-ant2"
     piece = \markup {\sestavTitulek}
   }

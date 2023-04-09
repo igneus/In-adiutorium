@@ -1801,7 +1801,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e d( e) e e
     e( a) a b( g) g \barMin a \mark\sipka g( f) e( d e) e \barMaior
@@ -1820,6 +1820,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "neumím pojmenovat čím přesně, ale vadí mi melisma na _ho_diny"
     id = "pa-up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1827,6 +1828,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka e4( f) e d e e \barMin
     e( a) a b( g) g \barMin a g( f) e( d e) e \barMaior
@@ -2964,7 +2966,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f d) d \barMin
     g( f g a g) f e f( g a) a \barMin
@@ -3039,6 +3041,61 @@
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
     fial = "pust_triduum.ly#pa-invit?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f d) d \barMin
+    g( f g a g) f e f( g a) a \barMin
+    a g bes a( g a) a \barMaior
+    a4 a g f g( a) g( f) e( d) \barMin
+    \mark\sipka c e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen
+    a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "so-invit"
+    fons = "První část je z antifony invitatoria Velkého pátku."
+    fial = "pust_triduum.ly#pa-invit?cast"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f d) d \barMin
+    g( f g a g) f e f( g a) a \barMin
+    a g bes a( g a4.) a \barMaior
+    a4 a g f \mark\sipka g f e f d( c d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "so-invit"
+    fons = "První část je z antifony invitatoria Velkého pátku."
+    fial = "pust_triduum.ly#pa-invit?zacatek=17"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -3170,6 +3227,17 @@
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    In pace in idípsum dórmiam et requiéscam.
+  }
+}
+\markup\justify{
+  (Žalm 4, m9.
+  Latinská antifona je vzata z prvního poloverše, česká z druhého.)
+}
 
 \score {
   \relative c'' {
@@ -3322,7 +3390,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 d f g f e c d d \barFinalis
   }
@@ -3339,7 +3407,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f f e f d d \barFinalis
+  }
+  \addlyrics {
+    Dá -- váš mi_* pře -- bý -- vat v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 4"
+    id = "so-mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Caro mea requiéscet in spe.
+  }
+}
+\markup\justify{
+  (Stejná je ve čtvrtečním kompletáři!)
+  Důvod nepřekladu je tu celkem zjevný. Nepřeklad předchozí antifony
+  by byl s překladem této téměř identický.
+}
 
 \score {
   \relative c'' {
@@ -4172,7 +4271,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d \barMaior
     \mark\sipka c d4.( f) e4( f) d4.( c) b4 c b c( d) d \barMaior
@@ -4200,6 +4299,53 @@
     d d4.( f) e4( f) d4.( c) b4 c b c( d) d \barMaior
     d d \mark\sipka c( b g4.) g \barMin
     a4 g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Byl jsem mr -- tev,_*
+    a hle, jsem živ na vě -- ky vě -- ků
+    a mám klí -- če
+    od smr -- ti a pod -- svě -- tí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 150"
+    id = "so-rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 c e d \barMaior
+    d e( f) d d( c) \barMin b4 c b c( d) d \barMaior
+    d d e( c a4.) a \barMin b4 c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Byl jsem mr -- tev,_*
+    a hle, jsem živ na vě -- ky vě -- ků
+    a mám klí -- če od smr -- ti a pod -- svě -- tí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 150"
+    id = "so-rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c e d \barMaior
+    d e( f) d d( c) \barMin \mark\sipka b4 c a a( g) g \barMaior
+    a a f( g a4.) a \barMin
+    b4 c a g a g g \barFinalis
   }
   \addlyrics {
     Byl jsem mr -- tev,_*
@@ -4733,7 +4879,6 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
     \choralniRezim
     \mark\sipka c( b c) c( d) d \barMin c b a g a g g \barMaior
     \mark\sipka a f a c b c a g g \barFinalis
@@ -4754,10 +4899,31 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c( d) d( c) c \barMin c b a g a g g \barMaior
     \mark\sipka f g a c b c a g g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
+    Smr -- ti, kde -- pak je tvé ví -- těz -- ství?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 116-II"
+    id = "so-nesp-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c( b c) c( d) d \barMin c b a g a g g \barMaior
+    f g a c b c a g g \barFinalis
   }
   \addlyrics {
     Ví -- těz -- ně_* je smrt na -- vždy zni -- če -- na!
