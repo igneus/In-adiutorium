@@ -12,6 +12,13 @@
             "16. 7."
             \textyOCD
   composer = "Jakub Pavlík"
+  dedication = \markup\tiny{
+    věnováno
+    \with-url #"https://commons.wikimedia.org/wiki/File:Slan%C3%BD,_kl%C3%A1%C5%A1ter_kostel_Nejsv.Trojice_detail_(2).JPG" {
+      Květu karmelu slánského
+    }
+    (i když podle všeho nosí hábit sv. Františka)
+  }
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}
