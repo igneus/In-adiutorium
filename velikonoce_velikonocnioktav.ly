@@ -429,7 +429,7 @@
       g4 g( a) f g( a) a \barMin
       a a a a g f e f e d( e d) \barMaior
       d f g a( c) b a( b) a \barMin
-      g g g f g f( e) d c \barMin
+      a a a g a g( f) e c
       e f d d \barFinalis
     }
     \addlyrics {
@@ -526,8 +526,8 @@
       a a g f g a a
       b c a g g \barMax
       c c c c d c a a \barMaior
-      a c b g a g f
-      g a a( g) g \barFinalis
+      a c c b a g g
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Když že -- ny_* od -- chá -- ze -- ly od hro -- bu,
