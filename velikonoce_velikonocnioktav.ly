@@ -35,6 +35,30 @@
     }
   }
 
+\markup\italic{Nebo:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c b) c( d) e d \barMaior
+    d( e f e) e( d) c( d e c) a( g) \barMin
+    f( a) \[ c( d c \] \[ d f e d \] \[ d b \] \[ c d a g) \] g( a c a b) a( g) \barFinalis
+  }
+  \addlyrics {
+    Pán vstal z_mrt -- vých,_*
+    a -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "podle CZ-Pn XII A 22, 130v"
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invitb"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

@@ -44,6 +44,30 @@
     }
   }
 
+  \markup\italic{Nebo:}
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f g f
+      f e g a \barMin
+      f( g a) \[ g( a \] \[ f e d) \] f( g bes g a) g( f) \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      fons_externus = "podle CZ-Pn XII A 22, 148r"
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "invit1b"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\italic{Od slavnosti Nanebevstoupení Páně:}
 
   \score {

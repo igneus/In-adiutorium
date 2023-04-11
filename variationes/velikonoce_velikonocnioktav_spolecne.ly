@@ -5,7 +5,74 @@
    subtitle = "1. Společné pro všechny dny"
   }
 
-  \markup {\nadpisHodinka {"invitatorium"}}
+\markup {\nadpisHodinka {"invitatorium"}}
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Surréxit Dóminus vere, allelúia.
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a') g( a) a \barMaior
+    g a b( c) a4.( g) \barMin a4 f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán vstal z_mrt -- vých,_*
+    a -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    fial = "velikonoce_antifony.ly#invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\italic{Nebo:}
+
+\markup\justify{
+  Český text strukturou a kvantitou výrazně odlišný od latinského
+  je nevýhodný pro adaptaci nápěvu latinské předlohy
+  (\cantusid-link "001166"),
+  ale docela dobře se nabízí pro ukradení nápěvu velikonočního invitatoria
+  z předtridentských českých knih
+  (\cantusid-link "001023").
+  Což by mě asi nikdy nenapadlo, nebýt téhož invitatoria s aleluja částečně
+  nahrazenými českou parafrází v Jistebnickém kancionálu
+  (v edici položky č. 160, 231, 233).
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c b) c( d) e d \barMaior
+    d( e f e) e( d) c( d e c) a( g) \barMin
+    f( a) \[ c( d c \] \[ d f e d \] \[ d b \] \[ c d a g) \] g( a c a b) a( g) \barFinalis
+  }
+  \addlyrics {
+    Pán vstal z_mrt -- vých,_*
+    a -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "podle CZ-Pn XII A 22, 130v"
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invitb"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 

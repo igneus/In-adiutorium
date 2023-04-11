@@ -44,6 +44,29 @@
     }
   }
 
+  \markup{
+    (Jen doplněno rytmické znaménko)
+  }
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4-- d( a') g( a) a \barMaior
+      g a b( c) a4.( g) \barMin a4 f e( d) d \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\nadpisSkupiny "2"
 
   \score {
@@ -215,6 +238,29 @@
       psalmus = ""
       id = "invit"
       fons = "velikonoce_antifony.ly"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 f g f
+      f e g a \barMin
+      f( g a) \[ g( a \] \[ f e d) \] f( g bes g a) g( f) \barFinalis
+    }
+    \addlyrics {
+      Pán vstal z_mrt -- vých,_*
+      a -- le -- lu -- ja, a -- le -- lu -- ja.
+    }
+    \header {
+      fons_externus = "podle CZ-Pn XII A 22, 148r"
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "invit1b"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
