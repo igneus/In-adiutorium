@@ -498,10 +498,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4( c) c b( g) g \barMin
+      g4( c) c b( g) g
       g g( a) a a g f g( a) a \barMaior
-      a b4.( c) b4( c) a( g) g \barMax
-      f a a( g) g \barFinalis
+      a b4.( c) b4( c) a( g) g \barMaior
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Rych -- le jdě -- te_*
@@ -514,6 +514,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_Rychle jděte_ spíš lépe"
       id = "po-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -602,7 +603,7 @@
     \relative c' {
       \choralniRezim
       f4( g) f f g( a f e) f \barMaior
-      g f g a a a g( f) d \barMaior
+      g f g a a a g( f) d \barMin
       f g g( f) f \barFinalis
     }
     \addlyrics {

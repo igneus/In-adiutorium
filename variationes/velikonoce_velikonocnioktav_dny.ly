@@ -555,7 +555,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4( c) c b( g) g \barMin
       g g( a) a a g f g( a) a \barMaior
@@ -578,8 +578,12 @@
     }
   }
 
+  \markup\justify{
+    Tohle nebude definitivní podoba, ale malý krok vpřed to je.
+  }
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       g4( c) c b( g) g \mark\sipka
       g g( a) a a g f g( a) a \barMaior
@@ -1347,7 +1351,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4( g) f f g( a f e) f \barMaior
       \mark\sipka g f g a a a g( f) d \barMaior
@@ -1370,6 +1374,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
       f4( g) f f g( a f e) f \barMaior
       g f g a a a g( f) d \mark\sipka \barMin
@@ -1641,6 +1646,42 @@
   \score {
     \relative c' {
       \choralniRezim
+      \mark\sipka d4 d f( g a) g \barMin a( c a) g( a) a \barMaior
+      a a a g a b c a g a a g g \barMaior
+      c( d c) a( g) g( a) \barMin
+      a a( g f) g f d d \barMax
+
+      d d d f( g) g
+      a g f g g \barMaior
+      a a a a a g a a( c) c( a) \barMin
+      a f e d d \barMaior
+      \mark\sipka e f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl:_* Ma -- ri -- e!
+      O -- na se k_ně -- mu o -- brá -- ti -- la a zvo -- la -- la:
+      Rab -- bo -- ni!_-
+      to zna -- me -- ná Mis -- tře!
+
+      Je -- žíš jí ře -- kl:
+      Ne -- za -- dr -- žuj mě!
+      Ne -- boť jsem ješ -- tě ne -- vy -- stou -- pil
+      ke své -- mu Ot -- ci.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "ut-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       d4 d d c f( g) g( a) a \barMaior
       a a a a a g f g g g f d d \barMaior
     }
@@ -1848,6 +1889,28 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g f \mark\sipka e d e( f) e e \barMaior
+      a a g a b g a a \barMin
+      g f d( e) e \barFinalis
+    }
+    \addlyrics {
+      Když jsem pla -- ka -- la u hro -- bu,_*
+      spat -- ři -- la jsem své -- ho Pá -- na.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "ut-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup\nadpisDen {středa velikonoční}
@@ -1895,6 +1958,28 @@
       quid = "1. ant."
       modus = "VIII"
       differentia = "G"
+      psalmus = "Žalm 104-I"
+      id = "st-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka a4 a a g f g( a) a \barMin
+      a c a b g g \barMaior
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- di -- ne, můj Bo -- že,_*
+      jsi nad -- mí -- ru vel -- ký!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G*"
       psalmus = "Žalm 104-I"
       id = "st-mc-a1"
       piece = \markup {\sestavTitulek}
@@ -2853,6 +2938,32 @@
       a c d c e d d \barMaior
       d e( f e) d( c) c b c a( g) g \barMin
       f g a a a a \mark\sipka b a g a a g g \barMaior
+      f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš za -- čal od Moj -- ží -- še,_*
+      pro -- bral všech -- ny pro -- ro -- ky
+      a vy -- klá -- dal u -- čed -- ní -- kům,
+      co se ve všech čás -- tech Pís -- ma na něj vzta -- hu -- je.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "st-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c( d) d c b a( g) g \barMin
+      a c d c e d d \barMaior
+      d e( f e) d( c) c b c a( g) g \barMin
+      f g a \mark\sipka g a b c a g f g( a) g g \barMaior
       f g( a) g g \barFinalis
     }
     \addlyrics {
