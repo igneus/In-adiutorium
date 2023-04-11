@@ -22,7 +22,7 @@
 
   \markup {\nadpisHodinka {"invitatorium"}}
 
-  \markup{Od slavnosti Zmrtvýchvstání Páně do slavnosti Nanebevstoupení Páně:}
+  \markup\italic{Od pondělí po velikonočním oktávu do slavnosti Nanebevstoupení Páně:}
 
   \score {
     \relative c' {
@@ -44,7 +44,7 @@
     }
   }
 
-  \markup{Od slavnosti Nanebevstoupení Páně:}
+  \markup\italic{Od slavnosti Nanebevstoupení Páně:}
 
   \score {
     \relative c'' {
@@ -72,7 +72,7 @@
 
   \markup {\nadpisHodinka {"nedělní vigilie"}}
 
-  \markup\italic{před Nanebevstoupením Páně:}
+  \markup\italic{Před slavností Nanebevstoupení Páně:}
 
   \score {
     \relative c'' {
