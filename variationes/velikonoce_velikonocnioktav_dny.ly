@@ -1966,6 +1966,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacZeleny
       \choralniRezim
       \mark\sipka a4 a a g f g( a) a \barMin
       a c a b g g \barMaior
