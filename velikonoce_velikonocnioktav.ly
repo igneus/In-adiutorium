@@ -830,6 +830,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "_pronesl nad ním požehnání_ je slabší, ale pokusů už byla řada a zatím nevidím opravdu přesvědčivé řešení"
       id = "st-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
