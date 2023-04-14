@@ -843,9 +843,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a g f bes a g a \barMaior
+      a4 a g f c' a g a \barMaior
       a a bes a g f g \barMin
-      a f g f f \barMaior
+      a f g f f \barMin
       g a f f \barFinalis
     }
     \addlyrics {
@@ -867,8 +867,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      f g a a g f d c \barMin
-      d f g( f) f \barFinalis
+      f g a a g f d4. c \barMin
+      d4 f g( f) f \barFinalis
     }
     \addlyrics {
       Hos -- po -- din_* se stal mou spá -- sou.

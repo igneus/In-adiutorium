@@ -3212,11 +3212,36 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 a g f bes a g a \barMaior
       a a bes a g f g \barMin
       a f g f f \barMaior
+      g a f f \barFinalis
+    }
+    \addlyrics {
+      Nechť řek -- ne dům Iz -- ra -- e -- lův:_*
+      Je -- ho mi -- lo -- sr -- den -- ství
+      tr -- vá na -- vě -- ky.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 118-I"
+      id = "ct-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a g f \mark\sipka c' a g a \barMaior
+      a a bes a g f g \barMin
+      a f g f f \mark\sipka \barMin
       g a f f \barFinalis
     }
     \addlyrics {
@@ -3281,10 +3306,34 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f g a a g f d c \barMin
       d f g( f) f \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din_* se stal mou spá -- sou.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 118-II"
+      id = "ct-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup{
+    (Jen rytmická znaménka)
+  }
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f g a a g f d4. c \barMin
+      d4 f g( f) f \barFinalis
     }
     \addlyrics {
       Hos -- po -- din_* se stal mou spá -- sou.
@@ -3396,6 +3445,56 @@
       piece = \markup {\sestavTitulek}
     }
   }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g f \mark\sipka f( g) f f d f f( g) g \barMaior
+      a a g f g f d \barMin
+      e f g g
+      a g f f \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- di -- no -- vým ří -- ze -- ním se tak sta -- lo,_*
+      je to po -- di -- vu -- hod -- né
+      v_na -- šich o -- čích.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 118-III"
+      id = "ct-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g f \mark\sipka g( a) g g f e d( c) c \barMaior
+      d d c d f g g \barMin
+      a a g f
+      g a f f \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- di -- no -- vým ří -- ze -- ním se tak sta -- lo,_*
+      je to po -- di -- vu -- hod -- né
+      v_na -- šich o -- čích.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 118-III"
+      id = "ct-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \pageBreak
 
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
 
@@ -3513,6 +3612,32 @@
       d( c b) c g4.( a) \barMax
 
       \mark\sipka g4 g( a) f( e) e \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
+      a ře -- kl jim:
+      Po -- koj vám!
+      A -- le -- lu -- ja!
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "III"
+      differentia = "g"
+      psalmus = ""
+      id = "ct-ben"
+      fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 \mark\sipka a a( c) c c c b c d c a4. a4
+      b b( c) c c \barMin
+      d( c b) c g4.( a) \barMax
+
+      g4 g( a) f( e) e \barFinalis
     }
     \addlyrics {
       Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
@@ -4065,6 +4190,30 @@
   }
 
   \score {
+    \relative c' {
+      \choralniRezim
+      f4 g a a g f \mark\sipka f( g) g \barMaior
+      a g f( g) f f \barMin
+      d f g g
+      a g f f \barFinalis
+    }
+    \addlyrics {
+      O -- sla -- vuj -- te Hos -- po -- di -- na,_*
+      on sám u -- či -- nil
+      vel -- ké di -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 136-I"
+      id = "pa-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
     \relative c'' {
       \choralniRezim
       \key f \major
@@ -4148,6 +4297,50 @@
       f4 a bes g f \barMin
       g g g f e d c \barMin
       d f g( f) f \barFinalis
+    }
+    \addlyrics {
+      Vy -- svo -- bo -- dil nás_*
+      od na -- šich pro -- tiv -- ní -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 136-III"
+      id = "pa-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f f g g \barMin
+      a bes a g f g g \barMin
+      g a g( f) f \barFinalis
+    }
+    \addlyrics {
+      Vy -- svo -- bo -- dil nás_*
+      od na -- šich pro -- tiv -- ní -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 136-III"
+      id = "pa-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g g a a \barMin
+      a a a g f g g \barMin
+      g a g( f) f \barFinalis
     }
     \addlyrics {
       Vy -- svo -- bo -- dil nás_*
