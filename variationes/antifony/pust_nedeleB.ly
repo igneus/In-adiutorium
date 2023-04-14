@@ -663,6 +663,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMaior
+    d( e) d c( d) d( c) \barMin c c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Ne -- dě -- lej -- te z_do -- mu mé -- ho Ot -- ce trž -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

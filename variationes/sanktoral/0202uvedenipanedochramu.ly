@@ -1374,6 +1374,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b c a g a g g \barMin
+    g f( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Si -- me -- on vzal dí -- tě do ná -- ru -- čí
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
