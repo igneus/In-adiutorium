@@ -1996,6 +1996,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f e d c( d) c c \barMin
+    d \mark\sipka f f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f e c d d c \barMin
     d d f e d c d d \barFinalis
   }
