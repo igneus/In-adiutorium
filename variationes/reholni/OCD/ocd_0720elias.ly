@@ -1831,6 +1831,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c \mark\sipka c a b g \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 115"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2095,6 +2115,47 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f f g( a g) f f( g) \barMin
+    g a a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f d( f) f( g) g \barMin
+    g a a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 11"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f e d f( g a) g g \barMin
     g a a g f e( f) d d \barFinalis
   }
@@ -2240,18 +2301,29 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-
+    f4 f f f d f f( g) \barMin
+    g g f e d e d c c \barMaior
+    d( f) f g a g f( e d) d \barMin
+    f f e c d( c) \barMin
+    d f g f a g \barMaior
+    a bes a g f( g) g \barMin
+    g a g f f \barFinalis
   }
   \addlyrics {
-    V_mi -- nu -- los -- ti mlu -- vil Bůh k_na -- šim před -- kům skr -- ze pro -- ro -- ky.
-    V_té -- to po -- sled -- ní do -- bě však pro -- mlu -- vil k_nám skr -- ze své -- ho Sy -- na.
-    Je -- ho usta -- no -- vil dě -- di -- cem vše -- ho.
+    V_mi -- nu -- los -- ti mlu -- vil Bůh
+    k_na -- šim před -- kům skr -- ze pro -- ro -- ky.
+    V_té -- to po -- sled -- ní do -- bě
+    však pro -- mlu -- vil k_nám
+    skr -- ze své -- ho Sy -- na.
+    Je -- ho u -- sta -- no -- vil
+    dě -- di -- cem vše -- ho.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ne-amag"
     piece = \markup\sestavTitulekBezZalmu

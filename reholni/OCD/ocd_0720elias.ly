@@ -311,6 +311,8 @@
   }
 }
 
+\pageBreak % ZLOM
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
@@ -358,15 +360,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f d( f) f( g) g \barMin
+    g a a g f g( a) f f \barFinalis
   }
   \addlyrics {
-    Hospodin dá odměnu svým služebníkům prorokům.
+    Hos -- po -- din dá od -- mě -- nu
+    svým slu -- žeb -- ní -- kům pro -- ro -- kům.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = "Zj 11"
     id = "ne-a3"
     piece = \markup\sestavTitulek
@@ -383,7 +387,7 @@
     f d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a( be) a g( a) g g \barMin g f g g( a) \barMax
+    a4 a a a( bes) a g( a) g g \barMin g f g g( a) \barMax
     % R
     \neviditelna a
     f d f( g) g( f) f \barFinalis
@@ -407,15 +411,27 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f f f d f f( g) \barMin
+    g g f e d e d c c \barMaior
+    d( f) f g a g f( e d) d \barMin
+    f f e c d( c) \barMin
+    d f g f a g \barMaior
+    a bes a g f( g) g \barMin
+    g a g f f \barFinalis
   }
   \addlyrics {
-    V minulosti mluvil Bůh k našim předkům skrze proroky. V této poslední době však promluvil k nám skrze svého Syna. Jeho ustanovil dědicem všeho.
+    V_mi -- nu -- los -- ti mlu -- vil Bůh
+    k_na -- šim před -- kům skr -- ze pro -- ro -- ky.
+    V_té -- to po -- sled -- ní do -- bě
+    však pro -- mlu -- vil k_nám
+    skr -- ze své -- ho Sy -- na.
+    Je -- ho u -- sta -- no -- vil
+    dě -- di -- cem vše -- ho.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ne-amag"
     piece = \markup\sestavTitulekBezZalmu
