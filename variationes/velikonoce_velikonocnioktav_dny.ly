@@ -4165,13 +4165,39 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       \mark\sipka f4 g a a g f g g \barMaior
       f g \mark\sipka a( bes) a a \barMin
       g f g g
       a g f f \barFinalis
+    }
+    \addlyrics {
+      O -- sla -- vuj -- te Hos -- po -- di -- na,_*
+      on sám u -- či -- nil
+      vel -- ké di -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 136-I"
+      id = "pa-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      f4 g a a g f g g \barMaior
+      f g a( bes) a a \barMin
+      g f g g
+      \mark\sipka g a g( f) f \barFinalis
     }
     \addlyrics {
       O -- sla -- vuj -- te Hos -- po -- di -- na,_*
@@ -4291,7 +4317,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       f4 a bes g f \barMin
@@ -4313,8 +4339,36 @@
     }
   }
 
+  \markup{
+    (Jen rytmická znaménka)
+  }
   \score {
     \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      f4 a bes g f \barMin
+      g g g f e d4. c \barMin
+      d4 f g( f) f \barFinalis
+    }
+    \addlyrics {
+      Vy -- svo -- bo -- dil nás_*
+      od na -- šich pro -- tiv -- ní -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 136-III"
+      id = "pa-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacZelenyII
       \choralniRezim
       d4 f f g g \barMin
       a bes a g f g g \barMin
@@ -4780,10 +4834,35 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4( a g) f f( g) \barMin
       g g g \mark\sipka a a g( a) g f g( a) a \barMaior
+      c-- b a
+      c a a( g) g \barFinalis
+    }
+    \addlyrics {
+      U -- čed -- ník,_*
+      kte -- ré -- ho Je -- žíš mi -- lo -- val, ře -- kl:
+      Pán je to!
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "pa-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4( a g) f f( g) \barMin
+      g \mark\sipka f g a a g( a) g f g( a) a \barMaior
       c-- b a
       c a a( g) g \barFinalis
     }

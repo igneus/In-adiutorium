@@ -972,7 +972,7 @@
       f4 g a a g f g g \barMaior
       f g a( bes) a a \barMin
       g f g g
-      a g f f \barFinalis
+      g a g( f) f \barFinalis
     }
     \addlyrics {
       O -- sla -- vuj -- te Hos -- po -- di -- na,_*
@@ -1020,8 +1020,8 @@
       \choralniRezim
       \key f \major
       f4 a bes g f \barMin
-      g g g f e d c \barMin
-      d f g( f) f \barFinalis
+      g g g f e d4. c \barMin
+      d4 f g( f) f \barFinalis
     }
     \addlyrics {
       Vy -- svo -- bo -- dil nás_*
@@ -1068,7 +1068,7 @@
     \relative c'' {
       \choralniRezim
       g4( a g) f f( g) \barMin
-      g g g a a g( a) g f g( a) a \barMaior
+      g f g a a g( a) g f g( a) a \barMaior
       c-- b a
       c a a( g) g \barFinalis
     }
