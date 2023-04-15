@@ -501,6 +501,32 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin a a g f g( a) g \barMaior
+    a a g f e f d c d( c) c \barMaior
+    d c d f f e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo má slo -- va sly -- ší a po -- dle nich jed -- ná,
+    po -- do -- bá se roz -- váž -- né -- mu mu -- ži,
+    kte -- rý si po -- sta -- vil dům na ská -- le.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 a c b c( d) d \barMin d e d c c( d) d \barMaior
