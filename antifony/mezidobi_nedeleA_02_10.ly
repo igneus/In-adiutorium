@@ -613,6 +613,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
+    fial = "commune/commune_svatymuz.ly#1ne-amag1?zacatek=8"
     id = "ne9a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
