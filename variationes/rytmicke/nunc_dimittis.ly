@@ -1,7 +1,7 @@
 \version "2.19.83"
 
-\include "../spolecne/layout.ly"
-\include "../spolecne/tiraz.ly"
+\include "../../spolecne/layout.ly"
+\include "../../spolecne/tiraz.ly"
 
 \header {
   title = "Simeonovo kantikum"
@@ -111,7 +111,7 @@ predznamenani = {
     \predznamenani
     \cadenzaOn
     c\breve b8 g \slurDashed b( a) a \parenthesize a \bar "|"
-    a\breve g8 a c( b) b \bar "||"
+    a\breve g8 a c( b) b \bar "|."
   }
   \addlyrics {
     \set Lyrics.ignoreMelismata = ##t
@@ -138,9 +138,11 @@ predznamenani = {
   \addlyrics {
     \set Lyrics.ignoreMelismata = ##f
     "jako byla na počátku, i ny" -- ní i vždyc -- ky_* \skip 1
-    "a na věky" vě -- ků. Amen.
+    "a na věky" vě -- ků. A -- men.
   }
   \layout {
+    ragged-last = ##f
+
     \context {
       \Staff
       \remove "Time_signature_engraver"
