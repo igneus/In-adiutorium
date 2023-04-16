@@ -34,6 +34,11 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 113"
+    placet = "jsem na vážkách, jestli jednu z antifon k žalmům nenahradit
+    pro větší pestrost antifonou jiného modu, nejspíš tou podle Fidelia omnia
+    (Nos qui vivimus je příliš zřetelná reference na žalm 115, který jako zahrnutý
+    v nešporách nepřichází pro průvod v úvahu; třetí antifona se mi zdá
+    méně vhodná / hodně exotická)"
     id = "aleluja1"
     piece = \markup {\sestavTitulek}
   }
