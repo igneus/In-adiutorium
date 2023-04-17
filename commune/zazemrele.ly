@@ -263,6 +263,7 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Kristus vstal z mrtvých a osvítil nás, svou krví nás vykoupil. Aleluja."
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "a"
