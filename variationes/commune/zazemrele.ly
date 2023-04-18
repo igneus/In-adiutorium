@@ -871,6 +871,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c d d \barMin
+    d f \mark\sipka f f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň, Hos -- po -- di -- ne,
+    a vy -- svo -- boď mou du -- ši.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/tyden1_4streda.ly#up-ant3?zacatek=7&konec=5"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1029,6 +1050,29 @@
     quid = "ant. odpoledne"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c( b) c( d) d d \mark\sipka e c c( d) d \barMaior
+    d c a a b g a a \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- chraň mě
+    pro svo -- je % v breviáři: své
+    jmé -- no,
+    svou mo -- cí mi zjed -- nej prá -- vo!
+  }
+  \header {
+    textus_approbatus = "Bože, zachraň mě pro své jméno, svou mocí mi zjednej právo!"
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1945,6 +1989,30 @@
     f( g a) a( g) g \barMaior
     a g f d d
     e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e( d) c \barMin
+    f( g a) a( g) g \barMaior
+    a g f \mark\sipka e c
+    e f d d \barFinalis
   }
   \addlyrics {
     U -- kři -- žo -- va -- ný

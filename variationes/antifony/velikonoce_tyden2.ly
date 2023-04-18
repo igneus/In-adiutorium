@@ -91,6 +91,157 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d d( a') a a g a \barMaior
+    a4 c b c a a g a g f e e \barMaior
+    \mark\sipka d e f d( c) c \barMin d( f) e d( e) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo zno -- vu ne -- na -- ro -- dí,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f e f d( c) \barMaior
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo zno -- vu ne -- na -- ro -- dí,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f e d e d( c) \barMaior
+    a c d d c d f f e f d( c) c \barMaior
+    d c d d( f) f \barMin g f e( f) d d
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo ne -- na -- ro -- dí zno -- va,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f d e c d \barMaior
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo ne -- na -- ro -- dí zno -- va,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f d d c d \barMaior
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo ne -- na -- ro -- dí zno -- va,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d e c d \barMaior
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo ne -- na -- ro -- dí zno -- va,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -114,6 +265,30 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c a c d c \mark\sipka f e( d) d \barMaior
+    \mark\sipka f f g g f g g( f) d f e( d c) \barMin
+    c d d d \barFinalis
+  }
+  \addlyrics {
+    Co se na -- ro -- di -- lo z_tě -- la, je tě -- lo,
+    co se na -- ro -- di -- lo z_Du -- cha, je duch.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Úterý}}
 

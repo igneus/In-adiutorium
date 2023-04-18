@@ -52,6 +52,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 a c( b) g( a g) g \barMaior
+    g a g a( c) c( d) c c c( d) c c d c c( d) c \barMaior
+    c c( d c a) a \barMin g( a) f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Ten, kdo se -- stou -- pil,
+    i ten, kdo vy -- stou -- pil až ú -- pl -- ně nad ne -- be -- sa,
+    je Kris -- tus, náš Pán.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 24"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
