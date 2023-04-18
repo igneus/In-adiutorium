@@ -538,8 +538,6 @@
   }
 }
 
-\pageBreak
-
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -714,7 +712,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    \mark\sipka f4 g a \barMin
+    f4 g a \barMin
     g f g( a) \mark\sipka a( g) g \barMaior
     a a g f e f d c d d \barMaior
     e f d( c) d \barFinalis
@@ -729,6 +727,30 @@
     quid = "2. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 45-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a \barMin
+    g f g( a) g g \barMaior
+    a a g f e f d \mark\sipka d c c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm,_*
+    kdo jsou po -- zvá -- ni
+    k_Be -- rán -- ko -- vě sva -- teb -- ní hos -- ti -- ně.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 45-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

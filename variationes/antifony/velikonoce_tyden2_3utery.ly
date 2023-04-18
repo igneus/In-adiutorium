@@ -83,7 +83,7 @@
 
 \markup\wordwrap{
   Až se zpožděním po napsání varianty níže mi došlo, že podobná melodie už v korpusu je:
-  "antifony/velikonoce_tyden1_3utery.ly#rch-a1"
+  \fial-link "antifony/velikonoce_tyden1_3utery.ly#rch-a1"
 }
 
 \score {
@@ -279,9 +279,53 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f f \mark\sipka g f e( d) c \barMin
+    d c d f( e d4.) d \barMaior
+    e4 f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
+    z_pro -- pas -- ti zhou -- by.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d f f e d e( d) c \barMin
     \mark\sipka a c d d( e d) d \barMaior
     f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
+    z_pro -- pas -- ti zhou -- by.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e d e( d) c \barMin
+    \mark\sipka d f e d c
+    a c d d \barFinalis
   }
   \addlyrics {
     Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
