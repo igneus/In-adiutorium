@@ -37,8 +37,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c a c d c e e( d) d \barMaior
-    c d f f e f g e f e( d c) \barMin
+    d4 d d c a c d c f e( d) d \barMaior
+    f f g g f g g( f) d f e( d c) \barMin
     c d d d \barFinalis
   }
   \addlyrics {
@@ -61,11 +61,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g( a) a a( d) d c e d d \barMin
-    c a c b a g \barMaior
-    f g a( c) c( d) c \barMin d e d c d( c a) a \barMaior
-    c( a c) b( a) g \barMin f( a) a g g \barMaior
-    f g a( g) g \barFinalis
+    a4 a a g f g( a) g g \barMin
+    f d f e d c \barMaior
+    d d d( a' bes) a a \barMin
+    a a g f g( a g) g \barMaior
+    a( bes a) g( f) d d( e) c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Já jsem al -- fa i o -- me -- ga,
@@ -76,9 +77,10 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
+    modus = "I"
     differentia = "a"
     psalmus = ""
+    fial = "antifony/tyden3_5ctvrtek.ly#mc-ant2?konec=18"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -246,6 +246,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c a c d c e e( d) d \barMaior
     c d f f e f g e f e( d c) \barMin
@@ -268,6 +269,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d c a c d c \mark\sipka f e( d) d \barMaior
     \mark\sipka f f g g f g g( f) d f e( d c) \barMin
@@ -294,6 +296,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g( a) a a( d) d c e d d \barMin
     c a c b a g \barMaior
@@ -313,6 +316,142 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a a( d) d c d( e) d d \barMin
+    c a c b a g \barMaior
+    f g a( c) c( d) c \barMin d e d c d( c a) a \barMaior
+    c( a c) b( a) g \barMin f( a) a g g \barMaior
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem al -- fa i o -- me -- ga,
+    prv -- ní i po -- sled -- ní.
+    Já jsem vý -- ho -- nek Da -- vi -- do -- va ro -- du,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a a( d) d c d( e) d d \barMin
+    c a c b a g \barMaior
+    f g \mark\sipka g( a) a( c) c \barMin d e d c d( c a) a \barMaior
+    c( a c) b( a) g \barMin f( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem al -- fa i o -- me -- ga,
+    prv -- ní i po -- sled -- ní.
+    Já jsem vý -- ho -- nek Da -- vi -- do -- va ro -- du,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d( e) d d \barMin
+    c a c b a g \barMaior
+    a a a( c b) c( d) d \barMin e e d c d( e d) d \barMaior
+    d( e d) c( b a) a a( b) g a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Já jsem al -- fa i o -- me -- ga,
+    prv -- ní i po -- sled -- ní.
+    Já jsem vý -- ho -- nek Da -- vi -- do -- va ro -- du,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) g g \barMin
+    f d f e d c \barMaior
+    d d d( a' bes) a a \barMin
+    a a g f g( a g) g \barMaior
+    a( bes a) g( f) d d( e) c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem al -- fa i o -- me -- ga,
+    prv -- ní i po -- sled -- ní.
+    Já jsem vý -- ho -- nek Da -- vi -- do -- va ro -- du,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/tyden3_5ctvrtek.ly#mc-ant2?konec=18"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a \mark\sipka g( a) g f g( a) g g \barMin
+    f d f e d c \barMaior
+    d d d( a' bes) a a \barMin
+    a a g f g( a g) g \barMaior
+    a( bes a) g( f) d d( e) c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem al -- fa i o -- me -- ga,
+    prv -- ní i po -- sled -- ní.
+    Já jsem vý -- ho -- nek Da -- vi -- do -- va ro -- du,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/tyden3_5ctvrtek.ly#mc-ant2?konec=18"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -372,6 +511,28 @@
     g4 \mark\sipka g f g a g f( g) g \barMaior
     a c b( a g) g f g a a( g) g \barMaior
     \mark\sipka a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a f f( g) g \barMaior
+    a c b( c a) a g f a a( g) g \barMaior
+    f a g g \barFinalis
   }
   \addlyrics {
     Což nám ne -- ho -- ře -- lo srd -- ce,
