@@ -84,8 +84,8 @@
     \choralniRezim
     g4 a c c c( d) d \barMin
     c d e c d d \barMaior
-    d c a c b g a a \barMaior
-    g a b a \barFinalis
+    c a a c b g a a \barMin
+    b c a a \barFinalis
   }
   \addlyrics {
     U -- si -- luj -- te o to,
