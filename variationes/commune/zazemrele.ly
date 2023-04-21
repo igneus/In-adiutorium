@@ -33,6 +33,27 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4( f) f \barMin g( f) e f d( c) c \barMaior
+    d d c d f( g) \barMin \mark\sipka f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král ži -- vých i mrt -- vých.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4( f) f \barMin g( f) e f d( c) c \barMaior
     d d c d \mark\sipka d( f) \barMin e f d c( d) d \barFinalis
