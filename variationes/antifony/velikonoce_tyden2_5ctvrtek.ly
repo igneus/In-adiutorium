@@ -116,6 +116,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d( e f) d e( f g) \barMin
+    a a g f e( f d c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem vin -- ný kmen,
+    vy jste ra -- to -- les -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 80"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{

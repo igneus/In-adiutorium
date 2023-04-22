@@ -874,6 +874,30 @@
   \relative c'' {
     \choralniRezim
     d4 d d( e c) c( d) d \barMaior
+    d f e c d c \barMin
+    c \mark\sipka a b c b a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by
+    a po dí -- ků -- vzdá -- ní
+    je roz -- dá -- val pří -- tom -- ným.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( e c) c( d) d \barMaior
     d f e c d \mark\sipka d \barMin
     d c b g a g g \barMin
     f a g g \barFinalis
@@ -888,6 +912,102 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g f a) a \barMaior
+    a a b c a a \barMin
+    a a g f e( f) d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by
+    a po dí -- ků -- vzdá -- ní
+    je roz -- dá -- val pří -- tom -- ným.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g f a) a \barMaior
+    a a b c a a \barMin
+    a a g f e( f) \mark\sipka d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by
+    a po dí -- ků -- vzdá -- ní
+    je roz -- dá -- val pří -- tom -- ným.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c \mark\sipka f( g a) a \barMin
+    a a g f g( a) g \barMaior
+    g g f e d( e) d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by
+    a po dí -- ků -- vzdá -- ní
+    je roz -- dá -- val pří -- tom -- ným.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c( d c a) a \barMaior
+    a c b a g g \barMin
+    g f g a a( c) a a
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by
+    a po dí -- ků -- vzdá -- ní
+    je roz -- dá -- val pří -- tom -- ným.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}

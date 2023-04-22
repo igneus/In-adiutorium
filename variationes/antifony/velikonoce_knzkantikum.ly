@@ -931,6 +931,28 @@
   \relative c' {
     \choralniRezim
     d4 d c d e d4. d \barMaior
+    f4 d f g( f) d c d d \barMaior
+    \mark\sipka e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus je stej -- ný_*
+    vče -- ra i dnes i na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "t2-ct"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d e d4. d \barMaior
     f4 d f g( f) \mark\sipka e c d d \barMaior
     c d e d \barFinalis
   }
@@ -1168,6 +1190,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d \mark\sipka c d( f) d d \barMin
+    d e( f) d( c) c \barMaior
+    f g f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_*
+    a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d c d d( f) e f d c c \barMaior
     f g f d d \barMin
     e c c( d) d \barFinalis
@@ -1300,6 +1346,29 @@
     differentia = "F"
     psalmus = "Zj 15"
     fial = "antifony/tyden1_1nedele.ly#up-ant2?zacatek"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a b c( d) c b a g a \barMin
+    g f a a( g) g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_* a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Zj 15"
+    fial = "antifony/tyden1_7sobota.ly#rch-ant2?zacatek=5&konec=7&+aleluja"
     id = "t2-pa"
     piece = \markup {\sestavTitulek}
   }
