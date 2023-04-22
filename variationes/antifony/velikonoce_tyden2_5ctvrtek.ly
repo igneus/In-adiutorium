@@ -119,6 +119,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka f4 f f e g( a) \barMaior
+    f4 d f e d( c) c \barMin
+    \mark\sipka d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Já jsem vin -- ný kmen,
+    vy jste ra -- to -- les -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 80"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d( e f) d e( f g) \barMin
     a a g f e( f d c) c \barMin
     d f e( d) d \barFinalis
@@ -190,6 +212,78 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "a"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g( a) a \barMin
+    a g f g( a) g f( e) d( c) \barMaior
+    d f g g( f) f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    bu -- de -- te vá -- žit vo -- du
+    z_pra -- me -- mů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g( a) a \barMin
+    a g f g( a) g f( e) d( c) \barMaior
+    \mark\sipka d c d d( f) f
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    bu -- de -- te vá -- žit vo -- du
+    z_pra -- me -- mů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g( a) a \barMin
+    a g f g( a) g f( e) d( c) \barMaior
+    d c d \mark\sipka d( f g) g
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    bu -- de -- te vá -- žit vo -- du
+    z_pra -- me -- mů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Iz 12"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

@@ -51,6 +51,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f bes a g f g g \barMaior
+    g f g a( f) e d c d d \barMaior
+    e f \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    Pů -- so -- bíš mi ra -- dost, Hos -- po -- di -- ne,_*
+    z_dí -- la tvých ru -- kou se ve -- se -- lím.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 92"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
