@@ -102,9 +102,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a a( bes) a g f4.( g) \barMaior
+    a4 a a a( bes) a g f4.( g) \barMaior
     g4 g a g f( d) d d( e) c d d \barMaior
-    c d e( d) d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din chrá -- ní svůj lid_*
