@@ -8,8 +8,8 @@
     \choralniRezim
     f4 f f( g) f d d \barMin
     f f f e d c c \barMaior
-    d d e f e( f d) c( d) d \barMaior
-    c d( e) e( d) d \barFinalis
+    d d c d e( f) d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Zů -- staň s_ná -- mi, Pa -- ne,
