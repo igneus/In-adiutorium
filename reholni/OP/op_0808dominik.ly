@@ -14,12 +14,30 @@
   composer = "Jakub Pavlík"
 }
 
-\markup\small\justify{
-  Nápěvy zpracovány s přihlédnutím
-  k \italic{Antiphonarium pro Liturgia horarum iuxta usum Ordinis Praedicatorum,} vol. IV (dále AOP4;
-  \with-url "http://musicasacra.com/dominican/a4.pdf" {http://musicasacra.com/dominican/a4.pdf)}
+\markup\small{
   Kde to bylo možné, byl nápěv pro český text vypracován na základě
   nápěvu jeho latinské předlohy.
+}
+\markup\small{
+  Zkratky pramenů:
+}
+\markup\small\wordwrap{
+  % TODO: smazat, pokud z nej nepouzijeme nic, co nejde najit jinde
+  AOP4 -
+  \italic{Antiphonarium pro Liturgia horarum iuxta usum Ordinis Praedicatorum,} vol. IV,
+  \with-url "http://musicasacra.com/dominican/a4.pdf" {http://musicasacra.com/dominican/a4.pdf}
+}
+\markup\small\wordwrap{
+  AG -
+  \italic{Antiphonarium Sacri Ordinis Prædicatorum pro Diurnis Horis.}
+  Martini Stanislai Gillet permissu editum.
+  Romae 1933.
+}
+\markup\small\wordwrap{
+  MG -
+  \italic{Matutinum S.O.P.}
+  Stanislai Gillet permissu editum.
+  Romae 1936.
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}
@@ -39,7 +57,7 @@
     v_před -- zvěs -- ti po -- do -- bu psa měl.
   }
   \header {
-    fons_externus = "volně podle AOP4, 680"
+    fons_externus = "volně podle MG 174"
     quid = "1. ant."
     modus = "I"
     differentia = "g"
@@ -63,7 +81,7 @@
     chrá -- něn ští -- tem chu -- do -- by bo -- jo -- val.
   }
   \header {
-    fons_externus = "volně podle AOP4, 682"
+    fons_externus = "volně podle MG 179"
     quid = "2. ant."
     modus = "V"
     differentia = "a"
@@ -88,7 +106,7 @@
     o -- kou -- ší teď bla -- žen.
   }
   \header {
-    fons_externus = "volně podle AOP4, 683"
+    fons_externus = "volně podle MG 182"
     quid = "3. ant."
     modus = "I"
     differentia = "D"
@@ -325,7 +343,7 @@
     po mu -- čed -- nic -- tví.
   }
   \header {
-    fons_externus = "volně podle AOP4, 694"
+    fons_externus = "volně podle MG 182"
     quid = "1. ant."
     modus = "VII"
     differentia = "a"
@@ -594,7 +612,7 @@
     na nás po -- hlí -- žej vždy s_lás -- kou.
   }
   \header {
-    fons_externus = "volně podle AOP4, 708"
+    fons_externus = "volně podle AG 881"
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "g"
