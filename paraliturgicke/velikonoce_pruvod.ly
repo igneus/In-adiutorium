@@ -12,9 +12,8 @@
   Tyto zpěvy nejsou součástí Denní modlitby církve.
 }
 \markup\justify\italic{
-  Alelujatické antifony byly vybrány z formuláře velikonočních
-  nešpor v Kolínském antifonáři
-  (Knihovna národního muzea v Praze, sig. XII A 22).
+  Alelujatické antifony byly vybrány z těch, které se zpívaly
+  o velikonočních nešporách ve středověku v pražské arcidiecési.
 }
 
 \markup\nadpisHodinka{průvod ke křtitelnici}
