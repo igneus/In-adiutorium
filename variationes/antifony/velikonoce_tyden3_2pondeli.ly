@@ -315,6 +315,51 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    c4( d e d) c( d) d \barMin c b a g g \barMaior
+    a g f g a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Hlá -- sej -- te me -- zi po -- ha -- ny:_*
+    Hos -- po -- din kra -- lu -- je.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 96"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4( d e d) c( d) d \barMin c b a g g \barMaior
+    a g f \mark\sipka a c b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hlá -- sej -- te me -- zi po -- ha -- ny:_*
+    Hos -- po -- din kra -- lu -- je.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 96"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
     g4 g g a g a b b \barMaior
@@ -353,6 +398,75 @@
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 96"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a g f) d d f e f g g \barMin
+    a g f g f d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hlá -- sej -- te me -- zi po -- ha -- ny:_*
+    Hos -- po -- din kra -- lu -- je.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 96"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b a g a b b \barMin
+    b a g a( b) a( g) g \barMin
+    a b g g \barFinalis
+  }
+  \addlyrics {
+    Hlá -- sej -- te me -- zi po -- ha -- ny:_*
+    Hos -- po -- din kra -- lu -- je.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 96"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+\markup\justify{
+  (Melodie identická, jen transponovaná.
+  Mezi antifony V. modu asi zapadne lépe.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g f g a a \barMin
+    a g f g( a) g( f) f \barMin
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Hlá -- sej -- te me -- zi po -- ha -- ny:_*
+    Hos -- po -- din kra -- lu -- je.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 96"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -572,6 +686,52 @@ závěr je ten na "\"volní\"" a ten na Aleluja je falešný.
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 124"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a c b \barMin
+    b c a g( a g) g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Léč -- ka se pře -- trh -- la_*
+    a my jsme vol -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 124"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 e g a a g \barMin
+    a b g a( g f) e \barMaior
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Léč -- ka se pře -- trh -- la_*
+    a my jsme vol -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 124"
+    fial = "antifony/velikonoce_tyden3.ly#ne-rch-a1?zacatek=6&konec=4"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

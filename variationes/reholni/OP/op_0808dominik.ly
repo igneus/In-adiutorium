@@ -104,6 +104,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g f g a \barMaior
+    a g a c d c( b a) g a \barMaior
+    a g f g a f e \mark\sipka d( c) \barMaior
+    f e f g f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když ko -- nec vě -- ku nad -- chá -- zel,
+    ne -- bes -- ký no -- vý hla -- sa -- tel
+    Do -- mi -- nik chu -- do -- bou se skvěl,
+    v_před -- zvěs -- ti po -- do -- bu psa měl.
+  }
+  \header {
+    fons_externus = "volně podle AOP4, 680"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 141"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -853,6 +878,33 @@
     a' c d c( d) d c a( g a) f g( a) a \barMaior
     d, f( e) d( e) d d( c) \barMin
     f g( a) a( g f) e( d c) e( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Vel -- ký Ot -- če,
+    sva -- tý Do -- mi -- ni -- ku,
+    v_ho -- di -- ně smr -- ti nás přij -- mi k_so -- bě,
+    a zde na ze -- mi
+    na nás po -- hlí -- žej vždy s_lás -- kou.
+  }
+  \header {
+    fons_externus = "volně podle AOP4, 708"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f e) d( c) \mark\sipka f( g a) a \barMin
+    c( b a4.) f4( e d) e( f e) d c( d) d \barMaior
+    a' c d \mark\sipka c( b) a g b( c a) g g( a) a \barMaior
+    d, f( e) \mark\sipka d( e) d( c) c \barMin
+    f g( a) \mark\sipka g f e c e( f d4.) d \barFinalis
   }
   \addlyrics {
     Vel -- ký Ot -- če,

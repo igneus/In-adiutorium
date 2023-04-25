@@ -273,6 +273,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c( a) a \barMin a g( a) g f f( g) f g( a) a \barMaior
+    a( d) c a( g f d) d \barMin d( f e) f g( a bes a) g4.( a) \barMaior
+    \mark\sipka a4( g f) e( f) d c d d \barMin
+    \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tě -- lo pad -- lo a při -- mklo se k_mat -- ce ze -- mi,
+    sva -- tá du -- še šťast -- ně ve -- šla
+    do ří -- še ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1081,6 +1105,66 @@
     d d d \mark\sipka d e f e d c \barMin
     c c( f) e c( d) d \barMaior
     c d e d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta,
+    na -- še -- ho Pá -- na,
+    že po -- si -- lo -- val
+    sva -- té -- ho bis -- ku -- pa Voj -- tě -- cha,
+    a -- by mu vy -- dá -- val svě -- dec -- tví
+    i v_u -- tr -- pe -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f( d) d \barMin
+    c d e d d \barMaior
+    d f e f( g) g \barMin
+    g g g a g f \mark\sipka e( f) d( c) c \barMin
+    d d d d e f \mark\sipka d c c \barMin
+    \mark\sipka d d( f e) d c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta,
+    na -- še -- ho Pá -- na,
+    že po -- si -- lo -- val
+    sva -- té -- ho bis -- ku -- pa Voj -- tě -- cha,
+    a -- by mu vy -- dá -- val svě -- dec -- tví
+    i v_u -- tr -- pe -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f( d) d \barMin
+    c d e d d \barMaior
+    d f e f( g) g \barMin
+    g g g a g f e( f) d( c) c \barMin
+    d d \mark\sipka c d f f e( f) d( c) c \barMin
+    d d( f e) d c( d) d \barMaior
+    e f d d \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta,
