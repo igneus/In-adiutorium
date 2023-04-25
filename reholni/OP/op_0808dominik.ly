@@ -14,8 +14,9 @@
   composer = "Jakub Pavlík"
 }
 
-\markup\small{
-  Kde to bylo možné, byl nápěv pro český text vypracován na základě
+\markup\small\justify{
+  Texty podle breviar.op.cz k lednu 2013.
+  Kde to bylo možné, nápěv pro český text byl vypracován na základě
   nápěvu jeho latinské předlohy.
 }
 \markup\small{
