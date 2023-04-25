@@ -740,12 +740,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c a c( d) d \barMaior
     d( f) f \barMin
     g f f g f d d \barMaior
     \mark\sipka f e c c d d \barFinalis
+  }
+  \addlyrics {
+    Hla -- si -- tě vo -- lal:
+    Pa -- ne,
+    smi -- luj se nad svým li -- dem.
+    Co bu -- de s_hříš -- ní -- ky?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c a c( d) d \barMaior
+    d( f) f \barMin
+    g f f g f d d \barMaior
+    f e c \mark\sipka e( f) d d \barFinalis
   }
   \addlyrics {
     Hla -- si -- tě vo -- lal:

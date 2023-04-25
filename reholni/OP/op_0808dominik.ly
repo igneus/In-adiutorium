@@ -531,7 +531,7 @@
     d4 c a c( d) d \barMaior
     d( f) f \barMin
     g f f g f d d \barMaior
-    f e c c d d \barFinalis
+    f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Hla -- si -- tě vo -- lal:
