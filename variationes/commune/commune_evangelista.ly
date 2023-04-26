@@ -953,6 +953,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
+    c d e d c( d c a) a \barMin c \mark\sipka a a g f f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no dě -- lám pro hlá -- sá -- ní e -- van -- ge -- li -- a,
+    a -- bych zís -- kal po -- díl na je -- ho za -- slí -- be -- ních.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
+    c d e d c( d c a) a \barMin \mark\sipka a g f g a a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no dě -- lám pro hlá -- sá -- ní e -- van -- ge -- li -- a,
+    a -- bych zís -- kal po -- díl na je -- ho za -- slí -- be -- ních.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -991,6 +1039,32 @@
     g c a f g4. e \barMin f4( g) a a g( a) g g \barFinalis
 
     g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    By -- la mi dá -- na mi -- lost:
+    zvěs -- to -- vat po -- ha -- nům
+    ne -- vy -- sti -- ži -- tel -- né Kris -- to -- vo bo -- hat -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g g( c) c c( d c) c \barMaior
+    c4( d) b c a g g( a) \barMaior
+    g c a f g4. e \barMin f4( g) a a g( a) g g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     By -- la mi dá -- na mi -- lost:
