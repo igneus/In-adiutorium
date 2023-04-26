@@ -244,6 +244,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka f f g f g( a) a( g) \barMax
+    f( d) f( g) g f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a a a g f g( a) a( g) \barFinalis
+
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vzdá -- vej -- te Pá -- nu, Bo -- ží dě -- ti,_*
+    čest a slá -- vu.
+    \Verse Vzdá -- vej -- te po -- ctu je -- ho jmé -- nu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -584,6 +612,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \zvyraznovacModry
@@ -617,6 +647,36 @@
   \relative c' {
     \choralniRezim
 
+    % R
+    \neviditelna f
+    f4 f f f g f g \mark\sipka g( a) a( g) \barMax
+    f d f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a g( a) g g \barMin a g f g( a) a( g) \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vuj -- te me -- zi po -- ha -- ny_*
+    o Pá -- no -- vě slá -- vě.
+    \Verse Me -- zi vše -- mi ná -- ro -- dy o je -- ho di -- vech.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+
   }
   \addlyrics {
     Jak mi -- lý je pří -- chod to -- ho,
@@ -634,26 +694,59 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a c( d) d \barMin
+    c d e( c) c( d) d \barMaior
+    a d b c a( g) \barMin
+    f g a b c a g a a \barFinalis
   }
   \addlyrics {
-    Měj -- te lás -- ku, buď -- te po -- kor -- ní,
-    va -- ším vlast -- nic -- tvím ať je do -- bro -- vol -- ná chu -- do -- ba.
+    Měj -- te lás -- ku,
+    buď -- te po -- kor -- ní,
+    va -- ším vlast -- nic -- tvím
+    ať je do -- bro -- vol -- ná chu -- do -- ba.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e( c) c( d) d \barMaior
+    a d b c a( g) \barMin
+    f g a \mark\sipka a a b c( a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Měj -- te lás -- ku,
+    buď -- te po -- kor -- ní,
+    va -- ším vlast -- nic -- tvím
+    ať je do -- bro -- vol -- ná chu -- do -- ba.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -675,10 +768,13 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c d f e d c( d) d( c) c \barMaior
+    d f f f e( f d) c c( d) d \barFinalis
   }
   \addlyrics {
     O -- prav -- do -- vě mi -- lo -- val chu -- do -- bu
@@ -686,20 +782,66 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
-\markup {\nadpisHodinka {"2. nešpory"}}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d c( d) d( c) c \barMaior
+    d \mark\sipka d( f) f f f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    O -- prav -- do -- vě mi -- lo -- val chu -- do -- bu
+    a no -- sil vždy pros -- tý o -- děv.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d f e d c( d) d( c) c \barMaior
+    d d( f) \mark\sipka d d d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- prav -- do -- vě mi -- lo -- val chu -- do -- bu
+    a no -- sil vždy pros -- tý o -- děv.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
+\pageBreak
+
+\markup {\nadpisHodinka {"2. nešpory"}}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a f g( a) g g \barMin
+    a c c c( d) c b a a \barMaior
+    a c c b a g a a( g) \barMin
+    a a g f g( a) a g g \barFinalis
   }
   \addlyrics {
     Všech -- ny li -- di ob -- jí -- mal
@@ -709,28 +851,35 @@
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 115"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-
+    f4 f g a g f g g \barMaior
+    bes a g( a g) g \barMin
+    g f( g) f e d( c) \barMaior
+    c d f f f g f e d c( d) d \barFinalis
   }
   \addlyrics {
     Po -- hnut sou -- ci -- tem a lás -- kou
-    pro -- dal kni -- hy a všech -- no, co měl,
+    pro -- dal kni -- hy
+    a všech -- no, co měl,
     a da -- ro -- val to na vý -- ži -- vu chu -- dých.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 125"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
@@ -850,6 +999,34 @@
     % V
     \neviditelna a
     a4 a a a g( a) g g \barMin a g f g g( a) \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ní, kdo sly -- ší Bo -- ží slov -- o_*
+    a za -- cho -- vá -- va -- jí je.
+    \Verse Při -- ná -- še -- jí u -- ži -- tek v_tr -- pě -- li -- vos -- ti.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g g f f \barMin f f g g f g( a) a( g) \barMax
+    g f d f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g g \barMin \mark\sipka g f g g( a) a( g) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

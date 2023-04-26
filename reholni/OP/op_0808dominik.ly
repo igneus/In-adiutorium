@@ -505,19 +505,23 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 g a f g( a) g g \barMin
+    a c c c( d) c b a a \barMaior
+    a c c b a g a a( g) \barMin
+    a a g f g( a) a g g \barFinalis
   }
   \addlyrics {
-    Všech -- ny li -- di ob -- jí -- mal ši -- ro -- kou ná -- ru -- čí lás -- ky
+    Všech -- ny li -- di ob -- jí -- mal
+    ši -- ro -- kou ná -- ru -- čí lás -- ky
     a pro -- to -- že měl všech -- ny rád,
     mě -- li všich -- ni rá -- di je -- ho.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 115"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -527,17 +531,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f g a g f g g \barMaior
+    bes a g( a g) g \barMin
+    g f( g) f e d( c) \barMaior
+    c d f f f g f e d c( d) d \barFinalis
   }
   \addlyrics {
     Po -- hnut sou -- ci -- tem a lás -- kou
-    pro -- dal kni -- hy a všech -- no, co měl,
+    pro -- dal kni -- hy
+    a všech -- no, co měl,
     a da -- ro -- val to na vý -- ži -- vu chu -- dých.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 125"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
