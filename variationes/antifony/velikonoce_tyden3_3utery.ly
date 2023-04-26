@@ -358,6 +358,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f f( g) g \barMaior
+    a g f d \mark\sipka f g g( f) f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Dou -- fa -- li jsme v_Hos -- po -- di -- na_*
+    a on nám da -- ro -- val po -- koj.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Iz 26"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -732,6 +754,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c \barMin
+    d e d d \barMaior
+    c b \mark\sipka c a( g) \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám!
+    Ne -- boj -- te se,
+    vždyť jsem to já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 125"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a \barMin
+    a b g g \barMin
+    f e d e \barMaior
+    f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám!
+    Ne -- boj -- te se,
+    vždyť jsem to já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 125"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -883,6 +953,26 @@
     \choralniRezim
     \mark\sipka c4 d e d c d c b a( g) g \barMaior
     \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c \mark\sipka b c a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.

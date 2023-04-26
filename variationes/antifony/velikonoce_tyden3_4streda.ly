@@ -77,6 +77,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 d e( f) d d e c c( d) d \barMin
+    a c d d e f e d d \barMin
+    \mark\sipka e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy_* při -- jdou, Pa -- ne,
+    a bu -- dou se před te -- bou kla -- nět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 86"
+    fial = "antifony/tyden1_6patek.ly#ne-ant3?+aleluja"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -135,6 +159,31 @@
     \zvyraznovacModry
     \choralniRezim
     d4 d d( a') a a( g bes) a g g( f) f4.( g) \barMaior
+    f4( g f) e d d \barMin
+    e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še o -- či_* u -- vi -- dí Kris -- ta,
+    krá -- le slá -- vy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Iz 33"
+    id = "rch-a2"
+    fons = "Začátek melodie záměrně kopíruje vánoční Simeonovskou antifonu
+    'Moje oči': Narození Páně, uprostřed dne, odpoledne"
+    fial = "vanoce_narozenipane.ly#vden-anona?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a \mark\sipka a( bes) a g g( f) f4.( g) \barMaior
     f4( g f) e d d \barMin
     e4 c c( d) d \barFinalis
   }
@@ -461,6 +510,73 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f( e) d( e) e \barMin
+    \mark\sipka f g a a g( a g) f
+    a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Váš zá -- rmu -- tek_*
+    se pro -- mě -- ní v_ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Váš zármutek se změní v radost. Aleluja."
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 126"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f( e) d( e) e \barMin
+    \mark\sipka e f g g( a g) f
+    a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Váš zá -- rmu -- tek_*
+    se změ -- ní v_ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 126"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) g( a) a \barMin
+    a g f e( f d) d
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Váš zá -- rmu -- tek_*
+    se změ -- ní v_ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 126"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -603,6 +719,55 @@
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4 g( a) g g \barMin
+    f d f e d( c) c \barMaior
+    d c d d( f) f \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) g g \barMin
+    f d f e d( c) c \barMaior
+    d c d \mark\sipka f f \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
