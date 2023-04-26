@@ -1904,6 +1904,78 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a bes a g f g g( a) a \barMin
+    g( a) g f( d) d \barMaior
+    d d c( d) d f( e f g) g \barMin
+    a g f( d) d f e d d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
+    při -- jde ke mně,
+    a kdo ke mně při -- jde,
+    to -- ho jis -- tě ne -- od -- mít -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a bes a g f g g( a) a \barMin
+    g( a) g f( d) d \barMaior
+    \mark\sipka c d f e f( g a g) f( g) \barMin
+    a g f( d) d f e \mark\sipka c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
+    při -- jde ke mně,
+    a kdo ke mně při -- jde,
+    to -- ho jis -- tě ne -- od -- mít -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a bes a g f g g( a) a \barMin
+    g( a) g f( d) d \barMaior
+    c d f \mark\sipka f g( a g f) f( g) \barMin
+    a g f( d) d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
+    při -- jde ke mně,
+    a kdo ke mně při -- jde,
+    to -- ho jis -- tě ne -- od -- mít -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Nebo - v době velikonoční:}
