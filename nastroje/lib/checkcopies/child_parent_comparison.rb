@@ -115,7 +115,10 @@ class ChildParentComparison
     return true if Set.new(%w(zacatek konec zaver cast)).intersect? @fial_keys
 
     normalized_parent == normalized_child ||
-      (simple_copy? && both_lyrics_end_with_alleluia? && difference_in_last_bar_only?)
+      (simple_copy? &&
+       both_lyrics_end_with_alleluia? &&
+       difference_in_last_bar_only? &&
+       one_alleluia_is_optional?)
   end
 
   def normalized_child
@@ -172,6 +175,17 @@ class ChildParentComparison
     f = lambda {|score| score.lyrics_readable =~ /aleluja[^\w]?\Z/i }
 
     f.call(child) && f.call(parent)
+  end
+
+  def one_alleluia_is_optional?
+    [parent, child]
+      .select {|score| has_optional_alleluia?(score) }
+      .size == 1
+  end
+
+  def has_optional_alleluia?(score)
+    score.music.include?('\markup\rubrVelikAleluja') &&
+      strip_wrappers(score.music).scan(/\\bar\w+/).last == '\barFinalis'
   end
 
   def difference_in_last_bar_only?

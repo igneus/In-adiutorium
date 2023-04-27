@@ -54,7 +54,7 @@ describe ChildParentComparison do
     # (alleluia is sung only depending on current season).
     describe 'only last bar differs' do
       let(:music_a) { 'a \barMin a \barMaior a \barFinalis' }
-      let(:music_b) { 'a \barMin a \barFinalis a \barFinalis' }
+      let(:music_b) { 'a \barMin a \barFinalis a^\markup\rubrVelikAleluja \barFinalis' }
 
       describe 'and lyrics end with alleluia' do
         [
@@ -78,6 +78,22 @@ describe ChildParentComparison do
       it 'but lyrics do not end with alleluia' do
         expect(described_class.new(score(music: music_a), score(music: music_b)))
           .not_to be_match
+      end
+
+      describe 'but none of the alleluias is optional' do
+        it '(not separated by barFinalis)' do
+          music_b = 'a \barMin a \barMin a^\markup\rubrVelikAleluja \barFinalis'
+
+          expect(described_class.new(score(music: music_a), score(music: music_b)))
+            .not_to be_match
+        end
+
+        it '(not marked by a rubric)' do
+          music_b = 'a \barMin a \barFinalis a \barFinalis'
+
+          expect(described_class.new(score(music: music_a), score(music: music_b)))
+            .not_to be_match
+        end
       end
     end
 
