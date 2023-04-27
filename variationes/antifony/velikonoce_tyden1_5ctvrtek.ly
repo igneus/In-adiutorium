@@ -212,6 +212,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c b c a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Pán_* vy -- kou -- pil svůj lid.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Jer 31"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 f( e) d( e) c \barMin
