@@ -471,7 +471,7 @@
     \choralniRezim
     \key f \major
     a4 a g( bes) a g f g \barMaior
-    g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
+    g g( a bes) a \barMin g a g f( d e) d \barMaior
 
     f g( f) d d \barFinalis
   }

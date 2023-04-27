@@ -1623,6 +1623,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     a4 a g( bes) a g f g \barMaior
@@ -1644,6 +1645,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     a4 a g( bes) a g f g \barMaior

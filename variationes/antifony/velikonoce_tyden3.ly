@@ -1768,13 +1768,68 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     a4 a g( bes) a g f g \barMaior
     g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
 
     \mark\sipka f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    A -- mem, a -- men, pra -- vím vám:
+    Kdo vě -- ří, má ži -- vot věč -- ný.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-rch-ben?+aleluja"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    a4 a g( bes) a g f g \barMaior
+    g g( a bes) a \barMin g a g f( d e) d \barMaior
+
+    f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Kdo vě -- ří, má ži -- vot věč -- ný.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-rch-ben?+aleluja"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a g( bes) a g f g \barMaior
+    g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
+
+    \mark\sipka e f d( c) d \barFinalis
   }
   \addlyrics {
     A -- mem, a -- men, pra -- vím vám:
@@ -1800,7 +1855,7 @@
     a4 a g( bes) a g f g \barMaior
     g g( a bes) a \barMin a g( a) g f( d e) d \barMaior
 
-    \mark\sipka e f d( c) d \barFinalis
+    \mark\sipka e f d d \barFinalis
   }
   \addlyrics {
     A -- mem, a -- men, pra -- vím vám:
