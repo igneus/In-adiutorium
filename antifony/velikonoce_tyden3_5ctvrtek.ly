@@ -102,7 +102,7 @@
     \choralniRezim
     g4 a a( c) c c d e d c( d) d( c) c \barMaior
     d c( d a4.) a \barMin f4 g g( a) a \barMaior
-    c bes g( a) a \barFinalis
+    c bes( g) g( a) a \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus_*
