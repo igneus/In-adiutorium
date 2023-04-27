@@ -68,6 +68,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 99"
+    placet = "aleluja lépe - váhám, jestli se nevrátit k původnímu"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
