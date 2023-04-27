@@ -73,7 +73,7 @@
     \choralniRezim
     d c b c d( e d) d \barMin
     d d( f) e d d \barMaior
-    f( g) a f( d) d f e( d) \barMax
+    f( g) a f( d) d f e( d) \barMin
     e c c( d) d \barFinalis
   }
   \addlyrics {

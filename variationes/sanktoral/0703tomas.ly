@@ -163,10 +163,40 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d c b c d( e d) d \barMin
     d d( f) e d d \barMaior
     f( g) a f( d) d f e( d) \barMax
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď na mé jiz -- vy_*
+    a do -- tkni se jich,
+    ne -- po -- chy -- buj a věř.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    fons = "Velikonoční oktáv, neděle v oktávu, k Benedictus"
+    fial = "velikonoce_velikonocnioktav.ly#ne2-ben"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d c b c d( e d) d \barMin
+    d d( f) e d d \barMaior
+    f( g) a f( d) d f e( d) \barMin
     e c c( d) d \barFinalis
   }
   \addlyrics {
