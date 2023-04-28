@@ -67,6 +67,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 100"
+    placet = "aleluja lépe"
     id = "rch-a3"
     fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja"
     piece = \markup {\sestavTitulek}

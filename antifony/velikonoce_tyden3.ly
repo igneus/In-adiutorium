@@ -544,6 +544,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
+    placet = "aleluja lépe"
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?konec&+aleluja"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
