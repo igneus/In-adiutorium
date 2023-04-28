@@ -527,6 +527,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d( a') a g a b a \barMin
+    a g f f( g) f f d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( d') d c d e d \barMin
+    \mark\sipka d d d c b c a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Zj 15"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 c'4. c4 d c b( g) g \barMin
     a g f g( a) a a g g \barMaior
     f c'( b) g g \barFinalis
@@ -695,6 +739,50 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Zj 15"
+    id = "t1-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a a a g f g( a) g g \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,_*
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 15"
+    id = "t1-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a a a g f \mark\sipka g( a bes) a g( a) \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,_*
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Zj 15"
     id = "t1-pa"
     piece = \markup {\sestavTitulek}
