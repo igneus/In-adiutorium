@@ -8,8 +8,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) f \barMin
-    f f f g f e f d d \barMaior
+    c4( d) d \barMin
+    f e f g f e f d d \barMaior
     e c c( d) d \barFinalis
   }
   \addlyrics {
@@ -79,9 +79,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g g a a \barMin
-    b c a a g f g e e \barMaior
-    f d d( e) e \barFinalis
+    g4 a c c b \barMin
+    b c c a g a g f f \barMaior
+    g a g g \barFinalis
   }
   \addlyrics {
     Já jsem Hos -- po -- din,_*
@@ -90,8 +90,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 135-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
