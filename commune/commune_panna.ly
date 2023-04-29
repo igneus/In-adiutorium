@@ -198,7 +198,7 @@
     Pro -- zí -- ra -- vé pan -- ny,
     při -- prav -- te své lam -- py:
     Že -- nich je ta -- dy!
-    Jdě -- te mi na -- pro -- ti!
+    Jdě -- te mu na -- pro -- ti!
 
     A -- le -- lu -- ja.
   }
