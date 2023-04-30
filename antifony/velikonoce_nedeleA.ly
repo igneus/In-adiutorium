@@ -77,10 +77,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e d( e) \barMin
+    d4 d f e d( c) \barMin
     d c d d( f) f f g( a) g f f \barMaior
-    g g( a) g g \barMin g a g g a( bes) a g g \barMaior
-    f f f e( d c) c f e c( d) \barMaior
+    g g( a) g g \barMin g g( a) g g f e d( c) c \barMaior
+    d d f e( f d) d e c d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -102,13 +102,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c d c b a a \barMaior
-    a a( c) a a g a \barMin
-    c c c( e d) b( c) a \barMin
-    a b g a a \barMaior
-    b c a( g) a \barFinalis
+    d4 f g f e d d \barMaior
+    d d( f) d d c d \barMin
+    f f f( a g) f( g) d \barMin
+    d e c c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Já jsem dve -- ře, pra -- ví Pán.
@@ -119,8 +119,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "c"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -132,7 +132,7 @@
     \choralniRezim
     a4 a g f g( f d) d \barMaior
     c d d( f) f \barMin
-    f f f g f g( a) f f( g) g \barMaior
+    f f f g f g a g g \barMaior
     a a a a g f g f d \barMin
     f g g( f) f \barFinalis
   }

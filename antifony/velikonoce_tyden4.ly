@@ -52,7 +52,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a g( a) a \barMin c b g( a) a \barMaior
+    a4 g f g g( a) a \barMin c b g( a) a \barMaior
     a a g( f e) d f g e e \barMaior
     f f d( e) e \barFinalis
   }
@@ -126,7 +126,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 d e e e g a a g( a) a \barMaior
+    e4 g a a g a b g g( a) a \barMaior
     a a a g( e) e e f e d e \barMaior
     f g f( e) e \barFinalis
   }
@@ -201,8 +201,8 @@
     \choralniRezim
     c4 d d( f) f \barMaior
     g f f g( a) g f g( f) \barMin
-    e d c d f e c( d) d \barMaior
-    f g( f) d d \barFinalis
+    d c c d f e c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -416,11 +416,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g g( a) f f( g) g \barMaior
-    bes( a) g( a) g \barMin
-    g f g( a) f f( g) g \barMaior
+    a4 a g f g( f d) d \barMaior
+    c( d) d( f) f \barMin
+    g f g a g g \barMaior
     a a g f g f d \barMin
     f g g( f) f \barFinalis
   }
@@ -433,10 +433,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    fial = "antifony/velikonoce_nedeleA.ly#ivmag2?cast=3&konec=14"
+    fial = "antifony/velikonoce_nedeleA.ly#ivmag2?zacatek=9&konec=14"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

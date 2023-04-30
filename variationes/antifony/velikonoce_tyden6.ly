@@ -527,9 +527,35 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a g( a) a \barMin c b g( a) a \barMaior
+    a a g( f e) d f g e e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus mu -- sel pro -- jít bra -- nou smr -- ti,
+    a tak ve -- jít do své slá -- vy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Flp 2"
+    fial = "antifony/velikonoce_tyden4.ly#ne-1ne-a3"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g g( a) a \barMin c b g( a) a \barMaior
     a a g( f e) d f g e e \barMaior
     f f d( e) e \barFinalis
   }
@@ -1361,12 +1387,41 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) f \barMaior
     g f f g( a) g f g( f) \barMin
     e d c d f e c( d) d \barMaior
     f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Ví -- těz -- ství,
+    slá -- va a moc
+    ná -- le -- ží na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 19"
+    fial = "antifony/velikonoce_tyden4.ly#ne-2ne-a3"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMaior
+    g f f g( a) g f g( f) \barMin
+    d c c d f e c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
