@@ -628,6 +628,36 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a( g) g \barMin
+    a g a g f g g \barMaior
+    bes a g( a g) g \barMin
+    g f g f e d( c) c \barMaior
+    d d c d d( f) \barMin
+    g f g a g f \barMaior
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Když o -- de -- jdu
+    a při -- pra -- vím vám mís -- to,
+    za -- se při -- jdu
+    a vez -- mu si vás k_so -- bě,
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
