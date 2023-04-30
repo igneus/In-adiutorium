@@ -294,6 +294,12 @@
 
 \pageBreak
 
+\markup\justify{
+  Pro případné použití části melodie odjinud je dobré vést v patrnosti
+  \fial-link "sanktoral/0703tomas.ly#rch-a1" (stejnými slovy končí) a
+  \fial-link "antifony/velikonoce_nedeleA.ly#vben" (stejnými slovy začíná).
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
