@@ -169,7 +169,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c( d) c \barMin
     d d c( b) a a b a g g \barFinalis
@@ -182,6 +182,31 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_panna.ly#mc-avig?-aleluja"
+    id = "ne32a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a f g g \barMin
+    a c b( c) a a b a g g \barFinalis
+  }
+  \addlyrics {
+    Že -- nich je ta -- dy!
+    Jdě -- te na -- pro -- ti Kris -- tu Pá -- nu!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     fial = "commune/commune_panna.ly#mc-avig?-aleluja"

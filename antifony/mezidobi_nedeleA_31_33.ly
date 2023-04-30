@@ -114,8 +114,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c( d) c \barMin
-    d d c( b) a a b a g g \barFinalis
+    g4 a f g g \barMin
+    a c b( c) a a b a g g \barFinalis
   }
   \addlyrics {
     Že -- nich je ta -- dy!
@@ -124,7 +124,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     fial = "commune/commune_panna.ly#mc-avig?-aleluja"

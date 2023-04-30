@@ -596,6 +596,32 @@
     \choralniRezim
     c4 c( d) c \barMin
     c c b g a a( g) g \barMaior
+    \mark\sipka a a a g f g a a g( a) g g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mé štěs -- tí
+    je být na -- blíz -- ku Bo -- hu;
+    kdo se od ně -- ho vzda -- lu -- je, za -- hy -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 73-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c \barMin
+    c c b g a a( g) g \barMaior
     \mark\sipka f g a c c b( c) a g a g g \barFinalis
 
     f^\rubrVelikAleluja a g g \barFinalis
@@ -650,6 +676,58 @@
     c4 c( d) c \barMin
     c c b g a a( g) g \barMaior
     f g a a a \mark\sipka c b a g( a) g g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mé štěs -- tí
+    je být na -- blíz -- ku Bo -- hu;
+    kdo se od ně -- ho vzda -- lu -- je, za -- hy -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 73-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c \barMin
+    c c b g a a( g) g \barMaior
+    \mark\sipka a a f e d f g g a( c b) a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mé štěs -- tí
+    je být na -- blíz -- ku Bo -- hu;
+    kdo se od ně -- ho vzda -- lu -- je, za -- hy -- ne.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 73-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c \barMin
+    c c b g a a( g) g \barMaior
+    a a f e d f g g \mark\sipka a( b c b) a( g) g \barFinalis
 
     f^\rubrVelikAleluja g( a) g g \barFinalis
   }
