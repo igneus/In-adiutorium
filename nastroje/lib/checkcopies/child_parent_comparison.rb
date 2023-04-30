@@ -100,11 +100,18 @@ class ChildParentComparison
         size = 5
       end
 
+      compared = [normalized_parent, normalized_child]
+      if both_lyrics_end_with_alleluia? &&
+         one_alleluia_is_optional?
+        compared.collect!(&method(:normalize_last_bar))
+      end
+      compared.collect!(&method(:strip_wrappers))
+
       shared_size =
-        strip_wrappers(normalized_parent)
-        .shared_ending(strip_wrappers(normalized_child))
-        .split(/\s+/)
-        .size
+        compared
+          .yield_self {|(a, b)| a.shared_ending(b) }
+          .split(/\s+/)
+          .size
       if shared_size > size
         @logger.info "expected common end of size #{size}, found #{shared_size}"
       end
@@ -136,7 +143,7 @@ class ChildParentComparison
       music
         .strip
         .gsub(/\s+/, ' ')
-        .gsub('^\markup\rubrVelikAleluja', '')
+        .gsub(/\^(\\markup)?\\rubrVelikAleluja/, '')
         .gsub(/\\stem(Up|Down)\s*/, '')
         .gsub('\doxologieResponsoriumVI', '\respVIdoxologie \barFinalis')
 
@@ -184,7 +191,7 @@ class ChildParentComparison
   end
 
   def has_optional_alleluia?(score)
-    score.music.include?('\markup\rubrVelikAleluja') &&
+    score.music.include?('\rubrVelikAleluja') &&
       strip_wrappers(score.music).scan(/\\bar\w+/).last == '\barFinalis'
   end
 
@@ -208,6 +215,6 @@ class ChildParentComparison
     last_bar_i = music.rindex '\bar', closing_bar_i - 1
 
     music[0..last_bar_i - 1] +
-      music[last_bar_i..-1].sub(/\\bar\w*/, '') # remove last bar
+      music[last_bar_i..-1].sub(/\\bar\w*/, '\barLastNormalized')
   end
 end

@@ -1,5 +1,68 @@
 require_relative '../../lib/checkcopies/child_parent_comparison'
 
+# often an antifon ending with alleluia exists in copies differing
+# just in quality of a bar before alleluia, as some are for the
+# Eastertide (alleluia is always sung) and some for general use
+# (alleluia is sung only depending on current season).
+shared_examples 'tolerance of differing bar before alleluia' do
+  describe 'only last bar differs' do
+    let(:music_a) { 'a a a a a \barMin a \barMaior a \barFinalis' }
+    let(:music_b) { 'a a a a a \barMin a \barFinalis a^\markup\rubrVelikAleluja \barFinalis' }
+
+    describe 'and lyrics end with alleluia' do
+      [
+        'anything. Aleluja.',
+        'anything. Aleluja!',
+        'anything, aleluja.',
+        'anything aleluja',
+        'anything, aleluja!'
+      ].each do |l|
+        it l do
+          expect(
+            described_class.new(
+              score(music: music_a, lyrics: l, fial: fial),
+              score(music: music_b, lyrics: l)
+            )
+          ).to be_match
+        end
+      end
+    end
+
+    it 'and the rubric has the shorter form without \markup' do
+      music_b = 'a a a a a \barMin a \barFinalis a^\rubrVelikAleluja \barFinalis'
+      l = 'anything aleluja'
+
+      expect(
+        described_class.new(
+          score(music: music_a, lyrics: l, fial: fial),
+          score(music: music_b, lyrics: l)
+        )
+      ).to be_match
+    end
+
+    it 'but lyrics do not end with alleluia' do
+      expect(described_class.new(score(music: music_a, fial: fial), score(music: music_b)))
+        .not_to be_match
+    end
+
+    describe 'but none of the alleluias is optional' do
+      it '(not separated by barFinalis)' do
+        music_b = 'a \barMin a \barMin a^\markup\rubrVelikAleluja \barFinalis'
+
+        expect(described_class.new(score(music: music_a, fial: fial), score(music: music_b)))
+          .not_to be_match
+      end
+
+      it '(not marked by a rubric)' do
+        music_b = 'a \barMin a \barFinalis a \barFinalis'
+
+        expect(described_class.new(score(music: music_a, fial: fial), score(music: music_b)))
+          .not_to be_match
+      end
+    end
+  end
+end
+
 describe ChildParentComparison do
   def score(music: 'a \barFinalis', lyrics: 'a', fial: 'parent_path#id', modus: 'I', differentia: 'g')
     Lyv::LilyPondScore.new(
@@ -18,6 +81,8 @@ describe ChildParentComparison do
   end
 
   describe 'simple copy' do
+    let(:fial) { 'parent_path#id' }
+
     it 'same' do
       expect(described_class.new(score, score))
         .to be_match
@@ -48,54 +113,7 @@ describe ChildParentComparison do
         .not_to be_match
     end
 
-    # often an antifon ending with alleluia exists in copies differing
-    # just in quality of a bar before alleluia, as some are for the
-    # Eastertide (alleluia is always sung) and dome for general use
-    # (alleluia is sung only depending on current season).
-    describe 'only last bar differs' do
-      let(:music_a) { 'a \barMin a \barMaior a \barFinalis' }
-      let(:music_b) { 'a \barMin a \barFinalis a^\markup\rubrVelikAleluja \barFinalis' }
-
-      describe 'and lyrics end with alleluia' do
-        [
-          'anything. Aleluja.',
-          'anything. Aleluja!',
-          'anything, aleluja.',
-          'anything aleluja',
-          'anything, aleluja!'
-        ].each do |l|
-          it l do
-            expect(
-              described_class.new(
-                score(music: music_a, lyrics: l),
-                score(music: music_b, lyrics: l)
-              )
-            ).to be_match
-          end
-        end
-      end
-
-      it 'but lyrics do not end with alleluia' do
-        expect(described_class.new(score(music: music_a), score(music: music_b)))
-          .not_to be_match
-      end
-
-      describe 'but none of the alleluias is optional' do
-        it '(not separated by barFinalis)' do
-          music_b = 'a \barMin a \barMin a^\markup\rubrVelikAleluja \barFinalis'
-
-          expect(described_class.new(score(music: music_a), score(music: music_b)))
-            .not_to be_match
-        end
-
-        it '(not marked by a rubric)' do
-          music_b = 'a \barMin a \barFinalis a \barFinalis'
-
-          expect(described_class.new(score(music: music_a), score(music: music_b)))
-            .not_to be_match
-        end
-      end
-    end
+    include_examples 'tolerance of differing bar before alleluia'
 
     describe 'responsoria.ly peculiarities' do
       it 'understands the special doxology variable' do
@@ -459,6 +477,11 @@ describe ChildParentComparison do
         )
       ).to be_match
     end
+
+    # Note: we don't provide special testing data here, relying on the fact
+    # that each comparison succeeding as simple copy
+    # must succeed also as ?konec
+    include_examples 'tolerance of differing bar before alleluia'
   end
 
   describe 'zacatek & konec' do
