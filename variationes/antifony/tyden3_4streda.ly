@@ -273,7 +273,7 @@
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
-    f f g g( a) a \barMin
+    f4 f g g( a) a \barMin
     a a a g a g( f) f \barMin
     \mark\sipka d f g a f f \barFinalis
 
