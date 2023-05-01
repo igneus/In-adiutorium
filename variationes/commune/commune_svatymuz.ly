@@ -1680,6 +1680,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( e) e f( e) f f( g) g \barMin
     f( g) a( c) b( a) a \barMaior
@@ -1707,6 +1708,43 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c b( c) a( g) g \barMaior
+    c d c b a g g \barMin
+    a f e d( e) d \barMin
+    d f g a f f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu,
+    a -- by se u -- ká -- za -- lo,
+    že je -- ho skut -- ky
+    jsou vy -- ko -- ná -- ny v_Bo -- hu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben1"
+    fons = "4. ne postní, cyklus B, 2. nešp., k Magnificat; doplněno aleluja"
+    fial = "antifony/pust_nedeleB.ly#ivmag2?+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\italic{O více mužích:}
 

@@ -144,10 +144,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f( e) e f( e) f f( g) g \barMin
-    f( g) a( c) b( a) a \barMaior
-    a b c c( d c) b( a) g g \barMin
-    g f e d( e) d \barMin d f e f f g( a g) g \barMaior
+    g4 g g f g g( a) a \barMin
+    c b( c) a( g) g \barMaior
+    c d c b a g g \barMin
+    a f e d( e) d \barMin
+    d f g a f f( g) g \barMaior
 
     f g( a) g g \barFinalis
   }
@@ -155,7 +156,8 @@
     Kdo jed -- ná po -- dle prav -- dy,
     jde ke svět -- lu,
     a -- by se u -- ká -- za -- lo,
-    že je -- ho skut -- ky jsou vy -- ko -- ná -- ny v_Bo -- hu.
+    že je -- ho skut -- ky
+    jsou vy -- ko -- ná -- ny v_Bo -- hu.
 
     A -- le -- lu -- ja.
   }

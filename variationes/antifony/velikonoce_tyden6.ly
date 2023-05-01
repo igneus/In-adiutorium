@@ -8,6 +8,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( e) e f( e) f f( g) g \barMin
     f( g) a( c) b( a) a \barMin
@@ -26,6 +27,35 @@
     psalmus = "Žalm 119-נ"
     fial = "commune/commune_svatymuz.ly#rch-aben1?+aleluja&cast"
     placet = "takhle vytržený úryvek je citelně neúplný, nevyvážený - jinak"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Aktualisace ze zdroje; změna zdroje
+  (odkaz na kořenovou antifonu místo na kopii).
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c b( c) a a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-נ"
+    fial = "antifony/pust_nedeleB.ly#ivmag2?zacatek=12"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
