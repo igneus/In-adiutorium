@@ -139,6 +139,8 @@ class ChildParentComparison
 
   private
 
+  # methods transforming LilyPond music
+
   def normalize(music, strip_aeuia)
     n =
       music
@@ -179,6 +181,23 @@ class ChildParentComparison
       .sub(/\s*(\\barFinalis\s*)?\}$/, '')
   end
 
+  def normalize_last_bar(music)
+    closing_bar_i = music.rindex '\bar'
+    last_bar_i = music.rindex '\bar', closing_bar_i - 1
+
+    music[0..last_bar_i - 1] +
+      music[last_bar_i..-1].sub(/\\bar\w*/, '\barLastNormalized')
+  end
+
+  # single-score predicates
+
+  def has_optional_alleluia?(score)
+    score.music.include?('\rubrVelikAleluja') &&
+      strip_wrappers(score.music).scan(/\\bar\w+/).last == '\barFinalis'
+  end
+
+  # comparison predicates
+
   def both_lyrics_end_with_alleluia?
     scores.all? {|score| score.lyrics_readable =~ /aleluja[^\w]?\Z/i }
   end
@@ -187,11 +206,6 @@ class ChildParentComparison
     scores
       .select {|score| has_optional_alleluia?(score) }
       .size == 1
-  end
-
-  def has_optional_alleluia?(score)
-    score.music.include?('\rubrVelikAleluja') &&
-      strip_wrappers(score.music).scan(/\\bar\w+/).last == '\barFinalis'
   end
 
   def difference_in_last_bar_only?
@@ -206,13 +220,5 @@ class ChildParentComparison
     (child.header['modus'] == parent.header['modus']) &&
       !scores.any? {|s| dif = s.header['differentia']; dif.nil? || dif.empty? } &&
       (child.header['differentia'] != parent.header['differentia'])
-  end
-
-  def normalize_last_bar(music)
-    closing_bar_i = music.rindex '\bar'
-    last_bar_i = music.rindex '\bar', closing_bar_i - 1
-
-    music[0..last_bar_i - 1] +
-      music[last_bar_i..-1].sub(/\\bar\w*/, '\barLastNormalized')
   end
 end
