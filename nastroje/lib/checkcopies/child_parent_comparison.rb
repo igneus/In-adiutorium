@@ -41,6 +41,7 @@ class ChildParentComparison
   def initialize(child, parent, logger: nil)
     @child = child
     @parent = parent
+    @scores = [@child, @parent]
 
     @fial = FIAL.parse @child.header['fial']
     @fial_keys = Set.new(@fial.additional.keys)
@@ -48,7 +49,7 @@ class ChildParentComparison
     @logger = logger || Logger.new('/dev/null')
   end
 
-  attr_reader :child, :parent
+  attr_reader :child, :parent, :scores
 
   def match?
     if @fial_keys < Set.new(%w(+aleluja -aleluja)) &&
@@ -179,13 +180,11 @@ class ChildParentComparison
   end
 
   def both_lyrics_end_with_alleluia?
-    f = lambda {|score| score.lyrics_readable =~ /aleluja[^\w]?\Z/i }
-
-    f.call(child) && f.call(parent)
+    scores.all? {|score| score.lyrics_readable =~ /aleluja[^\w]?\Z/i }
   end
 
   def one_alleluia_is_optional?
-    [parent, child]
+    scores
       .select {|score| has_optional_alleluia?(score) }
       .size == 1
   end
@@ -205,8 +204,7 @@ class ChildParentComparison
 
   def differentia_mismatch?
     (child.header['modus'] == parent.header['modus']) &&
-      !(child.header['differentia'].nil? || parent.header['differentia'].nil? ||
-        child.header['differentia'].empty? || parent.header['differentia'].empty?) &&
+      !scores.any? {|s| dif = s.header['differentia']; dif.nil? || dif.empty? } &&
       (child.header['differentia'] != parent.header['differentia'])
   end
 
