@@ -41,20 +41,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c d d e d c( d) d \barMin
+    g4 a c d d e c c( d) d \barMin
     e f e d c( d) d \barMaior
-    d d d c b c( a) g g \barMin
+    d d d c b c( a) g g
     f g a a g g \barMaior
-    g a a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Věr -- ným pl -- ně -- ním po -- vin -- nos -- tí
-    se stal sva -- tý Jo -- sef
+    stal se sva -- tý Jo -- sef
     ob -- di -- vu -- hod -- ným pří -- kla -- dem
     svě -- do -- mi -- té prá -- ce.
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Věrným plněním povinností se stal svatý Josef
+    obdivuhodným příkladem svědomité práce. Aleluja."
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
@@ -65,13 +67,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c e d( c) d \barMin
-    d c b c a g a a( g) \barMaior
-    f g a a b( c) a a \barMaior
-    c c b g
-    a g f( g) g \barFinalis
+    f4 f g g( a) a \barMin
+    a g f d e d c c \barMaior
+    d d c d f( g) g g \barMin
+    g a bes a
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
@@ -82,9 +84,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
+    fial = "antifony/tyden3_4streda.ly#mc-ant2?zacatek=6"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
