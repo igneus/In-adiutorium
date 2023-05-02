@@ -724,6 +724,62 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g c b c( a) a \barMin
+    a a g( e) e f e f d e e \barMaior
+    f g a a a g( a) a \barMax
+    \mark\sipka a( c) b c( a) a b( a) g a( e) e \barMaior
+    e d e f f g d d \barMin e f f( e) e \barMaior
+    f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mám ta -- ké ji -- né ov -- ce,
+    kte -- ré ne -- jsou z_to -- ho -- to ov -- čin -- ce.
+    Ta -- ké ty mu -- sím při -- vést;
+    u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce, je -- den pas -- týř.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g c b c( a) a \barMin
+    a a g( e) e f e f d e e \barMaior
+    f g a a a g( a) a \barMax
+    a( c) b \mark\sipka a( g) g g( a) g f( e) e \barMaior
+    e d e f f g d d \barMin e f f( e) e \barMaior
+    f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mám ta -- ké ji -- né ov -- ce,
+    kte -- ré ne -- jsou z_to -- ho -- to ov -- čin -- ce.
+    Ta -- ké ty mu -- sím při -- vést;
+    u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce, je -- den pas -- týř.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {5. neděle velikonoční}}
