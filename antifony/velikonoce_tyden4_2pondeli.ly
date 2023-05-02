@@ -11,7 +11,7 @@
     c4 d d c c \barMin
     b c a g a( c) b \barMaior
     c c c a g
-    f a g g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Ať je nad ná -- mi_*
@@ -32,8 +32,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c d e d c a g g \barMaior
-    a g f( a) g \barFinalis
+    c4 d c b a g a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Tmu_* před ni -- mi změ -- ním ve svět -- lo.
@@ -41,7 +41,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Iz 42"
     id = "rch-a2"
@@ -98,7 +98,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g( a) a \barMin
+    f4 f g g( a) a \barMin
     a g f g f4. d \barMin
     f4 g g f \barMaior
     g a g( f) f \barFinalis
