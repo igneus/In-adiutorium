@@ -397,12 +397,12 @@
 \markup {\nadpisDen {"26. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d d c d d f( e) d( c) c \barMin
-    f f e f d \barMaior
-    d d( f) f \barMin f f f( g) f f g f e d d \barMaior
-    c a c c( d) d d \barFinalis
+    a4 a g a c b a c( d) d d \barMin
+    d c d e( d) d \barMaior
+    d d( e c d) c( b) \barMin c a g( a) g f g a a g g \barMaior
+    a b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Jest -- li -- že se zlo -- či -- nec od -- vrá -- tí
@@ -412,8 +412,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = "ne26a-1ne-amag"

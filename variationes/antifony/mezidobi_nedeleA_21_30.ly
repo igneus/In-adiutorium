@@ -1141,6 +1141,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d c d d f( e) d( c) c \barMin
     f f e f d \barMaior
@@ -1163,6 +1164,59 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a c b a g( a) g g \barMin
+    a c b c( d) d \barMaior
+    d d( e c d) c( b) \barMin c a g( a) g f g a a g g \barMaior
+    a b c a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že se zlo -- či -- nec od -- vrá -- tí
+    od svých zlých skut -- ků
+    a jed -- ná po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    sám se -- be za -- chrá -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne26a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a c b a \mark\sipka c( d) d d \barMin
+    d c d e( d) d \barMaior
+    d d( e c d) c( b) \barMin c a g( a) g f g a a g g \barMaior
+    a b c a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že se zlo -- či -- nec od -- vrá -- tí
+    od svých zlých skut -- ků
+    a jed -- ná po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    sám se -- be za -- chrá -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne26a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
