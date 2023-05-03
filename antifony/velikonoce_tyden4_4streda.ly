@@ -80,7 +80,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e d e d c \barMin
+    d4 f f e d e d c \barMin
     e f d d \barFinalis
   }
   \addlyrics {

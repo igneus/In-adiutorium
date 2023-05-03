@@ -344,6 +344,117 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g f g( a) a g( a) g g \barMaior
+    a c4.( a) \barMin b4( c) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,_*
+    tvůj Bůh, Si -- ó -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 146"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g f \mark\sipka g( a b) c a( g) f( g) g \barMaior
+    a c4.( a) \barMin b4( c) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,_*
+    tvůj Bůh, Si -- ó -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 146"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4( a) a( c) c \barMin c c d c b a g \barMaior
+    a c4.( a) \barMin b4( c) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,_*
+    tvůj Bůh, Si -- ó -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 146"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d( f) e d c c \barMaior
+    f f4.( d) \barMin e4( f) d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,_*
+    tvůj Bůh, Si -- ó -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 146"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 a f g f g a f f d \barMaior
+    d c4.( d) \barMin e4( f) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,_*
+    tvůj Bůh, Si -- ó -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 146"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -452,9 +563,30 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e d e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Noc ja -- ko den se roz -- jas -- ní._*
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 139-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka f f e d e d c \barMin
     e f d d \barFinalis
   }
   \addlyrics {
@@ -542,10 +674,55 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 f-- e \mark\sipka f d( c) c \barMaior
     d c d f f e f g \barMin
     f d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Já znám svo -- je ov -- ce_*
+    a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 139-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f-- e f d( c) c \barMaior
+    d c d f f e f \mark\sipka d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já znám svo -- je ov -- ce_*
+    a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 139-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f-- e f \mark\sipka d d \barMaior
+    d c d f f e \mark\sipka d c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Já znám svo -- je ov -- ce_*
