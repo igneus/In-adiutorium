@@ -224,10 +224,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d c) c \barMin d e c a a \barMin f g a b( c d) d \barMaior
-    c c a( c) b( g a) g \barMin a( g f) a g g \barFinalis
+    a4( d c) c \barMin d e c a a \barMin f g a b( c d4.) d \barMaior
+    c4 c a( c) b( g a) g \bar "" a( g f) a g g \barFinalis
 
-    b^\markup\rubrVelikAleluja c( d) a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -493,7 +493,7 @@
     c d e d e f d( c) \barMin
     d( e d) c( b) a g a b g a a \barFinalis
 
-    g^\markup\rubrVelikAleluja a( b) a a \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
     Ne -- bu -- de -- te to vy,

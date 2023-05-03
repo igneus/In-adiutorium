@@ -670,6 +670,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( d c) c \barMin d e c a a \barMin f g a b( c d) d \barMaior
     c c a( c) b( g a) g \barMin a( g f) a g g \barFinalis
@@ -701,6 +702,32 @@
     c c a( c) b( g a) g \barMin a( g f) a g g \barFinalis
 
     \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( d c) c \barMin d e c a a \barMin f g a b( c d4.) d \barMaior
+    c4 c a( c) b( g a) g \mark\sipka \bar "" a( g f) a g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -1770,6 +1797,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c b a b( c a) \barMin
     d c( d) c b g( a) a \barMaior
@@ -1792,6 +1820,35 @@
     differentia = "A"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 b c b a b( c a) \barMin
+    d c( d) c b g( a) a \barMaior
+    c d e d e f d( c) \barMin
+    d( e d) c( b) a g a b g a a \barFinalis
+
+    \mark\sipka b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Ne -- bu -- de -- te to vy,
+    kdo bu -- de -- te mlu -- vit,
+    a -- le bu -- de skr -- ze vás
+    pro -- mlou -- vat Duch va -- še -- ho Ot -- ce.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
