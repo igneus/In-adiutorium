@@ -2698,16 +2698,27 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \markup\italic{V době velikonoční:}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+     \bold{Annuntiáte inter gentes glóriam Dómini,} * Allelúia, allelúia.
+     V. \bold{In ómnibus pópulis mirabília eius.}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
 
     % R
     \neviditelna f
+    f f f f f f g a g f f \barMin
+    g f e d e f d d \barMaior
+    d f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-
+    f f f f f g f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -2717,7 +2728,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \addlyrics {
     \Response Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
     o Hos -- po -- di -- no -- vých či -- nech,
-    o -- sla -- vuj -- te je -- ho jmé -- no.* \textRespAleluja
+    o -- sla -- vuj -- te je -- ho jmé -- no._* \textRespAleluja
     \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
     \Response \textRespAleluja
     \textRespDoxologie
@@ -2725,7 +2736,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
 }
