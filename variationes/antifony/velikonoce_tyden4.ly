@@ -1483,12 +1483,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c a c( d) d \barMin
     d \mark\sipka f e f d( c) c \barMaior
     \mark\sipka f g a g f g f( e d) c \bar ""
     e f d d \barFinalis
+  }
+  \addlyrics {
+    Já znám své ov -- ce
+    a o -- ny jdou za mnou;
+    já jim dá -- vám věč -- ný ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c a c( d) d \barMin
+    d f e f d( c) c \barMaior
+    f g a g f g f( e d) \mark\sipka d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Já znám své ov -- ce

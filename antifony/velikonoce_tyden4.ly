@@ -316,8 +316,8 @@
     \choralniRezim
     d4 c a c( d) d \barMin
     d f e f d( c) c \barMaior
-    f g a g f g f( e d) c \bar ""
-    e f d d \barFinalis
+    f g a g f g f( e d) d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Já znám své ov -- ce
