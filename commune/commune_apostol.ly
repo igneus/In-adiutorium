@@ -248,6 +248,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "lépe"
     id = "invit-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -763,6 +764,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "lépe"
     id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
