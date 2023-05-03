@@ -34,8 +34,8 @@
   \relative c'' {
     \choralniRezim
     b( d) d \barMin
-    b d( e) d d c b d( e) d( c) b \barMaior
-    b a c a a( g) g \barMin
+    d d( e) d d c b c( d) c( b) a \barMaior
+    g a b a a( g) g \barMin
     a b g g \barFinalis
   }
   \addlyrics {
@@ -58,8 +58,8 @@
   \relative c' {
     \choralniRezim
     f4 g a g f g f d d \barMin
-    f f e( d) c c \barMin
-    e f d d \barFinalis
+    e c e( f) d d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé ú -- to -- čiš -- tě_*

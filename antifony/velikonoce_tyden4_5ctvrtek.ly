@@ -79,8 +79,8 @@
   \relative c' {
     \choralniRezim
     f4 g a g f g f d d \barMin
-    f f e( d) c c \barMin
-    e f d d \barFinalis
+    e c e( f) d d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé ú -- to -- čiš -- tě_*
