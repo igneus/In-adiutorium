@@ -172,6 +172,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g g a g g( f) f \barMaior
+    \mark\sipka g g f e d c e f d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te se mnou Hos -- po -- di -- na,
+    o -- sla -- vuj -- me spo -- lu je -- ho jmé -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
