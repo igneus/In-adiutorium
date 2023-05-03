@@ -68,7 +68,7 @@
     f( a) g f e e \barMaior
     a a a( b) g e e \barMin
     g f( g f) d d e e \barMaior
-    f g e e \barFinalis
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Ať se va -- še srd -- ce ne -- chvě -- je a ne -- dě -- sí.
@@ -94,8 +94,8 @@
     d4 d c( d) d f e f e( d) c d e d d \barMaior
     d4( c a) c( d) d c( d) d \barMin
     d e f g f d \barMin
-    f e( d) c( d) d( c) \barMaior
-    d f e( d c) c \barMin
+    d f( e) d( c) c \barMaior
+    d f e( f d) d \barMin
     f e( f) d d e d c( d) d \barMaior
     f g( f) d d \barFinalis
   }
@@ -199,7 +199,7 @@
     \choralniRezim
     g4 g g f g f( e) d \barMaior
     g a g g g a g f g f( e) d \barMaior
-    g g g g( c) c a c( b a) a \barMaior
+    g g g a( c) c a c( b a) a \barMaior
     a a a f e d
     f g g g \barFinalis
   }
