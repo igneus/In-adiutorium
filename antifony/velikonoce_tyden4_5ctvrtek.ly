@@ -8,8 +8,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c f( d) d \barMin f e d( e) c \barMaior
-    d e f d c d d \barMaior
+    d4 c e( f d4.) d \barMin f4 e d( e) c \barMaior
+    d e f d c d d \barMin
     e c d d \barFinalis
   }
   \addlyrics {
@@ -30,9 +30,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b a b c c \barMaior
-    c a g a( g) f e f a a( g) g \barMaior
-    a b( a) g g \barFinalis
+    a4 g e g a a \barMaior
+    a g a b a g a g e e \barMin
+    f d d( e) e \barFinalis
   }
   \addlyrics {
     O -- pět vás u -- vi -- dím_*
@@ -41,8 +41,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Iz 66"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -52,9 +52,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f f f e d f g a g \barMaior
+    d4 f f e( f) d d f g a g \barMaior
     a a f g d \barMin
-    c d f e d d \barMaior
+    c d f f e c
     e f d d \barFinalis
   }
   \addlyrics {
