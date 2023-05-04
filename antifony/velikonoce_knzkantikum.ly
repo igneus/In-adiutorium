@@ -203,7 +203,7 @@ velikTIIctvrtekNespAntIII = \score {
     \choralniRezim
     d4 d c d e d4. d \barMaior
     f4 d f g( f) d c d d \barMaior
-    c d e d \barFinalis
+    e f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus je stej -- ný_*

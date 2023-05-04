@@ -1047,7 +1047,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d4 d c d e d4. d \barMaior
     f4 d f g( f) d c d d \barMaior
@@ -1070,6 +1070,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d e d4. d \barMaior
     f4 d f g( f) d c d d \barMaior
