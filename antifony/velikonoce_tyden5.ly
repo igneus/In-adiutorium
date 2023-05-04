@@ -369,7 +369,7 @@
     \choralniRezim
     g4 g g f g f( e) d \barMaior
     g a g g g a g f g f( e) d \barMaior
-    g g g g( c) c a c( b a) a \barMaior
+    g g g a( c) c a c( b a) a \barMaior
     a a a f e d
     f g g g \barFinalis
   }

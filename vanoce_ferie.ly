@@ -200,7 +200,7 @@
     \choralniRezim
     d4( c a) c( d) d c( d) d \barMin
     d e f g f d f e d c d c c \barMaior
-    d f e( d c) c \barMin
+    d f e( f d) d \barMin
     f e( f) d d e d c( d) d \barFinalis
   }
   \addlyrics {

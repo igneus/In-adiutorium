@@ -1165,7 +1165,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d( c a) c( d) d c( d) d \barMin
     d e f g f d f e d c d c c \barMaior
@@ -1184,6 +1184,34 @@
     differentia = "D"
     psalmus = ""
     fial = "sanktoral/0503filipjakub.ly#rch-aben?cast&delsi_text"
+    id = "5amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c a) c( d) d c( d) d \barMin
+    d e f g f d f e d c d c c \barMaior
+    d f e( f d) d \barMin
+    f e( f) d d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- šli jsme to -- ho,
+    o kte -- rém psal Moj -- žíš v_Zá -- ko -- ně i pro -- ro -- ci.
+    Je to Je -- žíš,
+    syn Jo -- se -- fův z_Na -- za -- re -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0503filipjakub.ly#rch-aben?-aleluja&cast=1&konec=18"
     id = "5amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
