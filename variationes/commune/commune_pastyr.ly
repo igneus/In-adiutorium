@@ -285,6 +285,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g g( a) a \barMin
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin
+    a4 g f g( a) a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý pas -- týř
+    dá -- vá za ov -- ce svůj ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
@@ -1204,6 +1230,54 @@
     c( a c) b( a) g g \barMin f g a a b a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,
+    do -- sta -- ne -- te ne -- vad -- nou -- cí vě -- nec slá -- vy.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f \mark\sipka g g( a) \barMin a( b c) c( d) c a a \barMaior
+    c( a c) b( a) g g \barMin f g a a b a g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,
+    do -- sta -- ne -- te ne -- vad -- nou -- cí vě -- nec slá -- vy.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g( a) \barMin a( b c) c( d) c a a \barMaior
+    c( a c) b( a) g g \barMin \mark\sipka a a g f g a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,

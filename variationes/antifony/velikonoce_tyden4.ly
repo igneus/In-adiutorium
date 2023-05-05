@@ -2309,6 +2309,32 @@
     c4 c b( a) g f g a g g \barMaior
     a a( c) b a c( d) d \barMaior
     e d c d d( c) \barMin
+    c c a b a g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+    A vez -- mu vás k_so -- bě,
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( a) g f g a g g \barMaior
+    a a( c) b a c( d) d \barMaior
+    e d c d d( c) \barMin
     \mark\sipka a g f g( a) a g \barMaior
     f g( a) g g \barFinalis
   }
@@ -2337,6 +2363,32 @@
     e d c d \mark\sipka c( a) \barMin
     c c a b a g \barMaior
     f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+    A vez -- mu vás k_so -- bě,
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( a) g f g a g g \barMaior
+    a a( c) b a c( d) d \barMaior
+    e d c d c( a) \barMin
+    \mark\sipka g f g a b g \barMaior
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     Od -- chá -- zím vám při -- pra -- vit mís -- to.
