@@ -6,9 +6,9 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( a') a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
+    a4 a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
     f e e( f) d c d d \barMaior
     e f d( c) d \barFinalis
   }
@@ -20,7 +20,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "a"
     psalmus = "Žalm 51"
     id = "rch-a1"
     placet = "*"
@@ -93,6 +93,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 145-I"
+    placet = "nic moc, bude lepší odpoutat se od (kvantitou hodně odlišné) zdrojové antifony"
     id = "ne-a1"
     fial = "antifony/pust_nedeleB.ly#ivben?zacatek"
     piece = \markup {\sestavTitulek}
@@ -103,9 +104,9 @@
   \relative c'' {
     \choralniRezim
     a4 a g( a) a \barMaior
-    a( e) f e d d d f g a g a a \barMaior
-    a g( a) a a( b) g g( f e) e \barMaior
-    f f d( e) e \barFinalis
+    a( e) f e d-- d d f g a g a a \barMaior
+    a g a a( b) g g( f e4.) e \barMaior
+    f4 f d( e) e \barFinalis
   }
   \addlyrics {
     Krá -- li vě -- ků,_*

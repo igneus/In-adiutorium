@@ -58,7 +58,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
     f e e( f) d c d d \barMaior
@@ -82,6 +82,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka a4 a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
     f e e( f) d c d d \barMaior
@@ -98,6 +99,7 @@
     differentia = "a"
     psalmus = "Žalm 51"
     id = "rch-a1"
+    placet = "*"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -331,6 +333,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d c e d c d \barMaior
+    \mark\sipka d c d c b a( g) g \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    U -- vi -- děl jsem_*
+    no -- vý Je -- ru -- za -- lém,
+    jak se -- stu -- pu -- je z_ne -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-II"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -529,12 +555,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a) a \barMaior
     a( e) f e d d d f g a g a a \barMaior
     a g( a) a a( b) g g( f e) e \barMaior
     \mark\sipka f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Krá -- li vě -- ků,_*
+    ne -- smr -- tel -- né -- mu a ne -- vi -- di -- tel -- né -- mu,
+    buď všech -- na čest a slá -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 145-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a) a \barMaior
+    a( e) f e d-- d d f g a g a a \barMaior
+    a \mark\sipka g a a( b) g g( f e4.) e \barMaior
+    f4 f d( e) e \barFinalis
   }
   \addlyrics {
     Krá -- li vě -- ků,_*
