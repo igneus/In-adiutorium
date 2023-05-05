@@ -534,6 +534,37 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d f e f e( d) c d e d d \barMaior
+    \mark\sipka d4( e f g) f e d( c) c \barMin
+    d e f g f d \barMin
+    d f( e) d( c) c \barMaior
+    d f e( f d) d \barMin
+    f e( f) d d e d c( d) d \barMaior
+    f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Fi -- lip pot -- kal Na -- ta -- na -- e -- la
+    a ře -- kl mu:
+    Na -- šli jsme to -- ho,
+    o kte -- rém psal Moj -- žíš
+    i pro -- ro -- ci.
+    Je to Je -- žíš,
+    syn Jo -- se -- fův z_Na -- za -- re -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}

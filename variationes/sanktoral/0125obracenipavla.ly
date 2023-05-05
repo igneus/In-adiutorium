@@ -320,6 +320,29 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 f g f g g( a) a \barMaior
+    a a g f \mark\sipka g f d c c \barMin
+    d f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Šav -- la,
+    a -- by hlá -- sal e -- van -- ge -- li -- um
+    všem ná -- ro -- dům.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     f4 f g f g g( a) a \barMaior
     a a g f g a g f f \barMin
@@ -367,6 +390,50 @@
     \choralniRezim
     f4 f g f g g( a) a \barMaior
     a a \mark\sipka a( c) a bes a g a a \barMin
+    f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Šav -- la,
+    a -- by hlá -- sal e -- van -- ge -- li -- um
+    všem ná -- ro -- dům.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g g( a) a \barMaior
+    a a \mark\sipka a( bes) a g f g( a) g g \barMin
+    f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Šav -- la,
+    a -- by hlá -- sal e -- van -- ge -- li -- um
+    všem ná -- ro -- dům.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a f f( g) g \barMaior
+    g g g( a) g bes a g f g \barMin
     f g( a) g( f) f \barFinalis
   }
   \addlyrics {
