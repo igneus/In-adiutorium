@@ -2491,11 +2491,40 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f a a( g) \barMin a( b c) c( d) c a a \barMaior
     c( a c) b( a) g g \barMin f g a a b a g g \barMaior
 
     f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,
+    do -- sta -- ne -- te ne -- vad -- nou -- cí vě -- nec slá -- vy.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "commune/commune_pastyr.ly#mc-a2"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f a a( g) \barMin a( b c) c( d) c a a \barMaior
+    c( a c) b( a) g g \barMin f g a a b a g g \barMaior
+
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,

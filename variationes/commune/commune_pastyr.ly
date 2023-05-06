@@ -1225,6 +1225,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f a a( g) \barMin a( b c) c( d) c a a \barMaior
     c( a c) b( a) g g \barMin f g a a b a g g \barFinalis
@@ -1249,11 +1250,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f a a( g) \barMin a( b c) c( d) c a a \barMaior
+    c( a c) b( a) g g \barMin f g a a b a g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,
+    do -- sta -- ne -- te ne -- vad -- nou -- cí vě -- nec slá -- vy.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4 g f \mark\sipka g g( a) \barMin a( b c) c( d) c a a \barMaior
     c( a c) b( a) g g \barMin f g a a b a g g \barFinalis
 
-    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,

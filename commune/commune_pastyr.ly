@@ -282,7 +282,7 @@
     g4 g f a a( g) \barMin a( b c) c( d) c a a \barMaior
     c( a c) b( a) g g \barMin f g a a b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Až se ob -- je -- ví nej -- vyš -- ší pas -- týř,
