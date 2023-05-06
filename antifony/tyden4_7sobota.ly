@@ -17,7 +17,7 @@
     d4 d e( f) d( c) c \barMin
     a c b g g \barFinalis
 
-    f^\rubrVelikAleluja g a( g) g \barFinalis
+    a^\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bůh je vy -- kou -- pil
@@ -41,7 +41,7 @@
     d4 b d( e) d d \barMin
     c a b a g g \barFinalis
 
-    f^\rubrVelikAleluja g a( g) g \barFinalis
+    a^\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bůh je při -- ve -- dl
@@ -65,7 +65,7 @@
     d d e d e f( d) d \barMin e e d c b \barMaior
     d c b c a g g \barMin f g a( g) g \barFinalis
 
-    f^\rubrVelikAleluja g a( g) g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh si vy -- vo -- lil Ju -- du za své vlast -- nic -- tví,
