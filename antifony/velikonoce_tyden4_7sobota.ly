@@ -8,9 +8,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c b a g a b g g \barMin
+    g4 c c b a b c g g \barMin
     a g f( g) g \barMaior
-    a b a( g) g \barFinalis
+    a c g( a g) g \barFinalis
   }
   \addlyrics {
     Jak vel -- ko -- le -- pá_* jsou tvá dí -- la,
@@ -31,7 +31,7 @@
   \relative c'' {
     \choralniRezim
     c4 b a4. g \barMin a4 g f g( a g) g \barMaior
-    f a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Po -- kro -- pím vás_* o -- čist -- nou vo -- dou.
