@@ -511,6 +511,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( g a) a( g) a \barMin a c c c b g g \barMaior
     c c b( d c) a( g a) \barMin g f( g) a c b c( d) d \barMaior
@@ -629,6 +630,32 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f( g) g( a) a \barMin a c c c b g g \barMaior
+    c c b( d c) a( g a) \barMin g a c b a c( d) d \barMaior
+    e d c d d( c) \barMin c c a b a g \barMaior
+    a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když o -- de -- jdu a při -- pra -- vím vám mís -- to,
+    za -- se při -- jdu a vez -- mu si vás k_so -- bě,
+    a -- by -- ste i vy by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden4.ly#pa-aben?konec=24"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g( a) a( g) g \barMin
@@ -678,6 +705,54 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "vben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin c( b) a b g g \barMaior
+    c c c d c b a( g) g
+    g f e d \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem ces -- ta, prav -- da a ži -- vot.
+    Ni -- kdo ne -- při -- chá -- zí k_Ot -- ci
+    než skr -- ze mne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "vben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin c( b) a b g g \barMaior
+    c c c d c b a( g) g
+    g \mark\sipka a f g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem ces -- ta, prav -- da a ži -- vot.
+    Ni -- kdo ne -- při -- chá -- zí k_Ot -- ci
+    než skr -- ze mne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}

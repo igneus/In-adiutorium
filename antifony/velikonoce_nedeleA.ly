@@ -158,10 +158,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f( g a) a( g) a \barMin a c c c b g g \barMaior
-    c c b( d c) a( g a) \barMin g f( g) a c b c( d) d \barMaior
-    d c b c b( g) \barMin f g a b a g \barMaior
-    f g g g \barFinalis
+    g4 f( g) g( a) a \barMin a c c c b g g \barMaior
+    c c b( d c) a( g a) \barMin g a c b a c( d) d \barMaior
+    e d c d d( c) \barMin c c a b a g \barMaior
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     Když o -- de -- jdu a při -- pra -- vím vám mís -- to,
@@ -171,9 +171,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
+    fial = "antifony/velikonoce_tyden4.ly#pa-aben?konec=24"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
