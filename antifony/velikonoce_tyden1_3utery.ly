@@ -8,10 +8,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) c c( a) f( g f) f \barMaior
-    f g f f( g a) a( c) c c c( d) c c d c c( d) c \barMaior
+    c4 c c( a) f( g f) f \barMaior
+    f g f g( a) a( c) c c c( d) c c d c c( d) c \barMaior
     c c( d c a) a \barMin g( a) f \barMaior
-    g a f f \barFinalis
+    g g( a) f f \barFinalis
   }
   \addlyrics {
     Ten, kdo se -- stou -- pil,
@@ -55,7 +55,7 @@
   \relative c'' {
     \choralniRezim
     g4( c) c c b g \barMin b a g a g f g g \barMaior
-    a b g g \barFinalis
+    a a( b) g g \barFinalis
   }
   \addlyrics {
     Ze -- mě je pl -- ná
@@ -81,8 +81,8 @@
     d f( e) d e c a \barMin
     g a c c( d) d \barMaior
     d e d c( d) d( c) \barMin
-    a g a c b g( a) a \barMaior
-    g4 a b a \barFinalis
+    a g a c b a a \barMaior
+    b g g( a) a \barFinalis
   }
   \addlyrics {
     Od ny -- nějš -- ka pat -- ří ví -- těz -- ství
@@ -99,7 +99,7 @@
     psalmus = "Žalm 20"
     id = "ne-a1"
     fons = "začátek: žaltář, čt 2.t., nešp., 3.ant."
-    fial = "antifony/tyden2_5ctvrtek.ly#ne-ant3?zacatek"
+    fial = "antifony/tyden2_5ctvrtek.ly#ne-ant3?zacatek=19"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -107,7 +107,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a a c c b a g( a g) \barMin
+    c4 c a c d c b a( g) \barMin
     f g a a g g \barMaior
     a g f( g) g \barFinalis
   }
