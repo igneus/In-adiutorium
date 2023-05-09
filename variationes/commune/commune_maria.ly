@@ -1237,6 +1237,36 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 e f f e f g a a \barMaior
+    a g a bes( c bes a) a \barMin
+    a g f
+    e( f d) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i;
+    klaň -- me se Kris -- tu, je -- jí -- mu
+    \markup{\Dagger sy} -- nu!
+
+    \markup{\Dagger sy} -- nu!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

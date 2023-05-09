@@ -1913,6 +1913,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g a a \barMaior
+    \mark\sipka a a( c) b a b g \barMin
+    a a g f g( a) a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g a a \barMaior
+    a a( c) b a b g \barMin
+    \mark\sipka f g a a a( g f) a a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}

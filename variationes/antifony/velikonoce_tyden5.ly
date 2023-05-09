@@ -1240,6 +1240,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a g f \mark\sipka g( a) g g \barMaior
+    g a a g f g f d d \barMin
+    c d f f
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh nás vy -- tr -- hl z_mo -- ci tem -- nos -- ti
+    a pře -- ve -- dl nás do krá -- lov -- ství
+    své -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Bůh nás vytrhl z moci temnosti
+    a převedl do království svého Syna. Aleluja."
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

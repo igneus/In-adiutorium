@@ -1038,6 +1038,58 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin
+    a a b c a g f a g g \barMaior
+    c c c d c b c a g g \barMin
+    g a a a \mark\sipka f( e) d
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Kdo mě mi -- lu -- je,
+    to -- ho bu -- de mi -- lo -- vat můj O -- tec
+    a ta -- ké já ho bu -- du mi -- lo -- vat
+    a dám se mu po -- znat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "vimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin
+    a a b c a g f a g g \barMaior
+    c c c d c b c a g g \barMin
+    g \mark\sipka g( a) a a f e
+    f g g g \barFinalis
+  }
+  \addlyrics {
+    Kdo mě mi -- lu -- je,
+    to -- ho bu -- de mi -- lo -- vat můj O -- tec
+    a ta -- ké já ho bu -- du mi -- lo -- vat
+    a dám se mu po -- znat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "vimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {7. neděle velikonoční}}
