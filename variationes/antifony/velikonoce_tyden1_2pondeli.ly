@@ -174,7 +174,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka f4 g a g f g f d( e) d( c) \barMaior
     c d f f g( a) f f \barMaior
@@ -201,6 +201,29 @@
     f4 g \mark\sipka g( a) a a g f d( e) d( c) \barMaior
     c d f f g( a) f f \barMaior
     d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ať se ra -- du -- jí_* v_to -- bě všich -- ni,
+    kdo mi -- lu -- jí tvé jmé -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 5"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) a a g f d( e) d( c) \barMaior
+    c d f f g( a) f f \barMaior
+    \mark\sipka g a g( f) f \barFinalis
   }
   \addlyrics {
     Ať se ra -- du -- jí_* v_to -- bě všich -- ni,
@@ -574,12 +597,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a) g g f( e) d( c) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán bu -- de_* kra -- lo -- vat na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 29"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
 
 \markup\justify{
-  Delší text má antifony/velikonoce_tyden7.ly#po-aben ,
+  Delší text má \fial-link "antifony/velikonoce_tyden7.ly#po-aben" ,
   ale úryvek je samostatně nepoužitelný.
 }
 
@@ -923,6 +966,50 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g( a) g \barMin
+    \mark\sipka f g g a a g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Buď -- te do -- bré mys -- li,_*
+    já jsem pře -- mo -- hl svět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 11"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d \mark\sipka f( g) g \barMin
+    f d f e c d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Buď -- te do -- bré mys -- li,_*
+    já jsem pře -- mo -- hl svět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 11"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a f f( g) g \barMin
@@ -1024,7 +1111,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 f g( a) a \barMin
     g a g f e f d d \barMaior
@@ -1043,6 +1130,85 @@
     quid = "2. ant."
     modus = "I"
     differentia = "a2"
+    psalmus = "Žalm 15"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g g( a) a \barMin
+    g f g f e f d d \barMaior
+    a' a( g) f( g) g \barMin
+    f d f e \mark\sipka d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,_*
+    kdo smí pro -- dlé -- vat v_tvém stán -- ku,
+    kdo pře -- bý -- vat
+    na tvé sva -- té ho -- ře?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 15"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    g f g f e f d d \barMaior
+    a' a( g) f( g) g \barMin
+    f \mark\sipka g f e d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,_*
+    kdo smí pro -- dlé -- vat v_tvém stán -- ku,
+    kdo pře -- bý -- vat
+    na tvé sva -- té ho -- ře?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 15"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) a \barMin
+    g f g \mark\sipka a g f d d \barMaior
+    a' a( g) f( g) g \barMin
+    f d f e c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,_*
+    kdo smí pro -- dlé -- vat v_tvém stán -- ku,
+    kdo pře -- bý -- vat
+    na tvé sva -- té ho -- ře?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 15"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

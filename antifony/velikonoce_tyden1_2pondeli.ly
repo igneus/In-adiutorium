@@ -8,9 +8,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g f g f d( e) d( c) \barMaior
+    f4 g g( a) a a g f d( e) d( c) \barMaior
     c d f f g( a) f f \barMaior
-    d f g( f) f \barFinalis
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Ať se ra -- du -- jí_* v_to -- bě všich -- ni,
@@ -96,10 +96,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 f g( a) a \barMin
-    g a g f e f d d \barMaior
+    f4 g g( a) a \barMin
+    g f g a g f d d \barMaior
     a' a( g) f( g) g \barMin
     f d f e c( d) d \barMaior
     e f d d \barFinalis
@@ -114,7 +114,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a2"
+    differentia = "f"
     psalmus = "Žalm 15"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
