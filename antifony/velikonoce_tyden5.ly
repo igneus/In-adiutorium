@@ -316,10 +316,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a f f( g) g \barMin
-    b c a g a g f \barMaior
-    d f g g
-    a g f( g) g \barFinalis
+    g4 a a a f g g( a) a \barMaior
+    c d c b a g g \barMin
+    a f g( a g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Kdy -- by -- ste mě mi -- lo -- va -- li,
