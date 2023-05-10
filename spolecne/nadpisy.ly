@@ -1,4 +1,4 @@
-\version "2.16.0"
+\version "2.24.0"
 
 
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
@@ -6,13 +6,13 @@
    (interpret-markup layout props
 		     (markup #:vspace 2
                              #:huge
-			     #:with-color #'red obsah)))
+			     #:with-color "red" obsah)))
 
 #(define-markup-command (nadpisHodinka layout props arg) (markup?)
    "Nova hodinka - dalsi uroven nadpisu pode dnem"
    (interpret-markup layout props
 		     (markup #:smallCaps
-			     #:with-color #'red arg)))
+			     #:with-color "red" arg)))
 
 #(define-markup-command (titleSvatek layout props titul rank datum) (markup? markup? markup?)
    "Sestavi header:title pro oficium svatku"
@@ -158,7 +158,7 @@ sestavTitulekRespII = \markup\concat {
   % copied from lilypond's ly/titling-init.ly and modified
   scoreTitleMarkup = \markup {
     \column {
-      %\on-the-fly \print-all-headers { \bookTitleMarkup \hspace #1 }
+      %\if \should-print-all-headers { \bookTitleMarkup \hspace #1 }
       \fill-line {
         \fromproperty #'header:piece
         %\fromproperty #'header:opus

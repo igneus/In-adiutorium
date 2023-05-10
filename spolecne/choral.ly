@@ -1,4 +1,4 @@
-\version "2.19.22"
+\version "2.24.0"
 
 \layout {
   \context {
@@ -87,7 +87,7 @@ barFinalis = { \bar "||" }
 
 Response = \lyricmode {
   \markup {
-    \with-color ##'red {
+    \with-color "red" {
       % \concat { \override #'(font-name . "liturgy") {R} : }
       % \concat { \override #'(font-name . "Junicode") { \char ##x0211F } : }
       \concat { \char ##x0211F . }
@@ -97,7 +97,7 @@ Response = \lyricmode {
 
 Verse = \lyricmode {
   \markup {
-    \with-color ##'red {
+    \with-color "red" {
       % \concat { \override #'(font-name . "liturgy") {V} : }
       % \concat { \override #'(font-name . "Junicode") { \char ##x02123 } : }
       \concat { \char ##x02123 . }
@@ -121,4 +121,4 @@ neviditelna = #(define-music-function (note)
   #})
 
 % zastupna znacka za jmeno (napr. svateho) do univerzalnich textu
-Nomen = \markup{ \with-color ##'red {N} }
+Nomen = \markup{ \with-color "red" {N} }
