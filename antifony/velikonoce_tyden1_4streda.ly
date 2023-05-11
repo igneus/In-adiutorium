@@ -81,10 +81,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( a' bes) a( g) g f( g) e e \barMin
-    f g( a) g a a \barMaior
-    a g f( e) d c e( f) e d d \barMaior
-    e f d( c) d \barFinalis
+    d4 d( e f) d( c) c f( g) g( a) a \barMin
+    g f g( a) g g \barMaior
+    a a g( a) g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Bůh po -- vý -- šil Je -- ží -- še
