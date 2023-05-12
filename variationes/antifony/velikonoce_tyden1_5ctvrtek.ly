@@ -170,6 +170,26 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 f e c d4. c \barMin
+    d4 f e( c) d \barFinalis
+  }
+  \addlyrics {
+    Pán_* vy -- kou -- pil svůj lid.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Jer 31"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4-- f e f g a \barMin
@@ -185,6 +205,46 @@
     differentia = "D"
     psalmus = "Jer 31"
     placet = "nezpěvné _lid_ špatně nese ten důraz, který je tu na něj položen"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4-- f e f g a \barMin
+    \mark\sipka g f e( f) d \barFinalis
+  }
+  \addlyrics {
+    Pán_* vy -- kou -- pil svůj lid.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Jer 31"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d4. c \barMin
+    a4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán_* vy -- kou -- pil svůj lid.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Jer 31"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -528,6 +588,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 c b c d d c \barMin
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh_* je Bůh na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 48"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4-- g-- g c b a g \barMin
     f a g g \barFinalis
   }
@@ -589,6 +669,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 g
+    a f a c b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh_*
+    je Bůh na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 48"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a f g g f \barMin
@@ -632,6 +734,11 @@
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
+
+\markup\justify{
+  (Podobný text je v responsoriu
+  \fial-link "commune/zazemrele.ly#rch-resp")
+}
 
 \score {
   \relative c'' {
@@ -678,10 +785,33 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a g) g \barMin
     f g a g f( e) e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Můj ná -- řek
+    jsi ob -- rá -- til v_ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 30"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 \mark\sipka a( g a4.) g \barMin
+    f4 g a g f( e) e \barMaior
     f f d( e) e \barFinalis
   }
   \addlyrics {
@@ -887,6 +1017,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c d e f d d \barMin
+    f f \mark\sipka e f d( c) c \barMaior
+    d( f) e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d e f d d \barMin
+    f f \mark\sipka g f a( g) g \barMaior
+    f( e d c) d( f e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d f g f d d \barMin
     f d f e c( d) d \barMaior
     e f d d \barFinalis
@@ -945,6 +1119,35 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Zdrojová antifona má delší text,
+  tady lehce upravená melodie pokračování
+  posloužila pro aleluja.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f e d d \barMin
+    f g g( a) f g g \barMaior
+    a( bes a g) \[ f( g \] \barMin
+    \[ f e d c \] \[ d f e) \] c( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 32"
+    fial = "pust_triduum.ly#pa-nesp-mag?zacatek=18"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

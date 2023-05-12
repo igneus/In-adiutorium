@@ -76,8 +76,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a g) g \barMin
-    f g a g f( e) e \barMaior
+    a4 a( g a4.) g \barMin
+    f4 g a g f( e) e \barMaior
     f f d( e) e \barFinalis
   }
   \addlyrics {
@@ -112,6 +112,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 32"
+    placet = "melodie nesedí k rázu výpovědi"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
