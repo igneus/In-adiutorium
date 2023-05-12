@@ -1105,6 +1105,30 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a g( a) a \barMin
+    a b c b a b \mark\sipka a g g( a) a \barMaior
+    a a a a g a g f e d e e \barMaior
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    To jsem k_vám mlu -- vil,_*
+    a -- by mo -- je ra -- dost by -- la ve vás
+    a a -- by se va -- še ra -- dost na -- pl -- ni -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

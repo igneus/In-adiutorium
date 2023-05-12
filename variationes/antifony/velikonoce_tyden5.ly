@@ -1585,6 +1585,30 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g g g a f f( g) g \barMin
+    b c a g a g f \barMaior
+    d f g g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 a a a f g g( a) a \barMaior
@@ -1853,7 +1877,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g e a g a b a a \barMaior
     a a a g f e e \barMin
@@ -1880,6 +1904,29 @@
     a4 a a g e a g a b a a \barMaior
     a a a g \mark\sipka a g f
     e d e e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g e a g a b a a \barMaior
+    \mark\sipka g a g f d e e \barMin
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
