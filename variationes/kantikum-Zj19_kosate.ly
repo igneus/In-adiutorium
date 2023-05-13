@@ -579,6 +579,31 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin a g f( e d e) e \
   \addlyrics { \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la. }
 }
 
+modVIial = \relative c' { \neviditelna f f4 f g f \barMax }
+modVIal = \relative c' { \neviditelna f f4 f g a \barFinalis }
+modVIalal = \relative c' { \neviditelna e e4 f g g g a g( f) f \barFinalis \break }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modVIial
+    f4 f f f f f f f f f g f \barFinalis
+    \modVIal
+    \neviditelna a
+    a a a a a a a a a a a a a g( a) f \barFinalis
+    \modVIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtext
+  }
+  \header {
+    modus = "VI"
+    id = "vi"
+  }
+}
+
 modVIIial = \relative c'' { \neviditelna c a c( b) c( d) d \barMax }
 modVIIal = \relative c'' { \neviditelna d c c c( d) d \barFinalis }
 modVIIalal = \relative c'' { \neviditelna c a c d( c) c( a) \barMin b a a( g) g  \barFinalis \break }
