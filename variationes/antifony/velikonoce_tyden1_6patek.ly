@@ -51,11 +51,56 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 c d e c c( d) d \barMaior
     d c( b a) a \barMin b a g a( c) b( a) a \barMaior
     b g a a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Pa -- ne,_*
+    až při -- jdeš do své -- ho krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d e c c( d) d \barMaior
+    d \mark\sipka c( b a g) a( g) \barMin f g a a( c b) g( a) a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Pa -- ne,_*
+    až při -- jdeš do své -- ho krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d e c c( d) d \barMaior
+    d c( b a g) a( g) \barMin f g a a( c b) g( a) a \barMaior
+    \mark\sipka g a b a \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj na mě, Pa -- ne,_*
@@ -177,6 +222,30 @@
     \choralniRezim
     c4 \mark\sipka c( d) d \barMin
     e d c d( c) c \barMaior
+    d-- c d c b a g g \barMin
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    O -- prav -- du,_*
+    ty jsi Bůh skry -- tý,
+    Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Iz 45"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) d \barMin
+    e d c \mark\sipka c( d) d \barMaior
     d-- c d c b a g g \barMin
     a g f( a) g \barFinalis
   }
@@ -396,6 +465,28 @@
     f4( g) g \barMin
     f g a f g \mark\sipka g a \barMin
     a f f( e) f \barFinalis
+  }
+  \addlyrics {
+    Služ -- te_*
+    Hos -- po -- di -- nu s_ra -- dos -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 100"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g
+    a a g f g g a \barMin
+    g f g( a) f \barFinalis
   }
   \addlyrics {
     Služ -- te_*

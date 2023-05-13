@@ -9,8 +9,8 @@
   \relative c'' {
     \choralniRezim
     a4 c d e c c( d) d \barMaior
-    d c( b a) a \barMin b a g a( c) b( a) a \barMaior
-    b g a a \barFinalis
+    d c( b a g) a( g) \barMin f g a a( c b) g( a) a \barMaior
+    b c a( g) a \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj na mě, Pa -- ne,_*
