@@ -265,7 +265,7 @@
     g a g f( e d c) c \barMax
     d f f e d c( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -418,7 +418,7 @@
     b4 c d c b c( d) d \barMin
     b4 c a a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ný jsi, Pa -- ne,
