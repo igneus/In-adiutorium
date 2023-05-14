@@ -500,9 +500,9 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c) c a g a( g) g \barMin
-    g a( c b) c d d \barMaior
-    d d c b c( a g) g \barMin
-    a a a g f g( a) a g g \barMaior
+    a a( c b) c d d \barMaior
+    d d c b c( a g4.) g4 \barMin
+    a4 a a g f g( a) a g g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
