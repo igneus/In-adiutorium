@@ -195,6 +195,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 b g a a \barMaior
+    a g f e \mark\sipka d
+    f( g) f d e e \barMaior
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Smi -- luj se, Bo -- že,_*
+    a o -- tev -- ři mi
+    ces -- tu k_ži -- vo -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 119-Kof"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g f e e \barMaior
     e f g a a
     a( b) g g a a \barMaior
@@ -210,6 +234,54 @@
     quid = "1. ant."
     modus = "??? IV"
     differentia = "g"
+    psalmus = "Žalm 119-Kof"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a f g g \barMaior
+    g f g a a
+    c b a( b) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Smi -- luj se, Bo -- že,_*
+    a o -- tev -- ři mi
+    ces -- tu k_ži -- vo -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-Kof"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMaior
+    a b c a a
+    g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Smi -- luj se, Bo -- že,_*
+    a o -- tev -- ři mi
+    ces -- tu k_ži -- vo -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 119-Kof"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -493,6 +565,34 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 f( g) g( a) a \barMin
+    c b a b g g \barMaior
+    c( d) c c \barMin
+    d e d c b a( g) g \barMaior
+    g a a \mark\sipka g f e d
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo zví -- tě -- zí,_*
+    bu -- dou zpí -- vat pí -- seň
+    Moj -- ží -- še,
+    Bo -- ží -- ho slu -- žeb -- ní -- ka,
+    a pí -- seň Be -- rán -- ko -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ex 15"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \key d \major
     \time 3/4
     a4 d4.-> a8 d2.-> d8 d fis4 e d d r
@@ -686,11 +786,78 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 g \mark\sipka a a a( b) a a \barMaior
     b a g a g e e \barMin
     f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Moc -- ně vlád -- ne nad ná -- mi_*
+    je -- ho mi -- lo -- sr -- den -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 117"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a \mark\sipka g a( b) a a \barMaior
+    b a g a g e e \barMin
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Moc -- ně vlád -- ne nad ná -- mi_*
+    je -- ho mi -- lo -- sr -- den -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 117"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 g a g a( b) a a \barMaior
+    \mark\sipka g a g f e d e \barMin
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Moc -- ně vlád -- ne nad ná -- mi_*
+    je -- ho mi -- lo -- sr -- den -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 117"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a g a( b) a a \barMaior
+    g a g f \mark\sipka d e e \barMin
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Moc -- ně vlád -- ne nad ná -- mi_*

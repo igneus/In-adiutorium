@@ -60,9 +60,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 g a a a( b) a a \barMaior
-    b a g a g e e \barMin
-    f e d( e) e \barFinalis
+    e4 g a g a( b) a a \barMaior
+    g a g f e d e \barMin
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Moc -- ně vlád -- ne nad ná -- mi_*
