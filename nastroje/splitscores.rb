@@ -150,7 +150,7 @@ if $0 == __FILE__ then
     opts.on "-d", "--output-directory DIR", "Put output files in a given directory" do |dir|
       setup[:output_dir] = dir
     end
-    opts.on "-h", "--remove-headers", "Remove header from each score" do
+    opts.on "-H", "--remove-headers", "Remove header from each score" do
       setup[:remove_headers] = true
     end
     opts.on "-t", "--prepend-text TEXT", "Text to be printed at the beginning of each file with a score" do |text|
