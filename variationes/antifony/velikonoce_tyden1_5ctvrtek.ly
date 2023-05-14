@@ -1061,6 +1061,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c d \mark\sipka f e d d \barMin
+    f \mark\sipka g a f f( g) g \barMaior
+    f( e d c) \mark\sipka e( f) d d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d f g f d d \barMin
     f d f e c( d) d \barMaior
     e f d d \barFinalis

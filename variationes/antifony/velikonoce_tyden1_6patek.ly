@@ -879,6 +879,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d f e f d( c) c \barMin
+    f g( a g) \mark\sipka f( e) d c d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus se pro nás stal chu -- dým,_*
+    a nám dal své bo -- hat -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 41"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e f d( c) c \barMin
+    \mark\sipka d d( f) e d e( d) c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus se pro nás stal chu -- dým,_*
+    a nám dal své bo -- hat -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 41"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d d e f g g \barMin
   }
   \addlyrics {
@@ -1094,6 +1138,30 @@
     c b( c) a a
     c b a g( a) g \barMaior
     \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Prou -- dy bys -- třin_*
+    jsou k_ra -- dos -- ti
+    Bo -- ží -- mu měs -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 46"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d c) c \barMaior
+    c b( c) \mark\sipka a( g) g
+    a g f g( a g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Prou -- dy bys -- třin_*

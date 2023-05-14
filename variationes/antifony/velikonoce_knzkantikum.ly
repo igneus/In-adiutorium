@@ -756,6 +756,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c a( g) g \barMin
+    a a a g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Chci zpí -- vat Hos -- po -- di -- nu,_*
+    ne -- boť je vel -- mi vzne -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Zj 15"
+    id = "t1-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 e( d e d) d \barMin c b c( d) d \barMaior
