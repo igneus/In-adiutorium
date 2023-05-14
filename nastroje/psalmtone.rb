@@ -68,17 +68,13 @@ class PsalmTone
     med = lilify mediatio
     if terminatio.is_a?(Hash) then
       term = lilify(terminatio.values.first)
-      diff = terminatio.keys.first
     else
       term = lilify(terminatio)
-      diff = ''
     end
 
     # leading underscores are used as a trick to allow having different
     # transposition under a single tone name (II.D and II.A and similar)
     clean_name = @name.sub(/^_+/, '')
-
-    score_id = [clean_name.gsub(' ', ''), diff].select {|p| p != '' }.join('-')
 
     return "\\score{
   \\relative #{octave} {
@@ -156,6 +152,14 @@ class PsalmTone
       preparatory_syllables(singular_terminatio),
       has_sliding_accent?(singular_terminatio),
     )
+  end
+
+  def score_id
+    score_id = [@name.sub(/^_+/, '').gsub(' ', ''), diff].select {|i| i != '' }.join('-')
+  end
+
+  def diff
+    terminatio.is_a?(Hash) ? terminatio.keys.first : ''
   end
 
   private
