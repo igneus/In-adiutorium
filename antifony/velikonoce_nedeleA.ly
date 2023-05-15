@@ -241,10 +241,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g a e e \barMaior
-    e d( e) e f e e g f g( a) a \barMaior
-    a a g( e) e e( f g) f e e \barMaior
-    g a f( e) e \barFinalis
+    a4 a a g f g( a) a \barMaior
+    a g( f e4.) e \barMin e4 f g f e d( e) e \barMaior
+    f g a a g a b( g) g \barMin
+    a g f( e) e \barFinalis
   }
   \addlyrics {
     Já bu -- du pro -- sit Ot -- ce
@@ -291,9 +291,9 @@
   \relative c'' {
     \choralniRezim
     g4 f g a a \barMin
-    a a b c c b b c( a) g g \barMaior
-    a a a f e f g g a a \barMin
-    a a( c) b a g g \barMaior
+    a a b c a g f a g g \barMaior
+    c c c d c b c a g g \barMin
+    g g( a) a a f e
     f g g g \barFinalis
   }
   \addlyrics {
@@ -308,7 +308,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_toho bude ... já ho budu milovat_ lépe"
     id = "vimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

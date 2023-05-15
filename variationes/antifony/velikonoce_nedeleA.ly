@@ -834,6 +834,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g a e e \barMaior
     e d( e) e f e e g f g( a) a \barMaior
@@ -850,6 +851,104 @@
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "g"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g a e e \barMaior
+    e d( e) e f e e g f g( a) a \barMaior
+    a a g( e) e \mark\sipka f( g f) e d( e) e \barMaior
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pro -- sit Ot -- ce
+    a dá vám ji -- né -- ho Po -- moc -- ní -- ka,
+    a -- by s_vá -- mi zů -- stal na -- vždy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMaior
+    a g( f e4.) e \barMin f4 g a g f d( e) e \barMaior
+    f g a a g a b( g) g \barMin
+    a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pro -- sit Ot -- ce
+    a dá vám ji -- né -- ho Po -- moc -- ní -- ka,
+    a -- by s_vá -- mi zů -- stal na -- vždy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMaior
+    a g( f e4.) e \barMin \mark\sipka e4 f g f e d( e) e \barMaior
+    f g a a g a b( g) g \barMin
+    a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pro -- sit Ot -- ce
+    a dá vám ji -- né -- ho Po -- moc -- ní -- ka,
+    a -- by s_vá -- mi zů -- stal na -- vždy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d c f e f( d) d \barMaior
+    d f( g a4.) a \barMin a4 b c a g g( a) a \barMaior
+    a a g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pro -- sit Ot -- ce
+    a dá vám ji -- né -- ho Po -- moc -- ní -- ka,
+    a -- by s_vá -- mi zů -- stal na -- vždy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -962,6 +1061,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a a \barMin
     a a b c c b b c( a) g g \barMaior
@@ -1066,6 +1166,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 f g a a \barMin
     a a b c a g f a g g \barMaior
