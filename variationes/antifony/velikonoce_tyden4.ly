@@ -1169,12 +1169,63 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 d d( f) f \barMaior
+    g f f g( a) g f g( f) \barMin
+    d c d f e c c( d) d \barMaior
+    \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Ví -- těz -- ství,
+    slá -- va a moc
+    ná -- le -- ží na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     c4 d d( f) f \barMaior
     g f f g( a) g f g( f) \barMin
     \mark\sipka d c c d f e c( d) d \barMaior
     e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Ví -- těz -- ství,
+    slá -- va a moc
+    ná -- le -- ží na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMaior
+    g f f g( a) g f g( f) \barMin
+    \mark\sipka d c d f f f e c
+    e f d d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
