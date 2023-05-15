@@ -11,7 +11,7 @@
 #(define-markup-command (nadpisHodinka layout props arg) (markup?)
    "Nova hodinka - dalsi uroven nadpisu pode dnem"
    (interpret-markup layout props
-		     (markup #:smallCaps
+		     (markup ; #:smallCaps
 			     #:with-color #'red arg)))
 
 #(define-markup-command (titleSvatek layout props titul rank datum) (markup? markup? markup?)
