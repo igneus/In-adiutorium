@@ -31,6 +31,8 @@ choralniRezim = {
   % vzdycky vypsat becka
   % \accidentalStyle forget % for Lily 2.14
   \accidentalStyle forget % 2.15
+
+  \set Score.forbidBreakBetweenBarLines = ##f
 }
 
 choralniRezimPsalmodie = {
