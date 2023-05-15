@@ -32,8 +32,8 @@
   \relative c' {
     \choralniRezim
     d4-- f4 e d c \barMaior
-    d c( d f) g f
-    e c( f) d d \barFinalis
+    d d( e f) d( c) c
+    a c d d \barFinalis
   }
   \addlyrics {
     Pán pře -- mo -- hl smrt
