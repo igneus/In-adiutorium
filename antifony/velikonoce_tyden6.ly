@@ -232,10 +232,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( d) c c d e c c d d \barMaior
-    a a a a( d) d e f e d( c d) d \barMin
-    d c b g g a a( g) \barMaior
-    f g a a a a c b a( g) g \barMaior
+    d4 b d( e) d d \barMin c b a c( b) a( g) g \barMaior
+    a g f g( a) a c d e d( c d) d \barMaior
+    e f e d c d d( c) \barMin
+    c c b g a g f a a( g) g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -258,12 +258,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d( e) e \barMin
+    a4 c( d) d \barMin
     d c d( e) d d \barMin
     c( b) a( g) g \barMaior
-    a g f g a g( a) g g \barMaior
-    c d e c b a g a g g \barMin
-    f a g g \barFinalis
+    a b c a g f g g \barMaior
+    a c b c d c b a g g \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Duch prav -- dy,
@@ -276,7 +276,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "c"
+    differentia = "a"
     psalmus = ""
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
