@@ -155,7 +155,7 @@ class PsalmTone
   end
 
   def score_id
-    score_id = [@name.sub(/^_+/, '').gsub(' ', ''), diff].select {|i| i != '' }.join('-')
+    score_id = [@name.sub(/^_+/, '').gsub(' ', ''), diff].reject(&:empty?).join('-')
   end
 
   def diff
