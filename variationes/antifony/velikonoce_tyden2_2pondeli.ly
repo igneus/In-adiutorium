@@ -168,6 +168,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d e( c) c( d) d \barMaior
+    a( d) b c a g a( g) \barMin
+    \mark\sipka f g a c( b a) a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko  laň prah -- ne
+    po vo -- dách bys -- třin,_*
+    tak prah -- ne du -- še má
+    po to -- bě, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 42"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -272,6 +298,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     e4 g a a b a g a g( e) e \barMaior
     e f e d( e) d d \barMin
@@ -423,6 +450,58 @@
     id = "rch-a3"
     fons = "Druha cast z:"
     fial = "commune/commune_apostol.ly#rch-aben?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d e( f) d d \barMin
+    f( g) f e( d) d e c d( e d) d \barMaior
+    d c d f( g f d) d d e( f) d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    fons = "Druha cast z:"
+    fial = "commune/commune_apostol.ly#rch-aben?konec"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d e( f) d d \barMin
+    f( g) f e( d) d e c d( e d) d \barMaior
+    d c d \mark\sipka e( f d c) c c a( c) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    fons = "Druha cast z:"
+    fial = "commune/commune_apostol.ly#rch-aben?konec"
     piece = \markup {\sestavTitulek}
   }
 }
