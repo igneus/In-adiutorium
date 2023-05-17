@@ -292,7 +292,7 @@
     b c a g a g f( e) e \barMaior
     f g a a a c( b c) d( c) a a \barMaior
     a b c c( d) d a \barMin
-    a g a g a g f e e \barMin
+    a a a g a g f e e \barMin
     f f d( e) e \barFinalis
   }
   \addlyrics {
@@ -349,10 +349,10 @@
   \relative c'' {
     \choralniRezim
     g4 a a a a g f g a g e e \barMaior
-    d f g g g g g f d e \barMax
-    f g \[ g( a g \] \[ a c) \] a b( c a) g g \barMaior
-    a f g g( f d) \barMin c d e d d \barMaior
-    c d e( d) d \barFinalis
+    d f g g g g g f g e \barMax
+    f g g( a) a g b( c a) a \barMaior
+    a( b) a g g( e) \barMin e d e f g
+    g f e e \barFinalis
   }
   \addlyrics {
     Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
@@ -363,7 +363,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I" % ve skutecnosti mozna spis prochazi mody IV, VIII a I.
+    modus = "IV"
     differentia = "g"
     psalmus = ""
     id = "st-aben"
@@ -374,10 +374,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c( d) c c d c c( d c) \barMaior
-    a b c c( d) c a a \barMin
-    c b a g g g( a g) \barMaior
-    f g( a) a( g) g \barFinalis
+    c4 c( d) c c d( e d) c( b a) a \barMaior
+    c c c b a g( a) g \barMin
+    g a f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Duch prav -- dy mě o -- sla -- ví,

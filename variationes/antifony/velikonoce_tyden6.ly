@@ -2140,7 +2140,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a \mark\sipka a( c) a b \barMin
     \mark\sipka b c a g a g f( e) e \barMaior
@@ -2169,6 +2169,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a( c) a b \barMin
     b c a g a g f( e) e \barMaior
@@ -2262,6 +2263,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a a g f g a g e e \barMaior
     d f g g g g g f d e \barMax
@@ -2281,6 +2283,7 @@
     modus = "I" % ve skutecnosti mozna spis prochazi mody IV, VIII a I.
     differentia = "g"
     psalmus = ""
+    placet = "ve skutecnosti mozna spis prochazi mody IV, VIII a I"
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2288,6 +2291,62 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 a a a a g f g a g e e \barMaior
+    d f g g g g g f \mark\sipka g e \barMax
+    f g \mark\sipka g( a) a g b( c a) a \barMaior
+    a( b) a g g( e) \barMin d c d f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
+    a -- le teď by -- ste to ne -- moh -- li snést.
+    Až však při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a a a g f g a g e e \barMaior
+    d f g g g g g f g e \barMax
+    f g g( a) a g b( c a) a \barMaior
+    a( b) a g g( e) \barMin \mark\sipka e d e f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
+    a -- le teď by -- ste to ne -- moh -- li snést.
+    Až však při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c( d) c c d c c( d c) \barMaior
     a b c c( d) c a a \barMin
@@ -2309,6 +2368,81 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c( d) c c d( e d) c( b a) a \barMaior
+    c c c b a g( a) g \barMin
+    g a f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy mě o -- sla -- ví,
+    pro -- to -- že z_mé -- ho vez -- me
+    a vám to o -- zná -- mí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c c d( e d) c( b a) a \barMaior
+    c c c b a g( a) g \barMin
+    g a f g( a) \mark\sipka g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy mě o -- sla -- ví,
+    pro -- to -- že z_mé -- ho vez -- me
+    a vám to o -- zná -- mí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) c c d( e d) c( b a) a \barMaior
+    c c c \mark\sipka b( c) a g( a) g \barMin
+    g a f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy mě o -- sla -- ví,
+    pro -- to -- že z_mé -- ho vez -- me
+    a vám to o -- zná -- mí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {Čtvrtek}}
 
