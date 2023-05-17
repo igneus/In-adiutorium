@@ -2167,6 +2167,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( c) a b \barMin
+    b c a g a g f( e) e \barMaior
+    f g a a a c( b c) d( c) a a \barMaior
+    a b c c( d) d a \barMin
+    a \mark\sipka a a g a g f e e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ješ -- tě krát -- ký čas,
+    a svět mě už ne -- u -- vi -- dí,
+    a -- le vy mě zas u -- vi -- dí -- te,
+    pro -- to -- že já jsem živ
+    a ta -- ké vy bu -- de -- te ži -- vi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
