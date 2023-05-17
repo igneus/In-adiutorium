@@ -737,6 +737,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    g4 g a a g f g a a \barMin
+    c c b a g g \barMaior
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še srd -- ce ne -- chvě -- je,
+    je -- nom ve mne věř -- te!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 62"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -824,6 +846,32 @@
     c c( d) d( c) c \barMin
     c c b( c) a g g( a g) g \barMaior
     \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať tě, Bo -- že,
+    ve -- le -- bí ná -- ro -- dy
+    a já -- sa -- jí,
+    že jim po -- sí -- láš spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 67"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c( d) c b a g a \barMaior
+    c c( d) d( c) c \barMin
+    \mark\sipka a c b( c) a g g( a g) g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Ať tě, Bo -- že,

@@ -1113,6 +1113,30 @@
   \relative c' {
     \choralniRezim
     d4 c d \[ f( e d \] \[ e d) \] \barMin c d e c d e d d \barMaior
+    f f( g f) e( f) e( d) \barMin d c( d f) e( c) c( d) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Zá -- to -- py vod ne -- mo -- hou u -- ha -- sit lás -- ku
+    a prou -- dy řek ji ne -- od -- pla -- ví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d \[ f( e d \] \[ e d) \] \barMin c d e c d e d d \barMaior
     f f( g f) e( f) e( d) \barMin \mark\sipka c d( f e) d( c) c( d) d \barFinalis
 
     c^\markup\rubrVelikAleluja d e( d) d \barFinalis
@@ -1220,6 +1244,32 @@
     f g a \mark\sipka a g a g f e e \barFinalis
 
     \mark\sipka f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Pro -- šel jsem
+    oh -- něm a vo -- dou,
+    a -- le pak jsi mi do -- přál ú -- le -- vu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( a g) g( a) a \barMin
+    a b g a( f e) e \barMaior
+    f g a \mark\sipka g f g( a) g f e e \barFinalis
+
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Pro -- šel jsem
