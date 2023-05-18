@@ -120,12 +120,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a g) g \barMin
-    a c b g a g f( g) g \barMaior
-    d f g f( g) g \barMin
-    g a( c) c b( c a) a \barMin
+    c4( d c) c \barMin
+    b c a g a g f( g) g \barMaior
+    g f d f( g) g \barMin
+    g a c b( c a) a \barMin
     b a g f g \barMaior
-    g a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Ot -- če,
@@ -138,9 +138,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
-    placet = "bude vhodné věnovat jí trochu péče"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -217,6 +216,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 68-II"
+    placet = "_do výšin_ možná spíš vrátit minulou verzi"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -226,9 +226,9 @@
   \relative c'' {
     \choralniRezim
     c4 c c c b c d c d d( c) \barMaior
-    g g f a b( c) c d( e) e d d \barMaior
+    g g f a b( c) c \barMin d( e) e d d \barMaior
     c b a g a g f( g) g \barMaior
-    f a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Ob -- je -- vu -- je se tvůj prů -- vod, Bo -- že,
@@ -274,9 +274,9 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f g( a) g g( a) a \barMin
+    g4 g g( a) f g( a) a \barMin
     c b( c) a g g( a g) g \barMaior
     e( f g) g \barMin
     g f g a( c) b( a) b c( b) a( g) g \barMaior
@@ -304,7 +304,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d e c b c c \barMaior
+    g4 b c d( e) e d d \barMaior
     d d( c b) a( g) g a( g) f g( a) a( g) g \barMaior
     f g( a) g g \barFinalis
   }
@@ -316,7 +316,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "a"
     psalmus = ""
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -382,8 +382,8 @@
     \choralniRezim
     f4 a c c c( d) d c c \barMin
     c f e d c( d) c \barMaior
-    c bes a( g) a \barMin
-    f a g a f( g f) f \barMaior
+    c( bes) a g( f) g \barMin
+    g a g a f( g f) f \barMaior
     g a g( f) f \barFinalis
   }
   \addlyrics {

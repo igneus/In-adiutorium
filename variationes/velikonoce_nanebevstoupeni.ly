@@ -219,6 +219,56 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( c') c c \barMin
+    c c( d c) b( g) a a( g) g \barMaior
+    a a a g( f) g( a) a \barMin
+    \mark\sipka a( c) b g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- šel jsem od Ot -- ce
+    a při -- šel jsem na svět;
+    za -- se svět o -- pouš -- tím a jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( c') c c \barMin
+    c c( d c) b( g) a a( g) g \barMaior
+    a a a g( f) g( a) a \barMin
+    \mark\sipka g f g( a g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- šel jsem od Ot -- ce
+    a při -- šel jsem na svět;
+    za -- se svět o -- pouš -- tím a jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup{Zdá se mi nějak beztvará, plytká.
@@ -528,6 +578,63 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
+    \choralniRezim
+    c4( d c) c \barMin
+    b c a g a g f( g) g \barMaior
+    \mark\sipka g g g f( e) d \barMin
+    d f g a( c a) a \barMin
+    b a g f g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če,
+    zje -- vil jsem tvé jmé -- no li -- dem;
+    ny -- ní jdu k_to -- bě
+    a pro -- sím za ty,
+    kte -- ré jsi mi dal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d c) c \barMin
+    b c a g a g f( g) g \barMaior
+    \mark\sipka g f d f( g) g \barMin
+    g a c b( c a) a \barMin
+    b a g f g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če,
+    zje -- vil jsem tvé jmé -- no li -- dem;
+    ny -- ní jdu k_to -- bě
+    a pro -- sím za ty,
+    kte -- ré jsi mi dal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4( a g) g \barMin
@@ -561,7 +668,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a g) g \barMin
     a c b g a g f( g) g \barMaior
@@ -675,6 +782,22 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 \pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"invitatorium"}}
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    \bold{Allelúia,}
+    Christum Dóminum, ascendéntem in cælum,
+    veníte, adorémus,
+    allelúia.
+  }
+}
+\markup\justify{
+  Chápu, že to úvodní aleluja působí neohrabaně při recitaci
+  a zhudebnění se také dost vzpírá, ale k jeho vypuštění tady není
+  o nic silnější důvod než ve společných textech o svatých,
+  a tam vypuštěno nebylo.
+}
 
 \score {
   \relative c'' {
@@ -864,8 +987,80 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     \choralniRezim
     c4 b c d( e) d \barMin
     e f e d c d d \barMaior
+    d d( e) e( d) d c b a( g) g \barMin
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu,
+    ve -- leb -- te je -- ho jmé -- no,
+    on vy -- stou -- pil nad o -- bla -- ka.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 68-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d( e) d \barMin
+    e f e d c d d \barMaior
     d \mark\sipka d( e f) e( d) d c b a( g) g \barMin
     f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu,
+    ve -- leb -- te je -- ho jmé -- no,
+    on vy -- stou -- pil nad o -- bla -- ka.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 68-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d( e) d \barMin
+    e f e d c d d \barMaior
+    d \mark\sipka c( d) d( c) c b c a( g) g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu,
+    ve -- leb -- te je -- ho jmé -- no,
+    on vy -- stou -- pil nad o -- bla -- ka.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 68-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d( e) d \barMin
+    e f e d c d d \barMaior
+    \mark\sipka b c( d) a( g) g a g f( g) g \barMin
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- te Bo -- hu,
@@ -1081,12 +1276,37 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c b c d c d d( c) \barMaior
     g g f a b( c) c \mark\sipka d( e) e d d \barMaior
     c b a g a g f( g) g \barMaior
     f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ob -- je -- vu -- je se tvůj prů -- vod, Bo -- že,
+    prů -- vod mé -- ho Bo -- ha, mé -- ho krá -- le,
+    smě -- řu -- jí -- cí do sva -- ty -- ně.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 68-III"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c b c d c d d( c) \barMaior
+    g g f a b( c) c \mark\sipka \barMin d( e) e d d \barMaior
+    c b a g a g f( g) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
     Ob -- je -- vu -- je se tvůj prů -- vod, Bo -- že,
@@ -1215,6 +1435,31 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( a) g f g a g g \barMaior
+    \mark\sipka f a c b c( d) d \barMaior
+    d c b a( g) g g a g f g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Od -- chá -- zím vám při -- pra -- vit mís -- to,
+    a -- le za -- se při -- jdu;
+    a va -- še srd -- ce se bu -- de ra -- do -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden4.ly#pa-aben?zacatek"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -1278,7 +1523,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g( a) g g( a) a \barMin
     \mark\sipka c b( c) a g g( a g) g \barMaior
@@ -1299,6 +1544,96 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 g g( a) f g( a) a \barMin
+    c b( c) a g g( a g) g \barMaior
+    e( f g) g \barMin
+    g f g a( c) b( a) b c( b) a( g) g \barMaior
+    a( f) e f( a g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé z_Ga -- li -- le -- je,
+    proč hle -- dí -- te k_ne -- bi?
+    Je -- žíš,
+    kte -- rý byl vzat od vás do ne -- be,
+    za -- se při -- jde.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g b c d( c e d) d \barMin
+    d d c a c b \barMaior
+    c c
+    c a g a( g) f a c( d) c c \barMaior
+    d d c( b g) g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé z_Ga -- li -- le -- je,
+    proč hle -- dí -- te k_ne -- bi?
+    Je -- žíš,
+    kte -- rý byl vzat od vás do ne -- be,
+    za -- se při -- jde.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "začátek podle AR1912 413"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g b c d( c e d) d \barMin
+    \mark\sipka d b c( d) a a( g) g \barMaior
+    f a( c) c \barMin
+    c b c d( e) d c b( c) a( g) g \barMaior
+    a f g( a g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé z_Ga -- li -- le -- je,
+    proč hle -- dí -- te k_ne -- bi?
+    Ten Je -- žíš,
+    kte -- rý byl vzat od vás do ne -- be,
+    za -- se při -- jde.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Lidé z Galileje, proč hledíte k nebi?
+    Ježíš, který byl vzat od vás do nebe, zase přijde. Aleluja."
+    fons_externus = "začátek podle AR1912 413"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1378,7 +1713,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e c b c c \barMaior
     d d( c b) a( g) g a( g) f g( a) a( g) g \barMaior
@@ -1393,6 +1728,73 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     quid = "2. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    id = "rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e \mark\sipka d c d d \barMaior
+    d d( c b) a( g) g a( g) f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te Krá -- le krá -- lů
+    a zpí -- vej -- te Bo -- hu chva -- lo -- zpěv.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c d( e) c d d \barMaior
+    d d( c b) a( g) g a( g) f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te Krá -- le krá -- lů
+    a zpí -- vej -- te Bo -- hu chva -- lo -- zpěv.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 b c d( e) \mark\sipka e d d \barMaior
+    d d( c b) a( g) g a( g) f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb -- te Krá -- le Krá -- lů
+    a zpí -- vej -- te Bo -- hu chva -- lo -- zpěv.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1431,6 +1833,28 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     e4 e e e d e e( a) a a \barMin
     a b( g) g f e f e e \barMaior
     \mark\sipka f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Před je -- jich zra -- ky byl vy -- zdvi -- žen
+    a ob -- lak jim ho vzal z_o -- čí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e d e e( a) a a \barMin
+    a b( g) g f e f e e \barMaior
+    \mark\sipka f d d( e) e \barFinalis
   }
   \addlyrics {
     Před je -- jich zra -- ky byl vy -- zdvi -- žen
@@ -1836,12 +2260,42 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 a c c \mark\sipka c( d) d c c \barMin
     c f e d \mark\sipka c( d) c \barMaior
     \mark\sipka c bes a( g) a \barMin
     \mark\sipka f a g a f( g f) f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vy -- stu -- pu -- ji k_své -- mu Ot -- ci
+    a k_va -- še -- mu Ot -- ci,
+    k_své -- mu Bo -- hu
+    a k_va -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Částečný návrat k předchozí verzi)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 a c c c( d) d c c \barMin
+    c f e d c( d) c \barMaior
+    \mark\sipka c( bes) a g( f) g \barMin
+    g a g a f( g f) f \barMaior
     g a g( f) f \barFinalis
   }
   \addlyrics {
@@ -2121,6 +2575,28 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka b c c( d) d \barMin
+    d c b a g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Svou ve -- leb -- nos -- tí
+    pře -- vý -- šils, Bo -- že, ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2245,6 +2721,28 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     c4 c c( d) d d e c a a \barMaior
     \mark\sipka c c b a g( a) g \barMin
     f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- šel od Ot -- ce z_ne -- be
+    a vrá -- til se k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) d d \mark\sipka c b a( g) g \barMaior
+    g f( g) a a g g \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Kris -- tus vy -- šel od Ot -- ce z_ne -- be
@@ -2554,6 +3052,28 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     \choralniRezim
     g4( c) b c( d) c c \barMin
     c a b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstou -- pil do ne -- be,
+    se -- dí po pra -- vi -- ci Ot -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) b c( d) c c \barMin
+    \mark\sipka a g a c b c a( g) g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
