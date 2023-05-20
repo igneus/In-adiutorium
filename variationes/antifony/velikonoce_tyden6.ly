@@ -2448,6 +2448,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 a a c b g a g g \barMin
     f g g \barMaior
@@ -2474,6 +2475,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a a c b g a g g \barMin
+    f g g \barMaior
+    g g g f e d d f g g( a) a \barMaior
+    a g \mark\sipka a a( c) b g g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Za -- krát -- ko mě už ne -- spa -- tří -- te,
+    pra -- ví Pán,
+    a o -- pět za -- krát -- ko mě u -- vi -- dí -- te,
+    ne -- boť od -- chá -- zím k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) g( f) e \barMin
     d e f g a a \barMaior
@@ -2492,6 +2523,33 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "a2"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g( a) f( e) e \barMin
+    d e f g g( a) a \barMaior
+    a c b a( b a g) g \barMin
+    g a g f( e) d( e) d \barMaior
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Váš zá -- rmu -- tek
+    se ob -- rá -- tí v_ra -- dost
+    a va -- ši ra -- dost
+    vám ni -- kdo ne -- vez -- me.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -2554,6 +2612,29 @@
     a4 g a c c b a \mark\sipka g( a) g f d( e) \barMaior
     f g a a a g f
     g g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš je ko -- ru -- no -- ván slá -- vou a ctí,
+    pro -- to -- že vy -- tr -- pěl smrt.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 g a c b a a b( c) a g a( g) \barMin
+    f g a a g f e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Je -- žíš je ko -- ru -- no -- ván slá -- vou a ctí,

@@ -402,9 +402,9 @@
     \choralniRezim
     c4 a a c b g a g g \barMin
     f g g \barMaior
-    g g g f e d d f g g( a) a \barMin
-    a g a( c d) c( b) g a( g) g \barMaior
-    f g g g \barFinalis
+    g g g f e d d f g g( a) a \barMaior
+    a g a a( c) b g g \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Za -- krát -- ko mě už ne -- spa -- tří -- te,
@@ -426,11 +426,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) g( f) e \barMin
-    d e f g a a \barMaior
-    a c c b( c a g) a( g) \barMin
-    f f g f d c \barMin
-    e f d d \barFinalis
+    a4 g( a) f( e) e \barMin
+    d e f g g( a) a \barMaior
+    a c b a( b a g) g \barMin
+    g a g f( e) d( e) d \barMaior
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Váš zá -- rmu -- tek
@@ -441,8 +441,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "a2"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
