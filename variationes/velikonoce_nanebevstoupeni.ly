@@ -2908,6 +2908,30 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d( e d) d \barMaior
+    d c( d) c b a g
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zve -- dl ru -- ce,
+    žeh -- nal
+    a vzná -- šel se k_ne -- bi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}

@@ -209,6 +209,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f e d( e) e \barMin
+    \mark\sipka f e d c e f d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Buď dob -- ré mys -- li, sy -- nu,_*
+    od -- pouš -- tě -- jí se ti hří -- chy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d f e d( e) \mark\sipka d( c) \barMin
     d d c d f e d d \barMaior
     e f d( c) d \barFinalis
@@ -383,6 +405,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     c4 d d d \barMin
     d d d f e f d( c) \barMaior
@@ -604,6 +627,31 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 147-II"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c c( d) d c( b) a a \barMaior
+    a g( a) g \barMin
+    f g a c b g( a) a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,_*
+    že zjed -- nal
+    tvé -- mu ú -- ze -- mí po -- koj.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 147-II"
+    fial = "antifony/tyden4_6patek.ly#rch-ant3?zacatek"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
