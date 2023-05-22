@@ -256,7 +256,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b( a g) g a g g( a) g \barMin
+    c4 c c b( a g) g a a g( a) g \barMin
     a a f( e) d
     f g g g \barFinalis
   }
