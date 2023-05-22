@@ -65,7 +65,7 @@
   \addlyrics {
     Jdě -- te
     a hlá -- sej -- te e -- van -- ge -- li -- um
-    o Bo -- žim krá -- lov -- ství:
+    o Bo -- žím krá -- lov -- ství:
     Za -- dar -- mo jste do -- sta -- li,
     za -- dar -- mo dá -- vej -- te.
   }
