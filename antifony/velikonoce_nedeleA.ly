@@ -319,11 +319,11 @@
   \relative c'' {
     \choralniRezim
     c4 c c( d) c a a( c) \barMin
-    c g( a) g g g( a g c) c \barMin
-    c d c c d e e c( d c a) a \barMaior
-    g a( c) c b c b a g g \barMin
-    a( g f) g( a) a g g \barMaior
-    a( b) c( a) g( a) g \barFinalis
+    b c a g g( a) g \barMaior
+    f g a a b c a g( a g) g \barMaior
+    a a( c) c \barMin d e d c d( c a) a \barMin
+    g( f) g( a) a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Věč -- ný ži -- vot je to,
@@ -335,7 +335,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = ""
     id = "viimag1"
@@ -346,10 +346,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c \barMin c c c d( c d) d( c) c b( a) g( a) a( g) \barMaior
-    a a a a b( c a) a \barMin
-    b c b a g g \barMaior
-    f g( a) a( g) g \barFinalis
+    g4( c) c \barMin c c c d e d c( b) a a \barMaior
+    c c b a g( a g4.) g \barMin
+    f4 g a a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Ot -- če, já jsem tě o -- sla -- vil na ze -- mi:
@@ -370,11 +370,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d c( b a) g( a) a \barMin
-    g a a b( c a) g g \barMaior
-    a a( d) d \barMin d d d( c b a) b( a) a( g) \barMin a( g) f( g) g \barMaior
-    a b c b( c) a c( a) a( g) g \barMaior
-    a a a( g) g \barFinalis
+    a4 a a c( b) c( d) d \barMin
+    c d e c d( e d) d \barMaior
+    a c( d) d \barMin c b a( b) g g \barMin a( g) f( g) g \barMaior
+    a b c a g a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Až při -- jde Pří -- mluv -- ce,
@@ -386,7 +386,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "d"
+    differentia = "a"
     psalmus = ""
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -1197,6 +1197,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) c a a( c) \barMin
     c g( a) g g g( a g c) c \barMin
@@ -1226,6 +1227,66 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c c( d) c a a( c) \barMin
+    c g( a) g g g( a g c) c \barMin
+    c d c c d e \mark\sipka d c( d c a) a \barMaior
+    \mark\sipka a c c b c a g g( a) g \barMin
+    f( d) f( g) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Věč -- ný ži -- vot je to,
+    že po -- zna -- jí te -- be,
+    je -- di -- né -- ho pra -- vé -- ho Bo -- ha
+    a to -- ho, kte -- ré -- ho jsi po -- slal,
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "viimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( d) c a a( c) \barMin
+    b c a g g( a) g \barMaior
+    f g a a b c a g( a g) g \barMaior
+    a a( c) c \barMin d e d c d( c a) a \barMin
+    g( f) g( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Věč -- ný ži -- vot je to,
+    že po -- zna -- jí te -- be,
+    je -- di -- né -- ho pra -- vé -- ho Bo -- ha
+    a to -- ho, kte -- ré -- ho jsi po -- slal,
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "viimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     g4( c) c \barMin c c c d( c d) d( c) c b( a) g( a) a( g) \barMaior
     a a a a b( c a) a \barMin
     b c b a g g \barMaior
@@ -1249,6 +1310,40 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c \barMin c c c d e d c( b) a a \barMaior
+    c c b a g( a g4.) g \barMin
+    f4 g a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, já jsem tě o -- sla -- vil na ze -- mi:
+    do -- kon -- čil jsem dí -- lo,
+    kte -- ré jsi mi svě -- řil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "viiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\markup\justify{
+  Tradiční a charakteristická antifona
+  \italic{Cum venerit Paraclitus},
+  AR1912 417, \cantusid-link "002043"
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( b a) g( a) a \barMin
     g a a b( c a) g g \barMaior
@@ -1267,6 +1362,137 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    id = "viimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a c( b) c( d) d \barMin
+    e e d c d( e d) d \barMaior
+    a c( d) d \barMin c b b( c) a a \barMin c( b) a( g) g \barMaior
+    a b c a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Pří -- mluv -- ce,
+    kte -- ré -- ho vám po -- šlu,
+    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "viimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a c( b) c( d) d \barMin
+    \mark\sipka c d e c d( e d) d \barMaior
+    a c( d) d \barMin c b b( c) a a \barMin c( b) a( g) g \barMaior
+    \mark\sipka a a a c b a g g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Pří -- mluv -- ce,
+    kte -- ré -- ho vám po -- šlu,
+    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "viimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a c( b) c( d) d \barMin
+    c d e c d( e d) d \barMaior
+    a c( d) d \barMin c b \mark\sipka a( b) g g \barMin a( g) f( g) g \barMaior
+    a b c a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Pří -- mluv -- ce,
+    kte -- ré -- ho vám po -- šlu,
+    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "viimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a c( b) c( d) d \barMin
+    c d e c d( e d) d \barMaior
+    a c( d) d \barMin c b a( b) g g \barMin a( g) f( g) g \barMaior
+    a b c a g a g \mark\sipka f \barMin
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Pří -- mluv -- ce,
+    kte -- ré -- ho vám po -- šlu,
+    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "viimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a \mark\sipka a( c b) c( d) d \barMin
+    c d e c d( e d) d \barMaior
+    a c( d) d \barMin c b a( b) g g \barMin a( g) f( g) g \barMaior
+    a b c a g a g f \barMin
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Pří -- mluv -- ce,
+    kte -- ré -- ho vám po -- šlu,
+    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
