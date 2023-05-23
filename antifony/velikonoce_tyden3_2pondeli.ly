@@ -102,9 +102,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f g a a \barMin
-    a g f g( f d) d \barMin
-    f g g( f) f \barFinalis
+    f4 g f g g a \barMin
+    a g f g( a) g \barMin
+    f d f( g) f \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*

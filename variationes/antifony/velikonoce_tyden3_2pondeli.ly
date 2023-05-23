@@ -147,6 +147,32 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b a b g \barMin
+    a c b g a \barMaior
+    a c d c b( a) a \barMin
+    \mark\sipka g( a) g f( e) d( e) e \barMaior
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Do vý -- še se zdví -- há_*
+    Hos -- po -- di -- nův dům,
+    bu -- dou k_ně -- mu prou -- dit
+    všech -- ny ná -- ro -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "III"
+    differentia = "a"
+    psalmus = "Iz 2"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d d d( a') a \barMin
@@ -570,6 +596,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c d d d c d e d c b( c d) d \barMaior
+    d \mark\sipka c( d c) \barMin a g f g g \barMin
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din_* ti bu -- de na -- vě -- ky svět -- lem,
+    tvůj Bůh bu -- de tvou slá -- vou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 123"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a g f g a g f( e) e \barMaior
+    a a( b g) \barMin f e d e e \barMaior
+    f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din_* ti bu -- de na -- vě -- ky svět -- lem,
+    tvůj Bůh bu -- de tvou slá -- vou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 123"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{Tady uši říkají, že je to modus VIII, že správný
@@ -670,11 +740,34 @@ závěr je ten na "\"volní\"" a ten na Aleluja je falešný.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g f g a a \barMin
     a g f g( f d) d \barMin
     f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Léč -- ka se pře -- trh -- la_*
+    a my jsme vol -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 124"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g f g \mark\sipka g a \barMin
+    a g f g( a) g \barMin
+    f d f( g) f \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
@@ -732,6 +825,28 @@ závěr je ten na "\"volní\"" a ten na Aleluja je falešný.
     differentia = "g"
     psalmus = "Žalm 124"
     fial = "antifony/velikonoce_tyden3.ly#ne-rch-a1?zacatek=6&konec=4"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g a a \barMin
+    a b g g( a) a \barMin
+    g f e( d) e \barFinalis
+  }
+  \addlyrics {
+    Léč -- ka se pře -- trh -- la_*
+    a my jsme vol -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 124"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
