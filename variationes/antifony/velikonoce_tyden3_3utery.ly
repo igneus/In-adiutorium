@@ -708,6 +708,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a g( f e) \barMaior
+    a b( a) g( a) a \barMin g f d e \barMaior
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám!_*
+    Ne -- boj -- te se, vždyť jsem to já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 125"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 e c( d) \barMaior
@@ -970,6 +992,27 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 d e \mark\sipka e d c b c a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4 d e d c \mark\sipka b c a g g \barMin
     f a g g \barFinalis
@@ -1073,6 +1116,26 @@
     \choralniRezim
     g4 g f g a a b a a( g) g \barMaior
     a b g g \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a a g f g a g g \barMaior
+    f a g g \barFinalis
   }
   \addlyrics {
     Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
