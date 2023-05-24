@@ -782,6 +782,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d e d c d( c) c \barMaior
+    a a( c) b g \barMin
+    a f g a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d d c d d( c) c \barMaior
+    a a( c) b g \barMin
+    a \mark\sipka a g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -883,7 +931,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g a( c) c d c b( c) a a \barMaior
     a c a a c b g( a) g \barMin
@@ -913,6 +961,31 @@
     a c a a c b g( a) g \barMin
     g f g a a( g) g \barMaior
     \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Do -- sta -- ne -- te sí -- lu Du -- cha sva -- té -- ho
+    a bu -- de -- te mý -- mi svěd -- ky
+    až na ko -- nec ze -- mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a( c) c \barMin d c b( c) a a \barMaior
+    a c c c b a g( a) g \barMin
+    g f g a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Do -- sta -- ne -- te sí -- lu Du -- cha sva -- té -- ho
