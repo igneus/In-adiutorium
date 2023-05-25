@@ -830,6 +830,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f g a f d e( d) d \barMaior
+    c c( d) d( f) f \barMin
+    g f g a g f f \barMin
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1157,6 +1181,73 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c c d( e) d c( d) \barMin
+    c a c b g g( a) a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c a b( a g) \barMin
+    a f g a a g g \barMaior
+    a g f( g) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 f f g f g( a) \barMin
+    g f d f g g( f) f \barMaior
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
