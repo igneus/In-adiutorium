@@ -9,8 +9,8 @@
   \relative c' {
     \choralniRezim
     c4 d e( f) d d e c c( d) d \barMin
-    a c d d e f e d d \barMaior
-    e f d( c) d \barFinalis
+    a c d d e f e d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Vše -- chny ná -- ro -- dy_* při -- jdou, Pa -- ne,

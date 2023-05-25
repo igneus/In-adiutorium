@@ -32,7 +32,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e( f) d d e c c( d) d \barMin
     a c d d e f e d d \barMaior
@@ -79,7 +79,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     c4 d e( f) d d e c c( d) d \barMin
     a c d d e f e d d \barMin
@@ -416,6 +416,50 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    \mark\sipka a f g f d c \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý člo -- věk_*
+    u -- zří Bo -- ží spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 98"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c( d) c \barMin
+    bes a g a g( f) f \barMin
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý člo -- věk_*
+    u -- zří Bo -- ží spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 98"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -706,6 +750,30 @@
     \choralniRezim
     a4 c( b) c( d) d \barMin
     \mark\sipka c d e c d d \barMaior
+    d c b a g
+    b c a a \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \mark\sipka g( a) a( c) c \barMin
+    d c d e d d \barMaior
     d c b a g
     b c a a \barFinalis
   }
