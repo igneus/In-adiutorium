@@ -249,7 +249,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a') a \barMin a g a g f g g( a) a
+    d4( a') a \barMin a a a g f g g( a) a
     b( c) a g a a \barMaior
     a c( b a) g g( e) \barMaior
     d d d d( a') a g b( c a) a \barMin
@@ -277,10 +277,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a c( d) d \barMaior
-    c d e e d( c) d( e) e d d \barMaior
+    c4 c b a c( d) d \barMin
+    c d e c d e e d d \barMaior
     d c d c b a g a( g) g \barMin
-    a g f( g) g \barFinalis
+    f a g g \barFinalis
   }
   \addlyrics {
     Až při -- jde Duch prav -- dy,
