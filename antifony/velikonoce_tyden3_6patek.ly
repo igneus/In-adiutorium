@@ -33,7 +33,7 @@
     f4 f e d e( f d) d \barMaior
     f g a g f f( g) g \barMin
     g f e d4. c \barMin
-    d4 f e( d) d \barFinalis
+    e4 f d d \barFinalis
   }
   \addlyrics {
     Kris -- tus ve svém tě -- le_*
@@ -80,8 +80,8 @@
   \relative c'' {
     \choralniRezim
     g4 a c c b \barMin
-    b c c a g a g f f \barMaior
-    g a g g \barFinalis
+    a c c b a g a g g \barMaior
+    f a g g \barFinalis
   }
   \addlyrics {
     Já jsem Hos -- po -- din,_*
