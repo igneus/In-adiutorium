@@ -418,6 +418,32 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4( a' bes) a \barMin g( a) bes a g g \barMin
+      g a g f( e d c) c \barMaior
+      d d f f e d c( d) c c \barMin
+      d f e( d) d  \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu,
+      na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      fial = "commune/commune_panna.ly#invit2?zacatek=11"
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"nedělní vigilie"}}
