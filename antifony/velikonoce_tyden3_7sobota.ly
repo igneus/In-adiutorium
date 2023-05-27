@@ -26,6 +26,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 119-Kof"
+    placet = "_duch_ nenese melisma moc dobře"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
