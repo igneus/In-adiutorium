@@ -391,6 +391,30 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka c4( d) d \barMin
+      d c e d d \barMin e g f e( d c d) d \barMaior
+      d4 d c( d c4.) c \barMin c4 a c( b) a( g) g \barMaior
+      \mark\sipka a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\nadpisSkupiny 2
 
   \score {
