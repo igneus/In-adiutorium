@@ -67,9 +67,9 @@ class PsalmTone
     flex = lilify flexa
     med = lilify mediatio
     if terminatio.is_a?(Hash) then
-      term = lilify(terminatio.values.first)
+      term = lilify(terminatio.values.first, true, true)
     else
-      term = lilify(terminatio)
+      term = lilify(terminatio, true, true)
     end
 
     # leading underscores are used as a trick to allow having different
@@ -105,10 +105,20 @@ class PsalmTone
 
   # translate custom little "psalm tone definition language"
   # to standard LilyPond notes
-  def lilify(part, recitanda=true)
+  def lilify(part, recitanda=true, termination=false)
     r = ''
     if recitanda then
-      r += ((tenor.is_a?(Array) ? tenor.first : tenor) + '= ')
+      r +=
+        if tenor.is_a?(Array)
+          if termination
+            tenor.last
+          else
+            tenor.first
+          end
+        else
+          tenor
+        end \
+        + '= '
     end
     r += mark_sliding_accents part
 

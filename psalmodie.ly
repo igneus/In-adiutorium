@@ -568,7 +568,7 @@
     a4( bes)
     a\breve*1/8 a4^! \parenthesize g g \barMin
     a\breve*1/8 g4 bes a g^! \parenthesize f f \barMaior
-    a\breve*1/8 d,4 f^! \parenthesize f e( d) \barFinalis
+    g\breve*1/8 d4 f^! \parenthesize f e( d) \barFinalis
   }
   \header {
     modus = "per"
