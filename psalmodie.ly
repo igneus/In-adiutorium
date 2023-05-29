@@ -240,44 +240,12 @@
     g4 a( c)
     c\breve*1/8 c4^! \parenthesize a a \barMin
     c\breve*1/8 d4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c \barMaior
-    c\breve*1/8 c4( b) a( b) a^! \parenthesize g g( a) \barFinalis
-  }
-  \header {
-    modus = "III"
-    differentia = "a2"
-    id = "III-a2"
-    piece = \markup\sestavTitulekBezZalmu
-  }
-  \layout { \layoutPsalmodie }
-}
-\score{
-  \relative c'' {
-    \choralniRezimPsalmodie
-    g4 a( c)
-    c\breve*1/8 c4^! \parenthesize a a \barMin
-    c\breve*1/8 d4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c \barMaior
-    c\breve*1/8 c4( b) a( b) a^! \parenthesize g g \barFinalis
+    c\breve*1/8 a4 c b a^! \parenthesize g g \barFinalis
   }
   \header {
     modus = "III"
     differentia = "g"
     id = "III-g"
-    piece = \markup\sestavTitulekBezZalmu
-  }
-  \layout { \layoutPsalmodie }
-}
-\score{
-  \relative c'' {
-    \choralniRezimPsalmodie
-    g4 a( c)
-    c\breve*1/8 c4^! \parenthesize a a \barMin
-    c\breve*1/8 d4^! \parenthesize c c \parenthesize c -\tweak HorizontalBracketText.text \markup\musicglyph #"scripts.ustaccatissimo" \startGroup b( a) \stopGroup c \barMaior
-    c\breve*1/8 a4 c b a^! \parenthesize g g \barFinalis
-  }
-  \header {
-    modus = "III"
-    differentia = "g2"
-    id = "III-g2"
     piece = \markup\sestavTitulekBezZalmu
   }
   \layout { \layoutPsalmodie }

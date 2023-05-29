@@ -1,8 +1,8 @@
 ---
-# Podmnozina napevu z Editio Vaticana vhodna pro zpev ceskych textu
-# (Rozdilu oproti vaticana.yml je hrstka, jak mozno overit
-# diffnutim souboru)
-
+# Napevy psalmodie podle Editio Vaticana,
+# zejmena podle Antiphonale 1912 s prip. doplnky podle Liber usualis a spol.
+# (Pokud je snad zahrnut i nejaky "nekanonicky" napev, tak je to proto,
+# ze zakladem pro vypracovani byl prehled http://musicasacra.com/pdf/tones.pdf )
 I:
   inchoatio: f ga
   tenor: a
@@ -41,9 +41,11 @@ III:
   flexa: c- {a} a
   mediatio: d- {c} c {c} ha- c
   terminatio:
-    h: a c- {c} h
+    b: a c- {c} h
     a: a c- {c} ha
-    g: a c h a- {g} g
+    a2: ch ah a- {g} ga
+    g: ch ah a- {g} g
+    g2: a c h a- {g} g
 IV:
   relative: c''
   inchoatio: a ga
