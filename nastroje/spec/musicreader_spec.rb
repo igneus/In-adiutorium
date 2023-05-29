@@ -107,5 +107,29 @@ describe LilyPondScore do
     it 'strips comments following header fields' do
       @score_with_comments.header['psalmus'].should eq 'Žalm 142'
     end
+
+    it 'reads non-string header values as they are' do
+      @score_with_comments.header['piece'].should eq '\markup {\sestavTitulek}'
+    end
+
+    it 'leaves single quotes in header fields unharmed' do
+      src = <<'EOS'
+\score {
+  \relative c'' {
+    c c
+  }
+  \addlyrics {
+    a -- men
+  }
+  \header {
+    quid = "2. ant."
+    id = "I-D'"
+  }
+}
+EOS
+
+      score = LilyPondScore.new src
+      score.header['id'].should eq "I-D'"
+    end
   end
 end

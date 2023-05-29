@@ -88,7 +88,9 @@ class LilyPondScore
       ii = l.index '='
       name = l[0..ii-1].strip
       value = l[ii+1..-1].strip
-      value.gsub!(/['"]/, '') # strip quotes
+      if value =~ /"(.*?)"/
+        value = $1
+      end
       @header[name] = value
     end
   end
