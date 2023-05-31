@@ -1092,7 +1092,7 @@
     při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
     \Verse Byl jsem ne -- mo -- cen, a na -- vští -- vi -- li jste mě,_*
     \Response při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
-    kte -- ré je pro vás při -- pra -- ve -- né.
+    %kte -- ré je pro vás při -- pra -- ve -- né.
     \textRespDoxologie
   }
   \header {
