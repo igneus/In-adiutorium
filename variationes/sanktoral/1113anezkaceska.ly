@@ -53,6 +53,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a f g( a) g g \barMaior
+    a c c b g g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- ví -- rá svou dlaň chu -- dé -- mu,
+    u -- bo -- hým po -- dá -- vá po -- moc -- nou ru -- ku.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

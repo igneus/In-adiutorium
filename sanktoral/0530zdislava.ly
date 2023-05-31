@@ -19,9 +19,9 @@
   \relative c'' {
     \choralniRezim
     a4 bes a g f g a f( e) d( c) \barMaior
-    d f e f d c c d d \barFinalis
+    d f f f e c e( f) d d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Sklá -- da -- la svou na -- dě -- ji v_Bo -- ha
@@ -97,13 +97,13 @@
     % R
     \neviditelna f
     f4 f f g f g( a) a( g) \barMax
-    g g g( a) g g \barMin a g f d f g g f \barFinalis
+    g f g( a) g g \barMin g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a a a a( bes) a g( a) g \barMin g f g( a) a( g) \barMax
+    a a a a a g( a) g \barMin g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g( a) g g \barMin a g f d f g g f \barFinalis
+    g f g( a) g g \barMin g g f d f g g( f) f \barFinalis
 
     % Slava
     \respVIdoxologie \barFinalis
@@ -160,13 +160,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 c d( f) e d c c \barMin f g a f f( g) g \barMaior
-    g f g( a g) g \barMin f e d( c) c \barMaior
-    d c d f e c( d) d \barFinalis
+    a4 g a( c) b a g g \barMin c d e c c( d) d \barMaior
+    d c d( e d4.) d \barMin c4 b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Slun -- ce vy -- chá -- ze -- jí -- cí na vý -- ši -- nách Pá -- ně,
@@ -177,8 +177,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
