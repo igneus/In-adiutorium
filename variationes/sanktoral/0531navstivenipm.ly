@@ -287,13 +287,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c \mark\sipka d c d d c c \barMaior
     c b( c) a( g) g \barMin
     f a c c c b a c b g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a se vy -- da -- la na ces -- tu
+    a spě -- cha -- la
+    do jed -- no -- ho jud -- ské -- ho měs -- ta v_ho -- rách.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c d c d d c c \barMaior
+    c b( c) a( g) g \barMin
+    f a c c c b a \mark\sipka a( b) a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a se vy -- da -- la na ces -- tu
@@ -556,6 +583,36 @@
     g( a f) e( d) d e d( c) c( d) d \barMax
     d( a' bes) a g a( bes a) g( f) f( g) g \barMaior
     g g( a g) f e f d d \barMin \mark\sipka d( e) c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le Alž -- bě -- ta u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
+    zvo -- la -- la moc -- ným hla -- sem:
+    Jak jsem si za -- slou -- ži -- la,
+    že mat -- ka mé -- ho Pá -- na při -- šla ke mně?
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "srov. tady 2. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f( g) g g a bes a g f g \mark\sipka a a( g) g \barMaior
+    g( a f) e( d) d \mark\sipka d( e) c c( d) d \barMax
+    d( a' bes) a g a( bes a) g( f) f( g) g \barMaior
+    g g( a g) f e f d d \barMin d( e) c c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }

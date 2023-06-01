@@ -49,9 +49,9 @@
     \choralniRezim
     c4 c c c d c d d c c \barMaior
     c b( c) a( g) g \barMin
-    f a c c c b a c b g g \barFinalis
+    f a c c c b a a( b) a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a se vy -- da -- la na ces -- tu

@@ -3803,6 +3803,34 @@ je "\"skororepetice\"" melodie 2 v 4.}
 \score {
   \relative c' {
     \choralniRezim
+    e4 g g( a) a \barMin
+    a g a b a a \barMaior
+    a b a g a g( e) \barMin
+    f e d d( e) e \barFinalis
+
+    f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi
+    me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod
+    ži -- vo -- ta tvé -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 f e d c \barMin
     f e f d d \barMaior
     f g a g f d( c) \barMin
