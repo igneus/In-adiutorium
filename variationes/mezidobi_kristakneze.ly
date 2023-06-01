@@ -54,6 +54,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a( b a g) g \barMin
+    \mark\sipka a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify{
   Podobně stručných a co do struktury textu podobných invitatorií,
   z nichž by se dalo vyjít, v korpusu moc není.
@@ -438,6 +458,28 @@
     e4 e e f d d( e) e \barMaior
     e e( a) a a b g g( a) a \barMin
     a g a \mark\sipka a( g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus mi -- lo -- val cír -- kev
+    a vy -- dal sám se -- be za ni,
+    a -- by ji po -- svě -- til.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 85"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e f d d( e) e \barMaior
+    e e( a) a a b g g( a) a \barMin
+    a g \mark\sipka f a( g) f( e) e \barFinalis
   }
   \addlyrics {
     Kris -- tus mi -- lo -- val cír -- kev
