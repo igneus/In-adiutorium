@@ -59,9 +59,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 a a a g f f( g) g \barMin
+    f4 g a a g f f( g) g \barMin
     g a g f d d \barMaior
-    c d f g f e( d) d \barFinalis
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Při -- ná -- šej -- te sa -- mi se -- be
@@ -355,7 +355,7 @@
     \choralniRezim
     c4 c c c( d c) c \barMin
     c c c c b a g( a) g \barMaior
-    a g a( c) b( a) a \barMin
+    f g a( c) b( a) a \barMin
     g f a a( g) g \barFinalis
   }
   \addlyrics {
