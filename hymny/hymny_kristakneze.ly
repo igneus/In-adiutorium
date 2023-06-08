@@ -66,6 +66,7 @@
     quid = "hymnus"
     fons_externus = "92" % číslo nápěvu podle MZ
     modus = ""
+    placet = "zpívat na tenhle nápěv text bez rýmu je divné"
     id = "ne"
     piece = "nešpory"
   }
