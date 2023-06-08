@@ -717,6 +717,26 @@
   \relative c'' {
     \choralniRezim
     a4 c c b c a( g) g \barMin
+    a4 \mark\sipka g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c c b c a( g) g \barMin
     f( g) g( a) a g f g g \barFinalis
   }
   \addlyrics {

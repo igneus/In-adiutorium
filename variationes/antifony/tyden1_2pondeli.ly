@@ -1567,6 +1567,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g g a a a g f g g \barMaior
+    \mark\sipka a a g f d d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
+    ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 15(14)"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g g a a a g f \mark\sipka f( g) g \barMaior
     f g a a g f \mark\sipka d f g( f) f \barFinalis
   }
