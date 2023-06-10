@@ -664,9 +664,34 @@ pojdmeKlanmeSeCele = {
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a g f f( g) g \barMin
+    a g f d( c) c \barMaior
+    d d c d f g g \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na,
+    ne -- boť je dob -- rý,
+    je -- ho mi -- lo -- sr -- den -- ství
+    tr -- vá na -- vě -- ky!
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    dies = "pátek"
+    id = "t1pa"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 g a a g f f( g) g \barMin
     a g f d( c) c \barMaior
     d d c d f g g \barMin
     g a g f f \barFinalis

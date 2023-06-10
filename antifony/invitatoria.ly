@@ -112,9 +112,9 @@ tIctvrtekInvitatorium = \score {
 }
 
 tIpatekInvitatorium = \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a a g f f( g) g \barMin
+    f4 g a a g f f( g) g \barMin
     a g f d( c) c \barMaior
     d d c d f g g \barMin
     g a g f f \barFinalis
