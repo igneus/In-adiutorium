@@ -268,6 +268,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d e f f g f g a \barMaior
+    g a f e( d) d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    U -- jmi se mě, Hos -- po -- di -- ne,
+    chraň mě svou mo -- cí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 35-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     \key f \major
@@ -670,6 +694,29 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 d e c d( e d4.) d4 \barMin
+    \mark\sipka c4 d c b a( g) g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství a slá -- vy
+    do -- jde v_Hos -- po -- di -- nu
+    ce -- lý rod Iz -- ra -- e -- le.
+  }
+  \header {
+    modus = "VII"
+    differentia = "c"
+    quid = "2. ant."
+    psalmus = "Iz 45"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a f f( g) g \barMin
@@ -726,6 +773,26 @@
   \addlyrics {
     Vstup -- te
     před Hos -- po -- di -- na s_já -- so -- tem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 100"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e d c a g g \barMin
+    a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te před Hos -- po -- di -- na
+    s_já -- so -- tem.
   }
   \header {
     quid = "3. ant."
