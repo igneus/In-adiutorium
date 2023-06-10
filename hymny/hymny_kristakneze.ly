@@ -29,6 +29,7 @@
   \header {
     quid = "hymnus"
     modus = ""
+    placet = "doplnit amen"
     id = "mc"
     piece = "modlitba se čtením"
   }
@@ -66,7 +67,7 @@
     quid = "hymnus"
     fons_externus = "92" % číslo nápěvu podle MZ
     modus = ""
-    placet = "zpívat na tenhle nápěv text bez rýmu je divné"
+    placet = "zpívat na tenhle nápěv text bez rýmu je divné; doplnit amen"
     id = "ne"
     piece = "nešpory"
   }

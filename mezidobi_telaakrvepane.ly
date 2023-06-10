@@ -160,6 +160,7 @@
     differentia = "d"
     psalmus = ""
     fial = "velikonoce_antifony.ly#invit2?zacatek"
+    placet = "_chléb života_ nepěkné; celek působí nevyváženě"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -209,7 +210,7 @@
     differentia = "d"
     psalmus = "Žalm 42"
     fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast=1,2"
-    placet = "se závěrem si zkusit trochu pohrát"
+    placet = "závěr lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -265,6 +266,7 @@
     differentia = "g"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?zacatek"
+    placet = "závěr nic moc"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -395,6 +397,8 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "_sestoupil_ je těžkopádné, text melismata moc dobře nenese;
+    závěr není úplně uspokojivý"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

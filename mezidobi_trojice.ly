@@ -126,6 +126,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "r2 lépe"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -153,6 +154,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "lépe: od _tvému jedinému_ neobvyklá, _božství_ hrozné"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -324,6 +326,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "stejný motiv na konci obou polovin není úplně libý a elegantní"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

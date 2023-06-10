@@ -145,6 +145,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 100"
+    placet = "mám ji takhle rád, ale bylo by žádoucí zpěvněji"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
