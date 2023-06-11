@@ -624,10 +624,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e f g f f \barMin
+    d4 d f e f f( g) g( f) f \barMin
     g f e( f) d( c) c \barMin
     d c d f e c c( d) d \barMaior
-    a c( d) d d \barMin
+    a c d d \barMin
     g f( e) d \barMaior
     d f4.( d) \barMin
     c4 d e( d) d \barFinalis
@@ -647,18 +647,18 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
-    fial = "sanktoral/0921matous.ly#aben?konec"
+    fial = "sanktoral/0921matous.ly#aben?zacatek=13&konec=17"
     id = "ne10a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g a c c a c g g f( e f g) g \barMaior
-    g a b b b b( c) b a a a \barMaior
-    g( a g) f( g) f \barMin f d f g a g g \barFinalis
+    f4 g a c c a c c b \barMin a( g f g) g( f) \barMaior
+    f g a a a c( d) c b( c) a a \barMaior
+    c c c c a g a g f f \barFinalis
   }
   \addlyrics {
     Mno -- ho cel -- ní -- ků a hříš -- ní -- ků při -- šlo
@@ -667,8 +667,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = "ne10a-rch-aben"

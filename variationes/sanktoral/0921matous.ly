@@ -173,6 +173,64 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f e d f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    \mark\sipka f( e d) e( d) d \barMaior
+    c c( d f) \barMin
+    \mark\sipka f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    \mark\sipka f( d) c( d) d \barMaior
+    c c( d f) \barMin
+    f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f e f g( a) a( g) g \barMin
     a f d e( f) d d \barMaior
     c d d
@@ -573,6 +631,30 @@ působí poněkud těžkopádně.}
     c c a g a g f \barMaior
     g a a a a a c( d) c c d( e) d c d( c) \barMin
     \mark\sipka b c a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť, pra -- ví Pán.
+    Ne -- při -- šel jsem to -- tiž po -- vo -- lat spra -- ved -- li -- vé,
+    a -- le hříš -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a b \barMin
+    c c a g a g f \barMaior
+    g a a a \mark\sipka g a c( d) c c d( e) d c \mark\sipka b( a) \barMin
+    g a b( a) g g \barFinalis
   }
   \addlyrics {
     Mi -- lo -- sr -- den -- ství chci,
