@@ -648,6 +648,7 @@
     psalmus = ""
     annus = "A"
     fial = "sanktoral/0921matous.ly#aben?zacatek=13&konec=17"
+    placet = "stejný rytmický útvar na konci prvních dvou dílů není moc elegantní"
     id = "ne10a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
