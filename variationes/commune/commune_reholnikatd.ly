@@ -231,6 +231,32 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 d e e( a g) g( a) a \barMin a g f g g g( a) e e \barMaior
+      d e f f g f g( a) g f e e \barFinalis
+
+      \mark\sipka f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+    }
+    \addlyrics {
+      Pán si ji vy -- vo -- lil na -- vě -- ky ja -- ko ne -- věs -- tu,
+      pro -- to -- že je mi -- lo -- srd -- ný a věr -- ný.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "rehol-amag3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \pageBreak
+
   \markup {\nadpisHodinka {"invitatorium"}}
 
   \markup\italic{
@@ -321,6 +347,31 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \zvyraznovacZeleny
+      \choralniRezim
+      e4 d e g( a) a \barMin b g g( a) a \barMaior
+      a g a e \barMin f e d e e \barFinalis
+
+      f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+    }
+    \addlyrics {
+      Bůh je můj po -- díl, po němž tou -- žím;
+      je dob -- rý k_těm, kdo ho hle -- da -- jí.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "rehol-aben2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"2. nešpory"}}
@@ -334,6 +385,36 @@
       a a( c) b b( c) \barMin c c c c d( c b) a f( a) g \barFinalis
 
       g^\markup\rubrVelikAleluja f( a) g g \barFinalis
+    }
+    \addlyrics {
+      Vy, kte -- ří jste o -- pus -- ti -- li všech -- no
+      a ná -- sle -- do -- va -- li jste mě,
+      sto -- krát víc do -- sta -- ne -- te
+      a za po -- díl bu -- de -- te mít ži -- vot věč -- ný.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "rehol-ne2-amag1"
+      fial = "sanktoral/0825benediktabratri.ly#amag?+aleluja"
+      fons = "+ pridano aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g f e d f g g g a( g f) g \barMin
+      g c( b a) c b a g f( g) g \barMaior
+      g g f( g) \barMin a( b c) b a( g) a \barMaior
+      a a( c) b b( c) \barMin c c c c d( c b) a f( a) g \barFinalis
+
+      \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
     }
     \addlyrics {
       Vy, kte -- ří jste o -- pus -- ti -- li všech -- no
@@ -485,6 +566,32 @@
       quid = "ant. k Magnificat"
       modus = "VIII"
       differentia = "G"
+      psalmus = ""
+      id = "rehol-ne2-amag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 g( a g a) a \barMin
+      a g a b g e e \barMaior
+      f e d f g f( e) e \barFinalis
+
+      f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+    }
+    \addlyrics {
+      Bůh žeh -- ná
+      těm, kdo ho o -- sla -- vu -- jí
+      v_bra -- trs -- kém spo -- le -- čen -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "E"
       psalmus = ""
       id = "rehol-ne2-amag2"
       piece = \markup {\sestavTitulekBezZalmu}

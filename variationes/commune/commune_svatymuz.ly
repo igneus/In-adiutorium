@@ -1502,6 +1502,38 @@
     g g g a g( f) d f g g( f) f \barFinalis
     % V
     \neviditelna a
+    a a a( bes) a \barMin a a a a \mark\sipka g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g a g( f) d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Měl Bo -- ží zá -- kon ve svém srd -- ci,_*
+    a Bůh dá -- val sí -- lu je -- ho kro -- kům.
+    \Verse Dou -- fal v_Bo -- ha a dr -- žel se je -- ho ces -- ty,_*
+    \Response a Bůh dá -- val sí -- lu je -- ho kro -- kům.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f g f g( a) a( g) \barMax
+    g g g a g( f) d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
     a a \mark\sipka g( a) g \barMin g g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
