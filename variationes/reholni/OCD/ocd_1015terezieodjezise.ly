@@ -616,8 +616,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a a \barMin
     a a b c c b b c( a) g g \barMaior
@@ -636,6 +639,59 @@
     differentia = "G"
     psalmus = ""
     fial = "antifony/velikonoce_nedeleA.ly#vimag2?-aleluja"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g a a \barMin
+    a a b c a g f a g g \barMaior
+    c c c d c b c a g g \barMin
+    g g( a) g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo mě mi -- lu -- je,
+    to -- ho bu -- de mi -- lo -- vat můj O -- tec
+    a ta -- ké já ho bu -- du mi -- lo -- vat
+    a dám se mu po -- znat.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleA.ly#vimag2?zacatek=28"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin
+    a a b c a g f a g g \barMaior
+    c c c d c b c a g g \barMin
+    g \mark\sipka f e d f( g a g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo mě mi -- lu -- je,
+    to -- ho bu -- de mi -- lo -- vat můj O -- tec
+    a ta -- ké já ho bu -- du mi -- lo -- vat
+    a dám se mu po -- znat.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleA.ly#vimag2?zacatek=28"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

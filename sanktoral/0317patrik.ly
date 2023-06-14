@@ -13,7 +13,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a') a \barMin a g a g f g g( a) a
+    d4( a') a \barMin a a a g f g g( a) a
     b( c) a g a a \barMaior
     a c( b a) g g( e) \barMaior
     d d d d( a') a g b( c a) a \barMin

@@ -12,8 +12,39 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') a \barMin a g a g f g g( a) a
+    b( c) a g a a \barMaior
+    a c( b a) g g( e) \barMaior
+    d d d d( a') a g b( c a) a \barMin
+    f g d f( e) d d \barFinalis
+  }
+  \addlyrics {
+    Jdě -- te, zí -- skej -- te za u -- čed -- ní -- ky
+    všech -- ny ná -- ro -- dy
+    a křtě -- te je
+    ve jmé -- nu Ot -- ce i Sy -- na
+    i Du -- cha sva -- té -- ho.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden7.ly#ct-aben?-aleluja"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a') a \barMin a a a g f g g( a) a
     b( c) a g a a \barMaior
     a c( b a) g g( e) \barMaior
     d d d d( a') a g b( c a) a \barMin

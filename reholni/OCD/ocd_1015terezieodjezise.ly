@@ -254,9 +254,9 @@
   \relative c'' {
     \choralniRezim
     g4 f g a a \barMin
-    a a b c c b b c( a) g g \barMaior
-    a a a f e f g g a a \barMin
-    a a( c) b a g g \barFinalis
+    a a b c a g f a g g \barMaior
+    c c c d c b c a g g \barMin
+    g g( a) g f g( a g) g \barFinalis
   }
   \addlyrics {
     Kdo mě mi -- lu -- je,
@@ -269,7 +269,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "antifony/velikonoce_nedeleA.ly#vimag2?-aleluja"
+    fial = "antifony/velikonoce_nedeleA.ly#vimag2?zacatek=28"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
