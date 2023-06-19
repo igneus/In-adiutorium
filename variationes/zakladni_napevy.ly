@@ -514,6 +514,56 @@ uvodniVers = \lyricmode {
       ragged-right = ##t
     }
   }
+
+  \markup\sekce{III.4 nápěv pro Triduum}
+  % AR1912 v sekci Toni communes některé nápěvy pro matutinum obsahuje, ale tyto ne.
+  % Vyskytují se jen v publikacích se zpěvy temných hodinek.
+
+  \markup\justify{
+    V modlitbě se čtením a modlitbě uprostřed dne Velkého pátku a Bílé soboty
+    se použije následující nápěv.
+  }
+
+  % MČ Velkého pátku
+  \score{
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      a4 a a a a a a a b a g-! \parenthesize g g \barFinalis }
+    \addlyrics {
+      \Verse Pro -- ti mně po -- vsta -- li _ _ \markup\italic{kři} -- \markup\italic{ví} \markup\underline{svěd} -- ko -- vé,
+    }
+    \addlyrics {
+      \Response a -- le je -- jich svě -- dec -- tví ne -- \markup\italic{by} -- \markup\italic{lo} \markup\underline{shod} -- "" -- né.
+    }
+    \header {
+      fons_externus = "podle Liber Usualis, Tournai - New York 1961, 630."
+    }
+  }
+
+  \markup\justify{
+    srov. \with-url #"https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__XIII_E_9____0TBWXF0-cs" {CZ-Pu XIII E 9},
+    f. 22v (responsoriale nějakého českého kláštera, snad františkánek, s částečně německými rubrikami)
+  }
+
+  \markup{Nebo:}
+
+  \score{
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c c c c c c c c d c-! \parenthesize c c( b) \barFinalis
+    }
+    \addlyrics {
+      \Verse Pro -- ti mně po -- vsta -- li _ _ kři -- \markup\italic{ví} \markup\underline{svěd} -- ko -- vé,
+    }
+    \addlyrics {
+      \Response a -- le je -- jich svě -- dec -- tví ne -- by -- \markup\italic{lo} \markup\underline{shod} -- "" -- né.
+    }
+    \header {
+      fons_externus = "podle Liber Usualis, Tournai - New York 1961, 631."
+    }
+  }
 }
 
 \bookpart {
@@ -809,6 +859,29 @@ uvodniVers = \lyricmode {
     }
     \header {
       modus = "II"
+      id = ""
+      piece = ""
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna a
+      a4 a a a a g f a \barMaior
+      a a a a a a a a a a a a f g d d \barFinalis
+
+      \neviditelna g
+      g a \barFinalis
+    }
+    \addlyrics {
+      \Verse Dej nám, Bo -- že, po -- koj -- nou noc,
+      a po -- si -- luj nás,
+      ať vy -- tr -- vá -- me v_dob -- rém až do kon -- ce.
+      \Response A -- men.
+    }
+    \header {
+      fons_externus = "podle CZ-Pu XIII E 9, f. 30r"
       id = ""
       piece = ""
     }
