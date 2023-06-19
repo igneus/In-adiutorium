@@ -1241,6 +1241,57 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g( a) a \barMin
+    g f g a \mark\sipka g e e \barMaior
+    d e f e f g e \barMin
+    f g a a a g f d( e) e e \barFinalis
+  }
+  \addlyrics {
+    Žeň je si -- ce hoj -- ná,
+    a -- le děl -- ní -- ků má -- lo.
+    Pros -- te pro -- to Pá -- na žně,
+    a -- by po -- slal děl -- ní -- ky na svou žeň.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne14c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 a g f g( a) a \barMin
+    g f g a g e e \barMaior
+    d e f e f g e \barMin
+    f g a a \mark\sipka g a g f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Žeň je si -- ce hoj -- ná,
+    a -- le děl -- ní -- ků má -- lo.
+    Pros -- te pro -- to Pá -- na žně,
+    a -- by po -- slal děl -- ní -- ky na svou žeň.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    id = "ne14c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

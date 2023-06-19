@@ -22,6 +22,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
+    placet = "lépe"
     id = "ne11a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
