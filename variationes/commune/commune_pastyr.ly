@@ -690,6 +690,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) c c \barMin c b a g( a g) \barMaior
+    f a c c c d( e) d d \barMin
+    c b g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
