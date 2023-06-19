@@ -940,6 +940,28 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 b g g a g f g g a a \barMin
+    a a a a g f \mark\sipka g a
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4 g g g a g f g g a a \barMin
   }
