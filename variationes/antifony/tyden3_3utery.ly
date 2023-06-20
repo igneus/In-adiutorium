@@ -1510,6 +1510,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a( c) a \barMin
+    b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je všu -- de
+    ko -- lem své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 125"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
