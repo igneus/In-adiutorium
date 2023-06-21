@@ -18,7 +18,7 @@
     g4( a) c c c( e) d \barMin
     c d e c d d \barMaior
     d a d b c a( g) \barMin
-    f g a( c) b( a) a \barFinalis
+    f g a( c b) g( a) a \barFinalis
   }
   \addlyrics {
     Zkou -- šels mě, Pa -- ne,
