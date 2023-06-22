@@ -326,6 +326,30 @@
   \score {
     \relative c' {
       \choralniRezim
+      f4 \mark\sipka f f g( a) g bes a g( a) g \barMaior
+      g g( a) g f( e d) \barMin f g g( a) f f \barFinalis
+
+      g^\markup\rubrVelikAleluja g( a g) f f \barFinalis
+    }
+    \addlyrics {
+      Bůh je můj po -- díl, po němž tou -- žím;
+      je dob -- rý k_těm, kdo ho hle -- da -- jí.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "rehol-aben2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       f4 e f g( a) g \mark\sipka \barMin bes a g( a) g \barMaior
       g g( a) g \mark\sipka f( g) \barMin f g g( a) f f \barFinalis
 

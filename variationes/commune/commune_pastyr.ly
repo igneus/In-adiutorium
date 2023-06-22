@@ -1159,7 +1159,6 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
     \choralniRezim
     f4( g) g \barMin
     a g a f( e d) d \barMin
@@ -1189,11 +1188,71 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     f4( g) g \barMin
     a g a f( e d) d \barMin
     d e f d( c) c \barMaior
     c d f f( g) g \mark\sipka g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#invit?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g \barMin
+    a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    c d \mark\sipka d( f) f f g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#invit?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4( g) g \barMin
+    a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    \mark\sipka d f f( g) g g a g f f \barFinalis
 
     g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }

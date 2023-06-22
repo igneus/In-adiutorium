@@ -1353,6 +1353,24 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdo se -- jí v_sl -- zách, žnout bu -- dou s_já -- so -- tem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 126"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
