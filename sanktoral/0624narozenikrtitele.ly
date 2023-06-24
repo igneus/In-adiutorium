@@ -564,7 +564,7 @@
     psalmus = ""
     id = "2ne-amag"
     fons = "2. část viz 1. nešp, 3. ant."
-    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?konec"
+    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?konec=34"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
