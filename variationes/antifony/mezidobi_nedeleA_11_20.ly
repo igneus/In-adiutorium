@@ -291,6 +291,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f e d f f \barMin
     g f g g( a) g g \barMaior
@@ -316,6 +317,110 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e d f f \barMin
+    g f g g( a) g g \barMaior
+    a a a a g a g f d \barMin
+    d( f) e \mark\sipka c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Co vám ří -- kám ve tmě,
+    po -- věz -- te na svět -- le,
+    a co se vám šep -- tá do u -- cha,
+    hlá -- sej -- te ze střech.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne12a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f f \barMin
+    g f g g( a) g g \barMaior
+    a a a a g a g f \mark\sipka f \barMin
+    f( g) f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Co vám ří -- kám ve tmě,
+    po -- věz -- te na svět -- le,
+    a co se vám šep -- tá do u -- cha,
+    hlá -- sej -- te ze střech.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne12a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f f \barMin
+    g f g g( a) g g \barMaior
+    a a a a g \mark\sipka f g( a) g g \barMin
+    g( a g f) e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Co vám ří -- kám ve tmě,
+    po -- věz -- te na svět -- le,
+    a co se vám šep -- tá do u -- cha,
+    hlá -- sej -- te ze střech.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne12a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f f \barMin
+    g f g g( a) g g \barMaior
+    a a a a g f g( a) g g \barMin
+    \mark\sipka f( g a) g f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Co vám ří -- kám ve tmě,
+    po -- věz -- te na svět -- le,
+    a co se vám šep -- tá do u -- cha,
+    hlá -- sej -- te ze střech.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne12a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d f e d e( f) \barMin
     f g f e d e( d) d \barMaior
@@ -329,6 +434,77 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne12a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e \mark\sipka f d \barMin
+    d f f e f d( c) c \barMaior
+    a c d d e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj -- te se těch,
+    kdo za -- bí -- je -- jí tě -- lo_–
+    du -- ši za -- bít ne -- mo -- hou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne12a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \mark\sipka d4 d d c d \barMin
+    d f f e f d( c) c \barMaior
+    a c d d e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj -- te se těch,
+    kdo za -- bí -- je -- jí tě -- lo_–
+    du -- ši za -- bít ne -- mo -- hou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne12a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d \barMin
+    f g g g f a( g) g \barMaior
+    a a g f e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- boj -- te se těch,
+    kdo za -- bí -- je -- jí tě -- lo_–
+    du -- ši za -- bít ne -- mo -- hou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     annus = "A"
