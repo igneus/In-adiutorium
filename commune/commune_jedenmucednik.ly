@@ -18,7 +18,7 @@
     d c d f( g) g \barMin
     f g g( a) g f f \barFinalis
 
-    d^\markup\rubrVelikAleluja f g( f) f \barFinalis
+    g^\markup\rubrVelikAleluja a f f \barFinalis
   }
   \addlyrics {
     Ke kaž -- dé -- mu,
