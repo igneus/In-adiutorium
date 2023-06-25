@@ -41,10 +41,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g( a) g g \barMin
+    a4 g f g( a) g g \bar ""
     f g a a a( c) b \barMaior
-    c d c a b( g) \barMin
-    f g a g g \barFinalis
+    c c b c a \barMin
+    g a g f f \barFinalis
   }
   \addlyrics {
     Ne -- plod -- ná do -- sta -- la
@@ -54,8 +54,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 146"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -93,13 +93,13 @@
     % R
     \neviditelna f
     f4 f f g f g( a) a( g) \barMax
-    g( a) g( f) d f g g( f) f \barFinalis
+    g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a( bes) a g( a) a( g) \barMin g g f g a a \barMax
+    a4 a a a( bes) a g( a) g \barMin g g f g( a) g g \barMax
     % R
     \neviditelna a
-    g( a) g( f) d f g g( f) f \barFinalis
+    g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -121,10 +121,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d d d f( g f) e f( e) d c c( d) d \barMaior
-    d( a bes) a g a \barMin
-    a g a bes a a g a bes c d( f) e( d) d \barMaior
-    d( e f g) f e( d) e( d) d \barFinalis
+    d4 c d d d e( f d) d \barMin f g f d( c) c \barMaior
+    d( e f) d c( d) d \barMin
+    d c a c( d) d \barMin d d d c d d( f) e( d) d \barMaior
+    f( g a) g( f) e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Když Za -- cha -- ri -- áš ve -- šel do chrá -- mu Pá -- ně,
@@ -177,7 +177,7 @@
     \choralniRezim
     a4 a g a a( bes) a a
     g a g f e e \barMaior
-    f g f g g a a a f e c( d) d \barFinalis
+    f f e f g a g f e f d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mě po -- vo -- lal
@@ -199,7 +199,7 @@
     \choralniRezim
     d4 c( d) \barMin
     d c d f e d c d \barMaior
-    d d c b c( a) g a a( g) g \barFinalis
+    d d c b c( a) g f g( a g) g \barFinalis
   }
   \addlyrics {
     Z_mých úst
@@ -296,7 +296,7 @@
     \choralniRezim
     d4 d c d d d e( f d) c d d \barMaior
     d e d c( d) c \barMin
-    c c c b( g) g a g f g g \barFinalis
+    c c c b g a g f g g \barFinalis
   }
   \addlyrics {
     Bu -- de při -- pra -- vo -- vat ces -- tu Pá -- nu
@@ -316,10 +316,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f( a) a \barMin
-    g f g( a) g f e f d( c) c \barMaior
-    c d d( f) f g( a) g( f) f \barMaior
-    g f e e f d c( d) d \barFinalis
+    f4 g g( a) a \barMin
+    g f g( a) g g f e d( c) c \barMaior
+    d c d( f) f g( a) g( f) f \barMaior
+    g g g f e d c( d) d \barFinalis
   }
   \addlyrics {
     A ty, sy -- nu,
@@ -344,13 +344,13 @@
     % R
     \neviditelna f
     f4 f g f f g( a) a( g) g \barMax
-    g a g f( g) f \barMin f d f( g) g( f) f \barFinalis
+    g g f g( a) g \barMin f d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a( bes) a a \barMin a a a g( a) g g a g f g( a) \barMax
+    a4 a a( bes) a a \barMin a a a g( a) g g g f g g( a) \barMax
     % R
     \neviditelna a
-    g a g f( g) f \barMin f d f( g) g( f) f \barFinalis
+    g g f g( a) g \barMin f d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -452,8 +452,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a( c) c c d( e) d c d a a \barMaior
-    d c b a( b) a g a( g) \barFinalis
+    g4 a c( d) d \barMin d e d c d( e) d d \barMaior
+    d c b c( a) g a g \barFinalis
   }
   \addlyrics {
     To -- to dí -- tě je ve -- li -- ké před Pá -- nem,
@@ -462,7 +462,7 @@
   \header {
     quid = "ant. odpoledne"
     modus = "VII"
-    differentia = "c"
+    differentia = "a"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -474,8 +474,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f f f e d e( f) f f \barMin
-    g f e f d \barFinalis
+    d4 f f f e d e( f) d d \barMin
+    c f e c d \barFinalis
   }
   \addlyrics {
     Byl člo -- věk po -- sla -- ný od Bo -- ha,
@@ -488,7 +488,7 @@
     psalmus = "Žalm 15"
     id = "2ne-a1"
     fons = "3. ne adventní, cyklus B, 1. nešp., k Magnificat; jen první půlka"
-    fial = "antifony/advent_nedeleB.ly#iiimag1?zacatek"
+    fial = "antifony/advent_nedeleB.ly#iiimag1?zacatek=8"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -516,10 +516,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c) d f( g f e) d4.( c) \barMin d4( e f) e( d) d e d( c) c( d) d \barFinalis
+    d4 d e( f d c) c \barMin
+    f g f e c( d) d d \barFinalis
   }
   \addlyrics {
-    Jan byl lam -- pa ho -- ří -- cí a zá -- ří -- cí.
+    Jan byl lam -- pa
+    ho -- ří -- cí a zá -- ří -- cí.
   }
   \header {
     quid = "3. ant."
