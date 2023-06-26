@@ -4301,6 +4301,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka c4 d b c a \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má,
+    Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 c b c a( g) \barMin
     f g a g \barFinalis
   }
