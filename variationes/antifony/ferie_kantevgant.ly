@@ -5049,6 +5049,27 @@ se bude hodit.}
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c f g g( a) a \barMaior
+    g( a) g f( e d) \barMin
+    e c f e d d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Hos -- po -- di -- ne,
+    z_ru -- kou všech, kdo nás ne -- ná -- vi -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "t2-ut-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g f g g \barMaior
     g( a) g f( e d) \barMin
     c d f e c( d) d \barFinalis
