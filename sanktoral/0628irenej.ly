@@ -13,13 +13,13 @@
 \markup\communia #'(#:mucednik #:pastyr)
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d( e) e \barMin
-    d c d( e) e d d \barMaior
-    d c b a( b g) g a g f a a g g \barMaior
-    a c c c d( e d) c( b a) a \barMin
-    g( f) g( a) a g g \barFinalis
+    f4 g( a) a \barMin
+    g f g( a) a g g \barMaior
+    a a a g( a g) g f g f e d c c \barMaior
+    d d c d d( f) f f \barMin
+    g( f) g( a) g f f \barFinalis
   }
   \addlyrics {
     I -- re -- nej,
@@ -30,8 +30,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}

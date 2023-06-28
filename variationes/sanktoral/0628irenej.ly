@@ -117,7 +117,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d( e) e \barMin
     d c d( e) e d d \barMaior
@@ -135,6 +135,105 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a \barMin
+    g f g( a) a g g \barMaior
+    \mark\sipka a a a g f e f d c d c c \barMaior
+    d d c d d( f) f f \barMin
+    g( f) g( a) g f f \barFinalis
+  }
+  \addlyrics {
+    I -- re -- nej,
+    vě -- ren své -- mu jmé -- nu,
+    po ce -- lý ži -- vot u -- si -- lov -- ně pra -- co -- val
+    o po -- koj a jed -- no -- tu
+    cír -- kev -- ních ob -- cí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g( a) a \barMin
+    g f g( a) a g g \barMaior
+    a a a \mark\sipka g( a g) g f g f e d c c \barMaior
+    d d c d d( f) f f \barMin
+    g( f) g( a) g f f \barFinalis
+  }
+  \addlyrics {
+    I -- re -- nej,
+    vě -- ren své -- mu jmé -- nu,
+    po ce -- lý ži -- vot u -- si -- lov -- ně pra -- co -- val
+    o po -- koj a jed -- no -- tu
+    cír -- kev -- ních ob -- cí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a \barMin
+    g f g( a) a g g \barMaior
+  }
+  \addlyrics {
+    I -- re -- nej,
+    vě -- ren své -- mu jmé -- nu,
+    po ce -- lý ži -- vot u -- si -- lov -- ně pra -- co -- val
+    o po -- koj a jed -- no -- tu
+    cír -- kev -- ních ob -- cí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) c c \barMin
+    a g f( g) a g g \barMaior
+  }
+  \addlyrics {
+    I -- re -- nej,
+    vě -- ren své -- mu jmé -- nu,
+    po ce -- lý ži -- vot u -- si -- lov -- ně pra -- co -- val
+    o po -- koj a jed -- no -- tu
+    cír -- kev -- ních ob -- cí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
     differentia = "c"
     psalmus = ""
     id = "aben"
