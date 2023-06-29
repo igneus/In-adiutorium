@@ -1218,3 +1218,28 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a a g f g a a( g) g \barMaior
+    a a g f \mark\sipka e f d( c) c \barMin
+    d e f \mark\sipka d d c d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi pas -- týř ov -- cí,
+    prv -- ní me -- zi a -- po -- što -- ly,
+    to -- bě by -- ly dá -- ny klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 512"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

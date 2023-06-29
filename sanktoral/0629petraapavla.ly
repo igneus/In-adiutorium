@@ -124,9 +124,9 @@
   \relative c' {
     \choralniRezim
     f4 f g a a g g a g a g( f) f \barMaior
-    g g g a g a( c) a a \barMin a( b c) a g g( a) a \barMax
-    a g a( c) c b( c a g) g \barMaior f g g a a g( f) e e \barMax
-    d d f e d( e) d( c) c \barMin d f e c( d) d \barFinalis
+    g g g a g a( c) a a \barMin a b c a( g a) a \barMax
+    a g a( c) c b( c a g) g \barMaior a a g f e f d( c) c \barMax
+    d d c d d( f) e( d) d \barMaior f( g a) g( f e) c e( f d4.) d \barFinalis
   }
   \addlyrics {
     Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel_*
@@ -203,23 +203,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a \barMin g e g g( a) \barMaior
-    a( b g) g \barMin
-    g f g g( a) g f e e \barFinalis
+    d4 d \barMin f e f d \barMaior
+    d c
+    d f f e d c e d \barFinalis
   }
   \addlyrics {
     Pa -- ne, když jsi to ty,
     roz -- kaž,
-    ať k_to -- bě při -- jdu po vo -- dě.
+    ať při -- jdu k_to -- bě po vo -- dě.
   }
   \header {
-    textus_approbatus = "Pane, když jsi to ty,
-    rozkaž, ať přijdu k tobě po vodě."
     quid = "3. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 97"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -233,7 +231,7 @@
     f g a a a c b a b g( a) a \barMin
     a g f d e e \barMaior
     e f g a g \barMin
-    a g f g g e e \barFinalis
+    a g f f( g) g e e \barFinalis
   }
   \addlyrics {
     Jed -- not -- ní ve ví -- ře i v_u -- tr -- pe -- ní,
@@ -334,7 +332,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f g( a) a( g) \barMax
+    f4 f g f g g( a) a( g) \barMax
     g g( a) g g \barMaior
     g g g a g f f( g) f \barMin
     f( d) f g g( f) f \barFinalis
@@ -408,9 +406,9 @@
     \choralniRezim
     d4 d c f g f( a) a \barMaior
     a( c) b( c a) a g( f) f( g) g \barMaior
-    a g g f g f e d c c \barMaior
-    c d( f) f( g) g \barMin a bes a g( f) f( g) g \barMaior
-    g a f e d c( d) d \barFinalis
+    a g f g a g f e d( c) c \barMaior
+    d c( d) d( f) f \barMin g a g f( g) g( a) a \barMaior
+    a g a f e c( d) d \barFinalis
   }
   \addlyrics {
     Když Pe -- tr ješ -- tě mlu -- vil,_*
@@ -434,7 +432,7 @@
     \choralniRezim
     c4 c a c b a g g \barMaior
     f g a c b c( d) d( c) c \barMin
-    c b g a( g) g \barFinalis
+    b c a g( a g) g \barFinalis
   }
   \addlyrics {
     Když by -- lo ko -- lem po -- led -- ne,_*
