@@ -4691,6 +4691,30 @@ začátkem v jednom oficiu patřily k různým modům.
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a e f( g) a a \barMin
+    b c d c c b a b( c) a a \barMaior
+    a g f g a g f( d) d \barMaior
+    d d c d \mark\sipka e( f d4.) d \barMin c4 f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zbož -- ně slav -- me pa -- mát -- ku
+    bla -- ho -- sla -- ve -- né Pan -- ny Ma -- ri -- e;
+    o -- na za nás o -- ro -- du -- je
+    u na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = "Benedictus"
+    id = "sob-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {

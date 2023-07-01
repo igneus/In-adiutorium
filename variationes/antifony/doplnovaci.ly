@@ -221,6 +221,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d c d e c c( d) d \barMaior
+    \mark\sipka d d d c b a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Za -- ra -- do -- val jsem se, když mi řek -- li:
+    Do do -- mu Hos -- po -- di -- no -- va pů -- jde -- me.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 122"
+    id = "tercie-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"druhý oddíl (v poledne)"}}
@@ -591,6 +611,26 @@
     \choralniRezim
     f4 g a f g \barMin
     g g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze kaž -- dé -- mu,
+    kdo se bo -- jí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 128"
+    id = "nona-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g \barMin
+    g g f d f g \mark\sipka g( f) f \barFinalis
   }
   \addlyrics {
     Bla -- ze kaž -- dé -- mu,
