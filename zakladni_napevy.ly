@@ -32,8 +32,8 @@
       c c c c c c c b c \barFinalis
     }
     \addlyrics {
-      \Verse Pa -- ne, o -- tev -- ři mé rty,
-      \Response a má ús -- ta tě bu -- dou chvá -- lit.
+      \Verse Pa -- ne, o -- tev -- ři mé rty.
+      \Response A má ús -- ta tě bu -- dou chvá -- lit.
     }
     \header {
       piece = ""
@@ -69,8 +69,8 @@
       \Verse Bo -- že, po -- spěš mi na po -- moc.
       \Response Slyš na -- še vo -- lá -- ní.
       Slá -- va Ot -- ci i Sy -- nu
-      i Du -- chu sva -- té -- mu
-      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      i Du -- chu sva -- té -- mu,
+      ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky
       % block_begin:nepust
       a na vě -- ky vě -- ků. A -- men.
       A -- le -- lu -- ja.
@@ -106,8 +106,8 @@
       \Verse Bo -- že, po -- spěš mi na po -- moc.
       \Response Slyš na -- še vo -- lá -- ní.
       Slá -- va Ot -- ci i Sy -- nu
-      i Du -- chu sva -- té -- mu
-      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      i Du -- chu sva -- té -- mu,
+      ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky
       % block_begin:nepust
       a na vě -- ky vě -- ků. A -- men.
       A -- le -- lu -- ja.
@@ -148,8 +148,8 @@
       \Verse Bo -- že, po -- spěš mi na po -- moc.
       \Response Slyš na -- še vo -- lá -- ní.
       Slá -- va Ot -- ci i Sy -- nu
-      i Du -- chu sva -- té -- mu
-      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      i Du -- chu sva -- té -- mu,
+      ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky
       a na vě -- ky vě -- ků. A -- men.
       % block_begin:nepust
       A -- le -- lu -- ja.
@@ -194,8 +194,8 @@
       \Verse Bo -- že, po -- spěš mi na po -- moc.
       \Response Slyš na -- še vo -- lá -- ní.
       Slá -- va Ot -- ci i Sy -- nu
-      i Du -- chu sva -- té -- mu
-      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      i Du -- chu sva -- té -- mu,
+      ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky
       a na vě -- ky vě -- ků. A -- men.
       A -- le -- lu -- ja.
       a na vě -- ky vě -- ků. A -- men.
@@ -225,8 +225,8 @@
       \Verse Bo -- že, po -- spěš mi na po -- moc.
       \Response Slyš na -- še vo -- lá -- ní.
       Slá -- va Ot -- ci i Sy -- nu
-      i Du -- chu sva -- té -- mu
-      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      i Du -- chu sva -- té -- mu,
+      ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky
       a na vě -- ky vě -- ků. A -- men.
       A -- le -- lu -- ja.
       a na vě -- ky vě -- ků. A -- men.
@@ -526,7 +526,7 @@
     \addlyrics {
       \Verse Pán s_vá -- mi.
       \Response I s_te -- bou.
-      \Verse Po -- žeh -- nej vás vše -- mo -- hou -- cí Bůh
+      \Verse Po -- žeh -- nej vás vše -- mo -- hou -- cí Bůh,
       O -- tec i Syn
       i Duch sva -- tý.
       \Response A -- men.
@@ -686,7 +686,7 @@
       b c \barFinalis
     }
     \addlyrics {
-      \Verse Dej nám, Bo -- že, po -- koj -- nou noc,
+      \Verse Dej nám, Bo -- že, po -- koj -- nou noc
       a po -- si -- luj nás,
       ať vy -- tr -- vá -- me v_dob -- rém až do kon -- ce.
       \Response A -- men.
