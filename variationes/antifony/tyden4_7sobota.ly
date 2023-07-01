@@ -1312,8 +1312,30 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 c f e f d \barMaior
+    \mark\sipka d e f e( d c) c
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás
+    no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ez 36"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a c c c( d) d \barMaior
     d c b a g a c b g( a) a \barFinalis
@@ -1327,6 +1349,28 @@
     modus = "IV alt"
     differentia = "c"
     psalmus = "Ez 36"
+    placet = "začátek je v rámci modu hodně netypický"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a c c c( d) d \barMaior
+    d c b a g a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Ez 36"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -1335,8 +1379,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \mark\sipka g4 a c c c( d) d \barMaior
-    d c b a g a c b g( a) a \barFinalis
+    g4 a c c c( d) d \barMaior
+    d c b a g a c b \mark\sipka a( b a) a \barFinalis
   }
   \addlyrics {
     Dám vám no -- vé srd -- ce

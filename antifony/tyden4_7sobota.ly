@@ -180,7 +180,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a c c c( d) d \barMaior
+    g4 a c c c( d) d \barMaior
     d c b a g a c b g( a) a \barFinalis
   }
   \addlyrics {
@@ -190,7 +190,7 @@
   \header {
     quid = "2. ant."
     modus = "IV alt"
-    differentia = "c"
+    differentia = "A"
     psalmus = "Ez 36"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
