@@ -14,9 +14,9 @@
   \relative c'' {
     \choralniRezim
     a4 a g( b g) g( a) a \barMin g( a g) f e4. e \barMaior
-    f4 g a a g( f) g( a) a \barMaior
+    d4 e f f g( f) g( a) a \barMaior
     a a a a( b) a g g( a) a \barMaior
-    a( b) g g( f e) \barMin e( f) d e e \barFinalis
+    a( b) g g( f e) \barMin f( d) f e e \barFinalis
   }
   \addlyrics {
     Pán nás mi -- lo -- val věč -- nou lás -- kou;
@@ -118,15 +118,13 @@
   \relative c' {
     \choralniRezim
     e4( d e) e( a) \barMin a g a a( g) f a( g f) e \barMaior
-    a4 a a a( b g) g \barMin f g f d e \barFinalis
+    a4 a a a( b g) g \barMin f e d d( e) e \barFinalis
   }
   \addlyrics {
     O -- heň jsem při -- šel vrh -- nout na zem,
-    a jak si pře -- ji, a -- by se už vzňal!
+    a jak si pře -- ji, a -- by už vzpla -- nul!
   }
   \header {
-    textus_approbatus = "Oheň jsem přišel vrhnout na zem,
-    a jak si přeji, aby už vzplanul!"
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "E"
@@ -141,8 +139,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d( c d) a \barMin c( d) d d e d c d d( c) c \barMaior
-    d( c b) c b( g) \barMin b a g g \barFinalis
+    c4( d) d \barMin d( e) d d e f e d c( d) d \barMaior
+    d( c b) c b( g) \barMin b c a( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me,
@@ -152,7 +150,7 @@
   \header {
     quid = "ant."
     modus = "VII"
-    differentia = "d"
+    differentia = "c"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -188,9 +186,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f e( d) d \barMin
+    d4 c d f e( f) d \barMin
     e e d c a a \barMaior
-    c d c d f e d d \barFinalis
+    d d c d d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě,
@@ -222,6 +220,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 98"
+    placet = "spíš lépe"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -230,9 +229,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g( f g) g \barMin
-    f4 e d c d f g( f) f \barMaior
-    g a f f \barFinalis
+    f4 g a g( f g4.) g \barMin
+    bes4 a g f g a f f \barMaior
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Bůh je má spá -- sa;
@@ -255,7 +254,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g4.( a) \barMin a4 b a b b( d) d \barMaior
-    d4 d( e c d) d \barMin d c( b a) g g( a) a \barMin a a( b g) g \barFinalis
+    d4 d( e c d) d \barMin d c( b a) g g( a) a b g g \barFinalis
   }
   \addlyrics {
     Je -- žíš stál a hla -- si -- tě vo -- lal:
@@ -275,8 +274,8 @@
   \relative c' {
     \choralniRezim
     c d f e d( e) e \barMin
-    e f g f d d \barMin e c d( f) e e( d) d \barMaior
-    f g4. f4( d) e( d) c( d) d \barFinalis
+    e f g f d d \barMin e c d f e( d) d \barMaior
+    f g-- f4( d) e( f) d d \barFinalis
   }
   \addlyrics {
     Pojď -- te ke mně všich -- ni,
@@ -296,8 +295,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g) f a( bes) a g f( g) g \barMaior
-    d d d( g) f e d( c) c \barMin d( f) e d( e d) d \barFinalis
+    a4 g a( bes) a g f( g) g \barMaior
+    d d d( g) f e d( c) c \barMin d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Dej mi, sy -- nu, své srd -- ce,
@@ -318,18 +317,18 @@
     \choralniRezim
     \key f \major
     % R
-    \neviditelna d
-    d4( f) f f g f e f f( d) \barMin
-    f g( a) g f g( a) a a \barMax
-    bes a g a( d,) d \barMin c d( f) e c c( d) d \barFinalis
+    \neviditelna f
+    f4 f f g g f g f \barMin
+    f f( g) g f g a a( g) \barMax
+    g g f g( a) g \barMin g f( d) f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a'( bes) a a( bes) a g f g( a) a \barMax
+    a( bes) a a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    bes a g a( d,) d \barMin c d( f) e c c( d) d \barFinalis
+    g g f g( a) g \barMin g f( d) f g g( f) f \barFinalis
     % Slava
-    a'4 a a( bes) a g a( bes a) a \barMin a g f g( a) a a \barFinalis
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Vez -- mě -- te na se -- be mé jho
@@ -341,7 +340,7 @@
   }
   \header {
     quid = "resp."
-    modus = "I"
+    modus = "VI"
     id = "rch-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -396,8 +395,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g e g a c b g g( a) a \barMaior
-    a g f g( a) g f e e \barFinalis
+    a4 a a g e a g a b( a) a \barMaior
+    g e e f g f e e \barFinalis
   }
   \addlyrics {
     Zdr -- ce -- no je mé srd -- ce v_mém nit -- ru,
@@ -418,7 +417,7 @@
     \choralniRezim
     a4 a g( a) e e \barMin
     a g a b a c b g a \barMaior
-    g f f( g a) a \barMin g( a) g f( e) e \barFinalis
+    a a g( f e) e \barMin e( f) d d( e) e \barFinalis
   }
   \addlyrics {
     Je -- den z_vo -- já -- ků
@@ -441,7 +440,7 @@
   \relative c'' {
     \choralniRezim
     a4 a a( g) g \barMin f g a a a( c) a a \barMaior
-    a b c a( g) \barMin f e f d d \barFinalis
+    a b c a( g) \barMin f e d( e) d d \barFinalis
   }
   \addlyrics {
     Pa -- nuj, Pa -- ne, u -- pro -- střed svých ne -- přá -- tel,

@@ -3281,6 +3281,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4( d e) e( a) \barMin a g a a( g) f a( g f) e \barMaior
     a4 a a a( b g) g \barMin f g f d e \barFinalis
@@ -3290,6 +3291,30 @@
     a jak si pře -- ji, a -- by
     % už vzpla -- nul! % puvodni
     se už vzňal! % moje nahrazka
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne20c-1ne-amag"
+    fial = "mezidobi_nejsvsrdce.ly#1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4( d e) e( a) \barMin a g a a( g) f a( g f) e \barMaior
+    a4 a a a( b g) g \barMin f e d d( e) e \barFinalis
+  }
+  \addlyrics {
+    O -- heň jsem při -- šel vrh -- nout na zem,
+    a jak si pře -- ji, a -- by už vzpla -- nul!
   }
   \header {
     quid = "ant. k Magnificat"
