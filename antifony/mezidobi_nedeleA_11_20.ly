@@ -208,13 +208,15 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( c) c c b a c b a g g \barMin
-    g( a) g f g( a) a \barMaior
-    a b c c b a g( a) g g \barMax
-    c( a) c( g) g \barMin f g( a) g( a) g g \barFinalis
+    g4 a f g( a) a( g) g \barMin
+    a a a a( c) a
+    b c a g g \barMin
+    g g g f e d f g g \barMaior
+    a( b c) a( g) g \barMin a f g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Kdo po -- dá ně -- ko -- mu tře -- ba jen čí -- ši
+    Kdo po -- dá ně -- ko -- mu
+    tře -- ba jen čí -- ši
     stu -- de -- né vo -- dy,
     pro -- to -- že je to můj u -- čed -- ník,
     ne -- při -- jde o svou od -- mě -- nu.

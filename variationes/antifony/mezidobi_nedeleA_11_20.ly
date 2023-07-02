@@ -619,6 +619,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f g a \barMin a c g a g f g \barMaior
+    f e c \mark\sipka e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo ne -- be -- re svůj kříž
+    a ne -- ná -- sle -- du -- je mě,
+    ne -- ní mě ho -- den.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne23c-rch-ben?zacatek"
+    id = "ne13a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -644,8 +667,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( c) c c b a c b a g g \barMin
     g( a) g f g( a) a \barMaior
@@ -668,6 +694,89 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( b a) a a( b) a( g) g \barMin
+  }
+  \addlyrics {
+    Kdo po -- dá ně -- ko -- mu
+    tře -- ba jen čí -- ši
+    stu -- de -- né vo -- dy,
+    pro -- to -- že je to můj u -- čed -- ník,
+    ne -- při -- jde o svou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne13a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Lépe jest podávati číši studené vody bez blahosklonnosti:
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) f g( a) a( g) g \barMin
+    a a a a( c) a
+    b c a g g \barMin
+    g g g f e d f g g \barMaior
+    a( c) b( c a) a \barMin g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo po -- dá ně -- ko -- mu
+    tře -- ba jen čí -- ši
+    stu -- de -- né vo -- dy,
+    pro -- to -- že je to můj u -- čed -- ník,
+    ne -- při -- jde o svou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne13a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka a f g( a) a( g) g \barMin
+    a a a a( c) a
+    b c a g g \barMin
+    g g g f e d f g g \barMaior
+    \mark\sipka a( b c) a( g) g \barMin a f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo po -- dá ně -- ko -- mu
+    tře -- ba jen čí -- ši
+    stu -- de -- né vo -- dy,
+    pro -- to -- že je to můj u -- čed -- ník,
+    ne -- při -- jde o svou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne13a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"14. neděle"}}
 
