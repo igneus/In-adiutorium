@@ -47,7 +47,7 @@
     \choralniRezim
     d4( a') a \barMin f g a bes a a \barMaior
     c c c( a) a a g f e( g a) a \barMax
-    a a a g f e d c d( f e) d d \barMaior
+    a a a a a a g f e( f) d d \barMaior
     c( d f) g( a) g f d d \barMin
     e d c( d) d \barFinalis
   }
