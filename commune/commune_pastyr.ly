@@ -41,11 +41,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g4.( a) g4( a) g g \barMaior
-    a b c d c a a \barMin
-    c b( a) g g f a a( g) g \barFinalis
+    a4 g f g( a) a g g \barMaior
+    f g a g a c b \barMin
+    c c b g a g f( g) g \barFinalis
 
-    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Já bu -- du pást své stá -- do;

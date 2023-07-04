@@ -177,7 +177,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g4.( a) g4( a) g g \barMaior
     a b c d c a a \barMin
@@ -222,6 +222,85 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g( a) a g g \barMaior
+    f g a g a c b \barMin
+    c c b g a g f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pást své stá -- do;
+    bu -- du hle -- dat ztra -- ce -- né,
+    zpět při -- ve -- du roz -- ptý -- le -- né.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d( e d) c( b) a a \barMaior
+    c c b a g( a) g g \barMin
+    f a c c b c a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pást své stá -- do;
+    bu -- du hle -- dat ztra -- ce -- né,
+    zpět při -- ve -- du roz -- ptý -- le -- né.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 g g a g f( g) g \barMaior
+    f f e d f g g \barMin
+    a c b g a g f( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pást své stá -- do;
+    bu -- du hle -- dat ztra -- ce -- né,
+    zpět při -- ve -- du roz -- ptý -- le -- né.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 146"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
