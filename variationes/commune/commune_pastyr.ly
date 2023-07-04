@@ -93,6 +93,62 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e) e( d) d \barMin
+    c b a b g g \barMaior
+    f a c b \mark\sipka c( d c) \barMin
+    b c a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dám vám pas -- tý -- ře
+    po -- dle své -- ho srd -- ce
+    a bu -- dou vás pást
+    ro -- zum -- ně a moud -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e) e( d) d \barMin
+    c b a b g g \barMaior
+    \mark\sipka a a f g g( a) \barMin
+    c c a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dám vám pas -- tý -- ře
+    po -- dle své -- ho srd -- ce
+    a bu -- dou vás pást
+    ro -- zum -- ně a moud -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -887,6 +943,34 @@
     \mark\sipka d d d( e) c c b c a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d c) c \barMin
+    d e c a a \barMin
+    \mark\sipka c b a g( a) g \barMaior
+    f g g( a) a a c b g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me,
