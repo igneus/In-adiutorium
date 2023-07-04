@@ -149,7 +149,7 @@
 \markup\justify\italic{
   Následující vlastní texty pro nešpory jsou obsaženy ve vydání breviáře
   z roku 1989 a jeho reprintech.
-  Nejnovější vydání reflektují skutečnost, že oslava sv. Cyrila a Metoděje
+  Vydání 2005 a novější reflektují skutečnost, že oslava sv. Cyrila a Metoděje
   byla povýšena na slavnost i pro Čechy, a nešpory z památky sv. Prokopa již
   neobsahují.
 }
