@@ -831,6 +831,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f \mark\sipka g g( a) a \barMaior
+    g f g a f d d( c) \barMin
+    d d( f g) e( f) e c d \barFinalis
+  }
+  \addlyrics {
+    Kdo chce být prv -- ní,
+    ať je ze všech po -- sled -- ní
+    a slu -- žeb -- ní -- kem všech.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne25b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
