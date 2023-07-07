@@ -804,6 +804,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g \barMin
+    g f g a bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te
+    před Hos -- po -- di -- na s_já -- so -- tem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 100"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIpatekAntBenedictus }
 
 \pageBreak

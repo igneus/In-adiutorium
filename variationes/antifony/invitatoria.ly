@@ -1852,6 +1852,27 @@ pojdmeKlanmeSeCele = {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f( g a) g \barMin
+    \mark\sipka g f g a a g f f \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te
+    před Hos -- po -- di -- na s_já -- so -- tem.
+  }
+  \header {
+    dies = "čtvrtek"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    id = "t2ct"
+    fons = "žaltář, pátek 1.t., rch, 3.ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny 3
 
 \score {

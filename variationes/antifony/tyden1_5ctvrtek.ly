@@ -922,6 +922,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d e( f) d( c) c \barMin
+    f g a g f g( f) f \barMaior
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je ve -- li -- ký,
+    vel -- mi je hod -- ný chvá -- ly
+    v_měs -- tě na -- še -- ho Bo -- ha.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 48"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIctvrtekAntBenedictus }
 
 \pageBreak
