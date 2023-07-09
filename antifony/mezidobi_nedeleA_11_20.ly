@@ -235,28 +235,27 @@
 \markup {\nadpisDen {"14. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f( g a) bes( a) g a f( g) g \barMin
-    g( a) g g f d e( d) c \barMaior
-    d d d( f e) f( g) g \barMin a g f g( a) g g \barMaior
-    a( f g) f d c c \barMin
-    d d f g a g f f \barFinalis
+    g4 a c c c( e) d \barMin
+    d c d( e) d c d d \barMaior
+    e d c( d) d( c) c \barMin a b c a g g \barMaior
+    a-- f g g( a) a \barMin
+    a c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím tě, Ot -- če,
     Pa -- ne ne -- be a ze -- mě,
     že jsi ta -- jem -- ství Bo -- ží -- ho krá -- lov -- ství
     skryl před moud -- rý -- mi
-    a od -- ha -- lils
-    je ma -- lič -- kým.
+    a od -- ha -- lils je ma -- lič -- kým.
   }
   \header {
     textus_approbatus = "Velebím tě, Otče, Pane nebe a země,
     že jsi tajemství Božího království skryl před moudrými a odhalil jsi je maličkým."
     quid = "ant. k Magnificat"
-    modus = "VI"
-    differentia = "F"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = "ne14a-1ne-amag"
@@ -265,23 +264,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 f f e d e \barMaior
-    c d e d d \barMin d f e d c( b) a \barMaior
-    c d d d c d d( f e) e d e d d \barFinalis
+    c4 b a c( d) d( c) c \barMaior
+    c d e c( a) a \barMin c b( c) a g a( g) g \barMaior
+    g f a c c c b a g a g f( g) g \barFinalis
   }
   \addlyrics {
     Uč -- te se o -- de mě,
     ne -- boť jsem ti -- chý a po -- kor -- ný srd -- cem,
-    na -- lez -- ne -- te pro své du -- še od -- po -- či -- nek.
+    a na -- lez -- ne -- te pro své du -- še od -- po -- či -- nek.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
+    fial = "mezidobi_nejsvsrdce.ly#1ne-a2"
     id = "ne14a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
