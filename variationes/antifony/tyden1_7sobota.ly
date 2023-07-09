@@ -197,6 +197,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a \mark\sipka g( a) g g \barMin f e d( e) e \barMaior
+    f g a a a g( a) g f \mark\sipka a( g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- ní -- ží ja -- ko dí -- tě,
+    ten je v_ne -- bes -- kém krá -- lov -- ství nej -- vět -- ší.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 131"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a g( a) g g \barMin \mark\sipka a g f( e) e \barMaior
     d f g a a g( a) g f d e e \barFinalis
   }

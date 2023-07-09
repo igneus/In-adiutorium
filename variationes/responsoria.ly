@@ -1780,6 +1780,37 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f f f f g f g( a) a( g) \barMax
+      g f d f g \mark\sipka g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a a a a( bes) a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g f d f g \mark\sipka g( f) f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Vo -- lám k_to -- bě, Hos -- po -- di -- ne,_* ty jsi mé ú -- to -- čiš -- tě.
+      \Verse Ty jsi můj ú -- děl v_ze -- mi ži -- vých,_*
+      \Response ty jsi mé ú -- to -- čiš -- tě.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1so-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
 }
 
 \bookpart {

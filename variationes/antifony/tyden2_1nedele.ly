@@ -629,6 +629,30 @@
   \relative c'' {
     \choralniRezim
     g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c d c c b c a g g \barMin
+    a a g f g a a \barMin
+    g \mark\sipka f g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
     c4 c d c c b \mark\sipka g a c b \barMaior
     c c a g a g f \barMin
     g a g g \barFinalis
@@ -1223,6 +1247,28 @@ Potřebuje výraznější úpravu:}
     a4 g( d') d e e d c d d \barMaior
     \mark\sipka d c b a b a a( g) g \barMaior
     f^\markup\rubrMimoPust g a g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c c c d( e) d d \barMaior
+    d c b a g a a( g) g \barMaior
+    a^\markup\rubrMimoPust g f( a) g \barFinalis
   }
   \addlyrics {
     Bůh vi -- děl všech -- no, co u -- dě -- lal,
