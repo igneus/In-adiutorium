@@ -1727,6 +1727,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g c d e d \barMaior
+  }
+  \addlyrics {
+    Bůh sám u se -- be u -- sta -- no -- vil,
+    že vše -- chno sjed -- no -- tí v_Kris -- tu,
+    až se na -- pl -- ní čas
+    pro dí -- lo spá -- sy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIIpondeliNespAntIII }
 
 %\score { \tIIpondeliAntMagnificat }
