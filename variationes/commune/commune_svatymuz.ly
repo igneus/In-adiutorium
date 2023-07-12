@@ -1462,6 +1462,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1526,6 +1527,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R

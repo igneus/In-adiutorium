@@ -474,7 +474,7 @@
     g g g a g( f) d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a a a( bes) a \barMin a a a a g( a) g f( g) g( a) \barMax
+    a a g( a) g \barMin g g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g g g a g( f) d f g g( f) f \barFinalis
