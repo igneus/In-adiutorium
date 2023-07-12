@@ -1222,6 +1222,54 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c \mark\sipka d( e f) d d f( g) f d d \barMaior
+    f e \mark\sipka d c( d c4.) c \barMin d4 c d e( f d) c( d) d \barFinalis
+
+    \mark\sipka c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    Pán je za -- hr -- nul věč -- nou slá -- vou
+    a dal jim ú -- čast na věč -- ném dě -- dic -- tví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e( f) d( c) c f( g) a g g \barMaior
+    a a a f( e d4.) d \barMin d4 c d e( f d) c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    Pán je za -- hr -- nul věč -- nou slá -- vou
+    a dal jim ú -- čast na věč -- ném dě -- dic -- tví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

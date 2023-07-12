@@ -61,6 +61,32 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 g g g a a e e \barMaior
+    c d \mark\sipka d e e \barMin
+    f g a g f( e) e \barFinalis
+
+    f^\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nu svěř svůj o -- sud,
+    v_ně -- ho dů -- vě -- řuj,
+    on sám bu -- de jed -- nat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 37-I"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4 g g f g( a) f f( g) g \barMaior
