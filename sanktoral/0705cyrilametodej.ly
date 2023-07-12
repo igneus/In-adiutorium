@@ -22,7 +22,7 @@
     a c c b( c) a a \barMin
     c c b a g( a) g g \barMaior
     a a a f e d d f( g) g \barMaior
-    a( b c) b c a a \barMin
+    a b c a a \barMin
     a( g) f g( a) a( g) g \barFinalis
   }
   \addlyrics {
@@ -73,8 +73,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a f g g( a) \barMin a g a g f g g \barMaior
-    a4 a g f f g f d( e c) c \barMin d( f) e c( d) d \barFinalis
+    a4 a f g g( a) \barMin a c b a b g g \barMaior
+    a4 a g f g a g f( e d c) c \barMin d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     By -- li u -- če -- ní a vy -- na -- lez -- li pís -- mo,
@@ -85,7 +85,6 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Dan 3-III"
-    placet = "není to ono"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -149,8 +148,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d) c c d f( d) c a b( c) a g a a \barMaior
-    g f g g( a) \barMin a( c) b g a a \barFinalis
+    a4 g a c c c( e) d \barMin
+    c( d) e c d d \barMaior
+    d c b a( g) \barMin
+    a( g) f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Zbož -- ně a spra -- ve -- dli -- vě slou -- ži -- li Pá -- nu
@@ -158,8 +159,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -239,7 +240,7 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) f f e( f) d( c) c \barMin
-    a c d e( d) c( d) d \barFinalis
+    d e f d( c) c( d) d \barFinalis
   }
   \addlyrics {
     Slo -- vo Pá -- ně se ší -- ři -- lo
@@ -259,10 +260,10 @@
   \relative c'' {
     \choralniRezim
     a4 a a g f g( a) a \barMaior
-    a c( d) c a g g \barMin g f( g) g( a) a a g f e e \barMax
+    a c( d) c a g g \barMin f g g( a) a a g f e e \barMax
 
     e( f) d c c4.( d) \barMin d4 f g f e g( a) a \barMaior
-    a g bes a( g a4.) d, \barMin f4 f e f c( d) d \barFinalis
+    a g bes a( g a4.) d, \barMin f4 f e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, náš Pa -- ne,
@@ -300,6 +301,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Zj 15"
+    placet = "málo zpěvná - nikdy opravdu nevzlétne z tóniky, jsou to takové dva zrušené pokusy o start"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
