@@ -267,6 +267,16 @@
   }
 }
 
+\pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Serve bone et fidélis, quia super pauca fuísti fidélis, super multa te constítuam.
+  }
+  \bold{[non plus]}
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -292,6 +302,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {

@@ -356,7 +356,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \[ g4( c \] \[ d c d) \] d( c) \barMin
     c c b a c a b g g \barMaior
@@ -378,6 +378,37 @@
     differentia = "G"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-rch-aben?delsi_text&upraveno"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \[ g4( c \] \[ d c d) \] d( c) \barMin
+    c c b a c a b g g \barMaior
+    \mark\sipka a a a g f g g( a) a \barMin
+    a( c) c b g g \barMaior
+    c c c( d) c c \barMin b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Správ -- ně,
+    slu -- žeb -- ní -- ku dob -- rý a věr -- ný.
+    Má -- lo jsi spra -- vo -- val věr -- ně,
+    mno -- ho ti svě -- řím.
+    Pojď se ra -- do -- vat
+    se svým Pá -- nem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-rch-aben?konec=29"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

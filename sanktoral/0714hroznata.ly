@@ -41,7 +41,7 @@
     \choralniRezim
     \[ g4( c \] \[ d c d) \] d( c) \barMin
     c c b a c a b g g \barMaior
-    g( a) a a g f g g( a) a \barMin
+    a a a g f g g( a) a \barMin
     a( c) c b g g \barMaior
     c c c( d) c c \barMin b a g( a) g \barFinalis
   }
@@ -58,7 +58,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-rch-aben?konec"
+    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-rch-aben?konec=29"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
