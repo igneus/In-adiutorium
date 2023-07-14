@@ -812,6 +812,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f g( a) a \barMaior
     a c( d) c a g g \barMin g f( g) g( a) a a g f e e \barMax
@@ -836,6 +837,38 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMaior
+    a c( d) c a g g \barMin f g g( a) a a g f e e \barMax
+
+    e( f) d c c4.( d) \barMin d4 f g f e g( a) a \barMaior
+    a g bes a( g a4.) d, \barMin f4 f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, náš Pa -- ne,
+    jak po -- di -- vu -- hod -- né je tvé jmé -- no po ce -- lé ze -- mi!
+
+    Slá -- vou a ctí jsi o -- věn -- čil své sva -- té
+    a dals jim vlád -- nout nad dí -- lem svých ru -- kou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 8"
+    fial = "sanktoral/0705cyrilametodej.ly#2ne-a2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

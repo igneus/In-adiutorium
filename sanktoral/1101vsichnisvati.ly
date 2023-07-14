@@ -182,10 +182,10 @@
   \relative c'' {
     \choralniRezim
     a4 a a g f g( a) a \barMaior
-    a c( d) c a g g \barMin g f( g) g( a) a a g f e e \barMax
+    a c( d) c a g g \barMin f g g( a) a a g f e e \barMax
 
     e( f) d c c4.( d) \barMin d4 f g f e g( a) a \barMaior
-    a g bes a( g a4.) d, \barMin f4 f e f c( d) d \barFinalis
+    a g bes a( g a4.) d, \barMin f4 f e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, náš Pa -- ne,
