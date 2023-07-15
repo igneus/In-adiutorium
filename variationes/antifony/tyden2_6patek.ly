@@ -10,6 +10,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c b c \barMin
     d e d c b g a f g g \barFinalis
@@ -25,6 +26,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-I"
+    placet = "_Hospodine_ lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -68,6 +70,29 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 38-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 c e d \barMin
+    c d c b a g a f g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    ne -- ká -- rej mě ve svém roz -- hor -- le -- ní.
+
+    % aleluja v breviari neni
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 38-I"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}

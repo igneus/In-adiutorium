@@ -12,8 +12,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c b c \barMin
-    d e d c b g a f g g \barFinalis
+    d4 c e d \barMin
+    c d c b a g a f g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,
@@ -26,7 +26,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 38-I"
-    placet = "_Hospodine_ lépe"
     id = "mc-ant1"
     piece = \markup {\sestavTitulek}
   }
