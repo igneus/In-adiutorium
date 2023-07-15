@@ -1844,6 +1844,125 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka c f e f g \barMin a a a g g f e d4. d \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je mi -- lo -- srd -- ný, po -- mo -- hl mi,
+    když jsem byl v_bí -- dě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f e f d \barMin
+    c d f f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je mi -- lo -- srd -- ný,
+    po -- mo -- hl mi, když jsem byl v_bí -- dě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e d c \barMin
+    f g a a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je mi -- lo -- srd -- ný,
+    po -- mo -- hl mi, když jsem byl v_bí -- dě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 g g f e d c \barMin
+    d e f f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je mi -- lo -- srd -- ný,
+    po -- mo -- hl mi, když jsem byl v_bí -- dě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d c b a( g) g \barMin
+    a b c a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je mi -- lo -- srd -- ný,
+    po -- mo -- hl mi, když jsem byl v_bí -- dě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 116"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g a a( g) g \barMin
+    a a g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je mi -- lo -- srd -- ný,
+    po -- mo -- hl mi, když jsem byl v_bí -- dě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 116"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
