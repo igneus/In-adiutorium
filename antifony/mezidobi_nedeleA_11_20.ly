@@ -333,8 +333,8 @@
   \relative c' {
     \choralniRezim
     c4 d d( a' bes) a \barMin
-    a g( a) g g( f e) \barMin
-    d d c d f( e) d d \barFinalis
+    a g( a) g g( f d) \barMaior
+    f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Vám je dá -- no
@@ -355,10 +355,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b a g a f g g \barMin
-    a( c) c( a) a b g g \barMaior
-    f( g) g \barMin f g a c c \barMin
-    c b g a g g \barFinalis
+    c4 c b a b a a( g) g \barMin
+    f g a a g g \barMaior
+    a( c) c \barMin d c b( c) a a \barMin
+    g f a a g g \barFinalis
   }
   \addlyrics {
     Se -- me -- no je Bo -- ží slo -- vo,
