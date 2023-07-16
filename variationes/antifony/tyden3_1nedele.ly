@@ -412,6 +412,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g a c c( b) c \barMin
     c4 d e c4. a b4( c) a( g) g \barMaior
@@ -426,6 +427,28 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g a c c( b) c \barMin
+    c4 d e c4. a b4( c) a( g) g \barMaior
+    \mark\sipka f4 g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- be -- ný jsi, Pa -- ne,
+    a pl -- ný slá -- vy na -- vě -- ky. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }

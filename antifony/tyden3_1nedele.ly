@@ -148,7 +148,7 @@
     \choralniRezim
     g4 a g a c c( b) c \barMin
     c4 d e c4. a b4( c) a( g) g \barMaior
-    g4 g( a) g g \barFinalis
+    f4 g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- be -- ný jsi, Pa -- ne,
