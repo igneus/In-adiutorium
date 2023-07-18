@@ -164,6 +164,29 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 c c b( c) a a b a a( g) g \barMaior
+    f g a a a a a b c a a \barMin
+    c b a g g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš se ra -- do -- vat ze svých sy -- nů,
+    ne -- boť v_to -- bě bu -- dou po -- žeh -- ná -- ni
+    a shro -- máž -- dě -- ni od Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4 b a g( a) g f g a a( g) g \barMaior
     a g a c c c b c a a \barMin
@@ -701,6 +724,30 @@
     d4 d f( g) g( a) a \barMin
     a a \mark\sipka a a g f g( a g) g \barMaior
     f g a a g f g f d( c) c \barMaior
+    d d d f e f d( c) c f f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Kdo smí vy -- stou -- pit
+    na Hos -- po -- di -- no -- vu ho -- ru,
+    kdo smí stát na je -- ho sva -- tém mís -- tě?
+    Ten, kdo má ne -- vin -- né ru -- ce a čis -- té srd -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f( g) g( a) a \barMin
+    a a a a g f g( a g) g \barMaior
+    f g a a g f \mark\sipka e f d( c) c \barMaior
     d d d f e f d( c) c f f( g) f d d \barFinalis
   }
   \addlyrics {
