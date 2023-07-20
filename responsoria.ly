@@ -436,7 +436,7 @@ doxologieResponsoriumVI = \relative c'' {
       g g g f( d) f g g f f \barFinalis
       % V
       \neviditelna g
-      a a a( bes) a a a( g) g( a) a( g) \barMax
+      a a g a g f g( a) a( g) \barMax
       % R
       \neviditelna g
       g g g f( d) f g g f f \barFinalis

@@ -1259,7 +1259,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -1305,6 +1305,100 @@ doxologieResponsoriumVI = {}
       \mark\sipka g( a) g g \barMin f( d) f g g f f \barFinalis
       % Slava
       %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Hos -- po -- din po -- má -- há své -- mu li -- du,_* ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
+      \Verse Me -- dem ze ská -- ly nás sy -- tí,_*
+      \Response ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ct-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f g f g( a) a( g) \barMax
+      g g g f( d) f g g f f \barFinalis
+      % V
+      \neviditelna g
+      a a a( bes) \mark\sipka g g g( f) g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g g f( d) f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Hos -- po -- din po -- má -- há své -- mu li -- du,_* ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
+      \Verse Me -- dem ze ská -- ly nás sy -- tí,_*
+      \Response ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ct-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f g f g( a) a( g) \barMax
+      g g g f( d) f g g f f \barFinalis
+      % V
+      \neviditelna g
+      a a \mark\sipka a a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g g f( d) f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Hos -- po -- din po -- má -- há své -- mu li -- du,_* ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
+      \Verse Me -- dem ze ská -- ly nás sy -- tí,_*
+      \Response ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ct-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f g f g( a) a( g) \barMax
+      g g g f( d) f g g f f \barFinalis
+      % V
+      \neviditelna g
+      a a \mark\sipka g a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g g f( d) f g g f f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Hos -- po -- din po -- má -- há své -- mu li -- du,_* ži -- ví nás ja -- dr -- nou pše -- ni -- cí.
