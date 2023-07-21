@@ -247,11 +247,13 @@
 tIstredaNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    a4( d) d d d d c( a) c( d) d d e f d( c) c( d) \barMaior
-    c a c b g a a \barFinalis
+    a4 a a a( c) b c d d \barMin
+    d e c c( d) d \barMaior
+    c a a( b) g g a a \barFinalis
   }
   \addlyrics {
-    Kris -- tus je dří -- ve zro -- ze -- ný než ce -- lé tvor -- stvo,
+    Kris -- tus je dří -- ve zro -- ze -- ný
+    než ce -- lé tvor -- stvo,
     on má ve všem pr -- ven -- ství.
   }
   \header {
