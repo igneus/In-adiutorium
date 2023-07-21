@@ -163,6 +163,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "začátek až po _Boží zákon_ je nezpěvný"
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
