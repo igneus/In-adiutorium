@@ -1091,6 +1091,40 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka g f g g( f) \barMin
+    f f f f f g( a) a( g) \barMax
+    g g g g g a g( f) d d \barMin f f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g f( g) g( a) \barMax
+    % R
+    \neviditelna a
+    g g g g g a g( f) d d \barMin f f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response U -- pro -- střed shro -- máž -- dě -- ní
+    o -- te -- vřel mu Pán ús -- ta,_*
+    na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu.
+    \Verse Ob -- lé -- kl mu rou -- cho slá -- vy,_*
+    \Response na -- pl -- nil ho du -- chem mou -- dros -- ti a ro -- zu -- mu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době velikonoční:}

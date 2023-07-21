@@ -1524,6 +1524,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f\major
+    f4 g a a a g f f( g) g \barMin
+    a a g f e( f d c) c \barMaior
+    d c d( f) e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- či -- nil mi ve -- li -- ké vě -- ci
+    ten, kte -- rý je moc -- ný,
+    je -- ho jmé -- no je sva -- té.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "t1-st-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 % ctvrtek

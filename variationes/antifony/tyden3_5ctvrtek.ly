@@ -1035,6 +1035,46 @@ si hrát:}
   \relative c' {
     \choralniRezim
     f4 g a g f g g \barMin
+    g \mark\sipka a g f( g) f f \barFinalis
+  }
+  \addlyrics {
+    Po -- moz mi, Hos -- po -- di -- ne,
+    a bu -- du za -- chrá -- něn.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-XV"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g g \barMin
+    g a g \mark\sipka f( d) f( g) f \barFinalis
+  }
+  \addlyrics {
+    Po -- moz mi, Hos -- po -- di -- ne,
+    a bu -- du za -- chrá -- něn.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-XV"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g g \barMin
     \mark\sipka f d d c( e) d d \barFinalis
   }
   \addlyrics {
