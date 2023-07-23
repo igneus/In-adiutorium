@@ -60,7 +60,7 @@
     a4 a( g) g a a( b) a a( g) g \barMax
     g( a g) g4.( c) a4( g) g( e) e \barMaior
     e d c d( e) e( f e) e \barMax
-    g f( g) f( d) e \barFinalis
+    g f( d) d( e) e \barFinalis
   }
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:
@@ -73,7 +73,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Zj 11"
-    placet = "aleluja lépe"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -117,9 +116,9 @@
     d4 d( a' g a) f4.( g) \barMin f4 f( a) g f g( f) e \barMaior
     f a g f4.( d) f4 e f d4. d \barMax
 
-    d4( c d4.) d f4 g f g( a) g( a) a \barMaior
-    b c c a( g) g a g f g( f) f \barMaior
-    f e( f) f( g) g \barMin g( f) e f d4. d \barFinalis
+    d4( c d4.) d f4 g f g g( a) a \barMaior
+    a b c a( g) g a g f g( f) f \barMaior
+    f d( f) f( g) g \barMin g f e( c) e( f d4.) d \barFinalis
   }
   \addlyrics {
     Jak dob -- rý_* a štěd -- rý jsi, Bo -- že,
@@ -173,7 +172,7 @@
     \choralniRezim
     a4 g f g a a \barMaior
     c c b g b( c) a a \barMin
-    g( a) f e( f) d( c) c \barMaior
+    g( a) f e( f) d( c) c \barMin
     d f e( d) d \barFinalis
   }
   \addlyrics {
@@ -227,7 +226,7 @@
     \choralniRezim
     d4 f e f g g \barMin
     a g f g( a) g g \barMaior
-    a g f e d c e( f d) d \barFinalis
+    a a g f e c e( f d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din nás ži -- ví
@@ -488,7 +487,7 @@
     a b( c) a( g) g \barMin
     a a g f g f g a g g \barMaior
     g f g g( a) a \barMin
-    b c a g g f g a g g \barFinalis
+    c b a g g f g a g g \barFinalis
   }
   \addlyrics {
     Pán Je -- žíš,
@@ -511,7 +510,7 @@
   \relative c' {
     \choralniRezim
     f4 g a f f( g) g \barMin
-    g bes a g f g g( f) f \barFinalis
+    g a( bes) a g f g g( f) f \barFinalis
   }
   \addlyrics {
     Vez -- mu ka -- lich spá -- sy
