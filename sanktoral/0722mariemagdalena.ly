@@ -19,7 +19,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e d d( f) f \barMaior
+    d4 d c d d( f) f \barMaior
     f f f g a f e e \barMaior
     d4 d c( d) d \barMin e f g f e( f) d d \barFinalis
   }
@@ -39,25 +39,26 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a( d) d b( c d) a g( a) a \barMin
-    a( g) a b c a a \barMax
-    b4( c d) d4. d4 f( d) d4. \barMin c4 d c b g( a) a \barMaior
-    f g( a) c( b) a \barFinalis
+    d4 d c d e( f d) c c( d) d \barMaior
+    f( g a bes) a g( f) a g g \barMaior
+    a g f e( f d) d( c) \barMin
+    d c e f d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Mo -- je srd -- ce_* pla -- ne tou -- hou
     spa -- třit mé -- ho Pá -- na;
-    hle -- dám a ne -- vím, kam ho po -- lo -- ži -- li.
+    hle -- dám a ne -- vím,
+    kam ho po -- lo -- ži -- li.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "I"
+    differentia = "D"
     psalmus = "Dan 3-III"
-    placet = "závěr by zasloužil trochu péče"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
@@ -67,7 +68,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 a a a bes( a) a \barMin
+    f4 g a a bes( a) a \barMin
     g a f e f d d \barMaior
     e f d c f( g) a a
     g( a f) e d d \barMaior
@@ -130,8 +131,9 @@
   \relative c'' {
     \choralniRezim
     g4 f e d( a') bes( a) a \barMaior
-    g( a bes) a( g) g g g g g( a) bes a g f g \barMaior
-    g g a g f( d) d \barMin f e d e( d) d \barFinalis
+    g( a bes) a( g) g \barMin g g f g a g f( e) d( c) c \barMaior
+    d d f e d( c) c \barMin
+    d f e c( d) d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš vstal z_mrt -- vých,_*
@@ -145,7 +147,6 @@
     modus = "I"
     differentia = "g"
     psalmus = ""
-    placet = "slabší"
     id = "rch-aben"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -157,7 +158,7 @@
   \relative c'' {
     \choralniRezim
     c4 c a g f( g) a( g) g \barMaior
-    c4 d e c4. a \barMin f4 g g( a g) g \barFinalis
+    c4 d e c4. a \barMin c4 b a( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl Ma -- ri -- i:_* Že -- no, proč plá -- češ?
@@ -168,7 +169,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 122"
-    placet = "závěr není z nejzpěvnějších"
     id = "ne-a1"
     piece = \markup\sestavTitulek
   }
@@ -177,8 +177,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 d d f g a a \barMaior
-    a g f e d f e d d \barFinalis
+    f4 e d f g a a \barMaior
+    a g f e c e f d d \barFinalis
   }
   \addlyrics {
     Od -- nes -- li mé -- ho Pá -- na_*
