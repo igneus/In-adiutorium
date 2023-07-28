@@ -125,12 +125,144 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( c) c a g a g g \barMin
     f g a( g) g \barMaior
     g f( g a) g a( c) \barMin
     d c c b( c a) g a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo sá -- zí a kdo za -- lé -- vá,
+    jsou si rov -- ni,
+    a kaž -- dý z_nich
+    do -- sta -- ne vlast -- ní od -- mě -- nu
+    po -- dle své prá -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    placet = "_z nich_ dlouhou pes moc dobře nenese"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) c \mark\sipka \barMin a g a g g \barMin
+    f g a( g) g \barMaior
+    g f( g a) g a( c) \barMin
+    d c c b( c a) g a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo sá -- zí a kdo za -- lé -- vá,
+    jsou si rov -- ni,
+    a kaž -- dý z_nich
+    do -- sta -- ne vlast -- ní od -- mě -- nu
+    po -- dle své prá -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( c) c a g a g g \barMin
+    f g a( g) g \barMaior
+    g f( g a) \mark\sipka a g( a) \barMin
+    c c c b( c a) g a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo sá -- zí a kdo za -- lé -- vá,
+    jsou si rov -- ni,
+    a kaž -- dý z_nich
+    do -- sta -- ne vlast -- ní od -- mě -- nu
+    po -- dle své prá -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) c a g a g g \barMin
+    f g a( g) g \barMaior
+    g \mark\sipka g( a g) f g( a) \barMin
+    c c c b( c a) g a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo sá -- zí a kdo za -- lé -- vá,
+    jsou si rov -- ni,
+    a kaž -- dý z_nich
+    do -- sta -- ne vlast -- ní od -- mě -- nu
+    po -- dle své prá -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) c a g a g g \barMin
+    f g a( g) g \barMaior
+    g \mark\sipka a f g( a) \barMin
+    c c c b( c a) g a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo sá -- zí a kdo za -- lé -- vá,
+    jsou si rov -- ni,
+    a kaž -- dý z_nich
+    do -- sta -- ne vlast -- ní od -- mě -- nu
+    po -- dle své prá -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) c a g a g g \barMin
+    f g a( g) g \barMaior
+    g \mark\sipka f e f( g) \barMin
+    a c c b( c a) g a g g \barMin
     f g a g g \barFinalis
   }
   \addlyrics {
