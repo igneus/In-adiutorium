@@ -558,6 +558,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka g f f f g f f f g a a( g) g \barMax
+    g f g( a) g \barMin f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a( bes) a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g \barMin f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh se u -- jal své -- ho slu -- žeb -- ní -- ka Iz -- ra -- e -- le,_*
+    pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    \Verse Jak slí -- bil na -- šim před -- kům,_*
+    \Response pa -- ma -- to -- val na své mi -- lo -- sr -- den -- ství.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
