@@ -1580,10 +1580,142 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c \mark\sipka b c( a) a( g) g \barMaior
+    a a \mark\sipka b( c a) a \barMin
+    a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel
+    na svém po -- li dob -- ré se -- me -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne16a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    \mark\sipka c d e c d d d \barMaior
+    a d c( b a g) a( g) \barMin
+    a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel
+    na svém po -- li dob -- ré se -- me -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne16a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    c d e c d d d \barMaior
+    a d c( b a g) a( g) \barMin
+    a a \mark\sipka c a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel
+    na svém po -- li dob -- ré se -- me -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne16a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    c d e c d d d \barMaior
+    a d c( b a g) a( g) \barMin
+    \mark\sipka f g a a a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel
+    na svém po -- li dob -- ré se -- me -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne16a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \mark\sipka g4 a c c c( d) d \barMin
+    c d e c d d d \barMaior
+    a d c( b a g) a( g) \barMin
+    f g a a a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né člo -- vě -- ku,
+    kte -- rý na -- sel
+    na svém po -- li dob -- ré se -- me -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g( a) g g \barMin g f g a \barMaior
     a a a a a( g) g \barMin
@@ -1613,6 +1745,150 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a g( a) g g \barMin g f g \mark\sipka g( a) \barMaior
+    c c b c a( g) g \barMin
+    g f g a a a a g f e e \barMaior
+    f g a a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
+    kte -- rý vza -- la že -- na
+    a za -- dě -- la -- la % ho
+    do tří mě -- řic mou -- ky,
+    až se všech -- no pro -- kva -- si -- lo.
+  }
+  \header {
+    textus_approbatus = "Nebeské království je jako kvas, který vzala žena
+    a zadělala ho do tří měřic mouky, až se všechno prokvasilo."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) g g \barMin g f g g( a) \barMaior
+    c c b c a( g) g \barMin
+    g f g a a a a g f e e \barMaior
+    f g a \mark\sipka b c a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
+    kte -- rý vza -- la že -- na
+    a za -- dě -- la -- la % ho
+    do tří mě -- řic mou -- ky,
+    až se všech -- no pro -- kva -- si -- lo.
+  }
+  \header {
+    textus_approbatus = "Nebeské království je jako kvas, který vzala žena
+    a zadělala ho do tří měřic mouky, až se všechno prokvasilo."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) g g \barMin g f g g( a) \barMaior
+    c c b c a( g) g \barMin
+    g f g a a a a g f e e \barMaior
+    f g a \mark\sipka a g f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
+    kte -- rý vza -- la že -- na
+    a za -- dě -- la -- la % ho
+    do tří mě -- řic mou -- ky,
+    až se všech -- no pro -- kva -- si -- lo.
+  }
+  \header {
+    textus_approbatus = "Nebeské království je jako kvas, který vzala žena
+    a zadělala ho do tří měřic mouky, až se všechno prokvasilo."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) g g \barMin g f g g( a) \barMaior
+    c c b c a( g) g \barMin
+    g f g a a a a g f e e \barMaior
+    f g a a \mark\sipka g( a g) f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
+    kte -- rý vza -- la že -- na
+    a za -- dě -- la -- la % ho
+    do tří mě -- řic mou -- ky,
+    až se všech -- no pro -- kva -- si -- lo.
+  }
+  \header {
+    textus_approbatus = "Nebeské království je jako kvas, který vzala žena
+    a zadělala ho do tří měřic mouky, až se všechno prokvasilo."
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g( a) g g \barMin g f g g( a) \barMaior
+    c c b \mark\sipka a b( c a) a \barMin
+    a f g a a a a g f e e \barMaior
+    f g a a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
+    kte -- rý vza -- la že -- na
+    a za -- dě -- la -- la % ho
+    do tří mě -- řic mou -- ky,
+    až se všech -- no pro -- kva -- si -- lo.
+  }
+  \header {
+    textus_approbatus = "Nebeské království je jako kvas, který vzala žena
+    a zadělala ho do tří měřic mouky, až se všechno prokvasilo."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     a4 a a g \barMin
     f g a a a g( a g) f e( d) e \barMaior
     d( g f a) g \barMin f( g) g e e \barFinalis
@@ -1626,6 +1902,76 @@
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g \barMin
+    f g \mark\sipka g( a) a a g( a g) f \mark\sipka e e \barMaior
+    \mark\sipka d( f g a) a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- ví
+    bu -- dou v_krá -- lov -- ství své -- ho Ot -- ce
+    zá -- řit ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g \barMin
+    f g  g( a) a a g( a g) f e e \barMaior
+    d( f g a) \mark\sipka g f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- ví
+    bu -- dou v_krá -- lov -- ství své -- ho Ot -- ce
+    zá -- řit ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne16a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g \barMin
+    f g g( a) a a \mark\sipka g( f) a g g \barMaior
+    a( b c a) a g( f) a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- ví
+    bu -- dou v_krá -- lov -- ství své -- ho Ot -- ce
+    zá -- řit ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
     annus = "A"
     id = "ne16a-2ne-amag"

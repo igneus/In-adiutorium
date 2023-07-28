@@ -408,10 +408,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g( a) g g \barMin g f g a \barMaior
-    a a a a a( g) g \barMin
-    g f e d d f g a a g g \barMaior
-    a b c( a) a g f g g \barFinalis
+    a4 a a g( a) g g \barMin g f g g( a) \barMaior
+    c c b a b( c a) a \barMin
+    a f g a a a a g f e e \barMaior
+    f g a a c b a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
@@ -437,8 +437,8 @@
   \relative c'' {
     \choralniRezim
     a4 a a g \barMin
-    f g a a a g( a g) f e( d) e \barMaior
-    d( g f a) g \barMin f( g) g e e \barFinalis
+    f g  g( a) a a g( a g) f e e \barMaior
+    d( f g a) g f e d( e) e \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- ví
