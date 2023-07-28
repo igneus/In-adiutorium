@@ -1372,12 +1372,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( b) a a a g a b c a a \barMin
     a a a g f g( a) a g( a) g f e e \barMaior
     f d d f e d( e) d( c) c \barMin
     f f( g) f e \mark\sipka c( d) d \barFinalis
+  }
+  \addlyrics {
+    Král He -- ro -- des za -- čal zle za -- kro -- čo -- vat
+    pro -- ti něk -- te -- rým čle -- nům cír -- kev -- ní ob -- ce:
+    Ja -- no -- va brat -- ra Ja -- ku -- ba
+    dal po -- pra -- vit me -- čem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( b) a a a g a b c a a \barMin
+    a a a g f g( a) a g( a) g f e e \barMaior
+    f d d f e d( e) d( c) c \barMin
+    f f( g) \mark\sipka g f d d \barFinalis
   }
   \addlyrics {
     Král He -- ro -- des za -- čal zle za -- kro -- čo -- vat

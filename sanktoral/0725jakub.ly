@@ -163,7 +163,7 @@
     a4 a( b) a a a g a b c a a \barMin
     a a a g f g( a) a g( a) g f e e \barMaior
     f d d f e d( e) d( c) c \barMin
-    f f( g) f e c( d) d \barFinalis
+    f f( g) g f d d \barFinalis
   }
   \addlyrics {
     Král He -- ro -- des za -- čal zle za -- kro -- čo -- vat
