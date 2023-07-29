@@ -3423,6 +3423,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -3455,6 +3456,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
 
       % R
@@ -3468,7 +3470,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g g \mark\sipka f g( a) g g f( d) f( g) g f f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Kris -- tus ze -- mřel za na -- še hří -- chy,_*
