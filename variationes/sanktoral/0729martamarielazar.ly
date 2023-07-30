@@ -308,3 +308,27 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d d \barMaior
+    f \mark\sipka f g( a) g( f) f \barMin
+    g f( e) d( c) \barMin
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mar -- ta řek -- la Je -- ží -- šo -- vi:
+    Ty jsi Me -- si -- áš,
+    Syn Bo -- ží,
+    kte -- rý má při -- jít na svět.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "marta-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

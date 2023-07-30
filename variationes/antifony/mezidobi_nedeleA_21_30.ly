@@ -122,6 +122,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a( c) g( f) f \barMin
+    g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/1110levveliky.ly#amag?konec=14"
+    id = "ne21a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
