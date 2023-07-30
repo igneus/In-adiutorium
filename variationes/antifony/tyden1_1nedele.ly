@@ -481,6 +481,28 @@ je atypická a může bt těžké z ní přejít na žalm.}
   \relative c'' {
     \choralniRezim
     g4 g( c) c c a( g) f( g) g \barMaior
+    a g g a g a c c b \barMin
+    \mark\sipka a( b a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil,
+    pro -- to ho ta -- ké Bůh po -- vý -- šil
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) c c a( g) f( g) g \barMaior
     a g g \mark\sipka g f g g( a) a( c) c \barMin
     b( c) a( g) g \barFinalis
   }
