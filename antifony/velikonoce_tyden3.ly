@@ -362,7 +362,7 @@
     g4 g( a) a a a( b) a a( g) g \barMax
     g( a g) g4.( c) a4( g) g( e) e \barMaior
     e d c d( e) e( f e) e \barMax
-    g f( g) f( d) e \barFinalis
+    g f( d) d( e) e \barFinalis
   }
   \addlyrics {
     Chléb z_ne -- be vám ne -- dal Moj -- žíš,
@@ -374,7 +374,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    fial = "mezidobi_telaakrvepane.ly#1ne-a3?konec"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a3?konec=36"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -1362,7 +1362,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 g( a) a a a( b) a a( g) g \barMax
     g( a g) g4.( c) a4( g) g( e) e \barMaior
@@ -1384,6 +1384,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) a a a( b) a a( g) g \barMax
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
+    e d c d( e) e( f e) e \barMax
+    g f( d) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Chléb z_ne -- be vám ne -- dal Moj -- žíš,
+    pra -- vý chléb z_ne -- be vám dá -- vá můj O -- tec.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "mezidobi_telaakrvepane.ly#1ne-a3?konec=36"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 2
 
 \score {
   \relative c' {
