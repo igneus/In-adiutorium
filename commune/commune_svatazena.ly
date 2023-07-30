@@ -503,15 +503,15 @@
   \relative c'' {
     \choralniRezim
     a4 c d d( e) d d \barMin
-    d d c d c b a( g) g \barMaior
-    f g a( b c) a g f f( g) g \barMax
+    d d c b c a a( g) g \barMaior
+    a c b( c a) a g f f( g) g \barMax
 
-    g a( c b c d) d \barMin d c d e d c d( e d) d \barMaior
-    d4.( c) \barMin
-    d4 d d( e) d c d( c) \barMin
-    a c( b) a( g) g \barFinalis
+    a a( c b c d) d \barMin c d e e d c d( e d) d \barMaior
+    d \barMin
+    d4 d c( d) c b a( g) \barMin
+    a a( b) g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství

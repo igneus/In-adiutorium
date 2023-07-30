@@ -1828,7 +1828,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 c d d( e) d d \barMin
     d d c d c b a( g) g \barMaior
@@ -1840,6 +1840,79 @@
     a c( b) a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né ob -- chod -- ní -- ku,
+    kte -- rý hle -- dá vzác -- né per -- ly.
+
+    Když na -- jde jed -- nu dra -- ho -- cen -- nou per -- lu,
+    jde,
+    pro -- dá všech -- no, co má,
+    a kou -- pí ji.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c \mark\sipka b c a a( g) g \barMaior
+    \mark\sipka a c b( c a) a g f f( g) g \barMax
+
+    \mark\sipka a a( c b c d) d \barMin \mark\sipka c d e d c b c( d e) d \barMaior
+    \mark\sipka d \barMin
+    d4 d \mark\sipka c( d) c b a( g) \barMin
+    a \mark\sipka a( b) g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né ob -- chod -- ní -- ku,
+    kte -- rý hle -- dá vzác -- né per -- ly.
+
+    Když na -- jde jed -- nu dra -- ho -- cen -- nou per -- lu,
+    jde,
+    pro -- dá všech -- no, co má,
+    a kou -- pí ji.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c b c a a( g) g \barMaior
+    a c b( c a) a g f f( g) g \barMax
+
+    a a( c b c d) d \barMin c d e \mark\sipka e d c d( e d) d \barMaior
+    d \barMin
+    d4 d c( d) c b a( g) \barMin
+    a a( b) g g \barFinalis
+
+    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství

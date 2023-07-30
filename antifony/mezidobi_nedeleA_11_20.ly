@@ -462,13 +462,13 @@
   \relative c'' {
     \choralniRezim
     a4 c d d( e) d d \barMin
-    d d c d c b a( g) g \barMaior
-    f g a( b c) a g f f( g) g \barMax
+    d d c b c a a( g) g \barMaior
+    a c b( c a) a g f f( g) g \barMax
 
-    g a( c b c d) d \barMin d c d e d c d( e d) d \barMaior
-    d4.( c) \barMin
-    d4 d d( e) d c d( c) \barMin
-    a c( b) a( g) g \barFinalis
+    a a( c b c d) d \barMin c d e e d c d( e d) d \barMaior
+    d \barMin
+    d4 d c( d) c b a( g) \barMin
+    a a( b) g g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství
@@ -494,12 +494,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d d d f e f g( f d) d \barMin
-    e e e e( f) d c d d \barMaior
-    a c c( d) d \barMin c d d d f g f e( d) d \barMin
+    d4 c d d f f f g a g f( e d4.) d \barMin
+    e4 e e e( f) d c d d \barMaior
+    a c c( d) d \barMin c d d d f g f e( d) d \barMaior
     e c a a \barMaior
-    a b c( d) d e f e d( e) d d \barMaior
-    d d f e f d c \barMin d( e) d d \barFinalis
+    a c c( d) d \barMin f g f e( f) d d \barMaior
+    f f e d e d c e( f) d d \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né sí -- ti,
@@ -522,14 +522,14 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g a g f a a a \barMin
-    a a a g( a) f e d d \barMin
-    f g a a a( c) a a \barMaior
-    a b c d( c) b( a) a \barMaior
-    a a a a g( a) g f g( a) g( a) a \barMaior
-    f( g a) a( g) g \barMin f f f g f d d \barFinalis
+    f4 f g f g g( a) g g \barMaior
+    a a g f e f d d \barMin
+    f f e f d c c \barMaior
+    d c d d f f \barMaior
+    g a g f g f e d( e) d d( c) \barMaior
+    d( e f) d( c) c \barMin f f f g f d d \barFinalis
   }
   \addlyrics {
     Kaž -- dý u -- či -- tel Zá -- ko -- na,
@@ -542,7 +542,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "g"
+    differentia = "f"
     psalmus = ""
     annus = "A"
     id = "ne17a-2ne-amag"
