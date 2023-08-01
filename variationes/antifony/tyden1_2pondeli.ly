@@ -1419,6 +1419,24 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din zkou -- má srd -- ce člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 11(10)"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
