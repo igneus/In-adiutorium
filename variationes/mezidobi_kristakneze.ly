@@ -2029,6 +2029,66 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d d c b a g a( c) b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Skr -- ze Kris -- ta
+    má -- me v_jed -- nom Du -- chu pří -- stup k_Ot -- ci.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c c d c e( d) d \barMin
+    c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Skr -- ze Kris -- ta má -- me v_jed -- nom Du -- chu
+    pří -- stup k_Ot -- ci.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c c b c a g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Skr -- ze Kris -- ta má -- me v_jed -- nom Du -- chu
+    pří -- stup k_Ot -- ci.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
