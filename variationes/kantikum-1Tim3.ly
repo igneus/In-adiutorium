@@ -98,6 +98,11 @@ mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFina
   }
 }
 
+\score {
+  \relative c'' { \choralniRezim \neviditelna a a4 a \mark\sipka a( g) g \barMin g f g a a \barFinalis }
+  \addlyrics { \tResp }
+}
+
 mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinalis }
 \score {
   \relative c'  {
