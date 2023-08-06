@@ -505,10 +505,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( g f) f g f e f( g f d) d \barMaior
-    c( d f) g( a) g f f( g) g \barMaior
-    g g g( a) g g g a g f d d \barMin d e f d c c \barMaior
-    d c d d( f) e( d) d \barMin f( g a g) f( e) d c( d) d \barMaior
+    a4 a g f e f f( g f d) d \barMin
+    c d f f f( g) g \barMaior
+    a a a g f g a g f d d \barMin d e f d c c \barMaior
+    f e d f( g) a( g) g \barMin g( a g) f( e) d c( d) d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {

@@ -686,6 +686,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a \mark\sipka b g a c b \barMin
+    a g a g e \barFinalis
+  }
+  \addlyrics {
+    Lep -- ší je den v_tvých ná -- dvo -- řích
+    než jin -- de ti -- síc.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 84"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a \mark\sipka g a f g a a \barMin
+    a g a g e \barFinalis
+  }
+  \addlyrics {
+    Lep -- ší je den v_tvých ná -- dvo -- řích
+    než jin -- de ti -- síc.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 84"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1112,6 +1152,63 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    a4 a a g( a) a( c) c \barMin
+    c c d( e) d c( d) c c \barMin
+    c b a g a a( g) g \barMax
+    f( g) g( a) a \barMin c b c d( e) d d \barMaior
+    d \mark\sipka e d c b( c) a( g) g \barMin
+    a a a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš a E -- li -- áš_*
+    mě -- li ú -- čast na slá -- vě
+    pro -- mě -- ně -- né -- ho Pá -- na;
+    sly -- še -- li Ot -- co -- vo svě -- dec -- tví
+    a mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) a( c) c \barMin
+    c c d( e) d c( d) c c \barMin
+    c b a g a a( g) g \barMax
+    f( g) g( a) a \barMin c b \mark\sipka a c( d) e( d) d \barMaior
+    d e d c b( c) a( g) g \barMin
+    a a a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš a E -- li -- áš_*
+    mě -- li ú -- čast na slá -- vě
+    pro -- mě -- ně -- né -- ho Pá -- na;
+    sly -- še -- li Ot -- co -- vo svě -- dec -- tví
+    a mlu -- vi -- li o smr -- ti,
+    kte -- rou měl Je -- žíš pod -- stou -- pit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1220,6 +1317,30 @@
     c d( c) a a \barMin b( c) a g a g g \barMaior
     g f g a b( c) a a \barMin
     a \mark\sipka c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Moj -- žíš,_* před -- sta -- vi -- tel Zá -- ko -- na,
+    a E -- li -- áš, zá -- stup -- ce pro -- ro -- ků,
+    se zje -- vi -- li ve slá -- vě
+    a roz -- mlou -- va -- li s_Je -- ží -- šem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a a g f g a a \barMaior
+    c \mark\sipka c( d) c( a) a \barMin c b a g( a) g g \barMaior
+    g f g a b( c) a a \barMin
+    a c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Moj -- žíš,_* před -- sta -- vi -- tel Zá -- ko -- na,
@@ -1529,6 +1650,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d f g g( a) a \barMin
+    a-- g f g( a) g g \barMaior
+    f g f e( f d c) c \barMin
+    d e f e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Náš spa -- si -- tel Je -- žíš Kris -- tus_*
+    nám v_e -- van -- ge -- li -- u
+    při -- ne -- sl svět -- lo
+    ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1799,7 +1944,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka a4 a( g f) f g f e f( g f d) d \barMaior
     c( d f) g( a) g f f( g) g \barMaior
@@ -1856,12 +2001,37 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
     \choralniRezim
     a4 a \mark\sipka a a g f e( f d c) c \barMin
     \mark\sipka f g a f f( g) g \barMaior
     \mark\sipka a a a g f g a g f d d \barMin d e f d c c \barMaior
     \mark\sipka f e d f( g) a( g) g \barMin g( a g) f( e) d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Když se -- stu -- po -- va -- li s_ho -- ry,_*
+    při -- ká -- zal jim Je -- žíš,
+    a -- by ni -- ko -- mu ne -- vy -- pra -- vo -- va -- li o tom, co vi -- dě -- li,
+    do -- kud Syn člo -- vě -- ka ne -- vsta -- ne z_mrt -- vých.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "1 Tim 3"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f e f f( g f d) d \barMin
+    \mark\sipka c d f f f( g) g \barMaior
+    a a a g f g a g f d d \barMin d e f d c c \barMaior
+    f e d f( g) a( g) g \barMin g( a g) f( e) d c( d) d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
