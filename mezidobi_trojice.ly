@@ -62,7 +62,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     g4 a f e f4.( g) \barMin
     g4 a c c c b g a g g \barMaior
     c( b c d) c \barMin
-    a c c c b a a g g \barFinalis
+    a c c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Troj -- je -- di -- ný Bůh
@@ -190,9 +190,9 @@ ciselnaRada = \markup\tiny\sans\concat{
   \relative c' {
     \choralniRezim
     d4 f( g) g \barMin
-    a g g a g f g f( d) d \barMaior
-    d c d f( e d) d( f) \barMin
-    f g( a f) e c( d) d \barFinalis
+    a g g a g f g g( a) a \barMaior
+    a g f e( f d) d \barMin
+    c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Buď s_ná -- mi,
@@ -201,7 +201,6 @@ ciselnaRada = \markup\tiny\sans\concat{
     i Du -- chu sva -- tý.
   }
   \header {
-    fons_externus = "volně podle Antiphonale Romanum, Antverpiae 1773, s. 608"
     quid = "1. ant."
     modus = "I"
     differentia = "D"
@@ -286,8 +285,8 @@ ciselnaRada = \markup\tiny\sans\concat{
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( g) g a( c) b g g \barMaior
-    g a f e d f g( a) a \barMaior
+    a4 a g a a( c) b g g \barMaior
+    a a g f e d f( g) g \barMaior
     a( c) b c( a) a g( f) f( g) g \barFinalis
   }
   \addlyrics {
@@ -392,8 +391,8 @@ ciselnaRada = \markup\tiny\sans\concat{
     a4 a a g f g( a) a \barMin
     a4 c c b( c a4.) a \barMaior
     b4 g g a g f d d( e) \barMaior
-    e4 e g( a) g( a) a \barMin
-    a( b a) a( e) \barMin e4 f( g) g( e) e \barFinalis
+    f4 f g( a) g( a) a \barMin
+    a( b g) g( e) \barMin e f( e) d( e) e \barFinalis
   }
   \addlyrics {
     Ten, kte -- rý všech -- no stvo -- řil
@@ -524,10 +523,10 @@ ciselnaRada = \markup\tiny\sans\concat{
 \score {
   \relative c' {
     \choralniRezim
-    f4( g) g( a) g f \barMin
-    f( g a g) f( g) g \barMaior
-    g f g a( bes a) g f( g) g( f) \barMaior
-    g a bes a g( f) f \barFinalis
+    f4 g g( a) g \barMin
+    g( a bes a) f( g) g \barMaior
+    g a a g f e( f d c) c \barMaior
+    d f g a g( f) f \barFinalis
   }
   \addlyrics {
     Vy -- svo -- boď nás,
