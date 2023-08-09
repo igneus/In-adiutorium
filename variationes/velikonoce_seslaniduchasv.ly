@@ -214,7 +214,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a b( c) c \barMin
     c d e d c c( d e) d d \barMin
@@ -222,6 +222,35 @@
     g a c c c d( f) e d( c a) a \barMin
     c( b) a g( a) a( g) \barMaior
     \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Nad a -- po -- što -- ly
+    se u -- ká -- za -- ly ja -- zy -- ky
+    ja -- ko z_oh -- ně;
+    a všich -- ni by -- li na -- pl -- ně -- ni
+    Du -- chem sva -- tým.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a \mark\sipka a( c) c \barMin
+    c d e d c c( d e) d d \barMin
+    c( b a) b g g \barMaior
+    g a c c c d( f) e d( c a) a \barMin
+    c( b) a g( a) a( g) \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Nad a -- po -- što -- ly

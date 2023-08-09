@@ -36,7 +36,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a b( c) c \barMin
+    a4 g a a( c) c \barMin
     c d e d c c( d e) d d \barMin
     c( b a) b g g \barMaior
     g a c c c d( f) e d( c a) a \barMin
