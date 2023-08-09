@@ -695,8 +695,8 @@
   \relative c' {
     \choralniRezim
     d4 f g g( a) f f( g) g \barMaior
-    f f( g) g \barMin g f e c d d( c) \barMaior
-    d d( f) e c c( d) d \barFinalis
+    g a( bes a) a \barMin a g f e( f) d d( c) \barMaior
+    d d( f) e d c( d) d \barFinalis
     c^\markup\rubrVelikAleluja d e d \barFinalis
   }
   \addlyrics {

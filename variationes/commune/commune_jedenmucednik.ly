@@ -1603,7 +1603,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f g g( a) f f( g) g \barMaior
     \mark\sipka f f( g) g \barMin g f \mark\sipka e c d d( c) \barMaior
@@ -1652,6 +1652,58 @@
     differentia = "D"
     psalmus = "Žalm 116-II"
     id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f g g( a) f f( g) g \barMaior
+    \mark\sipka g a( bes a) a \barMin a g f e( f) d d( c) \barMaior
+    d d( f) e d c( d) d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    % Do textu jsem zasahl, protoze tak, jak je v breviari,
+    % drasa me ceske ucho - souveti je chybne postavene.
+    Jest -- li -- že mi kdo slou -- ží,
+    můj O -- tec, kte -- rý je v_ne -- be -- sích,
+    ho za -- hr -- ne po -- ctou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Jestliže mi kdo slouží, toho můj Otec, který je v nebesích, zahrne poctou. Aleluja."
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin c d e( c) d d \barMaior
+    a d b( c) a( g) \barMin f g( a c) b( a) g( a) a \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kdo chce jít za mnou, za -- při sám se -- be,
+    vez -- mi svůj kříž a ná -- sle -- duj mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -1775,6 +1827,33 @@
     quid = "3. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( g a) g \barMin
+    g-- g( a) f f( g) g \barMaior
+    bes a g( f) g \barMaior
+    f d f g g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí
+    svůj ži -- vot pro mne,
+    na -- lez -- ne ho
+    a bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Zj 4"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
