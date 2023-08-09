@@ -2203,6 +2203,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g \mark\sipka g( a) a \barMin a g f g( a g) g \barMaior
+    a \mark\sipka g f e( f) d d f e d c( d) c \barMaior
+    d-- \mark\sipka e f d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    To -- bě jsem za -- svě -- ti -- la ce -- lý svůj ži -- vot,
+    to -- bě jdu na -- pro -- ti s_ho -- ří -- cí lam -- pou,
+    můj Že -- ni -- chu, Kris -- te.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2422,6 +2448,30 @@
     \choralniRezim
     c4 d d d c b a( g) g \barMaior
     a f( g a) a \barMin \mark\sipka b c a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mé roz -- hod -- nu -- tí je pev -- né:
+    chci zů -- stat ve spo -- je -- ní s_Kris -- tem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d d c b a( g) g \barMaior
+    a f( g a) a \barMin \mark\sipka c a c b g g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
