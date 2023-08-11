@@ -686,9 +686,79 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f d( c) c \barMaior
+    \mark\sipka d d c d d( f) f \barMin
+    g f e f d( c) \barMin
+    d( e f) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec zvo -- lal:_*
+    Ra -- du -- ji se z_to -- ho,
+    že se mo -- hu stát
+    o -- bě -- tí pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d e( f d) d \barMaior
+    d d c d d( f) f \barMin
+    g f e f d( c) \barMin
+    d( e f) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec zvo -- lal:_*
+    Ra -- du -- ji se z_to -- ho,
+    že se mo -- hu stát
+    o -- bě -- tí pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{3. ant. je stejná jako 3. ant. ranních chval \concat{(\upright{"Svatý Vavřinec se modlil"});} k ní kantikum Zj 4.}
+
+\markup\justify{
+  V latinské předloze ovšem shodné nejsou.
+  Liturgia horarum:
+}
+\markup\justify{
+  RCH: \italic{
+    \bold{Beátus Lauréntius orábat dicens:}
+    Grátias \bold{tibi} ago, Dómine,
+    quia iánuas tuas íngredi mérui.
+  }
+  (srov. \cantusid-link "001643")
+}
+\markup\justify{
+  N: \italic{
+    Grátias ago, Dómine \bold{Iesu Christe,}
+    quia iánuas tuas íngredi mérui.
+  }
+  (srov. \cantusid-link "002974")
+}
+
+\pageBreak
 
 \markup\italic{Responsorium z 2. nešpor ze společných textů
 o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}}

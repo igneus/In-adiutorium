@@ -720,6 +720,39 @@
   A vzhledem k době vzniku té modlitby ráz použitého nápěvu snad i celkem sedí.
 }
 
+\markup\justify{
+  K otázce závěrečného amen:
+  v antifonách sice není moc obvyklé, ale Zdrávas Maria
+  ho i v českém breviáři má (jakožto populární modlitba, ke které
+  amen neodmyslitelně patří). Analogicky by tedy asi mělo být zachováno i zde.
+  Na druhou stranu \with-url #"https://www.youtube.com/watch?v=9lgXDnHBh9g" {
+    sestry salesiánky zpívají italsky bez amen.
+  }
+}
+
+\markup\justify{
+  K textu:
+  žádný oficiální salesiánský jsem dosud nenašel, knížka modliteb pro salesiánskou
+  rodinu tuto modlitbu neobsahuje.
+  Zatím nejoficiálněji salesiánské znění, co mám,
+  je z (salesiány vydávané) mobilní aplikace Izidoor:
+  \italic{
+    Maria, Panno mocná,
+    ty velká a slavná záštito
+    svaté církve,
+    ty podivuhodná
+    pomocnice křesťanů,
+    \bold{ty hrozná jako vojsko seřazené k bitvě,}
+    \bold{ty, která} samojediná jsi potřela
+    všechny bludy na celém světě.
+    Ochraň nás před nepřítelem v našich úzkostech,
+    v našich zápasech a v našich tísních,
+    a v hodině smrti
+    přijmi naši duši do ráje.
+    Amen.
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
