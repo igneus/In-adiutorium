@@ -1247,6 +1247,14 @@
 
 \pageBreak
 
+\markup\justify{
+  (Jen) responsum nejspíš podle německého breviáře:
+  \italic{
+    Herr, auf dich vertraue ich, * in deine Hände lege ich mein Leben.
+    V. Lass leuchten über deinem Knecht dein Antlitz, hilf mir in deiner Güte.
+  }
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
