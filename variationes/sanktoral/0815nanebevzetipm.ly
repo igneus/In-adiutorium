@@ -37,6 +37,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka d4 d d( e) d d( e) e( d) d \barMaior
+    b c( d) c c( d) c b c b g g \barMaior
+    a a f g b( c a) a \barMaior
+    c c( d) d( f e) d c a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstou -- pil do ne -- be
+    a vzal svou nej -- čist -- ší Mat -- ku k_so -- bě,
+    a -- by jí dal ú -- čast
+    na svém ví -- těz -- ství nad smr -- tí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 113"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -734,6 +758,48 @@
     \choralniRezim
     c4 b c b a \barMin g g a g f g a g g \barMaior
     g \mark\sipka f a c b c( d c) \barMin b g a g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    Bůh do -- vr -- šil tvé vy -- kou -- pe -- ní
+    a ko -- ru -- no -- val tě ne -- bes -- kou slá -- vou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b \mark\sipka g a g \barMin f g a g f g a g g \barMaior
+    g \mark\sipka a g a c c \barMin b c a g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    Bůh do -- vr -- šil tvé vy -- kou -- pe -- ní
+    a ko -- ru -- no -- val tě ne -- bes -- kou slá -- vou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 24"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b g a g \barMin f g a g f g a g g \barMaior
+    \mark\sipka a c b c d d \barMin c b g a( g f g) g \barFinalis
   }
   \addlyrics {
     Pan -- no Ma -- ri -- a,
@@ -1719,6 +1785,39 @@
     % R
     \neviditelna a
     g \mark\sipka g g a g( f d) d \barMin f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a dnes vstou -- pi -- la do ne -- bes -- kých pří -- byt -- ků;_*
+    Kris -- tus jí dal ú -- čast na své slá -- vě.
+    \Verse Kra -- lu -- je s_Kris -- tem na -- vě -- ky;
+    \Response Kris -- tus jí dal ú -- čast na své slá -- vě.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g \mark\sipka g g f g a a( g) \barMax
+    g g g a g( f d) d \barMin f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a g( a) g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g g g a g( f d) d \barMin f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

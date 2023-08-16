@@ -444,6 +444,38 @@
     a( b) g4. g \barMin
     a4 g f f f( e) e \barMaior
     g a c c b( c a4.) a \barMin
+    \mark\sipka c4 c d c b c a g g \barFinalis
+
+    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi,
+    dce -- ro,
+    od Pá -- na,
+    nej -- vyš -- ší -- ho Bo -- ha:
+    skr -- ze te -- be má -- me
+    ú -- čast na o -- vo -- ci ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b( c) a( g) g4. a \barMin
+    f4( g a) a \barMaior
+    a( b) g4. g \barMin
+    a4 g f f f( e) e \barMaior
+    g a c c b( c a4.) a \barMin
     \mark\sipka c4 a c b a g a g g \barFinalis
 
     g^\markup\rubrVelikAleluja a a( g) g \barFinalis
@@ -1607,6 +1639,56 @@
     \choralniRezim
     c4 d d( a') a a bes a g c c a a \barMaior
     f d f( e) d d \barFinalis
+
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    Pan -- no Ma -- ri -- a.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?upraveno"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a a bes a g c c a a \barMaior
+    f d f( e) \mark\sipka c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    Pan -- no Ma -- ri -- a.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?upraveno"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a a bes a g c c a a \barMaior
+    f d \mark\sipka e( f) d d \barFinalis
 
     c^\markup\rubrVelikAleluja f e( d) d \barFinalis
   }
