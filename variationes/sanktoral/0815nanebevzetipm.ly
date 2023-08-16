@@ -1157,7 +1157,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 g g( a) a \barMin
     g f g a a \barMaior
@@ -1220,6 +1220,42 @@
     quid = "ant. ke kantikům vigilie"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( a) a \barMin
+    g f g a a \barMaior
+    a a \mark\sipka c b c( d) c b a( g) g \barMin
+    f g a a g g \barMax
+    a a a c b g \barMaior
+    a c d d \mark\sipka d( e d c) d( c) \barMin
+    b( c) a g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mat -- ka Bo -- ží,
+    Pan -- na Ma -- ri -- a,
+    by -- la vza -- ta s_tě -- lem i du -- ší
+    do ne -- bes -- ké slá -- vy
+    a má už dnes po -- díl
+    na Kris -- to -- vě slav -- ném
+    ví -- těz -- ství nad smr -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Matka Boží, Panna Maria,
+    byla vzata s tělem i duší do nebeské slávy
+    a má už dnes podíl na slavném vítězství Kristově nad smrtí. Aleluja."
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}

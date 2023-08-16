@@ -329,11 +329,11 @@
     \choralniRezim
     g4 g g( a) a \barMin
     g f g a a \barMaior
-    a a a( d) d e d c d( c) c \barMin
-    b c a a g g \barMax
+    a a c b c( d) c b a( g) g \barMin
+    f g a a g g \barMax
     a a a c b g \barMaior
-    a c d d \[ d( e d \] \[ c d) \] d( c) \barMin
-    d( c b) a g a g g \barMaior
+    a c d d d( e d c) d( c) \barMin
+    b( c) a g a g g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -351,8 +351,8 @@
     byla vzata s tělem i duší do nebeské slávy
     a má už dnes podíl na slavném vítězství Kristově nad smrtí. Aleluja."
     quid = "ant. ke kantikům vigilie"
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -589,6 +589,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 122"
+    placet = "_byla_ je tu v nepěkně důrazné pozici, ale beze všeho se dá zazpívat tak, aby to neuráželo"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
