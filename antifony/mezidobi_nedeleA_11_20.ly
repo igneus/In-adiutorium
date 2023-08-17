@@ -572,18 +572,19 @@
     differentia = "G"
     psalmus = ""
     annus = "A"
+    placet = "spíš lépe"
     id = "ne18a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d d e d c d d( e) e \barMaior
-    f4 e d( c) d \barMaior
-    d( e d) c b a a \barMaior
-    a c d d d e( f d) c( d) d \barFinalis
+    c4 c c c d c b c a a \barMaior
+    g a a( c) c \barMaior
+    d( e d) c b a a \barMin
+    a c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal pět chle -- bů a dvě ry -- by,
@@ -593,11 +594,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
-    fons = "při psaní melodie jsem vyšel z antifony k Magnificat 
-    Zeleného čtvrtku, ale po úpravách a transposici to není příliš patrné"
     annus = "A"
     id = "ne18a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -607,10 +606,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 a c d c c d c a \barMaior
-    a g a c b a a \barMaior
-    g a c( d) c a a \barMin
-    g a f f \barFinalis
+    f4 a c c b a c d d \barMaior
+    d e d c b a a \barMaior
+    c c c c a g
+    a g f f \barFinalis
   }
   \addlyrics {
     Všich -- ni se na -- jed -- li do -- sy -- ta
@@ -655,16 +654,16 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4( b c d) d \barMin
-    c d d d c b a c a( g) a( g) g \barMin
-    f( a) g a( c) a a \barMaior
-    c d c b a g a( b c d) c( d) \barMax
-    d d d d( e) b \barMin
-    g( a) b b \barMaior
-    d c a( b) \barMin
-    c b g g \barFinalis
+    f4( e d4.) d \barMin
+    f4 g g g a a g f g( a) g g \barMin
+    a g a( c) a a \barMaior
+    a g f e f d c( d) d \barMax
+    f e f d( c) c
+    f( g) g f \barMaior
+    g a g( f d) \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     K_rá -- nu
@@ -678,8 +677,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "c"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "A"
     id = "ne19a-rch-aben"
@@ -691,10 +690,10 @@
   \relative c'' {
     \choralniRezim
     d4 d d( c) d a a \barMaior
-    f( g) g( a) a c b a g a( g) g
+    f( g) g( a) a \barMin c c b a g( a) g
     g g( a) a a \barMaior
-    d c d a \barMin
-    g( c) b a b a a \barFinalis
+    c( d e) d c( b) a( g) \barMin
+    a g b c a a \barFinalis
   }
   \addlyrics {
     Je -- žíš vztá -- hl ru -- ku,
