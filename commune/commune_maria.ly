@@ -885,7 +885,7 @@
   \relative c' {
     \key f \major
     \choralniRezim
-    f4 g a c c \barMin
+    f4 a bes c c \barMin
     d c bes c c \barMaior
     d c c \barMin
     d f e d c c \barMaior
@@ -911,8 +911,8 @@
   \relative c' {
     \choralniRezim
     d f g( a) a \barMin c c c b a b( a) a \barMaior
-    a a a( b c a) a \barMin g( a) g f d( e) e \barMaior
-    e e e d( f) g( a) a \barMin a( c) b a( b) a a \barMaior
+    a g a( b c a) a \barMin g( a) g f d( e) e \barMaior
+    f e d f( g) g( a) a \barMin a( c) b a( b) a a \barMaior
     a bes a g f e \barMin d c d( f) e d d \barFinalis
   }
   \addlyrics {

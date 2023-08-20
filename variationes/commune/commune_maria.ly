@@ -5035,7 +5035,7 @@ začátkem v jednom oficiu patřily k různým modům.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     f4 g a c c \barMin
@@ -5043,6 +5043,33 @@ začátkem v jednom oficiu patřily k různým modům.
     d c c \barMin
     d f e d c c \barMaior
     c c a g bes a g f( g) \mark\sipka f f \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ná jsi, Pan -- no Ma -- ri -- a,
+    od Pá -- na,
+    nej -- vyš -- ší -- ho Bo -- ha,
+    me -- zi vše -- mi že -- na -- mi na ze -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
+    psalmus = "Benedictus"
+    id = "sob-aben2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 \mark\sipka a bes c c \barMin
+    d c bes c c \barMaior
+    d c c \barMin
+    d f e d c c \barMaior
+    c c a g bes a g f( g) f f \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -5117,11 +5144,36 @@ začátkem v jednom oficiu patřily k různým modům.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d f g( a) a \barMin c c c b a b( a) a \barMaior
     a a \mark\sipka a( b c a) a \barMin g( a) g f \mark\sipka d( e) e \barMaior
     e e e d( f) g( a) a \barMin a( c) b \mark\sipka a( b) a a \barMaior
+    a bes a g f e \barMin d c d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Skr -- ze te -- be, ne -- po -- skvr -- ně -- ná Pan -- no,
+    nám byl vrá -- cen ztra -- ce -- ný ži -- vot,
+    ne -- boť tys po -- ča -- la z_Du -- cha sva -- té -- ho
+    a po -- ro -- di -- la jsi svě -- tu Spa -- si -- te -- le.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "sob-aben3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d f g( a) a \barMin c c c b a b( a) a \barMaior
+    a \mark\sipka g a( b c a) a \barMin g( a) g f d( e) e \barMaior
+    \mark\sipka f e d f( g) g( a) a \barMin a( c) b \mark\sipka a( b) a a \barMaior
     a bes a g f e \barMin d c d( f) e d d \barFinalis
   }
   \addlyrics {
