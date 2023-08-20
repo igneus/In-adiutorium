@@ -3018,6 +3018,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e d e f e d( e) d d \barMaior
     a c d e d e f( d) d \barMin f g f d d \barFinalis
@@ -3039,6 +3040,31 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d f f f f e c e( f) d d \barMaior
+    f g a a g f g( f) d \barMin e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Jed -- na ka -- na -- nej -- ská že -- na vo -- la -- la:
+    Smi -- luj se na -- de mnou, Pa -- ne, Sy -- nu Da -- vi -- dův!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne20a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d( e) d \barMin
     e c d e f f \barMin
@@ -3063,6 +3089,59 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d( f) f \barMin
+    g f e f d d \barMin
+    f f f e d c e( f) d d \barMaior
+    f f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Ka -- na -- nej -- ská že -- na
+    při -- šla k_Je -- ží -- šo -- vi,
+    kla -- ně -- la se mu a pro -- si -- la:
+    Pa -- ne, po -- moz mi!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne20a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin
+    g f e f d d \barMin
+    f f f \mark\sipka f e c e( f) d d \barMaior
+    f f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Ka -- na -- nej -- ská že -- na
+    při -- šla k_Je -- ží -- šo -- vi,
+    kla -- ně -- la se mu a pro -- si -- la:
+    Pa -- ne, po -- moz mi!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne20a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
