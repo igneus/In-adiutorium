@@ -255,6 +255,14 @@ describe 'typographus.rb', type: :aruba do
             .to have_file_content file_content_including('\include "../../another.ly"')
         end
 
+        it 'correctly handles absolute path' do
+          write_file 'file.tytex', '\setIncludes{/usr/share/some-lily-lib/included.ly} \simpleScore{music.ly#id}'
+          run_command_and_stop(cmd)
+
+          expect(produced_ly_filename)
+            .to have_file_content file_content_including('\include "/usr/share/some-lily-lib/included.ly"')
+        end
+
         it 'is not affected by \setPsalmToneIncludes' do
           write_file 'file.tytex', '\setIncludes{included.ly} \setPsalmToneIncludes{for_psalmtones_only.ly} \simpleScore{music.ly#id}'
           run_command_and_stop(cmd)

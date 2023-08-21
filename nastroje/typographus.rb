@@ -138,7 +138,10 @@ module Typographus
           # ../ because the paths are relative to the source but here we need them
           # relative to the output directory.
           # This solution is quite dirty and not universally working ...
-          "\\include \"../../#{inc}\""
+          '\include "' +
+            (inc.start_with?('/') ? '' : '../../') +
+            inc +
+            '"'
         end.join("\n")
       end
 
