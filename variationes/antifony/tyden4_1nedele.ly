@@ -1242,6 +1242,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a g f g \barMaior
+    a b c( a) g( a) g g \barMin
+    \mark\sipka a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g a c b( g) \barMaior
     a g f a c c \barMin
     b a g g \barFinalis
@@ -1277,6 +1299,28 @@
     c4 c c b( c) a g a( b c4.) c \barMin
     c4 d c a b a g g \barMaior
     a4 b g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b( c) a g a( b c4.) c \barMin
+    c4 d c a b a g g \barMaior
+    \mark\sipka a4 g f( a) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
@@ -1570,6 +1614,28 @@
     c4 c c a( c) c b a g g \mark\sipka \barMaior
     g a a a g f \mark\sipka a( c) b \barMin
     a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Plň -- te své sli -- by Hos -- po -- di -- nu
+    a při -- ná -- šej -- te mu da -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c a( c) c b a g g \barMaior
+    g a a a \mark\sipka a a g f
+    g a g g \barFinalis
   }
   \addlyrics {
     Plň -- te své sli -- by Hos -- po -- di -- nu
