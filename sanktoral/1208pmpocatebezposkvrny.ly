@@ -310,7 +310,7 @@
   \relative c' {
     \key f \major
     \choralniRezim
-    f4 g a c c \barMin
+    f4 a bes c c \barMin
     d c bes c c \barMaior
     d c c \barMin
     d f e d c c \barMaior
