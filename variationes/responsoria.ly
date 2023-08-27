@@ -308,6 +308,70 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      \mark\sipka f d f( g) g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a g( a) g \barMin g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      \mark\sipka f d f( g) g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+      \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
+      \Response smi -- luj se nad ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ne-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      f d \mark\sipka f g g f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a g( a) g \barMin g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      f d \mark\sipka f g g f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+      \Verse Ty, kte -- rý se -- díš po pra -- vi -- ci Ot -- ce,_*
+      \Response smi -- luj se nad ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ne-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \score {
