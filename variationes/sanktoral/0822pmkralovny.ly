@@ -62,6 +62,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( a' bes) a \barMin g( a) bes a g g \barMaior
+    g a g f( e d c) c \barMax
+    d c( d) d( f) f \barMin
+    f \mark\sipka g f e d e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on u -- či -- nil
+    svou Mat -- ku na -- ší Krá -- lov -- nou.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -310,7 +335,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin
     g4 a c( b) a( g) g \barMaior
@@ -318,6 +343,36 @@
     \mark\sipka a a a a c b a c d d \barMaior
     e d c b( c) a( g) a( g) \barMin
     \mark\sipka f( g a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    a a \mark\sipka g a c b a c d d \barMaior
+    e d c b( c) a( g) a( g) \barMin
+    f( g a) a( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi,

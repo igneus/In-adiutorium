@@ -74,7 +74,7 @@
     g4( c) c c( b) c a4. a \barMin
     g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin
-    a a a a c b a c d d \barMaior
+    a a g a c b a c d d \barMaior
     e d c b( c) a( g) a( g) \barMin
     f( g a) a( g) g \barFinalis
   }
