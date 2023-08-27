@@ -125,6 +125,48 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c d( e) d( c) c \barMin
+    \mark\sipka c a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a f( g) g( a) a \barMin
+    a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a( c) g( f) f \barMin
     g g a g f f \barFinalis
   }
@@ -139,6 +181,27 @@
     psalmus = ""
     annus = "A"
     fial = "sanktoral/1110levveliky.ly#amag?konec=14"
+    id = "ne21a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( f) f( g) g \barMin
+    g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
     id = "ne21a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -200,6 +263,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a g) f a b c \barMin
     c c d c b a( b) a a \barMaior
@@ -222,6 +286,59 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) f g( a) g g \barMin
+    a b c c c c( d) c( a) a \barMaior
+    c c c b a g( a) g g \barMin
+    a a f e f a a g g \barFinalis
+  }
+  \addlyrics {
+    Co svá -- žeš na ze -- mi,
+    bu -- de svá -- zá -- no na ne -- bi,
+    a co roz -- vá -- žeš na ze -- mi,
+    bu -- de roz -- vá -- zá -- no na ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) f g( a) g g \barMin
+    a b c \mark\sipka d c b( c) a a \barMaior
+    c c c b a g( a) g g \barMin
+    a a f e f a a g g \barFinalis
+  }
+  \addlyrics {
+    Co svá -- žeš na ze -- mi,
+    bu -- de svá -- zá -- no na ne -- bi,
+    a co roz -- vá -- žeš na ze -- mi,
+    bu -- de roz -- vá -- zá -- no na ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"22. neděle"}}
 
