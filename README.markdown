@@ -79,5 +79,7 @@ LilyPond 2.19.x is currently being used in development.
 - directory `/nastroje` contains scripts automating various tasks
 - [fork of the Frescobaldi editor](https://github.com/igneus/frescobaldi) customized
   to facilitate the project's workflow
+- [extension for Frescobaldi 3](https://github.com/igneus/in-adiutorium-frescobaldi)
+  which will eventually offer the same functionality
 - [adiutor](https://github.com/igneus/adiutor) - a database-backed web application
   providing useful insights in the corpus of chants
