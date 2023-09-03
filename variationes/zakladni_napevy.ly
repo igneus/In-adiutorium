@@ -766,6 +766,7 @@ uvodniVers = \lyricmode {
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       \neviditelna c c4 c c( d) d d( c b) b \barMax
       \neviditelna c d d d( c b) b \barFinalis
@@ -787,6 +788,7 @@ uvodniVers = \lyricmode {
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       \neviditelna c c4 c c( d) d d( c b4.) b \barMax
       \neviditelna c d4 d d( c b4.) b \barFinalis
@@ -796,7 +798,7 @@ uvodniVers = \lyricmode {
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      fons_externus = \markup{Volně podle \italic{Antiphonale Romanum}, Romae 1912, 47*.}
+      fons_externus = "Volně podle Antiphonale Romanum, Romae 1912, 47*."
       id = "dobrorecme2"
       piece = ""
     }

@@ -637,8 +637,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      \neviditelna c c4 c c( d) d d( c b) b \barMax
-      \neviditelna c d d d( c b) b \barFinalis
+      \neviditelna c c4 c c( d) d d( c b4.) b \barMax
+      \neviditelna c d4 d d( c b4.) b \barFinalis
     }
     \addlyrics {
       \Verse Do -- bro -- řeč -- me Pá -- nu.
