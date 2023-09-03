@@ -235,6 +235,32 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
   }
 }
 
+\markup\nadpisSkupiny 2
+modIial = \relative c' { \neviditelna d c4 d d( a' bes) a \barMax }
+modIal = \relative c' { \neviditelna f f4 g g( a) a \barFinalis }
+modIalal = \relative c' { \neviditelna f f4 g g( a) a \barMin g( f) g( a f e) d d \barFinalis \break }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modIial
+    a4 a a a a a a a a a g( a) g \barFinalis
+    \modIal
+    \neviditelna a
+    a4 a a a g( a) g g a a g f g a g g \barFinalis
+    \modIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtext
+  }
+  \header {
+    modus = "I"
+    id = "i"
+  }
+}
+
 \pageBreak
 
 modIIial = \relative c' { \neviditelna d c4 d d( f) f \barMax }
