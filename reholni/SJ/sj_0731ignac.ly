@@ -54,7 +54,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 147-I"
-    fial = "sanktoral/0731ignac.ly#amag?konec"
+    fial = "sanktoral/0731ignac.ly#amag?konec=24"
     id = "1ne-a2"
     piece = \markup\sestavTitulek
   }

@@ -79,11 +79,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) d d f e d c d c c( d) d \barMaior
-    d e f g f e( f g) \barMin e f g f g( a) g \barMaior
-    d d d c( d) d \barMaior
-    d f e f( d c) c( a) \barMaior
-    a a c d e( d) \barMin e f d c( d) d \barFinalis
+    d4 d d c d f e d c d e d d \barMaior
+    d d d c d d( f) \barMin g a g f g g \barMaior
+    a g f e( f) e( d) \barMax
+    f e f d( c) c \barMaior
+    d d c d d( f) \barMin f e c c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš za -- čal svým u -- čed -- ní -- kům na -- zna -- čo -- vat,
@@ -106,7 +106,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f( g) f e f d d \barMaior
+    f4 g f e f d d \barMaior
     d c( d e f) f g( f) g g( f) \barMaior
     g g g( a) f d e( f d) d \barFinalis
   }
@@ -130,11 +130,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e f a( g a bes) a \barMaior
-    a( c) a( g) g f( g) f d d \barMin
-    d e f d c c \barMaior
-    d f e f a a g( a) g( f) f \barMin
-    g g f e c( d) d d \barFinalis
+    d4 d c d d( f) f \barMin
+    g f f g( a) a g g \barMin
+    a g f e( f) d( c) c \barMaior
+    d d d f e d c( d) c c \barMin
+    f g f e c( d) d d \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka při -- jde

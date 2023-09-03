@@ -128,7 +128,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f( g) f \mark\sipka e f d d \barMaior
     d c( d e f) f g( f) g g( f) \barMaior
@@ -151,6 +151,29 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    f4 f( g) f e f d d \barMaior
+    d c( d e f) f g( f) g g( f) \barMaior
+    g \mark\sipka f g( a) f d e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Co pro -- spě -- je člo -- vě -- ku,
+    když zí -- ská ce -- lý svět,
+    a -- le ztra -- tí svou du -- ši?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 \mark\sipka g f e f d d \barMaior
     d c( d e f) f g( f) g g( f) \barMaior
