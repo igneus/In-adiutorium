@@ -173,6 +173,36 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g( a) g \barMin
+    \mark\sipka f g a a a( c) b \barMaior
+    \mark\sipka c b d c a g g \barMax
+    g f( g) \mark\sipka g( a) a \barMin
+    a( c) b a( b) a( g) g \barMaior
+    a a a a a f( e d) \barMin
+    f g g a a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- pež Ře -- hoř
+    na -- pl -- ňo -- val skut -- kem to,
+    če -- mu slo -- vem u -- čil,
+    a pří -- kla -- dem
+    své -- ho ži -- vo -- ta
+    u -- ka -- zo -- val, jak žít
+    po -- dle Kris -- to -- va u -- če -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g g( c) c \barMin
     d e d c c( d) d \barMaior
     d c b c a g g \barMax

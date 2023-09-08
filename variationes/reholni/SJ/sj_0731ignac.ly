@@ -792,6 +792,50 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d) d( a') a a( bes a) a \barMaior
+    a g f g( a g4.) g \barMin
+    a4 g f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vý -- šil Kris -- ta
+    a dal mu Jmé -- no
+    nad kaž -- dé ji -- né jmé -- no.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "mc-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c( d) d( a') a a( bes a) a \barMaior
+    a g f g( a g4.) g \barMin
+    a4 g f e \mark\sipka f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- vý -- šil Kris -- ta
+    a dal mu Jmé -- no
+    nad kaž -- dé ji -- né jmé -- no.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "mc-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g( c) a g a( g) g \barMaior
@@ -870,6 +914,30 @@
     g4 f( g) a( c) c c b( c a4.) a \barMaior
     c4 c d c c b a b( c) c c \barMaior
     \mark\sipka c( d e) d( c) c( d) \barMin
+    c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi, na ze -- mi i v_pod -- svě -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 47"
+    fial = "antifony/tyden2_1nedele.ly#1ne-ant3?zacatek"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c d c c b \mark\sipka c a g g \barMaior
+    f( g) g( a) a \barMin
     c b a g a g g \barFinalis
   }
   \addlyrics {
@@ -980,6 +1048,28 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 145-I"
+    id = "mc-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e d) d \barMin
+    c c c c b c a g a( g) g \barMaior
+    f g a( c) c b a( g) \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý ja -- zyk
+    mu -- sí k_slá -- vě Bo -- ha Ot -- ce vy -- znat:
+    „Je -- žíš Kris -- tus je Pán.“
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 145-I"
     id = "mc-a3"
     piece = \markup\sestavTitulek
