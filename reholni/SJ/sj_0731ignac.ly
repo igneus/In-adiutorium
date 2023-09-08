@@ -208,7 +208,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 47"
-    fial = "antifony/tyden2_1nedele.ly#1ne-ant3?zacatek"
+    fial = "antifony/tyden2_1nedele.ly#1ne-ant3?zacatek=23"
     id = "mc-a2"
     piece = \markup\sestavTitulek
   }
