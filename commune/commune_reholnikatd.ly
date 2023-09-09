@@ -128,7 +128,7 @@
       psalmus = ""
       id = "rehol-aben1"
       fons = "zacatek prevzat z:"
-      fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?jen zacatek"
+      fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?cast=2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
