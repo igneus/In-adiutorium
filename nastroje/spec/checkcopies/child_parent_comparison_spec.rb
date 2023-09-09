@@ -130,7 +130,7 @@ describe ChildParentComparison do
   describe '+aleluja' do
     let(:fial) { 'parent_path#id?+aleluja' }
 
-    it 'alleluia separeted by a barFinalis' do
+    it 'alleluia separated by a barFinalis' do
       # anything after the second last bar is considered alleluia and ignored in the comparison
       child = score(fial: fial, music: 'a \barFinalis a \barFinalis')
 
@@ -138,7 +138,7 @@ describe ChildParentComparison do
         .to be_match
     end
 
-    it 'alleluia separeted by a bar other than barFinalis' do
+    it 'alleluia separated by a bar other than barFinalis' do
       child = score(fial: fial, music: 'a \barMin a \barFinalis')
 
       expect(described_class.new(child, score))
@@ -172,7 +172,7 @@ describe ChildParentComparison do
   describe '-aleluja' do
     let(:fial) { 'parent_path#id?-aleluja' }
 
-    it 'alleluia separeted by a barFinalis' do
+    it 'alleluia separated by a barFinalis' do
       child = score(fial: fial)
       parent = score(music: 'a \barFinalis a \barFinalis')
 
