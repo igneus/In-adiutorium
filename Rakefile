@@ -85,6 +85,11 @@ task :header_fields do
   ruby 'nastroje/header_fields.rb', *all_ly_files
 end
 
+desc 'list all fial keys in use'
+task :fial_keys do
+  ruby 'nastroje/fial_keys.rb', *all_ly_files
+end
+
 #
 # sanity checks
 #
