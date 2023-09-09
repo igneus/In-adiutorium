@@ -38,8 +38,14 @@ class ChildParentComparison
   # can reliably tell if the child matches the parent
   # according to the specification encoded in the FIAL.
   def self.auto_verifiable?(fial)
-    Set.new(fial.additional.keys) <
+    Set.new(normalized_keys(fial)) <
       Set.new(%w(+aleluja -aleluja zacatek konec zaver cast))
+  end
+
+  def self.normalized_keys(fial)
+    fial.additional.keys
+      .collect {|k| k.gsub(' ', '_') }
+      .reject {|k| k == 'jiny_text' } # we only compare melodies, this annotation has no relevance here
   end
 
   def initialize(child, parent, logger: nil)
@@ -48,12 +54,12 @@ class ChildParentComparison
     @scores = [@child, @parent]
 
     @fial = FIAL.parse @child.header['fial']
-    @fial_keys = Set.new(@fial.additional.keys)
+    @fial_keys = Set.new(self.class.normalized_keys(@fial))
 
     @logger = logger || Logger.new('/dev/null')
   end
 
-  attr_reader :child, :parent, :scores
+  attr_reader :child, :parent, :scores, :fial_keys
 
   def match?
     if @fial_keys < Set.new(%w(+aleluja -aleluja)) &&

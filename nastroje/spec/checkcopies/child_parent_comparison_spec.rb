@@ -548,4 +548,21 @@ describe ChildParentComparison do
       ).not_to be_match
     end
   end
+
+  describe '#fial_keys' do
+    [
+      ['standard keys included', 'parent_path#id?zacatek&+aleluja', Set.new(['zacatek', '+aleluja'])],
+      ['unknown key always included', 'parent_path#id?xyz', Set.new(['xyz'])],
+      ['jiny_text ignored', 'parent_path#id?jiny_text', Set.new()],
+      ['jiny text ignored', 'parent_path#id?jiny text', Set.new()],
+    ].each do |label, fial, expected|
+      it label do
+        comparison = described_class.new(
+          score(fial: fial),
+          score
+        )
+        expect(comparison.fial_keys).to eq expected
+      end
+    end
+  end
 end
