@@ -1,5 +1,9 @@
 require 'logger'
 
+require 'lyv'
+
+require_relative '../../fial'
+
 class String
   # Longest shared substring at the beginning of both Strings
   def shared_beginning(other)
