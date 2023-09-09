@@ -29,7 +29,7 @@
   \header {
     quid = "ant."
     modus = "I"
-    differentia = "a"
+    differentia = "D"
     psalmus = ""
     fial = "sanktoral/0531navstivenipm.ly#invit?-aleluja&jiny text"
     id = "invit"

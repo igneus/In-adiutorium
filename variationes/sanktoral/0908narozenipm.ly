@@ -38,7 +38,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     c4 d d d f( g) f e( d) d \barMin f( g) f g a a \barMaior
@@ -54,6 +54,34 @@
     quid = "ant."
     modus = "I"
     differentia = "a"
+    psalmus = ""
+    fial = "sanktoral/0531navstivenipm.ly#invit?-aleluja&jiny text"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Opravena jen differentia zapomenutá z původní verze.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    c4 d d d f( g) f e( d) d \barMin f( g) f g a a \barMaior
+    a g a bes( c bes a) a \barMin
+    a g f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me na -- ro -- ze -- ní Pan -- ny Ma -- ri -- e;
+    klaň -- me se Kris -- tu,
+    je -- jí -- mu Sy -- nu!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     fial = "sanktoral/0531navstivenipm.ly#invit?-aleluja&jiny text"
     id = "invit"
