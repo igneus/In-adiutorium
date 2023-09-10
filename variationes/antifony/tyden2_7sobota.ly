@@ -1701,6 +1701,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c f g g( a) a \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, chraň můj ži -- vot
+    před stra -- chem z_ne -- pří -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 64"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d d( f) f \barMin
     f e c e f d d \barFinalis
   }

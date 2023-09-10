@@ -977,6 +977,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a g f e( f) e e \barMaior
+    d c d d( a') a a a( b) a a \barMin
+    a a g f d( e) e \barFinalis
+
+    f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Bůh shlé -- dl na mou po -- ko -- ru,
+    ve -- li -- ké vě -- ci mi u -- či -- nil
+    ten, kte -- rý je moc -- ný.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Magnificat"
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
