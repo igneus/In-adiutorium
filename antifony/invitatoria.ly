@@ -287,17 +287,16 @@ tIIpatekInvitatorium = \score {
 tIIsobotaInvitatorium = \score {
   \relative c' {
     \choralniRezim
-    d4 e f f f g f g g( bes a) a4. \barMax
-    a4 a a g( e) f4. e \barMin
-    f4 f g a4. a \barMin
-    g4 f e d c d \barFinalis
+    d4 e f f f g f g g( a) a \barMaior
+    a4 g f g( a) g g \barMin
+    a a g f e f d c d \barFinalis
   }
   \addlyrics {
     U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
-      a -- by -- chom do -- sáh -- li za -- slí -- be -- né -- ho od -- po -- či -- nu -- tí v_něm.
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
   }
   \header {
-    textus_approbatus = "Uposlechněme, když nás Bůh volá, abychom dosáhli slíbeného spočinutí v něm."
     dies = "sobota"
     quid = "ant."
     modus = "I"

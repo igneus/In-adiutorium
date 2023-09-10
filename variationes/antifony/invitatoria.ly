@@ -2078,6 +2078,7 @@ pojdmeKlanmeSeCele = {
 %tIIsobotaInvitatorium =
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f f f g f g g( bes a) a4. \barMax
     a4 a a g( e) f4. e \barMin
@@ -2100,6 +2101,7 @@ pojdmeKlanmeSeCele = {
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f f f g f g g( bes a) a4. \barMax
     a4 a a g( e) f4. e \barMin
@@ -2116,6 +2118,7 @@ pojdmeKlanmeSeCele = {
     quid = "ant."
     modus = "I"
     differentia = "D"
+    placet = "_volá_ v melodii hodně překáží a tím, jak se antifona mnohonásobně opakuje, je to hodně citelné"
     id = "t2so"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2211,11 +2214,33 @@ pojdmeKlanmeSeCele = {
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyIII
     \choralniRezim
     d4 e f f f g \mark\sipka f g g( a) a \barMaior
     a4 g f d( e) d( c) c \barMin
     d d c d f e d c d \barFinalis
+  }
+  \addlyrics {
+    U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
+    a -- by -- chom do -- sáh -- li
+    slí -- be -- né -- ho spo -- či -- nu -- tí v_něm.
+  }
+  \header {
+    dies = "sobota"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f f f g f g g( a) a \barMaior
+    a4 g f \mark\sipka g( a) g g \barMin
+    a a g f e f d c d \barFinalis
   }
   \addlyrics {
     U -- po -- slech -- ně -- me, když nás Bůh vo -- lá,
