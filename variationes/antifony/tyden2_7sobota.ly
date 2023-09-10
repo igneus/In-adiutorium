@@ -514,6 +514,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d d( f) f e f d d \barMaior
+    f f f e c e( f) d d \barFinalis
+
+    c^\rubrVelikAleluja d f( e) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d d( f) f g f g a \barMaior
     a a a g d f( e) c( d) d \barFinalis
 
