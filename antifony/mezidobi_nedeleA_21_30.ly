@@ -188,8 +188,8 @@
     f4 f f g a g f( g) f f \barMaior
     f f( d) \barMin f f f e f d( c) c \barMaior
     d d e f g a( g) g \barMaior
-    a f g d \barMin
-    d d e f g a g f f \barFinalis
+    a( bes a) g( f) f( g) g \barMin
+    f e d f g a g f f \barFinalis
   }
   \addlyrics {
     Jest -- li -- že se shod -- nou na ze -- mi
@@ -213,8 +213,8 @@
   \relative c'' {
     \choralniRezim
     g4 g a g a a( g) \barMin
-    f a c c c b g a \barMaior
-    c c c( d c) \barMin a b a g \barFinalis
+    f a c c b c a g( a g) \barMaior
+    c d d( c) \barMin a b a g \barFinalis
   }
   \addlyrics {
     Kde jsou dva ne -- bo tři
