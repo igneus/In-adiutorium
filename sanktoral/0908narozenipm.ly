@@ -84,6 +84,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "_Radujme se_ takové mdlé, textu nepřiměřené"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -110,6 +111,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "spíš lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -197,6 +199,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "závěr spíš lépe"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -292,6 +295,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Ef 1"
+    placet = "od _požehnaná mezi ženami_ nejde spád melodie se spádem textu;
+    závěr není moc uspokojivý"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
