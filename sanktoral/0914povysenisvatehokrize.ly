@@ -195,7 +195,7 @@
   \relative c'' {
     \choralniRezim
     d4 d c( d) c c \barMin d e d c( b a g) g \barMaior
-    a a a g( a) g f g a a \barMin
+    a a a a g f g a a \barMin
     c c b a g( a) g g \barMin
     f g( a) g g \barFinalis
   }
@@ -315,7 +315,7 @@
     a( g a) g f e e f( g) a a g( a) a \barMaior
     a g a c a \barMin
     c b c a( g) g( a) a \barMaior
-    a( g) f e( f e d) d c d e f e d d \barMax
+    a( g) f e( f e d) d \barMin d c d d( f) e d d \barMax
     f g a a( bes a) a \barMin
     g a g f e( f) d d \barFinalis
   }
@@ -477,9 +477,9 @@
   \relative c' {
     \choralniRezim
     d4( a') a( g) g( a) \barMin a( c) c c b g b( c) a a \barMaior
-    a a a g( f) f f g g e e \barMax
-    a a c( b c) a( g) g \barMin f g g( a) f( e) e \barMaior
-    d( f e) f( d) d c c( d) d d \barFinalis
+    a g f g( a) a g f g e e \barMax
+    f g g( a) a a \barMin c b a( b) g g \barMaior
+    a( g f) e( d) c d e( f) d d \barFinalis
   }
   \addlyrics {
     Za -- chraň nás, Kris -- te, náš Vy -- ku -- pi -- te -- li,
@@ -580,10 +580,10 @@
   \relative c'' {
     \choralniRezim
     a4 a a( d) d d d( c d) e c c( d) d \barMaior
-    d c( d) c( a) a \barMin
-    g f g a( c) b a b a a \barMax
-    c d c b( a g) g \barMin
-    b c a g( a) a a \barFinalis
+    d e( d) c( d) c \barMin
+    a g a a( c) b a b a a \barMax
+    c d e d( c b) a \barMin
+    b a g b( c) a a \barFinalis
   }
   \addlyrics {
     Tvé -- mu kří -- ži se kla -- ní -- me, Pa -- ne,
@@ -598,7 +598,7 @@
     differentia = "A"
     psalmus = "Žalm 116-II"
     id = "2ne-a2"
-    fial = "pust_triduum.ly#pa-rch-ant3?zacatek"
+    fial = "pust_triduum.ly#pa-rch-ant3?zacatek=15"
     piece = \markup {\sestavTitulek}
   }
 }
