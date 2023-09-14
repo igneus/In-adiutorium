@@ -159,8 +159,6 @@
     differentia = "D"
     psalmus = ""
     id = "invit"
-    fons = "melodie podle ant. k Magnificat 1. nešpor"
-    fial = "sanktoral/0914povysenisvatehokrize.ly#1ne-amag?melodie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
