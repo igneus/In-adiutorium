@@ -1013,6 +1013,38 @@
       \key f \major
       % R
       \neviditelna d
+      d4( a' g) a( g) f \mark\sipka g g( a) \barMin a( bes) a g f e a4. a \barMax
+      a4 g a bes( c) a4. a \barMin a4 a( g f) e( f) d d \barFinalis
+      % V
+      \neviditelna a
+      c' c4.( a) c4 c( b c) d( c) b a4. a \barMax
+      % R
+      \neviditelna a
+      a4 g a bes!( c) a4. a \barMin a4 a( g f) e( f) d d \barFinalis
+      % Slava
+      a'4 a a g f g( a) a \barMin a g a a( bes) a4. a \barFinalis
+    }
+    \addlyrics {
+      \Response Kla -- ní -- me se ti, Pa -- ne Je -- ží -- ši Kris -- te,_*
+      svou smr -- tí na kří -- ži jsi vy -- kou -- pil svět.
+      \Verse Tvůj kříž je zna -- me -- ním spá -- sy,_*
+      \Response svou smr -- tí na kří -- ži jsi vy -- kou -- pil svět.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "I"
+      id = "ne-resp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      % R
+      \neviditelna d
       d4 e f f f e f g f e d d \barMax
       g f g f d d d c( e) d c d \barFinalis
       % V
