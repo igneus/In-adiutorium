@@ -33,6 +33,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "melisma na _Spasiteli_ je divné"
     id = "invit"
     fial = "sanktoral/0624narozenikrtitele.ly#invit?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -64,7 +65,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f g g g( a) a \barMin
+    a4 a g f g( a) a \barMin
     a c a b g \barMin
     f g a a g f e e \barFinalis
   }
@@ -86,7 +87,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a b) a( g) a \barMaior
+    a4 a( b) a( g) a \barMaior
     a c( d) d c e d \barMin
     c( d c) b a g g f( a) a g g \barFinalis
   }
@@ -142,11 +143,11 @@
     \choralniRezim
     c4( b c) c( d) d \barMin
     d c b a( g) g \barMaior
-    f g a a( c) b b( c) c \barMin
+    a a a c b c( d) d \barMin
     d d a c b \barMax
 
-    c b a c( d e) c( b a) \barMin
-    a( d c) a( g) a a( g) g \barFinalis
+    c d e c( b a4.) a \barMin
+    g4 a f g( a g4.) g \barFinalis
   }
   \addlyrics {
     Ra -- duj se, bo -- lest -- ná Mat -- ko,
@@ -159,7 +160,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    placet = "půjde lépe - chybí jí kus spádu a zpěvnosti"
     id = "rch-aben"
     fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
     piece = \markup {\sestavTitulekBezZalmu}

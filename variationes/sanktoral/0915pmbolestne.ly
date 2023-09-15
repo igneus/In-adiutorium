@@ -94,6 +94,33 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin d( f) f f f( g) g \barMin
+    a a g f g( a g) g \barMaior
+    a g f e( f d4.) d \barMin
+    d4 e f d c c \barMaior
+    d( f) e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    Spa -- si -- te -- li svě -- ta;
+    pod je -- ho kří -- žem
+    spo -- lu s_ním tr -- pě -- la
+    je -- ho Mat -- ka.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    fial = "pust_svatytyden.ly#invit?zacatek=11"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -167,11 +194,57 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \choralniRezim
+    a4 f g g g( a) a \barMaior
+    a c a b g \barMin
+    f g g g \mark\sipka a f e e \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se z_to -- ho,
+    že má -- me ú -- čast
+    na Kris -- to -- vě u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 f g g g( a) a \barMin
     a c a b g \barMin
     f \mark\sipka g a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se z_to -- ho,
+    že má -- me ú -- čast
+    na Kris -- to -- vě u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    placet = "začátek je hodně netypický a není zvlášť hodnotný"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 \mark\sipka a g f g( a) a \barMin
+    a c a b g \barMin
+    f g a a g f e e \barFinalis
   }
   \addlyrics {
     Ra -- duj -- me se z_to -- ho,
@@ -267,7 +340,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "a"
+    differentia = "f"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -302,10 +375,55 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a b) a( g) a \barMaior
     a \mark\sipka c( d) d c e d \barMin
+    c( d c) b a g g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh roz -- ho -- dl,
+    že Kris -- to -- vou kr -- ví
+    smí -- ří se se -- bou všech -- no tvor -- stvo.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 \mark\sipka a( b) a( g) a \barMaior
+    a c( d) d c e d \barMin
+    c( d c) b a g g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh roz -- ho -- dl,
+    že Kris -- to -- vou kr -- ví
+    smí -- ří se se -- bou všech -- no tvor -- stvo.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g( a) g( f) g \barMaior
+    a c( d) d c e d \barMin
     c( d c) b a g g f( a) a g g \barFinalis
   }
   \addlyrics {
@@ -717,7 +835,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( b c) c( d) d \barMin
     \mark\sipka d c b a( g) g \barMaior
@@ -738,6 +856,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "půjde lépe - chybí jí kus spádu a zpěvnosti"
     id = "rch-aben"
     fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -886,6 +1005,35 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( b c) c( d) d \barMin
+    d c b a( g) g \barMaior
+    \mark\sipka a a a c b c( d) d \barMin
+    d d a c b \barMax
+
+    c d e c( b a4.) a \barMin
+    g4 a f g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4( c) a( g) a \barMin
     a g f g( a g) g \barMaior
@@ -967,6 +1115,27 @@
     d d d c b a a \barMin c d e d d \barMax
     f g f \mark\sipka e( f d4.) d \barMin
     c4 f f e( d c d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se, bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d d \barMin f e d c( d) c \barMaior
   }
   \addlyrics {
     Ra -- duj se, bo -- lest -- ná Mat -- ko,
@@ -1331,6 +1500,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g \barMin
+    \mark\sipka a f g( a) g g \barMaior
+    c c( d) c( a) a \barMin
+    c c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup -- me k_měs -- tu
+    ži -- vé -- ho Bo -- ha
+    a k_Je -- ží -- ši,
+    pro -- střed -- ní -- ku no -- vé smlou -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup{
   Podle "antifony/velikonoce_tyden2_3utery.ly#rch-a1"
 }
@@ -1351,7 +1544,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
@@ -1375,7 +1568,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
