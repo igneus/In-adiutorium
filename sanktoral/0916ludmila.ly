@@ -23,7 +23,7 @@
     f g a( bes) g g( a) a \barMin
     a( c) d c( b a b) c( a) \barMaior
     g( a g d) d \barMin
-    c d f e d d \barFinalis
+    c d d( f) e d d \barFinalis
   }
   \addlyrics {
     Ne -- sy -- pa -- la ka -- did -- lo
@@ -69,8 +69,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f( g) g( a) a \barMin
-    c c b a g a g g \barMaior
+    g4 f g g( a) g g \barMin
+    a a g f g a a( g) g \barMaior
     g a c c d d c d d( c) c \barMin
     a a( c) b a g( a) g g \barFinalis
   }
@@ -83,7 +83,7 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -96,13 +96,13 @@
 
     % R
     \neviditelna f
-    f4 f f f f f-! g f f \barMin
-    g f f g f g( a) a( g) \barMax
+    f4 f f f f g f g g( f) \barMin
+    f f f g f g( a) a( g) \barMax
     g g g a g( f) d d \barMin
     f f f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4( bes) a g( a) g \barMin g g g g g g g g f g g( a) a( g) \barMax
+    a4 a g( a) g \barMin g g g g g g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g g g a g( f) d d \barMin
@@ -225,6 +225,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_oběť jejího_ je neelegantní"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
