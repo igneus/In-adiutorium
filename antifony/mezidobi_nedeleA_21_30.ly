@@ -267,9 +267,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( a) a a g f a g f( g) f f \barMaior
+    f4 f g f g a g f( g) f f \barMaior
     e f d( c) c \barMin
-    d d( e f) g g f f \barFinalis
+    d f f g( a g) g( f) f \barFinalis
   }
   \addlyrics {
     Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
@@ -288,29 +288,31 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f e c e( f) d d \barMaior
-    c d c b a c d d \barMin
-    c d e f e d d \barMax
-
-    c f f f e f d \barMin
-    f f f g f d( e d) d \barMaior
-    c d c a c d d f4.( g) f4 d d \barFinalis
+    c4 c b c a g g \barMaior
+    a b c d c d( e) d d \barMin
+    e f e d c c( d) d \barMaior
+    e d c b c a( g) \barMin
+    a c c d c e( d) d \barMaior
+    e e d c b c a( g) \barMin a4.( c) b4( c) a a \barFinalis
   }
   \addlyrics {
     Slu -- žeb -- ní -- ku ni -- čem -- ný,
     ce -- lý dluh jsem ti od -- pus -- til,
     pro -- to -- že jsi mě pro -- sil;
-
-    ne -- měl ses te -- dy i ty
+    ne -- měl ses ta -- ké ty
     smi -- lo -- vat nad svým dru -- hem,
     ja -- ko jsem se smi -- lo -- val já nad te -- bou?
   }
   \header {
+    textus_approbatus = "Služebníku ničemný,
+    celý dluh jsem ti odpustil, protože jsi mě prosil;
+    neměl ses tedy i ty smilovat nad svým druhem,
+    jako jsem se smiloval já nad tebou?"
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "IV alt"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = "ne24a-2ne-amag"

@@ -1302,10 +1302,41 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b \mark\sipka c a a \barMaior
+    \mark\sipka g a c( d) d \barMin
+    d d e d d c b c d d \barMaior
+    d d c b
+    a( b) g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Pet -- ro -- vi:
+    Ne -- ří -- kám ti,
+    že máš od -- pus -- tit nej -- víc se -- dm -- krát,
+    a -- le tře -- ba
+    se -- dma -- se -- dm -- de -- sát -- krát.
+  }
+  \header {
+    textus_approbatus = "Ježíš řekl Petrovi:
+    Neříkám ti, že máš odpustit nejvíc sedmkrát,
+    ale třeba sedmdesátsedmkrát."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( a) a a g f a g f( g) f f \barMaior
     e f d( c) c \barMin
@@ -1330,6 +1361,102 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f g f g a g f( g) f f \barMaior
+    e f d( c) c \barMin
+    d c d f( g a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
+    pro -- pus -- til ho
+    a dluh mu od -- pus -- til.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g a g f( g) f f \barMaior
+    e f d( c) c \barMin
+    d \mark\sipka f f f( g a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
+    pro -- pus -- til ho
+    a dluh mu od -- pus -- til.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g a g f( g) f f \barMaior
+    e f d( c) c \barMin
+    d f f \mark\sipka g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
+    pro -- pus -- til ho
+    a dluh mu od -- pus -- til.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g f g a g f( g) f f \barMaior
+    e f d( c) c \barMin
+    d f f \mark\sipka g( a g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
+    pro -- pus -- til ho
+    a dluh mu od -- pus -- til.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     f4 f e c e( f) d d \barMaior
     c d c b a c d d \barMin
     c d e f e d d \barMax
@@ -1351,6 +1478,73 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c a g g \barMaior
+    a b c d c d( e) d d \barMin
+    e f e d c c( d) d \barMaior
+    e d c b c a( g) \barMin
+    a c c d c e( d) d \barMaior
+    e e d c b c a g b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku ni -- čem -- ný,
+    ce -- lý dluh jsem ti od -- pus -- til,
+    pro -- to -- že jsi mě pro -- sil;
+    ne -- měl ses ta -- ké ty
+    smi -- lo -- vat nad svým dru -- hem,
+    ja -- ko jsem se smi -- lo -- val já nad te -- bou?
+  }
+  \header {
+    textus_approbatus = "Služebníku ničemný,
+    celý dluh jsem ti odpustil, protože jsi mě prosil;
+    neměl ses tedy i ty smilovat nad svým druhem,
+    jako jsem se smiloval já nad tebou?"
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b c a g g \barMaior
+    a b c d c d( e) d d \barMin
+    e f e d c c( d) d \barMaior
+    e d c b c a( g) \barMin
+    a c c d c e( d) d \barMaior
+    e e d c b c \mark\sipka a( g) \barMin a4.( c) b4( c) a a \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku ni -- čem -- ný,
+    ce -- lý dluh jsem ti od -- pus -- til,
+    pro -- to -- že jsi mě pro -- sil;
+    ne -- měl ses ta -- ké ty
+    smi -- lo -- vat nad svým dru -- hem,
+    ja -- ko jsem se smi -- lo -- val já nad te -- bou?
+  }
+  \header {
+    textus_approbatus = "Služebníku ničemný,
+    celý dluh jsem ti odpustil, protože jsi mě prosil;
+    neměl ses tedy i ty smilovat nad svým druhem,
+    jako jsem se smiloval já nad tebou?"
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = "ne24a-2ne-amag"
