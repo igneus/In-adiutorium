@@ -490,6 +490,8 @@ tIIpatekAntMagnificat = \score {
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "na dnešní poměry netypická, zejm. netypický závěr;
+    ne úplně přesvědčivě sedí v modu"
     id = "t2-pa-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
