@@ -176,6 +176,34 @@
     d4 d f e d f( g) g( f) f \barMin
     g f e d( e) d d \barMaior
     a c( d) d \barMin
+    c e( d) d \barMaior
+    \mark\sipka d c( f) \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
     \mark\sipka f( e d) e( d) d \barMaior
     c c( d f) \barMin
     \mark\sipka f g( f) d d \barFinalis

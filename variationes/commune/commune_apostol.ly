@@ -2405,6 +2405,34 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a a g f d d \barMax
+    d( f) d d c \mark\sipka f( g) g( a) a \barMaior
+    a a a g4.( a) \barMin a4 c( a b) a g g( a) a \barMaior
+    g f e( f d) d \barMin c f e c( d) d \barFinalis
+
+    e4^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Už vás ne -- na -- zý -- vám slu -- žeb -- ní -- ky;
+    na -- zval jsem vás přá -- te -- li,
+    pro -- to -- že vám jsem o -- zná -- mil všech -- no,
+    co jsem sly -- šel od své -- ho Ot -- ce.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
