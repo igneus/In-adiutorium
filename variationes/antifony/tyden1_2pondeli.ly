@@ -1111,6 +1111,29 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    a4 c bes a g4. a \barMin
+    a4 g a bes c bes( a) a \barMaior
+    \mark\sipka a g a g f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův zá -- kon pů -- so -- bí ra -- dost v_srd -- ci
+    a o -- svět -- lu -- je o -- či.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 19"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     \key f \major
     a4 c bes a g4. a \barMin
@@ -1266,9 +1289,30 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 f e f d d \barMin
     d4 c d e f \mark\sipka g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din po -- vsta -- ne a bu -- de sou -- dit
+    ná -- ro -- dy dle prá -- va.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 7-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f d d \barMin
+    d4 \mark\sipka f f e d e d c e d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din po -- vsta -- ne a bu -- de sou -- dit
