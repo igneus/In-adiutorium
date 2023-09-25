@@ -366,6 +366,7 @@
     psalmus = ""
     annus = "A"
     fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    placet = "od _který vyšel_ lépe - nedrží pohromadě, nemá spád"
     id = "ne25a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -374,10 +375,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c d e( d) d \barMin
-    e f e d e d c d( e) d d \barMaior
-    d c( d) c b a( g) \barMin
-    a g f g( a) a( g) g \barFinalis
+    c4 b c a a \barMin
+    c c c g a g f g( a) g g \barMaior
+    g f g g( a) a \barMin
+    c a a c( b) a( g) g \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer,
@@ -387,10 +388,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne5b-1ne-mag?zacatek=5"
     id = "ne25a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
