@@ -2419,6 +2419,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d e d e f d( c) c \barMaior
+    f( g a bes) a \barMin a g a g f f g g \barMaior
+    a a g f e f \mark\sipka d d \barMin
+    \mark\sipka c d f f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne kaž -- dý, kdo mi ří -- ká Pa -- ne, Pa -- ne,
+    ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství,
+    a -- le ten, kdo pl -- ní vů -- li
+    mé -- ho ne -- bes -- ké -- ho Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne9a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2517,6 +2542,29 @@
     psalmus = ""
     annus = "A"
     fial = "commune/commune_svatymuz.ly#1ne-amag1?zacatek=8"
+    id = "ne9a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin f f g f g a( bes) a a \barMaior
+    a a g f g f e d e d( c) c \barMaior
+    d c d f f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo má slo -- va sly -- ší, a -- le po -- dle nich ne -- jed -- ná,
+    po -- do -- bá se po -- še -- ti -- lé -- mu mu -- ži,
+    kte -- rý si po -- sta -- vil dům na pís -- ku.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
     id = "ne9a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

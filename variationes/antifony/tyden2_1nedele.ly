@@ -365,6 +365,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a c b d( c) c \barMin
+    a g f( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost,
+    Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 3
 
 \score {
@@ -1659,6 +1681,28 @@ Potřebuje výraznější úpravu:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g a a \barMaior
+    c c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv
+    na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisSkupiny{1}
@@ -2225,6 +2269,29 @@ tIInedeleLaudResp = \score {
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a c b c d d \barMin
+    d d \mark\sipka c a b c a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a c b c d d \barMaior
     \mark\sipka c a c c c c b a g g \barMaior
     a g f( g) g \barFinalis
@@ -2257,6 +2324,29 @@ tIInedeleLaudResp = \score {
     A -- le -- lu -- ja.
   }
   \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c d d \barMaior
+    \mark\sipka d c d( e d4.) d \barMin c4 b g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
     quid = "1. ant."
     modus = "VII"
     differentia = "a"
@@ -2709,6 +2799,27 @@ tIInedeleLaudResp = \score {
     \choralniRezim
     a4 a a g f g g4.( a) \barMin
     a4 bes a g f g g \barMin
+    f4 e c d \barFinalis
+  }
+  \addlyrics {
+    Bůh náš je na ne -- be -- sích, u -- či -- nil vše -- chno, co chtěl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 115"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g g4.( a) \barMin
+    a4 bes a g f g g \mark\sipka \barMaior
     f4 e c d \barFinalis
   }
   \addlyrics {
