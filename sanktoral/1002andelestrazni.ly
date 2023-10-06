@@ -17,7 +17,7 @@
   \relative c' {
     \choralniRezim
     f4( g) f g a f g g \barMaior
-    g f g( a) g g \barMin
+    f g a a g
     f g( a) g( f) f \barFinalis
   }
   \addlyrics {
@@ -77,6 +77,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "_Požehnaný Bůh_ a _vysvobodil_ je divné"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -158,6 +159,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "lépe"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -184,6 +186,10 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 34-I"
+    placet = "druhá půlka je nezpěvná,
+    dlouhé melisma a spočinutí hluboko pod finálou je klasický produkt
+    éry brnkání na kytaře - na nástroji to zní pěkně, vkusně zazpívat
+    se to skoro nedá"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -216,7 +222,7 @@
     f4 a g a f g f \barMin
     d d d f f g g \barMaior
     bes bes a f g g \barMin
-    g g a g g bes a f f \barFinalis
+    f g a g g bes a f f \barFinalis
   }
   \addlyrics {
     Ve -- leb -- te Hos -- po -- di -- na,
@@ -242,13 +248,13 @@
     % R
     \neviditelna f
     f4 f f f g f f g( a) a( g) \barMax
-    g g g g( a) g g f d f( g) g( f) f \barFinalis
+    g g f g( a) g g f d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a g( a) g g f g g( a) \barMax
     % R
     \neviditelna a
-    g g g g( a) g g f d f( g) g( f) f \barFinalis
+    g g f g( a) g g f d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
