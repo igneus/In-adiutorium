@@ -264,9 +264,9 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    a4( bes) a g( a) \barMin
-    a a a g e( f) d d \barMaior
-    c d f( e) f( g) f e d4. d \barFinalis
+    a4( bes) a a \barMin
+    g a f e f d d \barMaior
+    c d f f f e c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- do -- pusť,
