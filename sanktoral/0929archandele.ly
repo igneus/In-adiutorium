@@ -67,9 +67,9 @@
     \choralniRezim
     g4 d f g g f g( a g) g \barMin
     a b c a g g f g( a) a \barMaior
-    c a c b g( a) g g \barMin
+    c c b a g( a) g g
     f g a a c b \barMaior
-    b c a a( b) a g \barFinalis
+    a g a a( b) a g \barFinalis
   }
   \addlyrics {
     An -- děl Gab -- ri -- el se zje -- vil
@@ -92,10 +92,10 @@
   \relative c'' {
     \choralniRezim
     g4 d f g a( g) f( g) g \barMin
-    a c b a g a g g \barMaior
+    a c c b a g( a) g g \barMaior
     c c d c b( c) a \barMaior
     a g f g( a) a \barMin
-    c c b a c b a g a g g \barFinalis
+    c c b a b c a g a g g \barFinalis
   }
   \addlyrics {
     Já jsem an -- děl Ra -- fa -- el
@@ -194,9 +194,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g g( a) a \barMin
-    c c b g a c b \barMaior
-    a b c a a c( b) a( g) g \barMax
+    g4 a c( d) d \barMin
+    c d e c c d d \barMaior
+    d c b a g a g g \barMaior
     a c b( c a) a \barMin g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
@@ -207,8 +207,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G*"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -222,13 +222,13 @@
     % R
     \neviditelna f
     f4 f f f g f g a a( g) \barMax
-    g g f g( a) g \barMin f d f g g( f) f \barFinalis
+    g f g g( a) g \barMin f d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4( bes) a a g( a) g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g f g( a) g \barMin f d f g g( f) f \barFinalis
+    g f g g( a) g \barMin f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -268,6 +268,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "tohle je spíš modus II"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -392,9 +393,9 @@
     \choralniRezim
     a4 bes a g( a) g g \barMin
     f g g a a f e d( e) d d \barMaior
-    c d f f f e( d c) \barMaior
-    f g a a a( c) a g a a \barMin
-    a a g f e f d d \barFinalis
+    c d f f f g( f) \barMin
+    g a g f e f d c c \barMaior
+    d d c d f e d d \barFinalis
   }
   \addlyrics {
     Spat -- řil jsem Be -- rán -- ka,
