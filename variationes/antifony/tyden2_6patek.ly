@@ -628,6 +628,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 b d( e) d \barMin
     c b g a g g \barFinalis
@@ -644,6 +645,30 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Žalm 38-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c c( d) \barMin
+    c b g a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty víš
+    o kaž -- dé mé tou -- ze.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 38-II"
     id = "mc-ant2"
     piece = \markup {\sestavTitulek}
