@@ -80,6 +80,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 149"
+    placet = "nevím"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -187,14 +188,12 @@
     \relative c' {
       \choralniRezim
       d4 d d c d e d c d d \barMaior
-      d( f) f f e f g( a) g g \barMin
-      f d e d( c) c \barMaior
-      c d c d f e c( d) d  \barFinalis
+      f f f e f g f f g a f d d \barMaior
+      d e d c a c d d  \barFinalis
     }
     \addlyrics {
       Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
-      vše -- chno, co by -- lo ře -- če -- no
-      o je -- jím Sy -- nu,
+      vše -- chno, co by -- lo ře -- če -- no o je -- jím Sy -- nu,
       a roz -- va -- žo -- va -- la o tom.
     }
     \header {
@@ -202,7 +201,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
-      fial = "vanoce_narozenipane.ly#vden-asexta?zacatek"
+      fial = "vanoce_narozenipane.ly#vden-asexta?zacatek=18&konec=9"
       id = "ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

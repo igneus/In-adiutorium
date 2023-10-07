@@ -82,6 +82,27 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c \mark\sipka c c b c a g( a) g \barMin
+    f f g a g g \barFinalis
+  }
+  \addlyrics {
+    Z_Ma -- ri -- e se na -- ro -- dil Je -- žíš,
+    na -- zý -- va -- ný Kris -- tus.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-a1?konec=7"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g f g a( b c) a( g) g a( g) g( f d) \barMin
     f f g a g g \barFinalis
   }
@@ -304,6 +325,31 @@
     g f d d e e \barMax
     e f e e f( g f \mark\sipka e) e \barMaior
     e( a b a) g a( g a) g( f) f( g) \barMin g f g e \barFinalis
+  }
+  \addlyrics {
+    Vy -- vý -- še -- na je Pan -- na Ma -- ri -- a
+    nad sbo -- ry an -- dě -- lů
+    a na je -- jí hla -- vě
+    zá -- ří ko -- ru -- na
+    z_dva -- nác -- ti hvězd.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( d e) e( a b a) g( a) a a g e f e d( e) \barMaior
+    g f d d e e \barMax
+    e f e e f( g f e) e \barMaior
+    e( a b a) g \mark\sipka a( b a) g( f e) e \barMin f g g e \barFinalis
   }
   \addlyrics {
     Vy -- vý -- še -- na je Pan -- na Ma -- ri -- a
@@ -593,11 +639,91 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g g e e \barMin
+    f( g a g) \mark\sipka f g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    U Je -- ží -- šo -- va kří -- že
+    stá -- la je -- ho mat -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g g e e \barMin
+    f( g a g) f \mark\sipka f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    U Je -- ží -- šo -- va kří -- že
+    stá -- la je -- ho mat -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     f4 g a g f f( g f d) d \barMin
     d( c) d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    U Je -- ží -- šo -- va kří -- že
+    stá -- la je -- ho mat -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f \mark\sipka f( g) g \barMin
+    a( g f d) d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    U Je -- ží -- šo -- va kří -- že
+    stá -- la je -- ho mat -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f f( g) g \barMin
+    \mark\sipka f d e f d d \barFinalis
   }
   \addlyrics {
     U Je -- ží -- šo -- va kří -- že
@@ -845,6 +971,30 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d e d c d d \barMaior
+    f f f \mark\sipka e f g f f g a f d d \barMaior
+    d e d c a c d d  \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+    vše -- chno, co by -- lo ře -- če -- no o je -- jím Sy -- nu,
+    a roz -- va -- žo -- va -- la o tom.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#vden-asexta?zacatek=18&konec=9"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 d d c d e d c d d \barMaior
@@ -895,7 +1045,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c d e d c d d \barMaior
     d( f) f f e f g( a) g g \barMin
@@ -914,6 +1064,7 @@
     differentia = "D"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#vden-asexta?zacatek"
+    placet = "nemá spád, nedrží pohromadě - zvlášť hrubý šev po _v srdci_"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
