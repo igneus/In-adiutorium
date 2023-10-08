@@ -816,6 +816,48 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 b g g a b c d e d d \barMin
+    \mark\sipka e f e d c b c a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b g g a b c d e d d \barMin
+    \mark\sipka e e d c b c a a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 b g g a g f g g a a \barMin
     c4 c c c b a g f
     g4 a g g \barFinalis
