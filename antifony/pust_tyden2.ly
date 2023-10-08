@@ -427,21 +427,17 @@
   \relative c'' {
     \choralniRezim
     d4 d( f) d d c a c c d d \barMaior
-    c d d( e) d d c( d) d( c) c \barMin a g a g g \barMaior
+    d f f f e( f) d( c) c \barMin a g a g g \barMaior
     f f g a b c( a) g g \barMin
     c( d c) b( g) a a g g \barFinalis
   }
   \addlyrics {
     Pán vi -- ni -- ce zlo -- sy -- ny za -- hu -- bí
-    a svou vi -- ni -- ci pro -- na -- jme
-    ji -- ným vi -- na -- řům,
+    a vi -- ni -- ci pro -- na -- jme ji -- ným vi -- na -- řům,
     kte -- ří mu bu -- dou ve svůj čas
     od -- vá -- dět vý -- tě -- žek.
   }
   \header {
-    textus_approbatus = "Pán vinice zlosyny zahubí
-    a vinici pronajme jiným vinařům,
-    kteří mu budou ve svůj čas odvádět výtěžek."
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"

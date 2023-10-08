@@ -482,7 +482,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e f e d c e f e e \barMaior
+    e4 e e f e d e f e e \barMaior
     e( a) a g a e e \barMin
     d e f g f d e e \barMaior
     f( g a) g f g g e e \barFinalis
@@ -508,21 +508,17 @@
   \relative c'' {
     \choralniRezim
     d4 d( f) d d c a c c d d \barMaior
-    c d d( e) d d c( d) d( c) c \barMin a g a g g \barMaior
+    d f f f e( f) d( c) c \barMin a g a g g \barMaior
     f f g a b c( a) g g \barMin
     c( d c) b( g) a a g g \barFinalis
   }
   \addlyrics {
     Pán vi -- ni -- ce zlo -- sy -- ny za -- hu -- bí
-    a
-    svou % není v breviáři
-    vi -- ni -- ci pro -- na -- jme ji -- ným vi -- na -- řům,
+    a vi -- ni -- ci pro -- na -- jme ji -- ným vi -- na -- řům,
     kte -- ří mu bu -- dou ve svůj čas
     od -- vá -- dět vý -- tě -- žek.
   }
   \header {
-    textus_approbatus = "Pán vinice zlosyny zahubí
-    a vinici pronajme jiným vinařům, kteří mu budou ve svůj čas odvádět výtěžek."
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
@@ -536,10 +532,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a \barMin a a g a a a g( f g) g( f) f \barMaior
+    g4 g g g a a g a g( f g) g( f) f \barMaior
     a b c( d) c a( b) a a \barMax
-    g f g a c( b a) \barMaior
-    c c c c( d) c \barMin a g a b a g g \barFinalis
+    c b c d d( c) \barMaior
+    c c c b g a g f a a g g \barFinalis
   }
   \addlyrics {
     Ká -- men,
