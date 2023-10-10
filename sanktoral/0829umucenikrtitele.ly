@@ -46,7 +46,7 @@
     \choralniRezim
     a4 g a c( d) d \barMin
     c( d) e( d c) d \barMaior
-    a( d) b c a( g) a( g) \barMin
+    a d b c a( g) \barMin
     g f g a a a c b g( a) a \barFinalis
   }
   \addlyrics {
@@ -82,16 +82,17 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Dan 3-III"
+    placet = "spíš lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a a g( f e) d e f( a) a a \barMaior
-    a a a g( a b) b( a) \barMin g f g f( e) e \barFinalis
+    f4 g a a g4.( a) g4 f g( a) g g \barMaior
+    a g f e( f d) d( c) \barMin d f e c( d) d \barFinalis
   }
   \addlyrics {
     He -- ro -- des si rád Ja -- na po -- sle -- chl,
@@ -99,8 +100,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -169,8 +170,8 @@
   \relative c'' {
     \choralniRezim
     g a a g \barMin
-    g a g f e
-    d f f e e \barFinalis
+    g f g a g
+    f e d e e \barFinalis
   }
   \addlyrics {
     Ne -- boj se jich,
@@ -269,8 +270,8 @@
     f4 g( a g) f g g g( a) \barMaior
     a g( a) g \barMin
     g f g f e d c c \barMaior
-    d f g f( g) \barMin
-    f e c c( d) d \barFinalis
+    d c d d( f) \barMin
+    g f e c( d) d \barFinalis
   }
   \addlyrics {
     Já ne -- jsem Me -- si -- áš,
