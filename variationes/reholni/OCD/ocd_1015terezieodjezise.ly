@@ -37,6 +37,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c d c a a \barMin
+    c c b a g( f) a g g \barFinalis
+  }
+  \addlyrics {
+    Vý -- klad tvých slov o -- svě -- cu -- je,
+    po -- u -- ču -- je pros -- té li -- di.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -147,6 +167,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 c a c b g g \barMin \mark\sipka f g a a( c) b b \barMaior
+    c c \mark\sipka a b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
@@ -154,7 +197,9 @@
     \choralniRezim
   }
   \addlyrics {
-    Bůh jí dal velikou moudrost a poznání, srdce bez hranic jako písek na mořském břehu.
+    Bůh jí dal ve -- li -- kou moud -- rost a po -- zná -- ní,
+    srd -- ce bez hra -- nic
+    ja -- ko pí -- sek na moř -- ském bře -- hu.
   }
   \header {
     quid = "3. ant."
@@ -165,6 +210,98 @@
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g( a) g g a g a c c b \barMaior
+    a c b( c) a a \barMin
+    a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh jí dal ve -- li -- kou moud -- rost a po -- zná -- ní,
+    srd -- ce bez hra -- nic
+    ja -- ko pí -- sek na moř -- ském bře -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d( e) d d c a a c( b) a( g) g \barMaior
+    a c b( c) a a \barMin
+    c c b a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh jí dal ve -- li -- kou moud -- rost a po -- zná -- ní,
+    srd -- ce bez hra -- nic
+    ja -- ko pí -- sek na moř -- ském bře -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a c c \barMin
+    d e d c( b) a a \barMaior
+    c c b( c) a a \barMin
+    c c b a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh jí dal ve -- li -- kou
+    moud -- rost a po -- zná -- ní,
+    srd -- ce bez hra -- nic
+    ja -- ko pí -- sek na moř -- ském bře -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a a c c d e d c( d) c c \barMaior
+    d c b( c) a a \barMin
+    c c b a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh jí dal ve -- li -- kou moud -- rost a po -- zná -- ní,
+    srd -- ce bez hra -- nic
+    ja -- ko pí -- sek na moř -- ském bře -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
