@@ -371,6 +371,21 @@
 
 \pageBreak
 
+\markup\justify{
+  Text nezávislý na předloze.
+  Liturgia horarum má responsoria dvě:
+  pro mučedníka
+  \italic{
+    Glória et honóre * Coronásti eum, Dómine.
+    V. Et constituísti eum super ópera mánuum tuárum.
+  }
+  a pro mučednici
+  \italic{
+    Elégit eam Deus, * Et praeelégit eam.
+    V. In tabernáculo suo habitáre facit eam.
+  }
+}
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {

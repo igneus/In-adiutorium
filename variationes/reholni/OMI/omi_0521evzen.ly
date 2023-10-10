@@ -159,6 +159,58 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d e( f) d d \barMin
+    f e f a g g \barMaior
+    \mark\sipka a a g f e( f) d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Vše dě -- lám pro Kris -- ta,
+    kte -- rý mě mi -- lo -- val
+    a za mne sám se -- be vy -- dal.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 f d c( e) d d \barMin
+    f e f a g g \barMaior
+    a a g f e( f) d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Vše dě -- lám pro Kris -- ta,
+    kte -- rý mě mi -- lo -- val
+    a za mne sám se -- be vy -- dal.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
