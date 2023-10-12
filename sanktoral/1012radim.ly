@@ -16,7 +16,7 @@
   \relative c' {
     \choralniRezim
     d4 d d e f g f e( f) d c \barMaior
-    d d e f d c c( d) d \barFinalis
+    d d f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Bra -- tr, kte -- ré -- mu bra -- tr po -- má -- há,

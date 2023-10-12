@@ -77,10 +77,32 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f g f e( f) d c \barMaior
     d d e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu bra -- tr po -- má -- há,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    textus_approbatus = "Bratr, kterému pomáhá bratr, je jak opevněné město."
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d e f g f e( f) d c \barMaior
+    d d \mark\sipka f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Bra -- tr, kte -- ré -- mu bra -- tr po -- má -- há,
@@ -303,6 +325,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f g \mark\sipka g f d d \barMaior
+    \mark\sipka c d f f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu  po -- má -- há bra -- tr,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -443,6 +485,30 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b g b c a a g g \barMaior
+    a a a \mark\sipka c b c( d) d d e c c( d) d \barMaior
+    e d c d c b a g g \barMin
+    a g f a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh ur -- čil jed -- ny za mi -- si -- o -- ná -- ře,
+    ji -- né pak za pas -- tý -- ře a u -- či -- te -- le,
+    a -- by při -- pra -- vi -- li křes -- ťa -- ny
+    k_ú -- ko -- lům, kte -- ré ma -- jí pl -- nit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
     differentia = "c"
     psalmus = ""
     id = "amag"
