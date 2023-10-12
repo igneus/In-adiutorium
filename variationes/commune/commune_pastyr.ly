@@ -2686,6 +2686,38 @@
     % R
     \neviditelna f
     f4 f f f f f f f g f g( a) a( g) \barMax
+    g g( f d) f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a \mark\sipka g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g( f d) f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Do -- brý pas -- týř dá -- vá ži -- vot za své ov -- ce_*
+    a mod -- lí se za ně.
+    \Verse Mi -- lu -- je své brat -- ry_*
+    \Response a mod -- lí se za ně.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f g( a) a( g) \barMax
     \mark\sipka f d f g g( f) f \barFinalis
     % V
     \neviditelna a
