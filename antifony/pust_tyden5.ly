@@ -224,6 +224,8 @@
     a -- le bu -- de mít svět -- lo ži -- vo -- ta.
   }
   \header {
+    textus_approbatus = "Kdo mě následuje, nebude chodit v temnotě,
+    ale bude mít světlo života."
     quid = "ant. k Benedictus"
     modus = "VI"
     differentia = "F"

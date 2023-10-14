@@ -54,6 +54,8 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Kdo mě následuje, nebude chodit v temnotě,
+    ale bude mít světlo života. Aleluja."
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
