@@ -3001,6 +3001,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g g( a) g g \barMin g f g a c c \barMaior
     c c c( d) c c \barMin c c b c a g( a) g \barMaior
@@ -3019,6 +3020,57 @@
     differentia = "G"
     psalmus = ""
     annus = "A"
+    id = "ne28a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka g g g( a) g g \barMin g f g a \mark\sipka a( c) c \barMaior
+    c c c( d) c c \barMin c c b c a g( a) g \barMaior
+    c c( d c) \mark\sipka c b c a( g) g \barMin
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né krá -- li,
+    kte -- rý vy -- stro -- jil své -- mu sy -- no -- vi svat -- bu
+    a po -- slal slu -- žeb -- ní -- ky,
+    a -- by svo -- la -- li hos -- ty.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne28a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin d c b a g( a) g \barMaior
+    a c b( c) a a \barMin g f g a a g g \barMaior
+    c d( e d) d c b a( g) g \barMin f g a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né krá -- li,
+    kte -- rý vy -- stro -- jil své -- mu sy -- no -- vi svat -- bu
+    a po -- slal slu -- žeb -- ní -- ky,
+    a -- by svo -- la -- li hos -- ty.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek=7"
     id = "ne28a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -3142,6 +3194,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c d d d f e d e d d \barMaior
     a' a a( c) a a \barMin a g f g g( a) a \barMax
@@ -3166,6 +3219,91 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d d d f e d e d d \barMaior
+    a' a a( c) a a \barMin a g f g g( a) a \barMax
+    a b c c d c b( a) a \barMin
+    a g a g f e e \barMaior
+    \mark\sipka d c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- teb -- ní hos -- ti -- na je si -- ce při -- pra -- ve -- na,
+    a -- le po -- zva -- ní jí ne -- by -- li hod -- ni.
+    Jdě -- te pro -- to na roz -- ces -- tí
+    a po -- zvě -- te na svat -- bu,
+    ko -- ho na -- jde -- te.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne28a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f f f e c e f d d \barMaior
+    f g g( a) a a a a g f f( g) g \barMax
+    a a a a g f e( d) d \barMin
+    d d e f d c c \barMaior
+    d f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- teb -- ní hos -- ti -- na je si -- ce při -- pra -- ve -- na,
+    a -- le po -- zva -- ní jí ne -- by -- li hod -- ni.
+    Jdě -- te pro -- to na roz -- ces -- tí
+    a po -- zvě -- te na svat -- bu,
+    ko -- ho na -- jde -- te.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne28a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c d f f f f e c e f d d \barMaior
+    f g \mark\sipka a( c) a a \barMin a a g f f( g) g \barMax
+    a a a a g f e( d) d \barMin
+    d d e f d c c \barMaior
+    d f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- teb -- ní hos -- ti -- na je si -- ce při -- pra -- ve -- na,
+    a -- le po -- zva -- ní jí ne -- by -- li hod -- ni.
+    Jdě -- te pro -- to na roz -- ces -- tí
+    a po -- zvě -- te na svat -- bu,
+    ko -- ho na -- jde -- te.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne28a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"29. neděle"}}
 

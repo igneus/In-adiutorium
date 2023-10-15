@@ -560,10 +560,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g g( a) g g \barMin g f g a c c \barMaior
+    g4 g g g( a) g g \barMin g f g a a( c) c \barMaior
     c c c( d) c c \barMin c c b c a g( a) g \barMaior
-    c c( d c) b a g a( g) g \barMin
-    f g a c b g g \barFinalis
+    c c( d c) c b c a( g) g \barMin
+    a g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství je po -- dob -- né krá -- li,
@@ -602,7 +602,7 @@
     differentia = "a"
     psalmus = ""
     annus = "A"
-    fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek"
+    fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek=15"
     id = "ne28a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -615,7 +615,7 @@
     a' a a( c) a a \barMin a g f g g( a) a \barMax
     a b c c d c b( a) a \barMin
     a g a g f e e \barMaior
-    c d e( f) d d \barFinalis
+    d c e( f) d d \barFinalis
   }
   \addlyrics {
     Sva -- teb -- ní hos -- ti -- na je si -- ce při -- pra -- ve -- na,
