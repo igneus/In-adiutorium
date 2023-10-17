@@ -100,16 +100,16 @@
 
     % R
     \neviditelna f
-    f f f f f( g) f f \barMin f g g f g( a) a( g) \barMax
-    g( a) g g( f) d d \barMin f d f g g( f) f \barFinalis
+    f f f f f( g) f f \barMin f g f f g( a) a( g) \barMax
+    g f g( a) g g \barMin f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a bes a a g( a) g f g f g a \barMax
+    a4 a a a( bes) a g( a) g \barMin g g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g( a) g g( f) d d \barMin f d f g g( f) f \barFinalis
+    g f g( a) g g \barMin f d f g g( f) f \barFinalis
     % Slava
-    \respVIdoxologie
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Spra -- ved -- li -- ví vo -- la -- li,

@@ -390,6 +390,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
 
@@ -405,6 +406,42 @@
     g( a) g g( f) d d \barMin f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví vo -- la -- li,
+    a Hos -- po -- din sly -- šel,_*
+    vy -- svo -- bo -- dil je z_kaž -- dé je -- jich tís -- ně.
+    \Verse Hos -- po -- din za -- chra -- ňu -- je
+    du -- še svých slu -- žeb -- ní -- ků,_*
+    \Response vy -- svo -- bo -- dil je z_kaž -- dé je -- jich tís -- ně.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f f f f f( g) f f \barMin f g \mark\sipka f f g( a) a( g) \barMax
+    \mark\sipka g f g( a) g g \barMin f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a \mark\sipka a( bes) a g( a) g \barMin g g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g f g( a) g g \barMin f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Spra -- ved -- li -- ví vo -- la -- li,
