@@ -95,6 +95,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g a b c \barMin
+    d c d e c b( c a) a \barMaior
+    \mark\sipka c c b c a \barMin
+    a a c b a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Chci jíst Bo -- ží chléb,
+    tě -- lo Je -- ží -- še Kris -- ta;
+    chci pít je -- ho krev,
+    kte -- rou z_lás -- ky ke mně pro -- lil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka g4 g f g a \barMin
     c b c d c a a \barMaior
     c g( a g) f g \mark\sipka g( a) \barMin

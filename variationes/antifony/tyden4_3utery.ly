@@ -64,6 +64,30 @@
   \relative c' {
     \choralniRezim
     d d e f \barMin f g f g a \barMaior
+    a4 a g f d \barMin \mark\sipka c d f e c( d) d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš mod -- lit -- bu mou
+    a vo -- lá -- ní mé ať pro -- nik -- ne k_to -- bě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 102-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d d e f \barMin f g f g a \barMaior
     a4 \mark\sipka bes bes bes g \barMin f e d c d d \barFinalis
 
     e^\rubrVelikAleluja f d( c) d \barFinalis
@@ -429,6 +453,30 @@
     \choralniRezim
     d4 d e f \barMin f g a a bes a g( a) a \barMaior
     \mark\sipka a a( c) c( a) a \barMin a g f e f( d) d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, tys po -- lo -- žil zá -- klad ze -- mi
+    a ne -- be -- sa jsou dí -- lo tvých ru -- kou.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 102-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f \barMin f g a a bes a g( a) a \barMaior
+    a a( c) c( a) a \barMin a \mark\sipka g( a) f e d d \barFinalis
 
     e^\rubrVelikAleluja f d( c) d \barFinalis
   }
