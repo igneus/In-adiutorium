@@ -85,6 +85,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "_o dobrotě a milosrdenství_ nic moc"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
