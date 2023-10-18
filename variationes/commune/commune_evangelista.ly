@@ -266,7 +266,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( a') a f g e g f e d d4.( e) \barMin
@@ -327,6 +327,100 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4( a') a f g e g f e d d4.( e) \barMin
+    f4 g a g( a) a \barMaior
+    \mark\sipka a a a bes bes a g g( a) a \barMin
+    a a( g f) g( f e) f d d \barMaior
+    c d f g( f d4.) d \barMin \mark\sipka e4( f) d c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a
+    po -- vo -- lal k_to -- mu,
+    a -- by -- chom u -- vě -- ři -- li v_prav -- du
+    a do -- sáh -- li slá -- vy
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka c4 d d( a' bes) a a bes a g f f( g) \barMin
+    f4 g a g( a) a \barMaior
+    a a a bes bes a g g( a) a \barMin
+    a a( g f) g( f e) f d d \barMaior
+    c d f g( f d4.) d \barMin e4( f) d c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a
+    po -- vo -- lal k_to -- mu,
+    a -- by -- chom u -- vě -- ři -- li v_prav -- du
+    a do -- sáh -- li slá -- vy
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    c4 d d( a' bes) a a \mark\sipka g f g( a) g g \barMin
+    f4 g a g( a) a \barMaior
+    a a a bes bes a g g( a) a \barMin
+    a a( g f) g( f e) f d d \barMaior
+    c d f g( f d4.) d \barMin e4( f) d c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a
+    po -- vo -- lal k_to -- mu,
+    a -- by -- chom u -- vě -- ři -- li v_prav -- du
+    a do -- sáh -- li slá -- vy
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -356,7 +450,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g g( a) a \barMin g f g( a) g \barMaior
     a( c b) g( a) a( g) \barMin f g a g f e e \barFinalis
@@ -375,6 +469,59 @@
     quid = "3. ant."
     modus = "III"
     differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g \mark\sipka f g g( a) a \barMin g f g( a) g \barMaior
+    a( c b) g( a) a( g) \barMin f g a g f e e \barFinalis
+    f^\markup\rubrVelikAleluja e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni bu -- dou chvá -- lit je -- jich moud -- rost,
+    % tak -- že
+    na -- vě -- ky ne -- bu -- de vy -- hla -- ze -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Všichni budou chválit jejich moudrost,
+    takže navěky nebude vyhlazena. Aleluja."
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g( a) a \barMin g f g( a) g \barMaior
+    a( c b) \mark\sipka a( g) a \barMin a g f g a g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni bu -- dou chvá -- lit je -- jich moud -- rost,
+    % tak -- že
+    na -- vě -- ky ne -- bu -- de vy -- hla -- ze -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Všichni budou chválit jejich moudrost,
+    takže navěky nebude vyhlazena. Aleluja."
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -882,7 +1029,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
     c d e( d) c c( d c a) a \barMin \mark\sipka c b a g a a( g) g \barFinalis
@@ -931,6 +1078,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
     c d \mark\sipka e d c( d c a) a \barMin c b a g a a( g) g \barFinalis
@@ -1032,7 +1180,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g g( c) c c( d c) c \barMaior
     c4( d) b c a g g( a) \barMaior
@@ -1059,6 +1207,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 a g g( c) c c( d c) c \barMaior
     c4( d) b c a g g( a) \barMaior
