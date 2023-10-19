@@ -1107,6 +1107,47 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a \mark\sipka a( c) c \barMin
+    b c a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kvů -- li to -- bě
+    pře -- mo -- hl Bůh tvé ne -- přá -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 129"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 c d( c) c \barMin
+    b c a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kvů -- li to -- bě
+    pře -- mo -- hl Bůh tvé ne -- přá -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 129"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4 g g( c) a \barMin
     c b a g \barMin

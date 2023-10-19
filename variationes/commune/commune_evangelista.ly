@@ -139,6 +139,38 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g) a \mark\sipka c( d) c( b) g a a( g) \barMaior
+    f4( g) g( a) a \barMin
+    a( b c a) a c( d c) a( b) a4.( g) \barMax
+    g4 a( c) c( d) c c( d) d \barMaior
+    d( e d) c( b) a a \barMin
+    c a g f( g) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí e -- van -- ge -- lis -- té
+    zkou -- ma -- li
+    moud -- rost dáv -- ných dob
+    a své vy -- prá -- vě -- ní
+    do -- klá -- da -- li
+    vý -- ro -- ky pro -- ro -- ků.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

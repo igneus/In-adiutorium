@@ -5696,6 +5696,27 @@ se bude hodit.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a a g \barMin
+    g4 g g \mark\sipka a g g f g a( b c4.) c \barMin
+    c4 d c c b( c a) g a4. g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify{Následující nápěv má v sobě, zdá se mi, kousek
 monumentálnosti; mezi ostatními zpěvy by nehezky vyčníval,
 ale sám o sobě se mi líbí.}
@@ -6063,6 +6084,29 @@ ale sám o sobě se mi líbí.}
     g4 f g( a) a \barMin
     a a a c a a g a a( c) c \barMaior
     c b a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 f g( a) a \barMin
+    a b c a a c b a g g \barMaior
+    g a g f g a a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,
