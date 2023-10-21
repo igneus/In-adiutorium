@@ -136,6 +136,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e d( e) c c \barMin
+    d f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je tvým o -- chrán -- cem
+    na všech tvých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "tercie-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -416,6 +436,26 @@
     \choralniRezim
     f4 g g( a) a \barMin
     a g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Na -- še po -- moc
+    je ve jmé -- nu Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 124"
+    id = "sexta-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a \mark\sipka a g f f g g f \barFinalis
   }
   \addlyrics {
     Na -- še po -- moc

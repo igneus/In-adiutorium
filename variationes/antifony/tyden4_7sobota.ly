@@ -507,6 +507,30 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    c \mark\sipka b g a g g \barFinalis
+
+    a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je při -- ve -- dl
+    do své sva -- té ze -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 78-V"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     d d e d e f( d) d \barMin e e d c b \barMaior
@@ -598,6 +622,104 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Žalm 78-VI"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b \barMin
+    c a a g g \barFinalis
+
+    a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin
+    c b a g g \barFinalis
+
+    a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je vy -- kou -- pil
+    od pro -- tiv -- ní -- ka.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 78-IV"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f( g) a( c) c \barMin
+    b c a a g g \barFinalis
+
+    a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je při -- ve -- dl
+    do své sva -- té ze -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 78-V"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a a( c) c \barMin d c b( c) a a \barMaior
+    c b a b a g g \barMin a g f( g) g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Ju -- du za své vlast -- nic -- tví,
+    Da -- vi -- da za pas -- tý -- ře své -- ho li -- du.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 78-VI"
     id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}

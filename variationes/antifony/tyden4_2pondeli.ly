@@ -1583,6 +1583,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a f f( g) g \barMin
+    a g a f f \barFinalis
+  }
+  \addlyrics {
+    K_Hos -- po -- di -- nu jsem vo -- lal,
+    a vy -- sly -- šel mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 120"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
