@@ -3926,6 +3926,50 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g( a) g g \barMin
+    f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj své -- ho bliž -- ní -- ho
+    ja -- ko sám se -- be.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne30a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f d f f g g \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj své -- ho bliž -- ní -- ho
+    ja -- ko sám se -- be.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne30a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 d e d c d d \barMaior
