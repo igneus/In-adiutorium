@@ -641,9 +641,9 @@
   \relative c'' {
     \choralniRezim
     g4( a) a \barMin
-    f g a a a b a a \barMaior
-    a a g( a) a--
-    g f e d
+    a a g a b g a a \barMaior
+    a a b a
+    g f e e
     d f f( e) e \barFinalis
   }
   \addlyrics {
@@ -690,7 +690,7 @@
   \relative c'' {
     \choralniRezim
     c4( d) d( c) c \barMin c c b c a g a g g \barMaior
-    g f g a f g( a g) g \barFinalis
+    g f g a a g g \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,

@@ -3309,11 +3309,181 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a \barMin
     f g a a a b a a \barMaior
     a a g( a) a--
     g f e d
+    d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře,
+    ví -- me, že jsi prav -- do -- mluv -- ný,
+    a že u -- číš
+    ces -- tě k_Bo -- hu
+    po -- dle prav -- dy.
+    % co Ježíšovi protivníci říkali licoměrně, může církev zpívat z hloubi srdce
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin
+    f g a a a b a a \barMaior
+    a a g( a) \mark\sipka g \barMin
+    a a g f
+    d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře,
+    ví -- me, že jsi prav -- do -- mluv -- ný,
+    a že u -- číš
+    ces -- tě k_Bo -- hu
+    po -- dle prav -- dy.
+    % co Ježíšovi protivníci říkali licoměrně, může církev zpívat z hloubi srdce
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin
+    g a b a g a e e \barMaior
+    f g g( a) a \barMin
+    a a g f
+    d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře,
+    ví -- me, že jsi prav -- do -- mluv -- ný,
+    a že u -- číš
+    ces -- tě k_Bo -- hu
+    po -- dle prav -- dy.
+    % co Ježíšovi protivníci říkali licoměrně, může církev zpívat z hloubi srdce
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin
+    g a b a g a e e \barMaior
+    \mark\sipka c d d( e) e \barMin
+    f g a g
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře,
+    ví -- me, že jsi prav -- do -- mluv -- ný,
+    a že u -- číš
+    ces -- tě k_Bo -- hu
+    po -- dle prav -- dy.
+    % co Ježíšovi protivníci říkali licoměrně, může církev zpívat z hloubi srdce
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin
+    g a g f e f e e \barMaior
+    f g g( a) a \barMin
+    a a g f
+    d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře,
+    ví -- me, že jsi prav -- do -- mluv -- ný,
+    a že u -- číš
+    ces -- tě k_Bo -- hu
+    po -- dle prav -- dy.
+    % co Ježíšovi protivníci říkali licoměrně, může církev zpívat z hloubi srdce
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin
+    a a g a b g a a \barMaior
+    a a g f
+    e f g g
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře,
+    ví -- me, že jsi prav -- do -- mluv -- ný,
+    a že u -- číš
+    ces -- tě k_Bo -- hu
+    po -- dle prav -- dy.
+    % co Ježíšovi protivníci říkali licoměrně, může církev zpívat z hloubi srdce
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) a \barMin
+    a a g a b g a a \barMaior
+    a a \mark\sipka b a
+    g f e e
     d f f( e) e \barFinalis
   }
   \addlyrics {
@@ -3457,9 +3627,51 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( a) g g \barMin
+    \mark\sipka f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te kaž -- dé -- mu,
+    co mu pat -- ří.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 e d f( g) a( g) g \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te kaž -- dé -- mu,
+    co mu pat -- ří.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f g( a) g g \barMin
     f g g( f) f \barFinalis
   }
   \addlyrics {
@@ -3524,7 +3736,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d( c) c \barMin c c b c a g a g g \barMaior
     g f \mark\sipka g a f g( a g) g \barFinalis
@@ -3549,6 +3761,71 @@
     \choralniRezim
     c4( d) d( c) c \barMin c c b c a g a g g \barMaior
     g f g a f \mark\sipka f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,
+    a co je Bo -- ží, Bo -- hu!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d( c) c \barMin c c b c a g a g g \barMaior
+    g f g a \mark\sipka a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,
+    a co je Bo -- ží, Bo -- hu!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d( c) c \barMin c c b c a g a g g \barMaior
+    g f g a a \mark\sipka g g \barFinalis
+  }
+  \addlyrics {
+    Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,
+    a co je Bo -- ží, Bo -- hu!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne29a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4( d) d( c) c \barMin c c b c a g a \mark\sipka c b \barMaior
+    a b c a a g g \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te, co je cí -- sa -- řo -- vo, cí -- sa -- ři,
