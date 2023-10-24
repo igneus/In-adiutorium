@@ -171,7 +171,7 @@
 }
 
 \markup\wordwrap\italic{
-  (Samotný text antifony \upright{Maria, Panno mocná} v salesiánském propriu obsažen není.
+  (Samotný text antifony \upright{Maria, Panno mocná} v salesiánském propriu otištěn není.
   Pro zhudebnění byl použit text nalezený na \concat { \with-url "http://www.modlitba.cz/modlitba-v-zivote/seznam-modliteb/rozdeleni-modliteb-podle-adresata-podle-toho-ke-komu-se-modlitbou-obracime/k-panne-marii/" {www.modlitba.cz} ")" }
 }
 
@@ -268,7 +268,8 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d f e d c( d) c c \barMaior
+    d c d f f e d c d d \barFinalis
   }
   \addlyrics {
     Vě -- řil pro -- ti vší na -- dě -- ji
@@ -276,8 +277,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 92-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -287,7 +288,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d d f e d c \barMin
+    c d d( f) f \barMaior
+    g f e f d c( d) d \barFinalis
   }
   \addlyrics {
     Dů -- vě -- řo -- val v_Hos -- po -- di -- na,
@@ -296,8 +299,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 92-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -307,17 +310,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) d d c( d) d( f) f \barMin
+    g f f g( a g) g \barMaior
+    a a g( f) e( d) d \barMin
+    e d c e f d d \barFinalis
   }
   \addlyrics {
-    Všech -- no, co ko -- ná -- te slo -- vy a či -- ny,
+    Všech -- no, co ko -- ná -- te
+    slo -- vy a či -- ny,
     ať je ko -- ná -- no
     v_Hos -- po -- di -- no -- vě jmé -- nu.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
