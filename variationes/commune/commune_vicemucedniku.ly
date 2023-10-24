@@ -402,6 +402,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( e d) d f( g) g \barMin
+  }
+  \addlyrics {
+    Bůh se -- tře sva -- tým kaž -- dou sl -- zu z_o -- čí:
+    ne -- bu -- de už smrt a -- ni zá -- rmu -- tek,
+    ná -- řek a -- ni bo -- lest už ne -- bu -- de,
+    pro -- to -- že co dří -- ve by -- lo, po -- mi -- nu -- lo.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
