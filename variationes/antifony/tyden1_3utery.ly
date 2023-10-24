@@ -258,6 +258,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d d d( f) d g f e( f) d \barMin
+    d( e f) d( c) c f( g) f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din sou -- dí spra -- ved -- li -- vě,
+    zjed -- ná -- vá prá -- vo chu -- dým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 10-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     d4 c d( f) f \barMin
@@ -1046,6 +1070,26 @@
     \choralniRezim
     d4 f g g a( g f) g f \barMaior
     f g a f d e d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm, kdo krá -- če -- jí
+    v_zá -- ko -- ně Hos -- po -- di -- no -- vě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 119-א"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g g a( g f) g f \barMaior
+    \mark\sipka f d d f e c d d \barFinalis
   }
   \addlyrics {
     Bla -- ze těm, kdo krá -- če -- jí

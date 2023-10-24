@@ -1393,6 +1393,29 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4 f \barMin
+    g f g g( a) g f \mark\sipka e( f) d( c) c \barMaior
+    d \mark\sipka f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    dej mi svou lás -- ku a svou mi -- lost,
+    a to mi sta -- čí.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     f4 f \barMin
     g f g g( a) g f g( a) a( g) g \barMaior
