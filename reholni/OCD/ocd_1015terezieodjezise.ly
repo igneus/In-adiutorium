@@ -61,14 +61,19 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c d d( e) d d e f e d( e) d d \barMaior
+    e d c( d) a a \barMin
+    a a g f g a a g g \barFinalis
   }
   \addlyrics {
-    Bůh jí dal velikou moudrost a poznání, srdce bez hranic jako písek na mořském břehu.
+    Bůh jí dal ve -- li -- kou moud -- rost a po -- zná -- ní,
+    srd -- ce bez hra -- nic
+    ja -- ko pí -- sek na moř -- ském bře -- hu.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup\sestavTitulek

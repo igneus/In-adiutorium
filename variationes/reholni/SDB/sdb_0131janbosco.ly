@@ -934,23 +934,30 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
-
+    c4 c d d( e) d d f e c( d) d \barMaior
+    d e d c( b) a( g) \barMin
+    a g f a a g g \barFinalis
   }
   \addlyrics {
     Bůh mu dal moud -- rost a pro -- zí -- ra -- vost
-    a srd -- ce vel -- ké ja -- ko moř -- ské po -- bře -- ží.
+    a srd -- ce vel -- ké
+    ja -- ko moř -- ské po -- bře -- ží.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 21"
+    fial = "reholni/OCD/ocd_1015terezieodjezise.ly#1ne-a3?volne"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {

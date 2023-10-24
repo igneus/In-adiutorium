@@ -195,25 +195,6 @@
 \score {
   \relative c'' {
     \choralniRezim
-  }
-  \addlyrics {
-    Bůh jí dal ve -- li -- kou moud -- rost a po -- zná -- ní,
-    srd -- ce bez hra -- nic
-    ja -- ko pí -- sek na moř -- ském bře -- hu.
-  }
-  \header {
-    quid = "3. ant."
-    modus = ""
-    differentia = ""
-    psalmus = "Ef 1"
-    id = "1ne-a3"
-    piece = \markup\sestavTitulek
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
     c4 b a g( a) g g a g a c c b \barMaior
     a c b( c) a a \barMin
     a a g f g a a g g \barFinalis
@@ -295,6 +276,51 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b( c) a a c b a g( a) g g \barMaior
+    a c b( c) a a \barMin
+    a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh jí dal ve -- li -- kou moud -- rost a po -- zná -- ní,
+    srd -- ce bez hra -- nic
+    ja -- ko pí -- sek na moř -- ském bře -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d d( e) d d e f e d( e) d d \barMaior
+    e d c( d) a a \barMin
+    a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh jí dal ve -- li -- kou moud -- rost a po -- zná -- ní,
+    srd -- ce bez hra -- nic
+    ja -- ko pí -- sek na moř -- ském bře -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup\sestavTitulek
