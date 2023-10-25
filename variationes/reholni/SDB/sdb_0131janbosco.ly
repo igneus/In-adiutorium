@@ -86,6 +86,52 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a a( g) g \barMaior
+    c d c c( d c) \mark\sipka c \barMin
+    c c b c a( g) g f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh tě po -- zve -- dl z_pra -- chu
+    a po -- sa -- dil tě
+    me -- zi ve -- li -- ká -- ny
+    své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a a( g) g \barMaior
+    c d c \mark\sipka d d( c) \barMin
+    c c b c a( g) g f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh tě po -- zve -- dl z_pra -- chu
+    a po -- sa -- dil tě
+    me -- zi ve -- li -- ká -- ny
+    své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -121,6 +167,30 @@
     a g a f e f( g) \barMaior
     a g a \mark\sipka a( c) c \barMin
     c b a g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_to -- bě dal Hos -- po -- din
+    hla -- do -- vě -- jí -- cím chléb,
+    si -- rot -- kům ot -- ce,
+    mlá -- de -- ži pří -- te -- le.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a a g g \barMin
+    \mark\sipka a a a f e f( g) \barMaior
+    a b c a( g) g \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     V_to -- bě dal Hos -- po -- din
@@ -311,6 +381,29 @@
     g4 g \mark\sipka f g a c c \barMin
     d c d d( e) d c b c( a) a \barMaior
     c c c c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh tě v_círk -- vi po -- vo -- lal
+    k_chvá -- le a slá -- vě
+    své -- ho jmé -- na,
+    a -- by zje -- vil mlá -- de -- ži svou lás -- ku.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a c c \barMin
+    d c \mark\sipka c d( e) d c b \mark\sipka a( g) g \barMaior
+    a a a a c a g f g g \barFinalis
   }
   \addlyrics {
     Bůh tě v_círk -- vi po -- vo -- lal

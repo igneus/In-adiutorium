@@ -642,6 +642,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g f g( a) g g \barMaior
+    a a a a g a g f g f f \barMin
+    e f d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pod ve -- de -- ním Du -- cha sva -- té -- ho
+    va -- ro -- val před ne -- dů -- stoj -- ným při -- je -- tím
+    mi -- los -- ti Bo -- ží.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 21"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
