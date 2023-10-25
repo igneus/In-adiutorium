@@ -931,12 +931,60 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     c4( d e) d( c) c( d) \barMin
     c a a c b \mark\sipka a( g) g \barMaior
     a c b( c a4.) a \barMin
     g4 f a g g \barFinalis
+  }
+  \addlyrics {
+    Ve svá -- tek
+    sva -- té -- ho Ja -- na Bos -- ka
+    chval -- me Pá -- na,
+    na -- še -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d e) d( c) c( d) \barMin
+    c a a c b a( g) g \barMaior
+    a c b( c a4.) a \barMin
+    g4 f a \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve svá -- tek
+    sva -- té -- ho Ja -- na Bos -- ka
+    chval -- me Pá -- na,
+    na -- še -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d e) d( c) c( d) \barMin
+    c a a c b a( g) g \barMaior
+    a c b( c a4.) a \barMin
+    \mark\sipka a4 g f g( a g) g \barFinalis
   }
   \addlyrics {
     Ve svá -- tek
@@ -1796,6 +1844,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) d d c b a( g) g \barMaior
+    a a \mark\sipka b c a g g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Mo -- je slá -- va je v_Hos -- po -- di -- nu,
+    ať to sly -- ší po -- kor -- ní a ra -- du -- jí se.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1914,7 +1982,6 @@
     \Response Z_úst spra -- ved -- li -- vé -- ho vy -- chá -- ze -- jí_*
     slo -- va moud -- ros -- ti.
     \Verse Ve svém srd -- ci má Bo -- ží zá -- kon.
-    \Response
     \textRespDoxologie
   }
   \header {
@@ -1943,7 +2010,6 @@
     \Response Z_úst spra -- ved -- li -- vé -- ho vy -- chá -- ze -- jí_*
     slo -- va moud -- ros -- ti.
     \Verse Ve svém srd -- ci má Bo -- ží zá -- kon.
-    \Response
     \textRespDoxologie
   }
   \header {
@@ -1986,18 +2052,66 @@
 \pageBreak
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 a a c b a( g) g \barMaior
+    a a( c) a a \barMin
+    g f a g g \barFinalis
   }
   \addlyrics {
     Pro spá -- su va -- šich du -- ší
-    dám s_ra -- dos -- tí ce -- lý svůj ži -- vot.
+    dám s_ra -- dos -- tí
+    ce -- lý svůj ži -- vot.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a a c b a( g) g \barMaior
+    a a( c) a a \barMin
+    \mark\sipka b c a g g \barFinalis
+  }
+  \addlyrics {
+    Pro spá -- su va -- šich du -- ší
+    dám s_ra -- dos -- tí
+    ce -- lý svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c d c e( d) d \barMaior
+    e-- d( c) a( g) g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Pro spá -- su va -- šich du -- ší
+    dám s_ra -- dos -- tí
+    ce -- lý svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ne-am"
     piece = \markup {\sestavTitulekBezZalmu}

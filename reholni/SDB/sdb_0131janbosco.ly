@@ -222,18 +222,23 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4( d e) d( c) c( d) \barMin
+    c a a c b a( g) g \barMaior
+    a c b( c a4.) a \barMin
+    g4 f a g g \barFinalis
   }
   \addlyrics {
-    Ve svá -- tek sva -- té -- ho Ja -- na Bos -- ka
-    chval -- me Pá -- na, na -- še -- ho Bo -- ha.
+    Ve svá -- tek
+    sva -- té -- ho Ja -- na Bos -- ka
+    chval -- me Pá -- na,
+    na -- še -- ho Bo -- ha.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -620,18 +625,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c d c e( d) d \barMaior
+    e-- d( c) a( g) g \barMin
+    f g a g g \barFinalis
   }
   \addlyrics {
     Pro spá -- su va -- šich du -- ší
-    dám s_ra -- dos -- tí ce -- lý svůj ži -- vot.
+    dám s_ra -- dos -- tí
+    ce -- lý svůj ži -- vot.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ne-am"
     piece = \markup {\sestavTitulekBezZalmu}
