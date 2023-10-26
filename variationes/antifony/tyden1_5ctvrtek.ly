@@ -189,6 +189,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c d( e f) d d \barMin e( f d) c c d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je zá -- šti -- ta mé -- ho ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-IV"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f e d f( g a) g g \barMin f( g f) d c d d \barFinalis
 
     e^\rubrVelikAleluja f d d \barFinalis

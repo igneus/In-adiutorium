@@ -1095,6 +1095,33 @@
   }
 }
 
+\markup\justify{
+  Melodie (velmi) volně podle \cantusid-link "001086"
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( f g) g( a) g \barMin
+    a b a g f g( f e) e \barMaior
+    f( g) f g( a) g \barMin
+    g f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ve svá -- tek
+    sva -- té -- ho Ja -- na Bos -- ka
+    chval -- me Pá -- na,
+    na -- še -- ho Bo -- ha.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -1922,6 +1949,26 @@
     \choralniRezim
     c4 c c( d) d d c b a( g) g \barMaior
     a a g f g a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Mo -- je slá -- va je v_Hos -- po -- di -- nu,
+    ať to sly -- ší po -- kor -- ní a ra -- du -- jí se.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) d d c b a( g) g \barMaior
+    a a g f g a a a \mark\sipka a( c) b g g \barFinalis
   }
   \addlyrics {
     Mo -- je slá -- va je v_Hos -- po -- di -- nu,
