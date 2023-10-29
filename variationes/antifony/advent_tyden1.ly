@@ -263,6 +263,82 @@
   }
 }
 
+\markup\justify{
+  Oficiální text:
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c c( d) \barMin
+    c a c c b c a( g) g \barMaior
+    f g a c c d b c a \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde Pán
+    a s_ním všich -- ni je -- ho sva -- tí;
+    v_ten den za -- zá -- ří vel -- ké svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 142"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c c( d) \barMin
+    c c c c a c d( c) c \barMaior
+    a c c d b c a f( g) g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde Pán
+    a s_ním všich -- ni je -- ho sva -- tí;
+    v_ten den za -- zá -- ří vel -- ké svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 142"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 \mark\sipka c a c( d) \barMin
+    c \mark\sipka d c a f g g( a) a \barMaior
+    a c c d b c a f( g) g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde Pán
+    a s_ním všich -- ni je -- ho sva -- tí;
+    v_ten den za -- zá -- ří vel -- ké svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 142"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
