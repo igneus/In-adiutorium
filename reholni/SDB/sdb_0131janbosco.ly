@@ -57,6 +57,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 146"
+    placet = "_hladovějícím_ a _sirotkům_ lépe"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -96,7 +97,7 @@
 
     % V
     \neviditelna a
-    a( bes) a g g( a) a( g) \barFinalis
+    a( bes) a a g( a) a( g) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -341,10 +342,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) c d e c c( d) d \barMin
-    d c b a( g) g \barMaior
+    c4( d) d c d( e) c c( d) d \barMin
+    c b g a( g) g \barMaior
     a g f g( a) a \barMin
-    c c b a g g \barFinalis
+    c c c b g g \barFinalis
   }
   \addlyrics {
     Slá -- va a chvá -- la to -- bě,
@@ -536,7 +537,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c( d) d d c b a( g) g \barMaior
-    a a g f g a a a c b g g \barFinalis
+    a a g f g a a a a( c) b g g \barFinalis
   }
   \addlyrics {
     Mo -- je slá -- va je v_Hos -- po -- di -- nu,

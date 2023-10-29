@@ -484,7 +484,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -495,6 +495,36 @@
     % V
     \neviditelna a
     \mark\sipka a( bes) a g g( a) a( g) \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh si ho za -- mi -- lo -- val_*
+    a za -- hr -- nul ho po -- cta -- mi.
+    \Verse O -- děl ho slá -- vou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g g( a) \barMax
+    a g a g f g f f \barFinalis
+
+    % V
+    \neviditelna a
+    a( bes) a \mark\sipka a g( a) a( g) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -1453,12 +1483,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) c d e c c( d) d \barMin
     d c b a( g) g \barMaior
     a g f g( a) a \barMin
     c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Slá -- va a chvá -- la to -- bě,
+    Bo -- že mých ot -- ců,
+    jenžs mi dal moud -- rost,
+    po -- ko -- ru a sí -- lu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) \mark\sipka d c d( e) c c( d) d \barMin
+    \mark\sipka c b g a( g) g \barMaior
+    a g f g( a) a \barMin
+    c c \mark\sipka c b g g \barFinalis
   }
   \addlyrics {
     Slá -- va a chvá -- la to -- bě,
@@ -1945,7 +2000,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) d d c b a( g) g \barMaior
     a a g f g a a a c b g g \barFinalis
@@ -1966,6 +2021,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c c( d) d d c b a( g) g \barMaior
     a a g f g a a a \mark\sipka a( c) b g g \barFinalis
