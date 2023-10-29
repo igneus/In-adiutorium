@@ -737,10 +737,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g g g( a) g f e e \barMin
-    d e f( g f) e e \barFinalis
+    f4 f g f g( a) g g \barMin
+    f f g g( f) f \barFinalis
   }
   \addlyrics {
     Mi -- luj své -- ho bliž -- ní -- ho
@@ -748,34 +748,31 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
-    differentia = "g"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "A"
-    placet = "myslím, že je pro autora příznačné, že přikázání
-    lásky k bližnímu oděl do melodie téměř skličující;
-    interpretovat text takto je však již někde na hranici nekřesťanského"
     id = "ne30a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d e d c d d \barMaior
-    c b a b a a( g) g \barMin
-    g f( g) a( g) g \barFinalis
+    d4 f d d c f( g a4.) a \barMaior
+    a4( c) a a( g f) \barMin
+    g f e( f) d c c d d \barFinalis
   }
   \addlyrics {
     Na při -- ká -- zá -- ní lás -- ky
-    spo -- čí -- vá ce -- lý Zá -- kon
-    i Pro -- ro -- ci.
+    spo -- čí -- vá
+    ce -- lý Zá -- kon i Pro -- ro -- ci.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "c"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "ne30a-2ne-amag"
