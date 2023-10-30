@@ -28,6 +28,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c a c( d) \barMin
+    c d c a f g a( c) c \barMaior
+    a c c d b c a f( g) g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde Pán
+    a s_ním všich -- ni je -- ho sva -- tí;
+    v_ten den za -- zá -- ří vel -- ké svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 142"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{Nebo tradiční překlad:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c a c c a g f \barMin
     g f g a c d c c \barMaior
     a c c c d b c a f g \barMin
@@ -49,7 +75,7 @@
     % jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic
     textus_approbatus = "Hle, přijde Pán a s ním všichni jeho svatí;
     v ten den zazáří velké světlo. Aleluja."
-    id = "ne-1ne-a2"
+    id = "ne-1ne-a2-b"
     piece = \markup {\sestavTitulek}
   }
 }

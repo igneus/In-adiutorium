@@ -208,7 +208,7 @@
     % jako pramen melodie se všude uvádí antifonář Arnošta z Pardubic
     textus_approbatus = "Hle, Pán přijde a s ním všichni jeho svatí;
     v ten den zazáří veliké světlo. Aleluja."
-    id = "ne-1ne-a2"
+    id = "ne-1ne-a2-b"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -266,6 +266,11 @@
 \markup\justify{
   Oficiální text:
 }
+\markup\justify{
+  (Orientujeme se tu primárně podle zdomácnělého nápěvu
+  českého \italic{Ejhle, Hospodin přijde} a ne podle latinské
+  předlohy - ať už ve znění tištěných edic nebo domácích rukopisů.)
+}
 \score {
   \relative c'' {
     \choralniRezim
@@ -316,10 +321,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
     \choralniRezim
     c4 \mark\sipka c a c( d) \barMin
     c \mark\sipka d c a f g g( a) a \barMaior
+    a c c d b c a f( g) g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- jde Pán
+    a s_ním všich -- ni je -- ho sva -- tí;
+    v_ten den za -- zá -- ří vel -- ké svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 142"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c a c( d) \barMin
+    c d c a f g \mark\sipka a( c) c \barMaior
     a c c d b c a f( g) g \barMin
     a g f f \barFinalis
   }
