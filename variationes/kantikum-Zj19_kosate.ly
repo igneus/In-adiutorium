@@ -169,6 +169,24 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d e f \mark\sipka d c c \barFinalis
+  }
+  \addlyrics {
+    se u -- jal krá -- lov -- ství!
+  }
+  \header {
+    quid = ""
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = ""
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim

@@ -116,6 +116,35 @@
   }
 }
 
+\markup{
+  (Divisiones bližší tomu, jak jsem antifonu zvyklý zpívat.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g4.( a) g4 f g g \barMin
+    a a g f d( c) c \barMaior
+    f g g( a) a \barMin
+    c c bes a g( a) \mark\sipka \barMaior
+    a a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný ne -- smí dbát je -- nom o to,
+    co pro -- spí -- vá je -- mu,
+    a -- le o to,
+    co pro -- spí -- vá všem,
+    a -- by moh -- li do -- jít spá -- sy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\italic{Výše se přenáší přízvuk z _prospívá_ na _co_. Jak by zněla bez toho:}
 
 \score {
