@@ -14,7 +14,7 @@
   \relative c' {
     \choralniRezim
     d4 d c d f g f e d c d d \barMaior
-    d f e d e d( c) c \barMin
+    d f f e f d( c) c \barMin
     a c d d e d c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
@@ -120,6 +120,7 @@
   \header {
     quid = "resp."
     modus = "IV"
+    placet = "bída"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -166,6 +167,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "bída"
     fial = "commune/commune_apostol.ly#1ne-resp?zacatek=22&konec=17&cast=7,8,9,10"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
@@ -179,10 +181,10 @@
     a a c4.( a) \barMin a4 g f g e \barMax
 
     e f g g g g( a) a \barMaior
-    a b a a( e) \barMin e g a a a g( a) e e \barMaior
-    d c d e e \barMin g f e d e e \barFinalis
+    a b g g( e) \barMin a g a a a g( a) e e \barMaior
+    d c d e e g f e d e e \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( e) e \barFinalis
+    f^\markup\rubrVelikAleluja d d( e) e \barFinalis
   }
   \addlyrics {
     Ne vy jste vy -- vo -- li -- li mne,
@@ -286,10 +288,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a g) g( f) g( a) a g \barMin a( b c) b a( f) g \barMaior
+    g4 f g( a) a g \barMin a( b c) b a( g) a \barMaior
     c c( d) b( c) a a \barMin a b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
     Roz -- hla -- šo -- va -- li Bo -- ží skut -- ky
@@ -326,6 +328,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 97"
+    placet = "spíš lépe"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
