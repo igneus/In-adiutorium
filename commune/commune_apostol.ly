@@ -166,6 +166,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    fial = "commune/commune_apostol.ly#1ne-resp?zacatek=22&konec=17&cast=7,8,9,10"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
