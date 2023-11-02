@@ -129,10 +129,10 @@
     \choralniRezim
     g4 c b a c b g( a) g \barMaior
     c d e( c d c a b) a( g) \barMin f g a c b a( b) b \barMaior
-    b c d c( b) a g f f g g \barMax
+    b c d c( b) a g f g( a) a( g) g \barMax
 
-    c d( e c d) c( a) g g \barMin a g c b c d e d \barMaior
-    e e( f e) d c( d) d \barMin d c b a g a a( g) g \barFinalis
+    c d( e c d) c( a) g g \barMin a b c b c d e( d) d \barMaior
+    d e( f e) d c( d) d \barMin d c b a g a a( g) g \barFinalis
   }
   \addlyrics {
     Troj -- je -- di -- ný věč -- ný Bo -- že,
@@ -486,6 +486,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 110"
+    placet = "_před trůnem_ je přetížené; závěr málo uspokojivý"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -589,6 +590,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "postup _v bílých šatech_ je hodně nestandardní"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
