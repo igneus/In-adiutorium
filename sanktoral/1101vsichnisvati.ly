@@ -430,8 +430,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a c b g g \barMin f g a g a( c) b \barMaior
-    c d( e) c( b a4.) a \barMin c4 a a c b a( g) g \barFinalis
+    c4 c a c b g g \barMin f g a a a( c) b \barMaior
+    c d( e) c( b a4.) a \barMin c4 a a g f g( a g4.) g \barFinalis
   }
   \addlyrics {
     Li -- dé si vy -- prá -- vě -- jí o moud -- ros -- ti sva -- tých,

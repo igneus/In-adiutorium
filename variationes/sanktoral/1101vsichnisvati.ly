@@ -1919,6 +1919,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    f4 a a g f e f( d) d \barMax
+    c d \mark\sipka e f f \barMin g f g g a a \barMaior
+    a g a f( g) f f \barMin f \mark\sipka a g f g f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din po -- tě -- ší Si -- ón;
+    bu -- de v_něm vlád -- nout ra -- dost a ve -- se -- lí,
+    bu -- de v_něm za -- zní -- vat hlas dí -- ků a chvá -- ly.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2009,7 +2032,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a c b g g \mark\sipka \barMin f g a g a( c) b \barMaior
     c d( e) c( b a4.) a \barMin c4 a a c b a( g) g \barFinalis
@@ -2030,7 +2053,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     c4 c a c b g g \barMin f g a \mark\sipka a a( c) b \barMaior
     c d( e) c( b a4.) a \barMin c4 a a \mark\sipka g f g( a g4.) g \barFinalis
