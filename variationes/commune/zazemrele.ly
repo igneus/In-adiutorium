@@ -1034,6 +1034,29 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a a( g) g( a) a c b c a a \barMaior
+    g4 \stemUp g( bes) a g f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- chraň mě
+    pro svo -- je % v breviáři: své
+    jmé -- no,
+    svou mo -- cí mi zjed -- nej prá -- vo!
+  }
+  \header {
+    textus_approbatus = "Bože, zachraň mě pro své jméno, svou mocí mi zjednej právo!"
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacZeleny
     \choralniRezim
@@ -1059,6 +1082,29 @@
     \choralniRezim
     d4 d f( e) f( g) g g f e d d \barMaior
     d d( f) e d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- chraň mě
+    pro svo -- je % v breviáři: své
+    jmé -- no,
+    svou mo -- cí mi zjed -- nej prá -- vo!
+  }
+  \header {
+    textus_approbatus = "Bože, zachraň mě pro své jméno, svou mocí mi zjednej právo!"
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( c) c( d) d f e f d d \barMaior
+    d e c c a c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, za -- chraň mě

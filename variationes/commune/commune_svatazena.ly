@@ -2485,7 +2485,7 @@
   dvakrát, jednou k obyčejnému žalmu a podruhé k Magnificat? --
   Samozřejmě to \italic{je} divné, a jak už to tak bývá, jde o zvláštnost
   českého překladu.
-  Antifona k prvnímu žalmu:
+  Liturgia horarum, antifona k prvnímu žalmu:
   \italic{Fámula tua, Dómine, laetáta est in salutári tuo.}
   Antifona k Magnificat:
   \italic{Exsultávit cor meum in Dómino, et dilatátum est cor meum,
