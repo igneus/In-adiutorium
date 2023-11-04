@@ -15,8 +15,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e d c f g( a) a \barMaior
-    a a a( c a) g( a) a a( b) c a g g \barMaior
+    d4 f d c f g( a) a \barMaior
+    a a a( c a) g( a) a \barMin a( b) c a g g \barMaior
     g a a g f e( f d) d \barMin
     d c d f f f f e c c( d) d \barFinalis
   }
@@ -42,8 +42,8 @@
     d4 c a c( d) d \barMaior
     d d d c d f e d c c \barMin
     d( f e) f( g) f d e d d \barMaior
-    d( f g) \[ g( a g \] \[ f g f d) \] d \barMin
-    d d c d f( e d) d \barFinalis
+    d( f g) \[ g( a g \] \[ f g) \] g( f) \barMin
+    e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Ve -- leb -- me Bo -- ha,
@@ -57,7 +57,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "spíš lépe - rušivé je snad hlavně jak všechny fráze začínají i končí (navíc často recitací) na d"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
