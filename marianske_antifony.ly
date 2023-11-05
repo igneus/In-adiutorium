@@ -267,13 +267,20 @@
   \addlyrics {
     Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
     sva -- tá Bo -- ží Ro -- dič -- ko:
-    Ne -- od -- mí -- tej na -- še pros -- by,
+    ne -- od -- mí -- tej na -- še pros -- by,
     když po -- tře -- bu -- je -- me tvou po -- moc,
     a -- le vy -- svo -- boď nás vždyc -- ky
     z_kaž -- dé -- ho ne -- bez -- pe -- čí,
     Pan -- no slav -- ná a po -- žeh -- na -- ná.
   }
   \header {
+    textus_approbatus = "Pod tvou ochranu se utíkáme,
+    svatá Boží Rodičko:
+    neodmítej naše prosby,
+    když potřebujeme tvou pomoc,
+    ale vysvoboď nás vždycky
+    z každého nebezpečí,
+    Panno slavná a požehnaná."
     quid = "ant."
     modus = "V"
     differentia = ""
@@ -303,7 +310,7 @@
   \addlyrics {
     Zdrá -- vas, Ma -- ri -- a,
     mi -- los -- ti -- pl -- ná,
-    Pán s_te -- bou,
+    Pán s_te -- bou;
 
     po -- žeh -- na -- ná tys me -- zi že -- na -- mi
     a po -- žeh -- na -- ný plod
