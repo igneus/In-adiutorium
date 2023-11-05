@@ -1125,6 +1125,73 @@
   }
 }
 
+\markup\nadpisSkupiny "Oficiální text"
+\markup\justify{
+  (Jen upraven slovosled podle oficiálního znění.
+  Odchylky jsem si nebyl vědom, dokud mě nezarazila nepovědomá podoba
+  incipitu při pročítání benedikcionálu.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 \mark\sipka e c e g g a f g g \barMin
+    g g f e d e e \barMaior
+    e f e d e f g g \barMin
+    g a c c c b a a( g) g \barMaior
+    g a g f e f f( g) g \barMin
+    g g g f e d( e) e \barMaior
+    c d d( e) e e f d c c \barFinalis
+  }
+  \addlyrics {
+    Pod tvou o -- chra -- nu se u -- tí -- ká -- me,
+    sva -- tá Bo -- ží Ro -- dič -- ko:
+    ne -- od -- mí -- tej na -- še pros -- by,
+    když po -- tře -- bu -- je -- me tvou po -- moc,
+    a -- le vy -- svo -- boď nás vždyc -- ky
+    z_kaž -- dé -- ho ne -- bez -- pe -- čí,
+    Pan -- no slav -- ná a po -- žeh -- na -- ná.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "subtuum2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    e4 e \mark\sipka f f e d c e g g \barMin
+    \mark\sipka a a g f d e e \barMaior
+    e f e d e f g g \barMin
+    g a c c c b a a( g) g \barMaior
+    g a g f e f f( g) g \barMin
+    g g g f e d( e) e \barMaior
+    c d d( e) e e f d c c \barFinalis
+  }
+  \addlyrics {
+    Pod tvou o -- chra -- nu se u -- tí -- ká -- me,
+    sva -- tá Bo -- ží Ro -- dič -- ko:
+    ne -- od -- mí -- tej na -- še pros -- by,
+    když po -- tře -- bu -- je -- me tvou po -- moc,
+    a -- le vy -- svo -- boď nás vždyc -- ky
+    z_kaž -- dé -- ho ne -- bez -- pe -- čí,
+    Pan -- no slav -- ná a po -- žeh -- na -- ná.
+  }
+  \header {
+    quid = "ant."
+    modus = "V"
+    differentia = ""
+    psalmus = ""
+    id = "subtuum2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
