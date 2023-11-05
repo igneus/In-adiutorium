@@ -7,19 +7,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a a f( g a) a \barMin
-    a b c b c d c( b a) g a( g) g \barFinalis
+    c4 c b g a( g) g \barMaior
+    a a f e d d \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Vy všich -- ni jste bra -- tři;
-    má -- te spo -- leč -- né -- ho Ot -- ce v_ne -- bi.
+    má -- te spo -- leč -- né -- ho
+    Ot -- ce v_ne -- bi.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
     annus = "A"
+    fial = "antifony/pust_tyden2.ly#ut-amag?zacatek=7"
     id = "ne31a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -54,10 +57,10 @@
     d4 d d d c d d( f) f( e) e \barMaior
     d d d f e c a a \barMax
 
-    a c d f d d \barMin
+    d d e f d d \barMin
     f f g( f) d d \barMaior
-    d e c d c a a \barMin
-    c d e( f d) c( d) d \barFinalis
+    d e c b c a a \barMin
+    c d d( f e) c( d) d \barFinalis
   }
   \addlyrics {
     Kdo je me -- zi vá -- mi nej -- vět -- ší,
@@ -74,10 +77,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
-    placet = "zatímco ve zdrojové antifoně druhá část na hlubokou kadenci
-    v závěru části první navazuje přirozeně, zde to přirozeně
-    ani zdaleka nepůsobí.
-    předělat."
+    placet = "takhle je to o něco lepší, ale šev po _služebníkem_ je stále hodně nestandardní"
     fial = "sanktoral/0725jakub.ly#ne-amag?zacatek"
     id = "ne31a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
