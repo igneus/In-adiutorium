@@ -1161,6 +1161,12 @@
   }
 }
 
+\markup\justify{
+  Dosavadní melodie na upravený slovosled je zpěvnější,
+  ale zhudebnění breviářových verzí bylo vždycky zamýšleno jako
+  zhudebnění doslovného oficiálního textu, bez ohledu na to,
+  že není pěkný a ke zhudebnění zvoucí.
+}
 \score {
   \relative c' {
     \zvyraznovacZelenyII
