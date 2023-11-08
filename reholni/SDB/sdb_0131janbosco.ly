@@ -42,9 +42,9 @@
   \relative c'' {
     \choralniRezim
     c4 b a a g g \barMin
-    a g a f e f( g) \barMaior
-    a g a a( c) c \barMin
-    c b a g( a) a( g) g \barFinalis
+    a a a f e f( g) \barMaior
+    a b c a( g) g \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     V_to -- bě dal Hos -- po -- din
@@ -57,7 +57,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 146"
-    placet = "_hladovějícím_ a _sirotkům_ lépe"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -67,8 +66,8 @@
   \relative c'' {
     \choralniRezim
     g4 g f g a c c \barMin
-    d c d d( e) d c b c( a) a \barMaior
-    c c c c b a g a g g \barFinalis
+    c( d) c c d( e d) c b c a( g) g \barMaior
+    a a a b c a g a g g \barFinalis
   }
   \addlyrics {
     Bůh tě v_círk -- vi po -- vo -- lal
