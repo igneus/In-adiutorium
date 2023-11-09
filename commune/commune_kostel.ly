@@ -29,6 +29,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-I"
+    placet = "_Jeruzalém_ divné; aleluja spíš jinak"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -76,6 +77,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-II"
+    placet = "začátek je netypický"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -104,6 +106,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Zj 19"
+    placet = "první půlka nezpěvná"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -591,6 +594,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "zpřísnit fial, aleluja sjednotit se zdrojem"
     fons = "druhá část, text i melodie: commune pastýřů, odpoledne"
     fial = "commune/commune_pastyr.ly#nona?konec"
     id = "tercie"
