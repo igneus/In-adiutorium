@@ -72,6 +72,11 @@
   }
 }
 
+\markup\justify{
+  Předchozí varianta počítá s tím, že se _a_ zpívá jako nepřízvučné,
+  tato varianta bere _a nepouští_ jako jeden přízvučný celek
+  s přízvuky \italic{\underline{a} \concat{ne \underline{pouš} tí}}
+}
 \score {
   \relative c'' {
     \choralniRezim
