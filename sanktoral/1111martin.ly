@@ -44,7 +44,7 @@
     \choralniRezim
     g4 g g d' c d f( e c) c( d) d \barMaior
     d e d c b a( g) g \barMaior
-    a( b c) a( g) g f( g) a g g \barFinalis
+    a( b c) a( g) g f( a) a g g \barFinalis
   }
   \addlyrics {
     Bo -- ží slu -- žeb -- ní -- ku Mar -- ti -- ne,
@@ -104,6 +104,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 149"
+    placet = "neumím pojmenovat čím, ale _stoluje_ nějak drhne"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -160,6 +161,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 15"
+    placet = "_se nedal ani_ lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -215,11 +217,11 @@
   \relative c'' {
     \choralniRezim
     g4 a c( d) d d c d e d \barMin
-    c d c b c a( g) g \barMaior
-    g f g a g f g( a g) g \barMax
+    d e d c b a( g) g \barMaior
+    a g f g a a g( a g) g \barMax
 
-    c c c c c d c d d( e) d \barMin
-    c d c b a g a g g \barMaior
+    c c c c c d e c c( d) d \barMin
+    c a c b a g a g g \barMaior
     a a g f g( a) a a \barMin c( d e) d c( b) a a \barMaior
     g f g( a) a g g \barFinalis
   }
