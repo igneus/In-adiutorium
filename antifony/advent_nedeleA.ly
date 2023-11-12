@@ -8,7 +8,7 @@
     \choralniRezim
     d4( f d c) c \barMin
     d d e f( g) a g \barMin
-    f f e f g( f e) c( d) d \barFinalis
+    a a g f e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Bdě -- te,
@@ -17,7 +17,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "imag1"

@@ -4,6 +4,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f d c) c \barMin
     d d e f( g) a g \barMin
@@ -20,6 +21,29 @@
     differentia = "D"
     psalmus = ""
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f d c) c \barMin
+    d d e f( g) a g \barMin
+    \mark\sipka a a g f e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te,
+    pro -- to -- že ne -- ví -- te,
+    kte -- rý den váš Pán při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -92,7 +92,7 @@
     a4 a a g( a) g g \barMin
     f g a a a b g a a \barMaior
     a a g f d( e) e \barMaior
-    e e( f e d) d( e) \barMin f g a a g e e \barFinalis
+    e f( g a) g \barMin f g a a g e e \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství
@@ -138,8 +138,8 @@
     \choralniRezim
     d4( f d c) c \barMin
     d d e f( g) a g \barMaior
-    f f e d e c c \barMin
-    d f( e d) c( d) d \barFinalis
+    a a g f e d d
+    e f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Bdě -- te,
@@ -148,11 +148,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     annus = "A"
-    fial = "antifony/advent_nedeleA.ly#imag1?zacatek"
+    fial = "antifony/advent_nedeleA.ly#imag1?zacatek=13"
     id = "ne32a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

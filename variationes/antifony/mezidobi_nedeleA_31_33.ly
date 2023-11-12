@@ -461,6 +461,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g( a) g g \barMin
     f g a a a b g a a \barMaior
@@ -484,7 +485,67 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g( a) g g \barMin
+    f g a a a b g a a \barMaior
+    a a g f d( e) e \barMaior
+    e \mark\sipka f( g a) g \barMin f g a a g e e \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né de -- se -- ti pan -- nám,
+    kte -- ré vza -- ly lam -- py
+    a vy -- šly na -- pro -- ti že -- ni -- cho -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne32a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d e d d c d e d d \barMaior
+    c a c b a( g) g \barMaior
+    a f( g a c) b( g) \barMin a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né de -- se -- ti pan -- nám,
+    kte -- ré vza -- ly lam -- py
+    a vy -- šly na -- pro -- ti že -- ni -- cho -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek=7"
+    id = "ne32a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    \bold{Média nocte clamor factus est:}
+    Ecce sponsus venit, exíte óbviam \bold{ei.}
+  }
+}
 
 \score {
   \relative c'' {
@@ -563,6 +624,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f d c) c \barMin
     d d e f( g) a g \barMaior
@@ -585,6 +647,84 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f d c) c \barMin
+    d d e f( g) a g \barMaior
+    \mark\sipka a a g f e d d
+    e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te,
+    pro -- to -- že ne -- ví -- te,
+    kte -- rý den a ho -- di -- nu váš Pán při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/advent_nedeleA.ly#imag1?zacatek=13"
+    id = "ne32a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f d c) c \barMin
+    d d e f( g) a g \barMaior
+    a a g f \mark\sipka e( f) d d \barMin
+    e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te,
+    pro -- to -- že ne -- ví -- te,
+    kte -- rý den a ho -- di -- nu váš Pán při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/advent_nedeleA.ly#imag1?zacatek=13"
+    id = "ne32a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f d c) c \barMin
+    d d e f( g) a g \barMaior
+    \mark\sipka a g f g f d d
+    e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te,
+    pro -- to -- že ne -- ví -- te,
+    kte -- rý den a ho -- di -- nu váš Pán při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/advent_nedeleA.ly#imag1?zacatek=13"
+    id = "ne32a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisDen {"33. neděle"}}
 
