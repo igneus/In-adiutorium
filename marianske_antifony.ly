@@ -256,8 +256,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e c e g g a f g g \barMin
-    g g f e d e e \barMaior
+    e4 e f f e d c e g g \barMin
+    a a g f d e e \barMaior
     e f e d e f g g \barMin
     g a c c c b a a( g) g \barMaior
     g a g f e f f( g) g \barMin
@@ -265,7 +265,7 @@
     c d d( e) e e f d c c \barFinalis
   }
   \addlyrics {
-    Pod o -- chra -- nu tvou se u -- tí -- ká -- me,
+    Pod tvou o -- chra -- nu se u -- tí -- ká -- me,
     sva -- tá Bo -- ží Ro -- dič -- ko:
     ne -- od -- mí -- tej na -- še pros -- by,
     když po -- tře -- bu -- je -- me tvou po -- moc,
@@ -274,13 +274,6 @@
     Pan -- no slav -- ná a po -- žeh -- na -- ná.
   }
   \header {
-    textus_approbatus = "Pod tvou ochranu se utíkáme,
-    svatá Boží Rodičko:
-    neodmítej naše prosby,
-    když potřebujeme tvou pomoc,
-    ale vysvoboď nás vždycky
-    z každého nebezpečí,
-    Panno slavná a požehnaná."
     quid = "ant."
     modus = "V"
     differentia = ""

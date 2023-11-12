@@ -1096,7 +1096,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e c e g g a f g g \barMin
     g g f e d e e \barMaior
@@ -1162,14 +1162,14 @@
 }
 
 \markup\justify{
-  Dosavadní melodie na upravený slovosled je zpěvnější,
+  Dosavadní melodie na pozměněný slovosled je zpěvnější,
   ale zhudebnění breviářových verzí bylo vždycky zamýšleno jako
   zhudebnění doslovného oficiálního textu, bez ohledu na to,
   že není pěkný a ke zhudebnění zvoucí.
 }
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     e4 e \mark\sipka f f e d c e g g \barMin
     \mark\sipka a a g f d e e \barMaior
