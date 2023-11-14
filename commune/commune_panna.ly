@@ -218,7 +218,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( a' bes) a \barMin d,( a') bes a g g \barMaior
+    d4( a' bes) a \barMin g( a) bes a g g \barMaior
     g g g f e d( c) d \barFinalis
 
     c^\markup\rubrVelikAleluja f( e) d d \barFinalis
@@ -234,7 +234,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "druhá kvinta sice zní pěkně, ale poměrně obtížně se zpívá"
     id = "invit1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

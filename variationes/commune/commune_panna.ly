@@ -406,6 +406,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( a' bes) a \barMin d,( a') bes a g g \barMaior
@@ -432,6 +433,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     d4( a' bes) a \barMin \mark\sipka g( a) bes a g g \barMaior
@@ -576,6 +578,32 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) f \barMin f( g) a f f( g) g \barMaior
+    a g f( e) d d \barMin
+    d c d f f e c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4( g) g \barMin a g a f( g f) f \barMaior
     g g f( e) d( c) c \barMin
     d c d f g a a g( f) f \barFinalis
@@ -619,6 +647,85 @@
     quid = "ant."
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d( e) d \barMaior
+    c d e( c) d d \barMin
+    c a a c b a g a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a c c c d( e) d \barMaior
+    c d e( c) d d \barMin
+    c a a \mark\sipka b c a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d( e) d \barMaior
+    c d \mark\sipka c( b) a a \barMin
+    c a a b c a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
