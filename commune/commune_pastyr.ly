@@ -241,7 +241,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "_nejvyšší_ je příliš velký důraz na nepřízvučné slabice"
+    placet = "zejm. ta stupnice na _našemu Pánu_ je hrozná, _nejvyšší pastýř_ divné"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

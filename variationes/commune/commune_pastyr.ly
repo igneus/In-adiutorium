@@ -313,6 +313,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g g g( f d) g( a) g g \barMaior
+    a b c b c d d \barMin
+    c c b g a g f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pást své stá -- do;
+    bu -- du hle -- dat ztra -- ce -- né,
+    zpět při -- ve -- du roz -- ptý -- le -- né.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4 c c d( e d) c( b) a a \barMaior
     c c b a g( a) g g \barMin
@@ -1433,6 +1460,64 @@
     differentia = "F"
     psalmus = ""
     fial = "commune/commune_ucitel.ly#invit?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g \barMin
+    a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    d f \mark\sipka g( a) g g f g g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#invit?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g \barMin
+    a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    \mark\sipka d c d d( f) f g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#invit?zacatek=18"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
