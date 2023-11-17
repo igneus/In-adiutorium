@@ -106,8 +106,17 @@
   }
 }
 
-\markup{
-  Tahle zatím zůstává záhadná
+\markup\justify{
+  Pravděpodobně podle antifony
+  \italic{Potens in terra,}
+  \cantusid-link "004348" ,
+  která, pokud vím, v pražském ritu nefiguruje,
+  a narozdíl od ostatních není chorálním databázím k dnešnímu dni ani odjinud
+  známá jako antifona k nedělním nešporám, ale jen z commune a propria
+  de sanctis (tak i v českých monastických pramenech).
+  (Velký díl zásluh za objevení patří Antiphonale Synopticum
+  a jeho vyhledávání podle citovaných biblických textů,
+  zde antifon s textem z žalmu 111.)
 }
 
 \score {
