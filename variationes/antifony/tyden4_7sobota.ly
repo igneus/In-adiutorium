@@ -1456,6 +1456,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 c f e f d \barMaior
+    \mark\sipka f e d c c
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám vám no -- vé srd -- ce
+    a vlo -- žím do vás
+    no -- vé -- ho du -- cha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ez 36"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
