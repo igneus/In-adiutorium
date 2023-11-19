@@ -163,8 +163,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c d d c b a a \barMin
-    a c c a g a g g \barMaior
+    d4 d d( e) d c d( e) e d d \barMin
+    d c d c b a g g \barMaior
     f( g) g( a) a \barMin c c b a g( a) g g \barFinalis
   }
   \addlyrics {
@@ -187,8 +187,8 @@
   \relative c'' {
     \choralniRezim
     g4 f a( c) c d( c) b c a a \barMaior
-    g( a) a a g f g g( a) a \barMin
-    a( c) c b g g \barMaior
+    c c c b c a g( a) g \barMin
+    f( g) a a g g \barMaior
     c c c( d) c c \barMin b a g( a) g \barFinalis
   }
   \addlyrics {
@@ -212,8 +212,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c d( e d) \barMin c b a a \barMaior
-    c c a g f( g) a( g) g \barFinalis
+    c4 c c c d( e d) \barMin c b a( g) g \barMaior
+    a a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Kaž -- dé -- mu, kdo má, bu -- de dá -- no,

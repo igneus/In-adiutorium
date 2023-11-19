@@ -730,6 +730,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d d c b a a \barMin
     a c c a g a g g \barMaior
@@ -741,6 +742,81 @@
     kaž -- dé -- mu po -- dle je -- ho schop -- nos -- tí.
   }
   \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne33a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d \mark\sipka e e d c d e d d \barMin
+    d c d c b a g g \barMaior
+    f( g) g( a) a \barMin c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pán si za -- vo -- lal své slu -- žeb -- ní -- ky
+    a svě -- řil jim svůj ma -- je -- tek,
+    kaž -- dé -- mu po -- dle je -- ho schop -- nos -- tí.
+  }
+  \header {
+    textus_approbatus = "Pán si zavolal služebníky a svěřil jim svůj majetek,
+    každému podle jeho schopností."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne33a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \mark\sipka d( e) d c d( e) e d d \barMin
+    d c d c b a g g \barMaior
+    f( g) g( a) a \barMin c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pán si za -- vo -- lal slu -- žeb -- ní -- ky
+    a svě -- řil jim svůj ma -- je -- tek,
+    kaž -- dé -- mu po -- dle je -- ho schop -- nos -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne33a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d( e) d d \barMin
+    d c( d c) b g g \barMin
+    g f a c b c d d \barMaior
+    d( e) c c \barMin b c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Pán si za -- vo -- lal své slu -- žeb -- ní -- ky
+    a svě -- řil jim svůj ma -- je -- tek,
+    kaž -- dé -- mu po -- dle je -- ho schop -- nos -- tí.
+  }
+  \header {
+    textus_approbatus = "Pán si zavolal služebníky a svěřil jim svůj majetek,
+    každému podle jeho schopností."
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"
@@ -763,6 +839,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f a( c) c d( c) b c a a \barMaior
     g( a) a a g f g g( a) a \barMin
@@ -787,10 +864,95 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a( c) c d( c) b c a a \barMaior
+    \mark\sipka a a a g f g g( a) a \barMin
+    a( c) c b g g \barMaior
+    c c c( d) c c \barMin b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku do -- brý a věr -- ný,
+    má -- lo jsi spra -- vo -- val věr -- ně,
+    mno -- ho ti svě -- řím.
+    Pojď se ra -- do -- vat se svým pá -- nem.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatymuz.ly#2ne-amag1?zacatek"
+    id = "ne33a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f a( c) c d( c) b c a a \barMaior
+    \mark\sipka c c c b c a g( a) g \barMin
+    f( g) a a g g \barMaior
+    c c c( d) c c \barMin b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku do -- brý a věr -- ný,
+    má -- lo jsi spra -- vo -- val věr -- ně,
+    mno -- ho ti svě -- řím.
+    Pojď se ra -- do -- vat se svým pá -- nem.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatymuz.ly#2ne-amag1?zacatek=11&konec=12&-aleluja"
+    id = "ne33a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Začátek z antifony původně odvozené odtud -
+  \fial-link "sanktoral/0714hroznata.ly#amag"
+}
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \mark\sipka c4 c b a c a b g g \barMaior
+    a a a g f g g( a) a \barMin
+    a( c) c b g g \barMaior
+    c c c( d) c c \barMin b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku do -- brý a věr -- ný,
+    má -- lo jsi spra -- vo -- val věr -- ně,
+    mno -- ho ti svě -- řím.
+    Pojď se ra -- do -- vat se svým pá -- nem.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatymuz.ly#2ne-amag1?konec"
+    id = "ne33a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c d( e d) \barMin c b a a \barMaior
     c c a g f( g) a( g) g \barFinalis
@@ -803,6 +965,91 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne33a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c d( e d) \barMin c b \mark\sipka a( g) g \barMaior
+    a a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dé -- mu, kdo má, bu -- de dá -- no,
+    a bu -- de mít nad -- by -- tek.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne33a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d( e) \barMin d c a( g) g \barMaior
+    a a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dé -- mu, kdo má, bu -- de dá -- no,
+    a bu -- de mít nad -- by -- tek.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne33a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g4.( a) g4 f \mark\sipka f( g) g \barMaior
+    a a g f d( f) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dé -- mu, kdo má, bu -- de dá -- no,
+    a bu -- de mít nad -- by -- tek.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne33a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g4.( a) g4 f d( c) c \barMaior
+    d e f f g( a g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dé -- mu, kdo má, bu -- de dá -- no,
+    a bu -- de mít nad -- by -- tek.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "A"
     id = "ne33a-2ne-amag"
