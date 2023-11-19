@@ -203,7 +203,7 @@
     differentia = "G"
     psalmus = ""
     annus = "A"
-    fial = "commune/commune_svatymuz.ly#2ne-amag1?zacatek"
+    fial = "commune/commune_svatymuz.ly#2ne-amag1?zacatek=11&konec=12&-aleluja"
     id = "ne33a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
