@@ -3076,7 +3076,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a \barMin g f g a a( g) g \barMaior
     g b c d c a c c b \barMaior
@@ -3132,6 +3132,82 @@
     pře -- da -- li nám Kris -- to -- vo u -- če -- ní.
   }
   \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f d f g a( g) g \barMaior
+  }
+  \addlyrics {
+    Pe -- tr,_* prv -- ní z_a -- poš -- to -- lů,
+    a Pa -- vel, u -- či -- tel ná -- ro -- dů,
+    pře -- da -- li nám Kris -- to -- vo u -- če -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Tady by bylo užitečné zkusit co nejexaktněji popsat,
+  proč latinský text to úvodní melisma unese a český (jak mám za to) ne.
+  Zdá se, že to má co dělat se zpěvností slabik bezprostředně následujících.
+  Latinský text (Petrus apostolus)
+  má pěkné zpěvné slabiky, které umožňují energii rozmáchlého
+  začátku absorbovat, zatímco v českém textu následují dvě slabiky nezpěvné
+  (tr prv), na které ten úvodní rozmach tvrdě narazí.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4( c) a g f g a a( g) g \barMaior
+    g b c d c a c c b \barMaior
+    c c c b( a g) \barMin a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr,_* prv -- ní z_a -- poš -- to -- lů,
+    a Pa -- vel, u -- či -- tel ná -- ro -- dů,
+    pře -- da -- li nám Kris -- to -- vo u -- če -- ní.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 649"
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 g a f g a a( g) g \barMaior
+    g b c d c a c c b \barMaior
+    c c c b( a g) \barMin a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr, prv -- ní z_a -- poš -- to -- lů,_*
+    a Pa -- vel, u -- či -- tel ná -- ro -- dů,
+    pře -- da -- li nám Kris -- to -- vo u -- če -- ní.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 649"
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"

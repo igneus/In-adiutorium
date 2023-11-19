@@ -39,7 +39,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a \barMin g f g a a( g) g \barMaior
     g b c d c a c c b \barMaior
@@ -47,6 +47,33 @@
   }
   \addlyrics {
     Pe -- tr,_* prv -- ní z_a -- poš -- to -- lů,
+    a Pa -- vel, u -- či -- tel ná -- ro -- dů,
+    pře -- da -- li nám Kris -- to -- vo u -- če -- ní.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 649"
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "sanktoral/0629petraapavla.ly#2ne-amag"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a f g a a( g) g \barMaior
+    g b c d c a c c b \barMaior
+    c c c b( a g) \barMin a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr, prv -- ní z_a -- poš -- to -- lů,_*
     a Pa -- vel, u -- či -- tel ná -- ro -- dů,
     pře -- da -- li nám Kris -- to -- vo u -- če -- ní.
   }

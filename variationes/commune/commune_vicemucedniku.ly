@@ -1340,6 +1340,62 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e d c \mark\sipka d( e) d d \barMaior
+    d \mark\sipka e d c( b a4.) a \barMin
+    g4 a b( c) a a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Tě -- la sva -- tých_*
+    by -- la po -- hřbe -- na v_po -- ko -- ji
+    a je -- jich jmé -- no
+    ži -- je na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e d c d( e) d d \barMaior
+    d e d c( b a4.) a \barMin
+    \mark\sipka b4 g b( c) a a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Tě -- la sva -- tých_*
+    by -- la po -- hřbe -- na v_po -- ko -- ji
+    a je -- jich jmé -- no
+    ži -- je na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
     g4 a c c c c d( e) d d \barMin
@@ -1363,6 +1419,65 @@
     differentia = "A"
     psalmus = "Žalm 116-II"
     id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c c d( e) d d \barMin
+    \mark\sipka c d e e( d) d \barMaior
+    d c b a( g) a \barMin
+    f g a( c b) g( a) a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci by -- li za -- bi -- ti_*
+    pro Bo -- ží slo -- vo
+    a pro svě -- dec -- tví,
+    kte -- ré vy -- da -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f( a) a \barMin
+    a g f g a f( e) d d \barMaior
+    g a g f( g) f \barMin
+    e( d) c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tě -- la sva -- tých_*
+    by -- la po -- hřbe -- na v_po -- ko -- ji
+    a je -- jich jmé -- no
+    ži -- je na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 [32]"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
