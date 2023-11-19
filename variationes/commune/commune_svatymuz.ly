@@ -2658,3 +2658,28 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( b c) c \barMin c d( c) b( a) a \barMaior
+    a c \mark\sipka c b a g( a) g g \barMin \mark\sipka f g a b c( a g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    By -- li věr -- ní až do smr -- ti
+    a ob -- dr -- že -- li od Pá -- na za od -- mě -- nu ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?delsi_text"
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

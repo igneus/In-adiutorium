@@ -893,6 +893,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) d c c \barMin
+    c c a b c a g( a) g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Když vy -- tr -- vá -- me,
+    bu -- de -- me s_Kris -- tem i kra -- lo -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{(Responsorium pro nešpory není vlastní, bere se ze společných textů.)}
@@ -937,6 +959,28 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( b c) c \barMin c d( c) b( a) a \barMaior
+    a \mark\sipka c( a g4.) g \barMin f4 g a b c( a g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Buď věr -- ný až do smr -- ti,
+    a dám ti za od -- mě -- nu ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
     differentia = "d"
     psalmus = ""
     id = "ne-amag"
