@@ -541,10 +541,45 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g a g g( a g) g \barMaior
     g g f g a a( \mark\sipka b c a) a \barMin
+    c c c g( a g) f g a a( g) g \barMaior
+    g g( a b c) c \barMin
+    c a c c( b) a( g) a( g) \barMaior
+    g a c( d c) b( c) a a \barMin
+    a c( b) a( g) g \barMaior
+    g a f( e) d \barMin
+    f g a( c a b) a( g) \barFinalis
+  }
+  \addlyrics {
+    Vi -- děl jsem pra -- men vo -- dy,
+    kte -- rý vy -- vě -- ral z_chrá -- mu
+    na pra -- vé stra -- ně, a -- le -- lu -- ja.
+    A vši -- chni,
+    k_nimž vo -- da do -- sá -- hla,
+    by -- li u -- zdra -- ve -- ni a vo -- la -- jí:
+    A -- le -- lu -- ja,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    poet = "Český misál - velikonoční vigilie"
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "vidiaquam"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g a \mark\sipka f g( a g) g \barMaior
+    g g f g a a( b c a) a \barMin
     c c c g( a g) f g a a( g) g \barMaior
     g g( a b c) c \barMin
     c a c c( b) a( g) a( g) \barMaior
