@@ -71,6 +71,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 e d c d f f \barMin
     g g g a a g a bes( a) a \barMaior
@@ -119,6 +120,63 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 e d c \mark\sipka f( g) a g \barMin
+    g g g a a g a bes( a) a \barMaior
+    a \mark\sipka a( c) a g a \barMin
+    a \mark\sipka b( c) a b c a g g \barMaior
+    f f f g f d d \mark\sipka e f d( c) c \barMin
+    d d( e f) f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Ma -- ri -- a, u -- sta -- vič -- ná Pan -- no,
+    tys chrá -- mem Bo -- žím
+    a stán -- kem Du -- cha sva -- té -- ho,
+    jen v_to -- bě je -- di -- né má za -- lí -- be -- ní
+    náš Pán Je -- žíš Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d c f( g) a g \barMin
+    \mark\sipka a a a bes bes a g g( a) a \barMaior
+    a a( c) a g a \barMin
+    a b( c) a b c a g g \barMaior
+    f f f g f d d e f d( c) c \barMin
+    d d( e f) f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Ma -- ri -- a, u -- sta -- vič -- ná Pan -- no,
+    tys chrá -- mem Bo -- žím
+    a stán -- kem Du -- cha sva -- té -- ho,
+    jen v_to -- bě je -- di -- né má za -- lí -- be -- ní
+    náš Pán Je -- žíš Kris -- tus.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}

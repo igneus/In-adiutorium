@@ -41,11 +41,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e d c d f f \barMin
+    f4 e d c f( g) a g \barMin
     g g g a a g a bes( a) a \barMaior
-    a c( a) a g a \barMin
-    a a( c) a b c a g g \barMaior
-    f f f g f d d d e( f) d( c) c \barMin
+    a a( c) a g a \barMin
+    a b( c) a b c a g g \barMaior
+    f f f g f d d e f d( c) c \barMin
     d d( e f) f( g) f d d \barFinalis
   }
   \addlyrics {
