@@ -26,6 +26,12 @@
     : 117r
   }
   \line{
+    Hr42 =
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-MVCHK_HR42IIA44___2S3OMM0-cs" {CZ-HKm Hr-42 (II A 44)}
+    - Graduál a antifonář český
+    : 549r
+  }
+  \line{
     JK =
     \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___II_C_7______4347P97-cs" {CZ-Pn II C 7}
     - Jistebnický kancionál
@@ -42,6 +48,12 @@
     \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XVI_A_18____1W6DDX6-cs" {CZ-Pn XVI A 18}
     - Karlštejnský žaltář
     : 54r
+  }
+  \line{
+    KG =
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__XXIII_A_2___23N0HD1-cs" {CZ-Pu XXIII A 2}
+    - tkzv. Kutnohorský graduál (ve skutečnosti antifonář)
+    : 97r
   }
   \line{
     PI =
@@ -132,6 +144,26 @@
   }
   \header {
     fons_externus = "KA, f. 134v"
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( a) c c( g)
+    b c a g( f) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "Hr42, f. 549v"
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
