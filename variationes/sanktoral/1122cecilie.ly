@@ -95,3 +95,63 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) \mark\sipka g a g f( g) g \barMaior
+    g g g a g \mark\sipka a a c c b b \barMin
+    c( d) c b( c) a g g \barMaior
+    g f g g( a) a \barMin
+    c c b a g( a) g g \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá pan -- na Ce -- cí -- li -- e
+    no -- si -- la Kris -- to -- vo e -- van -- ge -- li -- um
+    stá -- le ve svém srd -- ci
+    a ne -- u -- stá -- le
+    roz -- mlou -- va -- la o Bo -- hu
+    ne -- bo s_Bo -- hem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Tento začátek má v novodobých chorálních knihách řadu obdob.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g g( c) \mark\sipka a g( f) g( a) a g \barMaior
+    g g g a g a a c c b b \barMin
+    c( d) c b( c) a g g \barMaior
+    g f g g( a) a \barMin
+    c c b a g( a) g g \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá pan -- na Ce -- cí -- li -- e
+    no -- si -- la Kris -- to -- vo e -- van -- ge -- li -- um
+    stá -- le ve svém srd -- ci
+    a ne -- u -- stá -- le
+    roz -- mlou -- va -- la o Bo -- hu
+    ne -- bo s_Bo -- hem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
