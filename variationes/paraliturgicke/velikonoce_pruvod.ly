@@ -44,6 +44,12 @@
     : 134v
   }
   \line{
+    VS =
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XV_A_10_____0MGV3O0-cs" {CZ-Pn XV A 10}
+    - Vesperarium svatovítské
+    : 194r
+  }
+  \line{
     KZ =
     \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XVI_A_18____1W6DDX6-cs" {CZ-Pn XVI A 18}
     - Karlštejnský žaltář
