@@ -537,17 +537,17 @@
 \markup\italic{O panně mučednici:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g( f) \neviditelna f \bar ";"
+    d4 c \neviditelna c \bar ";"
 
-    g(^\markup\rubrJmenoSvateho a) a( g) g \bar ";"
-    g a a( g) g \bar ";"
+    f(^\markup\rubrJmenoSvateho g) g( a) a \bar ";"
+    f g f( a) a \bar ";"
 
-    f4 g a g f g g( f d) \barMin
-    f g a g f g g( f) f \barMaior
-    g a g g( f d) d \barMin
-    d e c e f d d \barFinalis
+    a4 a a g f g( a) g \barMaior
+    g a g f e f d( c) c \barMaior
+    d c d d( f) f \barMin
+    f g( a f) e c d d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -567,7 +567,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a"
+    differentia = "D"
     psalmus = ""
     id = "rch-aben1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -886,6 +886,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "2ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
