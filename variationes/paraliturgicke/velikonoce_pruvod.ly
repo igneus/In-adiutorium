@@ -68,6 +68,13 @@
     : 26r
   }
 }
+\markup\justify\small{
+  Odjinud:
+  einsiedlenský mnišský antifonář
+  \with-url "http://www.e-codices.unifr.ch/en/sbe/0611/280r/0/" {CH-E 611}
+  má čtyři z našich antifon jako dodatek připsaný novověkou rukou (f. 280r)
+  s určením k malým hodinkám v době velikonoční.
+}
 
 \markup{
   Podle antifony \italic{Dixit Dominus}
