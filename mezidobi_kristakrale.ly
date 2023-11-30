@@ -161,6 +161,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "spíš lépe - zejm. ten kvartový skok nad recitandu pryč"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -300,6 +301,7 @@
   \header {
     quid = "2. resp."
     modus = "VI"
+    placet = "_protože Hospodinu náleží vláda_ a _kralovat_ zkusit lépe"
     id = "mc-resp2"
     piece = \markup {\sestavTitulekResp}
   }
@@ -350,6 +352,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "_spravedlnosti_ nevím"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -526,6 +529,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "dnes už v korpusu značně vyčnívá"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -632,6 +636,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "nevím, jestli ve verši pokles nevrátit na _a_"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
