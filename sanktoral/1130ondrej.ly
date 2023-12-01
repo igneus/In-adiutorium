@@ -18,9 +18,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( g a) g \barMin f g a g f g f \barMaior
-    g g a f e d \barMin
-    f f g f e d c d d \barFinalis
+    f4( g) g \barMin f g a g f g( a g) g \barMaior
+    g f g a c c \barMin
+    b c a g f g a g g \barFinalis
   }
   \addlyrics {
     On -- dřej, bra -- tr Ši -- mo -- na Pet -- ra,
@@ -29,8 +29,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -41,8 +41,8 @@
   \relative c'' {
     \choralniRezim
     g4 g g d' d d c e d \barMin
-    c c c c c( d c) b a( b) \barMaior
-    g g( a g) f f g g \barFinalis
+    c d c b a g g  \barMaior
+    g a f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     On -- dřej o -- bě -- to -- val svůj ži -- vot
@@ -62,8 +62,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e( f) e \barMin f g f f e( f) d c( d) \barMaior
-    a a( c d) e( f) e d( c) d \barMin e f e c d( e) d d \barFinalis
+    c4 d d( f) f \barMin f g f f e( f) d( c) c \barMaior
+    d f e d c( d) c \barMin d e f d c d d \barFinalis
   }
   \addlyrics {
     On -- dřej po -- znal, že Je -- žíš je Me -- si -- áš,
@@ -86,8 +86,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( a' g) a( c) a \barMin c c b( a g a) a \barMaior
-    a bes a g( a g f) e \barMin f f d f e e \barMax
+    d4 d( a' g) g( a) a \barMin c c b( a g a) a \barMaior
+    a bes a g( a g) g \barMin f f d f e e \barMaior
     d d d( f) g f( e d) \barMin c d e f d d \barFinalis
   }
   \addlyrics {
@@ -110,7 +110,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g g( c b) a( g) a \barMin g a a f e d \barMaior
+    g4-- f( g) g( a) a \barMin c a a c( b) a( g) g \barMaior
     f g a g g \barFinalis
   }
   \addlyrics {
@@ -195,7 +195,7 @@
     \choralniRezim
     g4 a c d d \barMin d e c c( d) d \barMaior
     d e d c( d) c \barMin b c a g a( g) g \barMaior
-    a f( g a) a \barMin c c c b a g( a) g g \barFinalis
+    f g( a) a \barMin c c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- tův slu -- žeb -- ník, a -- po -- štol On -- dřej,
