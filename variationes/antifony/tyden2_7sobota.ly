@@ -1040,6 +1040,24 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4( b) d c \barMin a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g a \barMin
     a c b g g \barFinalis
   }

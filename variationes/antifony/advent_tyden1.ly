@@ -2358,7 +2358,52 @@
   \relative c'' {
     \choralniRezim
     c4 d c b a g g a g f( g) g \barMaior
+    a( c) c \barMin
+    \mark\sipka b c a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Z_E -- gyp -- ta jsem po -- vo -- lal své -- ho Sy -- na:
+    při -- jde,
+    a -- by spa -- sil svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b a g g a g f( g) g \barMaior
     \mark\sipka a( g a c) c \barMin
+    b c a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Z_E -- gyp -- ta jsem po -- vo -- lal své -- ho Sy -- na:
+    při -- jde,
+    a -- by spa -- sil svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 d c b a g g \mark\sipka f( g) a g g \barMaior
+    a( c) c \barMin
     b c a g f( a) g \barFinalis
   }
   \addlyrics {
