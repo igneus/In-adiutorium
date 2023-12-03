@@ -189,7 +189,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c c c d( e) c c d d \barMaior
     e d c d( c a) \barMin
@@ -216,6 +216,34 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     g4 a c c c d( e) c c d d \barMaior
     e d c d( c a) \barMin
     b g \mark\sipka c b a( b) a a \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je kní -- že po -- ko -- je
+    a je -- ho trůn
+    sto -- jí pev -- ně na -- vě -- ky.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  _kní_ nenese dlouhé melisma úplně dobře, ale zatím se mi zdá,
+  že si to tu můžeme v zájmu pěkného rytmu a melodie dovolit.
+  Čas ukáže.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a \mark\sipka a( c) c c d( e d) c c d d \barMaior
+    e d c d( c a) \barMin
+    b g a( c) b g a a \barFinalis
   }
   \addlyrics {
     Je -- ho jmé -- no je kní -- že po -- ko -- je
@@ -512,6 +540,54 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     \choralniRezim
     g4 a c( b) c( d) d \barMin
     d c d( e) e d d \barMaior
+    e e d e d c b c a( g) g \barMin
+    a a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ho krá -- lov -- ství
+    je krá -- lov -- ství věč -- né;
+    všich -- ni krá -- lo -- vé mu bu -- dou slou -- žit
+    a bu -- dou ho po -- slou -- chat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 117"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( b) c( d) d \barMin
+    d c d( e) e d d \barMaior
+    \mark\sipka c d e e d c b c a( g) g \barMin
+    a a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ho krá -- lov -- ství
+    je krá -- lov -- ství věč -- né;
+    všich -- ni krá -- lo -- vé mu bu -- dou slou -- žit
+    a bu -- dou ho po -- slou -- chat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 117"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( b) c( d) d \barMin
+    \mark\sipka c d d( e) c c( d) d \barMaior
     e e d e d c b c a( g) g \barMin
     a a g f g( a) g g \barFinalis
   }
@@ -1272,9 +1348,31 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g( a) a a g f d e d( c) c \barMaior
     d e f d d d g f d d \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni krá -- lo -- vé se mu bu -- dou kla -- nět,
+    všech -- ny ná -- ro -- dy mu bu -- dou slou -- žit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 72-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) a a g f d e d( c) c \barMaior
+    d e f d d \mark\sipka f g f d d \barFinalis
   }
   \addlyrics {
     Všich -- ni krá -- lo -- vé se mu bu -- dou kla -- nět,
@@ -1554,13 +1652,66 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a g( a) \barMin
     g( f) g g a a \barMaior
     g g \mark\sipka f e d e d c c \barMaior
     d d d \mark\sipka d( f g) \barMin
     f( e) d \barFinalis
+  }
+  \addlyrics {
+    Tvá je, Pa -- ne, moc,
+    tvé je krá -- lov -- ství,
+    ty jsi na -- de vše -- mi ná -- ro -- dy:
+    dej na -- šim dnům
+    svůj mír.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g( a) \barMin
+    g( f) g g a a \barMaior
+    g \mark\sipka f g a g f d c c \barMaior
+    d d d d( f g) \barMin
+    f( e) d \barFinalis
+  }
+  \addlyrics {
+    Tvá je, Pa -- ne, moc,
+    tvé je krá -- lov -- ství,
+    ty jsi na -- de vše -- mi ná -- ro -- dy:
+    dej na -- šim dnům
+    svůj mír.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g( a) \barMin
+    g( f) g g a a \barMaior
+    g f g a g f e( f) d d \barMaior
+    f g f e( d c) \barMin
+    e( f) d \barFinalis
   }
   \addlyrics {
     Tvá je, Pa -- ne, moc,
@@ -1711,11 +1862,34 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( d' c) b c( a) g f g g \barMaior
     a b c( b) c( d) d \barMin c d e d c b b c a( g) g \barMaior
     a a( c) b( a) a \barMin \mark\sipka g( f) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
+    je -- ho krá -- lov -- ství sa -- há od vý -- cho -- du až na zá -- pad,
+    všem ná -- ro -- dům při -- ná -- ší po -- koj.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g( d' c) b c( a) g f g g \barMaior
+    a b c( b) c( d) d \barMin c d e \mark\sipka e d c b c a( g) g \barMaior
+    a a( c) b( a) a \barMin g( f) g( a) a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
@@ -1832,11 +2006,56 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c \mark\sipka d4( e d4.) d \barMin
     c4( d) c b a( g) g \barMaior
     g a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d4( e d4.) d \barMin
+    c4( d) c b a( g) g \barMaior
+    g \mark\sipka g( a) g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je Krá -- lem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c d4( e d4.) d \barMin
+    c4( d) c b a( g) g \barMaior
+    \mark\sipka a a( c) b g a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je Krá -- lem
@@ -2264,6 +2483,28 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( f) f \barMin g a g f g g \barMaior
+    a g f g( f d) \barMin e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pán je náš soud -- ce,
+    on nám dal svůj zá -- kon;
+    Pán je náš král,
+    on nás za -- chrá -- ní.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 g a c( d) d \barMin
@@ -2337,7 +2578,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g( a) f f( g) g \barMin
     g g f d d f e d c c \barMaior
@@ -2408,6 +2649,58 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\markup\justify{
+  Začátek volně podle \fial-link "paraliturgicke/velikonoce_pruvod.ly#vidiaquam"
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g( a g) g \barMaior
+    a b c a a b c a g g \barMaior
+    g g g f( e) d \barMin
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Prou -- dy ži -- vé vo -- dy
+    bu -- dou vy -- té -- kat z_Je -- ru -- za -- lé -- ma;
+    Pán bu -- de krá -- lem
+    nad ce -- lou ze -- mí.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a f g( a g) g \barMaior
+    a b c a a \mark\sipka c( d) c b a a \barMaior
+    c b a g( a) g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Prou -- dy ži -- vé vo -- dy
+    bu -- dou vy -- té -- kat z_Je -- ru -- za -- lé -- ma;
+    Pán bu -- de krá -- lem
+    nad ce -- lou ze -- mí.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2452,6 +2745,31 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     modus = "I"
     differentia = "D"
     psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d f g f d d \barMaior
+    f f f e( d c) \barMaior
+    d c d e f d d \barMin
+    d d( e) c c d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- de vlád -- nout s_ve -- li -- kou mo -- cí
+    a v_je -- ho dnech
+    roz -- kve -- te spra -- ve -- dl -- nost
+    a hoj -- nost po -- ko -- je.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#29-mc-a2?zacatek&volne"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2837,6 +3155,49 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     quid = "3. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) g g a( f) g g \barMin \mark\sipka f g f( e d c) c \barMaior
+    d d f g( a) g f g g \barMin g a g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    c4 c c( d) d d e( c) d d \barMin c d c( b a g) g \barMaior
+    a a c d( e) d c d \mark\sipka c \barMin b c a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
+    Je -- mu buď slá -- va a vlá -- da
+    na věč -- né vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "c"
     psalmus = "Zj 19"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
@@ -3326,6 +3687,28 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     \choralniRezim
     g4 a a( c) c d( e) d c \mark\sipka d( c) \barMin
     d d c b c( a) a( g) g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d d( e) d c d( c) \barMaior
+    b c a g a g g \barMin
     a f g \barFinalis
   }
   \addlyrics {

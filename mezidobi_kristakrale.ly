@@ -16,7 +16,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c c c d( e) c c d d \barMaior
+    g4 a a( c) c c d( e d) c c d d \barMaior
     e d c d( c a) \barMin
     b g a( c) b g a a \barFinalis
   }
@@ -193,7 +193,7 @@
   \relative c' {
     \choralniRezim
     f4 g g( a) a a g f d e d( c) c \barMaior
-    d e f d d d g f d d \barFinalis
+    d e f d d f g f d d \barFinalis
   }
   \addlyrics {
     Všich -- ni krá -- lo -- vé se mu bu -- dou kla -- nět,
@@ -312,7 +312,7 @@
     \choralniRezim
     f4 g a a g( a) \barMin
     g( f) g g a a \barMaior
-    g g f e d e d c c \barMaior
+    g f g a g f d c c \barMaior
     d d d d( f g) \barMin
     f( e) d \barFinalis
   }
@@ -339,7 +339,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g g( d' c) b c( a) g f g g \barMaior
-    a b c( b) c( d) d \barMin c d e d c b b c a( g) g \barMaior
+    a b c( b) c( d) d \barMin c d e e d c b c a( g) g \barMaior
     a a( c) b( a) a \barMin g( f) g( a) a g g \barFinalis
   }
   \addlyrics {
@@ -363,7 +363,7 @@
     \choralniRezim
     c4 b c d4( e d4.) d \barMin
     c4( d) c b a( g) g \barMaior
-    g a g f g( a) a( g) g \barFinalis
+    a a( c) b g a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus je Krá -- lem
@@ -489,12 +489,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f g( a) f f( g) g \barMin
-    g g f d d f e d c c \barMaior
-    d d d f( g f d) d \barMin
-    f e c c( d) d \barFinalis
+    g4 g a f g( a g) g \barMaior
+    a b c a a c( d) c b a a \barMaior
+    c b a g( a) g \barMin
+    f g a g g \barFinalis
   }
   \addlyrics {
     Prou -- dy ži -- vé vo -- dy
@@ -504,8 +504,8 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = "I"
-    differentia = "f"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
