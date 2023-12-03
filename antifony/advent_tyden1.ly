@@ -44,6 +44,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 142"
+    fons_externus = "podle Kancionálu, 101A"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -214,7 +215,7 @@
     c c( d c a) a \barMin
     c c b( a) g g \barMin
     f g a g g \barMaior
-    f a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     V_ten den
@@ -302,7 +303,7 @@
     \choralniRezim
     c4 c a c d( c b a) a \barMin g g g g( a) g \barMaior
     f g a b c a a \barMin c( d c b) a( g) g \barMaior
-    f g g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Ra -- duj se a já -- sej, si -- ón -- ská dce -- ro,
