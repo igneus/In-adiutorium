@@ -74,6 +74,10 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "skok a-c na _a porodíš_ nedokážu zazpívat bez toho,
+    že bych si jako mezikrok zazpíval d -
+    je to čistě jen moje pěvecké neumětelství, nebo je to nezpěvný
+    skok a bylo by lepší se ho zbavit?"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
