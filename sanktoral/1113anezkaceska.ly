@@ -27,7 +27,7 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"
@@ -58,7 +58,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) c c b \barMin
+    a4-- c c b \barMin
     a g a f g g \barFinalis
   }
   \addlyrics {
@@ -140,7 +140,7 @@
   \relative c' {
     \choralniRezim
     f4 f g a g f g f d d \barMaior
-    d d d( f) e d e( d) d \barFinalis
+    c d d( f) e d c( d) d \barFinalis
   }
   \addlyrics {
     Do -- dr -- žuj dá -- le, co do -- dr -- žu -- ješ,
@@ -161,7 +161,7 @@
     \choralniRezim
     a4 a a( c) c d c e e d \barMaior
     c c c d( c) b \barMin
-    c a a g a c b g a a \barFinalis
+    a g a c c b a g a a \barFinalis
   }
   \addlyrics {
     Mís -- to to -- ho, co je do -- čas -- né,
@@ -236,13 +236,12 @@
 
 \score {
   \relative c' {
-    \key f \major
     \choralniRezim
-    d4( a') a \barMin bes a g g c bes a( g) a \barMaior
-    g( a g) f( g) g \barMin g g g( f) e d( e) d d \barMax
+    d4( a') a \barMin c c b a b c a a \barMaior
+    f( g) g( a) a \barMin g f g( a) g f( e) d d( c) \barMax
 
     d4 d d( c d) \barMin f g g g f a( g) g \barMaior
-    a a a( g f) e( f) d \barMin f g f e d c d \barFinalis
+    a a a( g f) e( f) d \barMin c d( f) e d c d d \barFinalis
   }
   \addlyrics {
     Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,
@@ -256,6 +255,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    fial = "antifony/pust_tyden1.ly#po-aben?zacatek=18"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

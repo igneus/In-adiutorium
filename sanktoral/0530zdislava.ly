@@ -351,7 +351,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     fial = "sanktoral/1113anezkaceska.ly#rch-a1?+aleluja"
