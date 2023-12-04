@@ -377,7 +377,7 @@
   \relative c' {
     \choralniRezim
     d4( e) f g a( g) f \barMin a( g) f g a a \barMaior
-    d, d( f) d \barMin a' g f e d( e d) d \barMax
+    d, d( f) d \barMin a' g f e d( e d4.) d4 \barMax
     f e f g f a( g) f( g) f( e) \barMin
     d c d f e c( d) d \barFinalis
   }

@@ -1567,7 +1567,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( e) f g a( g) f \barMin a( g) f g a a \barMaior
     d, d( f) d \barMin a' g f e d( e d) d \barMax
@@ -1577,6 +1577,34 @@
   \addlyrics {
     Po -- zved -- ni o -- či, Je -- ru -- za -- lé -- me,
     a po -- hleď na moc -- né -- ho krá -- le:
+    při -- chá -- zí ja -- ko spa -- si -- tel,
+    a -- by tě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Jen rytmická znaménka)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( e) f g a( g) f \barMin a( g) f g a a \barMaior
+    d, d( f) d \barMin a' g f e d( e d4.) d4 \barMax
+    f e f g f a( g) f( g) f( e) \barMin
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- zved -- ni o -- či, Je -- ru -- za -- lé -- me,
+    a po -- hleď na moc -- né -- ho Krá -- le:
     při -- chá -- zí ja -- ko spa -- si -- tel,
     a -- by tě vy -- svo -- bo -- dil.
   }
