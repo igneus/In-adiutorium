@@ -598,7 +598,7 @@
     d c d e c d d d \barMaior
     d d4( e d4.) d \barMin
     c4( d) c b a( g) g \barMaior
-    g a g f g( a) a( g) g \barFinalis
+    a a( c) b g a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -617,7 +617,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    fial = "mezidobi_kristakrale.ly#rch-a2?konec&+aleluja"
+    fial = "mezidobi_kristakrale.ly#rch-a2?konec=22&+aleluja"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }

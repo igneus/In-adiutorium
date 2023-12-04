@@ -2742,7 +2742,7 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c c c( d) d \barMin
     d c d e c d d d \barMaior
@@ -2768,6 +2768,41 @@
     differentia = "a"
     psalmus = ""
     fial = "mezidobi_kristakrale.ly#rch-a2?konec&+aleluja"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    d c d e c d d d \barMaior
+    d d4( e d4.) d \barMin
+    c4( d) c b a( g) g \barMaior
+    \mark\sipka a a( c) b g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus,
+    je -- hož pří -- chod
+    o -- zna -- mo -- va -- li pro -- ro -- ci,
+    je Pá -- nem
+    ce -- lé -- ho svě -- ta
+    a pů -- vod -- cem po -- ko -- je.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "mezidobi_kristakrale.ly#rch-a2?konec=22&+aleluja"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
