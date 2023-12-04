@@ -620,7 +620,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4. a a g4( a) bes c a( g) g \barMin
     \mark\sipka f( e) c( d) d \barFinalis
@@ -641,7 +641,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     f4. a a g4( a) bes c a( g) g \barMin
     f( e) \mark\sipka c d \barFinalis
@@ -734,6 +734,46 @@
     quid = "2. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "1 Kron 29"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a c d c( a) a \barMin
+    c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Chvá -- lí -- me tvé slav -- né jmé -- no,
+    náš Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "1 Kron 29"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d c b( c a g) g \barMin
+    a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Chvá -- lí -- me tvé slav -- né jmé -- no,
+    náš Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "1 Kron 29"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}

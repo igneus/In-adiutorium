@@ -107,7 +107,7 @@
   \relative c' {
     \choralniRezim
     f4. a a g4( a) bes c a( g) g \barMin
-    f( e) c( d) d \barFinalis
+    f( e) c d \barFinalis
   }
   \addlyrics {
     Chvá -- lí -- me tvé slav -- né jmé -- no,
