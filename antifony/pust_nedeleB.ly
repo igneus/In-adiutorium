@@ -7,9 +7,9 @@
   \relative c' {
     \choralniRezim
     f4 f g a( bes) a a g f g g( a) \barMaior
-    a f e d d e f d d \barMax
-    c d f e f g f e c d d( c) \barMaior
-    f g f d d e( d) c( d) d \barFinalis
+    a g f d d e f d d \barMax
+    c d f f g a g f d e d( c) \barMaior
+    d f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Je -- žíš byl na pouš -- ti čty -- ři -- cet dní
@@ -22,7 +22,6 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "půjde lépe"
     id = "imag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
