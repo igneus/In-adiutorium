@@ -61,8 +61,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g a( d) d \barMin f e c d c \barMaior
-    d( e d) c( d) d( c) \barMin c b g a( g) g \barFinalis
+    a4 g a c( d) d \barMin f e c d c \barMaior
+    d( e d) c( b) a( g) \barMin a g f g( a g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -77,7 +77,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-II"
-    placet = "začátek je netypický"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -366,11 +365,11 @@
   \relative c'' {
     \choralniRezim
     b4 c d c b c( d) d \barMin
-    d d c d e c d d \barMaior
+    c d e d e( f) e d d \barMaior
     d c b c( a) a( g) g \barMin
     a g f g( a) a c b g g \bar ";"
 
-    f^\markup\rubrMimoPust a a( g) g \barFinalis
+    a^\markup\rubrMimoPust g f( g) g \barFinalis
   }
   \addlyrics {
     Po -- žeh -- na -- ný jsi, Pa -- ne,
