@@ -483,6 +483,67 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g( a) a a \barMin c b g g( a) a \barMin
+    a b c a( g a) a \barMaior
+    a g f g a g f e( f d c) c \barMaior
+    d f e d f( g a4.) a \barMaior
+    \mark\sipka a4 g f e( d) d e f e d( c d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a
+    po -- vo -- lal k_to -- mu,
+    a -- by -- chom u -- vě -- ři -- li v_prav -- du
+    a do -- sáh -- li slá -- vy
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 f g( a) a a \barMin c b g g( a) a \barMin
+    a b c a( g a) a \barMaior
+    a g f g a g f e( f d c) c \barMaior
+    d f e d f( g a4.) a \barMaior
+    \mark\sipka g4 a g f( d) d e f e d( c d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a
+    po -- vo -- lal k_to -- mu,
+    a -- by -- chom u -- vě -- ři -- li v_prav -- du
+    a do -- sáh -- li slá -- vy
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
