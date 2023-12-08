@@ -2230,6 +2230,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+     a4 g a \mark\sipka c c \barMin
+     d c d e d d \barMaior
+     d a d b c a( g) \barMin
+     f g a c a a \barMaior
+     b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na,
+    své -- ho spa -- si -- te -- le,
+    a če -- kám na ně -- ho,
+    ne -- boť už je blíz -- ko.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2333,6 +2359,30 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c( d) c b a g a g g \barMaior
+    f a c c d d c d d( c) \barMin
+    b a g f g( a) g g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží se sta -- ne člo -- vě -- kem
+    a za -- sed -- ne na krá -- lov -- ský trůn
+    své -- ho před -- ka Da -- vi -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
