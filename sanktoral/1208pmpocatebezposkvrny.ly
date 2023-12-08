@@ -39,8 +39,8 @@
   \relative c'' {
     \choralniRezim
     \key f \major
-    g4 g g g a( bes) bes( a) a f g g( a) a \barMin
-    a bes( f) g( a) g \barMin f g a f e d4. d \barFinalis
+    g4 g g g a( bes) a a \barMin f g g( a) a \barMaior
+    a bes( a) g( a) g \barMin f g a f e d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mě ob -- lé -- kl v_rou -- cho spá -- sy
@@ -53,8 +53,7 @@
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     fons = "zaltar, st 4.t., r.ch., a.2; zacatek upraven"
-    placet = "aktualisovat ze zdroje, upravit fial na automaticky ověřitelný"
-    fial = "fial://antifony/tyden4_4streda.ly#rch-ant2?jiny_text"
+    fial = "fial://antifony/tyden4_4streda.ly#rch-ant2?konec=20"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -425,7 +424,7 @@
   \relative c'' {
     \choralniRezim
     g4 a g c b a b \barMaior
-    c c c a g f f g a a g g \barFinalis
+    c c c b a g g a g f g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím Hos -- po -- di -- na,
@@ -466,7 +465,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c d c b a g a \barMin f g a b g g \barFinalis
+    g4 g g g a g a c c b \barMin
+    a g a f g g \barFinalis
   }
   \addlyrics {
     Stvo -- ři -- tel mě na -- pl -- nil sva -- tos -- tí,
@@ -475,9 +475,8 @@
   \header {
     quid = "ant. odpoledne"
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = ""
-    placet = "půjde lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -535,7 +534,7 @@
   \relative c'' {
     \choralniRezim
     g4 g( a) g a c b a g a \barMaior
-    c c c b( a g) f a g g \barFinalis
+    c c c b( a g) f( a) a g g \barFinalis
   }
   \addlyrics {
     Tvůj o -- děv je bí -- lý ja -- ko sníh
@@ -558,14 +557,14 @@
     % R
     \neviditelna f
     f4 f f f g f g( a) a( g) \barMax
-    g g g g( a) g g f d f g g( f) f \barFinalis
+    g g f g( a) g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a a a a g( a) g \barMin
     g a g g g f g g( a) \barMax
     % R
     \neviditelna a
-    g g g g( a) g g f d f g g( f) f \barFinalis
+    g g f g( a) g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

@@ -37,7 +37,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g c b a b \barMaior
     c c c a g f f g a a g g \barFinalis
@@ -86,7 +86,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     g4 a g c b a b \barMaior
     c c c b a g g \mark\sipka a g f g g \barFinalis

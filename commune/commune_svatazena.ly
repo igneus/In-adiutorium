@@ -14,9 +14,9 @@
   \relative c'' {
     \choralniRezim
     g4 a g c b a b \barMaior
-    c c c a g f f g a a g g \barFinalis
+    c c c b a g g a g f g g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím Hos -- po -- di -- na,

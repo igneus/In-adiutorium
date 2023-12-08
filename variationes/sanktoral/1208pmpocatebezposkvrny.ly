@@ -62,8 +62,29 @@
 
 \pageBreak
 
+\markup\justify{
+  V češtině jsou si obě antifony podobnější než v latině.
+  Každopádně to, že DMC překládá jeden výskyt \italic{Dominus}
+  jako \italic{Bůh} a druhý jako \italic{Hospodin,}
+  je jenom inkonsistence překladu, hlubší smysl to nemá.
+}
+\markup\justify{
+  Liturgia horarum:
+  Neposkvrněné početí NE1:
+  \italic{
+    Induit me Dóminus vestiméntis salútis, et induménto iustítiæ circúmdedit me.
+  } (Iz 61, 10b - skoro doslovný citát)
+}
+\markup\justify{
+  žaltář st T4 RCH:
+  \italic{
+    Induit me Dóminus induménto salútis et iustítiæ.
+  } (Iz 61, 10b - zkrácenina)
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     g4 g g g a( bes) bes( a) a f g g( a) a \barMin
@@ -81,6 +102,60 @@
     id = ""
     fons = "zaltar, st 4.t., r.ch., a.2; zacatek upraven"
     fial = "fial://antifony/tyden4_4streda.ly#rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    g4 g g g a( bes) bes( a) a f g g( a) a \barMaior
+    a bes( a) g( a) g \barMin f g a f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mě ob -- lé -- kl v_rou -- cho spá -- sy
+    a o -- děl mě ša -- tem spra -- ve -- dl -- nos -- ti.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    fons = "zaltar, st 4.t., r.ch., a.2; zacatek upraven"
+    fial = "fial://antifony/tyden4_4streda.ly#rch-ant2?konec=26"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Melodie doslovně převzatá z kratší antifony a jen mechanicky doplněná
+  vycpávkovými notami tu nefunguje moc pěkně po rytmické stránce.
+  Pokus o nápravu:
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    g4 g g g a( bes) \mark\sipka a a \barMin f g g( a) a \barMaior
+    a bes( a) g( a) g \barMin f g a f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mě ob -- lé -- kl v_rou -- cho spá -- sy
+    a o -- děl mě ša -- tem spra -- ve -- dl -- nos -- ti.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    fons = "zaltar, st 4.t., r.ch., a.2; zacatek upraven"
+    fial = "fial://antifony/tyden4_4streda.ly#rch-ant2?konec=20"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -254,6 +329,38 @@
     % R
     \neviditelna a
     g g g \mark\sipka a g f d f( g) g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Chci tě o -- sla -- vo -- vat, Bo -- že,_*
+    ne -- boť jsi mě za -- hr -- nul svou mi -- los -- tí.
+    \Verse Má du -- še tě bez u -- stá -- ní chvá -- lí,_*
+    \Response ne -- boť jsi mě za -- hr -- nul svou mi -- los -- tí.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f f g( a) a( g) \barMax
+    g g g \mark\sipka f g( a) g g f( d) f( g) g f \barFinalis
+    % V
+    \neviditelna a
+    a a( bes) a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g \mark\sipka f g( a) g g f( d) f( g) g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -1321,6 +1428,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f( g) f \barMin \mark\sipka g f g a g g \barMaior
+    \mark\sipka a a g f g( f d) d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a \barMin a g f g a a( g) g \barMax
+    % R
+    \neviditelna a
+    \mark\sipka a a g f g( f d) d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Slá -- va buď Bo -- hu, mé -- mu spa -- si -- te -- li,_*
+    ve -- dl mě svou ces -- tou bez po -- skvr -- ny.
+    \Verse Vy -- rval mě moc -- né -- mu ne -- pří -- te -- li,_*
+    \Response ve -- dl mě svou ces -- tou bez po -- skvr -- ny.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1436,10 +1575,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g c b a b \barMaior
     c c c a g f f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bím Hos -- po -- di -- na,
+    ne -- boť mi pro -- ká -- zal své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    fial = "fial://commune/commune_svatazena.ly#1ne-a1?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g c b a b \barMaior
+    c c c b a g g a g f g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím Hos -- po -- di -- na,
@@ -1534,6 +1697,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c d c b a g a \barMin f g a b g g \barFinalis
   }
@@ -1553,10 +1717,50 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     g4 g g g a g a c c b \barMin
     a g a f g g \barFinalis
+  }
+  \addlyrics {
+    Stvo -- ři -- tel mě na -- pl -- nil sva -- tos -- tí,
+    ve -- dl mě a chrá -- nil.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) g f g a a \barMin
+    c b a b g g \barFinalis
+  }
+  \addlyrics {
+    Stvo -- ři -- tel mě na -- pl -- nil sva -- tos -- tí,
+    ve -- dl mě a chrá -- nil.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a g f g g a a \barMin
+    c b a b g g \barFinalis
   }
   \addlyrics {
     Stvo -- ři -- tel mě na -- pl -- nil sva -- tos -- tí,
@@ -1867,10 +2071,51 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) \mark\sipka g a c b a g a \barMaior
     c c c b( a g) f a g g \barFinalis
+  }
+  \addlyrics {
+    Tvůj o -- děv je bí -- lý ja -- ko sníh
+    a tvo -- je tvář ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) g a c b a g a \barMaior
+    c c c b( a g) \mark\sipka f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Tvůj o -- děv je bí -- lý ja -- ko sníh
+    a tvo -- je tvář ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) g a c b a g a \barMaior
+    c \mark\sipka b c a( g) \barMin f( a) a g g \barFinalis
   }
   \addlyrics {
     Tvůj o -- děv je bí -- lý ja -- ko sníh
@@ -1995,7 +2240,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -2009,6 +2254,41 @@
     % R
     \neviditelna a
     g g g g( a) g g f d f g \mark\sipka g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh má ve mně za -- lí -- be -- ní;_*
+    ne -- pří -- tel na -- de mnou ni -- kdy ne -- zví -- tě -- zí.
+    \Verse Bůh mě za -- cho -- vá bez ú -- ho -- ny
+    a po -- sta -- ví mě před svou tvář;_*
+    \Response ne -- pří -- tel na -- de mnou ni -- kdy ne -- zví -- tě -- zí.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    g g \mark\sipka f g( a) g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a a a a g( a) g \barMin
+    g a g g g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g g \mark\sipka f g( a) g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
