@@ -2342,7 +2342,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( b c) c \barMin c b g a g g \barMaior
     f a c c d d c d d( c) \barMin
@@ -2367,6 +2367,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka c4 c( d) c b a g a g g \barMaior
     f a c c d d c d d( c) \barMin
@@ -2515,7 +2516,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 d c b a g g a g f( g) g \barMaior
     a( c) c \barMin
@@ -2538,6 +2539,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d c b a g g a g f( g) g \barMaior
     a( c) c \barMin
