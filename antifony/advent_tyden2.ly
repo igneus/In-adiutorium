@@ -130,6 +130,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-II"
+    placet = "_hledejte Hospodina_ si nejsem jist"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -152,6 +153,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 150"
+    placet = "začátek nevím - každopádně je netypický"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }

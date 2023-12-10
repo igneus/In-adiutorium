@@ -87,6 +87,7 @@
     modus = "VIII"
     titulus = "neděle - nešpory"
     piece = \markup\sestavTitulekRespII
+    placet = "závěr doxologie stále není dobrý"
     id = "ne-ne"
   }
 }
