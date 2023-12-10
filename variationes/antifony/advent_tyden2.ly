@@ -474,6 +474,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    a4 a a a a bes a g f f( g) g \barMin
+    f g g g g a g a a( bes a) a \barMaior
+    a d c d4. a \barMin
+    g4( a) f e d \barMaior
+    \mark\sipka d4 a'( f) g( f e f) d \barFinalis
+  }
+  \addlyrics {
+    Si -- ón je na -- še o -- pev -- ně -- né měs -- to,
+    Spa -- si -- tel je v_něm hrad -- bou a va -- lem:
+    o -- tevř -- te brá -- ny,
+    s_ná -- mi je Bůh.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    fons = "předvánoční týden, řada antifon k žalmům, úterý, 2. ant."
+    fial = "fial://antifony/advent_predvanocni_vtydnu.ly#predvanocni-zlm-ut-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -709,6 +739,50 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin c( d) e c c( d) d \barMaior
+    d c( b) a a \barMin g f g a c a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí
+    a za -- zá -- ří o -- čím svých slu -- žeb -- ní -- ků.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin \mark\sipka c d e( c) c( d) d \barMaior
+    d c( b) \mark\sipka a( g) a( g) \barMin f g a c b a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí
+    a za -- zá -- ří o -- čím svých slu -- žeb -- ní -- ků.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 150"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
