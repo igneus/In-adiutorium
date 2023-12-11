@@ -153,7 +153,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a( c) c4 c4 b( c) a( g) g \barMin
+    c4 a( c) c c4 b( c) a( g) g \barMin
     a b c b d d \barMaior
     c a a c b g g \barFinalis
   }
@@ -169,7 +169,7 @@
     psalmus = "Žalm 149"
     id = "rch-a3"
     fons = "zacatek ze zaltare, so 4.t., rch, 3.a."
-    fial = "fial://antifony/tyden4_7sobota.ly#rch-ant3?zacatek"
+    fial = "fial://antifony/tyden4_7sobota.ly#rch-ant3?zacatek=10&divisiones=ignore"
     piece = \markup {\sestavTitulek}
   }
 }
