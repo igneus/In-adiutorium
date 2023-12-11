@@ -344,7 +344,7 @@
     differentia = "f"
     psalmus = "Žalm 111"
     % motiv není převzat doslovně
-    fial = "antifony/pust_tyden4.ly#ne-1ne-a3?cast"
+    fial = "antifony/pust_tyden4.ly#ne-1ne-a3?konec=5"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
