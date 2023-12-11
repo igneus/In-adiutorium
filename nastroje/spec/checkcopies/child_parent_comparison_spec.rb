@@ -549,6 +549,39 @@ describe ChildParentComparison do
     end
   end
 
+  describe 'divisiones' do
+    describe '=ignore' do
+      let(:fial) { 'parent_path#id?divisiones=ignore' }
+
+      it 'same' do
+        expect(
+          described_class.new(
+            score(music: 'a a', fial: fial),
+            score(music: 'a a')
+          )
+        ).to be_match
+      end
+
+      it 'differs only in divisio' do
+        expect(
+          described_class.new(
+            score(music: 'a \barMin a', fial: fial),
+            score(music: 'a a')
+          )
+        ).to be_match
+      end
+
+      it 'differs in notes' do
+        expect(
+          described_class.new(
+            score(music: 'a \barMin a', fial: fial),
+            score(music: 'b a')
+          )
+        ).not_to be_match
+      end
+    end
+  end
+
   describe '#fial_keys' do
     [
       ['standard keys included', 'parent_path#id?zacatek&+aleluja', Set.new(['zacatek', '+aleluja'])],
