@@ -905,7 +905,7 @@
     d4 d c( b c) c \barMin c d( c) b( a) a \barMaior
     a c b a g g( a) g g \barMin a b c d c( a g a) a \barMaior
 
-    a^\markup\rubrVelikAleluja b( c) a( g) a \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
     By -- li věr -- ní až do smr -- ti
@@ -918,7 +918,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    fial = "sanktoral/0506jansarkander.ly#ne-amag?delsi_text"
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?cast=2&konec=16"
     id = "2ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -2635,7 +2635,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( b c) c \barMin c d( c) b( a) a \barMaior
     a c b a g g( a) g g \barMin a b c d c( a g a) a \barMaior
@@ -2654,6 +2654,34 @@
     differentia = "d"
     psalmus = ""
     fial = "sanktoral/0506jansarkander.ly#ne-amag?delsi_text"
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( b c) c \barMin c d( c) b( a) a \barMaior
+    a c b a g g( a) g g \barMin a b c d c( a g a) a \barMaior
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    By -- li věr -- ní až do smr -- ti
+    a ob -- dr -- že -- li od Pá -- na za od -- mě -- nu ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?cast=2&konec=16"
     id = "2ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
