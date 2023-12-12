@@ -190,6 +190,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f d e( f) g \barMax
+    e f \mark\sipka d( c) d( f) f e \barFinalis
+    % V
+    \neviditelna e
+    c d f f \mark\sipka f e( d) e( f) g \barMax
+    % R
+    e f \mark\sipka d( c) d( f) f e \barFinalis
+    % Slava
+    \respIVdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+    smi -- luj se nad ná -- mi.
+
+    \Verse Ty, na kte -- ré -- ho če -- ká -- me,_*
+    smi -- luj se nad ná -- mi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "ne-rch"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {

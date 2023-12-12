@@ -1275,6 +1275,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin c d d e c c( d) d \barMaior
+    a( d b c) a( g) \barMin f g a c( b a) a \barFinalis
+  }
+  \addlyrics {
+    U -- zře -- ly všech -- ny kon -- či -- ny ze -- mě
+    spá -- su na -- še -- ho Bo -- ha.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 98"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

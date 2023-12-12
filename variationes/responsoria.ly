@@ -995,6 +995,15 @@ doxologieResponsoriumVI = {}
 
   \markup\nadpisDen{"středa"}
 
+  \markup\justify{
+    Liturgia horarum:
+    \italic{
+      Inclína cor meum, Deus, * In testimónia tua.
+      V. In via tua vivífica me.
+    }
+    (srov. AR1912, s. 23)
+  }
+
   \score {
     \relative c' {
       \zvyraznovacSedy
@@ -1086,6 +1095,72 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      id = "1st-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+
+      % R
+      \neviditelna a
+      a4 a g( a) a a( c) a a \barMin a g a g( f) g( a) \barMax
+      g4 f g g( a) a a( c) bes( a) g( a) \barFinalis
+      % V
+      \neviditelna a
+      bes4 a g g( a) g g g( f) g( bes) bes( a) \barMax
+      % R
+      \neviditelna g
+      g4 f g g( a) a a( c) bes( a) g( a) \barFinalis
+      % Slava
+      bes4 a g( a) g f g( a) g \barMin g f g g( bes) a a \barFinalis
+    }
+    \addlyrics {
+      \Response Bo -- že, na -- kloň mé srd -- ce k_tvým při -- ká -- zá -- ním,_* ať za -- cho -- vá -- vám tvůj zá -- kon.
+      \Verse U -- kaž mi ces -- tu svých pří -- ka -- zů,_*
+      \Response ať za -- cho -- vá -- vám tvůj zá -- kon.
+      \textRespDoxologie
+    }
+    \header {
+      fons_externus = "volně podle AR1912, s. 23"
+      quid = "resp."
+      modus = "IV"
+      id = "1st-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+
+      % R
+      \neviditelna a
+      a4 a \mark\sipka a( g) a a( c) a a \barMin a g a g( f) g( a) \barMax
+      g4 f g g( a) a a( c) bes( a) g( a) \barFinalis
+      % V
+      \neviditelna a
+      bes4 a g g( a) g g g( f) g( bes) bes( a) \barMax
+      % R
+      \neviditelna g
+      g4 f g g( a) a a( c) bes( a) g( a) \barFinalis
+      % Slava
+      bes4 a g( a) g f g( a) g \barMin g f g g( bes) \mark\sipka a( g) g( a) \barFinalis
+    }
+    \addlyrics {
+      \Response Bo -- že, na -- kloň mé srd -- ce k_tvým při -- ká -- zá -- ním,_* ať za -- cho -- vá -- vám tvůj zá -- kon.
+      \Verse U -- kaž mi ces -- tu svých pří -- ka -- zů,_*
+      \Response ať za -- cho -- vá -- vám tvůj zá -- kon.
+      \textRespDoxologie
+    }
+    \header {
+      fons_externus = "volně podle AR1912, s. 23"
+      quid = "resp."
+      modus = "IV"
       id = "1st-rch"
       piece = \markup\sestavTitulekResp
     }

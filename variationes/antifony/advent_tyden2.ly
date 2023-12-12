@@ -1178,6 +1178,55 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 bes a g a( f) \barMin
+    g f( e) d \barMaior
+    d c f d \barMin
+    f f g \mark\sipka f e d d \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- chá -- zí Král,
+    Pán ze -- mě,
+    on sám zlo -- mí
+    jař -- mo na -- ší po -- ro -- by.
+  }
+  \header {
+    textus_approbatus = "Hle, přichází Král, Pán země, on sám zlomí jho naší poroby."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 bes a g a( f) \barMin
+    g f( e) d \barMaior
+    d c f d \barMin
+    \mark\sipka f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- chá -- zí Král,
+    Pán ze -- mě,
+    on sám zlo -- mí
+    jho na -- ší po -- ro -- by.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Úterý 2. týdne}}
