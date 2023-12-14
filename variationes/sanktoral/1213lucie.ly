@@ -155,6 +155,46 @@ podobného znění, tu teď ale nemohu najít.}
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f d f g g g a( g f) g \barMaior
+    a b c b a g g \barMin a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Už jsem Bo -- hu o -- de -- vzda -- la všech -- no,
+    ny -- ní mu o -- de -- vzdá -- vám i svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f d f g g g a( g f) g \barMaior
+    a \mark\sipka a b c a g g \barMin a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Už jsem Bo -- hu o -- de -- vzda -- la všech -- no,
+    ny -- ní mu o -- de -- vzdá -- vám i svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f f f g a g f f( g) g \barMaior

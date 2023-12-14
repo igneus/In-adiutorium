@@ -593,6 +593,41 @@
     a bes a g f f( g) g g a f e d d d \barFinalis
     % V
     \neviditelna g
+    g4 g g g( a) a \barMin a a g a bes( c) a a \barMin
+    bes4 g bes a a \barFinalis
+    % R
+    \neviditelna a
+    a bes a g f f( g) g g a f e d d d \barFinalis
+    % Slava
+    a'4 a a( bes) a g g( a) a \barMin \mark\sipka g f g g( bes) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Je -- ru -- za -- lé -- me, vze -- šlo tvé svět -- lo;_*
+    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou.
+    \Verse U -- vi -- díš ra -- dost, kte -- rá k_to -- bě při -- chá -- zí od tvé -- ho Bo -- ha;_*
+    \Response Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    titulus = "ferie - ranní chvály"
+    piece = \markup\sestavTitulekRespII
+    id = "fe-rch"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna d
+    d4 d d d( a') a \barMin c a g g( a) a \barMax
+    a bes a g f f( g) g g a f e d d d \barFinalis
+    % V
+    \neviditelna g
     g4 g g g( a) a \barMin a a g a \mark\sipka a( bes) a a \barMin
     bes4 g bes a a \barFinalis
     % R
