@@ -457,6 +457,35 @@
   }
 }
 
+\markup\justify{
+  Volně podle jednoho z tradičních modelů.
+  (Pro invitatorium \italic{Regem virginum Dominum} \cantusid-link "001151"
+  není nejběžnější, ale také se s ním vyskytuje.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) g f g( a) a \barMaior
+    g f g( a g4.) f4 g g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král pa -- nen.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Nebo:}
