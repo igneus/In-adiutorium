@@ -398,7 +398,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c a g) g \barMin g f g a g f g a a( g) g \barMaior
     f f d e( f) g g \barMin a g a( c) b a( g) a \barMaior
@@ -425,9 +425,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g( c a g) g \barMin g f g a g f g a a( g) g \barMaior
-    \mark\sipka g f d f( g) g g \barMin a g a( c) b a( g) a \barMaior
+    \mark\sipka g f d e( f) g g \barMin a g a( c) b a( g) a \barMaior
+    a b c b c c \barMin b c a g g \barMax
+    g( a g d) g( a) a \barMin c d c a g \barMin
+    f f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dá ho -- ra a kaž -- dý pa -- ho -- rek ať je srov -- nán;
+    kde je co kři -- vé -- ho, ať je na -- rov -- ná -- no,
+    ces -- ty hr -- bo -- la -- té ať se u -- hla -- dí.
+    Přijď, Pa -- ne, a ne -- pro -- dlé -- vej.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c a g) g \barMin g f g a g f g a a( g) g \barMaior
+    g f d \mark\sipka f( g) g g \barMin a g a( c) b a( g) a \barMaior
     a b c b c c \barMin b c a g g \barMax
     g( a g d) g( a) a \barMin c d c a g \barMin
     f f f( g) g \barFinalis

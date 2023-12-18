@@ -46,6 +46,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 116-II"
+    placet = "druhou část spíš lépe"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -113,7 +114,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c a g) g \barMin g f g a g f g a a( g) g \barMaior
-    f f d e( f) g g \barMin a g a( c) b a( g) a \barMaior
+    g f d e( f) g g \barMin a g a( c) b a( g) a \barMaior
     a b c b c c \barMin b c a g g \barMax
     g( a g d) g( a) a \barMin c d c a g \barMin
     f f f( g) g \barFinalis
@@ -174,6 +175,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 110"
+    placet = "_Hle Pán_ spíš lépe"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -222,6 +224,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Zj 19"
+    placet = "dramatický sestup na _a přitom_ se míjí s textem; _příchod našeho Pána_ moc nedrží pohromadě"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
