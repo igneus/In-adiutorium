@@ -855,6 +855,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 f f f e d e( f) f f \barMin
     g f e c d \barMaior
@@ -879,7 +880,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f f f e d e( f) f f \barMin
     g f e c d \barMaior

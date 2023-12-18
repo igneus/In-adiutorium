@@ -166,7 +166,7 @@
     d4 f f f e d e( f) f f \barMin
     g f e c d \barMaior
     d( e d c) c \barMin
-    f f e d c d d \barFinalis
+    d f e d c d d \barFinalis
   }
   \addlyrics {
     Byl člo -- věk po -- sla -- ný od Bo -- ha,
