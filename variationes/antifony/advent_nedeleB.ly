@@ -636,6 +636,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d( f) f \barMin g f g g( a) g g \barMaior
+    a a g f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jan Křti -- tel hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1020,6 +1040,32 @@
     d4 c b a g a g g \barMaior
 
     \mark\sipka f g a( c) c b( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Jan ře -- kl:
+    já jsem hlas
+    vo -- la -- jí -- cí -- ho na pouš -- ti:
+
+    vy -- rov -- nej -- te ces -- tu Pá -- nu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Benedictus"
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) d \barMaior
+    d e c( a) \barMin
+    d4 c b a g \mark\sipka a( b) g g \barMaior
+
+    f g a( c) c b( g) a g g \barFinalis
   }
   \addlyrics {
     Jan ře -- kl:
