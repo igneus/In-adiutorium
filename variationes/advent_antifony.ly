@@ -433,6 +433,66 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f g( f a g) g \barMaior
+      f d f g g f \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f \mark\sipka g( a g4.) g \barMaior
+      f4 d f g g f \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 g a a \barMaior
+      g e f e d( e) e \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"modlitba uprostřed dne"}}

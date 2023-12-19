@@ -682,6 +682,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka e4 e e e e( f) e d( e) e \barMin
+    f( g a) g f g e e \barMaior
+    e d a' a a g f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci pře -- ho -- di -- li pláš -- tě přes os -- lát -- ko
+    a vy -- sa -- di -- li na ně Je -- ží -- še.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    annus = "C"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne-1ne-amag-C"
+    piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}

@@ -232,6 +232,28 @@
   \relative c' {
     \choralniRezim
     d4 f e d f g g \barMin
+    f g f e4. \mark\sipka c4
+    f4 e( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f g g \barMin
     f g f \mark\sipka e( f) d
     c c( d) d \barFinalis
   }
@@ -276,6 +298,28 @@
   \relative c' {
     \choralniRezim
     d4 f e d f g g \barMin
+    f g f e( f) d
+    c \mark\sipka c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f g g \barMin
     \mark\sipka a g f e( f) d
     c c( d) d \barFinalis
   }
@@ -288,6 +332,28 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 f g f g a a \barMin
+    a g f e( f) d
+    c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "predvanocni-zlm-po-a3"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -339,6 +405,50 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f f \barMin
+    g f e \mark\sipka f4. d4
+    f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f d f f e \barMin
+    d d f e( d) c
+    f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g f g g a a \barMin
@@ -354,6 +464,50 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g a a \barMin
+    \mark\sipka c c c b( c) a
+    g f( a g) g \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "predvanocni-zlm-po-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d d( e) d d \barMin
+    e f d c4. a4
+    g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Na -- lez -- ne Syn člo -- vě -- ka
+    na ze -- mi ví -- ru,
+    až při -- jde?
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "predvanocni-zlm-po-a3"
     piece = \markup {\sestavTitulekBezZalmu}
