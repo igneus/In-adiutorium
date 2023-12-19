@@ -476,6 +476,26 @@
   \score {
     \relative c' {
       \choralniRezim
+      f4 g g( a) a \barMaior
+      g f g a f f \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       e4 g a a \barMaior
       g e f e d( e) e \barFinalis
     }
