@@ -146,6 +146,8 @@
 
 \responsory{#narozeni-1ne-resp}
 
+\pagebreak % ZLOM
+
 \antiphonWithPsalm{#vden-1ne-amag}
 
 \rubrika{Prosby, Modlitba Páně a závěrečná modlitba - z breviáře.}
@@ -154,6 +156,7 @@
 \simpleScore{zakladni_napevy.ly#konec-pozehnani}
 
 \pagebreak % ZLOM
+
 \rubrika{Není-li přítomen kněz nebo jáhen:}
 
 \simpleScore{zakladni_napevy.ly#konec-prosba}
@@ -183,7 +186,6 @@
 \rubrika{Závěrečná mariánská antifona - hymnář, str. 363nn.}
 
 
-\pagebreak % ZLOM
 %%%
 \invitatorium
 
@@ -199,7 +201,6 @@
 \psalm{Žalm 95}{V.a}
 
 
-\pagebreak % ZLOM
 %%%
 \modlitbaSeCtenim
 
@@ -210,6 +211,8 @@
 \rubrika{Hymnus \textnormal{Věčný Syn jednorozený} - hymnář, str. 18.}
 
 \antiphonWithPsalm{#vden-cte-a1}
+
+\pagebreak % ZLOM
 
 \antiphonWithPsalm{#vden-cte-a2}
 
@@ -254,7 +257,11 @@
 
 \rubrika{Hymnus \textnormal{Dítě se nám narodilo} - hymnář, str. 20.}
 
+\pagebreak % ZLOM
+
 \antiphonWithPsalm{#vden-rch-a1}
+
+\pagebreak % ZLOM
 
 \antiphonWithPsalm{#vden-rch-a2}
 
@@ -321,6 +328,8 @@
 \label{up-konec}
 
 
+\pagebreak % ZLOM
+
 %%%
 \nesporyII
 
@@ -338,13 +347,14 @@
 
 \responsory{#narozeni-2ne-resp}
 
-\pagebreak % ZLOM
 \antiphonWithPsalm{#vden-2ne-amag}
 
 \rubrika{Prosby, Modlitba Páně a závěrečná modlitba - z breviáře.}
 
 \zaverVelkeHodinky
 
+
+\pagebreak % ZLOM
 
 %%%
 \kompletar
