@@ -603,8 +603,8 @@ module Typographus
           score_text = ScoreModifier.make_initial(
             score_text,
             (score.header['quidbreve'] || score.header['quid'])
-              &.sub('Benedictus', 'Ben.')
-              &.sub('Magnificat', 'Mag.')
+              &.sub('ant. k Benedictus', 'k Ben.')
+              &.sub('ant. k Magnificat', 'k Magn.')
               &.sub('ke kantikům vigilie', '')
               &.sub(/(do|v |od)poledne/, '')
               &.strip,
