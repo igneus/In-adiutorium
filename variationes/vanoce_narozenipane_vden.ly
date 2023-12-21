@@ -2395,6 +2395,28 @@
     \relative c'' {
       \choralniRezim
       g4 g g g( c) c a g a( g) g \barMaior
+      g f e d \mark\sipka f( a) g g \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      placet = "_Bůh s námi_ je takhle divné"
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g( c) c a g a( g) g \barMaior
       \mark\sipka b c d c b( g) a g \barFinalis
     }
     \addlyrics {
@@ -2406,6 +2428,48 @@
       quid = "ant. ke kantikům vigilie"
       modus = "VIII"
       differentia = "G"
+      psalmus = ""
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g( c) \mark\sipka g a g f( g) g \barMaior
+      g f e d f( g) g g \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka c4 c c b( a g4.) g a4 g f( g) g \barMaior
+      g f e d f( g) g g \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "c"
       psalmus = ""
       id = "vden-cte-avig"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -2461,6 +2525,26 @@
       \choralniRezim
       g4 \mark\sipka a g a( c) c d c e( d) d \barMaior
       d c b a \mark\sipka b( a) g g \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná: Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a c c( d) d e c c( d) d \barMaior
+      d c b a a( b) g g \barFinalis
     }
     \addlyrics {
       Da -- jí mu jmé -- no E -- ma -- nu -- el,
