@@ -279,6 +279,7 @@
     differentia = "D"
     psalmus = "Magnificat"
     fial = "antifony/advent_predvanocni_datum.ly#predvanocni-20-o?konec=21"
+    placet = "_přijď a osvěť ty_ nic moc"
     id = "predvanocni-21-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }
