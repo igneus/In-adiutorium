@@ -98,6 +98,21 @@ uvodniVers = \lyricmode {
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna a
+      a4 a c b a c( d) d \barMax
+      \neviditelna e
+      c d c( a) a a b g a a \barFinalis
+    }
+    \addlyrics {
+      \paneOtevri
+    }
+    \header {
+    }
+  }
+
   \pageBreak
 
   \markup\sekce{I.2 Ostatní hodinky}
