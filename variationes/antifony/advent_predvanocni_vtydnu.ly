@@ -2237,6 +2237,29 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 f g a a \barMaior
+    \mark\sipka g f e( f) d d \barMin
+    c d d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na,
+    če -- kám na Bo -- ha,
+    své -- ho Spa -- si -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4( f) e c d c \barMaior
@@ -2252,6 +2275,28 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b( g) a \barMaior
+    g f g g( a) a \barMin
+    g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- hlí -- žím Pá -- na,
+    če -- kám na Bo -- ha,
+    své -- ho Spa -- si -- te -- le.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "predvanocni-zlm-pa-a3"
     piece = \markup {\sestavTitulekBezZalmu}
