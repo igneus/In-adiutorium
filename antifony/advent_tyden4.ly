@@ -30,8 +30,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) c( d c b) a \barMin c d c b a \barMaior
-    g g g( e) e f( e) d e e \barFinalis
+    g4( a) c( d) d \barMin d e c d d \barMaior
+    d d c( a) a bes( a) g a a \barFinalis
   }
   \addlyrics {
     Přijď, Pa -- ne, a ne -- pro -- dlé -- vej;
@@ -39,10 +39,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "III"
-    differentia = "a"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 130"
-    placet = "melismata na _Přijď, Pane_ jsou tu jaksi navíc - zkusit jinak"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -82,8 +81,8 @@
   \relative c'' {
     \choralniRezim
     a c b c d a a \barMin
-    c d e d c d d \barMin
-    d c( b a) g( a) a \barMaior
+    c d e d c d d \barMaior
+    d-- c( b a) g( a) a \barMin
     g a b a \barFinalis
   }
   \addlyrics {
@@ -109,7 +108,7 @@
     d' e f d d \barMin c d c b( c d) \barMaior
     a a a a( d) c b c b a g a a \barMaior
     c d e d( c b) a \barMin c( a g) g \barMin f f f g g \barMaior
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Pán při -- chá -- zí, jdě -- te mu na -- pro -- ti:
@@ -184,7 +183,7 @@
     \choralniRezim
     g f g( a) g g \barMin a g a c b( a) a \barMaior
     a b c b c c \barMin b c a g g \barMax
-    g( a g d) g( a) a \barMin c d c a g \barMaior
+    g( a g d) g( a) a \barMin c d c a g \barMin
     f f f( g) g \barFinalis
   }
   \addlyrics {
@@ -199,7 +198,7 @@
     differentia = "G"
     psalmus = "Žalm 112"
     id = "ne-2ne-a2"
-    fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2?konec"
+    fial = "fial://antifony/advent_tyden3.ly#ne-rch-a2?konec=32"
     piece = \markup {\sestavTitulek}
   }
 }
