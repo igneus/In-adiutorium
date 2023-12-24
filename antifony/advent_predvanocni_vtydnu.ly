@@ -392,7 +392,7 @@
     \choralniRezim
     f4 a c c c( d) c a b( c) c \barMaior
     d c b c( b) a b g g \barMaior
-    a4 f a( c) c c b( c a) a \barMin
+    a4 f a c c b( c a) a \barMin
     g a g f f \barFinalis
   }
   \addlyrics {

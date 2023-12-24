@@ -2376,7 +2376,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 a c c c( d) c a b( c) c \barMaior
     d c b c( b) a b g g \barMaior
@@ -2401,6 +2401,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 a c c c( d) c a b( c) c \barMaior
     d c b c( b) a b g g \barMaior
@@ -2434,6 +2435,30 @@
     d c d e d c d d \barMaior
     d a d b c a( g) a \barMin
     f g a b( c a) a \barFinalis
+  }
+  \addlyrics {
+    Ro -- su dej -- te, ne -- be -- sa, shů -- ry,
+    ob -- la -- ka, spusť -- te déšť prá -- va;
+    ať se o -- tev -- ře ze -- mě
+    a zplo -- dí spá -- su.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "predvanocni-zlm-so-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c c c d( e) d \barMin
+    d c d e d c d d \barMaior
+    d \mark\sipka d a( d) b c a( g) a \barMin
+    g f g a( c a4.) a \barFinalis
   }
   \addlyrics {
     Ro -- su dej -- te, ne -- be -- sa, shů -- ry,
