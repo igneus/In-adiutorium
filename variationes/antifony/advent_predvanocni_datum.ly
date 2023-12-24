@@ -2677,6 +2677,28 @@ podobně.}
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a c c( d) d \barMin
+    c d c b a \mark\sipka a \barMin
+    c b a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4( d) e c c( d) d \barMin
     c d c b a g \barMin
     a g f a a( g) g \barFinalis
@@ -2725,6 +2747,28 @@ podobně.}
     c4( d) e c c( d) d \barMin
     c b a b g g \barMin
     a g \mark\sipka f( g) a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 b c c( d) d \barMin
+    c b a b g g \barMin
+    a g f a a( g) g \barFinalis
   }
   \addlyrics {
     Zdvih -- ně -- te hla -- vu,
@@ -2981,7 +3025,7 @@ podobně.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     % R
@@ -2994,6 +3038,39 @@ podobně.}
     % R
     \neviditelna a
     \mark\sipka g f g( a) g g \barMin f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zí -- tra bu -- de zni -- če -- na ne -- pra -- vost ze -- mě;_*
+    při -- blí -- ži -- lo se na -- še vy -- kou -- pe -- ní.
+    \Verse Bu -- de nad ná -- mi vlád -- nout Spa -- si -- tel svě -- ta;_*
+    \Response při -- blí -- ži -- lo se na -- še vy -- kou -- pe -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "predvanocni-24-rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
+    g f g( a) g g \barMin f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a g( a) g \barMin \mark\sipka g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g g \barMin f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

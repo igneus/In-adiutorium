@@ -507,7 +507,7 @@
     g f g( a) g g \barMin f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a a g( a) g \barMin a g f g( a) a( g) \barMax
+    a4 a a a a g( a) g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna a
     g f g( a) g g \barMin f d f g g( f) f \barFinalis
