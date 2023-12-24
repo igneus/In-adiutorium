@@ -771,6 +771,26 @@ v předvánočním týdnu latinsky.}
   \relative c' {
     \choralniRezim
     d4 d d f e d d( e) e \barMin
+    f e d c c d f \mark\sipka d c d d \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní se spl -- ni -- lo všech -- no,
+    co ře -- kl an -- děl o Pan -- ně Ma -- ri -- i.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-23-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e d d( e) e \barMin
     f \mark\sipka e f d d d e c c d d \barFinalis
   }
   \addlyrics {
@@ -863,6 +883,26 @@ v předvánočním týdnu latinsky.}
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = "Benedictus"
+    id = "predvanocni-23-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c c c d( e) d \barMaior
+    d e d c( d) c \barMin b c a g a a \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní se spl -- ni -- lo všech -- no,
+    co ře -- kl an -- děl o Pan -- ně Ma -- ri -- i.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Benedictus"
     id = "predvanocni-23-ben"
     piece = \markup {\sestavTitulekBezZalmu}
