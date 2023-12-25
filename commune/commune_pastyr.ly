@@ -574,7 +574,7 @@
     g4 f g a c b a g4. g \barMaior
     a4 a b c b( g) g \barMin a g f( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Jsme Bo -- ží spo -- lu -- pra -- cov -- ní -- ci,

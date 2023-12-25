@@ -593,9 +593,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "zpřísnit fial, aleluja sjednotit se zdrojem"
     fons = "druhá část, text i melodie: commune pastýřů, odpoledne"
-    fial = "commune/commune_pastyr.ly#nona?konec"
+    fial = "commune/commune_pastyr.ly#nona?konec=19"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }

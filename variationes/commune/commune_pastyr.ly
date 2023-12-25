@@ -2522,8 +2522,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a c b a g4. g \barMaior
     a4 a b c b( g) g \barMin a g f( g) g \barFinalis
@@ -2543,6 +2546,32 @@
     psalmus = ""
     id = ""
     fons = "Cyril a Metoděj, v poledne; doplněno aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g a c b a g4. g \barMaior
+    a4 a b c b( g) g \barMin a g f( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jsme Bo -- ží spo -- lu -- pra -- cov -- ní -- ci,
+    vy jste Bo -- ží po -- le, Bo -- ží stav -- ba.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
+    fial = "sanktoral/0705cyrilametodej.ly#nona?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
