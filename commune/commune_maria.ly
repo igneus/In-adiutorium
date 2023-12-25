@@ -177,11 +177,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b( a) g a f g( a) g g \barMaior
-    f a c d c d e d d \barMin
+    c4 c( a) a c b g( a) g g \barMaior
+    f g a a g a c( d) c c \barMin
     c-- c b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bůh shlé -- dl na mou po -- ko -- ru,
@@ -192,7 +192,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Magnificat"
     id = "1ne-amag1"

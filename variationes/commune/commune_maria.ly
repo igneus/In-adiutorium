@@ -377,6 +377,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka g f g g( a) a \barMin
+    a b c a a \barMaior
+    c c( d c) b( a g) g \barMin
+    a g f g( a g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Zro -- di -- la jsi to -- ho,
+    kte -- rý tě stvo -- řil,
+    a na -- vě -- ky
+    zů -- stá -- váš Pan -- nou.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -952,7 +980,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b( a) g a f g( a) g g \barMaior
     f a c d c d e d d \barMin
@@ -970,6 +998,34 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
+    differentia = "c"
+    psalmus = "Magnificat"
+    placet = "_shlédl_ lépe"
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c( a) a c b g( a) g g \barMaior
+    f g a a g a c( d) c c \barMin
+    c-- c b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh shlé -- dl na mou po -- ko -- ru,
+    ve -- li -- ké vě -- ci mi u -- či -- nil
+    ten, kte -- rý je moc -- ný.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Magnificat"
     id = "1ne-amag1"
@@ -1652,6 +1708,30 @@
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) a( g) g \barMin
+    \mark\sipka g f e f( d) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh ji po -- svě -- til
+    ja -- ko svůj pří -- by -- tek.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 46"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
