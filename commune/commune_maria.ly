@@ -33,7 +33,8 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 113"
-    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek=16"
+    placet = "druhá půlka slabší, zejm. závěr lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -169,6 +170,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "nic moc"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
