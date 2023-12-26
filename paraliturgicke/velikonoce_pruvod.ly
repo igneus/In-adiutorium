@@ -33,11 +33,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 113"
-    placet = "jsem na vážkách, jestli jednu z antifon k žalmům nenahradit
-    pro větší pestrost antifonou jiného modu, nejspíš tou podle Fidelia omnia
-    (Nos qui vivimus je příliš zřetelná reference na žalm 115, který jako zahrnutý
-    v nešporách nepřichází pro průvod v úvahu; třetí antifona se mi zdá
-    méně vhodná / hodně exotická)"
     id = "aleluja1"
     piece = \markup {\sestavTitulek}
   }
@@ -83,24 +78,55 @@
 \markup\nadpisHodinka{průvod ke kříži}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c d( e) d \barMin
-    d( c b) a( c) b( a) g \barMin
-    a a f a c( a) b( a) g g \barFinalis
+    e4 a g( a) a \barMin
+    a g e f
+    g f( e) d( f) f \barMin
+    f f c( d f) f
+    e( f) g( f e) d e \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja
     a -- le -- lu -- ja
-    a -- le -- lu -- ja a -- le -- lu -- ja.
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
   }
   \header {
     fons_externus = "CZ-Pnm XII A 22, f. 134v"
     quid = "ant."
-    modus = "VII"
-    differentia = "c2"
-    psalmus = "Žalm 66, nebo 111, nebo 112"
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 111, nebo 112, nebo 66"
     id = "aleluja2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{Nebo:}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( a) c c( g) \barMin
+    b( c) a( g) a( g) f \barMaior
+    g f( a) c c( g)
+    b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "CZ-Pnm XII A 22, f. 134v"
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 112, nebo 111, nebo 66"
+    id = "aleluja2b"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -253,6 +253,9 @@
 
 \markup\nadpisHodinka{průvod ke křtitelnici}
 
+\markup\justify{
+  (Podle antifony \italic{Sit nomen Domini,} vybrané právě ze žalmu 113.)
+}
 \score {
   \relative c'' {
     \choralniRezim
@@ -660,6 +663,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c d( e) d \barMin
     d( c b) a( c) b( a) g \barMin
@@ -677,6 +681,68 @@
     differentia = "c2"
     psalmus = "Žalm 66, nebo 111, nebo 112"
     id = "aleluja2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (Podle antifony \italic{Fidelia omnia,} vybrané ze žalmu 111.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 a g( a) a \barMin
+    a g e f
+    g f( e) d( f) f \barMin
+    f f c( d f) f
+    e( f) g( f e) d e \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "CZ-Pnm XII A 22, f. 134v"
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 111, nebo 112, nebo 66"
+    id = "aleluja2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{Nebo:}
+
+\markup\justify{
+  (Podle antifony \italic{Potens in terra,} vybrané ze žalmu 112.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f( a) c c( g) \barMin
+    b( c) a( g) a( g) f \barMaior
+    g f( a) c c( g)
+    b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "CZ-Pnm XII A 22, f. 134v"
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 112, nebo 111, nebo 66"
+    id = "aleluja2b"
     piece = \markup {\sestavTitulek}
   }
 }
