@@ -13,6 +13,7 @@ textRespAleluja = \lyricmode { A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
 %% Alelujaticka responsoria modu VI:
 
+% diskusi k napevu viz ve variationes/velikonoce_responsoria.ly
 respVIalelujaResponsum = {
   a4 a( g) g f \barMin d f( g) g f
 }

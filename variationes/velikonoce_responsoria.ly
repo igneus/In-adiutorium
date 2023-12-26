@@ -196,6 +196,49 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
     subtitle = "Nápěvy podle gregoriánského chorálu"
   }
 
+  \markup\bold{Varianty nápěvu r2}
+
+  \markup\justify{
+    (Pokud si vzpomínám, ta drobná odlišnost od Vaticany byla způsobena
+    tím, že jsem prostě ještě neuměl pořádně číst kvadratickou notaci
+    a ten detail jsem přešel.)
+  }
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a( g) g f \barMin d f( g) g f \barFinalis
+    }
+    \addlyrics { \textRespAleluja }
+    \header {
+      piece = "já od začátku"
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a( g) g f d f( g) g( \grace f) f \barFinalis
+    }
+    \addlyrics { \textRespAleluja }
+    \header {
+      piece = "AR1912 (s. 16 a další výskyty)"
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a(-- g)  g^\markup{\sipka descendens} f--
+      d f(-- g) g( \grace f) f \barFinalis
+    }
+    \addlyrics { \textRespAleluja }
+    \header {
+      piece = "AR1934 (s. 288 a další; od Vaticany se liší jen dodatečnou informací, ne v nápěvu)"
+    }
+  }
+
+  \pageBreak
+
   \score {
     \relative c' {
       \zvyraznovacSedy
