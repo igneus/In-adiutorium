@@ -1599,6 +1599,86 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g f g a c c \barMaior
+    b c a g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f a c b \barMaior
+    c c b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b a g g \barMaior
+    a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b a g g \barMaior
+    \mark\sipka f g a f g a g g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \key f \major
     c4 c d bes c c a \barMaior
     f g a a bes g g( f) f \barFinalis

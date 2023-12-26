@@ -766,6 +766,9 @@
     }
   }
 
+  \markup{
+    (V tradičním repertoáru neznám paralelu.)
+  }
   \score {
     \relative c' {
       \choralniRezim
