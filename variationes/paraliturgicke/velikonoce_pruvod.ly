@@ -757,7 +757,7 @@
     a -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "CZ-Pnm XII A 22, f. 134v"
+    fons_externus = "CZ-Pn XII A 22, f. 134v"
     quid = "ant."
     modus = "IV"
     differentia = "E"
@@ -814,7 +814,7 @@
     a -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "CZ-Pnm XII A 22, f. 134v"
+    fons_externus = "CZ-Pn XII A 22, f. 134v"
     quid = "ant."
     modus = "VIII"
     differentia = "G"
@@ -859,7 +859,7 @@
     a -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "CZ-Pnm XII A 22, f. 144r"
+    fons_externus = "CZ-Pn XII A 22, f. 144r"
     quid = "ant."
     modus = "VI"
     differentia = "F"
