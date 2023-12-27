@@ -275,7 +275,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d e f d c c \barMin
+    d4 d f e f d c c \barMin
     d e f d d e c d d \barFinalis
   }
   \addlyrics {
@@ -287,7 +287,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Hab 3"
-    placet = "zcela průběžná melodie _Ježíš Kristus_ působí nepatřičně"
     id = "pa-rch-ant2"
     piece = \markup {\sestavTitulek}
   }

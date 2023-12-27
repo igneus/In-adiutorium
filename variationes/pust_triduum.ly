@@ -1036,7 +1036,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d e f d c c \barMin
     d e f d d e c d d \barFinalis
@@ -1050,6 +1050,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Hab 3"
+    placet = "zcela průběžná melodie _Ježíš Kristus_ působí nepatřičně"
     id = "pa-rch-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -1097,7 +1098,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka d4 d f e f d c c \barMin
     d e f d d e c d d \barFinalis
