@@ -32,6 +32,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 19A"
+    placet = "začátek nepříliš zpěvný, půjde lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -52,6 +53,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 64"
+    placet = "půjde lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -181,7 +183,8 @@
     psalmus = ""
     placet = "
     vzhledem k tomu, jak silný je to text, zaslouží si něco úsilí
-    o co nejvýstižnější melodii"
+    o co nejvýstižnější melodii;
+    masivní retardace před aleluja je pochybná"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

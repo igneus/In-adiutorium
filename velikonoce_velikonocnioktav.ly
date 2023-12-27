@@ -1083,6 +1083,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_miloval_, zvlášť to melisma tam, nějak drhne"
       id = "pa-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
