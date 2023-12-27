@@ -201,7 +201,8 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
   \markup\justify{
     (Pokud si vzpomínám, ta drobná odlišnost od Vaticany byla způsobena
     tím, že jsem prostě ještě neuměl pořádně číst kvadratickou notaci
-    a ten detail jsem přešel.)
+    a ten detail jsem přešel.
+    Každopádně shoda se starými prameny je šťastná náhoda, ne můj původní záměr.)
   }
   \score {
     \relative c'' {
@@ -210,7 +211,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
     }
     \addlyrics { \textRespAleluja }
     \header {
-      piece = "já od začátku"
+      piece = "já od začátku; Jistebnický kancionál 119r; CZ-Pn XII A 22 145r"
     }
   }
 
