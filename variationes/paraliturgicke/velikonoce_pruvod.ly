@@ -747,6 +747,50 @@
   }
 }
 
+\markup\justify{
+  Příp. by šlo alelujatické antifony pevně svázat s žalmy
+  a doplnit (nad rámec repertoáru pražských velikonočních nešpor)
+  ještě jednu podle antifony vzaté z žalmu 66 (65).
+
+  Antiphonale Synopticum takové zná tři:
+  \cantusid-link "001701"
+  \cantusid-link "004155" (ta jediná je dosvědčena i pražskými diecésními prameny)
+  a \with-url #"http://gregorianik.uni-regensburg.de/an/#id/3654" {tuhle.}
+
+  Nezdá se, že by některá z nich v tradičním repertoáru už známou alelujatickou
+  variantu měla.
+  (Pro trojité aleluja celkem připomínající 001701 viz KG 103r; KA 144r.)
+
+  Žalm 66 (rozdělený na dvě části) se zpívá v neděli 4. týdne žaltáře,
+  to by byla další možná předloha.
+}
+
+\markup{
+  (Melodický model podobný antifoně \italic{Benedicite gentes,} vybrané ze žalmu 66.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) f \barMin
+    g( a) g f( e) d( c)
+    f g g f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "CZ-Pnm XII A 22, f. 144r"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66"
+    id = "aleluja2c"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisHodinka{závěr}
