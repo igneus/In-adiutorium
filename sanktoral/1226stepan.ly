@@ -47,7 +47,7 @@
     c4( d) d \barMin
     c b a g c( d) d d \barMin
     c d e e( d) d \barMaior
-    d a( d) d c b c( a g4.) g \barMaior
+    d a d b c a( g a4.) g \barMaior
     a4 b( c) a a \barMin
     a g f g a a g( a) g g \barFinalis
   }
@@ -195,21 +195,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d e c d( e) d d \barMin c d c b a( g) g \barMaior
-    a a f g a a \barMin c( d c) b c a g g \barFinalis
+    d4 d e c d( e) d d \barMin c d c b g g \barMaior
+    a a a c a a c b c( d) d \barMin d( e d c) a( g) \barMin a g f( g) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Ště -- pán u -- vi -- děl o -- te -- vře -- né ne -- be
-    a byl ko -- ru -- no -- ván slá -- vou mu -- čed -- ní -- ků.
+    a ja -- ko prv -- ní byl ko -- ru -- no -- ván slá -- vou mu -- čed -- ní -- ků.
   }
   \header {
-    textus_approbatus = "Svatý Štěpán uviděl otevřené nebe
-    a jako první byl korunován slávou mučedníků."
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "rozhodně upravit na oficiální text"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

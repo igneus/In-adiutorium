@@ -137,6 +137,29 @@
   }
 }
 
+\markup{
+  (Transposice nápěvu výše.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( a) a a( bes) a g g( f) f e d( e f) e \barMaior
+    f f( g) g f g f e e \barMin f( a e f) f( d) d \mark\sipka d( e f d) d \barFinalis
+  }
+  \addlyrics {
+    Má du -- še_* při -- lnu -- la k_to -- bě, můj Bo -- že,
+    mé tě -- lo by -- lo pro te -- be pá -- le -- no oh -- něm.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
