@@ -276,6 +276,29 @@
   }
 }
 
+\markup\justify{
+  Úprava směrem k dnes obvyklému nápěvu, AR1912 s. 38.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \mark\sipka b d( e d) c \barMin
+    a b( c) a g( f) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja a -- le -- lu -- ja a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "KA, f. 136r"
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "aleluja1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisHodinka{zastavení u křtitelnice}
@@ -690,7 +713,7 @@
 }
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 a g( a) a \barMin
     a g e f
@@ -716,11 +739,65 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 a g( a) a \barMin
+    a g e f
+    g f( e) d( f) f \barMin
+    f f c( d f) f
+    e( f) g( f e) d e \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "CZ-Pnm XII A 22, f. 134v"
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 111"
+    id = "aleluja2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\italic{Nebo:}
 
 \markup\justify{
   (Podle antifony \italic{Potens in terra,} vybrané ze žalmu 112.)
 }
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 f( a) c c( g) \barMin
+    b( c) a( g) a( g) f \barMaior
+    g f( a) c c( g)
+    b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "CZ-Pnm XII A 22, f. 134v"
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 112, nebo 111, nebo 66"
+    id = "aleluja2b"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
     \zvyraznovacModry
@@ -741,7 +818,7 @@
     quid = "ant."
     modus = "VIII"
     differentia = "G"
-    psalmus = "Žalm 112, nebo 111, nebo 66"
+    psalmus = "Žalm 112"
     id = "aleluja2b"
     piece = \markup {\sestavTitulek}
   }
@@ -770,6 +847,7 @@
 }
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g g( a) f \barMin
     g( a) g f( e) d( c)
@@ -782,6 +860,29 @@
   }
   \header {
     fons_externus = "CZ-Pnm XII A 22, f. 144r"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66"
+    id = "aleluja2c"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) f \barMin
+    g f f( e) d
+    f g g f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "AR1912 180"
     quid = "ant."
     modus = "VI"
     differentia = "F"

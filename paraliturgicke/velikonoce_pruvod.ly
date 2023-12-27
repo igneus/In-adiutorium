@@ -98,7 +98,7 @@
     quid = "ant."
     modus = "IV"
     differentia = "E"
-    psalmus = "Žalm 111, nebo 112, nebo 66"
+    psalmus = "Žalm 111"
     id = "aleluja2"
     piece = \markup {\sestavTitulek}
   }
@@ -125,8 +125,37 @@
     quid = "ant."
     modus = "VIII"
     differentia = "G"
-    psalmus = "Žalm 112, nebo 111, nebo 66"
+    psalmus = "Žalm 112"
     id = "aleluja2b"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\italic{Nebo:}
+\markup\italic\justify{
+  (Tato antifona nebyla součástí předtridentských pražských křestních nešpor,
+  ale je vybraná podle stejného klíče.)
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) f \barMin
+    g( a) g f( e) d( c)
+    f g g f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja
+    a -- le -- lu -- ja
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "CZ-Pnm XII A 22, f. 144r"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66"
+    id = "aleluja2c"
     piece = \markup {\sestavTitulek}
   }
 }
