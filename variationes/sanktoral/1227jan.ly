@@ -171,6 +171,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 \mark\sipka a f g a a \barMin
+    c c d c( b g) g \barMin
+    a( g) f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 f g g a a \barMin
     c c d \mark\sipka c( b a) a \barMin
     g( f) g( a) a g g \barFinalis
@@ -333,6 +355,67 @@
     quid = "2. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 g a g f f( g) \barMin
+    f d d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Jan je ten u -- čed -- ník,
+    kte -- ré -- ho Je -- žíš mi -- lo -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a g) f f( g) \barMin
+    g g g a g f( g) f f \barFinalis
+  }
+  \addlyrics {
+    Jan je ten u -- čed -- ník,
+    kte -- ré -- ho Je -- žíš mi -- lo -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d( e d) c c( d) \barMin
+    c a a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Jan je ten u -- čed -- ník,
+    kte -- ré -- ho Je -- žíš mi -- lo -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 64"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
