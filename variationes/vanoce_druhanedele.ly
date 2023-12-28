@@ -489,12 +489,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f e g a f e g g \barMin
     a4 b g g a g a f( e) e \barMaior
     e e e( f e) d d( e) d \barMin
     \mark\sipka f g a a( g) a g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Po -- kor -- nou slu -- žeb -- ni -- ci Pá -- ně
+    na -- pl -- ni -- la ne -- bes -- ká mi -- lost,
+    lů -- no čis -- té Pan -- ny
+    skrý -- va -- lo bož -- ské ta -- jem -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Magnificat"
+    id = "ne1-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f e g a f e g g \barMin
+    a4 b g g a g a f( e) e \barMaior
+    e e \mark\sipka e( f) e d( e) d \barMin
+    f g a a( g) a g( f) e e \barFinalis
   }
   \addlyrics {
     Po -- kor -- nou slu -- žeb -- ni -- ci Pá -- ně
@@ -546,6 +571,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g g a( c) b a( g) a \barMaior
     c c c c d c a g f( g) g \barMin
@@ -562,6 +588,29 @@
     differentia = "a"
     psalmus = "Žalm 118"
     placet = "melodie druhé části je taková 'kramářská'"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g g \mark\sipka \barMin a( c) b a( g) a \barMaior
+    c c c c \mark\sipka b c a g g( a) g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vé -- mu vze -- šlo svět -- lo;
+    na -- ro -- dil se Spa -- si -- tel všech li -- dí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -717,6 +766,68 @@
     differentia = "G"
     psalmus = "Dan 3-II"
     fial = "antifony/tyden2_1nedele.ly#rch-ant2?zacatek"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4( a g) g( c) c c( d) c c( b a) \barMaior
+    c4-- a \barMin \mark\sipka g f a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv Pá -- nu,
+    na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-II"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant2?zacatek"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c c b \barMin
+    c4. a g4 f a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv Pá -- nu,
+    na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-II"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f e d f( g) g \barMin
+    a( b) c a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv Pá -- nu,
+    na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-II"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -1663,6 +1774,26 @@
     \choralniRezim
     c4 c b
     g b( c) a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- slal
+    svou mi -- lost a věr -- nost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 115"
+    id = "ne2-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka c( b d) c
+    a b( c) a a g g \barFinalis
   }
   \addlyrics {
     Bůh se -- slal

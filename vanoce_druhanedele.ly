@@ -89,7 +89,7 @@
     \choralniRezim
     g4 f e g a f e g g \barMin
     a4 b g g a g a f( e) e \barMaior
-    e e e( f e) d d( e) d \barMin
+    e e e( f) e d( e) d \barMin
     f g a a( g) a g( f) e e \barFinalis
   }
   \addlyrics {
@@ -120,9 +120,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g g a( c) b a( g) a \barMaior
-    c c c c d c a g f( g) g \barMin
-    a g f f \barFinalis
+    f4 g a g g \barMin a( c) b a( g) a \barMaior
+    c c c c b c a g g( a) g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vé -- mu vze -- šlo svět -- lo;
@@ -131,10 +131,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 118"
-    placet = "melodie druhé části je taková 'kramářská'"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -155,7 +154,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-II"
-    fial = "antifony/tyden2_1nedele.ly#rch-ant2?zacatek"
+    fial = "antifony/tyden2_1nedele.ly#rch-ant2?zacatek=12"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
