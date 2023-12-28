@@ -5,11 +5,11 @@
 \markup {\nadpisDen {"11. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d d d e f e f d d \barMaior
-    f f f f f g f g a g f( e f g) g( f) \barMaior
-    g( a) g f( e) d e d c( d) d \barFinalis
+    c4 c c c b c a g f g g \barMaior
+    f a c d c d e d c b c( a g) g \barMaior
+    a a g f g a f f \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- vi by -- lo lí -- to zá -- stu -- pů,
@@ -18,11 +18,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D"
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     annus = "A"
-    placet = "lépe"
     id = "ne11a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
