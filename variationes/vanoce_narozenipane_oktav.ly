@@ -428,6 +428,38 @@
     }
   }
 
+  \markup\wordwrap{
+    Věděl jsem, že ten začátek už odněkud znám.
+    Je to část \fial-link "commune/commune_maria.ly#sob-aben5"
+  }
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4( c) a a g a g e e d( c) d d e e \barMin
+      e f g a g f( g e) e \barMaior
+      d f g a g f f( g) e e \barMin
+      e f d f f( e) e \barMaior
+      a g f g( a) g f( e) e \barMin
+      d c d f g e e \barFinalis
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý nás při -- šel spa -- sit.
+    }
+    \header {
+      quid = "ant. k Magnigicat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = "Magnificat"
+      id = "28-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisDen {29. prosince}}
