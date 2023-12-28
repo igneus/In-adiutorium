@@ -13,23 +13,29 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4( c d f) f \barMin g g g f( g) f \barMin e f g f e d d \barMaior
-    d c( d) d( c) c \barMin d c d d e f f( g) g \barMaior
-    a( g f) d c d d d \barFinalis
+    g4( a e f) g \barMin
+    a( b) g a c b \barMin
+    a g f g a a( g) g \barMaior
+    g e( f g) a( c b g) a( g) \barMin
+    a( b) g g a g a f( e) e \barMaior
+    f( g a) g f e d( e) e \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu, pro nás na -- ro -- ze -- né -- mu;
-    on o -- zdo -- bil ne -- vin -- né bet -- lém -- ské dě -- ti
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    pro nás na -- ro -- ze -- né -- mu;
+    on o -- zdo -- bil
+    ne -- vin -- né bet -- lém -- ské dě -- ti
     slá -- vou mu -- čed -- ní -- ků.
   }
   \header {
     quid = "ant."
-    modus = "II"
-    differentia = "D"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
-    placet = "spíš lépe"
+    fial = "sanktoral/1226stepan.ly#invit?zacatek=32"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -90,7 +96,7 @@
   \relative c'' {
     \choralniRezim
     a4 a g( a) g f e e \barMaior
-    e e( f) e d f g g e e \barFinalis
+    e f e d f g g e e \barFinalis
   }
   \addlyrics {
     Je -- jich bo -- lest a ná -- řek
@@ -132,8 +138,8 @@
   \relative c' {
     \choralniRezim
     d4 d d d( a') a g f g g g( a) a \barMaior
-    f g a a a( c a) g f g( f d) d \barMaior
-    c d f f e( c) c( d) d \barFinalis
+    a a g f g a g g( f d) d \barMin
+    f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Bet -- lém -- ské dě -- ti o -- sla -- vu -- jí Pá -- na:
