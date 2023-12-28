@@ -31,7 +31,7 @@ ARGV.each_with_index do |s,i|
   end
 
   m = LilyPondMusic.new fial.path
-  score = m.scores.find {|x| x.header['id'] == fial.id}
+  score = m[fial.id]
 
   if score == nil then
     STDERR.puts "Unable to find score id '#{fial.id}' in file '#{fial.path}'."
