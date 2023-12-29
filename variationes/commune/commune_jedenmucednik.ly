@@ -2525,7 +2525,7 @@ a Greenovu \italic{Spiritualitu zdola}).
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e f e f g( a) a \barMin
     a( b) a g g( a) a a \barMin
@@ -2565,6 +2565,40 @@ a Greenovu \italic{Spiritualitu zdola}).
     e( a g) a( b) a g g( a) \barMaior
     a a a g( a) g f e e \barMin
     \mark\sipka f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že pše -- nič -- né zr -- no
+    ne -- pad -- ne do ze -- mě
+    a ne -- o -- du -- mře,
+    zů -- sta -- ne sa -- mo;
+    o -- du -- mře -- -li však,
+    při -- ne -- se hoj -- ný u -- ži -- tek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "2ne-amag-velik"
+    fial = "antifony/pust_nedeleB.ly#vmag1?+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e f e f d( e) e \barMaior
+    e( a) a g g( a) a a \barMin
+    a a a a( e) e \barMin
+    f( e f) d f f( e) e \barMax
+    a( g f) g( a) g f g( a) \barMin
+    a g f g( a) g f e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Jest -- li -- že pše -- nič -- né zr -- no

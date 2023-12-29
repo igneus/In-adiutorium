@@ -834,13 +834,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e f e f g( a) a \barMin
-    a( b) a g g( a) a a \barMin
-    a a a a( e) e \barMaior
+    e4 e e f e f d( e) e \barMaior
+    e( a) a g g( a) a a \barMin
+    a a a a( e) e \barMin
     f( e f) d f f( e) e \barMax
-    e( a g) a( b) a g g( a) \barMaior
-    a a a g( a) g f e e \barMaior
-    d f f( e) e \barFinalis
+    a( g f) g( a) g f g( a) \barMin
+    a g f g( a) g f e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Jest -- li -- že pše -- nič -- né zr -- no
