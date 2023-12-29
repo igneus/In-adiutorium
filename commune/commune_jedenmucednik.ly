@@ -172,12 +172,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    d4( a' bes) c( bes) a g a bes c bes( a) g4.( a) \barMaior
-    a4 a g a g f a( bes) c( d) c bes c( bes) a4. a \barMax
-    a4( g f) g f( d) d f e g( a) f e d d \barFinalis
+    a4 b c d d e d c( d) d \barMaior
+    d e d c d c \barMin b c a g a( g) f( g) g \barMaior
+    a c b( c a) a \barMin g f g a a g g \barFinalis
   }
   \addlyrics {
     O -- pá -- sa -- la se sta -- teč -- nos -- tí
@@ -186,10 +185,9 @@
   }
   \header {
     quid = "ant. k Magnificat o mučednici"
-    modus = "I"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "lépe"
     id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -583,6 +583,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( a' bes) c( bes) a g a bes c bes( a) g4.( a) \barMaior
@@ -598,6 +599,29 @@
     quid = "ant. k Magnificat o mučednici"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 b c d d e d c( d) d \barMaior
+    d e d c d c \barMin b c a g a( g) f( g) g \barMaior
+    a c b( c a) a \barMin g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    O -- pá -- sa -- la se sta -- teč -- nos -- tí
+    a ne -- o -- hro -- že -- ně vy -- zná -- va -- la svou ví -- ru;
+    je -- jí svět -- lo bu -- de sví -- tit na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat o mučednici"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
