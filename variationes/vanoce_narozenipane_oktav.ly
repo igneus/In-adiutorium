@@ -913,10 +913,37 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 f e f g f e f d d \barMin
       d( f) \mark\sipka d f e c c \barMaior
+      d f f f g f \barMin
+      g f g a( g) g \barMaior
+      a g f d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři si řek -- li me -- zi se -- bou:
+      Pojď -- me do Bet -- lé -- ma
+      po -- dí -- vat se na to,
+      co se tam sta -- lo,
+      jak nám to Pán o -- zná -- mil.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Benedictus"
+      id = "29-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 f e f g f e f d d \barMin
+      d( f) d \mark\sipka e f d( c) c \barMaior
       d f f f g f \barMin
       g f g a( g) g \barMaior
       a g f d e( f) d d \barFinalis
@@ -1033,7 +1060,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       d4 d c f g f( g) a a \barMaior
@@ -1043,6 +1070,37 @@
       a a g( a) a a g f e e \barMaior
       \mark\sipka d e f d( c) \barMin
       d e f d d c d d \barFinalis
+    }
+    \addlyrics {
+      Syn Bo -- ží se stal člo -- vě -- kem
+      a na -- ro -- dil se z_Pan -- ny Ma -- ri -- e,
+      při -- šel z_ne -- be na svět,
+      a -- by lid -- stvo pro -- pad -- lé hří -- chu
+      po -- vo -- lal zpět
+      do ne -- bes -- ké -- ho krá -- lov -- ství.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "29-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      d4 d c f g f( g) a a \barMaior
+      a a( c) a g( a) g \barMin
+      f e f( d) c( d) d \barMax
+      a'( c) c b g b( c a) a \barMin
+      a a g( a) a a g f e e \barMaior
+      d e f d( c) \barMin
+      d e f d \mark\sipka c c d d \barFinalis
     }
     \addlyrics {
       Syn Bo -- ží se stal člo -- vě -- kem

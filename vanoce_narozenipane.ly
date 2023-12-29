@@ -1524,7 +1524,7 @@
     \relative c' {
       \choralniRezim
       d4 f e f g f e f d d \barMin
-      d( f) d f e c c \barMaior
+      d( f) d e f d( c) c \barMaior
       d f f f g f \barMin
       g f g a( g) g \barMaior
       a g f d e( f) d d \barFinalis
@@ -1556,7 +1556,7 @@
       a'( c) c b g b( c a) a \barMin
       a a g( a) a a g f e e \barMaior
       d e f d( c) \barMin
-      d e f d d c d d \barFinalis
+      d e f d c c d d \barFinalis
     }
     \addlyrics {
       Syn Bo -- ží se stal člo -- vě -- kem
