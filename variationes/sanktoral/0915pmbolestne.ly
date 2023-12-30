@@ -1919,6 +1919,72 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f f f \mark\sipka g g f \barMin g f g \mark\sipka g( a) a( g) \barMax
+    g g g f g a g g \barMin \mark\sipka f d f g f \barFinalis
+    % V
+    \neviditelna g
+    a4 a a a g( a) g g \barMin g \mark\sipka g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g f g a g g \barMin \mark\sipka f d f g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
+    pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \Verse Bez smr -- ti jsi do -- sáh -- la mu -- čed -- nic -- ké pal -- my,_*
+    \Response pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f f f g g f \barMin g f g g( a) a( g) \barMax
+    g g g \mark\sipka g g f g( a) g \barMin f d f g f \barFinalis
+    % V
+    \neviditelna g
+    a4 a a a g( a) g g \barMin g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g \mark\sipka g g f g( a) g \barMin f d f g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
+    pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \Verse Bez smr -- ti jsi do -- sáh -- la mu -- čed -- nic -- ké pal -- my,_*
+    \Response pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
