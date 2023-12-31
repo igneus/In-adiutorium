@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-require_relative '../lib/updatefromvar/updater.rb'
+require_relative '../../lib/updatefromvar/updater.rb'
 
 describe Updater do
 
