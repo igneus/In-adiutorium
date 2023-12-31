@@ -29,22 +29,28 @@ setup = {
 }
 
 optparse = OptionParser.new do|opts|
-  opts.on "-P", "--no-partial-files", "Don't consider files variations/MAINFILE_somesuffix.ly partial files of file /MAINFILE.ly" do
+  opts.separator 'Select files'
+
+  opts.on "-P", "--no-partial-files", "Don't consider files variations/MAINFILE_somesuffix.ly partial development files of file /MAINFILE.ly" do
     setup[:partial_files] = false
   end
 
-  opts.on "-M", "--music-only", "Only consider changes of music (not lyrics or headers; changes of these are applied, too, but only for scores which have some change of music)" do
-    setup[:compare_music_only] = true
-  end
-
-  opts.on "-m", "--git-modified", "Apply changes from all modified `variationes/*` files known to git" do
+  opts.on "-m", "--git-modified", "In addition to files specified by arguments, apply changes from all `variationes/*` files with uncommitted changes in the git index" do
     setup[:modified] = true
   end
 
+  opts.separator 'Select scores'
+
+  opts.on "-M", "--music-only", "Skip scores which are changed, but not in music" do
+    setup[:compare_music_only] = true
+  end
+
   # option name mimicks git
-  opts.on "-p", "--patch", "Select changes to apply interactively" do
+  opts.on "-p", "--patch", "Select interactively which changes to apply" do
     setup[:interactive] = true
   end
+
+  opts.separator 'Output'
 
   opts.on "-d", "--dry-run", "Perform all actions, but don't save the results" do
     setup[:dry_run] = true
