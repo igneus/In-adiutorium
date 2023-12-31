@@ -20,6 +20,17 @@ slavaDelsi = { a4 a g( a) a \barMin a c( a) a \barMin a g a b( c) a4. a }
 
 alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
 
+% zobrazit notu (v kontextu moderni notace) jako choralni punctum auctum descendens
+% (srov. prikaz \descendens v gregorian.ly)
+myDescendens = #(define-music-function (note)
+                  (ly:music?)
+  #{
+    \once \override NoteHead.stencil = #ly:text-interface::print
+    \once \override NoteHead.text = \markup\musicglyph #"noteheads.ssolesmes.auct.desc"
+    \tweak font-size #+4
+    $note
+  #})
+
 \bookpart {
   \header {
     subtitle = "Nápěvy vlastní"
@@ -229,7 +240,7 @@ alelRespDelsi = { a4 g a( c) a4.( g) \barMin c4 d c( b) a4. }
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a(-- g)  g^\markup{\sipka descendens} f--
+      a4 a(-- g) \myDescendens g f--
       d f(-- g) g( \grace f) f \barFinalis
     }
     \addlyrics { \textRespAleluja }
