@@ -1157,6 +1157,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( c d) d( c) c \barMin bes c d f e d( c) c \barMaior
     d( c d f) f( g) \barMin f d c c( d) d \barFinalis
@@ -1189,6 +1190,26 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 98"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g a) a( g) g \barMin f g a c b a( g) \mark\sipka a \barMaior
+    c4. a g f a g g \barFinalis
+  }
+  \addlyrics {
+    U -- zře -- ly všech -- ny kon -- či -- ny ze -- mě
+    spá -- su na -- še -- ho Bo -- ha.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 98"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -1277,6 +1298,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4( a) c( d) d \barMin c d d e c c( d) d \barMaior
     a( d b c) a( g) \barMin f g a c( b a) a \barFinalis

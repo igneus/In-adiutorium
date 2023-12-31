@@ -1601,10 +1601,10 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      d4( c d) d( c) c \barMin bes c d f e d( c) c \barMaior
-      d( c d f) f( g) \barMin f d c c( d) d \barFinalis
+      g4( a) c( d) d \barMin c d d e c c( d) d \barMaior
+      a( d b c) a( g) \barMin f g a c( b a) a \barFinalis
     }
     \addlyrics {
       U -- zře -- ly všech -- ny kon -- či -- ny ze -- mě
@@ -1612,11 +1612,10 @@
     }
     \header {
       quid = "2. ant."
-      modus = "II"
-      differentia = "D"
+      modus = "IV alt"
+      differentia = "A"
       psalmus = "Žalm 89-I"
       fial = "mezidobi_nejsvsrdce.ly#mc-a3"
-      placet = "lépe -- nebo ne?"
       id = "30-mc-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1651,11 +1650,11 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4 c d d( e) d c b( c a) g g \barMaior
-      a g
-      c( d) d \barMin
-      d( e) d
-      c d( c) \barMin b( c) a g g \barMaior
+      d4 d d e d c b( c) a( g) g \barMaior
+      a f
+      g( a) a \barMin
+      c( d) e
+      d c( d) \barMin c( b) a g g \barMaior
       a f g( a) a a c d
       c b c( a g4.) g4 \barFinalis
     }
@@ -1685,8 +1684,8 @@
       f g g a a \barMaior
       a g a bes( c) g \barMin
       bes( a) g g( a) f g g \barMax
-      g f g g( a) a \barMin
-      a a g f e f d d \barFinalis
+      g a g f( g) f \barMin
+      f f e c e f d d \barFinalis
     }
     \addlyrics {
       Dě -- ku -- je -- me ti,
