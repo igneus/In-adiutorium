@@ -23,10 +23,12 @@
       a4( d) d e( f d) d \barMin c a b c a g g \barFinalis
     }
     \addlyrics {
-      Král mí -- ru a po -- ko -- je je ob -- klo -- pen slá -- vou,
+      Král mí -- ru a po -- ko -- je je ob -- klo -- pen slá -- vou;
       ce -- lá ze -- mě tou -- ží spa -- třit je -- ho tvář.
     }
     \header {
+      textus_approbatus = "Král míru a pokoje je obklopen slávou;
+      celá země touží vidět jeho tvář."
       quid = "1. ant."
       modus = "VII"
       differentia = "d"
@@ -755,6 +757,8 @@
       po -- lo -- že -- né v_jes -- lích.
     }
     \header {
+      textus_approbatus = "Pastýři pospíchali do Betléma
+      a nalezli Marii a Josefa i děťátko položené v jeslích."
       quid = "3. ant."
       modus = "VII"
       differentia = "a"
@@ -913,6 +917,8 @@
       a ve -- le -- bil Bo -- ha.
     }
     \header {
+      textus_approbatus = "Když rodiče přinesli dítě Ježíše do chrámu,
+      vzal si ho Simeon do náručí a velebil Boha."
       quid = "1. ant."
       modus = "VIII"
       differentia = "G"
@@ -1139,6 +1145,8 @@
       A -- le -- lu -- ja.
     }
     \header {
+      textus_approbatus = "Josef a Maria byli plni údivu
+      nad tím, co o Ježíšovi slyšeli. Aleluja."
       quid = "ant. k Benedictus"
       modus = "I"
       differentia = "f"
@@ -1242,7 +1250,7 @@
     }
     \addlyrics {
       Je -- žíš pro -- spí -- val moud -- ros -- tí,
-      vě -- kem i ob -- li -- bou
+      vě -- kem a ob -- li -- bou
       u Bo -- ha i u li -- dí.
     }
     \header {
@@ -2146,7 +2154,7 @@
       je -- hož jmé -- no
       tr -- vá na -- vě -- ky;
 
-      ra -- du -- je se ze své -- ho ma -- teř -- ství
+      ra -- du -- je se ze své -- ho ma -- teř -- ství,
       a zů -- stá -- vá jí slá -- va pa -- nen -- ství.
 
       Ne -- ní jí po -- dob -- né me -- zi že -- na -- mi.
@@ -2154,6 +2162,9 @@
       A -- le -- lu -- ja.
     }
     \header {
+      textus_approbatus = "Rodička zrodila Krále, jehož jméno trvá navěky;
+      raduje se ze svého mateřství, a zůstává jí sláva panenství,
+      a není jí podobné mezi ženami. Aleluja."
       quid = "3. ant."
       modus = "VII"
       differentia = "c"
