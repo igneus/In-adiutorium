@@ -59,9 +59,11 @@ end
 
 optparse.parse!
 
+DEV_DIR = 'variationes'
+
 begin
   highline = HighLine.new
-  updater = Updater.new('variationes', STDOUT)
+  updater = Updater.new(DEV_DIR, STDOUT)
   updater.partial_files = setup[:partial_files]
   updater.compare_music_only = setup[:compare_music_only]
   updater.dry_run = setup[:dry_run]
@@ -74,8 +76,8 @@ begin
     files +=
       `git ls-files --modified`
         .split
-        .select {|f| f.start_with? 'variationes' }
-        .collect {|f| f.sub 'variationes/', '' }
+        .select {|f| f.start_with? DEV_DIR }
+        .collect {|f| f.sub "#{DEV_DIR}/", '' }
   end
 
   files.each do |f|
