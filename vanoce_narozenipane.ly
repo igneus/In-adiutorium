@@ -721,7 +721,7 @@
       b b g a a b b \barMaior
       d d( e c d) d \barMin
       d c( b) a( g) g( a) a \barMaior
-      a g a b( a) g g \barFinalis
+      a g a a( b) g g \barFinalis
     }
     \addlyrics {
       Jo -- se -- fe,
@@ -840,6 +840,7 @@
       differentia = "a"
       psalmus = "Magnificat"
       annus = "B"
+      placet = "neuspokojivý závěr"
       fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
       id = "svrodiny-1ne-amagB"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
@@ -1066,7 +1067,7 @@
       psalmus = "Žalm 149"
       id = "svrodiny-rch-a3"
       piece = \markup {\sestavTitulek}
-      fial = "fial://vanoce_narozenipane.ly#vden-atercie?konec"
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?konec=19"
     }
   }
 
@@ -1125,6 +1126,7 @@
       differentia = "G"
       psalmus = ""
       annus = "A"
+      placet = "_Když_ takhle nejde; celou spíš lépe"
       id = "svrodiny-rch-abenA"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -1245,8 +1247,8 @@
     \relative c'' {
       \choralniRezim
       d4 d d e c c d d \barMin
-      c d d c b a \barMin
-      c a g f g( a) g g \barFinalis
+      c a a c( b) a( g) g \barMaior
+      a a g f g( a) g g \barFinalis
     }
     \addlyrics {
       Je -- žíš pro -- spí -- val moud -- ros -- tí,
@@ -1319,6 +1321,7 @@
       differentia = "G"
       psalmus = ""
       annus = "A"
+      placet = "zvlášť první dva díly divné"
       id = "svrodiny-2ne-amagA"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -1347,6 +1350,7 @@
       differentia = "f"
       psalmus = ""
       annus = "C"
+      placet = "lépe"
       id = "svrodiny-2ne-amagC"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }

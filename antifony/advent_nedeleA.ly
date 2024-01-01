@@ -238,8 +238,8 @@
     b b g a a b b \barMaior
     d d( e c d) d \barMin
     d c( b) a( g) g( a) a \barMaior
-    a g a b( a) g g \barMaior
-    f g a( g) g \barFinalis
+    a g a a( b) g g \barMaior
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     Jo -- se -- fe,

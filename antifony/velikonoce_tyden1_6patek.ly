@@ -46,6 +46,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Iz 45"
+    placet = "nápěv poslední části posouvá smysl, protože zazpívané to zní jako _Bůh, Izraele spasitel_"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
