@@ -1,18 +1,21 @@
-require 'lyv'
 require 'colorized_string'
+require 'lyv'
 
 require_relative 'score_comparison'
 require_relative 'development_clean'
 require_relative 'development_files_finder'
+require_relative '../../fial'
+require_relative '../checkcopies/child_parent_comparison'
 
 # knows how to find new official versions of chants in
 # development files and introduce them in production files
 class Updater
   include DevelopmentClean
 
-  def initialize(development_dir, log_stream)
+  def initialize(development_dir, log_stream, repository)
     @development_dir = development_dir
     @log = log_stream
+    @music_repository = repository
 
     # options
     @partial_files = true
@@ -27,10 +30,15 @@ class Updater
     main_src = File.read main_file
     main_music = Lyv::LilyPondMusic.new main_src
 
+    update_simple_copies(main_file, main_src, main_music)
+    update_from_development(main_file, main_src, main_music)
+  end
+
+  def update_from_development(main_file, main_src, main_music)
     development_files(main_file).each do |dev_file|
       changes = 0
 
-      Lyv::LilyPondMusic.new(dev_file).scores.each do |score|
+      @music_repository.music_by_path(dev_file).scores.each do |score|
         next unless marked_for_production? score
 
         unless has_id? score
@@ -43,6 +51,13 @@ class Updater
         production_score = main_music[score_id]
         if production_score.nil?
           @log.puts "##{score_id} marked for production, but the score was not found in production"
+          next
+        end
+
+        # simple copies are not updated from a development file,
+        # but directly from the source
+        if simple_copy? production_score
+          @log.puts "##{score_id} has a development version marked for production, but development versions are ignored for simple copies"
           next
         end
 
@@ -75,6 +90,34 @@ class Updater
 
       @log.puts "Updated #{main_file} from #{dev_file}, #{changes} scores modified"
     end
+  end
+
+  def update_simple_copies(main_file, main_src, main_music)
+    changes = 0
+    main_music.scores.each do |production_score|
+      next unless simple_copy? production_score
+
+      parent = @music_repository.score_by_fial production_score.header['fial']
+      next if ChildParentComparison.new(production_score, parent).match?
+
+      updated = update_copy production_score, parent
+
+      if @filter_proc.call(production_score, updated.text)
+        score_id = production_score.header['id']
+        @log.puts "updating ##{score_id}"
+        changes += 1
+
+        main_src.sub!(remove_variable_assignment(production_score.text), updated.text)
+      end
+    end
+
+    if changes > 0 && !dry_run
+      File.open(main_file, 'w') do |fw|
+        fw.write(main_src)
+      end
+    end
+
+    @log.puts "Updated simple copies in #{main_file}, #{changes} scores modified"
   end
 
   def development_files(main_file)
@@ -119,6 +162,15 @@ class Updater
     return lily_src
   end
 
+  def update_copy(copy, source)
+    src = copy.text.sub(copy.music, source.music)
+    %w(modus differentia).each do |key|
+      src.sub!(/(?<=#{key} = ")(.*?)(?=")/, source.header[key])
+    end
+
+    Lyv::LilyPondScore.new(src)
+  end
+
   private
 
   def indent_by(num, line)
@@ -140,5 +192,10 @@ class Updater
     else
       {}
     end
+  end
+
+  def simple_copy?(score)
+    str = score.header['fial']
+    str && FIAL.parse(str).simple_copy?
   end
 end

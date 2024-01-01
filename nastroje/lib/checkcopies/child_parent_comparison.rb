@@ -133,7 +133,7 @@ class ChildParentComparison
     return true if Set.new(%w(zacatek konec zaver cast)).intersect? @fial_keys
 
     normalized_parent == normalized_child ||
-      (simple_copy? &&
+      (@fial.simple_copy? &&
        both_lyrics_end_with_alleluia? &&
        difference_in_last_bar_only? &&
        one_alleluia_is_optional?)
@@ -225,10 +225,6 @@ class ChildParentComparison
 
   def difference_in_last_bar_only?
     normalize_last_bar(normalized_child) == normalize_last_bar(normalized_parent)
-  end
-
-  def simple_copy?
-    @fial.additional.empty?
   end
 
   def differentia_mismatch?

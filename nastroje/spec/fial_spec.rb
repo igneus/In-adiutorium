@@ -44,4 +44,16 @@ describe FIAL do
       it { expect(FIAL.is_fial?(i)).to be true }
     end
   end
+
+  describe 'simple_copy?' do
+    it { expect(FIAL.parse('filename#id').simple_copy?).to be true }
+
+    [
+      'filename#id?zacatek',
+      'filename#id?+aleluja',
+      'filename#id?-aleluja',
+    ].each do |i|
+      it { expect(FIAL.parse(i).simple_copy?).to be false }
+    end
+  end
 end

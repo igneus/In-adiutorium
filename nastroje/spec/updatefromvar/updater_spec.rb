@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
 require_relative '../../lib/updatefromvar/updater.rb'
+require_relative '../../lib/music_repository.rb'
 
 describe Updater do
 
   before :all do
-    @updater = described_class.new 'variationes', StringIO.new
+    @updater = described_class.new 'variationes', StringIO.new, MusicRepository.new
   end
 
   describe '#clean_score' do
@@ -174,6 +175,71 @@ describe Updater do
         b = Lyv::LilyPondScore.new "\\score { }"
         expect(@updater.scores_differ?(a, b)).to be false
       end
+    end
+  end
+
+  describe '#update_copy' do
+    let(:copy) do
+      Lyv::LilyPondScore.new <<~'EOS'
+      \score {
+        \relative c'' {
+          c4 c b c a g \barFinalis
+        }
+        \addlyrics {
+          Et sic fi -- ni -- a -- tur.
+        }
+        \header {
+          quid = "1. ant."
+          modus = "VIII"
+          differentia = "G"
+          psalmus = "Ef 1"
+          some = "other"
+          piece = \markup\sestavTitulek
+        }
+      }
+      EOS
+    end
+
+    let(:source) do
+      Lyv::LilyPondScore.new <<~'EOS'
+      \score {
+        \relative c' {
+          f4 f f e c d \barFinalis
+        }
+        \addlyrics {
+          sae -- cu -- lo -- rum. A -- men.
+        }
+        \header {
+          quid = "2. ant."
+          modus = "II"
+          differentia = "D"
+          some = "value"
+          piece = \markup\sestavTitulekBezZalmu
+        }
+      }
+      EOS
+    end
+
+    it 'copies music' do
+      result = @updater.update_copy copy, source
+      expect(result.music).to eq source.music
+    end
+
+    it 'does not touch lyrics' do
+      result = @updater.update_copy copy, source
+      expect(result.lyrics_raw).to eq copy.lyrics_raw
+    end
+
+    it 'copies modus and differentia' do
+      result = @updater.update_copy copy, source
+      keys = %w(modus differentia)
+      expect(result.header.slice(*keys)).to eq source.header.slice(*keys)
+    end
+
+    it 'does not touch other header fields' do
+      result = @updater.update_copy copy, source
+      keys = %w(quid psalmus some piece)
+      expect(result.header.slice(*keys)).to eq copy.header.slice(*keys)
     end
   end
 end

@@ -8,6 +8,7 @@ require 'yaml'
 
 require 'lyv'
 require_relative 'fial'
+require_relative 'lib/music_repository'
 require_relative 'lib/checkcopies/child_parent_comparison'
 
 # Encapsulates a String referencing either a whole file or a single score,
@@ -27,26 +28,6 @@ class Reference
     end
 
     @repo.music_by_path(@ref).scores.each {|s| yield s }
-  end
-end
-
-# Convenient interface for loading parsed music
-class MusicRepository
-  def initialize
-    @repo = Hash.new do |hash, key|
-      hash[key] = Lyv::LilyPondMusic.new key
-    end
-  end
-
-  def music_by_path(file_path)
-    @repo[file_path]
-  end
-
-  def score_by_fial(fial)
-    f = FIAL.parse fial
-    @repo[f.path][f.id].tap do |score|
-      raise "'#{fial}' not found" if score.nil?
-    end
   end
 end
 

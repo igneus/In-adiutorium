@@ -59,4 +59,8 @@ class FIAL
       id == other.id &&
       additional == other.additional
   end
+
+  def simple_copy?
+    additional.empty?
+  end
 end

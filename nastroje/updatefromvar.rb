@@ -18,6 +18,7 @@ require 'optparse'
 
 require 'highline'
 
+require_relative 'lib/music_repository'
 require_relative 'lib/updatefromvar/updater'
 require_relative 'lib/updatefromvar/interactive_filter'
 
@@ -63,7 +64,7 @@ DEV_DIR = 'variationes'
 
 begin
   highline = HighLine.new
-  updater = Updater.new(DEV_DIR, STDOUT)
+  updater = Updater.new(DEV_DIR, STDOUT, MusicRepository.new)
   updater.partial_files = setup[:partial_files]
   updater.compare_music_only = setup[:compare_music_only]
   updater.dry_run = setup[:dry_run]
