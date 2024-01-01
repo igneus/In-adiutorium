@@ -1001,6 +1001,7 @@ doxologieResponsoriumVI = {}
       Inclína cor meum, Deus, * In testimónia tua.
       V. In via tua vivífica me.
     }
+    \cantusid-link "006946"
     (srov. AR1912, s. 23)
   }
 
