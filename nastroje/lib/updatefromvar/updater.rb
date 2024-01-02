@@ -30,14 +30,24 @@ class Updater
     main_src = File.read main_file
     main_music = Lyv::LilyPondMusic.new main_src
 
-    update_simple_copies(main_file, main_src, main_music)
-    update_from_development(main_file, main_src, main_music)
+    # note: main_src is modified by the methods
+    changes =
+      update_simple_copies(main_file, main_src, main_music) +
+      update_from_development(main_file, main_src, main_music)
+
+    if changes > 0 && !dry_run
+      File.open(main_file, 'w') do |fw|
+        fw.write(main_src)
+      end
+    end
   end
 
+  # updates main_src with scores marked as production versions
+  # from all development files related to main_file
   def update_from_development(main_file, main_src, main_music)
-    development_files(main_file).each do |dev_file|
-      changes = 0
+    changes = 0
 
+    development_files(main_file).each do |dev_file|
       @music_repository.music_by_path(dev_file).scores.each do |score|
         next unless marked_for_production? score
 
@@ -73,27 +83,22 @@ class Updater
             @log.puts
           end
 
-          if @filter_proc.call(production_score, score_text_cleaned)
-            @log.puts "updating ##{score_id}"
-            changes += 1
-
-            main_src.sub!(remove_variable_assignment(production_score.text), score_text_cleaned)
-          end
-        end
-      end
-
-      if changes > 0 && !dry_run
-        File.open(main_file, 'w') do |fw|
-          fw.write(main_src)
+          changes +=
+            do_conditional_update main_src, production_score, score_text_cleaned
         end
       end
 
       @log.puts "Updated #{main_file} from #{dev_file}, #{changes} scores modified"
     end
+
+    changes
   end
 
+  # updates all simple copies in main_src from their respective
+  # source scores
   def update_simple_copies(main_file, main_src, main_music)
     changes = 0
+
     main_music.scores.each do |production_score|
       next unless simple_copy? production_score
 
@@ -101,23 +106,26 @@ class Updater
       next if ChildParentComparison.new(production_score, parent).match?
 
       updated = update_copy production_score, parent
-
-      if @filter_proc.call(production_score, updated.text)
-        score_id = production_score.header['id']
-        @log.puts "updating ##{score_id}"
-        changes += 1
-
-        main_src.sub!(remove_variable_assignment(production_score.text), updated.text)
-      end
-    end
-
-    if changes > 0 && !dry_run
-      File.open(main_file, 'w') do |fw|
-        fw.write(main_src)
-      end
+      changes +=
+        do_conditional_update main_src, production_score, updated.text
     end
 
     @log.puts "Updated simple copies in #{main_file}, #{changes} scores modified"
+
+    changes
+  end
+
+  def do_conditional_update(main_src, production_score, updated_score_text)
+    return 0 unless @filter_proc.call(production_score, updated_score_text)
+
+    score_id = production_score.header['id']
+    @log.puts "updating ##{score_id}"
+    main_src.sub!(
+      remove_variable_assignment(production_score.text),
+      updated_score_text
+    )
+
+    1
   end
 
   def development_files(main_file)
@@ -162,6 +170,11 @@ class Updater
     return lily_src
   end
 
+  # builds a new LilyPondScore by mechanically copying
+  # selected parts of the source score code to the copy score
+  # (simple copies often differ from the source in metadata
+  # and sometimes in lyrics - only music and mode information
+  # are copied)
   def update_copy(copy, source)
     src = copy.text.sub(copy.music, source.music)
     %w(modus differentia).each do |key|
