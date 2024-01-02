@@ -586,7 +586,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g( a) a g \barMaior
     a( c) \mark\sipka d d( e c) a a4.( g) \barMaior
@@ -608,6 +608,38 @@
     differentia = "G"
     psalmus = ""
     fial = "antifony/velikonoce_tyden2_3utery.ly#rch-a1?delsi_text"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Zrušen odkaz na zdrojovou antifonu, protože se mezitím změnila
+  a nezdá se užitečné snažit se její proměnu následovat.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g( a) a g \barMin
+    a( c) d d( e c) a a( g) \barMaior
+    c4 d( c a) a \barMin c b a g( a) g \barMin
+    a a \mark\sipka g f g a a g g \barMaior
+    \mark\sipka a c d d( e) d \barMin
+    c b a g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
+    a k_měs -- tu ži -- vé -- ho Bo -- ha,
+    k_ne -- bes -- ké -- mu Je -- ru -- za -- lé -- mu,
+    ke shro -- máž -- dě -- ní
+    ob -- rov -- ské -- ho množ -- ství an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }

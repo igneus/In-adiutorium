@@ -117,12 +117,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g( a) a g \barMaior
-    a( c) d d( e c) a a4.( g) \barMaior
-    c4 d( c a) a \barMin c b a g( a) g \barMaior
-    a a a a f e d f( g) g \barMax
-    a( c) d c a a \barMin
-    c c c c b a g a a( g) \barFinalis
+    g4 f g( a) a g \barMin
+    a( c) d d( e c) a a( g) \barMaior
+    c4 d( c a) a \barMin c b a g( a) g \barMin
+    a a g f g a a g g \barMaior
+    a c d d( e) d \barMin
+    c b a g a g f g g \barFinalis
   }
   \addlyrics {
     Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
@@ -133,11 +133,9 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "zdrojová antifona se změnila"
-    fial = "antifony/velikonoce_tyden2_3utery.ly#rch-a1?delsi_text"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
