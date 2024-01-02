@@ -180,7 +180,11 @@ class Updater
   # and sometimes in lyrics - only music and mode information
   # are copied)
   def update_copy(copy, source)
-    src = copy.text.sub(copy.music, source.music)
+    src = copy.text.sub(
+      copy.music,
+      indent(source.music, indentation_level(copy.music))
+        .sub(/\A\s*/, '') # don't indent the first line
+    )
     %w(modus differentia).each do |key|
       src.sub!(/(?<=#{key} = ")(.*?)(?=")/, source.header[key])
     end
