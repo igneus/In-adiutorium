@@ -527,7 +527,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "vanoce_narozenipane.ly#bohorodicka-1ne-amag?zacatek=13"
+    fial = "vanoce_narozenipane.ly#bohorodicka-1ne-amag?zacatek=12"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
