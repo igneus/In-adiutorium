@@ -494,7 +494,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       d4 d f e d f( g a4.) a \barMin
@@ -532,6 +532,38 @@
       a g f g a g( f) e \barMin
       f d d d d( f) e c d d \barMaior
       \mark\sipka a' a g f g( a g) g \barMin
+      g g a f e e( f) d d \barMin
+      e c f( e) d \barFinalis
+    }
+    \addlyrics {
+      Ve své ve -- li -- ké lás -- ce
+      pos -- lal nám Bůh své -- ho Sy -- na,
+      a -- by nás o -- svo -- bo -- dil
+      od zá -- ko -- na hří -- chu a smr -- ti;
+      na -- ro -- dil se z_že -- ny
+      a byl pod -- ro -- ben Zá -- ko -- nu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "bohorodicka-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      d4 d f e d f( g a4.) a \barMin
+      a4 a \mark\sipka g a a( c) a g( a) a \barMaior
+      a g f g a g( f) e \barMin
+      f d d d d( f) e c d d \barMaior
+      a'( g) f a( bes) a g( f) g \barMin
       g g a f e e( f) d d \barMin
       e c f( e) d \barFinalis
     }
@@ -716,6 +748,31 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 e f f \mark\sipka e f g( a) a \barMin
+      c c b( a) g( a) a \barMaior
+      a g f g( f d) d \barMin
+      f e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      O -- sla -- vuj -- me Mat -- ku Bo -- ží,
+      Pan -- nu Ma -- ri -- i;
+      klaň -- me se Kris -- tu,
+      je -- jí -- mu Sy -- nu!
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      fial = "sanktoral/1208pmpocatebezposkvrny.ly#invit?zacatek=6&konec=15"
+      id = "bohorodicka-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -778,9 +835,8 @@
   \pageBreak
 
   \markup\justify{
-    Tady překladatelé vzdali překlad (tradiční) antifony
+    Liturgia horarum:
     \italic{Homo natus est in ea, et ipse fundávit eam Altíssimus}
-    a složili novou.
   }
 
   \score {
@@ -789,6 +845,32 @@
       \choralniRezim
       d4 c d( e d) d \barMin
       d c b a b a g g \barMaior
+      f( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup{
+    Zpět k původní verzi s drobnými úpravami
+  }
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 \mark\sipka b d( e d) d \barMin
+      d c b a b a g g \barMin
       f( a) a g g \barFinalis
     }
     \addlyrics {
@@ -830,7 +912,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 \mark\sipka b d( e d) d \barMin
       d \mark\sipka c d c b c( a) a( g) g \barMin
@@ -1028,12 +1110,38 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 d d( a') a \mark\sipka a g a g f g( a g) f \mark\sipka e( f) d( c) c \barMaior
       d d d c d f e d c \barMin
       \mark\sipka f g a g f g f d d
       d( e) c \mark\sipka c( d) d \barFinalis
+    }
+    \addlyrics {
+      Čis -- tá Mat -- ko
+      a po -- žeh -- na -- ná Pan -- no, Ma -- ri -- a,
+      bez po -- ru -- še -- ní jsi po -- ča -- la
+      a bez bo -- les -- ti po -- ro -- di -- la
+      Spa -- si -- te -- le.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "bohorodicka-mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 d d( a') a a g a g f g( a g) f e( f) d( c) c \barMaior
+      d d d c d f e d c \barMin
+      f g a g f g f d d
+      d( e) c \mark\sipka d d \barFinalis
     }
     \addlyrics {
       Čis -- tá Mat -- ko
@@ -1178,6 +1286,91 @@
       c( d) c b( a) g a( g) f( g) g \barMaior
       g g f e d d f g g( a) a \barMaior
       c c \mark\sipka b( c a) \barMin
+      g f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Ra -- to -- lest vy -- ra -- zi -- la
+      z_ko -- ře -- ne Jes -- se,
+      vy -- šla hvěz -- da z_Ja -- ku -- ba:
+      Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
+      Bo -- že náš,
+      te -- be chvá -- lí -- me.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 63"
+      id = "bohorodicka-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) g( f) e g a a g \barMin
+      a( b) c a g( f) g \barMaior
+      \mark\sipka a( c) b c( d) c a( g) f( g) g \barMaior
+      g g f e d d f g g( a) a \barMaior
+      c c b( c a) \barMin
+      g f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Ra -- to -- lest vy -- ra -- zi -- la
+      z_ko -- ře -- ne Jes -- se,
+      vy -- šla hvěz -- da z_Ja -- ku -- ba:
+      Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
+      Bo -- že náš,
+      te -- be chvá -- lí -- me.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 63"
+      id = "bohorodicka-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      g4( a) g( f) e g a a g \barMin
+      a( b) c a g( f) g \barMaior
+      a( c) b c( d) \mark\sipka d c( b) a( g) g \barMaior
+      \mark\sipka a a f e d d f g g( a) a \barMaior
+      c c b( c a) \barMin
+      g f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Ra -- to -- lest vy -- ra -- zi -- la
+      z_ko -- ře -- ne Jes -- se,
+      vy -- šla hvěz -- da z_Ja -- ku -- ba:
+      Pan -- na po -- ro -- di -- la Spa -- si -- te -- le;
+      Bo -- že náš,
+      te -- be chvá -- lí -- me.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 63"
+      id = "bohorodicka-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) g( f) e g a a g \barMin
+      a( b) c a g( f) g \barMaior
+      a( c) b c( d) d c( b) a( g) g \barMaior
+      \mark\sipka a f g a a a g a g g \barMaior
+      c c b( c a) \barMin
       g f g( a) g g \barFinalis
     }
     \addlyrics {
@@ -2055,7 +2248,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 e f e d e( c) c \barMin
       d e f e c d d \barMaior
@@ -2097,6 +2290,39 @@
       d d d d f e c c( d) d \barMaior
 
       \mark\sipka e f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Bla -- ho -- sla -- ve -- ný ži -- vot,
+      kte -- rý tě no -- sil, Kris -- te,
+
+      a bla -- ho -- sla -- ve -- né pr -- sy,
+      kte -- ré ko -- ji -- ly te -- be,
+      Pá -- na a Spa -- si -- te -- le svě -- ta.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "bohorodicka-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 e f e d e( c) c \barMin
+      d e f e c d d \barMaior
+
+      d4 f e d c d d( f) f \barMin
+      f f g f g a( f) e \barMin
+      d d d \mark\sipka f f e c c( d) d \barMaior
+
+      e f d( c) d \barFinalis
     }
     \addlyrics {
       Bla -- ho -- sla -- ve -- ný ži -- vot,

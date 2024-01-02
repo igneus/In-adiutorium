@@ -707,6 +707,9 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 113"
+      placet = "na jednu stranu mám tu antifonu jako celek rád,
+      na druhou se mi ozdoba _Marie_ začíná jevit exotická
+      a textu nepřiměřená"
       id = "svrodiny-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1930,7 +1933,7 @@
       \choralniRezim
       \key f \major
       d4 d f e d f( g a4.) a \barMin
-      a4 a a a a( c) a g( a) a \barMaior
+      a4 a g a a( c) a g( a) a \barMaior
       a g f g a g( f) e \barMin
       f d d d d( f) e c d d \barMaior
       a'( g) f a( bes) a g( f) g \barMin
@@ -2010,8 +2013,8 @@
     \relative c'' {
       \choralniRezim
       d4 b d( e d) d \barMin
-      d c d c b c( a) a( g) g \barMin
-      f g a( g) g \barFinalis
+      d c b a b a g g \barMin
+      f( a) a g g \barFinalis
     }
     \addlyrics {
       Bo -- ží Moud -- rost
@@ -2059,7 +2062,7 @@
       c4 d d( a') a a g a g f g( a g) f e( f) d( c) c \barMaior
       d d d c d f e d c \barMin
       f g a g f g f d d
-      d( e) c c( d) d \barFinalis
+      d( e) c d d \barFinalis
     }
     \addlyrics {
       Čis -- tá Mat -- ko
@@ -2227,9 +2230,9 @@
 
       d4 f e d c d d( f) f \barMin
       f f g f g a( f) e \barMin
-      d d d d f e c c( d) d \barMaior
+      d d d f f e c c( d) d \barMaior
 
-      c f e( d) d \barFinalis
+      e f d( c) d \barFinalis
     }
     \addlyrics {
       Bla -- ho -- sla -- ve -- ný ži -- vot,

@@ -555,6 +555,31 @@
     \choralniRezim
     d4 e f f e f g a a \barMaior
     c d c b a g g a g f g a a \barMax
+    a g f g( f d) d \barMin
+    \mark\sipka d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Pan -- nu Ma -- ri -- i,
+    po -- ča -- tou bez po -- skvr -- ny pr -- vot -- ní -- ho hří -- chu;
+    klaň -- me se Kris -- tu,
+    je -- jí -- mu Sy -- nu!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#invit1?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f f e f g a a \barMaior
+    c d c b a g g a g f g a a \barMax
     a g f \mark\sipka e( f d c) c \barMin
     d f e c( d) d \barFinalis
   }
