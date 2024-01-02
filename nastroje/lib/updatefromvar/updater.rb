@@ -4,6 +4,7 @@ require 'lyv'
 require_relative 'score_comparison'
 require_relative 'development_clean'
 require_relative 'development_files_finder'
+require_relative 'indenter'
 require_relative '../../fial'
 require_relative '../checkcopies/child_parent_comparison'
 
@@ -69,7 +70,7 @@ class Updater
         end
 
         score_text_cleaned = clean_score score.text
-        score_text_cleaned = indent score_text_cleaned, indentation_level(production_score.text)
+        score_text_cleaned = Indenter.indent_to_match score_text_cleaned, production_score.text
 
         if scores_differ?(production_score, score)
           # simple copies are not updated from a development file,
@@ -154,26 +155,6 @@ class Updater
     production_score.lyrics_readable != development_score.lyrics_readable
   end
 
-  # how many spaces is the lilypond score indented?
-  # computed as 'indentation of line 2' - 2 spaces
-  def indentation_level(lily_src)
-    level = lily_src.lines[-1].index(/[^\s]/)
-    level = 0 if level < 0
-    return level
-  end
-
-  # ensures that the lilypond score has the given indentation level
-  def indent(lily_src, level)
-    if indentation_level(lily_src) != level
-      indent_change = (level - indentation_level(lily_src))
-      lily_src = lily_src.lines
-                 .collect {|l| indent_by(indent_change, l) }
-                 .join ''
-    end
-
-    return lily_src
-  end
-
   # builds a new LilyPondScore by mechanically copying
   # selected parts of the source score code to the copy score
   # (simple copies often differ from the source in metadata
@@ -182,7 +163,7 @@ class Updater
   def update_copy(copy, source)
     src = copy.text.sub(
       copy.music,
-      indent(source.music, indentation_level(copy.music))
+      Indenter.indent_to_match(source.music, copy.music)
         .sub(/\A\s*/, '') # don't indent the first line
     )
     %w(modus differentia).each do |key|
@@ -193,19 +174,6 @@ class Updater
   end
 
   private
-
-  def indent_by(num, line)
-    if num > 0 then
-      return (' ' * num) + line
-    elsif num < 0
-      abs_num = num.abs
-      if line[0..(abs_num-1)] =~ /^\s*$/
-        return line[abs_num..-1]
-      end
-    end
-
-    return line
-  end
 
   def comparison_options
     if @compare_music_only

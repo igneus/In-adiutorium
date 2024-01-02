@@ -47,38 +47,6 @@ describe Updater do
     end
   end
 
-  describe '#indentation_level' do
-    it 'works for unindented' do
-      expect(@updater.indentation_level("\\score {\na\n}")).to eq 0
-    end
-
-    it 'works for unindented 2' do
-      # content indented by 2, but the score by 0
-      # content indented by 2, but the score by 0
-      expect(@updater.indentation_level("\\score {\n  a\n}")).to eq 0
-    end
-
-    it 'works for indented' do
-      expect(@updater.indentation_level("\\score {\n    a\n  }")).to eq 2
-    end
-  end
-
-  describe '#indent' do
-    it 'enlarges indentation of subsequent lines (blindly, uniformly) if needed' do
-      s = "\\score {\n  a b\n}"
-      s_indented = "  \\score {\n    a b\n  }"
-      expect(@updater.indentation_level(s)).to eq 0 # just check
-      expect(@updater.indent(s, 2)).to eq s_indented
-    end
-
-    it 'cuts indentation of subsequent lines (blindly, uniformly) if needed' do
-      s = "\\score {\n    a b\n  }"
-      s_unindented = "\\score {\n  a b\n}"
-      expect(@updater.indentation_level(s)).to eq 2 # just check
-      expect(@updater.indent(s, 0)).to eq s_unindented
-    end
-  end
-
   describe '#scores_differ?' do
     it 'considers identical scores same' do
       score = Lyv::LilyPondScore.new "\\score { a b }"
