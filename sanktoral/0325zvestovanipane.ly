@@ -506,12 +506,12 @@
   \relative c' {
     \choralniRezim
     d4 d f e d f( g a4.) a \barMin
-    a4 a a a( c) a g f g( a g) g \barMaior
+    a4 a a a( c) a g f g( a) g \barMaior
     a a a g f f( g) f \barMin
     f d f( e) d( c) c \barMaior
-    d c d f( e) c( d) d \barFinalis
+    d c d e( f d) c( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Ve své ve -- li -- ké lás -- ce

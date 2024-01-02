@@ -2289,7 +2289,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e d f( g a4.) a \barMin
     a4 a a \mark\sipka a( c) a g f g( a g) g \barMaior
@@ -2314,6 +2314,38 @@
     differentia = "D"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#bohorodicka-1ne-amag?zacatek=13"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e d f( g a4.) a \barMin
+    a4 a a a( c) a g f \mark\sipka g( a) g \barMaior
+    a a a g f f( g) f \barMin
+    f d f( e) d( c) c \barMaior
+    d c d \mark\sipka e( f d) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    Ve své ve -- li -- ké lás -- ce
+    po -- slal Bůh na svět své -- ho Sy -- na,
+    a ten se v_čis -- tém tě -- le
+    Pan -- ny Ma -- ri -- e
+    stal pro nás člo -- vě -- kem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#bohorodicka-1ne-amag?zacatek=12"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
