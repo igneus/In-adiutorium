@@ -265,6 +265,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a a \barMin
+    c b a g( a) g \barMaior
+    f g a a a
+    b( c) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    O -- prav -- du,_*
+    ty jsi Bůh skry -- tý,
+    Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Iz 45"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
