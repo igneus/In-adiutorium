@@ -1301,7 +1301,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f d e c d \barMaior
     f g g g a f g f d d \barMin
@@ -1319,6 +1319,37 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
+    differentia = "D"
+    psalmus = ""
+    placet = "tohle je spíš modus II"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Jen modus.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e f d e c d \barMaior
+    f g g g a f g f d d \barMin
+    d e f d c c \barMaior
+    c d d( f) f f g( a g) f d d \barMin
+    d e c c d d \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    U -- vi -- dí -- te ne -- be o -- te -- vře -- né
+    a Bo -- ží an -- dě -- ly
+    vy -- stu -- po -- vat a se -- stu -- po -- vat
+    na Sy -- na člo -- vě -- ka.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "rch-aben"

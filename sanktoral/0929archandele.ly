@@ -263,10 +263,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "tohle je spíš modus II"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
