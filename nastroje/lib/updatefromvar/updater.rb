@@ -27,12 +27,14 @@ class Updater
   attr_accessor :partial_files, :filter_proc, :compare_music_only, :dry_run
 
   def update(main_file)
+    @log.puts "Updating #{main_file}"
+
     main_src = File.read main_file
     main_music = Lyv::LilyPondMusic.new main_src
 
     # note: main_src is modified by the methods
     changes =
-      update_simple_copies(main_file, main_src, main_music) +
+      update_simple_copies(main_src, main_music) +
       update_from_development(main_file, main_src, main_music)
 
     if changes > 0 && !dry_run
@@ -40,6 +42,8 @@ class Updater
         fw.write(main_src)
       end
     end
+
+    @log.puts "Finished updating #{main_file}, total of #{changes} scores modified"
   end
 
   # updates main_src with scores marked as production versions
@@ -88,7 +92,7 @@ class Updater
         end
       end
 
-      @log.puts "Updated #{main_file} from #{dev_file}, #{changes} scores modified"
+      @log.puts "Updated from #{dev_file}, #{changes} scores modified"
     end
 
     changes
@@ -96,7 +100,7 @@ class Updater
 
   # updates all simple copies in main_src from their respective
   # source scores
-  def update_simple_copies(main_file, main_src, main_music)
+  def update_simple_copies(main_src, main_music)
     changes = 0
 
     main_music.scores.each do |production_score|
@@ -110,7 +114,7 @@ class Updater
         do_conditional_update main_src, production_score, updated.text
     end
 
-    @log.puts "Updated simple copies in #{main_file}, #{changes} scores modified"
+    @log.puts "Updated simple copies, #{changes} scores modified"
 
     changes
   end
