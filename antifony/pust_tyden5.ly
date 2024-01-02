@@ -372,8 +372,8 @@
     f g a a g g a g f f \barMaior
     d f f( g) g \barMin
     g f g( a) g f( d) d \barMaior
-    f( g a) a( bes) g g( a) a \barMin
-    g a g f d c( d) d \barFinalis
+    f g( a) f f( g) g \barMin
+    f e c e f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl
@@ -388,7 +388,6 @@
     modus = "I"
     differentia = "g2"
     psalmus = ""
-    placet = "melisma na _Vy_ není moc šťastné"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

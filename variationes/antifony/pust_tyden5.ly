@@ -2200,7 +2200,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a g) g \barMin
     f g a a g g a g f f \barMaior
@@ -2222,6 +2222,7 @@
     modus = "I"
     differentia = "g2"
     psalmus = ""
+    placet = "melisma na _Vy_ není moc šťastné"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2264,6 +2265,35 @@
     g f g( a) g f( d) d \barMaior
     \mark\sipka f g( a) f f( g) g \barMin
     g a g f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha,
+    Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g2"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d f f( g) g \barMin
+    g f g( a) g f( d) d \barMaior
+    f g( a) f f( g) g \barMin
+    \mark\sipka f e c e f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl
@@ -2389,6 +2419,147 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g2"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d f f( g) g \barMin
+    g f g( a) g f( d) d \barMaior
+    \mark\sipka g a g f( g) f \barMin
+    f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha,
+    Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g2"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d f f( g) g \barMin
+    g f g( a) g f( d) d \barMaior
+    \mark\sipka c d f f( g) g \barMin
+    g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha,
+    Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d f f( g) g \barMin
+    g f g( a) g f( d) d \barMaior
+    c d f f( g) g \barMin
+    \mark\sipka a g f g a f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha,
+    Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d f f( g) g \barMin
+    g f g( a) g f( d) d \barMaior
+    c d f \mark\sipka g( a) g \barMin
+    g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha,
+    Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d f f( g) g \barMin
+    g f g( a) g f( d) d \barMaior
+    \mark\sipka f e c d c \barMin
+    d f f g a f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha,
+    Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
