@@ -68,17 +68,17 @@ class Updater
           next
         end
 
-        # simple copies are not updated from a development file,
-        # but directly from the source
-        if simple_copy? production_score
-          @log.puts "##{score_id} has a development version marked for production, but development versions are ignored for simple copies"
-          next
-        end
-
         score_text_cleaned = clean_score score.text
         score_text_cleaned = indent score_text_cleaned, indentation_level(production_score.text)
 
         if scores_differ?(production_score, score)
+          # simple copies are not updated from a development file,
+          # but directly from the source
+          if simple_copy? production_score
+            @log.puts "##{score_id} has a development version marked for production, but development versions are ignored for simple copies"
+            next
+          end
+
           if lyrics_differ?(production_score, score)
             @log.puts
             @log.puts ColorizedString.new("##{score_id}: WARNING: lyrics changed").colorize(color: :magenta, mode: :bold)
