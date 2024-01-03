@@ -1024,6 +1024,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 63"
+      placet = "dlouhá recitace na začátku není moc elegantní; _rok_ špatně nese melisma"
       id = "svrodiny-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1157,6 +1158,7 @@
       differentia = "f"
       psalmus = "Benedictus"
       annus = "B"
+      placet = "nic moc; opravit na oficiální text"
       id = "svrodiny-rch-abenB"
       fial = "sanktoral/0319josef.ly#rch-a2?cast=2,3,4"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
@@ -1790,6 +1792,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 98"
+      placet = "tady daný popěvkovitý nápěv úplně nesedí, půjde lépe"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
     }

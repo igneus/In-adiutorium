@@ -155,6 +155,7 @@
     differentia = "G"
     psalmus = "Dan 3-II"
     fial = "antifony/tyden2_1nedele.ly#rch-ant2?zacatek=12"
+    placet = "nevyvážená, od předlohy spíš oddělit (popř. upravit obě)"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
