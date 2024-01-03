@@ -293,6 +293,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 d e d c( d) \barMin
+    c b a b a g g \barMaior
+    f g a c b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pán Bůh mu dá trůn
+    je -- ho před -- ka Da -- vi -- da,
+    bu -- de kra -- lo -- vat na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a g a c( d a) \barMin
     c b a b g( a) a a \barMaior
     \mark\sipka c d e( c) d( c) a \barMin

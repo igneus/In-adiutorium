@@ -698,6 +698,52 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) \mark\sipka g \barMin
+    g a( bes a) g a a \barMaior
+    f4 g( a) g \barMin
+    a4 a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Kdo  má ne -- vin -- né ru -- ce a čis -- té srd -- ce,
+    vy -- stou -- pí na Hos -- po -- di -- no -- vu ho -- ru.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 24"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) g \barMin
+    g a( bes a) g a a \barMaior
+    f4 g( a) g \barMin
+    \mark\sipka f g a a f e d d \barFinalis
+  }
+  \addlyrics {
+    Kdo  má ne -- vin -- né ru -- ce a čis -- té srd -- ce,
+    vy -- stou -- pí na Hos -- po -- di -- no -- vu ho -- ru.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Žalm 24"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     e4 g a a \barMin
