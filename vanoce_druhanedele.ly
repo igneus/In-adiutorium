@@ -191,7 +191,7 @@
       g( f d) f g g f f \barFinalis
       % V
       \neviditelna f
-      a4 a a a a( bes) g g \barMin g f g( a) g g \barMax
+      a4 a a a g( a) g g \barMin g f g g( a) a( g) \barMax
       % R
       \neviditelna g
       g( f d) f g g f f \barFinalis

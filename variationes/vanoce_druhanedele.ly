@@ -407,6 +407,31 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 c c b g
+    b c a a g g \barMaior
+    f a( c) c \barMin
+    b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám ten,
+    kte -- rý je Věč -- ný,
+    Bůh z_Bo -- ha,
+    Svět -- lo ze Svět -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    id = "ne1-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 f e f d( c) \barMin
@@ -941,6 +966,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -985,6 +1011,42 @@
     % V
     \neviditelna f
     a4 a a a a( bes) g g \barMin g f \mark\sipka g g( a) a( g) \barMax
+    % R
+    \neviditelna g
+    g( f d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+    smi -- luj se nad ná -- mi.
+
+    \Verse Ty, kte -- rý ses na -- ro -- dil z_Pan -- ny Ma -- ri -- e,_*
+    \Response smi -- luj se nad ná -- mi.
+
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fial = "responsoria.ly#1ne-rch?jiny_vers"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f f g( a) a( g) \barMax
+    g( f d) f g g f f \barFinalis
+    % V
+    \neviditelna f
+    a4 a a a \mark\sipka g( a) g g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna g
     g( f d) f g g f f \barFinalis
@@ -1672,6 +1734,26 @@
     \choralniRezim
     a4 a( g f g) f \barMin
     g g bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- slal
+    svou mi -- lost a věr -- nost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 115"
+    id = "ne2-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a
+    a bes a g bes4. a \barFinalis
   }
   \addlyrics {
     Bůh se -- slal
