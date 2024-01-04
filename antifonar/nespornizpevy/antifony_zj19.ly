@@ -10,7 +10,6 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
     f4 f g( a) a \barMin a( g f) g( f) d( f) f4.( e) \barMax
     d4 d \barMin d f f e f d( c) c \barMaior
     c d f f g f g( a) a( g) g \barMin
