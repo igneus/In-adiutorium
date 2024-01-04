@@ -94,12 +94,15 @@ end
 
 desc "Print count of known issues marked in the scores"
 task :issues do
+  verbose(false)
+
   # list files with issues
   sh "grep --count placet #{all_ly_files.join(' ')}" +
      " | grep --invert ':0$'" + # skip files with no issues
      ' | ruby -n -e "printf \"% 3d %s\n\", *\$_.split(?:).reverse"' # put the numbers first
 
   # total count
+  print "\nTotal: "
   sh "grep placet #{all_ly_files.join(' ')} | wc -l"
 end
 
