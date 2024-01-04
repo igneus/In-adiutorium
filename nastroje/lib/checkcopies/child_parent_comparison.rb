@@ -8,7 +8,7 @@ class String
   # Longest shared substring at the beginning of both Strings
   def shared_beginning(other)
     0.upto(size - 1) do |i|
-      unless other.start_with?(self[0..i])
+      if other[i] != self[i]
         return '' if i == 0
         return self[0..i-1]
       end
@@ -20,7 +20,7 @@ class String
   # Longest shared substring at the beginning of both Strings
   def shared_ending(other)
     1.upto(size) do |i|
-      unless other.end_with?(self[-i..-1])
+      if other[-i] != self[-i]
         return '' if i == 1
         return self[-(i-1)..-1]
       end
