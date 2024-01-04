@@ -271,7 +271,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g c c( d) \barMin
     d c( b g) g \mark\sipka a( g) f f g g \barMaior
@@ -289,6 +289,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
+    placet = "_Požehnaný Bůh_ a _vysvobodil_ je divné"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -360,6 +361,31 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 c b c c( d) \barMin
+    d e e d c d( e) e( d) d \barMaior
+    d e d c( d) c \barMin a c b a( g) g \barMin
+    a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- ný Bůh,
+    jenž po -- slal své -- ho an -- dě -- la
+    a vy -- svo -- bo -- dil své slu -- žeb -- ní -- ky,
+    kte -- ří v_něj dů -- vě -- řo -- va -- li.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -613,12 +639,61 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( e) e( d) d \barMin
     \mark\sipka d b( c) a( g) a( g) \barMaior
     a f a c c b \barMin
     c a g f( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e e d
+    c b( c) a( g) g \barMaior
+    a c b c d d \barMin
+    c b a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e e d
+    c b( c) a( g) g \barMaior
+    a \mark\sipka g f g a a \barMin
+    c b a a( b) g g \barFinalis
   }
   \addlyrics {
     Bůh po -- sí -- lá
@@ -642,6 +717,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 d c b c( b a g) g( a) \barMin
     a a d c b c b a g g( a) \barMaior
@@ -658,6 +734,59 @@
     quid = "1. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 34-I"
+    placet = "druhá půlka je nezpěvná,
+    dlouhé melisma a spočinutí hluboko pod finálou je klasický produkt
+    éry brnkání na kytaře - na nástroji to zní pěkně, vkusně zazpívat
+    se to skoro nedá"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c d( c e d) d \barMin
+    d e f e d c d e( c) d d \barMaior
+    d d c a b c a a g \barMin
+    f g( a) a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův an -- děl
+    se u -- tá -- bo -- řil ja -- ko o -- chrán -- ce
+    ko -- lem těch, kdo Hos -- po -- di -- na ctí,
+    a vy -- svo -- bo -- dil je.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 34-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c d( c e d) d \barMin
+    d e f e d c d e( c) d d \barMaior
+    \mark\sipka c c b g b c a a g \barMin
+    f g( a) a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův an -- děl
+    se u -- tá -- bo -- řil ja -- ko o -- chrán -- ce
+    ko -- lem těch, kdo Hos -- po -- di -- na ctí,
+    a vy -- svo -- bo -- dil je.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 34-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
