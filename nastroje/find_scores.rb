@@ -4,6 +4,8 @@ require 'optparse'
 
 require 'lyv'
 
+require_relative 'fial'
+
 verbose = false
 xargs = false
 
@@ -41,6 +43,7 @@ matches_conditions = lambda do |x|
   score = x
   header = x.header
   music = x.music
+  fial = x.header['fial']&.yield_self {|f| FIAL.parse f }
   conditions.all? {|c| eval c }
 end
 
