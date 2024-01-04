@@ -72,8 +72,8 @@
     d4 d c f g f( a) a \barMin
     a a a g f g( a) a g g \barMaior
     a a g a g f e( f d c) c \barMax
-    d c d f f f g( a) g f( g) f f \barMaior
-    g f e( d c) c f e c( d) d \barMaior
+    d c d f f f g( a) g f d d \barMaior
+    f f e( d c) c e f d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -96,10 +96,9 @@
 
 \score {
   \relative c'' {
-    \key f \major
     \choralniRezim
-    a4 a g a a( bes a4.) a \barMin g4 f g( a) g g \barMaior
-    g g g( a) g f e d c \barMin d( f) e d d \barMaior
+    a4 a g a a( c) a \barMin g4 f g( a) g g \barMaior
+    f g a( g) f g f d d \barMin c( f) e d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
