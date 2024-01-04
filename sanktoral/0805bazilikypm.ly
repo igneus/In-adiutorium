@@ -59,7 +59,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    fial = "marianske_antifony.ly#avemaria?cast=2,3"
+    fial = "marianske_antifony.ly#avemaria?cast=2-3"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

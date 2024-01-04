@@ -1160,7 +1160,7 @@
       annus = "B"
       placet = "nic moc; opravit na oficiální text"
       id = "svrodiny-rch-abenB"
-      fial = "sanktoral/0319josef.ly#rch-a2?cast=2,3,4"
+      fial = "sanktoral/0319josef.ly#rch-a2?cast=2-3,4"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }

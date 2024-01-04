@@ -496,7 +496,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    fial = "antifony/pust_nedeleC.ly#ivmag1?cast=1,2,3"
+    fial = "antifony/pust_nedeleC.ly#ivmag1?cast=1-3"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

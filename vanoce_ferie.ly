@@ -263,7 +263,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/pust_nedeleC.ly#iimag2?cast=2,3&konec=6"
+    fial = "antifony/pust_nedeleC.ly#iimag2?cast=2-3&konec=6"
     id = "6amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

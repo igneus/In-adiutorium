@@ -168,7 +168,7 @@
     quid = "resp."
     modus = "VI"
     placet = "bída"
-    fial = "commune/commune_apostol.ly#1ne-resp?zacatek=22&konec=17&cast=7,8,9,10"
+    fial = "commune/commune_apostol.ly#1ne-resp?zacatek=22&konec=17&cast=7-10"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -386,7 +386,7 @@
     psalmus = "Žalm 63"
     id = "rch-a1"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
-    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast=1,2,3,4"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast=1-4"
     piece = \markup {\sestavTitulek}
   }
 }

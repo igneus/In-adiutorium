@@ -345,7 +345,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "commune/commune_maria.ly#tercie?cast=1,2,4"
+    fial = "commune/commune_maria.ly#tercie?cast=1-2,4"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
