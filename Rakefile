@@ -115,7 +115,8 @@ namespace :sanity do
   task :known_issues do
     # list files with issues
     sh "grep --count placet #{all_ly_files.join(' ')}" +
-       " | grep --invert ':0$'" # skip files with no issues
+       " | grep --invert ':0$'" + # skip files with no issues
+       ' | ruby -n -e "printf \"% 3d %s\n\", *\$_.split(?:).reverse"' # put the numbers first
 
     # total count
     sh "grep placet #{all_ly_files.join(' ')} | wc -l"
@@ -145,7 +146,7 @@ namespace :sanity do
   end
 
   desc 'Report scores with b flat in key signature, but no b flat in music'
-  task :bflat_unused do
+  task :bflat do
     sh 'bash', 'nastroje/bflat_unused.sh', *all_ly_files
   end
 
