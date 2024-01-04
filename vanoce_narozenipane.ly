@@ -1803,9 +1803,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 d d d d f e d( e) d \barMin
+      c4 c c c c d c e( d) d \barMin
       c d c c( b) a( g) g \barMaior
-      a c a b( c) b a g g \barMax
+      a c a b( c) a a g g \barMax
       c4( d) d f e d e c( d) d \barMaior
       d c b a b c b g \barMin
       a a f e f g g g \barMaior

@@ -3073,7 +3073,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 d d d d f e d( e) d \barMin
       \mark\sipka c d c c( b) a( g) g \barMaior
@@ -3096,6 +3096,7 @@
       modus = "VII"
       differentia = "c"
       psalmus = "Benedictus"
+      placet = "začátek sekundovým krokem do dlouhé recitace nic moc"
       id = "31-aben"
       fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?konec=34"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -3158,6 +3159,67 @@
       psalmus = "Benedictus"
       id = "31-aben"
       fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?konec=33"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka a4 g a c c d c e( d) d \barMin
+      c d c c( b) a( g) g \barMaior
+      a c a b( c) a a g g \barMax
+      c4( d) d f e d e c( d) d \barMaior
+      d c b a b c b g \barMin
+      a a f e f g g g \barMaior
+      a a g( a) g \barFinalis
+    }
+    \addlyrics {
+      S_an -- dě -- lem by -- lo ce -- lé množ -- ství
+      ne -- bes -- kých zá -- stu -- pů
+      a tak -- to chvá -- li -- li Bo -- ha:
+      Slá -- va na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Benedictus"
+      id = "31-aben"
+      fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?konec=34"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \mark\sipka c4 c c c c d c e( d) d \barMin
+      c d c c( b) a( g) g \barMaior
+      a c a b( c) a a g g \barMax
+      c4( d) d f e d e c( d) d \barMaior
+      d c b a b c b g \barMin
+      a a f e f g g g \barMaior
+      a a g( a) g \barFinalis
+    }
+    \addlyrics {
+      S_an -- dě -- lem by -- lo ce -- lé množ -- ství
+      ne -- bes -- kých zá -- stu -- pů
+      a tak -- to chvá -- li -- li Bo -- ha:
+      Slá -- va na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Benedictus"
+      id = "31-aben"
+      fial = "fial://vanoce_narozenipane.ly#vden-rch-aben?konec=34"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
