@@ -1347,7 +1347,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d4.( f4 g) a g a a \barMaior
     a( c) a g f g( f) d d \barMaior
@@ -1370,6 +1370,37 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     id = "rch-a1"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
     fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d4.( f4 g) a g a a \barMaior
+    a( c) a g f g( f) d d \barMin
+    d c d f( g f) \barMin g( f) e f d \barFinalis
+
+    e4^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    To je mé při -- ká -- zá -- ní:
+    Mi -- luj -- te se na -- vzá -- jem,
+    ja -- ko jsem já mi -- lo -- val vás.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast=1-4"
     piece = \markup {\sestavTitulek}
   }
 }

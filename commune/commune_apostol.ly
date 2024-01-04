@@ -367,7 +367,7 @@
   \relative c' {
     \choralniRezim
     d4 d d4.( f4 g) a g a a \barMaior
-    a( c) a g f g( f) d d \barMaior
+    a( c) a g f g( f) d d \barMin
     d c d f( g f) \barMin g( f) e f d \barFinalis
 
     e4^\markup\rubrVelikAleluja f d d \barFinalis
