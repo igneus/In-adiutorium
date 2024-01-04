@@ -156,12 +156,23 @@ namespace :sanity do
   task :divisiones do
     sh 'bash', 'nastroje/divisiones_gap.sh', *all_ly_files
   end
-
-  task :all => [:length]
 end
 
 desc "All sanity checks"
-task :sanity => 'sanity:all'
+task :sanity do
+  checks =
+    Rake::Task
+      .tasks
+      .select {|t| t.name.start_with? 'sanity:' }
+  failed = checks.select do |t|
+    t.execute
+    false
+  rescue
+    true
+  end
+
+  puts "#{failed.size} checks failed #{failed.collect(&:name).inspect}"
+end
 
 desc 'Run all specs of project tools'
 task :spec do
