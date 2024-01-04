@@ -90,6 +90,19 @@ task :fial_keys do
   ruby 'nastroje/fial_keys.rb', *all_ly_files
 end
 
+
+
+desc "Print count of known issues marked in the scores"
+task :issues do
+  # list files with issues
+  sh "grep --count placet #{all_ly_files.join(' ')}" +
+     " | grep --invert ':0$'" + # skip files with no issues
+     ' | ruby -n -e "printf \"% 3d %s\n\", *\$_.split(?:).reverse"' # put the numbers first
+
+  # total count
+  sh "grep placet #{all_ly_files.join(' ')} | wc -l"
+end
+
 #
 # sanity checks
 #
@@ -109,17 +122,6 @@ namespace :sanity do
       sh "#{LYV_CMD} lengthcheck #{files.join ' '} "+\
       "| grep -v resp | grep -v -- '-r'" # leave out responsories
     end
-  end
-
-  desc "Print count of known issues marked in the scores"
-  task :known_issues do
-    # list files with issues
-    sh "grep --count placet #{all_ly_files.join(' ')}" +
-       " | grep --invert ':0$'" + # skip files with no issues
-       ' | ruby -n -e "printf \"% 3d %s\n\", *\$_.split(?:).reverse"' # put the numbers first
-
-    # total count
-    sh "grep placet #{all_ly_files.join(' ')} | wc -l"
   end
 
   desc "Search for scores missing an ID"
