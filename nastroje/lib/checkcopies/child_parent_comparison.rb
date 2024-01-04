@@ -3,6 +3,7 @@ require 'logger'
 require 'lyv'
 
 require_relative '../../fial'
+require_relative 'music_sections'
 
 class String
   # Longest shared substring at the beginning of both Strings
@@ -75,9 +76,12 @@ class ChildParentComparison
     if @fial.additional.has_key?('cast')
       parts = @fial.additional['cast']
       if parts
-        child_sections = strip_wrappers(normalized_child).split(/\\bar\w+/)
-        return false unless parts.split(',').all? do |i|
-          normalized_parent.include? child_sections[i.to_i - 1]
+        child_sections =
+          MusicSections
+            .new(strip_wrappers(normalized_child))[parts]
+            .yield_self {|x| x.is_a?(Array) ? x : [x] }
+        return false unless child_sections.all? do |i|
+          normalized_parent.include? i
         end
       else
         return false unless normalized_parent.include? strip_wrappers(normalized_child)

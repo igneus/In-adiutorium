@@ -204,7 +204,7 @@ describe ChildParentComparison do
       end
     end
 
-    describe 'with argument - specified section(s) of child melody is (are) part of parent' do
+    describe 'with argument - specified sections of child melody are part of parent' do
       it 'section 1 match' do
         fial = 'parent_path#id?cast=1'
         expect(
@@ -285,6 +285,38 @@ describe ChildParentComparison do
           described_class.new(
             score(music: 'a b \barMin c d \barFinalis', fial: fial),
             score(music: 'a b g g')
+          )
+        ).not_to be_match
+      end
+    end
+
+    describe 'section range' do
+      it 'all match' do
+        fial = 'parent_path#id?cast=1-2'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barMin e f \barFinalis', fial: fial),
+            score(music: 'a b \barMin c d')
+          )
+        ).to be_match
+      end
+
+      it 'within-range divisio difference' do
+        fial = 'parent_path#id?cast=1-2'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barMin e f \barFinalis', fial: fial),
+            score(music: 'a b \barMaior c d')
+          )
+        ).not_to be_match
+      end
+
+      it 'note difference' do
+        fial = 'parent_path#id?cast=1-2'
+        expect(
+          described_class.new(
+            score(music: 'a b \barMin c d \barMin e f \barFinalis', fial: fial),
+            score(music: 'a b \barMin c')
           )
         ).not_to be_match
       end
