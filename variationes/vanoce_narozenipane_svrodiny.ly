@@ -551,7 +551,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 a g f e f d d \barMaior
       f f g( a) \mark\sipka a a bes g g( a) a \barMin
@@ -566,6 +566,31 @@
       quid = "ant. k Magnificat"
       modus = "I"
       differentia = "f"
+      psalmus = ""
+      annus = "A"
+      placet = "skok na _Anděl_ je neobvyklý a drsný"
+      id = "svrodiny-1ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \mark\sipka a4 a g f e f d d \barMaior
+      f \mark\sipka g g( a) a a bes g g( a) a \barMin
+      f g f e f d d \barFinalis
+    }
+    \addlyrics {
+      An -- děl ře -- kl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a u -- teč do E -- gyp -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
       psalmus = ""
       annus = "A"
       id = "svrodiny-1ne-amagA"
@@ -2575,7 +2600,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -2586,6 +2611,112 @@
       \neviditelna f
       a4 a a a g( a) g \barMin
       g a g g f g g( a) a \barMax
+      % R
+      \neviditelna g
+      g( f d) f g g f f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+      \Verse Ty, kte -- rýs byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi,_*
+      \Response smi -- luj se nad ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+      id = "svrodiny-rch-resp"
+      fial = "fial://responsoria.ly#1ne-rch?jiny_vers"
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a g( a) g \barMin
+      g a g g f g g( a) \mark\sipka a( g) \barMax
+      % R
+      \neviditelna g
+      g( f d) f g g f f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+      \Verse Ty, kte -- rýs byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi,_*
+      \Response smi -- luj se nad ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+      id = "svrodiny-rch-resp"
+      fial = "fial://responsoria.ly#1ne-rch?jiny_vers"
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a g( a) g \barMin
+      g a g \mark\sipka f g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g( f d) f g g f f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+      smi -- luj se nad ná -- mi.
+      \Verse Ty, kte -- rýs byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi,_*
+      \Response smi -- luj se nad ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+      id = "svrodiny-rch-resp"
+      fial = "fial://responsoria.ly#1ne-rch?jiny_vers"
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f g f f g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a a g( a) g \barMin
+      \mark\sipka a g g g f g g( a) a( g) \barMax
       % R
       \neviditelna g
       g( f d) f g g f f \barFinalis

@@ -805,10 +805,10 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      f4 a g f e f d d \barMaior
-      f f g( a) a a bes g g( a) a \barMin
+      a4 a g f e f d d \barMaior
+      f g g( a) a a bes g g( a) a \barMin
       f g f e f d d \barFinalis
     }
     \addlyrics {
@@ -819,7 +819,7 @@
     \header {
       quid = "ant. k Magnificat"
       modus = "I"
-      differentia = "f"
+      differentia = "a"
       psalmus = ""
       annus = "A"
       id = "svrodiny-1ne-amagA"
@@ -1086,7 +1086,7 @@
       % V
       \neviditelna f
       a4 a a a g( a) g \barMin
-      g a g g f g g( a) a \barMax
+      g a g g f g g( a) a( g) \barMax
       % R
       \neviditelna g
       g( f d) f g g f f \barFinalis
