@@ -141,6 +141,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "nevím"
     id = "4aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
