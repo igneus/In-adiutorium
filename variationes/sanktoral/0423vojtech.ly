@@ -250,7 +250,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c( a) a \barMin a g( a) g f f( g) f g( a) a \barMaior
     a( d) c a( g f d) d \barMin d( f e) f g( a bes a) g4.( a) \barMaior
@@ -273,13 +273,74 @@
   }
 }
 
+\markup\justify{
+  V r. 2017 jsem k této antifoně udělal poznámku, že má možná zbytečně
+  velký rozsah. Nyní však mám za to, že charakter melodie (i textu, který
+  je v ní vyzpíván) oktávový rozsah ospravedlňuje, že je antifona
+  jako celek pěkná a pokusy o nivelisaci by jí ublížily.
+}
+\markup\justify{
+  Kdyby se přeci měla udělat přístupnější lidovému zpěvu, bylo by žádoucí
+  obejít se především bez (v modu I značně exotické) ozdoby na _svatá_,
+  což by si ovšem skoro určitě vyžádalo výraznější přepracování
+  nebo úplně novou melodii.
+}
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 b c( a) a \barMin a g( a) g f f( g) f g( a) a \barMaior
     a( d) c a( g f d) d \barMin d( f e) f g( a bes a) g4.( a) \barMaior
     \mark\sipka a4( g f) e( f) d c d d \barMin
     \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tě -- lo pad -- lo a při -- mklo se k_mat -- ce ze -- mi,
+    sva -- tá du -- še šťast -- ně ve -- šla
+    do ří -- še ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c( a) a \barMin a g( a) g f f( g) f g( a) a \barMaior
+    a( d) c a( g f d) d \barMin d( f e) f g( a bes a) g( a) \barMaior
+    a4( g f) e( f) d c d d \barMin
+    e f \mark\sipka d d \barFinalis
+  }
+  \addlyrics {
+    Tě -- lo pad -- lo a při -- mklo se k_mat -- ce ze -- mi,
+    sva -- tá du -- še šťast -- ně ve -- šla
+    do ří -- še ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c( a) a \barMin a g( a) g f f( g) f g( a) a \barMaior
+    a( d) c a( g f d) d \barMin d( f e) f g( a bes a) g( a) \barMaior
+    a4( g f) e( f) d c d d \barMin
+    \mark\sipka c f e( c) d \barFinalis
   }
   \addlyrics {
     Tě -- lo pad -- lo a při -- mklo se k_mat -- ce ze -- mi,

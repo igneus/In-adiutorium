@@ -44,8 +44,8 @@
     \choralniRezim
     a4 b c( a) a \barMin a g( a) g f f( g) f g( a) a \barMaior
     a( d) c a( g f d) d \barMin d( f e) f g( a bes a) g4.( a) \barMaior
-    g4( f e) e( f) d c d d \barMin
-    c d e( d) d \barFinalis
+    a4( g f) e( f) d c d d \barMin
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Tě -- lo pad -- lo a při -- mklo se k_mat -- ce ze -- mi,
@@ -58,7 +58,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "zbytečně velký rozsah?"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
