@@ -42,9 +42,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a) a \barMin
-    g f g( a) a \barMaior
-    c c c b( c a) a \barMin
+    g4 f d f( g) g \barMin
+    a a g( a) g \barMaior
+    a c c b( c a) a \barMin
     c c c b a g g f a g g \barFinalis
   }
   \addlyrics {
@@ -58,7 +58,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "mdlá"
     id = "2amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -228,7 +227,7 @@
     \choralniRezim
     g4 a a( c) c \barMin
     d( e) d \barMaior
-    d d c b a( g) a \barMin
+    c d c b a( g) a \barMin
     f g a( c) b g a \barFinalis
   }
   \addlyrics {
@@ -250,7 +249,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g( f e) f d \barMaior
+    a4 g f g( f e) f d \barMaior
     d d d( f g) \barMin f g a f g \barMaior
     f d d f e c( d) d \barFinalis
   }

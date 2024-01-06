@@ -301,7 +301,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( a) a \barMin
     g f g( a) a \barMaior
@@ -319,6 +319,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "mdlá"
     id = "2amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -398,7 +399,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     g4 \mark\sipka f d f( g) g \barMin
     a a g( a) g \barMaior
@@ -1596,11 +1597,36 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) c \barMin
     d( e) d \barMaior
     d d c b \mark\sipka a( g) a \barMin
+    f g a( c) b g a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus,
+    náš Pán,
+    je ten, kte -- rý při -- šel
+    skr -- ze vo -- du a krev.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "6aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d( e) d \barMaior
+    \mark\sipka c d c b a( g) a \barMin
     f g a( c) b g a \barFinalis
   }
   \addlyrics {
@@ -1649,7 +1675,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g( f e) f d \barMaior
     d d d( f g) \barMin f g a f g \barMaior
@@ -1689,6 +1715,30 @@
     differentia = "f"
     psalmus = ""
     fial = "antifony/pust_nedeleC.ly#iimag2?cast=2,3&konec=6"
+    id = "6amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 g f g( f e) f d \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Z_ne -- be se o -- zval hlas:
+    Ty jsi můj mi -- lo -- va -- ný Syn,
+    v_to -- bě mám za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/pust_nedeleC.ly#iimag2?cast=2-3&konec=6"
     id = "6amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
