@@ -170,12 +170,10 @@
 \markup\nadpisDen{3. neděle postní}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a b( c) c \barMaior
-    % d e d c b a g a c b a( b) a a \barFinalis
-    d( e d) c( d) d( a) a \barMin
-    a( g) f g a c b a( b) a a \barFinalis
+    f4 g g( a) a \barMin
+    g f g( a) g \barMin f g f e f d c d d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
@@ -183,10 +181,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
-    placet = "lépe"
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
