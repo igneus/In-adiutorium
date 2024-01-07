@@ -338,12 +338,13 @@
   }
   \header {
     textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
-    a Hospodinova velebnost zazáří nad tebou
+    a Hospodinova velebnost září nad tebou
     a národy budou kráčet v tvém světle. Aleluja."
     quid = "3. ant."
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 149"
+    placet = "ten (nezamýšlený) posun _září_ vs. _zazáří_ je významný"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -1508,6 +1509,9 @@
       \textRespDoxologie
     }
     \header {
+      textus_approbatus = "Bůh ustanovil svého Syna prostředníkem smlouvy lidu a světlem národů, *
+      a vložil na něj svého Ducha.
+      V. Poslal ho, aby přinesl chudým radostnou zvěst, *"
       quid = "resp."
       modus = "VI"
       id = "krtu-2ne-resp"
