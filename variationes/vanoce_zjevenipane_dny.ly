@@ -1019,11 +1019,56 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d f e d e c d d \barMin
       f( g) a a( g) g \barMaior
       a a g f e( f d) d e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Ti, kte -- ří te -- bou po -- hr -- da -- li,
+      při -- jdou k_to -- bě
+      a bu -- dou se ko -- řit u tvých no -- hou.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "11-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d f e d e c d d \barMin
+      f( g) a a( g) g \barMaior
+      a a g f e( f d) d \mark\sipka d( e) c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Ti, kte -- ří te -- bou po -- hr -- da -- li,
+      při -- jdou k_to -- bě
+      a bu -- dou se ko -- řit u tvých no -- hou.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "11-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 \mark\sipka f f e d e c d d \barMin
+      f( g) a a( g) g \barMaior
+      \mark\sipka g a g f e( f d) d e c c( d) d \barFinalis
     }
     \addlyrics {
       Ti, kte -- ří te -- bou po -- hr -- da -- li,

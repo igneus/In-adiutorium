@@ -852,7 +852,7 @@
       \choralniRezim
       d4 d f e d e c d d \barMin
       f( g) a a( g) g \barMaior
-      a a g f e( f d) d e c c( d) d \barFinalis
+      a a g f e( f d) d d( e) c c( d) d \barFinalis
     }
     \addlyrics {
       Ti, kte -- ří te -- bou po -- hr -- da -- li,
