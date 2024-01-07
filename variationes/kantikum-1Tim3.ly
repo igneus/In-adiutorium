@@ -238,6 +238,11 @@ mRespVIII = \relative c'' { \neviditelna c b4 c d4. c \barMin b4 c a g g \barFin
 }
 
 \score {
+  \relative c'' { \choralniRezim \neviditelna c c4 c c( d) c \barMin b c a g g \barFinalis }
+  \addlyrics { \tResp }
+}
+
+\score {
   \relative c'' { \choralniRezim \neviditelna c c4 c c c c c \mark\sipka d d c c \barMaior }
   \addlyrics { \Verse On při -- šel v_lid -- ské při -- ro -- ze -- nos -- ti,_* }
 }

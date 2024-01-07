@@ -1258,6 +1258,26 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d \barMin f d d \mark\sipka e f d c( d) d \barMaior
+    c d c b( g a) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
+    on je Král krá -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
