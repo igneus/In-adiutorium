@@ -90,6 +90,44 @@
       f e d f e d e c c \barMax
 
       d d d c a c d d d \barMaior
+      d f f e f d d e c c( d) d \barMax
+
+      c d f e f g f( d) d \barMaior
+      f d d f e d c c \barMaior
+      c a( c d) d d( f) e \mark\sipka d c
+
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Od vý -- cho -- du při -- šli do Bet -- lé -- ma mu -- dr -- ci,
+      a -- by se po -- klo -- ni -- li Pá -- nu;
+
+      o -- te -- vře -- li své po -- klad -- ni -- ce
+      a o -- bě -- to -- va -- li mu vzác -- né da -- ry:
+
+      zla -- to ve -- li -- ké -- mu Krá -- li,
+      ka -- did -- lo pra -- vé -- mu Bo -- hu
+      a myr -- hu k_je -- ho po -- hřbu.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "7-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 c c( d) d \barMin f e f g f e d d d \barMaior
+      f e d f e d e c c \barMax
+
+      d d d c a c d d d \barMaior
       d f f e f d d e c \mark\sipka d( e d) d \barMax
 
       c d f e f g f( d) d \barMaior
@@ -551,6 +589,30 @@
       quid = "ant. k Benedictus"
       modus = "I"
       differentia = "f"
+      psalmus = ""
+      id = "9-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g g a a \barMin
+      a a \mark\sipka g f e f d( c) c \barMaior
+      d d d c d f e( d) c \barMin
+      f g a g f f \barFinalis
+    }
+    \addlyrics {
+      U -- vi -- dě -- li jsme
+      na vý -- cho -- dě je -- ho hvěz -- du,
+      a pro -- to jsme při -- šli s_da -- ry
+      po -- klo -- nit se Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F"
       psalmus = ""
       id = "9-aben"
       piece = \markup {\sestavTitulekBezZalmu}

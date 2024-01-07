@@ -1838,6 +1838,40 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\markup\justify{
+  (Pokus o opravu opisovačské chyby září-zazáří jen s minimálními
+  nezbytnými zásahy do melodie.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
+    a a a g f g( a) g g \mark\sipka \barMin g( f) e d( e) d d \barMaior
+    d c( d) d( f) f \barMin
+    f f g f e d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost září nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
