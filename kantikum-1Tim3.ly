@@ -198,6 +198,7 @@ mRespVIII = \relative c'' { \neviditelna c b4 c d4. c \barMin b4 c a g g \barFin
     quid = "kantikum"
     modus = "VIII"
     differentia = "c"
+    placet = "responsum se po antifoně těžko a nepěkně začíná"
     id = "viii-c"
     piece = \markup\sestavTitulekBezZalmu
   }
