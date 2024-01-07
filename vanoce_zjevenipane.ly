@@ -710,6 +710,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
+      placet = "chabá - zvlášť první dvě třetiny moc nedrží pohromadě a nemají spád"
       id = "8-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -736,6 +737,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
+      placet = "druhou půlku lépe"
       id = "8-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -762,6 +764,7 @@
       modus = "I"
       differentia = "f"
       psalmus = ""
+      placet = "půjde lépe"
       id = "9-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -786,6 +789,9 @@
       modus = "I"
       differentia = "D"
       psalmus = ""
+      placet = "zvlášť ta první dvě dlouhá melismata moc nesedí,
+      je to takové to podtrhávání nebo ilustrování slov bez ohledu
+      na rytmus celku"
       id = "9-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -833,6 +839,7 @@
       modus = "VII"
       differentia = "c"
       psalmus = ""
+      placet = "lépe"
       id = "10-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -877,6 +884,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "nevím"
       id = "11-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1038,6 +1046,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
+      placet = "závěr nic moc"
       id = "krtu-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1066,6 +1075,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
+      placet = "nic moc"
       id = "krtu-invit"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1197,6 +1207,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = "Žalm 63"
+      placet = "zejm. _holubice_ drhne"
       id = "krtu-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1261,6 +1272,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 149"
+      placet = "mdlá"
       id = "krtu-rch-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -1544,6 +1556,7 @@
       modus = "VII"
       differentia = "c"
       psalmus = "Magnificat"
+      placet = "závěr je chcíplý"
       id = "krtu-2ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
