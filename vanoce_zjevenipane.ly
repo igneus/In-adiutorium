@@ -1108,7 +1108,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4( d) d \barMin
+      g4( c) c \barMin
       d c b c a g \barMin
       a a f a g g \barFinalis
     }
@@ -1119,8 +1119,8 @@
     }
     \header {
       quid = "2. ant."
-      modus = "VII"
-      differentia = "a"
+      modus = "VIII"
+      differentia = "G"
       psalmus = "Žalm 66-I"
       id = "krtu-mc-a2"
       piece = \markup {\sestavTitulek}
@@ -1367,11 +1367,11 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      g4 g a f a c b \barMaior
-      c c( d c) c \barMin c c c a c b a g \barMin
-      f a g g \barFinalis
+      d4 d f e d c c \barMaior
+      f g( a) a \barMin a a a g f g f d \barMin
+      c( f) e d d \barFinalis
     }
     \addlyrics {
       Je -- žíš ře -- kl Ja -- no -- vi:
@@ -1380,8 +1380,8 @@
     }
     \header {
       quid = "ant. v poledne"
-      modus = "VIII"
-      differentia = "G"
+      modus = "I"
+      differentia = "D"
       psalmus = ""
       id = "krtu-sexta"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -1391,7 +1391,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4 f e d( f) e e \barMax
+      e4 f e d e e \barMax
       e g( a) a \barMin
       a g a( b) a g g( a) a \barMin
       g f a g f( e) e \barMaior
@@ -1444,10 +1444,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      c4 d d( f) d d \barMin
+      c4 d e( f) d d \barMin
       f e d c( d) c c f( g) a a( g) g \barMaior
-      g f g g( a g f) e( d) \barMin
-      e( f) d c( d) d \barFinalis
+      a g f e( f d c) c \barMin
+      d( f) e c( d) d \barFinalis
     }
     \addlyrics {
       V_ře -- ce Jor -- dá -- nu
@@ -1468,9 +1468,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 a( c) c \barMin c b c c( d) c4. b4 a c( b) a( g) g \barMax
+      g4 a( c) c \barMin c c c c( d) c4. b4 a c( b) a( g) g \barMax
       g g a f g g( a) a \barMaior
-      a b( c) a a \barMin
+      c b( c) a a \barMin
       c d c b g a g f( g) g \barFinalis
     }
     \addlyrics {
@@ -1495,8 +1495,8 @@
 
       % R
       \neviditelna f
-      f4 f f f f f f g f \barMin
-      f f f f f( g) f f g f g a a( g) \barMax
+      f4 f f f f f f g f \barMaior
+      f f f f f f g f \barMin f g f g a a( g) \barMax
       g g a g( f d) d f g g( f) f \barFinalis
       % V
       \neviditelna a
@@ -1511,7 +1511,7 @@
     }
     \addlyrics {
       \Response Bůh u -- sta -- no -- vil své -- ho Sy -- na
-      pro -- střed -- ní -- kem smlou -- vy a svět -- lem ná -- ro -- dů,_*
+      pro -- střed -- ní -- kem smlou -- vy li -- du a svět -- lem ná -- ro -- dů,_
       a vlo -- žil na něj své -- ho Du -- cha.
       \Verse Po -- slal ho,
       a -- by při -- ne -- sl chu -- dým
@@ -1521,9 +1521,6 @@
       \textRespDoxologie
     }
     \header {
-      textus_approbatus = "Bůh ustanovil svého Syna prostředníkem smlouvy lidu a světlem národů, *
-      a vložil na něj svého Ducha.
-      V. Poslal ho, aby přinesl chudým radostnou zvěst, *"
       quid = "resp."
       modus = "VI"
       id = "krtu-2ne-resp"
