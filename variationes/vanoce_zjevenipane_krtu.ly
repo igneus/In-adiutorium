@@ -1945,6 +1945,58 @@
   \score {
     \relative c'' {
       \choralniRezim
+      \mark\sipka c4 a
+      a c b a( g) g \barMin
+      a g f g a a g g \barMaior
+      \mark\sipka f g a c b c( d) c b a a \barMaior
+      c b( a g) g a( g) f a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- že,
+      náš Spa -- si -- te -- li,
+      všich -- ni tě o -- sla -- vu -- je -- me,
+      ne -- boť ty Du -- chem sva -- tým a oh -- něm
+      v_nás ni -- číš ná -- ka -- zu hří -- chu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 149"
+      id = "krtu-rch-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 \mark\sipka c
+      a c b a( g) g \barMin
+      a g f g a a g g \barMaior
+      f g a c b c( d) c b a a \barMaior
+      c \mark\sipka a( g) a4.( g) a4( g) f a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- že,
+      náš Spa -- si -- te -- li,
+      všich -- ni tě o -- sla -- vu -- je -- me,
+      ne -- boť ty Du -- chem sva -- tým a oh -- něm
+      v_nás ni -- číš ná -- ka -- zu hří -- chu.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 149"
+      id = "krtu-rch-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       d4 d \barMin
       d c b c( d) d \barMin
       e d c d e e d d \barMaior
