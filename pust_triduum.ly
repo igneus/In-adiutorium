@@ -532,7 +532,7 @@
     d4( f d) d \barMin
     g( f g a g) f e f( g a) a \barMin
     a g bes a( g a4.) a \barMaior
-    a4 a g f g f e f d( c d) d \barFinalis
+    a4 a g f e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me,_*
@@ -545,7 +545,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "melisma na _pohřben_ nejde moc do pusy"
     id = "so-invit"
     fons = "První část je z antifony invitatoria Velkého pátku."
     fial = "pust_triduum.ly#pa-invit?zacatek=17"

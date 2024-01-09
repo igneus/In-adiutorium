@@ -486,6 +486,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( f d) d \barMin
+    g( f g a g) f e f( g a) a \barMin \mark\sipka a bes g g( a) a \barMaior
+    g f g( a) g g( f d) e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu, Bo -- ží -- mu Sy -- nu;
+    on nás vy -- kou -- pil svou kr -- ví.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4( f) f \barMin
     d( f) f f f( g) g \barMin g f e d( e d) d \barMaior
     c d f f e c c( d) d \barFinalis
@@ -3076,12 +3098,40 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f d) d \barMin
     g( f g a g) f e f( g a) a \barMin
     a g bes a( g a4.) a \barMaior
     a4 a g f \mark\sipka g f e f d( c d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,_*
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on byl pro nás u -- mu -- čen a po -- hřben.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    placet = "melisma na _pohřben_ nejde moc do pusy"
+    id = "so-invit"
+    fons = "První část je z antifony invitatoria Velkého pátku."
+    fial = "pust_triduum.ly#pa-invit?zacatek=17"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f d) d \barMin
+    g( f g a g) f e f( g a) a \barMin
+    a g bes a( g a4.) a \barMaior
+    a4 a g f \mark\sipka e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me,_*
