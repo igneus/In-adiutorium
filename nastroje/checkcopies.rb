@@ -95,6 +95,14 @@ def debug_comparison(comparison)
   puts
 end
 
+def each_fial(score)
+  return to_enum(__method__, score) unless block_given?
+
+  score.header.each_pair do |key, val|
+    yield val if key.start_with? 'fial'
+  end
+end
+
 
 
 parser = OptionParser.new do |opts|
@@ -133,12 +141,13 @@ diff_text = (options[:'diff-full-score'] ? :text : :music).to_proc
 arguments.each do |file_or_fial|
   Reference.new(file_or_fial, music_repository)
     .each_score
-    .select {|score| score.header['fial'] && to_be_checked.(score.header['fial']) }
-    .each do |score|
+    .flat_map {|score| each_fial(score).collect {|fial| [score, fial] } }
+    .each do |score, parent_ref|
+    next unless to_be_checked.(parent_ref)
+
     fial_count += 1
 
     score_ref = "#{score.src_file}##{score.header['id'] || score.number}"
-    parent_ref = score.header['fial']
 
     begin
       parent = music_repository.score_by_fial parent_ref
