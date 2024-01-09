@@ -244,7 +244,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 87"
-    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?zacatek"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#mc-a3?zacatek=14"
     id = "mc-a3"
     piece = \markup\sestavTitulek
   }
