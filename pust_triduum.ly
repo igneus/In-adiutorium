@@ -889,7 +889,7 @@
     \choralniRezim
     d4 d d d( f) f \barMin
     f f e f g f f e d e d( a) a \barMaior
-    a a g a a( d) d d \barMin d( e) c c( d) d \barFinalis
+    a a g a a( d) d d d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Ja -- ko byl Jo -- náš_*
@@ -901,7 +901,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 143"
-    placet = "poslední césuru lze - a asi je vhodnější - vypustit"
     id = "so-nesp-ant2"
     piece = \markup {\sestavTitulek}
   }

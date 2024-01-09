@@ -352,7 +352,7 @@
     \choralniRezim
     d4 d d d( f) f \barMin
     f f e f g f f e d e d( a) a \barMaior
-    a a g a a( d) d d \barMin d( e) c c( d) d \barFinalis
+    a a g a a( d) d d d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Ja -- ko byl Jo -- náš_*

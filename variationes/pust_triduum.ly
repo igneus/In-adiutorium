@@ -5164,6 +5164,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( f) f \barMin
     f f e f g f f e d e d( a) a \barMaior
@@ -5179,6 +5180,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 143"
+    placet = "poslední césuru lze - a asi je vhodnější - vypustit"
     id = "so-nesp-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -5186,6 +5188,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d d( f) f \barMin
     f f e f g f f e d e d( a) a \barMaior
