@@ -473,20 +473,25 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 \markup\italic{V době velikonoční:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
 
     % R
-    \neviditelna f
-    \respVIalelujaResponsum \barFinalis
+    \neviditelna a
+    a a g( a) a a( b) a g g( a) \barMaior
+    a a g( a) \barMin g( f) f g e \barMaior
+    f g g g g( a) a \barMax
+    a a( b) a( g a e) e4.( d4 e) \barMin e g( f) d( e) e \barFinalis
     % V
-    \neviditelna f
-
+    \neviditelna a
+    a a a a a a a( b) g g ( a) \barMaior
+    g f g( a g) f g a a a \barMaior
+    a b a g a e e \barMin f g g( a g) g( a) a \barMax
     % R
     \neviditelna a
-    \respVIalelujaResponsum \barFinalis
+    a a( b) a( g a e) e4.( d4 e) \barMin e g( f) d( e) e \barFinalis
     % Slava
-    \respVIalelujaDoxologie \barFinalis
+    a a a( b) a a a( g) g \barMin f g a g a a \barFinalis
   }
   \addlyrics {
     \Response Ja -- ko O -- tec mi -- lo -- val mne,
@@ -501,7 +506,8 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \header {
     quid = "resp."
     modus = "VI"
-    id = ""
+    fial = "commune/commune_apostol.ly#1ne-resp?zacatek=22&konec=17&cast=7-10"
+    id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
 }
