@@ -100,26 +100,24 @@
 
     % R
     \neviditelna a
-    a4 a a a g a g g \barMin
-    a g a b( a) a \barMin
-    g a g f e d e e \barMaior
-    e g a a g b a a \barMax
-    a c b( a) g \barMin e( d) e( g f e) d( e) e \barFinalis
+    a4 a a a b c a g a g g \barMin
+    f g a a g f g a e e \barMaior
+    f g a a( b) g g a a \barMax
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
     % V
     \neviditelna e
-    a a a g( a) g g \barMin
-    a g a( b) a a \barMax
+    a a a g( a) e e \barMin
+    f g a( b) a a \barMax
     % R
     \neviditelna e
-    a c b( a) g \barMin e( d) e( g f e) d( e) e \barFinalis
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
     % Slava
-    a a g( a) g f g( a) a \barMin
-    a g a a( b) a a \barFinalis
+    a a b( c) a g g( a) a \barMin
+    a g e f( g) a a \barFinalis
   }
   \addlyrics {
-    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí
-    spo -- je -- ni pou -- ty
-    ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí spo -- je -- ni
+    pou -- ty ne -- pře -- mo -- ži -- tel -- né lás -- ky
     s_tě -- mi, kdo ži -- jí na ze -- mi._*
     \textRespAleluja
     \Verse Ra -- zí jim bez -- peč -- nou
@@ -130,7 +128,6 @@
   \header {
     quid = "resp."
     modus = "IV"
-    placet = "lépe"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }

@@ -807,7 +807,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -924,6 +924,90 @@
   \header {
     quid = "resp."
     modus = "II"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  Responsum sice \italic{je} nemravně dlouhé (a verš je oproti němu kratinký
+  a navíc tvrdí divné věci),
+  ale problémy se zhudebněním možná vyřeší méně únavné frázování:
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a a a b c a g a g g \barMin
+    f g a a g f g a e e \barMaior
+    f g a a( b) g g a a \barMax
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % V
+    \neviditelna e
+    a a a g( a) e e \barMin
+    f( g a) c b( g) g( a) a \barMax
+    % R
+    \neviditelna e
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % Slava
+    a a b c a g( a) a \barMin
+    a g e f( g) e e \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí spo -- je -- ni
+    pou -- ty ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou
+    ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a a a b c a g a g g \barMin
+    f g a a g f g a e e \barMaior
+    f g a a( b) g g a a \barMax
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % V
+    \neviditelna e
+    a a a g( a) e e \barMin
+    \mark\sipka f g a( b) a a \barMax
+    % R
+    \neviditelna e
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % Slava
+    a a \mark\sipka b( c) a g g( a) a \barMin
+    a g e f( g) \mark\sipka a a \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tí vždyc -- ky zů -- stá -- va -- jí spo -- je -- ni
+    pou -- ty ne -- pře -- mo -- ži -- tel -- né lás -- ky
+    s_tě -- mi, kdo ži -- jí na ze -- mi._*
+    \textRespAleluja
+    \Verse Ra -- zí jim bez -- peč -- nou
+    ces -- tu ke spá -- se._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
