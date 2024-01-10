@@ -156,7 +156,7 @@ arguments.each do |file_or_fial|
       raise
     end
 
-    comparison = ChildParentComparison.new score, parent, logger: logger
+    comparison = ChildParentComparison.new score, parent, fial: parent_ref, logger: logger
 
     header = "#{score_ref} < #{parent_ref} : "
     if comparison.match?

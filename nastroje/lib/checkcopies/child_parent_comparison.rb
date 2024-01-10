@@ -49,12 +49,12 @@ class ChildParentComparison
       .reject {|k| k == 'jiny_text' } # we only compare melodies, this annotation has no relevance here
   end
 
-  def initialize(child, parent, logger: nil)
+  def initialize(child, parent, fial: nil, logger: nil)
     @child = child
     @parent = parent
     @scores = [@child, @parent]
 
-    @fial = FIAL.parse @child.header['fial']
+    @fial = FIAL.parse(fial || @child.header['fial'])
     @fial_keys = Set.new(self.class.normalized_keys(@fial))
 
     @logger = logger || Logger.new('/dev/null')
