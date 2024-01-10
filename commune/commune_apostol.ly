@@ -93,19 +93,19 @@
 
     % R
     \neviditelna a
-    a a g( a) a a( b) a g g( a) \barMaior
-    a a g( a) \barMin g( f) g g a \barMax
-    g( a) f f g( f) e e \barFinalis
+    a a g a a( b) a g g( a) \barMaior
+    a a a( e) \barMin f g g e \barMax
+    f( g a) g( f) e f e e \barFinalis
     % V
     \neviditelna a
-    a a a a a a a( b) g g ( a) \barMaior
-    g f g( a g) f g a a a \barMaior
-    a b a g a e e \barMin f g g( a g) g( a) a \barMax
+    a a b a g a a g g \barMin
+    f g a a b g a a \barMaior
+    a a a g a b a g e f( g) e e \barMax
     % R
-    \neviditelna a
-    g( a) f f g( f) e e \barFinalis
+    \neviditelna e
+    f( g a) g( f) e f e e \barFinalis
     % Slava
-    a a a( b) a a a( g) g \barMin f g a g a a \barFinalis
+    a a a( b) a g g( a) a \barMin a g e f( g) e e \barFinalis
   }
   \addlyrics {
     \Response Ja -- ko O -- tec mi -- lo -- val mne,
@@ -120,7 +120,6 @@
   \header {
     quid = "resp."
     modus = "IV"
-    placet = "bída"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -139,20 +138,20 @@
 
     % R
     \neviditelna a
-    a a g( a) a a( b) a g g( a) \barMaior
-    a a g( a) \barMin g( f) f g e \barMaior
-    f g g g g( a) a \barMax
-    a a( b) a( g a e) e4.( d4 e) \barMin e g( f) d( e) e \barFinalis
+    a a g a a( b) a g g( a) \barMaior
+    a a a( e) \barMin f g g e \barMaior
+    f g a a g( a) a \barMax
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
     % V
     \neviditelna a
-    a a a a a a a( b) g g ( a) \barMaior
-    g f g( a g) f g a a a \barMaior
-    a b a g a e e \barMin f g g( a g) g( a) a \barMax
+    a a b a g a a g g \barMin
+    f g a a b g a a \barMaior
+    a a a g a b a g e f( g) a a \barMax
     % R
     \neviditelna a
-    a a( b) a( g a e) e4.( d4 e) \barMin e g( f) d( e) e \barFinalis
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
     % Slava
-    a a a( b) a a a( g) g \barMin f g a g a a \barFinalis
+    a a a( b) a g g( a) a \barMin a g e f( g) a a \barFinalis
   }
   \addlyrics {
     \Response Ja -- ko O -- tec mi -- lo -- val mne,
@@ -167,8 +166,8 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "bída"
-    fial = "commune/commune_apostol.ly#1ne-resp?zacatek=22&konec=17&cast=7-10"
+    fial = "commune/commune_apostol.ly#1ne-resp?cast=1-3,7-8,12"
+    fial_b = "sanktoral/0423vojtech.ly#rch-r?cast=5-6"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }

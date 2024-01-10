@@ -434,6 +434,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -465,7 +466,85 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \header {
     quid = "resp."
     modus = "IV"
+    placet = "bída"
     id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a a g a a( b) a g g( a) \barMaior
+    a a a( e) \barMin f g g e \barMax
+    f( g a) g( f) e f e e \barFinalis
+    % V
+    \neviditelna a
+    a a b a g a a g g \barMin
+    f g a g f g e e \barMaior
+    f g a a a b a g e f( g) e e \barMax
+    % R
+    \neviditelna e
+    f( g a) g( f) e f e e \barFinalis
+    % Slava
+    a a a( b) a g g( a) a \barMin a g e f( g) e e \barFinalis
+  }
+  \addlyrics {
+    \Response Ja -- ko O -- tec mi -- lo -- val mne,
+    tak jsem já mi -- lo -- val vás._*
+    Zů -- staň -- te v_mé lás -- ce.
+    \Verse Po -- dle to -- ho všich -- ni po -- zna -- jí,
+    že jste mo -- ji u -- čed -- ní -- ci,
+    bu -- de -- te -- -li mít lás -- ku k_so -- bě na -- vzá -- jem._*
+    \Response Zů -- staň -- te v_mé lás -- ce.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a a g a a( b) a g g( a) \barMaior
+    a a a( e) \barMin f g g e \barMax
+    f( g a) g( f) e f e e \barFinalis
+    % V
+    \neviditelna a
+    a a b a g a a g g \barMin
+    f g a \mark\sipka a b g a a \barMaior
+    a a a g a b a g e f( g) e e \barMax
+    % R
+    \neviditelna e
+    f( g a) g( f) e f e e \barFinalis
+    % Slava
+    a a a( b) a g g( a) a \barMin a g e f( g) e e \barFinalis
+  }
+  \addlyrics {
+    \Response Ja -- ko O -- tec mi -- lo -- val mne,
+    tak jsem já mi -- lo -- val vás._*
+    Zů -- staň -- te v_mé lás -- ce.
+    \Verse Po -- dle to -- ho všich -- ni po -- zna -- jí,
+    že jste mo -- ji u -- čed -- ní -- ci,
+    bu -- de -- te -- -li mít lás -- ku k_so -- bě na -- vzá -- jem._*
+    \Response Zů -- staň -- te v_mé lás -- ce.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -474,6 +553,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -506,7 +586,57 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "bída"
     fial = "commune/commune_apostol.ly#1ne-resp?zacatek=22&konec=17&cast=7-10"
+    id = "1ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  Dalo by se namítat, že není moc obvyklé ani vhodné, aby velikonoční nápěv
+  recykloval velké části nápěvu všedního.
+  Ale první nešpory z commune apoštolů se slaví tak vzácně,
+  že sotva kdo narazí během liturgického roku na obě varianty.
+  Tím mám svou lenost v této věci za omluvenu.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a a g a a( b) a g g( a) \barMaior
+    a a a( e) \barMin f g g e \barMaior
+    f g a a g( a) a \barMax
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % V
+    \neviditelna a
+    a a b a g a a g g \barMin
+    f g a a b g a a \barMaior
+    a a a g a b a g e f( g) a a \barMax
+    % R
+    \neviditelna a
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % Slava
+    a a a( b) a g g( a) a \barMin a g e f( g) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Ja -- ko O -- tec mi -- lo -- val mne,
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce._* \textRespAleluja
+    \Verse Po -- dle to -- ho všich -- ni po -- zna -- jí,
+    že jste mo -- ji u -- čed -- ní -- ci,
+    bu -- de -- te -- -li mít lás -- ku k_so -- bě na -- vzá -- jem._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fial = "commune/commune_apostol.ly#1ne-resp?cast=1-3,7-8,12"
+    fial_b = "sanktoral/0423vojtech.ly#rch-r?cast=5-6"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
