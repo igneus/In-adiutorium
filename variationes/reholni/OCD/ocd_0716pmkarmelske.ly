@@ -1088,6 +1088,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a a bes a g f g g( a) a \barMin
+    a( c) b g( a) a \barMaior
+    a a g f e( f) \mark\sipka d d \barMin
+    e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    měs -- to Bo -- ží;
+    Hos -- po -- din tě za -- lo -- žil
+    na svých sva -- tých ho -- rách.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?zacatek"
+    id = "mc-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 % antifonu pro vigilii breviar.cz (zatím?) nemá
