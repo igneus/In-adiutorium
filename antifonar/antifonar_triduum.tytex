@@ -74,7 +74,8 @@
     a evangelium z dodatku breviáře.}
 }
 
-\newcommand{\rubrikaHymnus}{
+% TODO update the booklet with arguments for the standard command, drop this redefinition
+\renewcommand{\rubrikaHymnus}{
   \noindent\textsc{Hymnus} \rubr{z hymnáře.}
 }
 

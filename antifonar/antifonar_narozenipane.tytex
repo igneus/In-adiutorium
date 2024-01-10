@@ -167,7 +167,7 @@
 
 \responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
 
-\rubrika{Hymnus \textnormal{Již se přiblížil čas noční,} hymnář, str. 163.}
+\rubrikaHymnus{Již se přiblížil čas noční}{163}
 
 \antiphonWithPsalm{kompletar.ly#nei1}
 
@@ -208,7 +208,7 @@
 
 \responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
 
-\rubrika{Hymnus \textnormal{Věčný Syn jednorozený} - hymnář, str. 18.}
+\rubrikaHymnus{Věčný Syn jednorozený}{18}
 
 \antiphonWithPsalm{#vden-cte-a1}
 
@@ -255,7 +255,7 @@
 
 \responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-nedele}
 
-\rubrika{Hymnus \textnormal{Dítě se nám narodilo} - hymnář, str. 20.}
+\rubrikaHymnus{Dítě se nám narodilo}{20}
 
 \pagebreak % ZLOM
 
@@ -286,7 +286,7 @@
 
 \responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
 
-\rubrika{Hymnus \textnormal{Radujme se všichni spolu} - hymnář, str. 21.}
+\rubrikaHymnus{Radujme se všichni spolu}{21}
 
 \pagebreak % ZLOM
 \nadpisHodinka{dopoledne}
@@ -335,7 +335,7 @@
 
 \responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-slavnost}
 
-\rubrika{Hymnus \textnormal{Kriste, světa Spasiteli} - hymnář, str. 22.}
+\rubrikaHymnus{Kriste, světa Spasiteli}{22}
 
 \antiphonWithPsalm{#vden-2ne-a1}
 
@@ -359,7 +359,7 @@
 %%%
 \kompletar
 
-\rubrika{Hymnus \textnormal{Chvála tobě, Otče věčný,} hymnář, str. 163.}
+\rubrikaHymnus{Chvála tobě, Otče věčný}{163}
 
 \responsory[remove_block=pust,remove_markups]{zakladni_napevy.ly#zacatek-bezny}
 
