@@ -2,7 +2,7 @@
 
 \include "../../spolecne.ly"
 \include "../../dilyresponsorii.ly"
-\include "opraem.ly"
+\include "../../../reholni/OPraem/opraem.ly"
 
 \header {
   title = \markup\titleSvatek
@@ -19,8 +19,14 @@
 
 \markup\justify{
   sv. Norbert v premonstrátských antifonářích:
-  Teplá E. 11A, 137bis (In translatione) -
-  text podané tu antifony k Magnificat je blízký naší antifoně k Benedictus
+}
+\markup\justify{
+  APraem1934: \italic{Antiphonarium ad usum sacri et canonici ordinis Pramonstratensis,} Parisiis 1934.
+  (Z matutina jen 9. responsorium.)
+}
+\markup\justify{
+  APraem1718: \with-url "https://books.google.cz/books?id=GzRHAAAAcAAJ" {\italic{Antiphonarium Praemonstratense,} Virduni 1718},
+  s. 336 (obsahuje i kompletní zpěvy matutina).
 }
 
 %\markup\poznamkaOPraem
@@ -87,6 +93,9 @@
   }
 }
 
+\markup{
+  \italic{Magnus inter magnos,} APraem1934 674.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -116,6 +125,9 @@
   }
 }
 
+\markup{
+  Srov. \italic{Vir Dei, suae paupertatis,} APraem1934 697; APraem1718 354.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -138,6 +150,9 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
+\markup{
+  Srov. \italic{Magnus Dominus... qui de caenoso...,} APraem1718 340.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -158,6 +173,9 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
+\markup{
+  Srov. \italic{Translatus a fluminibus,} APraem1718 341.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -176,6 +194,9 @@
   }
 }
 
+\markup{
+  Srov. \italic{Super opera manuum tuarum,} APraem1718 345.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -194,6 +215,9 @@
   }
 }
 
+\markup{
+  Srov. \italic{Dolum in lingua sua,} APraem1718 348.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -214,6 +238,9 @@
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
+\markup{
+  Srov. (responsorium!) \italic{Deposita rerum temporalium sarcina,} APraem1718 346.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -250,6 +277,9 @@
   }
 }
 
+\markup{
+  Snad podle \italic{In domum Praemonstratam,} APraem1934 345.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -297,6 +327,11 @@
   }
 }
 
+\markup{
+  \italic{Norbertus catholicae religionis propagator,}
+  \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__TEPLAMSE11A_05WNA92-cs" {Teplá E. 11A,}
+  137bis r
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -375,6 +410,9 @@
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
+\markup{
+  \italic{Norbertus, lucerna ardens,} APraem1934 693.
+}
 \score {
   \relative c'' {
     \choralniRezim
@@ -450,6 +488,9 @@
 
 \pageBreak
 
+\markup{
+  \italic{Principibus ecclesiae,} APraem1934 694.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -472,6 +513,9 @@
   }
 }
 
+\markup{
+  \italic{Plaudentibus omnibus,} APraem1934 695.
+}
 \score {
   \relative c'' {
     \choralniRezim
@@ -537,6 +581,11 @@
   }
 }
 
+\markup{
+  Zjevně podle \italic{Adest dies celebris,}
+  APraem1934 677,
+  APraem1718 339.
+}
 \score {
   \relative c' {
     \choralniRezim
