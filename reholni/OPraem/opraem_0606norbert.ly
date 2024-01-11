@@ -76,6 +76,8 @@
   }
 }
 
+\markup\italic{Mimo dobu velikonoční:}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -101,6 +103,39 @@
     quid = "resp."
     modus = ""
     id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\italic{V době velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Byl velký mezi velkými a nepatrný mezi malými, vznešený mezi urozenými, skromný mezi prostými. Všem se zkrátka stal vším._*
+    \textRespAleluja
+    \Verse Boží muž Norbert byl veselého vzhledu, klidné tváře, velice výmluvný v řeči, příjemný v rozhovoru, laskavý v soužití._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r-velik"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -257,6 +292,8 @@
   }
 }
 
+\markup\italic{Mimo dobu velikonoční:}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -282,6 +319,42 @@
     quid = "resp."
     modus = ""
     id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\italic{V době velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f g f \barMin
+    f f f f f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f4 f f f f f f g f \barMin f f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zde je mi -- lov -- ník brat -- ří,
+    zde je ten, kte -- rý se mno -- ho mod -- lí za lid._*
+    \textRespAleluja
+    \Verse Zde je ten, kte -- rý za své brat -- ry vy -- dal i svůj ži -- vot._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r-velik"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -432,6 +505,8 @@
   }
 }
 
+\markup\italic{Mimo dobu velikonoční:}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -469,6 +544,47 @@
   }
 }
 
+\markup\italic{V době velikonoční:}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bo -- ží muž
+    za -- pá -- len bož -- skou lás -- kou
+    a pla -- nou -- cí ve svém nit -- ru
+    oh -- něm Du -- cha sva -- té -- ho,
+    Za -- čal ká -- zat Bo -- ží slo -- vo,
+    ať to by -- lo vhod či ne -- vhod._*
+    \textRespAleluja
+    \Verse Z_po -- kla -- du Bo -- ží -- ho
+    vy -- ná -- šel vě -- ci no -- vé i sta -- ré,
+    a stal se jed -- něm vů -- ní ži -- vo -- ta pro ži -- vot,
+    ji -- ným pak vů -- ní smr -- ti pro smrt._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-r-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -483,6 +599,7 @@
     šťas -- ten sto -- lu -- je v_pa -- lá -- ci ne -- bes -- ké -- ho Krá -- le,
     ja -- ko -- by na -- pá -- jen prou -- dem bla -- ha,
     a -- le -- lu -- ja, a -- le -- lu -- ja.
+    % zde aleluja i mimo dobu velikonoční
   }
   \header {
     quid = "ant. k Magnificat"
