@@ -42,7 +42,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 113"
-    id = ""
+    id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -62,7 +62,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 146"
-    id = ""
+    id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -82,7 +82,7 @@
     modus = ""
     differentia = ""
     psalmus = "Ef 1"
-    id = ""
+    id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -111,7 +111,7 @@
   \header {
     quid = "resp."
     modus = ""
-    id = ""
+    id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -131,7 +131,7 @@
     modus = ""
     differentia = ""
     psalmus = ""
-    id = ""
+    id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -151,7 +151,7 @@
     modus = ""
     differentia = ""
     psalmus = ""
-    id = ""
+    id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -171,7 +171,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 1"
-    id = ""
+    id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -189,7 +189,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 8"
-    id = ""
+    id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -207,7 +207,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 24"
-    id = ""
+    id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -227,7 +227,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 63"
-    id = ""
+    id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -245,7 +245,7 @@
     modus = ""
     differentia = ""
     psalmus = "Dan 3-III"
-    id = ""
+    id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -263,7 +263,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 149"
-    id = ""
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -292,7 +292,7 @@
   \header {
     quid = "resp."
     modus = ""
-    id = ""
+    id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -310,7 +310,7 @@
     modus = ""
     differentia = ""
     psalmus = ""
-    id = ""
+    id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -330,7 +330,7 @@
     modus = ""
     differentia = ""
     psalmus = ""
-    id = ""
+    id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -348,7 +348,7 @@
     modus = ""
     differentia = ""
     psalmus = ""
-    id = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -366,7 +366,7 @@
     modus = ""
     differentia = ""
     psalmus = ""
-    id = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -396,7 +396,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 15"
-    id = ""
+    id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -467,7 +467,7 @@
     modus = ""
     differentia = ""
     psalmus = "Žalm 112"
-    id = ""
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -495,7 +495,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Zj 15"
-    id = ""
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -532,7 +532,7 @@
   \header {
     quid = "resp."
     modus = ""
-    id = ""
+    id = "2ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
@@ -557,7 +557,7 @@
     modus = ""
     differentia = ""
     psalmus = ""
-    id = ""
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
