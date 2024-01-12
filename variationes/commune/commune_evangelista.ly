@@ -544,6 +544,40 @@
   }
 }
 
+\markup\justify{
+  (Založena na aktuálně oficiální verzi výše.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka d4 f g a a c bes a g g( a) \barMin
+    a bes g g( a) a \barMaior
+    a a a bes bes a g g( a) a \barMin
+    a a( g f) g( f e) f d d \barMaior
+    c d f g( f d4.) d \barMin e4( f) d c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh nás hlá -- sá -- ním e -- van -- ge -- li -- a
+    po -- vo -- lal k_to -- mu,
+    a -- by -- chom u -- vě -- ři -- li v_prav -- du
+    a do -- sáh -- li slá -- vy
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

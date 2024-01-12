@@ -519,6 +519,50 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a b g g( a) a \barMin
+    g f e e \barMaior
+    f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost,
+    Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g a b a
+    g f e e \barMaior
+    f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost,
+    Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %tIInedeleInespAntIII =
