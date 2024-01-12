@@ -140,6 +140,61 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g) f( a) c( d) c c \barMin
+    c c d f e d e d d( c) c \barMaior
+    c c( d) c( bes a) g( a) f( g f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Ó jak vzne -- še -- né jsou kro -- ky těch,
+    kdo zvěs -- tu -- jí po -- koj,
+    kdo zvěs -- tu -- jí dob -- ro.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle Strahov DH I 30, 27r"
+    textus_approbatus = "Jak vznešené jsou kroky těch, kdo zvěstují pokoj, kdo zvěstují dobro. Aleluja."
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4( a) c( d) c c \barMin
+    c c d f e d e d d( c) c \barMaior
+    c c( d) c( bes a) g( a) f( g f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Jak vzne -- še -- né jsou kro -- ky těch,
+    kdo zvěs -- tu -- jí po -- koj,
+    kdo zvěs -- tu -- jí dob -- ro.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle Strahov DH I 30, 27r"
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup{
@@ -342,7 +397,7 @@
     pře -- mí -- tal o Hos -- po -- di -- no -- vě zá -- ko -- ně dnem i no -- cí,
     a -- by ve svůj čas
     při -- ne -- sl o -- vo -- ce
-    hlá -- sá -- ním evan -- ge -- lia.
+    hlá -- sá -- ním e -- van -- ge -- li -- a.
   }
   \header {
     fons_externus = "velmi volně podle APraem1718 341"
@@ -370,7 +425,7 @@
     pře -- mí -- tal o Hos -- po -- di -- no -- vě zá -- ko -- ně dnem i no -- cí,
     a -- by ve svůj čas
     při -- ne -- sl o -- vo -- ce
-    hlá -- sá -- ním evan -- ge -- lia.
+    hlá -- sá -- ním e -- van -- ge -- li -- a.
   }
   \header {
     fons_externus = "velmi volně podle APraem1718 341"

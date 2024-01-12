@@ -790,6 +790,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 f( g) a( c) c c b( c a4.) a \barMaior
+    c4 c c( d) c c b c a g g \barMaior
+    a a \mark\sipka a a f e d \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a c c c d( e) d \barMaior
     e d c( d) c c b c a g g \barMaior
     a a g f g a a \barMin
@@ -843,6 +867,54 @@
     e4 d c( d) c c b c a g g \barMaior
     a a g f \mark\sipka a c b \barMin
     a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d( c e d) d \barMaior
+    e4 d c( d) c c b c a g g \barMaior
+    a a g f a c \mark\sipka c \barMin
+    b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d( c e d) d \barMaior
+    e4 d c( d) c c b c a g g \barMaior
+    \mark\sipka a c b c a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Při Je -- ží -- šo -- vě jmé -- nu

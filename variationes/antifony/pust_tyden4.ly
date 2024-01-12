@@ -804,6 +804,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a b c a a \barMin
+    c d e( f d) c c \barMaior
+    c c b a g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že, dě -- ku -- ji ti,
+    žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
