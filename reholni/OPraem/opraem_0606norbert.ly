@@ -14,6 +14,18 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\small\column{
+  \line{
+    Zkratky pramenů:
+  }
+  \line{
+    APraem1934: \italic{Antiphonarium ad usum sacri et canonici ordinis Praemonstratensis,} Parisiis 1934.
+  }
+  \line{
+    APraem1718: \with-url "https://books.google.cz/books?id=GzRHAAAAcAAJ" {\italic{Antiphonarium Praemonstratense,} Virduni 1718.}
+  }
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -39,18 +51,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d f g g a bes a g f g g \barMin
+    a g f( d) d \barMaior
+    c d f g f e( f) d c c d d \barFinalis
 
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
-    Kdo se bude přikázáními řídit a jim učit, bude v nebeském království veliký.
+    Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Kdo se bude přikázáními řídit a jim učit, bude v nebeském království veliký."
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 146"
+    fial = "commune/commune_ucitel.ly#1ne-amag"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -165,15 +185,27 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4( d) d d( e f) d c( d) d \barMaior
+    f f g( a) g f d( e) d( c) c \barMaior
+    a c d e( f d) c( d) d \barFinalis
 
+    e(^\markup\rubrVelikAleluja f) d d( c a)
+    c c( d) d d \barFinalis
   }
   \addlyrics {
-    Chvalme Krále králů, který vytrhl Norberta ze světských marností, aleluja.
+    Chval -- me Krá -- le krá -- lů,
+    kte -- rý vy -- tr -- hl Nor -- ber -- ta
+    ze svět -- ských
+    \markup{\Dagger mar} -- nos -- tí.
+
+    \markup{\Dagger mar} -- nos -- tí,
+    a -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle APraem1934 340"
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}

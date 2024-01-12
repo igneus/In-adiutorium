@@ -21,33 +21,46 @@
   sv. Norbert v premonstrátských antifonářích:
 }
 \markup\justify{
-  APraem1934: \italic{Antiphonarium ad usum sacri et canonici ordinis Pramonstratensis,} Parisiis 1934.
+  APraem1934: \italic{Antiphonarium ad usum sacri et canonici ordinis Praemonstratensis,} Parisiis 1934.
   (Z matutina jen 9. responsorium.)
 }
 \markup\justify{
   APraem1718: \with-url "https://books.google.cz/books?id=GzRHAAAAcAAJ" {\italic{Antiphonarium Praemonstratense,} Virduni 1718},
   s. 336 (obsahuje i kompletní zpěvy matutina).
+  S. 296 Translatio (jen rubrika, žádné další noty).
 }
-
-%\markup\poznamkaOPraem
+\markup\justify{
+  TepE11A: \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__TEPLAMSE11A_05WNA92-cs" {Teplá E. 11A} (doplňky 17. stol.)
+  f. 137 bis r (Translatio), 185r (dies natalis).
+}
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
   \relative c' {
     \choralniRezim
+    d4( a') a( g a) c( b) g4.( a) \barMin
+    a4 g f g( d) \barMaior
+    d4 d( f) e f d( c) c \barMin
+    d e f e( d c d) d \barFinalis
 
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
-    Jak vznešené jsou kroky těch, kdo zvěstují pokoj, kdo zvěstují dobro.
+    Jak vzne -- še -- né jsou kro -- ky těch,
+    kdo zvěs -- tu -- jí po -- koj,
+    % kdo
+    zvěs -- tu -- jí dob -- ro.
 
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Jak vznešené jsou kroky těch, kdo zvěstují pokoj, kdo zvěstují dobro. Aleluja."
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 113"
+    fial = "sanktoral/0705cyrilametodej.ly#rch-a1?zacatek=4"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -56,22 +69,89 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 a( g) f( g) g \barMin
+    g g( a g) f e( d) \barMaior
+    f f e f d( c) c \barMin
+    d e f f e( d c d) d \barFinalis
 
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
-    Kdo se bude přikázáními řídit a jim učit, bude v nebeském království veliký.
+    Jak vzne -- še -- né jsou kro -- ky těch,
+    kdo zvěs -- tu -- jí po -- koj,
+    kdo zvěs -- tu -- jí dob -- ro.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f g g a bes a g f g g \barMin
+    a g f( d) d \barMaior
+    c d f g f e( f) d c c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kdo se bu -- de Bo -- ží -- mi při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kdo se bude přikázáními řídit a jim učit, bude v nebeském království veliký."
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 146"
+    fial = "commune/commune_ucitel.ly#1ne-amag"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g g a \mark\sipka f g g \barMin
+    a g f( d) d \barMaior
+    c d f g f e( f) d c c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kdo se bu -- de při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 146"
+    fial = "commune/commune_ucitel.ly#1ne-amag?zacatek=8&konec=28"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -155,21 +235,36 @@
 }
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
+    c4( d) d d( e f) d c( d) d \barMaior
+    f f g( a) g f d( e) d( c) c \barMaior
+    a c d e( f d) c( d) d \barFinalis
 
+    e(^\markup\rubrVelikAleluja f) d d( c a)
+    c c( d) d d \barFinalis
   }
   \addlyrics {
-    Chvalme Krále králů, který vytrhl Norberta ze světských marností, aleluja.
+    Chval -- me Krá -- le krá -- lů,
+    kte -- rý vy -- tr -- hl Nor -- ber -- ta
+    ze svět -- ských
+    \markup{\Dagger mar} -- nos -- tí.
+
+    \markup{\Dagger mar} -- nos -- tí,
+    a -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle APraem1934 340"
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -179,20 +274,60 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f( g a) a \barMin
+    a a g f g a g f e d c c \barMin
+    e f d d \barMaior
+    f d f( e) c c \barMin
+    f( g) a a a( c a) g( a) a \barMaior
+    a( g f) g( f d4.) d \barMin f4 e c c( d) d \barFinalis
   }
   \addlyrics {
-    Boží muž Norbert přemítat o Hospodinově zákoně dnem i nocí, aby ve svůj čas přinesl ovoce hlásáním evangelia.
+    Bo -- ží muž Nor -- bert
+    pře -- mí -- tal o Hos -- po -- di -- no -- vě zá -- ko -- ně dnem i no -- cí,
+    a -- by ve svůj čas
+    při -- ne -- sl o -- vo -- ce
+    hlá -- sá -- ním evan -- ge -- lia.
   }
   \header {
+    fons_externus = "velmi volně podle APraem1718 341"
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 1"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g a) a \barMin
+    a a \mark\sipka a g a g f e f d c c \barMin
+    e f d d \barMaior
+    f d f( e) c c \barMin
+    f( g) a a a( c a) g( a) a \barMaior
+    a( g f) g( f d4.) d \barMin f4 e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží muž Nor -- bert
+    pře -- mí -- tal o Hos -- po -- di -- no -- vě zá -- ko -- ně dnem i no -- cí,
+    a -- by ve svůj čas
+    při -- ne -- sl o -- vo -- ce
+    hlá -- sá -- ním evan -- ge -- lia.
+  }
+  \header {
+    fons_externus = "velmi volně podle APraem1718 341"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 1"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup{
   Srov. \italic{Super opera manuum tuarum,} APraem1718 345.
@@ -329,8 +464,7 @@
 
 \markup{
   \italic{Norbertus catholicae religionis propagator,}
-  \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__TEPLAMSE11A_05WNA92-cs" {Teplá E. 11A,}
-  137bis r
+  TepE11A 137bis r
 }
 \score {
   \relative c' {
@@ -355,38 +489,56 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4( g a) g \barMin
+    g f g g( a) g f f \barMaior
 
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
-    Mnozí jsme jedno tělo v Kristu.
+    Mno -- zí jsme jed -- no tě -- lo v_Kris -- tu.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a( c) c d c c b( c) a( g) g \barMaior
+    f( g a) g \barMaior
+    a c b c a g \barMin a g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
-    Služebníku věrný a rozvážný, vejdi k radostné hostině svého Pána.
+    Slu -- žeb -- ní -- ku věr -- ný a roz -- váž -- ný,
+    ve -- jdi
+    k_ra -- dost -- né hos -- ti -- ně své -- ho Pá -- na.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
+    fial = "commune/commune_svatymuz.ly#2ne-amag1?zacatek=5"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -395,6 +547,8 @@
   }
   \addlyrics {
     Okolo něho věnec bratří jako cedry vysázené na hoře Libanonu.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
@@ -600,6 +754,7 @@
     šťas -- ten sto -- lu -- je v_pa -- lá -- ci ne -- bes -- ké -- ho Krá -- le,
     ja -- ko -- by na -- pá -- jen prou -- dem bla -- ha,
     a -- le -- lu -- ja, a -- le -- lu -- ja.
+    % zde aleluja i mimo dobu velikonoční
   }
   \header {
     quid = "ant. k Magnificat"
