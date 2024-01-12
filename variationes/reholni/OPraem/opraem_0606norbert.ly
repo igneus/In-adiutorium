@@ -17,24 +17,71 @@
   těžko očekávat bohaté rukopisné prameny k jeho oficiu.
 }
 
-\markup\justify{
-  sv. Norbert v premonstrátských antifonářích:
+\markup\huge\bold{
+  Prameny:
 }
 \markup\justify{
   APraem1934: \italic{Antiphonarium ad usum sacri et canonici ordinis Praemonstratensis,} Parisiis 1934.
   (Z matutina jen 9. responsorium.)
 }
 \markup\justify{
-  APraem1718: \with-url "https://books.google.cz/books?id=GzRHAAAAcAAJ" {\italic{Antiphonarium Praemonstratense,} Virduni 1718},
+  APraem1718: \with-url "https://books.google.cz/books?id=GzRHAAAAcAAJ" {
+    \italic{Antiphonarium Praemonstratense,} Virduni 1718},
   s. 336 (obsahuje i kompletní zpěvy matutina).
   S. 296 Translatio (jen rubrika, žádné další noty).
 }
 \markup\justify{
-  TepE11A: \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__TEPLAMSE11A_05WNA92-cs" {Teplá E. 11A} (doplňky 17. stol.)
-  f. 137 bis r (Translatio), 185r (dies natalis).
+  TepE11A: \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__TEPLAMSE11A_05WNA92-cs" {
+    Teplá E. 11A}
+  (doplňky 17. stol.)
+  f. 137 bis r (Translatio), 185r (dies natalis, jen denní hodinky).
+}
+\markup\justify{
+  \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DA_I_8______1VL7308-cs" {
+    Strahov DA I 8}
+  (1760, jen nešpory)
+  28
+}
+\markup\justify{
+  \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DA_I_9______0H0U1HE-cs" {
+    Strahov DA I 9}
+  (1760, jen nešpory)
+  39
+}
+\markup\justify{
+  \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DA_II_12____3P5P2T0-cs" {
+    Strahov DA II 12}
+  (17. stol.; první nešpory a matutinum většinou jen intonace, od laud dál plné znění jinou rukou s pozdějšími opravami)
+  257r
+}
+\markup\justify{
+  \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DF_I_5______2SEDJQ5-cs" {
+    Strahov DF I 5}
+  (první nešpory a matutinum mají jiné řady antifon k žalmům -
+  \italic{Beatus Norbertus in via peccatorum}; \italic{Multiplicati sunt qui tribulant} -
+  ale třeba responsorium prvních nešpor nebo invitatorium je naše známé;
+  laudami začíná obvyklý repertoár)
+  116r
+}
+\markup\justify{
+  \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DF_III_17___0EVFIN6-cs" {
+    Strahov DF III 17}
+  (17. stol.; jen nešpory a laudy)
+  60v, 92v (Translatio)
+}
+\markup\justify{
+  \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DH_I_30_____2VLOF41-cs" {
+    Strahov DH I 30}
+  (podle Manuscriptoria konec 16. stol., vč. matutina, oficium stejné nebo podobné tomu v DF I 5)
+  25v
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}
+
+\markup{
+  \italic{O quam pretiosi,}
+  DH I 30, 27r
+}
 
 \score {
   \relative c' {
@@ -95,6 +142,11 @@
 
 \pageBreak
 
+\markup{
+  \italic{Quis fecerit et docuerit,}
+  DH I 30, 27r
+}
+
 \score {
   \relative c' {
     \zvyraznovacModry
@@ -153,6 +205,10 @@
 
 \pageBreak
 
+\markup{
+  \italic{Dulcedine mirabili,}
+  DH I 30, 28r
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -698,6 +754,10 @@
   }
 }
 
+\markup{
+  \italic{Vir Dei divini amoris,}
+  DH I 30, 27r
+}
 \score {
   \relative c' {
     \choralniRezim
