@@ -576,6 +576,14 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Post partum, Virgo, * Invioláta permansísti.
+    V. Dei Génetrix, intercéde pro nobis.
+  }
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
