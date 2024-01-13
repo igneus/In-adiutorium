@@ -170,6 +170,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka f4( a) c( d) c c \barMin
     c c d f e d e d d( c) c \barMaior
@@ -258,6 +259,60 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g a g f g g( f) f \barMin
+    f( g a g) bes( a) g( a g f) f \barMaior
+    d c d f f g bes a g( a g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kdo se bu -- de při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle Strahov DH I 30, 27r"
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g a g f g g( f) f \barMin
+    f( g a g) bes( a) g( a g f) f \barMaior
+    d c d f f \mark\sipka g( bes) a g g( a f) e( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kdo se bu -- de při -- ká -- zá -- ní -- mi ří -- dit
+    a jim u -- čit,
+    bu -- de v_ne -- bes -- kém krá -- lov -- ství ve -- li -- ký.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle Strahov DH I 30, 27r"
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup{
@@ -265,24 +320,34 @@
   DH I 30, 28r
 }
 \score {
-  \relative c' {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
+    g4 b c d d d( e) d( c) c \barMin
+    a a c b a( g) g \barMaior
+    g a g f g a a( g) g \barFinalis
 
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Podivuhodnou sladkostí božské výřečnosti se laskavě choval k lidu.
+    Po -- di -- vu -- hod -- nou slad -- kos -- tí
+    bož -- ské vý -- řeč -- nos -- ti
+    se las -- ka -- vě cho -- val k_li -- du.
 
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle Strahov DH I 30, 28r"
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup{
   \italic{Magnus inter magnos,} APraem1934 674.
@@ -412,6 +477,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c f( g a) a \barMin
     a a \mark\sipka a g a g f e f d c c \barMin
@@ -595,6 +661,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -614,6 +682,50 @@
     quid = "ant. dopoledne"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g f e f d d \barMaior
+
+    e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mno -- zí jsme jed -- no tě -- lo v_Kris -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f f f g f d d \barMaior
+
+    e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mno -- zí jsme jed -- no tě -- lo v_Kris -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -652,19 +764,25 @@
 \pageBreak
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 g g a g f g g( a) a \barMaior
+    c c b( c a) a \barMin
+    c c b( a) g a g f g( a) a g g \barFinalis
 
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
-    Okolo něho věnec bratří jako cedry vysázené na hoře Libanonu.
+    Oko -- lo ně -- ho vě -- nec brat -- ří
+    ja -- ko ced -- ry
+    vy -- sá -- ze -- né na ho -- ře Li -- ba -- no -- nu.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}

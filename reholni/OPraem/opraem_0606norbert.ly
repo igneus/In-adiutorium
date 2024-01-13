@@ -31,17 +31,24 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4( a) c( d) c c \barMin
+    c c d f e d e d d( c) c \barMaior
+    c c( d) c( bes a) g( a) f( g f) f \barFinalis
 
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
-    Jak vznešené jsou kroky těch, kdo zvěstují pokoj, kdo zvěstují dobro.
+    Jak vzne -- še -- né jsou kro -- ky těch,
+    kdo zvěs -- tu -- jí po -- koj,
+    kdo zvěs -- tu -- jí dob -- ro.
 
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle Strahov DH I 30, 27r"
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -77,19 +84,26 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 b c d d d( e) d( c) c \barMin
+    a a c b a( g) g \barMaior
+    g a g f g a a( g) g \barFinalis
 
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Podivuhodnou sladkostí božské výřečnosti se laskavě choval k lidu.
+    Po -- di -- vu -- hod -- nou slad -- kos -- tí
+    bož -- ské vý -- řeč -- nos -- ti
+    se las -- ka -- vě cho -- val k_li -- du.
 
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle Strahov DH I 30, 28r"
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -217,15 +231,25 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f( g a) a \barMin
+    a a a g a g f e f d c c \barMin
+    e f d d \barMaior
+    f d f( e) c c \barMin
+    f( g) a a a( c a) g( a) a \barMaior
+    a( g f) g( f d4.) d \barMin f4 e c c( d) d \barFinalis
   }
   \addlyrics {
-    Boží muž Norbert přemítat o Hospodinově zákoně dnem i nocí, aby ve svůj čas přinesl ovoce hlásáním evangelia.
+    Bo -- ží muž Nor -- bert
+    pře -- mí -- tal o Hos -- po -- di -- no -- vě zá -- ko -- ně dnem i no -- cí,
+    a -- by ve svůj čas
+    při -- ne -- sl o -- vo -- ce
+    hlá -- sá -- ním e -- van -- ge -- li -- a.
   }
   \header {
+    fons_externus = "velmi volně podle APraem1718 341"
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 1"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
