@@ -29,7 +29,11 @@ standalone_ly_files =
     .flatten
 standalone_ly_files -= %w{spolecne.ly dilyresponsorii.ly}
 
-all_ly_files = `git ls-files`.split.select {|f| f.end_with?('.ly') && !f.include?('variationes/') }
+all_files = `git ls-files`.split
+(all_ly_files, all_dev_files) =
+  all_files
+    .select {|f| f.end_with?('.ly') }
+    .partition {|f| !f.include?('variationes/') }
 
 modified_ly_files = lambda do
   # TODO: once on Ruby 2.7, simplify using Array#intersection
@@ -104,6 +108,22 @@ task :issues do
   # total count
   print "\nTotal: "
   sh "grep placet #{all_ly_files.join(' ')} | wc -l"
+end
+
+desc 'Check CANTUS IDs referenced in development files'
+task :cantus_ids do
+  cantus_ids =
+    all_dev_files
+      .flat_map {|path| File.read(path).scan(/\\cantusid-link\s*"(.+?)"/).flatten }
+      .sort
+      .uniq
+  cantus_ids.each do |cid|
+    sh 'wget', '-O/dev/null', "https://cantusindex.org/id/#{cid}" do |success, exit_code|
+      unless success
+        STDERR.puts "Cantus ID '#{cid}' not found on CantusIndex".colorize(:red)
+      end
+    end
+  end
 end
 
 #
