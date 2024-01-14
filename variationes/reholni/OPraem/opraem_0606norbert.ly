@@ -60,7 +60,8 @@
   (první nešpory a matutinum mají jiné řady antifon k žalmům -
   \italic{Beatus Norbertus in via peccatorum}; \italic{Multiplicati sunt qui tribulant} -
   ale třeba responsorium prvních nešpor nebo invitatorium je naše známé;
-  laudami začíná obvyklý repertoár)
+  laudami začíná obvyklý repertoár;
+  krásný pečlivý rukopis notovaný rhombikou)
   116r
 }
 \markup\justify{
@@ -72,7 +73,9 @@
 \markup\justify{
   \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DH_I_30_____2VLOF41-cs" {
     Strahov DH I 30}
-  (podle Manuscriptoria konec 16. stol., vč. matutina, oficium stejné nebo podobné tomu v DF I 5)
+  (podle Manuscriptoria konec 16. stol., vč. matutina, oficium stejné nebo podobné tomu v DF I 5;
+  dosti hrubě psaný, notovaný kvadratickou notací, oproti DF I 5 méně detailní
+  např. co do dělení neum na jedné slabice)
   25v
 }
 
@@ -186,7 +189,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "volně podle Strahov DH I 30, 27r"
+    fons_externus = "volně podle Strahov DF I 5 121r; DH I 30, 27r"
     quid = "1. ant."
     modus = "V"
     differentia = "a"
@@ -276,7 +279,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "volně podle Strahov DH I 30, 27r"
+    fons_externus = "volně podle Strahov DF I 5 121r; DH I 30, 27r"
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
@@ -303,7 +306,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "volně podle Strahov DH I 30, 27r"
+    fons_externus = "volně podle Strahov DF I 5 121r; DH I 30, 27r"
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
@@ -337,7 +340,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "volně podle Strahov DH I 30, 28r"
+    fons_externus = "volně podle Strahov DF I 5 123v; DH I 30, 28r"
     quid = "3. ant."
     modus = "VII"
     differentia = "a"

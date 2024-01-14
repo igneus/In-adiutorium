@@ -45,7 +45,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "volně podle Strahov DH I 30, 27r"
+    fons_externus = "volně podle Strahov DF I 5 121r; DH I 30, 27r"
     quid = "1. ant."
     modus = "V"
     differentia = "a"
@@ -100,7 +100,7 @@
     A -- le -- lu -- ja.
   }
   \header {
-    fons_externus = "volně podle Strahov DH I 30, 28r"
+    fons_externus = "volně podle Strahov DF I 5 123v; DH I 30, 28r"
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
