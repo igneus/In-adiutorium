@@ -102,6 +102,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c a c c b( a) \barMaior
+    g g g( a) f g \barMin a b c d c a( b) a a \barMaior
+    a g a a g f e \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví:
+    Po mně při -- jde ten, kte -- rý má vět -- ší dů -- stoj -- nost,
+    ne -- boť byl dří -- ve než já.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne2a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

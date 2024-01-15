@@ -533,6 +533,13 @@
 \markup{
   Srov. \italic{Dolum in lingua sua,} APraem1718 348.
 }
+\markup\justify{
+  (Tohle není jenom obecný biblický motiv, ale narážka na latinské jméno
+  strahovského kláštera \italic{Mons Sion.}
+  Narážka snad až poněkud skandální, protože tomu, kdo zná chorální repertoár,
+  text evokuje antifonu \italic{Habitabit in tabernaculo tuo} \cantusid-link "002987"
+  z Bílé soboty.)
+}
 \score {
   \relative c' {
     \choralniRezim

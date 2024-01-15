@@ -1278,6 +1278,30 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\markup\justify{
+  (Ale invitatoria modu VIII v tradičním repertoáru nejsou -
+  a narozdíl od modu I na to obvykle hledíme.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin c a a b c a g( a) \mark\sipka g \barMaior
+    g f a g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
+    on je Král krá -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
