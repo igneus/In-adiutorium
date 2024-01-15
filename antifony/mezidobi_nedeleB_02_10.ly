@@ -9,8 +9,8 @@
   \relative c' {
     \choralniRezim
     f4 e g f( e) e \barMaior
-    d f f( g) g \barMin
-    a g f f g e e \barFinalis
+    d f g( a) a \barMin
+    a( b) a g a g e e \barFinalis
   }
   \addlyrics {
     Mis -- tře, kde byd -- líš?
@@ -31,8 +31,8 @@
   \relative c' {
     \choralniRezim
     f4 g a a g( a) \barMaior
-    a a g f e( f) d e e \barMaior
-    f g a a g f e e e \barFinalis
+    a a g f e f d( c) c \barMaior
+    d c d f f f g( a) f f \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci šli,
@@ -41,8 +41,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
-    differentia = "E"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ne2b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -52,9 +52,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a c b g a g g \barMin
-    f a c c d c d d( c) \barMaior
-    c c d e c a a c b a( g) g \barFinalis
+    a4 a g f e f d d \barMin
+    f g a a c b a( b) a \barMaior
+    a a g f g a g f d e d \barFinalis
   }
   \addlyrics {
     On -- dřej ře -- kl Ši -- mo -- no -- vi:
@@ -63,9 +63,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "c"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-amagA?zacatek=8"
     id = "ne2b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -29,11 +29,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 e g f( e) e \barMaior
     d f f( g) g \barMin
     a g f f g e e \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře, kde byd -- líš?
+    Je -- žíš ře -- kl:
+    Pojď -- te a u -- vi -- dí -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne2b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 e g f( e) e \barMaior
+    d f \mark\sipka g( a) a \barMin
+    a( b) a g a g e e \barFinalis
   }
   \addlyrics {
     Mis -- tře, kde byd -- líš?
@@ -99,7 +122,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a g( a) \barMaior
     a a g f e( f) d e e \barMaior
@@ -114,6 +137,51 @@
     quid = "ant. k Benedictus"
     modus = "IV"
     differentia = "E"
+    psalmus = ""
+    id = "ne2b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka e4 g a a g( a) \barMaior
+    a a g f e( f) d e e \barMaior
+    f g a \mark\sipka g( a) g f e e e \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci šli,
+    vi -- dě -- li, kde Je -- žíš byd -- lí,
+    a ten den zů -- sta -- li u ně -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne2b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g( a) \barMaior
+    a a g f \mark\sipka e f d( c) c \barMaior
+    d c d f f f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci šli,
+    vi -- dě -- li, kde Je -- žíš byd -- lí,
+    a ten den zů -- sta -- li u ně -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ne2b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -170,7 +238,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a c b g a g g \barMin
     f a c c d c d d( c) \barMaior
@@ -186,6 +254,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "to halekavé _Mesiáše_ byl kdysi záměr, ale není to tady vhodné"
     id = "ne2b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -208,6 +277,53 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    id = "ne2b-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f e f d d \barMin
+    f g a a c b a( b) a \barMaior
+    a a g f g( a) g g f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    On -- dřej ře -- kl Ši -- mo -- no -- vi:
+    "\"Na" -- lez -- li jsme Me -- si -- á -- "še\" -"
+    a při -- ve -- dl Ši -- mo -- na k_Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-amagA?zacatek=8"
+    id = "ne2b-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f e f d d \barMin
+    f g a a c b a( b) a \barMaior
+    a a g f \mark\sipka g a g f d e d \barFinalis
+  }
+  \addlyrics {
+    On -- dřej ře -- kl Ši -- mo -- no -- vi:
+    "\"Na" -- lez -- li jsme Me -- si -- á -- "še\" -"
+    a při -- ve -- dl Ši -- mo -- na k_Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-amagA?zacatek=8"
     id = "ne2b-ne2-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
