@@ -156,6 +156,7 @@ tIInedeleInespAntIII = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-III"
+    placet = "začátek se mi po předchozí antifoně těžko zpívá"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
