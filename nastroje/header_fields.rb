@@ -5,8 +5,17 @@ require 'lyv'
 fields = Hash.new { 0 }
 scores = 0
 
+parser = Lyv::LilyPondParser.new
+
 ARGV.each do |path|
-  Lyv::LilyPondMusic.new(path).scores.each do |score|
+  document =
+    if ENV['USE_LYV_PARSER']
+      parser.parse_document(File.read(path))
+    else
+      Lyv::LilyPondMusic.new(path)
+    end
+
+  document.scores.each do |score|
     score.header.keys.each {|k| fields[k] += 1 }
     scores += 1
   end

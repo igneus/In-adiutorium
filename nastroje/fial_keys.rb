@@ -6,8 +6,17 @@ require_relative 'fial'
 fial_keys = Hash.new { 0 }
 scores = 0
 
+parser = Lyv::LilyPondParser.new
+
 ARGV.each do |path|
-  Lyv::LilyPondMusic.new(path).scores.each do |score|
+  document =
+    if ENV['USE_LYV_PARSER']
+      parser.parse_document(File.read(path))
+    else
+      Lyv::LilyPondMusic.new(path)
+    end
+
+  document.scores.each do |score|
     next unless score.header['fial']
 
     FIAL.parse(score.header['fial'])
