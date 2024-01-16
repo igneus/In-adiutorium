@@ -139,7 +139,7 @@
     psalmus = "Iz 38"
     id = "rch-a2"
     fons = "melodie z: Bílá sobota, ranní chvály, 2. ant."
-    fial = "pust_triduum.ly#so-rch-ant2?konec"
+    fial = "pust_triduum.ly#so-rch-ant2?konec=22"
     piece = \markup {\sestavTitulek}
   }
 }
