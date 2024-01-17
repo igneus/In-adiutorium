@@ -1219,6 +1219,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f f( g) g \barMin
+    a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din tě chrá -- ní
+    o -- de vše -- ho zlé -- ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Žalm 121"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1876,6 +1896,38 @@
     e d c d e f e d( e) e \barFinalis
     % Slava
     e( a) a g( a b a) a \barMin a g( f e) e \barMin e f d d( f) e e \barFinalis
+  }
+  \addlyrics {
+    \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*
+    dej jim od -- po -- či -- nu -- tí věč -- né.
+    \Verse Ty při -- jdeš sou -- dit ži -- vé i mrt -- vé,_*
+    \Response dej jim od -- po -- či -- nu -- tí věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "ne-resp2"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna e
+    e4 e \barMin f e d c d d e e \barMax
+    d e f g f e d d( e) e \barFinalis
+    % V
+    \neviditelna e
+    e d c d( e f e) e \barMin e f g f( e) e \barMax
+    % R
+    \neviditelna e
+    d e f g f e d d( e) e \barFinalis
+    % Slava
+    e d c d c d( e) e \barMin e f g f( d) e e \barFinalis
   }
   \addlyrics {
     \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*

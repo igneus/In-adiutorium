@@ -888,6 +888,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka a b( c a g) g \barMaior
+    a a a g f g a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- jde,
+    za -- sed -- ne me -- zi kní -- ža -- ty na trůn slá -- vy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 c( a) c( d) d \barMaior

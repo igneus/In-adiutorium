@@ -4295,6 +4295,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f( e f) d( c) c4.( d) \barMaior
+    \mark\sipka f4 e f( g) f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Z_mo -- ci pod -- svě -- tí_*
+    za -- chraň, Pa -- ne, mou du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "so-rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

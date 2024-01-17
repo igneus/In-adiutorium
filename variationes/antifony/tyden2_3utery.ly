@@ -754,6 +754,24 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c a c b( a) g \barMin \mark\sipka g a g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d c d( e) d d \barMin d c b a b a g g \barFinalis
   }
   \addlyrics {
@@ -809,6 +827,24 @@
   \relative c'' {
     \choralniRezim
     g4 a a g( a) g g \barMin g f g a f f g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g( a) a \barMin a c c b a b g g \barFinalis
   }
   \addlyrics {
     Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
@@ -949,8 +985,12 @@
   }
 }
 
+\markup{
+  (Srov. výše stejný počáteční motiv v modu VII.)
+}
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 g f g( a) g g \barMin g a g f g g f f \barFinalis
   }
@@ -971,6 +1011,24 @@
   \relative c' {
     \choralniRezim
     f4 g f g( a) g g \barMin g a \mark\sipka a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f g( a) g g \barMin g \mark\sipka f g a a g f f \barFinalis
   }
   \addlyrics {
     Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
