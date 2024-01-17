@@ -358,6 +358,7 @@
     modus = "IV alt"
     differentia = "c"
     psalmus = "Žalm 121"
+    placet = "špatně sedí v modu, dokonce se mi po ní těžko intonuje žalm"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
