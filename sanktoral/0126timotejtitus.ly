@@ -43,13 +43,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4 d f e f d e c( d) d \barMaior
-    d c a c d e d d \barMin
-    f e d c( d) c c \barMaior
-    c( d e f) e( d) \barMin
-    f e c c( d) d \barFinalis
+    g4 a c c c b a c( d) d \barMaior
+    d e d c d c a a \barMin
+    c b a g( a) g g \barMaior
+    f g a c b g( a) a \barFinalis
   }
   \addlyrics {
     Žij -- me spra -- ved -- li -- vě a zbož -- ně
@@ -63,7 +62,7 @@
     a přitom očekávejme v blažené naději příchod Pána."
     quid = "ant. k Magnificat"
     modus = "II"
-    differentia = "D"
+    differentia = "A"
     psalmus = ""
     fial = "antifony/advent_tyden3.ly#ne-2ne-a3"
     id = "amag"

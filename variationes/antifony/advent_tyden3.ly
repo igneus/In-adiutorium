@@ -1279,7 +1279,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 d f e f d e c( d) d \barMaior
     d c a c d e d d \barMin
@@ -1299,6 +1299,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Zj 19"
+    placet = "dramatický sestup na _a přitom_ se míjí s textem; _příchod našeho Pána_ moc nedrží pohromadě"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -1350,6 +1351,31 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Zj 19"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c c \mark\sipka b a c( d) d \barMaior
+    d e d c d c a a \barMin
+    c b a g( a) g g \barMaior
+    \mark\sipka f g a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Žij -- me spra -- ved -- li -- vě a zbož -- ně
+    a při -- tom o -- če -- ká -- vej -- me
+    v_bla -- že -- né na -- dě -- ji
+    pří -- chod na -- še -- ho Pá -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "A"
     psalmus = "Zj 19"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
