@@ -103,6 +103,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g c d e c d \barMaior
+    c c d e f d c c d b a g g \barMaior
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý Je -- ru -- za -- lém zpí -- vá ra -- dos -- tí,
+    všech -- na je -- ho pro -- stran -- ství jsou pl -- ná já -- so -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\italic{V době postní:}
 
 \score {

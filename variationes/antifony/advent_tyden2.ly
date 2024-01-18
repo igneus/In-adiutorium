@@ -625,6 +625,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a') \mark\sipka a a g( f) e e \barMin f g f( d) d \barMaior
+    d c d d f c d \barMin f f f g f e d d \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vy všich -- ni, kdo žíz -- ní -- te, pojď -- te k_vo -- dám:
+    hle -- dej -- te Hos -- po -- di -- na,
+    do -- kud je mož -- né ho na -- jít.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-II"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

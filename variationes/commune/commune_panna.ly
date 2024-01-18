@@ -2279,6 +2279,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d( e) d c c( d) d \barMaior
+    d c b a b
+    c a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Jak krás -- né a slav -- né
+    je svě -- dec -- tví těch,
+    kdo ži -- li čis -- tě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak % ZLOM
 
 \markup {\nadpisHodinka {"2. nešpory"}}
