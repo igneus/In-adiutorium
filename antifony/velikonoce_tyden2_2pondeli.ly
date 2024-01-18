@@ -57,8 +57,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( c) c( d) d \barMin
-    d( g) f g( d) d d( e) f d( c d) d \barMaior
+    d4 d d( c) c( d) d \barMaior
+    d( f) e f( g) g \barMin g( a) g f( e d e) e( d) \barMaior
     d c d f( g f d) d d e( f) d d \barMaior
     e c c( d) d \barFinalis
   }
@@ -73,10 +73,9 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 19-A"
-    placet = "spíš jinak, vázat se na konec převzatý z delší antifony není třeba"
     id = "rch-a3"
     fons = "Druha cast z:"
-    fial = "commune/commune_apostol.ly#rch-aben?konec"
+    fial = "commune/commune_apostol.ly#rch-aben?konec=19"
     piece = \markup {\sestavTitulek}
   }
 }

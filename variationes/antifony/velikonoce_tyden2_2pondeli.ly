@@ -403,7 +403,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( c) c( d) d \barMin
     d( g) f g( d) d d( e) f d( c d) d \barMaior
@@ -421,6 +421,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 19-A"
+    placet = "spíš jinak, vázat se na konec převzatý z delší antifony není třeba"
     id = "rch-a3"
     fons = "Druha cast z:"
     fial = "commune/commune_apostol.ly#rch-aben?konec"
@@ -506,6 +507,38 @@
   }
 }
 
+\markup\justify{
+  Melodie _ozařuje svaté město_ sleduje průběh odpovídající
+  části zdrojové antifony, takže síly ústící ve zkopírovaný
+  závěrečný oddíl jsou téměř totožné.
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( c) c( d) d \barMaior
+    \mark\sipka d( f) e f( g) g \barMin g( a) g f( e d e) e( d) \barMaior
+    d c d f( g f d) d d e( f) d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    fons = "Druha cast z:"
+    fial = "commune/commune_apostol.ly#rch-aben?konec=19"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -524,6 +557,78 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( g) f( g) g \barMin
+    a a g f e f d( c) c \barMaior
+    d e f e( d) c c e( f) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( b) c( d) d \barMin
+    e e d c d e e( d) d \barMaior
+    d c b a( b) g f g( a) g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( b) c( d) d \barMin
+    \mark\sipka d d d d e c d( e d) d \barMaior
+    d c b a( b) g \mark\sipka g a( g) f( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 19-A"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
