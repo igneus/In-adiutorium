@@ -280,6 +280,49 @@
   }
 }
 
+\markup\justify{
+  (Jen zexplicitnění rytmisace, se kterou stávající melodie dává smysl.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a a a a g f g a g f f \barMaior
+    g g( a) g a( bes) a g( f d) \barMin \mark\sipka f-- f( g) a g( a f) e( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bit tě bu -- du ve svém ži -- vo -- tě, Bo -- že,
+    v_tvém jmé -- nu po -- vzne -- su své dla -- ně k_mod -- lit -- bě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 63"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a a a a g f g a g f f \barMaior
+    g g( a) g a( bes) a g( f d) \barMin \mark\sipka f g a g( a f) e( f) f \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bit tě bu -- du ve svém ži -- vo -- tě, Bo -- že,
+    v_tvém jmé -- nu po -- vzne -- su své dla -- ně k_mod -- lit -- bě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 63"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

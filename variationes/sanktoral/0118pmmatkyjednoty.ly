@@ -605,6 +605,40 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g g \mark\sipka f g g( a) g \barMin f d f g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a g( a) g \barMin
+    g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g \mark\sipka f g g( a) g \barMin f d f g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Shro -- máž -- dím vás ze všech ná -- ro -- dů._*
+    Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \Verse Bu -- de -- te mít jed -- no srd -- ce
+    a jed -- nu du -- ši._*
+    \Response Bu -- de jen jed -- no stád -- ce, jen je -- den pas -- týř.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1086,6 +1120,74 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g \barMin f f g f g a g \barMax
+    f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a \mark\sipka a a a( bes) a \barMin
+    a a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Je -- den Pán, jed -- na ví -- ra, je -- den křest._*
+    Je -- den Bůh a O -- tec všech.
+    \Verse On je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky a je ve všech._*
+    \Response Je -- den Bůh a O -- tec všech.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g \barMin \mark\sipka f g a g f a g \barMax
+    f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a \barMin
+    a a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Je -- den Pán, jed -- na ví -- ra, je -- den křest._*
+    Je -- den Bůh a O -- tec všech.
+    \Verse On je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky a je ve všech._*
+    \Response Je -- den Bůh a O -- tec všech.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1168,6 +1270,35 @@
     e4 a b a g( a) a \barMin g f d e e \barMaior
     \mark\sipka e e e f g e e f g g a a \barMin
     b( c a) a g( a) g f d e e \barMaior
+    d( c d) d( f) f f g f e e \barFinalis
+  }
+  \addlyrics {
+    Shro -- máž -- di nás, Pa -- ne, ze všech ná -- ro -- dů,
+    a -- by -- chom pod o -- chra -- nou Pan -- ny Ma -- ri -- e,
+    Mat -- ky jed -- no -- ty křes -- ťa -- nů,
+    chvá -- li -- li tvé sva -- té jmé -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Úprava _ze všech národů_ se mi drala na jazyk,
+  změny po ní následující jsou jí vynucené.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    e4 a b a g( a) a \barMin g \mark\sipka e f e e \barMaior
+    d c d e f e e f g a g g \barMin
+    a( b) a a g f d e e \barMaior
     d( c d) d( f) f f g f e e \barFinalis
   }
   \addlyrics {

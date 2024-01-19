@@ -1021,6 +1021,49 @@
     \relative c'' {
       \choralniRezim
       g4 a g g( c) c b( c) a( g) g \barMaior
+      g f e g4. g4 a( b c) a g( a) g \barMaior
+      g g g a f \mark\sipka g( a) g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      id = "vden-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      g4 a g g( c) c b( c) a( g) g \barMaior
+      g f e g4. g4 a( b c) a g( a) g \barMaior
+      g g g a \mark\sipka a g f g( a g) g \barFinalis
+    }
+    \addlyrics {
+      Až vy -- jde slun -- ce na ne -- bi, spa -- tří -- te slá -- vu
+      krá -- le krá -- lů, kte -- ré -- ho O -- tec po -- slal na svět.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      id = "vden-1ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a g g( c) c b( c) a( g) g \barMaior
       g f e g4. g4 a( b c) \mark\sipka b c( d) d \barMaior
       d c b a a b a a( g) g \barFinalis
     }
