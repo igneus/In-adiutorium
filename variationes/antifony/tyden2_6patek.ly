@@ -2028,6 +2028,44 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c a g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá to -- ho, ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) g \barMin
+    f g bes g bes4. a \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá
+    to -- ho, ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}

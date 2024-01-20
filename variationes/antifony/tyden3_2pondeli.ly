@@ -1259,6 +1259,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g a g g \barMin
+    g a f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm, kdo pře -- bý -- va -- jí
+    v_tvém do -- mě, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a \mark\sipka c b g g \barMin
+    g a f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze těm, kdo pře -- bý -- va -- jí
+    v_tvém do -- mě, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 84"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
