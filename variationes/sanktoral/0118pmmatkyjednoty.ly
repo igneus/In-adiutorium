@@ -1241,7 +1241,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 a b a g( a) a \barMin g f d e e \barMaior
     \mark\sipka e d e g a a a \mark\sipka a g b a a \barMin
@@ -1294,11 +1294,38 @@
 }
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
     \choralniRezim
     e4 a b a g( a) a \barMin g \mark\sipka e f e e \barMaior
     d c d e f e e f g a g g \barMin
     a( b) a a g f d e e \barMaior
+    d( c d) d( f) f f g f e e \barFinalis
+  }
+  \addlyrics {
+    Shro -- máž -- di nás, Pa -- ne, ze všech ná -- ro -- dů,
+    a -- by -- chom pod o -- chra -- nou Pan -- ny Ma -- ri -- e,
+    Mat -- ky jed -- no -- ty křes -- ťa -- nů,
+    chvá -- li -- li tvé sva -- té jmé -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Vrácení změny, která nutná nebyla.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 a b a g( a) a \barMin g e f e e \barMaior
+    d c d e f e e f g a g g \barMin
+    \mark\sipka g( a) g g f e d e e \barMaior
     d( c d) d( f) f f g f e e \barFinalis
   }
   \addlyrics {
