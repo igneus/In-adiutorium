@@ -166,11 +166,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e f f( g) g \barMin g g( a) f g( f) d d \barMaior
-    d e d c d e f g g( a) a \barMaior
-    a g a a( c a) g a a4.( g4 f) e( f) d d \barFinalis
+    d4 d e f f( g) g \barMin g a g f f( g) g \barMaior
+    a a g f e f d c d( c) c \barMaior
+    d c d f f e c e( f) d d \barFinalis
 
-    e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Kdo má slo -- va sly -- ší a po -- dle nich jed -- ná,

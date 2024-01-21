@@ -476,12 +476,40 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d e f f( g) g \barMin g g( a) f g( f) d d \barMaior
     d e d c d e f g g( a) a \barMaior
     a g a a( c a) g a a4.( g4 f) e( f) d d \barFinalis
 
     e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo má slo -- va sly -- ší a po -- dle nich jed -- ná,
+    po -- do -- bá se roz -- váž -- né -- mu mu -- ži,
+    kte -- rý si po -- sta -- vil dům na ská -- le.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    placet = "poslední část je přepjatá, nápěv neodpovídá textu"
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin a a g f g( a) g \barMaior
+    a a g f e f d c d( c) c \barMaior
+    d c d f f e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Kdo má slo -- va sly -- ší a po -- dle nich jed -- ná,
@@ -502,12 +530,13 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-    d4 c f g f( a) a \barMin a a g f g( a) g \barMaior
+    d4 d e f f( g) g \barMin g a g f f( g) g \barMaior
     a a g f e f d c d( c) c \barMaior
     d c d f f e c e( f) d d \barFinalis
 
-    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Kdo má slo -- va sly -- ší a po -- dle nich jed -- ná,
