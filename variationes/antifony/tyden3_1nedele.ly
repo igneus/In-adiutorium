@@ -1247,6 +1247,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     g4 g g( a) a \barMin b c a g a g g \barMaior
     c c c b a g a f g a a( g) g \barFinalis

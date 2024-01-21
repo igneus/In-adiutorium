@@ -1551,6 +1551,29 @@
     e4 f g a g f e e \barMin
     d c( d) e f e e \barMin
     f4( a) g f( e) e \barMaior
+    a g \mark\sipka f g a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,
+    Hos -- po -- di -- ne,
+    vždyť skr -- ze ně jsi mi dal ži -- vot.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 119-XII"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f g a g f e e \barMin
+    d c( d) e f e e \barMin
+    f4( a) g f( e) e \barMaior
     a \mark\sipka a a g a g f d( e) e \barFinalis
   }
   \addlyrics {
