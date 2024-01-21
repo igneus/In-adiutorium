@@ -512,23 +512,38 @@
 \markup{
   Srov. \italic{Super opera manuum tuarum,} APraem1718 345.
 }
+
+\markup\justify{
+  (Kromě modu nemá s latinskou předlohou společného nic, co by stálo za řeč.
+  Předloha je výrazně delší, není z nejzpěvnějších a ani žádný pěkný
+  charakteristický motiv se mi z ní vybrat nepodařilo.)
+}
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-
+    f4 g f g g( a) a \barMin
+    a a a g f g a a( g) g \barMaior
+    a a a g f g a g f e( f) d( c) c \barMaior
+    d c d d( f) f \barMin g( a) g f g g( f) f \barFinalis
   }
   \addlyrics {
-    Nad díla svých rukou ustanovil jsi toho, Pane, jehož jedinou slávou bylo vyznávat Ježíše Krista Ukřižovaného.
+    Nad dí -- la svých ru -- kou
+    u -- sta -- no -- vil jsi to -- ho, Pa -- ne,
+    je -- hož je -- di -- nou slá -- vou by -- lo vy -- zná -- vat
+    Je -- ží -- še Kris -- ta U -- kři -- žo -- va -- né -- ho.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 8"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup{
   Srov. \italic{Dolum in lingua sua,} APraem1718 348.
@@ -541,22 +556,30 @@
   z Bílé soboty.)
 }
 \score {
-  \relative c' {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
-
+    g4 b c d d b d( e) d d \barMaior
+    f g f e c d d \barMin
+    c b g a( g f g) g \barFinalis
   }
   \addlyrics {
-    Nemluvil křivě svým jazykem, a proto odpočívá na svaté hoře.
+    Ne -- mlu -- vil kři -- vě svým ja -- zy -- kem,
+    a pro -- to od -- po -- čí -- vá
+    na sva -- té ho -- ře.
   }
   \header {
+    fons_externus = "velmi volně podle APraem1718 348"
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 24"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -581,6 +604,10 @@
   }
 }
 
+\markup{
+  Snad podle \italic{In domum Praemonstratam,} APraem1934 345.
+  (Jedna dlouhá antifona za reformy vydala na dvě kratší?)
+}
 \score {
   \relative c' {
     \choralniRezim
