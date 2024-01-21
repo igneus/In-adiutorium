@@ -721,9 +721,9 @@
       \choralniRezim
       d4 b d( e) d d \barMin
       c b a b a g g \barMaior
-      g f a c b c d c c \barMin
-      c b( a g) g
-      f a g g \barFinalis
+      g a a g f g a a a \barMin
+      c-- b g
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Kris -- te, zje -- vil ses
@@ -737,7 +737,6 @@
       modus = "VII"
       differentia = "d"
       psalmus = ""
-      placet = "druhou půlku lépe"
       id = "8-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -746,12 +745,12 @@
   \markup {\nadpisDen {9. ledna}}
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      f4 g g a a \barMin
-      a a a a g f e( f d c) c \barMaior
-      d d d d d( f) e f( g) g \barMin
-      a f e f d d \barFinalis
+      g4 a c d d \barMin
+      c d d d e c d( e d) d \barMaior
+      c d c b a b g g
+      a g f a g g \barFinalis
     }
     \addlyrics {
       U -- vi -- dě -- li jsme
@@ -761,10 +760,9 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "I"
-      differentia = "f"
+      modus = "VII"
+      differentia = "a"
       psalmus = ""
-      placet = "půjde lépe"
       id = "9-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -824,10 +822,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 c b a c( d) e( d) d \barMaior
-      d e( d) c( d) c \barMin
+      c4 c b a c( d) d d \barMaior
+      d e( f) d d( c a) \barMin
       c c c b( a) g g
-      f a a( g) g \barFinalis
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Při -- jdou všich -- ni ze Sá -- by
@@ -839,7 +837,6 @@
       modus = "VII"
       differentia = "c"
       psalmus = ""
-      placet = "lépe"
       id = "10-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -872,8 +869,8 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a g f g g( a) a \barMin g a g f e e \barMaior
-      d f g g( a) a a c b a( b a) a \barMin g( a) g e e \barFinalis
+      a4 a a g f g g( a) a \barMin g a b g a a \barMaior
+      a b a g( a) g g \barMin f g a g f e d( e) e \barFinalis
     }
     \addlyrics {
       Mu -- dr -- ci do -- sta -- li ve snu od an -- dě -- la po -- kyn,
@@ -884,7 +881,6 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
-      placet = "nevím"
       id = "11-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
