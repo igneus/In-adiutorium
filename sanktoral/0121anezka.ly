@@ -43,7 +43,7 @@
   \relative c'' {
     \choralniRezim
     g4 a g f f f( g) g \barMin
-    a a a( b c) a a( b) a( g) g \barMaior
+    a a b( c) a a( b) a( g) g \barMaior
     c c c \[ c( d c \] \[ d e d c) \] b( a) \barMin
     c c c b( a g) g a( g) f a g g \barFinalis
   }
@@ -166,10 +166,10 @@
   \relative c'' {
     \choralniRezim
     g4 a a( c) c \barMin
-    c c c( d) c a a \barMin
-    c b a g( a) g \barMaior
-    a a g a g f g( a) \barMin
-    a( c) b g g g \barFinalis
+    c b c( d) d c c \barMin
+    b c a g( a) g \barMaior
+    a a g a g f g( f d) \barMin
+    f( g) a a g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím tě,
@@ -197,14 +197,14 @@
   \relative c' {
     \choralniRezim
     c4 d e( f d) c( d) d \barMaior
-    \stemUp d( a' bes) a a a( c) a g( a) a \barMin
+    f( g) g( a) a a( c) a g( a) a \barMin
     f g f d d \barMax
 
     f4 g f( d) d \barMin
     f d d f e d( c) c \barMaior
     f g a a( bes a) g( a) a \barMin
-    a a a a g a g f g( f e) d( c) c \barMaior
-    d d d d( f) g f( e) d d \barFinalis
+    a a g f g a g f g( f e) d( c) c \barMaior
+    d d c d( f) g f( e) d d \barFinalis
   }
   \addlyrics {
     Sva -- tá A -- než -- ka
