@@ -8,7 +8,7 @@
   title = \markup\titleSvatek
             "sv. Norberta, biskupa a zakladatele řádu"
             památka
-            8.8.
+            6.6.
   composer = "Jakub Pavlík"
 }
 
