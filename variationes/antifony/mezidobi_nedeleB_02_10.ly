@@ -370,7 +370,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a g f g a a \barMaior
     a b( c) a( g) g \barMin
@@ -378,6 +378,71 @@
 
     d d d c d \barMin
     d f g g g g g f g( a) g g \barMaior
+    a( bes) a( g) f g \barMin
+    g f d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš při -- šel do Ga -- li -- le -- je
+    a hlá -- sal tam
+    Bo -- ží e -- van -- ge -- li -- um:
+
+    Na -- pl -- nil se čas
+    a při -- blí -- ži -- lo se Bo -- ží krá -- lov -- ství.
+    Ob -- rať -- te se
+    a věř -- te e -- van -- ge -- li -- u.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne3b-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g f g a a \barMaior
+    a b( c) a( g) g \barMin
+    a a g f e( f) d d \barMax
+
+    d d d c d \barMin
+    \mark\sipka f g g g g g g f g( a) g g \barMaior
+    a( bes) a( g) f g \barMin
+    g f d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš při -- šel do Ga -- li -- le -- je
+    a hlá -- sal tam
+    Bo -- ží e -- van -- ge -- li -- um:
+
+    Na -- pl -- nil se čas
+    a při -- blí -- ži -- lo se Bo -- ží krá -- lov -- ství.
+    Ob -- rať -- te se
+    a věř -- te e -- van -- ge -- li -- u.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne3b-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g a a \barMaior
+    a b( c) a( g) g \barMin
+    a a g f e( f) d d \barMax
+
+    d d d c d \barMin
+    f g g g g g \mark\sipka a f g( a) g g \barMaior
     a( bes) a( g) f g \barMin
     g f d f e c d d \barFinalis
   }
@@ -549,6 +614,30 @@
   }
 }
 
+\markup\justify{
+  (Ale tonus peregrinus je pro antifonu k evangelnímu kantiku hodně nezvyklý.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 d f( g) g \barMin
+    a \mark\sipka bes a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te za mnou;
+    u -- dě -- lám z_vás ry -- bá -- ře li -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "per"
+    differentia = ""
+    psalmus = ""
+    id = "ne3b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \zvyraznovacZeleny
@@ -565,6 +654,27 @@
     quid = "ant. k Benedictus"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "ne3b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMaior
+    d c b a( g) \barMin
+    f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te za mnou;
+    u -- dě -- lám z_vás ry -- bá -- ře li -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "ne3b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -732,6 +842,26 @@
     \choralniRezim
     f4 g a f f( g) g \barMin
     \mark\sipka g a a a g f g( a f4.) f \barFinalis
+  }
+  \addlyrics {
+    Ne -- cha -- li své sí -- tě
+    a ná -- sle -- do -- va -- li Pá -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne3b-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    \mark\sipka g f e d f g g( f) f \barFinalis
   }
   \addlyrics {
     Ne -- cha -- li své sí -- tě

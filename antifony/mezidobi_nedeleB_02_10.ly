@@ -82,7 +82,7 @@
     a a g f e( f) d d \barMax
 
     d d d c d \barMin
-    d f g g g g g f g( a) g g \barMaior
+    f g g g g g g f g( a) g g \barMaior
     a( bes) a( g) f g \barMin
     g f d f e c d d \barFinalis
   }
