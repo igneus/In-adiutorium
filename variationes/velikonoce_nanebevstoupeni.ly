@@ -2290,7 +2290,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 }
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 a c c c( d) d c c \barMin
     c f e d c( d) c \barMaior
@@ -2319,7 +2319,94 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   Tady by se asi dalo kritisovat, že nápěv (žádná z dosavadních verzí)
   dobře nereflektuje významovou strukturu výpovědi.
   Třeba časem přijdu na vhodnější.
-  Bude vhodné podívat se na odpovídající latinskou antifonu (AR1912, 413).
+  Bude vhodné podívat se na odpovídající latinskou antifonu (AR1912, 414).
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d e( g) e d( e) d \barMin
+    b( c) d c a g g \barMaior
+    c( b) a c( d) d \barMin
+    d c b a g a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- stu -- pu -- ji k_své -- mu Ot -- ci
+    a k_va -- še -- mu Ot -- ci,
+    k_své -- mu Bo -- hu
+    a k_va -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 414"
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Amalgám dosavadní verze, psané v modu V, a verze podle latinské antifony.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b d d \mark\sipka e( g) e d( e) d \barMin
+    b( c) d b a g g \barMaior
+    d'( c) b a( g) a \barMin
+    a \mark\sipka a g a b a
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- stu -- pu -- ji k_své -- mu Ot -- ci
+    a k_va -- še -- mu Ot -- ci,
+    k_své -- mu Bo -- hu
+    a k_va -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Závěr přeci jen podle verze latinské)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 b d d e( g) e d( e) d \barMin
+    b( c) d b a g g \barMaior
+    \mark\sipka c( b) a c( d) d \barMin
+    d c b a g a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- stu -- pu -- ji k_své -- mu Ot -- ci
+    a k_va -- še -- mu Ot -- ci,
+    k_své -- mu Bo -- hu
+    a k_va -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 414"
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
 }
 
 \pageBreak
@@ -2525,6 +2612,28 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     differentia = "c"
     psalmus = ""
     placet = "závěr je jaksi neuspokojivý, protože na příliš krátké dráze přistává z přílišné výšky"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c e( d) d \barMin
+    \mark\sipka c b a b a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Svou ve -- leb -- nos -- tí
+    pře -- vý -- šils, Bo -- že, ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }

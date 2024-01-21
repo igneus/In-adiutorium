@@ -378,13 +378,13 @@
 
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 a c c c( d) d c c \barMin
-    c f e d c( d) c \barMaior
-    c( bes) a g( f) g \barMin
-    g a g a f( g f) f \barMaior
-    g a g( f) f \barFinalis
+    g4 b d d e( g) e d( e) d \barMin
+    b( c) d b a g g \barMaior
+    c( b) a c( d) d \barMin
+    d c b a g a
+    b a g g \barFinalis
   }
   \addlyrics {
     Vy -- stu -- pu -- ji k_své -- mu Ot -- ci
@@ -394,11 +394,11 @@
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle AR1912 414"
     quid = "ant. k Benedictus"
-    modus = "V"
+    modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "posvítit si na to, jak nápěv ne/odpovídá významové struktuře textu"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
