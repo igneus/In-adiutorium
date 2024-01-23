@@ -284,6 +284,30 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g( d') \barMin e d c d d \barMaior
+    d c b b c a a( g) g \barFinalis
+
+    a^\rubrVelikAleluja b g g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je Bo -- hem spá -- sy;
+    on dá -- vá u -- nik -- nout smr -- ti.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 68-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4 b c d d \barMaior
