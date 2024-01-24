@@ -235,6 +235,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( e) f \barMin e d e d \barMaior
+    e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď mě, Hos -- po -- di -- ne,
+    na po -- moc mi po -- spěš.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 40-II"
+    fial = "antifony/tyden3_7sobota.ly#up-ant1?zacatek=10"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

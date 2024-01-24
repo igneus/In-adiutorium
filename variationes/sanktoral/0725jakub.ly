@@ -1201,6 +1201,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c
+    f( g a) a \barMin a a( c) a g g( a) \barMaior
+    a g f e( f) d d
+    e d c d d \barFinalis
+  }
+  \addlyrics {
+    Teh -- dy jim ře -- kl:
+    Bdě -- te a mod -- le -- te se,
+    a -- bys -- te ne -- přiš -- li
+    do po -- ku -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

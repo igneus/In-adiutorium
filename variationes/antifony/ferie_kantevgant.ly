@@ -101,7 +101,47 @@
 \score {
   \relative c' {
     \choralniRezim
+    f \mark\sipka g a f g g f \barMin g( a) f \barFinalis
+  }
+  \addlyrics {
+    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "t1-po-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f g a a g( a) g( f) f \barMin g( a) f \barFinalis
+  }
+  \addlyrics {
+    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "t1-po-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Nápěv těsně podle \cantusid-link "001720"
+  v solesmeském Psalterium monasticum)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f g g( a) f g f( e) d \barMin f( g) f \barFinalis
   }
   \addlyrics {
     Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
@@ -1252,6 +1292,26 @@
     \choralniRezim
     g4 a c( b c4.) a4. \barMaior
     c4( b) a4 \barMin g4( f) a a g g \barFinalis
+  }
+  \addlyrics {
+    Můj duch já -- sá
+    v_Bo -- hu, mém spa -- si -- te -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t1-ut-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    b( c) a g f a g g \barFinalis
   }
   \addlyrics {
     Můj duch já -- sá

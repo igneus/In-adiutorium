@@ -592,7 +592,8 @@
 
   }
   \addlyrics {
-    Norbert zapřel sám sebe a následoval Krista po neschůdnější cestě.
+    Nor -- bert za -- přel sám se -- be
+    a ná -- sle -- do -- val Kris -- ta po ne -- schůd -- něj -- ší ces -- tě.
   }
   \header {
     quid = "1. ant."
@@ -728,6 +729,52 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g--
+    g f g a g f f \barMaior
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Mno -- zí jsme jed -- no tě -- lo v_Kris -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g--
+    g f g \mark\sipka bes g bes a \barMaior
+
+    g^\markup\rubrVelikAleluja bes a a \barFinalis
+  }
+  \addlyrics {
+    Mno -- zí jsme jed -- no tě -- lo v_Kris -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "g3"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g f g f e f d d \barMaior
 
     e^\markup\rubrVelikAleluja d c( d) d \barFinalis
@@ -829,6 +876,14 @@
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
+
+\markup\justify{
+  Srov. též
+  \with-url "https://www.youtube.com/live/2tBW0LyXTKQ" {
+    latinské zpívané nešpory podle nového premonstrátského vesperálu
+  }
+  (repertoár odpovídá odkazovaným předlohám českých zpěvů).
+}
 
 \markup{
   \italic{Norbertus, lucerna ardens,} APraem1934 693.

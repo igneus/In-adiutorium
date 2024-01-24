@@ -906,8 +906,45 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g a c c d( e) d d \barMin d c b c( a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj, Bo -- že, na svůj lid, kte -- rý sis vy -- vo -- lil.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 74-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a c d d c d a \barMin
     c c c b c a4. a \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, u -- jmi se své vě -- ci, ne -- pří -- tel se ti rou -- hal.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 74-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d c e d \barMin
+    c b g b c a a \barFinalis
   }
   \addlyrics {
     Bo -- že, u -- jmi se své vě -- ci, ne -- pří -- tel se ti rou -- hal.
@@ -954,8 +991,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 74-I"
     id = "up-ant2"
     piece = \markup {\sestavTitulek}
