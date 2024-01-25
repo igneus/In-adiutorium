@@ -189,7 +189,7 @@
     f d f( g) g f f \barFinalis
     % V
     \neviditelna a
-    a4 a( bes) a a a a a g( a) g g \barMin g f g a a( g) \barMax
+    a4 a( bes) a a a a a g( a) g g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna f
     f d f( g) g f f \barFinalis
@@ -216,8 +216,8 @@
     \choralniRezim
     c4 d d( f) f \barMin
     g( a g) f( e) d d f g a a( g) g \barMaior
-    a bes a g f g g( f) \barMin
-    g g g f e d c d c c \barMin
+    a bes a g f g g \barMin
+    f d d f e d c d c c \barMin
     d e f d c c( d) d \barFinalis
   }
   \addlyrics {
@@ -401,13 +401,13 @@
     % R
     \neviditelna f
     f4 f f f f f f f g f \barMin g f f g( a) a( g) \barMax
-    g g g a g f d d \barMin f g g f f \barFinalis
+    g f g( a) g g \barMin g f d f g g f f \barFinalis
     % V
     \neviditelna a
     a( bes) a a \barMin a a g( a) g f g( a) a( g) \barFinalis
     % R
     \neviditelna a
-    g g g a g f d d \barMin f g g f f \barFinalis
+    g f g( a) g g \barMin g f d f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -444,7 +444,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a"
+    differentia = "a2"
     psalmus = ""
     fial = "commune/commune_ucitel.ly#2ne-amag?jiny_text"
     id = "ne-amag"
