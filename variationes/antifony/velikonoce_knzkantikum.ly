@@ -1402,7 +1402,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d( f) d d \barMin
     d e( f) d( c) c \barMaior
@@ -1430,6 +1430,31 @@
     \choralniRezim
     d4 d d \mark\sipka c d( f) d d \barMin
     d e( f) d( c) c \barMaior
+    f g f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_*
+    a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c \mark\sipka e( f) d d \barMin
+    d \mark\sipka f( e) e( c) c \barMaior
     f g f d d \barMin
     e c c( d) d \barFinalis
   }

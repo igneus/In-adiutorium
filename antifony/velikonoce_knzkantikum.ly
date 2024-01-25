@@ -223,8 +223,8 @@ velikTIIctvrtekNespAntIII = \score {
 velikTIIpatekNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    d4 d d d d( f) d d \barMin
-    d e( f) d( c) c \barMaior
+    d4 d d c e( f) d d \barMin
+    d f( e) e( c) c \barMaior
     f g f d d \barMin
     e c c( d) d \barFinalis
   }
