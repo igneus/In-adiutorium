@@ -4210,7 +4210,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g g g a( b) g g \barMin
       c c c c c c c b g g a a \barMaior
@@ -4231,6 +4231,7 @@
       differentia = "G"
       psalmus = ""
       annus = "A"
+      placet = "zvlášť první dva díly divné"
       id = "svrodiny-2ne-amagA"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -4256,6 +4257,34 @@
       quid = "ant. k Magnificat"
       modus = "VIII"
       differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-2ne-amagA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a g f g( a) g g \barMin
+      a g g g f g a bes a g a a \barMaior
+      a g f g( a) g g \barMin
+      g g a g f e f d c c \barMaior
+      d c d d( f) f f( g) f d d \barFinalis
+    }
+    \addlyrics {
+      U -- sa -- di -- li se s_Je -- ží -- šem ve měs -- tě,
+      kte -- ré se jme -- nu -- je Na -- za -- ret,
+      a -- by se spl -- ni -- lo,
+      co je ře -- če -- no ús -- ty pro -- ro -- ků:
+      Bu -- de na -- zý -- ván Na -- za -- ret -- ský.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
       psalmus = ""
       annus = "A"
       id = "svrodiny-2ne-amagA"
@@ -4382,7 +4411,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 f f \mark\sipka g f a( g) g \barMin
       a g f d( e) d( c) \barMaior
@@ -4397,6 +4426,53 @@
       quid = "ant. k Magnificat"
       modus = "I"
       differentia = "f"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-2ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a g f g( a g4.) g \barMin
+      g4 f e d( c) c \barMaior
+      d f e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vrá -- til
+      do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "g2"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-2ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g f \mark\sipka g( f d4.) d \barMin
+      f4 e f d( c) c \barMaior
+      d f e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vrá -- til
+      do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
       psalmus = ""
       annus = "C"
       id = "svrodiny-2ne-amagC"
@@ -4427,6 +4503,9 @@
     }
   }
 
+  \markup{
+    Vycházet z jiné antifony téže hodinky není příliš vhodné.
+  }
   \score {
     \relative c'' {
       \choralniRezim

@@ -1307,26 +1307,25 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g g g a( b) g g \barMin
-      c c c c c c c b g g a a \barMaior
-      a a a f e d \barMin
-      f g a a a a( c) b a g g \barMaior
-      c c c( d) c c( b a) g a a( g) g \barFinalis
+      a4 a a g f g( a) g g \barMin
+      a g g g f g a bes a g a a \barMaior
+      a g f g( a) g g \barMin
+      g g a g f e f d c c \barMaior
+      d c d d( f) f f( g) f d d \barFinalis
     }
     \addlyrics {
-      U -- sa -- di -- li se s_Je -- ží -- šem
-      ve měs -- tě, kte -- ré se jme -- nu -- je Na -- za -- ret,
+      U -- sa -- di -- li se s_Je -- ží -- šem ve měs -- tě,
+      kte -- ré se jme -- nu -- je Na -- za -- ret,
       a -- by se spl -- ni -- lo,
       co je ře -- če -- no ús -- ty pro -- ro -- ků:
       Bu -- de na -- zý -- ván Na -- za -- ret -- ský.
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "VIII"
-      differentia = "G"
+      modus = "I"
+      differentia = "a"
       psalmus = ""
       annus = "A"
-      placet = "zvlášť první dva díly divné"
       id = "svrodiny-2ne-amagA"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -1338,11 +1337,11 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
-      f4 f f g f a( g) g \barMin
-      a g f d( e) d( c) \barMaior
-      d e f d d \barFinalis
+      a4 a a g f g( a g4.) g \barMin
+      g4 f e d( c) c \barMaior
+      d f e c( d) d \barFinalis
     }
     \addlyrics {
       Je -- žíš se s_ni -- mi vrá -- til
@@ -1352,10 +1351,9 @@
     \header {
       quid = "ant. k Magnificat"
       modus = "I"
-      differentia = "f"
+      differentia = "g2"
       psalmus = ""
       annus = "C"
-      placet = "lépe"
       id = "svrodiny-2ne-amagC"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
