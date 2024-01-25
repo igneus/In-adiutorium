@@ -586,24 +586,55 @@
 \markup{
   Srov. (responsorium!) \italic{Deposita rerum temporalium sarcina,} APraem1718 346.
 }
+\markup{
+  (Nápěv z pravděpodobné předlohy vychází, ale přijde mi divné hlásit se
+  k tomu, že podle části responsoria IV. modu vznikla antifona modu I.)
+}
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d \stemUp d( a' bes a) a g( f) g( a) g \barMin
+    g a a g f e( f d c) c \barMaior
+    d c d d( f) e d d \barFinalis
   }
   \addlyrics {
     Nor -- bert za -- přel sám se -- be
-    a ná -- sle -- do -- val Kris -- ta po ne -- schůd -- něj -- ší ces -- tě.
+    a ná -- sle -- do -- val Kris -- ta
+    po ne -- schůd -- něj -- ší ces -- tě.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d \stemUp \mark\sipka d( a' bes) a g( f) g( a) g \barMin
+    g a a g f e( f d c) c \barMaior
+    d c d d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Nor -- bert za -- přel sám se -- be
+    a ná -- sle -- do -- val Kris -- ta
+    po ne -- schůd -- něj -- ší ces -- tě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup{
   Snad podle \italic{In domum Praemonstratam,} APraem1934 345.

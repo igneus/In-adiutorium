@@ -1496,6 +1496,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     f4( g) g \barMin
     a g a f( e d) d \barMin
