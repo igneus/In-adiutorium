@@ -80,6 +80,13 @@
     : 26r
   }
 }
+\markup\justify{
+  P6 =
+  knihovna Metropolitní kapituly P6/2 - Antifonář Arnošta z Pardubic, sv. 2 : 10r
+  (není online; první dvě antifony výrazně postižené pozdějším zjednodušováním,
+  ostatní totožné s KA.)
+}
+
 \markup\justify\small{
   Odjinud:
   einsiedlenský mnišský antifonář
