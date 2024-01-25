@@ -28,6 +28,11 @@
     }
   }
   \line{
+    \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DF_I_5______2SEDJQ5-cs" {
+      Královská kanonie premonstrátů na Strahově, Praha, sig. DF I 5
+    }
+  }
+  \line{
     \with-url "https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-KKPS__DH_I_30_____2VLOF41-cs" {
       Královská kanonie premonstrátů na Strahově, Praha, sig. DH I 30
     }
