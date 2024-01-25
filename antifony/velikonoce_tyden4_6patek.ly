@@ -77,11 +77,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g4.( a) a4( b) g e e \barMaior
-    c d d( e) e f g a g f g e e \barMaior
-    f f d( e) e \barFinalis
+    d4 e f g g e \barMaior
+    f g g( a) a g f g a g f e e \barMaior
+    f d d( e) e \barFinalis
   }
   \addlyrics {
     Tak Bůh mi -- lo -- val svět,_*
@@ -91,22 +91,20 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = "Žalm 145-I"
-    placet = "nic moc, bude lepší odpoutat se od (kvantitou hodně odlišné) zdrojové antifony"
     id = "ne-a1"
-    fial = "antifony/pust_nedeleB.ly#ivben?zacatek"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g( a) a \barMaior
-    a( e) f e d-- d d f g a g a a \barMaior
-    a g a a( b) g g( f e4.) e \barMaior
-    f4 f d( e) e \barFinalis
+    d4 e g( a) a \barMaior
+    g b g a-- a a g a g f e e \barMaior
+    e f e f g a g
+    f e d( e) e \barFinalis
   }
   \addlyrics {
     Krá -- li vě -- ků,_*
@@ -117,7 +115,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = "Žalm 145-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
