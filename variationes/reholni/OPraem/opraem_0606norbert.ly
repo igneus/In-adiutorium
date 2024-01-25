@@ -586,7 +586,7 @@
 \markup{
   Srov. (responsorium!) \italic{Deposita rerum temporalium sarcina,} APraem1718 346.
 }
-\markup{
+\markup\justify{
   (Nápěv z pravděpodobné předlohy vychází, ale přijde mi divné hlásit se
   k tomu, že podle části responsoria IV. modu vznikla antifona modu I.)
 }
@@ -618,6 +618,51 @@
     c4 d \stemUp \mark\sipka d( a' bes) a g( f) g( a) g \barMin
     g a a g f e( f d c) c \barMaior
     d c d d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Nor -- bert za -- přel sám se -- be
+    a ná -- sle -- do -- val Kris -- ta
+    po ne -- schůd -- něj -- ší ces -- tě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( a') a g g( a) a \barMin
+    a c c b g b( c a) a \barMaior
+    a g g f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Nor -- bert za -- přel sám se -- be
+    a ná -- sle -- do -- val Kris -- ta
+    po ne -- schůd -- něj -- ší ces -- tě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a g g( a) a \barMin
+    a c c b g b( c a) a \barMaior
+    a g g f d \mark\sipka e( f d) d \barFinalis
   }
   \addlyrics {
     Nor -- bert za -- přel sám se -- be

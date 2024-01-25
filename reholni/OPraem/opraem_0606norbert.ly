@@ -321,15 +321,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d d( a') a g g( a) a \barMin
+    a c c b g b( c a) a \barMaior
+    a g g f d c( d) d \barFinalis
   }
   \addlyrics {
-    Norbert zapřel sám sebe a následoval Krista po neschůdnější cestě.
+    Nor -- bert za -- přel sám se -- be
+    a ná -- sle -- do -- val Kris -- ta
+    po ne -- schůd -- něj -- ší ces -- tě.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
