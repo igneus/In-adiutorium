@@ -202,7 +202,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c c( e) e( d) d \barMaior
+    c4 c c d( e) d d \barMaior
     c a a c b a g g \barMaior
     f g a( g) g \barFinalis
   }
@@ -216,7 +216,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 68-II"
-    placet = "_do výšin_ možná spíš vrátit minulou verzi"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }

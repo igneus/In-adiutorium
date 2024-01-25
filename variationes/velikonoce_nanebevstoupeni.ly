@@ -1059,6 +1059,30 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     \choralniRezim
     c4 b c d( e) d \barMin
     e f e d c d d \barMaior
+    d \mark\sipka d( e) d( c) c b c a( g) g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- te Bo -- hu,
+    ve -- leb -- te je -- ho jmé -- no,
+    on vy -- stou -- pil nad o -- bla -- ka.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 68-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d( e) d \barMin
+    e f e d c d d \barMaior
     \mark\sipka b c( d) a( g) g a g f( g) g \barMin
     f g( a) g g \barFinalis
   }
@@ -1148,9 +1172,33 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c \mark\sipka c( e) e( d) d \barMaior
+    c a a c b a g g \barMaior
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- stou -- pil do vý -- šin,
+    vy -- ve -- dl s_se -- bou za -- jat -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 68-II"
+    placet = "_do výšin_ možná spíš vrátit minulou verzi"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 \mark\sipka c c d( e) d d \barMaior
     c a a c b a g g \barMaior
     f g a( g) g \barFinalis
   }
