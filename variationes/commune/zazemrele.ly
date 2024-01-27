@@ -1454,6 +1454,52 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka f e f g g g \barMin
+    g g g a g f g a a \barMaior
+    f( d) e f g( a) a g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš -- -li u -- cho -- vá -- vat
+    v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
+    Pa -- ne, kdo ob -- sto -- jí?
+  }
+  \header {
+    fons_externus = "volně podle AR1912 [100]"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 130"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f e d f f \barMin
+    f e f g f e d f f \barMaior
+    f f c d f( e) d \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš -- -li u -- cho -- vá -- vat
+    v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
+    Pa -- ne, kdo ob -- sto -- jí?
+  }
+  \header {
+    fons_externus = "volně podle CZ-Pn XV A 10, 363r"
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1553,6 +1599,28 @@
     g4 g g( a) a a( g) a a( b) b \barMin
     b c d c b g a a \barMaior
     a a g4.( e) \barMin f4 g a a g( f) \mark\sipka g e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a a( g) a a( b) b \barMin
+    b c d c b g a a \barMaior
+    a a g4.( e) \barMin f4 g a \mark\sipka g f( e) d( e) e \barFinalis
   }
   \addlyrics {
     Ja -- ko O -- tec kří -- sí mrt -- vé

@@ -1130,6 +1130,62 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a
+    c c c d( e) d \barMin
+    e d c d d \barMaior
+    e d c( d) c c b c a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a
+    c c c d( e) d \barMin
+    e d c \mark\sipka d( e d4.) d4 \barMaior
+    e d c( d) c c b c a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on je nej -- vyš -- ší Pas -- týř círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4( e f e d) d \barMin
