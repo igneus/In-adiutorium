@@ -21,7 +21,7 @@
     a g f
     a g f( g f) \barMaior
     f g a a g f g g \barMin
-    g g( a) g f g f f \barFinalis
+    a g( a) g f g f f \barFinalis
   }
   \addlyrics {
     Hlá -- sej slo -- vo,
