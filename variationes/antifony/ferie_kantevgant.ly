@@ -4084,6 +4084,32 @@
     e4 g g( a) a \barMin
     a a( b) g g( a) a \barMaior
     a g a g( f) e e \barMin
+    e \mark\sipka f( e) f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    buď svět -- lem pro ty,
+    kdo ži -- jí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Hospodine, buď světlem pro ty,
+    kdo žijí v temnotě a v stínu smrti!"
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "t1-so-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a \barMin
+    a a( b) g g( a) a \barMaior
+    a g a g( f) e e \barMin
     \mark\sipka d f( g a) g f( e) e \barFinalis
   }
   \addlyrics {
