@@ -1441,10 +1441,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      c4( d) d d f e f d d c d e( f) e( d) d \barMaior
-      d c b a a c( d) d \barMin
-      c d d d e d f( e) d4. d \barMin
-      d4 f d f e( d) d \barMax
+      d4 d c f e f d d c d e( f) e( d) d \barMaior
+      d-- c b a a c( d) d \barMin
+      c d d d e d e( f) d4. c \barMin
+      d4 e f d c( d) d \barMax
       a' g f f( g) f d d \barMin
       c d e f d c( d) d \barFinalis
     }
@@ -1461,7 +1461,6 @@
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
-      placet = "dotáhnout"
       id = "28-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

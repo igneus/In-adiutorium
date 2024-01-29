@@ -373,7 +373,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4( d) d d f e f d d c d e( f) e( d) d \barMaior
       d c b a a c( d) d \barMin
@@ -420,6 +420,91 @@
     }
     \header {
       quid = "ant. k Magnigicat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "28-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      \mark\sipka d4 d c f e f d d c d e( f) e( d) d \barMaior
+      d-- c b a a c( d) d \barMin
+      c d d d e d \mark\sipka e( f) d4. c \barMin
+      d4 \mark\sipka e f d c( d) d \barMax
+      a' g f f( g) f d d \barMin
+      c d e f d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý nás při -- šel spa -- sit.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "28-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c f e f d d c d e( f) e( d) d \barMaior
+      d-- c b a a c( d) d \barMin
+      c d d d e d e( f) d4. c \barMin
+      d4 e f d c( d) d \barMax
+      a' g f f( g) f d d \barMin
+      \mark\sipka d c d e( f) d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý nás při -- šel spa -- sit.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "28-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d c f e f d d c d e( f) e( d) d \barMaior
+      d-- c b a a c( d) d \barMin
+      c d d d e d e( f) d4. c \barMin
+      d4 e f d c( d) d \barMax
+      a' g f f( g) f d d \barMin
+      \mark\sipka f f f e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Sva -- tá a ne -- po -- ru -- še -- ná Pan -- na Ma -- ri -- a
+      nám po -- ro -- di -- la Bo -- ha,
+      kte -- rý se stal ma -- lým dě -- ťát -- kem,
+      a smě -- la ho ko -- jit;
+      vši -- chni se klaň -- me to -- mu,
+      kte -- rý nás při -- šel spa -- sit.
+    }
+    \header {
+      quid = "ant. k Magnificat"
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
