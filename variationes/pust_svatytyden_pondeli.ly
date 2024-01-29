@@ -1182,6 +1182,31 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
+    g g g g a( c) c( d) d \mark\sipka c d( e) d d \barMax
+    c d c( a) a \barMin c b a g( a) g \barMaior
+    a a f( e d) d \barMin f g a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
+    tak mu -- sí být vy -- vý -- šen Syn člo -- vě -- ka,
+    a -- by žád -- ný, kdo v_ně -- ho vě -- ří,
+    ne -- za -- hy -- nul, a -- le měl ži -- vot věč -- ný.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "po-ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
     g g g g \mark\sipka f( g) a( c) c c d( c) b( a) a \barMax

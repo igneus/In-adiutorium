@@ -1823,6 +1823,31 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 b c d d \barMin
+    d e d c a a \barMin
+    c b g a a( g) g \barMaior
+    f \mark\sipka g a a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4 b c d d \barMin
     d e d c a a \barMin

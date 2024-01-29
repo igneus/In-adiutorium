@@ -2485,6 +2485,29 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 d d b d( e) d d \barMin
+      d e f d( c) c \barMin
+      d c b g g f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Ra -- duj -- te se, ne -- be -- sa,
+      za -- já -- sej, ze -- mě,
+      před Hos -- po -- di -- nem,
+      že při -- chá -- zí.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 96"
+      id = "31-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
