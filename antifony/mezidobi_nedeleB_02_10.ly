@@ -152,8 +152,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g \barMin a g a g f g a a \barMaior
-    c c c c d c b c a g a a4.( g) \barFinalis
+    g4 g g( a) a \barMin c b c a g f g g \barMaior
+    c c c c d c b c a g a-- g \barFinalis
   }
   \addlyrics {
     Všich -- ni žas -- li nad Je -- ží -- šo -- vým u -- če -- ním,
@@ -174,9 +174,9 @@
   \relative c' {
     \choralniRezim
     e4 e e( a) a a \barMin
-    a b a g a e \barMax
-    e e d c d( e) e e( f) f( e) e \barMin
-    e g f e( f) e e \barFinalis
+    a b a g g( a) a \barMaior
+    e e e e f e d( f) e e \barMin
+    g g( a) g f e e \barFinalis
   }
   \addlyrics {
     No -- vé u -- če -- ní_–
@@ -195,10 +195,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d f g a a a a c( b c) a( g) g( a) \barMaior
-    a a a g f e f d d \barFinalis
+    g4 a c b c d d d e( f) d( c) c \barMaior
+    c b g b c a a g g \barFinalis
   }
   \addlyrics {
     Po -- věst o Je -- ží -- šo -- vi se roz -- nes -- la
@@ -206,8 +206,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "ne4b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
