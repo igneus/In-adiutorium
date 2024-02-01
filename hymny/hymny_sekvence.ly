@@ -8,6 +8,14 @@
   subtitle = "s nápěvy pro sekvence náležitými"
 }
 
+\paper {
+  scoreTitleMarkup = \markup\fill-line {
+    ""
+    \small\italic\fromproperty #'header:incipit
+    \small\fromproperty #'header:fons_externus
+  }
+}
+
 #(define-markup-command (nadpisPrilezitost layout props arg) (markup?)
    (interpret-markup layout props
 		     #{ \markup\bold\fill-line{ "" #arg "" } #}))
@@ -77,8 +85,9 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
     A -- men.
   }
   \header {
+    incipit = "Lux iucunda, lux insignis"
     occasio = "Seslání Ducha svatého, modlitba se čtením"
-    fons_externus = "Liber hymnarius, Solesmes 1983, s. 98"
+    fons_externus = "Liber hymnarius, s. 98"
     id = "letnice-luxiucunda"
   }
 }
@@ -175,6 +184,7 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
     za nás pros, ó Ma -- ri -- a!
   }
   \header {
+    incipit = "Ave, Verbi Dei parens"
     occasio = "Navštívení Panny Marie, ranní chvály"
     fons_externus = "CZ-Pu XII A 9, f. 70r"
     metrum = "8.7.8.7"
@@ -268,6 +278,7 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
     tvé -- mu Sy -- nu bu -- diž slá -- va.
   }
   \header {
+    incipit = "Decet huius cunctis horis"
     occasio = "Navštívení Panny Marie, ranní chvály"
     fons_externus = "CZ-Pu XII A 9, f. 73v"
     id = "navstiveni-decet"
