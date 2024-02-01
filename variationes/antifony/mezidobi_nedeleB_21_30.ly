@@ -1358,10 +1358,91 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
     f g a \mark\sipka c b c( d) d( c) \barMin a( g) \mark\sipka a a g g \barFinalis
+  }
+  \addlyrics {
+    Nech -- te dě -- ti při -- chá -- zet ke mně,
+    ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne27b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( e c d) d \barMin c( a) b( c) a g g \barMaior
+    f g a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Nech -- te dě -- ti při -- chá -- zet ke mně,
+    ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne27b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c( d e) d \barMin c( d) d( e) c c( d) d \barMaior
+    d a d b c a( g) a( g) \barMin f g a( c) b( a) a \barFinalis
+  }
+  \addlyrics {
+    Nech -- te dě -- ti při -- chá -- zet ke mně,
+    ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    id = "ne27b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e d) d \barMin c( d) d( e) c c( d) d \barMaior
+    c a b c a g( a) g \barMin f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Nech -- te dě -- ti při -- chá -- zet ke mně,
+    ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne27b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
+    f g a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Nech -- te dě -- ti při -- chá -- zet ke mně,

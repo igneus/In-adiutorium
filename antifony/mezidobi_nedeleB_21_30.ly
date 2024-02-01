@@ -462,8 +462,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
-    f g a c b c( d) d( c) \barMin a( g) a a g g \barFinalis
+    d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
+    f g a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Nech -- te dě -- ti při -- chá -- zet ke mně,

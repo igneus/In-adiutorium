@@ -1058,12 +1058,63 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 c d d( f e) \mark\sipka d( c) c \barMaior
       f e f g f d d \barMin d( e) \mark\sipka c c( d) d \barFinalis
 
       \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Jen ten, kdo mi -- lu -- je,
+      u -- čí a vy -- cho -- vá -- vá ja -- ko pas -- týř.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      placet = "_miluje_ nic moc, velkým dílem proto, že _mi_ špatně nese dlouhé melisma"
+      id = "vych-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 \mark\sipka f d e( f) d( c) c \barMaior
+      f e f g f d d \barMin d( e) c c( d) d \barFinalis
+
+      e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Jen ten, kdo mi -- lu -- je,
+      u -- čí a vy -- cho -- vá -- vá ja -- ko pas -- týř.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = "vych-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      d4 f d f( e) e( c) c \barMaior
+      d e f d e d d \barMin d( e) c c( d) d \barFinalis
+
+      e^\markup\rubrVelikAleluja f d( c) d \barFinalis
     }
     \addlyrics {
       Jen ten, kdo mi -- lu -- je,
@@ -1105,6 +1156,54 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g a c c b \barMaior
+      c c a c b g g \barMin f( g) a a( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Jen ten, kdo mi -- lu -- je,
+      u -- čí a vy -- cho -- vá -- vá ja -- ko pas -- týř.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = ""
+      id = "vych-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g a c c b \barMaior
+      c c a c b g g \barMin \mark\sipka a g f( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Jen ten, kdo mi -- lu -- je,
+      u -- čí a vy -- cho -- vá -- vá ja -- ko pas -- týř.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = ""
+      id = "vych-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"2. nešpory"}}
@@ -1139,10 +1238,38 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d( f e c) d \barMin c( b a) b a g g \barMaior
       f g a c b c( d) d( c) \barMin a( g) a a g g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Nech -- te dě -- ti při -- chá -- zet ke mně,
+      ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      fial = "antifony/mezidobi_nedeleB_21_30.ly#ne27b-rch-ben?+aleluja"
+      id = "vych-ne2-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\aktualisace
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
+      f g a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
 
       f^\markup\rubrVelikAleluja g( a) g g \barFinalis
     }
