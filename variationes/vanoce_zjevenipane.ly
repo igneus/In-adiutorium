@@ -3175,7 +3175,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 e f f4.( g) \barMin
@@ -3202,13 +3202,40 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     \mark\sipka f4 g a g \barMin
     bes a g( a) g \barMin
     g a g g f e( d) \barMaior
     d4( f e) d e d c \barMin
+    d d f f e c d d \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- srd -- ný,
+    do -- bro -- ti -- vý
+    a spra -- ve -- dli -- vý Bůh
+    zá -- ří v_tem -- no -- tách
+    ja -- ko svět -- lo řád -- ným li -- dem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 112"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 g a g \barMin
+    bes a g( a) g \barMin
+    g a g g f e( d) \barMaior
+    d4( f e) \mark\sipka f d c c \barMin
     d d f f e c d d \barFinalis
   }
   \addlyrics {
@@ -3760,7 +3787,7 @@ ale na diferenci žalmového nápěvu?}
   \header {
     subtitle = "Oktáv"
   }
-  
+
   \markup{
     Viz dílčí soubory.
   }

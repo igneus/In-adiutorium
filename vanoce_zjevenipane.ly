@@ -523,9 +523,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 e f f4.( g) \barMin
-    a4 bes a( g) a \barMin
-    a bes g g f e4.( d) \barMaior
+    f4 g a g \barMin
+    bes a g( a) g \barMin
+    g a g g f e( d) \barMaior
     d4( f e) d e d c \barMin
     d d f f e c d d \barFinalis
   }
@@ -541,7 +541,6 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 112"
-    placet = "lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
