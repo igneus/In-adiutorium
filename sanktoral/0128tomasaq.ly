@@ -15,11 +15,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( e) d d \barMin
-    d d f e f( g) f d d \barMaior
-    a c d d d e( f e) d d \barMaior
-    f f f g f d d e( c) c( a) a \barMin
-    c d d e( f) d c d d \barFinalis
+    c4 d d( f) d d \barMin
+    f f g f e f d( c) c \barMin
+    d e f d c c d d \barMaior
+    f f d f e d c d c c \barMin
+    a c d e( f) d c d d \barFinalis
   }
   \addlyrics {
     Z_lás -- ky ke Kris -- tu
