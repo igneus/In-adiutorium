@@ -185,19 +185,55 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    % 1 Ave
+    e4( f g) e f( e) d g a c( b) a \barMin
+    b c \mark\sipka a( g f) e d e e \barFinalis
+  }
+  \addlyrics {
+    \set stanza = #"1."
+    \lb Zdrá -- vas, Mat -- ko Slo -- va spás -- ná, \lunb
+    pa -- nen po -- ko -- ro a cti,
+  }
+  \addlyrics {
+    zdrá -- vas bez po -- skvr -- ny, krás -- ná,
+    po -- kor -- né ty pa -- nen -- ství!
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    % 1 Ave
+    e4( f g) e f( e) d g a c( b) a \barMin
+    b c \mark\sipka a g( f e) d e e \barFinalis
+  }
+  \addlyrics {
+    \set stanza = #"1."
+    \lb Zdrá -- vas, Mat -- ko Slo -- va spás -- ná, \lunb
+    pa -- nen po -- ko -- ro a cti,
+  }
+  \addlyrics {
+    zdrá -- vas bez po -- skvr -- ny, krás -- ná,
+    po -- kor -- né ty pa -- nen -- ství!
+  }
+}
+
+\score {
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     % 8 Eia
-    \dvoj{
-      g4 a c g c a g e \barMin
-      f( e) d \mark\sipka f( g) a g( f e) d( e) e \barFinalis
-    }
+    g4 a c g c a g e \barMin
+    f( e) d \mark\sipka f( g) a g( f e) d( e) e \barFinalis
   }
   \addlyrics {
     \set stanza = #"8."
     Chvá -- la, moc -- ně za -- ple -- sa -- la
     v_Je -- zu Kris -- tu du -- še tvá,
+  }
+  \addlyrics {
     chvá -- la to -- bě, Bo -- hu chvá -- la,
     za nás pros, ó Ma -- ri -- a!
   }

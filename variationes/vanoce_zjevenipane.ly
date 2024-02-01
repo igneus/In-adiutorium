@@ -1874,6 +1874,96 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
+    a a a g f g( a) g g \barMin \mark\sipka g( a) f e d d \barMaior
+    d c( d) d( f) f \barMin
+    f f g f e d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost září nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
+    a a a g f g( a) g g \barMin \mark\sipka a( bes) a g a a \barMaior
+    a g( a) g( f) d \barMin
+    f f g f e d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost září nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
+    a a a g \mark\sipka a a( c) a a \barMin a( b!) c a g g \barMaior
+    g a( g) f( d) d \barMin
+    d d d e f d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
+    Hos -- po -- di -- no -- va ve -- leb -- nost zá -- ří nad te -- bou
+    a ná -- ro -- dy
+    bu -- dou krá -- čet v_tvém svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Vzešlo tvé světlo, Jeruzaléme,
+    a Hospodinova velebnost září nad tebou
+    a národy budou kráčet v tvém světle. Aleluja."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     \key f \major
     \mark\sipka c4 d f f( g) g \barMin a( bes) a g a a \barMaior

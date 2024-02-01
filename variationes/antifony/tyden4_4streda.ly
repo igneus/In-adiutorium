@@ -1439,6 +1439,27 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d d \mark\sipka d( f e) d f g g( a) a \barMaior
+    a a a( bes) a g g a a \barMin f g a f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din zkou -- má lid -- ské srd -- ce,
+    a -- by od -- pla -- til kaž -- dé -- mu po -- dle je -- ho skut -- ků.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 139-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 d d d( f d) c f g g( a) a \barMaior
     a a \mark\sipka a g f g( a) g g \barMin f g f e c( d) d \barFinalis
