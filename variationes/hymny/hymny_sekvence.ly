@@ -186,6 +186,7 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     % 1 Ave
     e4( f g) e f( e) d g a c( b) a \barMin
@@ -217,6 +218,31 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
   \addlyrics {
     zdrá -- vas bez po -- skvr -- ny, krás -- ná,
     po -- kor -- né ty pa -- nen -- ství!
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    b' d e e e d e d \barMin
+    \mark\sipka b c( d) c( b) a( g) a b b \barMaior % preusporadana melismata
+    c a g f g( a) g( e) f( e) d \barMin
+    d c d f( e) d e e \barFinalis
+  }
+  \addlyrics {
+    \set stanza = #"5."
+    Slá -- va, hvěz -- do Ja -- ko -- bo -- va,
+    jas -- ná zá -- ři nad mo -- ři,
+    slá -- va, schrá -- no ú -- bě -- lo -- vá,
+    ke -- ři, jenž nám za -- ho -- ří!
+  }
+  \addlyrics {
+    \set stanza = #"6."
+    Žij nám, slun -- cem o -- sví -- ce -- ná,
+    kte -- rá slun -- ci dá -- váš svit,
+    žij nám, jež jsi vy -- vo -- le -- ná
+    žeb -- řem k_ne -- bi skvou -- cím být!
   }
 }
 

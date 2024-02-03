@@ -12,7 +12,7 @@
   scoreTitleMarkup = \markup\fill-line {
     ""
     \small\italic\fromproperty #'header:incipit
-    \small\fromproperty #'header:fons_externus
+    \tiny\fromproperty #'header:fons_externus
   }
 }
 
@@ -100,7 +100,7 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
     % 1 Ave
     \dvoj{
       e4( f g) e f( e) d g a c( b) a \barMin
-      b c d a( g f e) d e e \barFinalis
+      b c a( g f) e d e e \barFinalis % upraveno
     }
     % 2 Gaude
     \dvoj{
@@ -120,7 +120,7 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
     % 5+6 Vale, Euge
     \dvoj{
       b' d e e e d e d \barMin
-      b( c) d c( b) a( g) a b b \barMaior
+      b c( d) c( b) a( g) a b b \barMaior % preusporadana melismata
       c a g f g( a) g( e) f( e) d \barMin
       d c d f( e) d e e \barFinalis
     }
@@ -132,7 +132,7 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
     % 8 Eia
     \dvoj{
       g4 a c g c a g e \barMin
-      f( e) d f( g) a g( f e) d( e) e \barFinalis
+      f( e) d f( g) a g( f e) d( e) e \barFinalis % zjednoduseno
     }
   }
   \addlyrics {
