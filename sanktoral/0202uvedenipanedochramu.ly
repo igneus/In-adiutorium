@@ -92,14 +92,14 @@
 
     % R
     \neviditelna f
-    f4 f f f f f g f f f g( a) a( g) \barMax
-    g g g( a) g g f( d) f g g f f \barFinalis
+    f4 f f f f f f( g) f f \barMin g g( a) a( g) \barMax
+    g f g( a) g g \barMin f( d) f g g f f \barFinalis
     % V
     \neviditelna a
-    a4 a a( bes) a a g( a) g \barMin g g g g g a g f g( a) a( g) \barMax
+    a4 a a a a a a g( a) g g \barMin g g a g f g( a) a( g) \barMax
     % R
     \neviditelna g
-    g g g( a) g g f( d) f g g f f \barFinalis
+    g f g( a) g g \barMin f( d) f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -176,8 +176,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b a g g \barMaior
-    g( a) f e f( g) g( a) a \barMin
+    c4 c a c b g g \barMaior
+    a a a f( g) g( a) a \barMin
     c a c b a( g) g \barFinalis
   }
   \addlyrics {
@@ -198,10 +198,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4.( d) e4( f) d d f( g) f e d d \barMaior
-    d c d( f) e f a( g f g) g \barMaior
-    g a a a g f e( f) d( c) c \barMin
-    d( f) e d( e) d d \barFinalis
+    d4( a') g g( a) a \barMin g f g g( a) a \barMaior
+    g f g( a) g f e( f d c) c \barMaior
+    d f f f e d c( d) c c \barMin
+    d( f) e c d d \barFinalis
   }
   \addlyrics {
     Vstaň, roz -- sviť se, Je -- ru -- za -- lé -- me,
@@ -211,7 +211,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 19A"
     id = "mc-a2"
@@ -278,10 +278,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c c c b c d c c( d) d \barMin
-    d c b g g \barMax
-    g a a a g( f) g a( c) c d( e) d c( b a g) g \barMin
-    a b c a g( f g) g \barFinalis
+    c4 c c c b g a g f( g) g
+    g a b g g \barMaior
+    a a a a g f g( a) a \barMin c( d) c b( a g) g \barMaior
+    a a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Si -- me -- on byl člo -- věk spra -- ved -- li -- vý
@@ -291,10 +291,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
-    placet = "moc se mi nelíbí frázování _spravedlivý a bohabojný_, ale také zatím nevidím, jak jinak"
     id = "rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -303,8 +302,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g g( a) g f g g( a) a \barMin
-    a c c b( a g) f( a g) g \barFinalis
+    g4 g g g g( c) g a g f( g) g \barMin
+    g f( g) a a g g \barFinalis
   }
   \addlyrics {
     Si -- me -- on vzal dí -- tě do ná -- ru -- čí
@@ -315,7 +314,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_velebil Boha_ lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -483,7 +481,7 @@
     g4 a c d d \barMin
     d c d e d c d( e) d d \barMaior
     d d d c d c b c a a( g) g \barMax
-    a a a a g( f) g( a) a \barMin
+    a a a a f( g) g( a) a \barMin
     c( d) e d( c d) d \barMaior
     e d c( d) c c \barMin
     d d c b c a a( g) g \barMaior
