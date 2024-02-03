@@ -400,11 +400,37 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 c( d c) c \barMin a g a c c d c b a a \barMaior
       c b \mark\sipka g( a) g g \barMin f g a a a( c) b \barMaior
       c( d c) c \barMin b c a g a g f a g g \barFinalis
+    }
+    \addlyrics {
+      Tři da -- ry o -- bě -- to -- va -- li mu -- dr -- ci Pá -- nu,
+      Sy -- nu Bo -- ží -- mu, ve -- li -- ké -- mu Krá -- li:
+      zla -- to, ka -- did -- lo a myr -- hu.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      placet = "chabá - zvlášť první dvě třetiny moc nedrží pohromadě a nemají spád"
+      id = "8-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c( d c) c \barMin c c c b a g( a) g g \barMaior a a \barMin
+      f g g( a) a a \barMin c c b a g( a) g \barMaior
+      c( d c) c \barMin c c c c b g
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Tři da -- ry o -- bě -- to -- va -- li mu -- dr -- ci Pá -- nu,

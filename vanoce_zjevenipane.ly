@@ -324,14 +324,14 @@
     \choralniRezim
     \key f \major
     d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
-    a a a g f g( a) g g g f e d c c \barMaior
+    a a a g f g( a) g g \barMin g( a) f e d d \barMaior
     d c( d) d( f) f \barMin
     f f g f e d c
     e f d d \barFinalis
   }
   \addlyrics {
     Vze -- šlo tvé svět -- lo, Je -- ru -- za -- lé -- me.
-    Hos -- po -- di -- no -- va ve -- leb -- nost za -- zá -- ří nad te -- bou
+    Hos -- po -- di -- no -- va ve -- leb -- nost zá -- ří nad te -- bou
     a ná -- ro -- dy
     bu -- dou krá -- čet v_tvém svět -- le.
     A -- le -- lu -- ja.
@@ -344,7 +344,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 149"
-    placet = "ten (nezamýšlený) posun _září_ vs. _zazáří_ je významný"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -694,9 +693,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 c( d c) c \barMin a g a c c d c b a a \barMaior
-      c b g( a) g g \barMin f g a a a( c) b \barMaior
-      c( d c) c \barMin b c a g a g f a g g \barFinalis
+      c4 c( d c) c \barMin c c c b a g( a) g g \barMaior a a \barMin
+      f g g( a) a a \barMin c c b a g( a) g \barMaior
+      c( d c) c \barMin c c c c b g
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Tři da -- ry o -- bě -- to -- va -- li mu -- dr -- ci Pá -- nu,
@@ -709,7 +709,6 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
-      placet = "chabá - zvlášť první dvě třetiny moc nedrží pohromadě a nemají spád"
       id = "8-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }

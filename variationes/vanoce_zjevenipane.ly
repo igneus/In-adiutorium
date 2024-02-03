@@ -1809,7 +1809,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
@@ -1833,6 +1833,7 @@ ale na diferenci žalmového nápěvu?}
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 149"
+    placet = "ten (nezamýšlený) posun _září_ vs. _zazáří_ je významný"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -1874,7 +1875,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     d4( f) e d f( g) g \barMin a( bes) a g a a \barMaior
