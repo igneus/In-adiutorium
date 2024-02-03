@@ -6232,6 +6232,28 @@ ale sám o sobě se mi líbí.}
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c c c d c c b c a( g) g \barMaior
+    g a g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g g( a) a \barMin

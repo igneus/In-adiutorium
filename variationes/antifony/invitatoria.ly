@@ -1987,6 +1987,26 @@ pojdmeKlanmeSeCele = {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g g( a) a( g) \barMin
+    f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te
+    před Hos -- po -- di -- na s_já -- so -- tem.
+  }
+  \header {
+    dies = "čtvrtek"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    id = "t2ct"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 %tIIpatekInvitatorium =
