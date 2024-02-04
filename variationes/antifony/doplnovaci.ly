@@ -618,6 +618,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka f g
+    a g a c b a g a \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vel -- kou věc s_ná -- mi u -- dě -- lal Hos -- po -- din,
+    na -- pl -- ni -- la nás ra -- dost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 126"
+    id = "nona-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

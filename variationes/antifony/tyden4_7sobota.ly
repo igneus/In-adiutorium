@@ -726,6 +726,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e( f) d d \barMin
+    e d c e d d \barFinalis
+
+    e^\rubrVelikAleluja d c( e) d \barFinalis
+  }
+  \addlyrics {
+    Bůh je při -- ve -- dl
+    do své sva -- té ze -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 78-V"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V liturgickém mezidobí:}
