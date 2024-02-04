@@ -245,10 +245,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f( g) g a f g \barMin
-    f g( a) a g \barMaior
-    c c c c c c d b c a \barMin
-    g f a a( g) g \barFinalis
+    g4 a c( d) d e c d \barMin
+    d c( d c) b a( g) \barMaior
+    a c c c d e d c b( c a g) g \barMin
+    a c b g( a) a \barFinalis
   }
   \addlyrics {
     Br -- zo rá -- no Je -- žíš vstal
@@ -258,8 +258,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "ne5b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -271,7 +271,7 @@
     \choralniRezim
     a4 a g( a) g g \barMin
     f g bes a g( a) a \barMaior
-    a g( a g e) e \barMin
+    a a( g a4.) g4 \barMin
     f4 d f e c( d) d \barFinalis
   }
   \addlyrics {

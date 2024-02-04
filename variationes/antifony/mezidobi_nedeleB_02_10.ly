@@ -1532,6 +1532,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 b c a a \barMin
+    \mark\sipka c d c b( c) a( g) g \barMaior
+    f g a a g a c b \barMin
+    c c a g a g f \barMaior
+    d f g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 f a g g \barMin
     a c b a( g) f( g) g \barMaior
     c d e d c b a a \barMin
@@ -1817,6 +1843,79 @@
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
+    g4 a c( d) d e c d \barMin
+    d c( d c) b a( g) \barMaior
+    a c c c d e d c \mark\sipka b( c a g) g \barMin
+    a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Br -- zo rá -- no Je -- žíš vstal
+    a vy -- šel ven,
+    o -- de -- šel na o -- puš -- tě -- né mís -- to
+    a tam se mod -- lil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ne5b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d e c d \barMin
+    d c( d c) b a( g) \barMaior
+    a c c c d e d c b( c a g) g \barMin
+    a \mark\sipka g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Br -- zo rá -- no Je -- žíš vstal
+    a vy -- šel ven,
+    o -- de -- šel na o -- puš -- tě -- né mís -- to
+    a tam se mod -- lil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne5b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d e c d \barMin
+    d c( d c) b a( g) \barMaior
+    \mark\sipka f g a a c c b a g g \barMin
+    a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Br -- zo rá -- no Je -- žíš vstal
+    a vy -- šel ven,
+    o -- de -- šel na o -- puš -- tě -- né mís -- to
+    a tam se mod -- lil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne5b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     g4 g f( g) g a f g \barMin
     f g( a) a g \barMaior
     c c c c c c d b c a \barMin
@@ -1833,12 +1932,19 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "první půlka nezpěvná"
     id = "ne5b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \pageBreak
+
+\markup\justify{
+  Tady to, že se pod notací reprodukuje nezměněný oficiální text, není úplně
+  čestné, protože říkat/zpívat \italic{synagóga} s dlouhým ó by mi nikdy
+  nepřišlo na jazyk a nápěv s tím dlouhým ó samozřejmě nepočítá.
+}
 
 \score {
   \relative c'' {
@@ -1895,6 +2001,30 @@
     \choralniRezim
     a4 a g( a) g g \barMin
     f g bes a g( a) a \barMaior
+    a a( g a4.) \mark\sipka g4 \barMin
+    f4 d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- chá -- zel
+    ce -- lou Ga -- li -- le -- jí
+    a ká -- zal v_je -- jich sy -- na -- gó -- gách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "ne5b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 a g( a) g g \barMin
+    f g bes a g( a) a \barMaior
     a \mark\sipka g( a g e) e \barMin
     f4 d f e c( d) d \barFinalis
   }
@@ -1907,6 +2037,52 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "a2"
+    psalmus = ""
+    id = "ne5b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g g \barMin
+    f g bes a g( a) a \barMaior
+    a g( a g e) e \barMin
+    f4 d \mark\sipka c e d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- chá -- zel
+    ce -- lou Ga -- li -- le -- jí
+    a ká -- zal v_je -- jich sy -- na -- gó -- gách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "ne5b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d d \barMin
+    c d e c c( d) d \barMaior
+    d a( d b c) a( g) \barMin
+    f g a c a a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- chá -- zel
+    ce -- lou Ga -- li -- le -- jí
+    a ká -- zal v_je -- jich sy -- na -- gó -- gách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "ne5b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
