@@ -2093,7 +2093,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) d d c b a( g) g \barMaior
     a a g f g a a a \mark\sipka a( c) b g g \barFinalis
@@ -2117,6 +2117,27 @@
     \choralniRezim
     c4 c c( d) d d c b a( g) g \barMaior
     a a \mark\sipka b c a g g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Mo -- je slá -- va je v_Hos -- po -- di -- nu,
+    ať to sly -- ší po -- kor -- ní a ra -- du -- jí se.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c \mark\sipka d( e) d d c b a( g) g \barMaior
+    a a g f g a a a a( c) b g g \barFinalis
   }
   \addlyrics {
     Mo -- je slá -- va je v_Hos -- po -- di -- nu,
