@@ -774,7 +774,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d d f e d f( g a) a( g) g \barMaior
       a a a a g a g g \barMin
@@ -790,6 +790,75 @@
     \header {
       quid = "ant. k Magnificat"
       modus = "I"
+      differentia = "D"
+      psalmus = ""
+      placet = "zvlášť ta první dvě dlouhá melismata moc nesedí,
+      je to takové to podtrhávání nebo ilustrování slov bez ohledu
+      na rytmus celku"
+      id = "9-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g g f d f( g) g g \barMaior
+    }
+    \addlyrics {
+      He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
+      na do -- bu, kdy u -- vi -- dě -- li
+      zá -- ří -- cí hvěz -- du
+      no -- vo -- ro -- ze -- né -- ho Krá -- le.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "9-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g g a g f g( a) g g \barMaior
+    }
+    \addlyrics {
+      He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
+      na do -- bu, kdy u -- vi -- dě -- li
+      zá -- ří -- cí hvěz -- du
+      no -- vo -- ro -- ze -- né -- ho Krá -- le.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "9-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d d d c a c( d) d d \barMaior
+      f f e d c d c c f( g) a a g g \barMaior
+      a a g f e c e( f d4.) d \barFinalis
+    }
+    \addlyrics {
+      He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
+      na do -- bu, kdy u -- vi -- dě -- li
+      zá -- ří -- cí hvěz -- du
+      no -- vo -- ro -- ze -- né -- ho Krá -- le.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
       differentia = "D"
       psalmus = ""
       id = "9-amag"

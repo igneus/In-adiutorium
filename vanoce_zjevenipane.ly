@@ -769,10 +769,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d d d f e d f( g a) a( g) g \barMaior
-      a a a a g a g g \barMin
-      f( g a) f e d d \barMaior
-      f f f e d c e( f d) d \barFinalis
+      d4 d d d d c a c( d) d d \barMaior
+      f f e d c d c c f( g) a a g g \barMaior
+      a a g f e c e( f d4.) d \barFinalis
     }
     \addlyrics {
       He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
@@ -782,12 +781,9 @@
     }
     \header {
       quid = "ant. k Magnificat"
-      modus = "I"
+      modus = "II"
       differentia = "D"
       psalmus = ""
-      placet = "zvlášť ta první dvě dlouhá melismata moc nesedí,
-      je to takové to podtrhávání nebo ilustrování slov bez ohledu
-      na rytmus celku"
       id = "9-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
