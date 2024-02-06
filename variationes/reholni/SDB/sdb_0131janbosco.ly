@@ -2406,3 +2406,25 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMaior
+    c b( c) a a \barMin
+    g f a g g \barFinalis
+  }
+  \addlyrics {
+    Pro spá -- su va -- šich du -- ší
+    dám s_ra -- dos -- tí
+    ce -- lý svůj ži -- vot.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne-am"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

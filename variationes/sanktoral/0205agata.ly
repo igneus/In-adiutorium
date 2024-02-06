@@ -161,3 +161,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g a a \barMin
+    a g a c \mark\sipka a g a \barMaior
+    \mark\sipka c c a a \barMin
+    a a a g f f g a g f d d \barMin
+    d d d e f d c c \barMax
+
+    d f e f a( g f g) g \barMaior
+    f e f g f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne Je -- ží -- ši Kris -- te,
+    můj dob -- rý u -- či -- te -- li,
+    dě -- ku -- ji ti,
+    že jsem s_tvou po -- mo -- cí do -- ká -- za -- la sná -- šet
+    všech -- ny ú -- tra -- py mu -- če -- ní;
+
+    dej, ať šťast -- ně do -- jdu
+    do tvé ne -- po -- mí -- je -- jí -- cí slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
