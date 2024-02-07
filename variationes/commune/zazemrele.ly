@@ -2038,6 +2038,38 @@
     \choralniRezim
 
     % R
+    \neviditelna e
+    e4( a) a \barMin b a a g f g g( a) a \barMax
+    g f g a g f e d( e) e \barFinalis
+    % V
+    \neviditelna e
+    e e( a) a a( b a) a \barMin a b g g( a) a \barMax
+    % R
+    \neviditelna a
+    g f g a g f e d( e) e \barFinalis
+    % Slava
+    e e e( a) a g g( a) a \barMin a b g g( a) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*
+    dej jim od -- po -- či -- nu -- tí věč -- né.
+    \Verse Ty při -- jdeš sou -- dit ži -- vé i mrt -- vé,_*
+    \Response dej jim od -- po -- či -- nu -- tí věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "ne-resp2"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
     \neviditelna f
     f4 f f f f g f g g( a) a( g) \barMax
     g( a) g \barMin g f d f g g( f) f \barFinalis
