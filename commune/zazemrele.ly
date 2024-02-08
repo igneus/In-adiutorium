@@ -35,7 +35,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d \barMin d a bes c d d \barMaior
+    d4 d \barMin c a c c d d \barMaior
     d d f e f g g f
     e( f) e d d \barMaior
     d d d( c) c( d) d f e d d \barFinalis
@@ -280,7 +280,7 @@
   \relative c' {
     \choralniRezim
     d4 c a c d d \barMin
-    d f d f g f( d) d \barFinalis
+    d f e f g f( d) d \barFinalis
   }
   \addlyrics {
     Za -- chraň, Hos -- po -- di -- ne,
@@ -321,8 +321,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g( f) g( a) a c b c a a \barMaior
-    g4 \stemUp g( bes) a g f g f( d) d \barFinalis
+    d4 d d( c) c( d) d f e f d d \barMaior
+    d e c c a c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, za -- chraň mě
@@ -333,8 +333,8 @@
   \header {
     textus_approbatus = "Bože, zachraň mě pro své jméno, svou mocí mi zjednej právo!"
     quid = "ant. odpoledne"
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}

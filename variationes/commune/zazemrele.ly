@@ -168,10 +168,35 @@
 }
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d \barMin d a bes c d d \barMaior
     d d f e f g g f \mark\sipka
+    e( f) e d d \barMaior
+    d d d( c) c( d) d f e d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, můj Vy -- ku -- pi -- te -- li,
+    tě -- lo, kte -- rés mi u -- tvo -- řil
+    z_pra -- chu ze -- mě,
+    pro -- buď k_ži -- vo -- tu v_den po -- sled -- ní.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 40-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \barMin \mark\sipka c a c c d d \barMaior
+    d d f e f g g f
     e( f) e d d \barMaior
     d d d( c) c( d) d f e d d \barFinalis
   }
@@ -893,10 +918,32 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c a c d d \barMin
     \mark\sipka d f d f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň, Hos -- po -- di -- ne,
+    a vy -- svo -- boď mou du -- ši.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/tyden1_4streda.ly#up-ant3?zacatek=7&konec=5"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c a c d d \barMin
+    d f \mark\sipka e f g f( d) d \barFinalis
   }
   \addlyrics {
     Za -- chraň, Hos -- po -- di -- ne,
@@ -1032,7 +1079,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g( f) g( a) a c b c a a \barMaior
     \mark\sipka g4 \stemUp g( bes) a g f g f( d) d \barFinalis
@@ -1049,6 +1096,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "ráz neobvyklý, závěr podezřelý"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1123,9 +1171,34 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d( c) c( d) d f e f d d \barMaior
     d e c c a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- chraň mě
+    pro svo -- je % v breviáři: své
+    jmé -- no,
+    svou mo -- cí mi zjed -- nej prá -- vo!
+  }
+  \header {
+    textus_approbatus = "Bože, zachraň mě pro své jméno, svou mocí mi zjednej právo!"
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 d d( c) c( d) d f e f d d \barMaior
+    \mark\sipka f f( g) f e d c c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, za -- chraň mě
@@ -1234,6 +1307,26 @@
     quid = "1. ant."
     modus = "IV alt"
     differentia = "c"
+    psalmus = "Žalm 121"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 c d d d( e) c \barMin
+    d c b c a4. a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din tě chrá -- ní
+    o -- de vše -- ho zlé -- ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 121"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
