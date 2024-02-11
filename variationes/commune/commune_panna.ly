@@ -486,6 +486,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4( f d f) f( e) \barMin f( g) a a g( f d e) e \barMaior
+    f g g( a g4.) \barMin
+    f4 e d( e) e \barFinalis
+
+    f^\markup\rubrVelikAleluja g g( a) g( f)
+    d e e e \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán
+    \markup{\Dagger a} Král pa -- nen.
+
+    \markup{\Dagger a} Král pa -- nen.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "invit1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Nebo:}
