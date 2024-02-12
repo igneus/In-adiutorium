@@ -1403,6 +1403,7 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     g4 b c d d b d( e) d d \barMaior
     \mark\sipka d c b a b a a( g) g \barMaior
@@ -1412,6 +1413,34 @@ Potřebuje výraznější úpravu:}
     Bůh vi -- děl všech -- no, co u -- dě -- lal,
     a by -- lo to vel -- mi dob -- ré.
     A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c d d b d( e) d d \barMaior
+    d c b
+    a b a a( g) g \barMin
+    f g a g \barFinalis
+
+    a(^\markup\rubrPust b) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to
+    \markup{\Dagger vel} -- mi dob -- ré.
+    A -- le -- lu -- ja.
+
+    \markup{\Dagger vel} -- mi dob -- ré.
   }
   \header {
     quid = "3. ant."
@@ -2925,6 +2954,29 @@ tIInedeleLaudResp = \score {
     quid = "1. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b g g \barMin
+    a a g f g a a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 110"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
