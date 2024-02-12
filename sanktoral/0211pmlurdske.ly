@@ -35,6 +35,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "hodně exotická, jinak a lépe"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
