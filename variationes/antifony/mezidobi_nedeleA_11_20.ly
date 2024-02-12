@@ -3129,6 +3129,87 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a g g \barMaior
+    f( g) g( a) a \barMin c c b a g( a) g
+    f g( a) g g \barMaior
+    a a f( e) d \barMin
+    f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vztá -- hl ru -- ku,
+    za -- chy -- til to -- nou -- cí -- ho Pet -- ra
+    a ře -- kl mu:
+    Ma -- lo -- věr -- ný,
+    proč jsi po -- chy -- bo -- val?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a g g \barMaior
+    f( g) g( a) a \barMin c c b a g( a) g
+    f g( a) g g \barMaior
+    a a f( e) d \barMin
+    f g a \mark\sipka c b( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vztá -- hl ru -- ku,
+    za -- chy -- til to -- nou -- cí -- ho Pet -- ra
+    a ře -- kl mu:
+    Ma -- lo -- věr -- ný,
+    proč jsi po -- chy -- bo -- val?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a g g \barMaior
+    f( g) g( a) a \barMin c c b a g( a) g
+    f g( a) g g \barMaior
+    \mark\sipka c( d e) d c( b) a( g) \barMin
+    a f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vztá -- hl ru -- ku,
+    za -- chy -- til to -- nou -- cí -- ho Pet -- ra
+    a ře -- kl mu:
+    Ma -- lo -- věr -- ný,
+    proč jsi po -- chy -- bo -- val?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"20. neděle"}}

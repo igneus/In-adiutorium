@@ -296,9 +296,9 @@
     \choralniRezim
     g4 f g( a) a \barMin
     c b a g( a) g g \barMax
-    c c( d) c( b a) a \barMaior
-    c \barMin
-    a( g) f( g) g \barFinalis
+    c c c( b a) a \barMin
+    g
+    f a( g) g \barFinalis
   }
   \addlyrics {
     Pa -- ne, chceš -- -li,
@@ -318,11 +318,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 e e( g) g g( a) a \barMin
-    a( b) a a g a b b( a) a \barMin
-    a g f e e( f g) f( e) e \barFinalis
+    c4 c c( a) b g g \barMin
+    a a a g f g g( a) a \barMin
+    c c b a g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš vztá -- hl ru -- ku,
@@ -331,8 +331,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
-    differentia = "E"
+    modus = "VIII"
+    differentia = ""
     psalmus = ""
     id = "ne6b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -343,11 +343,11 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d d( a') a a bes a g f( g) g \barMin
-    g g( bes) a a \barMax
-    g4.( d) \barMin d4 e f d d \barMaior
-    f g a g( f g) g4.( a) \barMin
-    g4 f( e) e f d d \barFinalis
+    c4 d d( a' bes) a a g f g g( a) g
+    f e( f) d d \barMax
+    f \barMin g f e d( c) c \barMaior
+    d f d f( g a g) f( g) \barMin
+    f d f e c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- zdra -- vil ma -- lo -- moc -- né -- ho
