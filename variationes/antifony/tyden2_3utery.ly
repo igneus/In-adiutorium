@@ -642,6 +642,43 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 \mark\sipka g f g( a) a a g f e4. e \barMin e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Chci za -- cho -- vá -- vat tvá při -- ká -- zá -- ní, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-VII"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f g( a) a f g f d4. d f4 g g f \barFinalis
+  }
+  \addlyrics {
+    Chci za -- cho -- vá -- vat tvá při -- ká -- zá -- ní, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-VII"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 g a c c \barMin c d( e c) b a a \barMin g a b( a) a \barFinalis
