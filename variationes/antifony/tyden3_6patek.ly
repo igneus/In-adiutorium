@@ -79,7 +79,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a a \mark\sipka bes g a \barMin
     \mark\sipka a f g a g f e f d d \barFinalis
@@ -102,9 +102,10 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a \mark\sipka g a bes g a \barMin
-    a f g a g f e f d d \barFinalis
+    \mark\sipka g f g a g f e f d d \barFinalis
   }
   \addlyrics {
     Do po -- kr -- mu mi da -- li žluč
@@ -237,6 +238,30 @@
     differentia = "a"
     psalmus = "Žalm 69-III"
     placet = "krok na _a_ je divný - chvíli mi nevadí, chvíli působí výrazně nelibě"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 bes a g( a) a \barMin
+    g f g f e \mark\sipka f d d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-III"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
