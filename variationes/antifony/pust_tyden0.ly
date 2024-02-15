@@ -167,6 +167,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c a c( d) c c \barMaior
+  }
+  \addlyrics {
+    Když se pos -- tí -- te,
+    ne -- dě -- lej -- te ztrá -- pe -- ný ob -- li -- čej
+    ja -- ko po -- kryt -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 f g( a) g g \barMaior
     a c c c b( c) a g a g g \barMin
     a g f g g \barFinalis

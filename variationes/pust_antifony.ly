@@ -845,6 +845,27 @@
   }
 
   \score {
+    \relative c' {
+      \choralniRezim
+
+      d4 d d c d f f e \barMin
+      d e f d c e d d \barFinalis
+    }
+    \addlyrics {
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
     \relative c'' {
       \choralniRezim
 
