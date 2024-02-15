@@ -643,7 +643,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     f4 \mark\sipka g f g( a) a a g f e4. e \barMin e4 f d d \barFinalis
   }
@@ -654,7 +654,7 @@
     quid = "1. ant."
     modus = "I"
     differentia = "f"
-    psalmus = "Žalm 119-VII"
+    psalmus = "Žalm 119-ז"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

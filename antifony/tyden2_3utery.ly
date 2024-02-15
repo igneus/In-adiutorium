@@ -146,7 +146,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f g( a) a a g f e4. e \barMin e4 f d d \barFinalis
+    f4 g f g( a) a a g f e4. e \barMin e4 f d d \barFinalis
   }
   \addlyrics {
     Chci za -- cho -- vá -- vat tvá při -- ká -- zá -- ní, Hos -- po -- di -- ne.
