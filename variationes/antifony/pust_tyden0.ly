@@ -452,27 +452,6 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-    d4 d d d( a') a \barMin a( g) f g f( d) d \barMaior
-    d f g f4.( g) \barMin f4 e( d e) d( c) c( d) d \barFinalis
-  }
-  \addlyrics {
-    Kdo chce jít za mnou, za -- při sám se -- be,
-    vez -- mi svůj kříž a ná -- sle -- duj mě.
-  }
-  \header {
-    quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "D"
-    psalmus = ""
-    fial = "commune/commune_jedenmucednik.ly#2ne-a1?-aleluja"
-    id = "ct-aben"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
 \pageBreak
 
 \score {
