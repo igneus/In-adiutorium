@@ -89,6 +89,7 @@
     differentia = "d"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
+    placet = "nevyvážená a nesoudržná, začátek z delší antifony tu nefunguje dobře"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
