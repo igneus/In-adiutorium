@@ -571,6 +571,50 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a a \barMaior
+    f g a a \barMin
+    \mark\sipka c bes a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g( a) a \barMin a a( b) g g( a) a \barMaior
+    g f e e \barMin f g e \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacSedy
     \choralniRezim
@@ -609,6 +653,28 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a( g a) g \barMin f g( a) f f( g) g \barMaior
+    a a g( f) d \barMin
+    e c d \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
