@@ -216,6 +216,33 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c a d( c) c \barMin
+    a g f g a c d( e d c) c \barMaior
+    c a( c) \barMin
+    d b b c a a f( g) g \barMin
+    a g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Hle, Pán při -- jde
+    a s_ním všich -- ni je -- ho sva -- tí;
+    v_ten den
+    za -- zá -- ří ve -- li -- ké svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    fons_externus = "volně podle AR1912, 188"
+    differentia = "a"
+    psalmus = "Žalm 142"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c a c( d) c \barMin
     c a g f g a c( d c) c \barMaior
     f e( d c) \barMin
