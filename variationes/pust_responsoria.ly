@@ -429,3 +429,36 @@
     id = "fe-ne"
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f g( a) a( g) \barMax
+    \mark\sipka g( f d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a \barMin a a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g( f d) f g g f f \barFinalis
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vo -- lám k_to -- bě, Bo -- že,
+    smi -- luj se na -- de mnou.
+    \Verse U -- zdrav mě, zhře -- šil jsem pro -- ti to -- bě,
+    \Response smi -- luj se na -- de mnou.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    titulus = "všední dny - nešpory"
+    fial = "responsoria.ly#1st-ne?cast=2"
+    piece = \markup\sestavTitulekRespII
+    id = "fe-ne"
+  }
+}

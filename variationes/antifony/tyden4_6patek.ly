@@ -1216,6 +1216,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a b g g( a) a \barMaior
+    b a g( e) e \barMin f g f e d e e \barFinalis
+  }
+  \addlyrics {
+    Stvoř mi čis -- té srd -- ce, Bo -- že,
+    ob -- nov ve mně du -- cha vy -- tr -- va -- los -- ti.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {
