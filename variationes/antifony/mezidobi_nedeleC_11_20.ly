@@ -1595,31 +1595,6 @@
     \choralniRezim
     c4 d d( f) f \barMin f( g) f d d \barMin
     f e c d( c) c \barMaior
-    bes c d e( f) d d \barMin
-    f e c c( d) d \barFinalis
-  }
-  \addlyrics {
-    Mi -- luj Pá -- na, své -- ho Bo -- ha,
-    ce -- lým svým srd -- cem
-    a své -- ho bliž -- ní -- ho
-    ja -- ko sám se -- be.
-  }
-  \header {
-    quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
-    psalmus = ""
-    annus = "C"
-    id = "ne15c-1ne-amag"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    c4 d d( f) f \barMin f( g) f d d \barMin
-    f e c d( c) c \barMaior
     \mark\sipka f g a f( g) f f \barMin
     e f d c( d) d \barFinalis
   }

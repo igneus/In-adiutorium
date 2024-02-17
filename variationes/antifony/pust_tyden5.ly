@@ -2970,29 +2970,6 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f d( c) \barMin
-    d d d f g f e d d \barMaior
-    \mark\sipka f g f e( d c) \barMin
-    d f e c( d) d \barFinalis
-  }
-  \addlyrics {
-    U -- ká -- zal jsem vám
-    mno -- ho do -- brých skut -- ků, pra -- ví Pán.
-    Pro kte -- rý z_nich mě chce -- te za -- bít?
-  }
-  \header {
-    quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
-    psalmus = ""
-    id = "pa-aben"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
     d4 d d f \mark\sipka e( c) \barMin
     d d d f g f e d d \barMaior
     f g f e( d c) \barMin

@@ -1034,28 +1034,6 @@
     \relative c' {
       \choralniRezim
       d4 c d f g f e d \barMaior
-      f g a a a g f \mark\sipka f( g) \barMin
-      e c e( f) d d \barFinalis
-    }
-    \addlyrics {
-      Pro -- ro -- ci před -- po -- ví -- da -- li,
-      že se Spa -- si -- tel na -- ro -- dí
-      z_Pan -- ny Ma -- ri -- e.
-    }
-    \header {
-      quid = "ant. dopoledne"
-      modus = "I"
-      differentia = "D"
-      psalmus = ""
-      id = "spol-tercie"
-      piece = \markup {\sestavTitulekBezZalmu}
-    }
-  }
-
-  \score {
-    \relative c' {
-      \choralniRezim
-      d4 c d f g f e d \barMaior
       f g a a a g f \mark\sipka g \barMin
       f d c d d \barFinalis
     }
