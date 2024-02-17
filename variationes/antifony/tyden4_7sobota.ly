@@ -989,8 +989,80 @@
     \choralniRezim
     d4 d d c( d) c c \barMin
     d c d( e) d \barMaior
+    d c b \mark\sipka c( a g) g \barMin
+    f( g) g( a) a \barMin g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( d) c c \barMin
+    d c d( e) d \barMaior
+    d c b c( a g) g \barMin
+    \mark\sipka a a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d c( d) c c \barMin
+    d c d( e) d \barMaior
     \mark\sipka d e f d( c) c \barMin
     c c c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- chá -- zí
+    sou -- dit svůj lid;
+    ne -- be i ze -- mě
+    zvěs -- tu -- jí je -- ho spra -- ve -- dl -- nost.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-I"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d \mark\sipka b d( e) d d \barMin
+    c b c( d) d \barMaior
+    d c b c( a g) g \barMin
+    a a a g f g a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din při -- chá -- zí

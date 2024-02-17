@@ -2993,6 +2993,29 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d e d c c( d) d \barMaior
+    a d b c a( g) \barMin
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g g a a a g a g( f) f \barMaior
@@ -3008,6 +3031,29 @@
     quid = "ant. k Benedictus"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a c c d c d d( c) c \barMaior
+    d e d c a( g) \barMin
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = "ne18c-rch-aben"
