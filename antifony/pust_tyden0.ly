@@ -75,8 +75,8 @@
   \relative c'' {
     \choralniRezim
     d4 d( a) a d c b a a \barMaior
-    b c a a \barMin
-    g a a \barFinalis
+    f g a a \barMin
+    c bes a \barFinalis
   }
   \addlyrics {
     Kdo ztra -- tí svůj ži -- vot pro mne,
@@ -89,7 +89,6 @@
     differentia = "d"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
-    placet = "nevyvážená a nesoudržná, začátek z delší antifony tu nefunguje dobře"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

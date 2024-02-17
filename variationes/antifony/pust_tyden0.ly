@@ -502,7 +502,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( a) a d c b a a \barMaior
     \mark\sipka b c a a \barMin
@@ -519,6 +519,7 @@
     differentia = "d"
     psalmus = ""
     fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast&jiny_text"
+    placet = "nevyvážená a nesoudržná, začátek z delší antifony tu nefunguje dobře"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -572,6 +573,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d( a) a d c b a a \barMaior
     f g a a \barMin
