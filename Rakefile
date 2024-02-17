@@ -179,6 +179,11 @@ namespace :sanity do
   task :divisiones do
     sh 'bash', 'nastroje/divisiones_gap.sh', *all_ly_files
   end
+
+  desc 'Report identical copies in variationes'
+  task :duplicates do
+    ruby 'nastroje/identical_scores.rb', *all_dev_files
+  end
 end
 
 desc "All sanity checks"
