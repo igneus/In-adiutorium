@@ -64,30 +64,6 @@
     d4 d d d( f) \barMin
     g f e c( d) d \barMaior
     d c f e f d \barMin
-    f e( f) d c( d) d \barFinalis
-  }
-  \addlyrics {
-    I kdy -- bych šel
-    tem -- no -- tou rok -- le,
-    ne -- za -- lek -- nu se zla,
-    vždyť Pán je se mnou.
-  }
-  \header {
-    quid = "ant. k Benedictus"
-    modus = "II"
-    differentia = "D"
-    psalmus = ""
-    id = "aben"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    d4 d d d( f) \barMin
-    g f e c( d) d \barMaior
-    d c f e f d \barMin
     f \mark\sipka f( g) f d d \barFinalis
   }
   \addlyrics {

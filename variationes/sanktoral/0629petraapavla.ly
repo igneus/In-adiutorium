@@ -2725,6 +2725,28 @@
     \choralniRezim
     g4( a) a \barMin a a b a g g( a) a \barMin
     a a g f g f g f e e \barMaior
+    d f g a \mark\sipka a g f( g e) e \barFinalis
+  }
+  \addlyrics {
+    Pe -- tře,_* já jsem za te -- be pro -- sil,
+    a -- by tvo -- je ví -- ra ne -- za -- nik -- la,
+    a ty u -- tvr -- zuj své bra -- try.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a a b a g g( a) a \barMin
+    a a g f g f g f e e \barMaior
     \mark\sipka d e f g f g g( e) e \barFinalis
   }
   \addlyrics {
@@ -2793,50 +2815,6 @@
     g4( a) a \barMin a a b a g g( a) a \barMin
     a a g f g f g f e e \barMaior
     \mark\sipka f e f g a g f( e) e \barFinalis
-  }
-  \addlyrics {
-    Pe -- tře,_* já jsem za te -- be pro -- sil,
-    a -- by tvo -- je ví -- ra ne -- za -- nik -- la,
-    a ty u -- tvr -- zuj své bra -- try.
-  }
-  \header {
-    quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
-    psalmus = "Žalm 116-II"
-    id = "2ne-a1"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    g4( a) a \barMin a a b a g g( a) a \barMin
-    a a g f g f g f e e \barMaior
-    d \mark\sipka f g a g f d( e) e \barFinalis
-  }
-  \addlyrics {
-    Pe -- tře,_* já jsem za te -- be pro -- sil,
-    a -- by tvo -- je ví -- ra ne -- za -- nik -- la,
-    a ty u -- tvr -- zuj své bra -- try.
-  }
-  \header {
-    quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
-    psalmus = "Žalm 116-II"
-    id = "2ne-a1"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
-    g4( a) a \barMin a a b a g g( a) a \barMin
-    a a g f g f g f e e \barMaior
-    d f g a \mark\sipka a g f( g e) e \barFinalis
   }
   \addlyrics {
     Pe -- tře,_* já jsem za te -- be pro -- sil,

@@ -960,7 +960,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacSedy
+    \zvyraznovacModry
     \choralniRezim
     d4 c( d) \barMin
     d c d f e d c d \barMaior
@@ -1011,29 +1011,6 @@
     d4 c( d) \barMin
     d c d f e d c d \barMaior
     d d c b c( a) g a \mark\sipka a( g) g \barFinalis
-  }
-  \addlyrics {
-    Z_mých úst
-    u -- dě -- lal na -- brou -- še -- ný meč,
-    ve stí -- nu své ru -- ky mě u -- kryl.
-  }
-  \header {
-    quid = "2. ant."
-    modus = "VII"
-    differentia = "d"
-    psalmus = "Žalm 92-I"
-    id = "mc-a2"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \zvyraznovacModry
-    \choralniRezim
-    d4 c( d) \barMin
-    d c d f e d c d \barMaior
-    d d c b c( a) g \mark\sipka f g( a g) g \barFinalis
   }
   \addlyrics {
     Z_mých úst
