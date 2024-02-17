@@ -2,18 +2,27 @@
 
 require 'lyv'
 
+class Lyv::LilyPondScore
+  def normalized_text
+    text
+      .gsub('\mark\sipka', '')
+      .gsub(/\\zvyraznovac\w+/, '')
+      .gsub(/\s+/, ' ')
+  end
+end
+
 duplicates = 0
 
 ARGV.each do |path|
   seen = {}
 
   Lyv::LilyPondMusic.new(path).scores.each_with_index do |score, i|
-    if seen.has_key?(score.text)
+    if seen.has_key?(score.normalized_text)
       STDERR.puts "#{path} : no. #{i} is a duplicate: #{score.header['id']} #{score.lyrics_readable}"
       duplicates += 1
     end
 
-    seen[score.text] = true
+    seen[score.normalized_text] = true
   end
 end
 
