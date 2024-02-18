@@ -142,6 +142,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_dny_ melisma moc dobře nenese"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
