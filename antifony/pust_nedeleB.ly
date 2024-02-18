@@ -62,15 +62,15 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a( d) c c( d) d \barMin
-    d d( e) c c( d) d \barMaior
-    d c( b) a g a a \barMin
-    g a c d d( c) d \barMaior
-    d d
-    c d e( f) d d( c) \barMin
-    a g( a) c( b a) a \barFinalis
+    e( a) g g( a) a \barMin
+    a a( b) g g( a) a \barMaior
+    a g( f) e d e e \barMin
+    d e g a a( g) a \barMaior
+    a a
+    g a a( b) g g( f e) \barMin
+    e d( e) g( f e) e \barFinalis
   }
   \addlyrics {
     Bdi nad ná -- mi,
@@ -83,8 +83,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}

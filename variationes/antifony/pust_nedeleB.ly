@@ -78,6 +78,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a( bes) a a g f g g( a) \barMaior
+    a g f d d e f d d \barMax
+    c d f f g a g f \mark\sipka d( e) d( c) c \barMaior
+    d f f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš byl na pouš -- ti čty -- ři -- cet dní
+    a byl po -- kou -- šen od sa -- ta -- na,
+    žil tam me -- zi di -- vo -- ký -- mi zví -- řa -- ty
+    a an -- dě -- lé mu slou -- ži -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -211,7 +235,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a( d) c \mark\sipka c( d) d \barMin
     d d( e) c c( d) d \barMaior
@@ -234,6 +258,68 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    placet = "závěr nesedí v modu a z listu nejsem schopný ho zazpívat"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a( d) c c( d) d \barMin
+    d \mark\sipka e f d d \barMaior
+    d c( b) a g a a \barMin
+    g a c d d( c) d \barMaior
+    d d
+    c d e( f) d d( c) \barMin
+    a g( a) c( b a) a \barFinalis
+  }
+  \addlyrics {
+    Bdi nad ná -- mi,
+    náš Spa -- si -- te -- li,
+    ať nás ne -- pře -- mů -- že
+    lsti -- vý po -- ku -- ši -- tel;
+    vždyť ty
+    jsi náš po -- moc -- ník
+    v_kaž -- dé do -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e( a) g g( a) a \barMin
+    a a( b) g g( a) a \barMaior
+    a \mark\sipka g( f) e d e e \barMin
+    d e g a a( g) a \barMaior
+    a a
+    g a \mark\sipka a( b) g g( f e) \barMin
+    e d( e) g( f e) e \barFinalis
+  }
+  \addlyrics {
+    Bdi nad ná -- mi,
+    náš Spa -- si -- te -- li,
+    ať nás ne -- pře -- mů -- že
+    lsti -- vý po -- ku -- ši -- tel;
+    vždyť ty
+    jsi náš po -- moc -- ník
+    v_kaž -- dé do -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
