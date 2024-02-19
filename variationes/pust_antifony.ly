@@ -1160,8 +1160,14 @@
     Jen tak mimochodem, text této antifony je výtvorem
     české překladatelské komise. V latině je úplně jiný:
     \italic{Per arma iustítiæ virtútis Dei, commendémus nosmetípsos in multa patiéntia.}
+    (\cantusid-link "004261")
     Dominikánský breviář překládá
     \italic{Osvědčujme se zbrojí spravedlnosti, silou Boží a všestrannou vytrvalostí.}
+  }
+  \markup\justify{
+    Nepřeklad v DMC je výběrem jiných motivů ze stejné biblické pasáže (2 Kor 6, 4-7)
+    \italic{... exhibeamus nosmetipsos sicut Dei ministros in multa patientia ... et in caritate non ficta.}
+    (srov. též antifonu \italic{Ecce, nunc tempus acceptabile,} \cantusid-link "002532")
   }
 
   \score {
