@@ -182,7 +182,8 @@ namespace :sanity do
 
   desc 'Report identical copies in variationes'
   task :duplicates do
-    ruby 'nastroje/identical_scores.rb', *all_dev_files
+    ruby 'nastroje/identical_scores.rb',
+         *all_dev_files.reject {|i| i.end_with? 'kratkeverse.ly' } # false positives; not very important, rarely edited
   end
 end
 
