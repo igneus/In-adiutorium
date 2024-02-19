@@ -60,11 +60,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a g f g g( a) g g \barMaior
+    g4 g a a g f g( a) g g \barMaior
     a c c c d c b a a a \barMaior
     c b a b( c) a g g \barMax
     g g g a g f g a g g \barMaior
-    a c c( d) d e( d c d) d( c) \barMin
+    a c d d e( d c d) d( c) \barMin
     a g f( g) a g g \barFinalis
   }
   \addlyrics {
@@ -110,10 +110,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 d c f( e) d e e \barMin
-    f g a a g f d e e \barFinalis
+    a4 g f g( a) a g g \barMin
+    a c b c a a a( b) a( g) g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- te Bo -- hu chvá -- lu
@@ -121,8 +121,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
-    differentia = "E"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Dan 3-III"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
@@ -157,7 +157,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a \barMin a a b a a g a f( e) e \barMaior
+    a4. a \barMin a4 a b a a g a f( e) e \barMaior
     d e f( g) g e e \barFinalis
   }
   \addlyrics {
