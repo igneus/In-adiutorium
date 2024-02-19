@@ -26,7 +26,6 @@ ARGV.each do |path|
   end
 end
 
-if duplicates > 0
-  STDERR.puts "#{duplicates} duplicates found"
-  exit 1
-end
+STDERR.puts "#{duplicates} duplicates found"
+
+exit 1 if duplicates > 0
