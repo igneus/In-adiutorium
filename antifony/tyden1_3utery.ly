@@ -227,6 +227,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 20"
+    placet = "moc nesedí v modu (asi hlavně kvůli recitaci na tercii v druhé části), žalm se po ní těžko začíná"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
