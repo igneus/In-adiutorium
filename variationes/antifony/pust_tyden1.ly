@@ -1927,7 +1927,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a b g g \barMin
     g a g f d e \barMaior
@@ -1980,6 +1980,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a b g g \barMin
     g a g f d e \barMaior
