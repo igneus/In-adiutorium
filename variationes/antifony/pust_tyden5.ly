@@ -1382,6 +1382,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a c b a c( d) \mark\sipka d d \barMin
+    d e d c c( d) d \barMaior
+    c c a a g b a a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din zá -- stu -- pů po -- má -- há
+    a vy -- svo -- bo -- zu -- je,
+    od -- pouš -- tí a za -- chra -- ňu -- je.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 114"
+    id = "ne-ne2-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 b a c d d e( c) d d \barMin
     d e d c a a \barMaior
     c c a a g b a a \barFinalis
@@ -1443,6 +1465,28 @@
     quid = "3. ant."
     modus = "IV"
     differentia = "E"
+    psalmus = "1Petr 2"
+    id = "ne-ne2-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a a g( f) e e f g g e e \barMaior
+    a a a c b g g( a) a \barMax
+    a a g( a e4.) e4 e f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus byl pro -- bo -- den pro na -- še hří -- chy,
+    roz -- dr -- cen pro na -- še vi -- ny;
+    je -- ho rá -- ny nás u -- zdra -- vi -- ly.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
     psalmus = "1Petr 2"
     id = "ne-ne2-a3"
     piece = \markup {\sestavTitulek}

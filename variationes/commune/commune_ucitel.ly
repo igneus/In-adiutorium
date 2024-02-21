@@ -929,6 +929,62 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
+    a'4 a g f g( a) \mark\sipka g \barMin a( bes) a a g a g f e e \barMaior
+    c d d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
+    a'4 a g \mark\sipka a a( bes) a \barMin g( a) g f g a g f e e \barMaior
+    c d d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4( a') g f g f \mark\sipka g( a) \barMin c b c( d c) b a a \barMaior
   }
   \addlyrics {
