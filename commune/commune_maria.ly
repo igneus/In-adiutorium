@@ -13,10 +13,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c c( b) c a4. a \barMin
-    g4 a c( b) a( g) g \barMax
-    c d e c( b) a a \barMin
-    c c c b a g g( a) g \barFinalis
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
+    c d c b( a) g g \barMin
+    a a g f g( a) a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -33,8 +32,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 113"
-    fial = "commune/commune_maria.ly#2ne-amag?zacatek=16"
-    placet = "druhá půlka slabší, zejm. závěr lépe"
+    fial = "vanoce_druhanedele.ly#ne2-amag?zacatek=24"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }

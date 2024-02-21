@@ -73,7 +73,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin
     g4 a c( b) a( g) g \barMax
@@ -96,6 +96,7 @@
     differentia = "G"
     psalmus = "Žalm 113"
     fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    placet = "druhá půlka slabší, zejm. závěr lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -154,6 +155,35 @@
     differentia = "G"
     psalmus = "Žalm 113"
     fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
+    c d c b( a) g g \barMin
+    a a g f g( a) a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la
+    to -- ho, kte -- rý všech -- no stvo -- řil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    fial = "vanoce_druhanedele.ly#ne2-amag?zacatek=24"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
