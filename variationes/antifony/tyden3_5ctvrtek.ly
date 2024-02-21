@@ -1251,6 +1251,26 @@ si hrát:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b a g \barMin
+    a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Po -- moz mi, Hos -- po -- di -- ne,
+    a bu -- du za -- chrá -- něn.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 119-XV"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

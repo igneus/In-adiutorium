@@ -1609,6 +1609,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a bes a g a f g e \barMin
+    d d d c d f d f g f d d \barMaior
+    a' g \mark\sipka f g f e( f) d \barMin
+    c d d \barFinalis
+  }
+  \addlyrics {
+    Co -- ko -- li jste u -- dě -- la -- li
+    pro jed -- no -- ho z_mých nej -- po -- sled -- něj -- ších brat -- ří,
+    pro mě jste u -- dě -- la -- li,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "commune/commune_reholnikatd.ly#milo-ne2-amag?cast=1"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{Úterý}
@@ -1935,6 +1960,32 @@
     d f g a a \barMin
     a a g a b a a a g a f e e \barMin
     \mark\sipka f g( a) g f g f e e \barFinalis
+  }
+  \addlyrics {
+    To -- to po -- ko -- le -- ní
+    je po -- ko -- le -- ní zlé.
+    Hle -- dá zna -- me -- ní,
+    a -- le ji -- né zna -- me -- ní mu dá -- no ne -- bu -- de
+    než zna -- me -- ní Jo -- ná -- šo -- vo.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b g g \barMin
+    g a g f d e \barMaior
+    d f g a a \barMin
+    a a g a b a a \mark\sipka g a g f e e \barMin
+    d f( g a) g f g g e e \barFinalis
   }
   \addlyrics {
     To -- to po -- ko -- le -- ní

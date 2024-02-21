@@ -1327,6 +1327,86 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c b c d d \barMaior
+    c a b a g a a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f e \barMin
+    d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka f e f d c c \barMin
+    d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e \mark\sipka c d d c \barMin
+    d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

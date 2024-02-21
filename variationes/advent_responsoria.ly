@@ -863,6 +863,38 @@
 
     % R
     \neviditelna d
+    d4 d d d \mark\sipka f d f( g) a( g) g \barMax
+    a( g) f g( f) e( f) d \barFinalis
+    % V
+    \neviditelna f
+    f4( g) f d f( g) g \barMin g f g g a( g) f( g) g \barMax
+    % R
+    \neviditelna g
+    a( g) f g( f) e( f) d \barFinalis
+    % Slava
+    f4 f f( g) f d f( g) g \barMin g f g a( f) g g \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    piece = "ferie - nešpory (II)"
+    id = "fe-ne"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
     d4 d d d f( e) f \mark\sipka a( g) f( g) g \barMax
     a( g) f g( f) e( f) d \barFinalis
     % V
@@ -928,6 +960,39 @@
 
     % R
     \neviditelna d
+    d4 d d d f e d( e) \mark\sipka c c \barMax
+    d( e) f d( c) c( d) d \barFinalis
+    % V
+    \neviditelna f
+    d4 c a c( d) d \barMin d f f f e( f) d( c) c \barMax
+    % R
+    \neviditelna f
+    d( e) f d( c) c( d) d \barFinalis
+    % Slava
+    d4 d d c a c( d) d \barMin d f f e( f) d( c) c \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    titulus = "ferie - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "fe-ne"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
     d4 d d d f d e f g \barMax
     g( a) f e( f) d d \barFinalis
     % V
@@ -938,6 +1003,72 @@
     g( a) f e( f) d d \barFinalis
     % Slava
     d4 d f e d d( e) c \barMin d f d e f g \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    titulus = "ferie - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "fe-ne"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d d e c d e f \barMax
+    e( f) d e( d) c( d) d \barFinalis
+    % V
+    \neviditelna f
+    f4 f f e( f) d \barMin f f e c d e f \barMax
+    % R
+    \neviditelna f
+    e( f) d e( d) c( d) d \barFinalis
+    % Slava
+    f4 f g f e e( f) d \barMin d e c d e f \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
+    přijď a ob -- nov nás.
+    \Verse Roz -- jas -- ni svou tvář, a bu -- de -- me spa -- se -- ni;_*
+    \Response přijď a ob -- nov nás.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "II"
+    titulus = "ferie - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "fe-ne"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 d d d e c d e f \barMax
+    e( f) d e( d) c( d) d \barFinalis
+    % V
+    \neviditelna f
+    f4 \mark\sipka g f e( f) d \barMin f f e c d e f \barMax
+    % R
+    \neviditelna f
+    e( f) d e( d) c( d) d \barFinalis
+    % Slava
+    f4 f g f e e( f) d \barMin \mark\sipka f e c d e f \barFinalis
   }
   \addlyrics {
     \Response Hos -- po -- di -- ne, Bo -- že zá -- stu -- pů,_*
