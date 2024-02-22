@@ -150,7 +150,7 @@
   \relative c'' {
     \choralniRezim
     c4( d) d \barMin f d d g f e d d \barMaior
-    c d c b( g a) g \barFinalis
+    c d c b( g a4.) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;

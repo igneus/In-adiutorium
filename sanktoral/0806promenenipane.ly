@@ -129,7 +129,7 @@
   \relative c'' {
     \choralniRezim
     c4( d) d \barMin f d d g f e d d \barMaior
-    c d c b( g a) g \barFinalis
+    c b g a( g f g) g4 \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
@@ -140,11 +140,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    placet = "bez úprav zkopírovat hotovou melodii pro téměř shodný text bylo svůdné,
-    jenže _králů_ (dvě dlouhé) má jiný rytmus než _slávy_ (dlouhá-krátká),
-    takže kopie je méně uspokojivá"
     id = "invit"
-    fial = "mezidobi_kristakrale.ly#invit?jiny_text"
+    fial = "mezidobi_kristakrale.ly#invit?zacatek=12"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

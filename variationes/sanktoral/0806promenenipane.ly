@@ -430,7 +430,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d \barMin f d d g f e d d \barMaior
     c d c b( g a) g \barFinalis
@@ -520,7 +520,7 @@
   \relative c'' {
     \choralniRezim
     c4( d) d \barMin f d d g f e d d \barMaior
-    c b g \mark\sipka a( g f g) g4 \barFinalis
+    c b \mark\sipka g-- a( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
@@ -533,6 +533,28 @@
     psalmus = ""
     id = "invit"
     fial = "mezidobi_kristakrale.ly#invit?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d \barMin f d d g f e d d \barMaior
+    c b g \mark\sipka a( g f g) g4 \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
+    on je Král slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit"
+    fial = "mezidobi_kristakrale.ly#invit?zacatek=12"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -563,6 +585,27 @@
     \choralniRezim
     c4( d) d \barMin f d d g f e d d \barMaior
     c b \mark\sipka g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
+    on je Král slá -- vy.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit"
+    fial = "mezidobi_kristakrale.ly#invit?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d \barMin f d d g f e d d \barMaior
+    c \mark\sipka a b( c) a( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
