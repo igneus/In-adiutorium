@@ -18,14 +18,14 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g g a g f g a a( g) g \barMaior
-    a( c) c( d) d \barMin
-    d c d e d d
-    d c b a g( a) a \barMaior
-    c b c( d) d c c \barMin
-    c d( e d) c( b) a g f( a) a g g \barFinalis
+    d4 d c d f e c e f d d \barMaior
+    c( d) d( f) f \barMin
+    f f f g f f
+    g g a g f( d) d \barMaior
+    f f e c d4. c \barMin
+    d4 c( d) d( f) f e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl shro -- máž -- dě -- né -- mu li -- du:
@@ -33,15 +33,12 @@
     pů -- vod -- ce ži -- vo -- ta,
     jste vy -- da -- li na smrt,
     a -- le Bůh ho vzkří -- sil
-    a po -- vý -- šil ho do své slá -- vy.
+    a po -- vý -- šil do své slá -- vy.
   }
   \header {
-    textus_approbatus = "Petr řekl shromážděnému lidu:
-    Ježíše, původce života, jste vydali na smrt,
-    ale Bůh ho vzkřísil a povýšil do své slávy."
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 19A"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -54,7 +51,7 @@
     d4 c( b g) g \barMin
     a( g) f g( a) g( f) g \barMaior
     c d c d d( c) \barMin
-    a c c b a( g) g \barFinalis
+    a c c b g g \barFinalis
   }
   \addlyrics {
     Pán po -- slal
@@ -150,9 +147,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f a g g \barMin
-    f g f( e) d( c) c \barMaior
-    d f g g g g( a) g( f) f \barFinalis
+    f4 g f a g g \barMaior
+    a a a g( f d4.) d \barMin
+    d4 c d f e c d d \barFinalis
   }
   \addlyrics {
     Pán ře -- kl Pet -- ro -- vi:
@@ -161,8 +158,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -178,7 +175,7 @@
     a a b a g g( a) a \barMin
     a a g f g f g f e e \barMaior
     d e f e f g a g g \barMin
-    a g f g f( e) e \barFinalis
+    f g a g f( e) e \barFinalis
   }
   \addlyrics {
     Pán ře -- kl Ši -- mo -- nu Pet -- ro -- vi:
@@ -194,7 +191,6 @@
     psalmus = ""
     id = "rch-aben"
     fons = "kousek z: Petra a Pavla, 2. nesp., 1. a."
-    fial = "sanktoral/0629petraapavla.ly#2ne-a1?cast=2-3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -204,8 +200,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c e f d d \barMax
-    a' g g( a) a \barMin a a( c) a g f d d \barMax
+    f4 f g f a( g) g \barMaior
+    a a g( f d) d \barMin e f d c d c c \barMaior
     f f( g f) d d \barFinalis
   }
   \addlyrics {
@@ -219,7 +215,7 @@
     Pas moje ovce."
     quid = "1. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "f"
     psalmus = "Žalm 116-II"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -243,6 +239,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 126"
+    placet = "spíš lépe"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

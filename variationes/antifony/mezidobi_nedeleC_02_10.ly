@@ -993,6 +993,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f e f d d \barMaior
+    c( d) f( g) g \barMin
+    a a g f d c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl Ši -- mo -- no -- vi:
+    Ne -- boj se!
+    Od ny -- nějš -- ka bu -- deš lo -- vit li -- di.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne5c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"6. neděle"}}

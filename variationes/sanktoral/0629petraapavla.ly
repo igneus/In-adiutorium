@@ -228,6 +228,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g f g( a) a \barMin
+    a b( c a) a \barMaior
+    c c( d) c b a( g) \barMin
+    a g \mark\sipka f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne Pet -- ře,_*
+    tys vy -- znal,
+    že Kris -- tus je Syn
+    ži -- vé -- ho Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka g4 g f g( a) a \barMin
     a b( c a) a \barMaior
     c c( d) c b a( g) \barMin

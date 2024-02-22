@@ -1936,6 +1936,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g g g( a) f f( g) g \barMin
+    g \mark\sipka a a g f d d e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- stí -- nil je svět -- lý ob -- lak_*
+    a z_ob -- la -- ku se o -- zval Ot -- cův hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    v_něm mám za -- lí -- be -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
