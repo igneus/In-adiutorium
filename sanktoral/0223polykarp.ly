@@ -16,7 +16,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c b a c \barMin c( d) d a a \barMaior
-    a c c c b a g( a) g \barMaior
+    c c c c b a g( a) g \barMaior
     f g a g a c b g a a \barMin
     a g f d e e \barFinalis
   }
