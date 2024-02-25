@@ -299,6 +299,25 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f e d c \barMin
+    d f e d e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, ty jsi sho -- ví -- va -- vý
+    a nej -- výš mi -- lo -- srd -- ný.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pondělí"
+    id = "po"
+  }
+}
+
 \pageBreak
 
 \score {
@@ -984,6 +1003,24 @@
   \relative c' {
     \choralniRezim
     d4 d \barMin c d d( f) f g f e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pátek"
+    id = ""
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d c d d( f) f \barMin g f e d d \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě ve dne i v_no -- ci.
