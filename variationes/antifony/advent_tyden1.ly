@@ -1946,6 +1946,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c d d d \barMin
+    c d e d c d d \barMaior
+    a( d) b c a( g) \barMin
+    f g a bes
+    c c a a \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Hos -- po -- di -- na,
+    když je mož -- né ho na -- jít,
+    vzý -- vej -- te ho,
+    když je blíz -- ko!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "podle AR1912 193"
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Středa 1. týdne}}
