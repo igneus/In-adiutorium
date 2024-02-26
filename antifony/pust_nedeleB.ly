@@ -96,11 +96,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g f g g( a) a a \barMaior
-    c c c b( a) g \barMin
-    f( g) a a g g \barMaior
-    f a c c d c d c( b) a a \barMaior
-    a c b a g f( g) a( g) g \barFinalis
+    g4 g g a g f g( a) g g \barMaior
+    a g a a( c) c \barMin
+    b( c) b a g g \barMaior
+    c c c c d e d c( b) a a \barMin
+    a c c b g a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš byl před ni -- mi pro -- mě -- něn
@@ -114,7 +114,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "půjde lépe"
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -124,8 +123,8 @@
   \relative c' {
     \choralniRezim
     f4 g a a g f g g \barMaior
-    g( a bes a) g( a) \barMin
-    a g f e f d d \barFinalis
+    a( bes a g) f( g) \barMin
+    g a f e f d d \barFinalis
   }
   \addlyrics {
     Pe -- tr ře -- kl Je -- ží -- šo -- vi:
@@ -162,6 +161,7 @@
     differentia = "D"
     psalmus = ""
     fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec=20"
+    placet = "první dvě třetiny lépe"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
