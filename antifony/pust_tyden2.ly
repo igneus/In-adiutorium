@@ -113,7 +113,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-II"
-    fial = "antifony/tyden1_1nedele.ly#rch-ant2?zacatek"
+    fial = "antifony/tyden1_1nedele.ly#rch-ant2?zacatek=16"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -167,7 +167,7 @@
   \relative c'' {
     \choralniRezim
     g4 a g f g( a) \barMin c d c b g a a \barMaior
-    c b( a g) g f g a a( g) g \barFinalis
+    c b( a g) g \barMin f g a a( g) g \barFinalis
   }
   \addlyrics {
     Jen je -- den je Bůh, kte -- ré -- ho u -- ctí -- vá -- me,

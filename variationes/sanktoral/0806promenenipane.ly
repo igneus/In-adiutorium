@@ -1078,6 +1078,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a( g a) \barMin a( b c b) a( g) g g( a g) f g g \barMaior
+    \mark\sipka a c( b) c a \barMin c c b a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va tvář_* zá -- ři -- la ja -- ko slun -- ce
+    a je -- ho šat o -- sl -- ni -- vě zbě -- lel.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
