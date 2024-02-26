@@ -23,6 +23,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     \neviditelna a
@@ -31,6 +32,79 @@
 
     \neviditelna d
     d4 e a a c b a a c b a4. f \barMin e4 g a a a g f e d \barMax
+    \neviditelna e
+    e4 g a f e4. e \barFinalis
+
+    a4 a c b c a a \barMin
+    a4 b g f e e \barFinalis
+  }
+  \addlyrics {
+    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+    smi -- luj se nad ná -- mi.
+
+    \Verse Ty, kte -- rýs byl pro -- bo -- den pro na -- še hří -- chy a roz -- dr -- cen pro na -- še vi -- ny,_*
+    \Response smi -- luj se nad ná -- mi.
+
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "III"
+    titulus = "neděle - ranní chvály"
+    piece = \markup\sestavTitulekRespII
+    id = "ne-rch"
+  }
+}
+
+\markup\justify{
+  Léta letoucí to zpívám takhle, ale nevšiml jsem si,
+  že se to liší od toho, co je zapsáno v notách.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    \neviditelna a
+    a4( c) b a a g f g( a) f( e) d \barMax
+    e4 g a f e4. e \barFinalis
+
+    \neviditelna d
+    d4 e a a c b a a c b a4. \mark\sipka e \barMin d4 f a a a g f e d \barMax
+    \neviditelna e
+    e4 g a f e4. e \barFinalis
+
+    a4 a c b c a a \barMin
+    a4 b g f e e \barFinalis
+  }
+  \addlyrics {
+    \Response Kris -- te, Sy -- nu ži -- vé -- ho Bo -- ha,_*
+    smi -- luj se nad ná -- mi.
+
+    \Verse Ty, kte -- rýs byl pro -- bo -- den pro na -- še hří -- chy a roz -- dr -- cen pro na -- še vi -- ny,_*
+    \Response smi -- luj se nad ná -- mi.
+
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "III"
+    titulus = "neděle - ranní chvály"
+    piece = \markup\sestavTitulekRespII
+    id = "ne-rch"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    \neviditelna a
+    a4( c) b a a g f g( a) f( e) d \barMax
+    e4 g a f e4. e \barFinalis
+
+    \neviditelna d
+    d4 \mark\sipka f a a c b a a c b a4. e \barMin d4 f a a a g f e d \barMax
     \neviditelna e
     e4 g a f e4. e \barFinalis
 

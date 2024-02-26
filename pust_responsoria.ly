@@ -22,7 +22,7 @@
     e4 g a f e4. e \barFinalis
 
     \neviditelna d
-    d4 e a a c b a a c b a4. f \barMin e4 g a a a g f e d \barMax
+    d4 e a a c b a a c b a4. e \barMin d4 f a a a g f e d \barMax
     \neviditelna e
     e4 g a f e4. e \barFinalis
 
