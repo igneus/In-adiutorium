@@ -1221,6 +1221,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) g g a bes a g f g g \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
+    že Kris -- tus mu -- sí tr -- pět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{Pondělí}
