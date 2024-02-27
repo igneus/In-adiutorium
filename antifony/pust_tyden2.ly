@@ -211,7 +211,7 @@
   \relative c' {
     \choralniRezim
     d4 f g f e d \barMaior
-    f f f g a g f e d d \barMin
+    f f f g a g f e( f) d d \barMin
     e c d \barFinalis
   }
   \addlyrics {
@@ -224,9 +224,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    % zamerne nevychazim z antifony/mezidobi_nedeleA_02_10.ly#ne7a-2ne-amag,
-    % protoze mi jeji melodie sem neprijde vhodna;
-    % ke zvazeni je, zda neprenest zdejsi melodii tam
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
