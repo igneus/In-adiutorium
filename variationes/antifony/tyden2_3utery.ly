@@ -1216,6 +1216,24 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    f4 f f g g( a) a \barMin a g f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ne -- mů -- že -- te slou -- žit Bo -- hu i ma -- mo -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 49-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     f4 f f f f f( g) a c bes( a) a \barMin g( a) f4. f \barFinalis

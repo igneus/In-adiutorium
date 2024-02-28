@@ -1425,6 +1425,72 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c \mark\sipka d c b( c) a( g) g \barMaior
+    a a a g f g a a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d d c( d) c c \barMaior
+    c a a c b a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c \mark\sipka a c( d) d c( d) c c \barMaior
+    c a a c b a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   ... zato tady původní verze antifony slovní přízvuk přesouvala zcela nepochybně.
 }
