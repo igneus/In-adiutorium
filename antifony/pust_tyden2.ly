@@ -291,7 +291,8 @@
     a b a g g \barMax
 
     d' d c d d d d d( e) d c( b a) g a( g) \barMaior
-    a a c a g f g a a g g \barFinalis
+    a b c a g f g a a
+    g g \barFinalis
   }
   \addlyrics {
     Vy všich -- ni jste brat -- ři.
