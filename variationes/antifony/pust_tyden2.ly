@@ -2357,13 +2357,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a b( c) a a \barMin
     g a g g f e e \barMaior
     \mark\sipka g a c c b( d) c( b a) \barMaior
     g f g g( a) a \barMin
     a a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka ne -- při -- šel,
+    a -- by si ne -- chal slou -- žit,
+    a -- le a -- by slou -- žil
+    a dal svůj ži -- vot
+    ja -- ko vý -- kup -- né za všech -- ny.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "b"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a b( c) a a \barMin
+    g a g g f e e \barMaior
+    g a c c b( d) c( b a) \barMaior
+    g f g g( a) a \barMin
+    \mark\sipka g f g( a) g f d e e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka ne -- při -- šel,
@@ -2435,6 +2462,60 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka d( f) d d f e f g f d d \barMaior
+    a' a a g b c a a \barMaior
+    b g g e e \barMin e f( g a) g f e e \barMaior
+    d d d e f d( c) \barMin
+    d f g( f e d) d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de vy -- dán po -- ha -- nům,
+    a -- by se mu po -- smí -- va -- li,
+    zbi -- čo -- va -- li ho a u -- kři -- žo -- va -- li,
+    a -- le tře -- tí -- ho dne
+    bu -- de vzkří -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka e( f) d d f e f g f d d \barMaior
+    a' a a g b c a a \barMaior
+    b g g e e \barMin e f( g a) g f e e \barMaior
+    d d d e f d( c) \barMin
+    d f g( f e d) d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de vy -- dán po -- ha -- nům,
+    a -- by se mu po -- smí -- va -- li,
+    zbi -- čo -- va -- li ho a u -- kři -- žo -- va -- li,
+    a -- le tře -- tí -- ho dne
+    bu -- de vzkří -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\nadpisDen{Čtvrtek}
 

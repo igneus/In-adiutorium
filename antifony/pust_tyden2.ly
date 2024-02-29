@@ -325,7 +325,7 @@
     g a g g f e e \barMaior
     g a c c b( d) c( b a) \barMaior
     g f g g( a) a \barMin
-    a a g( a) g f d e e \barFinalis
+    g f g( a) g f d e e \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka ne -- při -- šel,
@@ -365,6 +365,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "začátek spíš lépe"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
