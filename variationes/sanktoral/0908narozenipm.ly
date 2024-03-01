@@ -149,6 +149,19 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Quando nata est Virgo sacratíssima,
+    tunc illuminátus est mundus;
+    stirps beáta, radix sancta et benedíctus fructus eius.
+  }
+  Český text je nezávislý na předloze, zatím vypadá na koláž motivů
+  z různých tradičních antifon.
+  První půlka snad podle \fial-link "002016" ,
+  druhá vybraný motiv z \fial-link "003852"
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -181,6 +194,78 @@
     \key f \major
     c4 c a( g) a \barMin a a a a g f g( a) \mark\sipka a g( f) g g f f \barMax
     f g a \mark\sipka c( d c) c \barMin d( f e) c d c bes c c \barMaior
+    c c bes a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se z_na -- ro -- ze -- ní
+    nej -- svě -- těj -- ší Pan -- ny Ma -- ri -- e,
+    ne -- boť z_ní vze -- šlo Slun -- ce spra -- ve -- dl -- nos -- ti,
+    kte -- ré o -- za -- řu -- je ce -- lý svět.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka a4 g g( a) a \barMin a a a a g f g( a) a g( f) g g f f \barMax
+    f g a c( d c) c \barMin d( f e) c d c bes c c \barMaior
+    c c bes a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se z_na -- ro -- ze -- ní
+    nej -- svě -- těj -- ší Pan -- ny Ma -- ri -- e,
+    ne -- boť z_ní vze -- šlo Slun -- ce spra -- ve -- dl -- nos -- ti,
+    kte -- ré o -- za -- řu -- je ce -- lý svět.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka c4 d d( c) c \barMin c c c c a g g( a) a g( f) g g f f \barMax
+    f g a c( d c) c \barMin d( f e) c d c bes c c \barMaior
+    c c bes a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se z_na -- ro -- ze -- ní
+    nej -- svě -- těj -- ší Pan -- ny Ma -- ri -- e,
+    ne -- boť z_ní vze -- šlo Slun -- ce spra -- ve -- dl -- nos -- ti,
+    kte -- ré o -- za -- řu -- je ce -- lý svět.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    c4 d d( c) c \barMin c c \mark\sipka a g f g g( a) a g( f) g g f f \barMax
+    f g a c( d c) c \barMin d( f e) c d c bes c c \barMaior
     c c bes a g f g( a) f f \barFinalis
   }
   \addlyrics {

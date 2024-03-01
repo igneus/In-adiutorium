@@ -183,6 +183,26 @@
   \relative c' {
     \choralniRezim
     f4 g a a g f f( g) g \barMin f e d( c) c \barMaior
+    d f f g \mark\sipka f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Při -- ne -- su ti o -- běť dí -- ků, Hos -- po -- di -- ne,
+    a bu -- du vzý -- vat tvé jmé -- no.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 116-II"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f f( g) g \barMin f e d( c) c \barMaior
     \mark\sipka d c d f g a f f \barFinalis
   }
   \addlyrics {

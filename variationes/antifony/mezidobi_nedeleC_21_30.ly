@@ -1937,6 +1937,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e f e d \mark\sipka f e e \barMin d e f( g) f d( e) e \barMaior
+    a( g a g) f( d) \barMin f g f e e \barFinalis
+  }
+  \addlyrics {
+    Bo -- háč,
+    kte -- rý ne -- dal La -- za -- ro -- vi a -- ni drob -- ty chle -- ba,
+    pro -- sil
+    o kap -- ku vo -- dy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

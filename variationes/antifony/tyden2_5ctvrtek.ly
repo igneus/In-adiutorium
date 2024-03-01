@@ -348,6 +348,24 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d( e) c c( d) d \barMin c b g b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Pro -- buď svou sí -- lu, Pa -- ne, a přijď nás za -- chrá -- nit.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 80"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -379,6 +397,26 @@
     \key f \major
     f4 f g a a a bes bes a bes g( f) \mark\sipka g \barMaior
     g4 f g \mark\sipka a a \barMin a g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din u -- či -- nil vel -- ko -- le -- pé vě -- ci,
+    ať je to zná -- mé po ce -- lé ze -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Iz 12"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d c( d) c c f g a a g g \barMaior
+    g4 a g f( g) f \barMin d f g g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- či -- nil vel -- ko -- le -- pé vě -- ci,

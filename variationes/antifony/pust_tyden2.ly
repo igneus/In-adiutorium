@@ -2465,6 +2465,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 \mark\sipka d( f) d d f e f g f d d \barMaior
     a' a a g b c a a \barMaior
@@ -2541,6 +2542,54 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g \mark\sipka f( e) d( c) c \barMin
+    d f f f f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-rch-ben?zacatek=15"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f( e) d( c) c \barMin
+    d f \mark\sipka g f e d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-rch-ben?zacatek=15"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

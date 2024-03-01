@@ -1612,6 +1612,48 @@
 \score {
   \relative c' {
     \choralniRezim
+    e4 \mark\sipka f e f( g) e d( e) \barMaior
+    f g a a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f e \mark\sipka f g g( a) \barMaior
+    g f g a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Náš pří -- tel La -- zar spí,
+    a -- le jdu, a -- bych ho pro -- bu -- dil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "A"
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f e f d( c) \barMaior
     d c d f e d c d d \barFinalis
   }

@@ -3136,6 +3136,35 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( c) a a g a a a a( f e) \barMaior
+    a \[ a( c b \] \[ c d c) \] b a( g a) g( f) g \barMaior
+    \mark\sipka a a a a( b) g g \barMin
+    f e d d( e) \barFinalis
+
+    a^\markup\rubrVelikAleluja a a f( e d)
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků \markup{\Dagger při} -- pra -- vil Pán.
+
+    \markup{\Dagger při} -- pra -- vil Pán.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify{
   Pokus vyjít z odpovídající latinské antifony (AR1912, [63]).
   Výsledek je ale tak nepodobný, že deklarovat nějaký vztah by bylo spíš zavádějící.
