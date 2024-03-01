@@ -290,8 +290,8 @@
     \choralniRezim
     c4 b c d d \barMin
     d e d c a a \barMin
-    c b g a a( g) g \barMaior
-    f a c c c c b a g g \barFinalis
+    c c b c a( g) g \barMaior
+    f g a a a a c b g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,
@@ -304,7 +304,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 112"
-    placet = "závěr je nějak neuspokojivý"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }
