@@ -2009,6 +2009,86 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 f f c c \barMin
+    d e f( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá to -- ho,
+    ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f c c \barMin
+    d \mark\sipka f e( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá to -- ho,
+    ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f \mark\sipka e c c \barMin
+    d e f( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá to -- ho,
+    ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e g( f) f \barMin
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá to -- ho,
+    ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 b a g( a) g \barMin
@@ -2040,6 +2120,24 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Žalm 60"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( b d) c \barMin b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh tres -- tá to -- ho, ko -- ho má rád.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 60"
     id = "up-ant3"
     piece = \markup {\sestavTitulek}
