@@ -459,7 +459,7 @@
     \choralniRezim
     d4 d d c( a) \barMin
     b c a a g g \barFinalis
-    
+
     f^\markup\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
@@ -509,7 +509,7 @@
     \choralniRezim
     d4 d d \mark\sipka c( d c) \barMin
     b c a a g g \barFinalis
-    
+
     f^\markup\rubrVelikAleluja g a( g) g \barFinalis
   }
   \addlyrics {
