@@ -2439,6 +2439,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( e) d d f e f g f d d \barMaior
     a' a a g b c a a \barMaior
@@ -2465,7 +2466,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     d4 \mark\sipka d( f) d d f e f g f d d \barMaior
     a' a a g b c a a \barMaior
