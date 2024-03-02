@@ -67,7 +67,8 @@
   \pageBreak
 
   \markup\justify{
-    Text nezávislý na latinské předloze:
+    Text nezávislý na latinské předloze.
+    Liturgia horarum:
     \italic{Utinam hódie vocem Dómini audiátis: Nolíte obduráre corda vestra.}
   }
 

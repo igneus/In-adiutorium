@@ -538,6 +538,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d \mark\sipka f f e f d d \barMaior
+    f f f e c e( f) d d \barFinalis
+
+    c^\rubrVelikAleluja d f( e) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Hos -- po -- di -- ne,
+    u -- jmi se mě a po -- moz mi.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d d( f) f g f g a \barMaior
     a a a g d f( e) c( d) d \barFinalis
 
@@ -758,6 +782,30 @@
     c4 d d( f) f \barMin
     g g g f e d d \barMaior
     \mark\sipka f e d( e c d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj -- me
+    na smlou -- vu s_Hos -- po -- di -- nem,
+    na -- ším Bo -- hem.
+
+    % aleluja v breviari neni
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 106-II"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g g g f e d d \barMaior
+    \mark\sipka c( a) c c( d) d \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj -- me
