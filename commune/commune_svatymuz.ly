@@ -42,10 +42,10 @@
     \choralniRezim
     c4 b c d d \barMin
     d e d c a a \barMin
-    c b g a a( g) g \barMaior
-    f a c c c c b a g g \barFinalis
+    c c b c a( g) g \barMaior
+    f g a a a a c b g g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,
