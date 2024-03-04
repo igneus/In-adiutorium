@@ -91,6 +91,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 118"
+    fial = "antifony/tyden3_1nedele.ly#up-ant2?-aleluja&konec=9"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
