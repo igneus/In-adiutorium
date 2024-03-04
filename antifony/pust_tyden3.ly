@@ -8,8 +8,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e c( f) d d \barMin
-    f f( g) f e c f d d \barFinalis
+    d4 d c( f) d d \barMin
+    f g f e c f d d \barFinalis
   }
   \addlyrics {
     Čiň -- te po -- ká -- ní
@@ -98,7 +98,7 @@
   \relative c' {
     \choralniRezim
     d4 d c( b a) \barMin c( d) e e d d \barMaior
-    f d f g f e d c c d d \barFinalis
+    f d f g g g f d c d d \barFinalis
   }
   \addlyrics {
     Pra -- me -- ny, ve -- leb -- te Pá -- na,
@@ -162,7 +162,7 @@
   \relative c' {
     \choralniRezim
     d4 f g g( a) f f( g) g \barMin
-    g f g( a) f e e \barMaior
+    f g g( a) f e e \barMaior
     g f e d c d e( f) d d \barFinalis
   }
   \addlyrics {
