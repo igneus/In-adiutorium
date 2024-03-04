@@ -528,7 +528,7 @@ describe ChildParentComparison do
       ).to be_match
     end
 
-    it 'facatek fails' do
+    it 'zacatek fails' do
       expect(
         described_class.new(
           score(music: 'a a a a a   b b b   f f f f f', fial: fial),
