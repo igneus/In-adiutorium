@@ -580,6 +580,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c c b a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tInedeleLaudResp }
@@ -790,6 +811,50 @@
     g4 a c c b \barMin
     c4 c b a f( a) g \mark\sipka \barMaior
     f4 a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je Hos -- po -- din
+    a do -- přál nám svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b \barMin
+    c4 c \mark\sipka c c a g
+    f4 a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je Hos -- po -- din
+    a do -- přál nám svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a \barMin
+    c c c c d c
+    b c a( g) g \barFinalis
   }
   \addlyrics {
     Bůh je Hos -- po -- din

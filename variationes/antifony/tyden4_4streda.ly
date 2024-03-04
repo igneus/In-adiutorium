@@ -1131,6 +1131,46 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 e f f e d c c \barMaior
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f e f d d \barMaior
+    d e c a c d d \barFinalis
+  }
+  \addlyrics {
+    Vo -- lám k_to -- bě, Hos -- po -- di -- ne,
+    spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 119-ק"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a a g f g g \barMin
     g f d f g g( f) f \barFinalis
   }

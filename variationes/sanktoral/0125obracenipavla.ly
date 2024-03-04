@@ -517,6 +517,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c c( d) d \barMaior
+    d d d( e) c b c a g g \barMin
+    a a( c) b( a) a \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Šav -- la,
+    a -- by hlá -- sal e -- van -- ge -- li -- um
+    všem ná -- ro -- dům.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
