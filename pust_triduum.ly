@@ -924,6 +924,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Flp 2"
+    placet = "závěr lépe"
     id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }

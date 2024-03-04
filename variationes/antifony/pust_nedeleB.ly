@@ -1145,6 +1145,26 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    c4 c b g
+    b c a( g) \mark\sipka g \barMin f g a b c a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Ne -- dě -- lej -- te z_do -- mu mé -- ho Ot -- ce trž -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
     c4 c b g
@@ -1186,7 +1206,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g( a) a \barMin
     \mark\sipka g f g( a) g \barMin f g f e f d c d d \barFinalis
@@ -1199,6 +1219,46 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    g f g( a) g \barMin f g \mark\sipka a a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Ne -- dě -- lej -- te z_do -- mu mé -- ho Ot -- ce trž -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    g f g( a) g \barMin \mark\sipka a a g f d f g f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Ne -- dě -- lej -- te z_do -- mu mé -- ho Ot -- ce trž -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1247,7 +1307,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     e4 g g( a) a \barMin
     b a g( a) g \barMin \mark\sipka a a g f g( a) g f e e \barFinalis
@@ -1323,11 +1383,87 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a a g a f( g) \barMin g( bes) a a \barMaior
     a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
     \mark\sipka f e d f( g) g g \barMin f4( g f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zboř -- te ten -- to chrám, pra -- ví Pán,
+    a ve třech dnech jej za -- se po -- sta -- vím.
+    Ře -- kl to o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "iiiben"
+    fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
+    fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (o díl víc beze změny podle zdroje)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a a g a f( g) \barMin g( bes) a a \barMaior
+    \mark\sipka g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f e d f( g) g g \barMin f4( g f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zboř -- te ten -- to chrám, pra -- ví Pán,
+    a ve třech dnech jej za -- se po -- sta -- vím.
+    Ře -- kl to o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "iiiben"
+    fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
+    fial = "pust_triduum.ly#so-nesp-ant3?cast=3-4,6"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a a g a f( g) \barMin g( bes) a a \barMaior
+    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f e d f( g) g g \barMin \mark\sipka f4( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zboř -- te ten -- to chrám, pra -- ví Pán,
+    a ve třech dnech jej za -- se po -- sta -- vím.
+    Ře -- kl to o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "iiiben"
+    fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
+    fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a a g a f( g) \barMin g( bes) a a \barMaior
+    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f e d f( g) g g \barMin f4( e) c \mark\sipka e( f d) d \barFinalis
   }
   \addlyrics {
     Zboř -- te ten -- to chrám, pra -- ví Pán,
@@ -1375,6 +1511,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a a g a f( g) \barMin g( bes) a a \barMaior
+    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f e d \mark\sipka c( d) c c \barMin d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zboř -- te ten -- to chrám, pra -- ví Pán,
+    a ve třech dnech jej za -- se po -- sta -- vím.
+    Ře -- kl to o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "iiiben"
+    fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
+    fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a a g a f( g) \barMin \mark\sipka g a a \barMaior
+    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f e d f( g) g g \barMin f4( g f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Zboř -- te ten -- to chrám, pra -- ví Pán,
+    a ve třech dnech jej za -- se po -- sta -- vím.
+    Ře -- kl to o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "iiiben"
+    fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
+    fial = "pust_triduum.ly#so-nesp-ant3?upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1402,6 +1586,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 f g a c c c d c b c a a \barMaior
     c c b a b a g \barMin
@@ -1424,7 +1609,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a c c c d c b c a a \barMaior
     c c \mark\sipka c c b a g \barMin

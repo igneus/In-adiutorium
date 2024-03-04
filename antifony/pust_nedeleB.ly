@@ -172,8 +172,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a \barMin
-    g f g( a) g \barMin f g f e f d c d d \barFinalis
+    e4 g g( a) a \barMin
+    b a g( a) g \barMin a a g f g( a) g f e e \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
@@ -181,8 +181,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -193,7 +193,7 @@
   \relative c'' {
     \choralniRezim
     a a g a f( g) \barMin g( bes) a a \barMaior
-    a g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
     f e d f( g) g g \barMin f4( g f) e c( d) d \barFinalis
   }
   \addlyrics {
@@ -208,7 +208,7 @@
     psalmus = ""
     id = "iiiben"
     fons = "velké kusy z: Bílá sobota, nešpory, 3. ant."
-    fial = "pust_triduum.ly#so-nesp-ant3?cast=4,6"
+    fial = "pust_triduum.ly#so-nesp-ant3?cast=3-4,6"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -217,7 +217,7 @@
   \relative c'' {
     \choralniRezim
     g4 f g a c c c d c b c a a \barMaior
-    c c c c b a g \barMin
+    c c b a b a g \barMin
     f g( a) g g \barFinalis
   }
   \addlyrics {
