@@ -622,6 +622,26 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    c4 c c b a \mark\sipka g( a) g \barMin
+    f g a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- va věr -- nost
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 117"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     c4 c d c d f( e d) c \barMin
@@ -755,6 +775,26 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Žalm 117"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- va věr -- nost
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 117"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
