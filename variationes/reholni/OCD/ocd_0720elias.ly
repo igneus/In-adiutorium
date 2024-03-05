@@ -1495,6 +1495,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 d d b d d c b g g \barMaior
+    a \mark\sipka g( f g a) a \barMin
+    c b a g g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Z_ne -- be spa -- dl Hos -- po -- di -- nův o -- heň
+    a po -- zřel
+    E -- li -- á -- šo -- vu zá -- pal -- nou o -- běť.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 d \mark\sipka c( d) c \barMin d d c b g g \barMaior
     a f( g a) a \barMin
     c b a g g f g a a( g) g \barFinalis

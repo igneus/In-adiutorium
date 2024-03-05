@@ -205,6 +205,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f g g( a) g \barMin
+    g f a g g \barMaior
+    f d f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dě -- kuj -- me Pá -- nu,
+    na -- še -- mu Bo -- hu,
+    že nám da -- ro -- val ži -- vot.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Kol 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 e d c( d) c \barMin
     f( g) a f g g \barMaior
     f d c d f g( f) f \barFinalis
@@ -253,6 +275,28 @@
     f4 f g a( f g4.) g \barMin
     f4( g) f e d( c) c \barMaior
     d f g a g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dě -- kuj -- me Pá -- nu,
+    na -- še -- mu Bo -- hu,
+    že nám da -- ro -- val ži -- vot.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Kol 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a( f g4.) g \barMin
+    f4( g) f e d( c) c \barMaior
+    d \mark\sipka c d f g g( f) f \barFinalis
   }
   \addlyrics {
     Dě -- kuj -- me Pá -- nu,

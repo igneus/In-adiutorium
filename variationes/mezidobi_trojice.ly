@@ -3407,6 +3407,30 @@ ciselnaRada = \markup\tiny\sans\concat{
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) g \barMin
+    g( a bes a) f( g) g \barMaior
+    g a a g f e( f d c) c \barMaior
+    d f \mark\sipka e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás,
+    za -- chraň nás
+    a dej nám věč -- ný ži -- vot,
+    troj -- je -- di -- ný Bo -- že!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek \ciselnaRada}
+  }
+}
+
 \pageBreak
 
 \score {
