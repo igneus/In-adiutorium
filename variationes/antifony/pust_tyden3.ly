@@ -1898,6 +1898,31 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka c4 c b a c( d) d \barMin
+    d d e d c c d d \barMaior
+    d d c b a( b) g f a a g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- ří -- kám ti, Pet -- ře,
+    a -- bys od -- pus -- til se -- dm -- krát,
+    a -- le tře -- ba se -- dma -- se -- dm -- de -- sát -- krát,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_21_30.ly#ne24a-1ne-amag?cast=3"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 \mark\sipka d e c c( d) d \barMin
     d d c b a c d d \barMaior
     d d d d d( e) d c d c a( g) g \barMin
