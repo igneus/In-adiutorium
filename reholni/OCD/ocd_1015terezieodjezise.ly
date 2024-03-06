@@ -162,16 +162,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 c b c a a \barMin
+    a b a g( e) e \barMaior
+    d f g g-- b( c) a a \barMaior
+    a c c c b( a g4.) g4 f g( a) g f( e) e \barFinalis
   }
   \addlyrics {
-    Tvá velikost, Pane, je nevystižná, kdo vypoví tvé divy a nádhernou slávu tvé vznešenosti?
+    Tvá ve -- li -- kost, Pa -- ne,
+    je ne -- vy -- stiž -- ná,
+    kdo vy -- po -- ví tvé di -- vy
+    a nád -- her -- nou slá -- vu tvé vzne -- še -- nos -- ti?
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 145-I"
     id = "mc-a2"
     piece = \markup\sestavTitulek
@@ -179,17 +186,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g c b a g a \barMin
+    a g a c b a g( a) f( e) e \barMaior
+    d f g a a \barMin
+    g f f( g) e e \barFinalis
   }
   \addlyrics {
-    Blízko je Hospodin všem, kdo ho vzývají upřímně, jeho království bude bez konce.
+    Blíz -- ko je Hos -- po -- din
+    všem, kdo ho vzý -- va -- jí u -- přím -- ně,
+    je -- ho krá -- lov -- ství
+    bu -- de bez kon -- ce.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 145-II"
+    fial = "antifony/tyden3_7sobota.ly#up-ant3?zacatek=6"
     id = "mc-a3"
     piece = \markup\sestavTitulek
   }

@@ -571,17 +571,27 @@
   }
 }
 
+\pageBreak
+
 \score {
-  \relative c' {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
+    g4 c b c a a \barMin
+    a b a g( e) e \barMaior
+    d f g g-- b( c) a a \barMaior
+    a c c c b( a g4.) g4 f g( a) g f( e) e \barFinalis
   }
   \addlyrics {
-    Tvá velikost, Pane, je nevystižná, kdo vypoví tvé divy a nádhernou slávu tvé vznešenosti?
+    Tvá ve -- li -- kost, Pa -- ne,
+    je ne -- vy -- stiž -- ná,
+    kdo vy -- po -- ví tvé di -- vy
+    a nád -- her -- nou slá -- vu tvé vzne -- še -- nos -- ti?
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 145-I"
     id = "mc-a2"
     piece = \markup\sestavTitulek
@@ -589,17 +599,51 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
+    g c b a g a \barMin
+    a g a c b a g( a) f( e) e \barMaior
+    d f g a a \barMin
+    g f f( g) e e \barFinalis
   }
   \addlyrics {
-    Blízko je Hospodin všem, kdo ho vzývají upřímně, jeho království bude bez konce.
+    Blíz -- ko je Hos -- po -- din
+    všem, kdo ho vzý -- va -- jí u -- přím -- ně,
+    je -- ho krá -- lov -- ství
+    bu -- de bez kon -- ce.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 145-II"
+    fial = "antifony/tyden3_7sobota.ly#up-ant3?zacatek=6"
+    id = "mc-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g c b a g a \barMin
+    a g a c b a g( a) f( e) e \barMaior
+    d f g a a \barMin
+    g f \mark\sipka a( g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Blíz -- ko je Hos -- po -- din
+    všem, kdo ho vzý -- va -- jí u -- přím -- ně,
+    je -- ho krá -- lov -- ství
+    bu -- de bez kon -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 145-II"
+    fial = "antifony/tyden3_7sobota.ly#up-ant3?zacatek=6"
     id = "mc-a3"
     piece = \markup\sestavTitulek
   }
@@ -616,6 +660,86 @@
     \choralniRezim
     d4 f f g f e f d d( c) c \barMaior
     d d d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Má du -- še po to -- bě žíz -- ní, Bo -- že,
+    prah -- ne po to -- bě mé tě -- lo.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f g f e f d d( c) c \barMaior
+    d \mark\sipka c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Má du -- še po to -- bě žíz -- ní, Bo -- že,
+    prah -- ne po to -- bě mé tě -- lo.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f g f e \mark\sipka d c c( d) d \barMaior
+    a c c d d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Má du -- še po to -- bě žíz -- ní, Bo -- že,
+    prah -- ne po to -- bě mé tě -- lo.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f g f e d c c( d) d \barMaior
+    \mark\sipka c a c d d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Má du -- še po to -- bě žíz -- ní, Bo -- že,
+    prah -- ne po to -- bě mé tě -- lo.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f g f e d c c( d) d \barMaior
+    c a \mark\sipka c( d) d d e( f) d d \barFinalis
   }
   \addlyrics {
     Má du -- še po to -- bě žíz -- ní, Bo -- že,
@@ -672,6 +796,81 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c( d) d c c \barMin
+    d e c c( d) d \barMaior
+    c( b a) b g \barMin
+    a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- na dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho všich -- ni
+    je -- ho sva -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    fial = "antifony/tyden4_1nedele.ly#rch-ant2?cast=1"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) a g g \barMin
+    bes a f f( g) g \barMaior
+    bes( a g) f g \barMin
+    g g bes a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Všech -- na dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho
+    všich -- ni je -- ho sva -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/1002andelestrazni.ly#rch-a3?cast=3"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 f f f g( a) g \barMin
+    g a f f( g) g \barMaior
+    bes( a g) f g \barMin
+    g g bes a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Všech -- na dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho
+    všich -- ni je -- ho sva -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/1002andelestrazni.ly#rch-a3?cast=3"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
