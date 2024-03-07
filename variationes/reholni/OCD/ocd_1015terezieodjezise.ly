@@ -1117,41 +1117,206 @@
   }
 }
 
-\pageBreak
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f \mark\sipka e( f) d( c) \barMin
+    f g a g f( g) f f \barMaior
+    d f f( g) g \barMin
+    g a g \mark\sipka f e f d( c) c \barMaior
+    d \mark\sipka f f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/pust_tyden1.ly#ut-amag?cast=2-3"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
 
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a g( c) c \barMin
+    d c d e c( b) a a \barMaior
+    c c b( c a) a \barMin
+    a c a a b( c) a g g \barMaior
+    a g f g a a( g) g \barFinalis
   }
   \addlyrics {
-    Radujte se stále v Pánu, opakuji: Radujte se! Pán je blízko.
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g( c) c \barMin
+    \mark\sipka b c a g a( g) f( g) g \barMaior
+    g g f( e) d \barMin
+    d f( g) g( a) a b( c) a g g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g( c) c \barMin
+    b c a g \mark\sipka a( b) g g \barMaior
+    f g g( a) a \barMin
+    a b( c) a a b( c) a g g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f g f a( g) g \barMin
+    a a g f e f d( c) c \barMin
+    d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se stá -- le v_Pá -- nu,
+    o -- pa -- ku -- ji: Ra -- duj -- te se!
+    Pán je blíz -- ko.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
 
+\pageBreak
+
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    f4 f f f g a a g g \barMin
+    f d f e d( c) c \barMin
+    d c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
-    Žijme podle pravdy a v lásce, a tak porosteme po všech stránkách v Krista.
+    Žij -- me pod -- le prav -- dy a v_lás -- ce,
+    a tak po -- ros -- te -- me
+    po všech strán -- kách v_Kris -- ta.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f g a a g g \barMin
+    f d f e d( c) c \barMin
+    d \mark\sipka f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Žij -- me pod -- le prav -- dy a v_lás -- ce,
+    a tak po -- ros -- te -- me
+    po všech strán -- kách v_Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c d e d d \barMin
+    e f e d c( d) d \barMin
+    c b a g a( g f g) g \barFinalis
+  }
+  \addlyrics {
+    Žij -- me pod -- le prav -- dy a v_lás -- ce,
+    a tak po -- ros -- te -- me
+    po všech strán -- kách v_Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 

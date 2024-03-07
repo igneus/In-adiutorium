@@ -315,16 +315,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    f4 f f f g f a( g) g \barMin
+    a a g f e f d( c) c \barMin
+    d( f) e d d \barFinalis
   }
   \addlyrics {
-    Radujte se stále v Pánu, opakuji: Radujte se! Pán je blízko.
+    Ra -- duj -- te se stá -- le v_Pá -- nu,
+    o -- pa -- ku -- ji: Ra -- duj -- te se!
+    Pán je blíz -- ko.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu
@@ -332,16 +337,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    f4 f f f g a a g g \barMin
+    f d f e d( c) c \barMin
+    d f e d c( d) d \barFinalis
   }
   \addlyrics {
-    Žijme podle pravdy a v lásce, a tak porosteme po všech stránkách v Krista.
+    Žij -- me pod -- le prav -- dy a v_lás -- ce,
+    a tak po -- ros -- te -- me
+    po všech strán -- kách v_Kris -- ta.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
