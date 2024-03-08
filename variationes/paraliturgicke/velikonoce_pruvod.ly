@@ -94,6 +94,16 @@
   má čtyři z našich antifon jako dodatek připsaný novověkou rukou (f. 280r)
   s určením k malým hodinkám v době velikonoční.
 }
+\markup\justify\small{
+  \with-url "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-VMO___K_14892_____2I4Z3A2-cs" {CZ-OLm K 14892}
+  má 6v alelujatické antifony.
+  Zdá se, že původně byly pěknou rhombikou zapsány obvyklé antifony pražské
+  (i když předposlední se od obvyklé \italic{Sit nomen Domini} výrazně
+  liší a možná je to úplně jiná antifona),
+  ale první dvě byly vyškrabány a nahrazeny desetinásobným aleluja
+  (srov. \with-url "http://gregorianik.uni-regensburg.de/an/#id/2533" {Antiphonale Synopticum 2533})
+  v notaci métsko-gotické.
+}
 
 \markup{
   Podle antifony \italic{Dixit Dominus}
@@ -161,6 +171,10 @@
   Velký díl zásluh za objevení patří Antiphonale Synopticum
   a jeho vyhledávání podle citovaných biblických textů,
   zde antifon s textem z žalmu 112 (111).
+}
+\markup\justify{
+  Antifona \italic{Potens in terra} se k nedělním nešporám
+  zpívala v olomouckém ritu, viz tištěné Breviarium Olomucense 1499, f. 46v.
 }
 
 \score {
