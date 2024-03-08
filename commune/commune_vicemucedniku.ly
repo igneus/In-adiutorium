@@ -739,6 +739,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Zj 4"
+    fial = "commune/commune_vicemucedniku.ly#2ne-amag?zacatek=9"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
