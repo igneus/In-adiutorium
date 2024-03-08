@@ -369,7 +369,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?zacatek"
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?zacatek=35"
+    placet = "závěr neelegantní"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
