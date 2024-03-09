@@ -2428,6 +2428,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
     d c b a( g a) g \barMin a( b c) a g( a) g g \barMin
@@ -2444,6 +2445,7 @@
     differentia = "a"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?upraveno"
+    placet = "závěr neelegantní"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2451,6 +2453,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
     d c b a( g a) g \barMin a( b c) a g( a) g \mark\sipka f
@@ -2466,7 +2469,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?upraveno"
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?zacatek=34"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2500,6 +2503,29 @@
     \choralniRezim
     a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
     d c b \mark\sipka c b a g a g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že vy -- há -- ním zlé du -- chy prs -- tem Bo -- žím,
+    pak už k_vám při -- šlo Bo -- ží krá -- lov -- ství,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?upraveno"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
+    d \mark\sipka d d c b a g a g g \barMin
     a f g \barFinalis
   }
   \addlyrics {
@@ -2640,7 +2666,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d f g f d e d d \barMaior
     a' a a g a c( a) a \barMin
@@ -2756,9 +2782,14 @@
   }
 }
 
+\markup\justify{
+  I když mi šlo čistě jen o vylepšení nápěvu,
+  výsledná úprava citelně zasahuje do vyznění textu přesunem důrazu
+  ze _slyší_ na _zachovávají_.
+}
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d f g f d e d d \barMaior
     a' a a g a c( a) a \barMin

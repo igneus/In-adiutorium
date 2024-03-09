@@ -356,8 +356,8 @@
   \relative c'' {
     \choralniRezim
     a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
-    d c b a( g a) g \barMin a( b c) a g( a) g g \barMin
-    f g g \barFinalis
+    d c b a( g a) g \barMin a( b c) a g( a) g f
+    g( a) a4. g \barFinalis
   }
   \addlyrics {
     Jest -- li -- že vy -- há -- ním zlé du -- chy prs -- tem Bo -- žím,
@@ -369,8 +369,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?zacatek=35"
-    placet = "závěr neelegantní"
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?zacatek=34"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -386,8 +385,8 @@
 
     g f g f( d) d \barMaior
     d c d f g f e d( c) \barMaior
-    f a g f g g( f) f \barMin
-    f g f e f d d \barFinalis
+    d f f e f f( g) g \barMin
+    g a f e f d d \barFinalis
   }
   \addlyrics {
     Jed -- na že -- na ze zá -- stu -- pu zvo -- la -- la:
