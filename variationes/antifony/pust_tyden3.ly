@@ -2898,10 +2898,35 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d e d d \barMin
+    d c b a c( b) a( g) g \barMaior
+    \mark\sipka a f g( a) a \barMin a( b) c a a \barMin
+    a b a g g \barFinalis
+  }
+  \addlyrics {
+    Kte -- ré při -- ká -- zá -- ní
+    je v_Zá -- ko -- ně nej -- vět -- ší?
+    „Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem.“
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c d( c) b( a) a \barMin
     g f g( a f) e e \barMaior
@@ -2967,6 +2992,51 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d b d( e) d d \barMin
+    \mark\sipka c b a( b a) g g \barMaior
+    g a f g( a) a \barMin c c c b g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d( e) d d \barMin
+    c b a( b a) g g \barMaior
+    g a a \mark\sipka f( g a) a \barMin c c c b g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d c f( g) f( a) a \barMin
@@ -3004,6 +3074,28 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g c( d) \mark\sipka d( e) e \barMin
+    d c e d d \barMaior
+    d e d c( b) a( g) \barMin a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
