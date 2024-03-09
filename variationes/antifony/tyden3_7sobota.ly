@@ -292,6 +292,30 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a f g g \barMin g a b b c c c \barMaior
+    \mark\sipka a c b a g a( g) g \barFinalis
+
+    f^\rubrVelikAleluja a g g \barFinalis
+  }
+  \addlyrics {
+    Ve své tís -- ni vo -- lej -- te k_Hos -- po -- di -- nu,
+    a on vás vy -- svo -- bo -- dí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 107-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4 g g g g( a) a \barMin g f e f g a( b c) c \barMaior
@@ -495,6 +519,62 @@
     c c b a g a \mark\sipka g g \barFinalis
 
     a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- ví vi -- dí
+    Hos -- po -- di -- no -- vy di -- vy
+    a ra -- du -- jí se,
+    po -- zná -- va -- jí je -- ho lás -- ku.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 107-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g( a) a \barMin
+    c b a b c g g \barMaior
+    g g g f( e) d \barMin
+    e f g g a( c) b g g \barFinalis
+
+    a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- ví vi -- dí
+    Hos -- po -- di -- no -- vy di -- vy
+    a ra -- du -- jí se,
+    po -- zná -- va -- jí je -- ho lás -- ku.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 107-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g g( a) a \barMin
+    c b a b c g g \barMin
+    \mark\sipka f g( a) a g g \barMaior
+    a( c b) c( d) c b a g f( g) g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- ví vi -- dí

@@ -1916,6 +1916,31 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d e c c d d \barMaior
+    \mark\sipka d c( b) a( g) \barMin
+    f g a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, vě -- řím,
+    že ty jsi Me -- si -- áš,
+    Syn Bo -- ží,
+    kte -- rý má při -- jít na svět.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "A"
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d c( d) d \barMin
