@@ -1153,6 +1153,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f g g a \barMin
+    g f g( a) g f d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g f \barMaior
     g f d e d c \barMin
     d f g( f) f \barFinalis
@@ -1245,6 +1267,51 @@
     g4 a g f g \barMaior
     a b c( a) g( a) g g \barMin
     \mark\sipka a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f g \barMaior
+    a b c( a) g( a) g g \barMin
+    \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a g f \mark\sipka g( a) \barMaior
+    b c a( g) a g f \barMin
+    g a g g \barFinalis
   }
   \addlyrics {
     Kdo jí ten -- to chléb,
