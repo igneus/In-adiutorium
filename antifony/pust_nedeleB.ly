@@ -243,7 +243,7 @@
     g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
     g g g g a( c) b( c) c c d( c) b( a) a \barMax
     a a a( g) g \barMin g f g g( a) a \barMaior
-    a b c a a b a g g \barFinalis
+    a b c a a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
@@ -256,10 +256,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "konec spíš lépe"
     id = "ivmag1"
     fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
-    fial = "pust_svatytyden.ly#po-ne-amag?zacatek"
+    fial = "pust_svatytyden.ly#po-ne-amag?zacatek=46"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -271,7 +270,7 @@
     d e d( b) b c( b) c d f e d e e \barMax
     e e e( a) a \barMin a g a b( g) g \barMin
     f g( a) g( f e) e \barMaior
-    d c d f f e( f e) e \barFinalis
+    d c d f e d( e) e \barFinalis
   }
   \addlyrics {
     Tak Bůh mi -- lo -- val svět,
@@ -285,6 +284,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "recitace a kudrlinky v plagálním tetrachordu jsou nezpěvné a tradiční repertoár takové věci prakticky nedělá"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

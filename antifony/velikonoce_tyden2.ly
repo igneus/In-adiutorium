@@ -117,9 +117,9 @@
     d e d( b) b c( b) c d f e d e e \barMax
     e e e( a) a \barMin a g a b( g) g \barMin
     f g( a) g( f e) e \barMaior
-    d c d f f e( f e) e \barMaior
+    d c d f e d( e) e \barMaior
 
-    g g f( e) e \barFinalis
+    f f( g) f( e) e \barFinalis
   }
   \addlyrics {
     Tak Bůh mi -- lo -- val svět,

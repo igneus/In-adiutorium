@@ -577,6 +577,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g4.( a) a4( b) g e e \barMaior
     d e d( b) b c( b) c d f e d e e \barMax
@@ -663,6 +664,71 @@
     differentia = "g"
     psalmus = ""
     fial = "antifony/pust_nedeleB.ly#ivben?+aleluja"
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g4.( a) a4( b) g e e \barMaior
+    d e d( b) b c( b) c d f e d e e \barMax
+    e e e( a) a \barMin a g a b( g) g \barMin
+    f g( a) g( f e) e \barMaior
+    d c d f \mark\sipka e d( e) e \barMaior
+
+    f f( g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Tak Bůh mi -- lo -- val svět,
+    že dal své -- ho jed -- no -- ro -- ze -- né -- ho Sy -- na,
+    a -- by žád -- ný, kdo v_ně -- ho vě -- ří,
+    ne -- za -- hy -- nul,
+    a -- le měl ži -- vot věč -- ný.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/pust_nedeleB.ly#ivben?+aleluja"
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g4.( a) a4( b) g e e \barMaior
+    d e d( b) b c( b) c d f e d e e \barMax
+    e e e( a) a \barMin a g a b( g) g \barMin
+    f g( a) g( f e) e \barMaior
+    d c d \mark\sipka e f g g
+
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Tak Bůh mi -- lo -- val svět,
+    že dal své -- ho jed -- no -- ro -- ze -- né -- ho Sy -- na,
+    a -- by žád -- ný, kdo v_ně -- ho vě -- ří,
+    ne -- za -- hy -- nul,
+    a -- le měl ži -- vot věč -- ný.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/pust_nedeleB.ly#ivben?zacatek=48"
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

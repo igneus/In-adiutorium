@@ -1686,7 +1686,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
     g g g g a( c) b( c) c c d( c) b( a) a \barMax
@@ -1707,6 +1707,33 @@
     id = "ivmag1"
     fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
     fial = "pust_svatytyden.ly#po-ne-amag?upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
+    g g g g a( c) b( c) c c d( c) b( a) a \barMax
+    a a a( g) g \barMin g f g g( a) a \barMaior
+    a b c a a \mark\sipka g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
+    tak mu -- sí být vy -- vý -- šen Syn člo -- vě -- ka,
+    a -- by kaž -- dý, kdo v_ně -- ho vě -- ří,
+    měl skr -- ze ně -- ho ži -- vot věč -- ný.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ivmag1"
+    fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
+    fial = "pust_svatytyden.ly#po-ne-amag?zacatek=46"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -1767,6 +1794,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g4.( a) a4( b) g e e \barMaior
     d e d( b) b c( b) c d f e d e e \barMax
@@ -1825,6 +1853,33 @@
     e e e( a) a \barMin a g a b( g) g \barMin
     f g( a) g( f e) e \barMaior
     d c d \mark\sipka d( f) e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Tak Bůh mi -- lo -- val svět,
+    že dal své -- ho jed -- no -- ro -- ze -- né -- ho Sy -- na,
+    a -- by žád -- ný, kdo v_ně -- ho vě -- ří,
+    ne -- za -- hy -- nul,
+    a -- le měl ži -- vot věč -- ný.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g4.( a) a4( b) g e e \barMaior
+    d e d( b) b c( b) c d f e d e e \barMax
+    e e e( a) a \barMin a g a b( g) g \barMin
+    f g( a) g( f e) e \barMaior
+    d c d \mark\sipka f e d( e) e \barFinalis
   }
   \addlyrics {
     Tak Bůh mi -- lo -- val svět,
@@ -2102,6 +2157,61 @@
     \mark\sipka c b( c) a( g) g \barMaior
     c d c b a g g \barMin
     a f e d( e) d \barMin
+    d f g a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu,
+    a -- by se u -- ká -- za -- lo,
+    že je -- ho skut -- ky
+    jsou vy -- ko -- ná -- ny v_Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c b( c) a( g) g \barMaior
+    c d c b a g g \barMin
+    a \mark\sipka a a f( e) d \barMin
+    d f g a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu,
+    a -- by se u -- ká -- za -- lo,
+    že je -- ho skut -- ky
+    jsou vy -- ko -- ná -- ny v_Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Částečně zpět ke starší verzi)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c b( c) a( g) g \barMaior
+    c d c b a g g \barMin
+    \mark\sipka g f e d( e) d \barMin
     d f g a f f( g) g \barFinalis
   }
   \addlyrics {
