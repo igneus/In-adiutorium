@@ -1523,6 +1523,131 @@
   }
 }
 
+\markup{
+  (Založená na minulé verzi, ne na poslední.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e f e d \mark\sipka e( f) e e \barMin
+    f( g a) g f g e e \barMaior
+    a g( a b) g g( a) \barMin
+    a g f \mark\sipka g( a) g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- den krá -- lov -- ský ú -- řed -- ník
+    při -- šel za Je -- ží -- šem
+    a pro -- sil ho,
+    a -- by mu u -- zdra -- vil sy -- na.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    e4 e f e d e( f) e e \barMin
+    f( g a) g f g e e \barMaior
+    a g( a b) g g( a) \barMin
+    a g f \mark\sipka g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- den krá -- lov -- ský ú -- řed -- ník
+    při -- šel za Je -- ží -- šem
+    a pro -- sil ho,
+    a -- by mu u -- zdra -- vil sy -- na.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e \mark\sipka e f e d( e) d d \barMin
+    e( f g) g f g e e \barMaior
+    a g( a b) g g( a) \barMin
+    a g f g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- den krá -- lov -- ský ú -- řed -- ník
+    při -- šel za Je -- ží -- šem
+    a pro -- sil ho,
+    a -- by mu u -- zdra -- vil sy -- na.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e f e d( e) d d \barMin
+    \mark\sipka f( g a) a g f e e \barMaior
+    a g( a b) g g( a) \barMin
+    a g f g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- den krá -- lov -- ský ú -- řed -- ník
+    při -- šel za Je -- ží -- šem
+    a pro -- sil ho,
+    a -- by mu u -- zdra -- vil sy -- na.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    e4 e e f e d( e) d d \barMin
+    \mark\sipka e( f g) a g f e e \barMaior
+    a g( a b) g g( a) \barMin
+    a g f g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- den krá -- lov -- ský ú -- řed -- ník
+    při -- šel za Je -- ží -- šem
+    a pro -- sil ho,
+    a -- by mu u -- zdra -- vil sy -- na.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1558,7 +1683,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 d d( a') a \barMin
     a a \mark\sipka a g f g a a g a bes a a \barMaior
@@ -1566,6 +1691,36 @@
     f g g e \barMaior
     d f e f g \barMin
     f g g f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- tec po -- znal,
+    že se je -- ho syn u -- zdra -- vil
+    prá -- vě v_tu chví -- li,
+    kdy mu Je -- žíš ře -- kl:
+    „Tvůj syn je živ“;
+    a u -- vě -- řil on
+    i všich -- ni v_je -- ho do -- mě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( a') a \barMin
+    a a a g f g a a g a bes a a \barMaior
+    a a g f g( a) g \barMin
+    f g g e \barMaior
+    d f e f g \barMin
+    \mark\sipka g a a f e c( d) d \barFinalis
   }
   \addlyrics {
     O -- tec po -- znal,

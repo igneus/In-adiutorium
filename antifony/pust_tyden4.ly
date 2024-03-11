@@ -224,6 +224,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "začátek spíš lépe, _královský_ drhne"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -237,7 +238,7 @@
     a a g f g( a) g \barMin
     f g g e \barMaior
     d f e f g \barMin
-    f g g f d c( d) d \barFinalis
+    g a a f e c( d) d \barFinalis
   }
   \addlyrics {
     O -- tec po -- znal,
