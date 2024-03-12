@@ -215,16 +215,19 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    d4 f f g f e d c c( d) d \barMaior
+    c a c d d e( f) d d \barFinalis
   }
   \addlyrics {
-    Má duše po tobě žízní, Bože, prahne po tobě mé tělo.
+    Má du -- še po to -- bě žíz -- ní, Bo -- že,
+    prah -- ne po to -- bě mé tě -- lo.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup\sestavTitulek
@@ -232,16 +235,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 a c c c( d) d \barMin
+    d c e d d \barMaior
+    c a a c b a g a( g) g \barFinalis
   }
   \addlyrics {
-    Všechna díla Páně, velebte Pána, chvalte ho všichni jeho svatí.
+    Všech -- na dí -- la Pá -- ně,
+    ve -- leb -- te Pá -- na,
+    chval -- te ho všich -- ni je -- ho sva -- tí.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup\sestavTitulek
@@ -249,16 +257,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    f4 f f g a g f g g \barMaior
+    a a g f g f d \barMin
+    f g g f \barFinalis
   }
   \addlyrics {
-    Ve sboru svatých budu zpívat o tvém milosrdenství, Hospodine.
+    Ve sbo -- ru sva -- tých bu -- du zpí -- vat
+    o tvém mi -- lo -- sr -- den -- ství,
+    Hos -- po -- di -- ne.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup\sestavTitulek
@@ -363,14 +376,23 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 b d( e) d d \barMin
+    c b c( d) d \barMaior
+    c( d) c( b) a( g) \barMin a g f a a( g) g \barMax
+    a( c) c g( a g) \barMin
+    a f g a a a g g \barFinalis
   }
   \addlyrics {
-    Pán mi ukázal svaté město zářící Boží vznešeností. Jiskřilo jako nejvzácnější kámen.
+    Pán mi u -- ká -- zal
+    sva -- té měs -- to
+    zá -- ří -- cí Bo -- ží vzne -- še -- nos -- tí.
+    Jis -- kři -- lo
+    ja -- ko nej -- vzác -- něj -- ší ká -- men.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 122"
     id = "2ne-a1"
     piece = \markup\sestavTitulek
@@ -415,6 +437,7 @@
     differentia = "c"
     psalmus = "Kol 1"
     fial = "commune/commune_jedenmucednik.ly#mc-avig?-aleluja"
+    placet = "před zveřejněním formuláře revidovat zdroj"
     id = "2ne-a3"
     piece = \markup\sestavTitulek
   }
