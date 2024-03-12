@@ -286,7 +286,7 @@
     \choralniRezim
     e4 g a a \barMin
     g b( a) a \barMaior
-    a a a g e e f e d e e \barFinalis
+    a a a g e e f e d e-- e \barFinalis
   }
   \addlyrics {
     Jsi u -- zdra -- ven:
