@@ -2148,7 +2148,7 @@
     \choralniRezim
     a4 c c b c c( d) d \barMin
     d e e d c d e e d d \barMaior
-    d c b a g
+    d-- c b a g
     a( b) g g \barFinalis
   }
   \addlyrics {
@@ -2177,7 +2177,7 @@
     \choralniRezim
     a4 \mark\sipka c b c c( d) d \barMin
     d e e d c d e e d d \barMaior
-    d c b a g
+    d-- c b a g
     a( b) g g \barFinalis
   }
   \addlyrics {
@@ -2190,6 +2190,32 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d e c c( d) d \barMin
+    d e e d c b c a a( g) g \barMaior
+    a c c b g
+    b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Kdo sly -- ší mo -- je slo -- vo
+    a vě -- ří to -- mu, kte -- rý mě po -- slal,
+    má věč -- ný ži -- vot,
+    pra -- ví Pán.
+  }
+  \header {
+    textus_approbatus = "Kdo slyší mé slovo a věří tomu, který mě poslal,
+    má věčný život, praví Pán."
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -2237,6 +2263,34 @@
     a b g \mark\sipka g( a) a a \barMaior
     \mark\sipka a a g f f g e e \barMin
     f d e \barFinalis
+  }
+  \addlyrics {
+    Já sám ze se -- be
+    ne -- mo -- hu dě -- lat nic.
+    Sou -- dím po -- dle to -- ho,
+    co sly -- ším od Ot -- ce,
+    a můj soud je spra -- ved -- li -- vý,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) f g g \barMin
+    a g g f d e \barMaior
+    d d f g a a \barMin
+    a b g g( a) a a \barMaior
+    a a g f f g e e \barMin
+    f \mark\sipka g e \barFinalis
   }
   \addlyrics {
     Já sám ze se -- be
