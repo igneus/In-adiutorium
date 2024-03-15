@@ -782,6 +782,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c \mark\sipka c c c( d) c b a g g \barMin
+    f g a g \barFinalis
+  }
+  \addlyrics {
+    Dej, ať zá -- hy do -- jdu tvé mi -- los -- ti,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 143"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

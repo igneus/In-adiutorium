@@ -2571,6 +2571,28 @@
   \relative c'' {
     \choralniRezim
     g4 g d' c e d \barMaior
+    c d c b g a a( g) g \barMin
+    a \mark\sipka b g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám,
+    svěd -- čí, že mě O -- tec po -- slal,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' c e d \barMaior
     c d c b \mark\sipka c a a( g) g \barMin
     a f g \barFinalis
   }
@@ -2649,6 +2671,26 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c c( d) d \barMaior
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám,
+    svěd -- čí, že mě O -- tec po -- slal,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -2924,6 +2966,30 @@
     g a g f g( f d) d \barMaior
     f f f e d c( d) c c \barMin
     \mark\sipka d f e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- vztá -- hl
+    na Je -- ží -- še ru -- ku,
+    pro -- to -- že ješ -- tě ne -- při -- šla
+    je -- ho ho -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f( g) f( a) a \barMin
+    \mark\sipka a a g f g( f d) d \barMaior
+    f f f e d \mark\sipka e d c \barMin
+    d( f) e \mark\sipka c d d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- vztá -- hl
