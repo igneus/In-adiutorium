@@ -174,6 +174,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c( b g4.) g \barMin
+    a4 g f g g \barMaior
+    a b c d c a \barMin
+    a c c b c a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Vlo -- žím svůj zá -- kon
+    do je -- jich srd -- ce,
+    bu -- du je -- jich Bo -- hem
+    a o -- ni bu -- dou mým li -- dem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 141"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c( b g4.) g \barMin
+    a4 \mark\sipka b a g g \barMaior
+    f g a b c a \barMin
+    a c c b c a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Vlo -- žím svůj zá -- kon
+    do je -- jich srd -- ce,
+    bu -- du je -- jich Bo -- hem
+    a o -- ni bu -- dou mým li -- dem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 141"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
