@@ -511,6 +511,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d e c c( d) d \barMin
+    c b a( b g) g \barMaior
+    a \mark\sipka f( g a) a \barMin c d e d( c d) d \barMin
+    d c b c a a g g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sy -- no -- vé Iz -- ra -- e -- le
+    jed -- li ma -- nu
+    a pi -- li z_du -- chov -- ní ská -- ly,
+    kte -- rá je do -- pro -- vá -- ze -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 78-II"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -639,6 +667,54 @@
     \zvyraznovacModry
     \choralniRezim
     c4 d e c \mark\sipka d d \barMin
+    d c b c( a) a( g) g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je na -- ší ská -- lou
+    a na -- ším za -- chrán -- cem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 78-III"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c d d \barMin
+    d c b \mark\sipka a( b) a( g) g \barFinalis
+
+    a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je na -- ší ská -- lou
+    a na -- ším za -- chrán -- cem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 78-III"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d \mark\sipka d( e) e d d \barMin
     d c b c( a) a( g) g \barFinalis
 
     f^\rubrVelikAleluja g( a) g g \barFinalis
@@ -1053,8 +1129,49 @@
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
+    e4 f e e f g f e e \barMin
+    \mark\sipka g a g f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     e4 f e e f g \mark\sipka a g g \barMin
     a g f d e e \barFinalis
+  }
+  \addlyrics {
+    Svou sta -- rost hoď na Hos -- po -- di -- na,
+    a on tě za -- cho -- vá.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 55-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f e e f g a g g \barMin
+    \mark\sipka g a g f e e \barFinalis
   }
   \addlyrics {
     Svou sta -- rost hoď na Hos -- po -- di -- na,
@@ -1579,6 +1696,26 @@
     \choralniRezim
     g4 g g a f g( a) g g \barMaior
     \mark\sipka c c( d) c( a) a \barMin a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Chval své -- ho Bo -- ha, Si -- ó -- ne,
+    on se -- sí -- lá svůj roz -- kaz na ze -- mi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g \mark\sipka g( a) f g( a) g g \barMaior
+    c c( d) c c( b a) \barMin a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Chval své -- ho Bo -- ha, Si -- ó -- ne,
