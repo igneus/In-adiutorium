@@ -2861,10 +2861,35 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 a a d c b a g g( a) \barMaior
     a c \mark\sipka c c b( c) a( g) g c( d) d c c \barMaior
+    d c d e d c b( c a) a \barMin
+    g f g \barFinalis
+  }
+  \addlyrics {
+    Zná -- te mě a ví -- te, od -- kud jsem,
+    a pře -- ce jsem ne -- při -- šel sám od se -- be,
+    a -- le po -- slal mě můj O -- tec,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a a d c b a g g( a) \barMaior
+    a c c c b( c) \mark\sipka a a c( d) d c c \barMaior
     d c d e d c b( c a) a \barMin
     g f g \barFinalis
   }
@@ -2965,6 +2990,30 @@
     d4 c f( g) f( a) a \barMin
     g a g f g( f d) d \barMaior
     f f f e d c( d) c c \barMin
+    d( f) e \mark\sipka d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- vztá -- hl
+    na Je -- ží -- še ru -- ku,
+    pro -- to -- že ješ -- tě ne -- při -- šla
+    je -- ho ho -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f( g) f( a) a \barMin
+    g a g f g( f d) d \barMaior
+    f f f e d c( d) c c \barMin
     \mark\sipka d f e( d) c( d) d \barFinalis
   }
   \addlyrics {
@@ -3014,6 +3063,30 @@
     c d c b g g \barMaior
     a a a g f g a a \barMin
     c b a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- vztá -- hl
+    na Je -- ží -- še ru -- ku,
+    pro -- to -- že ješ -- tě ne -- při -- šla
+    je -- ho ho -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    c d c b g g \barMaior
+    a a a \mark\sipka c b a g g \barMin
+    a f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- vztá -- hl
