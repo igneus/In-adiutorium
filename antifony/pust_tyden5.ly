@@ -8,10 +8,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g a( c) c \barMin
-    c d c a a \barMaior
-    c c b a g( a) g \barMin
-    g f d f g a g g \barFinalis
+    c4 c a c( b g4.) g \barMin
+    a4 f a g g \barMaior
+    f g a b c a \barMin
+    a c c b c a g( a) g \barFinalis
   }
   \addlyrics {
     Vlo -- žím svůj zá -- kon
@@ -22,7 +22,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 141"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -34,7 +34,7 @@
     \choralniRezim
     a4 a g a g f g( a) g g \barMaior
     f g g( a) a \barMin a g a bes a g( a) a \barMaior
-    a g f g( a) g f d d \barMin
+    a g f g a g g( f d) d \barMin
     d( e) c c( d) d \barFinalis
   }
   \addlyrics {

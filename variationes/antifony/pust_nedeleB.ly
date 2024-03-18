@@ -2458,6 +2458,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c f g f( a) a \barMin
+    \mark\sipka g f g a a( g) g \barMaior
+    g4 g( a) g g( f d) \barMin
+    d c d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že mi kdo chce slou -- žit,
+    ať mě ná -- sle -- du -- je;
+    a kde jsem já,
+    tam bu -- de i můj slu -- žeb -- ník.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
