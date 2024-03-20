@@ -1057,6 +1057,98 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\markup\justify{
+  Text velikonočního invitatoria je odlišný od potridentského breviáře,
+  ale tradiční, \cantusid-link "001028"
+  (A i když text v potridentských knihách není, tak pár invitatorií
+  na stejný nápěvový model ano.)
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a c) c c( c c) \[ c( d c \] \[ e d c b \] \[ c4. a) \] \barMaior
+    a4( c) a \barMin a( b) a g a( b c) c( g) \barMaior
+    a b c g a4.( c) c4 b c a \barMaior
+    a( b c) g4.( \[ f4 g a) \] \[ a( g \] \[ g f g) \] g( f) \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle Responsoriale monasticum, Solesmes 1895, s. 94"
+    quid = "ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "invit-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a c) c c( c c) \[ c( d c \] \[ e d c b \] \[ c4. a) \] \barMaior
+    a4( c) a \barMin a( b) a g a( b c) c( g) \barMaior
+    a b c g \mark\sipka a4( b c) \barMin c4 b c a \barMaior
+    a( b c) g4.( \[ f4 g a) \] \[ a( g \] \[ g f g) \] g( f) \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle Responsoriale monasticum, Solesmes 1895, s. 94"
+    quid = "ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "invit-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Dělení not na slabiky není v závěrečném aleluja úplně jednoznačné,
+  ale srov. CZ-Pn XII A 22, f. 167r
+}
+\markup\justify{
+  Příklon k domácímu středověkému nápěvu je tady motivován hlavně pragmaticky -
+  tristrofy a dlouhá melismata s reperkusemi nejsou v mých antifonách
+  obvyklé a jako izolované exotické úkazy v jednotkách adaptovaných latinských antifon
+  nejsou žádoucí.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4( a) c c \[ c( d c \] \[ e d c b \] \[ c4. a) \] \barMaior
+    a4( c) a \barMin a( b) a g a( b c) c( g) \barMaior
+    a b c g a4( b c) \barMin c4 b c a \barMaior
+    \mark\sipka a( c) g4( f g a) a( g f g) g( f) \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle CZ-Pn XV A 10, f. 227v"
+    quid = "ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "invit-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}

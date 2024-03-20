@@ -287,6 +287,91 @@ uvodniVers = \lyricmode {
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+
+      \neviditelna f
+      f4 g( a) a a a g( a bes) a( g) g( a) \barFinalis
+      \neviditelna f
+      f4 g( a) a g( a bes) a( g) g( a) \barMax
+
+      f4 g( a) a a a a a \barMin
+      a g( a bes) a a g g( a) \barMaior
+      f4 g( a) a a a a a a \barMin a g( a bes) a a a( g) g( a) \barMaior
+      % block_begin:nepust
+      a^\markup\italic{mimo dobu postní:} a a a a bes a g \barMaior
+      a bes a( g) g \barFinalis
+      % block_end:nepust
+      % block_begin:pust
+      a^\markup\italic{v době postní:} a a a a bes \mark\sipka a( g) g \barFinalis
+      % block_end:pust
+    }
+    \addlyrics {
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      % block_begin:nepust
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      % block_end:nepust
+      % block_begin:pust
+      a na vě -- ky vě -- ků. A -- men.
+      % block_end:pust
+    }
+    \header {
+      id = "zacatek-slavnost"
+      piece = "volitelně k nešporám slavností"
+    }
+  }
+
+  \markup\justify{
+    (Protože se ten normální závěr bez obvyklého opakování motivu zdá nějak neuspokojivý)
+  }
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+
+      \neviditelna f
+      f4 g( a) a a a g( a bes) a( g) g( a) \barFinalis
+      \neviditelna f
+      f4 g( a) a g( a bes) a( g) g( a) \barMax
+
+      f4 g( a) a a a a a \barMin
+      a g( a bes) a a g g( a) \barMaior
+      f4 g( a) a a a a a a \barMin a g( a bes) a a a( g) g( a) \barMaior
+      % block_begin:nepust
+      a^\markup\italic{mimo dobu postní:} a a a a bes a g \barMaior
+      a bes a( g) g \barFinalis
+      % block_end:nepust
+      % block_begin:pust
+      a^\markup\italic{v době postní:} a a a a bes a( g) \mark\sipka g( a) \barFinalis
+      % block_end:pust
+    }
+    \addlyrics {
+      \Verse Bo -- že, po -- spěš mi na po -- moc.
+      \Response Slyš na -- še vo -- lá -- ní.
+      Slá -- va Ot -- ci i Sy -- nu
+      i Du -- chu sva -- té -- mu
+      ja -- ko by -- la na po -- čát -- ku i ny -- ní i vždyc -- ky
+      % block_begin:nepust
+      a na vě -- ky vě -- ků. A -- men.
+      A -- le -- lu -- ja.
+      % block_end:nepust
+      % block_begin:pust
+      a na vě -- ky vě -- ků. A -- men.
+      % block_end:pust
+    }
+    \header {
+      id = "zacatek-slavnost"
+      piece = "volitelně k nešporám slavností"
+    }
+  }
+
   \markup\sekce{I.2.2 nápěvy podle \italic{Antiphonale Monasticum (1933)}}
 
   \markup\justify{

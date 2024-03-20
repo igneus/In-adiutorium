@@ -212,6 +212,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b a g( a) g \barMaior
+    f g a a b c a g g \barMin
+    a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ple -- sej -- te s_Je -- ru -- za -- lé -- mem:
+    Hos -- po -- din ho za -- pla -- vil bla -- hem
+    ja -- ko ře -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 116"
+    id = "ne1-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
