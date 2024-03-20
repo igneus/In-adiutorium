@@ -47,13 +47,13 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c) a( g) g \barMin
-    a g f g( a) g g \barMaior
+    g a f g( a) g g \barMaior
     c c c c b a g( a) g \barMin
     a a a f e d f g g \barMaior
     f g a g a( c) b \barMin
     c a c b g( a g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     An -- děl Ga -- bri -- el
@@ -181,7 +181,7 @@
     c c c c( d c) \barMin d( e d) c( b) a a \barMaior
     c a( g) f( g) a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Hle, věr -- ný a roz -- váž -- ný slu -- žeb -- ník,
@@ -263,8 +263,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d d( f) d d e( f) d( c) c \barMaior
-    f( g) f f \barMin f f g a f e d( e) d( c) c \barMaior
+    d4 d c d f e d d( e) d( c) c \barMaior
+    f( g) f f \barMin f f g a f e d( e) d d( c) \barMaior
     a c d d e f d c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
@@ -323,12 +323,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b( a g)
+    c4 c a
     g f g a g g \barMaior
-    a( c) c \barMin
-    c c c( d) c b a g a( g) g \barFinalis
+    a c
+    b c c( d) c b a g a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Věr -- ný muž je za -- hr -- nut chvá -- lou,
@@ -448,7 +448,7 @@
     g( a) g g \barMin g g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a( bes) a g( a) g \barMin g f g a a( g) \barMax
+    a4 a g( a) g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna a
     g( a) g g \barMin g g g f d f g g( f) f \barFinalis
@@ -510,18 +510,19 @@
     \choralniRezim
     g4 g g g( c) a g a g f( g) g \barMaior
     a c b c d d \barMin
-    d d e d c c( d) c c \barMin
+    d d e d c b( c) a a \barMin
     b( c a) g a g g \barMaior
     g g g( a) g g( f d) f f f( g) g \barFinalis
 
-    a(^\markup\rubrVelikAleluja b) c( a) g( a) g \barFinalis
+    g^\markup\rubrVelikAleluja g a g g g a g g( f d) f f( g) g g \barFinalis
   }
   \addlyrics {
     Jo -- sef se u -- sa -- dil v_Na -- za -- re -- tě,
     a -- by se spl -- ni -- lo,
     co je ře -- če -- no o Kris -- tu ús -- ty pro -- ro -- ků:
-    Bu -- de na -- zý -- ván Na -- za -- ret -- ský.
+    \markup{\Dagger Bu} -- de na -- zý -- ván Na -- za -- ret -- ský.
 
+    \markup{\Dagger Bu} -- de na -- zý -- ván Na -- za -- ret -- ský.
     A -- le -- lu -- ja.
   }
   \header {
@@ -566,9 +567,9 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a g f f( g) g \barMin
+    f4 f g a f f( g) g \barMin
     a a g f d d e f d d( c) c \barMin
     d c d d f f f g f e f d d \barFinalis
 
@@ -584,7 +585,7 @@
   \header {
     quid = "ant. v poledne"
     modus = "I"
-    differentia = "a"
+    differentia = "f"
     psalmus = ""
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -592,26 +593,29 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a a f( g) g( a) a \barMin
-    a a a a g f g a a g f e f d d \barMaior
-    c f e c( d) d \barFinalis
+    f4 g a a g( f) f( g) g \barMaior
+    f g a a g f g f f \barMin g a f g f f \barMaior
+    d f e c( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    f^\markup\rubrVelikAleluja g f e c
+    e f d d \barFinalis
   }
   \addlyrics {
     Když Je -- ží -- še ne -- na -- šli,
     vrá -- ti -- li se je -- ho ro -- di -- če do Je -- ru -- za -- lé -- ma
-    a hle -- da -- li ho.
+    \markup{\Dagger a} hle -- da -- li ho.
 
+    \markup{\Dagger a} hle -- da -- li ho.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
     modus = "I"
-    differentia = "a2"
+    differentia = "f"
     psalmus = ""
+    fial = "vanoce_narozenipane.ly#svrodiny-rch-a1?cast=3"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -655,7 +659,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d d f e( d) c \barMaior
+    d4 d d c d f e( d) c \barMaior
     d4. d \barMin f4 f e d c d d \barMaior
     f \barMin f g f e d( c) \barMin d d e f d c d d \barFinalis
 
@@ -688,7 +692,7 @@
     c a g a b g \barMin
     f g a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš se s_ni -- mi vy -- dal
