@@ -318,15 +318,14 @@
       \choralniRezim
       \neviditelna c
       c\breve c4( d) \parenthesize c c \barMin
-      c\breve a4 g a( c) \parenthesize c c( d c b) c( d c) b( c b a g) a( b) b( a) \barMax
-      \neviditelna c
-      c\breve c4( d) \parenthesize c c \barMin
       c\breve a4 g a( c) \parenthesize c c( d c b) c( d c) b( c b a g) a( b) b( a) \barFinalis
     }
     \addlyrics {
       % MČ Nejsvětější Trojice
       \Verse "Slovem Hospo" -- \markup\underline{di} -- no -- vým
       \skip 1 \markup\italic{vznik} -- \markup\italic{la} \markup\underline{ne} -- be -- sa _ _ _ _
+    }
+    \addlyrics {
       \Response a \markup\underline{všech} -- "" -- no,
       "co je" \markup\italic{na} -- \markup\italic{pl} -- \markup\underline{ňu} -- "" -- je. _ _ _ _
     }
