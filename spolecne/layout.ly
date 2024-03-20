@@ -1,4 +1,4 @@
-\version "2.19.0"
+\version "2.24.0"
 
 % globalni nastaveni \layout a \paper pouzivane vetsinou not
 
@@ -37,7 +37,7 @@
   oddFooterMarkup = \markup {
     \fill-line {
       %% Tagline header field only on last page.
-      \on-the-fly #last-page \fromproperty #'header:tagline
+      \if \on-last-page \fromproperty #'header:tagline
     }
   }
 }

@@ -24,8 +24,6 @@
    (interpret-markup layout props
 		     (markup #:bold #:italic obsah)))
 
-\markup{}
-
 \markup\justify{
 Tento materiál je jakýmsi notovým doplňkem k žaltáři.
 Nabízí možnosti, jak zpívat verše žalmů a kantik,

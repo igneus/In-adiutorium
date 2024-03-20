@@ -8,10 +8,10 @@
 \include "spolecne.ly"
 
 \paper {
-  oddHeaderMarkup = \markup\on-the-fly #not-part-first-page {
+  oddHeaderMarkup = \markup\unless \on-first-page-of-part {
     \runningTitleFromProperty #'header:subtitle ##t
   }
-  evenHeaderMarkup = \markup\on-the-fly #not-part-first-page {
+  evenHeaderMarkup = \markup\unless \on-first-page-of-part {
     \runningTitleFromProperty #'header:subtitle ##f
   }
 }

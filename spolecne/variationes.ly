@@ -12,7 +12,7 @@
 % (LSR 726 - Coloring staves)
 bgcolor =
 #(define-music-function (color) (string?)
- #{\override Staff.StaffSymbol $'stencil = $(lambda (grob)
+ #{\override Staff.StaffSymbol.stencil = $(lambda (grob)
     (let* ((staff (ly:staff-symbol::print grob))
            (X-ext (ly:stencil-extent staff X))
            (Y-ext (ly:stencil-extent staff Y)))

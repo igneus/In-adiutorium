@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.24.0"
 
 \header {
   title = "Antifony ze žaltáře - neděle"
@@ -17,9 +17,9 @@
 
 \paper {
   oddFooterMarkup = \markup {
-    \on-the-fly #last-page \fill-line { " " \fromproperty #'header:tagline " " }
+    \if \on-last-page \fill-line { " " \fromproperty #'header:tagline " " }
 
-    \on-the-fly #not-last-page \small {
+    \unless \on-last-page \small {
       \fill-line {
         ""
         \concat{ \fromproperty #'header:title " | " \dnesniDatum }
