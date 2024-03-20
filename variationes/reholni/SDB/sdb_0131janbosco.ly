@@ -2049,6 +2049,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c \mark\sipka a c d d c c \barMin
+    b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať nám Bůh po -- má -- há krá -- čet
+    po ne -- bes -- ké ces -- tě.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 b a c b a g g \barMin
     f g a f f( g) g \barFinalis
   }
