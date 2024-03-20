@@ -36,7 +36,7 @@ If you are using [Frescobaldi](https://frescobaldi.org/), there is the
 
 ## LilyPond version
 
-LilyPond 2.19.x is currently being used in development.
+LilyPond 2.24.x is currently being used in development.
 
 ## Contents
 
