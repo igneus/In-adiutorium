@@ -789,6 +789,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g
+    f g( a) g g \barMin a c b a( g) g \barMin
+    a g f g g \barFinalis
+  }
+  \addlyrics {
+    Můj lid
+    se na -- sy -- tí mým do -- bro -- di -- ním,
+    pra -- ví Hos -- po -- din.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Jer 31"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4( a) c \barMin
     c d e d c d e d d \barMaior
     c b a g g \barFinalis
