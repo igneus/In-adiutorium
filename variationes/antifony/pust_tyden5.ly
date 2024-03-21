@@ -2918,7 +2918,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a g) g \barMin
     f g a a g g a g f f \barMaior
@@ -3171,7 +3171,6 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
     \choralniRezim
     a4 a g( a g) g \barMin
     f g a a g g a g f f \barMaior
@@ -3192,6 +3191,35 @@
     quid = "ant. k Benedictus"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a g) g \barMin
+    f g a a g g a g f f \barMaior
+    d f f( g) g \barMin
+    g f g( a) g f( d) d \barMaior
+    f e c d c \barMin
+    d f f \mark\sipka e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl
+    zá -- stu -- pům Ži -- dů a ve -- le -- kně -- žím:
+    Kdo je z_Bo -- ha,
+    Bo -- ží slo -- va sly -- ší.
+    Vy ne -- sly -- ší -- te,
+    pro -- to -- že z_Bo -- ha ne -- jste.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g2"
     psalmus = ""
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -3369,7 +3397,7 @@
 }
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d d f f \barMin
     \mark\sipka g4. f e4 f d \barFinalis
@@ -3430,7 +3458,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d d f f \barMin
     \mark\sipka f( g) d \barMin c d d \barFinalis
@@ -3453,7 +3481,47 @@
   \relative c' {
     \choralniRezim
     d4 d c d d f f \barMin
+    f( g) d \barMin \mark\sipka e c d \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než byl A -- bra -- hám,
+    já jsem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f f \barMin
     \mark\sipka g( f d4.) d \barMin c4 d d \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než byl A -- bra -- hám,
+    já jsem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f f \barMin
+    \mark\sipka g( f g4.) d4 \barMin c4 d d \barFinalis
   }
   \addlyrics {
     Dří -- ve než byl A -- bra -- hám,

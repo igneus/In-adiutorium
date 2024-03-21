@@ -372,8 +372,8 @@
     f g a a g g a g f f \barMaior
     d f f( g) g \barMin
     g f g( a) g f( d) d \barMaior
-    f g( a) f f( g) g \barMin
-    f e c e f d d \barFinalis
+    f e c d c \barMin
+    d f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl
@@ -397,7 +397,7 @@
   \relative c' {
     \choralniRezim
     d4 d c d d f f \barMin
-    g4. f e4 f d \barFinalis
+    f( g) d \barMin c d d \barFinalis
   }
   \addlyrics {
     Dří -- ve než byl A -- bra -- hám,
