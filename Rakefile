@@ -203,6 +203,11 @@ task :sanity do
   puts "#{failed.size} checks failed #{failed.collect(&:name).inspect}"
 end
 
+desc 'Package Ruby code as a gem'
+task :gem do
+  ruby 'nastroje/gem/build.rb'
+end
+
 desc 'Run all specs of project tools'
 task :spec do
   sh 'rspec',
