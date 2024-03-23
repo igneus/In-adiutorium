@@ -421,7 +421,7 @@
     d4 d d f e( c) \barMin
     d d d f g f e d d \barMaior
     f g f e( d c) \barMin
-    d c d f( e d) d \barFinalis
+    d f e c( d) d \barFinalis
   }
   \addlyrics {
     U -- ká -- zal jsem vám
