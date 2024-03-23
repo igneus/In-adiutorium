@@ -778,6 +778,33 @@
   \relative c' {
     \key f \major
     \choralniRezim
+    c4 d d( a' bes) a g bes a( g a) g \barMaior
+    \mark\sipka a a g f e f d( c) c \barMaior
+    d f( e) d( c) c e f d d \barFinalis
+
+    e^\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když byl spra -- ved -- li -- vý pro -- dán,
+    Hos -- po -- din ho ne -- o -- pus -- til,
+    a chrá -- nil ho před hříš -- ní -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-II"
+    id = "mc-a-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
     d d d d( a' bes) g g( a) a \barMin a g bes g a( g f) e \barMaior
     d d( e f) e( f) d d e( c) d \barFinalis
   }
