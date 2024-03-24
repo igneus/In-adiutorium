@@ -8,9 +8,9 @@
     \choralniRezim
     d4 d d d( f) d e f d( c) c \barMin
     f g a g f( g) f f \barMax
-    a a g( a g) f f( g) g \barMin
+    a a g f f( g) g \barMin
     f e c d( c) \barMaior
-    c d f f e( d) c( d) d \barFinalis
+    d f f f e( c) c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš se vrá -- til od Jor -- dá -- nu
@@ -69,8 +69,8 @@
     \choralniRezim
     a4 g a c d d \barMin
     c d e c c( d) d \barMaior
-    a( d) b c a( g) a g \barMin
-    f g a c b g g( a) a \barFinalis
+    d c b a( g) a g \barMin
+    f g a bes c c a a \barFinalis
   }
   \addlyrics {
     Když ďá -- bel do -- kon -- čil
@@ -210,6 +210,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_žijeme v pokoji s Bohem_ bez zvláštní přidané hodnoty utíká z obvyklého rozsahu; závěr je ne zcela uspokojivý"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -288,6 +289,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "zvlášť začátek je mdlý, určitě půjde lépe"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -333,9 +335,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a e( f) d \barMin e e d c d d \barMaior
+    a4 g f e( f) d \barMin e e d c d d \barMaior
     f g g( a) a \barMaior
-    a g a a( bes) a a \barMin
+    a g f g( a) g g \barMin
     a g f e f d c( d) d \barFinalis
   }
   \addlyrics {
@@ -373,6 +375,7 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    placet = "nedrží úplně pohromadě - na _až_ je nepěkný šev"
     id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
