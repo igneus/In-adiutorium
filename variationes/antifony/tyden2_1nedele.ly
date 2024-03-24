@@ -1241,6 +1241,66 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin
+    c( d e) c( a) a
+    c^\markup\rubrMimoPust c a g g \barMaior
+    f g( a) g g \barFinalis
+
+    \mark\sipka g4^\markup\rubrPust f a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no
+    k_ra -- dos -- ti
+    \markup{ \Dagger lid} -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+
+    \markup{ \Dagger lid} -- ské -- ho srd -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a f g f g( a) \barMin c c b( c a) a \barMaior
+    c d( c d) d( c) \barMin
+    c( d e) c( a) a
+    c^\markup\rubrMimoPust c a g g \barMaior
+    f g( a) g g \barFinalis
+
+    \mark\sipka c4^\markup\rubrPust b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá -- vá chléb ja -- ko po -- krm,
+    i ví -- no
+    k_ra -- dos -- ti
+    \markup{ \Dagger lid} -- ské -- ho srd -- ce.
+    A -- le -- lu -- ja.
+
+    \markup{ \Dagger lid} -- ské -- ho srd -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-II"
+    id = "mc-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     a4 g( d') d e e d c d d \barMaior
