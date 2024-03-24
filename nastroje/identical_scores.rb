@@ -15,10 +15,15 @@ duplicates = 0
 
 ARGV.each do |path|
   seen = {}
+  id_seen_count = {}
 
   Lyv::LilyPondMusic.new(path).scores.each_with_index do |score, i|
+    score_id = score.header['id']
+    id_seen_count[score_id] ||= 0
+    id_seen_count[score_id] += 1
     if seen.has_key?(score.normalized_text)
-      STDERR.puts "#{path} : no. #{i} is a duplicate: #{score.header['id']} #{score.lyrics_readable}"
+      fial = path.sub(/^variationes\//, '') + '#' + score_id
+      STDERR.puts "#{fial} no. #{id_seen_count[score_id]} (#{path} no. #{i}) is a duplicate: #{score.lyrics_readable}"
       duplicates += 1
     end
 
