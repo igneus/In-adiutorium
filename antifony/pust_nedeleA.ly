@@ -162,6 +162,7 @@
     differentia = "a"
     psalmus = ""
     annus = "A"
+    placet = "půjde lépe"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -174,8 +175,8 @@
     \choralniRezim
     c4 d d( a' bes) a a a( c a) a \barMin
     a a g f g( a) \barMaior
-    a a a g( f e) d e( f) d( c) c \barMin
-    d( f) e4. d \barFinalis
+    a g f g( a) g f( e) d d \barMin
+    e c d \barFinalis
   }
   \addlyrics {
     Kdo se na -- pi -- je vo -- dy,
@@ -262,6 +263,7 @@
     differentia = "d"
     psalmus = ""
     annus = "A"
+    placet = "postup na _světlo světa_ divný a v rámci modu nezvyklý"
     id = "ivmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -295,7 +297,7 @@
     \choralniRezim
     c4 d d( f) f \barMin g g f g g( f) f \barMaior
     f d d f e d c c \barMaior
-    d f e( f d) d c d d \barFinalis
+    d f e( f d) d \barMin e c d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či
