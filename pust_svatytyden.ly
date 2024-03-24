@@ -280,8 +280,8 @@
       d4 c c d e c a a \barMaior
       g a c( d) \barMin
       d d d c b a( b) a a( g) \barMaior
-      a a a( c) a a \barMin
-      b c a( g) g a g f g( a) a( g) g \barFinalis
+      a c b( c) a a \barMin
+      c c a( g) g a g f g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Řek -- ně -- te si -- ón -- ské dce -- ři:
@@ -359,7 +359,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a b( g) g a g( f) e e \barMaior
+      a4 a b g a g( f) e e \barMaior
       c d d( e) e \barMin
       f g a a g f g g e e \barMaior
       a a b( c) a \barMin g a g f e e \barMaior
@@ -401,7 +401,7 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = "Žalm 118"
-      placet = "zbytečně velký rozsah, předělat _hosana_"
+      placet = "zbytečně velký rozsah, předělat _hosana_; možná spíš modus II"
       id = "ne-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -517,7 +517,7 @@
     \relative c' {
       \key f \major
       \choralniRezim
-      d4 d d( f e) d f g g g \barMaior
+      d4 d d( f d) c f g a( g) g \barMaior
       a g g g a( bes c) bes( a) g \barMin
       a( g f) g f( d) d \barMaior
       c d e( f) d d \barMaior
@@ -526,7 +526,7 @@
       g f e d c \barMaior
       d f g f( e) d \barMin
       f g( a g f) e( d) \barMin
-      f e c( d) d \barFinalis
+      e c c( d) d \barFinalis
     }
     \addlyrics {
       Ce -- lý zá -- stup u -- čed -- ní -- ků
@@ -657,7 +657,7 @@
       f( g) f( e) d \barMin
       f g f e d \barMin
       f e d c a c( d) d \barMaior
-      d( e) d d \barMin
+      d c d
       f f f e d c d d( c) \barMaior
       d e f d d c( d) d \barFinalis
     }
@@ -675,8 +675,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
-      placet = "v _náš králi, synu Davidův_ teď slyším nějakou písničku, snad ze Zaklínače;
-      cesura po _O tobě_ je možná spíš nadbytečná"
+      placet = "v _náš králi, synu Davidův_ teď slyším nějakou písničku, snad ze Zaklínače"
       id = "ne-2ne-amag-B"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -687,8 +686,8 @@
       \choralniRezim
       c4 c c d( e) d \barMin
       d c a a c b a g g \barMaior
-      a a a c b g \barMin
-      a g f g a a( g) g \barFinalis
+      f g a b c a \barMin
+      c c c b a g( a) g \barFinalis
     }
     \addlyrics {
       Je o mně psá -- no:
