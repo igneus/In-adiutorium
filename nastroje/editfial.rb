@@ -19,13 +19,7 @@ def score_id_line_number(file_path, score_id)
   grep_line_number `grep --no-messages --line-number --max-count=1 'id = "#{score_id}"' #{file_path}`
 end
 
-def edit_fial(fial_str, variationes: false)
-  line = 0
-  if fial_str =~ /:\d+$/
-    fial_str, _, line = fial_str.rpartition(':')
-  end
-
-  fial = FIAL.parse(fial_str)
+def edit_fial(fial, line, variationes: false)
   id_line = score_id_line_number fial.path, fial.id
 
   (file, id_line) =
@@ -45,7 +39,7 @@ def edit_fial(fial_str, variationes: false)
     end
 
   unless id_line
-    STDERR.puts "could not find #{fial_str}"
+    STDERR.puts "could not find #{fial}"
     return false
   end
 
@@ -82,8 +76,14 @@ end.parse!
 STDERR.puts 'please specify FIAL' if ARGV.empty?
 
 success = true
-ARGV.each do |fial|
-  success &&= edit_fial(fial, variationes: variationes)
+ARGV.each do |fial_str|
+  line = 0
+  if fial_str =~ /:\d+$/
+    fial_str, _, line = fial_str.rpartition(':')
+  end
+  fial = FIAL.parse(fial_str)
+
+  success &&= edit_fial(fial, line, variationes: variationes || fial.additional.has_key?('open_variationes'))
 end
 
 exit 1 unless success
