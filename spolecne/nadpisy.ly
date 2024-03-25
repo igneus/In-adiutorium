@@ -92,6 +92,14 @@
      (interpret-markup layout props
        #{ \markup\with-url #href { #text } #} )))
 
+#(define-markup-command (score-fial-link layout props) ()
+   #:properties ((header:fial #f))
+   "Pokud zpev ma property 'fial', vygeneruje odkaz, jinak vrati prazdny markup"
+   (interpret-markup layout props
+     (if (equal? header:fial #f)
+       empty-markup
+       #{ \markup\fial-link #(markup->string header:fial) #})))
+
 % procedure for \on-the-fly to only render markup argument
 % in a development build (i.e. build with the point-and-click feature);
 #(define (development-build layout props arg)
@@ -169,9 +177,7 @@ sestavTitulekRespII = \markup\concat {
         \wordwrap-field #'header:textus_approbatus
       }
 
-      \on-the-fly \development-build \small\sans{
-        \fromproperty #'header:fial
-      }
+      \on-the-fly \development-build \small\sans\score-fial-link
     }
   }
 }
