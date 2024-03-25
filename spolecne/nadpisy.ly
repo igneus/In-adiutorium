@@ -133,14 +133,11 @@ sestavTitulek = \markup\concat{
   " ("
   \fromproperty #'header:psalmus
   ") "
-  \placet
 }
 
 % piece title for antiphons not connected with a psalm
 % (antiphons for Gospel canticles; 'absolute antiphons')
-sestavTitulekBezZalmu = \markup\concat{
-  \quidEtTonus " " \placet
-}
+sestavTitulekBezZalmu = \markup\quidEtTonus
 
 % piece titles for chants without a differentia - most usually
 % responsories
@@ -148,8 +145,6 @@ sestavTitulekResp = \markup\concat {
   \fromproperty #'header:quid
   " - "
   \fromproperty #'header:modus
-  " "
-  \placet
 }
 
 % piece title used in sheets containing only a set of responsories
@@ -158,8 +153,7 @@ sestavTitulekRespII = \markup\concat {
   \fromproperty #'header:titulus
   " ("
   \fromproperty #'header:modus
-  ") "
-  \placet
+  ")"
 }
 
 \paper {
@@ -168,7 +162,11 @@ sestavTitulekRespII = \markup\concat {
     \column {
       %\if \should-print-all-headers { \bookTitleMarkup \hspace #1 }
       \fill-line {
-        \fromproperty #'header:piece
+        \concat {
+          \fromproperty #'header:piece
+          " "
+          \placet
+        }
         %\fromproperty #'header:opus
         \small { \fromproperty #'header:fons_externus }
       }
