@@ -554,10 +554,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a) a( g) g g a c c c \barMin
-    c b( a g) g \barMaior
-    c c d( c a) b a g g \barMin
-    g f g g g( a) g a b a a g g \barFinalis
+    g4 g g a a g f g a g-- g
+    a a( c) c \barMaior
+    c c d c b( c) a a \barMin
+    a c c c b a g a f g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš si za -- vo -- lal své u -- čed -- ní -- ky
@@ -571,7 +571,6 @@
     differentia = "G"
     psalmus = ""
     annus = "A"
-    placet = "spíš lépe"
     id = "ne18a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

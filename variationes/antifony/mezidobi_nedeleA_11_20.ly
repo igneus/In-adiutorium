@@ -2530,6 +2530,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( a) a( g) g g a c c c \barMin
     c b( a g) g \barMaior
@@ -2560,6 +2561,32 @@
     a a( c) c \barMaior
     c c d c b( c) a a \barMin
     a c b a g( a) g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš si za -- vo -- lal své u -- čed -- ní -- ky
+    a ře -- kl:
+    Je mi lí -- to zá -- stu -- pů
+    a ne -- chci je ne -- chat o -- de -- jít hla -- do -- vé.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne18a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g \mark\sipka g a a g f g a g-- g
+    a a( c) c \barMaior
+    c c d c b( c) a a \barMin
+    a c \mark\sipka c c b a g a f g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš si za -- vo -- lal své u -- čed -- ní -- ky
