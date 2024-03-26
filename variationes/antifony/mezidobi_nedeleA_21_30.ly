@@ -2514,6 +2514,31 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 e f d d \barMaior
+    c d d d c( a) c( d) d d e f d c \barMin
+    d e f g a g f( g) \barMaior
+    \mark\sipka f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- men, pra -- vím vám:
+    Cel -- ní -- ci a ne -- věst -- ky vás před -- chá -- ze -- jí
+    do Bo -- ží -- ho krá -- lov -- ství,
+    pro -- to -- že u -- vě -- ři -- li.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne26a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka f4 d e( f) d d \barMaior
     c d d d c( a) c( d) d d e f d c \barMin
     d e f g a g f( g) \barMaior
