@@ -761,8 +761,8 @@
       c4( d) d \barMin
       d d d d e f e d c d e( d) d \barMaior
       d( e d) c( d) c c \barMin
-      c b g a( g) g \barMaior
-      f a c d( e d c) c( d) \barMin
+      c b g a-- g \barMaior
+      a c b c( d e d) c( d) \barMin
       b c a a g g \barFinalis
     }
     \addlyrics {
@@ -789,7 +789,7 @@
       f4 f e d f( g) g \barMin
       a( bes) a g( a) g g \barMaior
       f g a g f g( f d) d \barMin
-      c d f e c c( d) d \barFinalis
+      f f f e c c( d) d \barFinalis
     }
     \addlyrics {
       Spra -- ved -- li -- vý Ot -- če,
@@ -860,7 +860,7 @@
       g4 g a g a c c b \barMin
       c a c c b a g( a) g \barMaior
       g( a) g f g f d d \barMin
-      f g g( a) a g \barFinalis
+      e f g( a) a g \barFinalis
     }
     \addlyrics {
       Bůh nás ob -- da -- řil mi -- los -- tí
