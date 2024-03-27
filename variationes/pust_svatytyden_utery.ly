@@ -293,6 +293,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 c d d \barMin
+    c d e d c d d \barMaior
+    d \mark\sipka d c b a g( a) a \barMin
+    a( c) bes a a \barFinalis
+  }
+  \addlyrics {
+    Můj Slu -- žeb -- ník
+    o -- spra -- ve -- dl -- ní mno -- hé,
+    ne -- boť na se -- be vez -- me
+    je -- jich vi -- ny.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 65"
+    id = "ut-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 \mark\sipka g( a) c( d) d \barMin
     c d e d c d d \barMaior
     d a d b c a( g) a( g) \barMin
@@ -622,6 +646,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( a') a( bes) a g a g \barMaior
+    g a bes a \mark\sipka g a bes a g f \barMin
+    f g f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď mě, Bo -- že,
+    a za -- staň se mě pro -- ti kaž -- dé -- mu,
+    kdo pro -- ti mně po -- vsta -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 49-II"
+    id = "ut-ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
@@ -655,6 +702,30 @@
     c d e c d d \barMaior
     d d a d b c a( g) \mark\sipka a( g) \barMin
     f g( a) c bes a a \barFinalis
+  }
+  \addlyrics {
+    Sná -- šel jsem
+    po -- tu -- pu a hroz -- by,
+    a -- le Hos -- po -- din je se mnou
+    a dá -- vá mi sí -- lu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 49-I"
+    id = "ut-ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin
+    c d e c d d \barMaior
+    d d a d b c a( g) a( g) \barMin
+    f \mark\sipka g a c a a \barFinalis
   }
   \addlyrics {
     Sná -- šel jsem
