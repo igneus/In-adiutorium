@@ -29,7 +29,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( f d) \mark\sipka c c( d) \barMaior
     d( a') a( g) f \barMin f g f d d \barFinalis
@@ -41,6 +41,31 @@
   \header {
     quid = "1. ant."
     modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 77"
+    id = "st-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Převládající charakter spíš než modu I odpovídá modu II,
+  který k tenoru modu I jen nárazově vybíhá.
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( f d) c c( d) \barMaior
+    d( a') a( g) f \barMin f g f d d \barFinalis
+  }
+  \addlyrics {
+    V_den sou -- že -- ní
+    po -- zve -- dám své ru -- ce k_Pá -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 77"
     id = "st-rch-a1"
@@ -160,11 +185,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g g( c) a g( a) g g \barMaior
     \mark\sipka c b c d d( c) c \barMin
     b c a g f g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že jsme s_Kris -- tem u -- mře -- li,
+    vě -- ří -- me, že s_Kris -- tem
+    bu -- de -- me ta -- ké žít.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "1 Sam 2"
+    id = "st-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g g( c) a g( a) g g \barMaior
+    c b c d d( c) c \barMin
+    b c a g f \mark\sipka f( g) \barFinalis
   }
   \addlyrics {
     Jest -- li -- že jsme s_Kris -- tem u -- mře -- li,
@@ -210,6 +258,28 @@
     g4 g g g g( c) a g( a) g g \barMaior
     c c c \mark\sipka b c( d) c \barMin
     b c a g f g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že jsme s_Kris -- tem u -- mře -- li,
+    vě -- ří -- me, že s_Kris -- tem
+    bu -- de -- me ta -- ké žít.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "1 Sam 2"
+    id = "st-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( c) a g( a) g g \barMaior
+    c c \mark\sipka b a g( a) g \barMin
+    a g f g a a( g) \barFinalis
   }
   \addlyrics {
     Jest -- li -- že jsme s_Kris -- tem u -- mře -- li,
@@ -775,6 +845,54 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 f g g( a) a \barMin
+    c c b \mark\sipka g b c a g g \barMaior
+    c d c b( a) g \barMin
+    a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Bez -- bož -- ní řek -- li:
+    U -- tla -- čuj -- me spra -- ved -- li -- vé -- ho,
+    ne -- boť se sta -- ví
+    pro -- ti na -- šim skut -- kům.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 62"
+    id = "st-ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g( a) a \barMin
+    c c b g \mark\sipka b( c) a a g g \barMaior
+    c d c b( a) g \barMin
+    a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Bez -- bož -- ní řek -- li:
+    U -- tla -- čuj -- me spra -- ved -- li -- vé -- ho,
+    ne -- boť se sta -- ví
+    pro -- ti na -- šim skut -- kům.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 62"
+    id = "st-ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g a a( b g e) e \barMaior
     c d e e f( g) a f e e \barMaior
     a g a a( b) a \barMin
@@ -1304,12 +1422,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) c \mark\sipka c \barMin
     \mark\sipka a c b g g \barMaior
     \mark\sipka f g a c c d c d c b a a \barMin
     a( c) c d c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Mis -- tr vzka -- zu -- je:
+    Můj čas je blíz -- ko;
+    bu -- du u te -- be se svý -- mi u -- čed -- ní -- ky
+    sla -- vit ve -- li -- ko -- noč -- ní ve -- če -- ři.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( d) c c \barMin
+    a c b g g \barMaior
+    f g a c c d c d c b a a \barMin
+    a( c) c d c b a g \mark\sipka g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Mis -- tr vzka -- zu -- je:

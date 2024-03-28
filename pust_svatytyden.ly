@@ -1102,7 +1102,7 @@
     }
     \header {
       quid = "1. ant."
-      modus = "I"
+      modus = "II"
       differentia = "D"
       psalmus = "Žalm 77"
       id = "st-rch-a1"
@@ -1115,7 +1115,7 @@
       \choralniRezim
       g4 g g g g( c) a g( a) g g \barMaior
       c b c d d( c) c \barMin
-      b c a g f g \barFinalis
+      b c a g f f( g) \barFinalis
     }
     \addlyrics {
       Jest -- li -- že jsme s_Kris -- tem u -- mře -- li,
@@ -1266,7 +1266,7 @@
       c4 c c( d) c c \barMin
       a c b g g \barMaior
       f g a c c d c d c b a a \barMin
-      a( c) c d c b a g a g g \barFinalis
+      a( c) c d c b a g g( a) a( g) g \barFinalis
     }
     \addlyrics {
       Mis -- tr vzka -- zu -- je:
