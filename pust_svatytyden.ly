@@ -1349,7 +1349,7 @@
       differentia = "c"
       psalmus = "Žalm 81"
       id = "ct-rch-a3"
-      fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek"
+      fial = "mezidobi_telaakrvepane.ly#1ne-a2?zacatek=12"
       piece = \markup {\sestavTitulek}
     }
   }
