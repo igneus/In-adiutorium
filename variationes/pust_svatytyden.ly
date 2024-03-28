@@ -116,6 +116,14 @@
 
   \markup {\nadpisHodinka {"ranní chvály"}}
 
+  \markup{
+    Liturgia horarum:
+    \italic{
+      Redemísti nos, Dómine, * In sánguine tuo.
+      V. Ex omni tribu et lingua et pópulo et natióne.
+    }
+  }
+
   \score {
     \relative c'' {
       \zvyraznovacSedy
@@ -199,6 +207,38 @@
       e f f f g f e( d) e \barFinalis
       % Slava
       a a a( b) a g g( a) a \barMin a g \mark\sipka f f( g) e e \barFinalis
+    }
+    \addlyrics {
+      \Response Pa -- ne, ty ses dal při -- bít na kříž_*
+      a pro -- lil jsi za nás svou krev.
+      \Verse Vy -- dal ses za spá -- su ce -- lé -- ho svě -- ta_*
+      \Response a pro -- lil jsi za nás svou krev.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "IV"
+      id = "rch-resp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      % R
+      \neviditelna a
+      a4 a a a a b a g( e) e \barMax
+      e f f f g f e( d) e \barFinalis
+      % V
+      \neviditelna a
+      a( b a) g( e) e \barMin e d e f a g f( e) e \barMax
+      % R
+      \neviditelna a
+      e f f f g f e( d) e \barFinalis
+      % Slava
+      a a \mark\sipka b a g g( e) e \barMin f g g f( g) e e \barFinalis
     }
     \addlyrics {
       \Response Pa -- ne, ty ses dal při -- bít na kříž_*
@@ -941,6 +981,35 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f e f( g) g \barMin
+    g a a f d e \barMax
+    d e f g( a) a g bes a a \barMaior
+    a a( g a4.) g \barMaior
+    g4 \mark\sipka f g a( f d4.) d \barMin
+    e4( f) e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ži -- vot je pro mě Kris -- tus
+    a smrt je pro mě zisk.
+    Ne -- chci se chlu -- bit ni -- čím ji -- ným,
+    než kří -- žem
+    na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {
@@ -974,6 +1043,18 @@
 \pageBreak
 
   \markup {\nadpisHodinka {"nešpory"}}
+
+  \markup\justify{
+    Liturgia horarum:
+    \italic{
+      Adorámus te, Christe, * Et benedícimus tibi.
+      V. Quia per crucem tuam redemísti mundum.
+    }
+  }
+  \markup\justify{
+    DMC z (víceméně) celého textu latinského responsoria
+    udělá responsum a připojí úplně nový verš.
+  }
 
   \score {
     \relative c' {

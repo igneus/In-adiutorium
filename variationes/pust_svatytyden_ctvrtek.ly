@@ -73,11 +73,55 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g e g a \barMin
+    a g( f) e( d) e \barMaior
+    e \mark\sipka f( g) g f e e \barFinalis
+  }
+  \addlyrics {
+    Vy -- slyš mě, Bo -- že,
+    v_mé úz -- kos -- ti
+    a přijď mi na po -- moc.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 80"
+    id = "ct-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g e g a \barMin
+    a \mark\sipka b( a) g( f) e \barMaior
+    e e( f) d d e e \barFinalis
+  }
+  \addlyrics {
+    Vy -- slyš mě, Bo -- že,
+    v_mé úz -- kos -- ti
+    a přijď mi na po -- moc.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 80"
+    id = "ct-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
   Při úpravách brát zřetel na případné sjednocení nápěvu s
-  "mezidobi_nejsvsrdce.ly#mc-avig"
+  \fial-link "mezidobi_nejsvsrdce.ly#mc-avig"
 }
 
 \score {
