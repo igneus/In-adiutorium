@@ -419,25 +419,25 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( d) c b c a g g( a) \barMaior
-    a g a g f f( d) \barMin
-    f g a a( c) a c( d) c b a a \barMaior
-    c c c d( e d) c b c a a \barMin
-    f g a( g) g \barFinalis
+    g4 g a f g a g g \barMaior
+    f g a g a c c \barMin
+    c b a g( a) g \barMin f( g) a a g g \barMaior
+    c c c d d c b a( b a g) g \barMin
+    f( a) a g g \barFinalis
   }
   \addlyrics {
-    Na svém tě -- le do -- pl -- ňu -- ji to,
-    co zbý -- vá vy -- tr -- pět
+    Na svém tě -- le do -- pl -- ňu -- ji
+    to, co zbý -- vá vy -- tr -- pět
     do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
-    má z_to -- ho pro -- spěch je -- ho tě -- lo, to je cír -- kev.
+    má z_to -- ho pro -- spěch je -- ho tě -- lo,
+    to je cír -- kev.
   }
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Kol 1"
     fial = "commune/commune_jedenmucednik.ly#mc-avig?-aleluja"
-    placet = "před zveřejněním formuláře revidovat zdroj"
     id = "2ne-a3"
     piece = \markup\sestavTitulek
   }
