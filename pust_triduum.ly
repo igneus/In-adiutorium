@@ -63,10 +63,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a c( b) c c( a) a \barMin c( d) e d c d d \barMaior
-    d c( b a) a \barMin b( a) g b( c) a a \barFinalis
+    d4 c f g f( a) a \barMin a a g f a g \barMaior
+    f f( g f d) d \barMin f( e) c e( f) d d \barFinalis
   }
   \addlyrics {
     Sva -- tí zví -- tě -- zi -- li_* Be -- rán -- ko -- vou kr -- ví
@@ -74,10 +74,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "I"
+    differentia = "D"
     psalmus = "Zj 11"
-    placet = "melisma na _Beránkovou_ nějak nesedí"
     id = "ct-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -135,9 +134,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f d) d \barMin
-    g( f g a g) f e f( g a) a \barMin a( bes a) g( f) g g( a) a \barMaior
-    a4 a a( g f) g( f) e f d d \barFinalis
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin g f e d( e d) d \barMaior
+    c d f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me,_*
@@ -146,10 +145,10 @@
   }
   \header {
     quid = "ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "nevím"
+    fial = "sanktoral/0325zvestovanipane.ly#invit?zacatek=19"
     id = "pa-invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -245,6 +244,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "zkusit oficiální text - je hloupé zrovna v Čechách vynechat z oficia i tu jedinou zmínku o 'Kopí Páně'"
     id = "pa-mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -365,7 +365,7 @@
   \relative c' {
     \choralniRezim
     f4 g a a a a g f f( g) g \barMin
-    g g f e d c e( f) d d \barFinalis
+    a a g f e c e( f) d d \barFinalis
   }
   \addlyrics {
     By -- lo de -- vět ho -- din do -- po -- led -- ne,_*
