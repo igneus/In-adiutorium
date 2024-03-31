@@ -111,8 +111,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a g( a) g \barMin
-    f g a a g g \barFinalis
+    c4 c b a b g \barMin
+    a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Pa -- ne, ty máš slo -- va

@@ -55,6 +55,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f \mark\sipka g g( a) a a g f g( f) e \barMaior
+    f g f e d c \barMin d4 f e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,_*
+    tak prah -- ne du -- še má po to -- bě, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Jako  laň prahne po vodách bystřin,
+    tak prahne má duše po tobě, Bože. Aleluja."
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 42"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f g( a) a a g f g( f) e \barMaior
     f g f e d c \barMin \mark\sipka f e c c( d) d \barMaior
     e f d( c) d \barFinalis

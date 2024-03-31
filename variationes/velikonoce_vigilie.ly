@@ -141,6 +141,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g a g g \barMaior
+    c c b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
+    ne -- boť jsi mě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. po 4. čtení (Iz 54)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 30"
+    id = "mc-xa4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -190,7 +210,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a g( a) g \barMin
     f g a a g g \barFinalis
@@ -203,6 +223,127 @@
     quid = "ant. po 6. čtení (Bar 3)"
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 19"
+    id = "mc-xa6"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a b g \barMin
+    a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty máš slo -- va
+    věč -- né -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. po 6. čtení (Bar 3)"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 19"
+    id = "mc-xa6"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b g \barMin
+    a g f g( a) \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty máš slo -- va
+    věč -- né -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. po 6. čtení (Bar 3)"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 19"
+    id = "mc-xa6"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g c c b g \barMin
+    a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty máš slo -- va
+    věč -- né -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. po 6. čtení (Bar 3)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 19"
+    id = "mc-xa6"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f a g \barMin
+    a( c) b c a g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty máš slo -- va
+    věč -- né -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. po 6. čtení (Bar 3)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 19"
+    id = "mc-xa6"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f a g \barMin
+    a( c) b \mark\sipka a b g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty máš slo -- va
+    věč -- né -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. po 6. čtení (Bar 3)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 19"
+    id = "mc-xa6"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a f \barMin
+    a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, ty máš slo -- va
+    věč -- né -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. po 6. čtení (Bar 3)"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 19"
     id = "mc-xa6"
     piece = \markup {\sestavTitulek}
