@@ -60,7 +60,7 @@
   \relative c' {
     \choralniRezim
     f4 g a a g f f( g) g \barMin
-    g a g f d d \barMaior
+    a a g f d d \barMaior
     d c d f e c( d) d \barFinalis
   }
   \addlyrics {

@@ -404,11 +404,35 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 \mark\sipka g a a g f f( g) g \barMin
     g a g f d d \barMaior
     \mark\sipka d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- ná -- šej -- te sa -- mi se -- be
+    ja -- ko o -- běť ži -- vou,
+    sva -- tou a Bo -- hu mi -- lou.
+
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 40-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g f f( g) g \barMin
+    \mark\sipka a a g f d d \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Při -- ná -- šej -- te sa -- mi se -- be
