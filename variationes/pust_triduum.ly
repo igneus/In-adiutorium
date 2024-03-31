@@ -3320,7 +3320,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f d) d \barMin
     g( f g a g) f e f( g a) a \barMin
@@ -3421,6 +3421,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4( f) f \barMin
     d( f) f f f( g) g \barMin
@@ -3438,7 +3439,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "pust_svatytyden.ly#invit?zacatek"
+    fial = "pust_svatytyden.ly#invit?zacatek=18"
     id = "so-invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -4518,6 +4519,26 @@
   \relative c' {
     \choralniRezim
     d4 d f( e f) d( c) c4.( d) \barMaior
+    d4( f) e f( g) \mark\sipka f e d d \barFinalis
+  }
+  \addlyrics {
+    Z_mo -- ci pod -- svě -- tí_*
+    za -- chraň, Pa -- ne, mou du -- ši.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "so-rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f( e f) d( c) c4.( d) \barMaior
     \mark\sipka f4 e f( g) f e c( d) d \barFinalis
   }
   \addlyrics {
@@ -4608,7 +4629,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d4 c e d \barMaior
     d e( f) d d( c) \barMin b4 c b c( d) d \barMaior
@@ -4635,6 +4656,31 @@
     d4 c e d \barMaior
     d e( f) d d( c) \barMin \mark\sipka b4 c a a( g) g \barMaior
     a a f( g a4.) a \barMin
+    b4 c a g a g g \barFinalis
+  }
+  \addlyrics {
+    Byl jsem mr -- tev,_*
+    a hle, jsem živ na vě -- ky vě -- ků
+    a mám klí -- če
+    od smr -- ti a pod -- svě -- tí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 150"
+    id = "so-rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c c \barMaior
+    c d( e) c c( a) \barMin c b a g g \barMaior
+    f g a( c) c \barMin
     b4 c a g a g g \barFinalis
   }
   \addlyrics {
@@ -4738,7 +4784,9 @@
 
 \markup\justify{
   Mimochodem, \italic{Christus factus est} s méně a kratšími melismaty
-  a složené ve IV. transponovaném modu obsahuje antifonář Niversův:
+  a složené ve IV. transponovaném modu
+  [EDIT: nesmysl - když jsem to psal, podle všeho jsem nezaregistroval ty křížky]
+  obsahuje antifonář Niversův:
   \with-url "https://books.google.cz/books?id=AtknxOhLMNYC&pg=PA80#v=onepage&q&f=false" {
     \italic{
       Antiphonarium Romanum
@@ -5685,6 +5733,30 @@
     bes a g a f( g) \barMaior
     g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
     f f e d f( g) g g \barMin \mark\sipka f4( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ře -- kl:_*
+    Zboř -- te ten -- to chrám,
+    a ve třech dnech jej za -- se po -- sta -- vím;
+    ře -- kl to však o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Flp 2"
+    id = "so-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g g( a) a \barMin
+    bes a g a f( g) \barMaior
+    g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f f e d \mark\sipka c( d) c c \barMin d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus ře -- kl:_*

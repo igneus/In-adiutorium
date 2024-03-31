@@ -529,10 +529,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f d) d \barMin
-    g( f g a g) f e f( g a) a \barMin
-    a g bes a( g a4.) a \barMaior
-    a4 a g f e f d c c( d) d \barFinalis
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin
+    f( g) f e d4. d \barMaior
+    d4 d c d f e d e c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me,_*
@@ -542,12 +542,11 @@
   }
   \header {
     quid = "ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
+    fial = "pust_svatytyden.ly#invit?zacatek=18"
     id = "so-invit"
-    fons = "První část je z antifony invitatoria Velkého pátku."
-    fial = "pust_triduum.ly#pa-invit?zacatek=17"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -690,14 +689,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c e d \barMaior
-    d e( f) d d( c) \barMin b4 c b c( d) d \barMaior
-    d d e( c a4.) a \barMin b4 c a g a g g \barFinalis
+    d4 d c c \barMaior
+    c d( e) c c( a) \barMin c b a g g \barMaior
+    f g a( c) c \barMin
+    b4 c a g a g g \barFinalis
   }
   \addlyrics {
     Byl jsem mr -- tev,_*
     a hle, jsem živ na vě -- ky vě -- ků
-    a mám klí -- če od smr -- ti a pod -- svě -- tí.
+    a mám klí -- če
+    od smr -- ti a pod -- svě -- tí.
   }
   \header {
     quid = "3. ant."

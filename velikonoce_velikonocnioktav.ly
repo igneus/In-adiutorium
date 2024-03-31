@@ -496,10 +496,10 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      g4 g f f \barMaior
-      g g( a) a f( g a) a c b g g \barMin
+      d4 d c c \barMaior
+      c d( e) c c( a) \barMin c b a g g \barMaior
       f a g g \barFinalis
     }
     \addlyrics {
@@ -509,9 +509,10 @@
     }
     \header {
       quid = "3. ant."
-      modus = "VIII"
-      differentia = "G"
+      modus = "VII"
+      differentia = "d"
       psalmus = "Žalm 3"
+      fial = "pust_triduum.ly#so-rch-ant3?zacatek=17"
       id = "po-mc-a3"
       piece = \markup {\sestavTitulek}
     }

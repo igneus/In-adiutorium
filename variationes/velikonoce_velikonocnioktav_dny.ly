@@ -434,6 +434,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4 g f f \barMaior
       g g( a) a f( g a) a c b g g \barMin
@@ -494,6 +495,30 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 3"
+      id = "po-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d c c \barMaior
+      c d( e) c c( a) \barMin c b a g g \barMaior
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Byl jsem mr -- tev,_*
+      a hle, jsem živ na vě -- ky vě -- ků.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 3"
+      fial = "pust_triduum.ly#so-rch-ant3?zacatek=17"
       id = "po-mc-a3"
       piece = \markup {\sestavTitulek}
     }
