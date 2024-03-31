@@ -38,7 +38,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a c a \mark\sipka c c d e c d \barMaior
     c c d e f d c c d b a g g \barMaior
@@ -54,6 +54,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-I"
+    placet = "_Jeruzalém_ divné; aleluja spíš jinak"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -119,6 +120,29 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a c c b a c d e c d \barMaior
+    c c d e f d c c d b a g g \barMaior
+    \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý Je -- ru -- za -- lém zpí -- vá ra -- dos -- tí,
+    všech -- na je -- ho pro -- stran -- ství jsou pl -- ná já -- so -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 147-I"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}

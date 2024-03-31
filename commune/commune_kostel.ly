@@ -15,9 +15,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a c a c c d e c d \barMaior
+    g4 a c c b a c d e c d \barMaior
     c c d e f d c c d b a g g \barMaior
-    a g f( a) g \barFinalis
+    f a g g \barFinalis
   }
   \addlyrics {
     Ce -- lý Je -- ru -- za -- lém zpí -- vá ra -- dos -- tí,
@@ -29,7 +29,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-I"
-    placet = "_Jeruzalém_ divné; aleluja spíš jinak"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
