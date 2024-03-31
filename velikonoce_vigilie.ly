@@ -56,6 +56,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 16"
+    placet = "daný závěr s daným textem je málo zpěvný, _tobě_ musí být jinak"
     id = "mc-xa2"
     piece = \markup {\sestavTitulek}
   }
@@ -78,6 +79,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 30"
+    placet = "melodie tíhne k důrazu na pomocné sloveso _jsi_"
     id = "mc-xa4"
     piece = \markup {\sestavTitulek}
   }
