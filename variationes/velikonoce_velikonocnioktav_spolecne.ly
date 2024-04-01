@@ -2072,9 +2072,34 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 e d f( d) d c d e d d \barMaior
+    f f( g a) f e \barMin
+    d d d f e d c c( d) d \barMaior
+    c d e d \barFinalis
+  }
+  \addlyrics {
+    Byl vy -- dán na smrt pro na -- še hří -- chy,_*
+    a vstal z_mrt -- vých
+    pro na -- še o -- spra -- ve -- dl -- ně -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "up-po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka f e f( d) d c d e d d \barMaior
     f f( g a) f e \barMin
     d d d f e d c c( d) d \barMaior
     c d e d \barFinalis
@@ -2309,6 +2334,32 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     quid = "ant. odpoledne"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g a c( d) d \barMin
+    c d e( c) c( d) d \barMaior
+    \mark\sipka a d b c a( g) a \barMin
+    f g a c a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "up-odpo"
     piece = \markup {\sestavTitulekBezZalmu}
