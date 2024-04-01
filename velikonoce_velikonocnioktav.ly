@@ -521,12 +521,12 @@
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      g4( c) c b( g) g
-      g g( a) a a g f g( a) a \barMaior
-      a b4.( c) b4( c) a( g) g \barMaior
-      a g f( g) g \barFinalis
+      f4 g g( a) a \barMin
+      a bes a g f g g( a) a \barMaior
+      a g( f d4.) \barMin f4( g) g( f) f \barMaior
+      g a f f \barFinalis
     }
     \addlyrics {
       Rych -- le jdě -- te_*
@@ -536,10 +536,9 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "VIII"
-      differentia = "G"
+      modus = "VI"
+      differentia = "F"
       psalmus = ""
-      placet = "_Rychle jděte_ spíš lépe"
       id = "po-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -548,7 +547,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g( a) a c( b c) c( d) c b a a a \barMaior
+      g4 g( a) a \barMin c( b c) c( d) c b a a a \barMaior
       a a g f g a a
       b c a g g \barMax
       c c c c d c a a \barMaior

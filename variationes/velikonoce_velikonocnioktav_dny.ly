@@ -608,7 +608,7 @@
   }
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4( c) c b( g) g \mark\sipka
       g g( a) a a g f g( a) a \barMaior
@@ -626,6 +626,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_Rychle jděte_ spíš lépe"
       id = "po-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -707,6 +708,30 @@
   \score {
     \relative c'' {
       \choralniRezim
+      g4 a \mark\sipka g( c) c \barMin
+      c d c c b c a( g) g \barMaior
+      g f( e d) f( g) a( g) g \barMin
+      a b c( a) g \barFinalis
+    }
+    \addlyrics {
+      Rych -- le jdě -- te_*
+      a po -- věz -- te u -- čed -- ní -- kům,
+      že Pán vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "po-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       g4 f a( g) g \barMin
       b c a a c b a( g) g \barMaior
       g f( e d) f( g) a( g) g \barMin
@@ -735,6 +760,31 @@
       a bes a g f g g( a) a \barMaior
       a g( f d) \barMin e( f) g g
       a g f f \barFinalis
+    }
+    \addlyrics {
+      Rych -- le jdě -- te_*
+      a po -- věz -- te u -- čed -- ní -- kům,
+      že Pán vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "po-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 g g( a) a \barMin
+      a bes a g f g g( a) a \barMaior
+      a g( f d4.) \barMin f4( g) g( f) f \barMaior
+      g a f f \barFinalis
     }
     \addlyrics {
       Rych -- le jdě -- te_*
@@ -945,7 +995,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g( a) a c( b c) c( d) c b a a a \barMaior
       a a g f g a a
@@ -972,8 +1022,12 @@
     }
   }
 
+  \markup{
+    (Jen divisio)
+  }
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       g4 g( a) a \mark\sipka \barMin c( b c) c( d) c b a a a \barMaior
       a a g f g a a
