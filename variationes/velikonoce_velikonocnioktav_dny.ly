@@ -501,7 +501,7 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \zvyraznovacModry
       \choralniRezim
       d4 d c c \barMaior

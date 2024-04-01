@@ -496,7 +496,7 @@
   }
 
   \score {
-    \relative c' {
+    \relative c'' {
       \choralniRezim
       d4 d c c \barMaior
       c d( e) c c( a) \barMin c b a g g \barMaior
