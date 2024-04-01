@@ -1540,11 +1540,37 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 a g( c) c \barMin c( d) b c( a g) g \barMin
     f g a g( f) f \barMaior
     g a g c a( g) g \barMin
     a f g( a g) f f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem
+    a své -- ho bliž -- ní -- ho
+    ja -- ko sám se -- be.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne15c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin c( d) c a a \barMin
+    g f g g( f) f \barMaior
+    g a f g( a) c( d) c \barMin
+    a g f g( f) f \barFinalis
   }
   \addlyrics {
     Mi -- luj Pá -- na, své -- ho Bo -- ha,
@@ -1724,6 +1750,32 @@
     c b a g( a) g \barMaior
     \mark\sipka g a g f( g) g( a) a \barMin
     c a b( c a) g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem
+    a své -- ho bliž -- ní -- ho
+    ja -- ko sám se -- be.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne15c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a \mark\sipka g( c) c \barMin c( d) c a a \barMin
+    c b a \mark\sipka g g \barMaior
+    \mark\sipka a a a f( e) d d \barMin
+    f g a a( g) g \barFinalis
   }
   \addlyrics {
     Mi -- luj Pá -- na, své -- ho Bo -- ha,

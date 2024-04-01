@@ -299,12 +299,12 @@
 \markup {\nadpisDen {"15. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 a g( c) c \barMin c( d) b c( a g) g \barMin
-    f g a g( f) f \barMaior
-    g a g c a( g) g \barMin
-    a f g( a g) f f \barFinalis
+    g4 a g( c) c \barMin c( d) c a a \barMin
+    c b a g g \barMaior
+    a a a f( e) d d \barMin
+    f g a a( g) g \barFinalis
   }
   \addlyrics {
     Mi -- luj Pá -- na, své -- ho Bo -- ha,
@@ -314,11 +314,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "V"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
-    placet = "lépe"
     id = "ne15c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
