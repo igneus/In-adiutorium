@@ -218,6 +218,27 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g a c c d( e d4.) d \barMaior
+    d4 \mark\sipka c b a g a( g f g) g \barFinalis
+  }
+  \addlyrics {
+    V_Hos -- po -- di -- no -- vě chrá -- mě
+    vo -- la -- jí všich -- ni: Slá -- va!
+  }
+  \header {
+    textus_approbatus = "V Hospodinově chrámě všichni volají: Sláva!"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a g f g( a g4.) g \barMaior
     a4 b c a g f( g) g \barFinalis
   }
