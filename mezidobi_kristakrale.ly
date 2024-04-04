@@ -468,8 +468,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e d( e) e \barMin e f d c a a \barMaior
-    f'4 g f e( d c) \barMin d c f( e) d d \barFinalis
+    d4 c d d( f) f \barMin g g f e d d \barMaior
+    f4 g f e( d c) \barMin d c e( f) d d \barFinalis
   }
   \addlyrics {
     Pán je náš soud -- ce,
@@ -482,7 +482,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "melodie první půle dost extravagantní, vyzkoušet uměřenější varianty"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
