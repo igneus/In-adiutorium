@@ -40,7 +40,7 @@ class ChildParentComparison
   # according to the specification encoded in the FIAL.
   def self.auto_verifiable?(fial)
     Set.new(normalized_keys(fial)) <
-      Set.new(%w(+aleluja -aleluja zacatek konec zaver cast))
+      Set.new(%w(+aleluja -aleluja zacatek konec cast))
   end
 
   def self.normalized_keys(fial)
@@ -107,9 +107,8 @@ class ChildParentComparison
       return false unless shared_size >= size
     end
 
-    if @fial.additional.has_key?('konec') ||
-       @fial.additional.has_key?('zaver')
-      size = (@fial.additional['konec'] || @fial.additional['zaver'])&.to_i
+    if @fial.additional.has_key?('konec')
+      size = @fial.additional['konec']&.to_i
       if size.nil?
         @logger.warn '`konec` size not specified, default used'
         size = 5
@@ -134,7 +133,7 @@ class ChildParentComparison
       return false unless shared_size >= size
     end
 
-    return true if Set.new(%w(zacatek konec zaver cast)).intersect? @fial_keys
+    return true if Set.new(%w(zacatek konec cast)).intersect? @fial_keys
 
     normalized_parent == normalized_child ||
       (@fial.simple_copy? &&
