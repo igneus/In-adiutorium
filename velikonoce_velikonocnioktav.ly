@@ -810,7 +810,7 @@
       f g a a g a a \barMaior
       a b c a a b( g) g( e) e \barMaior
       e d( e) \barMin
-      f e d f g a g g( a) a \barMaior
+      f e e f e f g a( g) g \barMaior
       a( b a) g( f) e e \barMin
       e f e d d
       f g f( e) e \barFinalis
@@ -830,7 +830,6 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
-      placet = "_pronesl nad ním požehnání_ je slabší, ale pokusů už byla řada a zatím nevidím opravdu přesvědčivé řešení"
       id = "st-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
