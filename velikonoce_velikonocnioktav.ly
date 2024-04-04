@@ -932,7 +932,7 @@
       psalmus = ""
       id = "ct-ben"
       fons = "závěrečná část melodie podle antifony k Magnificat slavnosti Zmrtvýchvstání - v tomto souboru"
-      fial = "velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag?zaver"
+      fial = "velikonoce_velikonocnioktav.ly#zmrtvychvstani-mag?konec=13"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

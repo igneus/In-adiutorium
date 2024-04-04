@@ -51,7 +51,7 @@
     modus = "III"
     differentia = "h"
     psalmus = "Žalm 116"
-    fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?zaver"
+    fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?konec=9"
     placet = "zkusit lépe"
     id = "ne1-a2"
     piece = \markup {\sestavTitulek}
