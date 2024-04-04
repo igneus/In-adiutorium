@@ -1324,7 +1324,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d b( c) b c( d) d \barMin c b a( b) \barMaior
     b b g a a( b) b \barMin
@@ -1341,6 +1341,7 @@
     differentia = "d"
     psalmus = ""
     annus = "A"
+    placet = "postup na _světlo světa_ divný a v rámci modu nezvyklý"
     id = "ivmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1362,6 +1363,54 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \mark\sipka c b c( d) d \barMin c b a( b) \barMaior
+    b b g a a( b) b \barMin
+    b a g a( b) a a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \mark\sipka f4 f g f g( a) a \barMin bes a g( a) \barMaior
+    a a f g g( a) a \barMin
+    a g f g( a) g g f f \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "A"
     id = "ivmag1"
@@ -1476,6 +1525,29 @@
     quid = "ant. k Magnificat"
     modus = ""
     differentia = ""
+    psalmus = ""
+    annus = "A"
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) b a( g) g \barMin a f g \barMaior
+    c b c d d( c) c \barMin
+    c c a a( b) a a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem svět -- lo svě -- ta, pra -- ví Pán:
+    kdo mě ná -- sle -- du -- je,
+    bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = "ivmag1"

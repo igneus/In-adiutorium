@@ -248,7 +248,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d b( c) b c( d) d \barMin c b a( b) \barMaior
+    d4 d c b c( d) d \barMin c b a( b) \barMaior
     b b g a a( b) b \barMin
     b a g a( b) a a g g \barFinalis
   }
@@ -263,7 +263,6 @@
     differentia = "d"
     psalmus = ""
     annus = "A"
-    placet = "postup na _světlo světa_ divný a v rámci modu nezvyklý"
     id = "ivmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
