@@ -627,18 +627,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d( e) d c c( d) d4.( c4 b) a( b) a g g \barMaior
-    f f g a( c b c d) d( c) \barMin d d d( c b) a g g( a) a( g) g \barFinalis
+    c4 c b a b( c) c \barMin
+    a( b) a g g \barMaior
+    a f g g( a) a \barMin
+    g f g( a) g f d e e \barFinalis
   }
   \addlyrics {
-    Syn člo -- vě -- ka při -- šel, a -- by slou -- žil
-    a dal svůj ži -- vot ja -- ko vý -- kup -- né za všech -- ny.
+    Syn člo -- vě -- ka při -- šel,
+    a -- by slou -- žil
+    a dal svůj ži -- vot
+    ja -- ko vý -- kup -- né za všech -- ny.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
+    modus = "III"
+    differentia = "h"
     psalmus = ""
+    fial = "antifony/pust_tyden2.ly#st-aben?zacatek=6&konec=15"
     id = "ne29b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
