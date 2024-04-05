@@ -726,6 +726,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-I"
+      placet = "tahle trojice je stále výrazně jednotvárná - stejná délka, členění, stejný modus, skoro stejné uzlové body melodie"
       id = "st-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -886,7 +887,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a g f g f f d f f( g) g \barMaior
+      a4 a a g f f( g) f f d f f( g) g \barMaior
       a a g f g f d \barMin
       e f g g
       a g f f \barFinalis
