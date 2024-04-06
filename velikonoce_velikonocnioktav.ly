@@ -956,6 +956,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "_Podívejte se_ je dost úsečné - jsem na vážkách, jestli se nevrátit k nějdejší variantě g f ga a g"
       id = "ct-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1043,10 +1044,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 c d d( a' bes) a a c a a \barMin
+      d4 d d d( f d) c f g g( a) a \barMin
       a b( c) a( g) g \barMaior
       f g a g f f( g f) d d \barMin
-      e f d( c) d \barFinalis
+      e c c( d) d \barFinalis
     }
     \addlyrics {
       Je -- žíš se zje -- vil u -- čed -- ní -- kům_*
