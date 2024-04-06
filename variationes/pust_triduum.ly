@@ -2774,6 +2774,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    bes a g g a f( e) d \barMaior
+    g a g \mark\sipka f( e) d c e( f d) d  \barFinalis
+  }
+  \addlyrics {
+    Když Je -- žíš při -- jal o -- cet,_*
+    ře -- kl: Do -- ko -- ná -- no je.
+    Pak sklo -- nil hla -- vu a sko -- nal.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 369"
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "pa-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
