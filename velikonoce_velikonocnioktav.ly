@@ -1111,6 +1111,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 145-I"
+      placet = "všechny tři jsou slabší a asi by bylo lepší předělat je zgruntu"
       id = "so-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1119,10 +1120,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g g( a) g f g( a) a( c) c \barMaior
+      g4 g g a g f g( a) a( c) c \barMaior
       c( d b c) a( g) \barMin
       g f( d) f( g) a g g \barMaior
-      f a a( g) g \barFinalis
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Hos -- po -- din u -- ve -- dl ve zná -- most_*
@@ -1146,8 +1147,8 @@
       g4 a f( g a) a \barMin
       a c( b) a( g) g \barMaior
       c c c( d) c c d( e d) c b( a) a \barMin
-      c c c b( a g) g
-      f a g g \barFinalis
+      c c c a g
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Vše, co ži -- je,_*
@@ -1175,9 +1176,9 @@
       g a g f( g a) a \barMin
       a b c c c c b a g g \barMaior
       a g f g a a c( d) c( a) a \barMaior
-      c c d c d( e d c) d( c) \barMin
-      c c c b( a g) g
-      f a g g \barFinalis
+      c c d c d( e d c) b( a) \barMin
+      c c c a g
+      f a a( g) g \barFinalis
     }
     \addlyrics {
       Po svém zmrt -- vých -- vstá -- ní_*
