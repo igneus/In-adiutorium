@@ -72,8 +72,8 @@ class Repository
       File.join 'commune', basename
     when /^\d{4}/
       File.join 'sanktoral', basename
-    when /^\w+_\d{4}/
-      raise 'handling of stuff for religious orders not yet implemented'
+    when /^(\w+)_\d{4}/
+      File.join 'reholni', Regexp.last_match[1].upcase, basename
     else
       basename
     end
