@@ -1,12 +1,24 @@
 # Mass-building and -uploading sheet music for a release
 # based on knihovna.xml (structured contents of the download page)
 # and novinky.txt (history of releases and their contents)
-# from the source tree of the project website
+# from the source tree of the project website.
+#
+# Invocation:
+#   release.rb build [--dry-run] [--no-prod]
+#   release.rb upload
 
 require 'colorized_string'
 require 'dotenv/load'
 require 'nokogiri'
 require 'thor'
+
+# load environment variables
+[
+  'UPLOAD_DESTINATION', # valid rsync destination address
+  'WEB_SOURCES_DIR', # local path of the In adiutorium web sources
+].each do |i|
+  Kernel.const_set i, ENV[i]
+end
 
 # Understands knihovna.xml and novinky.txt
 class Repository
@@ -123,7 +135,7 @@ class ReleaseCLI < Thor
   end
 
   def upload_command(pdf_paths)
-    'rsync ' + pdf_paths.join(' ') + ' ' + (ENV['UPLOAD_DESTINATION'] || raise('please define UPLOAD_DESTINATION'))
+    'rsync ' + pdf_paths.join(' ') + ' ' + (UPLOAD_DESTINATION || raise('please define UPLOAD_DESTINATION'))
   end
 
   def do_command(command)
@@ -138,7 +150,7 @@ class ReleaseCLI < Thor
 
   def sources_dir(cmdline_dir)
     cmdline_dir ||
-      ENV['WEB_SOURCES_DIR'] ||
+      WEB_SOURCES_DIR ||
       raise('please specify web sources dir on the command line or define WEB_SOURCES_DIR')
   end
 end
