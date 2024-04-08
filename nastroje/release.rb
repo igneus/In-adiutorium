@@ -104,6 +104,7 @@ class ReleaseCLI < Thor
 
   def build_command(ly_path, prod)
     'lilypond ' +
+      '--silent ' +
       (prod ? '-dno-point-and-click ' : '') +
       '-o ' + ly_path.sub(/\.ly$/, '') + ' ' + # to have output in the same directory as the source
       ly_path
