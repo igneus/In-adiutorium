@@ -30,13 +30,15 @@ class Repository
   end
 
   def ly_to_compile
-    ids
+    exist \
+      ids
       .collect {|i| source_file xml_element i }
       .select {|i| i.end_with?('.ly') && !i.start_with?('http') }
   end
 
   def pdf_to_upload
-    ids
+    exist \
+      ids
       .collect {|i| pdf_file xml_element i }
       .select {|i| !i.start_with?('http') }
   end
@@ -77,6 +79,16 @@ class Repository
     else
       basename
     end
+  end
+
+  def exist(paths)
+    ok, missing = paths.partition {|f| File.exist? f }
+
+    unless missing.empty?
+      STDERR.puts ColorizedString.new("some files were not found: #{missing.inspect}").red
+    end
+
+    ok
   end
 end
 
