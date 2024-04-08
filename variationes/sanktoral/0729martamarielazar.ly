@@ -89,6 +89,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f e d c d d( f) f \barMin
+    f g a g f( g) f d d \barMaior
+    \mark\sipka c( d f) g( f) d( c) \barMin
+    e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ob -- rá -- til o -- či vzhů -- ru
+    a za -- vo -- lal moc -- ným hla -- sem:
+    La -- za -- re,
+    pojď ven!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f e d f g g( a) a \barMin
     a a g f f( g) f d d \barMaior
     d( f e) f( g a g) f( g) \barMin
@@ -221,6 +245,28 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d b d( e d) d \barMin
+    d c b b( c) a a g g \barMaior
+    a a a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš měl rád Mar -- tu
+    a je -- jí ses -- tru Ma -- ri -- i
+    i je -- jich brat -- ra La -- za -- ra.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}

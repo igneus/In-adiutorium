@@ -40,6 +40,46 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c b a c b g g \barMin
+    a a g f \mark\sipka g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Vý -- klad tvých slov o -- svě -- cu -- je,
+    po -- u -- ču -- je pros -- té li -- di.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c b g g \barMin
+    \mark\sipka f g a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Vý -- klad tvých slov o -- svě -- cu -- je,
+    po -- u -- ču -- je pros -- té li -- di.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c b c d c a a \barMin
     c c b a g( f) a g g \barFinalis
   }
@@ -51,6 +91,27 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d c b a b g g \barMin
+    f g a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Vý -- klad tvých slov o -- svě -- cu -- je,
+    po -- u -- ču -- je pros -- té li -- di.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup\sestavTitulek
@@ -173,6 +234,50 @@
     \choralniRezim
     c4 c a c b g g \barMin \mark\sipka f g a a( c) b b \barMaior
     c c \mark\sipka a b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b g g \barMin \mark\sipka a g f g( a) a( g) g \barMaior
+    f g a c d c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b g g \barMin a g f g( a) a( g) g \barMaior
+    f g a \mark\sipka b c a a g g \barFinalis
   }
   \addlyrics {
     Li -- dé si vy -- prá -- vě -- jí

@@ -619,8 +619,48 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d d( f) f \mark\sipka \barMin g f( e) d d \barMaior
+    e e d c d f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jan Křti -- tel hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d \mark\sipka f f g f( e) d d \barMaior
     f f e f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jan Křti -- tel hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f e( f) d c e( f) d d \barMaior
+    c d f f g f e f d d \barFinalis
   }
   \addlyrics {
     Jan Křti -- tel hlá -- sal křest po -- ká -- ní,
