@@ -96,6 +96,87 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c d \barMin
+    f e d g f e d d \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c d \barMin
+    f \mark\sipka d f g f e d d \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c a c d \barMin
+    f \mark\sipka f f g f e d d \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c d \barMin
+    f f f \mark\sipka e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Po 3. čtení (Ex 14) viz MČ ZP, 1. ant.}
@@ -145,6 +226,47 @@
   \relative c' {
     \choralniRezim
     f4 g a a g f g a g g \barMaior
+    c c b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
+    ne -- boť jsi mě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. po 4. čtení (Iz 54)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 30"
+    id = "mc-xa4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g a c c c b c a a \barMaior
+    c c b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
+    ne -- boť jsi mě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. po 4. čtení (Iz 54)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 30"
+    id = "mc-xa4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \mark\sipka g4 f g a a a b c a a \barMaior
     c c b g a g f( g) g \barFinalis
   }
   \addlyrics {

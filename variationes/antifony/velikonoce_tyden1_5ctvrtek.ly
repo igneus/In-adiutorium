@@ -832,6 +832,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a( g a4.) g \barMin
+    f4 g a g f( e) e \barMaior
+    f \mark\sipka g e e \barFinalis
+  }
+  \addlyrics {
+    Můj ná -- řek
+    jsi ob -- rá -- til v_ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 30"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka a4 a g f g a g f( e) e \barMin
     f f d( e) e \barFinalis
   }
@@ -1061,6 +1083,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c d e f d d \barMin
+    f \mark\sipka d f e d( c) c \barMaior
+    d( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d c d \mark\sipka f e d d \barMin
     f \mark\sipka g a f f( g) g \barMaior
     f( e d c) \mark\sipka e( f) d d \barFinalis
@@ -1170,6 +1214,29 @@
     differentia = "D2"
     psalmus = "Žalm 32"
     fial = "pust_triduum.ly#pa-nesp-mag?zacatek=18"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f e d d \barMin
+    f g \mark\sipka f e d( c) c \barMaior
+    d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    fial = "pust_triduum.ly#pa-nesp-mag?zacatek=12"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
