@@ -701,7 +701,7 @@
     d c b c( a g) g \barMin
     f g a a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Jsem slu -- žeb -- ni -- ce Pá -- ně:

@@ -687,7 +687,7 @@
     d c b c( a g) g \barMin
     f g a a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Jsem slu -- žeb -- ni -- ce Pá -- ně;
@@ -811,7 +811,7 @@
     zasloužila trochu víc nádhery; snad by bylo dobré tuto nechat
     a připravit další, alternativní"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
-    fial = "fial://advent_antifony.ly#spol-sexta?konec&+aleluja"
+    fial = "fial://advent_antifony.ly#spol-sexta?konec=24&+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
