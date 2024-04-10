@@ -283,6 +283,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g a g g \barMaior
+    a a g f d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
+    ne -- boť jsi mě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. po 4. čtení (Iz 54)"
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 30"
+    id = "mc-xa4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
