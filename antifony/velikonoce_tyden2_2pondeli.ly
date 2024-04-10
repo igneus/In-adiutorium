@@ -48,7 +48,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Sir 36"
-    placet = "aleluja si nejsem jist"
+    placet = "// aleluja je extravagantní, ale přijde mi, že sem patří"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
