@@ -38,7 +38,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') a a g a \barMaior
     a4 c b c a \mark\sipka a g a g f e e \barMaior
@@ -93,7 +93,6 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
     \choralniRezim
     d4 d d( a') a a g a \barMaior
     a4 c b c a a g a g f e e \barMaior
@@ -110,6 +109,61 @@
     textus_approbatus = "Amen, amen, pravím vám:
     Jestliže se nenarodí někdo znova,
     nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') a a g a \barMaior
+    \mark\sipka c4 c b c a a g a g f e e \barMaior
+    d e f d( c) c \barMin d( f) e d( e) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ně -- kdo zno -- vu ne -- na -- ro -- dí,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Amen, amen, pravím vám:
+    Jestliže se nenarodí někdo znova,
+    nemůže spatřit Boží království. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Oficiální text)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a a g \mark\sipka g( a) \barMaior
+    \mark\sipka a a g a c c b a b g g( a) a \barMaior
+    a g f g a g f d c c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že se ne -- na -- ro -- dí ně -- kdo zno -- va,
+    ne -- mů -- že spat -- řit Bo -- ží krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
@@ -506,11 +560,78 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 \mark\sipka g f g a g f( g) g \barMaior
     a c b( a g) g f g a a( g) g \barMaior
     \mark\sipka a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a \mark\sipka f f( g) g \barMaior
+    a c b( a g) g f g a a( g) g \barMaior
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a f f( g) g \barMaior
+    a c b( a g) g f g a a( g) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f \mark\sipka e d d f( g) g \barMaior
+    a c b( a g) g f g a a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Což nám ne -- ho -- ře -- lo srd -- ce,
