@@ -84,8 +84,8 @@
     \choralniRezim
     g4 a c c c( d) d \barMin
     c d e c d d \barMaior
-    c a a c b g a a \barMin
-    b c a a \barFinalis
+    d c a c b a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     U -- si -- luj -- te o to,
@@ -95,8 +95,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 49-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -106,9 +106,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c d d( e) d \barMin
-    d c b c( a) a( g) g \barMaior
-    a g f( a) g \barFinalis
+    a4 g a c( d) d \barMin
+    d e c b( c) a( g) g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Bůh vy -- svo -- bo -- dil
