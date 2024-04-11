@@ -401,6 +401,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b \barMin
+    c a g a g f \barMin
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás ži -- ví
+    ja -- dr -- nou pše -- ni -- cí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 81"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}

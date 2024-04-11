@@ -1116,6 +1116,58 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 a c
+    c d c \barMin
+    d-- d( f) e d( c) c \barMaior
+    c a g a( g) f g f f \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ne -- be -- sa_*
+    jsou pl -- ná
+    tvé slá -- vy, Bo -- že,
+    a ce -- lá ze -- mě tě chvá -- lí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Kol 1"
+    id = "t2-st"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b
+    d e d \barMin
+    d-- c b g g \barMaior
+    f a c c b a g g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- be -- sa_*
+    jsou pl -- ná
+    tvé slá -- vy, Bo -- že,
+    a ce -- lá ze -- mě tě chvá -- lí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Kol 1"
+    id = "t2-st"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %velikTIIctvrtekNespAntIII =
