@@ -28,11 +28,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d c f e f g \barMin
-    g a f e c
-    e f d d \barFinalis
+    c4 c a c b g g \barMin
+    g f g a a
+    b a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- smr -- cu -- je
@@ -41,8 +41,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "1Sam 2"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -82,7 +82,7 @@
     \choralniRezim
     c4 d f e f g f d d \barMin
     e c e f d d \barMaior
-    e d c( d) d \barFinalis
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Ať se va -- še srd -- ce ne -- chvě -- je,
@@ -120,6 +120,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 67"
+    placet = "mdlá; možná je pravou finálou spíš a než g"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
