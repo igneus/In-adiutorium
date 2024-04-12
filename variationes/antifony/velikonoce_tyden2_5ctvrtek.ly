@@ -117,6 +117,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c \mark\sipka d c d( e) \barMin
+    c4 a c b a( g) g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem vin -- ný kmen,
+    vy jste ra -- to -- les -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 80"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     \mark\sipka f4 f f e g( a) \barMaior
@@ -161,6 +183,12 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  (Bez aleluja) tradiční antifona, \cantusid-link "003020" ,
+  v pokoncilním breviáři je dvakrát,
+  původní místo je to v předvánočním týdnu.
+}
 
 \markup\justify{
   (V době adventní je varianta tohoto textu s civilnějším/modernějším \italic{čerpat,}
@@ -290,6 +318,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    bes( a) g( a) a \barMin
+    f a c d c a( g) a \barMin
+    g f g f f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    bu -- de -- te vá -- žit vo -- du
+    z_pra -- me -- mů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -383,6 +435,28 @@
   \relative c'' {
     \choralniRezim
     c4 c a( c) c \barMin
+    b( c) a g a g f \barMin
+    g a \mark\sipka f f \barFinalis
+  }
+  \addlyrics {
+    Bůh nás ži -- ví
+    ja -- dr -- nou pše -- ni -- cí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 81"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( c) c \barMin
     \mark\sipka b c a( g) a g f \barMin
     g a g g \barFinalis
   }
@@ -395,6 +469,28 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 81"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a( c) c \barMin
+    b c a( g) a g f \barMin
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Bůh nás ži -- ví
+    ja -- dr -- nou pše -- ni -- cí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 81"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
