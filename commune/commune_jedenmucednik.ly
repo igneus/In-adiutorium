@@ -559,7 +559,7 @@
   \relative c' {
     \choralniRezim
     f4( a) g a( c) c c d( f e d) c( a) a \barMin c( a) g f( g) g \barMaior
-    f g a c c( d c) c \barMin d( f e c) c d( c) bes( a) g \barMaior
+    f g a a c( d c) c \barMin d( f e c) c d( c) bes( a) g \barMaior
     g a g( f) f \barFinalis
   }
   \addlyrics {
@@ -646,10 +646,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g g a( f e) e \barMin
-    g f g g( a) f e e( d) d \barFinalis
+    d4 f g g a( f e4.) e \barMin
+    d4 e f d c f e( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Vy -- chá -- ze -- li s_plá -- čem,
