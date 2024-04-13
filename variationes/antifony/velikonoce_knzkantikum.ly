@@ -1596,6 +1596,31 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d c d e f( e) d
+    c d e f \barMaior
+    f g f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la_*
+    a sta -- teč -- nost,
+    stal se mou spá -- sou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "t2-pa"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 c d f e f( g) g g f e d \barMaior
     e d c e( f d) d \barMin

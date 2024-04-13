@@ -1512,6 +1512,32 @@ Potřebuje výraznější úpravu:}
   }
 }
 
+\markup\justify{
+  (_velmi dobré_ z postní varianty předchozí verze pro celoroční použití)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 b c d d b d( e) d d \barMaior
+    d c b a \mark\sipka a( b) a g g \barMin
+    a^\markup\rubrMimoPust a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
