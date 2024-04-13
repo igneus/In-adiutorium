@@ -227,6 +227,7 @@ mRespVIII = \relative c'' { \neviditelna c b4 c d4. c \barMin b4 c a g g \barFin
     quid = "kantikum"
     modus = "VIII"
     differentia = "c"
+    placet = "responsum se po antifoně těžko a nepěkně začíná"
     id = "viii-c"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -238,7 +239,10 @@ mRespVIII = \relative c'' { \neviditelna c b4 c d4. c \barMin b4 c a g g \barFin
 }
 
 \score {
-  \relative c'' { \choralniRezim \neviditelna c c4 c c( d) c \barMin b c a g g \barFinalis }
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim \neviditelna c c4 c c( d) c \barMin b c a g g \barFinalis
+  }
   \addlyrics { \tResp }
 }
 
