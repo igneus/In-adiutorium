@@ -16,9 +16,11 @@
     Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
     a ře -- kl jim:
     Po -- koj vám!
-    A -- le -- lu -- ja!
+    A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Ježíš stanul uprostřed svých učedníků
+    a řekl jim: Pokoj vám! Aleluja."
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "g"

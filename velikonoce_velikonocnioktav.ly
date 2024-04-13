@@ -923,7 +923,7 @@
       Je -- žíš sta -- nul_* me -- zi svý -- mi u -- čed -- ní -- ky
       a ře -- kl jim:
       Po -- koj vám!
-      A -- le -- lu -- ja!
+      A -- le -- lu -- ja.
     }
     \header {
       quid = "ant. k Benedictus"
