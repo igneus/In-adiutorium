@@ -32,8 +32,8 @@
     \choralniRezim
     c4 d d d \barMin
     d d d f e f d( c) \barMaior
-    d4( f) e f( g) g f e f d d \barMin
-    e c c( d) d \barFinalis
+    d4( f) e f( g) g f e f d4. c \barMin
+    a4 c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,_*
@@ -56,7 +56,7 @@
     \choralniRezim
     \key f \major
     d4( f) e d d( a') a c( b) a a \barMaior
-    a g( a) a \barMin bes! bes bes a g f( g) g \barMin
+    g g( a) a \barMin bes! bes bes a g f( g) g \barMin
     f e c( d) d \barFinalis
   }
   \addlyrics {
@@ -94,6 +94,8 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 116-I"
+    placet = "postup _vysvobodil můj život_ (zvlášť jeho konec) je v rámci modu hodně netypický
+    a nápěv celkově není nijak zvlášť hodnotný - předělat"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
