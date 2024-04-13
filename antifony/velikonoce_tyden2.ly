@@ -223,10 +223,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( e c) c( d) d \barMaior
+    d4 d c c( d) d \barMin
     d f e c d c \barMin
-    c b a g a g f \barMin
-    g a g g \barFinalis
+    c c b a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal chle -- by
@@ -252,7 +252,7 @@
     d d( f d) f( e) f( g a g) g \barMaior
     g( a g) \bar ";" a(^\markup\small\italic{možno vynechat} bes a g a g) \bar ";" f f f e c( d) d \barMaior
 
-    c d( f) e( d) d \barFinalis
+    f f( g f) d d \barFinalis
   }
   \addlyrics {
     Ten, kte -- rý ze -- mřel na kří -- ži,
