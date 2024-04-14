@@ -1348,6 +1348,46 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c b c d d \barMaior
+    c a b \mark\sipka c a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c b c d d \barMaior
+    c a \mark\sipka c b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d c d f e \barMin
@@ -1401,6 +1441,26 @@
     quid = "1. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g a a \barMin
+    g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 20"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}

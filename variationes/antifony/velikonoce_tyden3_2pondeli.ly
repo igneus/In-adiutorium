@@ -431,6 +431,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g a \mark\sipka a( g) \barMaior
+    a g f g f d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hlá -- sej -- te me -- zi po -- ha -- ny:_*
+    Hos -- po -- din kra -- lu -- je.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 96"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4( a g f) d d f e f g g \barMin

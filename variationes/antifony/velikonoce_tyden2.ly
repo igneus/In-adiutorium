@@ -1630,3 +1630,94 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\justify{
+  Kdyby to bylo jen na mně, byl bych nakloněn tomuto malému
+  zjednodušení, ale pražské prameny (např. CZ-Pn XV A 10, 196v)
+  mají první aleluja stejně jako AR1912.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e g g a \barMin
+    \mark\sipka f f d c \barMaior
+    f e g a \barMin
+    a a( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám! To jsem já!
+    A -- le -- lu -- ja.
+    Ne -- boj -- te se!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e g g a \barMin
+    \mark\sipka f e d c \barMaior
+    f e g a \barMin
+    \mark\sipka a a( g) g f \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám! To jsem já!
+    A -- le -- lu -- ja.
+    Ne -- boj -- te se!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = \markup{
+      podle
+      \with-url "https://www.ccwatershed.org/2013/03/19/1892-pustet-antiphonale/" {
+        \italic{Compendium Antiphonarii et Breviarii Romani,}
+      }
+      Ratisbonae (etc.) 1892,
+      s. 277
+    }
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e g g \mark\sipka g( a) \barMin
+    f \mark\sipka f( e) d c \barMaior
+    f e g a \barMin
+    a a( g) g f \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám! To jsem já!
+    A -- le -- lu -- ja.
+    Ne -- boj -- te se!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = \markup{
+      podle
+      \with-url "https://books.google.cz/books?id=pRzS_AIJW3IC&hl=cs&pg=PA517#v=onepage&q&f=false" {
+        \italic{Antiphonale Romanum,} Antverpiae 1773, s. 517
+      }
+    }
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
