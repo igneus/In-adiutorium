@@ -32,7 +32,7 @@
     \choralniRezim
     a4 g a a( c) b g a \barMaior
     a g a g f d( e) e \barMaior
-    f g e e \barFinalis
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Já dá -- vám ži -- vot i smrt,_*

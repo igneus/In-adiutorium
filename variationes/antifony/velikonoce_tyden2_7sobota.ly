@@ -124,11 +124,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a \mark\sipka a( c) b g a \barMaior
     a g a g f \mark\sipka d( e) e \barMaior
     f g e e \barFinalis
+  }
+  \addlyrics {
+    Já dá -- vám ži -- vot i smrt,_*
+    já zra -- ňu -- ji i ho -- jím.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dt 32"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a a( c) b g a \barMaior
+    a g a g f d( e) e \barMaior
+    f \mark\sipka f( g) e e \barFinalis
   }
   \addlyrics {
     Já dá -- vám ži -- vot i smrt,_*
