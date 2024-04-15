@@ -1354,6 +1354,26 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f f( g) \mark\sipka d \barMin
+    f e d e c4. d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din tě chrá -- ní
+    o -- de vše -- ho zlé -- ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 c b a g( a) g \barMin
