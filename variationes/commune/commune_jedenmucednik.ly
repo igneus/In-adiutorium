@@ -538,7 +538,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e
 
@@ -550,6 +550,50 @@
     f e d( e) d d \barMin
 
     f e e f e f d( e) e \barMaior
+    e a a a g a b( a) a \barMaior
+    a a g a e \barMin f g f e d e e \barMaior
+    f g a g( a g) \barMin f g g e e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý
+    \markup{\Dagger \Nomen}
+
+    Vít
+    Vin -- cenc
+    Fa -- bi -- án
+    Še -- bes -- ti -- án
+    Ja -- nu -- a -- ri -- us
+
+    \markup{\Dagger bo} -- jo -- val za Bo -- ží zá -- kon,
+    po -- lo -- žil za něj svůj ži -- vot
+    a ne -- bál se těch, kdo mu vy -- hro -- žo -- va -- li,
+    pro -- to -- že stál na pev -- né ská -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat o mučedníkovi"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    placet = "začátek až po _Boží zákon_ je nezpěvný"
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e
+
+    \bar ";" \neviditelna g
+    d(^\markup\small\italic{Jméno svatého se zpívá podle vzoru s odpovídajícím počtem slabik:} e d) \bar ";"
+    d( e) d \bar ";"
+    d( e) d d \bar ";"
+    f e d( e) d \bar ";"
+    f e d( e) d d \barMin
+
+    \mark\sipka c d e f e f d( e) e \barMaior
     e a a a g a b( a) a \barMaior
     a a g a e \barMin f g f e d e e \barMaior
     f g a g( a g) \barMin f g g e e \barFinalis

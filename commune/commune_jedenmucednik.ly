@@ -140,7 +140,7 @@
     f e d( e) d \bar ";"
     f e d( e) d d \barMin
 
-    f e e f e f d( e) e \barMaior
+    c d e f e f d( e) e \barMaior
     e a a a g a b( a) a \barMaior
     a a g a e \barMin f g f e d e e \barMaior
     f g a g( a g) \barMin f g g e e \barFinalis
@@ -165,7 +165,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "začátek až po _Boží zákon_ je nezpěvný"
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -39,7 +39,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e d( e) d \barMin f e e f e f d( e) e \barMaior
+    e4 e d( e) d \barMin c d e f e f d( e) e \barMaior
     e a a a g a b( a) a \barMaior
     a a g a e \barMin f g f e d e e \barMaior
     f g a g( a g) \barMin f g g e e \barFinalis

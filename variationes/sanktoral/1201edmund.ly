@@ -142,7 +142,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e d( e) d \barMin f e e f e f d( e) e \barMaior
     e a a a g a b( a) a \barMaior
@@ -160,6 +160,34 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e d( e) d \barMin c d e f e f d( e) e \barMaior
+    e a a a g a b( a) a \barMaior
+    a a g a e \barMin f g f e d e e \barMaior
+    f g a g( a g) \barMin f g g e e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ed -- mund bo -- jo -- val za Bo -- ží zá -- kon,
+    po -- lo -- žil za něj svůj ži -- vot
+    a ne -- bál se těch, kdo mu vy -- hro -- žo -- va -- li,
+    pro -- to -- že stál na pev -- né ská -- le.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#1ne-amag1?zacatek=2&konec=47"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
