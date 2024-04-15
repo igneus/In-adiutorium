@@ -2229,9 +2229,9 @@
 \markup\justify{
   Liturgia horarum:
   \italic{
-    Ait Iesus cæco:
-    \bold{Vade, fides tua te salvum fecit.}
-    Et conféstim vidit, et sequebátur eum in via.
+    \bold{Ait Iesus cæco:}
+    Vade, fides tua te salvum fecit.
+    \bold{Et conféstim vidit, et sequebátur eum in via.}
   }
 }
 \markup\justify{
@@ -2280,6 +2280,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka a4 \barMin a g( a) g f e f d d \barFinalis
   }
@@ -2289,7 +2290,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a"
+    differentia = "a2"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_21_30.ly#ne28c-ne2-mag?konec=11"
     id = "ne30b-2ne-mag"
@@ -2299,7 +2300,26 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \choralniRezim
+    a4 \barMin \mark\sipka g g( a) g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne28c-ne2-mag?konec=10"
+    id = "ne30b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka a4( g a) \barMin a g( a) g f e f d d \barFinalis
   }

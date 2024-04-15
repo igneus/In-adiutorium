@@ -696,7 +696,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) \barMin a g( a) g f e f d d \barFinalis
+    a4 \barMin a g( a) g f e f d d \barFinalis
   }
   \addlyrics {
     Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
