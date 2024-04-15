@@ -35,10 +35,10 @@
   \relative c'' {
     \choralniRezim
     a4 g f g g \barMin
-    a g a( c) c c d b c a \barMaior
+    f g a( c) c c d b c a \barMaior
     g f a a( g) \barMax
-    a g a c c c b a g g \barMin
-    f a a( g) g \barFinalis
+    a g a c c c d c a a \barMin
+    c b a( g) g \barFinalis
   }
   \addlyrics {
     Po -- dí -- vej -- te se_*
@@ -53,7 +53,7 @@
     differentia = "G"
     psalmus = ""
     id = "iiiben"
-    fial = "velikonoce_velikonocnioktav.ly#ct-mag?zacatek"
+    fial = "velikonoce_velikonocnioktav.ly#ct-mag?zacatek=22"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -63,7 +63,7 @@
     \choralniRezim
     a4 a g( a) a \barMin
     c b c d c a \barMaior
-    a c b g a( g) \barMin f g g( a) a \barMax
+    a a b g g( e) \barMin f g g( a) a \barMax
     c c b( c a4.) a \barMin c4 d e d c b( c) a( g) g \barMaior
     a g a a c c \barMin c c d c b c a a \barMaior
     b a g( a) a \barFinalis

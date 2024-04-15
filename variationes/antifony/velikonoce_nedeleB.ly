@@ -95,13 +95,124 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g g \barMin
     a g a( c) c c d b c a \barMaior
     g f a a( g) \barMax
     a g a c c c b a g g \barMin
     f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se_*
+    na mé ru -- ce a na mé no -- hy:
+    vždyť jsem to já!
+    Do -- tkně -- te se mě a pře -- svěd -- čte se.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    fial = "velikonoce_velikonocnioktav.ly#ct-mag?delsi_text"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g g \barMin
+    \mark\sipka f g a( c) c c d b c a \barMaior
+    g f a a( g) \barMax
+    a g a c c c b a g g \barMin
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se_*
+    na mé ru -- ce a na mé no -- hy:
+    vždyť jsem to já!
+    Do -- tkně -- te se mě a pře -- svěd -- čte se.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    fial = "velikonoce_velikonocnioktav.ly#ct-mag?delsi_text"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g g \barMin
+    f g a( c) c c d b c a \barMaior
+    g f a a( g) \barMax
+    a g a c c c \mark\sipka d c a a \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se_*
+    na mé ru -- ce a na mé no -- hy:
+    vždyť jsem to já!
+    Do -- tkně -- te se mě a pře -- svěd -- čte se.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    fial = "velikonoce_velikonocnioktav.ly#ct-mag?zacatek=22"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g g \barMin
+    f g a( c) c c d b c a \barMaior
+    g f a a( g) \barMax
+    a \mark\sipka c b g g g f a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se_*
+    na mé ru -- ce a na mé no -- hy:
+    vždyť jsem to já!
+    Do -- tkně -- te se mě a pře -- svěd -- čte se.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiiben"
+    fial = "velikonoce_velikonocnioktav.ly#ct-mag?delsi_text"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g g \barMin
+    f g a( c) c c d b c a \barMaior
+    g f a a( g) \barMax
+    a c b g g g \mark\sipka a f e e \barMin
+    d f f( g) g \barFinalis
   }
   \addlyrics {
     Po -- dí -- vej -- te se_*
@@ -155,11 +266,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a) a \barMin
     c b c d c a \barMaior
     a c b g a( g) \barMin f g g( a) a \barMax
+    c c b( c a4.) a \barMin c4 d e d c b( c) a( g) g \barMaior
+    a g a a c c \barMin c c d c b c a a \barMaior
+    b a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Tak je psá -- no:_*
+    Kris -- tus bu -- de tr -- pět
+    a tře -- tí -- ho dne vsta -- ne z_mrt -- vých.
+    V_je -- ho jmé -- nu bu -- de hlá -- sá -- no po -- ká -- ní,
+    a -- by všem ná -- ro -- dům by -- ly od -- puš -- tě -- ny hří -- chy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a) a \barMin
+    c b c d c a \barMaior
+    a \mark\sipka a b g g( e) \barMin f g g( a) a \barMax
     c c b( c a4.) a \barMin c4 d e d c b( c) a( g) g \barMaior
     a g a a c c \barMin c c d c b c a a \barMaior
     b a g( a) a \barFinalis
