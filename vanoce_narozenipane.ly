@@ -958,10 +958,10 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 a a( g) \barMin
-      g d4. d4 d e d c( d) d \barMaior
-      d f e f( g) g \barMin
-      g f e d e d c( d) d \barFinalis
+      c4 d d( f) \barMin
+      f g( a) g f e f d( c) c \barMaior
+      d c d d( f) f \barMin
+      f g f e d e d d \barFinalis
     }
     \addlyrics {
       Jo -- sef vstal,
@@ -971,10 +971,9 @@
     }
     \header {
       quid = "3. ant."
-      modus = "I"
-      differentia = "f"
+      modus = "II"
+      differentia = "D"
       psalmus = "Žalm 87"
-      placet = "dlouhou recitaci na finále spíš pryč"
       id = "svrodiny-cte-a3"
       piece = \markup {\sestavTitulek}
     }

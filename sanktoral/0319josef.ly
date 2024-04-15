@@ -410,10 +410,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 a a( g) \barMin
-    g f g d4. d4 d e d c( d) d \barMaior
-    f f g f a f g g \barMaior
-    f g f( e d) \barMin d c d f e c d d \barFinalis
+    c4 d d( f) \barMin
+    g f g g( a) g f e f d( c) c \barMaior
+    d d f e d e d d \barMaior
+    f g g( f) \barMin d f f f e c c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d d \barFinalis
   }
@@ -427,8 +427,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 149"
     fial = "vanoce_narozenipane.ly#svrodiny-cte-a3?zacatek"
     id = "rch-a3"
