@@ -11,6 +11,7 @@
 %velikTIpondeliNespAntIII =
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d f g g a( g a c b) a4. a \barMaior
     a4( g) g( d) d \barMin d( e) f g f e( f d) d \barMax
@@ -28,6 +29,80 @@
     psalmus = "Ef 1"
     id = ""
     fons = "5. ne postní, 2. nešp, ad Magnificat"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d d f g g a( g a c b) a4. a \barMaior
+    a4( g) g( d) d \barMin d( e) f g f e( f d) d \barMax
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,_*
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "t1-po"
+    fial = "antifony/pust_nedeleB.ly#vmag2?+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Jen divisio)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d f g g a( g a c b) a4. a \barMaior
+    a4( g) g( d) d \barMin d( e) f g f e( f d) d \mark\sipka \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,_*
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "t1-po"
+    fial = "antifony/pust_nedeleB.ly#vmag2?+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f g g a( g a c b) a4. a \barMaior
+    \mark\sipka f4( g) g( a) a \barMin a a g f e( f d c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,_*
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "t1-po"
+    fial = "antifony/pust_nedeleB.ly#vmag2?cast=1"
     piece = \markup {\sestavTitulek}
   }
 }

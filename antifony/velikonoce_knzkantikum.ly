@@ -13,7 +13,7 @@ velikTIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
     d4 d d f g g a( g a c b) a4. a \barMaior
-    a4( g) g( d) d \barMin d( e) f g f e( f d) d \barMax
+    a4( g) g( d) d \barMin d( e) f g f e( f d) d \barMin
     e c c( d) d \barFinalis
   }
   \addlyrics {
