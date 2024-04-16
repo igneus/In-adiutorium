@@ -1433,6 +1433,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d e d d
     c b c( d) d d \barMaior
@@ -1460,13 +1461,97 @@
   }
 }
 
+\markup\aktualisace
+
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d d e d d
+    c b c( d) d d \barMaior
+    \mark\sipka e d e g g \barMin
+    e d c( d) c b \barMin a g a a g g \barMaior
+
+    a \mark\sipka a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- u -- si -- luj -- te o po -- krm,
+    kte -- rý po -- mí -- jí,
+    a -- le o po -- krm,
+    kte -- rý zů -- stá -- vá k_věč -- né -- mu ži -- vo -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne18b-1ne-mag?+aleluja"
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) c a g a g f( g) \barMaior
     a b c c d c a a \barMin
     c b g a( g) g \barMin
     f g g g \barFinalis
+  }
+  \addlyrics {
+    To je sku -- tek, kte -- rý žá -- dá Bůh,
+    a -- by -- ste vě -- ři -- li v_to -- ho,
+    ko -- ho on po -- slal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( c) c a g a g f( g) \barMaior
+    a b c c d c a a \barMin
+    c \mark\sipka c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    To je sku -- tek, kte -- rý žá -- dá Bůh,
+    a -- by -- ste vě -- ři -- li v_to -- ho,
+    ko -- ho on po -- slal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c \mark\sipka \barMin a g a g f( g) \barMaior
+    a b c c d c a a \barMin
+    c c c b g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     To je sku -- tek, kte -- rý žá -- dá Bůh,

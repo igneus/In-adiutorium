@@ -1356,10 +1356,60 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d e d d
     c b c( d) d d \barMaior
     d d e g g \barMin
+    e d c( d) c b \barMin a g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- u -- si -- luj -- te o po -- krm,
+    kte -- rý po -- mí -- jí,
+    a -- le o po -- krm,
+    kte -- rý zů -- stá -- vá k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne18b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d d e d d
+    c b c( d) d d \barMaior
+    \mark\sipka e d e g g \barMin
+    e d c( d) c b \barMin a g a a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- u -- si -- luj -- te o po -- krm,
+    kte -- rý po -- mí -- jí,
+    a -- le o po -- krm,
+    kte -- rý zů -- stá -- vá k_věč -- né -- mu ži -- vo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne18b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d \mark\sipka c b c d d \barMin
+    e c d( e) d d \barMaior
+    e d e g g \barMin
     e d c( d) c b \barMin a g a a g g \barFinalis
   }
   \addlyrics {

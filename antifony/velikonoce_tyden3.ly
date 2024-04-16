@@ -309,10 +309,10 @@
     \choralniRezim
     d4 d d d d e d d
     c b c( d) d d \barMaior
-    d d e g g \barMin
+    e d e g g \barMin
     e d c( d) c b \barMin a g a a g g \barMaior
 
-    a b( a) g g \barFinalis
+    a a( b) g g \barFinalis
   }
   \addlyrics {
     Ne -- u -- si -- luj -- te o po -- krm,
@@ -338,8 +338,8 @@
     \choralniRezim
     g4 g g( c) c a g a g f( g) \barMaior
     a b c c d c a a \barMin
-    c b g a( g) g \barMin
-    f g g g \barFinalis
+    c c c b g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     To je sku -- tek, kte -- rý žá -- dá Bůh,

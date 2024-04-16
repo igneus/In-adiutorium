@@ -496,7 +496,7 @@
     \choralniRezim
     d4 d d d d e d d
     c b c( d) d d \barMaior
-    d d e g g \barMin
+    e d e g g \barMin
     e d c( d) c b \barMin a g a a g g \barFinalis
   }
   \addlyrics {
