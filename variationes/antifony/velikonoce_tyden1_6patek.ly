@@ -316,6 +316,31 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 d d \barMin
+    e d c d( c) c \barMaior
+    \mark\sipka c d d c b g( a) a( g) g \barMin
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    O -- prav -- du,_*
+    ty jsi Bůh skry -- tý,
+    Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Iz 45"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4 a a \barMin
     c b a g( a) g \barMaior
