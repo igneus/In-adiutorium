@@ -409,7 +409,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g f g a a \barMin
     a g f g f d \barMin
@@ -432,6 +432,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f f g f g a \mark\sipka a( g) \barMaior
     a g f g f d \barMin
@@ -621,6 +622,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka d4 d d d c d e d c b( c d) d \barMaior
+    d d( e d) \barMin d4 c b c( a g4.) g \barMin
+    a4 g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din_* ti bu -- de na -- vě -- ky svět -- lem,
+    tvůj Bůh bu -- de tvou slá -- vou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 123"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c d d d c d e d c b( c d) d \barMaior
     d \mark\sipka c( d c) \barMin a g f g g \barMin
     f a a( g) g \barFinalis
@@ -785,7 +808,29 @@ závěr je ten na "\"volní\"" a ten na Aleluja je falešný.
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \choralniRezim
+    f4 g f g a a \barMin
+    a g f \mark\sipka g( f) d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Léč -- ka se pře -- trh -- la_*
+    a my jsme vol -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 124"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g f g \mark\sipka g a \barMin
     a g f g( a) g \barMin
@@ -830,10 +875,33 @@ závěr je ten na "\"volní\"" a ten na Aleluja je falešný.
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     g4 e g a a g \barMin
     a b g a( g f) e \barMaior
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Léč -- ka se pře -- trh -- la_*
+    a my jsme vol -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 124"
+    fial = "antifony/velikonoce_tyden3.ly#ne-rch-a1?zacatek=6&konec=4"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 e g a a g \barMin
+    a b g \mark\sipka a( g) f( e) \barMin
     f g e e \barFinalis
   }
   \addlyrics {

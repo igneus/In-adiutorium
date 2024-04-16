@@ -56,7 +56,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f g f g a a \barMin
+    f4 f f g f g a a( g) \barMaior
     a g f g f d \barMin
     f g g( f) f \barFinalis
   }
@@ -100,11 +100,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g f g g a \barMin
-    a g f g( a) g \barMin
-    f d f( g) f \barFinalis
+    g4 e g a a g \barMin
+    a b g a( g f) e \barMaior
+    f g e e \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
@@ -113,9 +113,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 124"
+    fial = "antifony/velikonoce_tyden3.ly#ne-rch-a1?zacatek=6&konec=4"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
