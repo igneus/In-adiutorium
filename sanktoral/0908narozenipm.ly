@@ -278,9 +278,9 @@
   \relative c'' {
     \choralniRezim
     c4 b a g c( d) e d \barMaior
-    c b a b g \barMin
-    g f g a a c b c d d \barMaior
-    e e d c a( b) a( g) \barMin
+    f e d e d \barMin
+    d e e d c b c a g g \barMaior
+    a a c b a( g) g \barMin
     f g a g g \barFinalis
   }
   \addlyrics {
@@ -295,8 +295,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Ef 1"
-    placet = "od _požehnaná mezi ženami_ nejde spád melodie se spádem textu;
-    závěr není moc uspokojivý"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }

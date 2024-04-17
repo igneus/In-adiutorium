@@ -1382,7 +1382,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b a g c( d) e d \barMaior
     c b a b g \barMin
@@ -1402,6 +1402,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Ef 1"
+    placet = "od _požehnaná mezi ženami_ nejde spád melodie se spádem textu;
+    závěr není moc uspokojivý"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -1490,6 +1492,88 @@
     \choralniRezim
     c4 b a g c( d) e d \barMaior
     \mark\sipka f e d e d \barMin
+    d e e d c b c a g g \barMaior
+    a a g f g( a) a \barMin
+    a c b g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    mi -- los -- ti -- pl -- ná
+    a po -- žeh -- na -- ná me -- zi že -- na -- mi,
+    při -- mlou -- vej se za nás
+    u své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g c( d) e d \barMaior
+    f e d e d \barMin
+    d e e d c b c a g g \barMaior
+    a a \mark\sipka c b a( g) g \barMin
+    a f a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    mi -- los -- ti -- pl -- ná
+    a po -- žeh -- na -- ná me -- zi že -- na -- mi,
+    při -- mlou -- vej se za nás
+    u své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b a g c( d) e d \barMaior
+    f e d e d \barMin
+    d e e d c b c a g g \barMaior
+    a a c b a( g) g \barMin
+    \mark\sipka f g a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    mi -- los -- ti -- pl -- ná
+    a po -- žeh -- na -- ná me -- zi že -- na -- mi,
+    při -- mlou -- vej se za nás
+    u své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g c( d) e d \barMaior
+    f e d e d \barMin
+    d e e d c b c a g g \barMaior
+    a a c b \mark\sipka a( b) a( g) \barMin
+    f g a g g \barFinalis
   }
   \addlyrics {
     Sva -- tá Bo -- ží Ro -- dič -- ko,
