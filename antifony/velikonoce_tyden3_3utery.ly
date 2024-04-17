@@ -6,21 +6,23 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d e d c d c( a) a \barMaior
-    c c c c b a g a g g \barMaior
-    f g a( g) g \barFinalis
+    f4 f f g g \barMin
+    f g( a g) g \barMaior
+    a a a a g f e f d( c) c \barMaior
+    d f e( d) d \barFinalis
   }
   \addlyrics {
-    Bo -- že, da -- ruj nám svůj ži -- vot,_*
+    Bo -- že, da -- ruj nám_*
+    svůj ži -- vot,
     a -- by -- chom se v_to -- bě ra -- do -- va -- li.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 85"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -31,8 +33,8 @@
   \relative c' {
     \choralniRezim
     f4 g a a g f f( g) g \barMaior
-    a g a g( f) d f g( f) f \barMin
-    g a f f \barFinalis
+    g f g a a a g( f) d \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Dou -- fa -- li jsme v_Hos -- po -- di -- na_*
