@@ -256,6 +256,69 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f g( a) g g \barMin
+    a g f g( f d) d \barMin
+    c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d c \barMin
+    d d f e( f) g \barMin
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f e \barMin
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -479,12 +542,39 @@
 }
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f e d d \mark\sipka
     c d e f d d \barMax
     f f g( a g) f( g) f \barMin
     f f e d e d c \mark\sipka \barMaior
+    d( e f) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Jan le -- žel při ve -- če -- ři
+    na Pá -- no -- vých pr -- sou:
+    šťast -- ný a -- po -- štol,
+    je -- muž by -- la zje -- ve -- na
+    ne -- bes -- ká ta -- jem -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 99"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e \mark\sipka d e d d
+    c d e f d d \barMax
+    f f g( a g) f( g) f \barMin
+    f f e d e d c \barMaior
     d( e f) e( f) d c d d \barFinalis
   }
   \addlyrics {

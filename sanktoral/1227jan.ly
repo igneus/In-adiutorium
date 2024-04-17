@@ -62,7 +62,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e f e d d
+    d4 f e d e d d
     c d e f d d \barMax
     f f g( a g) f( g) f \barMin
     f f e d e d c \barMaior
