@@ -2638,6 +2638,30 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f f \mark\sipka g( a) g g \barMin
+      f g a g f \mark\sipka e( f) d d \barMin
+      g a f g f f \barMaior
+      g g f e d c f( e c d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če
+      pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 63"
+      id = "svrodiny-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
