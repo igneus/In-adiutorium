@@ -384,12 +384,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c b a c \barMin
-    b c d c b a c( a) a \barMaior
-    a g( a f e) e e( f) d e e \barMaior
-    g a f( e) e \barFinalis
+    f4 f g g f \barMin
+    f g a g f g f( d) d \barMaior
+    d f f e d c c
+    e f d d \barFinalis
   }
   \addlyrics {
     Chléb Bo -- ží je ten,
@@ -399,8 +399,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "III"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}

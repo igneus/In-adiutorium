@@ -1707,6 +1707,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a c \barMin
     b c d c b a c( a) a \barMaior
@@ -1723,6 +1724,31 @@
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g f \barMin
+    f g a g f g f( d) d \barMaior
+    d f f e d c c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Chléb Bo -- ží je ten,
+    kte -- rý se -- stu -- pu -- je z_ne -- be
+    a dá -- vá ži -- vot svě -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
