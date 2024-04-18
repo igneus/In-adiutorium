@@ -1715,6 +1715,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 \mark\sipka g bes a g f g \barMaior
+    g g( a bes) a \barMin g a g f( d e) d \barFinalis
+  }
+  \addlyrics {
+    A -- mem, a -- men, pra -- vím vám:
+    Kdo vě -- ří, má ži -- vot věč -- ný.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne19b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

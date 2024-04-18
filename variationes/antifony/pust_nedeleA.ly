@@ -703,6 +703,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g( a) g g c( d) e d d \barMaior
+    e f e d( c) c( d) d \barMin
+    c a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
+    do -- kud Syn člo -- vě -- ka
+    ne -- bu -- de vzkří -- šen z_mrt -- vých.
+  }
+  \header {
+    textus_approbatus = "Nikomu o tom vidění neříkejte, dokud nebude Syn člověka vzkříšen z mrtvých."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{3. neděle postní}

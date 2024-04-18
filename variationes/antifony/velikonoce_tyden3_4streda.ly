@@ -205,6 +205,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d4 d d( a') a \mark\sipka \barMin g( a) bes c bes( a) a \barMaior
+    g( f a) g f( e d4.) d \barMin
+    e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še o -- či_* u -- vi -- dí Kris -- ta,
+    krá -- le slá -- vy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Iz 33"
+    id = "rch-a2"
+    fons = "Začátek melodie záměrně kopíruje vánoční Simeonovskou antifonu
+    'Moje oči': Narození Páně, uprostřed dne, odpoledne"
+    fial = "vanoce_narozenipane.ly#vden-anona?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -377,6 +403,28 @@
     d4 f e( d) c \barMin
     f f g a f e
     c f d d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý člo -- věk_*
+    u -- zří Bo -- ží spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 98"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g a g f d c \barMin
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Kaž -- dý člo -- věk_*
@@ -752,6 +800,54 @@
     \mark\sipka c d e c d d \barMaior
     d c b a g
     b c a a \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \mark\sipka g( a) c( d) d \barMin
+    c d e c d d \barMaior
+    d c b a g
+    b c a a \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) c( d) d \barMin
+    c d e c d d \barMaior
+    d c b \mark\sipka a( g) a( g) \barMin
+    f( g) a( c) a a \barFinalis
   }
   \addlyrics {
     Ať ži -- je -- me_*
