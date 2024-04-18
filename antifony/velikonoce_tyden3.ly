@@ -410,14 +410,14 @@
 \markup {\nadpisDen {Středa}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a b c a( g) g \barMin
-    a c b c( d) d \barMaior
-    d e d c( b a) a \barMaior
-    c b g a g \barMin
-    c b a a \barMaior
-    b c a( g) a \barFinalis
+    d4 d c f g f( a) a \barMin
+    a g f g( a) g \barMaior
+    a a a g( f d) d \barMin
+    f e c d c \barMin
+    f e d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Kaž -- dý, kdo vi -- dí Sy -- na
@@ -430,8 +430,8 @@
     textus_approbatus = "Každý, kdo vidí Syna a věří v něho,
     má život věčný a já ho vzkřísím v poslední den. Aleluja."
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "st-aben"
     piece = \markup {\sestavTitulekBezZalmu}

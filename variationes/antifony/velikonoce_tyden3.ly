@@ -1907,7 +1907,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a b c a( g) g \barMin
     a c b c( d) d \barMaior
@@ -2090,6 +2090,36 @@
     d f e d( e d c) d( c) \barMin
     e( f d) c d d \barMaior
     e f d d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, kdo vi -- dí Sy -- na
+    a vě -- ří v_ně -- ho,
+    má ži -- vot věč -- ný
+    a já ho vzkří -- sím v_den po -- sled -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Každý, kdo vidí Syna a věří v něho,
+    má život věčný a já ho vzkřísím v poslední den. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a \mark\sipka g f g( a) g \barMaior
+    a a a g( f d) d \barMin
+    f e c d c \barMin
+    f e d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Kaž -- dý, kdo vi -- dí Sy -- na
