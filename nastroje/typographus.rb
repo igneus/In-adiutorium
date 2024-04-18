@@ -120,9 +120,7 @@ module Typographus
 
     def make_dirs
       [:generated_dir, :output_dir].each do |d|
-        if ! FileTest.directory?(@setup.send(d)) then
-          FileUtils.mkdir_p @setup.send(d)
-        end
+        FileUtils.mkdir_p @setup.send(d)
       end
     end
 
