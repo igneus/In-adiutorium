@@ -1112,10 +1112,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4( d c) a g f g g \barMaior
-      f g a c b a( c) b c a g g \barMax
-      c c c( d) c c d b a( g) g \barMaior
-      g f( a) a \barMin c b c b a g g \barFinalis
+      g4 f g a g g \barMaior
+      a g a c b c a b a g g \barMax
+      c c c( d) c b c a a( g) g \barMaior
+      f g( a) a \barMin a g f g( a) a g g \barFinalis
     }
     \addlyrics {
       Když He -- ro -- des ze -- mřel,
@@ -1129,7 +1129,6 @@
       differentia = "G"
       psalmus = ""
       annus = "A"
-      placet = "_Když_ takhle nejde; celou spíš lépe"
       id = "svrodiny-rch-abenA"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }

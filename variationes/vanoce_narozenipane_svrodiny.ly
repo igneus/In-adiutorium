@@ -2986,6 +2986,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       c4( d c) a g f g g \barMaior
       f g a c b a( c) b c a g g \barMax
@@ -3004,6 +3005,7 @@
       differentia = "G"
       psalmus = ""
       annus = "A"
+      placet = "_Když_ takhle nejde; celou spíš lépe"
       id = "svrodiny-rch-abenA"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -3166,6 +3168,32 @@
       c c b( c) a a \mark\sipka g f g a g g \barMaior
       g g g( a) a a g f g( a) a \barMaior
       c b( c a) a \barMin a g f g a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 f g a g g \barMaior
+      a g a c b c a b a g g \barMax
+      c c c( d) c b c a a( g) g \barMaior
+      f g( a) a \barMin a g f g( a) a g g \barFinalis
     }
     \addlyrics {
       Když He -- ro -- des ze -- mřel,
