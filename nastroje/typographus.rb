@@ -652,11 +652,11 @@ module Typographus
     end
 
     def is_antiphon?(score)
-      score.header['quid'] and score.header['quid'].downcase.include? 'ant'
+      score.header['quid']&.downcase&.include? 'ant'
     end
 
     def is_responsory?(score)
-      score.header['quid'] and score.header['quid'].downcase.include? 'resp'
+      score.header['quid']&.downcase&.include? 'resp'
     end
 
     def is_psalm_tone_name?(str)
