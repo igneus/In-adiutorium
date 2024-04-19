@@ -3313,7 +3313,7 @@
   }
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 e d c d c \barMaior
       d d c d f g g \barMin
@@ -3327,11 +3327,14 @@
       A -- le -- lu -- ja.
     }
     \header {
+      textus_approbatus = "Josef a Maria byli plni údivu
+      nad tím, co o Ježíšovi slyšeli. Aleluja."
       quid = "ant. k Benedictus"
       modus = "I"
       differentia = "f"
       psalmus = "Benedictus"
       annus = "B"
+      placet = "nic moc; opravit na oficiální text"
       id = "svrodiny-rch-abenB"
       fial = "sanktoral/0319josef.ly#rch-a2?cast=2,3,4"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
@@ -3360,6 +3363,68 @@
       annus = "B"
       id = "svrodiny-rch-abenB"
       fial = "sanktoral/0319josef.ly#rch-a2?cast=2,3,4"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \markup{
+    (Oficiální text)
+  }
+  \markup\justify{
+    \italic{nad tím, co o ...}
+    je zajímavý příklad z hlediska slovního přízvuku.
+    Nápěv níže počítá s tím, že přízvuk je na _co_,
+    předložka _o_ je tedy výjimečně nepřízvučná.
+  }
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 e d c d c \barMin
+      d d c d f g g \barMin
+      \mark\sipka a a g f a a f e d( e) d d \barMaior
+      e f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef a Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu
+      nad tím, co o Je -- ží -- šo -- vi sly -- še -- li.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
+      psalmus = "Benedictus"
+      annus = "B"
+      id = "svrodiny-rch-abenB"
+      fial = "sanktoral/0319josef.ly#rch-a2?cast=2,4"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f g g a a \barMin
+      a g f g f d d \barMin
+      d d c d f f e d c d d \barMaior
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef a Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu
+      nad tím, co o Je -- ží -- šo -- vi sly -- še -- li.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
+      psalmus = "Benedictus"
+      annus = "B"
+      id = "svrodiny-rch-abenB"
+      fial = "sanktoral/0319josef.ly#rch-a2?cast=2,4"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
