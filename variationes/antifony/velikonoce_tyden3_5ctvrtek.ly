@@ -205,7 +205,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c \mark\sipka d( e) d c d d \barMin
     d \mark\sipka c a
@@ -228,9 +228,31 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
     \choralniRezim
     f4 f g( a) g f g( a g4.) g4 \barMin
+    g bes a
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Všech -- na zříd -- la mé spá -- sy_*
+    jsou v_to -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 87"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g( a) g f \mark\sipka g g \barMin
     g bes a
     g a g( f) f \barFinalis
   }
@@ -664,7 +686,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f g a4. a4 b b c c \barMaior
     c a c c c d( c) b a b a g g \barMaior
@@ -680,6 +702,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 99"
+    placet = "aleluja lépe - váhám, jestli se nevrátit k původnímu"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -687,6 +710,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g f g a4. a4 b b c c \barMaior
     c a c c c d( c) b a b a g g \barMaior
@@ -1048,6 +1072,28 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
     c4 d e d c( d) \barMin
     c b a g a g g \barMin
     \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    Pán Bůh mu dal trůn_*
+    je -- ho před -- ka Da -- vi -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 132-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c( d) \barMin
+    c b a g a g g \barMin
+    \mark\sipka a g f( g) g \barFinalis
   }
   \addlyrics {
     Pán Bůh mu dal trůn_*
