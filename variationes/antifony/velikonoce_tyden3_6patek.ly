@@ -210,6 +210,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g \barMin
+    f g a c d c b a a \barMin
+    b g a a \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    smyj ze mne_* ú -- pl -- ně mou vi -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f g g( a) a \barMin

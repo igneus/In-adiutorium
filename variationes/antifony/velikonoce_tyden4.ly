@@ -371,6 +371,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g f g g( a) a \barMin c b g( a) a \barMaior
+    a a g( f e) d f g e e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus mu -- sel pro -- jít bra -- nou smr -- ti,
+    a tak ve -- jít do své slá -- vy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
