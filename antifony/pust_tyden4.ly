@@ -211,7 +211,7 @@
     e4 e e( f) e d d e e \barMin
     f( g a) g f g e e \barMaior
     a g( a b) g g( a) \barMin
-    a a a g( a) g f d( e) e \barFinalis
+    a g f g a g f( e) e \barFinalis
   }
   \addlyrics {
     Je -- den krá -- lov -- ský ú -- řed -- ník
