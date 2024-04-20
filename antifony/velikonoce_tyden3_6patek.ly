@@ -56,7 +56,7 @@
     \choralniRezim
     d4( c) a( b) \barMin
     g g a c d a( g) f( g) g \barMaior
-    a a g( a) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
@@ -67,7 +67,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 100"
-    placet = "aleluja lépe"
     id = "rch-a3"
     fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja"
     piece = \markup {\sestavTitulek}
@@ -80,8 +79,8 @@
   \relative c'' {
     \choralniRezim
     g4 a c c b \barMin
-    a c c b a g a g g \barMaior
-    f a g g \barFinalis
+    a c c b g a f e e \barMaior
+    f g e e \barFinalis
   }
   \addlyrics {
     Já jsem Hos -- po -- din,_*
@@ -90,8 +89,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 135-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}

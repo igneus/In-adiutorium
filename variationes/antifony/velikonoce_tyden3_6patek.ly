@@ -169,6 +169,28 @@
   \relative c' {
     \choralniRezim
     c4( d) d \barMin
+    f e f g \mark\sipka g f e d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,_*
+    smyj ze mne ú -- pl -- ně mou vi -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d \barMin
     f \mark\sipka d d f g f e d d \barMaior
     e c c( d) d \barFinalis
   }
@@ -435,6 +457,30 @@ funkční, je nevyvážená.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a f f( g) g \barMaior
+    a g g bes a g( a) g \barMin
+    g f e d4. c \barMin
+    e4 f d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ve svém tě -- le_*
+    vy -- ne -- sl na -- še hří -- chy
+    na dře -- vo kří -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Jer 14"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -508,7 +554,7 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( c) a( b) \barMin
     g g a c d a( g) f( g) g \barMaior
@@ -593,12 +639,14 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
-    d4( c) a4.( b) \barMin g4 g a c d a( g) f( g) g \barMaior
+    d4( c) a( b) \barMin
+    g g a c d a( g) f( g) g \barMaior
     \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
-    Vstup -- te před Hos -- po -- di -- na s_já -- so -- tem.
+    Vstup -- te_* před Hos -- po -- di -- na s_já -- so -- tem.
     A -- le -- lu -- ja.
   }
   \header {
@@ -606,7 +654,8 @@ funkční, je nevyvážená.}
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 100"
-    id = ""
+    id = "rch-a3"
+    fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -931,7 +980,7 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c c b \barMin
     a c c b a \mark\sipka g a g g \barMaior
@@ -946,6 +995,29 @@ funkční, je nevyvážená.}
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c b \barMin
+    a c c b \mark\sipka g a f e e \barMaior
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 135-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
