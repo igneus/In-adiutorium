@@ -1,3 +1,5 @@
+\version "2.18.0"
+
 \include "../spolecne.ly"
 
 \markup {\nadpisDen {Pondělí 4. týdne}}
@@ -10,14 +12,14 @@
   \relative c'' {
     \choralniRezim
     g4 g a( bes) a(
-    \override NoteHead #'color = #red
+    \override NoteHead.color = #red
     g) g^\markup{Dvě brzy po sobě následující "\"přistání\"" na G na
                   mě působí rušivě.}
-    \revert NoteHead #'color
+    \revert NoteHead.color
     \barMin a g f g f(
-    \override NoteHead #'color = #red
+    \override NoteHead.color = #red
     g) g
-    \revert NoteHead #'color
+    \revert NoteHead.color
     \barMaior
     g( f) e f d d \barMaior
     f e( f) e( d) d \barFinalis
@@ -41,8 +43,8 @@
   \relative c'' {
     \choralniRezim
     g4 g a( bes) a( g) g
-    \once \override Staff.BarLine #'color = #green
-    \once \override Staff.BarLine #'hair-thickness = 4
+    \once \override Staff.BarLine.color = #green
+    \once \override Staff.BarLine.hair-thickness = 4
     \barMaior \mark\sipka a^\markup{Alespoň částečně se problém vyřeší změnou frázování.}
     g f g f( g) g \barMin
     g( f) e f d d \barMaior
