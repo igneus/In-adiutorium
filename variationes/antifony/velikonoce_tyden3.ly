@@ -2495,7 +2495,32 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \choralniRezim
+    g f g a( c) c c d c b a( g) \barMin
+    g f e f( g) g g( f) e e \barMaior
+
+    \mark\sipka d e f( g) e \barFinalis
+  }
+  \addlyrics {
+    Kdo jí mé tě -- lo a pi -- je mou krev,
+    zů -- stá -- vá ve mně a já v_něm.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?konec&+aleluja"
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g f g a( c) c c d c b a( g) \barMin
     g f e f( g) g g( f) e e \barMaior
@@ -2521,6 +2546,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g f g a( c) c c d c b a( g) \barMin
     g f e f( g) g g( f) e e \barMaior
@@ -2551,6 +2577,31 @@
     g f e f( g) g g( f) e e \barMaior
 
     \mark\sipka f g f( d) e \barFinalis
+  }
+  \addlyrics {
+    Kdo jí mé tě -- lo a pi -- je mou krev,
+    zů -- stá -- vá ve mně a já v_něm.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?konec&+aleluja"
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g f g a( c) c c d c b a( g) \barMin
+    g f e f( g) g g( f) e e \barMaior
+
+    \mark\sipka d( e) f( a g f) d( e) e \barFinalis
   }
   \addlyrics {
     Kdo jí mé tě -- lo a pi -- je mou krev,

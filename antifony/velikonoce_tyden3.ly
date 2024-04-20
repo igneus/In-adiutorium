@@ -534,7 +534,7 @@
     g f g a( c) c c d c b a( g) \barMin
     g f e f( g) g g( f) e e \barMaior
 
-    f f( g) e e \barFinalis
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Kdo jí mé tě -- lo a pi -- je mou krev,
@@ -547,7 +547,6 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
-    placet = "aleluja lépe"
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?konec&+aleluja"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -2428,6 +2428,102 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 f e c d( c) \barMin
+    d( f) f( g) g \barMaior
+    g a a g f
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e c d( c) \barMin
+    d( f) f( g) g \barMaior
+    g a \mark\sipka g f d
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e c d( c) \barMin
+    d( f) f( g) g \barMaior
+    \mark\sipka f g g f d
+    c e d d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c b a \barMin
+    c( d) d( f) f \barMaior
+    f g f d d
+    e c d d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacZelenyIII
     \choralniRezim
     d4 e f e( d) c \barMin
@@ -2542,6 +2638,79 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Velmi volně podle AR1912 43
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a( g) \barMin
+    f( g) f( e) d( c) \barMaior
+    d f g g f \barMin
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a( f) \barMin
+    g( a) f( e) d( c) \barMaior
+    d c d d( f) f \barMin
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a g \barMin
+    bes( a) g( a) g \barMaior
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
