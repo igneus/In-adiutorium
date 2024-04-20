@@ -80,7 +80,7 @@ task :build => build_standalone_ly + [:psalmodie]
 desc 'run convert-ly for all LilyPond source files'
 task :convert_ly do
   all_ly_files.each do |source|
-    sh 'convert-ly', '--edit', '--diff-version-update', source
+    sh 'nastroje/convert-ly.sh', source
   end
 end
 
