@@ -121,7 +121,8 @@ velikTIpatekNespAntIII = \score {
     differentia = "E"
     psalmus = "Zj 15"
     id = "t1-pa"
-    placet = "~ to, že tento text má hypofrygický nápěv, je evidentní korejsovské dědictví; to není nutně špatně, ale měl bych alespoň zkusit pár alternativ"
+    placet = "~ to, že tento text má hypofrygický nápěv, je evidentní korejsovské dědictví; to není nutně špatně, ale měl bych alespoň zkusit pár alternativ;
+    v jednom verši není dost slabik na terminaci, která je i bez toho těžká dost"
     piece = \markup {\sestavTitulek}
   }
 }
