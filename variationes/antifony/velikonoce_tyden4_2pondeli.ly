@@ -553,6 +553,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g g a a g g( f) \barMin
+    g a c( b) a c b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din u -- sku -- teč -- ní_*
+    všech -- ny své zá -- mě -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
