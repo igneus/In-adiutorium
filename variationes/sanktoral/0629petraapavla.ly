@@ -2237,7 +2237,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
@@ -2261,6 +2261,7 @@
     modus = "I"
     differentia = "a3"
     psalmus = ""
+    placet = "ten terciový skok na _Kristus_ je nějak nelibý"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2268,18 +2269,50 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \key f \major
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
     g( f) e \barMin f g a a( bes) a a \barMaior
-    a a g( a) a a( bes) a g a g g \barMaior
+    a a \mark\sipka g a a( bes) a g a g g \barMaior
     g f g f e d c d d e e \barMaior
     e f e \mark\sipka f( g a) g \barMin a( bes c) bes( a) g \barMaior
     f( e c) e( f) d d \barFinalis
   }
   \addlyrics {
     Ši -- mon Pe -- tr ře -- kl:_*
-    % Je to spravne prelozene? Neni lepsi "Ke komu bychom sli?"
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a3"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  Nebo může melisma zůstat, ale musí se upravit frázování:
+}
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a a \mark\sipka g( a) a \barMin a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    e f e f( g a) g \barMin a( bes c) bes( a) g \barMaior
+    f( e c) e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
     Pa -- ne, ke ko -- mu pů -- jde -- me?
     Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
     a my jsme u -- vě -- ři -- li a po -- zna -- li,
@@ -2302,7 +2335,7 @@
     \choralniRezim
     a4 a \mark\sipka g f e( f d) d \barMaior
     f( g a) g \barMin f g a a( bes) a a \barMaior
-    a a \mark\sipka g a a( bes) a g a g g \barMaior
+    a a g a a( bes) a g a g g \barMaior
     g f g f e d c d d e e \barMaior
     e f e f( g a) g \barMin a( bes c) bes( a) g \barMaior
     f( e c) e( f) d d \barFinalis

@@ -584,9 +584,9 @@
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
     g( f) e \barMin f g a a( bes) a a \barMaior
-    a a g( a) a a( bes) a g a g g \barMaior
+    a a g a a( bes) a g a g g \barMaior
     g f g f e d c d d e e \barMaior
-    e f e g( a bes a) a \barMin a( bes c) bes( a) g \barMaior
+    e f e f( g a) g \barMin a( bes c) bes( a) g \barMaior
     f( e c) e( f) d d \barFinalis
   }
   \addlyrics {
