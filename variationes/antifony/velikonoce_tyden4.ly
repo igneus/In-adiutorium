@@ -190,7 +190,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d \barMin
     d f e d c e( f d) c( d) d \barMaior
@@ -235,6 +235,29 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d \barMin
+    d f e d c e( f d) c( d) d \barMaior
+    \mark\sipka f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- te,
+    svou kr -- ví jsi nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     c4( d) d \barMin
     d f e f g f d d \barMin
@@ -260,6 +283,28 @@
     \choralniRezim
     c4( d) d \barMin
     d f f e d d c c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- te,
+    svou kr -- ví jsi nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d \barMin
+    d f f e d \mark\sipka e d c \barMin
     e f d d \barFinalis
   }
   \addlyrics {
@@ -405,6 +450,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 a a c b c d d( c) \barMaior
     g b c a a \barMin b c a a g f f( g) g \barMaior
@@ -427,6 +473,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 a a c b c d d( c) \barMaior
     g b c a a \barMin b c a a g f f( g) g \barMaior
@@ -593,6 +640,50 @@
     \mark\sipka e4 g a a g a b g g( a) a \barMaior
     a a a g( e) e e f e d e \barMaior
     f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Do -- ko -- na -- lá jsou tvá dí -- la, Bo -- že,
+    všech -- ny tvé ces -- ty jsou spra -- ved -- li -- vé.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g a b g g( a) a \barMaior
+    a a a g( e) e e f e d e \barMaior
+    \mark\sipka f f( g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Do -- ko -- na -- lá jsou tvá dí -- la, Bo -- že,
+    všech -- ny tvé ces -- ty jsou spra -- ved -- li -- vé.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g a b g g( a) a \barMaior
+    a a a g( e) e e f e d e \barMaior
+    \mark\sipka f f( g) e e \barFinalis
   }
   \addlyrics {
     Do -- ko -- na -- lá jsou tvá dí -- la, Bo -- že,
@@ -939,8 +1030,52 @@
   \relative c'' {
     \choralniRezim
     g4 b d d d( b d a) a \barMin
+    g a a( b) a g( a) a( g) g \barMaior
+    a \mark\sipka a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý zá -- ří
+    ja -- ko svět -- lo v_tem -- no -- tách.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 112"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b d d d( b d a) a \barMin
     g a a( b) a g( a) \mark\sipka g g \barMaior
     a b( a) g g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý zá -- ří
+    ja -- ko svět -- lo v_tem -- no -- tách.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 112"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b d d d( b d a) a \barMin
+    g a a( b) a g( a) g g \barMaior
+    a \mark\sipka a( b a) g g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vý zá -- ří

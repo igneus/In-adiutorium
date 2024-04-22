@@ -32,7 +32,7 @@
     \choralniRezim
     c4( d) d \barMin
     d f e d c e( f d) c( d) d \barMaior
-    e f d( c) d \barFinalis
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     Kris -- te,
@@ -84,7 +84,7 @@
     \choralniRezim
     c4 a a c b c d d( c) \barMaior
     g b c a a \barMin b c a a g f f( g) g \barMaior
-    g c( d c b) a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Ne -- ze -- mřu, a -- le bu -- du žít
