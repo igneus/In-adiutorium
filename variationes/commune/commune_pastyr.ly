@@ -2283,6 +2283,84 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a g( a) a \barMin a b g g( a) a \barMin
+    a a a g f e( d) e \barMaior
+    f g a a( b) g a a \barMax
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % V
+    \neviditelna e
+    a a g( a) a \barMin a( b) g e e \barMin
+    f g a a( b) g g( a) a \barMax
+    % R
+    \neviditelna e
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % Slava
+    a a b( c) a g g( a) a \barMin
+    a g e f( g) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Na tvých hrad -- bách, Je -- ru -- za -- lé -- me,
+    u -- sta -- no -- vil jsem stráž -- né;
+    bu -- dou bdít nad mým li -- dem._* \textRespAleluja
+    \Verse A -- ni ve dne, a -- ni v_no -- ci
+    ne -- smě -- jí ni -- kdy ml -- čet._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    fial = "sanktoral/0423vojtech.ly#rch-r?cast=5-6,12-13"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a \mark\sipka a( g) g \barMin a b g g( a) a \barMin
+    a a a g f e( d) e \barMaior
+    f g a a( b) g a a \barMax
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % V
+    \neviditelna e
+    a a \mark\sipka a( g) g \barMin a( b) g e e \barMin
+    f g a a( b) g g( a) a \barMax
+    % R
+    \neviditelna e
+    a g g( a) e \barMin d( f) g( a g f) d( e) e \barFinalis
+    % Slava
+    a a b( c) a g g( a) a \barMin
+    a g e f( g) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Na tvých hrad -- bách, Je -- ru -- za -- lé -- me,
+    u -- sta -- no -- vil jsem stráž -- né;
+    bu -- dou bdít nad mým li -- dem._* \textRespAleluja
+    \Verse A -- ni ve dne, a -- ni v_no -- ci
+    ne -- smě -- jí ni -- kdy ml -- čet._*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    fial = "sanktoral/0423vojtech.ly#rch-r?cast=5-6,12-13"
+    id = "rch-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {

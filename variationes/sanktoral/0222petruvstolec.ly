@@ -1355,6 +1355,50 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d d d( f d) c f g g( a) a \barMaior
+    a a a g a a a c b \mark\sipka a( g) g \barMin
+    f g a a g f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr byl hlí -- dán ve vě -- ze -- ní;
+    cír -- kev -- ní o -- bec se však na -- lé -- ha -- vě
+    za ně -- ho mod -- li -- la k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( f d) c f g g( a) a \barMaior
+    a a a g a a a \mark\sipka c a g( a) a \barMin
+    a g f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr byl hlí -- dán ve vě -- ze -- ní;
+    cír -- kev -- ní o -- bec se však na -- lé -- ha -- vě
+    za ně -- ho mod -- li -- la k_Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     d4 d d d( f d) c f g g( a) a \barMaior
