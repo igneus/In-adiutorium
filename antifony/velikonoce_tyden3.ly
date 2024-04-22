@@ -136,7 +136,7 @@
     \choralniRezim
     d4 d( f e) g( a) a \barMaior
     a g a a( c a) a( g f) \barMin
-    d4.( f) f4( g f) d d \barMaior
+    d4.( f) f4( g f) d d \barMin
     e c d d \barFinalis
   }
   \addlyrics {

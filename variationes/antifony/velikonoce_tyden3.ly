@@ -549,6 +549,31 @@
   }
 }
 
+\markup{
+  (Jen divisio)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMaior
+    g( a) a a g a c d c b a( b a) a( g) g \mark\sipka \barMin
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Ká -- men od vcho -- du do hrob -- ky byl od -- va -- len.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 145-I"
+    id = "ne-mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -593,6 +618,31 @@
   }
 }
 
+\markup{
+  (Jen divisio)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( f) a( c) c \barMaior
+    d d c b a a( c) c \barMin a g a f f \mark\sipka \barMin
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Proč hle -- dá -- te ži -- vé -- ho me -- zi mrt -- vý -- mi?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 145-II"
+    id = "ne-mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -617,6 +667,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( f e) g( a) a \barMaior
     a g a a( c a) a( g f) \barMin
@@ -639,9 +690,12 @@
   }
 }
 
+\markup{
+  (Jen divisio)
+}
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     d4 d( f e) g( a) a \barMaior
     a g a a( c a) a( g f) \barMin
@@ -706,6 +760,100 @@
     quid = "3. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 145-III"
+    id = "ne-mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\markup\justify{
+  Všechny tři antifony jsou tradiční
+  (\cantusid-link "001345", \cantusid-link "001350", \cantusid-link "001348")
+  a se stereotypním nápěvem
+  (který pro ně není jediný známý, ale dobře se hodí k úpravě pro český text
+  a je přístupný lidovému zpěvu).
+  Ten ale nutně vyžaduje to aleluja uprostřed,
+  které Liturgia horarum vypustila, a na konci aleluja dvě.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e d) c( d) \barMaior
+    a a g a g f \barMin a g a( g) f \barMaior
+    a g f a c c \barMaior
+    c b c( d c) a \barMin a g( a g) f f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Ká -- men byl od -- va -- len,
+    a -- le -- lu -- ja.
+    Od vcho -- du do hrob -- ky.
+    A -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Aleluja. Kámen od vchodu do hrobky byl odvalen. Aleluja."
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 145-I"
+    id = "ne-mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Latinská antifona (\italic{Alleluia Quem quaeris, mulier}) kombinuje J 20, 15 a Lk 24, 5;
+  v DMC je čistý citát z Lk 24, 5.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e d) c( d) \barMaior
+    a a a a g a( g) f \barMin a g a( g) f \barMaior
+    a g a c c \barMaior
+    c b c( d c) a \barMin a g( a g) f f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Proč hle -- dá -- te ži -- vé -- ho,
+    a -- le -- lu -- ja.
+    Me -- zi mrt -- vý -- mi?
+    A -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Aleluja. Proč hledáte živého mezi mrtvými? Aleluja."
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 145-II"
+    id = "ne-mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e d) c( d) \barMaior
+    a a g a( g) f \barMin a g a( g) f \barMaior
+    a g a( c) c \barMaior
+    c b c( d c) a \barMin a g( a g) f f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Ma -- ri -- e, ne -- plač,
+    a -- le -- lu -- ja.
+    Pán vstal z_mrt -- vých.
+    A -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Aleluja. Marie, neplač: Pán vstal z mrtvých. Aleluja."
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
     psalmus = "Žalm 145-III"
     id = "ne-mc-a3"
     piece = \markup {\sestavTitulek}
