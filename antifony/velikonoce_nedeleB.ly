@@ -144,11 +144,11 @@
   \relative c'' {
     \choralniRezim
     a4 a g c b c( a) a \barMin
-    a a g( e) e f e f d e e \barMax
-    f g a a a g( a) a \barMaior
+    a a g( e) e f e f d e e \barMaior
+    f g a a a g( a) a \barMax
     a( b) c b( a) a b( a) g a( e) e \barMaior
     e d e f f g d d \barMin e f f( e) e \barMaior
-    f d d( e) e \barFinalis
+    e f( d) d( e) e \barFinalis
   }
   \addlyrics {
     Mám ta -- ké ji -- né ov -- ce,_*

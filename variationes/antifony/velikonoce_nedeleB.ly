@@ -464,6 +464,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g( a g) g \barMaior
+    \mark\sipka f g g( a) a \barMin
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin
+    a4 g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem pas -- týř dob -- rý._*
+    Dob -- rý pas -- týř
+    dá -- vá
+    za ov -- ce svůj ži -- vot.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -645,6 +671,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    e d c( d) c \barMin b( c) a g a( g) g \barMaior
+    a b c a a \barMin
+    \mark\sipka a c c b a b a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4 c b a c( d) d \barMaior
     e d c( d) c \barMin b( c) a g a( g) g \barMaior
@@ -748,6 +801,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMaior
+    \mark\sipka d e c( a) a \barMin c( b) a g a( g) g \barMaior
+    a-- b c a a \barMin
+    a b c a g f g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem dob -- rý pas -- týř;_*
+    já jsem ces -- ta, prav -- da a ži -- vot.
+    Znám svo -- je ov -- ce a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#po?zacatek=7"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -809,7 +888,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g c b c( a) a \barMin
     a a g( e) e f e f d e e \barMax
@@ -836,6 +915,10 @@
   }
 }
 
+\markup\justify{
+  (přeuspořádání divisiones podle toho, jak jsem si zvykl antifonu frázovat
+  a jak to odpovídá spádu melodie)
+}
 \score {
   \relative c'' {
     \choralniRezim
@@ -855,6 +938,37 @@
     A -- le -- lu -- ja!
   }
   \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g c b c( a) a \barMin
+    a a g( e) e f e f d e e \barMaior
+    f g a a a g( a) a \barMax
+    a( b) c b( a) a b( a) g a( e) e \barMaior
+    e d e f f g d d \barMin e f f( e) e \barMaior
+    \mark\sipka e f( d) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mám ta -- ké ji -- né ov -- ce,_*
+    kte -- ré ne -- jsou z_to -- ho -- to ov -- čin -- ce.
+    Ta -- ké ty mu -- sím při -- vést;
+    u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce, je -- den pas -- týř.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    textus_approbatus = "Mám také jiné ovce, které nejsou z tohoto ovčince.
+    Také ty musím přivést; a uposlechnou mého hlasu a bude jen jedno stádce, jeden pastýř. Aleluja!"
     quid = "ant. k Magnificat"
     modus = "III"
     differentia = "a"
