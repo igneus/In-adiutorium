@@ -168,7 +168,10 @@ sestavTitulekRespII = \markup\concat {
           \placet
         }
         %\fromproperty #'header:opus
-        \small { \fromproperty #'header:fons_externus }
+        \small {
+          \fromproperty #'header:fons_externus
+          \italic\fromproperty #'header:scriptura
+        }
       }
 
       \small\italic{

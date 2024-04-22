@@ -126,6 +126,7 @@
     modus = "V"
     differentia = "a"
     psalmus = "Žalm 145-II"
+    scriptura = "Lk 24, 5"
     id = "ne-mc-a2"
     piece = \markup {\sestavTitulek}
   }
