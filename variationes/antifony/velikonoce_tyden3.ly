@@ -942,6 +942,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a g a c c \barMin
+    c c c d c a a \barMaior
+    a \mark\sipka c b a g( a) g g \barMin
+    g f d f( g) a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Tvor -- stvo bu -- de vy -- svo -- bo -- ze -- no
+    z_po -- ro -- by po -- ru -- še -- ní
+    a do -- sáh -- ne svo -- bo -- dy
+    ve slá -- vě Bo -- žích dě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
