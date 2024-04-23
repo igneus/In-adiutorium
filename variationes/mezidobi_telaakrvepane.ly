@@ -742,7 +742,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( e d) d \barMin
     d( c) b c d d \barMin e g f e( d c d) d \barMaior
@@ -758,6 +758,7 @@
     differentia = "d"
     psalmus = ""
     fial = "velikonoce_antifony.ly#invit2?zacatek"
+    placet = "_chléb života_ nepěkné; celek působí nevyváženě"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -802,6 +803,29 @@
     differentia = "d"
     psalmus = ""
     fial = "velikonoce_antifony.ly#invit2?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( g a) g \barMin
+    a( bes) a g f( g) g \barMin
+    f e c d4. c \barMaior
+    d4 f f4.( g) g4( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on je Chléb ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1162,6 +1186,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d d( e c d) d \barMin
     d c( b a) g g( a) a \barMin
@@ -1178,7 +1203,7 @@
     differentia = "d"
     psalmus = "Žalm 42"
     fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
-    placet = "se závěrem si zkusit trochu pohrát"
+    placet = "závěr lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -1213,6 +1238,76 @@
     d d( e c d) d \barMin
     d c( b a) g g( a) a \barMin
     a c b a g a \mark\sipka a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Kdo žíz -- ní,
+    ať při -- jde ke mně
+    a pi -- je z_věč -- né -- ho pra -- me -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 42"
+    fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( e c d) d \barMin
+    d c( b a) g g( a) a \barMaior
+    a c b a g a a( b) \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo žíz -- ní,
+    ať při -- jde ke mně
+    a pi -- je z_věč -- né -- ho pra -- me -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 42"
+    fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast=1-2"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d d( e c d) d \barMin
+    d c( b a) g g( a) a \barMin
+    a c b a g \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdo žíz -- ní,
+    ať při -- jde ke mně
+    a pi -- je z_věč -- né -- ho pra -- me -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 42"
+    fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast, upravena"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d d( e c d) d \barMin
+    d c( b a) g g( a) a \barMaior
+    a c b \barMin a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Kdo žíz -- ní,
@@ -1558,7 +1653,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a( c) c c d c b a( b) b \barMaior
     b b \mark\sipka c b a g a g g \barMaior
@@ -1606,6 +1701,34 @@
     differentia = "g"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?zacatek"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a( c) c c d c b a( b) b \barMaior
+    b b c b a g a g g \barMaior
+    g f g a( c) c c d c b a( g) \barMaior
+    g f \mark\sipka e f( g) g
+    g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo je sku -- teč -- ný po -- krm
+    a má krev je sku -- teč -- ný ná -- poj.
+    Kdo jí mé tě -- lo a pi -- je mou krev,
+    má ži -- vot věč -- ný
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?zacatek=14&konec=29"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }

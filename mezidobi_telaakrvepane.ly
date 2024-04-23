@@ -143,11 +143,12 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4( e d) d \barMin
-    d( c) b c d d \barMin e g f e( d c d) d \barMaior
-    d c b( c a) g( a) a( g) g \barFinalis
+    f4( g a) g \barMin
+    a( bes) a g f( g) g \barMin
+    f e c d4. c \barMaior
+    d4 f f4.( g) g4( a) g( f) f \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
@@ -155,11 +156,9 @@
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    fial = "velikonoce_antifony.ly#invit2?zacatek"
-    placet = "_chléb života_ nepěkné; celek působí nevyváženě"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -195,8 +194,8 @@
   \relative c'' {
     \choralniRezim
     d4 d( e c d) d \barMin
-    d c( b a) g g( a) a \barMin
-    a a( c) b a g a a g g \barFinalis
+    d c( b a) g g( a) a \barMaior
+    a c b a g a a( b) a( g) g \barFinalis
   }
   \addlyrics {
     Kdo žíz -- ní,
@@ -209,7 +208,6 @@
     differentia = "d"
     psalmus = "Žalm 42"
     fial = "mezidobi_nejsvsrdce.ly#rch-a1?cast=1-2"
-    placet = "závěr lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -249,7 +247,7 @@
     g4 a( c) c c d c b a( b) b \barMaior
     b b c b a g a g g \barMaior
     g f g a( c) c c d c b a( g) \barMaior
-    g f g g( a) a
+    g f e f( g) g
     g( f) e e \barFinalis
   }
   \addlyrics {
@@ -264,8 +262,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?zacatek"
-    placet = "závěr nic moc"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?zacatek=14&konec=29"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
