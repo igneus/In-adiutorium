@@ -52,9 +52,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g a g a( c) c \barMin
-    d c b a( b) a( g) g \barMaior
-    a g f( a) g \barFinalis
+    g4 g g a a g g( f) \barMin
+    g a c( b) a c b \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- sku -- teč -- ní_*
@@ -76,7 +76,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g a a \barMin
+    f4 f g g a a \barMin
     a g f g g f f \barMaior
     g a f f \barFinalis
   }

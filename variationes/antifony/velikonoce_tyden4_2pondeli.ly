@@ -488,7 +488,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g a g a( c) c \barMin
     d c b a( b) a( g) g \barMaior
@@ -555,7 +555,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     g4 g g a a g g( f) \barMin
     g a c( b) a c b \barMin
@@ -748,7 +748,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g a a \barMin
     a g f g g f f \barMaior
@@ -815,6 +815,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 \mark\sipka f g g a a \barMin
     a g f g g f f \barMaior
@@ -969,6 +970,54 @@
     \mark\sipka a a a a g f
     f4 g g f \barMaior
     g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on na -- před
+    mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) \mark\sipka g \barMin
+    a bes a g f( g) g \barMin
+    f( d) f g f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on na -- před
+    mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( a) g \barMin
+    a a a a g f
+    d f g f \barMaior
+    g a f f \barFinalis
   }
   \addlyrics {
     Mi -- luj -- me Bo -- ha,_*
