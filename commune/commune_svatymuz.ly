@@ -667,10 +667,10 @@
     \choralniRezim
     a4 g f g a( c a4.) a \barMin
     a4( g) a g f e f f( a) a \barMaior
-    a( c b g) g \barMin
-    f e f g f d e e \barFinalis
+    a( b c a) a \barMin
+    a g a g f d e e \barFinalis
 
-    f^\markup\rubrVelikAleluja g e e \barFinalis
+    f^\markup\rubrVelikAleluja f( g) e e \barFinalis
   }
   \addlyrics {
     Ten, kdo pl -- ní vů -- li_*

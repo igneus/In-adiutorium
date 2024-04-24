@@ -10,9 +10,9 @@
     \choralniRezim
     a4 g f g a( c a4.) a \barMin
     a4( g) a g f e f f( a) a \barMaior
-    a( c b g) g \barMin
-    f e f g f d e e \barMaior
-    f g e e \barFinalis
+    a( b c a) a \barMin
+    a g a g f d e e \barMaior
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Ten, kdo pl -- ní vů -- li_*
@@ -57,9 +57,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g f g f d d \barMin
-    e c e( f) d d \barMaior
-    e c c( d) d \barFinalis
+    d4 d c d f g f d d \barMin
+    f e d( e) c c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé ú -- to -- čiš -- tě_*
@@ -81,7 +81,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g( a) \barMin
+    g4( a) g f g( a) \barMin
     c c b a g( a) g \barMaior
     f g( a) g g \barFinalis
   }
@@ -92,7 +92,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = "Žalm 137"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -116,6 +116,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 138"
+    placet = "na _život_ se nepěkně láme"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

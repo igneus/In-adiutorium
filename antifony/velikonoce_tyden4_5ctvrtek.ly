@@ -78,9 +78,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g f g f d d \barMin
-    e c e( f) d d \barMaior
-    e c c( d) d \barFinalis
+    d4 d c d f g f d d \barMin
+    f e d( e) c c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé ú -- to -- čiš -- tě_*
