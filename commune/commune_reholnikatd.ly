@@ -83,7 +83,7 @@
       e4 d e e( a g) g( a) a \barMin a g f g g g( a) e e \barMaior
       d e f f g f g( a) g f e e \barFinalis
 
-      f^\markup\rubrVelikAleluja d( f) f( e) e \barFinalis
+      f^\markup\rubrVelikAleluja f d( e) e \barFinalis
     }
     \addlyrics {
       Pán si ji vy -- vo -- lil na -- vě -- ky ja -- ko ne -- věs -- tu,
@@ -126,6 +126,7 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
+      placet = "aleluja lépe"
       id = "rehol-aben1"
       fons = "zacatek prevzat z:"
       fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?cast=2"

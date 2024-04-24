@@ -203,12 +203,46 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g \neviditelna g \bar ";"
+      \mark\sipka a( c d) c \bar ";"
+      a( b c) d( c) c \bar ";"
+      d( e c d) c( b) \barMin a( g) a g g \barMaior
+      \mark\sipka a a a f( g) a( c) c \barMin c d( f e) d( c) d c \barMaior
+      d c b a g a( b) g g \barFinalis
+
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Sva -- tý \markup\Nomen
+      Mar -- tin
+      Be -- ne -- dikt
+      hle -- dal své -- ho Pá -- na,
+      a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
+      a do -- ve -- dl ho ke spá -- se.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "rehol-amag2"
+      fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup\italic{o řeholnici:}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       e4 d e e( a g) g( a) a \barMin a g f g g g( a) e e \barMaior
       d e f f g f g( a) g f e e \barFinalis
@@ -233,6 +267,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
       e4 d e e( a g) g( a) a \barMin a g f g g g( a) e e \barMaior
       d e f f g f g( a) g f e e \barFinalis
@@ -249,6 +284,78 @@
       quid = "ant. k Magnificat"
       modus = "IV"
       differentia = "E"
+      psalmus = ""
+      id = "rehol-amag3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      e4 \mark\sipka e e e( a g) g( a) a \barMin a \mark\sipka b a g f g( a) e e \barMaior
+      d e f f g f g( a) g f e e \barFinalis
+
+      f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+    }
+    \addlyrics {
+      Pán si ji vy -- vo -- lil na -- vě -- ky ja -- ko ne -- věs -- tu,
+      pro -- to -- že je mi -- lo -- srd -- ný a věr -- ný.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "rehol-amag3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f g g( a) g g \barMin a bes a g f g( a) a( g) g \barMaior
+      a a g f g f d d f e( d) d \barFinalis
+
+      e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Pán si ji vy -- vo -- lil na -- vě -- ky ja -- ko ne -- věs -- tu,
+      pro -- to -- že je mi -- lo -- srd -- ný a věr -- ný.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = "rehol-amag3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4 c d d( e) d d \barMin c d c b g a g g \barMaior
+      f g a a c d c b g a( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Pán si ji vy -- vo -- lil na -- vě -- ky ja -- ko ne -- věs -- tu,
+      pro -- to -- že je mi -- lo -- srd -- ný a věr -- ný.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "d"
       psalmus = ""
       id = "rehol-amag3"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -274,6 +381,67 @@
       f g e \barFinalis
 
       f^\markup\rubrVelikAleluja g g( f) e \barFinalis
+    }
+    \addlyrics {
+      Kaž -- dý, kdo pl -- ní vů -- li
+      mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+      to je můj bra -- tr i ses -- tra i mat -- ka,
+      pra -- ví Pán.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "rehol-aben1"
+      fons = "zacatek prevzat z:"
+      fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?jen zacatek"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      g4( a) a g f g a( c a4.) a \barMin
+      a4( g) a g f e f f( a) a \barMaior
+      a b c a( g) g a a f g f( e) e \barMin
+      f g e \barFinalis
+
+      \mark\sipka d^\markup\rubrVelikAleluja f( g) f( e) e \barFinalis
+    }
+    \addlyrics {
+      Kaž -- dý, kdo pl -- ní vů -- li
+      mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+      to je můj bra -- tr i ses -- tra i mat -- ka,
+      pra -- ví Pán.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "rehol-aben1"
+      fons = "zacatek prevzat z:"
+      fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?jen zacatek"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) a g f g a( c a4.) a \barMin
+      a4( g) a g f e f f( a) a \barMaior
+      a b c a( g) g a a f g f( e) e \barMin
+      f \mark\sipka d e \barFinalis
+
+      f^\markup\rubrVelikAleluja g f( e) e \barFinalis
     }
     \addlyrics {
       Kaž -- dý, kdo pl -- ní vů -- li
