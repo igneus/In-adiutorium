@@ -526,8 +526,8 @@
     \key f \major
     \choralniRezim
     f4 f g( a c) d( c) bes( c) \barMin
-    c f,( bes) a g f f \barMax
-    c' c d e f( e d c) c \barMaior
+    f, bes a g f f \barMax
+    c' c d e f( e d) c \barMaior
     c( a c d) c( a) \barMin c( bes a) g( a) g f f \barFinalis
   }
   \addlyrics {
@@ -540,7 +540,6 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    placet = "melisma na _naše_ pryč nebo jinak, _Slunce spravedlnosti_ pokud možno lépe"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }

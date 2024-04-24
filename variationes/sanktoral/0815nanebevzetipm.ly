@@ -1912,8 +1912,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     f4 f g( a c) d( c) bes( c) \barMin
@@ -1931,7 +1934,57 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
-    id = ""
+    placet = "melisma na _naše_ pryč nebo jinak, _Slunce spravedlnosti_ pokud možno lépe"
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 f g( a c) d( c) bes( c) \barMin
+    \mark\sipka f, bes a g f f \barMax
+    c' c d e \mark\sipka f( e d) c \barMaior
+    c( a c d) c( a) \barMin c( bes a) g( a) g f f \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    tys na -- še krá -- lov -- na,
+    z_te -- be svě -- tu vze -- šlo Slun -- ce spra -- ve -- dl -- nos -- ti.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 f g( a c) d( c) bes( c) \barMin
+    f, bes a \mark\sipka g( a) g( f) f \barMax
+    c' c d e f( e d) c \barMaior
+    c( a c d) c( a) \barMin c( bes a) g( a) g f f \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    tys na -- še krá -- lov -- na,
+    z_te -- be svě -- tu vze -- šlo Slun -- ce spra -- ve -- dl -- nos -- ti.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
