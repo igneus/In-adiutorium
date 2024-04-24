@@ -19,9 +19,9 @@
   \relative c'' {
     \choralniRezim
     g4( a) g f e f d d \barMaior
-    d e f f f( d) d f g a g g \barMaior
+    d f e d c( d) c f g a g g \barMaior
     g4 a g f( e) d e c d d \barMaior
-    c d e d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Ob -- jal smrt pří -- tel -- ky -- ni
@@ -139,10 +139,10 @@
     d4 e f( d) d \barMin
     c d e d d \barMaior
     d f e f( g) g \barMin
-    g g g a g f d( e) d( c) d( c) \barMin
-    d d d d e f e d c \barMin
-    c c( f) e c( d) d \barMaior
-    c d e d \barFinalis
+    g g g a g f e( f) d( c) c \barMin
+    d d c d f e f d c \barMin
+    d f e c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta,
@@ -173,7 +173,7 @@
 
     % R
     \neviditelna f
-    f4 g f f \barMin f f f f f e g a \barMax
+    f4 f( g) f f \barMin f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
