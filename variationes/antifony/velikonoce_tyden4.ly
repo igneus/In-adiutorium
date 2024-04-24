@@ -1747,6 +1747,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c a c( d) d \barMin
+    d f e f d( c) c \barMaior
+    \mark\sipka d f g g a g f( e d) d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já znám své ov -- ce
+    a o -- ny jdou za mnou;
+    já jim dá -- vám věč -- ný ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Středa}}

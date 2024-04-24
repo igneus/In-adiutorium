@@ -831,6 +831,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4( g) g \barMin
+    f( g) a f f( g) g \barMin
+    f e c d4. c \barMaior
+    d4 f f4.( g) g4( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on je Chléb ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}

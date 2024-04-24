@@ -2220,6 +2220,33 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g g( a) f f( g) g \barMaior
+    g \mark\sipka a( bes a g) f( g) \barMin g f e f( d) d( c) c \barMaior
+    d d( f) e d c( d) d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    % Do textu jsem zasahl, protoze tak, jak je v breviari,
+    % drasa me ceske ucho - souveti je chybne postavene.
+    Jest -- li -- že mi kdo slou -- ží,
+    můj O -- tec, kte -- rý je v_ne -- be -- sích,
+    ho za -- hr -- ne po -- ctou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Jestliže mi kdo slouží, toho můj Otec, který je v nebesích, zahrne poctou. Aleluja."
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
@@ -2296,6 +2323,29 @@
     \choralniRezim
     d4 d( a) a d c b a4. a \barMaior
     f4 g a a \barMin a \mark\sipka g a c( b) g a a \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mne,
+    na -- lez -- ne ho a bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d( a) a d c b a4. a \barMin
+    \mark\sipka b4 c a( g) g \barMaior g f g g( a) \barMin c4( b) g( a) a \barFinalis
     b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
