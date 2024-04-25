@@ -1993,9 +1993,32 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( g a) g a( c d) c a g a \barMaior
     c c( d c) a g a g \barMin
+    f g a a a( g f) g g f f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a a c( d) d( c) c \barMaior
+    d c a g a g \barMin
     f g a a a( g f) g g f f \barFinalis
   }
   \addlyrics {
@@ -2139,6 +2162,51 @@
     quid = "ant. odpoledne"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a a c c \barMaior
+    d e d c d c \barMin
+    d d c b c( a g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a c d d \barMin
+    f e d c d c \barMaior
+    d d c b c( a g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    tvá ne -- bes -- ká slá -- va
+    pře -- vy -- šu -- je slá -- vu an -- dě -- lů.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}

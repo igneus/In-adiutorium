@@ -546,11 +546,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( g a) g a( c d) c a g a \barMaior
-    c c( d c) a g a g \barMin
-    f g a a a( g f) g g f f \barFinalis
+    a4 a g a c d d \barMin
+    f e d c d c \barMaior
+    d d c b c( a g) a a g g \barFinalis
   }
   \addlyrics {
     Sva -- tá Bo -- ží Ro -- dič -- ko,
@@ -559,10 +559,9 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "V"
+    modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "lépe"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
