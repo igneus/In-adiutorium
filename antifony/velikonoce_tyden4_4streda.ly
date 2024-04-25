@@ -34,8 +34,8 @@
     \choralniRezim
     g4.( a) g4( f) g( a) a \barMaior
     a b( c) c( d) d c d c b a g a a \barMaior
-    g f e d d e e \barMaior
-    e f( g) e e \barFinalis
+    g a g f d e e \barMaior
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Pán, Hos -- po -- din,_*
@@ -56,19 +56,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f g a g a c c \barMaior
-    c b4.( g) \barMin f4( a) g g \barMaior
-    f a a( g) g \barFinalis
+    a4 a a a a g f g f d \barMin
+    e4. c e4( f) d d \barMaior
+    e d c( d) d \barFinalis
   }
   \addlyrics {
-    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,_*
+    Hos -- po -- din_* bu -- de vlád -- nout na -- vě -- ky,
     tvůj Bůh, Si -- ó -- ne.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 146"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
