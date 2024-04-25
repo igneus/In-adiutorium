@@ -341,8 +341,8 @@
   \relative c'' {
     \choralniRezim
     d4 d d d e d c b c( d e) d \barMaior
-    a a a( d) d \barMin d c b a( g) g \barMaior
-    f g a a( c) a a g f g \barMaior
+    a a a( d) d \barMin d c b a( g) a \barMaior
+    a c b a( b) g g a f g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
