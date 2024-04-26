@@ -361,7 +361,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( a') a f g e g f e d d4.( e) \barMin
@@ -386,6 +386,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
+    placet = "melisma na _Bůh_ není pěkné, bezprostředně následující terciový skok zpátky dolů také ne"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -424,6 +425,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     \mark\sipka d4 f g a a g f e d d4.( e) \barMin

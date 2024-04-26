@@ -46,7 +46,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4( a') a f g e g f e d d4.( e) \barMin
+    d4 f g a a g f e d d4.( e) \barMin
     f4 g a g( a) a \barMaior
     a a a bes bes a g g( a) a \barMin
     a a( g f) g( f e) f d d \barMaior
@@ -68,7 +68,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    placet = "melisma na _Bůh_ není pěkné, bezprostředně následující terciový skok zpátky dolů také ne"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
