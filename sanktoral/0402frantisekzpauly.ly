@@ -16,13 +16,13 @@
   \relative c'' {
     \choralniRezim
     a4-- e a g f e e f( g a) a \barMaior
-    a b a a a e \barMin
+    a b a g a e \barMin
     e f( g) g( e) e \barMaior
-    f g g( a) a \barMaior
-    a b a g g a a \barMin
-    g f e e \barFinalis
+    f g g( a) a \barMin
+    a b a g g( a) g f
+    g g e e \barFinalis
 
-    f^\markup\rubrVelikAleluja g g( e) e \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Hle, sto -- jím u dve -- ří a kle -- pu.
@@ -52,7 +52,7 @@
     c c c d d( c a) a
     b c a a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Všech -- no roz -- dal,
