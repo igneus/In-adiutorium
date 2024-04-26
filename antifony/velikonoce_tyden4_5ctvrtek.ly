@@ -8,9 +8,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c e( f d4.) d \barMin f4 e d( e) c \barMaior
-    d e f d c d d \barMin
-    e c d d \barFinalis
+    d4 c e( f d4.) d \barMin f4 e e( c) c \barMaior
+    d e f d c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Pro své jmé -- no,_* Hos -- po -- di -- ne,
