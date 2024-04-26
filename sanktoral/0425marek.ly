@@ -34,6 +34,10 @@
     differentia = "D"
     psalmus = ""
     fial = "pust_svatytyden.ly#invit?zacatek"
+    placet = "aleluja působí jako únavný přívěsek, což je tolerovatelné
+    u antifony, která se normálně zpívá jen před žalmem a po něm,
+    nebo u takové, která se s aleluja zpívá jen zcela výjimečně,
+    ale tady to vhodné není"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -42,10 +46,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g g( a) g g f e f g g \barMin
+    g4 g a f g( a) g g f e f g g \barMin
     a c b a b g g \barMaior
-    a a f g g( a) a \barMin
-    c a a c b a( g) g \barMaior
+    c c d c b( c) a \barMin
+    c a a g f g( a g) g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -71,8 +75,8 @@
     \choralniRezim
     f4 f g( a) a g f g( a) g g \barMaior
     g f g( a) g f e d( c) \barMin
-    d e f e c f e d d \barMaior
-    e f d( c) d \barFinalis
+    d c d f f g a f f \barMaior
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:
@@ -82,8 +86,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}

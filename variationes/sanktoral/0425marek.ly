@@ -263,7 +263,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g g( a) g g f e f g g \barMin
     a c b a b g g \barMaior
@@ -318,6 +318,34 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a f g( a) g g f e f g g \barMin
+    a c b a b g g \barMaior
+    \mark\sipka c c d c b( c) a \barMin
+    c a a g f g( a g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus
+    po -- vo -- lal e -- van -- ge -- lis -- ty
+    a u -- či -- te -- le ví -- ry,
+    a -- by v_je -- ho círk -- vi
+    ko -- na -- li služ -- bu slo -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     d4 b d( e d) d \barMin
     d c b c a a g g \barMin
@@ -348,7 +376,7 @@
 
 \markup{
   Pozor na responsorium s příbuzným textem
-  "fial://sanktoral/0705cyrilametodej.ly#2ne-resp"
+  \fial-link "sanktoral/0705cyrilametodej.ly#2ne-resp"
 }
 
 \score {
@@ -452,7 +480,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g( a) a g f g( a) g g \barMaior
     g f \mark\sipka g( a) g f e d( c) \barMin
@@ -493,6 +521,55 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g( a) a g f g( a) g g \barMaior
+    g f g( a) g f e d( c) \barMin
+    d \mark\sipka c d f f g a f f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:
+    slo -- vo e -- van -- ge -- li -- a,
+    kte -- ré vám by -- lo zvěs -- to -- vá -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) a g f g( a) g g \barMaior
+    g f g( a) g f \mark\sipka g g( f) \barMin
+    f d f g g a g f f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo Pá -- ně tr -- vá na -- vě -- ky:
+    slo -- vo e -- van -- ge -- li -- a,
+    kte -- ré vám by -- lo zvěs -- to -- vá -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
