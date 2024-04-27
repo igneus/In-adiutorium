@@ -490,6 +490,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g( a g) g \barMaior
+    \mark\sipka a f g( a) a \barMin
+    \[ b( c \] \[ d b c) \] a4.( g) \barMin
+    a4 g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem pas -- týř dob -- rý._*
+    Dob -- rý pas -- týř
+    dá -- vá
+    za ov -- ce svůj ži -- vot.
+    A -- le -- lu -- ja!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

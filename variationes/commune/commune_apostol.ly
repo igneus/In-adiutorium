@@ -2614,6 +2614,28 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a g f g f d d e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Vy jste se mnou vy -- tr -- va -- li v_mých zkouš -- kách.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a g f g f d f( g) g( f) f \barFinalis

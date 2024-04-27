@@ -83,9 +83,10 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Ef 1"
+    placet = "_Dobrý pastýř_ nevím"
     id = "1ne-a3"
     fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
-    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec"
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec=30"
     piece = \markup {\sestavTitulek}
   }
 }

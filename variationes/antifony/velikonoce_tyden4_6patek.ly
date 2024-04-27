@@ -209,6 +209,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka a4 g a a( c) c \barMin c( d) e d( c) d \barMaior
+    d c( b) a( g a4.) g4 \barMin a g f g( a g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,_* měs -- to Bo -- ží,
+    bu -- deš zá -- řit ve -- li -- kým svět -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Tob 13"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a c c( d) d \barMin
     e c c( d) d \barMaior
     a d c( b) a( g) \barMin
@@ -340,6 +362,30 @@
     d c e d c d \barMaior
     \mark\sipka d c d c b a( g) g \barMin
     f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    U -- vi -- děl jsem_*
+    no -- vý Je -- ru -- za -- lém,
+    jak se -- stu -- pu -- je z_ne -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-II"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d c \mark\sipka d e e( d) d \barMaior
+    d c d c b a( g) g \barMin
+    \mark\sipka a g f( g) g \barFinalis
   }
   \addlyrics {
     U -- vi -- děl jsem_*
