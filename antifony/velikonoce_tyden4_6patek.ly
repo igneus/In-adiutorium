@@ -7,6 +7,7 @@
 
 \score {
   \relative c'' {
+    \key f \major
     \choralniRezim
     a4 a a( g bes) a \barMin a c a bes g bes( a) a( g) \barMaior
     f e e( f) d c d d \barMaior
