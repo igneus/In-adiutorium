@@ -159,9 +159,9 @@
   \relative c'' {
     \choralniRezim
     g4 f( g) g( a) a \barMin a c c c b g g \barMaior
-    c c b( d c) a( g a) \barMin g a c b a c( d) d \barMaior
+    c c c( d c) c( b c) \barMin a c c b a c( d) d \barMaior
     e d c d d( c) \barMin c c a b a g \barMaior
-    a b a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Když o -- de -- jdu a při -- pra -- vím vám mís -- to,

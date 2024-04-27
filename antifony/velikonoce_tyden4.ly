@@ -451,7 +451,7 @@
     a a( c) b a c( d) d \barMaior
     e d c d d( c) \barMin
     c c a b a g \barMaior
-    a b a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Od -- chá -- zím vám při -- pra -- vit mís -- to.

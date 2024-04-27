@@ -2624,7 +2624,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b( a) g f g a g g \barMaior
     a a( c) b a c( d) d \barMaior
@@ -2657,6 +2657,33 @@
     e d c d d( c) \barMin
     c c a b a g \barMaior
     \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+    A vez -- mu vás k_so -- bě,
+    a -- by -- ste i vy
+    by -- li tam, kde jsem já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b( a) g f g a g g \barMaior
+    a a( c) b a c( d) d \barMaior
+    e d c d d( c) \barMin
+    c c a b a g \barMaior
+    \mark\sipka a g f( g) g \barFinalis
   }
   \addlyrics {
     Od -- chá -- zím vám při -- pra -- vit mís -- to.
