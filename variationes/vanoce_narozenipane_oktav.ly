@@ -2819,6 +2819,26 @@
   \score {
     \relative c'' {
       \choralniRezim
+      c4 c c d d c b( c) a( g) g \barMin f g( a) a
+      b a g g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       a4 a a g( f) g( a) a \barMin
       c b a b g g \barMaior
       a g f( g) g \barFinalis

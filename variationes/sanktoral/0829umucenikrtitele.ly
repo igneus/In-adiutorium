@@ -365,6 +365,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g \mark\sipka a a e \barMaior
+    f g a a g( a) \barMin
+    a a g b g a a \barMin a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    He -- ro -- des měl před Ja -- nem strach,
+    pro -- to -- že ho znal
+    ja -- ko spra -- ved -- li -- vé -- ho a sva -- té -- ho člo -- vě -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacZelenyII
     \choralniRezim
