@@ -88,7 +88,7 @@
   \relative c'' {
     \choralniRezim
     d4 d( e c d) d \barMin
-    d c b a( b) b \barMaior
+    d c b a( g) a \barMaior
     g a b( c) b b
     a b a( g) g \barFinalis
   }
@@ -102,7 +102,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 63"
-    fial = "mezidobi_telaakrvepane.ly#mc-a2?zacatek"
+    fial = "mezidobi_telaakrvepane.ly#mc-a2?zacatek=6"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -114,7 +114,7 @@
     g4 a g a( c) c \barMaior
     c d c d e d c( b a) a \barMin
     c a g f a a g \barMaior
-    f a g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Klaň -- me se Pá -- nu:
@@ -159,9 +159,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4-- f( g) g( a) a \barMin
-    b c a a c b a g( a) g g \barMaior
-    f a a( g) g \barFinalis
+    g4 a f( g) g \barMaior
+    a b( c) a a \barMin c b a g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Pán vstal z_mrt -- vých
@@ -181,10 +181,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g a a g f f( g) f f \barMaior
-    f f d d f e d( c) c \barMin
-    f g g( a f) e
-    c f d d \barFinalis
+    f4 g g a a g f g( a) g g \barMaior
+    a a g f g f d d \barMin
+    c d f f
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Bůh nás vy -- tr -- hl z_mo -- ci tem -- nos -- ti
@@ -194,8 +194,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 114"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
