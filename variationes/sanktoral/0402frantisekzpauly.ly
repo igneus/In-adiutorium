@@ -195,3 +195,31 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a a( c) c \barMin
+    d c e d d \barMaior
+    c c c d d( c a) a
+    b c a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no roz -- dal,
+    nic mu ne -- zby -- lo,
+    a pře -- ce měl všech -- no,
+    pro -- to -- že měl lás -- ku.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

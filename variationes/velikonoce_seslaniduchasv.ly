@@ -2849,6 +2849,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c a c b \barMin
+    a g a a( b) a( g) g \barMaior
+    a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c b a a \barMin
     c c \mark\sipka a g a g \barMin
     f a g g \barFinalis

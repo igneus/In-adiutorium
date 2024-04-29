@@ -324,6 +324,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d e e e d c d d \barMaior
+    e e d c a b a( g) g \barMin
+    a a g f g( a) a g g \barFinalis
+
+    \mark\sipka a^\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Na -- ši ot -- co -- vé nám vy -- prá -- vě -- li
+    o Hos -- po -- di -- no -- vě mo -- ci
+    a o je -- ho slav -- ných či -- nech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 78-I"
+    id = "mc-a-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -670,6 +696,54 @@
     d c b c( a) a( g) g \barFinalis
 
     f^\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je na -- ší ská -- lou
+    a na -- ším za -- chrán -- cem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 78-III"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c d d \barMin
+    d c b c( a) a( g) g \barFinalis
+
+    \mark\sipka f^\rubrVelikAleluja g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh je na -- ší ská -- lou
+    a na -- ším za -- chrán -- cem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 78-III"
+    id = "mc-a-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e c d d \barMin
+    d c b c( a) a( g) g \barFinalis
+
+    \mark\sipka a^\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bůh je na -- ší ská -- lou
