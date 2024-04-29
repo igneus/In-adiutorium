@@ -191,6 +191,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "lépe"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -199,19 +200,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( c) c c b( c a) a \barMin a b( c) a4.( g) \barMaior
-    a4 c( d) d c( d) c b g g \barMin g( a) a4. g \barMaior
-    a4 g f( g) g \barFinalis
+    g4 c b c d( e) d \barMin
+    f e c( d) \barMaior
+    d c b a g a g g \barMin
+    a f g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Kdo zůs -- tá -- vá ve mně_* a já v_něm,
-    ten ne -- se mno -- ho o -- vo -- ce, pra -- ví Pán.
+    Kdo zůs -- tá -- vá ve mně_*
+    a já v_něm,
+    ten ne -- se mno -- ho o -- vo -- ce,
+    pra -- ví Pán.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -221,10 +226,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g a g f g g( a) a \barMaior
-    a b c c c c( d) c c d d \barMaior
-    d d( a b) a g g( a) a( g) \barMin a b a( g) g f( g) a( b) g g \barMaior
-    g a a( g) g \barFinalis
+    g4 g g a a g f g( a) a \barMaior
+    a b c a a c b a g g \barMaior
+    g g( a) g f d d \barMin g a g f g f d d \barMin
+    f f f( g) g \barFinalis
   }
   \addlyrics {
     Tím bu -- de o -- sla -- ven můj O -- tec,_*
