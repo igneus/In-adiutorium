@@ -1622,6 +1622,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d e( f) d d f g \mark\sipka g( f) f \barMaior
+    g g( a g f) e( d) \barMin c d f( e) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ať sva -- tí já -- sa -- jí chva -- lo -- zpě -- vem,
+    vždyť sla -- ví skvě -- lé ví -- těz -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
