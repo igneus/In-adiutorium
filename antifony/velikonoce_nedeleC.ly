@@ -276,12 +276,12 @@
   \relative c'' {
     \choralniRezim
     g4( a) c( d) d \barMin
-    d d d e d c( d c) c \barMin
+    d d d e d c( d) c \barMin
     c b g a( g) \barMaior
     a g f g a a( g) g \barMaior
     c d e d c c( d) \barMin
     d d c b g a a g \barMaior
-    a b g g \barFinalis
+    f a g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý,
