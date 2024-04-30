@@ -16,9 +16,9 @@
   \relative c' {
     \choralniRezim
     d4 d f e d d \barMin
-    e g f e f d d c( d) d \barMaior
-    f f e( d c) c \barMin
-    d( f) e d c( d) d \barMaior
+    e g f e f d c c( d) d \barMaior
+    f f e( d c4.) c \barMin
+    d4( f) e d c( d) d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -43,7 +43,7 @@
     g4 g g c b c a g f( g) g \barMin
     a b c( d) c a a a \barMin
     a c b a( g) g \barMaior
-    a g( a f) e d d \barMin
+    g g( a f) e d d \barMin
     f g a a g g \barMaior
     f g( a) g g \barFinalis
   }
