@@ -294,7 +294,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a f g a a \barMin
     b( c) a g a g f \barMaior
@@ -324,6 +324,31 @@
     b( c) a g a g f \barMaior
     g g b c a a b c a g a g g \barMaior
     f \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    To -- bě, Hos -- po -- di -- ne,_*
+    pří -- slu -- ší kra -- lo -- vat,
+    ty jsi svr -- cho -- va -- ně po -- vý -- še -- ný na -- de vším.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "1Kron 29"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a f g a a \barMin
+    b( c) a g a g f \barMaior
+    g g b c a a b c a g a g g \mark\sipka \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     To -- bě, Hos -- po -- di -- ne,_*

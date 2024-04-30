@@ -32,8 +32,8 @@
     \choralniRezim
     g4 a f g a a \barMin
     b( c) a g a g f \barMaior
-    g g b c a a b c a g a g g \barMaior
-    f g( a) g g \barFinalis
+    g g b c a a b c a g a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     To -- bě, Hos -- po -- di -- ne,_*
