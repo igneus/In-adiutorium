@@ -822,6 +822,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) \mark\sipka a \barMin
+    c b g b c a a g g \barMaior
+    g f e d d f( g) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a ve -- šla
+    do Za -- cha -- ri -- á -- šo -- va do -- mu
+    a po -- zdra -- vi -- la Alž -- bě -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 122"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

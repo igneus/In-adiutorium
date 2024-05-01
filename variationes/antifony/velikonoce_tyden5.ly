@@ -1986,6 +1986,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a f g g( a) a \barMin
+    c d c b a g g \barMaior
+    a \mark\sipka a g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a f g g( a) a \barMin
+    c d c b a g g \barMaior
+    \mark\sipka f g g( a) a \barMin
+    g f g g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Středa}}
