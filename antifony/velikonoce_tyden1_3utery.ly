@@ -32,9 +32,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) c b( c) c \barMin d( c) b c( a) a( g) g \barMaior
+    g4 a a( c) c \barMin d( c) b c( a) a( g) g \barMaior
     a a( c) a b a g \barMaior
-    a b g g \barFinalis
+    f a g g \barFinalis
   }
   \addlyrics {
     Chval -- te Pá -- na ve dnech ra -- dos -- ti
@@ -55,7 +55,7 @@
   \relative c'' {
     \choralniRezim
     g4( c) c c b g \barMin b a g a g f g g \barMaior
-    a a( b) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Ze -- mě je pl -- ná
