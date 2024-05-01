@@ -40,7 +40,7 @@
     a4 g a f g a a \barMin a( g) f g( f) f \barMaior
     g g g g g( a) g( f) f \barMin
     f e c e f d d \barMaior
-    e f d( c) d \barFinalis
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Ob -- rá -- tí -li se hříš -- ník od svých hří -- chů,
