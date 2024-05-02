@@ -14,7 +14,7 @@
   \relative c'' {
     \choralniRezim
     g4( a) a \barMin
-    a g a a( b a) a \barMin
+    g( a) b g a a \barMin
     a g f d( e) e \barMaior
     c d e f e e \barMin
     f g a a g e e \bar ""
@@ -43,7 +43,7 @@
     \choralniRezim
     g4 a c d d e c c( d) d \barMin
     e f e d c( d) d \barMaior
-    d d d c b c( a) g g
+    d d d c b a( b) g g
     f g a a g g \barMaior
     a g f( g) g \barFinalis
   }
@@ -70,10 +70,10 @@
   \relative c' {
     \choralniRezim
     f4 f g g( a) a \barMin
-    a g f d e d c c \barMaior
-    d d c d f( g) g g \barMin
-    g a bes a
-    g a g( f) f \barFinalis
+    a g f g a a g g \barMaior
+    a a g f e( f) d( c) c \barMin
+    c d f f
+    g a f f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
