@@ -23,7 +23,7 @@
     differentia = "a"
     psalmus = "Žalm 36"
     id = "rch-a1"
-    placet = "*"
+    placet = "dnes už značně netypická"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -33,7 +33,7 @@
     \choralniRezim
     c4( b a) g( a) g \barMin
     f g a( c) b c( d) d \barMaior
-    d e d c b( c) a( g) g \barMin
+    e e d c b( c) a( g) g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
