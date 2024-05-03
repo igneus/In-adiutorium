@@ -325,7 +325,7 @@
     a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
     d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
     Sva -- tý \markup\Nomen
