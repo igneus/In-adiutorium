@@ -2272,6 +2272,72 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g \mark\sipka a b g a b a a \barMaior
+    g a g f d e e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a g f g a g g \barMaior
+    a a a g f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a g f g a g g \barMaior
+    a a a g f \mark\sipka d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

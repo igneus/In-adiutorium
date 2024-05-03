@@ -1781,6 +1781,50 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e d e d c( d) d \barMaior
+    f g f e( d) c c \barMin
+    d e c d \barFinalis
+  }
+  \addlyrics {
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e d e d c( d) d \barMaior
+    f g f e( d) c c \barMin
+    d \mark\sipka f e d \barFinalis
+  }
+  \addlyrics {
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {

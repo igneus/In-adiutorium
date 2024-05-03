@@ -1707,6 +1707,32 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    d4 f g f( g) g \barMin
+    g \mark\sipka g a bes a g f g g( a) a \barMaior
+    a a g f g a g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    To jsem k_vám mlu -- vil,_*
+    a -- by mo -- je ra -- dost by -- la ve vás
+    a a -- by se va -- še ra -- dost na -- pl -- ni -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     e4 g a g( a) a \barMin
     a b c b a b \mark\sipka a g g( a) a \barMaior
