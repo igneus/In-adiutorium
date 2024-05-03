@@ -294,6 +294,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f f e f d \barMin
+    \mark\sipka e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán_* vy -- kou -- pil svůj lid.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Jer 31"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 f( e) d( e) c \barMin
     d( f e) c( d) \barMaior
     e f d( c) d \barFinalis
@@ -854,11 +874,55 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a( g a4.) g \barMin
+    f4 g a g \mark\sipka f d
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Můj ná -- řek
+    jsi ob -- rá -- til v_ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 30"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka a4 a g f g a g f( e) e \barMin
     f f d( e) e \barFinalis
   }
   \addlyrics {
     Můj ná -- řek jsi ob -- rá -- til v_ra -- dost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 30"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( f e4.) e \barMin
+    d4 e f e f g
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Můj ná -- řek
+    jsi ob -- rá -- til v_ra -- dost.
     A -- le -- lu -- ja.
   }
   \header {
@@ -1015,7 +1079,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c d e f d d \barMin
     f f g f d( c) c \barMaior
@@ -1031,6 +1095,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 32"
+    placet = "melodie nesedí k rázu výpovědi"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -1119,6 +1184,30 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 32"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d f e d d \barMin
+    f f g f d( c) c \barMaior
+    d f( e) d d \barFinalis
+  }
+  \addlyrics {
+    By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
+    smr -- tí je -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 32"
+    fial = "pust_triduum.ly#pa-nesp-mag?zacatek=9"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

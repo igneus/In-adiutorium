@@ -98,9 +98,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d e f d d \barMin
+    d4 d d c d f e d d \barMin
     f f g f d( c) c \barMaior
-    d f e( d) d \barFinalis
+    d f( e) d d \barFinalis
   }
   \addlyrics {
     By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
@@ -112,7 +112,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 32"
-    placet = "melodie nesedí k rázu výpovědi"
+    fial = "pust_triduum.ly#pa-nesp-mag?zacatek=9"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
