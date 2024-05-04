@@ -9,8 +9,8 @@
   \relative c'' {
     \choralniRezim
     a4 c d e c c( d) d \barMaior
-    d c( b a g) a( g) \barMin f g a a( c b) g( a) a \barMaior
-    b c a( g) a \barFinalis
+    d c( b a g) a( g) \barMin f g a b( c a) g( a) a \barMaior
+    g a b a \barFinalis
   }
   \addlyrics {
     Pa -- ma -- tuj na mě, Pa -- ne,_*
@@ -32,8 +32,8 @@
     \choralniRezim
     c4 d d \barMin
     e d c d( c) c \barMaior
-    d-- c d c b a g g \barMaior
-    a g f( a) g \barFinalis
+    a c c b a g( a) g g \barMin
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     O -- prav -- du,_*
@@ -46,7 +46,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Iz 45"
-    placet = "nápěv poslední části posouvá smysl, protože zazpívané to zní jako _Bůh, Izraele spasitel_"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -78,8 +77,8 @@
   \relative c' {
     \choralniRezim
     d4 d d f e f d( c) c \barMin
-    f g( a g) f e c d d \barMaior
-    e f d d \barFinalis
+    d d f e d( e) d d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus se pro nás stal chu -- dým,_*
@@ -99,10 +98,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( d c) c \barMaior
-    c b( c) a a
-    c b a g( a) g \barMaior
-    f a a( g) g \barFinalis
+    c4( a) c b( g) a \barMin
+    a a g f
+    g a a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Prou -- dy bys -- třin_*
@@ -113,7 +112,7 @@
   \header {
     quid = "2. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 46"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

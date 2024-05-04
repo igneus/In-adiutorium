@@ -2468,11 +2468,37 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 d d \barMin
       e d c d( c) c \barMaior
       d-- c d c b a g g \barFinalis
+    }
+    \addlyrics {
+      O -- prav -- du,_*
+      ty jsi Bůh skry -- tý,
+      Bůh Iz -- ra -- e -- le, spa -- si -- tel.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      fial = "antifony/velikonoce_tyden1_6patek.ly#rch-a2?-aleluja"
+      id = "svrodiny-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\aktualisace
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 d d \barMin
+      e d c d( c) c \barMaior
+      a c c b a g( a) g g \barFinalis
     }
     \addlyrics {
       O -- prav -- du,_*

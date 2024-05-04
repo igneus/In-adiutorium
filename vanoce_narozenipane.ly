@@ -984,7 +984,7 @@
       \choralniRezim
       c4 d d \barMin
       e d c d( c) c \barMaior
-      d-- c d c b a g g \barFinalis
+      a c c b a g( a) g g \barFinalis
     }
     \addlyrics {
       O -- prav -- du,_*
