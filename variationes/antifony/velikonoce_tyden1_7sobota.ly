@@ -169,7 +169,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 b g \mark\sipka a a \barMaior
     a g f e e
@@ -242,6 +242,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 \mark\sipka g e g a \barMaior
     a g f e e
@@ -641,6 +642,34 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka f g g( a) \barMin
+    c b a b g g \barMaior
+    c( d) c c \barMin
+    d e d c b a( g) g \barMaior
+    g a a f e d d
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo zví -- tě -- zí,_*
+    bu -- dou zpí -- vat pí -- seň
+    Moj -- ží -- še,
+    Bo -- ží -- ho slu -- žeb -- ní -- ka,
+    a pí -- seň Be -- rán -- ko -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ex 15"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \key d \major
     \time 3/4
     a4 d4.-> a8 d2.-> d8 d fis4 e d d r
@@ -793,6 +822,28 @@
     \choralniRezim
     f4 g a a g( a) g g \barMin
     a g f g g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Moc -- ně vlád -- ne nad ná -- mi_*
+    je -- ho mi -- lo -- sr -- den -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 117"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g( a) g g \barMin
+    f d f g g f f \barMaior
     g a f f \barFinalis
   }
   \addlyrics {

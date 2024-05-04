@@ -8,10 +8,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b g a a \barMaior
+    a4 g e g a \barMaior
     a g f e e
-    e( f) d d e e \barMaior
-    f f( g) e e \barFinalis
+    f g g e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Smi -- luj se, Bo -- že,_*
