@@ -2423,7 +2423,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( c a) d( c d) f( e d) d \barMaior
     f e f g( d) d e( c) d \barMin c( b a) g \mark\sipka a g g  \barFinalis
@@ -2437,6 +2437,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 110"
+    placet = "_před trůnem_ je přetížené; závěr málo uspokojivý"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -2444,6 +2445,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d d( c a) \mark\sipka d( e) d d \barMaior
     f e f g( d) d e( c) d \barMin c( b a) g a g g  \barFinalis

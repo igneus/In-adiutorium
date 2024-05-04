@@ -474,7 +474,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d d( c a) d( c d) f( e d) d \barMaior
+    d4 d d d( c a) d( e) d d \barMaior
     f e f g( d) d e( c) d \barMin c( b a) g a g g  \barFinalis
   }
   \addlyrics {
@@ -486,7 +486,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 110"
-    placet = "_před trůnem_ je přetížené; závěr málo uspokojivý"
+    placet = "závěr málo uspokojivý"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
