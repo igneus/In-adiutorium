@@ -196,9 +196,57 @@
   \relative c'' {
     \choralniRezim
     a4 b g a a \barMaior
+    a g f e e
+    \mark\sipka f g g e e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Smi -- luj se, Bo -- že,_*
+    a o -- tev -- ři mi
+    ces -- tu k_ži -- vo -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 119-Kof"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b g a a \barMaior
     a g f e \mark\sipka d
     f( g) f d e e \barMaior
     f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Smi -- luj se, Bo -- že,_*
+    a o -- tev -- ři mi
+    ces -- tu k_ži -- vo -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 119-Kof"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \mark\sipka g e g a \barMaior
+    a g f e e
+    f g g e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Smi -- luj se, Bo -- že,_*

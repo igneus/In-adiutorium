@@ -2113,6 +2113,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d d f f \barMaior
+    \mark\sipka g( a) g f( e d4.) d \barMin e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     c4 d f e f g g \barMaior
     a bes a g f g a( g) g \barFinalis
   }

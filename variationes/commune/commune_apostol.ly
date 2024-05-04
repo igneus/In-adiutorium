@@ -375,6 +375,30 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a a g f e( f) d( c) c \barMin
+    d \mark\sipka d f e d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    O -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
