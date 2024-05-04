@@ -2,8 +2,8 @@
 
 \include "../../spolecne.ly"
 \include "../../dilyresponsorii.ly"
-\include "../../spolecne/reholni.ly"
-\include "opraem.ly"
+\include "../../../spolecne/reholni.ly"
+\include "../../../reholni/OPraem/opraem.ly"
 
 \header {
   title = \markup\titleSvatek
