@@ -213,7 +213,7 @@
 
     f4 d d \barMin f f e f g f e d( e) d d \barMaior
     f g( a) g f( e f) \barMin d( e f g) f d d \barMin
-    e d c( d) d \barFinalis
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Pa -- ne,

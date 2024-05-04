@@ -43,7 +43,7 @@
     \choralniRezim
     f4 d d \barMin f f e f g f e d( e) d d \barMaior
     f g( a) g f( e f) \barMin d( e f g) f d d \barMin
-    e d c( d) d \barFinalis
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Fi -- li -- pe, tak dlou -- ho jsem s_vá -- mi, a ne -- znáš mě?
@@ -126,7 +126,7 @@
     \choralniRezim
     c4 d d \barMin
     d d( e) c c( d) \barMaior
-    c b g( a g) g
+    c b a( b g) g
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -148,9 +148,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f( a) g( f) g \barMin
-    a c d c c d( e) e d d \barMaior
-    e d c d c( b a4.) a \barMin
+    g4 g f g( a) a g \barMin
+    a c c c c d( e) e d d \barMaior
+    e d c d d( c a4.) a \barMin
     a4 c b a g g
     f a g g \barFinalis
   }
@@ -189,7 +189,7 @@
     differentia = "f"
     psalmus = "Ef 1"
     id = "ne-a3"
-    fial = "antifony/tyden4_5ctvrtek.ly#up-ant1?zacatek"
+    fial = "antifony/tyden4_5ctvrtek.ly#up-ant1?zacatek=23"
     piece = \markup {\sestavTitulek}
   }
 }
