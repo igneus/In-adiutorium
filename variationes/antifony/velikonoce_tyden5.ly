@@ -2673,3 +2673,81 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a c c b c a( g) g \barMin
+    a a( c b) c d d \barMaior
+    d d c b c( a g4.) g \barMin
+    a4 a a g f g( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Prá -- vě pro -- to Kris -- tus u -- mřel
+    a vstal k_ži -- vo -- tu,
+    a -- by se stal Pá -- nem
+    nad mrt -- vý -- mi i nad ži -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a c c b a c( d) d \barMin
+    d e( c) c d d \barMaior
+    d d c b c( a g4.) g \barMin
+    a4 a a g f g( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Prá -- vě pro -- to Kris -- tus u -- mřel
+    a vstal k_ži -- vo -- tu,
+    a -- by se stal Pá -- nem
+    nad mrt -- vý -- mi i nad ži -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c c b a c( d) d \barMin
+    d \mark\sipka d( e c) c d d \barMaior
+    d d c b c( a g4.) g \barMin
+    a4 a a g f g( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Prá -- vě pro -- to Kris -- tus u -- mřel
+    a vstal k_ži -- vo -- tu,
+    a -- by se stal Pá -- nem
+    nad mrt -- vý -- mi i nad ži -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

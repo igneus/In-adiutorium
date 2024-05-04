@@ -873,6 +873,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     a4 a( g a4.) g \barMin
     f4 g a g \mark\sipka f d
