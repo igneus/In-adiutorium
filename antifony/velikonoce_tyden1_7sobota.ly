@@ -52,6 +52,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Ex 15"
+    placet = "před _Mojžíše_ je divný přeryv, ale zatím nevidím, jak ten text uchopit výrazně lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
