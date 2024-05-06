@@ -75,6 +75,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    scriptura = "Lk 24, 34"
     id = "ne-2ne"
     titulus = "neděle - druhé nešpory"
     piece = \markup\sestavTitulekRespII
@@ -110,6 +111,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    scriptura = "srov. Jan 14, 26"
     id = "odnanebevstoupeni-ne"
     titulus = "od slavnosti Nanebevstoupení Páně - všední dny i neděle - nešpory"
     piece = \markup\sestavTitulekRespII
@@ -180,6 +182,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    scriptura = "srov. Jan 20, 20" % v latině citát (Vulgáty, ne Neovulgáty), v češtině volné převyprávění
     id = "ferie-ne"
     titulus = "pondělí až první nešpory neděle - nešpory"
     piece = \markup\sestavTitulekRespII
