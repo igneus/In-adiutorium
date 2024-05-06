@@ -669,6 +669,34 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    e4 f( e) d( e) e \barMin
+    f g a a g( a) a \barMaior
+    b c a
+    g a g f e d( e) e \barMaior
+    e f e f g a g
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Kdo zví -- tě -- zí,_*
+    bu -- dou zpí -- vat pí -- seň
+    Moj -- ží -- še,
+    Bo -- ží -- ho slu -- žeb -- ní -- ka,
+    a pí -- seň Be -- rán -- ko -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Ex 15"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \key d \major
     \time 3/4
