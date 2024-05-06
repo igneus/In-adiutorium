@@ -201,8 +201,8 @@
     \choralniRezim
     c4 d d( f) f \barMaior
     g f f g( a) g f g( f) \barMin
-    d c c d f e c( d) d \barMaior
-    e f d( c) d \barFinalis
+    d c d f f f e c
+    e f d d \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
