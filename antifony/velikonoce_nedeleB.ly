@@ -270,6 +270,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -280,7 +281,7 @@
     \choralniRezim
     \key f \major
     d4 f g f( g) g \barMin
-    g a bes a g a f g g( a) a \barMaior
+    g g a bes a g f g g( a) a \barMaior
     a a g f g a g f e f d( c) c \barMin
     d f e( d) d \barFinalis
   }

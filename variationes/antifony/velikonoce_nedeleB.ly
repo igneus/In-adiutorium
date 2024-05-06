@@ -1651,6 +1651,150 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a g f g g( a) \barMaior
+    a a g( f e) \barMin e( f) d c \mark\sipka c \barMaior
+    d d d f e( d) c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a g f g g( a) \barMaior
+    \mark\sipka g f f( d) \barMin f e d c \barMaior
+    d d d f e( d) c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g a a e \barMaior
+    f g g( a) \barMin g f g e \barMaior
+    f g a a g( a) a \barMin
+    g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g a a e \barMaior
+    f g g( a) \barMin g f g e \barMaior
+    \mark\sipka d e f g g( e) e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a bes a g g( a) \barMin
+    a g f g a a g \barMaior
+    f g a a g( f d4.) d \barMin
+    f4 g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a bes a g g( a) \barMin
+    a g f g a a g \barMaior
+    \mark\sipka a a g f g( f d4.) d \barMin
+    f4 g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1681,7 +1825,7 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 f g \mark\sipka f( g) g \barMin
@@ -1707,7 +1851,7 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     d4 f g f( g) g \barMin
