@@ -32,8 +32,8 @@
   \relative c' {
     \choralniRezim
     d4-- f4 e d c \barMaior
-    d d( e f) d( c) c
-    a c d d \barFinalis
+    f f( g f) d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Pán pře -- mo -- hl smrt
@@ -98,6 +98,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 118"
+    placet = "závěr nelíbí"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -131,7 +132,7 @@
   \relative c' {
     \choralniRezim
     d4 c d d( f) f \barMin
-    g a g f e( f) d( c) c \barMaior
+    g a g f e( f) d( c) c \barMin
     d f( e) d d \barMaior
     f d
     f g( f) d d \barFinalis
@@ -161,7 +162,7 @@
     g4 g( d') d d( e) d c c \barMaior
     c c b a c b( a) g \barMin
     a a g( a) g f
-    g a a( g) g \barFinalis
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Bůh vzkří -- sil Kris -- ta z_mrt -- vých
@@ -180,11 +181,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a g f g f d d \barMin
-    f f f e c
-    e f d d \barFinalis
+    g4( a) c( d) d \barMin c d e c d d \barMaior
+    d d d c bes
+    a g a a \barFinalis
   }
   \addlyrics {
     Od mo -- del jste se o -- brá -- ti -- li
@@ -193,8 +194,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 115"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
