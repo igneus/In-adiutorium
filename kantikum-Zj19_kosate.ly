@@ -158,7 +158,7 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
     f4 f f f f f f f e d e( f) d \barFinalis
     \modIIal
     \neviditelna d
-    c4 d( f) f f f f f f f f f f e c( d) d \barFinalis
+    c4 d f f f f f f f f f f e c( d) d \barFinalis
     \modIIalal
 
     % Chvalte naseho Boha
@@ -166,7 +166,7 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
     f4 f f f f g f \barMin f f e d e( f) d d \barFinalis
     \modIIal
     \neviditelna d
-    c4 d( f) f f f f f f f e c( d) d \barFinalis
+    c4 d f f f f f f f e c( d) d \barFinalis
     \modIIalal
 
     % Pan, nas Buh
@@ -174,7 +174,7 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
     f4 f f f f f f e d e( f) d d \barFinalis
     \modIIal
     \neviditelna d
-    c4 d( f) f f f f f f f e c c( d) \barFinalis
+    c4 d f f f f f f f e c( d) d \barFinalis
     \modIIalal
 
     % Nebot nadesla
@@ -182,7 +182,7 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
     f4 f f f f f f e d e( f) d \barFinalis
     \modIIal
     \neviditelna d
-    c4 d( f) f f f f f e c( d) d \barFinalis
+    c4 d f f f f f e c( d) d \barFinalis
     \modIIalal
 
     % Slava
@@ -193,7 +193,7 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
     % podle logiky toho napevu ze Solesmes by "svatemu" nebylo "cd d d", ale "c cd d"
     % ale v ramci projektu In adiutorium tenhle styl terminace modu II neni obvykly
     % a tady mi to k ceskemu textu nesedi
-    c4 d( f) f f( e) c( d) d \barFinalis
+    c4 d f f( e) c( d) d \barFinalis
     \modIIalal
 
     % Jako byla
@@ -201,7 +201,7 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
     f4 f f f f f f f f f e d e( f) d \barFinalis
     \modIIal
     \neviditelna d
-    c4 d( f) f f f e c( d) d \barFinalis
+    c4 d f f f e c( d) d \barFinalis
     \modIIalal
   }
   \addlyrics {

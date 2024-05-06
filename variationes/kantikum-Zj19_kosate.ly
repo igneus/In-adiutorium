@@ -287,6 +287,7 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % Vitezstvi
@@ -354,6 +355,7 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % Vitezstvi
@@ -422,6 +424,11 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
 \score {
   \relative c' { \choralniRezim \neviditelna c c4 d f f f f f f f e \mark\sipka c d \barFinalis }
   \addlyrics { \Verse Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest! }
+}
+
+\score {
+  \relative c' { \choralniRezim \neviditelna c c4 d f f f f f f \mark\sipka e c c( d) d \barFinalis \barFinalis }
+  \addlyrics { \Verse a kdo se ho bo -- jí -- te, ma -- lí i vel -- cí! }
 }
 
 modIIial = \relative c' { \neviditelna d c4 d d( f) f( g) \barMax }
