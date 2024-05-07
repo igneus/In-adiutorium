@@ -18,7 +18,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) a( g) g \barMin f g a a a( c) a \barMaior
+    a4( g a) a( g) g \barMin f g a a c a \barMaior
     a a( b c) c \barMin b a b( c) a a( g) \barMaior
     c d e c d c c \barMin c b c a g a( g) \barMaior
     a b c b c a g( a) a \barMaior
@@ -36,7 +36,6 @@
     modus = "II"
     differentia = "A"
     psalmus = "Žalm 63"
-    placet = "_krví_: nezpěvná slabika melisma často snese, ale takovéhle ne; _svědectví_ + _natolik_: nudné opakování závěru"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -71,9 +70,9 @@
   \relative c'' {
     \choralniRezim
     d4 d d d( e) c c d d \barMaior
-    f e d e c d d \barMaior
-    c c c b g a( g) g \barMin
-    f a g g \barFinalis
+    f e d e c c( d) d \barMaior
+    d c b a b g g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     To bu -- de ú -- děl ví -- tě -- ze:
@@ -153,10 +152,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g a g f a a( g) \barMin
-    a c b( c) a a \barMaior
-    c c b a g a g g \barMin
-    f a a( g) g \barFinalis
+    g4 g g a g f g g( a) \barMin
+    c( b) a c( b) g g \barMaior
+    a a a a f e d d \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Všich -- ni, kdo chtě -- jí zbož -- ně žít
@@ -238,6 +237,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "značně netypická; v modu nesedí moc pevně"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
