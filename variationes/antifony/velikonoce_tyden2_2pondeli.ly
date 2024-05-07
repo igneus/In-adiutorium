@@ -98,6 +98,53 @@
   }
 }
 
+\markup{
+  (úprava na oficiální text)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a a g f g( f) e \barMaior
+    f g f e \mark\sipka d( c) c \barMin d4 f e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,_*
+    tak prah -- ne má du -- še po to -- bě, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 42"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a a g f g( f) e \barMaior
+    f \mark\sipka f g f e( d) c \barMin d4 f e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,_*
+    tak prah -- ne má du -- še po to -- bě, Bo -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 42"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -542,6 +589,32 @@
     \choralniRezim
     d4 d d( c) c( d) d \barMaior
     \mark\sipka d( f) e f( g) g \barMin g( a) g f( e d e) e( d) \barMaior
+    d c d f( g f d) d d e( f) d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží ve -- leb -- nost_*
+    o -- za -- řu -- je sva -- té měs -- to
+    a je -- ho svět -- lem je Be -- rá -- nek.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19-A"
+    id = "rch-a3"
+    fons = "Druha cast z:"
+    fial = "commune/commune_apostol.ly#rch-aben?konec=19"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( c) c( d) d \barMaior
+    d( f) e f( g) g \barMin g( a) g \mark\sipka f( e d) d \barMaior
     d c d f( g f d) d d e( f) d d \barMaior
     e c c( d) d \barFinalis
   }

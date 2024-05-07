@@ -149,6 +149,32 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
+    d4( a') a \barMin g( a) bes c bes( a) a \barMin
+    bes a g f f( g a) g \barMaior
+    \mark\sipka a a a a( bes) a a g f g f e \barMin
+    f d c( d e) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    Spa -- si -- te -- li svě -- ta;
+    pod je -- ho kří -- žem
+    spo -- lu s_ním tr -- pě -- la je -- ho Mat -- ka.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    fial = "sanktoral/0624narozenikrtitele.ly#invit?zacatek=11"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4( f) f \barMin d( f) f f f( g) g \barMin
     a a g f g( a g) g \barMaior
     a g f e( f d4.) d \barMin
