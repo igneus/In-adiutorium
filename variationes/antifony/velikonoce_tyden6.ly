@@ -2070,10 +2070,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 b d( e) d d \barMin c b a c( b) a( g) g \barMaior
     a g f g( a) a c d e d( c d) d \barMaior
+    e f e d c d d( c) \barMin
+    c c b g a g f a a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh nás ob -- no -- vil k_no -- vé -- mu ži -- vo -- tu
+    a zmrt -- vých -- vstá -- ním Je -- ží -- še Kris -- ta
+    nám dal ži -- vou na -- dě -- ji
+    na dě -- dic -- tví, kte -- ré ne -- po -- mi -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e) d d \barMin c b a c( b) a( g) g \barMaior
+    a \mark\sipka f g g( a) a \barMin c d e d( c d) d \barMaior
     e f e d c d d( c) \barMin
     c c b g a g f a a( g) g \barMaior
     f g( a) g g \barFinalis
@@ -2288,7 +2315,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 c( d) d \barMin
     d c d( e) d d \barMin
@@ -2296,6 +2323,34 @@
     a b c a g f g g \barMaior
     \mark\sipka a c b c d c b a g g \barMin
     a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a b c a g f g g \barMaior
+    a c b c d c b \mark\sipka g a a \barMin
+    b a g g \barFinalis
   }
   \addlyrics {
     Duch prav -- dy,
@@ -2352,6 +2407,91 @@
     a b c a g f g g \barMaior
     a c b c d d c \mark\sipka a g g \barMin
     a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a \mark\sipka g f g a a g g \barMaior
+    a c b c d c b g a a \barMin
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a a g g \barMaior
+    \mark\sipka c c c d e d c b a a \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a a g g \barMaior
+    \mark\sipka a a a c b a g a g g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Duch prav -- dy,

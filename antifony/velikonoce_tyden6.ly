@@ -234,7 +234,7 @@
   \relative c'' {
     \choralniRezim
     d4 b d( e) d d \barMin c b a c( b) a( g) g \barMaior
-    a g f g( a) a c d e d( c d) d \barMaior
+    a f g g( a) a \barMin c d e d( c d) d \barMaior
     e f e d c d d( c) \barMin
     c c b g a g f a a( g) g \barMaior
     f g( a) g g \barFinalis
@@ -262,9 +262,9 @@
     a4 c( d) d \barMin
     d c d( e) d d \barMin
     c( b) a( g) g \barMaior
-    a b c a g f g g \barMaior
-    a c b c d c b a g g \barMin
-    a g f( g) g \barFinalis
+    a g f g a a g g \barMaior
+    a c b c d c b g a a \barMin
+    b a g g \barFinalis
   }
   \addlyrics {
     Duch prav -- dy,
