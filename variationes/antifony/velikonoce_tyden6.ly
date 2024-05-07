@@ -2688,6 +2688,10 @@
 
 \pageBreak
 
+\markup\justify{
+  (nápěv řečí Páně z pašijí; urputně se mi vnucoval, takže jsem nemohl přijít na jiný)
+}
+
 \score {
   \relative c' {
     \choralniRezim
