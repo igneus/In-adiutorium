@@ -35,12 +35,20 @@ all_files = `git ls-files`.split
     .select {|f| f.end_with?('.ly') }
     .partition {|f| !f.include?('variationes/') }
 
-modified_ly_files = lambda do
+ly_files_of = lambda do |files|
   # TODO: once on Ruby 2.7, simplify using Array#intersection
-  Set.new(`git ls-files --modified`.split)
+  Set.new(files.split)
     .intersection(Set.new(all_ly_files))
     .to_a
     .sort
+end
+
+modified_ly_files = lambda do
+  ly_files_of.call `git ls-files --modified`
+end
+
+staged_ly_files = lambda do
+  ly_files_of.call `git diff --name-only --cached`
 end
 
 build_standalone_ly = standalone_ly_files.collect do |source|
@@ -166,6 +174,14 @@ namespace :sanity do
   task :copies_of_modified do
     # TODO get list of fials of modified scores and `checkcopies.rb -c` each
     modified_ly_files.call.each do |m|
+      ruby 'nastroje/checkcopies.rb', '-af', '-c', m, *all_ly_files
+    end
+  end
+
+  desc 'As sanity:copies, but only check copies of scores from files staged for commit'
+  task :copies_of_staged do
+    # TODO get list of fials of modified scores and `checkcopies.rb -c` each
+    staged_ly_files.call.each do |m|
       ruby 'nastroje/checkcopies.rb', '-af', '-c', m, *all_ly_files
     end
   end
