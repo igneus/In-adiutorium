@@ -964,6 +964,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 g a c( d) d \barMin
+    d e c b( c) a( g) g \barMin
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh vy -- svo -- bo -- dil
+    mou du -- ši z_pod -- svě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 49-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g( d' e) d c( d) c \barMin
     a g f g( a) g g \barMaior
     f g( a) g g \barFinalis
