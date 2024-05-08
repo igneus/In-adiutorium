@@ -320,7 +320,7 @@
     f4 f f e d d \barMaior
     f f e d f f \barMin
     f f f( e) d d d \barMaior
-    a' a a a g bes a g f \barMin
+    a' a a a g bes a g( f) f \barMin
     f f f e( c) d e f \barMaior
     g a( g) f f \barFinalis
   }
