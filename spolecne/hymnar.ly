@@ -15,6 +15,7 @@
   ragged-last = ##f
 
   \override BreathingSign.Y-offset = 1 % placement common in Czech hymnals
+  % TODO: the usual Czech breathe sign shape
 }
 
 \header {
