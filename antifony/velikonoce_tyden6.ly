@@ -350,7 +350,7 @@
   \relative c'' {
     \choralniRezim
     g4 a a a a g f g a g e e \barMaior
-    d f g g g g g f g e \barMax
+    d e f f f f g f g e \barMax
     f g g( a) a g b( c a) a \barMaior
     a( b) a g g( e) \barMin e d e f g
     g f e e \barFinalis

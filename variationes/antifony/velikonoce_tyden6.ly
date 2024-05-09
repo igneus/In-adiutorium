@@ -2813,12 +2813,147 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a a g f g a g e e \barMaior
     d f g g g g g f g e \barMax
     f g g( a) a g b( c a) a \barMaior
     a( b) a g g( e) \barMin \mark\sipka e d e f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
+    a -- le teď by -- ste to ne -- moh -- li snést.
+    Až však při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a a g f g a g e e \barMaior
+    d f g g g g g f g e \barMax
+    f g g( a) a g b( c a) a \barMaior
+    \mark\sipka g a g g( e) \barMin e d e f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
+    a -- le teď by -- ste to ne -- moh -- li snést.
+    Až však při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a a g f g a g e e \barMaior
+    d f g g g g g f g e \barMax
+    f g g( a) a g b( c a) a \barMaior
+    g a g \mark\sipka g( f d) \barMin d c d f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
+    a -- le teď by -- ste to ne -- moh -- li snést.
+    Až však při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a a g f g a g e e \barMaior
+    d f g g g g g f g e \barMax
+    f g g( a) a g b( c a) a \barMaior
+    \mark\sipka a b a a( g e) \barMin e d e f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
+    a -- le teď by -- ste to ne -- moh -- li snést.
+    Až však při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Tahle verze vznikla sluchovým omylem, na mysli jsem měl
+  melodii níže.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a a g f g a g e e \barMaior
+    d f g g g g \mark\sipka a g a e \barMax
+    f g g( a) a g b( c a) a \barMaior
+    a( b) a g g( e) \barMin e d e f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
+    a -- le teď by -- ste to ne -- moh -- li snést.
+    Až však při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a a a g f g a g e e \barMaior
+    d \mark\sipka e f f f f g f g e \barMax
+    f g g( a) a g b( c a) a \barMaior
+    a( b) a g g( e) \barMin e d e f g
     g f e e \barFinalis
   }
   \addlyrics {
@@ -2919,6 +3054,30 @@
     \choralniRezim
     c4 c( d) c c d( e d) c( b a) a \barMaior
     c c c \mark\sipka b( c) a g( a) g \barMin
+    g a f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy mě o -- sla -- ví,
+    pro -- to -- že z_mé -- ho vez -- me
+    a vám to o -- zná -- mí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) \mark\sipka d c d( e d) c( b a) a \barMaior
+    c c c b a g( a) g \barMin
     g a f g( a) a( g) g \barMaior
     f g( a) g g \barFinalis
   }
