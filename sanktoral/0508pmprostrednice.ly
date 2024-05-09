@@ -122,7 +122,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a a g f d( e d c) c \barMaior
+    f4 g g( a) a a g f d( c) c \barMaior
     d d( f) f \barMin
     f g a g f( g) f e d d \barMin
     d c d d( f) e d c( d) d \barMaior
