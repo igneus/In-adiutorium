@@ -3130,12 +3130,65 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a a c b g a g g \barMin
     f g g \barMaior
     g g g f e d d f g g( a) a \barMaior
     a g \mark\sipka a a( c) b g g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Za -- krát -- ko mě už ne -- spa -- tří -- te,
+    pra -- ví Pán,
+    a o -- pět za -- krát -- ko mě u -- vi -- dí -- te,
+    ne -- boť od -- chá -- zím k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 \mark\sipka c c c a c b g g \barMin
+    f g g \barMaior
+    g g g f e d d f g g( a) a \barMaior
+    a g a a( c) b g g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Za -- krát -- ko mě už ne -- spa -- tří -- te,
+    pra -- ví Pán,
+    a o -- pět za -- krát -- ko mě u -- vi -- dí -- te,
+    ne -- boť od -- chá -- zím k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c a c b g g \barMin
+    f g g \barMaior
+    g g g f e d d f g g( a) a \barMaior
+    a \mark\sipka a b c b g g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -3186,7 +3239,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) f( e) e \barMin
     d e f g g( a) a \barMaior
@@ -3206,6 +3259,63 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f( e) d( e) e \barMin
+    e4 f g g( a) a \barMaior
+    a g a a( b a g) g( e) \barMin
+    g a g f( e) d( e) e \barMaior
+    g g( a) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Váš zá -- rmu -- tek
+    se změ -- ní v_ra -- dost
+    a va -- ši ra -- dost
+    vám ni -- kdo ne -- vez -- me.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Váš zármutek se obrátí v radost
+    a vaši radost vám nikdo nevezme. Aleluja."
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden3_4streda.ly#ne-a1?zacatek=10"
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 f( e) d( e) e \barMin
+    \mark\sipka f g a a g( a) a \barMaior
+    a g a a( b a g) g( e) \barMin
+    g a g f( e) d( e) e \barMaior
+    g g( a) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Váš zá -- rmu -- tek
+    se ob -- rá -- tí v_ra -- dost
+    a va -- ši ra -- dost
+    vám ni -- kdo ne -- vez -- me.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden3_4streda.ly#ne-a1?zacatek=6"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -3306,6 +3416,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b g g a( b) a g g( a) \barMin
+    a g a a g f e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš je ko -- ru -- no -- ván slá -- vou a ctí,
+    pro -- to -- že vy -- tr -- pěl smrt.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "h"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -3334,7 +3466,8 @@
 }
 
 \markup\justify{
-  Podobný text je v antifoně "antifony/mezidobi_nedeleC_11_20.ly#ne17c-2ne-amag"
+  Podobný text je v antifoně
+  \fial-link "antifony/mezidobi_nedeleC_11_20.ly#ne17c-2ne-amag"
   a jedné další velmi podobné, ale daný úryvek melodie funguje jenom v kontextu
   daného zhudebněného souvětí a sem se smysluplně přenést nedá.
 }

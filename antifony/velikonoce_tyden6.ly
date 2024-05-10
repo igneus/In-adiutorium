@@ -401,7 +401,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a a c b g a g g \barMin
+    c4 c c c a c b g g \barMin
     f g g \barMaior
     g g g f e d d f g g( a) a \barMaior
     a g a a( c) b g g \barMin
@@ -425,13 +425,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g( a) f( e) e \barMin
-    d e f g g( a) a \barMaior
-    a c b a( b a g) g \barMin
-    g a g f( e) d( e) d \barMaior
-    f f( g) e e \barFinalis
+    e4 f( e) d( e) e \barMin
+    f g a a g( a) a \barMaior
+    a g a a( b a g) g( e) \barMin
+    g a g f( e) d( e) e \barMaior
+    g g( a) f( e) e \barFinalis
   }
   \addlyrics {
     Váš zá -- rmu -- tek
@@ -443,8 +443,9 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = ""
+    fial = "antifony/velikonoce_tyden3_4streda.ly#ne-a1?zacatek=6"
     id = "ct-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
