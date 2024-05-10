@@ -123,7 +123,7 @@
     c4( d c) c \barMin
     b c a g a g f( g) g \barMaior
     g f d f( g) g \barMin
-    g a c b( c a) a \barMin
+    a c c b( c a) a \barMin
     b a g f g \barMaior
     f g( a) g g \barFinalis
   }
@@ -181,7 +181,7 @@
     c4 b c d( e) d \barMin
     e f e d c d d \barMaior
     d d( e) e( d) d c b a( g) g \barMin
-    f g a( g) g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- te Bo -- hu,
@@ -264,7 +264,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "antifony/velikonoce_tyden4.ly#pa-aben?zacatek"
+    fial = "antifony/velikonoce_tyden4.ly#pa-aben?zacatek=10"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -454,7 +454,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( c) c \barMin
+    g4 a a( c) c \barMin
     d( a) a \barMin
     b c( a) g f g( a g) g \barMaior
     f g( a) g4 g \barFinalis
@@ -468,7 +468,7 @@
   \header {
     quid = "ant. odpoledne"
     modus = "VIII"
-    differentia = "G*"
+    differentia = "G"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -587,8 +587,8 @@
     c4 c b( c a4.) a g4 a( b) b( c) c \barMax
 
     b c a( g) g g f e e \barMaior
-    a b c( b a) b g4.( a) \barMin
-    a4( g) f e e e f f( e) e \barMax
+    g a c( b a) b g4.( a) \barMin
+    a4( g) f e e e f f( e) e \barMaior
     e f( d) d( e) e \barFinalis
   }
   \addlyrics {
