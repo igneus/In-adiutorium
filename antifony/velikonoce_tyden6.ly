@@ -456,7 +456,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a c b a a b( c) a g a( g) \barMin
+    c4 c a c b g g f( g) a a g( a) \barMin
     f g a a g f e \barMaior
     f f d( e) e \barFinalis
   }
@@ -467,8 +467,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
-    differentia = "g"
+    modus = "III"
+    differentia = "h"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -476,12 +476,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d( f) e d c( d) d \barMin
-    d c b c( a) a( g) g \barMaior
-    a g f g( a g) g \barMaior
-    f g( a) g g \barFinalis
+    d4 d c d d( f) f \barMin
+    g f e d( c) d c \barMin
+    d d f e( f d) d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Váš ne -- bes -- ký O -- tec
@@ -491,9 +491,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne17c-2ne-amag?konec=7&+aleluja"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
