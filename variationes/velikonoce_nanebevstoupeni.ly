@@ -2541,6 +2541,14 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
+\markup\justify{
+  \italic{
+    Eleváta est magnificéntia tua super cælos, Deus, allelúia.
+  }
+  - tradiční antifona, \cantusid-link "002634".
+  Má klasický IV.A nápěv, pro kratší český text ho však rozumně použít nejde.
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -2873,6 +2881,29 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f( g) g \barMin
+    a bes a g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Svou ve -- leb -- nos -- tí
+    pře -- vý -- šils, Bo -- že, ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "per"
+    differentia = ""
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#rch-a2?konec=16"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }

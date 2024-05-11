@@ -757,6 +757,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d f e d c a b( c) c \barMaior
+    c( d c) b( g) c a a \barMaior
+    \mark\sipka b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din vy -- svo -- bo -- dil můj ži -- vot_*
+    z_pod -- ru -- čí smr -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 116-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 c d f f e d c c( d) d \barMaior
@@ -784,6 +806,28 @@
     d4 c d f f e d c c( d) d \barMaior
     \mark\sipka d( e d) c( a) c d d \barMaior
     e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din vy -- svo -- bo -- dil můj ži -- vot_*
+    z_pod -- ru -- čí smr -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e d c c( d) d \barMaior
+    \mark\sipka f( g f) e( c) f d d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din vy -- svo -- bo -- dil můj ži -- vot_*

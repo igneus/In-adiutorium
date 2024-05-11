@@ -838,6 +838,32 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) g f f( g) g \barMaior
+    bes a g( a) g g \barMin
+    g f d f g a a g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a c c c d( e) d \barMaior
