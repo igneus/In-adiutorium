@@ -16,9 +16,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c d e c d \barMaior
-    d c d e( d) d \barMin
-    c d c b a g g( a) a \barMaior
+    d4 d c a c d d \barMaior
+    a c d c( d) d \barMin
+    f f e d e c c( d) d \barMaior
     c a c b a( g) g \barMin
     f g a c b g a a \barFinalis
   }
@@ -34,8 +34,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    placet = "asi ještě tolerovatelná, ale ne pěkná - recyklace existujícího nápěvu se tu moc nepovedla"
-    fial = "antifony/tyden3_3utery.ly#ne-ant2?konec"
+    fial = "antifony/tyden3_3utery.ly#ne-ant2?konec=22"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
