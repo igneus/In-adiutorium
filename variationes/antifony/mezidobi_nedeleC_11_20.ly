@@ -1512,6 +1512,29 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    \mark\sipka d c b a( g a4.) g \barMin
+    a4 g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se,
+    že va -- še jmé -- na
+    jsou za -- psá -- na v_ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne14c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     e4 g g( a) a \barMin

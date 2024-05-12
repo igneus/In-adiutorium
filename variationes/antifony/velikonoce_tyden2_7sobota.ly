@@ -168,6 +168,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( c) b g a \barMaior
+    a g a g f d( e) e \barMaior
+    f \mark\sipka f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Já dá -- vám ži -- vot i smrt,_*
+    já zra -- ňu -- ji i ho -- jím.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dt 32"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
