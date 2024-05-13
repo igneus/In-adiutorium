@@ -17,7 +17,7 @@
     e4 a( g) a( b) g( f e) \barMaior
     d d( a') a a( b) a g g \barMin
     f f( g a) g( a) f( e) e \barMaior
-    f d d( e) e \barFinalis
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
@@ -54,6 +54,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 145-II"
+    placet = "co do vzletnosti melodie za textem zaostává"
     id = "ne-mc-a2"
     piece = \markup {\sestavTitulek}
   }

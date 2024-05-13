@@ -46,12 +46,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 a( g) a( b) g( f e) \barMaior
     \mark\sipka d d( a') a a( b) a g g \barMin
     f f( g a) g( a) f( e) e \barMaior
     \mark\sipka f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Bůh vzkří -- sil Kris -- ta z_mrt -- vých
+    a o -- sla -- vil ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 145-I"
+    id = "ne-mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 a( g) a( b) g( f e) \barMaior
+    d d( a') a a( b) a g g \barMin
+    f f( g a) g( a) f( e) e \barMaior
+    \mark\sipka f f d( e) e \barFinalis
   }
   \addlyrics {
     A -- le -- lu -- ja.
