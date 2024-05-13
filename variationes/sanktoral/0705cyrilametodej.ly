@@ -1487,6 +1487,94 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \mark\sipka \barMin f f e d e f d d \barMaior
+    d c d f g f d d \barMin
+    e4 d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce,
+    je -- den pas -- týř.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin g g f e f d d( c) c \barMaior
+    d c d d e f d d \barMin
+    e4 d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce,
+    je -- den pas -- týř.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin g g f e f d \mark\sipka c( d) d \barMaior
+    d f e d d e c c \barMin
+    d e e( d) d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce,
+    je -- den pas -- týř.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin g a g f g a a( g) g \barMaior
+    a a g f e f d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce,
+    je -- den pas -- týř.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

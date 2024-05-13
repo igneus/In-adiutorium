@@ -492,6 +492,104 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+      d4( a' bes) a \barMin g( a) bes a g g \barMin
+      g a g f( e d c) c \barMaior
+      \mark\sipka d e f f e d e d c \barMin
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu,
+      na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      fial = "commune/commune_panna.ly#invit2?zacatek=11"
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g f d d f( g a) g \barMin
+      a bes a g( f g4.) g \barMaior
+      a4 a g f e f d c c \barMin
+      d f e( d) d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu,
+      na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g f d d f( g a) g \barMin
+      \mark\sipka g f a g g \barMaior
+      a4 a g f e f d c c \barMin
+      d f e( d) d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu,
+      na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g f d d f( g a) g \barMin
+      g f a g g \barMaior
+      a4 \mark\sipka bes a g f g f e d \barMin
+      e c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me, klaň -- me se Kris -- tu,
+      na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"nedělní vigilie"}}
