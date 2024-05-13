@@ -466,11 +466,39 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( f e) \barMin e d e e e f e d d f e f( a) a \barMaior
     a a a a g( a b) a a \mark\sipka \barMin g( a) f e e \barMaior
     f g a a g f g g e e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží Syn se na -- u -- čil svým u -- tr -- pe -- ním po -- sluš -- nos -- ti,
+    a tak se stal pří -- či -- nou věč -- né spá -- sy
+    pro všech -- ny, kte -- ří ho po -- slou -- cha -- jí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Jen divisio)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( f e) \barMin e d e e e f e d d f e f( a) a \barMaior
+    a a a a g( a b) a a \barMin g( a) f e e \barMaior
+    f g a a g f g g e e \mark\sipka \barMin
     f f d( e) e \barFinalis
   }
   \addlyrics {
@@ -1387,6 +1415,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c b a g \mark\sipka a g f( g) g \barMin
+    f g a a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka c4 a c d c e c d d \barMin
     c c b g
     a g f( g) g \barFinalis
@@ -1400,6 +1450,77 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (Pravděpodobně nejde o tradiční antifonu, ale o solesmeskou
+  neogregoriánskou tvorbu.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a b a c b a a \barMin
+    b c a a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle Antiphonale Romanum II, Solesmis 2009, s. 216"
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c( b g) g f g g( a) a \barMin
+    b c a a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b b a g a a \barMin
+    c b a a
+    a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 111"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
@@ -1422,6 +1543,28 @@
     quid = "2. ant."
     modus = "II"
     differentia = "A"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d c f g a g \barMin
+    g a bes a
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 111"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
