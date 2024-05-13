@@ -505,11 +505,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 g g( a) a a g a \barMaior
+    e4 g a a g a a \barMaior
     a a g f g a a g( a g) f e e \barMin
     f d f e \barMaior
-    g a a
-    g f d( e) e \barFinalis
+    f g g
+    a g e e \barFinalis
   }
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:

@@ -3819,7 +3819,33 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \choralniRezim
+    e4 g g( a) a a g a \barMaior
+    a a g f g a a g( a g) f e e \barMin
+    f d f e \barMaior
+    f g g
+    \mark\sipka a g e e \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    O co -- ko -- li bu -- de -- te pro -- sit Ot -- ce
+    ve jmé -- nu mém,
+    dá vám to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 g g( a) a a g a \barMaior
     a a g f g a a g( a g) f e e \barMin
@@ -3852,6 +3878,138 @@
     f d f e \barMaior
     \mark\sipka g( a) g f
     a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    O co -- ko -- li bu -- de -- te pro -- sit Ot -- ce
+    ve jmé -- nu mém,
+    dá vám to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g g( a) a a g a \barMaior
+    a a g f g a a g( a g) f e e \barMin
+    f d f e \barMaior
+    \mark\sipka f e d
+    f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    O co -- ko -- li bu -- de -- te pro -- sit Ot -- ce
+    ve jmé -- nu mém,
+    dá vám to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    e4 g g( a) a a g a \barMaior
+    \mark\sipka c c b a g a a g( a g) f e e \barMin
+    f d f e \barMaior
+    f g g
+    a g e e \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    O co -- ko -- li bu -- de -- te pro -- sit Ot -- ce
+    ve jmé -- nu mém,
+    dá vám to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 g \mark\sipka a a g a a \barMaior
+    a a g f g a a g( a g) f e e \barMin
+    f d f e \barMaior
+    f g g
+    a g e e \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    O co -- ko -- li bu -- de -- te pro -- sit Ot -- ce
+    ve jmé -- nu mém,
+    dá vám to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 \mark\sipka e g( a) a a g a \barMaior
+    a a g f g a a g( a g) f e e \barMin
+    f d f e \barMaior
+    g a a
+    g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    O co -- ko -- li bu -- de -- te pro -- sit Ot -- ce
+    ve jmé -- nu mém,
+    dá vám to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 e g( a) a a g a \barMaior
+    a a g f g a a g( a g) f e e \barMin
+    f d f e \barMaior
+    g a a
+    g f d( e) e \barFinalis
   }
   \addlyrics {
     A -- men, a -- men, pra -- vím vám:
