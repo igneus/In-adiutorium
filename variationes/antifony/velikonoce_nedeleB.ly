@@ -1993,6 +1993,7 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d e( c) c \barMaior
     d( e) f d c d c a a \barMin a g f g a \barMaior
@@ -2009,6 +2010,31 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "d"
+    psalmus = ""
+    id = "viimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e g( a) a \barMin
+    a a g a b g a a \barMin g f e d e \barMaior
+    c d e f g g f g e \barMin
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ot -- če sva -- tý,_*
+    za -- cho -- vej je ve svém jmé -- nu, kte -- ré jsi mi dal,
+    a -- by by -- li jed -- no ja -- ko my.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "viimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -2165,12 +2191,85 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c( d) d \barMin f e d \mark\sipka f( g a g) g \barMaior
     a a g f d d d( e) f d c c \barMaior
     d d c d d( f) f \barMin \mark\sipka g a g f( g) f f
     e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ny -- ní jdu k_to -- bě,_*
+    a -- le to -- to mlu -- vím ješ -- tě ve svě -- tě,
+    a -- by mě -- li v_so -- bě pl -- nost mé ra -- dos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "viiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c( d) d \barMin f e d \mark\sipka f( g a) g \barMaior
+    a a g f d d \mark\sipka e f d c c \barMaior
+    d d c d d( f) f \barMin g \mark\sipka f g f( e) d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ny -- ní jdu k_to -- bě,_*
+    a -- le to -- to mlu -- vím ješ -- tě ve svě -- tě,
+    a -- by mě -- li v_so -- bě pl -- nost mé ra -- dos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "viiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c( d) d \barMin f e d f( g a) g \barMaior
+    a a g f d d e f d c c \barMaior
+    d d c d d( f) f \barMin g \mark\sipka a f e( f) d d
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ny -- ní jdu k_to -- bě,_*
+    a -- le to -- to mlu -- vím ješ -- tě ve svě -- tě,
+    a -- by mě -- li v_so -- bě pl -- nost mé ra -- dos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "viiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c( d) d \barMin f e d f( g a) g \barMaior
+    a a g f d d e f d c c \barMaior
+    d d c d d( f) f \barMin g a f e( f) \mark\sipka d( c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Ot -- če, ny -- ní jdu k_to -- bě,_*
@@ -2225,7 +2324,7 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a \barMin \mark\sipka a a a g( a) g f g a a \barMaior
     a a c a g a \mark\sipka f e( f) d d \barMax
@@ -2246,6 +2345,34 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
     differentia = "a2"
     psalmus = ""
     fial = "mezidobi_kristakneze.ly#ne-amag?konec&+aleluja"
+    id = "viimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) a \barMin a a a g( a) g f g a a \barMaior
+    a a c a g a \mark\sipka g f d d \barMax
+    d f e d f g \mark\sipka a( g) g \barMaior
+    a a a g( f) f \barMin e f g a f e d d \barMaior
+    e \mark\sipka d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, ja -- ko jsi mne pos -- lal do svě -- ta,_*
+    tak i já jsem je pos -- lal do svě -- ta;
+    a pro ně se za -- svě -- cu -- ji,
+    a -- by i o -- ni by -- li po -- svě -- ce -- ni v_prav -- dě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    fial = "mezidobi_kristakneze.ly#ne-amag?konec=15&+aleluja"
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

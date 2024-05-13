@@ -332,12 +332,12 @@
 \markup {\nadpisDen {7. neděle velikonoční}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d e( c) c \barMaior
-    d( e) f d c d c a a \barMin a g f g a \barMaior
-    a a c( d) d e( d c) a( g) \barMin a( c b) g a \barMaior
-    g c b( a) a \barFinalis
+    d4 e g( a) a \barMin
+    a a g a b g a a \barMin g f e d e \barMaior
+    c d e f g g f g e \barMin
+    f e d( e) e \barFinalis
   }
   \addlyrics {
     Ot -- če sva -- tý,_*
@@ -347,8 +347,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "d"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "viimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -358,10 +358,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    c( d) d \barMin f e d f( g a g) g \barMaior
-    a a g f d d d( e) f d c c \barMaior
-    d d c d d( f) f \barMin g a g f( g) f f
-    e d c( d) d \barFinalis
+    c( d) d \barMin f e d f( g a) g \barMaior
+    a a g f d d e f d c c \barMaior
+    d d c d d( f) f \barMin g a f e( f) d( c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Ot -- če, ny -- ní jdu k_to -- bě,_*
@@ -383,10 +383,10 @@
   \relative c'' {
     \choralniRezim
     g4( a) a \barMin a a a g( a) g f g a a \barMaior
-    a a c a g a f e( f) d d \barMax
-    d f e d f g g( a) a \barMaior
+    a a c a g a g f d d \barMax
+    d f e d f g a( g) g \barMaior
     a a a g( f) f \barMin e f g a f e d d \barMaior
-    e f d( c) d \barFinalis
+    e d c( d) d \barFinalis
   }
   \addlyrics {
     Ot -- če, ja -- ko jsi mne pos -- lal do svě -- ta,_*
@@ -400,7 +400,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = ""
-    fial = "mezidobi_kristakneze.ly#ne-amag?konec&+aleluja"
+    fial = "mezidobi_kristakneze.ly#ne-amag?konec=15&+aleluja"
     id = "viimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
