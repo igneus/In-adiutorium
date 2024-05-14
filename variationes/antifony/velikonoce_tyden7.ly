@@ -433,11 +433,36 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f \mark\sipka f e d c d d( c) \barMaior
     f g a a g f g( f) f \barMin
     f d f e c d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ve svě -- tě bu -- de -- te mít sou -- že -- ní.
+    A -- le buď -- te do -- bré mys -- li.
+    Já jsem pře -- mo -- hl svět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f f e d c d d( c) \barMaior
+    f g a a g f g( f) f \barMin
+    \mark\sipka d d f e c d \barMaior
     e f d d \barFinalis
   }
   \addlyrics {
@@ -730,7 +755,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a c( d) d \barMin
     d \mark\sipka e c c( d) d \barMaior
@@ -749,6 +774,57 @@
     differentia = "c"
     psalmus = ""
     fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d e c c( d) d \barMaior
+    \mark\sipka d c b a( b g) g
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pří -- mluv -- ce, Duch sva -- tý,
+    pře -- bý -- vá u vás
+    a bu -- de ve vás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d e \mark\sipka d c( d) c \barMaior
+    \mark\sipka a c c b( a g) g
+    f a \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pří -- mluv -- ce, Duch sva -- tý,
+    pře -- bý -- vá u vás
+    a bu -- de ve vás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek=7"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

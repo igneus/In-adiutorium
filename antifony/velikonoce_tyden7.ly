@@ -98,7 +98,7 @@
     \choralniRezim
     d4 c d f f e d c d d( c) \barMaior
     f g a a g f g( f) f \barMin
-    f d f e c d \barMaior
+    d d f e c d \barMaior
     e f d d \barFinalis
   }
   \addlyrics {
@@ -121,9 +121,9 @@
   \relative c'' {
     \choralniRezim
     c4 c b a c( d) d \barMin
-    d e c c( d) d \barMaior
-    c c c b( a g) g
-    f a g g \barFinalis
+    d e d c( d) c \barMaior
+    a c c b( a g) g
+    f a a( g) g \barFinalis
   }
   \addlyrics {
     Pří -- mluv -- ce, Duch sva -- tý,
@@ -136,7 +136,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek"
+    fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek=7"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
