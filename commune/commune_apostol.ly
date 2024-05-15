@@ -183,7 +183,7 @@
     a b g g( e) \barMin a g a a a g( a) e e \barMaior
     d c d e e g f e d e e \barFinalis
 
-    f^\markup\rubrVelikAleluja d d( e) e \barFinalis
+    f^\markup\rubrVelikAleluja f( g) e e \barFinalis
   }
   \addlyrics {
     Ne vy jste vy -- vo -- li -- li mne,
@@ -263,10 +263,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d( f) e e \barMin
-    f e d e c c( d) \barFinalis
+    d4 f e( f) d d \barMin
+    f e d e c d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja f d d \barFinalis
   }
   \addlyrics {
     Všu -- de na ze -- mi
@@ -290,7 +290,7 @@
     g4 f g( a) a g \barMin a( b c) b a( g) a \barMaior
     c c( d) b( c) a a \barMin a b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Roz -- hla -- šo -- va -- li Bo -- ží skut -- ky
@@ -627,9 +627,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g a f e d e( f) d d \barFinalis
+    a4 a g f g a g f e( f) d d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Vy jste se mnou vy -- tr -- va -- li v_mých zkouš -- kách.
@@ -639,9 +639,8 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "a"
     psalmus = "Žalm 116-II"
-    placet = "není úplně špatná, ale přesto zkusit lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -652,7 +651,7 @@
     \choralniRezim
     a a a b g g \barMin f g a g f( e) e \barFinalis
 
-    f^\markup\rubrVelikAleluja g e e \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Já jsem me -- zi vá -- mi ja -- ko ten, kdo slou -- ží.
@@ -673,7 +672,7 @@
   \relative c' {
     \choralniRezim
     f4 g g a a a g f d d \barMax
-    d( f) d d c d( f) g( a) a \barMaior
+    d( f) d d c f( g) g( a) a \barMaior
     a a a g4.( a) \barMin a4 c( a b) a g g( a) a \barMaior
     g f e( f d) d \barMin c f e c( d) d \barFinalis
 
