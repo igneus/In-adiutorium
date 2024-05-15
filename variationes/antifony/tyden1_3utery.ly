@@ -1467,6 +1467,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b a g \barMin
+    a f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dal ví -- těz -- ství
+    své -- mu po -- ma -- za -- né -- mu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 20"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

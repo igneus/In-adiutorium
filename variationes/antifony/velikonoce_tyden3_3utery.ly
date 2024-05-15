@@ -965,6 +965,30 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c \barMin
+    d e d d \barMaior
+    c b \mark\sipka g a( g) \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- koj vám!
+    Ne -- boj -- te se,
+    vždyť jsem to já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 125"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     e4 g a \barMin
@@ -988,8 +1012,12 @@
   }
 }
 
+\markup\justify{
+  Srov. první verzi \fial-link "antifony/velikonoce_tyden2.ly#so-aben"
+}
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     e4 e e( g a) \barMin
     b a g( a) g \barMin f e d e \barMaior
@@ -1393,6 +1421,29 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4( c) a( b) \barMin
+    g a c d a g f( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej,
+    Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 131"
+    fial = "antifony/tyden1_6patek.ly#rch-ant3?+aleluja&ignore=melismata,repeated_notes"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

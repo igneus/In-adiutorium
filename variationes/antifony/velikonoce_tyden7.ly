@@ -932,6 +932,30 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c d d c d d( c) c \barMaior
+    a \mark\sipka c b( a) g \barMin
+    a g f a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f e f g a f d e( d) d \barMaior
@@ -949,6 +973,30 @@
     quid = "ant. k Benedictus"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b c a g a( g) g \barMaior
+    f g g( a) a \barMin
+    c c b c a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1110,6 +1158,30 @@
     g4 g f g a( c) c \barMin d c b( c) a a \barMaior
     a c c c b a g( a) g \barMin
     g f g a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Do -- sta -- ne -- te sí -- lu Du -- cha sva -- té -- ho
+    a bu -- de -- te mý -- mi svěd -- ky
+    až na ko -- nec ze -- mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin e e d c d( e) d d \barMaior
+    d d c b c a a( g) g \barMin
+    a f g( a) a g g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
