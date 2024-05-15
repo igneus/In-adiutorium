@@ -19,8 +19,8 @@
     c c c c c( d) c c a c b a g g \barMin
     a a g f g a a g g \barMaior
     c b c d d( c) \barMin
-    d c c d( e) d c( b a) \barMin
-    c b a g a g g \barFinalis
+    d e d c( b) a a \barMin
+    c b a g a a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
