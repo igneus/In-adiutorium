@@ -101,6 +101,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d e( f) d d e c c( d) d \barMin
+    a c d d e f e d \mark\sipka c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Vše -- chny ná -- ro -- dy_* při -- jdou, Pa -- ne,
+    a bu -- dou se před te -- bou kla -- nět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 86"
+    fial = "antifony/tyden1_6patek.ly#ne-ant3?zacatek=20"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
