@@ -224,11 +224,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d e d c c( d) \barMin
-    c a c b g g( a) a \barMaior
-    b c a( g) a \barFinalis
+    f4 d d f e f( g) \barMin
+    f d e f d c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Kris -- tus vás bu -- de křtít
@@ -237,8 +237,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "c"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}

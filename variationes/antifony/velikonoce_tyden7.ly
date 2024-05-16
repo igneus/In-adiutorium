@@ -1339,7 +1339,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e d c c( d) \barMin
     c a c b g g( a) a \barMaior
@@ -1376,6 +1376,51 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "c"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 d d f e f( g) \barMin
+    f d e f d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 \mark\sipka e d f e f( g) \barMin
+    f d e f d c( d) d \barMaior
+    \mark\sipka c d e d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
