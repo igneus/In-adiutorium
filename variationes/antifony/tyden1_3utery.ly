@@ -1063,6 +1063,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( f) d \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Slu -- ší se, a -- by do -- bří
+    chvá -- li -- li Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 33"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIuteryAntBenedictus }
 
 \pageBreak
