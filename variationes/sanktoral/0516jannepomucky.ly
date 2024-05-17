@@ -403,6 +403,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4-- g( a) f f( g) g \barMaior
+    g a g a g f d d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Král sop -- til hně -- vem
+    a jed -- nal s_ním kru -- tě -- ji než s_os -- tat -- ní -- mi.
+    % tady jsem aleluja nezapomnel, v breviari neni
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -602,6 +623,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     c4( d e) d \barMin
     \mark\sipka d c d e c c d d \barMaior
@@ -1087,6 +1109,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d \[ f( e d \] \[ e d) \] \barMin c d e c d e d d \barMaior
     f f( g f) e( f) e( d) \barMin d c( d f) e( c) c( d) d \barFinalis
@@ -1129,6 +1152,31 @@
     differentia = "D"
     psalmus = "Žalm 116-II"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d \[ f( e d \] \[ e d) \] \barMin c d e c d e d d \barMaior
+    f f( g f) e( f) e( d) \barMin \mark\sipka c c( d f) e( c) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Zá -- to -- py vod ne -- mo -- hou u -- ha -- sit lás -- ku
+    a prou -- dy řek ji ne -- od -- pla -- ví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -1611,6 +1659,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c d e( c d4.) d \barMin a4( d c) b a( g) g \barMaior
     a a b c a b a a( g) g \barMaior
@@ -1637,7 +1686,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c d e( c d4.) d \barMin a4( d c) b a( g) g \barMaior
     a a b c a b a a( g) g \barMaior

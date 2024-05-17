@@ -211,9 +211,9 @@
   \relative c' {
     \choralniRezim
     d4 c d \[ f( e d \] \[ e d) \] \barMin c d e c d e d d \barMaior
-    f f( g f) e( f) e( d) \barMin d c( d f) e( c) c( d) d \barFinalis
+    f f( g f) e( f) e( d) \barMin c c( d f) e( c) c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Zá -- to -- py vod ne -- mo -- hou u -- ha -- sit lás -- ku
@@ -335,7 +335,7 @@
     a a b c a b a a( g) g \barMaior
     a c d e( d) c( d) \barMin c b g a a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     V_o -- čích vlád -- ců vzbu -- dím ob -- div:
