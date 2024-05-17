@@ -32,8 +32,8 @@
     \choralniRezim
     f4 g g( a) a \barMin
     a g f g f d d \barMaior
-    d c d d( f) e f g g
-    a g f f \barFinalis
+    d c d d( f) e d c c
+    e f d d \barFinalis
   }
   \addlyrics {
     Dob -- rý pas -- týř_*
@@ -43,8 +43,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "I"
+    differentia = "f"
     psalmus = "Iz 40"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

@@ -272,6 +272,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) \mark\sipka a g f( g) g \barMin
+    g f d
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Všech -- na zříd -- la mé spá -- sy_*
+    jsou v_to -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 87"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g g( a) g f g( a) a \barMin
@@ -467,6 +489,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g g( a) a \barMin
     a g f g f d d \barMaior
@@ -491,7 +514,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g( a) a \barMin
     a g f g f d d \barMaior
@@ -929,6 +952,32 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
     g4 a a( c) c c d e d c( d) d( c) c \barMaior
     d c( d a4.) a \barMin f4 g g( a) a \barMaior
     c bes( g) \mark\sipka g( a) a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus_*
+    je je -- di -- ný Pa -- nov -- ník,
+    Král krá -- lů a Pán pá -- nů.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 132-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Jen divisio)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \mark\sipka \barMin c d e d c( d) d( c) c \barMaior
+    d c( d a4.) a \barMin f4 g g( a) a \barMaior
+    c bes( g) g( a) a \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus_*
