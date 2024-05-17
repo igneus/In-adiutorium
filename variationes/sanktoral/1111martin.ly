@@ -437,11 +437,36 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d \barMin d c d e d c c( d) d \barMaior
     d d d c b a( b) a a \barMaior
     a c c c b( c) a g \mark\sipka f( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mar -- tin, na ze -- mi chu -- dý a skrom -- ný,
+    ve -- šel do ne -- be bo -- ha -- tý
+    a ra -- dost -- ně sto -- lu -- je s_A -- bra -- há -- mem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    placet = "neumím pojmenovat čím, ale _stoluje_ nějak drhne"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d \barMin d c d e d c c( d) d \barMaior
+    d d d c b a( b) a a \barMaior
+    a c \mark\sipka b a g( a) g f g a g g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -462,10 +487,11 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4( d) d \barMin d c d e d c c( d) d \barMaior
     d d d c b a( b) a a \barMaior
-    a c \mark\sipka b a g( a) g f g a g g \barMaior
+    a c b a g( a) g f \mark\sipka g( a) a g g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {

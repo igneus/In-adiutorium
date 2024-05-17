@@ -90,7 +90,7 @@
     \choralniRezim
     c4( d) d \barMin d c d e d c c( d) d \barMaior
     d d d c b a( b) a a \barMaior
-    a c c c b( c) a g f( a) a g g \barMaior
+    a c b a g( a) g f g( a) a g g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -104,7 +104,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 149"
-    placet = "neumím pojmenovat čím, ale _stoluje_ nějak drhne"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
