@@ -207,4 +207,8 @@ if options[:save]
   end
 
   save.save! if options[:update_save] || !File.exist?(options[:save])
+
+  exit(save.new_mismatches? ? 1 : 0)
 end
+
+exit 1 unless mismatches.empty?
