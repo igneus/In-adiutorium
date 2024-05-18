@@ -297,6 +297,30 @@
   \score {
     \relative c'' {
       \choralniRezim
+      d4( c b a) a( b) \barMin
+      \mark\sipka b( c) a g a( g) f \barMin g a a g g \barMaior
+      f g a( c) c \barMin d c d( e) d c( b a) \barMin
+      g( f) g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       d4( e d) d \barMin
       d( c) b c d d \barMin e( g f) e( d) c d d \barMaior
       d4 d c( b a b) b \barMin c a g( a) g g \barMaior
@@ -422,6 +446,30 @@
       d c e d d \barMin e g f e( d c d) d \barMaior
       d4 d c( d c4.) c \barMin c4 a c( b) a( g) g \barMaior
       \mark\sipka a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4( b c d) d \barMin
+      c( d) e c d d \barMin d c b a( b) b \barMaior
+      c c a g f g a c c \barMin
+      b a g( a) g \barFinalis
     }
     \addlyrics {
       Pojď -- me,

@@ -832,6 +832,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a a g f g f g a g g \barMaior
+    a \mark\sipka a c b g g( a) a \barMax
+    c c c d b c a \barMaior
+    a g f g a a g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Mar -- tin se ne -- dal a -- ni zdo -- lat pra -- cí,
+    a -- ni pře -- mo -- ci smr -- tí,
+    a -- ni se ne -- bál ze -- mřít,
+    a -- ni se ne -- vzpí -- ral žít.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -596,6 +596,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g \barMin \mark\sipka f( g) a g f( e) e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Já jsem ces -- ta,_* prav -- da a ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 117"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     c4 d d( a') a \barMin g( a) b g g( a) a \barMin
