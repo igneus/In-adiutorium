@@ -31,7 +31,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec&-aleluja"
+    fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec=26&-aleluja"
     id = "aben"
     piece = \markup\sestavTitulekBezZalmu
   }
