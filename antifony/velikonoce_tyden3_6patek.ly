@@ -6,11 +6,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4( d) d \barMin
-    f e f g f e f d d \barMaior
-    e c c( d) d \barFinalis
+    a4 g \barMin
+    f g a c d c b a a \barMaior
+    b g g( a) a \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
@@ -20,7 +20,7 @@
   \header {
     quid = "1. ant."
     modus = "II"
-    differentia = "D"
+    differentia = "A"
     psalmus = "Žalm 51"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -116,7 +116,7 @@
     differentia = "a"
     psalmus = "Žalm 135-II"
     id = "ne-a2"
-    fial = "pust_svatytyden.ly#ne-rch-aben-B?+aleluja&konec"
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?+aleluja&konec=23"
     piece = \markup {\sestavTitulek}
   }
 }

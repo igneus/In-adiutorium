@@ -144,7 +144,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4( d) d \barMin
     f e f g f e f d d \barMaior
@@ -160,6 +160,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 51"
+    placet = "začátek moc nesedí"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -239,8 +240,31 @@
     b g a a \barFinalis
   }
   \addlyrics {
-    Bo -- že,
-    smyj ze mne_* ú -- pl -- ně mou vi -- nu.
+    Bo -- že,_*
+    smyj ze mne ú -- pl -- ně mou vi -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g \barMin
+    f g a c d c b a a \barMaior
+    \mark\sipka b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,_*
+    smyj ze mne ú -- pl -- ně mou vi -- nu.
     A -- le -- lu -- ja.
   }
   \header {
@@ -323,6 +347,30 @@ funkční, je nevyvážená.}
     psalmus = "Jer 14"
     id = ""
     fial = "pust_svatytyden.ly#ne-2ne-a3?cast&volne"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 a g f e( f d) d \barMaior
+    \mark\sipka c d f g f d( c) c \barMin d f e d d \barMaior
+    e4 f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ve svém tě -- le
+    vy -- ne -- sl na -- še hří -- chy na dře -- vo kří -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Jer 14"
+    id = ""
+    fial = "pust_svatytyden.ly#ne-2ne-a3?zacatek&volne"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -475,6 +523,30 @@ funkční, je nevyvážená.}
     quid = "2. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Jer 14"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d( c) c \barMin
+    f g a g f f( g) g \barMin
+    g a g f f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ve svém tě -- le_*
+    vy -- ne -- sl na -- še hří -- chy
+    na dře -- vo kří -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Jer 14"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -1026,10 +1098,31 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
     \choralniRezim
     g4 a a c c \barMin
     c b c a g f a g g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a c c \barMin
+    c \mark\sipka d d c b c a g g \barMin
     f a g g \barFinalis
   }
   \addlyrics {
