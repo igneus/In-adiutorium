@@ -45,6 +45,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "lépe"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -67,6 +68,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "přetížená neústrojnými melismaty"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
