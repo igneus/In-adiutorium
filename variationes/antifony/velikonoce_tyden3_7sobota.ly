@@ -246,6 +246,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4( a c d) d \barMin
+    d c d e( d) c( d) d \barMaior
+    \mark\sipka c a
+    c b a( g) g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Slo -- va,_*
+    kte -- rá jsem k_vám mlu -- vil,
+    jsou duch
+    a jsou ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 119-Kof"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d
     e e d c c( d) d \barMin
     c a c b a( g) g \barMaior

@@ -1921,6 +1921,40 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \markup\justify{
+    ... nebo přeci jen \italic{není} nutné?
+  }
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g( f) g g( a) \barMax
+      \mark\sipka f g( a) g g \barMin g g g f d f( g) g f \barFinalis
+      % V
+      \neviditelna a
+      a a a a a( bes) a a g( a) g \barMin g g g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      \mark\sipka f g( a) g g \barMin g g g f d f( g) g f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Kris -- tus nás mi -- lu -- je_* a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
+      \Verse U -- dě -- lal z_nás krá -- lov -- ský ná -- rod a kně -- ze Bo -- ha Ot -- ce_*
+      \Response a ob -- myl nás od na -- šich hří -- chů svou kr -- ví.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1pa-ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \score {
     \relative c' {
       \choralniRezim
