@@ -4,12 +4,12 @@
 \markup {\nadpisDen {3. neděle velikonoční}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f f( g) f d d \barMin
-    f f f e d c c \barMaior
-    d d c d e( f) d d \barMin
-    e c c( d) d \barFinalis
+    c4 c c( d) c a a \barMin
+    c c c b a g g \barMaior
+    a a g f a c b \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Zů -- staň s_ná -- mi, Pa -- ne,
@@ -19,8 +19,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "iiimag1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -54,9 +54,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c c( d) c c d( e d) c( d) d \barMaior
-    c( d e) c( d) c b a( g) g \barFinalis
-    a( f g) a( c b a) g( a) g \barFinalis
+    c4 c c c d c d d( e) d d \barMin
+    c d c b a( g) g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci po -- zna -- li Je -- ží -- še
@@ -68,7 +68,6 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    placet = "přetížená neústrojnými melismaty"
     id = "iiimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -79,11 +78,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f e d( c) \barMin
+    d4 d f( e) d d \barMin
     d c d d( f) f f g( a) g f f \barMaior
-    g g( a) g g \barMin g g( a) g g f e d( c) c \barMaior
-    d d f e( f d) d e c d \barMaior
-    e f d( c) d \barFinalis
+    g g( a) g g \barMin a bes a g a f d( e) d \barMaior
+    f f f e( d c) c e f d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     A -- men, pra -- vím vám,
@@ -186,9 +185,9 @@
   \relative c'' {
     \choralniRezim
     c4 c a( b) g \barMin a( g) f a a( g) g \barMaior
-    g g g a g f f( a) a
-    a c b a \barMin
-    g f g g \barFinalis
+    a g a c c c c( d) c
+    b a g a \barMin
+    b a g g \barFinalis
   }
   \addlyrics {
     Já jsem ces -- ta, prav -- da a ži -- vot.
@@ -322,9 +321,9 @@
   \relative c'' {
     \choralniRezim
     c4 c c( d) c a a( c) \barMin
-    b c a g g( a) g \barMaior
-    f g a a b c a g( a g) g \barMaior
-    a a( c) c \barMin d e d c d( c a) a \barMin
+    c c b a g( a) g \barMaior
+    f g a a b( c) a g a( g) g \barMaior
+    c d c d e d c d( c a) a \barMin
     g( f) g( a) a g g \barMaior
     a g f( g) g \barFinalis
   }
@@ -373,9 +372,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a c( b) c( d) d \barMin
+    a4 a a a( c b) c( d) d \barMin
     c d e c d( e d) d \barMaior
-    a c( d) d \barMin c b a( b) g g \barMin a( g) f( g) g \barMaior
+    a c( d) d \barMin e d c( d) c c \barMin b( c) a( g) g \barMaior
     a b c a g a g g \barMin
     f a g g \barFinalis
   }
