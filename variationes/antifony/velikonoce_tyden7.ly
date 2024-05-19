@@ -1761,6 +1761,10 @@
   }
 }
 
+\markup\justify{
+  Tato varianta je jednodušší/přirozenější/zpěvnější,
+  v dosavadní je zase kousek zvukomalby.
+}
 \score {
   \relative c'' {
     \choralniRezim
