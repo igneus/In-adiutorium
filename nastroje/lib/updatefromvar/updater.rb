@@ -57,7 +57,7 @@ class Updater
         next unless marked_for_production? score
 
         unless has_id? score
-          @log.puts "#{dev_file}##{score.number} marked for production, but misses an id"
+          @log.puts grave "##{score.number} marked for production, but misses an id"
           next
         end
 
@@ -65,7 +65,7 @@ class Updater
 
         production_score = main_music[score_id]
         if production_score.nil?
-          @log.puts "##{score_id} marked for production, but the score was not found in production"
+          @log.puts grave "##{score_id} marked for production, but the score was not found in production"
           next
         end
 
@@ -82,7 +82,7 @@ class Updater
 
           if lyrics_differ?(production_score, score)
             @log.puts
-            @log.puts ColorizedString.new("##{score_id}: WARNING: lyrics changed").colorize(color: :magenta, mode: :bold)
+            @log.puts grave "##{score_id}: WARNING: lyrics changed"
             @log.puts "  - #{production_score.lyrics_readable}"
             @log.puts "  + #{score.lyrics_readable}"
             @log.puts
@@ -186,5 +186,9 @@ class Updater
   def simple_copy?(score)
     str = score.header['fial']
     str && FIAL.parse(str).simple_copy?
+  end
+
+  def grave(str)
+    ColorizedString.new(str).colorize(color: :magenta, mode: :bold)
   end
 end
