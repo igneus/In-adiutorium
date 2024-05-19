@@ -91,8 +91,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( a) a c b c c( d c) \barMaior
-    c a( c) \barMin b c a g a( g) \barMin
+    c4 c c( a) a c b c( d) c \barMaior
+    a c-- b c a g a( g) \barMin
     f a g g \barFinalis
   }
   \addlyrics {
@@ -114,7 +114,7 @@
   \relative c' {
     \choralniRezim
     f4 g( a) a a g f g f d( c) c \barMaior
-    c d d( f) f e( f) f( g) g \barMaior
+    c d d( f) f g( a) f f \barMaior
     g a a g f e f d c( d) d \barMaior
     e f d d \barFinalis
   }
@@ -138,8 +138,8 @@
   \relative c' {
     \choralniRezim
     f4 g( a) a a g f g g( f) f \barMaior
-    g( a) g f d e d( c) \barMin
-    c d d f f g( a g) f e( f) d c( d) d \barMaior
+    g( a) g g f e d( c) \barMin
+    d f g a g f( g) f \barMin e( f) d c( d) d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -191,10 +191,10 @@
   \relative c'' {
     \choralniRezim
     c4 c d c b a g a( g) g \barMaior
-    f g a g a( c) b( a) a \barMaior
+    f g a a b( c) a a \barMaior
     c c c b( a g) \barMin
-    f g a f f g g \barMaior
-    f g( a) g g \barFinalis
+    f g a f g( a) g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     No -- vé při -- ká -- zá -- ní vám dá -- vám:
@@ -335,11 +335,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g f( g) g \barMaior
-    f g a a a( c) c \barMin c d c d d( c) c b c a g( a) g \barMax
-    g a g g f( e) d \barMaior
+    g4 g g( a) f f( g) g \barMaior
+    f g a a a( c) b \barMin c c b a g( a) g \barMin f g a g g \barMax
+    g g g g f( e) d \barMaior
     f g a( c) d b c a \barMin b c c( d) d \barMaior
-    d c d d( e d) c( b a) a \barMin a c b a g( a) g \barMin
+    d c d d( e d) c( b a) a \barMin b c a g g( a) g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -363,12 +363,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g( f g a) a \barMin a g a a( c) b c( d) d( c) \barMaior
-    c c b( a g) a( g) \barMaior
-    g g f e d( e) d \barMin f e f( a) a g g \barMaior
+    g( a f g) g \barMin g f g a( c) b c( d) d( c) \barMaior
+    b c a( g) f( g) \barMaior
+    g g g g f( e) d \barMin f e f( a) a g g \barMaior
     a a( c b) c a g( a) g \barMaior
-    c d d c( d c) c \barMin a c b a g g( a) g f
-    g a a( g) g \barFinalis
+    c d c b( c a) a \barMin a c c b a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Slá -- vu, kte -- rou jsi, Ot -- če, dal mně,
@@ -394,8 +394,8 @@
     d4 c d
     f e f d c d( c) \barMaior
     f g a g f g f e d d c \barMaior
-    d c f g f e f( d c4.) c \barMin
-    a4 c c( d) d \barFinalis
+    f f g a g f d d \barMin
+    e4 c c( d) d \barFinalis
   }
   \addlyrics {
     Ot -- če, chci,
