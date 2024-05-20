@@ -766,7 +766,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g( a) a( g) g \barMaior
     g f g a g g a bes a g( a) g g \barMaior
@@ -785,6 +785,35 @@
     differentia = "f"
     psalmus = "Žalm 46"
     fial = "commune/commune_maria.ly#mc-a2?zacatek"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Úprava současně se zdrojem:
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g( a) g g \barMin
+    a bes a g f f g a f f g g \barMaior
+    a bes a g( a) g \barMin
+    g f g g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh si ji vy -- vo -- lil
+    už od o -- ka -- mži -- ku je -- jí -- ho po -- če -- tí
+    a po -- svě -- til ji
+    ja -- ko svůj pří -- by -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 46"
+    fial = "commune/commune_maria.ly#mc-a2?-aleluja&konec=8"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }

@@ -201,10 +201,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f g( a) a( g) g \barMaior
-    g f g a g g a bes a g( a) g g \barMaior
-    a a( g f) e( f) d( c) c \barMin
-    d c d( f e) c d d \barFinalis
+    f4 f g g( a) g g \barMin
+    a bes a g f f g a f f g g \barMaior
+    a bes a g( a) g \barMin
+    g f g g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Bůh si ji vy -- vo -- lil
@@ -214,11 +214,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 46"
-    fial = "commune/commune_maria.ly#mc-a2?zacatek"
-    placet = "vyzkoušet alternativy"
+    fial = "commune/commune_maria.ly#mc-a2?-aleluja&konec=8"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }

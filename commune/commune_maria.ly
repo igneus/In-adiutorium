@@ -321,10 +321,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g( a) a( g) g \barMin
-    f e e( f d) c d d \barFinalis
+    f4 g g( a) g g \barMin
+    g f g g( a) g( f) f \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
     Bůh ji po -- svě -- til
@@ -334,8 +334,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 46"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}

@@ -1705,7 +1705,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f \mark\sipka g( a) a( g) g \barMin
     f e e( f d) c d d \barFinalis
@@ -1770,6 +1770,31 @@
     quid = "2. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) g g \barMin
+    g f g g( a) g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Bůh ji po -- svě -- til
+    ja -- ko svůj pří -- by -- tek.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 46"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
