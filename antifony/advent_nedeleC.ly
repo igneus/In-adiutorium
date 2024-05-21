@@ -189,9 +189,9 @@
   \relative c'' {
     \choralniRezim
     d4. c4 b a( b g) g \barMaior
-    a a a a g f g a a \barMaior
-    c d e d c( d) \barMin
-    c c b g a a( g) g \barFinalis
+    f g a( c) c \barMin d e d c c( d) \barMaior
+    e e d c d( c a) \barMaior
+    g a c b g g( a) a \barFinalis
   }
   \addlyrics {
     Já vás křtím vo -- dou.
@@ -201,11 +201,10 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
+    modus = "IV alt"
     differentia = "d"
     psalmus = ""
     fial = "vanoce_zjevenipane.ly#krtu-1ne-a2?zacatek"
-    placet = "nevím"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

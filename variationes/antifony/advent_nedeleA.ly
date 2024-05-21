@@ -1038,6 +1038,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( f) f \barMin g g f e d e d d \barMaior
+    a' a c c a b a a \barMin a c a b c a \barMaior
+    a a \mark\sipka g f g( f d) \barMin
+    c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já vás křtím vo -- dou, a -- by -- ste se ob -- rá -- ti -- li,
+    a -- le ten, kte -- rý má při -- jít, je moc -- něj -- ší než já;
+    on vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {3. neděle adventní}}
