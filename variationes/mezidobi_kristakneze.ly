@@ -13,6 +13,13 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
+\markup\italic{
+  Latinské texty:
+  \italic{
+    Christo qui sempitérnum habet sacerdótium, glóriam reddámus.
+  }
+}
+
 \score {
   \relative c'' {
     \zvyraznovacModry
@@ -163,6 +170,46 @@
     quid = "ant."
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g( a bes a) g( a) \barMin
+    a a g( a) g f g( f) f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g( a bes a) g( a) \barMin
+    \mark\sipka g f g( a) g f g( f) f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
