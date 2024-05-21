@@ -2,18 +2,35 @@
 
 \header {
   title = "Kantikum podle Zj 19,1-7 (neděle, 2. nešpory)"
+  subtitle = "na tradiční nápěvové modely"
 }
 
 \include "spolecne.ly"
+\include "spolecne/zj19.ly"
+
+\paper {
+  scoreTitleMarkup = \markup{
+    \huge\bold\fill-line {
+      \on-the-fly \development-build \placet
+      \concat{
+        \fromproperty #'header:modus
+      }
+      " "
+    }
+  }
+}
 
 \markup\justify {
-  Nápěv podle webu
+  Nápěv podle velikonočních krátkých responsorií;
+  kratší responsum podle velikonočních antifon modelu
+  \italic{Pax vobis, ego sum} (srov. AR1912 390).
+  Převzat z webu
   \with-url "http://www.kleingraduale.nl/LiturgiaHorarum/" {
     \italic {Liturgia horarum in cantu gregoriano} (http://www.kleingraduale.nl/LiturgiaHorarum/).
   }
   Srov. též \italic{Antiphonale Romanum II,} Solesmes 2009, s. 457 a par.
-  Aleluja na začátku veršů latinské zpěvníky vynechávají (proto zde v závorkách),
-  ale my ho doplňujeme, aby se učinilo zadost přesnému textu podle breviáře.
+  Aleluja na začátku veršů, v latinských zpěvnících vynechané (proto zde v závorkách),
+  doplňujeme, aby se učinilo zadost přesnému textu podle breviáře.
 }
 
 % melodie aleluja
@@ -116,7 +133,88 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
     \alal
   }
   \header {
+    fons_externus = "podle velikonočních antifon (Pax vobis, ego sum apod.) a responsorií"
+    modus = "VI"
     piece = "kantikum Zj 19 - modus VI"
     id = "vi"
+  }
+}
+
+\markup\justify {
+  Podle velikonočních antifon modelu
+  \italic{Alleluia, Lapis revolutus est.}
+  Srov. \italic{Antiphonale Romanum II,} Solesmes 2009, s. 405.
+}
+
+% melodie aleluja
+mial = { c4 c d( e d) c( d) \barMin }
+mal = { \barFinalis \neviditelna a a4 g a( g) f \barFinalis \break }
+malal = { \barFinalis \neviditelna c c4 b c( d c) a \barMin a g( a g) f f \barFinalis \break }
+
+\score {
+  \relative c''  {
+    \choralniRezim
+    % Vitezstvi..
+    \neviditelna a
+    \mial
+    a a a a a a a a a g a( g) f
+    \mal
+    \neviditelna a
+    a a a a a a a a a g f a c c c
+    \malal
+
+    % Chvalte...
+    \neviditelna a
+    \mial
+    a a a a a a a a a a g a g f
+    \mal
+    \neviditelna a
+    a a a a a a a a g f a( c) c
+    \malal
+
+    % Pan, nas...
+    \neviditelna a
+    \mial
+    a a a a a a a a g a g f
+    \mal
+    \neviditelna a
+    a a a a a a a a g f a( c) c
+    \malal
+
+    % Nebot...
+    \neviditelna a
+    \mial
+    a a a a a a a a g a( g) f
+    \mal
+    \neviditelna a
+    a a a a a a g f a( c) c
+    \malal
+
+    % Slava...
+    \neviditelna a
+    \mial
+    a a a a g a( g) f
+    \mal
+    \neviditelna a
+    a g f a c c
+    \malal
+
+    % Jako byla...
+    \neviditelna a
+    \mial
+    a a a a a a a a a a a g a( g) f
+    \mal
+    \neviditelna a
+    a a a a g f a( c) c
+    \malal
+  }
+  \addlyrics {
+    \kantikumZjXIXverse
+    \kantikumZjXIXdoxologie
+  }
+  \header {
+    fons_externus = "podle velikonočních antifon (Alleluia Lapis revolutus est apod.)"
+    modus = "V"
+    id = "v"
   }
 }
