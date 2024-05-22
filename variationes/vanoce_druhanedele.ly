@@ -146,7 +146,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka b4 c a g a b c b \barMaior
     c c c c \mark\sipka c b g a a \barMin
@@ -221,6 +221,29 @@
   }
   \addlyrics {
     Ple -- sej -- te s_Je -- ru -- za -- lé -- mem:
+    Hos -- po -- din ho za -- pla -- vil bla -- hem
+    ja -- ko ře -- kou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 116"
+    id = "ne1-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c a c b a g( a) g \barMaior
+    \mark\sipka a a a a g f g g( a) a \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ple -- sej -- te s_Je -- ru -- za -- lé -- mem;
     Hos -- po -- din ho za -- pla -- vil bla -- hem
     ja -- ko ře -- kou.
   }

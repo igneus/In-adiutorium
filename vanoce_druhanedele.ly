@@ -37,9 +37,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    b4 c a g a b c b \barMaior
-    c c c c c b g a a \barMin
-    g a g( f e) e \barFinalis
+    c4 c a c b a g( a) g \barMaior
+    a a a a g f g g( a) a \barMin
+    c b a( g) g \barFinalis
   }
   \addlyrics {
     Ple -- sej -- te s_Je -- ru -- za -- lé -- mem;
@@ -48,11 +48,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "III"
-    differentia = "h"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 116"
-    fial = "antifony/tyden4_5ctvrtek.ly#rch-ant2?konec=9"
-    placet = "zkusit lépe"
     id = "ne1-a2"
     piece = \markup {\sestavTitulek}
   }
