@@ -413,7 +413,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
