@@ -120,9 +120,13 @@
 % returns a function testing property availability,
 % suitable as argument for \if or \unless
 #(define* ((property-exists-checker name) layout props)
-   (chain-assoc-get name props))
+   (let ((pvalue (chain-assoc-get name props)))
+     (and
+      pvalue
+      (not (equal? "" (markup->string pvalue))))))
 
 header-scriptura-exists = #(property-exists-checker 'header:scriptura)
+header-psalmus-exists = #(property-exists-checker 'header:psalmus)
 
 % common parts of piece titles
 quidEtTonus = \markup\concat{
@@ -147,9 +151,11 @@ rocniCyklus = \markup {
 % piece title for antiphons
 sestavTitulek = \markup\concat{
   \quidEtTonus
-  " ("
-  \fromproperty #'header:psalmus
-  ") "
+  \if \header-psalmus-exists \concat{
+    " ("
+    \fromproperty #'header:psalmus
+    ") "
+  }
 }
 
 % piece title for antiphons not connected with a psalm
