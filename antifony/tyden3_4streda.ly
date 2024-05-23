@@ -15,7 +15,7 @@
     f4 g a f f( g) g \barMin
     f e d c d f g f f \barFinalis
 
-    g^\rubrVelikAleluja a f f \barFinalis
+    g^\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
     Na -- vě -- ky chci zpí -- vat
@@ -40,7 +40,7 @@
     a a a g a g( f) f \barMin
     d f g a f f \barFinalis
 
-    g^\rubrVelikAleluja a f f \barFinalis
+    g^\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
@@ -67,7 +67,7 @@
     c d d( f) f( g) g \barMin
     g a g g f f \barFinalis
 
-    g^\rubrVelikAleluja a f f \barFinalis
+    g^\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
     Pří -- sa -- hal jsem Da -- vi -- do -- vi,
