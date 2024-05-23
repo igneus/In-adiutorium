@@ -100,6 +100,16 @@
        empty-markup
        #{ \markup\fial-link #(markup->string header:fial) #})))
 
+#(define-markup-command (fons-externus-link layout props) ()
+   #:properties ((header:fons_externus #f) (header:fons_externus_url #f))
+   "Pokud zpev ma property 'fons_externus', vygeneruje ji; pokud ma i 'fons_externus_url', tak jako odkaz"
+   (interpret-markup layout props
+     (if (equal? header:fons_externus #f)
+       empty-markup
+       (if (equal? header:fons_externus_url #f)
+           header:fons_externus
+           #{ \markup\with-url #(markup->string header:fons_externus_url) { #header:fons_externus } #}))))
+
 % procedure for \on-the-fly to only render markup argument
 % in a development build (i.e. build with the point-and-click feature);
 #(define (development-build layout props arg)
@@ -169,7 +179,7 @@ sestavTitulekRespII = \markup\concat {
         }
         %\fromproperty #'header:opus
         \small {
-          \fromproperty #'header:fons_externus
+          \fons-externus-link
           \italic\fromproperty #'header:scriptura
         }
       }
