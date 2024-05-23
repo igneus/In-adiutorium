@@ -711,11 +711,11 @@
 
   \markup\justify{
     2. Praxí doloženou v kancionálech z 19. stol. obsahujících
-    části zpívaného oficia v národním jazyce je \bold{zpívat "Te Deum"
-    na jeden z chorálních nápěvů psalmodie}
+    části zpívaného oficia v národním jazyce je zpívat "Te Deum"
+    \bold{na jeden z chorálních nápěvů psalmodie}
     (např. Svatojanský kancionál: na nápěv V.a), jak tomu ostatně
     vychází vstříc i dělení textu na verše a poloverše
-    v současném vydání českého breviáře.
+    v breviáři.
     Toto jednoduché řešení může být výhodné pro pěvecky slabší
     společenství.
   }
@@ -724,8 +724,8 @@
     3. Adaptace jednoho z tradičních latinských nápěvů
     pro český text. (Mírně ztrátová - některé melodické ozdoby nebylo
     lze smysluplně převést; místy je v jednom verši řečeno to, co je v latině
-    rozděleno do dvou. Text je doslovně převzat z českého překladu
-    breviáře, ale dělení na verše je místy upraveno podle latinské předlohy.)
+    rozděleno do dvou. Text je doslovně převzat z Denní modlitby církve,
+    ale dělení na verše je místy upraveno podle latinské předlohy.)
   }
 
   \score {
