@@ -117,6 +117,13 @@
       (interpret-markup layout props arg)
       empty-stencil))
 
+% returns a function testing property availability,
+% suitable as argument for \if or \unless
+#(define* ((property-exists-checker name) layout props)
+   (chain-assoc-get name props))
+
+header-scriptura-exists = #(property-exists-checker 'header:scriptura)
+
 % common parts of piece titles
 quidEtTonus = \markup\concat{
   \fromproperty #'header:quid
@@ -178,9 +185,12 @@ sestavTitulekRespII = \markup\concat {
           \placet
         }
         %\fromproperty #'header:opus
-        \small {
+        \small\concat {
           \fons-externus-link
-          \italic\fromproperty #'header:scriptura
+          \if \header-scriptura-exists \concat {
+            " "
+            \italic\fromproperty #'header:scriptura
+          }
         }
       }
 
