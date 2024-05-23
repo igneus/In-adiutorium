@@ -2509,6 +2509,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4( a) c( d) d \barMin
+    d( e f) d( c) c d c b c c( d) d \barMaior
+    d d( e) d c d4.( a) \barMin
+    f4( g) a b c( a g4.) g \barMaior
+    \mark\sipka a4 g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý
+    na -- pl -- nil srd -- ce a -- po -- što -- lů
+    a za -- pá -- lil v_nich
+    o -- heň své lás -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka a4 c( d) d \barMin
     d( e f) d( c) c d c b c c( d) d \barMaior
     d d( e) d c d4.( a) \barMin
@@ -2639,6 +2665,15 @@
 
 \pageBreak
 
+\markup\justify{
+  \italic{
+    Auge in nobis, Dómine, fidem tuam,
+    et Spíritus Sancti lucem in nos semper accénde, allelúia.
+  }
+  \fial-link "001531"
+  CantusIndexu zatím známá jen z hrstky francouzských pramenů.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -2713,7 +2748,103 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d e d c( d) d( c a) a \barMaior
+    a a( g a) b( c) a( g) \barMin
+    \mark\sipka f g a a g a a \barMaior
+    c bes( g) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Roz -- množ v_nás, Pa -- ne, svou ví -- ru,
+    a o -- svěť nás
+    svět -- lem Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Oficiální český text je kvantitou a strukturou blízký předloze,
+  takže by tu mohlo stát za to pokusit se o adaptaci.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( e) f( g) g( a g) g \barMin
+    a( c) b( a c) a( g) \barMaior
+    a a g( f) g
+    f f \barMin f d f( g) g f( e d)
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Roz -- množ v_nás, Pa -- ne,
+    svou ví -- ru,
+    a o -- svěť nás
+    svět -- lem Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "podle F-Pn Lat. 17296, f. 164r"
+    fons_externus_url = "https://gallica.bnf.fr/ark:/12148/btv1b6000532c/f339.item"
+    quid = "ant. v poledne"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( e) f( g) g( a g) g \barMin
+    a( b) \[ b( a \] \[ b c \] \[ a b) \] a( g) \barMaior
+    a a g( f) g( f)
+    e e \barMin f d f( g) g f( e d)
+    f f( g f) e e \barFinalis
+  }
+  \addlyrics {
+    Roz -- množ v_nás, Pa -- ne,
+    svou ví -- ru,
+    a o -- svěť nás
+    svět -- lem Du -- cha sva -- té -- ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "podle F-AS 465 (CGM 893), f. 197r"
+    fons_externus_url = "https://bvmm.irht.cnrs.fr/iiif/24878/canvas/canvas-2563181/view"
+    quid = "ant. v poledne"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    \bold{Non enim vos estis, qui loquímini, sed}
+    Spíritus Patris vestri, qui lóquitur in vobis, allelúia.
+  }
+}
+\markup\justify{
+  Čili v LH až na nepatrný rozdíl text shodný s \fial-link "commune/commune_pastyr.ly#rch-aben"
+}
 
 \score {
   \relative c' {

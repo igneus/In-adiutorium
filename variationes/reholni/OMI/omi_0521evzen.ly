@@ -1612,6 +1612,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( c) g a( g) f( g) g \barMin
+  }
+  \addlyrics {
+    Pla -- nou -- cí lás -- kou ke Kris -- tu
+    a hlu -- bo -- ce po -- hnut
+    za -- ne -- dbá -- ním cír -- kve,
+    se sva -- tý Ev -- žen stal všem vším,
+    a -- by zno -- vu za -- že -- hl
+    pla -- men ví -- ry.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
