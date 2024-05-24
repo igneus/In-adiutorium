@@ -14,6 +14,7 @@
 \score {
   \relative c'' {
     \key c \major
+    \autoBeamOff
     c4 c8 b a4 g c8 c d d e4 c \breathe \break
     c4 a b c d8 d c b a a g4 \breathe \break
     c4 c8 b a4 g c8 c d d e4 c
