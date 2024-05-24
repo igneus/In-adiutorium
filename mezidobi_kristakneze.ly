@@ -16,8 +16,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c b a( b a g) g \barMin
-    f g a c b g g \barFinalis
+    a4 a g f g( a bes a) g( a) \barMin
+    a a g( a) g f g( f) f \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Kris -- ta,
@@ -25,8 +25,8 @@
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -50,7 +50,7 @@
       modus = "IV"
       differentia = "E"
       psalmus = "Žalm 2"
-      fial = "velikonoce_velikonocnioktav.ly#po-mc-a2?zacatek"
+      fial = "velikonoce_velikonocnioktav.ly#po-mc-a2?zacatek=24"
       id = "mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -84,7 +84,7 @@
     \choralniRezim
     e4 e e f d d( e) e \barMaior
     e e( a) a a b g g( a) a \barMin
-    a g a a( g) f( e) e \barFinalis
+    a g f a( g) f( e) e \barFinalis
   }
   \addlyrics {
     Kris -- tus mi -- lo -- val cír -- kev
@@ -150,16 +150,16 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g f f( g) f f \barMin
-    e f d d c c \barMaior
-    d d( f) f f g f g a g f e f d( c) c \barMaior
-    d c d f e c( d) d \barFinalis
+    a4 a g f g( a) g g \barMin
+    f g f e d( c) c \barMaior
+    d d( f) f f g f g a g f e f f( g) g \barMin
+    a g f e f d d \barFinalis
   }
   \addlyrics {
     O -- tec všech -- no pod -- ří -- dil
     pod Kris -- to -- vy no -- hy
     a je -- ho dal ja -- ko svr -- cho -- va -- nou hla -- vu círk -- vi,
-    kte -- rá je je -- ho tělem.
+    kte -- rá je je -- ho tě -- lem.
   }
   \header {
     quid = "3. ant."
@@ -230,12 +230,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    f g a a g f e f d( c) c \barMin
-    d( f) e c( d) d \barFinalis
+    f4 g g( a) a \barMin
+    a a g f d d d( e) c c( d) d \barFinalis
   }
   \addlyrics {
-    Skr -- ze Kris -- ta má -- me v_jed -- nom Du -- chu
-    pří -- stup k_Ot -- ci.
+    Skr -- ze Kris -- ta
+    má -- me v_jed -- nom Du -- chu pří -- stup k_Ot -- ci.
   }
   \header {
     quid = "ant. dopoledne"
@@ -306,7 +306,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g a a \barMin
+    g4 f g g a a \barMin
     a c c c b g b( c) a a \barMaior
     a g f g( a) a( g) g \barFinalis
   }
@@ -383,7 +383,7 @@
     % R
     \neviditelna f
     f4 f g f g g( a) a( g) \barMax
-    g g g g g g( a g) g \barMin f( d) f g g( f) f \barFinalis
+    g g g f g g( a g4.) g \barMin f4( d) f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a a a a g( a) \barMin
@@ -391,7 +391,7 @@
     g g g a g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g g g g( a g) g \barMin f( d) f g g( f) f \barFinalis
+    g g g f g g( a g4.) g \barMin f4( d) f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
