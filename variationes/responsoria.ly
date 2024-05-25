@@ -1726,7 +1726,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -1759,7 +1759,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
-      \zvyraznovacZelenyII
+      \zvyraznovacModry
       \choralniRezim
 
       % R
@@ -1773,10 +1773,10 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       f d f( g) g f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI
+      \doxologieResponsoriumVI
     }
     \addlyrics {
-      \Response Hos -- po -- di -- ne, dej, ať zá -- hy do -- jdu tvé mi -- los -- ti_*
+      \Response Hos -- po -- di -- ne, dej, ať zá -- hy do -- jdu tvé mi -- los -- ti,_*
       vždyť v_te -- be dou -- fám.
       \Verse U -- kaž mi ces -- tu, po níž mám krá -- čet,_*
       \Response vždyť v_te -- be dou -- fám.
