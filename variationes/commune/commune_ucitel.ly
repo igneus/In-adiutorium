@@ -984,6 +984,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4( a') g f g f g( f d) \barMin e d e( f d) c d d \barMax
     a'4 a g a \mark\sipka a( c) a \barMin a g f g a g f e e \barMaior

@@ -1170,6 +1170,26 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a bes a g a \barMin
+    f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Za -- staň se mě, Hos -- po -- di -- ne,
+    a po -- moz mi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ע"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     b4 c a g a g f( g) g \barMin
@@ -1477,6 +1497,26 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 a a c b a( g) g \barMin
+    a f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď -- te k_Hos -- po -- di -- nu,
+    ať se roz -- ve -- se -- lí -- te.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 34-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4 a b c c c \barMin c c c c c( a) b c a( g) g \barFinalis
@@ -1500,6 +1540,26 @@
     \choralniRezim
     g c b a g a \barMin
     a a g f g g a g g \barFinalis
+  }
+  \addlyrics {
+    Blíz -- ko je Hos -- po -- din
+    těm, kdo ma -- jí zkrou -- še -- né srd -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 34-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g c b a g a \barMin
+    a a g f g \mark\sipka a a g g \barFinalis
   }
   \addlyrics {
     Blíz -- ko je Hos -- po -- din
