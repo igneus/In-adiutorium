@@ -19,7 +19,7 @@
     }
 
     \fill-line{
-      \on-the-fly \development-build \placet
+      \if \is-development-build \placet
       ""
       \small { \fromproperty #'header:fons_externus }
     }

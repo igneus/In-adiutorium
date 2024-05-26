@@ -110,12 +110,10 @@
            header:fons_externus
            #{ \markup\with-url #(markup->string header:fons_externus_url) { #header:fons_externus } #}))))
 
-% procedure for \on-the-fly to only render markup argument
-% in a development build (i.e. build with the point-and-click feature);
-#(define (development-build layout props arg)
-  (if (ly:get-option 'point-and-click)
-      (interpret-markup layout props arg)
-      empty-stencil))
+% test function for \if detecting development build
+% (i.e. build with the point-and-click feature enabled)
+#(define (is-development-build layout props)
+  (ly:get-option 'point-and-click))
 
 % returns a function testing property availability,
 % suitable as argument for \if or \unless
@@ -139,7 +137,7 @@ quidEtTonus = \markup\concat{
 placet = \markup\large{
   \hspace #3
   \override #'(font-name . "Dynalight") % handwritten font
-  \on-the-fly \development-build
+  \if \is-development-build
     \with-color #blue \wordwrap-field #'header:placet
 }
 % this one is used directly in the particular score's header field,
@@ -204,7 +202,7 @@ sestavTitulekRespII = \markup\concat {
         \wordwrap-field #'header:textus_approbatus
       }
 
-      \on-the-fly \development-build \small\sans\score-fial-link
+      \if \is-development-build \small\sans\score-fial-link
     }
   }
 }

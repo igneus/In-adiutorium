@@ -11,7 +11,7 @@
 \paper {
   scoreTitleMarkup = \markup{
     \huge\bold\fill-line {
-      \on-the-fly \development-build \placet
+      \if \is-development-build \placet
       \concat{
         \fromproperty #'header:modus
       }
