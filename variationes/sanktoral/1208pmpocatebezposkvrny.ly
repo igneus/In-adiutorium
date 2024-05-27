@@ -2009,6 +2009,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f g f g a a( g) \barMin
+    g f g a g f( g) f f \barFinalis
+  }
+  \addlyrics {
+    Ce -- lá jsi krás -- ná, Ma -- ri -- a,
+    jsi bez pr -- vot -- ní po -- skvr -- ny.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f g( a) g \barMin bes( a) f( g) g \barMaior
     g a a g f f( g) f f \barFinalis
   }
