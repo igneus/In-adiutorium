@@ -59,6 +59,7 @@
     }
     \header {
       fons_externus = "podle CZ-Pn XII A 22, 148r"
+      fons_externus_url = "https://new.manuscriptorium.com/hub/browser/default/detail?url=https%3A%2F%2Fcollectiones.manuscriptorium.com%2Fassorted%2FAIPDIG%2FNMP___%2FC%2FAIPDIG-NMP___XII_A_22____0YK1T6C-cs%2F&imageId=https%3A%2F%2Fimagines.manuscriptorium.com%2Floris%2FAIPDIG-NMP___XII_A_22____0YK1T6C-cs%2FID0149R&lang=cs"
       quid = "ant."
       modus = "VI"
       differentia = "F"
