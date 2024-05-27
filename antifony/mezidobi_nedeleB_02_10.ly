@@ -462,10 +462,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g g( a) \barMin g f f( g) g \barMaior
-    a a g( f) f e f d( c) c \barMaior
-    d d f g a g f( g) f f \barMin
-    d f e( d c d) d \barFinalis
+    c4 c c d c e( d) d \barMin
+    e e d c b c a( g) g \barMaior
+    f g a c b c a g g \barMin
+    f g a( g) g \barFinalis
   }
   \addlyrics {
     Bůh nám dal skr -- ze Kris -- ta
@@ -475,8 +475,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "a2"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ne8b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -487,7 +487,7 @@
   \relative c'' {
     \choralniRezim
     a4 a g a g g \barMin f g g( a) a a g f g( f) f \barMaior
-    g g f( e d c) c \barMin d c( d) d( f) f \barMin g a g f f \barFinalis
+    g g f( e d e) e( d) \barMin d c( d) d( f) f g a g f f \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.

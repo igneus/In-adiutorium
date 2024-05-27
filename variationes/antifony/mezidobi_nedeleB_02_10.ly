@@ -2933,7 +2933,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g g( a) \barMin g f f( g) g \barMaior
     a a g( f) f e f d( c) c \barMaior
@@ -2950,6 +2950,56 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "a2"
+    psalmus = ""
+    id = "ne8b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 a a g f f( g) g \barMin
+    a a g f e f d( c) c \barMaior
+    d f g a g f g f f \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh nám dal skr -- ze Kris -- ta
+    schop -- nost slou -- žit no -- vé smlou -- vě,
+    kte -- rá ne -- spo -- čí -- vá v_li -- te -- ře,
+    a -- le v_du -- chu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne8b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c d c e( d) d \barMin
+    e e d c b c a( g) g \barMaior
+    f g a c b c a g g \barMin
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh nám dal skr -- ze Kris -- ta
+    schop -- nost slou -- žit no -- vé smlou -- vě,
+    kte -- rá ne -- spo -- čí -- vá v_li -- te -- ře,
+    a -- le v_du -- chu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ne8b-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -3048,10 +3098,33 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g a g g \barMin f g g( a) a a g f g( f) f \barMaior
     g g f( e d c) c \barMin d c( d) d( f) f \barMin g a g f f \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.
+    Mla -- dé ví -- no se na -- lé -- vá do mě -- chů no -- vých.
+  }
+  \header {
+    textus_approbatus = "Nikdo nenalévá mladé víno do starých měchů,
+    ale mladé víno se nalévá do nových měchů."
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne8b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a g g \barMin f g g( a) a a g f g( f) f \barMaior
+    g g \mark\sipka f( e d e) e( d) \barMin d c( d) d( f) f \mark\sipka g a g f f \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- na -- lé -- vá mla -- dé ví -- no do sta -- rých mě -- chů.
@@ -3125,6 +3198,26 @@ o slabiku později.}
     \choralniRezim
     d f f f g f e( d) d \barMaior
     f f \mark\sipka e( d c) c d-! e d d \barFinalis
+  }
+  \addlyrics {
+    So -- bo -- ta je pro člo -- vě -- ka,
+    a ne člo -- věk pro so -- bo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-mag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d f f f g f e( d) d \barMaior
+    f f \mark\sipka e c e f d d \barFinalis
   }
   \addlyrics {
     So -- bo -- ta je pro člo -- vě -- ka,
