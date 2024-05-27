@@ -35,8 +35,8 @@ ciselnaRada = \markup\tiny\sans\concat{
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g c d c g \barMaior
-    g a g f g a g g \barMax
+    g4 g c d c g \barMin
+    g a g f g a g g \barMaior
     g a4.( c) c4 d c c \barMin
     c b g a g g \barFinalis
   }
@@ -406,6 +406,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "_i navěky_ se mi vnucuje původní melodie a jsem na vážkách, jestli ji nevrátit"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -420,7 +421,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     \choralniRezim
     f4 f f( e) d( e) e \barMin
     d c c( d) d d \barMaior
-    f( g a) a g a( g) g( f) d( e) \barMaior
+    f( g a) g f g( a) g( f) d( e) \barMaior
     d c d( e f) e d e e \barFinalis
   }
   \addlyrics {
@@ -431,6 +432,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   }
   \header {
     fons_externus = "volně podle Antiphonale Romanum, Antverpiae 1773, s. 611, a NR2002, s. 511"
+    fons_externus_url = "https://books.google.cz/books?id=pRzS_AIJW3IC&hl=cs&pg=PA611"
     quid = "ant. dopoledne"
     modus = "IV"
     differentia = "E"
@@ -525,8 +527,8 @@ ciselnaRada = \markup\tiny\sans\concat{
     \choralniRezim
     f4 g g( a) g \barMin
     g( a bes a) f( g) g \barMaior
-    g a a g f e( f d c) c \barMaior
-    d f g a g( f) f \barFinalis
+    g a a g f g( f d) d \barMin
+    f f g a g( f) f \barFinalis
   }
   \addlyrics {
     Vy -- svo -- boď nás,
@@ -580,11 +582,11 @@ ciselnaRada = \markup\tiny\sans\concat{
     b4 c a g f( g) g \barMaior
     g f e d e g4. g \barMaior
     g4 a c c b a b g g \barMaior
-    g f( g) g( a) g \barMin a f g( a) g g \barMax
+    g f( g) g( a) a \barMin g f g( a) g g \barMax
 
     a4( c b) c( d) d d c d c a a \barMin
     c b a g a g g \barMaior
-    g f g g( a) f g( a) g g \barFinalis
+    g f g a( c) b a g g \barFinalis
   }
   \addlyrics {
     Ce -- lým srd -- cem i ús -- ty

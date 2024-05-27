@@ -43,9 +43,38 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g c d c g \barMaior
     g a g f g a g g \barMax
+    g a4.( c) c4 d c c \barMin
+    c b g a g g \barFinalis
+  }
+  \addlyrics {
+    Slá -- va to -- bě, Bo -- že,
+    je -- di -- ný ve třech o -- so -- bách,
+    jsi dřív než za -- čal čas
+    a ži -- ješ na -- vě -- ky!
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (Divisiones)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g c d c g \barMin
+    g a g f g a g g \barMaior
     g a4.( c) c4 d c c \barMin
     c b g a g g \barFinalis
   }
@@ -338,6 +367,26 @@ ciselnaRada = \markup\tiny\sans\concat{
   \relative c'' {
     \choralniRezim
     a4( d) d d f4.( d) \barMin e4 f d c c( d) d \barMaior
+    d c b a( g) a \barMin a \mark\sipka c b a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Slá -- va a čest je -- di -- né -- mu Bo -- hu:
+    Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d f4.( d) \barMin e4 f d c c( d) d \barMaior
     \mark\sipka d c d e( f d) d \barMin d c( b a) g g( a) g g \barFinalis
   }
   \addlyrics {
@@ -348,6 +397,26 @@ ciselnaRada = \markup\tiny\sans\concat{
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka d4 e e d \barMin e4 f d c c( d) d \barMaior
+    d c b a( g) a \barMin a b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Slá -- va a čest je -- di -- né -- mu Bo -- hu:
+    Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -703,7 +772,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \markup\justify{
   Ohledně trojjedi_né_mu srov. poznámku u pracovní verze
-  "commune/commune_evangelista.ly#rch-r" - nejde o akcent,
+  \fial-link "commune/commune_evangelista.ly#rch-r" - nejde o akcent,
   ale o připravující ozdobu, trojje_di_nému by znělo divně.
 }
 
@@ -954,6 +1023,33 @@ ciselnaRada = \markup\tiny\sans\concat{
     d( c) d f g e e \barMin
     e f e f g a bes a \mark\sipka g( a) a \barMaior
     g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- je -- me ti, Bo -- že,
+    a kla -- ní -- me se
+    tvé -- mu je -- di -- né -- mu,
+    pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
+    ve třech o -- so -- bách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 f f g f g( a) a \barMin
+    g a g f( d) d \barMaior
+    d( c) d f g e e \barMin
+    e f e f g a bes a \mark\sipka g( a g f) e( d) \barMaior
+    c( f) e c d d \barFinalis
   }
   \addlyrics {
     Dě -- ku -- je -- me ti, Bo -- že,
@@ -1499,6 +1595,30 @@ ciselnaRada = \markup\tiny\sans\concat{
     d4 f( g) g \barMin
     a g g a g f g \mark\sipka g( a) a \barMaior
     a g f e( f) d
+    d d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Buď s_ná -- mi,
+    je -- di -- ný, vše -- mo -- hou -- cí Bo -- že:
+    Ot -- če i Sy -- nu
+    i Du -- chu sva -- tý.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 8"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( g) g \barMin
+    a g g a g f g g( a) a \barMaior
+    a g f \mark\sipka e( d) d
     d d( e) c c( d) d \barFinalis
   }
   \addlyrics {
@@ -2141,6 +2261,28 @@ ciselnaRada = \markup\tiny\sans\concat{
     \choralniRezim
     a4 a \mark\sipka g a a( c) b g g \barMaior
     a a \mark\sipka g f e d f( g) g \barMaior
+    a( c) b c( a) a g( f) f( g) g \barFinalis
+  }
+  \addlyrics {
+    To -- bě pat -- ří čest a chvá -- la,
+    tvá je všech -- na moc a slá -- va,
+    nej -- svě -- těj -- ší Tro -- ji -- ce!
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a a( c) b g g \barMaior
+    a a g f e \mark\sipka f f( g) g \barMaior
     a( c) b c( a) a g( f) f( g) g \barFinalis
   }
   \addlyrics {
@@ -2928,7 +3070,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f( e) d( e) e \barMin
     d c c( d) d d \barMaior
@@ -2949,6 +3091,34 @@ ciselnaRada = \markup\tiny\sans\concat{
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f( e) d( e) e \barMin
+    d c c( d) d d \barMaior
+    f( g a) \mark\sipka g f g( a) g( f) d( e) \barMaior
+    d c d( e f) e d e e \barFinalis
+  }
+  \addlyrics {
+    Te -- be pro -- sí -- me,
+    te -- be chvá -- lí -- me,
+    to -- bě se kla -- ní -- me,
+    slav -- ná sva -- tá Tro -- ji -- ce!
+  }
+  \header {
+    fons_externus = "volně podle Antiphonale Romanum, Antverpiae 1773, s. 611, a NR2002, s. 511"
+    fons_externus_url = "https://books.google.cz/books?id=pRzS_AIJW3IC&hl=cs&pg=PA611"
+    quid = "ant. dopoledne"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    series = "M4"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu \ciselnaRada}
   }
 }
 
@@ -3383,7 +3553,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g( a) g \barMin
     g( a bes a) f( g) g \barMaior
@@ -3402,6 +3572,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     differentia = "F"
     psalmus = "Žalm 114"
     series = "M6"
+    placet = "v modu nesedí moc přesvědčivě, spíš modus I"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek \ciselnaRada}
   }
@@ -3426,6 +3597,82 @@ ciselnaRada = \markup\tiny\sans\concat{
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek \ciselnaRada}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) g \barMin
+    g( a bes a) f( g) g \barMaior
+    g a a g f \mark\sipka f( g f) f \barMin
+    d f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás,
+    za -- chraň nás
+    a dej nám věč -- ný ži -- vot,
+    troj -- je -- di -- ný Bo -- že!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 114"
+    series = "M6"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek \ciselnaRada}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) g \barMin
+    g( a bes a) f( g) g \barMaior
+    g a a g f \mark\sipka g( f d) d \barMin
+    c d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás,
+    za -- chraň nás
+    a dej nám věč -- ný ži -- vot,
+    troj -- je -- di -- ný Bo -- že!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 114"
+    series = "M6"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek \ciselnaRada}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) g \barMin
+    g( a bes a) f( g) g \barMaior
+    g a a g f g( f d) d \barMin
+    \mark\sipka f f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás,
+    za -- chraň nás
+    a dej nám věč -- ný ži -- vot,
+    troj -- je -- di -- ný Bo -- že!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 114"
+    series = "M6"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek \ciselnaRada}
   }
@@ -3663,7 +3910,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) c b c( d c) c \barMin
     b4 c a g f( g) g \barMaior
@@ -3674,6 +3921,41 @@ ciselnaRada = \markup\tiny\sans\concat{
     a4( c b) c( d) d d c d c a a \barMin
     c b a g a g g \barMaior
     g f g g( a) f \mark\sipka g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lým srd -- cem i ús -- ty
+    vy -- zná -- vá -- me te -- be,
+    ne -- zro -- ze -- né -- ho Ot -- ce
+    i jed -- no -- ro -- ze -- né -- ho Sy -- na
+    i Pří -- mluv -- ce, Du -- cha sva -- té -- ho.
+
+    Chvá -- lí -- me a ve -- le -- bí -- me tě,
+    nej -- svě -- těj -- ší Tro -- ji -- ce:
+    To -- bě buď slá -- va na -- vě -- ky!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c b c( d c) c \barMin
+    b4 c a g f( g) g \barMaior
+    g f e d e g4. g \barMaior
+    g4 a c c b a b g g \barMaior
+    g f( g) g( a) \mark\sipka a \barMin g f g( a) g g \barMax
+
+    a4( c b) c( d) d d c d c a a \barMin
+    c b a g a g g \barMaior
+    g f g \mark\sipka a( c) b a g g \barFinalis
   }
   \addlyrics {
     Ce -- lým srd -- cem i ús -- ty
