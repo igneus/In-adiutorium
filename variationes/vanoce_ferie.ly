@@ -1075,7 +1075,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 b d( e) d d \barMin
     c b \mark\sipka a( g) g \barMaior
@@ -1083,6 +1083,66 @@
     c b c d( e) d d e f e d c( d) d \barMaior
     d c b a( b) g g \barMin a a a g f
     g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    c b a( g) g \barMaior
+    a g f g g( a) \barMin
+    \mark\sipka a c d d( e) d d e f e d c( d) d \barMaior
+    d c b a( b) g g \barMin a a a g f
+    g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu pře -- bý -- vá
+    pl -- nost bož -- ství,
+    stal se jed -- ním z_nás
+    a byl nám po -- dob -- ný ve všem kro -- mě hří -- chu,
+    a -- by nás u -- či -- nil no -- vý -- mi lid -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "4aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Částečný návrat k jedné ze starších verzí)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    c b a( g) g \barMaior
+    \mark\sipka a a a c b( g) \barMin
+    a a a a( d) c b c b a g a a \barMaior
+    a c d d( e) d d \barMin c c c b g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     V_Kris -- tu pře -- bý -- vá

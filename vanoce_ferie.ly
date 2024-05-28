@@ -122,10 +122,10 @@
     \choralniRezim
     d4 b d( e) d d \barMin
     c b a( g) g \barMaior
-    a g f g g( a) \barMin
-    c b c d( e) d d e f e d c( d) d \barMaior
-    d c b a( b) g g \barMin a a a g f
-    g a a( g) g \barFinalis
+    a a a c b( g) \barMin
+    a a a a( d) c b c b a g a a \barMaior
+    a c d d( e) d d \barMin c c c b g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     V_Kris -- tu pře -- bý -- vá
@@ -140,7 +140,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "nevím"
     id = "4aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
