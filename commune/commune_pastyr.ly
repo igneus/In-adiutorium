@@ -223,15 +223,18 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( d c) c \barMin d e c a a \barMin f g a b( c d4.) d \barMaior
-    c4 c a( c) b( g a) g \bar "" a( g f) a g g \barFinalis
+    f4( g) g \barMin
+    a g a f( e d) d \barMin
+    d e f d( c) c \barMaior
+    d c d d( f) f g( a) g f f \barFinalis
 
-    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
   \addlyrics {
-    Pojď -- me, klaň -- me se Kris -- tu,
+    Pojď -- me,
+    klaň -- me se Kris -- tu,
     na -- še -- mu Pá -- nu;
     on je nej -- vyš -- ší Pas -- týř círk -- ve.
 
@@ -239,10 +242,10 @@
   }
   \header {
     quid = "ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
-    placet = "zejm. ta stupnice na _našemu Pánu_ je hrozná, _nejvyšší pastýř_ divné"
+    fial = "commune/commune_ucitel.ly#invit?zacatek=18"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }

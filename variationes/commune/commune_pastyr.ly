@@ -936,7 +936,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( d c) c \barMin d e c a a \barMin f g a b( c d4.) d \barMaior
     c4 c a( c) b( g a) g \mark\sipka \bar "" a( g f) a g g \barFinalis
@@ -955,6 +955,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "zejm. ta stupnice na _našemu Pánu_ je hrozná, _nejvyšší pastýř_ divné"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1552,7 +1553,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     f4( g) g \barMin
     a g a f( e d) d \barMin
