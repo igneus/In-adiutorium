@@ -87,14 +87,14 @@
 
       % R
       \neviditelna f
-      f4 g f f f g f g( a) \barMax
-      f g a g f d d f g g( f) f \barFinalis
+      f4 f g g g g f g( a) \barMax
+      f g a g f d d \barMin f g g( f) f \barFinalis
       % V
       \neviditelna a
       a4 a g( a) g f g g g( a) \barMax
       % R
       \neviditelna a
-      f g a g f d d f g g( f) f \barFinalis
+      f g a g f d d \barMin f g g( f) f \barFinalis
       % Slava
       \respVIdoxologie \barFinalis
     }
@@ -106,7 +106,6 @@
       \textRespDoxologie
     }
     \header {
-      placet = "_Dnes poznáte_: akcent na druhém slově fráze není moc pěkný, celkově má r1 nepěkný rytmus"
       id = "narozeni-1ne-resp"
       quid = "resp."
       modus = "VI"

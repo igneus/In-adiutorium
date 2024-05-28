@@ -667,7 +667,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -691,6 +691,7 @@
       \textRespDoxologie
     }
     \header {
+      placet = "_Dnes poznáte_: akcent na druhém slově fráze není moc pěkný, celkově má r1 nepěkný rytmus"
       id = "narozeni-1ne-resp"
       quid = "resp."
       modus = "VI"
@@ -755,6 +756,39 @@
       \Response Dnes po -- zná -- te, že při -- jde Pán_*
       a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
       \Verse On sám při -- jde a spa -- sí vás_*
+      \Response a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
+      \textRespDoxologie
+    }
+    \header {
+      id = "narozeni-1ne-resp"
+      quid = "resp."
+      modus = "VI"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f g g g g f g( a) \barMax
+      f g a g f d d \mark\sipka \barMin f g g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a4 a g( a) g f g g g( a) \barMax
+      % R
+      \neviditelna a
+      f g a g f d d \mark\sipka \barMin f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Dnes po -- zná -- te, že při -- jde Pán,_*
+      a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
+      \Verse On sám při -- jde a spa -- sí vás,_*
       \Response a br -- zy u -- vi -- dí -- te je -- ho slá -- vu.
       \textRespDoxologie
     }
