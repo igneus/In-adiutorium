@@ -25,6 +25,7 @@ tInedeleInvitatorium = \score {
     modus = "I"
     differentia = "D"
     dies = "neděle"
+    scriptura = "Žalm 95, 1"
     placet = "_oslavujme_ si nejsem jist"
     id = "t1ne"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -46,6 +47,7 @@ tIpondeliInvitatorium = \score {
     modus = "I"
     differentia = "D"
     dies = "pondělí"
+    scriptura = "srov. Žalm 95, 2"
     id = "t1po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -66,6 +68,7 @@ tIuteryInvitatorium = \score {
     modus = "II"
     differentia = "D"
     dies = "úterý"
+    scriptura = "srov. Žalm 95, 6.3"
     id = "t1ut"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -86,6 +89,7 @@ tIstredaInvitatorium = \score {
     modus = "I"
     differentia = "f"
     dies = "středa"
+    scriptura = "Žalm 95, 6"
     id = "t1st"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -106,6 +110,7 @@ tIctvrtekInvitatorium = \score {
     modus = "II"
     differentia = "D"
     dies = "čtvrtek"
+    scriptura = "srov. Žalm 95, 6.7"
     id = "t1ct"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -130,6 +135,7 @@ tIpatekInvitatorium = \score {
     modus = "VI"
     differentia = "F"
     dies = "pátek"
+    scriptura = "srov. Žalm 100, 5 (Žalm 106, 1; 107, 1; 118, 1; 136, 1)"
     id = "t1pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -151,6 +157,7 @@ tIsobotaInvitatorium = \score {
     modus = "II"
     differentia = "D"
     dies = "sobota"
+    scriptura = "srov. Žalm 95, 6.5"
     id = "t1so"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -177,6 +184,7 @@ tIInedeleInvitatorium = \score {
     quid = "ant."
     modus = "I"
     differentia = "D"
+    scriptura = "srov. Žalm 95, 6.7"
     id = "t2ne"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -197,6 +205,7 @@ tIIpondeliInvitatorium = \score {
     quid = "ant."
     modus = "VII"
     differentia = "c"
+    scriptura = "srov. Žalm 95, 2"
     placet = "_zajásejme_ lépe"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -218,6 +227,7 @@ tIIuteryInvitatorium = \score {
     quid = "ant."
     modus = "II"
     differentia = "D"
+    scriptura = "srov. Žalm 95, 6.3"
     id = "t2ut"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -238,6 +248,7 @@ tIIstredaInvitatorium = \score {
     quid = "ant."
     modus = "VII"
     differentia = "c"
+    scriptura = "Žalm 100, 1-2"
     id = "t2st"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -259,6 +270,7 @@ tIIctvrtekInvitatorium = \score {
     modus = "VI"
     differentia = "F"
     id = "t2ct"
+    scriptura = "srov. Žalm 100, 2"
     % antifony/tyden1_6patek.ly#rch-ant3 se shodnym textem se vedome a dobrovolne nedrzime
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -279,6 +291,7 @@ tIIpatekInvitatorium = \score {
     quid = "ant."
     modus = "I"
     differentia = "f"
+    scriptura = "Žalm 100, 5.4"
     id = "t2pa"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -301,6 +314,7 @@ tIIsobotaInvitatorium = \score {
     quid = "ant."
     modus = "I"
     differentia = "D"
+    scriptura = "srov. Žalm 95, 7-11"
     id = "t2so"
     piece = \markup {\sestavTitulekBezZalmu}
   }
