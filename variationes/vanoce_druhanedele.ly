@@ -2218,6 +2218,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c f g f( a) a \barMin
+    c c b( c a) \barMaior
+    g a bes a g f( g f d) d \barMin
+    f f e d c c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Na -- ro -- dil se nám Král krá -- lů,
+    Kris -- tus Pán:
+    při -- šla k_nám spá -- sa svě -- ta,
+    na -- še vy -- kou -- pe -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 19"
+    id = "ne2-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
