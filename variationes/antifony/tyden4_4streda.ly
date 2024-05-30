@@ -1347,6 +1347,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g f \mark\sipka e f f( g) g \barMin
+    g a a g f e f d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi bu -- de ú -- to -- čiš -- těm
+    a po -- si -- lou mé na -- dě -- je.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 94-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}

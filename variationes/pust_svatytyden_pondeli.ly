@@ -869,6 +869,78 @@
   \relative c'' {
     \key f \major
     \choralniRezim
+    a4 g f( g a) a( bes) a a \barMin
+    a( f g) f d d \mark\sipka f f g( a bes) a( g) a \barMaior
+    a g f f f( g) f \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Své -- mu slu -- žeb -- ní -- ku
+    dám zá -- stu -- py ja -- ko dě -- dic -- tví,
+    pro -- to -- že sám se -- be vy -- dal na smrt.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 45-II"
+    id = "po-ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 g f( g a) a( bes) a a \barMin
+    a( f g) f d d f f \mark\sipka g( a) a( g) g \barMaior
+    a g f f f( g) f \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Své -- mu slu -- žeb -- ní -- ku
+    dám zá -- stu -- py ja -- ko dě -- dic -- tví,
+    pro -- to -- že sám se -- be vy -- dal na smrt.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 45-II"
+    id = "po-ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 g f( g a) a( bes) a a \barMin
+    \mark\sipka a( bes a) g a g \barMin f g a( bes) a( g) a \barMaior
+    a g f f f( g) f \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Své -- mu slu -- žeb -- ní -- ku
+    dám zá -- stu -- py ja -- ko dě -- dic -- tví,
+    pro -- to -- že sám se -- be vy -- dal na smrt.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 45-II"
+    id = "po-ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
     a4 a g( a) g( f) e e \barMin
     f( e f) g a a bes a g a a \barMaior
     a g f g f( d) d \barMin
