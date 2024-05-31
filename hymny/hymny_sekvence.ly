@@ -12,7 +12,7 @@
   scoreTitleMarkup = \markup\fill-line {
     ""
     \small\italic\fromproperty #'header:incipit
-    \tiny\fromproperty #'header:fons_externus
+    \tiny\fons-externus-link
   }
 }
 
@@ -187,6 +187,7 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
     incipit = "Ave, Verbi Dei parens"
     occasio = "Navštívení Panny Marie, ranní chvály"
     fons_externus = "CZ-Pu XII A 9, f. 70r"
+    fons_externus_url = "https://new.manuscriptorium.com/hub/browser/default/detail?url=https%3A%2F%2Fcollectiones.manuscriptorium.com%2Fassorted%2FAIPDIG%2FNKCR__%2FD%2FAIPDIG-NKCR__XII_A_9_____0YUXLQD-cs%2F&imageId=https%3A%2F%2Fimagines.manuscriptorium.com%2Floris%2FAIPDIG-NKCR__XII_A_9_____0YUXLQD-cs%2FID0071r&lang=cs"
     metrum = "8.7.8.7"
     id = "navstiveni-ave"
   }
@@ -281,6 +282,7 @@ lunb = \lyricmode { \revert Lyrics.LyricText.font-series }
     incipit = "Decet huius cunctis horis"
     occasio = "Navštívení Panny Marie, ranní chvály"
     fons_externus = "CZ-Pu XII A 9, f. 73v"
+    fons_externus_url = "https://new.manuscriptorium.com/hub/browser/default/detail?url=https%3A%2F%2Fcollectiones.manuscriptorium.com%2Fassorted%2FAIPDIG%2FNKCR__%2FD%2FAIPDIG-NKCR__XII_A_9_____0YUXLQD-cs%2F&imageId=https%3A%2F%2Fimagines.manuscriptorium.com%2Floris%2FAIPDIG-NKCR__XII_A_9_____0YUXLQD-cs%2FID0074v&lang=cs"
     id = "navstiveni-decet"
   }
 }
