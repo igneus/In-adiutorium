@@ -111,6 +111,8 @@
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Blahoslavená jsi, Panno Maria,
+    tys uvěřila, že se splní to, co ti bylo řečeno od Pána. Aleluja."
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
