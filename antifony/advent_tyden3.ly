@@ -34,7 +34,7 @@
     \choralniRezim
     d4 d d( a) a b g a \barMaior
     g g a a a c d c d d \barMaior
-    d d( e d c4.) a \barMin g4 f g c b g( a) a \barFinalis
+    d d( e d c4.) a \barMin a4 g a c b g( a) a \barFinalis
   }
   \addlyrics {
     Jsem už blíz -- ko, pra -- ví Pán,
@@ -46,7 +46,6 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 116-II"
-    placet = "druhou část spíš lépe"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }

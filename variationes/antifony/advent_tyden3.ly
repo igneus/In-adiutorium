@@ -180,10 +180,35 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a) a b g a \barMaior
     g g a a a c d c d d \barMaior
     d d( e d c4.) a \barMin g4 f g c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Jsem už blíz -- ko, pra -- ví Pán,
+    má spra -- ve -- dl -- nost ne -- ní da -- le -- ko,
+    má spá -- sa na se -- be ne -- dá če -- kat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 116-II"
+    placet = "krok na _na_ je nějak navíc, krok mimo dobrý spád melodie"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a) a b g a \barMaior
+    g g a a a c d c d d \barMaior
+    d d( e d c4.) a \barMin \mark\sipka a4 g a c b g( a) a \barFinalis
   }
   \addlyrics {
     Jsem už blíz -- ko, pra -- ví Pán,
