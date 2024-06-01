@@ -1624,12 +1624,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 d' d e c d b \barMin
     d d c b a( b) b \barMaior
     c c c b( a g) g \barMin
     a f g a a a g a g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- vit mě bu -- dou
+    všech -- na po -- ko -- le -- ní,
+    ne -- boť Bůh shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Magnificat"
+    id = "po-amag"
+    fial = "fial://commune/commune_maria.ly#1ne-amag2?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 d' d e c d b \barMin
+    d d c b a( b) b \barMaior
+    c c c b( a g4.) g \barMin
+    a4 f g a a a g a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- vit mě bu -- dou

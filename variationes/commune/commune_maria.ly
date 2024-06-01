@@ -1195,7 +1195,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 d' d e c d b \barMin
     \mark\sipka d d c b a( b) b \barMaior
@@ -1203,6 +1203,35 @@
     \mark\sipka a f g a a a g a g g \barFinalis
 
     f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- vit mě bu -- dou
+    všech -- na po -- ko -- le -- ní,
+    ne -- boť Bůh shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Magnificat"
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 d' d e c d b \barMin
+    d d c b a( b) b \barMaior
+    c c c b( a g4.) g \barMin
+    a4 f g a a a g a g g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- vit mě bu -- dou
@@ -4646,7 +4675,7 @@ začátkem v jednom oficiu patřily k různým modům.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
@@ -4671,6 +4700,7 @@ začátkem v jednom oficiu patřily k různým modům.
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
@@ -4684,6 +4714,8 @@ začátkem v jednom oficiu patřily k různým modům.
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Blahoslavená jsi, Panno Maria,
+    tys uvěřila, že se splní to, co ti bylo řečeno od Pána. Aleluja."
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"

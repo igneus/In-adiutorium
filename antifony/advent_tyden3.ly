@@ -257,8 +257,8 @@
     \choralniRezim
     g4 d' d e c d b \barMin
     d d c b a( b) b \barMaior
-    c c c b( a g) g \barMin
-    a f g a a a g a g g \barFinalis
+    c c c b( a g4.) g \barMin
+    a4 f g a a a g a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- vit mě bu -- dou

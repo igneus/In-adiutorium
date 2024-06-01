@@ -101,7 +101,7 @@
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin f g a b c a g g( a) g g \barFinalis
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
@@ -249,10 +249,10 @@
     \choralniRezim
     g4 d' d e c d b \barMin
     d d c b a( b) b \barMaior
-    c c c b( a g) g \barMin
-    a f g a a a g a g g \barFinalis
+    c c c b( a g4.) g \barMin
+    a4 f g a a a g a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- vit mě bu -- dou
