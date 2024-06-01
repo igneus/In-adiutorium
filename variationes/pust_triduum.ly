@@ -944,9 +944,14 @@
   }
 }
 
+\markup\justify{
+  Pozn.: ve skutečnosti nejde o jedinou zmínku \italic{Lanceae Domini}
+  v Denní modlitbě církve - druhá je
+  \fial-link "mezidobi_nejsvsrdce.ly#up-nona"
+}
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( a') a b a g g( a) \barMin
     c b a g f g g( e) e \barMaior
@@ -962,10 +967,13 @@
     no -- vé -- ho ži -- vo -- ta.
   }
   \header {
+    textus_approbatus = "Když voják probodl kopím bok Ukřižovaného Pána,
+    vytryskla krev a voda, a otevřel se nám pramen nového života."
     quid = "ant. ke kantikům vigilie"
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "zkusit oficiální text - je hloupé zrovna v Čechách vynechat z oficia i tu jedinou zmínku o 'Kopí Páně'"
     id = "pa-mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1012,6 +1020,33 @@
   \addlyrics {
     Když vo -- ják pro -- bo -- dl ko -- pím bok
     U -- kři -- žo -- va -- né -- ho Pá -- na,
+    vy -- try -- skla krev a vo -- da,
+    a o -- te -- vřel se nám pra -- men
+    no -- vé -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( a') a \mark\sipka a g a a( bes a) a \barMin
+    a a g f g a g e e \barMaior
+    d( f) g( a) a c b a( b a) a \barMaior
+    a a g f d e d( c) c \barMin
+    d( e f) e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Když vo -- ják pro -- bo -- dl ko -- pím
+    bok U -- kři -- žo -- va -- né -- ho Pá -- na,
     vy -- try -- skla krev a vo -- da,
     a o -- te -- vřel se nám pra -- men
     no -- vé -- ho ži -- vo -- ta.
