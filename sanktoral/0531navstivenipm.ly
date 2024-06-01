@@ -36,7 +36,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "sanktoral/0815nanebevzetipm.ly#invit?zacatek&konec&+aleluja"
+    fial = "sanktoral/0815nanebevzetipm.ly#invit?zacatek=4&konec=23&+aleluja"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -134,7 +134,7 @@
     \key f \major
     d4 d d f( g) g g a bes a g f g f f( g) g \barMaior
     g( a f) e( d) d e d( c) c( d) d \barMax
-    d( a' bes) a g a( bes a) g( f) f( g) g \barMaior
+    d( a' bes) a g a( bes a) g f( g) g \barMaior
     g g( a g) f e f d d \barMin d( e) c c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
@@ -154,6 +154,7 @@
     psalmus = ""
     id = "rch-aben"
     fons = "srov. tady 2. ant."
+    fial = "sanktoral/0531navstivenipm.ly#rch-a2?zacatek=11"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -163,8 +164,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a) g \barMin
-    g a b c a g a g g \barMaior
+    g4 f g g( a) a \barMin
+    c b g b c a a g g \barMaior
     g f e d d f( g) a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
@@ -181,7 +182,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 122"
-    placet = "nevím"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }

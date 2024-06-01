@@ -1272,10 +1272,36 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g( a) g \barMin
     g a b c a g a g g \barMaior
+    g f e d d f( g) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a ve -- šla
+    do Za -- cha -- ri -- á -- šo -- va do -- mu
+    a po -- zdra -- vi -- la Alž -- bě -- tu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 122"
+    id = "ivben"
+    fial = "sanktoral/0531navstivenipm.ly#ne-a1?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g g( a) a \barMin
+    c b g b c a a g g \barMaior
     g f e d d f( g) a( g) g \barFinalis
   }
   \addlyrics {
