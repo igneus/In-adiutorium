@@ -104,11 +104,10 @@
    #:properties ((header:fons_externus #f) (header:fons_externus_url #f))
    "Pokud zpev ma property 'fons_externus', vygeneruje ji; pokud ma i 'fons_externus_url', tak jako odkaz"
    (interpret-markup layout props
-     (if (equal? header:fons_externus #f)
-       empty-markup
-       (if (equal? header:fons_externus_url #f)
-           header:fons_externus
-           #{ \markup\with-url #(markup->string header:fons_externus_url) { #header:fons_externus } #}))))
+     (cond
+      ((equal? header:fons_externus #f) empty-markup)
+      ((equal? header:fons_externus_url #f) header:fons_externus)
+      (else #{ \markup\with-url #(markup->string header:fons_externus_url) { #header:fons_externus } #}))))
 
 % test function for \if detecting development build
 % (i.e. build with the point-and-click feature enabled)
