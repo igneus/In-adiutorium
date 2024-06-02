@@ -1373,6 +1373,33 @@
   }
 }
 
+\markup\justify{
+  Divisio po _chvály_ je sice o něco větší zářez, ale ne o tolik,
+  aby to ospravedlňovalo (při tak krátkém textu a daném spádu melodie) divisio maior.
+  Zároveň všechno důležité udělá nápěv sám, divisiones není potřeba nuancovat.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \mark\sipka e( d) c( d) c \barMin
+    a c b g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Kdo při -- ná -- ší
+    o -- bě -- ti chvá -- ly,
+    ten mě ctí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 50-III"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -1843,6 +1870,24 @@
   \relative c'' {
     \choralniRezim
     c4-- d( e c) c( d) d \barMin \mark\sipka d c a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Tvůj trůn, Bo -- že, tr -- vá na věč -- né ča -- sy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 45-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e( d c) d \barMin c a b c a g g \barFinalis
   }
   \addlyrics {
     Tvůj trůn, Bo -- že, tr -- vá na věč -- né ča -- sy.

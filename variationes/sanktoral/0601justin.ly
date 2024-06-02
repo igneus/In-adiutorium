@@ -37,6 +37,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d d d( f) e d( c) c f( g) f( a) a \barMaior
+    a( c) a( g) g( a) \barMin a a a g f e( f d) d \barMaior
+    d d c d d( f) d f g f d d \barMin
+    f \mark\sipka f e d c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdy -- ko -- li při -- ná -- ší -- me své da -- ry,
+    chvá -- lí -- me Stvo -- ři -- te -- le všech vě -- cí
+    skr -- ze je -- ho Sy -- na Je -- ží -- še Kris -- ta
+    a skr -- ze Du -- cha sva -- té -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 d d d( f) e d( c) c f( g) f( a) a \barMaior
@@ -240,6 +264,84 @@
     \mark\sipka f g g( a) a c b a g a g g \barFinalis
 
     \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_mém srd -- ci vzplál o -- heň
+    a za -- mi -- lo -- val jsem si pro -- ro -- ky
+    a ty, kdo jsou Kris -- to -- vý -- mi přá -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a a( c) c \barMin
+    c d \mark\sipka d c b a b a g g \barMaior
+    f g g( a) a c b a g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_mém srd -- ci vzplál o -- heň
+    a za -- mi -- lo -- val jsem si pro -- ro -- ky
+    a ty, kdo jsou Kris -- to -- vý -- mi přá -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a a( c) c \barMin
+    c d d c b a \mark\sipka g a g g \barMaior
+    f g g( a) a c b a g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_mém srd -- ci vzplál o -- heň
+    a za -- mi -- lo -- val jsem si pro -- ro -- ky
+    a ty, kdo jsou Kris -- to -- vý -- mi přá -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g a a( c) c \barMin
+    c d d c b a g a g g \barMaior
+    f g g( a) a c \mark\sipka c b a g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     V_mém srd -- ci vzplál o -- heň
