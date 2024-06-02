@@ -29,11 +29,11 @@
 
 % rad bych v budoucnu vyzkousel vic variant
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d d e f d d \barMaior
-    f f( g) d( e) c \barMin bes c d d \barMaior
-    e f d( c) d \barFinalis
+    c b c d c a \barMin
+    c b a( b) g \barMin f g a a \barMaior
+    b c a( g) a \barFinalis
   }
   \addlyrics {
     Kris -- tus mu -- sel tr -- pět
@@ -43,9 +43,9 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
-    differentia = "D"
+    differentia = "A"
     psalmus = ""
-    placet = "lépe"
+    fial = "antifony/velikonoce_nedeleB.ly#iiimag2?cast=1"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

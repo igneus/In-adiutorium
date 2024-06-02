@@ -84,6 +84,7 @@
 % rad bych v budoucnu vyzkousel vic variant
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d d e f d d \barMaior
     f f( g) d( e) c \barMin bes c d d \barMaior
@@ -121,6 +122,30 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c b c d c a \barMin
+    c b a( b) g \barMin f g a a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus mu -- sel tr -- pět
+    a vstát z_mrt -- vých tře -- tí -- ho dne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleB.ly#iiimag2?cast=1"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
