@@ -365,7 +365,7 @@
     \choralniRezim
     g4 g( a) a a a( b) a a( g) g \barMax
     g( a g) g4.( c) a4( g) g( e) e \barMaior
-    e d c d( e) e( f e) e \barMax
+    e d c d( e) e( f e) e \barMin
     g f( d) d( e) e \barFinalis
   }
   \addlyrics {

@@ -56,10 +56,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e g g( a) \barMin g( f) g4. g \barMaior
+    e4 e g g( a) g( f) g4. g \barMaior
     a4 a( g) g a a( b) a a( g) g \barMax
     g( a g) g4.( c) a4( g) g( e) e \barMaior
-    e d c d( e) e( f e) e \barMax
+    e d c d( e) e( f e) e \barMin
     g f( d) d( e) e \barFinalis
   }
   \addlyrics {
@@ -224,7 +224,7 @@
     \choralniRezim
     d4 f e f g g \barMin
     a g f g( a) g g \barMaior
-    a a g f e c e( f d) d \barFinalis
+    a a g a g f e( f d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din nás ži -- ví
@@ -408,7 +408,7 @@
     d4( f) f f f f e4.( d) \barMin
     d4( f) e( f) f f f f g a g f e f e c c \barMin
     d c d f e c( d) d \barMaior
-    c f e( d) d \barFinalis
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Tou -- žeb -- ně jsem si přál_*
@@ -433,8 +433,8 @@
     \choralniRezim
     g4 g( a) a \barMin g f g g( a) \barMaior
     bes4 a g( f) g \barMin
-    f( d) d \barMaior d d( f) f f e f d d \barMaior
-    e f d( c) d \barFinalis
+    f( d) d \barMaior d d( f) f f e f d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Když jed -- li,_* vzal Je -- žíš chléb,
@@ -458,7 +458,7 @@
     \choralniRezim
     g4 f g g( a) a a \barMin
     c c b a g( a) g \barMaior
-    f a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Po -- zna -- li Je -- ží -- še
