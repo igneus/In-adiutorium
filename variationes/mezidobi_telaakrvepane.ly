@@ -3595,6 +3595,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 e a g( f) e e \barMin
+    c d e f g g
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Po -- zna -- li Je -- ží -- še
+    při lá -- má -- ní chle -- ba.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "up-nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
