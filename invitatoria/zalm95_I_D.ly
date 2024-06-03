@@ -61,6 +61,7 @@ zalmXCVtonusID = \score {
     differentia = "D"
     fons_externus = \markup\justify{volně podle \italic{Antiphonarium Cisterciense,} Westmalle: Typographia ordinis cisterciensium strictioris observantiae 1947, 271*nn.}
     piece = \markup\sestavTitulekBezZalmu
+    placet = "ta kvintová pes na _byste_ je důrazná pěst na oko"
     id = "i-d"
   }
 }
