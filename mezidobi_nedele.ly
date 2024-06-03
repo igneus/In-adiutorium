@@ -9,10 +9,10 @@
 
 \paper {
   oddHeaderMarkup = \markup\unless \on-first-page-of-part {
-    \runningTitleFromProperty #'header:subtitle ##t
+    \runningTitleFromProperty #'header:subtitle
   }
   evenHeaderMarkup = \markup\unless \on-first-page-of-part {
-    \runningTitleFromProperty #'header:subtitle ##f
+    \runningTitleFromProperty #'header:subtitle
   }
 }
 
