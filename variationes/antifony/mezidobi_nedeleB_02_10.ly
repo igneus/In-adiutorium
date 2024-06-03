@@ -3194,10 +3194,31 @@ o slabiku později.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d f f f g f e( d) d \barMaior
     f f \mark\sipka e( d c) c d-! e d d \barFinalis
+  }
+  \addlyrics {
+    So -- bo -- ta je pro člo -- vě -- ka,
+    a ne člo -- věk pro so -- bo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-mag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d f f f g f e( d) d \barMaior
+    f f e( d c) c \mark\sipka e f d d \barFinalis
   }
   \addlyrics {
     So -- bo -- ta je pro člo -- vě -- ka,
@@ -3230,6 +3251,34 @@ o slabiku později.}
     psalmus = ""
     id = "ne9b-mag1"
     piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d f f f g f e( d) d \barMaior
+    \mark\sipka e e d c e f d d \barFinalis
+  }
+  \addlyrics {
+    So -- bo -- ta je pro člo -- vě -- ka,
+    a ne člo -- věk pro so -- bo -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-mag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    \bold{Respóndit Iesus pharisǽis:}
+    Dóminus est Fílius hóminis étiam sábbati.
   }
 }
 
@@ -3314,6 +3363,24 @@ o slabiku později.}
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f f f \mark\sipka g( f) e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka c4 d f f f g( a) g f e f d d \barFinalis
   }
   \addlyrics {
@@ -3349,8 +3416,45 @@ o slabiku později.}
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 f f e d c( d) c \mark\sipka c e f d d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 f f e d c( d) c c a c d d \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e d c( d) c c \mark\sipka f e c( d) d \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka je pá -- nem i nad so -- bo -- tou.
@@ -3421,6 +3525,15 @@ o slabiku později.}
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Dicit Iesus hómini habénti manum áridam: Exténde manum.
+    Et exténdit, et restitúta est manus eius.
+  }
+  Čili DMC dělá z dané perikopy vlastní nezávislý výběr.
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -3452,6 +3565,50 @@ o slabiku později.}
     \zvyraznovacModry
     \choralniRezim
     d4 c d f f e f g( a) g f e f d( c) \barMaior
+    d f e( d) c c \barMin d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Smí se v_so -- bo -- tu jed -- nat dob -- ře,
+    a -- ne -- bo zle?
+    Ži -- vot za -- chrá -- nit,
+    a -- ne -- bo za -- bít?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e f g( a) g f \mark\sipka d e d( c) \barMaior
+    d f e( d) c c \barMin d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Smí se v_so -- bo -- tu jed -- nat dob -- ře,
+    a -- ne -- bo zle?
+    Ži -- vot za -- chrá -- nit,
+    a -- ne -- bo za -- bít?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne9b-mag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f \mark\sipka g f g( a) g f e f d( c) \barMaior
     d f e( d) c c \barMin d f e c( d) d \barFinalis
   }
   \addlyrics {

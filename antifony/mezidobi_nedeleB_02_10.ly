@@ -507,16 +507,11 @@
 
 \markup {\nadpisDen {"9. neděle"}}
 
-\markup\italic\justify{V závěru následující antifony je potřeba
-položit přízvuk tak, jak to odpovídá logice jazyka (poznačeno
-"\"kapkou\"" pod notou), ne tak, jak by k tomu sváděla melodie,
-o slabiku později.}
-
 \score {
   \relative c' {
     \choralniRezim
     d f f f g f e( d) d \barMaior
-    f f e( d c) c d-! e d d \barFinalis
+    f f e( d c) c e f d d \barFinalis
   }
   \addlyrics {
     So -- bo -- ta je pro člo -- vě -- ka,
