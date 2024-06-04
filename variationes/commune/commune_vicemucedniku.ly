@@ -1582,6 +1582,20 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Gaudent in cælis ánimæ sanctórum,
+    qui Christi vestígia sunt secúti;
+    et quia pro eius amóre sánguinem suum fudérunt,
+    ídeo cum Christo regnábunt in ætérnum.
+  }
+}
+\markup\justify{
+  Můj nápěv posouvá význam proti českému překladu -
+  a český překlad zase proti latinské předloze.
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -1836,6 +1850,34 @@
     d( e f) e( d) c( d) \barMaior
     d d d c b c a a( g) g \barMin
     \mark\sipka a g f g a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se, sva -- tí,_*
+    před Be -- rán -- ko -- vým trů -- nem,
+    v_krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né
+    od za -- lo -- že -- ní svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    c d e d c d d \barMaior
+    d( e f) \mark\sipka d( c) c( d) \barMaior
+    d d d c b c a a( g) g \barMin
+    a g f g a g g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
