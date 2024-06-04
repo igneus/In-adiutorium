@@ -1,5 +1,6 @@
 \version "2.24.0"
 
+#(use-modules (srfi srfi-26))
 
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
@@ -61,7 +62,7 @@
          (string-append
           "Společné texty "
           (string-join
-           (map-in-order (lambda (i) (cdr (assoc i communia-alist))) ckeywords)
+           (map-in-order (cut assq-ref communia-alist <>) ckeywords)
            ", nebo ")
           "."
           )))))
