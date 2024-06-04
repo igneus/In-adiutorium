@@ -69,11 +69,10 @@
 #(define-markup-command (runningTitleFromProperty layout props propertySymbol)(symbol?)
    #:properties ((page:page-number 0))
    "page header with page number on the outer side and specified property in the center"
-   (let*
-    ((lineContents (list (markup "") (markup #:fromproperty propertySymbol) (markup #:fromproperty 'page:page-number-string)))
-     (isOddPage (eq? 1 (modulo page:page-number 2))))
+   (let
+    ((lineContents (list (markup "") (markup #:fromproperty propertySymbol) (markup #:fromproperty 'page:page-number-string))))
     (interpret-markup layout props
-     (markup (make-fill-line-markup (if isOddPage lineContents (reverse lineContents)))))))
+     (markup (make-fill-line-markup (if (odd? page:page-number) lineContents (reverse lineContents)))))))
 
 #(define-markup-command (url-link layout props url) (string?)
    "Odkaz, URL se pouzije jako cil i text"
