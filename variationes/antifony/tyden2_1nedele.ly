@@ -787,6 +787,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     g4 f( g) a( c) c c b( c a4.) a \barMaior
     c4 c c( d) c c \mark\sipka b c a g g \barMaior

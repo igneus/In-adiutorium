@@ -269,6 +269,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f \mark\sipka e d( e) d d \barMin
+    f e f a g g \barMaior
+    a a g f e( f) d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Vše dě -- lám pro Kris -- ta,
+    kte -- rý mě mi -- lo -- val
+    a za mne sám se -- be vy -- dal.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 146"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -283,6 +309,62 @@
   \addlyrics {
     Co -- by slu -- žeb -- ník cír -- kve
     ne -- ú -- nav -- ně za ni bo -- jo -- val si -- lou a mo -- cí,
+    kte -- rá po -- chá -- zí od Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f \mark\sipka f( g) g \barMin
+    a bes a g f g a g g \barMaior
+    a( bes a) g f e( f d) d \barMin
+    d c d f e d( e) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Co -- by slu -- žeb -- ník cír -- kve
+    ne -- ú -- nav -- ně za ni bo -- jo -- val
+    si -- lou a mo -- cí,
+    kte -- rá po -- chá -- zí od Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a f f( g) g \barMin
+    a bes a g f g f d d \barMaior
+    f e c d( c) c \barMin
+    d c d f e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Co -- by slu -- žeb -- ník cír -- kve
+    ne -- ú -- nav -- ně za ni bo -- jo -- val
+    si -- lou a mo -- cí,
     kte -- rá po -- chá -- zí od Kris -- ta.
 
     A -- le -- lu -- ja.
