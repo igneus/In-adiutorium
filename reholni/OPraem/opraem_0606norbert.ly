@@ -383,25 +383,28 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f g f f g( a) a( g) \barMax
+    g4 f g a g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-
+    a4( bes) a a \barMin a a a a g( a) g \barMin g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-
+    g4 f g a g g f d f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Zde je milovník bratří,_* zde je ten, který se mnoho modlí za lid.
-    \Verse Zde je ten, který za své bratry vydal i svůj život._*
-    \Response Zde je ten, který se mnoho modlí za lid.
+    \Response Zde je mi -- lov -- ník brat -- ří,_*
+    zde je ten, kte -- rý se mno -- ho mod -- lí za lid.
+    \Verse Zde je ten, kte -- rý za své brat -- ry vy -- dal i svůj ži -- vot._*
+    \Response Zde je ten, kte -- rý se mno -- ho mod -- lí za lid.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -503,17 +506,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 g g a g f g g( a) a \barMaior
+    c c b( c a) a \barMin
+    c c b a g( a) g f g( a) a g g \barFinalis
 
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
-    Okolo něho věnec bratří jako cedry vysázené na hoře Libanonu.
+    O -- ko -- lo ně -- ho vě -- nec brat -- ří
+    ja -- ko ced -- ry
+    vy -- sá -- ze -- né na ho -- ře Li -- ba -- no -- nu.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -525,19 +536,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( a' bes) a a a g a c( d) c( b a g) a \barMin
+    a a g f e( f d) c( d) d \barMaior
+    f g( a g a) g( e) \barMin
+    f( d) c( d) d \barFinalis
 
+    f^\markup\rubrVelikAleluja f( e) d( c)
+    d e( f e) d d \barFinalis
   }
   \addlyrics {
     Nor -- bert ja -- ko pla -- nou -- cí lam -- pa
     byl po -- sta -- ven na sví -- cen
-    a sví -- til všem v_domě.
+    a sví -- til
+    \markup{\Dagger všem} v_do -- mě.
 
+    \markup{\Dagger všem} v_do -- mě.
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle APraem1934 693"
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 15"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -545,21 +565,28 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 a( c) c d( e) d( c) b b \barMaior
+    c a a g( f) g( a) a \barMin
+    g a g f e \barFinalis
 
+    g^\markup\rubrVelikAleluja a g g f( d)
+    e f( g) e e \barFinalis
   }
   \addlyrics {
     Pře -- svěd -- čil vlád -- ce cír -- kve,
     a -- by se u -- ja -- li
-    si -- rot -- ků a vdov.
+    \markup{\Dagger si} -- rot -- ků a vdov.
 
+    \markup{\Dagger si} -- rot -- ků a vdov.
     A -- le -- lu -- ja.
   }
   \header {
+    fons_externus = "volně podle APraem1934 694"
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 112"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
