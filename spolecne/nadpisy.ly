@@ -1,6 +1,7 @@
 \version "2.24.0"
 
 #(use-modules (srfi srfi-26))
+#(use-modules (ice-9 regex))
 
 #(define-markup-command (nadpisDen layout props obsah)(markup?)
    "Novy den - vycentrovany vyrazny nadpis na nove strance"
@@ -110,6 +111,25 @@
       ((equal? header:fons_externus_url #f) header:fons_externus)
       (else #{ \markup\with-url #(markup->string header:fons_externus_url) { #header:fons_externus } #}))))
 
+#(define-markup-command (with-placet-colour layout props arg) (markup?)
+   #:properties ((header:placet #f))
+   "Vykresli argument v barve podle cisla zavaznosti poznamky"
+   (let* ((severitycolours (list
+                            #f ; 0 (unused)
+                            green ; 1 - no objections
+                            "lightgreen" ; 2 - tolerable known issues
+                            "orangered" ; 3 - should be revised
+                            "indianred" ; 4 - revision required
+                            "blueviolet" ; 5 - garbage
+                            ))
+          (placetstr (markup->string header:placet))
+          (isfavourite (and header:placet (equal? "*" (string-take placetstr 1))))
+          (matchresult (string-match "^[1-5]" placetstr))
+          (number (if isfavourite 1 (and (regexp-match? matchresult) (string->number (match:substring matchresult)))))
+          (colour (if number (list-ref severitycolours number) blue)))
+     (interpret-markup layout props
+       #{ \markup\with-color #colour #arg #})))
+
 % test function for \if detecting development build
 % (i.e. build with the point-and-click feature enabled)
 #(define (is-development-build layout props)
@@ -134,11 +154,12 @@ quidEtTonus = \markup\concat{
   "."
   \fromproperty #'header:differentia
 }
-placet = \markup\large{
+placet = \markup\if \is-development-build \large{
   \hspace #3
   \override #'(font-name . "Dynalight") % handwritten font
-  \if \is-development-build
-    \with-color #blue \wordwrap-field #'header:placet
+  % \with-color #blue
+  \with-placet-colour
+    \wordwrap-field #'header:placet
 }
 % this one is used directly in the particular score's header field,
 % not in the following shared 'commands'
