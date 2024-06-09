@@ -40,7 +40,7 @@
     \choralniRezim
     c4 b a c( d) d( c) c \barMaior
     c d e c( a) a \barMin c b( c) a g a( g) g \barMaior
-    g f a c c c b a g a g f( g) g \barFinalis
+    g f g g( a) a \barMin c c b g a g f( g) g \barFinalis
   }
   \addlyrics {
     Uč -- te se o -- de mě,
@@ -157,8 +157,6 @@
   }
 }
 
-\pageBreak % ZLOM
-
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
@@ -166,7 +164,7 @@
     \choralniRezim
     f4 g g g a g a( c d) d( c) c \barMaior
     d c b( c) a \barMin
-    a( g) f g a g g \barFinalis
+    g f g( a) a g g \barFinalis
   }
   \addlyrics {
     U te -- be je pra -- men ži -- vo -- ta;
@@ -178,6 +176,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 36"
+    placet = "3 první půlku spíš lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -264,6 +263,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
+    placet = "2 postup ve druhé části je v rámci modu netypický"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -317,8 +317,8 @@
     \key f \major
     % R
     \neviditelna f
-    f4 f f g g f g f \barMin
-    f f( g) g f g a a( g) \barMax
+    f4 f f f f f g f \barMin
+    f g f f g a a( g) \barMax
     g g f g( a) g \barMin g f( d) f g g( f) f \barFinalis
     % V
     \neviditelna a
@@ -394,7 +394,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g e a g a b( a) a \barMaior
+    a4 a a g e a g c b( a) a \barMaior
     g e e f g f e e \barFinalis
   }
   \addlyrics {
