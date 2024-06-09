@@ -1385,7 +1385,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d d f e f( d) d \barMaior
     f g( a) g f( g) f f \barMin
@@ -1403,6 +1403,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "zvlášť začátek je mdlý, určitě půjde lépe"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1449,6 +1450,55 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d c f g g( a) a \barMaior
+    a bes a g( a) g g \barMin
+    f e c d( c) \barMaior
+    d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    O -- tec u -- vi -- děl své -- ho sy -- na
+    a po -- hnut sou -- ci -- tem
+    vy -- šel mu vstříc,
+    ob -- jal ho a po -- lí -- bil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f) d c f g g( a) a \barMaior
+    a \mark\sipka g a a( c) a a \barMin
+    g a g g( f d) \barMin
+    c f e d c d d \barFinalis
+  }
+  \addlyrics {
+    O -- tec u -- vi -- děl své -- ho sy -- na
+    a po -- hnut sou -- ci -- tem
+    vy -- šel mu vstříc,
+    ob -- jal ho a po -- lí -- bil.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "ivben"

@@ -273,10 +273,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d d f e f( d) d \barMaior
-    f g( a) g f( g) f f \barMin
-    d f e d( c) \barMaior
-    d f e d c d d \barFinalis
+    d4 d d( f) d c f g g( a) a \barMaior
+    a g a a( c) a a \barMin
+    g a g g( f d) \barMin
+    c f e d c d d \barFinalis
   }
   \addlyrics {
     O -- tec u -- vi -- děl své -- ho sy -- na
@@ -286,10 +286,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "zvlášť začátek je mdlý, určitě půjde lépe"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
