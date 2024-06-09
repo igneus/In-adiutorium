@@ -1,4 +1,4 @@
-\version "2.18.0"
+\version "2.20.0"
 
 \header {
   title = "Hymny - upravené nápěvy"
@@ -28,7 +28,7 @@
     \fromproperty #'header:notitia
   }
 
-  markup-markup-spacing #'minimum-distance = #4
+  markup-markup-spacing.minimum-distance = #4
 }
 ion = { \override LyricText.font-shape = #'italic } % italic on
 ioff = { \revert LyricText.font-shape } % italic off
