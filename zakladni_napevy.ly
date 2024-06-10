@@ -565,7 +565,7 @@
 
   \markup\italic{
     Ve velikonočním oktávu
-    a po druhých nešporách slavnosti Seslání Ducha svatého:
+    a o druhých nešporách slavnosti Seslání Ducha svatého:
   }
 
   \score {
