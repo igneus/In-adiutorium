@@ -2351,6 +2351,38 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f \mark\sipka g f g( a) a( g) \barMax
+      g g( a) g( f d) d f( g) g( f) f \barFinalis
+      % V
+      \neviditelna f
+      a a a a a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g g( a) g( f d) d f( g) g( f) f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Ve -- le -- bí -- me tě, Bo -- že,_*
+      a vzý -- vá -- me tvé jmé -- no.
+      \Verse Vy -- pra -- vu -- je -- me o tvých di -- vech_*
+      \Response a vzý -- vá -- me tvé jmé -- no.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "2ne-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \score {

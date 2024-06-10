@@ -2775,6 +2775,52 @@ tIInedeleLaudResp = \score {
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 b a g c( d) d( c) c \barMaior
+    d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c b a c( d) d( c) c \barMaior
+    d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle řá -- du Mel -- chi -- ze -- de -- cho -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 3
 
 \score {
@@ -2895,6 +2941,28 @@ tIInedeleLaudResp = \score {
     c4 c b a c d d \barMaior
     \mark\sipka e d c d c a b a g g \barMaior
     a g f( g) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je kněz na -- vě -- ky
+    po -- dle Mel -- chi -- ze -- de -- cho -- va řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d( c) c \barMaior
+    d c d e d c b c a( g) g \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Kris -- tus je kněz na -- vě -- ky
