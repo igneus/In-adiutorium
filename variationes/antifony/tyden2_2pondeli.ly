@@ -857,6 +857,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g f d e \barMaior
+    e f f e \mark\sipka d f( g) g \barMin
+    g a a g f e e \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     e4 g g a a g g( a) \barMaior
