@@ -93,6 +93,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f f( g) g \barMin
+    g bes a g( a) g \barMin
+    g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Vez -- mu ka -- lich spá -- sy a bu -- du vzý -- vat
+    jmé -- no Hos -- po -- di -- no -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 116"
+    fial = "mezidobi_telaakrvepane.ly#2ne-a2?zacatek=7"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tInedeleInespAntIII }
 
 %\score { \tInedeleInespResp }

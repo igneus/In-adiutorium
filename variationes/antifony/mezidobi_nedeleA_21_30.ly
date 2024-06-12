@@ -2611,6 +2611,56 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f( g) \barMaior
+    a a a a g a g f e f d( c) c \barMin
+    d d d e f( g) a( g) g \barMaior
+    a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    A -- men, pra -- vím vám:
+    Cel -- ní -- ci a ne -- věst -- ky vás před -- chá -- ze -- jí
+    do Bo -- ží -- ho krá -- lov -- ství,
+    pro -- to -- že u -- vě -- ři -- li.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne26a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f( g) \barMaior
+    a a a a g a g f e f d( c) c \barMin
+    d d d e f( g) a( g) g \barMaior
+    a g f \mark\sipka g a f f \barFinalis
+  }
+  \addlyrics {
+    A -- men, pra -- vím vám:
+    Cel -- ní -- ci a ne -- věst -- ky vás před -- chá -- ze -- jí
+    do Bo -- ží -- ho krá -- lov -- ství,
+    pro -- to -- že u -- vě -- ři -- li.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne26a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
