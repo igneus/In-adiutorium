@@ -2118,7 +2118,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -2131,6 +2131,40 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     % R
     \neviditelna a
     g \mark\sipka f g( a) g g \barMin g f d f( g) g( f) \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Po -- slals je do ce -- lé -- ho svě -- ta, Bo -- že,_*
+    a -- by u -- či -- li a ved -- li tvůj lid.
+    \Verse Svě -- řils jim pas -- týř -- skou služ -- bu,_*
+    \Response a -- by u -- či -- li a ved -- li tvůj lid.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    placet = "verš je těžkopádný"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    g f g( a) g g \barMin g f d f( g) g( f) \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a a a g( a) g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g g \barMin g f d f( g) g( f) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
