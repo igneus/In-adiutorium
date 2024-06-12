@@ -46,12 +46,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g( a) g f g( a) a \barMin
-    c b a b g g \barMaior
-    g( a c) c( d) d \barMin
+    g4 g g a g a a( c) c \barMin
+    b c a g f( g) g \barMaior
+    a( c d) d( c) c \barMin
     d c d( e) d c c( d) c \barMin
     c a a c b g( a) g g \barMaior
-    g a g f f a \barMin
+    a f g g a a \barMin
     c c b a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
