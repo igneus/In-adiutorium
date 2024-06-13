@@ -5513,6 +5513,28 @@ se bude hodit.}
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a a( c) c \barMin
+    c( d) c c c b a \mark\sipka b c a g( a) g \barMaior
+    f g a a g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, roz -- ptyl ty,
+    kdo v_srd -- ci smý -- šle -- jí pyš -- ně
+    a po -- vyš po -- ní -- že -- né.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "t2-st-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka a4 b c b \barMin
     c( d) c c c b a \mark\sipka b a g g( a) a \barMaior
     a g a g f( e) d( e) e \barFinalis

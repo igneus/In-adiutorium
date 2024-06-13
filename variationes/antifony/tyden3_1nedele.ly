@@ -115,6 +115,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f d f f( g) g \barMin
+    g f g g( a) g \barMin
+    g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Vez -- mu ka -- lich spá -- sy a bu -- du vzý -- vat
+    jmé -- no Hos -- po -- di -- no -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 116"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tInedeleInespAntIII }
 
 %\score { \tInedeleInespResp }
@@ -1317,6 +1338,47 @@
     \choralniRezim
     c4 c c c b c a g a g g \barMaior
     \mark\sipka a a a a g f g( a) a \barMin g f g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g b c a g a g f( a) \barMin
+    c c b g b c a g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých di -- vech. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 111"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 c b g b c a g a g f( a) \barMin
+    c c b g b c a \mark\sipka a b a g g \barFinalis
   }
   \addlyrics {
     Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy

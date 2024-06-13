@@ -3927,3 +3927,27 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c( b g4.) g \barMin
+    f4 a c( d) c \barMaior
+    d e d c a g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Je mi dá -- na
+    veš -- ke -- rá moc
+    na ne -- bi i na ze -- mi,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
