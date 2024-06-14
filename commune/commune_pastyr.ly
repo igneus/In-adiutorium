@@ -539,7 +539,7 @@
     differentia = "a2"
     psalmus = ""
     id = "tercie"
-    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek"
+    fial = "antifony/velikonoce_nedeleB.ly#viimag2?zacatek=14"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
