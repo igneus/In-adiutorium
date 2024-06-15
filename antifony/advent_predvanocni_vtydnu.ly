@@ -57,8 +57,8 @@
   \relative c' {
     \choralniRezim
     d4 f e d d g g \barMin
-    f g f e4. c \barMin
-    e4( f) d( c d) d \barFinalis
+    f g f e( f) d
+    c e( f d) d \barFinalis
   }
   \addlyrics {
     Na -- lez -- ne Syn člo -- vě -- ka
@@ -70,7 +70,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "nápěv _až přijde_ úplně nesedí"
     id = "predvanocni-zlm-po-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }

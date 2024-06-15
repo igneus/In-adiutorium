@@ -661,8 +661,8 @@
   \relative c' {
     \choralniRezim
     d4 f e d d g g \barMin
-    f g f e4. c \barMin
-    e4( f) d( c d) d \barFinalis
+    f g f e( f) d
+    c e( f d) d \barFinalis
   }
   \addlyrics {
     Na -- lez -- ne Syn člo -- vě -- ka
