@@ -2480,6 +2480,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     g4( a) a \barMin a a a g( a) g f g a a \barMaior
     a a \mark\sipka g f f g f e( f) d d \barFinalis
