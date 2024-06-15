@@ -84,17 +84,18 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d e f f f( e) e \barMin f( g) g f e c d \barFinalis
+    d4 d c d f e f d( c) c \barMin
+    d f e d e d \barFinalis
   }
   \addlyrics {
-    Zkrou -- še -- ným a po -- kor -- ným srd -- cem, Bo -- že, ne -- po -- hrd -- neš.
+    Zkrou -- še -- ným a po -- kor -- ným srd -- cem,
+    Bo -- že, ne -- po -- hrd -- neš.
   }
   \header {
     quid = "1. ant."
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 51"
-    placet = "nepříliš zpěvná"
     id = "rch-ant1"
     piece = \markup {\sestavTitulek}
   }
