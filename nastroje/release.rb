@@ -84,6 +84,8 @@ class Repository
     case basename
     when /^commune_/
       File.join 'commune', basename
+    when /^hymny_/
+      File.join 'hymny', basename
     when /^\d{4}/
       File.join 'sanktoral', basename
     when /^(\w+)_\d{4}/
