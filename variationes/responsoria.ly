@@ -504,6 +504,38 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f g f \barMin g f f g( a) a( g) \barMax
+      g \mark\sipka f g g( a) g \barMin g f d f g g f f \barFinalis
+      % V
+      \neviditelna e
+      a( bes) a g( a) g \barMin g g \mark\sipka a g g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g \mark\sipka f g g( a) g \barMin g f d f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Po -- žeh -- na -- ný jsi, Bo -- že, na klen -- bě ne -- bes._*
+      Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
+      \Verse Po -- žeh -- na -- né je tvé slav -- né sva -- té jmé -- no.
+      \Response Jsi ve -- le -- be -- ný a pl -- ný slá -- vy na -- vě -- ky.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ne-2ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \markup\nadpisDen{"pondělí"}
