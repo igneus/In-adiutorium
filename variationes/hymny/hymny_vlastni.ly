@@ -38,6 +38,24 @@ notime = {
 
 \score {
   \relative c'' {
+    a4 a bes a g f e d\fermata
+    a' a b g a c b a\fermata
+    a a \mark\sipka bes a g4. f8 g2
+    g4 g a f e4. d8 d2 \bar "||"
+  }
+  \addlyrics {
+    Z_hlu -- bo -- kos -- ti vo -- la -- jí -- cích,
+    te -- be, Kris -- te, vzý -- va -- jí -- cích
+    pros -- by rač vy -- sly -- še -- ti
+    a tou -- hu na -- pl -- ni -- ti.
+  }
+  \header {
+    piece = "nešpory"
+  }
+}
+
+\score {
+  \relative c'' {
     \key c \dorian
     \notime
     \autoBeamOff
