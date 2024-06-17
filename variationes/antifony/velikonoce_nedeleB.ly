@@ -1604,7 +1604,7 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') a g( a) g f g( a) \barMaior
     a a g( f e) \barMin e( f) d c d \barMaior
@@ -1681,6 +1681,82 @@ Dále "\"skupina s D\"" ve druhé polovině působí divně...
     d4 d d( a') a g f g g( a) \barMaior
     \mark\sipka g f f( d) \barMin f e d c \barMaior
     d d d f e( d) c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a g f g g( a) \barMaior
+    \mark\sipka a g f f g g e \barMaior
+    d f e f d( c) c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a g f g g( a) \barMaior
+    a g f f g g e \barMaior
+    \mark\sipka f f e f d( c) c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec mi -- lo -- val mne,_*
+    tak jsem já mi -- lo -- val vás.
+    Zů -- staň -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Zpět k dosavadní podobě závěru)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') a g f g g( a) \barMaior
+    a g f f g g e \barMaior
+    f f e \mark\sipka d c c \barMin
     e f d d \barFinalis
   }
   \addlyrics {

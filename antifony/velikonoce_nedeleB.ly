@@ -254,8 +254,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d( a') a g( a) g f g( a) \barMaior
-    a a g( f e) \barMin e( f) d c d \barMaior
+    d4 d d( a') a g f g g( a) \barMaior
+    a g f f g g e \barMaior
     f f e d c c \barMin
     e f d d \barFinalis
   }
@@ -270,7 +270,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "lépe"
     id = "vimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
