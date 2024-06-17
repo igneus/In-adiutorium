@@ -261,9 +261,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b g g a b c d e d d \barMin
-    c4 c b a g f f( g) g \barMin
-    g4 a g g \barFinalis
+    c4 c b g b c a g a g f( a) \barMin
+    c c b g b c a a b a g g \barFinalis
   }
   \addlyrics {
     Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
@@ -271,10 +270,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 111"
-    placet = "zpěvněji"
     id = "2ne-ant2"
     piece = \markup {\sestavTitulek}
   }
