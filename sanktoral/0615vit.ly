@@ -42,7 +42,7 @@
     d4 d d( a') a \barMin a b c b a g a4. e \barMaior
     d4( e) e \barMin d e f g f e g a a \barMaior
     a4 a a g a a( b) g g \barMin f g a g a g f e e \barMaior
-    e d( c d) e( f) e e \barMin f( g) a g e e \barFinalis
+    d c d d( e) e \barMin f( g) a g e e \barFinalis
   }
   \addlyrics {
     Sva -- tý Ví -- te,
@@ -57,7 +57,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "není z nejzpěvnějších"
     id = "amag"
     fons = "začátek podle antifony k Magnificat z pam. sv. Vojtěcha"
     fial = "sanktoral/0423vojtech.ly#ne-amag?zacatek&jiny_text"

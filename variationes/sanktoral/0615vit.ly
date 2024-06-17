@@ -222,7 +222,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( a') a \barMin a b c b a g a4. e \barMaior
     d4( e) e \barMin d e f g \mark\sipka f e g a a \barMaior
@@ -242,9 +242,68 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "2022: není z nejzpěvnějších;
+    2024: nic kromě závěru už mě nepohoršuje"
     id = "amag"
     fons = "začátek podle antifony k Magnificat z pam. sv. Vojtěcha"
     fial = "sanktoral/0423vojtech.ly?zacatek&jiny_text"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a') a \barMin a b c b a g a4. e \barMaior
+    d4( e) e \barMin d e f g f e g a a \barMaior
+    a4 a a g a a( b) g g \barMin f g a g a g f e e \barMaior
+    \mark\sipka d c d d( e) e \barMin f( g) a g e e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ví -- te,
+    slav -- ný Kris -- tův mu -- čed -- ní -- ku,
+    chraň nás a svou pří -- mlu -- vou nám po -- má -- hej,
+    a -- by -- chom pro tvé zá -- slu -- hy
+    do -- sáh -- li od -- puš -- tě -- ní hří -- chů
+    a lí -- bi -- li se věč -- né -- mu krá -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "amag"
+    fons = "začátek podle antifony k Magnificat z pam. sv. Vojtěcha"
+    fial = "sanktoral/0423vojtech.ly#ne-amag?zacatek&jiny_text"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a \barMin a b c b a g a4. e \barMaior
+    d4( e) e \barMin d e f g f e g a a \barMaior
+    a4 a a g a a( b) g g \barMin f g a g a g f e e \barMaior
+    \mark\sipka e f e d( e) d \barMin f( g) a g e e \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ví -- te,
+    slav -- ný Kris -- tův mu -- čed -- ní -- ku,
+    chraň nás a svou pří -- mlu -- vou nám po -- má -- hej,
+    a -- by -- chom pro tvé zá -- slu -- hy
+    do -- sáh -- li od -- puš -- tě -- ní hří -- chů
+    a lí -- bi -- li se věč -- né -- mu krá -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "amag"
+    fons = "začátek podle antifony k Magnificat z pam. sv. Vojtěcha"
+    fial = "sanktoral/0423vojtech.ly#ne-amag?zacatek&jiny_text"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
