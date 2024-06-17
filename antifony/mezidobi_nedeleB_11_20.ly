@@ -6,10 +6,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a a a a g a g f f \barMaior
-    f f f( g) f( e d) d d e d d c c \barMax
+    d4 c f( g) g( a) a \barMin a a g f g( a) g g \barMaior
+    g f g( a) g( f d) d \barMin d e f d c c \barMax
     d d4.( f) \barMin g4 f g g( a) a \barMaior
-    a g a a( c a g) f e d d \barFinalis
+    a g f g( a) g f d d \barFinalis
   }
   \addlyrics {
     Bo -- ží krá -- lov -- ství je po -- dob -- né člo -- vě -- ku,
@@ -20,7 +20,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f"
+    differentia = "D"
     psalmus = ""
     id = "ne11b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -30,9 +30,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a( f) f( g) g \barMin g f g g( a) g f d d \barMax
-    d c( d) d d f e d c c \barMaior
-    f g a a( c a) a \barMaior
+    d4 c f( g) g( a) a \barMin a g f g( a) g f d d \barMax
+    c d( f) f f g f a g g \barMaior
+    a g a a( c a) a \barMaior
     a( g f) f( g) g( f) \barMin
     g g f e e f d c d d \barFinalis
   }
@@ -41,7 +41,7 @@
     je men -- ší než všech -- na se -- me -- na,
     a -- le když vze -- jde,
     pře -- růs -- tá
-    všech -- ny ji -- né za -- hrad -- ní rostliny.
+    všech -- ny ji -- né za -- hrad -- ní rost -- li -- ny.
   }
   \header {
     quid = "ant. k Benedictus"
@@ -56,8 +56,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f( g) g a( g) a g( f) f \barMin
-    e f f( g) f d d \barFinalis
+    c4 d f f e f d( c) c \barMin
+    d f e c d d \barFinalis
   }
   \addlyrics {
     Je -- žíš hlá -- sal Bo -- ží slo -- vo
@@ -65,7 +65,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "ne11b-2ne-mag"
