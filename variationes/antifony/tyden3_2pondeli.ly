@@ -1757,6 +1757,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d e d c d d \barMin f e d e d d \barMin
+    c b a( g) g \barMaior
+    a g f a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Na -- vě -- ky ne -- za -- po -- me -- nu na tvá na -- ří -- ze -- ní,
+    Hos -- po -- di -- ne,
+    vždyť skr -- ze ně jsi mi dal ži -- vot.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 119-ל"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
