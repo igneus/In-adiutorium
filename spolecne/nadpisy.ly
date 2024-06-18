@@ -130,6 +130,30 @@
      (interpret-markup layout props
        #{ \markup\with-color #colour #arg #})))
 
+#(define-markup-command (make-bible-link layout props arg) (markup?)
+   "Najde prvni biblickou referenci a vygeneruje na ni odkaz"
+   (let* ((bookCodeAlist '(("Žalm" . "Z")
+                           ("Lk" . "L")
+                           ("Jan" . "J"))) ; map book shortcuts ČLP -> obohu.cz/bible/
+          (matched (string-match "(Lk|Jan|Žalm) ([0-9]+), ([0-9]+)" (markup->string arg)))
+          (book (match:substring matched 1))
+          (chapter (match:substring matched 2))
+          (verse (match:substring matched 3))
+          (urlBook (or (assoc-ref bookCodeAlist book)
+                       (string-append "UNKNOWNBOOK:" book)))
+          (url (string-append "https://obohu.cz/bible/index.php?styl=KLP&v=" verse "&kv=" verse "&k=" urlBook "&kap=" chapter "#v" verse)))
+     (interpret-markup layout props
+       #{ \markup\with-url #url #arg #})))
+
+% Because it seems to be impossible to pass \fromproperty as an argument to another markup function
+#(define-markup-command (scriptura-link layout props) ()
+   #:properties ((header:scriptura #f))
+   "Vygeneruje obsah hlavicky scriptura jako odkaz"
+   (interpret-markup layout props
+     (if header:scriptura
+         #{ \markup\make-bible-link #header:scriptura #}
+         empty-markup)))
+
 % test function for \if detecting development build
 % (i.e. build with the point-and-click feature enabled)
 #(define (is-development-build layout props)
@@ -214,7 +238,7 @@ sestavTitulekRespII = \markup\concat {
           \fons-externus-link
           \if \header-scriptura-exists \concat {
             " "
-            \italic\fromproperty #'header:scriptura
+            \italic\scriptura-link
           }
         }
       }
