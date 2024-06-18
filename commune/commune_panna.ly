@@ -866,13 +866,13 @@
 \markup\italic{O panně mučednici:}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d d( f d) c( d) d \barMin
-    c d e f e f g( f) d( e) e( d) \barMaior
-    f( g) a f( e d e) d \barMin d e c d( f) e c( d) d \barFinalis
+    c4 b a c( d) e( d) d \barMin
+    e( f e d) c( d) d \barMin d c b g a a( g) \barMaior
+    a f g( a) a \barMin a c c b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( e) d d \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- di -- nou o -- bě -- tí
@@ -883,10 +883,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
-    placet = "lépe"
     id = "2ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
