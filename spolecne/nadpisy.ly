@@ -135,7 +135,9 @@
    (let* ((bookCodeAlist '(("Žalm" . "Z")
                            ("Lk" . "L")
                            ("Jan" . "J"))) ; map book shortcuts ČLP -> obohu.cz/bible/
-          (matched (string-match "(Lk|Jan|Žalm) ([0-9]+), ([0-9]+)" (markup->string arg)))
+          (bookCodes (map-in-order car bookCodeAlist))
+          (bibleRefRegexp (string-append "(" (string-join bookCodes "|") ") ([0-9]+), ([0-9]+)"))
+          (matched (string-match bibleRefRegexp (markup->string arg)))
           (book (match:substring matched 1))
           (chapter (match:substring matched 2))
           (verse (match:substring matched 3))
