@@ -97,14 +97,14 @@
 
     % R
     \neviditelna f
-    f4 g f f f g( a) \barMax
-    g( f) d f g g( f) f \barFinalis
+    f4 g f g a a( g) \barMax
+    f d f g g f \barFinalis
     % V
     \neviditelna a
-    a4 a a a a a( g) \barMin g f g a a( g) \barMax
+    a4 a a g( a) g \barMin g g f g a a( g) \barMax
     % R
     \neviditelna a
-    g( f) d f g g( f) f \barFinalis
+    f d f g g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -162,11 +162,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( f d) c c( d) d \barMaior
-    f e d e d( c) c \barMin d d d( c b) a( b) a a \barMaior
-    d d( e f e) d e c d d \barFinalis
+    d4 c d d( f) f \barMin
+    f f f f g g f e f d c c \barMaior
+    d d( f) e d c d d \barFinalis
 
-    d^\markup\rubrVelikAleluja e( f) d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Když při -- šel Že -- nich,
@@ -180,7 +180,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "3 lépe"
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -280,7 +279,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a) a a c b c( d) d \barMaior
+    g4 a c( d) d d e c c( d) d \barMaior
     d e( d) c( d) c \barMin c b g g a g f( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
@@ -308,7 +307,7 @@
     c b a g( a) g \barMaior
     f g a a g( a) \barMin
     a a( b c a) a
-    g f a a( g) g \barFinalis
+    g f a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -807,14 +806,14 @@
     % R
     \neviditelna f
     f4 f f g f f f g( a) a( g) \barMax
-    g g g( a) g \barMin g a g( f) d d f g g( f) f \barFinalis
+    g f g( a) g \barMin g a g( f) d d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4( bes) a g( a) \barMin a a g( a) g g \barMaior
-    g g g g g g f g a a( g) \barMax
+    g g g g a g f g a a( g) \barMax
     % R
     \neviditelna a
-    g g g( a) g \barMin g a g( f) d d f g g( f) f \barFinalis
+    g f g( a) g \barMin g a g( f) d d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
