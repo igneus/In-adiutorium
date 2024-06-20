@@ -473,6 +473,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    g( a g f) d( c) \barMin
+    f4 g a a g( f) f \barFinalis
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý pas -- týř
+    dá -- vá za ov -- ce svůj ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
@@ -775,7 +799,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a a c b a g( a g) \barMaior
     f a c c c \mark\sipka c( d) c c \barMin
@@ -806,6 +830,85 @@
     c4 a a c b a g( a g) \barMaior
     f a c \mark\sipka d c c( d) c c \barMin
     b g a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a a c b a g( a g) \barMaior
+    f \mark\sipka g a a a b( c) a a \barMin
+    a b a g g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a a c b a g( a g) \barMaior
+    f g a a a b( c) a a \barMin
+    \mark\sipka c b g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a a c b a g( a g) \barMaior
+    f g a a a b( c) a a \barMin
+    c b \mark\sipka a g( a) g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }

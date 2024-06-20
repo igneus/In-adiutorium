@@ -198,8 +198,8 @@
   \relative c'' {
     \choralniRezim
     c4 a a c b a g( a g) \barMaior
-    f a c c c c( d) c c \barMin
-    b g a a g g \barFinalis
+    f g a a a b( c) a a \barMin
+    c b g a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
