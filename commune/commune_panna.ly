@@ -29,6 +29,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 113"
+    placet = "3 lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -53,6 +54,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 147-II"
+    placet = "4 lépe"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -81,6 +83,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Ef 1"
+    placet = "5 lépe"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -177,6 +180,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "3 lépe"
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -434,6 +438,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "3 od _abyste_ dál spíš lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -599,6 +604,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 od aleluja tohoto typu obecně ustupuji (jakkoli tady nijak zvlášť nelibě nevyčnívá)"
     id = "rch-aben2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
