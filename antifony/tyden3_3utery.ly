@@ -154,7 +154,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g a g f e f d d \barFinalis
+    a4 a g f g f e f d d \barFinalis
   }
   \addlyrics {
     Na -- pl -- ně -- ním zá -- ko -- na je lás -- ka.

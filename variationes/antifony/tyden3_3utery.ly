@@ -866,9 +866,28 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 \mark\sipka a g a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Na -- pl -- ně -- ním zá -- ko -- na je lás -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 119-מ"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g \mark\sipka f g f e f d d \barFinalis
   }
   \addlyrics {
     Na -- pl -- ně -- ním zá -- ko -- na je lás -- ka.
