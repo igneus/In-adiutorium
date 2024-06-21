@@ -63,12 +63,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g a( g) f f \barMaior
-    g( d f) g( a) g g \barMin
-    a b c d c c d( b c) a( g) a \barMaior
-    a b b c( b) a \barMin g g g f g g \barFinalis
+    c4 b a c( d) e( d) d \barMaior
+    e( f e) d( c) c( d) d \barMin
+    c a c b a g a g g \barMaior
+    a f g g( a) a \barMin c c b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Kris -- to -- vy ne -- věs -- ty,
@@ -80,10 +80,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Ef 1"
-    placet = "5 lépe"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }

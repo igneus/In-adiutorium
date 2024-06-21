@@ -288,6 +288,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g a( g) f f \barMaior
     g( d f) g( a) g g \barMin
@@ -308,6 +309,63 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c( d) e( d) d \barMaior
+    e( f e) d c( d) d \barMin
+    c a c b a g a g g \barMaior
+    a f g g( a) a \barMin c c c b g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- to -- vy ne -- věs -- ty,
+    ná -- sle -- duj -- te
+    své -- ho ne -- bes -- ké -- ho Že -- ni -- cha,
+    a va -- še ra -- dost ne -- bu -- de mít kon -- ce.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b a c( d) e( d) d \barMaior
+    e( f e) \mark\sipka d( c) c( d) d \barMin
+    c a c b a g a g g \barMaior
+    a f g g( a) a \barMin c c \mark\sipka b a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- to -- vy ne -- věs -- ty,
+    ná -- sle -- duj -- te
+    své -- ho ne -- bes -- ké -- ho Že -- ni -- cha,
+    a va -- še ra -- dost ne -- bu -- de mít kon -- ce.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
