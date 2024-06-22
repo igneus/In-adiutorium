@@ -139,7 +139,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 e f g( a) g bes a g( a) g \barMaior
+      f4 f g g( a) g \barMin bes a g( a) g \barMaior
       g g( a) g f( e d) \barMin f g g( a) f f \barFinalis
 
       g^\markup\rubrVelikAleluja g( a g) f f \barFinalis

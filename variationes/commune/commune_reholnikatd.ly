@@ -469,6 +469,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
       f4 e f g( a) g bes a g( a) g \barMaior
       g g( a) g f( e d) \barMin f g g( a) f f \barFinalis
@@ -519,6 +520,31 @@
     \relative c' {
       \choralniRezim
       f4 f \mark\sipka g g( a) a bes a g( a) g \barMaior
+      g g( a) g f( e d) \barMin f g g( a) f f \barFinalis
+
+      g^\markup\rubrVelikAleluja g( a g) f f \barFinalis
+    }
+    \addlyrics {
+      Bůh je můj po -- díl, po němž tou -- žím;
+      je dob -- rý k_těm, kdo ho hle -- da -- jí.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "rehol-aben2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 f g g( a) \mark\sipka g \barMin bes a g( a) g \barMaior
       g g( a) g f( e d) \barMin f g g( a) f f \barFinalis
 
       g^\markup\rubrVelikAleluja g( a g) f f \barFinalis
@@ -808,6 +834,32 @@
       quid = "ant. k Magnificat"
       modus = "IV"
       differentia = "E"
+      psalmus = ""
+      id = "rehol-ne2-amag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f( g a) g \barMin
+      a g f g f d d \barMaior
+      c d f g f e( d) d \barFinalis
+
+      e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Bůh žeh -- ná
+      těm, kdo ho o -- sla -- vu -- jí
+      v_bra -- trs -- kém spo -- le -- čen -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "f"
       psalmus = ""
       id = "rehol-ne2-amag2"
       piece = \markup {\sestavTitulekBezZalmu}
