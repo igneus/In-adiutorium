@@ -374,6 +374,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       g4( a) a g f g a( c a4.) a \barMin
       a4( g) a g f e f f( a) a \barMaior
@@ -429,6 +430,67 @@
       id = "rehol-aben1"
       fons = "zacatek prevzat z:"
       fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?jen zacatek"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( a) a g f g a( c a4.) a \barMin
+      a4( g) a g f e f f( a) a \barMaior
+      a b c a( g) g a a f g f( e) e \barMin
+      f g e \barFinalis
+
+      \mark\sipka f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+    }
+    \addlyrics {
+      Kaž -- dý, kdo pl -- ní vů -- li
+      mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+      to je můj bra -- tr i ses -- tra i mat -- ka,
+      pra -- ví Pán.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "rehol-aben1"
+      fons = "zacatek prevzat z:"
+      fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?cast=2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4( a) a g f g a( c a4.) a \barMin
+      a4( g) a g f e f f( a) a \barMaior
+      a b c a( g) g a a f g f( e) e \barMin
+      f g e \barFinalis
+
+      \mark\sipka f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+    }
+    \addlyrics {
+      Kaž -- dý, kdo pl -- ní vů -- li
+      mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+      to je můj bra -- tr i ses -- tra i mat -- ka,
+      pra -- ví Pán.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "rehol-aben1"
+      fons = "zacatek prevzat z:"
+      fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?cast=2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }

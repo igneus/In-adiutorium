@@ -111,7 +111,7 @@
       a b c a( g) g a a f g f( e) e \barMin
       f g e \barFinalis
 
-      f^\markup\rubrVelikAleluja g g( f) e \barFinalis
+      f^\markup\rubrVelikAleluja f d( e) e \barFinalis
     }
     \addlyrics {
       Kaž -- dý, kdo pl -- ní vů -- li
@@ -126,7 +126,6 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
-      placet = "aleluja lépe"
       id = "rehol-aben1"
       fons = "zacatek prevzat z:"
       fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?cast=2"
