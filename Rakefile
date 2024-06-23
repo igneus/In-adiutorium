@@ -178,7 +178,10 @@ namespace :sanity do
     modified_ly_files.call.each do |m|
       ruby 'nastroje/checkcopies.rb',
            "--save=#{MISMATCHES_SAVE_PATH}",
-           '-af', '-c', m, *all_ly_files
+           '--diff-all',
+           '--diff-full-score',
+           "--children=#{m}",
+           *all_ly_files
     end
   end
 
@@ -188,7 +191,10 @@ namespace :sanity do
     staged_ly_files.call.each do |m|
       ruby 'nastroje/checkcopies.rb',
            "--save=#{MISMATCHES_SAVE_PATH}",
-           '-af', '-c', m, *all_ly_files
+           '--diff-all',
+           '--diff-full-score',
+           "--children=#{m}",
+           *all_ly_files
     end
   end
 
