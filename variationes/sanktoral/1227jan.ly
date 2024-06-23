@@ -171,6 +171,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 f g a c c \barMin
+    c b a g( a) g \barMin
+    a( f) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 \mark\sipka a f g a a \barMin
     c c d c( b g) g \barMin
     a( g) f( g) a g g \barFinalis

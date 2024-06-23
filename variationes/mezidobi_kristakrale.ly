@@ -3638,6 +3638,43 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f \barMin
+    \mark\sipka g g g f g( a) a( g) \barMax
+    g f g( a) g g \barMin
+    f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a g( a) g \barMin g g g g g g g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g g \barMin
+    f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh po -- ma -- zal své -- ho Sy -- na
+    na kně -- ze a krá -- le;_*
+    je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \Verse Žez -- lo je -- ho vlá -- dy
+    je žez -- lo spra -- ve -- dl -- nos -- ti a prá -- va;_*
+    \Response je -- ho krá -- lov -- ství je krá -- lov -- ství věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
