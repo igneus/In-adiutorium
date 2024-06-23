@@ -160,10 +160,12 @@ namespace :sanity do
     sh 'bash', 'nastroje/missing_ids.sh', *all_ly_files
   end
 
+  MISMATCHES_SAVE_PATH = '.last_mismatches.yml'
+
   desc "Check if copied scores still match the sources"
   task :copies do
     ruby 'nastroje/checkcopies.rb',
-       '--save=.last_mismatches.yml',
+       "--save=#{MISMATCHES_SAVE_PATH}",
        '--mismatches',
        # invoke `UPDATE=1 rake sanity:copies` to update the save
        (ENV['UPDATE'] ? '--update_save' : ''),
@@ -174,7 +176,9 @@ namespace :sanity do
   task :copies_of_modified do
     # TODO get list of fials of modified scores and `checkcopies.rb -c` each
     modified_ly_files.call.each do |m|
-      ruby 'nastroje/checkcopies.rb', '-af', '-c', m, *all_ly_files
+      ruby 'nastroje/checkcopies.rb',
+           "--save=#{MISMATCHES_SAVE_PATH}",
+           '-af', '-c', m, *all_ly_files
     end
   end
 
@@ -182,7 +186,9 @@ namespace :sanity do
   task :copies_of_staged do
     # TODO get list of fials of modified scores and `checkcopies.rb -c` each
     staged_ly_files.call.each do |m|
-      ruby 'nastroje/checkcopies.rb', '-af', '-c', m, *all_ly_files
+      ruby 'nastroje/checkcopies.rb',
+           "--save=#{MISMATCHES_SAVE_PATH}",
+           '-af', '-c', m, *all_ly_files
     end
   end
 
