@@ -85,6 +85,7 @@
   \header {
     quid = "resp."
     modus = "VIII"
+    scriptura = "Žalm 85, 8.5"
     titulus = "neděle - nešpory"
     piece = \markup\sestavTitulekRespII
     placet = "závěr doxologie stále není dobrý"
@@ -123,6 +124,7 @@
   \header {
     quid = "resp."
     modus = "I"
+    scriptura = "srov. Iz 60, 1"
     titulus = "ferie - ranní chvály"
     piece = \markup\sestavTitulekRespII
     id = "fe-rch"
@@ -156,6 +158,7 @@
   \header {
     quid = "resp."
     modus = "II"
+    scriptura = "srov. Žalm 80, 8"
     titulus = "ferie - nešpory"
     piece = \markup\sestavTitulekRespII
     placet = "melisma na _zástupů_ trochu drhne"

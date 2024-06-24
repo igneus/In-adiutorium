@@ -41,6 +41,7 @@
   \header {
     quid = "resp."
     modus = "III"
+    scriptura = "verš srov. Iz 53, 5"
     titulus = "neděle - ranní chvály"
     piece = \markup\sestavTitulekRespII
     id = "ne-rch"
@@ -110,6 +111,7 @@
   \header {
     quid = "resp."
     modus = "II"
+    scriptura = "Žalm 51, 12"
     titulus = "všední dny - ranní chvály"
     piece = \markup\sestavTitulekRespII
     id = "fe-rch"
@@ -143,6 +145,7 @@
   \header {
     quid = "resp."
     modus = "II"
+    scriptura = "srov. Žalm 41, 5"
     titulus = "všední dny - nešpory"
     piece = \markup\sestavTitulekRespII
     id = "fe-ne"

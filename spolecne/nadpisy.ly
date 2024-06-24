@@ -133,6 +133,7 @@
 #(define-markup-command (make-bible-link layout props arg) (markup?)
    "Najde prvni biblickou referenci a vygeneruje na ni odkaz"
    (let* ((bookCodeAlist '(("Žalm" . "Z")
+                           ("Iz" . "Iz")
                            ("Lk" . "L")
                            ("Jan" . "J"))) ; map book shortcuts ČLP -> obohu.cz/bible/
           (bookCodes (map-in-order car bookCodeAlist))
