@@ -79,7 +79,7 @@
   \relative c'' {
     \choralniRezim
     a4 a g a b g g( a) a \barMin
-    f g g f e d( e) d d \barMaior
+    a g a g f e( f) d d \barMaior
     a' g a( b c) a g( e) \barMin
     f( g) e e \barFinalis
   }
@@ -102,7 +102,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g a b( a) a \barMin
+    a4 a g b g g( a) a \barMin
     a a g f e e \barMaior
     c d d( e) e \barMin
     e f g a a g f d( e) e \barFinalis
@@ -126,9 +126,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g a a( b) a a g f e e \barMaior
-    f f f g e \barMin
-    f g a a a g( a) g f d( e) e \barFinalis
+    a4 a a g a a( b) a g a g e e \barMaior
+    f e f g e \barMin
+    f g a a a g( a) g f e e \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci si ří -- ka -- li me -- zi se -- bou:
