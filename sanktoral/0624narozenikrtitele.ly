@@ -81,6 +81,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Ef 1"
+    placet = "2 postupy _kdo se narodili_ a _nepovstal_ v rámci modu málo obvyklé"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -248,8 +249,8 @@
     \choralniRezim
     d4 d a d c b a g g a a \barMin
     a a b c a( g) g \barMaior
-    a g g a a a b( c a) a \barMaior
-    a g f g( a) a( g) g \barFinalis
+    a g g a a a b( c a) a \barMin
+    g f a a g g \barFinalis
   }
   \addlyrics {
     Krá -- lo -- vé i kní -- ža -- ta tě u -- vi -- dí
@@ -343,14 +344,14 @@
 
     % R
     \neviditelna f
-    f4 f g f f g( a) a( g) g \barMax
-    g g f g( a) g \barMin f d f( g) g( f) f \barFinalis
+    f4 f g f f g( a) g g \barMax
+    g f g g( a) g \barMin f d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a a \barMin a a a g( a) g g g f g g( a) \barMax
     % R
     \neviditelna a
-    g g f g( a) g \barMin f d f( g) g( f) f \barFinalis
+    g f g g( a) g \barMin f d f( g) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -373,7 +374,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a g g \barMin g g( a) g f g \barMaior
+    c4 c c b a g g f g a g \barMaior
     a( c) b c( d) d \barMin d c d c b a( g) g \barMaior
     a a a a f e d d f( g) a a( g) g \barFinalis
   }
@@ -404,7 +405,7 @@
     a4 a c b a g( a) g g \barMaior
     a g a a( c) c \barMin
     d c d( e) e( d) d \barMaior
-    d d c b g a a( g) g \barFinalis
+    c a b c a a g g \barFinalis
   }
   \addlyrics {
     Bu -- de ve -- li -- ký před Pá -- nem
@@ -508,6 +509,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 112"
+    placet = "3 lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -516,8 +518,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e( f d c) c \barMin
-    f g f e c( d) d d \barFinalis
+    d4 c d( e f d) d \barMin
+    f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Jan byl lam -- pa
@@ -564,6 +566,7 @@
     modus = "IV alt"
     differentia = "c"
     psalmus = ""
+    placet = "3 slabší"
     id = "2ne-amag"
     fons = "2. část viz 1. nešp, 3. ant."
     fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?konec=34"
