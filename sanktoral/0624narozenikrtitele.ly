@@ -509,7 +509,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 112"
-    placet = "3 lépe"
+    placet = "3 lépe (jak jsou tři antifony krátké a do jisté míry na sebe
+    obsahově navazující, je potřeba hledět na to, aby vkusně fungovaly položené za sebou)"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
