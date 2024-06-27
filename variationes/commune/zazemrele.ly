@@ -1294,7 +1294,7 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d d d( e) c \barMin
     d c b c a4. a \barFinalis
@@ -1308,6 +1308,7 @@
     modus = "IV alt"
     differentia = "c"
     psalmus = "Žalm 121"
+    placet = "špatně sedí v modu, dokonce se mi po ní těžko intonuje žalm"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -1327,6 +1328,27 @@
     quid = "1. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 121"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 d c d d d( e) c \barMin
+    d c b c a4. a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din tě chrá -- ní
+    o -- de vše -- ho zlé -- ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "d"
     psalmus = "Žalm 121"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}

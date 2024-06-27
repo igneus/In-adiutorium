@@ -346,7 +346,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d d d d( e) c \barMin
+    d4 d c d d d( e) c \barMin
     d c b c a4. a \barFinalis
   }
   \addlyrics {
@@ -356,9 +356,8 @@
   \header {
     quid = "1. ant."
     modus = "IV alt"
-    differentia = "c"
+    differentia = "d"
     psalmus = "Žalm 121"
-    placet = "špatně sedí v modu, dokonce se mi po ní těžko intonuje žalm"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
