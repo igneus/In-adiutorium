@@ -2688,6 +2688,30 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b a g( a) g g \barMin
+      f g a a a b( c) a a \barMin
+      c c b a g( a) g \barMaior
+      f g a c b a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če
+      pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 63"
+      id = "svrodiny-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {

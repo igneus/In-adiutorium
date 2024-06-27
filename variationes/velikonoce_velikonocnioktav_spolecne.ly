@@ -1607,6 +1607,50 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 \score {
   \relative c' {
     \choralniRezim
+    f4 f g a g \barMin
+    \mark\sipka a bes a g( a) g( f) \barMin
+    d4 f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a g \barMin
+    a bes a g( a) \mark\sipka g \barMin
+    f d f( g) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f a g f \barMin
     g f g a a \barMin
     g f g( f) f \barFinalis
