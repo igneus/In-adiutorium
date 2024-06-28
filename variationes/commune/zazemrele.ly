@@ -1794,6 +1794,51 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g g( a) a a( g) a a( b) b \barMin
+    b c d c b g a a \barMaior
+    a a g4.( e) \barMin f4 g a g f( e) \mark\sipka d e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a a( g) a a( b) b \barMin
+    b c d c b g a a \barMaior
+    a a g4.( e) \barMin f4 g a g \mark\sipka f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko O -- tec kří -- sí mrt -- vé
+    a pro -- bou -- zí je k_ži -- vo -- tu,
+    tak i Syn o -- ži -- vu -- je, ko -- ho chce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4 g g( a) a a( g) a a( b) b \barMin
     b c d c b g a a \barMaior
