@@ -504,7 +504,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f g f \barMin
     g f g a a( g) g \barMaior
@@ -527,6 +527,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f f f g f \barMin
     g f g a a( g) g \barMaior
@@ -534,7 +535,7 @@
   }
   \addlyrics {
     Hos -- po -- din je všu -- de
-    ko -- lem své -- ho li -- du
+    ko -- lem své -- ho li -- du,
     ny -- ní i na -- vě -- ky.
   }
   \header {

@@ -114,7 +114,7 @@
     \choralniRezim
     f4 f f f g f \barMin
     g f g a a( g) g \barMaior
-    f g a g f f \barFinalis
+    f d f( g) g f f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je všu -- de
