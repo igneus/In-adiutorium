@@ -892,6 +892,28 @@
     \choralniRezim
     a4 a c b c( d) d \barMaior
     d d( e) d c b c a( g) g \barMin
+    a \mark\sipka b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl že -- ně:
+    Tvá ví -- ra tě za -- chrá -- ni -- la,
+    jdi v_po -- ko -- ji!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ne13b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c b c( d) d \barMaior
+    d d( e) d c b c a( g) g \barMin
     \mark\sipka a( c b) g a a \barFinalis
   }
   \addlyrics {
@@ -947,6 +969,28 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "ne13b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka c d d( f) f \barMaior
+    f g( a) g f e f d( c) c \barMin
+    d f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl že -- ně:
+    Tvá ví -- ra tě za -- chrá -- ni -- la,
+    jdi v_po -- ko -- ji!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "ne13b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
