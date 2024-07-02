@@ -470,6 +470,7 @@
   \header {
     quid = "resp."
     modus = "IV"
+    placet = "3 slabší"
     id = "ne-resp2"
     piece = \markup {\sestavTitulekResp}
   }
