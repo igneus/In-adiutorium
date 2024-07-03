@@ -118,8 +118,62 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f e d c \barMin
+    \mark\sipka d f d c e d d4 \barFinalis
+  }
+  \addlyrics {
+    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 1. nešporách - 2. antifona"
+    id = "nei2"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c( d) f g f \barMin
     f4 g f e d e d4 \barFinalis
+  }
+  \addlyrics {
+    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 1. nešporách - 2. antifona"
+    id = "nei2"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d( f) e c( d) \barMin
+    d c a c e d d \barFinalis
+  }
+  \addlyrics {
+    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 1. nešporách - 2. antifona"
+    id = "nei2"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f d \barMin
+    d c d f e c d \barFinalis
   }
   \addlyrics {
     V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
