@@ -37,6 +37,8 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 63"
+    placet = "2 po dílčím závěru na tónice začínat postupem g-a (v této antifoně hned dvakrát)
+    je neobvyklé a ne právě zpěvné"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
