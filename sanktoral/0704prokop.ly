@@ -172,6 +172,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 15"
+    status = "zruseno"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -193,6 +194,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 112"
+    status = "zruseno"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -215,6 +217,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Zj 15"
+    status = "zruseno"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -255,6 +258,7 @@
   \header {
     quid = "resp."
     modus = "III"
+    status = "zruseno"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -285,6 +289,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    status = "zruseno"
     placet = "zejm. ta stupnice na _pomáhej nám svou přímluvou_ je nelibá"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

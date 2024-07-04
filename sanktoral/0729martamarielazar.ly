@@ -86,6 +86,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    status = "zruseno"
     id = "marta-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
