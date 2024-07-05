@@ -337,6 +337,44 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d d c d e( f) e4.( d) \barMin
+    f4 \mark\sipka g f e d e d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, ty jsi sho -- ví -- va -- vý
+    a nej -- výš mi -- lo -- srd -- ný.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pondělí"
+    id = "po"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c d e( f) e4.( d) \barMin
+    f4 g( a) \mark\sipka a( g f) e f d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, ty jsi sho -- ví -- va -- vý
+    a nej -- výš mi -- lo -- srd -- ný.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pondělí"
+    id = "po"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d d e c c( a) a \barMin
     c d( f) f e f d d \barFinalis
   }
@@ -358,6 +396,25 @@
     \choralniRezim
     d4 d d d f e d c \barMin
     d f e d e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, ty jsi sho -- ví -- va -- vý
+    a nej -- výš mi -- lo -- srd -- ný.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "pondělí"
+    id = "po"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d c \barMin
+    d f g f d e d d \barFinalis
   }
   \addlyrics {
     Bo -- že, ty jsi sho -- ví -- va -- vý
@@ -454,6 +511,44 @@
     \choralniRezim
     d4 c d f g f e d \barMaior
     f g d d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- skrý -- vej pře -- de mnou svou tvář,
+    vždyť v_te -- be dou -- fám.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "úterý"
+    id = "ut"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e f d \barMaior
+    f g f d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- skrý -- vej pře -- de mnou svou tvář,
+    vždyť v_te -- be dou -- fám.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "úterý"
+    id = "ut"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e d f( g) g \barMaior
+    g f e d d \barFinalis
   }
   \addlyrics {
     Ne -- skrý -- vej pře -- de mnou svou tvář,

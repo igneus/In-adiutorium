@@ -453,6 +453,50 @@
   \relative c'' {
     \choralniRezim
     a4( e) e a g f e e \barMaior
+    d c d e f \mark\sipka g a g g( a) a \barMaior
+    a g g( a) a e \barMin f e d e e \barFinalis
+  }
+  \addlyrics {
+    Zře -- kl se svět -- ské slá -- vy
+    a Bůh mu dal za od -- mě -- nu ži -- vot,
+    jak to slí -- bil těm, kdo ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( e) e a g f e e \barMaior
+    d c d e f g a g g( a) a \barMaior
+    a \mark\sipka a a( g a4.) g \barMin a4 g f d e e \barFinalis
+  }
+  \addlyrics {
+    Zře -- kl se svět -- ské slá -- vy
+    a Bůh mu dal za od -- mě -- nu ži -- vot,
+    jak to slí -- bil těm, kdo ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( e) e a g f e e \barMaior
     \mark\sipka f g f g a g f g g( a) a \barMaior
     a g a( b) a g( e) \barMin
     f g f e e \barFinalis
@@ -992,6 +1036,29 @@
     a g a c c c b a g( a) g \barMaior
     c( d e) c( b a) a \barMin
     a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Po -- do -- bá se stro -- mu
+    za -- sa -- ze -- né -- mu u vod -- ních prou -- dů,
+    ve svůj čas při -- ná -- ší o -- vo -- ce.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c c( d c) c \barMin
+    a g a c c c b a g( a) g \barMaior
+    c( d e) c( b a) a \barMin
+    \mark\sipka c a g f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Po -- do -- bá se stro -- mu
