@@ -65,8 +65,8 @@
     \key f \major
     f4 g g a g f g( a) a \barMaior
     a a g a a( bes) a a \barMaior
-    g f g( a) g f( e d c) d( c) \barMin
-    d f g g( f) f \barFinalis
+    a a g f g( a g f) e( d) \barMin
+    d e c c( d) d \barFinalis
   }
   \addlyrics {
     Sva -- tý a -- poš -- to -- le Pav -- le,_*
@@ -76,8 +76,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "I"
+    differentia = "f"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -305,7 +305,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a) f e a a \barMaior
+    a4 a g f g a a \barMaior
     a b c a( g) g \barMin
     f e c d d \barFinalis
   }
@@ -332,7 +332,7 @@
     \neviditelna f
     f4 f g f g g( a) a( g) \barMax
     g g( a) g g \barMaior
-    g g g a g f f( g) f \barMin
+    g g f g a g f( g) f \barMin
     f( d) f g g( f) f \barFinalis
     % V
     \neviditelna a
@@ -341,7 +341,7 @@
     % R
     \neviditelna a
     g g( a) g g \barMaior
-    g g g a g f f( g) f \barMin
+    g g f g a g f( g) f \barMin
     f( d) f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
@@ -400,11 +400,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c f g f( a) a \barMaior
+    d4 d c f g g( a) a \barMaior
     a( c) b( c a) a g( f) f( g) g \barMaior
-    a g f g a g f e d( c) c \barMaior
-    d c( d) d( f) f \barMin g a g f( g) g( a) a \barMaior
-    a g a f e c( d) d \barFinalis
+    a a a g a g f e d( c) c \barMaior
+    d c( d) d( f) f \barMin g f g a( c) a a \barMaior
+    a g a g f e( d) d \barFinalis
   }
   \addlyrics {
     Když Pe -- tr ješ -- tě mlu -- vil,_*
@@ -448,9 +448,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g a a c b a( g) g \barMin
-    c d e e d c d( e) d d \barMaior
-    d c( d) c b a( g) \barMin f g a a( b) g g \barFinalis
+    g4 a c d d e c c( d) d \barMin
+    d d d e d c b( c) a( g) g \barMaior
+    a a b c a( g) \barMin a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Ve tři ho -- di -- ny od -- po -- led -- ne,_*
