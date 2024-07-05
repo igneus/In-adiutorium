@@ -78,6 +78,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
+    placet = "2 ohledně melismat na _dal_ a _těm_ nevím"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -259,6 +260,7 @@
     quid = "resp."
     modus = "III"
     status = "zruseno"
+    placet = "4 opravdu hodně exotické"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
