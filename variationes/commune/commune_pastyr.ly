@@ -1806,9 +1806,40 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g( a) a \barMaior
     g f g a f d d( c) \barMin
+    d d( f g) e( f) e c d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Kdo chce být prv -- ní,
+    ať je ze všech po -- sled -- ní
+    a slu -- žeb -- ní -- kem všech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 21"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne25b-1ne-mag?+aleluja"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    g f g a f d d( c) \barMaior
     d d( f g) e( f) e c d \barFinalis
 
     e^\markup\rubrVelikAleluja f d d \barFinalis

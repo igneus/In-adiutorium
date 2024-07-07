@@ -345,6 +345,32 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a( g a c b) g4.( a) \barMin
+    a4 a( g f) f( g) g4.( d) \barMaior
+    d4 d d( f) d d( c) c \mark\sipka d f e f( g a4.) a \barMaior
+    a4( c) b c a( g) g \barMin
+    g f g g( a) f d4. d \barFinalis
+  }
+  \addlyrics {
+    Jak mi -- lý
+    je pří -- chod těch,
+    kte -- ří při -- ná -- še -- jí ra -- dost -- nou zprá -- vu,
+    zvěs -- tu -- jí po -- koj
+    a o -- zna -- mu -- jí spá -- su.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d( a') g( a) \barMin
@@ -732,6 +758,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a f g g( a) \barMin a c b a b g g \barMaior
+    a4 a g f g a g f( e d4.) d \barMin \mark\sipka e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- li u -- če -- ní a vy -- na -- lez -- li pís -- mo,
+    a -- by moh -- li ús -- pěš -- ně hlá -- sat Bo -- ží slo -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -837,6 +883,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g( c) c c d c b c a a \barMaior
     \mark\sipka c c b a g a g f g a a g g \barFinalis
@@ -857,7 +904,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) c c d c b c a a \barMaior
     c c b a g a g \mark\sipka g f g a g g \barFinalis
@@ -1098,6 +1145,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f f( a) g \barMin
+    f( g) a f g g \barMaior
+    \mark\sipka g a g f( d) \barMin
+    f g g f f \barFinalis
+  }
+  \addlyrics {
+    Zbož -- ně a spra -- ve -- dli -- vě slou -- ži -- li Pá -- nu
+    po všech -- ny dny své -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "antifony/ferie_kantevgant.ly#t2-st-ben?konec=11"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
@@ -1321,6 +1391,26 @@
     \choralniRezim
     d4 d d( f) f f e( f) d( c) c \barMin
     \mark\sipka d c d f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo Pá -- ně se ší -- ři -- lo
+    po ce -- lé kra -- ji -- ně.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d d( f) f f e( f) d( c) c \barMin
+    d e f d( c) c( d) d \barFinalis
   }
   \addlyrics {
     Slo -- vo Pá -- ně se ší -- ři -- lo

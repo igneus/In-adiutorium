@@ -65,6 +65,8 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "2 melisma na _Jak_ je pochybné, ale do změny na jednoduché 'a'
+    se mi moc nechce mj. i proto, že je divné mít za sebou antifony s diferencemi I.a a I.a2"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -85,6 +87,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Dan 3-III"
+    placet = "3 _hlásat_ spíš lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -94,7 +97,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c) c c d c b c a a \barMaior
-    c c b a g a g g f g a g g \barFinalis
+    c c b a g a g f g a a g g \barFinalis
   }
   \addlyrics {
     By -- li vá -- že -- ní u svých sou -- čas -- ní -- ků

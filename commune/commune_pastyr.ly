@@ -255,8 +255,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f g( a) a \barMaior
-    g f g a f d d( c) \barMin
+    f4 f g g( a) a \barMin
+    g f g a f d d( c) \barMaior
     d d( f g) e( f) e c d \barFinalis
 
     e^\markup\rubrVelikAleluja f d d \barFinalis
