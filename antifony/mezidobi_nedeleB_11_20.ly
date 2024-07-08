@@ -218,9 +218,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) d d d d e f f f \barMin
-    f g f e f e d( e) d d \barMaior
-    d( e) c a( c d f) d f f( g) f d d \barFinalis
+    c4 d d( f) f f f f g f d d \barMin
+    d f f f e d c( d) c c \barMaior
+    d f f( g f d) d c e f d d \barFinalis
   }
   \addlyrics {
     Mno -- ho li -- dí Je -- ží -- še po -- slou -- cha -- lo
@@ -240,8 +240,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d( e) c a( c d f) d d \barMin f f( g) f g f e d d \barMaior
-    e e d c a c c d d \barFinalis
+    c4 d d( f) d d \barMin d e f d c d c c \barMaior
+    f g f e d c e( f) d d \barFinalis
   }
   \addlyrics {
     Ja -- ké zá -- zra -- ky se dě -- jí je -- ho ru -- ka -- ma!
@@ -260,8 +260,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( c) d d( f) f( d) \barMin f e f e d c( a) a \barMaior
-    c c d( f) e c( d) d \barFinalis
+    c4 d d( f) f \barMin g g g f e d d \barMin
+    e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- kde pro -- rok ne -- zna -- me -- ná tak má -- lo
@@ -269,8 +269,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "ne14b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
