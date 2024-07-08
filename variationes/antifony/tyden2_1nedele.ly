@@ -1415,7 +1415,7 @@ Potřebuje výraznější úpravu:}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 \mark\sipka c( d) d e e d c d d \barMaior
     b^\markup\rubrMimoPust c c a b a a( g) g \barMaior
@@ -1435,6 +1435,7 @@ Potřebuje výraznější úpravu:}
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-III"
+    placet = "začátek se mi po předchozí antifoně těžko zpívá"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -1540,7 +1541,7 @@ Potřebuje výraznější úpravu:}
 }
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     g4 b c d d b d( e) d d \barMaior
     d c b a \mark\sipka a( b) a g g \barMin
@@ -2275,6 +2276,27 @@ tIInedeleLaudResp = \score {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g f g( a) \mark\sipka g g \barMin
+    f d f( g) g f f \barMaior
+    g a( g) f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi dá -- vá pro -- dlé -- vat na svě -- žích
+    past -- vi -- nách. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2417,6 +2439,28 @@ tIInedeleLaudResp = \score {
     g4 g a g a( c) b \barMin
     c b g b c a a g g \barMaior
     \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když Bůh po -- vstal k_sou -- du,
+    ze -- mě se zdě -- si -- la a zmlk -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a( c) \mark\sipka c \barMin
+    d c a b c a a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Když Bůh po -- vstal k_sou -- du,
@@ -2687,7 +2731,7 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f a( b c) c( d) d( c) c \barMaior
     d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
@@ -2704,6 +2748,7 @@ tIInedeleLaudResp = \score {
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
+    placet = "melisma na _kněz_ se nezpívá moc dobře, melisma na _Mel_ je opravdu divné"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -3143,9 +3188,9 @@ tIInedeleLaudResp = \score {
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
-    a4 a g f g a a \barMaior
+    a4 a g f g a a \barMin
     c c b g b c a a g g \barMaior
     f g( a) g g \barFinalis
   }

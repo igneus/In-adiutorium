@@ -138,25 +138,20 @@ tIInedeleInespAntIII = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    a4 c( d) d e e d c d d \barMaior
-    b^\markup\rubrMimoPust c c a b a a( g) g \barMaior
-    f g a g \barFinalis
-
-    b^\markup\small\italic{V době postní:} c c a g f g( a g) g \barFinalis
+    g4 b c d d b d( e) d d \barMaior
+    d c b a a( b) a g g \barMin
+    a^\markup\rubrMimoPust a( b) g g \barFinalis
   }
   \addlyrics {
     Bůh vi -- děl všech -- no, co u -- dě -- lal,
-    \markup{\Dagger a} by -- lo to vel -- mi dob -- ré.
+    a by -- lo to vel -- mi dob -- ré.
     A -- le -- lu -- ja.
-
-    \markup{\Dagger a} by -- lo to vel -- mi dob -- ré.
   }
   \header {
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 104-III"
-    placet = "začátek se mi po předchozí antifoně těžko zpívá"
     id = "mc-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -255,6 +250,7 @@ tIInedeleInespAntIII = \score {
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 23"
+    placet = "_prodlévat_ je podezřelé"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -308,8 +304,8 @@ tIInedeleInespAntIII = \score {
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f a( b c) c( d) d( c) c \barMaior
-    d d d( e d) d \barMin c( b a) g a( g) f g g \barMaior
+    a4 a g f g a a \barMin
+    c c b g b c a a g g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -320,10 +316,9 @@ tIInedeleInespAntIII = \score {
   \header {
     textus_approbatus = "Kristus je kněz navěky podle Melchizedechova řádu. Aleluja."
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = "Žalm 110"
-    placet = "melisma na _kněz_ se nezpívá moc dobře, melisma na _Mel_ je opravdu divné"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
   }
