@@ -722,6 +722,28 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    f4 f f g a f g \barMin
+    g a \mark\sipka a g a g( f) f \barMin
+    f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \key f \major
     \choralniRezim
     f4 g a a a g a \barMaior
@@ -895,6 +917,76 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 119-ו"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f g f e d( c) \barMaior
+    d f f e f f( g) g \barMin
+    g a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 119-ו"
+    fial = "antifony/pust_tyden3.ly#ct-amag?konec=16"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g f e d( c) \barMaior
+    d f f e f f( g) g \barMin
+    g a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní % jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    textus_approbatus = "Blahoslavení jsou ti, kdo slyší Boží slovo a zachovávají ho."
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 119-ו"
+    fial = "antifony/pust_tyden3.ly#ct-amag?cast"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a g f e d \barMaior
+    d e c d f f( g) g \barMin
+    g a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jsou ti,
+    kdo sly -- ší Bo -- ží slo -- vo
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-ו"
+    fial = "antifony/pust_tyden3.ly#ct-amag?konec=11"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

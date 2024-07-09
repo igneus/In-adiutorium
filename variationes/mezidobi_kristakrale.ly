@@ -1305,6 +1305,26 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 \score {
   \relative c'' {
     \choralniRezim
+    c4( d) d \barMin f d d e f d c( d) \mark\sipka c \barMaior
+    a c b g g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
+    on je Král krá -- lů.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4( d) d \barMin e d c d e e d d \barMaior
     c b g a( g) g \barFinalis
   }
