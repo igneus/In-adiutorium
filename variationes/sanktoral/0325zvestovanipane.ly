@@ -2570,6 +2570,9 @@
   o někoho, kdo listoval (nejspíš) v (tehdy čerstvém) CAO a vybíral hezké texty, aniž se zvlášť trápil tím,
   jak moc nebo málo jsou v tradici zastoupeny.
 }
+\markup\justify{
+  (Používání CAO potvrzeno přímým účastníkem - Notitiae 1971, s. 229)
+}
 
 \score {
   \relative c' {
