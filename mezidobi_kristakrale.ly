@@ -276,18 +276,18 @@
 
     % R
     \neviditelna f
-    f4 g a f g f \barMin f e c d c \barMin
+    f4 g a f g4. f \barMin f4 e c d c \barMin
     c c( d f) \barMaior
     f g a g f g g \barMax
 
-    g f g a( f d) e( c) d \barMin c( d e) f( g) a g( f) f \barFinalis
+    g f g g( a) g g( f d) \barMin f g a g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a g( f d e) e( d) \barMin f g a a c b a( b) a \barMaior
-    a a a g a g f g f e g a \barMax
+    a a a g a g g f g f g a \barMax
     % R
     \neviditelna a
-    g f g a( f d) e( c) d \barMin c( d e) f( g) a g( f) f \barFinalis
+    g f g g( a) g g( f d) \barMin f g a g( f) f \barFinalis
   }
   \addlyrics {
     \Response Teď se u -- jal vlá -- dy nad tím -- to svě -- tem
@@ -301,7 +301,6 @@
   \header {
     quid = "2. resp."
     modus = "VI"
-    placet = "_protože Hospodinu náleží vláda_ a _kralovat_ zkusit lépe"
     id = "mc-resp2"
     piece = \markup {\sestavTitulekResp}
   }
