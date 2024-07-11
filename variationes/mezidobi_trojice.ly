@@ -1016,6 +1016,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \key f \major
     \choralniRezim
     f4 f f g f g( a) a \barMin
@@ -1077,6 +1078,61 @@ ciselnaRada = \markup\tiny\sans\concat{
     d( c) d \mark\sipka e f d d \barMin
     f g g a bes a g f e( f d c) c \barMaior
     d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- je -- me ti, Bo -- že,
+    a kla -- ní -- me se
+    tvé -- mu je -- di -- né -- mu,
+    pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
+    ve třech o -- so -- bách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 f f g f g( a) a \barMin
+    g a g f( d) d \barMaior
+    d( c) d \mark\sipka f e d d \barMin
+    f d d f g a bes a g( a) a \barMaior
+    g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- je -- me ti, Bo -- že,
+    a kla -- ní -- me se
+    tvé -- mu je -- di -- né -- mu,
+    pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
+    ve třech o -- so -- bách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \key f \major
+    \choralniRezim
+    f4 f f g f g( a) a \barMin
+    g a g f( d) d \barMaior
+    d( c) d f e d d \barMin
+    \mark\sipka d f d f g a bes a g( a) a \barMaior
+    g( a) f e d d \barFinalis
   }
   \addlyrics {
     Dě -- ku -- je -- me ti, Bo -- že,

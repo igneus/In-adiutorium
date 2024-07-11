@@ -5846,6 +5846,29 @@ se bude hodit.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g e e \barMin
+    f g a a g( a) g f d( e) e \barMaior
+    e f d f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Roz -- ptyl, Hos -- po -- di -- ne,
+    ty, kdo v_srd -- ci smý -- šle -- jí pyš -- ně
+    a po -- vyš po -- ní -- že -- né.
+  }
+  \header {
+    textus_approbatus = "Hospodine, rozptyl ty, kdo v srdci smýšlejí pyšně a povyš ponížené."
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "t2-st-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 % ctvrtek

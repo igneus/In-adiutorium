@@ -2055,6 +2055,27 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a g) f g( a) g f g g \barMaior
+    a g f( g) f f \barMin
+  }
+  \addlyrics {
+    Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
+    je -- ho krá -- lov -- ství sa -- há od vý -- cho -- du až na zá -- pad,
+    všem ná -- ro -- dům při -- ná -- ší po -- koj.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
