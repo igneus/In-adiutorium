@@ -134,6 +134,7 @@
    "Najde prvni biblickou referenci a vygeneruje na ni odkaz"
    (let* ((bookCodeAlist '(("Žalm" . "Z")
                            ("Iz" . "Iz")
+                           ("Mt" . "Mt")
                            ("Lk" . "L")
                            ("Jan" . "J"))) ; map book shortcuts ČLP -> obohu.cz/bible/
           (bookCodes (map-in-order car bookCodeAlist))

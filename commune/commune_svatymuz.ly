@@ -390,8 +390,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c e( f) d d f( g) f d d \barMaior
-    f e c d c \barMin bes c d e( f d) c( d) d \barFinalis
+    d4 c e( f) d d f( g) f d( c) c \barMaior
+    d c d d( f) f \barMin f e c e( f d) c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -639,7 +639,7 @@
     \choralniRezim
     a4 g a c( d) d \barMin
     c d e( c) c( d) d \barMaior
-    a d b c a( g) a( g) \barMin
+    a d b c a( g a4.) g4 \barMin
     g f g g a a a c b g a a \barFinalis
 
     b^\markup\rubrVelikAleluja c a( g) a \barFinalis
@@ -697,10 +697,10 @@
     \choralniRezim
     d4 d c d d( f) f \barMin
     g f e d c( d) d \barMaior
-    d d( f) e f d( c) \barMin
-    d c d d( f e) c( d) d \barFinalis
+    d d e f d( c) \barMin
+    d f e d( e) d d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Žád -- né lid -- ské o -- ko
@@ -743,6 +743,7 @@
     modus = "II"
     differentia = "A"
     psalmus = "Žalm 15"
+    placet = "3 lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -751,9 +752,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 e( d) c( d) d \barMin
-    d c b a( g) g \barMin
-    f( a) c b c d e( d) d \barMaior
+    g4 a( c) c c \barMin
+    c d c e( d) d \barMin
+    e( f) e d e c d d \barMaior
     c( b) g a a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
@@ -769,7 +770,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "c"
+    differentia = "a"
     psalmus = "Žalm 112"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
@@ -780,7 +781,7 @@
   \relative c' {
     \key f \major
     \choralniRezim
-    c4( d) d d( a' bes a) g( a) a \barMin a( c g) a g( e) f( e) \barMaior
+    c4 d d( a' bes a) g( a) a \barMin a( c g) a g( e) f( e) \barMaior
     f g a a( bes) a a a( c) g g( a) a \barMax
     a a a g( f e) e \barMin d d( e f) g( a) a( g) g \barMin a( b c) a( g) f( e d e) d \barFinalis
 
