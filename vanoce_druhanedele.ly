@@ -153,7 +153,7 @@
     differentia = "G"
     psalmus = "Dan 3-II"
     fial = "antifony/tyden2_1nedele.ly#rch-ant2?zacatek=12"
-    placet = "nevyvážená, od předlohy spíš oddělit (popř. upravit obě)"
+    placet = "3 nevyvážená, od předlohy spíš oddělit (popř. upravit obě)"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -245,7 +245,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "_Panna Maria_ nepřirozené; krok na _a to se_ raději pryč"
+    placet = "3 _Panna Maria_ nepřirozené; krok na _a to se_ raději pryč"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -270,7 +270,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 110"
-    placet = "napojení závěrečné části je v rámci korpusu hodně exotické"
+    placet = "2 napojení závěrečné části je v rámci korpusu hodně exotické"
     id = "ne2-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -317,7 +317,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Zj 19"
-    placet = "líbí se mi, ale začátek by asi byl vhodnější zpěvněji"
+    placet = "3 líbí se mi, ale začátek by asi byl vhodnější zpěvněji"
     id = "ne2-a3"
     piece = \markup {\sestavTitulek}
   }
