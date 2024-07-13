@@ -19,8 +19,8 @@
     \choralniRezim
     c4 c d( e) e( d) d \barMin
     e e e( f) e d c c( d e) e( d) d \barMaior
-    d( c b) a( g) g( a) a( g) \barMin
-    f( g) g( a) a c d c b( g a) g \barFinalis
+    d c( b) g( a) a( g) \barMin
+    f( g) g( a) a c d c b( g a4.) g4 \barFinalis
   }
   \addlyrics {
     Sva -- tý Be -- ne -- dikt
@@ -43,10 +43,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( b) c( d) d \barMin
+    g4 g a( c b) c( d) d \barMin
     d( e c d) c( b) \barMin a( g) a g g \barMaior
     g a g f( g) a( c) c \barMin c d( f e) d( c) d c \barMaior
-    d d( c b) a( g) f g a( b) g g \barFinalis
+    d c b a g a( b) g g \barFinalis
   }
   \addlyrics {
     Sva -- tý Be -- ne -- dikt
