@@ -280,10 +280,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f g g( f) g \barMin g f e f d d( c) d \barFinalis
+    d4 d c d d( f) f \barMin
+    f e c e f d d \barFinalis
   }
   \addlyrics {
-    Bo -- že, chraň můj ži -- vot před stra -- chem z_ne -- pří -- te -- le.
+    Bo -- že, chraň můj ži -- vot
+    před stra -- chem z_ne -- pří -- te -- le.
   }
   \header {
     quid = "3. ant."
