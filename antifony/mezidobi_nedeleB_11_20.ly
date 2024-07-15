@@ -296,6 +296,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "3 lépe"
     id = "ne15b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -304,9 +305,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f g a a a a g f g a a \barMaior
-    a g( a g) f( g) g( f) \barMin
-    d f g g f g( a) f f \barFinalis
+    f g a a a a g f g( a) g g \barMaior
+    f g( a g) f( g) g( f) \barMin
+    f f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci se vy -- da -- li na ces -- ty
@@ -315,8 +316,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VI"
-    differentia = "F"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "ne15b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -324,23 +325,25 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g f g a a( g) g \barMin
-    a a g f e f d d( c) c \barMaior
-    d d d c d d( f) f f \barMin g( a) g f( g) f f \barMaior
+    f4 f e d f g a( g) g \barMin
+    a bes a g g a f f( g) g \barMaior
+    a a a g f f( g) f f \barMin
+    f d f( e) d( c) c \barMaior
     d f e d e d d \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- vi u -- čed -- ní -- ci
     vy -- há -- ně -- li mno -- ho zlých du -- chů,
-    po -- ma -- zá -- va -- li o -- le -- jem mno -- ho ne -- moc -- ných
+    po -- ma -- zá -- va -- li o -- le -- jem
+    mno -- ho ne -- moc -- ných
     a u -- zdra -- vo -- va -- li je.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a"
+    differentia = "f"
     psalmus = ""
     id = "ne15b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
