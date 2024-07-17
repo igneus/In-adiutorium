@@ -52,10 +52,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f( g) g( a) a \barMin
-    c b a g( a) g g \barMaior
-    c c c d e c( b) a a \barMin
-    g a f f( g) g \barFinalis
+    c4 c c b( c) a( g) g \barMin
+    a g f g( a) g g \barMaior
+    a a a g f g a a
+    c b a g g \barFinalis
   }
   \addlyrics {
     Moj -- žíš a E -- li -- áš_*
@@ -66,9 +66,8 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Flp 2"
-    placet = "zkusit lépe"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
