@@ -12,6 +12,22 @@
 
 \markup\communia #'(#:maria)
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Quæsívi sapiéntiam palam in oratióne mea,
+    et \bold{efflóruit tamquam præcox uva.}
+  }
+}
+\markup\justify{
+  České přetlumočení je zplošťující jednak co do básnického výrazu,
+  jednak co do vztahu k biblickému textu.
+  Latinská antifona je volným citátem \make-bible-link "Sir 51, 18-19" ,
+  česká verze identifikovatelný vztah k biblickému textu nemá
+  (což je z velké části problém nesouladu ČLP s vulgátním i neovulgátním čtením,
+  ne až překladu breviáře).
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -63,6 +79,28 @@
     c4 c b a c b a g( a) g \barMaior
     g f g a c c \barMin
     a c b a g g \barFinalis
+  }
+  \addlyrics {
+    V_mod -- lit -- bě jsem hle -- da -- la mou -- drost
+    a ob -- dr -- že -- la jsem
+    je -- jí prv -- ní plo -- dy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a \mark\sipka b c a g( a) g \barMaior
+    \mark\sipka a f g g a a \barMin
+    c c b a g( a g) g \barFinalis
   }
   \addlyrics {
     V_mod -- lit -- bě jsem hle -- da -- la mou -- drost
@@ -156,6 +194,50 @@
     a4 a a g( a) g g f g g( a) a \barMaior
     c b a b g g a b( c) a a \barMaior
     a a g f e f \mark\sipka e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a sly -- še -- la Bo -- ží slo -- vo,
+    u -- cho -- vá -- va -- la ho ve svém srd -- ci
+    a roz -- va -- žo -- va -- la o něm.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) g g f g g( a) a \barMaior
+    c b a b g g a b( c) a a \barMaior
+    a \mark\sipka g f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a sly -- še -- la Bo -- ží slo -- vo,
+    u -- cho -- vá -- va -- la ho ve svém srd -- ci
+    a roz -- va -- žo -- va -- la o něm.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) g g f g g( a) a \barMaior
+    c b a b g g \mark\sipka a( b) c a a \barMaior
+    a g f e f d c( d) d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a sly -- še -- la Bo -- ží slo -- vo,

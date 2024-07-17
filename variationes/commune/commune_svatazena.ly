@@ -1136,6 +1136,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) g f f( g) g \barMaior
+    g \mark\sipka a a g f g( a) g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Má du -- še lne k_to -- bě,
+    tvá pra -- vi -- ce mě pod -- pí -- rá.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
