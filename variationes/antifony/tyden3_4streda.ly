@@ -1515,6 +1515,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a( c) c b c a4. a \barMaior
+    c4 c \mark\sipka b g b c a a b a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh ne -- bu -- de sou -- dit po -- dle zdá -- ní,
+    a -- le po -- dle spra -- ve -- dl -- nos -- ti a prá -- va.
+  }
+  \header {
+    textus_approbatus = "Bůh nebude soudit podle zdání,
+    ale podle spravedlnosti a podle práva."
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 75"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -1597,6 +1619,24 @@
   \relative c'' {
     \choralniRezim
     g4 f g a a \barMin a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdo se -- jí v_sl -- zách, žnout bu -- dou s_já -- so -- tem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 126"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a g \barMin g a f f g g \barFinalis
   }
   \addlyrics {
     Kdo se -- jí v_sl -- zách, žnout bu -- dou s_já -- so -- tem.

@@ -325,6 +325,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e g( a) a \barMin
+    \mark\sipka a g a( b) g g( a) a \barMaior
+    a a g e g f e d e e \barMaior
+    f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Ať ti slou -- ží_*
+    všech -- no tvor -- stvo, Bo -- že,
+    ne -- boť všech -- no po -- vsta -- lo z_tvé vů -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 4"
+    id = "t1-ut"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %velikTIstredaNespAntIII =
