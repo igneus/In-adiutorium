@@ -71,9 +71,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b( c) a a g f g( a) g \barMaior
-    a g a c c c d c a a \barMin
-    c b a g g a g f g g \barFinalis
+    c4 c c b( c) a a b a a( g) g \barMaior
+    f g a c c c d c a a \barMin
+    c c b a g a g f g g \barFinalis
   }
   \addlyrics {
     Bu -- deš se ra -- do -- vat ze svých sy -- nů,
@@ -157,7 +157,7 @@
   \relative c' {
     \choralniRezim
     d4 e f f f f e d c c f( g) f g a a \barMin
-    a( c) b a( g) g( a) a \barMaior
+    c c b( a) g( a) a \barMaior
     a g f e c e( f d4.) d \barFinalis
   }
   \addlyrics {
@@ -231,7 +231,7 @@
     c4 d d( a') a a bes a g f g g( a) a \barMin
     a( c) b g( a) a \barMaior
     a a g f e( f) d( c) c \barMin
-    d c d( f) e c( d) d \barFinalis
+    d c f e d( e d) d \barFinalis
   }
   \addlyrics {
     Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
