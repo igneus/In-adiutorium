@@ -15,7 +15,7 @@
   dedication = \markup\tiny{
     věnováno
     \with-url #"https://commons.wikimedia.org/wiki/File:Slan%C3%BD,_kl%C3%A1%C5%A1ter_kostel_Nejsv.Trojice_detail_(2).JPG" {
-      Květu karmelu slánského
+      \italic{Květu karmelu} slánského
     }
     (i když podle všeho nosí hábit sv. Františka)
   }
@@ -182,7 +182,7 @@
     \choralniRezim
     d4 d f( g) g( a) a \barMin
     a a a a g f g( a g) g \barMaior
-    f g a a g f g f d( c) c \barMaior
+    f g a a g f e f d( c) c \barMaior
     d d d f e f d( c) c f f( g) f d d \barFinalis
   }
   \addlyrics {
@@ -206,8 +206,8 @@
     \choralniRezim
     f4 g g( a) a \barMin
     a a g f g( a g) g \barMaior
-    g f g a a g f d( c) \barMin
-    d f g g g( a) g( f) f \barFinalis
+    g a a g f e( f) d( c) c \barMin
+    c d f f g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Při -- ve -- du je
@@ -391,6 +391,8 @@
     differentia = "D"
     psalmus = ""
     fial = "commune/commune_maria.ly#nona?zacatek"
+    placet = "2 i s ohledem na příležitost by bylo vhodné připravit zpěvnější melodii -
+    i za cenu oddělení od textově příbuzné antifony"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

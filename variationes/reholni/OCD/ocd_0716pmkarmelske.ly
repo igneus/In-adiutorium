@@ -787,7 +787,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f( g) g( a) a \barMin
     a a \mark\sipka a a g f g( a g) g \barMaior
@@ -812,6 +812,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d f( g) g( a) a \barMin
     a a a a g f g( a g) g \barMaior
@@ -980,7 +981,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g( a) a \barMin
     a a g f g( a g) g \barMaior
@@ -1005,7 +1006,6 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
     \choralniRezim
     f4 g g( a) a \barMin
     a a g f g( a g) g \barMaior
@@ -1030,6 +1030,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g g( a) a \barMin
     a a g f g( a g) g \barMaior
@@ -1298,6 +1299,31 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g( a) g \barMin
+    c c c b a a( g) g \barMaior
+    c d e d c( d) c c \barMin
+    c \mark\sipka a a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- ta -- huj nás,
+    ne -- po -- skvr -- ně -- ná Pan -- no,
+    po -- bě -- ží -- me za te -- bou,
+    za vů -- ní tvé -- ho pů -- va -- bu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#rch-a3?jiny text"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g a d, \barMin
     a' a a c b g( a) a \barMaior
     a a g f d e e \barMin
@@ -1502,6 +1528,40 @@
     \neviditelna a
     a4 a a a a( bes) a g( a) g \barMin
     g f g g g( a) \barMax
+    % R
+    \neviditelna f
+    f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Pod tvou o -- chra -- nu se u -- tí -- ká -- me,_*
+    sva -- tá Bo -- ží Ro -- dič -- ko.
+    \Verse Ne -- od -- mí -- tej na -- še pros -- by
+    v_na -- šich po -- tře -- bách,_*
+    \Response sva -- tá Bo -- ží Ro -- dič -- ko.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f f g f g( a) a( g) \barMax
+    f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a g( a) g \barMin
+    g f g \mark\sipka g( a) a( g) \barMax
     % R
     \neviditelna f
     f d f g g f f \barFinalis
