@@ -209,7 +209,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 b c d c d( e) d \barMaior
     d d d( e) d e f d c d( c) \barMin
@@ -300,6 +300,29 @@
   \relative c'' {
     \choralniRezim
     g4 a c b \mark\sipka a c( d) d \barMaior
+    d d d( e) d e f d c c \barMin
+    a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh si vy -- vo -- lil Šav -- la,
+    a -- by hlá -- sal e -- van -- ge -- li -- um
+    všem ná -- ro -- dům.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka g c b c d( e) d \barMaior
     d d d( e) d e f d c c \barMin
     a c( b) a( g) g \barFinalis
   }

@@ -60,8 +60,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 b c d c d( e) d \barMaior
-    d d d( e) d e f d c d( c) \barMin
+    g4 g c b c d( e) d \barMaior
+    d d d( e) d e f d c c \barMin
     a c( b) a( g) g \barFinalis
   }
   \addlyrics {
@@ -74,7 +74,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 64"
-    placet = "spíš lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
