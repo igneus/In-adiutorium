@@ -1167,6 +1167,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g g a \barMin
+    c c b( c) a g f( g) g \barMaior
+    a a b( c) a a \barMin
+    c c b a b a g \barMin
+    a( b g) g( a) \barMaior
+    a a a a f e d \barMin f( g) a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem pra -- vý vin -- ný kmen_*
+    a můj O -- tec je vi -- nař.
+    Kaž -- dou ra -- to -- lest,
+    kte -- rá ne -- se o -- vo -- ce,
+    čis -- tí,
+    a -- by nes -- la o -- vo -- ce ješ -- tě hoj -- něj -- ší.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisSkupiny{1.1}

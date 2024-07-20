@@ -227,6 +227,58 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) d d \barMin f( g f) e d c d( c) c \barMin
+    d d e f d d \barMaior
+    f g g f \barMin f g( a g) f d( c) \barMin
+    a c d d
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům
+    po svém zmrt -- vých -- vstá -- ní;
+    při -- stou -- pil k_nim a po -- dal jim
+    chléb a ry -- bu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) d d \barMin f( g f) e d c d( c) c \barMin
+    d d e f d d \barMaior
+    f g g f \mark\sipka d e d c \barMin
+    a c d d
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům
+    po svém zmrt -- vých -- vstá -- ní;
+    při -- stou -- pil k_nim a po -- dal jim
+    chléb a ry -- bu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

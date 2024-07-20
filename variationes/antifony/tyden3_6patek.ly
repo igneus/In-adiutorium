@@ -367,6 +367,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 bes a g( a) a \barMin
+    \mark\sipka a g a g f e( f) d d \barFinalis
+
+    \mark\sipka e^\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Bo -- ha,
+    a bu -- de -- te se ra -- do -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 69-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 bes a g( a) \mark\sipka g \barMin
     g a a f e c d d \barFinalis
 

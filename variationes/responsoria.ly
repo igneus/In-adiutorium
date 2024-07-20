@@ -1958,6 +1958,7 @@ doxologieResponsoriumVI = {}
   }
   \score {
     \relative c' {
+      \zvyraznovacZelenyII
       \choralniRezim
 
       % R

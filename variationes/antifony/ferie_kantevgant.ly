@@ -3896,6 +3896,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c f( g a g) f( g) \barMin g f e d( c) c \barMaior
+    d f e( f) d( c) \barMin
+    f g f e c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
+    pa -- ma -- to -- val
+    na své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "t1-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 % sobota
