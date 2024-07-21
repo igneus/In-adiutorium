@@ -176,9 +176,9 @@
   \relative c'' {
     \choralniRezim
      c4 c b( a) g a( f) g g \barMin g g f( e) d d f( g) g \barMax
-     g4 g g( c) c c \barMin c c d( c b) a( g) a( g a) a( g) g \barMaior
-     a( b g) g( a) \barMin a a g( a) a b( c) a( g) g g( a g) f f g g \barMaior
-     g g( a) a( g) g \barFinalis
+     a a b( c) a a \barMin c c b a b a g \barMin
+     a( b g) g( a) \barMaior a a b c a g g \barMin g( a) f g( a) a( g) g \barMaior
+     f g( a) g g \barFinalis
   }
   \addlyrics {
     Já jsem pra -- vý vin -- ný kmen_* a můj O -- tec je vi -- nař.
@@ -191,7 +191,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "lépe"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }

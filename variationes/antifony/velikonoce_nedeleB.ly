@@ -1066,6 +1066,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
      c4 c b( a) g a( f) g g \barMin g g f( e) d d f( g) g \barMax
      g4 g g( c) c c \barMin c c d( c b) a( g) a( g a) a( g) g \barMaior
@@ -1118,6 +1119,31 @@
      c4 c b( a) g a( f) g g \barMin g g f( e) d d f( g) g \barMax
      g4 g g( c) c c \barMin c c \mark\sipka d b c a a \barMin
      b( c a g) g \barMaior a a a a f e d \barMin f( g) a a g g \barMaior
+     f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem pra -- vý vin -- ný kmen_* a můj O -- tec je vi -- nař.
+    Kaž -- dou ra -- to -- lest, kte -- rá ne -- se o -- vo -- ce,
+    čis -- tí, a -- by nes -- la o -- vo -- ce ješ -- tě hoj -- něj -- ší.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+     c4 c b( a) g a( f) g g \barMin g g f( e) d d f( g) g \barMax
+     \mark\sipka a a b( c) a a \barMin c c b a b a g \barMin
+     a( b g) g( a) \barMaior a a b c a g g \barMin g( a) f g( a) a( g) g \barMaior
      f g( a) g g \barFinalis
   }
   \addlyrics {
