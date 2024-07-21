@@ -35,26 +35,26 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g g c( d) c c \barMin b( c) b a g a( g) g \barMin
-    g f( e) g a c( d) d \barMaior
-    c c c b( a g) a a( g f) g g( f) \barMin
-    f( a g) a c b
-    a g a( g) g \barFinalis
+    d4 d c d d( f) d d \barMin f( g f) e d c d( c) c \barMin
+    d d c d f( g) g \barMaior
+    f g g f d e d c \barMin
+    a c d d
+    e f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům
     po svém zmrt -- vých -- vstá -- ní;
-    při -- stou -- pil k_nim a po -- dal jim chléb a ry -- bu.
+    při -- stou -- pil k_nim a po -- dal jim
+    chléb a ry -- bu.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "není celá špatná, ale potřebuje revizi"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

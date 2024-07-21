@@ -101,6 +101,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g c( d) c c \barMin b( c) b a g a( g) g \barMin
     g f( e) g a c( d) d \barMaior
@@ -279,6 +280,33 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d( f) d d \barMin f( g f) e d c d( c) c \barMin
+    d d \mark\sipka c d f( g) g \barMaior
+    f g g f d e d c \barMin
+    a c d d
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům
+    po svém zmrt -- vých -- vstá -- ní;
+    při -- stou -- pil k_nim a po -- dal jim
+    chléb a ry -- bu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -341,6 +369,32 @@
     a a g f g( a) a \barMin
     g \mark\sipka a g f e e e \barMin
     d g g( f) e \barFinalis
+  }
+  \addlyrics {
+    Ši -- mo -- ne, sy -- nu Ja -- nův,
+    mi -- lu -- ješ mě?
+    Pa -- ne, ty víš všech -- no_–
+    ty víš, že tě mi -- lu -- ji!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e f e d( e) e \barMin
+    d g g( f) e \barMaior
+    a a g f g( a) a \barMin
+    g a g f \mark\sipka d e e \barMin
+    f e f( g) e \barFinalis
   }
   \addlyrics {
     Ši -- mo -- ne, sy -- nu Ja -- nův,
