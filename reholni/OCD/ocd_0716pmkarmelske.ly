@@ -536,7 +536,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Ef 1"
-    fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec&-aleluja"
+    placet = "2 s _v modlitbě_ to nezní zdaleka tak dobře jako s _v modlitbách_"
+    fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec=26&-aleluja"
     id = "2ne-a3"
     piece = \markup\sestavTitulek
   }
