@@ -2051,6 +2051,112 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g f g a g f e( d) \barMin
+    e( c) c( d) d \barMaior
+    c d( f) f \barMin
+    f f f f g f e d \mark\sipka
+    c d d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    tvé dě -- ti
+    si tě bu -- dou při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g f g a g f e( d) \barMin
+    e( c) c( d) d \barMaior
+    c d( f) f \barMin
+    f f f f g f e \mark\sipka c
+    e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    tvé dě -- ti
+    si tě bu -- dou při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c d f g f g a g f e( d) \barMin
+    e( c) c( d) d \barMaior
+    c d( f) f \barMin
+    f f f f g f \mark\sipka d d \barMin
+    e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    tvé dě -- ti
+    si tě bu -- dou při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c d f g f g a g f e( d) \barMin
+    e( c) c( d) d \barMaior
+    \mark\sipka d f f
+    f f e d c d c c \barMin
+    e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    tvé dě -- ti
+    si tě bu -- dou při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2120,6 +2226,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g f g g a a \barMin
+    \mark\sipka g f g a a g g \barMaior
+    a a g f g a f f \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še du -- še ra -- du -- je
+    z_je -- ho mi -- lo -- sr -- den -- ství,
+    ne -- pře -- stá -- vej -- te ho chvá -- lit.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 d e e d c c d d \barMin
@@ -2148,6 +2276,28 @@
     c4 d e d c d c a a \barMin
     c b a g a g g \barMaior
     f g a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še du -- še ra -- du -- je
+    z_je -- ho mi -- lo -- sr -- den -- ství,
+    ne -- pře -- stá -- vej -- te ho chvá -- lit.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c d c a a \barMin
+    c b a g a g g \barMaior
+    f g a \mark\sipka c b a g g \barFinalis
   }
   \addlyrics {
     Ať se va -- še du -- še ra -- du -- je
@@ -2493,6 +2643,52 @@
     differentia = "c"
     psalmus = "Ef 1"
     fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec&-aleluja"
+    id = "2ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c c d c e d d \barMin
+    d d d c a \mark\sipka b( c) a( g) g \barMaior
+    f g a a a( c) b g g g \barFinalis
+  }
+  \addlyrics {
+    A -- poš -- to -- lo -- vé jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bě
+    s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec=10&-aleluja"
+    id = "2ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c c d c e d d \barMin
+    d d d c \mark\sipka b a( b) a a \barMaior
+    f g a a a( c) b g g g \barFinalis
+  }
+  \addlyrics {
+    A -- poš -- to -- lo -- vé jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bě
+    s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec=10&-aleluja"
     id = "2ne-a3"
     piece = \markup\sestavTitulek
   }
