@@ -1878,7 +1878,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e f f f g f e d e f d d \barMaior
     d f f f f e d c( d) c \barMaior
@@ -1899,10 +1899,100 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a c c c d c a a b c a( g) g \barMaior
+    g a a a a g f g( a) a \barMin
+    a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    A -- po -- što -- lo -- vé se shro -- máž -- di -- li u Je -- ží -- še
+    a vy -- pra -- vo -- va -- li mu všech -- no,
+    co dě -- la -- li a u -- či -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne16b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d d e e d c d e d d \barMaior
+    d c d c b a g a( g) g \barMin
+    f a c b g a g g \barFinalis
+  }
+  \addlyrics {
+    A -- po -- što -- lo -- vé se shro -- máž -- di -- li u Je -- ží -- še
+    a vy -- pra -- vo -- va -- li mu všech -- no,
+    co dě -- la -- li a u -- či -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne16b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c d d d e e d c d e d d \barMaior
+    d c d c b a g a( g) g \barMin
+    f a c b \mark\sipka a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    A -- po -- što -- lo -- vé se shro -- máž -- di -- li u Je -- ží -- še
+    a vy -- pra -- vo -- va -- li mu všech -- no,
+    co dě -- la -- li a u -- či -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne16b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d d e e d c d e d d \barMaior
+    d c d c b a g a( g) g \barMin
+    \mark\sipka g a a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    A -- po -- što -- lo -- vé se shro -- máž -- di -- li u Je -- ží -- še
+    a vy -- pra -- vo -- va -- li mu všech -- no,
+    co dě -- la -- li a u -- či -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne16b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) e f f( d) \barMin f f g f e d c c( d e) e \barMaior
     e f f e d c c( d) d \barFinalis
@@ -1924,10 +2014,144 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) e f d( c) \barMin d d f e f d c c( d) d \barMaior
+    f g a g f d e d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te i vy ně -- kam na o -- puš -- tě -- né mís -- to
+    a tro -- chu si od -- po -- čiň -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne16b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) e f d( c) \barMin d d f \mark\sipka f f e c c( d) d \barMaior
+    f g a g f d e d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te i vy ně -- kam na o -- puš -- tě -- né mís -- to
+    a tro -- chu si od -- po -- čiň -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne16b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) e f d( c) \barMin d d f f f e \mark\sipka d d( e) e \barMaior
+    e f g f e d e d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te i vy ně -- kam na o -- puš -- tě -- né mís -- to
+    a tro -- chu si od -- po -- čiň -- te.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne16b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     \key f \major
     d4 d d( a' bes) a( g) g a( bes c) bes a g g \barMax
     g g g f g f( d) d \barMaior
     d e f f( g) g \barMin g( a) g f( e) d e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl ve -- li -- ký zá -- stup
+    a by -- lo mu jich lí -- to,
+    pro -- to -- že by -- li ja -- ko ov -- ce bez pas -- tý -- ře.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne16b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka c4 d d( a' bes) a a a( bes c) bes a g g \barMin
+    g g g f g f( d) d \barMaior
+    d e f f( g) g \barMin g g f d e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl ve -- li -- ký zá -- stup
+    a by -- lo mu jich lí -- to,
+    pro -- to -- že by -- li ja -- ko ov -- ce bez pas -- tý -- ře.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne16b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    c4 d d( a' bes) a a a( bes c) bes a g g \barMin
+    g g g f g f( d) d \barMaior
+    \mark\sipka f f f f e d c d d e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl ve -- li -- ký zá -- stup
+    a by -- lo mu jich lí -- to,
+    pro -- to -- že by -- li ja -- ko ov -- ce bez pas -- tý -- ře.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne16b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    c4 d d( a' bes) a a a( bes c) bes a g g \barMin
+    g g g f g f( d) d \barMaior
+    f f f f e d c \mark\sipka f( g a) g f e d d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl ve -- li -- ký zá -- stup

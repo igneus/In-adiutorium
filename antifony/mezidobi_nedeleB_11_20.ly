@@ -353,11 +353,11 @@
 \markup {\nadpisDen {"16. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4 d e f f f g f e d e f d d \barMaior
-    d f f f f e d c( d) c \barMaior
-    c d e f d c d d \barFinalis
+    g4 a c d d d e e d c d e d d \barMaior
+    d c d c b a g a( g) g \barMin
+    f a c b a g( a) g g \barFinalis
   }
   \addlyrics {
     A -- po -- što -- lo -- vé se shro -- máž -- di -- li u Je -- ží -- še
@@ -366,8 +366,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "ne16b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -377,8 +377,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f) e f f( d) \barMin f f g f e d c c( d e) e \barMaior
-    e f f e d c c( d) d \barFinalis
+    d4( f) e f d( c) \barMin d d f f f e d d( e) e \barMaior
+    e f g f e d e d \barFinalis
   }
   \addlyrics {
     Pojď -- te i vy ně -- kam na o -- puš -- tě -- né mís -- to
@@ -398,9 +398,9 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d d( a' bes) a( g) g a( bes c) bes a g g \barMax
+    c4 d d( a' bes) a a a( bes c) bes a g g \barMin
     g g g f g f( d) d \barMaior
-    d e f f( g) g \barMin g( a) g f( e) d e f d d \barFinalis
+    f f f f e d c f( g a) g f e d d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl ve -- li -- ký zá -- stup
