@@ -59,6 +59,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
+    placet = "2 dlouhá melismata na _spatřit_ a _nevím_ jsou jaksi navíc"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
@@ -86,6 +87,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 149"
+    placet = "2 aleluja úplně nesedí"
     id = "rch-a3"
     piece = \markup\sestavTitulek
   }
@@ -132,8 +134,8 @@
     \choralniRezim
     g4 f e d( a') bes( a) a \barMaior
     g( a bes) a( g) g \barMin g g f g a g f( e) d( c) c \barMaior
-    d d f e d( c) c \barMin
-    d f e c( d) d \barFinalis
+    d d c d d( f) f \barMin
+    g f e c( d) d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš vstal z_mrt -- vých,_*
@@ -178,7 +180,7 @@
   \relative c' {
     \choralniRezim
     f4 e d f g a a \barMaior
-    a g f e c e f d d \barFinalis
+    g a g f d e f d d \barFinalis
   }
   \addlyrics {
     Od -- nes -- li mé -- ho Pá -- na_*
@@ -223,10 +225,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a g c( d) d \barMin
+    c4 b a c( d) d
     d c d d d c d c c \barMaior
-    d c a c b( a) g \barMin
-    f g a4. g \barFinalis
+    d e d c b( c g4.) g \barMin
+    a4 g f( g) g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e při -- šla_*
