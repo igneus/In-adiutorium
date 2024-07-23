@@ -429,9 +429,9 @@
   \relative c' {
     \choralniRezim
     f4 e f d d \barMaior
-    c d d d c( a) c( d) d d e f d c \barMin
+    f g a g f g f e f d c c \barMin
     d e f g a g f( g) \barMaior
-    d d d e d c( d) d \barFinalis
+    f d d f e c( d) d \barFinalis
   }
   \addlyrics {
     A -- men, pra -- vím vám:
@@ -445,7 +445,6 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
-    placet = "spíš lépe"
     id = "ne26a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
