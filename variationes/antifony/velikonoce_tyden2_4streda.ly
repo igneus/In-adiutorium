@@ -1248,4 +1248,56 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c e d \barMin
+    c d c b a g \barMaior
+    a f( g) g( a) a \barMin
+    a a c c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať tě, Bo -- že,
+    ve -- le -- bí ná -- ro -- dy
+    a já -- sa -- jí,
+    že jim po -- sí -- láš spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 67"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d b d e d \barMin
+    c( b) a( g) g \barMaior
+    a f( g) g( a) a \barMin
+    c a b c a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať tě, Bo -- že, ve -- le -- bí
+    ná -- ro -- dy
+    a já -- sa -- jí,
+    že jim po -- sí -- láš spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 67"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \velikTIIstredaNespAntIII }

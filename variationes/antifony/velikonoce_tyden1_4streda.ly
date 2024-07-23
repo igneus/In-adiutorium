@@ -142,8 +142,31 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 g a g f g g \barMin
+    g f g a( bes) a a
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    U te -- be, Hos -- po -- di -- ne,
+    je pra -- men ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 36"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 g f g a g g \barMin
     g f g a( bes) a a
     g a g( f) f \barFinalis
   }
