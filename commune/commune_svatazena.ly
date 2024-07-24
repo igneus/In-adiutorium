@@ -371,13 +371,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c d c e( d) d \barMaior
-    e d c d a a \barMin
-    c( b) a( g) g \barFinalis
+    f4 g a f g g \barMaior
+    a a g f d d \barMin
+    f( g) g( f) f \barFinalis
 
-    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    g^\markup\rubrVelikAleluja a( g) f f \barFinalis
   }
   \addlyrics {
     Bůh jí dá -- val sí -- lu;
@@ -388,8 +388,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -400,9 +400,9 @@
   \relative c'' {
     \choralniRezim
     g4 g a c c a c c b \barMaior
-    a c b a g g \barMin f g a g \barFinalis
+    a a b a g g \barMin f g a g \barFinalis
 
-    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Bu -- du se já -- sa -- vě ve -- se -- lit
