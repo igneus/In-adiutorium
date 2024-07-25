@@ -215,6 +215,35 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d c c \barMin
+    c4 d c b c a( g) g \barMaior
+    a f( g) g( a) a
+    a a( c) b g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,
+    o -- sla -- vuj Hos -- po -- di -- na:
+    on po -- žeh -- nal
+    tvým sy -- nům v_to -- bě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    fial = "antifony/tyden2_6patek.ly#rch-ant3?cast=2"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
