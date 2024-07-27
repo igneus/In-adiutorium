@@ -21,12 +21,12 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f g f g a a( g) \barMax
+    f4 f f f f f f f g f g( a) g g \barMax
     g g( a) g( f d) d f( g) f \barFinalis
     % V
     \neviditelna a
-    a4( bes) a a \barMin a a a a a g( a) g \barMaior
-    g g g g g a g f g a a( g) \barMax
+    a4( bes) a a \barMin a g f g a a( g) g \barMaior
+    g g g g g a g f g g g( a) \barMax
     % R
     \neviditelna a
     g g( a) g( f d) d f( g) f \barFinalis
@@ -56,8 +56,8 @@
     a-- g f d( c) c \barMaior
     d( f) f( g) g \barMin
     a g f g a a( g) g \barMaior
-    a a g f e f d d \barMin
-    c( f e) c( d) d \barFinalis
+    a a g f e f d c
+    c d d \barFinalis
   }
   \addlyrics {
     Po -- chvá -- len buď Hos -- po -- din,
@@ -115,7 +115,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    c4 d d( a' bes) a( g a) g \barMin
+    e4 c d d( a' bes) a \barMin
     a( bes c) c bes a g f g( a bes) g( f) f( g) \barMaior
     g a g f( g) f e d( c) \barMin
     d d f e c e f d d \barFinalis
