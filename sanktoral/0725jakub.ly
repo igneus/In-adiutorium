@@ -42,10 +42,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f e d d \barMin
-    f g a f f g g \barMaior
-    a b c d c a a \barMin
-    c a c b a( g) g \barFinalis
+    \key f \major
+    a4 a g a g g \barMin
+    f g bes a g a a \barMaior
+    a a g f e( f) d( c) c \barMin
+    d f e f d d \barFinalis
   }
   \addlyrics {
     O -- ni za -- ne -- cha -- li
@@ -55,9 +56,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "I"
+    differentia = "a"
     psalmus = "Dan 3-III"
+    fial = "commune/commune_apostol.ly#1ne-a2?cast=3-4"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -79,6 +81,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 149"
+    placet = "2 melisma na _křest_ není úplně to pravé"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -186,8 +189,8 @@
     \choralniRezim
     d4 d d d d d c d d( f) f( e) e \barMaior
     d d d f e c a a \barMax
-    d c d d d f e d e f( g) g \barMaior
-    g( a) f e( f) d c c( d) \barFinalis
+    d c d d d f f e d f( g) g \barMaior
+    a f e( f) d c d \barFinalis
   }
   \addlyrics {
     Kdo by chtěl být me -- zi vá -- mi ve -- li -- ký,

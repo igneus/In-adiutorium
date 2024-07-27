@@ -1855,6 +1855,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 a a g f g( a) a \barMin c b a b g g \barMaior
+    a c c( d) d \barMin e e d c d( e d) d \barMaior
+    d \mark\sipka d c b a g a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal s_se -- bou Pet -- ra,_* Ja -- ku -- ba a Ja -- na,
+    vy -- ve -- dl je na vy -- so -- kou ho -- ru
+    a u -- ká -- zal se jim ve slá -- vě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

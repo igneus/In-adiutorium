@@ -40,9 +40,9 @@
   \relative c'' {
     \choralniRezim
     a a g f e( f) d( c) c \barMin
-    d f e c d d \barFinalis
+    d f e f d d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     O -- pus -- ti -- li své sí -- tě

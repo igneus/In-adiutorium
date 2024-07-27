@@ -304,7 +304,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a a g f e( f) d( c) c \barMin
     d f e c d d \barFinalis
@@ -334,6 +334,31 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     d f e \mark\sipka f d d \barFinalis
 
     e^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- pus -- ti -- li své sí -- tě
+    a šli za Je -- ží -- šem.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a a g f e( f) d( c) c \barMin
+    d f e f d d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     O -- pus -- ti -- li své sí -- tě
@@ -3383,6 +3408,43 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
     % Slava
     d4( a' bes) a \mark\sipka g( a) g f f( g) g \barMin g f g a( bes) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vuj -- te
+    me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých či -- nech,_*
+    o -- sla -- vuj -- te je -- ho jmé -- no.
+    \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
+    \Response o -- sla -- vuj -- te je -- ho jmé -- no.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    % R
+    \neviditelna d
+    d4( a' bes) a( g) g( a) a \barMin
+    g a a( bes a) g a g g \barMaior
+    f g a bes a g a( bes a) a \barMax
+    a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
+    % V
+    \neviditelna a
+    d( a' bes) a( g) g( a) a \barMin g f g g bes a( bes a) a \barMax
+    % R
+    \neviditelna a
+    a( c d) a( g) g( d) d \barMin d( f) e d d \barFinalis
+    % Slava
+    d4( a' bes) a g( a) g f f( g) g \barMin g f g \mark\sipka g( bes) a a \barFinalis
   }
   \addlyrics {
     \Response Vy -- pra -- vuj -- te

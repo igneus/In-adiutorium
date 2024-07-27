@@ -603,8 +603,8 @@
     \choralniRezim
     d4 d d d d d c d d( f) f( e) e \barMaior
     d d d f e c a a \barMax
-    d c d d d f e d e f( g) g \barMaior
-    g( a) f e( f) d c c( d) \barFinalis
+    d c d d d f f e d f( g) g \barMaior
+    a f e( f) d c d \barFinalis
   }
   \addlyrics {
     Kdo by chtěl být me -- zi vá -- mi ve -- li -- ký,
