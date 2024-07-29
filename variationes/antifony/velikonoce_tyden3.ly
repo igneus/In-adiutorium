@@ -1463,6 +1463,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c \mark\sipka c d b c a g g \barMin
+    f g a a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka c4 a c d c e c d d \barMin
     c c b g
     a g f( g) g \barFinalis
@@ -1581,6 +1603,28 @@
     f4 f e d c f g a g \barMin
     g a bes a
     g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f a f g g \barMin
+    a a g f
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din se -- slal vy -- kou -- pe -- ní
