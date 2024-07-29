@@ -19,9 +19,9 @@
     f4 g g a g g \barMaior
     g( a bes a) g( f) f \barMin
     g f e d( c) c \barMaior
-    d( f g a) g( f) f( g) \barMin
-    a bes a g f e( d) \barMaior
-    c d f f g( a f) e d d \barFinalis
+    c( d) d( f) f \barMin
+    g a g f g g( f) \barMaior
+    f e d c e f d d \barFinalis
   }
   \addlyrics {
     Od -- vá -- ži -- li jsme se
@@ -62,6 +62,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 _každý z nich_ je těžkopádné"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
