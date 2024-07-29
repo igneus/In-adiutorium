@@ -423,11 +423,11 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 c d d( a') g f g( a) a \barMaior
-    a g a a \barMin a a a a( bes) a g g( a g) f g g \barMaior
-    g g f e d d \barMax
-    d d( a' bes) a g a g( f) f \barMin
-    f f f f g f e( f) d d \barFinalis
+    d4 c d d( a') g f f( g) g \barMaior
+    g a( bes) a a \barMin a g f g( a) g g f( g f) e d d \barMin
+    e c e f d d \barMax
+    f g a g f g( f d) d \barMin
+    f f f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš po -- zdvi -- hl o -- či
@@ -450,8 +450,8 @@
   \relative c' {
     \choralniRezim
     f4 f g g( a) a \barMin
-    g( f) g( a g) g \barMin
-    g a g f d f( g) g f \barFinalis
+    g( f) g( a g4.) g4 \barMaior
+    g a a g f g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal chle -- by,
@@ -471,10 +471,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a g f g a a \barMin
-    a a g f g f e d( e) d d \barMaior
-    a' g bes a g g( a) a \barMin
-    a g f g( a f) e d d \barFinalis
+    f4 f f g a f f g g \barMin
+    a a g f e f d e( f) d d \barMaior
+    a' g bes a g f( g) g \barMin
+    g f g g( a f) e d d \barFinalis
   }
   \addlyrics {
     Když li -- dé vi -- dě -- li zna -- me -- ní,

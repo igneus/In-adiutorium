@@ -1422,6 +1422,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    f g a a g g \barMaior
+    g a g f g f d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vzal chle -- by
+    a po dí -- ků -- vzdá -- ní
+    je roz -- dá -- val pří -- tom -- ným.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne17b-rch-ben?zacatek=6"
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
