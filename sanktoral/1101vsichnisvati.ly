@@ -102,7 +102,7 @@
     a g( f d) d f g g f \barFinalis
     % V
     \neviditelna a
-    a4 a g( a) g \barMin g f g g a a( g) \barMax
+    a4 a a-- g \barMin g f g g a a( g) \barMax
     % R
     \neviditelna a
     a g( f d) d f g g f \barFinalis

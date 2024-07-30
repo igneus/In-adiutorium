@@ -278,7 +278,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -309,8 +309,12 @@
   }
 }
 
+\markup{
+  (Dílčí návrat k původní verzi)
+}
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
