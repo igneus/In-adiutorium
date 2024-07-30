@@ -1,17 +1,10 @@
 \version "2.19.16"
 
-\include "../spolecne.ly"
-\include "../spolecne/hymnar.ly"
-
-% revert global settings from spolecne/choral.ly
-\layout {
-  \context {
-    \Staff
-
-    \remove Custos_engraver
-    \revert Clef.break-visibility
-  }
-}
+\include "../../spolecne/layout.ly"
+\include "../../spolecne/tiraz.ly"
+\include "../../spolecne/nadpisy.ly"
+\include "../../spolecne/choral.ly"
+\include "../../spolecne/hymnar.ly"
 
 \header {
   title = "Sv. Marty, Marie a Lazara"
@@ -19,10 +12,8 @@
   tagline = ""
 }
 
-\markup\fill-line\large{
-  ""
-  "I. Nápěvy z červeného hymnáře"
-  ""
+\markup{
+  (Nápěvy jsou vybrané z červeného hymnáře.)
 }
 
 \score {
@@ -47,6 +38,37 @@
     id = "mc"
     piece = "modlitba se čtením"
   }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f( e) g f( d) e g f \barMin
+    f d e f e( f) d e d \barMaior
+    d f f( e) g a( g) e g f \barMin
+    f d e f e( f) d c d \barFinalis
+  }
+  \addlyrics {
+    Vděč -- ně tě, Mar -- to, chvá -- lit chcem,
+    s_Ma -- ri -- í, s_brat -- rem La -- za -- rem;
+    tys to -- tiž moh -- la čas -- to -- krát
+    Kris -- ta v_svém do -- mě při -- ví -- tat.
+  }
+  \header {
+    quid = "hymnus"
+    fons_externus = "AR1912 [66]"
+    modus = "II"
+    id = "mc-ch"
+    piece = "modlitba se čtením"
+  }
+}
+
+\pageBreak
+
+\markup\justify{
+  Mimochodem, v latinských textech (přinejmenším v těch uveřejněných v Notitiae 2021 -
+  ty vyvěšené původně jako samostatný dokument na webu kongregace už nejsou dostupné)
+  je tenhle hymnus jenom k RCH, k nešporám se bere ten z MČ.
 }
 
 \score {
@@ -75,37 +97,10 @@
   }
 }
 
-\pageBreak
-\markup\fill-line\large{
-  ""
-  "II. Chorální nápěvy"
-  ""
+\markup\justify{
+  Nápěvy na \italic{Iste confessor} v AR1912 jsem prošel všechny,
+  žádný jiný se mi nezdá tolerovatelný.
 }
-
-\score {
-  \relative c' {
-    \choralniRezim
-    d4 f f( e) g f( d) e g f \barMin
-    f d e f e( f) d e d \barMaior
-    d f f( e) g a( g) e g f \barMin
-    f d e f e( f) d c d \barFinalis
-  }
-  \addlyrics {
-    Vděč -- ně tě, Mar -- to, chvá -- lit chcem,
-    s_Ma -- ri -- í, s_brat -- rem La -- za -- rem;
-    tys to -- tiž moh -- la čas -- to -- krát
-    Kris -- ta v_svém do -- mě při -- ví -- tat.
-  }
-  \header {
-    quid = "hymnus"
-    fons_externus = "AR1912 [66]"
-    modus = "II"
-    id = "mc-ch"
-    titulus = "modlitba se čtením"
-    piece = \markup\sestavTitulekRespII
-  }
-}
-
 \score {
   \relative c'' {
     \choralniRezim
@@ -125,8 +120,7 @@
     fons_externus = "AR1912 [37]"
     modus = "VIII"
     id = "rch-ch"
-    titulus = "ranní chvály a nešpory"
-    piece = \markup\sestavTitulekRespII
+    piece = "ranní chvály a nešpory"
   }
   \layout {
     ragged-last = ##t
