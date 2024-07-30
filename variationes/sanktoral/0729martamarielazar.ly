@@ -273,6 +273,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d c) c \barMin
+    d e d c d c a a \barMaior
+    c c c b g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš měl rád Mar -- tu
+    a je -- jí ses -- tru Ma -- ri -- i
+    i je -- jich brat -- ra La -- za -- ra.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{Z někdejší památky sv. Marty}
