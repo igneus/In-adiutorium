@@ -204,6 +204,30 @@ describe Updater do
       expect(result.header.slice(*keys)).to eq source.header.slice(*keys)
     end
 
+    it 'is cool about modus or differentia possibly missing' do
+      source_without_headers = Lyv::LilyPondScore.new <<~'EOS'
+      \score {
+        \relative c' {
+          f4 f f e c d \barFinalis
+        }
+        \addlyrics {
+          sae -- cu -- lo -- rum. A -- men.
+        }
+        \header {
+          % modus and differentia missing
+          some = "value"
+          piece = \markup\sestavTitulekBezZalmu
+        }
+      }
+      EOS
+
+      result = @updater.update_copy copy, source_without_headers
+
+      # if source doesn't have the headers, they are set to empty
+      # strings in the copy (deleting headers is undesirable)
+      expect(result.header).to be > {'modus' => '', 'differentia' => ''}
+    end
+
     it 'does not touch other header fields' do
       result = @updater.update_copy copy, source
       keys = %w(quid psalmus some piece)

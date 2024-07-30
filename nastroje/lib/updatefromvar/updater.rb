@@ -167,7 +167,7 @@ class Updater
         .sub(/\A\s*/, '') # don't indent the first line
     )
     %w(modus differentia).each do |key|
-      src.sub!(/(?<=#{key} = ")(.*?)(?=")/, source.header[key])
+      src.sub!(/(?<=#{key} = ")(.*?)(?=")/, source.header[key] || '')
     end
 
     Lyv::LilyPondScore.new(src)
