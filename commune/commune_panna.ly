@@ -415,11 +415,11 @@
     g4 a a( c) c \barMin
     d( e) d c d d \barMaior
     e d c d c a a \barMin
-    c c c c e c c d d \barMin
-    c d c b g a( g) g \barMaior
-    f( g) a( c) b c a( g) g \barFinalis
+    g a c c d e e d d \barMin
+    d c b a g a( g) g \barMaior
+    a c b c a( g) g \barFinalis
 
-    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Sva -- té pan -- ny,
@@ -436,7 +436,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "3 od _abyste_ dál spíš lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }

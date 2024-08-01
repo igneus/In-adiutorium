@@ -1918,7 +1918,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) c \barMin
     d( e) d c d d \barMaior
@@ -1928,6 +1928,71 @@
     f( g) a( c) b \mark\sipka c a( g) g \barFinalis
 
     a^\markup\rubrVelikAleluja \mark\sipka g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- té pan -- ny,
+    ve -- leb -- te Pá -- na;
+    ten, kte -- rý vás po -- vo -- lal,
+    a -- by -- ste ho ná -- sle -- do -- va -- ly
+    s_ne -- roz -- dě -- le -- ným srd -- cem,
+    při -- ve -- dl vás k_so -- bě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d( e) d c d d \barMaior
+    e d c d c a a \barMin
+    c c c c e c c d d \barMin
+    d c b a g a( g) g \barMaior
+    \mark\sipka f g a f g( a g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- té pan -- ny,
+    ve -- leb -- te Pá -- na;
+    ten, kte -- rý vás po -- vo -- lal,
+    a -- by -- ste ho ná -- sle -- do -- va -- ly
+    s_ne -- roz -- dě -- le -- ným srd -- cem,
+    při -- ve -- dl vás k_so -- bě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d( e) d c d d \barMaior
+    e d c d c a a \barMin
+    \mark\sipka g a c c d e e d d \barMin
+    d c b a g a( g) g \barMaior
+    \mark\sipka a c b c a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Sva -- té pan -- ny,
