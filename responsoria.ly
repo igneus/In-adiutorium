@@ -2,7 +2,7 @@
 
 \header {
   title = "Responsoria ze žaltáře"
-  % composer = "Jakub Pavlík"
+  composer = "Jakub Pavlík"
 }
 
 \include "spolecne.ly"
