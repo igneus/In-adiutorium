@@ -2719,7 +2719,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacSedy
+    \zvyraznovacModry
     \choralniRezim
     d4 d f e f \mark\sipka f( g) g( f) f \barMin
     g f e( f) d( c) c \barMin
