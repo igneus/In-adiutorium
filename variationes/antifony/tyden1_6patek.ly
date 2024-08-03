@@ -841,8 +841,49 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "g"
+    differentia = "g3"
     psalmus = "Žalm 100"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4( g a) g \barMin
+    g f g a bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te
+    před Hos -- po -- di -- na s_já -- so -- tem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 100"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g) f( g) \barMin
+    g f g f e c d d \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te
+    před Hos -- po -- di -- na s_já -- so -- tem.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 100"
+    placet = "tady nápěv protiřečí textu"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }

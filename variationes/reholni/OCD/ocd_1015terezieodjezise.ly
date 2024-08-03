@@ -434,6 +434,10 @@
 
 \pageBreak
 
+\markup\justify{
+  Srov. \fial-link "commune/commune_ucitel.ly#2ne-resp"
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1717,6 +1721,51 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 e f d d \mark\sipka \barMin e c c( d) d \barMaior
+    d c b \mark\sipka a( b) g g \barMin
+    a f a g \barFinalis
+  }
+  \addlyrics {
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin e c c( d) d \barMaior
+    d c b a( g) a g \barMin
+    f a a g \barFinalis
+  }
+  \addlyrics {
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     d4 c b a( g) g a( b) a g g \barMaior
     a c c d( e) d c( b a) \barMin
@@ -1762,6 +1811,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 c a b c a a g g \barMaior
+  }
+  \addlyrics {
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 a c d c d( e) d c c \barMaior
     d c b a( g) a g \barMin
     a f a g \barFinalis
@@ -1774,6 +1843,28 @@
   \header {
     quid = "2. ant."
     modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b g b c a a g g \barMaior
+    a g f g( a) a a \barMin
+    c b a g \barFinalis
+  }
+  \addlyrics {
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 127"
     id = "2ne-a2"
