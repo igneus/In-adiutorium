@@ -84,17 +84,16 @@
 \score {
   \relative c' {
     \choralniRezim
-
     % R
     \neviditelna f
-    f4 f f g( f) g( a) a( g) \barMax
-    g g( a) g g \barMin g g g f d f( g) g f \barFinalis
+    f4 f f g( f) g g( a) \barMax
+    f g( a) g g \barMin g g g f d f( g) g f \barFinalis
     % V
     \neviditelna a
     a a a a a( bes) a a g( a) g \barMin g g g g f g( a) a( g) \barMax
     % R
     \neviditelna g
-    g g( a) g g \barMin g g g f d f( g) g f \barFinalis
+    f g( a) g g \barMin g g g f d f( g) g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
