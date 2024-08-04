@@ -836,7 +836,7 @@
       differentia = ""
       psalmus = ""
       id = "tedeum"
-      fons_externus = "volně podle Mešní zpěvy, s. 995nn"
+      fons_externus = "volně podle AR1912 57*"
       piece = \markup {\sestavTitulekBezZalmu}
     }
   }
