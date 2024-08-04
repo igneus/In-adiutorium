@@ -624,12 +624,12 @@
   \relative c' {
     \choralniRezim
     d4 d f e f f( g) g( f) f \barMin
-    g f e( f) d( c) c \barMin
-    d c d f e c c( d) d \barMaior
+    g f d( e) d d( c) \barMin
+    d e f e f d c( d) d \barMaior
     a c d d \barMin
-    g f( e) d \barMaior
-    d f4.( d) \barMin
-    c4 d e( d) d \barFinalis
+    c e( d) d \barMaior
+    f g
+    f e d d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl v_cel -- ni -- ci
@@ -646,8 +646,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
-    fial = "sanktoral/0921matous.ly#aben?zacatek=13&konec=17"
-    placet = "stejný rytmický útvar na konci prvních dvou dílů není moc elegantní"
+    fial = "sanktoral/0921matous.ly#aben?zacatek=13&konec=11"
     id = "ne10a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

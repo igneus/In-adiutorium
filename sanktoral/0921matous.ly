@@ -18,9 +18,9 @@
     d4 d f e f f( g) g( f) f \barMin
     g f e d( e) d d \barMaior
     a c( d) d \barMin
-    g f( e) d \barMaior
-    d f4.( d) \barMin
-    c4 d e( d) d \barFinalis
+    c e( d) d \barMaior
+    f g
+    f e d d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl Ma -- tou -- še,

@@ -2719,7 +2719,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e f \mark\sipka f( g) g( f) f \barMin
     g f e( f) d( c) c \barMin
@@ -2745,6 +2745,7 @@
     psalmus = ""
     annus = "A"
     fial = "sanktoral/0921matous.ly#aben?zacatek=13&konec=17"
+    placet = "stejný rytmický útvar na konci prvních dvou dílů není moc elegantní"
     id = "ne10a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2777,6 +2778,41 @@
     psalmus = ""
     annus = "A"
     fial = "sanktoral/0921matous.ly#aben?konec=17"
+    id = "ne10a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e f f( g) g( f) f \barMin
+    g f \mark\sipka d( e) d d( c) \barMin
+    d e f e f d c( d) d \barMaior
+    a c d d \barMin
+    c \mark\sipka e( d) d \barMaior
+    f g
+    f e d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl v_cel -- ni -- ci
+    se -- dět člo -- vě -- ka,
+    kte -- rý se jme -- no -- val Ma -- touš,
+    a ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/0921matous.ly#aben?zacatek=13&konec=11"
     id = "ne10a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

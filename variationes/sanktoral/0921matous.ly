@@ -59,7 +59,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e f f( g) g( f) f \barMin
     g f e d( e) d d \barMaior
@@ -95,6 +95,147 @@
     g f( e) d \barMaior
     d f4.( d) \barMin
     \mark\sipka g4 g f( e) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    \mark\sipka c e( f d) d \barMaior
+    d f
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    c e( f d) d \barMaior
+    \mark\sipka f g
+    f e d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e f f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    c \mark\sipka e( d) d \barMaior
+    f g
+    f e d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    c e( d) d \barMaior
+    f g \mark\sipka \barMin
+    f e d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    c e( d) d \barMaior
+    f g
+    f e \mark\sipka f d \barFinalis
   }
   \addlyrics {
     Je -- žíš u -- vi -- děl Ma -- tou -- še,
