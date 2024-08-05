@@ -2798,11 +2798,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) a a a( b) a a( g) g \barMax
     g( a g) g4.( c) a4( g) g( e) e \barMaior
     e \mark\sipka f( g a) g f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Chléb z_ne -- be vám ne -- dal Moj -- žíš,
+    pra -- vý chléb z_ne -- be vám dá -- vá můj O -- tec.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    placet = "závěr nesedí (a není to jen tím, že mám v paměti stále zažraný ten původní)"
+    id = "ne18b-rch-ben"
+    fial = "antifony/velikonoce_tyden3.ly#ut-aben?-aleluja&upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a a a( b) a a( g) g \barMax
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
+    e \mark\sipka f d g f( e) e \barFinalis
   }
   \addlyrics {
     Chléb z_ne -- be vám ne -- dal Moj -- žíš,
@@ -2819,10 +2842,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) a a a( b) a a( g) g \barMax
+    g( a g) g4.( c) a4( g) g( e) e \barMaior
+    e \mark\sipka f g f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Chléb z_ne -- be vám ne -- dal Moj -- žíš,
+    pra -- vý chléb z_ne -- be vám dá -- vá můj O -- tec.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne18b-rch-ben"
+    fial = "antifony/velikonoce_tyden3.ly#ut-aben?zacatek=22"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g( f e) e( f) d d \barMax
     d c( d f) f( g) f g( a) a \barMin
@@ -2841,6 +2888,89 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    id = "ne18b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Začátek je jasný modus VII, ale pak melodie z modu vypadne
+  a nenašel jsem přesvědčivé řešení, jak ji do něj vrátit.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a( b) g g \barMaior
+    g a g f g( a) a \barMin
+    c c c d c d( e) d d \barMaior
+    e d c d c( a) a \barMin
+    c b g b c a a \barFinalis
+  }
+  \addlyrics {
+    Já jsem chléb ži -- vo -- ta.
+    Kdo při -- chá -- zí ke mně,
+    ne -- bu -- de ni -- kdy hla -- do -- vět,
+    a kdo vě -- ří ve mne,
+    ne -- bu -- de ni -- kdy žíz -- nit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "ne18b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a( b) g g \barMaior
+    g a g f g( a) a \barMin
+    c c c d c d( e) d d \barMaior
+    e d c d c( a) a \barMin
+    \mark\sipka g a a c b a a \barFinalis
+  }
+  \addlyrics {
+    Já jsem chléb ži -- vo -- ta.
+    Kdo při -- chá -- zí ke mně,
+    ne -- bu -- de ni -- kdy hla -- do -- vět,
+    a kdo vě -- ří ve mne,
+    ne -- bu -- de ni -- kdy žíz -- nit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "ne18b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c b a( b) g g \barMaior
+    g a g f g( a) a \barMin
+    c \mark\sipka b a c d e d d \barMaior
+    e d c d c( a) a \barMin
+    g a a c b a a \barFinalis
+  }
+  \addlyrics {
+    Já jsem chléb ži -- vo -- ta.
+    Kdo při -- chá -- zí ke mně,
+    ne -- bu -- de ni -- kdy hla -- do -- vět,
+    a kdo vě -- ří ve mne,
+    ne -- bu -- de ni -- kdy žíz -- nit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     id = "ne18b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}

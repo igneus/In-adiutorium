@@ -523,7 +523,7 @@
     \choralniRezim
     g4 g( a) a a a( b) a a( g) g \barMax
     g( a g) g4.( c) a4( g) g( e) e \barMaior
-    e f( g a) g f( g) e e \barFinalis
+    e f g f( e) d( e) e \barFinalis
   }
   \addlyrics {
     Chléb z_ne -- be vám ne -- dal Moj -- žíš,
@@ -534,21 +534,20 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "závěr nesedí (a není to jen tím, že mám v paměti stále zažraný ten původní)"
     id = "ne18b-rch-ben"
-    fial = "antifony/velikonoce_tyden3.ly#ut-aben?zacatek"
+    fial = "antifony/velikonoce_tyden3.ly#ut-aben?zacatek=22"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f g( f e) e( f) d d \barMax
-    d c( d f) f( g) f g( a) a \barMin
-    a g f g a g f f( d) \barMaior
-    d c d( f g) a g( f) f( g) \barMin
-    g g f g( a g) f d( e d) d \barFinalis
+    d4 c b a( b) g g \barMaior
+    g a g f g( a) a \barMin
+    c b a c d e d d \barMaior
+    e d c d c( a) a \barMin
+    g a a c b a a \barFinalis
   }
   \addlyrics {
     Já jsem chléb ži -- vo -- ta.
@@ -559,8 +558,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     id = "ne18b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
