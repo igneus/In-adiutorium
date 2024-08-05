@@ -108,7 +108,7 @@
     % R
     \neviditelna f
     f4 f f f f f f( g) f f \barMin
-    g f f f f g( a) a( g) \barMax
+    f f f g f g( a) a( g) \barMax
     f g( a) g g \bar "" f4( d) f g g f \barFinalis
     % V
     \neviditelna a
