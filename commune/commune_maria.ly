@@ -756,7 +756,7 @@
     % V
     \neviditelna a
     a4 a g( a) g \barMin g f g a g g \barMaior
-    g f g g g g g f g a a \barMax
+    g a g g g g g f g a a \barMax
     % R
     \neviditelna a
     f( g) g( f) f \barFinalis

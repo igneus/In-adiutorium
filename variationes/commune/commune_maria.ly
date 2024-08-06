@@ -4310,7 +4310,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -4332,6 +4332,41 @@ je "\"skororepetice\"" melodie 2 v 4.}
     Pán s_te -- bou!
     \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
     a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!
+    \Response Pán s_te -- bou!
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f \barMin g f f g( a) a( g) \barMax
+    f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g f g a g g \barMaior
+    g \mark\sipka a g g g g g f g a a \barMax
+    % R
+    \neviditelna a
+    f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Buď zdrá -- va, Ma -- ri -- a, mi -- los -- ti -- pl -- ná!_*
+    Pán s_te -- bou!
+    \Verse Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný plod ži -- vo -- ta tvé -- ho!_*
     \Response Pán s_te -- bou!
     \textRespDoxologie
   }
