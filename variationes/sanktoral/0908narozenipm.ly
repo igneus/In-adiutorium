@@ -1519,6 +1519,32 @@
     c4 b a g c( d) e d \barMaior
     f e d e d \barMin
     d e e d c b c a g g \barMaior
+    a a g f g( a) a \barMin
+    \mark\sipka g f a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    mi -- los -- ti -- pl -- ná
+    a po -- žeh -- na -- ná me -- zi že -- na -- mi,
+    při -- mlou -- vej se za nás
+    u své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g c( d) e d \barMaior
+    f e d e d \barMin
+    d e e d c b c a g g \barMaior
     a a \mark\sipka c b a( g) g \barMin
     a f a g g \barFinalis
   }

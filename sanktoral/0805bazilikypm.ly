@@ -15,12 +15,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a c b g( a) g g \barMin
-    g f g a a \barMaior
-    c( d) c( b) a a \barMin
-    a c b a g g \barMaior
-    g f g g( a) a \barMin
-    a a c b g g \barFinalis
+    c4 b a g c( d) e d \barMin
+    f e c d d \barMaior
+    e e d( e) d \barMin
+    d c b a g g \barMaior
+    a c c c b
+    g g f a g g \barFinalis
   }
   \addlyrics {
     Sva -- tá Bo -- ží Ro -- dič -- ko,
@@ -32,9 +32,10 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
+    modus = "VII"
     differentia = "c"
     psalmus = ""
+    fial = "sanktoral/0908narozenipm.ly#ne-a3?zacatek=8"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

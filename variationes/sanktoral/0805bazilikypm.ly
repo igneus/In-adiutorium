@@ -197,7 +197,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a c b g( a) g g \barMin
     g f g a a \barMaior
@@ -305,6 +305,97 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny 5
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g c( d) e d \barMin
+    f e c d d \barMaior
+    e e d( e) d \barMin
+    d c b a g g \barMaior
+    a f g g( a) a \barMin
+    a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Pan -- no Ma -- ri -- a,
+    po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný
+    plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "sanktoral/0908narozenipm.ly#ne-a3?zacatek=8"
+    placet = "stejný rytmický vzorec _požehnaná_ / _požehnaný_ není moc pěkný"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b a g c( d) e d \barMin
+    f e c d d \barMaior
+    e e d( e) d \barMin
+    d c b a g g \barMaior
+    a \mark\sipka c c c b
+    g g f a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Pan -- no Ma -- ri -- a,
+    po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný
+    plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "sanktoral/0908narozenipm.ly#ne-a3?zacatek=8"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g c( d) e d \barMin
+    f e \mark\sipka d e d \barMaior
+    e d c d4. d4
+    c b a g g \barMaior
+    a f g g( a) a \barMin
+    \mark\sipka c c c b g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    Pan -- no Ma -- ri -- a,
+    po -- žeh -- na -- ná jsi
+    me -- zi že -- na -- mi
+    a po -- žeh -- na -- ný
+    plod ži -- vo -- ta tvé -- ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "sanktoral/0908narozenipm.ly#ne-a3?zacatek=8"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
