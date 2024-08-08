@@ -32,6 +32,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 117"
+    placet = "4 lépe"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -73,7 +74,7 @@
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f f( g) f f f f f e d d \barMin f f e g a a \barMax
+    f4 f f f f f f f f f f g f \barMin f f e g a a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -90,6 +91,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    fial = "sanktoral/0806promenenipane.ly#rch-resp?cast=1"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -118,6 +120,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "4 lépe"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -129,7 +132,7 @@
   \relative c'' {
     \choralniRezim
     c4( d) d \barMin f d d g f e d d \barMaior
-    c b g a( g f g) g4 \barFinalis
+    c b g a( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Je -- ží -- ši Kris -- tu;
@@ -171,10 +174,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e g( a b) b( c b) b \barMin
-    d( c) b a c4. b \barMaior
+    e4 e g( a b) b( c b4.) b \barMin
+    d4( c) b a c4. b \barMaior
     g4 a( b) b \barMin
-    c a g f g( a) g f( g f e) e \barFinalis
+    c a g f g( a) g f( e) e \barFinalis
   }
   \addlyrics {
     Svět -- lo vy -- chá -- zí
@@ -218,11 +221,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a a( c) c \barMin d c b a g a a( g) \barMaior
+    a4 g a a( c) c \barMin d d c b g a a( g) \barMaior
     a4( d) a a( g) a a( g) g \barMin
     f g( a) g f e e \barMax
 
-    e4 e e g( a) g( a) a \barMin b( c) b a g a a( c) c \barMaior
+    a a a g( f) g( a) a \barMin b( c) b a g a a( c) c \barMaior
     c( d c a) a \barMin g( a) g( f) e e \barFinalis
   }
   \addlyrics {
@@ -238,7 +241,7 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
-    fial = "sanktoral/0806promenenipane.ly#2ne-amag?zacatek=12&cast=3&konec=23&-aleluja"
+    fial = "sanktoral/0806promenenipane.ly#2ne-amag?zacatek=6&cast=3&konec=31&-aleluja"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -297,8 +300,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a \barMin a a g f g a a \barMaior
-    c d( c) a a \barMin b( c) a g a g g \barMaior
+    g4( a) a \barMin g a g f g a a \barMaior
+    a c( d) c( a) a \barMin b( c) a g a g g \barMaior
     g f g a b( c) a a \barMin
     a c c b a g( a) g g \barFinalis
   }
@@ -371,7 +374,7 @@
     differentia = "d"
     psalmus = ""
     fial = "vanoce_zjevenipane.ly#krtu-2ne-a1?konec&+aleluja"
-    placet = "bude vhodné mírně prořezat;
+    placet = "4 bude vhodné mírně prořezat;
     _v něm mám zalíbení_ jinak - těžko se to zpívá a nemá to žádnou zvláštní
     hodnotu, která by tu náročnost ospravedlňovala"
     id = "rch-aben"
@@ -384,8 +387,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c d( e) d c d( e) d d \barMin
-    d d c d d d c b a( g) g \barMaior
+    c4 c c d c d d( e) d d \barMin
+    d c d e d d c b a( g) g \barMaior
     a a a g( f) g( a) a \barMin
     c c b a g( a) g g \barFinalis
   }
@@ -409,9 +412,9 @@
   \relative c' {
     \choralniRezim
     d4 d( f) d c f g f( a) a \barMin
-    a b c a g g( a) \barMaior
-    c b c d( c a) a \barMin
-    a g f e f d c c d d \barFinalis
+    a g f g( a) g g \barMaior
+    a g f g( f d) d \barMin
+    f f f f e d c e( f) d d \barFinalis
   }
   \addlyrics {
     Náš spa -- si -- tel Je -- žíš Kris -- tus_*

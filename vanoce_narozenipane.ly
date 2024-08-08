@@ -1744,11 +1744,11 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4 e g( a b) b( c b) b \barMin
-      d( c) b a c4. b \barMaior
+      e4 e g( a b) b( c b4.) b \barMin
+      d4( c) b a c4. b \barMaior
       g4 a( b) b \barMin
-      c a g f g( a) g f( g f e) e \barMaior
-      f g f( e) e \barFinalis
+      c a g f g( a) g f( e) e \barMaior
+      f f( g) e e \barFinalis
     }
     \addlyrics {
       Svět -- lo vy -- chá -- zí
