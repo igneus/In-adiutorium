@@ -146,9 +146,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f e( f) d d f( g) a g g \barMaior
-    a b c a( g) f( g) g \barMin
-    g f e e( f) d c( d) d \barFinalis
+    a4 a a g f g( a) g g f e d( c) c \barMaior
+    f e d f( g) a( g) g \barMin
+    g a g f( e) d c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
@@ -162,7 +162,7 @@
     differentia = "a"
     psalmus = ""
     annus = "A"
-    placet = "půjde lépe"
+    fial = "sanktoral/0806promenenipane.ly#2ne-a3?cast=2"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
