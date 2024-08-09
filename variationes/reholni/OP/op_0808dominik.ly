@@ -282,7 +282,8 @@
   \addlyrics {
     Bla -- že -- ný Do -- mi -- nik po -- zdvi -- hl ru -- ce k_ne -- bi a pra -- vil:
     Ot -- če sva -- tý, ty víš, že jsem o -- chot -- ně a vy -- tr -- va -- le pl -- nil tvou vů -- li
-    a o -- chrá -- nil jsem a za -- cho -- val ty, kte -- ré jsi mi dal.
+    a o -- chrá -- nil jsem a za -- cho -- val
+    ty, kte -- ré jsi mi dal.
     Teď zas je do -- po -- rou -- čím to -- bě,
     za -- cho -- vej je a o -- chra -- ňuj.
   }
@@ -296,27 +297,67 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"invitatorium"}}
+
+\markup\justify{
+  (Dominikánský chorál invitatoria modu I zná, takže by to v rámci
+  řádového repertoáru nemuselo dráždit.
+  Tradiční invitatorium svátku sv. Dominika je sice jiného modu,
+  ale tenhle text není jeho překladem.)
+}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) d c f( g a) a \barMin
+    a( c) a g f g( a g) g \barMaior
+    a a a g f g g f( e) d( c) \barMin
+    d f f f g f e( f) d d \barFinalis
   }
   \addlyrics {
-    Pojď -- te se kla -- nět Pá -- nu a -- po -- što -- lů,
+    Pojď -- te se kla -- nět
+    Pá -- nu a -- po -- što -- lů,
     kte -- rý u -- či -- nil z_Do -- mi -- ni -- ka
     hla -- sa -- te -- le e -- van -- ge -- li -- a.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) d c f( g a) a \barMin
+    a( c) a g f g( a g) g \barMaior
+    a a \mark\sipka g f f g g f( e) d( c) \barMin
+    d f f f g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te se kla -- nět
+    Pá -- nu a -- po -- što -- lů,
+    kte -- rý u -- či -- nil z_Do -- mi -- ni -- ka
+    hla -- sa -- te -- le e -- van -- ge -- li -- a.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 

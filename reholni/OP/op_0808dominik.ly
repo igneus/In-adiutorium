@@ -172,17 +172,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) d c f( g a) a \barMin
+    a( c) a g f g( a g) g \barMaior
+    a a g f f g g f( e) d( c) \barMin
+    d f f f g f e( f) d d \barFinalis
   }
   \addlyrics {
-    Pojď -- te se kla -- nět Pá -- nu a -- po -- što -- lů,
+    Pojď -- te se kla -- nět
+    Pá -- nu a -- po -- što -- lů,
     kte -- rý u -- či -- nil z_Do -- mi -- ni -- ka
     hla -- sa -- te -- le e -- van -- ge -- li -- a.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
