@@ -964,10 +964,61 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f g g g( a) g f e f \mark\sipka d( c) c \barMaior
     d d d d d( f e) c d \barMax
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ob -- je -- vil se ob -- lak a za -- stí -- nil je.
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec=20"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a g f g a g f e d( c) c \barMaior
+    d d \mark\sipka c d d( f e) c d \barMax
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ob -- je -- vil se ob -- lak a za -- stí -- nil je.
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj mi -- lo -- va -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec=20"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f \mark\sipka g( a) g g f e d( c) c \barMaior
+    d d c d d( f e) c d \barMax
     d d d( f g) \barMin f g a f g \barMaior
     f d f e c( d) d \barFinalis
   }

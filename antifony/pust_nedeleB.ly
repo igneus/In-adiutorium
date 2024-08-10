@@ -142,10 +142,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 f g g g( a) g f e f d( c) c \barMaior
-    d d d d d( f e) c d \barMax
+    a4 a g f g( a) g g f e d( c) c \barMaior
+    d d c d d( f e) c d \barMax
     d d d( f g) \barMin f g a f g \barMaior
     f d f e c( d) d \barFinalis
   }
@@ -161,7 +161,6 @@
     differentia = "D"
     psalmus = ""
     fial = "sanktoral/0806promenenipane.ly#2ne-a2?konec=20"
-    placet = "první dvě třetiny lépe"
     id = "iimag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
