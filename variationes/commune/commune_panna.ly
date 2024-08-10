@@ -996,6 +996,32 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) f \barMin \mark\sipka g f g g( a) a \barMaior
+    g f g( f) d d \barMin
+    d c d f f e c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Be -- rá -- nek,
+    kte -- ré -- ho ná -- sle -- du -- jí pan -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a( bes) a g f( g) g \barMaior
     a g f( e) d d \barMin
     d c d f f e c c( d) d \barFinalis
@@ -2427,7 +2453,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c \neviditelna c \bar ";"
 
@@ -2436,6 +2462,83 @@
 
     a4 a a g f g( a) g \barMaior
     g a g f e f d( c) c \barMaior
+    d c d d( f) f \barMin
+    f g( a f) e c d d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá \markup\Nomen
+
+    Ma -- ri -- e % Goretti
+    Ka -- te -- ři -- na % Alexandrijská; též Terezie (Benedikta od Kříže)
+
+    vza -- la na se -- be svůj kříž
+    a ná -- sle -- do -- va -- la Kris -- ta,
+    Že -- ni -- cha pa -- nen
+    a Krá -- le mu -- čed -- ní -- ků.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c \neviditelna c \bar ";"
+
+    f(^\markup\rubrJmenoSvateho g) g( a) a \bar ";"
+    f g \mark\sipka g( a) a \bar ";"
+
+    a4 a a g f g( a) g \barMaior
+    g a g f e f d( c) c \barMaior
+    d c d d( f) f \barMin
+    f g( a f) e c d d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá \markup\Nomen
+
+    Ma -- ri -- e % Goretti
+    Ka -- te -- ři -- na % Alexandrijská; též Terezie (Benedikta od Kříže)
+
+    vza -- la na se -- be svůj kříž
+    a ná -- sle -- do -- va -- la Kris -- ta,
+    Že -- ni -- cha pa -- nen
+    a Krá -- le mu -- čed -- ní -- ků.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c \neviditelna c \bar ";"
+
+    f(^\markup\rubrJmenoSvateho g) g( a) a \bar ";"
+    f g g( a) a \bar ";"
+
+    a4 a a g f g( a) g \barMaior
+    g a \mark\sipka a a g f e( f d c) c \barMaior
     d c d d( f) f \barMin
     f g( a f) e c d d d \barFinalis
 

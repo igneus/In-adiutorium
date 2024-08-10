@@ -544,7 +544,7 @@
     d4 c \neviditelna c \bar ";"
 
     f(^\markup\rubrJmenoSvateho g) g( a) a \bar ";"
-    f g f( a) a \bar ";"
+    f g g( a) a \bar ";"
 
     a4 a a g f g( a) g \barMaior
     g a g f e f d( c) c \barMaior
