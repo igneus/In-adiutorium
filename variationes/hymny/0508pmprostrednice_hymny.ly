@@ -64,3 +64,24 @@
     piece = "modlitba se čtením"
   }
 }
+
+\score {
+  \relative c' {
+    \key f \major
+    \autoBeamOff
+    r8 f8 f g g[ a] a4 g8 f g a a4 g
+    r8 a8 bes a g4 f g8 g f e d[ c] c4
+  }
+  \addlyrics {
+    Pa -- nen -- ská mat -- ko, dce -- ro Sy -- na své -- ho,
+    jež po -- ko -- ry i slá -- vy jsi nám vzo -- rem,
+    cíl pev -- ný ú -- rad -- ku jsouc od -- vě -- ké -- ho.
+  }
+  \header {
+    quid = "hymnus"
+    metrum = "11.11.11"
+    modus = ""
+    id = "mc"
+    piece = "modlitba se čtením"
+  }
+}

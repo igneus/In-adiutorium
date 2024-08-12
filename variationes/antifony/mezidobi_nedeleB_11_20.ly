@@ -3075,6 +3075,51 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 b d( e) d d \barMin d a b( g) g \barMaior
+    f a c \mark\sipka c d e d d \barMin
+    c a b( c) a a g g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    jest -- li -- že ho ne -- při -- táh -- ne
+    O -- tec, kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne19b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin d a b( g) g \barMaior
+    f a c c d e d d \barMin
+    c a \mark\sipka b c a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    jest -- li -- že ho ne -- při -- táh -- ne
+    O -- tec, kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne19b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     d4 c d( e) c c \barMin d a b( g) g \barMaior
     \mark\sipka a c c c d e d d \barMin
@@ -3172,6 +3217,34 @@
 
     g f e d d \barMin f g g( a) a \barMaior
     a( c d) c b a( g) g( a) \barMin a b a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.
+    Kdo bu -- de jíst ten -- to chléb, bu -- de žít na -- vě -- ky.
+
+    Chléb, kte -- rý já dám,
+    je mé tě -- lo, o -- bě -- to -- va -- né za ži -- vot svě -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    fons = "první část: Těla a Krve Páně, k Benedictus"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?cast"
+    id = "ne19b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
+    g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barMax
+
+    g f e d d \barMin f g g( a) a \barMaior
+    \mark\sipka a c d c( b) a( g) \barMin a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Já jsem chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.

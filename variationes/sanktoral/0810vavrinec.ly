@@ -713,6 +713,30 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   \relative c' {
     \choralniRezim
     d4 d f e f d( c) c \barMaior
+    f g a \mark\sipka f f( g) g \barMin
+    f g f e d( c) \barMin
+    d( f) e d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec zvo -- lal:_*
+    Ra -- du -- ji se z_to -- ho,
+    že se mo -- hu stát
+    o -- bě -- tí pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f d( c) c \barMaior
     \mark\sipka d d c d d( f) f \barMin
     g f e f d( c) \barMin
     d( e f) e( f) d c d d \barFinalis
