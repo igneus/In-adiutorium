@@ -585,6 +585,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "3 druhou půlku spíš lépe"
     id = "ne19b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
