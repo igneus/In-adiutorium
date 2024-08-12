@@ -11,7 +11,8 @@
 }
 
 \markup\wordwrap\italic{
-  (Vlastní hymnus k modlitbě se čtením je v Denní modlitbě církve od vydání 2005.)
+  (Vlastní hymnus k modlitbě se čtením je v Denní modlitbě církve od prvního vydání,
+  ale v červeném hymnáři chybí.)
 }
 
 \score {
