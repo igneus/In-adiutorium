@@ -2007,6 +2007,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 \mark\sipka g g a a a g f g g \barMin
+    f e d( e) d( c) \barMaior
+    f g( a) g f g g( f) \barMin
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- den za dru -- hým se vy -- trá -- ce -- li,
+    star -- ší na -- před,
+    až zů -- stal Je -- žíš sám
+    a že -- na před ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "vben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -257,6 +257,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    f g \mark\sipka g f e e( f) d c d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh při -- jde
+    a u -- ká -- že svou slá -- vu a moc.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 50-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     d4 e f e( d) c \barMin

@@ -41,7 +41,8 @@
 
 \markup\justify{
   (Protože _svého_ tu dlouhou notu nese dobře,
-  ale _vzdorem_ nebo _Paní_ ne.)
+  ale _vzdorem_ nebo _Paní_ ne.
+  A protože poslední sloka metricky výrazně vybočuje.)
 }
 \score {
   \relative c'' {
@@ -49,12 +50,22 @@
     \autoBeamOff
     r8 g8 g g g[ a] a4 b8 a g b \mark\sipka b[ a] a4 \breathe
     r8 b8 c b a4 g a8 b a g g[ a] a4 \breathe
+    r8 a8 g[ fis] e4 e8 e g a b a g[ a] a4 \bar "||" \break
+
+    \mark\sipka g8 g g[ a] a4 r8 a b a g b b[ a] a4 \breathe
+    r8 b8 c b a4 g a8 b a g g[ a] a4 \breathe
     r8 a8 g[ fis] e4 e8 e g a b a g[ a] a4 \bar "|."
   }
   \addlyrics {
+    \set stanza = #"1."
     Pa -- nen -- ská mat -- ko, dce -- ro Sy -- na své -- ho,
     jež po -- ko -- ry i slá -- vy jsi nám vzo -- rem,
     cíl pev -- ný ú -- rad -- ku jsouc od -- vě -- ké -- ho.
+
+    \set stanza = #"5."
+    Sou -- cit, lás -- ka, mi -- lo -- sr -- den -- ství sva -- té
+    jsou v_to -- bě, te -- bou vše se roz -- ně -- cu -- je,
+    co v_tvor -- stvu veš -- ke -- rém je k_dob -- ru vzňa -- té.
   }
   \header {
     quid = "hymnus"
