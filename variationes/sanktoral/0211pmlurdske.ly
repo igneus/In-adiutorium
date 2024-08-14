@@ -12,6 +12,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( d a) b a g a a \barMin
     b b a( b a) g( a) a \barMaior
@@ -33,7 +34,121 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    id = ""
+    placet = "hodně exotická, jinak a lépe"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f d) c d e d d \barMin
+    f f e( f) d( c) c \barMaior
+    d c d d( f) f \barMin
+    g( a g) f e f d c c \barMaior
+    d f e f d \barMin
+    c d f g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Jas -- ná jit -- řen -- ko spá -- sy,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be nám vze -- šlo
+    slun -- ce spra -- ve -- dl -- nos -- ti,
+    na -- vští -- vil nás ten,
+    kte -- rý vy -- chá -- zí s_vý -- sos -- ti.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( f d) c d e d d \barMin
+    f f e( f) d( c) c \barMaior
+    d c d d( f) f \barMin
+    g( a g) f e f d c c \barMaior
+    d f \mark\sipka f e c \barMin
+    d c d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Jas -- ná jit -- řen -- ko spá -- sy,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be nám vze -- šlo
+    slun -- ce spra -- ve -- dl -- nos -- ti,
+    na -- vští -- vil nás ten,
+    kte -- rý vy -- chá -- zí s_vý -- sos -- ti.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f d) c d e d d \barMin
+    f f e( f) d( c) c \barMaior
+    d c d d( f) f \barMin
+    \mark\sipka g f g a a g g \barMaior
+    a a g f e( d) \barMin
+    c d f g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Jas -- ná jit -- řen -- ko spá -- sy,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be nám vze -- šlo
+    slun -- ce spra -- ve -- dl -- nos -- ti,
+    na -- vští -- vil nás ten,
+    kte -- rý vy -- chá -- zí s_vý -- sos -- ti.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f d) c d e d d \barMin
+    f f e( f) d( c) c \barMaior
+    d \mark\sipka d c f( g a g) g \barMin
+    a a g f e( f) d d \barMaior
+    f f e f d \barMin
+    d c d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Jas -- ná jit -- řen -- ko spá -- sy,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be nám vze -- šlo
+    slun -- ce spra -- ve -- dl -- nos -- ti,
+    na -- vští -- vil nás ten,
+    kte -- rý vy -- chá -- zí s_vý -- sos -- ti.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

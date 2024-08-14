@@ -13,14 +13,14 @@
 \markup\communia #'(#:maria)
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a( d a) b a g a a \barMin
-    b b a( b a) g( a) a \barMaior
-    a b c d( c e d) d \barMin
-    c( b) a b a g a a \barMaior
-    f g a g g( a) \barMin
-    a a a( b c) a( g) g f( g) g( a) a \barFinalis
+    d4 d( f d) c d e d d \barMin
+    f f e( f) d( c) c \barMaior
+    d c d d( f) f \barMin
+    g( a g) f e f d c c \barMaior
+    d f f e c \barMin
+    d c d f e d( e) d d \barFinalis
   }
   \addlyrics {
     Jas -- ná jit -- řen -- ko spá -- sy,
@@ -32,10 +32,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "hodně exotická, jinak a lépe"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
