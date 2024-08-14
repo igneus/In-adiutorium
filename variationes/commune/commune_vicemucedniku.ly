@@ -1580,6 +1580,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin f f g f g g( a) a( g) \barMax
+    \mark\sipka g f g( a) g \barMin f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g g \barMin f g( a) g g \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g f g( a) g \barMin f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- vým při -- chá -- zí spá -- sa od Hos -- po -- di -- na,_*
+    v_do -- bách tís -- ně je jim ú -- to -- čiš -- těm.
+    \Verse Hos -- po -- din jim po -- má -- há a chrá -- ní je,_*
+    \Response v_do -- bách tís -- ně je jim ú -- to -- čiš -- těm.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -1893,6 +1925,64 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    id = "2ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c d d d( a' bes) a \barMin
+    a a a g f g g \barMaior
+    a( b c a) g( a) a \barMin
+    a a a g f g g f( e) d \barMin
+    e d c e f d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se, sva -- tí,_*
+    před Be -- rán -- ko -- vým trů -- nem,
+    v_krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né
+    od za -- lo -- že -- ní svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/pust_tyden1.ly#po-aben?konec=18&+aleluja"
+    id = "2ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c d d d( a' bes) a \barMin
+    a \mark\sipka b! c a g a a \barMaior
+    a( b a) g( a) a( g) \barMin
+    a a a g f g g f( e) d \barMin
+    e d c e f d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se, sva -- tí,_*
+    před Be -- rán -- ko -- vým trů -- nem,
+    v_krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né
+    od za -- lo -- že -- ní svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/pust_tyden1.ly#po-aben?konec=18&+aleluja"
     id = "2ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
