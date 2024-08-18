@@ -181,7 +181,7 @@
   \relative c'' {
     \choralniRezim
     c4 b c b a \barMin g g a g f g a g g \barMaior
-    g f a c b c( d c) \barMin b g a g g \barFinalis
+    a c b c d d \barMin c b g a( g) g \barFinalis
   }
   \addlyrics {
     Pan -- no Ma -- ri -- a,
@@ -366,8 +366,8 @@
     \choralniRezim
     c4( b) c c e e4. d \barMin
     c4( b) a b a( g) g \barMaior
-    g( c) c c c( d e) d( c) c4.( d) \barMin
-    f4 e c d( c) c \barMax
+    g( c) c c c( d e) d( c) c( d) \barMin
+    f e c d( c) c \barMax
 
     g a b c( d e) d( c) b( a) \barMin
     c b a g( a g4.) g \barFinalis

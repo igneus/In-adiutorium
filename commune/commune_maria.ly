@@ -579,6 +579,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Benedictus"
+    placet = "3 _Maria_ je blbé, a vůbec celá ta druhá půlka má melodii míjející se s dynamismem textu"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
