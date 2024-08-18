@@ -384,7 +384,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 63"
-    fial = "commune/commune_maria.ly#rch-a1?zacatek"
+    fial = "commune/commune_maria.ly#rch-a1?cast=1-4"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -413,7 +413,7 @@
     differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
-    fial = "sanktoral/0815nanebevzetipm.ly#1ne-a3?zacatek"
+    fial = "sanktoral/0815nanebevzetipm.ly#1ne-a3?cast=1-2"
     piece = \markup {\sestavTitulek}
   }
 }
