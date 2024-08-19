@@ -3265,6 +3265,11 @@
   }
 }
 
+\markup\justify{
+  (Tvrdý zlom stránky tu chybí schválně, protože sousedící antifony
+  z různých nedělí jsou textově příbuzné.)
+}
+
 \markup {\nadpisDen {"20. neděle"}}
 
 \score {
@@ -3272,6 +3277,28 @@
     \choralniRezim
     c4 c a g a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
     g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem ten chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.
+    Kdo jí ten -- to chléb, bu -- de žít na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    fons = "Těla a Krve Páně, k Benedictus; drobné úpravy v textu i melodii"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?upraveno"
+    id = "ne20b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
+    g g4.( a) \barMin a4( b a) g g4.( a) \barMaior \mark\sipka a4 g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Já jsem ten chléb ži -- vý,_* kte -- rý se -- stou -- pil z_ne -- be.
@@ -3345,6 +3372,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a) a a b c c( d) d \barMin
     d d f( g f) e d d \barMaior
@@ -3371,6 +3399,29 @@
     a4 a g( a) a a b c c( d) d \barMin
     d d f( g f) e d d \barMaior
     d d c( a) \barMin d c( b a) a \barMin g f g \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko mne po -- slal ži -- vý O -- tec
+    a já ži -- ji z_Ot -- ce,
+    tak i ten, kdo jí mne, bu -- de žít ze mne.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne20b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a) a a \mark\sipka c b c( d) d \barMin
+    d d f( g f) e d d \barMaior
+    d d c( a) \barMin d c( b a4.) a4 \barMin g f g g( a) g \barFinalis
   }
   \addlyrics {
     Ja -- ko mne po -- slal ži -- vý O -- tec

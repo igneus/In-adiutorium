@@ -659,6 +659,7 @@
     psalmus = ""
     fons = "Těla a Krve Páně, k Benedictus; drobné úpravy v textu i melodii"
     fial = "mezidobi_telaakrvepane.ly#rch-aben?-aleluja&cast=2&konec=22"
+    placet = "3 závěr není právě uspokojivý (ve zdrojové antifoně to také je jen dílčí kadence)"
     id = "ne20b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -691,9 +692,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( a) a a b c c( d) d \barMin
+    a4 a g( a) a a c b c( d) d \barMin
     d d f( g f) e d d \barMaior
-    d d c( a) \barMin d c( b a) a \barMin g f g g( a) g \barFinalis
+    d d c( a) \barMin d c( b a4.) a4 \barMin g f g g( a) g \barFinalis
   }
   \addlyrics {
     Ja -- ko mne po -- slal ži -- vý O -- tec
