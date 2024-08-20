@@ -186,6 +186,30 @@
   \relative c'' {
     \choralniRezim
     c4 c d d c \barMin
+    c c \mark\sipka b a a( b) a g g \barFinalis
+
+    a^\rubrVelikAleluja a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Jak dob -- rý je Bůh
+    k_těm, kdo ma -- jí čis -- té srd -- ce.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 73-I"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d d c \barMin
     c c \mark\sipka b a c b g g \barFinalis
 
     f^\rubrVelikAleluja g( a) g g \barFinalis

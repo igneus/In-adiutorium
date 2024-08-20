@@ -76,15 +76,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d d( a' bes) a \barMin
+    a g f f( g) g \barMin
+    a a a g f e( f) d( c) c \barMaior
+    d d e f d( c) c f( g) f d d \barFinalis
   }
   \addlyrics {
-    Spravedlivý má zalíbení v Hospodinově zákoně a přemítá o něm dnem i nocí.
+    Spra -- ved -- li -- vý
+    má za -- lí -- be -- ní
+    v_Hos -- po -- di -- no -- vě zá -- ko -- ně
+    a pře -- mí -- tá o něm dnem i no -- cí.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 21"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -94,15 +100,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c d d( f) f \barMin
+    g f f e f d c( d) d \barFinalis
   }
   \addlyrics {
-    Hospodinův zákon ať je vždy ve vašich ústech.
+    Hos -- po -- di -- nův zá -- kon
+    ať je vždy ve va -- šich ús -- tech.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 92-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -115,11 +123,12 @@
 
   }
   \addlyrics {
-    Kdo rozjímá o zákoně Páně, ve svůj čas přináší ovoce.
+    Kdo roz -- jí -- má o zá -- ko -- ně Pá -- ně,
+    ve svůj čas při -- ná -- ší o -- vo -- ce.
   }
   \header {
     quid = "3. ant."
-    modus = ""
+    modus = "III"
     differentia = ""
     psalmus = "Žalm 92-II"
     id = "mc-a3"
