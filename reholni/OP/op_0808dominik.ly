@@ -72,9 +72,9 @@
   \relative c' {
     \key f \major
     \choralniRezim
-    f4 f a c c4.( d4) c bes( a) f g a \barMaior
-    c( d f) e f( e d) c \barMin c d c a bes c \barMaior
-    c d c( a bes) a \barMin g bes a g f f \barFinalis
+    f4 f a bes c c \barMin d( c) a bes c \barMaior
+    d e f( e d) c \barMin c d c a bes c \barMaior
+    c d c( a bes4.) a \barMin g4 bes a g f f \barFinalis
   }
   \addlyrics {
     Pro Kris -- to -- vo jmé -- no žil, u -- mí -- ral,
@@ -428,19 +428,27 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( a') a( g a c b) g4.( a) \barMin
+    a4 a( g f) f( g) g( d) d \barMaior
+    d d( f) d c f( g a) a \barMin
+    a g a a( c) b a a \barMaior
+    a a g f g( a g) f( e) d( c) \barMin
+    d f e d( e d4.) d \barFinalis
   }
   \addlyrics {
-    Jak mi -- lý je pří -- chod to -- ho,
-    kdo zvěs -- tu -- je po -- koj a o -- zna -- mu -- je spá -- su,
+    Jak mi -- lý
+    je pří -- chod to -- ho,
+    kdo zvěs -- tu -- je po -- koj
+    a o -- zna -- mu -- je spá -- su,
     kte -- rý pra -- ví Si -- o -- nu:
     Kra -- lu -- je Bůh tvůj.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
+    fial = "sanktoral/0705cyrilametodej.ly#rch-a1?zacatek=16"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
