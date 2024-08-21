@@ -17,10 +17,10 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c) c
-    c a( c d c) e( c d) d \barMaior
-    c( d) d b( c) a g a( g) g \barMax
-    c c( d e) c( b) a c b c( d a) a \barMin
-    c c c( d) c b a g a( g) g \barFinalis
+    c a( c d c) e( c d4.) d \barMaior
+    d4 d b( c) a g a( g) g \barMax
+    c c( d e) c( b a) a c b c( d a4.) a \barMaior
+    c4 c c( d) c b a g a( g) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Ber -- nard byl o -- sví -- cen
@@ -59,6 +59,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "3 nic moc, zvlášť první třetina"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

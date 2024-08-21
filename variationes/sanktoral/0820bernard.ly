@@ -13,6 +13,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) c
     c a( c d c) e( c d) d \barMaior
@@ -44,6 +45,35 @@
     \mark\sipka d d b( c) a g a( g) g \barMax
     c c( d e) \mark\sipka c( b a) a c b c( d a) a \mark\sipka \barMaior
     c c c( d) c b a g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ber -- nard byl o -- sví -- cen
+    ja -- sem věč -- né -- ho Slo -- va,
+    a za -- zá -- řil v_ce -- lé círk -- vi
+    svět -- lem ví -- ry a u -- če -- nos -- ti.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Jen rytmická znaménka)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( c) c
+    c a( c d c) e( c d4.) d \barMaior
+    d4 d b( c) a g a( g) g \barMax
+    c c( d e) c( b a) a c b c( d a4.) a \barMaior
+    c4 c c( d) c b a g a( g) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Ber -- nard byl o -- sví -- cen
