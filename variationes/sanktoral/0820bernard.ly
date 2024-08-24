@@ -384,3 +384,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin
+    c c \mark\sipka b g a g f g g \barMaior
+    a a a( c d) d d( e c a) a \barMaior
+    g a g f g a a \barMin
+    a c c b( a g) g f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ber -- nard,
+    vel -- ký cti -- tel Pan -- ny Ma -- ri -- e,
+    jas -- ně zá -- ří v_círk -- vi
+    ja -- ko slav -- ný u -- či -- tel
+    a bdě -- lý pas -- týř své -- ho li -- du.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
