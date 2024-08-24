@@ -3762,6 +3762,35 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f e d \barMin
+    d c d f e \barMin
+    d c( d) d \barFinalis
+
+    f--^\markup\rubrVelikAleluja e( d c) c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti -- pl -- ná!
+    \markup{\Dagger Pán} s_te -- bou!
+
+    \markup{\Dagger Pán} s_te -- bou!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#rch-a2?zacatek=17"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
