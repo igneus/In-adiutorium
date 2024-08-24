@@ -48,7 +48,7 @@
     a4 a g( a c) b( a g) a \barMin
     c d e d( c) d c \barMaior
     b c d e c b a a \barMin
-    c b a g f( g a) g \barFinalis
+    c c a g f( g a) g \barFinalis
   }
   \addlyrics {
     Pan -- no Ma -- ri -- a,
@@ -91,8 +91,9 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "2 úplně nedrží pohromadě"
     id = "amag"
-    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek=27"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

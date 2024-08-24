@@ -142,12 +142,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a c) b( a g) a \barMin
     c d e d( c) d c \barMaior
     b c d e c b a a \barMin
     \mark\sipka c b a g f( g a) g \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    vzne -- še -- ná Krá -- lov -- no,
+    tys nám po -- ro -- di -- la Kris -- ta,
+    spa -- si -- te -- le svě -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a c) b( a g) a \barMin
+    c d e d( c) d c \barMaior
+    b c d e c b a a \barMin
+    c \mark\sipka c a g f( g a) g \barFinalis
   }
   \addlyrics {
     Pan -- no Ma -- ri -- a,
