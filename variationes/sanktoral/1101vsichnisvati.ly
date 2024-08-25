@@ -2544,6 +2544,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4( g) g \barMin g a g bes a g f g \barMaior
     g g g f( g) f \barMin e d c f e f f d d \barMaior
@@ -2561,6 +2562,29 @@
     psalmus = "Zj 4"
     id = "2ne-a3"
     placet = "melodie na prvním 'jsi' mě sice nedráždí, ale pravděpodobně není zcela košer"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) d \barMin d e d f e d c d \barMaior
+    d d d c( d) c \barMin b a g c b c c a a \barMaior
+    \mark\sipka c d e d c c( d) \barMin d d d e c b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- te, svou kr -- ví jsi nás vy -- kou -- pil
+    z_kaž -- dé -- ho kme -- ne, ja -- zy -- ka, li -- du i ná -- ro -- da
+    a vy -- tvo -- řil jsi z_nás na -- še -- mu Bo -- hu krá -- lov -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
