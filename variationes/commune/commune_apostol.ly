@@ -898,6 +898,39 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\markup{
+  (z dosavadní verze zachován jen závěr)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 d e g a a g a \barMin
+    a a g e f g g e \barMaior
+    e f f e d f( g) g \barMaior
+    g a a g \barMin g a a g f g( a) e e \barMaior
+    d c d e e g f e d e e \barFinalis
+
+    f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Ne vy jste vy -- vo -- li -- li mne,
+    a -- le já jsem vy -- vo -- lil vás
+    a u -- rčil jsem vás k_to -- mu,
+    a -- bys -- te šli a při -- ná -- še -- li u -- ži -- tek
+    a váš u -- ži -- tek a -- by byl tr -- va -- lý.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {
