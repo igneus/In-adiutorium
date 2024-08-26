@@ -4,6 +4,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( e g a) a \barMin a g a b( a) g( a) a \barMaior
     a g( a e) \barMin g e d( e) e \barFinalis
@@ -19,6 +20,29 @@
     psalmus = ""
     id = "ne21b-1ne-mag"
     fons = "velikonoční feriální cyklus, sobota 3.t., r.ch., 1. ant.; konec upraven"
+    fial = "antifony/velikonoce_tyden3_7sobota.ly#rch-a1?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( e g a) a \barMin a g a b( a) g( a) a \barMaior
+    a g( a e) \barMin f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Slo -- va,_* kte -- rá jsem k_vám mlu -- vil,
+    jsou duch a jsou ži -- vot.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne21b-1ne-mag"
+    fial = "antifony/velikonoce_tyden3_7sobota.ly#rch-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -71,10 +95,95 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 b d( e) d d \barMin d a b( g) g \barMaior
     a g f a b c a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    ne -- ní -li mu to dá -- no od Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne21b-rch-ben"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-1ne-mag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin d a b( g) g \barMaior
+    a \mark\sipka a a g f g( a) a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    ne -- ní -li mu to dá -- no od Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne21b-rch-ben"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-1ne-mag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin d a b( g) g \barMaior
+    a a a g f \mark\sipka a( c) b a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    ne -- ní -li mu to dá -- no od Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne21b-rch-ben"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-1ne-mag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin d a b( g) g \barMaior
+    \mark\sipka c c c b a g( a) f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mů -- že při -- jít ke mně,
+    ne -- ní -li mu to dá -- no od Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne21b-rch-ben"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne19b-1ne-mag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e) d d \barMin d a b( g) g \barMaior
+    c c c b a \mark\sipka b( c) a g( a) g g \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- mů -- že při -- jít ke mně,
@@ -156,7 +265,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
@@ -180,6 +289,96 @@
     id = "ne21b-2ne-mag"
     fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
     fial = "sanktoral/0629petraapavla.ly#rch-aben?-aleluja&upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a a g a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    e f e f( g a) g \barMin f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a3"
+    psalmus = ""
+    id = "ne21b-2ne-mag"
+    fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
+    fial = "sanktoral/0629petraapavla.ly#rch-aben?cast=1-6"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a a g a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    e f e f( g a) g \barMin f( e) \mark\sipka d( e) d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a3"
+    psalmus = ""
+    id = "ne21b-2ne-mag"
+    fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
+    fial = "sanktoral/0629petraapavla.ly#rch-aben?cast=1-6"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+    a4 a g( a) f e( a) a \barMaior
+    g( f) e \barMin f g a a( bes) a a \barMaior
+    a a g a a( bes) a g a g g \barMaior
+    g f g f e d c d d e e \barMaior
+    e f e f( g a) g \barMin \mark\sipka f( e d) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ši -- mon Pe -- tr ře -- kl:_*
+    Pa -- ne, ke ko -- mu pů -- jde -- me?
+    Ty máš slo -- va věč -- né -- ho ži -- vo -- ta,
+    a my jsme u -- vě -- ři -- li a po -- zna -- li,
+    že ty jsi Kris -- tus, Syn Bo -- ží.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a3"
+    psalmus = ""
+    id = "ne21b-2ne-mag"
+    fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
+    fial = "sanktoral/0629petraapavla.ly#rch-aben?cast=1-6"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

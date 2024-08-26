@@ -7,7 +7,7 @@
   \relative c'' {
     \choralniRezim
     g4( e g a) a \barMin a g a b( a) g( a) a \barMaior
-    a g( a e) \barMin g e d( e) e \barFinalis
+    a g( a e) \barMin f e d( e) e \barFinalis
   }
   \addlyrics {
     Slo -- va,_* kte -- rá jsem k_vám mlu -- vil,
@@ -19,7 +19,7 @@
     differentia = "g"
     psalmus = ""
     id = "ne21b-1ne-mag"
-    fial = "antifony/velikonoce_tyden3_7sobota.ly#rch-a1?zacatek"
+    fial = "antifony/velikonoce_tyden3_7sobota.ly#rch-a1?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -28,7 +28,7 @@
   \relative c'' {
     \choralniRezim
     d4 b d( e) d d \barMin d a b( g) g \barMaior
-    a g f a b c a g( a) g g \barFinalis
+    c c c b a b( c) a g( a) g g \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- mů -- že při -- jít ke mně,
@@ -51,9 +51,9 @@
     \choralniRezim
     a4 a g( a) f e( a) a \barMaior
     g( f) e \barMin f g a a( bes) a a \barMaior
-    a a g( a) a a( bes) a g a g g \barMaior
+    a a g a a( bes) a g a g g \barMaior
     g f g f e d c d d e e \barMaior
-    e f e f( g a) g \barMin f( e) c( d) d \barFinalis
+    e f e f( g a) g \barMin f( e) d( e) d \barFinalis
   }
   \addlyrics {
     Ši -- mon Pe -- tr ře -- kl:_*
@@ -69,7 +69,7 @@
     psalmus = ""
     id = "ne21b-2ne-mag"
     fons = "29.6. Petra a Pavla: r.ch., k Benedictus; odebrano aleluja a v dusledku toho upraven i zaver"
-    fial = "sanktoral/0629petraapavla.ly#rch-aben?zacatek"
+    fial = "sanktoral/0629petraapavla.ly#rch-aben?cast=1-6"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
