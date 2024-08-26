@@ -3274,6 +3274,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a g a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
     g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barFinalis
@@ -3289,6 +3290,7 @@
     psalmus = ""
     fons = "Těla a Krve Páně, k Benedictus; drobné úpravy v textu i melodii"
     fial = "mezidobi_telaakrvepane.ly#rch-aben?upraveno"
+    placet = "3 závěr není právě uspokojivý (ve zdrojové antifoně to také je jen dílčí kadence)"
     id = "ne20b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -3296,6 +3298,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c a g a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
     g g4.( a) \barMin a4( b a) g g4.( a) \barMaior \mark\sipka a4 g f g( a) a( g) g \barFinalis
@@ -3310,7 +3313,7 @@
     differentia = "c"
     psalmus = ""
     fons = "Těla a Krve Páně, k Benedictus; drobné úpravy v textu i melodii"
-    fial = "mezidobi_telaakrvepane.ly#rch-aben?upraveno"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?cast=2,4"
     id = "ne20b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
