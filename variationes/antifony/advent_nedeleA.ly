@@ -703,6 +703,28 @@
   \relative c' {
     \choralniRezim
     e4 g a a \barMaior
+    a \mark\sipka a a g f e e
+    f g f d e e \barFinalis
+  }
+  \addlyrics {
+    Ob -- rať -- te se,
+    ne -- boť se při -- blí -- ži -- lo
+    ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a \barMaior
     a g a g f e e
     \mark\sipka e f d d e e \barFinalis
   }

@@ -636,6 +636,37 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f g( f) g( a) a( g) \barMax
+      g( f d) f g g f f \barFinalis
+      % V
+      \neviditelna a
+      a a a a g( a) \mark\sipka g( f) g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g( f d) f g g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Po -- žeh -- na -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
+      \Verse Je -- nom on sám ko -- ná di -- vy_*
+      \Response od vě -- ků na vě -- ky.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1po-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \markup{Zčásti se vrátit a ještě zjednodušit?}
 
   \score {
@@ -715,6 +746,45 @@ doxologieResponsoriumVI = {}
       % R
       \neviditelna g
       f( d) f g g f f \barFinalis
+      % Slava
+      \doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Po -- žeh -- na -- ný je Hos -- po -- din_* od vě -- ků na vě -- ky.
+      \Verse Je -- nom on sám ko -- ná di -- vy_*
+      \Response od vě -- ků na vě -- ky.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1po-rch"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \markup\justify{
+    Návrat r2 k původní verzi, protože k textu sedí nejpřesvědčivěji.
+    Kdysi jsem ji měnil, protože nevypadá dvakrát chorálně,
+    ale kloním se k tomu, že melodie dobře jdoucí do pusy by tu měla
+    dostat přednost, i když při pohledu na ni možná nejeden choralista
+    povytáhne obočí.
+  }
+  \score {
+    \relative c' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f g( f) g( a) a( g) \barMax
+      \mark\sipka f d f( g) g f f \barFinalis
+      % V
+      \neviditelna a
+      a a a a g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      \mark\sipka f d f( g) g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }

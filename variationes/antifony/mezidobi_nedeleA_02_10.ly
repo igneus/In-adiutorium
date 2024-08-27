@@ -201,6 +201,52 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a f g( a) a( g) g \barMin
+    a a c d c b a( g) g \barMaior
+    g f d f g a g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý se -- stou -- pil
+    ja -- ko ho -- lu -- bi -- ce z_ne -- be
+    a zů -- stal na Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne2a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a f g( a) a( g) g \barMin
+    a a c d c b a( g) g \barMaior
+    g \mark\sipka a f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý se -- stou -- pil
+    ja -- ko ho -- lu -- bi -- ce z_ne -- be
+    a zů -- stal na Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne2a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g a a( b) b( a) a \barMin
     a a g a g f d( e) e \barMaior
     e f( g f) e f e d e e \barFinalis
