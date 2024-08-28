@@ -1654,6 +1654,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c c \mark\sipka c d c \barMin
+    b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je všu -- de
+    ko -- lem své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 125"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a g f g a \barMin
     a g f g f( e) d \barFinalis
   }

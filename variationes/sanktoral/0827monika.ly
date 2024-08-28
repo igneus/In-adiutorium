@@ -73,6 +73,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 c d f e d d e d c \mark\sipka c( d) d \barMaior
+    d d( f) \mark\sipka e e \barMin f f g f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, tys ne -- po -- hr -- dl sl -- za -- mi mat -- ky,
+    a vy -- sly -- šels je -- jí vy -- tr -- va -- lé mod -- lit -- by.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
