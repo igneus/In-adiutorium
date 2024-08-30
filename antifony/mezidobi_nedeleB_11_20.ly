@@ -282,9 +282,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e( a g) g( a) a a b a g f e d \barMaior
-    c b c d e( f) e \barMaior
-    e f( g a) g f g( a) \barMin b a g a g f( d f) e \barFinalis
+    e4 e e( a g) g( a) a a b a g f e e \barMaior
+    f g f e d( e) e \barMaior
+    f g a a g \barMin a g f g g e e \barFinalis
   }
   \addlyrics {
     Je -- žíš za -- vo -- lal svých dva -- náct u -- čed -- ní -- ků,
@@ -296,7 +296,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
-    placet = "3 lépe"
     id = "ne15b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

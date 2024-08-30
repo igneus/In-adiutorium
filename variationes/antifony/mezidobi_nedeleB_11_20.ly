@@ -1420,6 +1420,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e( a g) g( a) a a b a g f e d \barMaior
     c b c d e( f) e \barMaior
@@ -1446,6 +1447,29 @@
     e4 e e( a g) g( a) a a b a g f e \mark\sipka e \barMaior
     f g f e d( e) e \barMaior
     e d c d d( e) \barMin a g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš za -- vo -- lal svých dva -- náct u -- čed -- ní -- ků,
+    po -- sí -- lal je po dvou
+    a dá -- val jim moc nad ne -- čis -- tý -- mi du -- chy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne15b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e( a g) g( a) a a b a g f e e \barMaior
+    f g f e d( e) e \barMaior
+    \mark\sipka f g a a g \barMin a g f g g e e \barFinalis
   }
   \addlyrics {
     Je -- žíš za -- vo -- lal svých dva -- náct u -- čed -- ní -- ků,
