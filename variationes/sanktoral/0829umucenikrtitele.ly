@@ -225,7 +225,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c( d) d \barMin
     c( d) e( d c) d \barMaior
@@ -250,6 +250,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 g a c( d) d \mark\sipka
     c e( d) d \barMaior
@@ -299,7 +300,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a \mark\sipka a g a g( f e) \barMaior
     d c d e f( a) \barMin
@@ -388,7 +389,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka f4 f e d f g g e \barMaior
     f g a a g( a) \barMin
@@ -664,7 +665,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -697,6 +698,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
@@ -1259,6 +1261,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d c d f f e f d( c) c \barMaior
+    d d c a c( d) d \barMin
+    d f f f e d e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- no -- vi u -- čed -- ní -- ci při -- šli,
+    vza -- li je -- ho tě -- lo
+    a po -- cho -- va -- li je do hro -- bu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1364,7 +1388,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1414,6 +1438,42 @@
   }
   \addlyrics {
     \Response Jan ře -- kl: já ne -- jsem Me -- si -- áš,_*
+    jsem po -- slán jen ja -- ko je -- ho před -- chůd -- ce.
+    \Verse On mu -- sí růst, já však se men -- šit,_*
+    \Response jsem po -- slán jen ja -- ko je -- ho před -- chůd -- ce.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup{
+  (r1 zpět dosavadní)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f( g) f f g f g a a( g) \barMax
+    f g( a) g \barMin g f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a g( a) \barMin a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f g( a) g \barMin g f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Jan ře -- kl: Já ne -- jsem Me -- si -- áš,_*
     jsem po -- slán jen ja -- ko je -- ho před -- chůd -- ce.
     \Verse On mu -- sí růst, já však se men -- šit,_*
     \Response jsem po -- slán jen ja -- ko je -- ho před -- chůd -- ce.

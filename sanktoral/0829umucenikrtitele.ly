@@ -44,9 +44,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a c( d) d \barMin
-    c( d) e( d c) d \barMaior
-    a d b c a( g) \barMin
+    a4 g a c( d) d
+    c e( d) d \barMaior
+    c d c b a( g) \barMin
     g f g a a a c b g( a) a \barFinalis
   }
   \addlyrics {
@@ -66,11 +66,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a a a g a g( f e) \barMaior
-    d c d e f( a) \barMin
-    a a g( b g) a g a a \barMin a g( a) g f d e e \barFinalis
+    f4 f e d f g g e \barMaior
+    f g a a g( a) \barMin
+    a a g b g a a \barMin a g( a) g f d e e \barFinalis
   }
   \addlyrics {
     He -- ro -- des měl před Ja -- nem strach,
@@ -80,9 +80,8 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = "Dan 3-III"
-    placet = "spíš lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -114,14 +113,14 @@
 
     % R
     \neviditelna f
-    f4 f f f g a a( g) \barMaior
-    g g( a) g \barMin f( d) f g g( f) f \barFinalis
+    f4 f g f g g( a) a( g) \barMaior
+    f g( a) g \barMin f( d) f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a( bes) a g( a) g \barMin g g g f g g g( a) \barMax
+    a( bes) a g( a) g \barMin g g g f g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g( a) g \barMin f( d) f g g( f) f \barFinalis
+    f g( a) g \barMin f( d) f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -239,13 +238,13 @@
     % R
     \neviditelna f
     f4 f( g) f f g f g a a( g) \barMax
-    g g( a) g \barMin g f d f g g f f \barFinalis
+    f g( a) g \barMin g f d f g g f f \barFinalis
     % V
     \neviditelna a
-    a( bes) a a g( a g) \barMin g f g g( a) a( g) \barMax
+    a( bes) a a g( a) \barMin a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g( a) g \barMin g f d f g g f f \barFinalis
+    f g( a) g \barMin g f d f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
