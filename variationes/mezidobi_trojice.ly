@@ -810,6 +810,38 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g( a) a( g) \barMax
+    g( a) g \mark\sipka f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a g( a) g \barMin g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g \mark\sipka f g g f \barFinalis
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Troj -- je -- di -- né -- mu Bo -- hu_*
+    vzdej -- me čest a chvá -- lu.
+    \Verse Ot -- ci i Sy -- nu i sva -- té -- mu Du -- chu_*
+    \Response vzdej -- me čest a chvá -- lu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
 
     % R
