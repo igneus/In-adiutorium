@@ -82,7 +82,7 @@
     g a c( d) d c \barMin
     d e e d c d( e) e d d \barMaior
     d c b a g a \barMin
-    c b a( b) a( g) g \barMin
+    c b a( b) a a( g) \barMin
     a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
@@ -106,10 +106,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g f g a g g \barMin
-    f g f e d c d c c \barMaior
-    d d f g( f) d d \barMin
-    c d e( f d) d \barFinalis
+    f4 f g f g g a a \barMin
+    a a g f e f d c c \barMaior
+    d f f g( f) d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Buď -- te vní -- ma -- ví pro slo -- vo,
@@ -131,21 +131,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b g g a f g g( a) \barMin
-    a b c c( d) c a a \barMaior
-    c c b a g( a) g g \barMin
-    a g f a a( g) g \barFinalis
+    c4 c c c b a g( a) g g \barMin
+    f g a a a( b) a g g \barMaior
+    a a a a f( e) d d \barMin
+    f g a( c) b a( g) g \barFinalis
   }
   \addlyrics {
-    Člo -- vě -- ka ne -- mů -- že po -- skvr -- nit nic,
-    co do něj vchá -- zí zven -- čí,
+    Člo -- vě -- ka ne -- mů -- že po -- skvr -- nit
+    nic, co do něj vchá -- zí zven -- čí,
     a -- le co z_něj vy -- chá -- zí,
     to ho po -- skvr -- ňu -- je.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G*"
+    differentia = "c"
     scriptura = "srov. Mk 7, 18.20"
     psalmus = ""
     id = "ne22b-2ne-mag"
