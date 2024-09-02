@@ -96,6 +96,7 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    scriptura = "srov. Dt 4, 6"
     psalmus = ""
     id = "ne22b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -120,6 +121,7 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "f"
+    scriptura = "Jak 1, 21"
     psalmus = ""
     id = "ne22b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -144,6 +146,7 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G*"
+    scriptura = "srov. Mk 7, 18.20"
     psalmus = ""
     id = "ne22b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
