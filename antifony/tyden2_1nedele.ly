@@ -204,6 +204,7 @@ tIInedeleInespAntIII = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-II"
+    placet = "2 melismata na _našemu_ jsou nějak navíc"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
   }
