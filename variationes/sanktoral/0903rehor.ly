@@ -110,6 +110,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c c d( e) d c d d \barMin
+    d e d c b a( g) g \barMaior
+    \mark\sipka f g a a a c b c a a \barMin
+    g f a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ře -- hoř byl vy -- ni -- ka -- jí -- cím
+    pas -- tý -- řem své -- ho li -- du
+    a za -- ne -- chal nám pří -- klad i ná -- vod
+    k_ve -- de -- ní du -- ší.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c c \mark\sipka d e e d c d( e) d d \barMin
+    c( b) g a( g) a \barMaior
+    f g a a a c d d c c \barMin
+    c b g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ře -- hoř byl vy -- ni -- ka -- jí -- cím pas -- tý -- řem
+    své -- ho li -- du
+    a za -- ne -- chal nám pří -- klad i ná -- vod
+    k_ve -- de -- ní du -- ší.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -180,6 +228,36 @@
     a( c) b a( b) a( g) g \barMaior
     a a a a a f( e d) \barMin
     f g g a a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- pež Ře -- hoř
+    na -- pl -- ňo -- val skut -- kem to,
+    če -- mu slo -- vem u -- čil,
+    a pří -- kla -- dem
+    své -- ho ži -- vo -- ta
+    u -- ka -- zo -- val, jak žít
+    po -- dle Kris -- to -- va u -- če -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g \barMin
+    f g a a a( c) b \barMaior
+    c \mark\sipka a c b a g g \barMax
+    \mark\sipka f g( a) a a
+    b( c a) g a g g \barMaior
+    a a a \mark\sipka g f g( a) \barMin
+    c a b c a g( a) g g \barFinalis
   }
   \addlyrics {
     Pa -- pež Ře -- hoř
