@@ -14,6 +14,12 @@
   }
 }
 
+\markup\justify{
+  (Velikonoční invitatorium modu I mají cisterciáci,
+  ale v době vzniku tohoto jsem o tom samozřejmě neměl ani tušení.
+  Navíc to cisterciácké je alelujatické, dlouhé a zdobné.)
+}
+
 \score {
   \relative c' {
     \choralniRezim
