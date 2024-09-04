@@ -16,8 +16,8 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c) c c d( e) d c d d \barMin
-    d e d c b g( a) a \barMaior
-    a c c b a c d d c c \barMin
+    d e d c b a( g) g \barMaior
+    f g a a a c d d c c \barMin
     c b g a( g) g \barFinalis
   }
   \addlyrics {
@@ -39,12 +39,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) g \barMin
-    c b c c a( c) b \barMaior
-    c c c b( d c) a g g \barMax
-    g f( g) g g g( a) f g a a \barMaior
-    c a c b a g( a g) \barMin
-    a g f g a a g g \barFinalis
+    g4 g g( c) c \barMin
+    d e d c c( d) d \barMaior
+    d c d c a g g \barMax
+    f g( a) a a a( c) b c d d \barMaior
+    d e d c d d( c) \barMin
+    c a b c a g( a) g g \barFinalis
   }
   \addlyrics {
     Pa -- pež Ře -- hoř
@@ -56,8 +56,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
