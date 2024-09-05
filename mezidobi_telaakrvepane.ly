@@ -380,7 +380,7 @@
   \relative c'' {
     \choralniRezim
     c4 c a( g) a( c) c4.( d) \barMin c4 c d( c b a) c( b a) g a( g) g \barMax
-    g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior c4 c d4.( c4 b) a( g) a( g) g \barMaior
+    g f g g4.( a) \barMin a4( b a) g g4.( a) \barMaior a4 g f g( a) a( g) g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -393,8 +393,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "_sestoupil_ je těžkopádné, text melismata moc dobře nenese;
-    závěr není úplně uspokojivý"
+    placet = "_sestoupil_ je těžkopádné, text melismata moc dobře nenese"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -633,7 +633,7 @@
     differentia = "c"
     psalmus = ""
     fons = "první část: Těla a Krve Páně, k Benedictus"
-    fial = "mezidobi_telaakrvepane.ly#rch-aben?zacatek"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?cast=1-4"
     id = "ne19b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -657,7 +657,7 @@
     differentia = "c"
     psalmus = ""
     fons = "Těla a Krve Páně, k Benedictus; drobné úpravy v textu i melodii"
-    fial = "mezidobi_telaakrvepane.ly#rch-aben?cast=2,4"
+    fial = "mezidobi_telaakrvepane.ly#rch-aben?cast=2,4-5"
     id = "ne20b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
