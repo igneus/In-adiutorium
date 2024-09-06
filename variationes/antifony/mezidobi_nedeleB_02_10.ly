@@ -52,10 +52,33 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 e g f( e) e \barMaior
     d f \mark\sipka g( a) a \barMin
+    a( b) a g a g e e \barFinalis
+  }
+  \addlyrics {
+    Mis -- tře, kde byd -- líš?
+    Je -- žíš ře -- kl:
+    Pojď -- te a u -- vi -- dí -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne2b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka e4 e g f( e) e \barMaior
+    d f g( a) a \barMin
     a( b) a g a g e e \barFinalis
   }
   \addlyrics {
