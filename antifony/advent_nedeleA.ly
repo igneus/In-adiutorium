@@ -54,9 +54,9 @@
     \choralniRezim
     g4 g( a) a a g f g( a) g g \barMin
     f g( a) a \barMaior
-    a( b c b) a( g) g \barMaior
-    a g f g a g g \barMin
-    f a a( g) g \barFinalis
+    a( b c b) a( g) g \barMin
+    a g f g a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý na te -- be se -- stou -- pí,

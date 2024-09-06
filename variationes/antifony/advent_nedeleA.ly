@@ -423,13 +423,43 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) a a g f g( a) g g \barMin
     f g( a) a \barMaior
     \mark\sipka a( b c b) a( g) g \barMaior
     a g f g a g g \barMin
     f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (divisiones, aleluja)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) a a g f g( a) g g \barMin
+    f g( a) a \barMaior
+    a( b c b) a( g) g \mark\sipka \barMin
+    a g f g a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý na te -- be se -- stou -- pí,
