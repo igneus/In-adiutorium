@@ -101,7 +101,7 @@
   \relative c'' {
     \choralniRezim
     c4( d) c c b a g( a) g \barMaior
-    a f( e) d \barMin f g a c b( c) a( g) g \barFinalis
+    f g( a) a \barMin c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Cho -- dil po správ -- ných ces -- tách,
@@ -198,8 +198,8 @@
     \choralniRezim
     c4 d d e( f d) c( d) d \barMin
     f g a a( bes) g g( a) a \barMaior
-    a g e( f e d) d \barMin
-    c d f( e) c d d \barFinalis
+    g f e( f d4.) d \barMin
+    c4 f e d( e) d d \barFinalis
   }
   \addlyrics {
     Ná -- rod ho na -- zý -- vá
@@ -266,7 +266,7 @@
     \key f \major
     a4( bes) a a \barMin
     g a f e f d d \barMaior
-    c d f f f e c( d) d \barFinalis
+    c d f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Ne -- do -- pusť,
@@ -358,7 +358,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4--( e f e d) d \barMin
+    d4( e f d) d \barMin
     d c a c d d \barMaior
     f g a g f g g( f) f \barMaior
     f( g f) e( d) c \barMin
