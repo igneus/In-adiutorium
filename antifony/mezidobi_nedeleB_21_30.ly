@@ -180,9 +180,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 d c b a g g a g f g g \barMaior
-    a g a g a c c( b) b \barMin
-    a a( c) b( a) g g \barFinalis
+    c4 d c b a g g f g a g g \barMaior
+    a a a a c b a( g) g \barMin
+    f f( a) f f( g) g \barFinalis
   }
   \addlyrics {
     K_Je -- ží -- šo -- vi při -- ved -- li hlu -- cho -- ně -- mé -- ho,

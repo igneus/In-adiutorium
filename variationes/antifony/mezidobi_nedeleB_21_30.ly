@@ -771,6 +771,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4( g) g( a) a a g f g( f) e \barMaior
+    \mark\sipka d( f) g( a) a a c b a( b) a \barMaior
+    a \[ a( c b a \] \[ g a g f) \] e( d) c( d) \barMin d c d( f) e( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- tev -- řou se o -- či sle -- pých,
+    o -- de -- mknou se u -- ši hlu -- chých
+    a za -- ple -- sá ja -- zyk ně -- mé -- ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne23b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -798,11 +820,100 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c b a g g a g f g g \barMaior
     a g a g a c c( b) b \barMin
     a a( c) b( a) g g \barFinalis
+  }
+  \addlyrics {
+    K_Je -- ží -- šo -- vi při -- ved -- li hlu -- cho -- ně -- mé -- ho,
+    a -- by na něj vlo -- žil ru -- ku
+    a u -- zdra -- vil ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne23b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b a g g \mark\sipka f g a g g \barMaior
+    f g a a c b a( g) g \barMin
+    f f( a) f f( g) g \barFinalis
+  }
+  \addlyrics {
+    K_Je -- ží -- šo -- vi při -- ved -- li hlu -- cho -- ně -- mé -- ho,
+    a -- by na něj vlo -- žil ru -- ku
+    a u -- zdra -- vil ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne23b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c b a g g f g a g g \barMaior
+    \mark\sipka a a a a c b a( g) g \barMin
+    f f( a) f f( g) g \barFinalis
+  }
+  \addlyrics {
+    K_Je -- ží -- šo -- vi při -- ved -- li hlu -- cho -- ně -- mé -- ho,
+    a -- by na něj vlo -- žil ru -- ku
+    a u -- zdra -- vil ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne23b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b a g g f g a g g \barMaior
+    a a a a \mark\sipka g f g( a) a \barMin
+    a a( c) b( a) g g \barFinalis
+  }
+  \addlyrics {
+    K_Je -- ží -- šo -- vi při -- ved -- li hlu -- cho -- ně -- mé -- ho,
+    a -- by na něj vlo -- žil ru -- ku
+    a u -- zdra -- vil ho.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne23b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b a g g f g a g g \barMaior
+    a a a a g f g( a) a \barMin
+    a a( c) \mark\sipka b a( g) g \barFinalis
   }
   \addlyrics {
     K_Je -- ží -- šo -- vi při -- ved -- li hlu -- cho -- ně -- mé -- ho,
