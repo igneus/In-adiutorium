@@ -1400,3 +1400,47 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) e d e( f) d d \barMaior
+    d e c a c d d f( d c) d \barMaior
+    f f( g f) d d \barFinalis
+  }
+  \addlyrics {
+    Buď věr -- ný až do smr -- ti,
+    a dám ti za od -- mě -- nu ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) e d e( f) d d \barMaior
+    d e c a c d \mark\sipka e d d \barMaior
+    f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Buď věr -- ný až do smr -- ti,
+    a dám ti za od -- mě -- nu ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
