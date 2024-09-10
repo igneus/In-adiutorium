@@ -1148,6 +1148,48 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g g a a c b a b g g \barMaior
+      a a a f e d d f( g) g \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Magnificat"
+      annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f g g a a g a g f g g \barMaior
+      bes a g f g a g f f \barFinalis
+    }
+    \addlyrics {
+      Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+      a -- by ho před -- sta -- vi -- li Pá -- nu.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Magnificat"
+      annus = "B"
+      id = "svrodiny-1ne-amagB"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
   \pageBreak
 
   \score {

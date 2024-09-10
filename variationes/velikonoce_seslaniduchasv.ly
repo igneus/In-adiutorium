@@ -3336,6 +3336,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a g g \barMin
+    a \mark\sipka c c b( c) a a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    U -- pev -- ňuj, Bo -- že,
+    co jsi v_nás vy -- ko -- nal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 114"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a f d \barMin

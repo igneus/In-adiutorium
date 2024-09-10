@@ -81,6 +81,24 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d b c a g \barMin f( a) g \barFinalis
+  }
+  \addlyrics {
+    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-po-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f a g f g g f \barMin g( a) f \barFinalis
@@ -445,6 +463,24 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "t1-po-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b c a g f \barMin g( a) f \barFinalis
+  }
+  \addlyrics {
+    Po -- chvá -- len buď Hos -- po -- din, náš Bůh.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     id = "t1-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
