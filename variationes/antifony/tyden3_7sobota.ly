@@ -763,6 +763,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 f g f g g( a) a \barMin
     \mark\sipka g f g( a) g( f) f \barFinalis
@@ -994,6 +995,26 @@
     \choralniRezim
     f4 f e d c d c c \barMin
     d \mark\sipka e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- staň se mě, Hos -- po -- di -- ne,
+    a po -- moz mi.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 119-ע"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d \mark\sipka e c d d \barMin
+    c e( f) d d \barFinalis
   }
   \addlyrics {
     Za -- staň se mě, Hos -- po -- di -- ne,
