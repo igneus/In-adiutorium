@@ -1370,6 +1370,35 @@ ale na diferenci žalmového nápěvu?}
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f e) d f( g) g a g( f) e \barMin
+    f g f( d) d f( e) c c d d \barMaior
+    a c d d c e( f) d d \barMin
+    d f f f e c c( d) d \barMaior
+    a' g f f g f d d \barMin
+    \mark\sipka f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me to -- mu,
+    kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#28-amag?konec&volne"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g g( c) b b( c) a g f( g) g \barMin
