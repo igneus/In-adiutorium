@@ -59,6 +59,30 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin \mark\sipka d c e d d \barMaior
+    e e d c d( c a) \barMin a( b) g g( a) a \barFinalis
+
+    g^\markup\rubrVelikAleluja b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, dce -- ry, na -- pro -- ti Pá -- nu,
+    a bu -- de -- te žít v_je -- ho svět -- le.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     c4 d d( f) f \barMin g f a g g \barMaior
@@ -86,6 +110,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g( f d) d \barMin d d d f d c( d e) d \barMaior
     f f( a bes) g f g f \barMin g f e d( e) d d \barFinalis
@@ -139,6 +164,31 @@
     \mark\sipka a g( a) g f e( d) d \barMin c f e d( e) d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    S_lás -- kou a báz -- ní jde -- me za te -- bou, Pa -- ne,
+    a sklá -- dá -- me v_te -- be všech -- nu svou na -- dě -- ji.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g( f d4.) d \barMin c4 d f e d f( g a) g \barMaior
+    \mark\sipka g g( a) g f f( g) f \barMin f e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     S_lás -- kou a báz -- ní jde -- me za te -- bou, Pa -- ne,
@@ -424,6 +474,38 @@
     % R
     \neviditelna a
     f d f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Mým ú -- dě -- lem je Pán,_*
+    v_ně -- ho bu -- du dou -- fat.
+    \Verse Je do -- bro -- ti -- vý k_těm, kdo ho hle -- da -- jí,_*
+    \Response v_ně -- ho bu -- du dou -- fat.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g f g a a( g) \barMax
+    f d f g \mark\sipka g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a g( a) g \barMin g g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    f d f g \mark\sipka g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

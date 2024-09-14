@@ -38,10 +38,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g( f d) d \barMin d d d f d c( d e) d \barMaior
-    f f( a bes) g f g f \barMin g f e d( e) d d \barFinalis
+    a4 a a g( f d4.) d \barMin c4 d f e d f( g a) g \barMaior
+    g g( a) g f f( g) f \barMin f e c e( f) d d \barFinalis
 
-    c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     S_lás -- kou a báz -- ní jde -- me za te -- bou, Pa -- ne,
@@ -54,7 +54,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 147-II"
-    placet = "4 lépe"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
