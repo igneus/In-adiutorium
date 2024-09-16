@@ -1057,7 +1057,9 @@
   narozdíl od se-DM-a-sedmdesátkrát, snadno zazpívat.
   Sedmasedmdesátkrát místo sedmdesátsedmkrát jsem zvolil
   abych se vyhnul absolutnímu rýmu - mj. i rytmickému.
-  (A v podobné antifoně doby postní je to tak i v oficiálním znění)
+  (A v podobné antifoně doby postní
+  - \fial-link "antifony/pust_tyden3.ly#ut-aben" -
+  je to tak i v oficiálním znění)
 }
 
 \score {
