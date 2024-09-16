@@ -315,7 +315,7 @@
     a( g a) g f e e f( g) a a g( a) a \barMaior
     a g a c a \barMin
     c b c a( g) g( a) a \barMaior
-    a( g) f e( f e d) d \barMin d c d d( f) e d d \barMax
+    a( g) f e( f d4.) d4 \barMin d c d d( f) e d d \barMax
     f g a a( bes a) a \barMin
     g a g f e( f) d d \barFinalis
   }
@@ -343,20 +343,20 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( a' f) e f( g) d d \barMaior
+    d4 d d d( f e) d e( f) d d \barMaior
     f( e d) c d d( c) c \barMax
-    d d( f d) f( e) f( g a g) g \barMaior
-    g( a g) \bar ";" a(^\markup\small\italic{možno vynechat} bes a g a g) \bar ";" f f f e c( d) d \barFinalis
+    d d( f e) f( e) f( g a g) g \barMaior
+    \[ g( a g-- \] \[ a bes a \] \[ g a g) \] f f f e c( d) d \barFinalis
   }
   \addlyrics {
     Ten, kte -- rý ze -- mřel na kří -- ži,
     zlo -- mil moc smr -- ti
     a vlast -- ní mo -- cí
-    vstal \skip 1 tře -- tí -- ho dne z_mrt -- vých.
+    vstal tře -- tí -- ho dne z_mrt -- vých.
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"

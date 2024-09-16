@@ -247,12 +247,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( a' f) e f( g) d d \barMaior
+    d4 d d d( f e) d e( f) d d \barMaior
     f( e d) c d d( c) c \barMax
-    d d( f d) f( e) f( g a g) g \barMaior
-    g( a g) \bar ";" a(^\markup\small\italic{možno vynechat} bes a g a g) \bar ";" f f f e c( d) d \barMaior
+    d d( f e) f( e) f( g a g) g \barMaior
+    \[ g( a g-- \] \[ a bes a \] \[ g a g) \] f f f e c( d) d \barMaior
 
-    f f( g f) d d \barFinalis
+    c e( f) d d \barFinalis
   }
   \addlyrics {
     Ten, kte -- rý ze -- mřel na kří -- ži,
@@ -264,7 +264,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
     fial = "sanktoral/0914povysenisvatehokrize.ly#rch-a1?+aleluja"

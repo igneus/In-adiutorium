@@ -1540,7 +1540,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( a' f) e f( g) d d \barMaior
     f( e d) c d d( c) c \barMax
@@ -1560,6 +1560,41 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    fial = "sanktoral/0914povysenisvatehokrize.ly#rch-a1?+aleluja"
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  \aktualisace
+  (+ vhodnější aleluja)
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d( f e) d e( f) d d \barMaior
+    f( e d) c d d( c) c \barMax
+    d d( f e) f( e) f( g a g) g \barMaior
+    \[ g( a g-- \] \[ a bes a \] \[ g a g) \] f f f e c( d) d \barMaior
+
+    c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ten, kte -- rý ze -- mřel na kří -- ži,
+    zlo -- mil moc smr -- ti
+    a vlast -- ní mo -- cí
+    vstal \skip 1 tře -- tí -- ho dne z_mrt -- vých.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
     fial = "sanktoral/0914povysenisvatehokrize.ly#rch-a1?+aleluja"
