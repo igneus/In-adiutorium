@@ -1236,6 +1236,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( a) a d c b a a \barMin
+    a c \mark\sipka c b c a( g) g \barMaior
+    f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?zacatek"
+    id = "ne24b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny 3
 
 \markup\justify{

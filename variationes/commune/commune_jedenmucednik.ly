@@ -2110,6 +2110,28 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    \mark\sipka f4 f g g( a) a \barMin a( g) f g f( d) d \barMaior
+    d f g f4.( g) \barMin f4 e( d e) d( c) c( d) d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    Kdo chce jít za mnou, za -- při sám se -- be,
+    vez -- mi svůj kříž a ná -- sle -- duj mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 f g g( a) f f( g) g \barMaior
@@ -2241,6 +2263,33 @@
     quid = "2. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 g a a( bes) g g( a) a \barMaior
+    a g( a) g \barMin g f e f d d( c) \barMaior
+    d d( f) e d c( d) d \barFinalis
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    % Do textu jsem zasahl, protoze tak, jak je v breviari,
+    % drasa me ceske ucho - souveti je chybne postavene.
+    Jest -- li -- že mi kdo slou -- ží,
+    můj O -- tec, kte -- rý je v_ne -- be -- sích,
+    ho za -- hr -- ne po -- ctou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Jestliže mi kdo slouží, toho můj Otec, který je v nebesích, zahrne poctou. Aleluja."
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 116-II"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
