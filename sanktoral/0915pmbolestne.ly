@@ -87,9 +87,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a( b) a( g) a \barMaior
-    a c( d) d c e d \barMin
-    c( d c) b a g g f( a) a g g \barFinalis
+    a4 a( b) a( g) a \barMin
+    a c( d) d c e d \barMaior
+    c( d c) b a g g f( g) a g g \barFinalis
   }
   \addlyrics {
     Bůh roz -- ho -- dl,
@@ -254,7 +254,7 @@
     \neviditelna a
     bes bes a g a f e( f) d \barMin e g f d d \barFinalis
     % Slava
-    a' a a g f g( a) a \barMin a bes a g( bes) a a \barFinalis
+    a' a a g f g( a) a \barMin a g a a( bes) a a \barFinalis
   }
   \addlyrics {
     \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
@@ -267,6 +267,7 @@
     quid = "resp."
     modus = "I"
     placet = "zkusit tradiční nápěv"
+    fial = "pust_svatytyden.ly#ne-resp?cast=9-10&zanedbat=delky"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }

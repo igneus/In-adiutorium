@@ -223,6 +223,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin g g g f e d d \barMaior
+    d e c \mark\sipka a a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, stal ses mým po -- moc -- ní -- kem,
+    má du -- še při -- lnu -- la k_to -- bě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -476,11 +496,59 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 \mark\sipka a( b) a( g) a \barMaior
     a c( d) d c e d \barMin
     c( d c) b a g g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh roz -- ho -- dl,
+    že Kris -- to -- vou kr -- ví
+    smí -- ří se se -- bou všech -- no tvor -- stvo.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (divisiones)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a( b) a( g) a \barMin
+    a c( d) d c e d \barMaior
+    c( d c) b a g g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh roz -- ho -- dl,
+    že Kris -- to -- vou kr -- ví
+    smí -- ří se se -- bou všech -- no tvor -- stvo.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( b) a( g) a \barMin
+    a c( d) d c e d \barMaior
+    c( d c) b a g g \mark\sipka f( g) a g g \barFinalis
   }
   \addlyrics {
     Bůh roz -- ho -- dl,
@@ -1827,6 +1895,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f e d( e) c \barMin
+    d f e e d \barMaior
+    f f f f \mark\sipka g( f d4.) d \barMin
+    f f f f e d c( d e) d \barFinalis
+  }
+  \addlyrics {
+    V_Kris -- tu má -- me vy -- kou -- pe -- ní
+    skr -- ze je -- ho krev,
+    od -- puš -- tě -- ní hří -- chů
+    pro je -- ho ne -- smír -- nou mi -- lost.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1866,7 +1958,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
 
@@ -1893,6 +1985,41 @@
   \header {
     quid = "resp."
     modus = "I"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f g f e d d \barMin f e g a a \barMax
+    bes bes a g a f e( f) d \barMin e g f d d \barFinalis
+    % V
+    \neviditelna g
+    a4 a a a g( a) g g \barMin f g bes a g( a) a \barMax
+    % R
+    \neviditelna a
+    bes bes a g a f e( f) d \barMin e g f d d \barFinalis
+    % Slava
+    a' a a g f g( a) a \barMin a \mark\sipka g a a( bes) a a \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
+    pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \Verse Bez smr -- ti jsi do -- sáh -- la mu -- čed -- nic -- ké pal -- my,_*
+    \Response pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    fial = "pust_svatytyden.ly#ne-resp?cast=9-10&zanedbat=delky"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
