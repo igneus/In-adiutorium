@@ -441,6 +441,37 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna e
+    e e g a a g g( a) a \barMax
+    a a b a g( a) e e \barMin e d c d f f e e \barFinalis
+    % V
+    \neviditelna a
+    e( a b) a a \barMin a g( a) g f d( e) e \barMaior
+    f f g a e e \barMin e d c d d( f e) e \barMax
+  }
+  \addlyrics {
+    \Response Až se při -- blí -- ží den sou -- du,_*
+    ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \Verse Vzpřim -- te se a zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží va -- še vy -- kou -- pe -- ní;_*
+    \Response ob -- je -- ví se na ne -- bi zna -- me -- ní Sy -- na člo -- vě -- ka.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\nadpisSkupiny 2
+
+\score {
   \relative c'' {
     \choralniRezim
 
@@ -476,7 +507,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -545,11 +576,22 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
     \neviditelna g
     g4 g a \mark\sipka a g f g( a) a \barMax
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
+    % V
+    \neviditelna g
+    g( d' e) d d \barMin d e( f) d c c( d) d \barMaior
+    d d c b c( a g4.) g \barMin a4 g f \mark\sipka a a( g) g \barMax
+    % R
+    \neviditelna a
+    a b c b c( d) a a \barMin a g f g a a g g \barFinalis
+    % Slava
+    g( d' e) d e( f) d c c( d) d \barMin d c b c( a) g g \barFinalis
   }
   \addlyrics {
     \Response Až se při -- blí -- ží den sou -- du,_*
@@ -567,7 +609,7 @@
   }
 }
 
-\markup\nadpisSkupiny 2
+\markup\nadpisSkupiny 3
 
 \score {
   \relative c' {

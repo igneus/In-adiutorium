@@ -89,12 +89,12 @@
 
     % R
     \neviditelna g
-    g4 g a g f g g( a) a \barMax
+    g4 g a a g f g( a) a \barMax
     a b c b c( d) a a \barMin a g f g a a g g \barFinalis
     % V
     \neviditelna g
     g( d' e) d d \barMin d e( f) d c c( d) d \barMaior
-    d d c b c( a g4.) g \barMin a4 g f g g( a) a \barMax
+    d d c b c( a g4.) g \barMin a4 g f a a( g) g \barMax
     % R
     \neviditelna a
     a b c b c( d) a a \barMin a g f g a a g g \barFinalis
