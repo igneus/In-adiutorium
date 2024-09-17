@@ -571,8 +571,8 @@
   \relative c'' {
     \choralniRezim
     d4 b d( e) d d \barMin d a b( g) g \barMaior
-    f a c b c d c c \barMin
-    d d c( d) c b a( g) g \barFinalis
+    c c b a c d d-- d \barMin
+    c a b c a a( g) g \barFinalis
   }
   \addlyrics {
     Ni -- kdo ne -- mů -- že při -- jít ke mně,
@@ -584,7 +584,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "3 druhou půlku spíš lépe"
     id = "ne19b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
