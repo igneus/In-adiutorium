@@ -97,6 +97,46 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f g a \barMin
+    a a \mark\sipka g f e d e d c d d \barFinalis
+  }
+  \addlyrics {
+    Vzác -- ná je smrt,
+    kte -- rá pla -- tí kr -- ví za ne -- smr -- tel -- nost.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g a \barMin
+    a a g f e \mark\sipka c e f e d d \barFinalis
+  }
+  \addlyrics {
+    Vzác -- ná je smrt,
+    kte -- rá pla -- tí kr -- ví za ne -- smr -- tel -- nost.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 e f d \barMaior
     c d f g a g
     f e c d d \barFinalis
@@ -274,6 +314,31 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Začátek z první verze nahoře, konec z aktuální.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d c \barMin
+    f g a( g f) g \barMaior
+    e f d c c \barMin d f e( d c d) d \barFinalis
+  }
+  \addlyrics {
+    Círk -- vi Kris -- to -- va,
+    na -- še mat -- ko,
+    krev mu -- čed -- ní -- ků je tvu slá -- vou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "amag"
