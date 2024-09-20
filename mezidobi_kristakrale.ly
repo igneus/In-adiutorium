@@ -9,6 +9,7 @@
             slavnost
             "34. neděle v mezidobí"
   composer = "Jakub Pavlík"
+  book_order = 40
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}

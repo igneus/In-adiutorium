@@ -3,6 +3,7 @@
 \header {
   title = "slavnost Těla a Krve Páně"
   composer = "Jakub Pavlík"
+  book_order = 20
 }
 
 \include "spolecne.ly"

@@ -3,6 +3,7 @@
 \header {
   title = "slavnost Nejsvětější Trojice"
   composer = "Jakub Pavlík"
+  book_order = 10
 }
 
 \include "spolecne.ly"

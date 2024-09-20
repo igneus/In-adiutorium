@@ -9,6 +9,7 @@
             "svátek"
             "čtvrtek po slavnosti Seslání Ducha Svatého"
   composer = "Jakub Pavlík"
+  book_order = 5
 }
 
 \markup {\nadpisHodinka {"invitatorium"}}
