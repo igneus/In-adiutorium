@@ -258,6 +258,34 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f e f f( g) g( f) f \barMin
+    g f e d( e) d d \barMaior
+    a c( d) d \barMin
+    c e( d) d \barMaior
+    f g--
+    f \mark\sipka d e d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl Ma -- tou -- še,
+    jak se -- dí v_cel -- ni -- ci.
+    Ře -- kl mu:
+    Pojď za mnou!
+    On vstal
+    a šel za ním.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f e \mark\sipka d f( g) g( f) f \barMin
     g f e d( e) d d \barMaior
     a c( d) d \barMin
