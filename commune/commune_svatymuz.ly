@@ -6,6 +6,7 @@
 \header {
   title = \markup\titleCommune "O svatých mužích"
   composer = "Jakub Pavlík"
+  book_order = 90
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}

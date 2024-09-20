@@ -6,6 +6,7 @@
 \header {
   title = \markup\titleCommune "O učitelích církve"
   composer = "Jakub Pavlík"
+  book_order = 70
 }
 
 \markup\justify\italic{

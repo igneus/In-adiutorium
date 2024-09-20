@@ -1,8 +1,9 @@
 \version "2.15.37"
 
 \header {
-  title = "Společné texty o evangelistech"
+  title = \markup\titleCommune "O evangelistech"
   composer = "Jakub Pavlík"
+  book_order = 31
 }
 
 \include "../spolecne.ly"

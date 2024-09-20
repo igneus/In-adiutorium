@@ -1,8 +1,9 @@
 \version "2.14.2"
 
 \header {
-  title = "Společné texty o apoštolech"
+  title = \markup\titleCommune "O apoštolech"
   composer = "Jakub Pavlík"
+  book_order = 30
 }
 
 \include "../spolecne.ly"
