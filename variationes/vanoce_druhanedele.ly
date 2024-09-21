@@ -1628,6 +1628,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka f4 g( a) a \barMin
+    f g( a) g f e e \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- slal
+    svou mi -- lost a věr -- nost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 115"
+    id = "ne2-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     e4 g( a) a \barMin
     g( f) g( a) g f e e \barFinalis
   }
