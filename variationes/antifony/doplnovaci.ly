@@ -730,7 +730,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a f g \barMin
     \mark\sipka g a g( f) d f g g f \barFinalis
@@ -751,6 +751,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g a f g \barMin
     \mark\sipka a a g f d f g( f) f \barFinalis

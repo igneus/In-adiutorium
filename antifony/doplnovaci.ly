@@ -181,7 +181,7 @@
   \relative c' {
     \choralniRezim
     f4 g a f g \barMin
-    g a g( f) d f g g f \barFinalis
+    a a g f d f g( f) f \barFinalis
   }
   \addlyrics {
     Bla -- ze kaž -- dé -- mu,
