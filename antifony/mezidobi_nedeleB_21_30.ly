@@ -316,8 +316,8 @@
   \relative c'' {
     \choralniRezim
     g f g( a) a \barMin
-    c b a b a( g) \barMaior
-    c c d( c a) a \barMin
+    c c b c a( g) \barMaior
+    c c c( d c) c \barMin
     c b g a( g) g \barFinalis
   }
   \addlyrics {

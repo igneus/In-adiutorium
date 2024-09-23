@@ -1390,7 +1390,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g f g( a) a \barMin
     c b a b a( g) \barMaior
@@ -1420,6 +1420,31 @@
     c b a b a( g) \barMaior
     c c d( c a) a \barMin
     c b \mark\sipka a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Kdo mne při -- jme,
+    ne -- při -- jí -- má mne,
+    a -- le to -- ho,
+    kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ne25b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g f g( a) a \barMin
+    c \mark\sipka c b c a( g) \barMaior
+    c c c( d c) c \barMin
+    c b g a( g) g \barFinalis
   }
   \addlyrics {
     Kdo mne při -- jme,
