@@ -20,6 +20,9 @@
 
 \markup {\nadpisHodinka {"nešpory"}}
 
+\markup\justify{
+  Z mariánského svátku.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -43,6 +46,9 @@
   }
 }
 
+\markup\justify{
+  Z (římských, ne dominikánských) společných textů o vyznavačích.
+}
 \score {
   \relative c'' {
     \choralniRezim
@@ -68,6 +74,9 @@
   }
 }
 
+\markup\justify{
+  Z Božího Těla.
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -95,24 +104,67 @@
   }
 }
 
-% https://cantusindex.org/id/003255
-% https://cantusindex.org/id/003256
-% http://gregorianik.uni-regensburg.de/an/#id/244
-% https://gregobase.selapa.net/chant.php?id=5783
+\pageBreak
+
+\markup\justify{
+  Ze svátku sv. Jana Evangelisty.
+}
+\markup\column{
+  \url-link "https://cantusindex.org/id/003255"
+  \url-link "https://cantusindex.org/id/003256"
+  \url-link "http://gregorianik.uni-regensburg.de/an/#id/244"
+  \url-link "https://gregobase.selapa.net/chant.php?id=5783"
+}
+
+\markup\justify{
+  (Ten delší text s melodií v modu VIII je sice i v dominikánském antifonáři,
+  ale pro adaptaci na daný český text se jeví mnohem méně příhodný.)
+}
+
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f g f( a) a \barFinalis
+    a( c) a a g f g( a) g \barMaior
+    g a a a a g f e( f) d d( c) \barMin
+    d f( e) c( d) d \barFinalis
   }
   \addlyrics {
     U -- pro -- střed shro -- máž -- dě -- ní
     o -- te -- vřel mu Pán ús -- ta
-    a na -- pl -- nil ho du -- chem moud -- ros -- ti a ro -- zu -- mu.
+    a na -- pl -- nil ho du -- chem moud -- ros -- ti
+    a ro -- zu -- mu.
   }
   \header {
+    fons_externus = "velmi volně podle CANTUS 003255"
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-b-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barFinalis
+    a( c) a a g f g( a) g \barMaior
+    g a a \mark\sipka g f g( a) g f e d( c) \barMin
+    d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    U -- pro -- střed shro -- máž -- dě -- ní
+    o -- te -- vřel mu Pán ús -- ta
+    a na -- pl -- nil ho du -- chem moud -- ros -- ti
+    a ro -- zu -- mu.
+  }
+  \header {
+    fons_externus = "velmi volně podle CANTUS 003255"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "ne-b-amag"
     piece = \markup {\sestavTitulekBezZalmu}

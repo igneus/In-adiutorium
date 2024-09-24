@@ -471,6 +471,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyIII
     \choralniRezim
     c4 c b c a g f \barMin g( a) f \barFinalis
   }
