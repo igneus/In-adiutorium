@@ -548,7 +548,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( a') g f g( f) e e \barMin f g f( d) d \barMaior
     d c d d f c d \barMin f f f g f e d d \mark\sipka \barMin
@@ -595,6 +595,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d( a') \mark\sipka a a g( f) e e \barMin f g f( d) d \barMaior
     d c d d f c d \barMin f f f g f e d d \barMin
