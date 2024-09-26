@@ -17,6 +17,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a c d d c( b) c( d) d \barMin
     f( d e) d( c) c d d( e) c a a \barMaior
@@ -53,6 +54,29 @@
     quid = "2. ant."
     modus = "IV"
     differentia = "E"
+    psalmus = "Žalm 117"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g( a) g g \barMin
+    a a g f e f d( c) c \barMaior
+    d f f f f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci vi -- dě -- li_*
+    Moj -- ží -- še a E -- li -- á -- še,
+    jak roz -- mlou -- va -- jí s_Je -- ží -- šem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 117"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -216,6 +240,58 @@
     quid = "3. ant."
     modus = "I"
     differentia = "a"
+    psalmus = "Zj 19"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a \barMin a g a g f g g \barMaior
+    a a g a g f e f d( c) c \barMax
+    d f f( g) g \barMin
+    a a g a g g \barMaior
+    g a \mark\sipka a g f g f f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,_* je dob -- ře, že jsme ta -- dy.
+    Chceš -- -li, po -- sta -- ví -- me tu tři sta -- ny:
+    je -- den to -- bě,
+    je -- den Moj -- ží -- šo -- vi
+    a je -- den E -- li -- á -- šo -- vi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 f \barMin f g f g a g g \barMaior
+    a a g a g f e f d( c) c \barMax
+    d f f( g) g \barMin
+    a a g a g g \barMaior
+    g a a g f g f f \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,_* je dob -- ře, že jsme ta -- dy.
+    Chceš -- -li, po -- sta -- ví -- me tu tři sta -- ny:
+    je -- den to -- bě,
+    je -- den Moj -- ží -- šo -- vi
+    a je -- den E -- li -- á -- šo -- vi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Zj 19"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}

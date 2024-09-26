@@ -16,11 +16,11 @@
 \markup\italic{1. antifona viz 1. antifonu 2. nešpor: \upright{"\"Ježíš vzal s sebou\""} (Žalm 113)}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a c d d c( b) c( d) d \barMin
-    f( d e) d( c) c d d( e) c a a \barMaior
-    f g a a a b( c) a a \barFinalis
+    f4 g a a g( a) g g \barMin
+    a a g f e f d( c) c \barMaior
+    d f f f f g( a) f f \barFinalis
   }
   \addlyrics {
     U -- čed -- ní -- ci vi -- dě -- li_*
@@ -29,10 +29,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 117"
-    placet = "4 lépe"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
