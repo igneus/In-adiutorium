@@ -847,6 +847,25 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f\major
+    f4 g a a g f g g \barMin \mark\sipka bes bes a f g f f \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- ben jsi, Hos -- po -- di -- ne, na -- uč mě svým pří -- ka -- zům.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-ב"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisSkupiny 1

@@ -1517,6 +1517,56 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   \relative c'' {
     \choralniRezim
     c4 c b( a) g f g a g g \barMaior
+    a a c b c( d) d \barMaior
+    \mark\sipka d d d c a a c b a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Od -- chá -- zím vám při -- pra -- vit mís -- to,
+    a -- le za -- se při -- jdu;
+    a va -- še srd -- ce se bu -- de ra -- do -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden4.ly#pa-aben?zacatek"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( a) g f g a g g \barMaior
+    a a c b c( d) d \barMaior
+    d d d c a a \mark\sipka g f g( a) g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Od -- chá -- zím vám při -- pra -- vit mís -- to,
+    a -- le za -- se při -- jdu;
+    a va -- še srd -- ce se bu -- de ra -- do -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden4.ly#pa-aben?zacatek"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b( a) g f g a g g \barMaior
     \mark\sipka f a c b c( d) d \barMaior
     d c b a( g) g g a g f g g \barMaior
     f g( a) g g \barFinalis
