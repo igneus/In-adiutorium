@@ -715,10 +715,53 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( d) d d c d e( d c) d \barMin d d d c( b a) g g( a) \barMaior
     \key f \major
     f g( a) \barMin bes( c) d f e( d e) d \barMin d d c( bes a) g( bes) bes( a) a \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji, bu -- de -- te pít i vy,
+    a křest, kte -- rý já při -- jmu, ta -- ké vy při -- jme -- te.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    placet = "2 melisma na _křest_ není úplně to pravé"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( d) d d c d e( d c) d \barMin d d d c( b a) g g( a) \barMaior
+    \mark\sipka a c c b a b( c a) a \barMin a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji, bu -- de -- te pít i vy,
+    a křest, kte -- rý já při -- jmu, ta -- ké vy při -- jme -- te.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d c d e( d c) d \barMin d d d c( b a) g g( a) \barMaior
+    a c c b \mark\sipka c e( d c) d \barMin c b g b( c) a a \barFinalis
   }
   \addlyrics {
     Ka -- lich, kte -- rý já pi -- ji, bu -- de -- te pít i vy,

@@ -69,8 +69,7 @@
   \relative c'' {
     \choralniRezim
     a4( d) d d c d e( d c) d \barMin d d d c( b a) g g( a) \barMaior
-    \key f \major
-    f g( a) \barMin bes( c) d f e( d e) d \barMin d d c( bes a) g( bes) bes( a) a \barFinalis
+    a c c b a b( c a) a \barMin a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Ka -- lich, kte -- rý já pi -- ji, bu -- de -- te pít i vy,
@@ -78,10 +77,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 149"
-    placet = "2 melisma na _křest_ není úplně to pravé"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
