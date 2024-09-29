@@ -1512,7 +1512,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f bes( a) g( a) a \barMin
     a a a a g \mark\sipka f e f d d \barFinalis
@@ -1573,7 +1573,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     a4 g a a( bes) a a \barMin
     a a \mark\sipka a a g f e f d d \barFinalis
