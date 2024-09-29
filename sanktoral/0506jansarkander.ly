@@ -221,11 +221,11 @@
 \markup\italic{(Responsorium pro nešpory není vlastní, bere se ze společných textů.)}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 c( b c) c \barMin c d( c) b( a) a \barMaior
-    a g( f g4.) g4 a b c d c( a g a) a \barMaior
-    b c a( g) a \barFinalis
+    d4 d( f) e d e( f) d d \barMaior
+    d c a c d d d f( d c) d \barMaior
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     Buď věr -- ný až do smr -- ti,
@@ -234,10 +234,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    placet = "značně netypická; v modu nesedí moc pevně"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

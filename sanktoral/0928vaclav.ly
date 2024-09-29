@@ -240,10 +240,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 c( b c) c \barMin c d( c) b( a) a \barMaior
-    a b g a( c d) c a g a a \barFinalis
+    d4 d( f) e d e( f) d d \barMaior
+    d c a c d d f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Buď věr -- ný až do smr -- ti
@@ -251,11 +251,11 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "sexta"
-    fial = "sanktoral/0506jansarkander.ly#ne-amag?zacatek"
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?zacatek=16"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

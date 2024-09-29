@@ -902,12 +902,12 @@
 \markup\italic{O více mužích:}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 d c( b c) c \barMin c d( c) b( a) a \barMaior
-    a c b a g g( a) g g \barMin a b c d c( a g a) a \barMaior
+    d4 d d( f) e d e( f) d d \barMaior
+    d f f e d c( d) c c \barMin d e f d c( d) d \barFinalis
 
-    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+    f^\markup\rubrVelikAleluja g( f) d d \barFinalis
   }
   \addlyrics {
     By -- li věr -- ní až do smr -- ti
@@ -917,10 +917,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
-    fial = "sanktoral/0506jansarkander.ly#ne-amag?cast=2&konec=16"
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?cast=1,4&ignoruj=opakovane noty"
     id = "2ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

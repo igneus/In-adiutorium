@@ -1239,6 +1239,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d c c \barMin
+    a b c a g a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Když vy -- tr -- vá -- me,
+    bu -- de -- me s_Kris -- tem i kra -- lo -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{(Responsorium pro nešpory není vlastní, bere se ze společných textů.)}
@@ -1269,7 +1291,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( b c) c \barMin c d( c) b( a) a \barMaior
     a g( f g4.) g4 a b c d c( a g a) a \barMaior
@@ -1285,6 +1307,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "značně netypická; v modu nesedí moc pevně"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1427,6 +1450,29 @@
     \choralniRezim
     d4 d( f) e d e( f) d d \barMaior
     d e c a c d \mark\sipka e d d \barMaior
+    f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Buď věr -- ný až do smr -- ti,
+    a dám ti za od -- mě -- nu ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( f) e d e( f) d d \barMaior
+    d \mark\sipka c a c d d d f( d c) d \barMaior
     f g( f) d d \barFinalis
   }
   \addlyrics {

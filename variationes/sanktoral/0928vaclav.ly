@@ -1680,7 +1680,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( b c) c \barMin c d( c) b( a) a \barMaior
     a b g a( c d) c a g a a \barFinalis
@@ -1696,6 +1696,30 @@
     psalmus = ""
     id = "sexta"
     fial = "sanktoral/0506jansarkander.ly#ne-amag?jiny_konec"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( f) e d e( f) d d \barMaior
+    d c a c d d f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Buď věr -- ný až do smr -- ti
+    a dám ti ko -- ru -- nu ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "sexta"
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?zacatek=16"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

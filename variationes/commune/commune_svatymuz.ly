@@ -3111,7 +3111,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( b c) c \barMin c d( c) b( a) a \barMaior
     a c b a g g( a) g g \barMin a b c d c( a g a) a \barMaior
@@ -3155,6 +3155,65 @@
     differentia = "d"
     psalmus = ""
     fial = "sanktoral/0506jansarkander.ly#ne-amag?delsi_text"
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f) e d e( f) d d \barMaior
+    d f f e d c( d) c c \barMin d e f d c( d) d \barFinalis
+
+    f^\markup\rubrVelikAleluja g( f) d d \barFinalis
+  }
+  \addlyrics {
+    By -- li věr -- ní až do smr -- ti
+    a ob -- dr -- že -- li od Pá -- na za od -- mě -- nu ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?cast=1,4&ignoruj=opakovane noty"
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "nezávisle na zdroji"
+
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c e( d) c( d) d \barMaior
+    d a d b c a( g) a g \barMin
+    f g a a b( c a) a \barFinalis
+
+    c^\markup\rubrVelikAleluja d( c) a a \barFinalis
+  }
+  \addlyrics {
+    By -- li věr -- ní
+    až do smr -- ti
+    a ob -- dr -- že -- li od Pá -- na
+    za od -- mě -- nu ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
     id = "2ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
