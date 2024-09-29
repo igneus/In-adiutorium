@@ -216,8 +216,8 @@
   \relative c' {
     \choralniRezim
     f4 g a( g) f f( g) g \barMin
-    a a a g a g( f) f \barMax
-    d f g g g f g g( a) f f \barFinalis
+    a a a g a g( f) f \barMaior
+    d f g f g( a) \barMin g( a) g g f f \barFinalis
   }
   \addlyrics {
     Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
@@ -230,8 +230,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    placet = "melodie závěru je taková jakási neuspokojivá"
-    fial = "commune/commune_jedenmucednik.ly#1ne-a2?-aleluja"
+    fial = "commune/commune_jedenmucednik.ly#1ne-a2?cast=1-4"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

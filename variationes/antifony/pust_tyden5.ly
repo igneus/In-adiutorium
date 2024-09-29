@@ -2061,6 +2061,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a( g) f f( g) g \barMin
     a a a g a g( f) f \barMax
@@ -2077,6 +2078,33 @@
     psalmus = ""
     placet = "melodie závěru je taková jakási neuspokojivá"
     fial = "commune/commune_jedenmucednik.ly#1ne-a2?-aleluja"
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMaior
+    d f g f g( a) \barMin g( a) g g f f \barFinalis
+  }
+  \addlyrics {
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    a -- le bu -- de mít svět -- lo ži -- vo -- ta.
+  }
+  \header {
+    textus_approbatus = "Kdo mě následuje, nebude chodit v temnotě,
+    ale bude mít světlo života."
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#1ne-a2?cast=1-4"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -43,26 +43,26 @@
   \relative c' {
     \choralniRezim
     f4 g a( g) f f( g) g \barMin
-    a a a g a g( f) f \barMax
-    d f g g g f g g( a) f f \barFinalis
+    a a a g a g( f) f \barMaior
+    d f g f g( a) \barMin g( a) g g f f \barFinalis
 
-    d^\markup\rubrVelikAleluja f g( f) f \barFinalis
+    d^\markup\rubrVelikAleluja f g g g f g a( bes) a a \barMin
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
-    a -- le bu -- de mít svět -- lo ži -- vo -- ta.
+    \markup{\Dagger a} -- le bu -- de mít svět -- lo ži -- vo -- ta.
 
+    \markup{\Dagger a} -- le bu -- de mít svět -- lo ži -- vo -- ta.
     A -- le -- lu -- ja.
   }
   \header {
-    textus_approbatus = "Kdo mě následuje, nebude chodit v temnotě,
-    ale bude mít světlo života. Aleluja."
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 118-III"
     id = "1ne-a2"
-    fial = "antifony/tyden3_4streda.ly#up-ant1?zacatek"
+    fial = "antifony/tyden3_4streda.ly#up-ant1?cast=1-2,5"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -385,6 +385,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "3 melisma na _Kristových_ drhne"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
