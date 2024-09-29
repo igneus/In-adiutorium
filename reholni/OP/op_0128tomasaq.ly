@@ -1,9 +1,9 @@
 \version "2.18.0"
 
 \include "../../spolecne.ly"
-\include "../../../spolecne/reholni.ly"
+\include "../../spolecne/reholni.ly"
 \include "../../dilyresponsorii.ly"
-\include "../../../reholni/OP/op.ly"
+\include "op.ly"
 
 \header {
   title = \markup\titleSvatek
@@ -18,11 +18,27 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\small{
+  Zkratky pramenů:
+}
+\markup\small{
+  AG -
+  \italic{Antiphonarium Sacri Ordinis Prædicatorum pro Diurnis Horis.}
+  M. S. Gillet permissu editum.
+  Romae 1933.
+}
+\markup\small{
+  AR1912 -
+  \italic{Antiphonale Sacrosanctae Romanae Ecclesiae pro diurnis horis.}
+  Romae 1912.
+}
+
 \markup {\nadpisHodinka {"nešpory"}}
 
-\markup\justify{
-  Z mariánského svátku.
+\markup{
+  (Antifony řady B s texty vybranými z chorální tradice.)
 }
+
 \score {
   \relative c' {
     \choralniRezim
@@ -46,9 +62,6 @@
   }
 }
 
-\markup\justify{
-  Z (římských, ne dominikánských) společných textů o vyznavačích.
-}
 \score {
   \relative c'' {
     \choralniRezim
@@ -74,9 +87,6 @@
   }
 }
 
-\markup\justify{
-  Z Božího Těla.
-}
 \score {
   \relative c' {
     \choralniRezim
@@ -104,56 +114,18 @@
   }
 }
 
-\pageBreak
-
-\markup\justify{
-  Ze svátku sv. Jana Evangelisty.
-}
-\markup\column{
-  \url-link "https://cantusindex.org/id/003255"
-  \url-link "https://cantusindex.org/id/003256"
-  \url-link "http://gregorianik.uni-regensburg.de/an/#id/244"
-  \url-link "https://gregobase.selapa.net/chant.php?id=5783"
-}
-
-\markup\justify{
-  (Ten delší text s melodií v modu VIII je sice i v dominikánském antifonáři,
-  ale pro adaptaci na daný český text se jeví mnohem méně příhodný.)
+\markup\justify\italic{
+  Responsorium \upright{Uprostřed shromáždění} má oficiální nápěv
+  v knize \with-url "https://www.op.cz/liturgicke-texty/" {Večerní chvály II.}
 }
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
     d4 d c f g f( a) a \barFinalis
     a( c) a a g f g( a) g \barMaior
     g a a a a g f e( f) d d( c) \barMin
     d f( e) c( d) d \barFinalis
-  }
-  \addlyrics {
-    U -- pro -- střed shro -- máž -- dě -- ní
-    o -- te -- vřel mu Pán ús -- ta
-    a na -- pl -- nil ho du -- chem moud -- ros -- ti
-    a ro -- zu -- mu.
-  }
-  \header {
-    fons_externus = "velmi volně podle CANTUS 003255"
-    quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D"
-    psalmus = ""
-    id = "ne-b-amag"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-    d4 d c f g f( a) a \barFinalis
-    a( c) a a g f g( a) g \barMaior
-    g a a \mark\sipka g f g( a) g f e d( c) \barMin
-    d e( f) d d \barFinalis
   }
   \addlyrics {
     U -- pro -- střed shro -- máž -- dě -- ní
