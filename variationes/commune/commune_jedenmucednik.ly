@@ -651,7 +651,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c d d e d c( d) d \barMaior
     d e d c d c \barMin b c a g a( g) f( g) g \barMaior
@@ -666,6 +666,30 @@
     quid = "ant. k Magnificat o mučednici"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    placet = "v rámci modu neobvyklý a nepříliš zpěvný začátek"
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f f g f g( a) a \barMaior
+    a c b a b g \barMin f g a a g( f) e e \barMaior
+    e f d( c) c \barMin d e f d c d d \barFinalis
+  }
+  \addlyrics {
+    O -- pá -- sa -- la se sta -- teč -- nos -- tí
+    a ne -- o -- hro -- že -- ně vy -- zná -- va -- la svou ví -- ru;
+    je -- jí svět -- lo bu -- de sví -- tit na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat o mučednici"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
