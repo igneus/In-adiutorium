@@ -472,13 +472,13 @@
   \addlyrics {
     S_ra -- dos -- tí
     bu -- de -- te vá -- žit vo -- du
-    z_pra -- me -- mů spá -- sy.
+    z_pra -- me -- nů spá -- sy.
   }
   \header {
     % na tomto místě bylo 'čerpat', ale to je, myslím, (oproti velikonočnímu
     % výskytu stejného textu) jen inkonsistence překladu
     % a staré vážit je půvabnější než obyčejné čerpat a lépe se zpívá
-    textus_approbatus = "S radostí budete čerpat vodu z pramemů spásy."
+    textus_approbatus = "S radostí budete čerpat vodu z pramenů spásy."
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
