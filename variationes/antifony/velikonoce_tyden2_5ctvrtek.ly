@@ -342,6 +342,78 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g a a \barMin
+    c( d) c a a \barMaior
+    c c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí bu -- de -- te
+    vá -- žit vo -- du
+    z_pra -- me -- mů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g a a \barMin
+    c( d) c \mark\sipka a( b g) g \barMaior
+    a a a a( g) f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí bu -- de -- te
+    vá -- žit vo -- du
+    z_pra -- me -- mů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g a a \barMin
+    c( d) c a( b g) g \barMaior
+    a \mark\sipka g f g( a) a
+    g f a( g) g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí bu -- de -- te
+    vá -- žit vo -- du
+    z_pra -- me -- mů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
