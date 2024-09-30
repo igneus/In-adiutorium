@@ -21,7 +21,7 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \markup\justify{
-  Z mariánského svátku.
+  Ze svátku PM Lurdské (Apparitio B. M. V. \italic{Immaculatae}).
 }
 \score {
   \relative c' {
