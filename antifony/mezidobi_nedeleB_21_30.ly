@@ -368,9 +368,9 @@
     a4 a g a f( g a4.) a \barMin
     b4( c) a g g( a) a \barMaior
     a g f g f( d) \barMin
-    f f d c c( d) d \barMax
+    f f e f d( c) c \barMaior
     d f g a g f( g) \barMin
-    d e( d) d \barFinalis
+    f e( d) d \barFinalis
   }
   \addlyrics {
     Žád -- ný, kdo v_mém jmé -- nu
@@ -395,9 +395,9 @@
     \choralniRezim
     c4 b a g a f \barMin
     a a g( a) g \barMaior
-    f g a b c( d c) a a \barMaior
-    c( d c) b( a g) g \barMin
-    f g( a) a g g \barFinalis
+    f g a a c( d c) a a \barMaior
+    c( d) b( c) a( g) \barMin
+    a g( f) g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Kdo -- ko -- li vám po -- dá
@@ -435,6 +435,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "2 značně netypická; divoký začátek prakticky vylučuje lidový zpěv"
     id = "ne26b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
