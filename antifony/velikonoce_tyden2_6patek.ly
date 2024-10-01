@@ -82,7 +82,7 @@
     \choralniRezim
     d4 c d f e d c a b( c) c \barMaior
     c( d c) b( g) c a a \barMaior
-    b c a( g) a \barFinalis
+    b g g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din vy -- svo -- bo -- dil můj ži -- vot_*
