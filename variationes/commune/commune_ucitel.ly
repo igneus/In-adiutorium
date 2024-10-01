@@ -80,6 +80,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    \mark\sipka g f g( a) g f g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a \mark\sipka a( bes) a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g f g( a) g f g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ús -- ta spra -- ved -- li -- vé -- ho mlu -- ví moud -- ře;_*
+    to, co ří -- ká, je správ -- né.
+    \Verse Bo -- ží zá -- kon má ve svém srd -- ci;_*
+    \Response to, co ří -- ká, je správ -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době velikonoční:}
