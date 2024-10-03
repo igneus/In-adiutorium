@@ -79,7 +79,7 @@
     c bes a \barFinalis
   }
   \addlyrics {
-    Kdo ztra -- tí svůj ži -- vot pro mne,
+    Kdo ztra -- tí svůj ži -- vot pro mě,
     na -- lez -- ne ho,
     pra -- ví Pán.
   }
