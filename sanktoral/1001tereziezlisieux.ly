@@ -34,6 +34,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
+    placet = "3 to nové nasazení na _Jestliže_ je něco, co tradiční repertoár nedělá"
     fial = "antifony/tyden3_3utery.ly#ne-ant2?konec=22"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}

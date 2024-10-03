@@ -252,6 +252,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c a c d d \barMaior
+    \mark\sipka c a c c( d) d \barMin
+    f f e d e c c( d) d \barMaior
+    c a c b a( g) g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    fial = "antifony/tyden3_3utery.ly#ne-ant2?konec=22"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
