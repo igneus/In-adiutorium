@@ -529,7 +529,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -542,6 +542,40 @@
     % R
     \neviditelna a
     g g a g( f d) f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Chci tě chvá -- lit, Hos -- po -- di -- ne,
+    ce -- lým svým srd -- cem,_*
+    bu -- du ti hrát před an -- dě -- ly.
+    \Verse Sla -- vit bu -- du tvé jmé -- no,_*
+    \Response bu -- du ti hrát před an -- dě -- ly.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f \mark\sipka g g( a) a( g) \barMax
+    g \mark\sipka a g g( f d) f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g \mark\sipka a g g( f d) f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -711,6 +745,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e e d
+    c d( e) e( d) d \barMaior
+    d e d c d c \barMin
+    b c a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e e d
+    c d( e) e( d) d \barMaior
+    d c b a g a \barMin
+    a b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -795,6 +877,30 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 a c c d( c e d) d \barMin
+    d e f e d \mark\sipka e c d( e) d d \barMaior
+    d d c a b c a a g \barMin
+    \mark\sipka g a f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův an -- děl
+    se u -- tá -- bo -- řil ja -- ko o -- chrán -- ce
+    ko -- lem těch, kdo Hos -- po -- di -- na ctí,
+    a vy -- svo -- bo -- dil je.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 34-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     a4 d c b c( b a g) g( a) \barMaior
@@ -819,7 +925,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 d c d d( e) d c d c \barMaior
     b c a( g) g( a) a \barFinalis
@@ -860,9 +966,10 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka g4 a c c d( e) d c d c \barMaior
-    b c a g( a) a \barFinalis
+    b c a( g) g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nův an -- děl mě chrá -- ní

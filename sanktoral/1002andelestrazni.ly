@@ -112,14 +112,14 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f g f f g( a) a( g) \barMax
-    g g a g( f d) f g g( f) f \barFinalis
+    f4 f f f f f f f g f g g( a) a( g) \barMax
+    g a g g( f d) f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4( bes) a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g a g( f d) f g g( f) f \barFinalis
+    g a g g( f d) f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -192,7 +192,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 d c d d( e) d c d c \barMaior
+    g4 a c c d( e) d c d c \barMaior
     b c a( g) g( a) a \barFinalis
   }
   \addlyrics {
