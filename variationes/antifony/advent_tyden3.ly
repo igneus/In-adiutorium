@@ -2413,8 +2413,8 @@
   \relative c'' {
     \choralniRezim
     g4( a) c( d) d \barMin
-    c d d( e) d c d e e d d \barMaior
-    c b a g a b g g \barFinalis
+    \mark\sipka c d d( e) d c d e e d d \barMaior
+    c b a g \mark\sipka a b g g \barFinalis
   }
   \addlyrics {
     Jed -- nej -- te
