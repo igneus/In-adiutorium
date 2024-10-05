@@ -2498,7 +2498,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( g a) a( c) b a a( g) g( a) a \barMaior
     a g f \mark\sipka e e \barMin g a c b a( b) a \barMaior
@@ -2548,6 +2548,33 @@
     quid = "1. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g( f) f( g) g \barMaior
+    g a g f( g) f \barMin f d f e d( c) c \barMaior
+    d d c d f( g f) e d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- cho -- val se bez vi -- ny
+    a o -- svěd -- čil se ja -- ko do -- ko -- na -- lý;
+    bu -- de mu to k_věč -- né slá -- vě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 15"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}

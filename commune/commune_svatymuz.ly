@@ -724,13 +724,13 @@
 \markup {\nadpisHodinka {"2. nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( g a) a( c) b a a( g) g( a) a \barMaior
-    a g f e e \barMin g a c b a( b) a \barMaior
-    c c c c d( c b) a g( a b4.) a \barFinalis
+    f4 g a a g( f) f( g) g \barMaior
+    g a g f( g) f \barMin f d f e d( c) c \barMaior
+    d d c d f( g f) e d d \barFinalis
 
-    b4^\markup\rubrVelikAleluja a g( a) a \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     U -- cho -- val se bez vi -- ny
@@ -741,10 +741,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "A"
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 15"
-    placet = "3 lépe"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
