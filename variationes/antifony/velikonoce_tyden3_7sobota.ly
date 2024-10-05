@@ -294,6 +294,56 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d
+    f f e d f( g) g \barMaior
+    f d e f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Slo -- va,
+    kte -- rá jsem k_vám mlu -- vil,_*
+    jsou duch
+    a jsou ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 119-Kof"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a
+    c c b a c( d) d \barMaior
+    c a b c a a
+    \mark\sipka g f g g \barFinalis
+  }
+  \addlyrics {
+    Slo -- va,
+    kte -- rá jsem k_vám mlu -- vil,_*
+    jsou duch
+    a jsou ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-Kof"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
