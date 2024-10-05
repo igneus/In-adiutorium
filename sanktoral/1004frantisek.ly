@@ -29,6 +29,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "2 melodie _František_ nějak nesedí"
     fial = "sanktoral/1111martin.ly#rch-a3?jiny_text"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -41,7 +42,7 @@
     d4 f e d f( g a g) g \barMaior
     g a( bes a) g f a g g \barMaior
     a a g f g f e f d c c \barMin
-    d d( f) f f e c c( d) d \barFinalis
+    d d c d f e d d \barFinalis
   }
   \addlyrics {
     Mou je -- di -- nou chlou -- bou
