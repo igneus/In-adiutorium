@@ -1365,6 +1365,53 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a( c) a g a g f f \barMaior
+    g g g f d d
+    f e c d d \barFinalis
+  }
+  \addlyrics {
+    Teh -- dy jim ře -- kl:
+    Bdě -- te a mod -- le -- te se,
+    a -- bys -- te ne -- přiš -- li
+    do po -- ku -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    \mark\sipka a g f g f d d \barMaior
+    f f f e c c e f e d d \barFinalis
+  }
+  \addlyrics {
+    Teh -- dy jim ře -- kl:
+    Bdě -- te a mod -- le -- te se,
+    a -- bys -- te ne -- přiš -- li
+    do po -- ku -- še -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

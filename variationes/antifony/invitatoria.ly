@@ -2122,6 +2122,18 @@ pojdmeKlanmeSeCele = {
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Audiámus vocem Dómini, ut \bold{ingrediámur} in réquiem \bold{eius.}
+  }
+}
+\markup\justify{
+  Překladatelé tady dali přednost explicitnímu vyjádření vybraného
+  duchovního smyslu před doslovností (a dobrou zřetelností) biblické narážky
+  (Non introibunt in \italic{requiem meam} // ut ingrediamur in \italic{requiem eius}).
+}
+
 %tIIsobotaInvitatorium =
 \score {
   \relative c' {
