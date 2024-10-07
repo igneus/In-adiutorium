@@ -1990,7 +1990,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g( c) c \barMin
     a g a g f( g) g \barFinalis
@@ -2011,6 +2011,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 a g( c) c \barMin
     \mark\sipka b g a g f( g) g \barFinalis
@@ -2023,6 +2024,87 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "ne27b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d c) c \barMin
+    b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Co Bůh spo -- jil,
+    člo -- věk ne -- roz -- lu -- čuj!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne27b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka a c( d c) c \barMin
+    b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Co Bůh spo -- jil,
+    člo -- věk ne -- roz -- lu -- čuj!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne27b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e f d) d \barMin
+    c a b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Co Bůh spo -- jil,
+    člo -- věk ne -- roz -- lu -- čuj!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne27b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \mark\sipka c4 d e( d c) d \barMin
+    c a b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Co Bůh spo -- jil,
+    člo -- věk ne -- roz -- lu -- čuj!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "ne27b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -2199,6 +2281,26 @@
     \choralniRezim
     d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
     f g a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Nech -- te dě -- ti při -- chá -- zet ke mně,
+    ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne27b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
+    f g a c b \mark\sipka c( d) d \barMin c a b( c) a( g) g \barFinalis
   }
   \addlyrics {
     Nech -- te dě -- ti při -- chá -- zet ke mně,

@@ -447,7 +447,7 @@
   \relative c'' {
     \choralniRezim
     g4 a g( c) c \barMin
-    a g a g f( g) g \barFinalis
+    b g a g f( g) g \barFinalis
   }
   \addlyrics {
     Co Bůh spo -- jil,
@@ -478,6 +478,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "3 druhá půlka nic moc"
     id = "ne27b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
