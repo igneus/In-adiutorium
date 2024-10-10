@@ -140,7 +140,7 @@
   \relative c'' {
     \choralniRezim
     a4 g f g g e e \barMin
-    f( g a g) g f e c( d) d \barFinalis
+    f( g a) g f e d( e) e \barFinalis
   }
   \addlyrics {
     U Je -- ží -- šo -- va kří -- že
@@ -148,8 +148,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
@@ -202,6 +202,9 @@
       differentia = "D"
       psalmus = ""
       fial = "vanoce_narozenipane.ly#vden-asexta?zacatek=18&konec=9"
+      placet = "2 asi je ještě únosná, ale moc zpěvná není,
+      zejm. díky tomu, jak je melodie z obou konců sešněrována vazbou na
+      (kvantitativně a rytmicky dost jinou) předlohu"
       id = "ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
