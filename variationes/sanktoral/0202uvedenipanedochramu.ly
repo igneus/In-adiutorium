@@ -1904,6 +1904,27 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 g f g g a a \barMaior
+    c c b g \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     g4 g g g a f g \barMaior
     a c b g a g f( g) g \barFinalis
@@ -2011,6 +2032,47 @@
     \choralniRezim
     c4 a c b a g g \barMaior
     \mark\sipka f g a f g a g g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b a g g \barMaior
+    f g a f \mark\sipka g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pán je svět -- lo ná -- ro -- dů,
+    Pán je slá -- va své -- ho li -- du.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    c4 a c b a g g \barMaior
+    f g a \mark\sipka a b a g g \barFinalis
   }
   \addlyrics {
     Pán je svět -- lo ná -- ro -- dů,

@@ -2360,6 +2360,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) g( a) a \barMaior
+    a g a( c) b a b g a a \barMaior
+    a a g e e f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Kdo ne -- při -- jme
+    Bo -- ží krá -- lov -- ství ja -- ko dí -- tě,
+    vů -- bec do ně -- ho ne -- ve -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne27b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"28. neděle"}}

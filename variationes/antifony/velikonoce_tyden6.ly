@@ -1048,6 +1048,28 @@
   \relative c'' {
     \choralniRezim
     g4 b c c \barMin
+    d c d e \mark\sipka c b( c) a a \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    To -- to je den,
+    kte -- rý u -- či -- nil Hos -- po -- din.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c c \barMin
     d c \mark\sipka d( e) d c b( c) a( g) g \barMaior
     a g f( a) g \barFinalis
   }
