@@ -1109,12 +1109,12 @@
   }
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      g4 f g a g g \barMaior
-      a g a c b c a b a g g \barMax
-      c c c( d) c b c a a( g) g \barMaior
-      f g( a) a \barMin a g f g( a) a g g \barFinalis
+      f4 g f g g( a) a \barMin
+      a a g f f g f e f d d \barMaior
+      f f g( a) a a g f g( f) e \barMaior
+      f d( c) c \barMin d e f d c c( d) d \barFinalis
     }
     \addlyrics {
       Když He -- ro -- des ze -- mřel,
@@ -1124,8 +1124,8 @@
     }
     \header {
       quid = "ant. k Benedictus"
-      modus = "VIII"
-      differentia = "G"
+      modus = "I"
+      differentia = "f"
       psalmus = ""
       annus = "A"
       id = "svrodiny-rch-abenA"

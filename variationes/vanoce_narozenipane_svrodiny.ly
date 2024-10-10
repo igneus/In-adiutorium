@@ -3280,7 +3280,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 f g a g g \barMaior
       a g a c b c a b a g g \barMax
@@ -3297,6 +3297,57 @@
       quid = "ant. k Benedictus"
       modus = "VIII"
       differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 f g a g g \barMaior
+      a g a c b c a b a g g \barMax
+      c c c( d) c \mark\sipka c b c a( g) g \barMaior
+      f g( a) a \barMin a g f g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      annus = "A"
+      id = "svrodiny-rch-abenA"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 g f g g( a) a \barMin
+      a a g f f g f e f d d \barMaior
+      f f g( a) a a g f g( f) e \barMaior
+      f d( c) c \barMin d e f d c c( d) d \barFinalis
+    }
+    \addlyrics {
+      Když He -- ro -- des ze -- mřel,
+      ře -- kl v_E -- gyp -- tě an -- děl Jo -- se -- fo -- vi:
+      Vez -- mi dí -- tě i je -- ho mat -- ku
+      a vrať se do iz -- ra -- el -- ské ze -- mě.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
       psalmus = ""
       annus = "A"
       id = "svrodiny-rch-abenA"
