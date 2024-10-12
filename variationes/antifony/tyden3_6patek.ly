@@ -534,6 +534,25 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f d d d \mark\sipka f g f d d \barMin e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Pro -- ti to -- bě jsem se pro -- hře -- šil, Bo -- že,
+    smi -- luj se na -- de mnou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 51"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f f e d e f e d d \barMin f d c c d d \barFinalis
   }
   \addlyrics {
