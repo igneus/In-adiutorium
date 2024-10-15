@@ -513,7 +513,7 @@
     \choralniRezim
     a4 \barMin a a g( a) f g a \barMin
     a b g f( e) e \barMaior
-    d c d e f( a) g f( e) e \barFinalis
+    d c d d( e) \barMin f( a) g f( e) e \barFinalis
   }
   \addlyrics {
     Jdi, pro -- dej všech -- no, co máš,
@@ -533,9 +533,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g a f( g) g \barMin
-    f g f e d c c \barMaior
-    d c d( f) e c d d \barFinalis
+    a4 g a g( f) f \barMin
+    g g f e d c c \barMaior
+    d d c d e( f) d d \barFinalis
   }
   \addlyrics {
     Jak těž -- ko ve -- jdou
