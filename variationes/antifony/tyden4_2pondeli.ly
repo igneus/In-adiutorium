@@ -1700,6 +1700,25 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) \barMin c d b c a( g) g \barMin
+    a4 g f g g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- li -- ké a po -- di -- vu -- hod -- né jsou tvé skut -- ky, Bo -- že.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 136-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 % \score { \tIIpondeliNespAntIII }
 
 % \score { \tIIpondeliAntMagnificat }

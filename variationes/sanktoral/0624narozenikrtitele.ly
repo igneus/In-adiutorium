@@ -3245,6 +3245,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 c d f e( f d) d \barMin
     c f e d c d d \barFinalis
@@ -3309,6 +3310,26 @@
     \choralniRezim
     d4 d f e d( e c) c \barMin
     d d c d e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- šel ja -- ko svě -- dek,
+    a -- by svěd -- čil o prav -- dě.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e f g( f d e) d( c) \barMin
+    bes c d d e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Při -- šel ja -- ko svě -- dek,
