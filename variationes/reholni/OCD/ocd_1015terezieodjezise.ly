@@ -1949,11 +1949,41 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a f g a g g \barMaior
     f g a g a c c \barMin
     c b a g( a) g \barMin f( g) a a g g \barMaior
+    c c c d d c b a( b a g) g \barMin
+    f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Na svém tě -- le do -- pl -- ňu -- ji
+    to, co zbý -- vá vy -- tr -- pět
+    do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
+    má z_to -- ho pro -- spěch je -- ho tě -- lo,
+    to je cír -- kev.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Kol 1"
+    fial = "commune/commune_jedenmucednik.ly#mc-avig?-aleluja"
+    id = "2ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a f g a g g \barMaior
+    f g a g a c c \barMin
+    c c c c( d) c b( c) a a g g \barMaior
     c c c d d c b a( b a g) g \barMin
     f( a) a g g \barFinalis
   }

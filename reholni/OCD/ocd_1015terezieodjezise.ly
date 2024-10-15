@@ -421,7 +421,7 @@
     \choralniRezim
     g4 g a f g a g g \barMaior
     f g a g a c c \barMin
-    c b a g( a) g \barMin f( g) a a g g \barMaior
+    c c c c( d) c b( c) a a g g \barMaior
     c c c d d c b a( b a g) g \barMin
     f( a) a g g \barFinalis
   }

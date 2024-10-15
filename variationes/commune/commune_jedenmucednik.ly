@@ -1432,12 +1432,107 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a f g a g g \barMaior
     f g a g a c c \barMin
     c b a g( a) g \barMin f( g) a a g g \barMaior
     c c c d \mark\sipka d c b a( b a g) g \barMin
+    f( a) a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Na svém tě -- le do -- pl -- ňu -- ji
+    to, co zbý -- vá vy -- tr -- pět
+    do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
+    má z_to -- ho pro -- spěch je -- ho tě -- lo,
+    to je cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    placet = "3 melisma na _Kristových_ drhne"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g a g g \barMaior
+    f g a g a c c \barMin
+    c \mark\sipka c c c( d) c \barMin b c a g g \barMaior
+    c c c d c b c a a \barMin
+    g f a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Na svém tě -- le do -- pl -- ňu -- ji
+    to, co zbý -- vá vy -- tr -- pět
+    do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
+    má z_to -- ho pro -- spěch je -- ho tě -- lo,
+    to je cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g a g g \barMaior
+    f g a g a c c \barMin
+    c c c c( d) c \mark\sipka b( c) a a g g \barMaior
+    c c c d \mark\sipka d c b a( b g) g \barMin
+    f g a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Na svém tě -- le do -- pl -- ňu -- ji
+    to, co zbý -- vá vy -- tr -- pět
+    do pl -- né mí -- ry Kris -- to -- vých ú -- trap;
+    má z_to -- ho pro -- spěch je -- ho tě -- lo,
+    to je cír -- kev.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Poslední třetina zpět k dosavadní verzi.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a f g a g g \barMaior
+    f g a g a c c \barMin
+    c c c c( d) c b( c) a a g g \barMaior
+    c c c d d c b \mark\sipka a( b a g) g \barMin
     f( a) a g g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis
@@ -1466,9 +1561,9 @@
     \choralniRezim
     g4 g a f g a g g \barMaior
     f g a g a c c \barMin
-    c \mark\sipka c c c( d) c \barMin b c a g g \barMaior
-    c c c d c b c a a \barMin
-    g f a( g) g \barFinalis
+    c c c c( d) c b( c) a a g g \barMaior
+    c c c d \mark\sipka b c a g( a g) g \barMin
+    f g a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -2671,6 +2766,33 @@
     f d f g g f f \barFinalis
 
     g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Kdo ztra -- tí
+    svůj ži -- vot pro mne,
+    na -- lez -- ne ho
+    a bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( g a) g \barMin
+    \mark\sipka f g( a) f f( g) g \barMaior
+    \mark\sipka a a g( f) d \barMaior
+    c d f f g( a) g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
     Kdo ztra -- tí
