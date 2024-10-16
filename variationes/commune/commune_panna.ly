@@ -4014,6 +4014,40 @@
     g f g( a) g \barMin g a g( f) d d f g g( f) f \barFinalis
     % V
     \neviditelna a
+    a4( g) a \mark\sipka a \barMin g f g( a) g g \barMaior
+    g g g g a g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    g f g( a) g \barMin g a g( f) d d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Na -- de -- šla Be -- rán -- ko -- va svat -- ba,_*
+    sva -- té pan -- ny, pojď -- te na -- pro -- ti Kris -- tu Pá -- nu.
+    \Verse Bla -- ze těm, kdo jsou po -- zvá -- ni
+    k_Be -- rán -- ko -- vě sva -- teb -- ní hos -- ti -- ně;_*
+    \Response sva -- té pan -- ny, pojď -- te na -- pro -- ti Kris -- tu Pá -- nu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f f g( a) a( g) \barMax
+    g f g( a) g \barMin g a g( f) d d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
     \mark\sipka a4( g) a g \barMin g f g( a) g g \barMaior
     g g g g a g f g a a( g) \barMax
     % R
@@ -4392,6 +4426,63 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d e d d d \barMaior
+    b c b g g g \barMaior
+    c c c a c b \barMin a c b g \barFinalis
+
+    a^\markup\rubrVelikAleluja a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, [63]"
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Nápěv aleluja přesně podle AR1912, v našem korpusu spíš neobvyklý.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d e d d d \barMaior
+    b c b g g g \barMaior
+    c c c a c b \barMin a c b g \barFinalis
+
+    \mark\sipka a(^\markup\rubrVelikAleluja  b) a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup, ne -- věs -- to Kris -- to -- va,
+    a při -- jmi ko -- ru -- nu,
+    kte -- rou ti od vě -- ků při -- pra -- vil Pán.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, [63]"
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "2ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
