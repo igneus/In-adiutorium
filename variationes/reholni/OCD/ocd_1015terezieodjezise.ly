@@ -185,7 +185,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a c b g g \barMin a g \mark\sipka a a( c) c( b) b \barMaior
     c c a c c b a g g \barFinalis
@@ -290,6 +290,95 @@
     differentia = "c"
     psalmus = "Žalm 146"
     fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b g g \barMin a g f g( a) \mark\sipka g g \barMaior
+    f g a \mark\sipka c c c b g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b g g \barMin a g f g( a) g g \barMaior
+    \mark\sipka g f g c c c b g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c a c b g g \barMin a g f g( a) g g \barMaior
+    \mark\sipka g f d f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d d( f) f \barMin
+    g f e d( e) d d \barMaior
+    e d c d f e f d d \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 146"
     id = "1ne-a2"
     piece = \markup\sestavTitulek
   }
@@ -847,6 +936,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 f f g f e d c c( d) d \barMaior
     c a c d d \mark\sipka f e( d) d \barFinalis
@@ -1375,6 +1465,59 @@
   \relative c'' {
     \choralniRezim
     g4 a g( c) c \barMin
+    d c d e c( b) a a \barMaior
+    c c b( c a) a \barMaior
+    a c \mark\sipka c c b( c) a g( a) g \barMin
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g( c) c \barMin
+    d c d e c( b) a a \barMaior
+    \mark\sipka c g g( a g) g \barMaior
+    f g a a a( c) b a( g) g \barMin
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g( c) c \barMin
     \mark\sipka b c a g a( g) f( g) g \barMaior
     g g f( e) d \barMin
     d f( g) g( a) a b( c) a g g \barMaior
@@ -1452,6 +1595,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f f f g a a g g \barMin
     f d f e d( c) c \barMin
@@ -1474,7 +1618,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f g a a g g \barMin
     f d f e d( c) c \barMin

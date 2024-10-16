@@ -39,8 +39,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a c b g g \barMin a g a a( c) c( b) b \barMaior
-    c c a c c b a g g \barFinalis
+    c4 c a c b g g \barMin a g f g( a) g g \barMaior
+    g f d f g a a g g \barFinalis
   }
   \addlyrics {
     Li -- dé si vy -- prá -- vě -- jí
@@ -311,16 +311,25 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    g4 a g( c) c \barMin
+    d c d e c( b) a a \barMaior
+    c g g( a g) g \barMaior
+    f g a a a( c) b a( g) g \barMin
+    a g f g a a( g) g \barFinalis
   }
   \addlyrics {
-    Když se modlíš, vejdi do své komůrky, zavři dveře a modli se k svému Otci, který je ve skrytosti.
+    Když se mod -- líš,
+    ve -- jdi do své ko -- můr -- ky,
+    za -- vři dve -- ře
+    a mod -- li se k_své -- mu Ot -- ci,
+    kte -- rý je ve skry -- tos -- ti.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
@@ -354,7 +363,7 @@
     \choralniRezim
     f4 f f f g a a g g \barMin
     f d f e d( c) c \barMin
-    d f e d c( d) d \barFinalis
+    d c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Žij -- me pod -- le prav -- dy a v_lás -- ce,
