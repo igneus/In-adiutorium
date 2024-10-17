@@ -715,6 +715,57 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a c b a a \barMaior
+    c( d e) d c( d) \barMin c d c b a g g \barMaior
+    a g a c b a( g) a \barMin
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po níž při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
+  }
+  \header {
+    textus_approbatus = "Svatá matko Terezie, ukaž nám cestu dokonalosti,
+    po které přijdeme s Kristem do věčných příbytků."
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a c b a a \barMaior
+    c( d e) d c( d) \barMin c d c b a g g \barMaior
+    a \mark\sipka g a c c b a( g) a \barMin
+    a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po kte -- ré při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
@@ -2017,6 +2068,51 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 b g b c a a g g \barMaior
+    a g f g( a) a a \barMin
+    \mark\sipka a c b g \barFinalis
+  }
+  \addlyrics {
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b g b c a a g g \barMaior
+    a g f g( a) a a \barMin
+    \mark\sipka a b a g \barFinalis
+  }
+  \addlyrics {
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 f f e d e d c( d) d \barMaior
@@ -2182,17 +2278,26 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f f e f d c c \barMin
+    f f g( a) a g g \barMin
+    g f( g f) e d c c \barMaior
+    d d c d d f e d d \barFinalis
   }
   \addlyrics {
-    Ať se vaše srdce nechvěje! V domě mého Otce je mnoho příbytků. Odcházím vám připravit místo.
+    Ať se va -- še srd -- ce ne -- chvě -- je!
+    V_do -- mě mé -- ho Ot -- ce
+    je mno -- ho pří -- byt -- ků.
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

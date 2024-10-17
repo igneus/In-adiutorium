@@ -112,16 +112,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
+    a4 a g a c b a a \barMaior
+    c( d e) d c( d) \barMin c d c b a g g \barMaior
+    a g a c b a( g) a \barMin
+    a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Svatá matko Terezie, ukaž nám cestu dokonalosti, po které přijdeme s Kristem do věčných příbytků.
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po níž při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
   }
   \header {
+    textus_approbatus = "Svatá matko Terezie, ukaž nám cestu dokonalosti,
+    po které přijdeme s Kristem do věčných příbytků."
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -411,14 +420,19 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 b g b c a a g g \barMaior
+    a g f g( a) a a \barMin
+    a b a g \barFinalis
   }
   \addlyrics {
-    Hle, Boží stánek mezi lidmi, Bůh bude přebývat uprostřed nich.
+    Hle, Bo -- ží stá -- nek me -- zi lid -- mi,
+    Bůh bu -- de pře -- bý -- vat
+    u -- pro -- střed nich.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 127"
     id = "2ne-a2"
     piece = \markup\sestavTitulek
