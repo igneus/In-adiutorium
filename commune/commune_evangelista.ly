@@ -1,13 +1,13 @@
 \version "2.15.37"
 
+\include "../spolecne.ly"
+\include "../dilyresponsorii.ly"
+
 \header {
   title = \markup\titleCommune "O evangelistech"
   composer = "Jakub Pavlík"
   book_order = 31
 }
-
-\include "../spolecne.ly"
-\include "../dilyresponsorii.ly"
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
