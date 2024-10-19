@@ -73,7 +73,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka a4( g) a c d c b a( g) \barMaior
     f4( g) g( a) a \barMin
@@ -114,6 +114,39 @@
     f4( g) g( a) a \mark\sipka
     a( b c a) a \barMin c( d c) a( b) a4.( g) \barMax
     g4 a( c) c( d) c c( d) d \barMaior
+    d( e d) c( b) a a \barMin
+    c a g f( g) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí e -- van -- ge -- lis -- té
+    zkou -- ma -- li
+    moud -- rost dáv -- ných dob
+    a své vy -- prá -- vě -- ní
+    do -- klá -- da -- li
+    vý -- ro -- ky pro -- ro -- ků.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( g) a c d c b a( g) \barMaior
+    f4( g) g( a) a \barMin
+    a( b c a) a c( d c) a( b) a4.( g) \barMax
+    g4 \mark\sipka a c( d) c c( d) d \barMaior
     d( e d) c( b) a a \barMin
     c a g f( g) a( g) g \barFinalis
 

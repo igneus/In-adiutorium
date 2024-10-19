@@ -17,7 +17,7 @@
     a4( g) a c d c b a( g) \barMaior
     f4( g) g( a) a \barMin
     a( b c a) a c( d c) a( b) a4.( g) \barMax
-    g4 a( c) c( d) c c( d) d \barMaior
+    g4 a c( d) c c( d) d \barMaior
     d( e d) c( b) a a \barMin
     c a g f( g) a( g) g \barFinalis
 
