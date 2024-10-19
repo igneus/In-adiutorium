@@ -68,6 +68,13 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Evangélium Christi tradens, sanctus Lucas annuntiávit solem oriéntem ex alto.
+  }
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -153,6 +160,13 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Beátus Evangelísta Lucas, scriba mansuetúdinis Christi, digne in Ecclésia clarificári méruit.
+  }
+}
 
 \score {
   \relative c' {
@@ -281,7 +295,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a( c) c \barMin
     c( d c a) a c b g( a) g g \barMaior
@@ -289,6 +303,35 @@
     c( d c) b( g) c c( a) a \barMaior
     c d e d c( d c a) a \barMin
     \mark\sipka c( b) a g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Lu -- káš
+    na -- psal e -- van -- ge -- li -- um
+    o do -- bro -- tě a mi -- lo -- sr -- den -- ství
+    Bo -- ží -- ho Sy -- na;
+    pro -- to ho dnes chvá -- lí
+    ce -- lá cír -- kev.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    placet = "_o dobrotě a milosrdenství_ nic moc"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) c \barMin
+    c( d c a) a c b g( a) g g \barMaior
+    \mark\sipka a a a a a c b c d d \barMin
+    c( d c) b( g) c c( a) a \barMaior
+    c d e d c( d c a) a \barMin
+    c( b) a g( a g4.) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Lu -- káš
@@ -313,10 +356,39 @@
     \choralniRezim
     f4 g a( c) c \barMin
     c( d c a) a c b g( a) g g \barMaior
-    \mark\sipka a a a a a c b c d d \barMin
+    a a a a a \mark\sipka g f g a a \barMin
     c( d c) b( g) c c( a) a \barMaior
     c d e d c( d c a) a \barMin
-    c( b) a g( a g4.) g \barFinalis
+    \mark\sipka c b( a) g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Lu -- káš
+    na -- psal e -- van -- ge -- li -- um
+    o do -- bro -- tě a mi -- lo -- sr -- den -- ství
+    Bo -- ží -- ho Sy -- na;
+    pro -- to ho dnes chvá -- lí
+    ce -- lá cír -- kev.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a( c) c \barMin
+    c( d c a) a c b g( a) g g \barMaior
+    a a a \mark\sipka g f g f g a a \barMin
+    c( d c) b( g) c c( a) a \barMaior
+    c d e d c( d c a) a \barMin
+    c b( a) g( a g4.) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Lu -- káš

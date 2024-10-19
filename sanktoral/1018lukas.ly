@@ -67,10 +67,10 @@
     \choralniRezim
     f4 g a( c) c \barMin
     c( d c a) a c b g( a) g g \barMaior
-    a g f g a c b c d d \barMin
+    a a a g f g f g a a \barMin
     c( d c) b( g) c c( a) a \barMaior
     c d e d c( d c a) a \barMin
-    c( b) a g( a g4.) g \barFinalis
+    c b( a) g( a g4.) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Lu -- káš
@@ -85,7 +85,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "_o dobrotě a milosrdenství_ nic moc"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
