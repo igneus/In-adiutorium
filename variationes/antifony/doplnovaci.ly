@@ -156,6 +156,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g( f) d d \barMin
+    e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je tvým o -- chrán -- cem
+    na všech tvých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "tercie-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
