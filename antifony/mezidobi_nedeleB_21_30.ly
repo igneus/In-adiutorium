@@ -580,11 +580,11 @@
 \markup {\nadpisDen {"29. neděle"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( d) d d c d e( d c) d \barMin c( d) c a a \barMaior
-    a g( a) \barMin c d d d d c e d d \barMaior
-    c a a b( c a) g g( a) a \barFinalis
+    e4( a) a a g a b( a g) a \barMin g( a) g e e \barMaior
+    e d( e) \barMin g a a a a g b a a \barMaior
+    g e e f e d( e) e \barFinalis
   }
   \addlyrics {
     Ka -- lich, kte -- rý já pi -- ji,
@@ -594,10 +594,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
-    fial = "sanktoral/0725jakub.ly#rch-a3?zacatek"
+    fial = "sanktoral/0725jakub.ly#rch-a3?cast=1&transposice=-4"
     id = "ne29b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -632,8 +632,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a b( c) c \barMin
-    a( b) a g g \barMaior
+    c4 c b g b c
+    a a g g \barMaior
     a f g g( a) a \barMin
     g f g( a) g f d e e \barFinalis
   }
@@ -648,7 +648,7 @@
     modus = "III"
     differentia = "h"
     psalmus = ""
-    fial = "antifony/pust_tyden2.ly#st-aben?zacatek=6&konec=15"
+    fial = "antifony/pust_tyden2.ly#st-aben?zacatek=3&konec=15"
     id = "ne29b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

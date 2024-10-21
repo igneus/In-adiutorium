@@ -2832,7 +2832,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( d) d d c d e( d c) d \barMin c( d) c a a \barMaior
     a g( a) \barMin c \mark\sipka d d d d c e d d \barMaior
@@ -2848,6 +2848,61 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    fial = "sanktoral/0725jakub.ly#rch-a3?zacatek"
+    id = "ne29b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4( a) a a g a b( a g) a \barMin g( a) g e e \barMaior
+    e d( e) \barMin g a a a a g b a a \barMaior
+    g e e \mark\sipka f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji,
+    pít bu -- de -- te,
+    a v_křest, ve kte -- rý já bu -- du po -- no -- řen,
+    bu -- de -- te po -- no -- ře -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    fial = "sanktoral/0725jakub.ly#rch-a3?cast=1&transposice=-4"
+    id = "ne29b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Druhá půlka volně podle aktuální podoby předlohy)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4( d) d d c d e( d c) d \barMin c( d) c a a \barMaior
+    \mark\sipka a c c b a b c a g g \barMaior
+    a g f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji,
+    pít bu -- de -- te,
+    a v_křest, v_kte -- rý já bu -- du po -- no -- řen, % ve který -> v který
+    bu -- de -- te po -- no -- ře -- ni.
+  }
+  \header {
+    textus_approbatus = "Kalich, který já piji, pít budete,
+    a v křest, ve který já budu ponořen, budete ponořeni."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     fial = "sanktoral/0725jakub.ly#rch-a3?zacatek"
     id = "ne29b-1ne-mag"
@@ -2963,7 +3018,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a b( c) c \barMin
     a( b) a g g \barMaior
@@ -2981,7 +3036,58 @@
     modus = "III"
     differentia = "h"
     psalmus = ""
-    fial = "antifony/pust_tyden2.ly#st-aben?zacatek=6&konec=15"
+    fial = "antifony/pust_tyden2.ly#st-aben?zacatek=6&konec=13"
+    id = "ne29b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b \mark\sipka g b c
+    a a g g \barMaior
+    a f g g( a) a \barMin
+    g f g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka při -- šel,
+    a -- by slou -- žil
+    a dal svůj ži -- vot
+    ja -- ko vý -- kup -- né za všech -- ny.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "h"
+    psalmus = ""
+    fial = "antifony/pust_tyden2.ly#st-aben?zacatek=3&konec=15"
+    id = "ne29b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g b c
+    a a g g \barMaior
+    a \mark\sipka g f g( a) a \barMin
+    a a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka při -- šel,
+    a -- by slou -- žil
+    a dal svůj ži -- vot
+    ja -- ko vý -- kup -- né za všech -- ny.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "h"
+    psalmus = ""
+    fial = "antifony/pust_tyden2.ly#st-aben?zacatek=3&konec=15"
     id = "ne29b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
