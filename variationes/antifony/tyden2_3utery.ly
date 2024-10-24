@@ -809,6 +809,24 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka a4 c b a( c) b( a) g \barMin g a g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh změ -- ní náš o -- sud a bu -- de -- me se ra -- do -- vat.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 53"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d c d( e) d d \barMin d c b a b a g g \barFinalis
   }
   \addlyrics {

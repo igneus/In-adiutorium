@@ -1455,6 +1455,48 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f f e d c c \barMin
+    e4 f d c d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé svět -- lo a má spá -- sa,
+    ko -- ho bych se bál?
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 27-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f e d( c) c \barMaior
+    d f e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, hle -- dám tvou tvář;
+    ne -- skrý -- vej svou tvář pře -- de mnou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 27-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %tIstredaNespAntIII =
