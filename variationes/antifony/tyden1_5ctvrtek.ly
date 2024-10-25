@@ -430,6 +430,60 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 e f d d c \barMaior
+    \mark\sipka d c d d( f) f \barMin
+    e c e f d d \barFinalis
+
+    e^\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je Hos -- po -- din,
+    slá -- va buď Bo -- hu,
+    mé -- mu spa -- si -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-VI"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f d d c \barMaior
+    d c d d( f) f \barMin
+    e c e f d d \barFinalis
+
+    \mark\sipka f^\rubrVelikAleluja f e d c c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je Hos -- po -- din,
+    slá -- va buď Bo -- hu,
+    \markup{\Dagger mé} -- mu spa -- si -- te -- li.
+
+    \markup{\Dagger mé} -- mu spa -- si -- te -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-VI"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d d f f \barMaior
     g f g g( f) f \barMin
     e c e f d d \barFinalis
