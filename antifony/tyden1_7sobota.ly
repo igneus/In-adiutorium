@@ -95,8 +95,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g( f e) d( e) e \barMin c d d( e) e \barMaior
-    f g a a a g( a) g f d e e \barFinalis
+    a4 a g( a) g g \barMin a g f( e) e \barMaior
+    d f g a a g( a) g f d e e \barFinalis
   }
   \addlyrics {
     Kdo se po -- ní -- ží ja -- ko dí -- tě,
@@ -140,9 +140,9 @@
   \relative c'' {
     \choralniRezim
     a4 a a bes a g( a) g g \barMin
-    f f g a a a a( bes) a g( a) a \barMaior
+    f f g a a a bes a g( a) a \barMaior
     a( g a) g( f) f \barMin
-    e f f( g) f e c d d \barFinalis
+    g g g( a) f e c d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din spl -- nil pří -- sa -- hu,

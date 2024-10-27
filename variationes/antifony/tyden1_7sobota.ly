@@ -174,7 +174,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( f e) d( e) e \barMin c d d( e) e \barMaior
     f g a a a g( a) g f d e e \barFinalis
@@ -237,6 +237,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a g( a) g g \barMin \mark\sipka a g f( e) e \barMaior
     d f g a a g( a) g f d e e \barFinalis
@@ -472,12 +473,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a bes a g( a) g g \barMin
     f f g a a a a( bes) a g( a) a \barMaior
     a( g a) g( f) f \barMin
     \mark\sipka e f f( g) f e c d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din spl -- nil pří -- sa -- hu,
+    kte -- rou se za -- vá -- zal Da -- vi -- do -- vi:
+    u -- pev -- nil
+    je -- ho krá -- lov -- ství na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 132-II"
+    id = "mc-b-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a bes a g( a) g g \barMin
+    f f g a a a \mark\sipka bes a g( a) a \barMaior
+    a( g a) g( f) f \barMin
+    g g g( a) f e c d d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din spl -- nil pří -- sa -- hu,
