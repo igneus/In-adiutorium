@@ -3238,6 +3238,72 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a g f g( a) a \barMaior
+    \mark\sipka a a a( c) a a \barMin g( a) g g \barMin
+    f f g f e e \barFinalis
+  }
+  \addlyrics {
+    Sle -- pec u Je -- ri -- cha vo -- lal:
+    Sy -- nu Da -- vi -- dův, Je -- ží -- ši,
+    smi -- luj se na -- de mnou!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne30b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a g f g( a) a \barMaior
+    \mark\sipka c b a( b) g g \barMin f( g) g( a) a \barMin
+    g f g f e e \barFinalis
+  }
+  \addlyrics {
+    Sle -- pec u Je -- ri -- cha vo -- lal:
+    Sy -- nu Da -- vi -- dův, Je -- ží -- ši,
+    smi -- luj se na -- de mnou!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne30b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f e d f( g) g \barMaior
+    a g f( g) f f \barMin e( f) d( c) c \barMin
+    d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Sle -- pec u Je -- ri -- cha vo -- lal:
+    Sy -- nu Da -- vi -- dův, Je -- ží -- ši,
+    smi -- luj se na -- de mnou!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne30b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -3263,7 +3329,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka a4 a g f g f g g a a \barMaior
     f( g f d) d \barMin \mark\sipka f( e) c( d) d \barFinalis
@@ -3276,6 +3342,47 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "a"
+    psalmus = ""
+    id = "ne30b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f g \mark\sipka a g f e e \barMaior
+    d( f g a) a \barMin g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Co chceš, a -- bych pro te -- be u -- dě -- lal?
+    Mis -- tře, ať vi -- dím!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne30b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g a g f e e \barMaior
+    d( f g a) a \barMin \mark\sipka f g( f) e \barFinalis
+  }
+  \addlyrics {
+    Co chceš, a -- bych pro te -- be u -- dě -- lal?
+    Mis -- tře, ať vi -- dím!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     id = "ne30b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -3478,6 +3585,24 @@
   \relative c' {
     \choralniRezim
     f4 \barMin d f f f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne30b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \barMin c d( f) e d e c d d \barFinalis
   }
   \addlyrics {
     Jdi, tvá ví -- ra tě za -- chrá -- ni -- la.
