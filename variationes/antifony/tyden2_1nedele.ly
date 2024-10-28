@@ -3367,6 +3367,27 @@ tIInedeleLaudResp = \score {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka c d f e \mark\sipka f( g) g \barMin
+    a4 bes a g f g g \barMaior
+    f4 g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh náš je na ne -- be -- sích, u -- či -- nil vše -- chno, co chtěl.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Žalm 115"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 tIInedeleIInespAntIII = \score {
