@@ -1023,6 +1023,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f g f( d) d \barMin
+    f g a g f g( a) a g g \barMaior
+    a a a a g f \mark\sipka e( f d4.) d \barMin
+    e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo se sta -- lo tě -- lem
+    a pře -- bý -- va -- lo me -- zi ná -- mi.
+    Vi -- dě -- li jsme je -- ho slá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka d4 d c f g f( a) a \barMin
     a a a g f g( a) a g g \barMaior
     a( g f) e( d) c( d) d d( f) e d( e d) d \barMaior
