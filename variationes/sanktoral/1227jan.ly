@@ -409,6 +409,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 \mark\sipka f g g a a \barMin
+    f f f g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Jan je ten u -- čed -- ník,
+    kte -- ré -- ho Je -- žíš mi -- lo -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a g a a \barMin
     \mark\sipka a g f e c e( f) d d \barFinalis
   }

@@ -104,6 +104,67 @@ modIalal = \relative c' { \neviditelna d  d f e( f) d( c) \barMin f e c( d) d \b
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d d( a') g( a) \barMaior
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a a a \mark\sipka bes bes a g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
+  }
+}
+
+\score {
+  \relative c'' {
+    \autoBeamOff
+    a4 a8 a a4 a8 a bes bes a g g[ a] a \barFinalis
+  }
+  \addlyrics {
+    Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu,
+  }
+}
+
+\markup{(Z dosavadní verze)}
+\score {
+  \relative c' {
+    \choralniRezim
+    \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \barFinalis
+  }
+  \addlyrics {
+    \Response A -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) a \barMin a a g a a( bes) a a \barFinalis
+  }
+  \addlyrics {
+    Chval -- te na -- še -- ho Bo -- ha, vši -- chni, kdo mu slou -- ží -- te,
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    a'4 a \mark\sipka g a a bes a a \barMin bes bes a g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky
+  }
+}
+
 modVIIial = \relative c'' { \neviditelna a a4 c( b) c( d) d \barMaior }
 modVIIal = \relative c'' { \neviditelna c c4 c c( d) d \barFinalis }
 modVIIalal = \relative c'' { \neviditelna d e4 d c( d c) b c a g g \barFinalis \break }

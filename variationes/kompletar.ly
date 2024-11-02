@@ -187,6 +187,24 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e \barMin
+    f d d c e d d \barFinalis
+  }
+  \addlyrics {
+    V_noč -- ních ho -- di -- nách ve -- leb -- te Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 1. nešporách - 2. antifona"
+    id = "nei2"
+  }
+}
+
 \pageBreak
 
 \score {
