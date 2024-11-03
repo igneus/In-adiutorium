@@ -294,10 +294,51 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d d( f) f \barMin
+    g( f) e d \mark\sipka f d d \barMaior
+    f f e f d( c) \barMin
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 f e( d) c \barMin
     f f g a a( g) g \barMaior
     a a g f d \barMin
     d( e) c d d \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě_* svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "neděle po 2. nešporách - ant."
+    quidbreve = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 91"
+    piece = \markup\sestavTitulek
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e( f) d \barMin
   }
   \addlyrics {
     O -- chrá -- ní tě_* svý -- mi pe -- ru -- tě -- mi;

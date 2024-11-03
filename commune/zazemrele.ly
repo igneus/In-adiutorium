@@ -51,6 +51,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 40-I"
+    placet = "2 _můj Vykupiteli_ - melodický postup sám o sobě standardní,
+    ale spojení s textem (přízvučná slabika v nejhlubším bodě) netypické"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }

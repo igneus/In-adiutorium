@@ -116,6 +116,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) f \barMin g( f) e f d( c) c \barMaior
+    d d c d d( f) \barMin \mark\sipka f g f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu;
+    on je Pán a Král ži -- vých i mrt -- vých.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d( f) f \barMin f( g) a f f( g) g \barMaior
     a g f g f( d) \barMin c f e c( d) d \barFinalis
   }
@@ -220,6 +240,30 @@
   \relative c' {
     \choralniRezim
     d4 d \barMin d \mark\sipka c d e d d \barMaior
+    d d f e f g g f
+    e( f) e d d \barMaior
+    d d d( c) c( d) d f e d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, můj Vy -- ku -- pi -- te -- li,
+    tě -- lo, kte -- rés mi u -- tvo -- řil
+    z_pra -- chu ze -- mě,
+    pro -- buď k_ži -- vo -- tu v_den po -- sled -- ní.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 40-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka c \barMin c d c c d d \barMaior
     d d f e f g g f
     e( f) e d d \barMaior
     d d d( c) c( d) d f e d d \barFinalis
