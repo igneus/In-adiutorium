@@ -203,7 +203,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    id = "1ne-resp-amag-velik"
+    id = "1ne-amag-velik"
     fons = "commune jednoho mučedníka"
     fial = "fial://commune/commune_jedenmucednik.ly#1ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
