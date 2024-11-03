@@ -190,7 +190,7 @@
     \choralniRezim
     g4 a a( c) c \barMin d( c) b c d c b( g) e \barMaior
     f g a b( c) a g( f) g \barMaior
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Věč -- né svět -- lo_* sví -- tí tvým sva -- tým, Pa -- ne,

@@ -815,11 +815,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 a a( c) c \barMin d( c) b c d c b( g) e \barMaior
     f g a b( c) a g( f) g \barMaior
     g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Věč -- né svět -- lo sví -- tí tvým sva -- tým, Pa -- ne,
+    pat -- ří jim ce -- lá věč -- nost.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "1ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin d( c) b c d c b( g) e \barMaior
+    f g a b( c) a g( f) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
     Věč -- né svět -- lo sví -- tí tvým sva -- tým, Pa -- ne,
