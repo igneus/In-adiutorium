@@ -151,7 +151,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d c c \barMin b a \mark\sipka g( a) g \barMaior
     a g f g a \mark\sipka a( g) g \barMax
@@ -174,6 +174,35 @@
     id = "1ne-a2"
     fons = "2. část: žaltář, 4.t., pá, r.ch., 2.ant."
     fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d c c \barMin b a g( a) g \barMaior
+    a g f g a a( g) g \barMax
+    f a c b c c \barMin
+    c c c b( d) c( b) a a g f g g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me, Bo -- ží měs -- to,
+    ra -- duj se ze svých sy -- nů,
+    všich -- ni se shro -- máž -- dí
+    a bu -- dou ve -- le -- bit věč -- né -- ho Pá -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 147-II"
+    id = "1ne-a2"
+    fons = "2. část: žaltář, 4.t., pá, r.ch., 2.ant."
+    fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?cast=4,5"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -840,6 +869,27 @@
   \relative c' {
     \choralniRezim
     d( f) f \barMin f( g) a f f( g) g \barMaior
+    a( g f) g \mark\sipka f \barMin d f f f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Bo -- hu,
+    chval -- me ho ve spo -- le -- čen -- ství všech sva -- tých!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_svatymuz.ly#invit1?zacatek=12"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin f( g) a f f( g) g \barMaior
     \mark\sipka a a a g f e c e f d d \barFinalis
   }
   \addlyrics {
@@ -1181,6 +1231,32 @@
     quid = "3. ant."
     modus = "IV"
     differentia = "g"
+    psalmus = "Žalm 16"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) a a b( c) a a \barMin
+    g f g a a
+    c b c( a) a \barMaior
+    a a g f e f \mark\sipka d( c) \barMin
+    d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Svým sva -- tým jsi u -- ká -- zal
+    ces -- tu k_ži -- vo -- tu,
+    Hos -- po -- di -- ne,
+    na -- pl -- níš je ra -- dos -- tí
+    z_pat -- ře -- ní na te -- be.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a2"
     psalmus = "Žalm 16"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -1857,7 +1933,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 a a g f \mark\sipka g g( f) f \barMax
@@ -1925,9 +2001,9 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
-    f4 a a g f e f( d) d \barMax
+    f4 a a g f e f( d) d \barMaior
     c d \mark\sipka e f f \barMin g f g g a a \barMaior
     a g a f( g) f f \barMin f \mark\sipka a g f g f \barFinalis
   }
@@ -2489,6 +2565,30 @@
     differentia = "d"
     psalmus = "Žalm 116-II"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d \mark\sipka c d d( f e c) c( d) \barMin
+    c b( c) c b c a g( a) a \barMaior
+    g f g a a c( d e) c d( c) b \barMin
+    a g a \mark\sipka a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je pou -- ze zkou -- šel
+    a shle -- dal, že jsou ho hod -- ni;
+    pro -- to ob -- dr -- ží z_je -- ho ru -- kou
+    od -- mě -- nu věč -- né slá -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

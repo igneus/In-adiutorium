@@ -43,7 +43,7 @@
     a g f g a a( g) g \barMax
     f a c b c c \barMin
     c c c b( d) c( b) a a g f g g \barMaior
-    g g( a) g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- ru -- za -- lé -- me, Bo -- ží měs -- to,
@@ -59,7 +59,7 @@
     psalmus = "Žalm 147-II"
     id = "1ne-a2"
     fons = "2. část: žaltář, 4.t., pá, r.ch., 2.ant."
-    fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?konec&+aleluja"
+    fial = "fial://antifony/tyden4_6patek.ly#rch-ant2?cast=4,5"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -407,10 +407,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    \key f \major
-    f4 a a g f g g( f) f \barMax
-    f g a c c \barMin d c bes bes c c \barMaior
-    c c c f,( g) f f \barMin f( g) a g f g f \barFinalis
+    f4 a a g f e f( d) d \barMaior
+    c d e f f \barMin g f g g a a \barMaior
+    a g a f( g) f f \barMin f a g f g f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din po -- tě -- ší Si -- ón;
@@ -419,8 +418,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "V"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
