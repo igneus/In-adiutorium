@@ -242,6 +242,70 @@ doxologieResponsoriumVI = {}
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f g f g( a) a( g) \barMax
+      \mark\sipka g( a) g g f d f( g) g( f) f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a g( a) g \barMin g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      \mark\sipka g( a) g g f d f( g) g( f) f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+      vše -- chno jsi mou -- dře u -- či -- nil.
+      \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+      \Response vše -- chno jsi mou -- dře u -- či -- nil.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ne-1ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f g f g( a) a( g) \barMax
+      g( a) g g \mark\sipka f( d) f( g) g f f \barFinalis
+      % V
+      \neviditelna f
+      a4 a a g( a) g \barMin g f g( a) a( g) \barMax
+      % R
+      \neviditelna g
+      g( a) g g \mark\sipka f( d) f( g) g f f \barFinalis
+      % Slava
+      %\doxologieResponsoriumVI
+    }
+    \addlyrics {
+      \Response Jak čet -- ná jsou tvá dí -- la, Hos -- po -- di -- ne,_*
+      vše -- chno jsi mou -- dře u -- či -- nil.
+      \Verse Ze -- mě je pl -- ná tvé -- ho tvor -- stva,
+      \Response vše -- chno jsi mou -- dře u -- či -- nil.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "1ne-1ne"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
   \pageBreak
 
   \score {
