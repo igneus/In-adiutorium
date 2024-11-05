@@ -2277,7 +2277,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
     f g a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
@@ -2301,6 +2301,47 @@
     \choralniRezim
     d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
     f g a c b \mark\sipka c( d) d \barMin c a b( c) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Nech -- te dě -- ti při -- chá -- zet ke mně,
+    ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne27b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
+    \mark\sipka a f a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Nech -- te dě -- ti při -- chá -- zet ke mně,
+    ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ne27b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
+    \mark\sipka a g a c b a( g) g \barMin a f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Nech -- te dě -- ti při -- chá -- zet ke mně,

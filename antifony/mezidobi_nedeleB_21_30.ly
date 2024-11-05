@@ -467,7 +467,7 @@
   \relative c'' {
     \choralniRezim
     d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
-    f g a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
+    a f a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Nech -- te dě -- ti při -- chá -- zet ke mně,
@@ -478,7 +478,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "3 druhá půlka nic moc"
     id = "ne27b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

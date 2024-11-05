@@ -1548,10 +1548,38 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
       f g a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Nech -- te dě -- ti při -- chá -- zet ke mně,
+      ne -- boť ta -- ko -- vým pat -- ří Bo -- ží krá -- lov -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      fial = "antifony/mezidobi_nedeleB_21_30.ly#ne27b-rch-ben?+aleluja"
+      id = "vych-ne2-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\aktualisace
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 b d( e d) d \barMin c( b) a( b) a g g \barMaior
+      a f a c b a( g) a \barMin g f g( a) a( g) g \barFinalis
 
       f^\markup\rubrVelikAleluja g( a) g g \barFinalis
     }
