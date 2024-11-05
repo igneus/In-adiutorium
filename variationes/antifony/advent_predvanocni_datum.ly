@@ -1785,6 +1785,37 @@ podobně.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d e d) c( d) d \barMin
+    d( e) d e d e( f) d c \barMaior
+    d a( d) d d d e f \[ g( a g \] \[ a bes a) \] \barMax
+    a( g) f \mark\sipka d( e d c) c \barMaior
+    f e f d e( d) c( d) d( c a) \barMaior
+    c( d) f e c c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Vý -- cho -- de,
+    ja -- se svět -- la věč -- né -- ho
+    a slun -- ce spra -- ve -- dl -- nos -- ti:
+    přijď a o -- svěť
+    ty, kdo ži -- jí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti!
+  }
+  \header {
+    textus_approbatus = "Východe, jase věčného světla a slunce spravedlnosti:
+    přijď a osvěť ty, kdo žijí v temnotě a ve stínu smrti!"
+    fons_externus = "volně podle AR1912, 207."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-21-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\wordwrap{
   Úprava znění druhé části ve prospěch frázování obdobnému tomu, které obvykle nacházíme
   v rorátnících (cézura až po \bold{ty}):
