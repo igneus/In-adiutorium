@@ -991,8 +991,28 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 d c f e f d d \barFinalis
+  }
+  \addlyrics {
+    Mé tě -- lo_* byd -- lí v_bez -- pe -- čí.
+  }
+  \header {
+    quid = "čtvrtek - ant."
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 16"
+    piece = \markup\sestavTitulek
+    id = "ct"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4-- d c f e f d d \barFinalis
   }
   \addlyrics {
     Mé tě -- lo_* byd -- lí v_bez -- pe -- čí.
@@ -1244,6 +1264,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 d c d d( f) f \barMin f g f d d \barFinalis
   }
@@ -1422,6 +1443,24 @@
   \relative c' {
     \choralniRezim
     d4 e f e( d) c \barMin d e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = "pátek"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f d d \barMin d c f e f d \barFinalis
   }
   \addlyrics {
     Ve dne i v_no -- ci vo -- lám k_to -- bě, Bo -- že.
