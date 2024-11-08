@@ -2137,6 +2137,50 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a( d) d c b c d d \barMaior
+    e d c( d) c c \barMin b c a a g a f a c b \barMaior
+    c a g a( g) \barMin f( g) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
+    je -- ho krá -- lov -- ství sa -- há od vý -- cho -- du až na zá -- pad,
+    všem ná -- ro -- dům při -- ná -- ší po -- koj.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a( d) d c b c d d \barMaior
+    e d c( d) c c \barMin b c a a g a f a c b \barMaior
+    c a g \mark\sipka g( a) \barMin g( f) g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus je slun -- ce spra -- ve -- dl -- nos -- ti,
+    je -- ho krá -- lov -- ství sa -- há od vý -- cho -- du až na zá -- pad,
+    všem ná -- ro -- dům při -- ná -- ší po -- koj.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 f g g( a g) f g( a) g f g g \barMaior
