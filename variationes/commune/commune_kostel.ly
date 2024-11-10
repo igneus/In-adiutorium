@@ -2347,6 +2347,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d c) \barMin c a c b \mark\sipka g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Můj dům má být do -- mem mod -- lit -- by.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d c) \barMin c a \mark\sipka b c a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Můj dům má být do -- mem mod -- lit -- by.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2913,7 +2957,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f( g) g \barMin
     a( bes) a g \barMin f g a f( e) d \barMaior
@@ -2941,6 +2985,80 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (Jen divisio)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f( g) g \barMin
+    a( bes) a g \barMin f g a f( e) d \barMaior
+    f e f g( a) f e d d \barMax
+
+    a' a g f g f d( f) e \barMin
+    f g( a bes) a g bes a a \barMaior
+    g( a bes a) g( a) \barMin f g f e d c f e d d \mark\sipka \barMaior
+
+    e^\markup\rubrMimoPust f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    »Za -- che -- e, pojď ry -- chle do -- lů:
+    dnes mu -- sím zů -- stat v_tvém do -- mě«
+
+    a on ry -- chle sle -- zl do -- lů
+    a s_ra -- dos -- tí ho při -- jal;
+    s_Kris -- tem při -- šla do to -- ho -- to do -- mu spá -- sa.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 f f( g) g \barMin
+    a( bes) a g \barMin f g a f( e) d \barMaior
+    f e f g( a) f e d d \barMax
+
+    a' a g f g f d( f) e \barMin
+    f g( a bes) a g bes a a \barMaior
+    \mark\sipka bes( g a f) d \barMin c d f f e c e f d d \barMaior
+
+    e^\markup\rubrMimoPust c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    »Za -- che -- e, pojď ry -- chle do -- lů:
+    dnes mu -- sím zů -- stat v_tvém do -- mě«
+
+    a on ry -- chle sle -- zl do -- lů
+    a s_ra -- dos -- tí ho při -- jal;
+    s_Kris -- tem při -- šla do to -- ho -- to do -- mu spá -- sa.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    fial = "commune/commune_panna.ly#rch-a1?cast=7"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -4067,7 +4185,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -4102,6 +4220,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R

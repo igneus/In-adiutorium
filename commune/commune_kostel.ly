@@ -544,7 +544,7 @@
 
     a' a g f g f d( f) e \barMin
     f g( a bes) a g bes a a \barMaior
-    g( a bes a) g( a) \barMin f g f e d c f e d d \barFinalis
+    g( a bes a) g( a) \barMin f g f e d c f e d d \barMaior
 
     e^\markup\rubrMimoPust f d( c) d \barFinalis
   }
@@ -761,7 +761,7 @@
     g g g f g a g( f) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    a( bes) a \barMin a a( bes) a a g( a) g \barMin g f g( a) a( g) \barMax
+    a a a a( bes) a a g( a) g \barMin g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g g g f g a g( f) d f( g) g( f) f \barFinalis
