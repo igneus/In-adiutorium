@@ -54,7 +54,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    placet = "sekundový pokles hned na začátku jsem v latinském repertoáru oficia snad nikdy neviděl"
+    placet = "takovýto sekundový pokles hned na začátku jsem v latinském repertoáru oficia snad nikdy neviděl"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
