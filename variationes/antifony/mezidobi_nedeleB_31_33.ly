@@ -688,7 +688,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a( c) a a \barMin
     a a a a g a g f g( f d) d \barMaior
@@ -696,6 +696,91 @@
 
     f( g a) \mark\sipka f f( g) g g f( g f d) e( d) \barMaior
     \mark\sipka d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mno -- ho bo -- há -- čů
+    dá -- va -- lo do po -- klad -- ni -- ce mno -- ho
+    ze své -- ho nad -- byt -- ku,
+
+    chu -- dá vdo -- va však da -- la
+    ze své -- ho ne -- do -- stat -- ku.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a( c) a a \barMin
+    a a a a g a g f g( f d) d \barMaior
+    f e f f( g f) d d \barMax
+
+    \mark\sipka f g g( a) a g f( g f d) e( d) \barMaior
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mno -- ho bo -- há -- čů
+    dá -- va -- lo do po -- klad -- ni -- ce mno -- ho
+    ze své -- ho nad -- byt -- ku,
+
+    chu -- dá vdo -- va však da -- la
+    ze své -- ho ne -- do -- stat -- ku.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) a a \barMin
+    a a a a g a g f g( f d) d \barMaior
+    f e f \mark\sipka f( g) f( d) d \barMax
+
+    f g g( a) a f g( f d) d \barMaior
+    c d f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mno -- ho bo -- há -- čů
+    dá -- va -- lo do po -- klad -- ni -- ce mno -- ho
+    ze své -- ho nad -- byt -- ku,
+
+    chu -- dá vdo -- va však da -- la
+    ze své -- ho ne -- do -- stat -- ku.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) a a \barMin
+    a a a a g a g f g( f d) d \barMaior
+    f e f f( g) f( d) d \barMax
+
+    f g \mark\sipka a( c) a g f( g f d) d \barMaior
+    c d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Mno -- ho bo -- há -- čů
@@ -795,7 +880,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 \mark\sipka g a g( a) \barMin
     g f f( g) g \barMaior
@@ -820,9 +905,10 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g a \mark\sipka a
-    g f f( g) g \barMaior
+    g f f( g) g \barMin
     a a a g f g g f f \barMaior
     g-- \mark\sipka f e c( d) d \barFinalis
   }
@@ -870,7 +956,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4( g a) f f( g) g \barMin
     g g f( g) f e d( c) c \barMaior
@@ -941,6 +1027,52 @@
     f4 g \mark\sipka g( a) a \barMin
     a a g( a) g f g( f) f \barMaior
     \mark\sipka f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chu -- dá vdo -- va
+    da -- la všech -- no, co mě -- la,
+    ce -- lé své ži -- vo -- by -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a g( a) g f g( f) f \barMaior
+    f d \mark\sipka f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chu -- dá vdo -- va
+    da -- la všech -- no, co mě -- la,
+    ce -- lé své ži -- vo -- by -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne32b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{(ale _mě_ melisma moc dobře nenese)}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a g( a) g f \mark\sipka g( f d) d \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Chu -- dá vdo -- va

@@ -92,7 +92,7 @@
     a a a a g a g f g( f d) d \barMaior
     f e f f( g f) d d \barMax
 
-    f( g a) f f( g) g g f( g f d) e( d) \barMaior
+    f g g( a) a g f( g f d) e( d) \barMaior
     d c d f e c( d) d \barFinalis
   }
   \addlyrics {
@@ -116,10 +116,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g( a) \barMin
-    g f f( g) g \barMaior
+    f4 g a a
+    g f f( g) g \barMin
     a a a g f g g f f \barMaior
-    g-- f( g f) e c( d) d \barFinalis
+    g-- f e c( d) d \barFinalis
   }
   \addlyrics {
     Kaž -- dý ať dá
@@ -140,9 +140,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( g a) f f( g) g \barMin
-    g g f( g) f e d( c) c \barMaior
-    d c d f e c( d) d \barFinalis
+    f4 g g( a) a \barMin
+    a a g( a) g f g( f) f \barMaior
+    f d f e d c( d) d \barFinalis
   }
   \addlyrics {
     Chu -- dá vdo -- va
