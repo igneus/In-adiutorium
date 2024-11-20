@@ -1166,7 +1166,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) g \barMin
     a b c a a g f g \barMaior
@@ -1174,6 +1174,63 @@
     \mark\sipka a( f) a a g g \barFinalis
 
     g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Tě -- la sva -- tých_*
+    by -- la po -- hřbe -- na v_po -- ko -- ji
+    a je -- jich jmé -- no
+    ži -- je na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( a) g \barMin
+    a b c a a g f g \barMaior
+    c d c b( a g4.) g4 \barMin
+    \mark\sipka a f g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Tě -- la sva -- tých_*
+    by -- la po -- hřbe -- na v_po -- ko -- ji
+    a je -- jich jmé -- no
+    ži -- je na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g \barMin
+    a b c a a g f g \barMaior
+    c d c b( a g4.) g4 \barMin
+    \mark\sipka f g g( a) g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Tě -- la sva -- tých_*

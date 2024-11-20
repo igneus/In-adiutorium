@@ -119,12 +119,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) g \barMin
     a b c a a g f g \barMaior
     c d c b( a g) g \barMin
     a( f) a a g g \barFinalis
+  }
+  \addlyrics {
+    Tě -- la sva -- tých_*
+    by -- la po -- hřbe -- na v_po -- ko -- ji
+    a je -- jich jmé -- no
+    ži -- je na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "commune/commune_vicemucedniku.ly#2ne-a1?-aleluja"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( a) g \barMin
+    a b c a a g f g \barMaior
+    c d c b( a g4.) g4 \barMin
+    a f g( a) g g \barFinalis
   }
   \addlyrics {
     Tě -- la sva -- tých_*

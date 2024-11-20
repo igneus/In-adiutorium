@@ -666,10 +666,10 @@
     \choralniRezim
     g4 g g( a) g \barMin
     a b c a a g f g \barMaior
-    c d c b( a g) g \barMin
-    a( f) a a g g \barFinalis
+    c d c b( a g4.) g4 \barMin
+    a f g( a) g g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Tě -- la sva -- tých_*
