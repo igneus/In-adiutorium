@@ -218,6 +218,7 @@ podobného znění, tu teď ale nemohu najít.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g g \barMin a c b c d d \barMaior
     d e c d c c \barMin c a g g g a( g) g( a) a \barMax
@@ -238,7 +239,39 @@ podobného znění, tu teď ale nemohu najít.}
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "takovýto sekundový pokles hned na začátku jsem v latinském repertoáru oficia snad nikdy neviděl"
     id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a a \barMin a c b c d d \barMaior
+    d e c d c c \barMin c a g g g \mark\sipka a g g( a) a \barMax
+    a b c c( d) d a a \barMin a b g g( a) a a \barMaior
+    d d d( c a) d( c) c( d) d \barMin d d e f d e d d \barMaior
+    a a a a( bes) a g( a) a \barMin c c bes a a \barFinalis
+  }
+  \addlyrics {
+    Lu -- ci -- e, ne -- věs -- to Kris -- to -- va,
+    svou vy -- tr -- va -- los -- tí jsi za -- chrá -- ni -- la svo -- ji du -- ši:
+    da -- la jsi před -- nost to -- mu, co ne -- ní ze svě -- ta,
+    pro -- li -- tím své kr -- ve jsi pře -- moh -- la ne -- pří -- te -- le,
+    a ny -- ní zá -- říš slá -- vou
+    me -- zi an -- dě -- ly.
+  }
+  \header {
+    textus_approbatus = "Lucie, nevěsto Kristova, svou vytrvalostí jsi zachránila svou duši:
+    dala jsi přednost tomu, co není ze světa, prolitím své krve jsi přemohla nepřítele,
+    a nyní záříš slávou mezi anděly."
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
