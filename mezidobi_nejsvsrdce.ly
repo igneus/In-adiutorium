@@ -160,11 +160,11 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g g g a g a( c d) d( c) c \barMaior
-    d c b( c) a \barMin
-    g f g( a) a g g \barFinalis
+    c4 d d d e c d( e) d d \barMaior
+    f e d( e) d \barMin
+    c a b( c) a g g \barFinalis
   }
   \addlyrics {
     U te -- be je pra -- men ži -- vo -- ta;
@@ -173,10 +173,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 36"
-    placet = "3 první půlku spíš lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
