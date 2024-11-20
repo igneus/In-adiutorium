@@ -30,7 +30,7 @@
     differentia = "c"
     psalmus = ""
     placet = "2 melodie _František_ nějak nesedí"
-    fial = "sanktoral/1111martin.ly#rch-a3?jiny_text"
+    fial = "sanktoral/1111martin.ly#rch-a3?cast=1-3&zanedbat=melismata,opakovane_noty"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
