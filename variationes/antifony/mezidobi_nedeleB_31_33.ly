@@ -1119,7 +1119,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( c) a a \barMin c d e( d) c( d) d \barMaior
     d( e d) c b c c b( a g) \barMaior
@@ -1140,10 +1140,58 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a a( c) a a \barMin c d e( d) c( d) d \barMaior
+    d( e d) \mark\sipka c( b) a c c b( a g) \barMaior
+    a g a a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
+    při -- chá -- zet v_ob -- la -- cích
+    s_ve -- li -- kou mo -- cí a slá -- vou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    fial = "antifony/advent_nedeleC.ly#imag1?cast=4&transposice=+5"
+    id = "ne33b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) a a \barMin c d e( d) c( d) d \barMaior
+    \mark\sipka e( f e) d( c) c d d c( b a) \barMaior
+    a g a a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Li -- dé u -- vi -- dí Sy -- na člo -- vě -- ka
+    při -- chá -- zet v_ob -- la -- cích
+    s_ve -- li -- kou mo -- cí a slá -- vou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    fial = "antifony/advent_nedeleC.ly#imag1?cast=3,4&transposice=+5"
+    id = "ne33b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c( b) c( b) \barMin
     c( d e) c b a a \barMaior
@@ -1158,6 +1206,51 @@
     quid = "ant. k Benedictus"
     modus = "IV alt"
     differentia = "d"
+    psalmus = ""
+    id = "ne33b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c( d) d \barMin
+    d( c) d( e) e d d \barMaior
+    c a c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Na kon -- ci vě -- ků
+    shro -- máž -- dí Kris -- tus
+    všech -- ny své vy -- vo -- le -- né.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ne33b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 g a c( d) d \barMin
+    d( c) d( e) e d d \barMaior
+    c a c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Na kon -- ci vě -- ků
+    shro -- máž -- dí Kris -- tus
+    všech -- ny své vy -- vo -- le -- né.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "ne33b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1240,7 +1333,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d f( g) g a( bes) a a \barMin
@@ -1255,8 +1348,98 @@
     modus = "I"
     differentia = "D2"
     psalmus = ""
+    placet = "nasazení druhé části je nepěkné"
     id = "ne33b-2ne-mag"
     fial = "antifony/tyden2_7sobota.ly#up-ant1?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f( g) g a( bes) a a \barMin
+    \mark\sipka a a a g( f d) d c e d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou,
+    a -- le má slo -- va ne -- po -- mi -- nou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D2"
+    psalmus = ""
+    id = "ne33b-2ne-mag"
+    fial = "antifony/tyden2_7sobota.ly#up-ant1?cast=1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Začátek zkopírovaný z delší antifony vytváří větší napětí,
+  než se dá na krátkém textu druhé části vkusně dovést k závěru na tónice.
+  Bude lepší se od něj odpoutat.
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 a a bes a g a g \barMin
+    f g a g( f d) d c e d d \barFinalis
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou,
+    a -- le má slo -- va ne -- po -- mi -- nou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne33b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d e( c) c( d) d \barMin
+    d d d c a g b a a \barFinalis
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou,
+    a -- le má slo -- va ne -- po -- mi -- nou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ne33b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 d e g( a) a b( g) g( a) a \barMin
+    a a a \mark\sipka g( f e) e d f f( e) e \barFinalis
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou,
+    a -- le má slo -- va ne -- po -- mi -- nou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne33b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

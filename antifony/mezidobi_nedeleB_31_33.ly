@@ -164,8 +164,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( c) a a \barMin c d e( d) c( d) d \barMaior
-    d( e d) c b c c b( a g) \barMaior
+    g4 a a( c) a a \barMin c d e( d) c( d) d \barMaior
+    d( e d) c( b) a c c b( a g) \barMaior
     a g a a( c) b g a a \barFinalis
   }
   \addlyrics {
@@ -178,6 +178,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    fial = "antifony/advent_nedeleC.ly#imag1?cast=4&transposice=+5"
     id = "ne33b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -186,9 +187,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d c( b) c( b) \barMin
-    c( d e) c b a a \barMaior
-    g f g a( c) b g( a) a \barFinalis
+    g4 a c c( d) d \barMin
+    d( c) d( e) e d d \barMaior
+    c a c b g g( a) a \barFinalis
   }
   \addlyrics {
     Na kon -- ci vě -- ků
@@ -198,7 +199,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV alt"
-    differentia = "d"
+    differentia = "A"
     psalmus = ""
     id = "ne33b-rch-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -206,11 +207,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    d4 d d f( g) g a( bes) a a \barMin
-    g f e f d c e d d \barFinalis
+    a4 a a bes a g a g \barMin
+    f g a g( f d) d c e d d \barFinalis
   }
   \addlyrics {
     Ne -- be a ze -- mě po -- mi -- nou,
@@ -219,10 +219,9 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D2"
+    differentia = "a"
     psalmus = ""
     id = "ne33b-2ne-mag"
-    fial = "antifony/tyden2_7sobota.ly#up-ant1?zacatek"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
