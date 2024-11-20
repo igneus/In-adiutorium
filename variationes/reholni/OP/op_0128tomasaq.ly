@@ -18,6 +18,10 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\with-url "https://breviar.op.cz/?a=7&datum=2022-01-28&k=28JAN2" {
+  >> Texty na breviar.op.cz <<
+}
+
 \markup {\nadpisHodinka {"nešpory"}}
 
 \markup\justify{
