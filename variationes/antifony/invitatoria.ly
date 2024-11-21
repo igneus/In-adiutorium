@@ -475,6 +475,46 @@ pojdmeKlanmeSeCele = {
   \header {
     quid = "ant."
     modus = "VI"
+    differentia = "F"
+    dies = "středa"
+    id = "t1st"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( f) d \barMin
+    c d f f g a f f \barFinalis
+  }
+  \addlyrics {
+    Po -- klek -- ně -- me
+    před svým tvůr -- cem Hos -- po -- di -- nem!
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    dies = "středa"
+    id = "t1st"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a \mark\sipka g( f d) d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Po -- klek -- ně -- me
+    před svým tvůr -- cem Hos -- po -- di -- nem!
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
     differentia = "f"
     dies = "středa"
     id = "t1st"

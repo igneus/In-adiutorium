@@ -1081,6 +1081,33 @@ ciselnaRada = \markup\tiny\sans\concat{
     f4 f f g f g( a) a \barMin
     g a g f( d) d \barMaior
     d( c) d f g e e \barMin
+    e f e f g a bes a \mark\sipka g( f g) g( a) \barMaior
+    g( a) f e d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- je -- me ti, Bo -- že,
+    a kla -- ní -- me se
+    tvé -- mu je -- di -- né -- mu,
+    pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
+    ve třech o -- so -- bách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 f f g f g( a) a \barMin
+    g a g f( d) d \barMaior
+    d( c) d f g e e \barMin
     e f e f g a bes a \mark\sipka g( a g f) e( d) \barMaior
     c( f) e c d d \barFinalis
   }

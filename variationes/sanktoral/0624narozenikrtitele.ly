@@ -3686,3 +3686,33 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a a g f f( g) g \barMin
+    g a g g( f) f \barMaior
+    g g g f g g( f) f \barMaior
+    d f f( g) g \barMin
+    f g a a g f g( a) g g \barMaior
+    a( bes) a g f g g( f) f \barMin
+    f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, kte -- ré se nám na -- ro -- di -- lo,
+    je víc než pro -- rok.
+    Spa -- si -- tel o něm ře -- kl:
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
