@@ -66,9 +66,9 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g( a) f g( a) a \barMin
+    f4 g g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
     a4 g f g( a) a( g) g \barFinalis
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
@@ -84,10 +84,9 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Ef 1"
-    placet = "_Dobrý pastýř_ nevím"
     id = "1ne-a3"
     fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
-    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec=30"
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec=26"
     piece = \markup {\sestavTitulek}
   }
 }

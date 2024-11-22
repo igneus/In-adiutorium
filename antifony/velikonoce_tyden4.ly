@@ -471,9 +471,9 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g( a) f g( a) a \barMin
+    f4 g g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
     a4 g f g( a) a( g) g \barMaior
     f g( a) g g \barFinalis

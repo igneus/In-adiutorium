@@ -476,7 +476,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g( a) f g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
@@ -503,6 +503,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka f4 g g( a) a \barMin
     \[ b( c \] \[ d b c) \] a4.( g) \barMin
@@ -522,7 +523,7 @@
     psalmus = "Ef 1"
     id = "1ne-a3"
     fons = "4. ne velik. cyk. B, 1. nešp., k Magnif., 2. část"
-    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec"
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?konec=26"
     piece = \markup {\sestavTitulek}
   }
 }
