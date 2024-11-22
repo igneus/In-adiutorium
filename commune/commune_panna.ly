@@ -14,23 +14,26 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b( c) a c d e d d \barMaior
-    d c d d c( b g) \barMin a( f) a g g \barFinalis
+    g4 a c( d) d \barMin d c e d d \barMaior
+    e d c d d( c a) \barMin
+    a( b) g g( a) a \barFinalis
 
-    g^\markup\rubrVelikAleluja a g g \barFinalis
+    g^\markup\rubrVelikAleluja a c c
+    b g g( a) a \barFinalis
   }
   \addlyrics {
     Pojď -- te, dce -- ry, na -- pro -- ti Pá -- nu,
-    a bu -- de -- te žít v_je -- ho svět -- le.
+    a bu -- de -- te žít
+    \markup{\Dagger v je} -- ho svět -- le.
 
+    \markup{\Dagger v je} -- ho svět -- le.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 113"
-    placet = "3 lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }

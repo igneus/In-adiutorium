@@ -12,6 +12,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b( c) a c d e d d \barMaior
     d c d d c( b g) \barMin a( f) a g g \barFinalis
@@ -70,6 +71,94 @@
     Pojď -- te, dce -- ry, na -- pro -- ti Pá -- nu,
     a bu -- de -- te žít v_je -- ho svět -- le.
 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin d c e d d \barMaior
+    e \mark\sipka d c d d( c) \barMin
+    a( c) b g( a) a \barFinalis
+
+    c^\markup\rubrVelikAleluja c b g
+    b c a a \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, dce -- ry, na -- pro -- ti Pá -- nu,
+    a bu -- de -- te žít
+    \markup{\Dagger v je} -- ho svět -- le.
+
+    \markup{\Dagger v je} -- ho svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin d c e d d \barMaior
+    e d c d d( c) \barMin
+    a( c) b g( a) a \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja a g a
+    c b a a \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, dce -- ry, na -- pro -- ti Pá -- nu,
+    a bu -- de -- te žít
+    \markup{\Dagger v je} -- ho svět -- le.
+
+    \markup{\Dagger v je} -- ho svět -- le.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (částečně zpět)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin d c e d d \barMaior
+    e d c d \mark\sipka d( c a) \barMin
+    a( b) g g( a) a \barFinalis
+
+    g^\markup\rubrVelikAleluja a c c
+    b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, dce -- ry, na -- pro -- ti Pá -- nu,
+    a bu -- de -- te žít
+    \markup{\Dagger v je} -- ho svět -- le.
+
+    \markup{\Dagger v je} -- ho svět -- le.
     A -- le -- lu -- ja.
   }
   \header {
