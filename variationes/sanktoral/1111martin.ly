@@ -534,6 +534,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d d( a' bes a) a \barMin a a a a g( f g) g \barMax
     d d f d c d \barMin
@@ -562,6 +563,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d \mark\sipka c d d( a' bes a) a \barMin a a a a g( f g) g \barMax
     d d f d c d \barMin
@@ -807,9 +809,17 @@
   }
 }
 
+\markup\justify{
+  Poznámku v produkční verzi ruším, daná pasáž už mě nedráždí.
+  Snad jsem v době přilepení poznámky antifonu zpíval s jinak položenými přízvuky/frázováním
+  či co.
+  Když se zpívá tak, že _se_ připadne k předchozímu přízvučnému celku
+  a _ani_ má nepatrně větší důraz než ostatní přízvučné slabiky jako začátek
+  nové fráze (a první člen paralely _ani ... ani_), je všechno v pořádku.
+}
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) a a g f g f g a g g \barMaior
     a g a c b g( a) a \barMax
@@ -827,6 +837,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 15"
+    placet = "_se nedal ani_ lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -834,6 +845,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g( a) a a g f g f g a g g \barMaior
     a \mark\sipka a c b g g( a) a \barMax
@@ -955,6 +967,78 @@
   \relative c' {
     \choralniRezim
     c4( d) d \barMin d d d d f f e d e d c \barMaior
+    d e f e d \mark\sipka e( f) d d \barMaior
+    f g a( g f) d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, jsem -- -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
+    ne -- od -- mí -- tám dál pra -- co -- vat;
+    ať se sta -- ne tvá vů -- le.
+  }
+  \header {
+    textus_approbatus = "Pane, jsem-li dosud tvému lidu potřebný,
+    neodmítám dále pracovat; ať se stane tvá vůle."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d \barMin d d d d f f e d e d c \barMaior
+    d e f \mark\sipka d c c d d \barMaior
+    f g a( g f) d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, jsem -- -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
+    ne -- od -- mí -- tám dál pra -- co -- vat;
+    ať se sta -- ne tvá vů -- le.
+  }
+  \header {
+    textus_approbatus = "Pane, jsem-li dosud tvému lidu potřebný,
+    neodmítám dále pracovat; ať se stane tvá vůle."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d \barMin d d d d f f e d e d c \barMaior
+    d e f d c \mark\sipka e( f) d d \barMaior
+    f g a( g f) d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, jsem -- -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
+    ne -- od -- mí -- tám dál pra -- co -- vat;
+    ať se sta -- ne tvá vů -- le.
+  }
+  \header {
+    textus_approbatus = "Pane, jsem-li dosud tvému lidu potřebný,
+    neodmítám dále pracovat; ať se stane tvá vůle."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d \barMin d d d d f f e d e d c \barMaior
     d e f e d d( e) d d \barMaior
     \mark\sipka f f e( f d) d c( e) d d \barFinalis
   }
@@ -1026,10 +1110,31 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) c \barMin c b a g g g( a g) \barMaior
     g f g \mark\sipka g( a) a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Bis -- kup Mar -- tin o -- pus -- til ten -- to svět
+    a ny -- ní kra -- lu -- je s_Kris -- tem v_ne -- bi.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 15"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( d) c \barMin c b a g g g( a g) \barMaior
+    g f \mark\sipka a b( c) a a b( c) a g g \barFinalis
   }
   \addlyrics {
     Bis -- kup Mar -- tin o -- pus -- til ten -- to svět

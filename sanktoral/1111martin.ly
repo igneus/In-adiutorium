@@ -114,7 +114,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) d d( a' bes a) a \barMin a a a a g( f g) g \barMax
+    d4 d c d d( a' bes a) a \barMin a a a a g( f g) g \barMax
     d d f d c d \barMin
     f g a g f g g( a) a \barMaior
     a g a c b a c a a \barMaior
@@ -145,7 +145,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g( a) a a g f g f g a g g \barMaior
-    a g a c b g( a) a \barMax
+    a a c b g g( a) a \barMax
     c c c d b c a \barMaior
     a g f g a a g \barFinalis
   }
@@ -160,7 +160,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 15"
-    placet = "_se nedal ani_ lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -185,6 +184,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 112"
+    placet = "2 třetí část (_neodmítám ..._) není moc zpěvná"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -194,7 +194,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c( d) c \barMin c b a g g g( a g) \barMaior
-    g f g g( a) a a a( c) b g g \barFinalis
+    g f a b( c) a a b( c) a g g \barFinalis
   }
   \addlyrics {
     Bis -- kup Mar -- tin o -- pus -- til ten -- to svět
