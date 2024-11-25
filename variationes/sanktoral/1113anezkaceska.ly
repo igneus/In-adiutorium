@@ -187,6 +187,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f d g f g( a) g \barMaior
+    a b c c \mark\sipka b g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní mi -- lo -- srd -- ní,
+    ne -- boť o -- ni do -- jdou mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -742,6 +762,42 @@
     % R
     \neviditelna a
     g g g a g( f d) d \barMin f \mark\sipka f g a g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Kdo je me -- zi vá -- mi nej -- vět -- ší,
+    ať je ja -- ko nej -- men -- ší._*
+    To je vů -- le Bo -- ží: va -- še po -- svě -- ce -- ní.
+    \Verse Kdo -- je před -- sta -- ve -- ný,
+    ať je ja -- ko ten, kdo dru -- hým slou -- ží._*
+    \Response To je vů -- le Bo -- ží: va -- še po -- svě -- ce -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f f  \barMin
+    f f g f g a a( g) \barMax
+    g g g a g( f d) d \barMin f \mark\sipka g a g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a a( bes) a g( a) g \barMin
+    g g g g g g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g a g( f d) d \barMin f \mark\sipka g a g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
