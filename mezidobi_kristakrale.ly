@@ -19,7 +19,7 @@
     \choralniRezim
     g4 a a( c) c c d( e d) c c d d \barMaior
     e d c d( c a) \barMin
-    b g a( c) b g a a \barFinalis
+    b g c b a( b) a a \barFinalis
   }
   \addlyrics {
     Je -- ho jmé -- no je kní -- že po -- ko -- je
@@ -174,7 +174,7 @@
   \relative c'' {
     \choralniRezim
     a4 g c b a g a f \barMin a a g( a) g \barMaior
-    f d f f( g) \barMin a c b g a g g \barFinalis
+    f d f f( g) \barMin a c b c a g g \barFinalis
   }
   \addlyrics {
     Bůh ho u -- sta -- no -- vil krá -- lem své -- ho li -- du
@@ -225,6 +225,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 72-II"
+    placet = "3 melisma na _budou_ spíš pryč"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -492,8 +493,8 @@
     \choralniRezim
     g4 g a f g( a g) g \barMaior
     a b c a a c( d) c b a a \barMaior
-    c b a g( a) g \barMin
-    f g a g g \barFinalis
+    c d c b( a g4.) g \barMin
+    a4 f a g g \barFinalis
   }
   \addlyrics {
     Prou -- dy ži -- vé vo -- dy
