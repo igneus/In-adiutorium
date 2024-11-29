@@ -84,7 +84,7 @@
     pra -- ví Pán.
   }
   \header {
-    quid = "3. ant."
+    quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
