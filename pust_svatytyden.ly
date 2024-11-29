@@ -1161,7 +1161,7 @@
     \relative c'' {
       \choralniRezim
       a4 a g( a) g f g( a) a \barMin
-      a a b c a b( c a g) g \barMaior
+      a g a c c b( c a g) g \barMaior
       a a( d) d c d d( e d) c b c a a \barMax
       a a a4.( e) \barMin
       e4 f e f e g a a a g a c( b a) a \barMaior
