@@ -1,4 +1,4 @@
-\version "2.15.37"
+\version "2.24.0"
 
 \header {
   title = "Kantikum podle Zj 19,1-7"
@@ -18,7 +18,7 @@
     }
 
     \fill-line{
-      \on-the-fly \development-build \placet
+      \if \is-development-build \placet
       ""
       \small { \fromproperty #'header:fons_externus }
     }
