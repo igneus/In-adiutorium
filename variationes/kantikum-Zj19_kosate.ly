@@ -621,12 +621,22 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin a g f( e d e) e \
 }
 
 \score {
+  \relative c'' { \choralniRezim \neviditelna a a a a( b) g \barMin \mark\sipka f g a( g f e) e \barFinalis }
+  \addlyrics { \alal }
+}
+
+\score {
   \relative c'' { \choralniRezim \neviditelna a a4 a g a a( b) a a \barMin a g f g a \barFinalis }
   \addlyrics { \Verse Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest! }
 }
 
 \score {
   \relative c'' { \choralniRezim \neviditelna a a4 a g a a a b g a a \barFinalis }
+  \addlyrics { \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la. }
+}
+
+\score {
+  \relative c'' { \choralniRezim \neviditelna a a4 g a b a g f g a a \barFinalis }
   \addlyrics { \Verse je -- ho ne -- věs -- ta se při -- pra -- vi -- la. }
 }
 
