@@ -952,6 +952,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka c
+    b a c b a b g g \barMin
+    f g g( a) a \barMaior
+    c c( d c a) a \barMin
+    c c b( a) g g \barMin
+    f g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    V_ten den
+    bu -- dou pa -- hor -- ky o -- plý -- vat
+    mla -- dým ví -- nem
+    a ho -- ry
+    bu -- dou pře -- té -- kat
+    mlé -- kem a me -- dem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1435,13 +1465,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) g a( c) c \barMin
     d( e) d \barMaior
     d( c b) a( g) a \barMin
     a a g f g \mark\sipka a a a g \barMaior
     \mark\sipka f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Při -- jde Kris -- tus,
+    náš Král,
+    Be -- rá -- nek,
+    je -- hož pří -- chod o -- hla -- šo -- val Jan.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) g a( c) c \barMin
+    d( e) d \barMaior
+    d( c b) a( g) a \barMin
+    a a g f g a a a g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
     Při -- jde Kris -- tus,

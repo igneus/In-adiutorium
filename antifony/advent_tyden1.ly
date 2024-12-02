@@ -327,7 +327,7 @@
     d( e) d \barMaior
     d( c b) a( g) a \barMin
     a a g f g a a a g \barMaior
-    f a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Při -- jde Kris -- tus,
