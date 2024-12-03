@@ -16,11 +16,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( g) g \barMin f g a g f g( a g) g \barMaior
-    g f g a c c \barMin
-    b c a g f g a g g \barFinalis
+    g4( a) a \barMin g f g a f g( a g) g \barMaior
+    g a f a c b \barMin
+    c c a g f g a g g \barFinalis
   }
   \addlyrics {
     On -- dřej, bra -- tr Ši -- mo -- na Pet -- ra,
@@ -41,8 +41,8 @@
   \relative c'' {
     \choralniRezim
     g4 g g d' d d c e d \barMin
-    c d c b a g g  \barMaior
-    g a f g( a) a( g) g \barFinalis
+    c d c b a g a( g) \barMaior
+    f g( a) g f g g \barFinalis
   }
   \addlyrics {
     On -- dřej o -- bě -- to -- val svůj ži -- vot
@@ -88,7 +88,7 @@
     \choralniRezim
     d4 d( a' g) g( a) a \barMin c c b( a g a) a \barMaior
     a bes a g( a g) g \barMin f f d f e e \barMaior
-    d d d( f) g f( e d) \barMin c d e f d d \barFinalis
+    d d d( f) g f( e d) \barMin e c e f d d \barFinalis
   }
   \addlyrics {
     Buď po -- zdra -- ven, sva -- tý kří -- ži,
@@ -110,8 +110,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4-- f( g) g( a) a \barMin c a a c( b) a( g) g \barMaior
-    f g a g g \barFinalis
+    a4 b( c) a a \barMin c b a g a g \barMin
+    f g( a) a g g \barFinalis
   }
   \addlyrics {
     Pán u -- vi -- děl Pet -- ra a On -- dře -- je
@@ -120,7 +120,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "G*"
     psalmus = "Žalm 116-II"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
