@@ -1980,6 +1980,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a b c b a b \barMin
+    c d e e c d d \barMaior
+    e( d) c d \mark\sipka a \barMin
+    g( c) b a a \barMaior
+    \mark\sipka b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te Hos -- po -- di -- na,
+    když je mož -- né ho na -- jít,
+    vzý -- vej -- te ho,
+    když je blíz -- ko!
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a \mark\sipka g c b a b \barMin
     c d e e c d d \barMaior
     e( d c) b a g \barMin
