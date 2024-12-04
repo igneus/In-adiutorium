@@ -2240,7 +2240,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacSedy
+    \zvyraznovacModry
     \choralniRezim
     a4 a a a( b) a g( a) a \barMin
     g e f e e \barMaior
@@ -2263,7 +2263,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a( b) a g( a) a \barMin
     g e f e e \barMaior

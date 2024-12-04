@@ -434,7 +434,7 @@
     \choralniRezim
     a4 a a a( b) a g( a) a \barMin
     g e f e e \barMaior
-    d c d d f e d( e) e \barFinalis
+    d c d d f g e e \barFinalis
   }
   \addlyrics {
     Po -- zor -- ně na -- slou -- chej -- te,_*
@@ -446,7 +446,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 116-II"
-    placet = "nevím, jestli nebude lepší vrátit se k předchozí verzi"
     id = "pa-nesp-ant1"
     piece = \markup {\sestavTitulek}
   }
