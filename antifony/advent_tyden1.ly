@@ -595,7 +595,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = ""
     id = "pa-aben"

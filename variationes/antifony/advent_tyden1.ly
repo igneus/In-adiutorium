@@ -2216,6 +2216,31 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c( d) e( g) g \barMin
+    f g a g f d e \barMax
+    e e e4( a) g g( a) a \barMin
+    a g a \mark\sipka a a g e e f e d e \barFinalis
+  }
+  \addlyrics {
+    Za mnou při -- chá -- zí
+    ně -- kdo moc -- něj -- ší než já;
+    je -- mu ne -- jsem ho -- den
+    a -- ni roz -- vá -- zat ře -- mí -- nek u o -- pán -- ků.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "st-aben"
+    fial = "fial://antifony/advent_nedeleB.ly#iimag2?volne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka c4 d f( g) g g \barMin
     f g a g f d e \barMax
     e e e4( a) g g( a) a \barMin
@@ -2529,7 +2554,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 c( d) c b a g a g g \barMaior
     f a c c d d c d d( c) \barMin
@@ -2545,6 +2570,34 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (změna modu, recituje jednoznačně na c)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c( d) c b a g a g g \barMaior
+    f a c c d d c d d( c) \barMin
+    b a g f g( a) g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží se sta -- ne člo -- vě -- kem
+    a za -- sed -- ne na krá -- lov -- ský trůn
+    své -- ho před -- ka Da -- vi -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
     differentia = "c"
     psalmus = ""
     id = "pa-aben"
@@ -2751,6 +2804,28 @@
     c4 d c b a g g \mark\sipka f( g) a g g \barMaior
     a( c) c \barMin
     b c a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Z_E -- gyp -- ta jsem po -- vo -- lal své -- ho Sy -- na:
+    při -- jde,
+    a -- by spa -- sil svůj lid.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b a g g \mark\sipka f( a) a g g \barMaior
+    a( c) c \barMin
+    b c a g \mark\sipka f( g) g \barFinalis
   }
   \addlyrics {
     Z_E -- gyp -- ta jsem po -- vo -- lal své -- ho Sy -- na:
