@@ -6062,6 +6062,7 @@ se bude hodit.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 c b a4.( g) \barMin
     g4 g g g g g f g a( b c4.) c \barMin
@@ -6076,6 +6077,7 @@ se bude hodit.}
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "oslovení s protaženou poslední slabikou zní obhrouble, neurvale, nekultivovaně"
     id = "t2-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -6487,7 +6489,6 @@ ale sám o sobě se mi líbí.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
     \choralniRezim
     g4 f g( a) a \barMin
     a b c a a c b a g g \barMaior
@@ -6514,6 +6515,29 @@ ale sám o sobě se mi líbí.}
     g4 f g( a) a \barMin
     a b c a a \mark\sipka a b a g g \barMaior
     \mark\sipka g f e d f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
+    a od -- pusť nám na -- še hří -- chy!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "t2-ct-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g( a) a \barMin
+    a b c a a a b a g g \barMaior
+    g f e d f \mark\sipka f f( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,

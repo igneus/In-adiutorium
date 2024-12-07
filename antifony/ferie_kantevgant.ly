@@ -408,12 +408,13 @@ tIIstredaAntMagnificat = \score {
 tIIctvrtekAntBenedictus = \score {
   \relative c'' {
     \choralniRezim
-    g4 c b a4.( g) \barMin
-    g4 g g g g g f g a( b c4.) c \barMin
-    c4 d c c b( c a) g a4. g \barFinalis
+    g4 f g( a) a \barMin
+    a b c a a a b a g g \barMaior
+    g f e d f f f( g) g \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, dej své -- mu li -- du po -- zná -- ní spá -- sy
+    Hos -- po -- di -- ne,
+    dej své -- mu li -- du po -- zná -- ní spá -- sy
     a od -- pusť nám na -- še hří -- chy!
   }
   \header {
@@ -421,7 +422,6 @@ tIIctvrtekAntBenedictus = \score {
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "oslovení s protaženou poslední slabikou zní obhrouble, neurvale, nekultivovaně"
     id = "t2-ct-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
