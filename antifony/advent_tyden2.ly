@@ -108,7 +108,7 @@
     id = "ne-rch-a1"
     fons = "předvánoční týden, řada antifon k žalmům, úterý, 2. ant."
     fial = "fial://antifony/advent_predvanocni_vtydnu.ly#predvanocni-zlm-ut-a2"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
