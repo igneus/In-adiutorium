@@ -971,6 +971,24 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka f g a g f( g) g \barMin a bes a g4.( f) e4 f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Při -- chá -- zím na ú -- svi -- tě a spo -- lé -- hám na tvá slo -- va.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D2"
+    psalmus = "Žalm 119-XIX"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
