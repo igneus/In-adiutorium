@@ -694,11 +694,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d e d f e c d d \barMaior
     a c( d) c( d) d \barMin c b a c b g g \barMaior
     \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí
+    a za -- zá -- ří o -- čím svých slu -- žeb -- ní -- ků.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d e d f e c d d \barMaior
+    a c( d) c( d) d \barMin c b a c b g g \mark\sipka \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Hle, náš Bůh při -- jde s_ve -- li -- kou mo -- cí

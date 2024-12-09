@@ -140,7 +140,7 @@
   \relative c'' {
     \choralniRezim
     d4 c d e d f e c d d \barMaior
-    a c( d) c( d) d \barMin c b a c b g g \barMaior
+    a c( d) c( d) d \barMin c b a c b g g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
