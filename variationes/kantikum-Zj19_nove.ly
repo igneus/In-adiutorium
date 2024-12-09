@@ -165,6 +165,32 @@ modIalal = \relative c' { \neviditelna d  d f e( f) d( c) \barMin f e c( d) d \b
   }
 }
 
+modIial = \relative c' { \neviditelna f f4 g g( a) a \barMaior }
+modIal = \relative c'' { \neviditelna g g4 f g( a) a \barFinalis }
+modIalal = \relative c' { \neviditelna f f4 g g( a) g \barMin f e d( f e c) d \barFinalis \break }
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+
+    % Vitezstvi
+    \modIial
+    a4 a a a a a a bes a a g a \barFinalis
+    \modIal
+    \neviditelna a
+    a4 a a a a a a a a a a g f g( a) g \barFinalis
+    \modIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtext
+  }
+  \header {
+    modus = "I"
+    id = "i"
+  }
+}
+
 modVIIial = \relative c'' { \neviditelna a a4 c( b) c( d) d \barMaior }
 modVIIal = \relative c'' { \neviditelna c c4 c c( d) d \barFinalis }
 modVIIalal = \relative c'' { \neviditelna d e4 d c( d c) b c a g g \barFinalis \break }
