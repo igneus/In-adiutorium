@@ -606,7 +606,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 \barMin
     f g a a g g \barMin
@@ -638,6 +638,59 @@
     f g a a g g \barMin
     g f g a c c b g a( g) g \barMaior
     c c( d) d d \mark\sipka c( d) c c \barMin
+    c c c c a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Jan,
+    syn Za -- cha -- ri -- á -- šův,
+    u -- sly -- šel na pouš -- ti Bo -- ží slo -- vo
+    a hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \barMin
+    f g a a g g \barMin
+    g \mark\sipka a f a c b c a g( a g) g \barMaior
+    a c c d c( b) a a \barMin
+    c c c c a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Jan,
+    syn Za -- cha -- ri -- á -- šův,
+    u -- sly -- šel na pouš -- ti Bo -- ží slo -- vo
+    a hlá -- sal křest po -- ká -- ní,
+    a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \barMin
+    f g a a g g \barMin
+    g a f a c \mark\sipka c b a g( a g) g \barMaior
+    a c c d c( b) a a \barMin
     c c c c a g f a g g \barFinalis
   }
   \addlyrics {

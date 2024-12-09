@@ -113,8 +113,8 @@
     \choralniRezim
     g4 \barMin
     f g a a g g \barMin
-    g f g a c c b g a( g) g \barMaior
-    c c( d) d d c( b) a a \barMin
+    g a f a c c b a g( a g) g \barMaior
+    a c c d c( b) a a \barMin
     c c c c a g f a g g \barFinalis
   }
   \addlyrics {
