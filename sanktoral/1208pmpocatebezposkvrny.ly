@@ -576,6 +576,9 @@
     \textRespDoxologie
   }
   \header {
+    textus_approbatus = "Bůh má ve mně své zalíbení; *
+    nepřítel nade mnou nikdy nezvítězí.
+    V. Bůh mě zachová bez úhony a postaví mě před svou tvář;"
     quid = "resp."
     modus = "VI"
     id = "2ne-resp"
