@@ -497,10 +497,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
+    modus = "II"
     differentia = "A"
     psalmus = "Žalm 122"
-    placet = "melodie ve skutečnosti tíhne k finále G, nikoli A"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }

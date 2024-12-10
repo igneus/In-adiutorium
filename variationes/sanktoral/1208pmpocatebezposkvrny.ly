@@ -379,6 +379,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f f g( a) a( g) \barMax
+    g g \mark\sipka f g g( a) g g f( g) g f f \barFinalis
+    % V
+    \neviditelna a
+    a a( bes) a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g \mark\sipka f g g( a) g g f( g) g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Chci tě o -- sla -- vo -- vat, Bo -- že,_*
+    ne -- boť jsi mě za -- hr -- nul svou mi -- los -- tí.
+    \Verse Má du -- še tě bez u -- stá -- ní chvá -- lí,_*
+    \Response ne -- boť jsi mě za -- hr -- nul svou mi -- los -- tí.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -814,6 +846,30 @@
     differentia = "F"
     psalmus = "Žalm 46"
     fial = "commune/commune_maria.ly#mc-a2?-aleluja&konec=8"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) g g \barMin
+    a bes a g f f g a f f g g \barMaior
+    \mark\sipka g a g f( g) f \barMin
+    f d f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bůh si ji vy -- vo -- lil
+    už od o -- ka -- mži -- ku je -- jí -- ho po -- če -- tí
+    a po -- svě -- til ji
+    ja -- ko svůj pří -- by -- tek.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 46"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -1877,7 +1933,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a b( c d c d) \mark\sipka d( c) \barMin
     d( e d c) b( g) a \barMaior
@@ -1891,6 +1947,35 @@
   \header {
     quid = "1. ant."
     modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 122"
+    placet = "melodie ve skutečnosti tíhne k finále G, nikoli A;
+    stávající melodie je mnohem spíš II.A než IV.A, bez ohledu na rozsah
+    je recitačním tónem jednoznačně c"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (modus)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a b( c d c d) d( c) \barMin
+    d( e d c) b( g) a \barMaior
+    f g a a a c( b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ce -- lá jsi krás -- ná,
+    Ma -- ri -- a,
+    jsi bez pr -- vot -- ní po -- skvr -- ny.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
     differentia = "A"
     psalmus = "Žalm 122"
     id = "2ne-a1"
@@ -1992,6 +2077,50 @@
     a4 a a b( c d c d) d( c) \barMin
     d( e d c) b( g) a \barMaior
     \mark\sipka a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lá jsi krás -- ná,
+    Ma -- ri -- a,
+    jsi bez pr -- vot -- ní po -- skvr -- ny.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b( c d c d) d( c) \barMin
+    d( e d c) b( g) a \barMaior
+    a c c b a g( a) \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ce -- lá jsi krás -- ná,
+    Ma -- ri -- a,
+    jsi bez pr -- vot -- ní po -- skvr -- ny.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a b( c d c d) d( c) \barMin
+    d( e d c) b( g) a \barMaior
+    a c c b \mark\sipka g a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Ce -- lá jsi krás -- ná,
@@ -2211,6 +2340,26 @@
   \relative c'' {
     \choralniRezim
     g4 g( a) g a c b a g a \barMaior
+    c \mark\sipka d d c( b a) b a g g \barFinalis
+  }
+  \addlyrics {
+    Tvůj o -- děv je bí -- lý ja -- ko sníh
+    a tvo -- je tvář ja -- ko slun -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ef 1"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) g a c b a g a \barMaior
     c \mark\sipka b c a( g) \barMin f( a) a g g \barFinalis
   }
   \addlyrics {
@@ -2390,6 +2539,43 @@
   }
   \addlyrics {
     \Response Bůh má ve mně za -- lí -- be -- ní;_*
+    ne -- pří -- tel na -- de mnou ni -- kdy ne -- zví -- tě -- zí.
+    \Verse Bůh mě za -- cho -- vá bez ú -- ho -- ny
+    a po -- sta -- ví mě před svou tvář;_*
+    \Response ne -- pří -- tel na -- de mnou ni -- kdy ne -- zví -- tě -- zí.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup{
+  Neupravovaný oficiální text (jazykově i rytmicky škaredější):
+}
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f \mark\sipka f g f g( a) a( g) \barMax
+    g g f g( a) g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a a a a g( a) g \barMin
+    g a g g g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g g f g( a) g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh má ve mně své za -- lí -- be -- ní;_*
     ne -- pří -- tel na -- de mnou ni -- kdy ne -- zví -- tě -- zí.
     \Verse Bůh mě za -- cho -- vá bez ú -- ho -- ny
     a po -- sta -- ví mě před svou tvář;_*
