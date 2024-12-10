@@ -1,0 +1,496 @@
+# Data pro potřeby generování sazby antifonáře.
+# Formuláře, které nemají vlastní zpěvy, nebo jde jen o přivlastněné zpěvy ze společných textů.
+---
+- dies: '0102'
+  titulus: Sv. Basila Velikého a Řehoře Naziánského, biskupů a učitelů církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel]
+  antiphonae:
+    aben: 'commune/commune_ucitel.ly#rch-aben'
+    amag: 'commune/commune_ucitel.ly#1ne-amag'
+- dies: '0107'
+  titulus: Sv. Rajmunda z Peñafortu, kněze
+  communia: [pastyr]
+- dies: '0113'
+  titulus: Sv. Hilaria, biskupa a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0117'
+  titulus: Sv. Antonína, opata
+  gradus: memorial_obligatory
+  communia: [reholnik]
+- dies: '0120'
+  titulus: Sv. Fabiána, papeže a mučedníka
+  communia: [mucednik, pastyr]
+- dies: '0120'
+  titulus: Sv. Šebestiána, mučedníka
+  communia: [mucednik]
+- dies: '0122'
+  titulus: Sv. Vincence, jáhna a mučedníka
+  communia: [mucednik]
+- dies: '0124'
+  titulus: Sv. Františka Saleského, biskupa a učitele církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel]
+- dies: '0127'
+  titulus: Sv. Anděly Mericiové, panny
+  communia: [panna, vychovatelka]
+- dies: '0131'
+  titulus: Sv. Jana Boska, kněze
+  gradus: memorial_obligatory
+  communia: [pastyr, vychovatel]
+- dies: '0203'
+  titulus: Sv. Blažeje, biskupa a mučedníka
+  communia: [mucednik, pastyr]
+- dies: '0203'
+  titulus: Sv. Ansgara, biskupa
+  communia: [pastyr]
+- dies: '0206'
+  titulus: Sv. Pavla Mikiho a druhů, mučedníků
+  gradus: memorial_obligatory
+  communia: [mucednici]
+- dies: '0208'
+  titulus: Sv. Jeronýma Emilianiho
+  communia: [vychovatel]
+- dies: '0208'
+  titulus: Sv. Josefiny Bakhity, panny
+  communia: [panna]
+- dies: '0210'
+  titulus: Sv. Scholastiky, panny
+  gradus: memorial_obligatory
+  communia: [panna]
+- dies: '0221'
+  titulus: Sv. Petra Damianiho, biskupa a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0304'
+  titulus: Sv. Kazimíra
+  communia: [muz]
+- dies: '0307'
+  titulus: Sv. Perpetuy a Felicity, mučednic
+  gradus: memorial_obligatory
+  communia: [mucednici]
+- dies: '0308'
+  titulus: Sv. Jana z Boha, řeholníka
+  communia: [reholnik, milosrdny]
+- dies: '0309'
+  titulus: Sv. Františky Římské, řeholnice
+  communia: [reholnice]
+- dies: '0318'
+  titulus: Sv. Cyrila Jeruzalémského, biskupa a učitele církve
+  communia: ~ # nema, protoze jen pripominka
+  antiphonae:
+    aben: 'commune/commune_ucitel.ly#rch-aben'
+    # amag nema, protoze prvni nespory sv. Josefa
+- dies: '0323'
+  titulus: Sv. Turibia z Mongroveja, biskupa
+  communia: ~
+  antiphonae:
+    aben: 'commune/commune_pastyr.ly#rch-aben'
+    amag: 'commune/commune_pastyr.ly#2ne-amag1' # TODO: doplnuje se jmeno
+- dies: '0404'
+  titulus: Sv. Izidora, biskupa a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0405'
+  titulus: Sv. Vincence Ferrerského, kněze
+  communia: [pastyr]
+- dies: '0407'
+  titulus: Sv. Jana Křtitele de la Salle, kněze
+  gradus: memorial_obligatory
+  communia: [pastyr, vychovatel]
+- dies: '0411'
+  titulus: Sv. Stanislava, biskupa a mučedníka
+  gradus: memorial_obligatory
+  communia: [mucednik, pastyr]
+- dies: '0413'
+  titulus: Sv. Martina I., papeže a mučedníka
+  communia: [mucednik, pastyr]
+- dies: '0421'
+  titulus: Sv. Anselma, biskupa a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0424'
+  titulus: Sv. Jiří, mučedníka
+  communia: [mucednik]
+- dies: '0424'
+  titulus: Sv. Fidela ze Sigmaringy, kněze a mučedníka
+  communia: [mucednik, pastyr]
+- dies: '0428'
+  titulus: Sv. Petra Chanela, kněze a mučedníka
+  communia: [mucednik]
+- dies: '0428'
+  titulus: Sv. Ludvíka Marie Grigniona z Montfortu, kněze
+  communia: [pastyr, muz]
+- dies: '0430'
+  titulus: Sv. Pia V., papeže
+  communia: [pastyr]
+- dies: '0502'
+  titulus: Sv. Atanáše, biskupa a učitele církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel]
+- dies: '0510'
+  titulus: Sv. Jana z Avily, kněze a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0512'
+  titulus: Sv. Nerea a Achillea, mučedníků
+  communia: [mucednici]
+- dies: '0512'
+  titulus: Sv. Pankráce, mučedníka
+  communia: [mucednik]
+- dies: '0513'
+  titulus: Panny Marie Fatimské
+  communia: [maria]
+- dies: '0518'
+  titulus: Sv. Jana I., papeže a mučedníka
+  communia: [mucednik, pastyr]
+- dies: '0520'
+  titulus: Sv. Bernardina Sienského, kněze
+  communia: [pastyr]
+- dies: '0521'
+  titulus: Sv. Kryštofa Magallanese, kněze, a druhů, mučedníků
+  communia: [mucednici]
+- dies: '0522'
+  titulus: Sv. Rity z Cascie, řeholnice
+  communia: [reholnice]
+- dies: '0525'
+  titulus: Sv. Bedy Ctihodného, kněze a učitele církve
+  communia: [ucitel, reholnik]
+- dies: '0525'
+  titulus: Sv. Řehoře VII., papeže
+  communia: [pastyr]
+- dies: '0525'
+  titulus: Sv. Marie Magdalény de' Pazzi, panny
+  communia: [panna, reholnice]
+- dies: '0526'
+  titulus: Sv. Filipa Neriho, kněze
+  gradus: memorial_obligatory
+  communia: [pastyr, reholnik]
+- dies: '0527'
+  titulus: Sv. Augustina z Canterbury, biskupa
+  communia: [pastyr]
+- dies: '0529'
+  titulus: Sv. Pavla VI., papeže
+  communia: [papez]
+- dies: '0602'
+  titulus: Sv. Marcelina a Petra, mučedníků
+  communia: [mucednici]
+- dies: '0603'
+  titulus: Sv. Karla Lwangy a druhů, mučedníků
+  gradus: memorial_obligatory
+  communia: [mucednici]
+- dies: '0605'
+  titulus: Sv. Bonifáce, biskupa a mučedníka
+  gradus: memorial_obligatory
+  communia: [mucednik, pastyr]
+- dies: '0606'
+  titulus: Sv. Norberta, biskupa
+  communia: [pastyr]
+- dies: '0609'
+  titulus: Sv. Efréma Syrského, jáhna a učitele církve
+  communia: [ucitel]
+- dies: '0613'
+  titulus: Sv. Antonína z Padovy, kněze a učitele církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel, reholnik]
+- dies: '0619'
+  titulus: Sv. Jana Nepomuckého Neumanna, biskupa
+  # TODO: Budejce pamatka (jinak nezavazna)
+  communia: [pastyr]
+  antiphonae:
+    aben: 'commune/commune_pastyr.ly#1ne-amag2'
+    # amag nema vlastni
+- dies: '0619'
+  titulus: Sv. Romualda, opata
+  communia: [reholnik]
+- dies: '0621'
+  titulus: Sv. Aloise Gonzagy, řeholníka
+  gradus: memorial_obligatory
+  communia: [reholnik]
+- dies: '0622'
+  titulus: Sv. Paulína Nolánského, biskupa
+  communia: [pastyr]
+- dies: '0622'
+  titulus: Sv. Jana Fishera, biskupa a Tomáše Mora, mučedníků
+  communia: [mucednici]
+- dies: '0627'
+  titulus: Sv. Cyrila Alexandrijského, biskupa a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0704'
+  titulus: Sv. Alžběty Portugalské
+  communia: [milosrdna]
+- dies: '0706'
+  titulus: Sv. Marie Gorettiové, panny a mučednice
+  communia: [mucednice, panna]
+- dies: '0709'
+  titulus: Sv. Augustina Žao Ronga, kněze, a druhů, mučedníků
+  communia: [mucednici]
+- dies: '0713'
+  titulus: Sv. Jindřicha
+  communia: [muz]
+- dies: '0714'
+  titulus: Sv. Kamila de Lellis, kněze
+  communia: [milosrdny]
+- dies: '0715'
+  titulus: Sv. Bonaventury, biskupa a učitele církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel]
+- dies: '0717'
+  titulus: Bl. Česlava a sv. Hyacinta, kněží
+  communia: [pastyr, reholnik]
+  antiphonae:
+    aben: 'commune/commune_pastyr.ly#rch-aben'
+    amag: 'commune/commune_reholnikatd.ly#rehol-ne2-amag1'
+- dies: '0720'
+  titulus: Sv. Apolináře, biskupa a mučedníka
+  communia: [mucednik]
+- dies: '0721'
+  titulus: Sv. Vavřince z Brindisi, kněze a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0723'
+  titulus: Sv. Brigity, řeholnice, patronky Evropy
+  gradus: feast
+  communia: [reholnice]
+- dies: '0724'
+  titulus: Sv. Šarbela Makhlufa, kněze
+  communia: [pastyr, muz, reholnik] # ano, opravdu má o svatých mužích NEBO o řeholnících, ne o svatých mužích (o řeholnících)
+- dies: '0730'
+  titulus: Sv. Petra Chryzologa, biskupa a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0801'
+  titulus: Sv. Alfonsa Marie z Liguori, biskupa a učitele církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel]
+- dies: '0802'
+  titulus: Sv. Eusebia z Vercelli, biskupa
+  communia: [pastyr]
+- dies: '0802'
+  titulus: Sv. Petra Juliána Eymarda, kněze
+  communia: [pastyr, reholnik]
+- dies: '0804'
+  titulus: Sv. Jana Marie Vianneye, kněze
+  gradus: memorial_obligatory
+  communia: [pastyr]
+- dies: '0807'
+  titulus: Sv. Sixta II., papeže, a druhů, mučedníků
+  communia: [mucednici]
+- dies: '0807'
+  titulus: Sv. Kajetána, kněze
+  communia: [pastyr, reholnik]
+- dies: '0808'
+  titulus: Sv. Dominika, kněze
+  gradus: memorial_obligatory
+  communia: [pastyr, reholnik]
+- dies: '0809'
+  titulus: Sv. Terezie Benedikty od Kříže, panny a mučednice, patronky Evropy
+  gradus: feast
+  communia: [mucednice, panna]
+- dies: '0811'
+  titulus: Sv. Kláry, panny
+  gradus: memorial_obligatory
+  communia: [panna, reholnice]
+- dies: '0812'
+  titulus: Sv. Jany Františky de Chantal, řeholnice
+  communia: [reholnice]
+- dies: '0813'
+  titulus: Sv. Ponciána, papeže, a Hippolyta, kněze, mučedníků
+  communia: [mucednici, pastyr]
+- dies: '0816'
+  titulus: Sv. Štěpána Uherského
+  communia: [muz]
+- dies: '0819'
+  titulus: Sv. Jana Eudese, kněze
+  communia: [pastyr, reholnik]
+- dies: '0821'
+  titulus: Sv. Pia X., papeže
+  gradus: memorial_obligatory
+  communia: [pastyr]
+- dies: '0823'
+  titulus: Sv. Růženy z Limy, panny
+  communia: [panna, reholnice]
+- dies: '0824'
+  titulus: Sv. Bartoloměje, apoštola
+  gradus: feast
+  communia: [apostol]
+- dies: '0825'
+  titulus: Sv. Ludvíka
+  communia: [muz]
+- dies: '0825'
+  titulus: Sv. Josefa Kalasanského, kněze
+  communia: [vychovatel, pastyr]
+- dies: '0907'
+  titulus: Sv. Melichara Grodeckého, kněze a mučedníka
+  communia: [mucednik, pastyr]
+- dies: '0909'
+  titulus: Sv. Petra Klavera, kněze
+  communia: [pastyr, milosrdny]
+- dies: '0912'
+  titulus: Jména Panny Marie
+  communia: [maria]
+- dies: '0913'
+  titulus: Sv. Jana Zlatoústého, biskupa a učitele církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel]
+- dies: '0917'
+  titulus: Sv. Roberta Bellarmina, biskupa a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '0917'
+  titulus: Sv. Hildegardy z Bingen, panny a učitelky církve
+  communia: [panna, reholnice]
+- dies: '0919'
+  titulus: Sv. Januária, biskupa a mučedníka
+  communia: [mucednik, pastyr]
+- dies: '0920'
+  titulus: Sv. Ondřeje Kim Tae-gỏna, kněze, Pavla Chõng Ha-sanga a druhů, mučedníků
+  gradus: memorial_obligatory
+  communia: [mucednici]
+- dies: '0923'
+  titulus: Sv. Pia z Pietrelciny, kněze
+  gradus: memorial_obligatory
+  communia: [pastyr, reholnik]
+- dies: '0926'
+  titulus: Sv. Kosmy a Damiána, mučedníků
+  communia: [mucednici]
+- dies: '0930'
+  titulus: Sv. Jeronýma, kněze a učitele církve
+  gradus: memorial_obligatory
+  communia: [ucitel]
+- dies: '1001'
+  titulus: Sv. Terezie od Dítěte Ježíše, panny a učitelky církve
+  gradus: memorial_obligatory
+  communia: [panna]
+- dies: '1005'
+  titulus: Sv. Faustiny Kowalské, panny
+  communia: [panna, reholnice]
+- dies: '1006'
+  titulus: Sv. Bruna, kněze
+  communia: [pastyr, reholnik]
+- dies: '1009'
+  titulus: Sv. Dionýsia, biskupa, a druhů, mučedníků
+  communia: [mucednici]
+- dies: '1009'
+  titulus: Sv. Jana Leonardiho, kněze
+  communia: [pastyr, milosrdny]
+- dies: '1011'
+  titulus: Sv. Jana XXIII., papeže # https://kpmk.eu/kpmkeu/index.php/liturgie/liturgicke-texty/187-sv-jan-xxiii
+  communia: [papez]
+- dies: '1014'
+  titulus: Sv. Kalista I., papeže a mučedníka
+  communia: [mucednik, pastyr]
+- dies: '1015'
+  titulus: Sv. Terezie od Ježíše, panny a učitelky církve
+  gradus: memorial_obligatory
+  communia: [panna, ucitel]
+- dies: '1016'
+  titulus: Sv. Hedviky, řeholnice
+  # TODO: v DOO svatek, jinde nezavazna pamatka
+  communia: [milosrdna, reholnice]
+- dies: '1016'
+  titulus: Sv. Markéty Marie Alacoque, panny
+  communia: [panna, reholnice]
+- dies: '1019'
+  titulus: Sv. Jana de Brébeuf a Izáka Joguese, kněží, a druhů, mučedníků
+  communia: [mucednici, pastyr]
+- dies: '1019'
+  titulus: Sv. Pavla od Kříže, kněze
+  communia: [pastyr, reholnik]
+- dies: '1021'
+  titulus: Bl. Karla Rakouského
+  communia: [muz]
+- dies: '1022'
+  titulus: Sv. Jana Pavla II., papeže
+  communia: [papez]
+- dies: '1023'
+  titulus: Sv. Jana Kapistránského, kněze
+  communia: [pastyr]
+- dies: '1024'
+  titulus: Sv. Antonína Marie Klareta, biskupa
+  communia: [pastyr]
+- dies: '1028'
+  titulus: Sv. Šimona a Judy, apoštolů
+  gradus: feast
+  communia: [apostol]
+- dies: '1104'
+  titulus: Sv. Karla Boromejského, biskupa
+  gradus: memorial_obligatory
+  communia: [pastyr]
+- dies: '1109'
+  titulus: Posvěcení lateránské baziliky
+  gradus: feast
+  communia: [kostel]
+- dies: '1112'
+  titulus: Sv. Josafata, biskupa a mučedníka
+  gradus: memorial_obligatory
+  communia: [mucednik, pastyr]
+- dies: '1115'
+  titulus: Sv. Alberta Velikého, biskupa a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '1116'
+  titulus: Sv. Markéty Skotské
+  communia: [milosrdna]
+- dies: '1116'
+  titulus: Sv. Gertrudy, panny
+  communia: [panna, reholnice]
+- dies: '1117'
+  titulus: Sv. Alžběty Uherské, řeholnice
+  gradus: memorial_obligatory
+  communia: [milosrdna]
+- dies: '1123'
+  titulus: Sv. Klementa I., papeže a mučedníka
+  # TODO: DHK: slavnost
+  communia: [mucednik, pastyr]
+- dies: '1123'
+  titulus: Sv. Kolumbána, opata
+  communia: [pastyr, reholnik]
+- dies: '1124'
+  titulus: Sv. Ondřeje Dũng Lạca, kněze, a druhů, mučedníků
+  gradus: memorial_obligatory
+  communia: [mucednici]
+- dies: '1125'
+  titulus: Sv. Kateřiny Alexandrijské, panny a mučednice
+  communia: [mucednice, panna]
+- dies: '1203'
+  titulus: Sv. Františka Xaverského, kněze
+  gradus: memorial_obligatory
+  communia: [pastyr]
+- dies: '1204'
+  titulus: Sv. Jana Damašského, kněze a učitele církve
+  communia: [pastyr, ucitel]
+- dies: '1206'
+  titulus: Sv. Mikuláše, biskupa
+  # TODO: v DCB slavnost
+  communia: [pastyr]
+- dies: '1207'
+  titulus: Sv. Ambrože, biskupa a učitele církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel]
+- dies: '1209'
+  titulus: Sv. Jana Didaka Cuauhtlatoatzina
+  communia: [muz]
+- dies: '1210'
+  titulus: Panny Marie Loretánské
+  communia: [maria]
+- dies: '1211'
+  titulus: Sv. Damasa I. papeže
+  communia: [pastyr]
+- dies: '1212'
+  titulus: Panny Marie Guadalupské
+  communia: [maria]
+- dies: '1214'
+  titulus: Sv. Jana od Kříže, kněze a učitele církve
+  gradus: memorial_obligatory
+  communia: [pastyr, ucitel]
+- dies: '1221'
+  titulus: Sv. Petra Kanisia, kněze a učitele církve
+  communia: ~ # jen pripominka
+  antiphonae: ucitel # TODO: doplnuje se jmeno
+- dies: '1223'
+  titulus: Sv. Jana Kentského, kněze
+  communia: ~ # jen pripominka
+  antiphonae: milosrdny
+- dies: '1229'
+  titulus: Sv. Tomáše Becketa, biskupa a mučedníka
+  communia: ~ # jen pripominka
+  antiphonae: mucednik
+- dies: '1231'
+  titulus: Sv. Silvestra I. papeže
+  communia: ~ # jen pripominka
+  antiphonae:
+    aben: 'commune/commune_pastyr.ly#rch-aben'
+    # amag nema, protoze prvni nespory Matky Bozi, Panny Marie

@@ -50,6 +50,7 @@
              (#:mucednik . "o jednom mučedníkovi")
              (#:mucednice . "o jedné mučednici")
              (#:pastyr . "o duchovních pastýřích")
+             (#:papez . "o duchovních pastýřích: o papeži")
              (#:ucitel . "o učitelích církve")
              (#:panna . "o pannách")
              (#:muz . "o svatých mužích")
