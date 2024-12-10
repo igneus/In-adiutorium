@@ -62,7 +62,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 147-II"
-    fial = "commune/commune_maria.ly#rch-a2?-aleluja"
+    fial = "commune/commune_maria.ly#sob-aben6"
     id = "1ne-a2"
     piece = \markup\sestavTitulek
   }

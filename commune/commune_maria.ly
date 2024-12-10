@@ -982,5 +982,25 @@
   }
 }
 
-\markup\italic{Další možností je antifona \upright{Ty jsi sláva Jeruzaléma} -
-viz společné texty o Panně Marii, ranní chvály, 2. ant.}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c \barMin d4 c b b( c) a \barMaior
+    a a b( c) a( g) c d d( c) c \barMaior
+    b( c) a a( g) \barMin f4 g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ty jsi slá -- va Je -- ru -- za -- lé -- ma,
+    ty jsi ra -- dost Iz -- ra -- e -- le,
+    ty jsi čest na -- še -- ho li -- du.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Benedictus"
+    fial = "commune/commune_maria.ly#rch-a2?-aleluja"
+    id = "sob-aben6"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
