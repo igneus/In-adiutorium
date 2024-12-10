@@ -167,7 +167,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "commune/commune_maria.ly#invit1?zacatek"
+    fial = "commune/commune_maria.ly#invit1?cast=1"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
