@@ -483,7 +483,9 @@
 - dies: '1223'
   titulus: Sv. Jana Kentského, kněze
   communia: ~ # jen pripominka
-  antiphonae: milosrdny
+  antiphonae:
+    aben: 'commune/commune_reholnikatd.ly#milo-aben'
+    amag: 'commune/commune_reholnikatd.ly#milo-ne2-amag'
 - dies: '1229'
   titulus: Sv. Tomáše Becketa, biskupa a mučedníka
   communia: ~ # jen pripominka
