@@ -1779,6 +1779,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g a g g \barMin
+    f e f( g) g \barMaior
+    a b( c) a a b( c) a a g g \barMin
+    f g a f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš zno -- vu zbu -- do -- vá -- no,
+    Bo -- ží měs -- to,
+    a u -- vi -- díš spra -- ved -- li -- vé -- ho,
+    kte -- rý k_to -- bě při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Čtvrtek 2. týdne}}
@@ -1951,6 +1975,30 @@
     d c d f( g) f e d \barMaior
     f f f g f d \barMin
     \mark\sipka e c a c( d) d d \barFinalis
+  }
+  \addlyrics {
+    Po mně při -- jde ten,
+    kte -- rý byl dří -- ve než já;
+    je -- mu ne -- jsem ho -- den
+    roz -- vá -- zat o -- pán -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d \barMin
+    d c d f( g) f e d \barMaior
+    f \mark\sipka e f g f d \barMin
+    f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Po mně při -- jde ten,

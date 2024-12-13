@@ -665,6 +665,63 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d f e f d c c( d) d \barMin
+    f f f f \mark\sipka f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Buď mi o -- chran -- nou ská -- lou, Bo -- že,
+    o -- pev -- ně -- nou tvr -- zí k_mé zá -- chra -- ně.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "středa - 1. antifona"
+    id = "st1"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f d c c( d) d \barMin
+    f f f \mark\sipka g f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Buď mi o -- chran -- nou ská -- lou, Bo -- že,
+    o -- pev -- ně -- nou tvr -- zí k_mé zá -- chra -- ně.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "středa - 1. antifona"
+    id = "st1"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f d c c( d) d \barMin
+    f f f \mark\sipka f g f d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Buď mi o -- chran -- nou ská -- lou, Bo -- že,
+    o -- pev -- ně -- nou tvr -- zí k_mé zá -- chra -- ně.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    piece = "středa - 1. antifona"
+    id = "st1"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f g f e d e d \barMin
     e e e e c a c c d d \barFinalis
   }
