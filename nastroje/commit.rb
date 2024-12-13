@@ -13,7 +13,7 @@ ELEMENTS =
   ['ant.s', 'resp.s', 'copies']
     .inject({}) {|memo, i| memo[i[0]] = i; memo }
 
-input = ARGV[0]
+input = ARGV[0] || raise('Please provide an incipit of a standard commit message')
 
 message =
   STANDARD_MESSAGES.find {|i| i.start_with? input } ||
@@ -27,6 +27,6 @@ message =
   end
 end
 
-raise 'no matching standard commit message' if message.nil?
+raise 'No matching standard commit message found' if message.nil?
 
 exec 'git', 'commit', '-m', message, *ARGV[1..-1]
