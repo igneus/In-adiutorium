@@ -850,6 +850,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f( g) g \barMin
+    a a g f g a a g g \barMaior
+    f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    dě -- ku -- ji ti, žes mě vy -- sly -- šel
+    a stal se mou spá -- sou.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 b( d) d \barMin
