@@ -118,11 +118,11 @@
   \relative c'' {
     \choralniRezim
     g4 f g( a) a g \barMin
-    a( c) d d( e c) a a( g) \barMaior
+    a( c) c d( e c) a a( g) \barMaior
     c4 d( c a) a \barMin c b a g( a) g \barMin
     a a g f g a a g g \barMaior
-    a c d d( e) d \barMin
-    c b a g a g f g g \barFinalis
+    a g a a( c) c \barMin
+    b c a g a g f g g \barFinalis
   }
   \addlyrics {
     Při -- stou -- pi -- li jste k_ho -- ře Si -- ó -- nu
@@ -133,8 +133,8 @@
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -194,7 +194,7 @@
     \choralniRezim
     g4 a c( d) d \barMin
     c d e c c d d \barMaior
-    d c b a g a g g \barMaior
+    d d d c a c( b) a( g) g \barMaior
     a c b( c a) a \barMin g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
@@ -301,7 +301,7 @@
     c4( d) d( c) c \barMin
     b c a g a g f a g g \barMaior
     f g g a a \barMin
-    b c a g f g a g g \barFinalis
+    c c c b a g a g4. g4 \barFinalis
   }
   \addlyrics {
     Ga -- bri -- el,
@@ -391,7 +391,7 @@
     a4 bes a g( a) g g \barMin
     f g g a a f e d( e) d d \barMaior
     c d f f f g( f) \barMin
-    g a g f e f d c c \barMaior
+    g a g f d f e d c \barMaior
     d d c d f e d d \barFinalis
   }
   \addlyrics {
