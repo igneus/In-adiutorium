@@ -69,6 +69,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin g f g g( f) f \barMaior
+    f f e c e f e d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Pá -- nu,
+    nej -- vyš -- ší -- mu Zá -- ko -- no -- dár -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -97,6 +117,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -120,7 +142,68 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d d( f) f \barMin
+    \mark\sipka f f g g f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův zá -- kon
+    ať je vždy ve va -- šich ús -- tech.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e( f) d d \barMin e d c d d( f) f \barMaior
+    f f g g f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo roz -- jí -- má o zá -- ko -- ně Pá -- ně,
+    ve svůj čas při -- ná -- ší o -- vo -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c( d) d( f) f \barMin g g f e d d \barMaior
+    d( e f) d( e) c \barMin d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo roz -- jí -- má o zá -- ko -- ně Pá -- ně,
+    ve svůj čas při -- ná -- ší o -- vo -- ce.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( c) c c \barMin d c b c d( a) a \barMaior
   }
   \addlyrics {
     Kdo roz -- jí -- má o zá -- ko -- ně Pá -- ně,
@@ -129,12 +212,14 @@
   \header {
     quid = "3. ant."
     modus = "III"
-    differentia = ""
+    differentia = "g"
     psalmus = "Žalm 92-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 

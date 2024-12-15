@@ -77,15 +77,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c( d) d( f) f \barMin g g f e d d \barMaior
+    d( e f) d( e) c \barMin d f e d( e) d d \barFinalis
   }
   \addlyrics {
-    Kdo rozjímá o zákoně Páně, ve svůj čas přináší ovoce.
+    Kdo roz -- jí -- má o zá -- ko -- ně Pá -- ně,
+    ve svůj čas při -- ná -- ší o -- vo -- ce.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 92-II"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
