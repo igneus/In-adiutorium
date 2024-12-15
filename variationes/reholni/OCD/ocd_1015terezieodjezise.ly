@@ -2303,3 +2303,31 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 a c c b c a g g \barMin
+    \mark\sipka a a g f g( a) a
+    a c b a g g \barMaior
+    c d e d c d c a a \barMin
+    b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še srd -- ce ne -- chvě -- je!
+    V_do -- mě mé -- ho Ot -- ce
+    je mno -- ho pří -- byt -- ků.
+    Od -- chá -- zím vám při -- pra -- vit mís -- to,
+    a -- le -- lu -- ja. % přidáno
+  }
+  \header {
+    textus_approbatus = "Ať se vaše srdce nechvěje!
+    V domě mého Otce je mnoho příbytků. Odcházím vám připravit místo."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
