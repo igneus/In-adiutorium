@@ -440,7 +440,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    annus = "A"
     fial = "antifony/mezidobi_nedeleA_21_30.ly#ne27a-rch-aben"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
