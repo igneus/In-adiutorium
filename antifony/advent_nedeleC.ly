@@ -166,7 +166,7 @@
     \choralniRezim
     a4 g bes g a a \barMin
     a a a g f g f e f d d \barMaior
-    f f d f g a g \barMin
+    f f d f g a-- g \barMin
     f e c c( d) d \barFinalis
   }
   \addlyrics {
@@ -217,8 +217,8 @@
     a g f g a a a g \barMaior
     a c b( c) a a \barMin
     c c c b a g( a) g \barMaior
-    g f( g) g( a) a \barMin
-    c b a g( a) g g \barFinalis
+    a b( c) a( g) g \barMin
+    a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Jan ří -- kal:
