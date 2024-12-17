@@ -1042,6 +1042,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d f e d( c) d \barMaior
+    d c a a c b a( g) g \barMaior
+    a g a c( d) e d( c d) a \barMin
+    g( c b) a a \barFinalis
+  }
+  \addlyrics {
+    Ať z_hor vy -- trysk -- ne ra -- dost
+    a z_pa -- hor -- ků spra -- ve -- dl -- nost;
+    při -- chá -- zí svět -- lo svě -- ta, Pán slá -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -1524,6 +1547,31 @@
     \choralniRezim
     d4 d c( d) d d( c) d f e( d) \barMaior
     \mark\sipka d c( d) c \barMin
+    c b a c b g g \barFinalis
+  }
+  \addlyrics {
+    Z_ne -- be při -- jde Vlád -- ce a Pán,
+    má v_ru -- ce
+    krá -- lov -- skou moc a vlá -- du.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (jen divisio)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( d) d \mark\sipka \barMin d( c) d f e( d) \barMaior
+    d c( d) c \barMin
     c b a c b g g \barFinalis
   }
   \addlyrics {
