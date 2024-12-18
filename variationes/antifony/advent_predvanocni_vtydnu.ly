@@ -726,6 +726,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    a4 a a a a bes a g f f( g) g \barMin
+    f g g g g a g a a( bes a) a \barMaior
+    a d c d4. a \barMin
+    g4( a) f e d \barMaior
+    \mark\sipka d4 a'( f) g( f e f) d \barFinalis
+  }
+  \addlyrics {
+    Si -- ón je na -- še o -- pev -- ně -- né měs -- to,
+    Spa -- si -- tel je v_něm hrad -- bou a va -- lem:
+    o -- tevř -- te brá -- ny,
+    s_ná -- mi je Bůh.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "predvanocni-zlm-ut-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
