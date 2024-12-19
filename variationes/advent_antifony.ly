@@ -473,6 +473,9 @@
     }
   }
 
+  \markup\justify{
+    Srov. Liber hymnarius, s. 10
+  }
   \score {
     \relative c' {
       \choralniRezim
