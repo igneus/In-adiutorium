@@ -121,6 +121,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "2 aleluja nevím, zvlášť divoké melisma na začátku"
     id = "predvanocni-zlm-ut-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -217,6 +218,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "2 druhá půlka (od _abych_) úplně nesedí"
     id = "predvanocni-zlm-st-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }
