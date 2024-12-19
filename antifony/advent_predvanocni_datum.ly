@@ -71,7 +71,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "g"
+    differentia = "a2"
     psalmus = "Benedictus"
     id = "predvanocni-18-ben"
     piece = \markup {\sestavTitulekBezZalmu}

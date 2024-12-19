@@ -109,6 +109,7 @@ v předvánočním týdnu latinsky.}
 \markup {\nadpisDen {18. prosince}}
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a a bes a g a f( g) g \barMin
     f g a4. f4. g4. f4 e d4. d \barFinalis
@@ -121,6 +122,50 @@ v předvánočním týdnu latinsky.}
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "g"
+    psalmus = "Benedictus"
+    id = "predvanocni-18-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (jen differentia)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) a a bes a g a f( g) g \barMin
+    f g a4. f4. g4. f4 e d4. d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te a při -- prav -- te své srd -- ce,
+    ne -- boť Pán, náš Bůh, je už blíz -- ko.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Benedictus"
+    id = "predvanocni-18-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a \barMin a c d e c c( d) d \barMaior
+    e d c d a-- c b a a \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te a při -- prav -- te své srd -- ce,
+    ne -- boť Pán, náš Bůh, je už blíz -- ko.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Benedictus"
     id = "predvanocni-18-ben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -291,6 +336,32 @@ v předvánočním týdnu latinsky.}
     a4 a g f g a g f( e) d( c) \barMin
     d e f \mark\sipka e( f) d d \barMaior
     e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) a bes bes a a \barMaior
+    a4 a g f g a g f( e) d( c) \barMin
+    d \mark\sipka d f e( c) c( d) d \barMaior
+    e4 f d d \barFinalis
   }
   \addlyrics {
     Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
