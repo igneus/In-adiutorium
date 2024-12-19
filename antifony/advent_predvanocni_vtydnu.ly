@@ -179,7 +179,7 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 f f g( a) a a c a g g( a) a \barMaior
+    f4 f g g( a) a a c a g g( a) a \barMaior
     a bes c d d bes( a) a \barMin
     g f g a f e d \barFinalis
   }

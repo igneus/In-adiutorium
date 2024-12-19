@@ -975,7 +975,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 \mark\sipka f f g( a) a a c a g g( a) a \barMaior
@@ -986,6 +986,30 @@
     Pro lás -- ku k_Si -- ó -- nu ne -- bu -- du ml -- čet,
     do -- kud ne -- vzej -- de svět -- lo
     je -- ho spra -- ved -- li -- vé -- mu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "predvanocni-zlm-st-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 f \mark\sipka g g( a) a a c a g g( a) a \barMaior
+    a bes c d d bes( a) a \barMin
+    g f g a f e d \barFinalis
+  }
+  \addlyrics {
+    Pro lás -- ku k_Si -- ó -- nu ne -- bu -- du ml -- čet,
+    do -- kud ne -- vzej -- de svět -- lo
+    je -- ho Spra -- ved -- li -- vé -- ho.
   }
   \header {
     quid = "2. ant."
@@ -1106,6 +1130,56 @@
     bes( g bes) a( g) g \barMaior
     g f g( a) g f g d \barMin
     f e c4. d \barFinalis
+  }
+  \addlyrics {
+    Duch Pá -- ně je na -- de mnou,
+    po -- slal mě,
+    a -- bych při -- ne -- sl chu -- dým
+    ra -- dost -- nou zvěst.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-st-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d( f) e d d( a') a a \barMin
+    bes( g bes) a( g) g \barMaior
+    g f \mark\sipka g a g f( g) f \barMin
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Duch Pá -- ně je na -- de mnou,
+    po -- slal mě,
+    a -- bych při -- ne -- sl chu -- dým
+    ra -- dost -- nou zvěst.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "predvanocni-zlm-st-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d( f) e d d( a') a a \barMin
+    bes( g bes) a( g) g \barMaior
+    g f g a g f( g) f \barMin
+    \mark\sipka f g f e( d) d \barFinalis
   }
   \addlyrics {
     Duch Pá -- ně je na -- de mnou,
