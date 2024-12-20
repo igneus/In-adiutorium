@@ -304,7 +304,7 @@ v předvánočním týdnu latinsky.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d f d f( g a) a bes bes a a \barMaior
@@ -355,13 +355,38 @@ v předvánočním týdnu latinsky.}
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     d4 d d f d f( g a) a bes bes a a \barMaior
     a4 a g f g a g f( e) d( c) \barMin
     d \mark\sipka d f e( c) c( d) d \barMaior
-    e4 f d d \barFinalis
+    \mark\sipka f4 g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
+    a se -- stou -- pí do lů -- na Pan -- ny
+    ja -- ko déšť na trá -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-19-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d f d f( g a) a bes bes a a \barMaior
+    a4 a g f g a g f( e) d( c) \barMin
+    d d f \mark\sipka e( f) d d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
@@ -1431,6 +1456,38 @@ podobně.}
     \choralniRezim
     c4( f f e) f( d) e d c( d) d \barMin
     d d( e) d d d \mark\sipka e f d e d c \barMaior
+    d d d e d e d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    a a a g f e f d( c) c \barMax
+    c( f) e f d d d( c a) \barMaior
+    c( d) f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó ko -- ře -- ni Jes -- se,
+    ty sto -- jíš ja -- ko zna -- me -- ní ná -- ro -- dům,
+    před te -- bou zmlk -- nou ús -- ta krá -- lů
+    a ná -- ro -- dy tě bu -- dou vzý -- vat:
+    přijď a vy -- svo -- boď nás,
+    už ne -- pro -- dlé -- vej!
+  }
+  \header {
+    textus_approbatus = "Kořeni Jesse,
+    ty stojíš jako znamení národům, před tebou zmlknou ústa králů a národy tě budou vzývat:
+    přijď a vysvoboď nás, už neprodlévej!"
+    fons_externus = "volně podle AR1912, 206."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-19-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e d c( d) d \barMin
+    d \mark\sipka e d d d e f d e d c \barMaior
     d d d e d e d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
     a a a g f e f d( c) c \barMax
     c( f) e f d d d( c a) \barMaior

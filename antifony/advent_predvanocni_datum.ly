@@ -119,8 +119,8 @@
     \key f \major
     d4 d d f d f( g a) a bes bes a a \barMaior
     a4 a g f g a g f( e) d( c) \barMin
-    d e f e( c) c( d) d \barMaior
-    e4 f d d \barFinalis
+    d d f e( c) c( d) d \barMaior
+    f4 g( f) d d \barFinalis
   }
   \addlyrics {
     Spa -- si -- tel svě -- ta vy -- jde ja -- ko slun -- ce
