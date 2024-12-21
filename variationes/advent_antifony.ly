@@ -498,6 +498,27 @@
 
   \score {
     \relative c' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      f4 \mark\sipka f g( a) a \barMaior
+      g f g a \mark\sipka g( f) f \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
       \choralniRezim
       e4 g a a \barMaior
       g e f e d( e) e \barFinalis
@@ -682,6 +703,28 @@
       g4 g g a g a \mark\sipka c c \barMaior
       c c d c c d c a \barMin
       c b g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "spol-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g f g g a a \barMaior
+      a a b c a g a g \barMin
+      f( g) a a g g \barFinalis
     }
     \addlyrics {
       Pro -- ro -- ci před -- po -- ví -- da -- li,

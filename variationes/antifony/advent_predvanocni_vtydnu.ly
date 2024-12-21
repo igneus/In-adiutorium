@@ -2170,6 +2170,26 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a a g f e e \barMaior
+    f d c d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- vej -- te a u -- vi -- dí -- te,
+    jak vám Pán při -- jde na po -- moc.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "predvanocni-zlm-pa-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 c d d d c b a a \barMaior
