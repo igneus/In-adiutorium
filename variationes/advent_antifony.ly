@@ -500,7 +500,7 @@
     \relative c' {
       \zvyraznovacZelenyII
       \choralniRezim
-      f4 \mark\sipka f g( a) a \barMaior
+      f4 \mark\sipka f g( a) a \barMin
       g f g a \mark\sipka g( f) f \barFinalis
     }
     \addlyrics {
