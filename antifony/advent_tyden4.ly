@@ -62,6 +62,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Flp 2"
+    placet = "2 o plnosti času zpívá tak jaksi mimochodem až znuděně,
+    jako by to byla nějaká podružná všední věc"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -146,6 +148,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 150"
+    placet = "3 aleluja nesedí"
     id = "ne-rch-a3"
     fons = "volně podle: oktáv Narození Páně, 26.12., k Magnificat: 2. část"
     fial = "fial://vanoce_narozenipane.ly#26-amag?cast&volne"
