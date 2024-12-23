@@ -2150,6 +2150,40 @@ podobně.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f d e( d) c( d) d \barMin
+    d d d \mark\sipka f e d e d( c) \barMaior
+    d d a( d) d d e( f) \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f f d e f f c \barMax
+    c( f) e f( d) e( d) c( d) d( c a) \barMaior
+    c d f f e c e d \barFinalis
+  }
+  \addlyrics {
+    Ó Krá -- li ná -- ro -- dů,
+    tou -- žeb -- ně o -- če -- ká -- va -- ný,
+    ty jsi ná -- rož -- ní ká -- men,
+    kte -- rý spo -- ju -- je Bo -- ží lid vjed -- no:
+    přijď a spas člo -- vě -- ka,
+    kte -- ré -- hos u -- tvo -- řil z_hlí -- ny!
+  }
+  \header {
+    % v prekladu "qui fecis utraque unum" se ztratila pavlovska
+    % narazka a vyzneni je pak ponekud plytke
+    textus_approbatus = "Králi národů, toužebně očekávaný,
+    ty jsi nárožní kámen, který spojuje Boží lid vjedno:
+    přijď a spas člověka, kterého jsi utvořil z hlíny!"
+    fons_externus = "volně podle AR1912, 207."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-22-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny "O Emmanuel"
 
 \score {

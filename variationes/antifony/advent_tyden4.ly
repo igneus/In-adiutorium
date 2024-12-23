@@ -653,6 +653,32 @@
   \relative c' {
     \choralniRezim
     \key f \major
+    d4 d( a' bes) a a c a bes( a) g( a) \barMin
+    g( a g) f( e) e \barMaior
+    d d c d \mark\sipka f4. e d4 d \barMaior
+    c f( e) c d \barFinalis
+  }
+  \addlyrics {
+    Tvé vzne -- še -- né Slo -- vo, Bo -- že,
+    se -- stou -- pí z_krá -- lov -- ské -- ho trů -- nu z_ne -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 150"
+    id = "ne-rch-a3"
+    fons = "volně podle: oktáv Narození Páně, 26.12., k Magnificat: 2. část"
+    fial = "fial://vanoce_narozenipane.ly#26-amag?konec=14"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
     d4 d( a' bes) a a c a bes( a) g( a) \barMaior
     g( a g) f( e) e \barMin
     d d d d d( f e) c c( d) d \barMaior
