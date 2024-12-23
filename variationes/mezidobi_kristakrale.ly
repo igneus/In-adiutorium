@@ -961,30 +961,6 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
-    d4 d c d f e d( e) d d \barMin
-    f g( a) g f f g g \barMaior
-    a a a \mark\sipka g( a) g f e( f) d( c) c \barMin
-    d c d f e c c( d) d \barFinalis
-  }
-  \addlyrics {
-    Kris -- tu by -- lo dá -- no vla -- dař -- ství
-    a krá -- lov -- ská dů -- stoj -- nost;
-    li -- dé všech kme -- nů a ja -- zy -- ků
-    mu bu -- dou na -- vě -- ky slou -- žit.
-  }
-  \header {
-    quid = "3. ant."
-    modus = "I"
-    differentia = "D"
-    psalmus = "Zj 4"
-    id = "1ne-a3"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
 \pageBreak
 
 \score {
