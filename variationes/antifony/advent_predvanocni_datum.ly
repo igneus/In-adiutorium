@@ -904,6 +904,46 @@ v předvánočním týdnu latinsky.}
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e d \mark\sipka c( d) c \barMaior
+    d c d d( f) f \barMin g f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní se spl -- ni -- lo všech -- no,
+    co ře -- kl an -- děl o Pan -- ně Ma -- ri -- i.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-23-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e d c( d) c \barMaior
+    d \mark\sipka e f d d d e c c d d \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní se spl -- ni -- lo všech -- no,
+    co ře -- kl an -- děl o Pan -- ně Ma -- ri -- i.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "predvanocni-23-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a b a b c b( g) a \barMaior

@@ -1003,6 +1003,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a \mark\sipka c( d) c b g g a( b) a a \barMaior
+    a4 a a( d) d \barMin d c( d) c( a) a \barMin b( c) a a g( a) a \barMaior
+    g e e g a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Zá -- stu -- py, kte -- ré při -- šly na svát -- ky, vo -- la -- ly:
+    Po -- žeh -- na -- ný, jenž při -- chá -- zí ve jmé -- nu Pá -- ně,
+    ho -- sa -- na na vý -- sos -- tech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a \mark\sipka c c b a g( a) g g \barMin b( c) a a \barMaior
+    a4 a a( d) d \barMin d c( d) c( a) a \barMin b( c) a a g( a) a \barMaior
+    g e e g a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Zá -- stu -- py, kte -- ré při -- šly na svát -- ky, vo -- la -- ly:
+    Po -- žeh -- na -- ný, jenž při -- chá -- zí ve jmé -- nu Pá -- ně,
+    ho -- sa -- na na vý -- sos -- tech.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   Pokusy redukovat rozsah. To e by nebylo tak zlé, kdyby se ho melodie jen letmo dotýkala,
   ale v téhle "\"důrazné\"" posici už se mi zpívá špatně.
