@@ -1317,12 +1317,14 @@
   }
 
   \markup\justify{
-    \sans{"\"přestat být pannou\"" je jeden z nešťastných
+    "\"přestat být pannou\"" je jeden z nešťastných
     - velmi nepřirozeně znějících - překladů.
-    Tedy - nepřekladů! Originál totiž zní:}
+    Tedy - nepřekladů! Liturgia horarum totiž má:
+    \italic{
     María dixit: Qualis est ista salutátio?
     quia conturbáta est ánima mea,
     et quia paritúra sum Regem, qui claustrum virginitátis meæ non violábit.
+    }
   }
 
   \score {
