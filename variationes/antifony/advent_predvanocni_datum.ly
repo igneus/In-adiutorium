@@ -3040,6 +3040,28 @@ podobně.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g f g g( f) f \barMin
+    g f g a f f \barFinalis
+  }
+  \addlyrics {
+    Zdvih -- ně -- te hla -- vu,
+    pro -- to -- že se blí -- ží
+    va -- še vy -- kou -- pe -- ní.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "predvanocni-24-rch-a2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
