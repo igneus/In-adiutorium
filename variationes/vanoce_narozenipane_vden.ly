@@ -2588,6 +2588,27 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c \mark\sipka b( g) g a4 g f( g) g \barMaior
+      g f e d f( g) g g \barFinalis
+    }
+    \addlyrics {
+      Da -- jí mu jmé -- no E -- ma -- nu -- el,
+      to zna -- me -- ná:
+      Bůh s_ná -- mi.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "vden-cte-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\nadpisSkupiny 6
 
   \score {
@@ -3200,6 +3221,29 @@
   \score {
     \relative c'' {
       \choralniRezim
+      \mark\sipka d4 d f e d e c( d) d \barMaior
+      d c b a b c b g \barMin
+      a a f e f g g g \barMaior
+      a a g( a) g \barFinalis
+    }
+    \addlyrics {
+      Slá -- va na vý -- sos -- tech Bo -- hu
+      a na ze -- mi po -- koj li -- dem, v_kte -- rých má Bůh za -- lí -- be -- ní.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Benedictus"
+      id = "vden-rch-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       \mark\sipka c4( d e d) d \barMin e f e d c( d) d \barMaior
       d c b a b c b g \barMin
       a a f e f g g g \barMaior
@@ -3305,7 +3349,7 @@
       \key f \major
       f4( g) g g a bes a g \mark\sipka f g g a g \barMaior
       f f e c c( d) d d \barMin
-      a bes a a a g f g d d \barFinalis
+      a' bes a a a g f g d d \barFinalis
     }
     \addlyrics {
       Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
@@ -3831,6 +3875,31 @@
 
   \score {
     \relative c'' {
+      \choralniRezim
+      a4 a a g( f) g( a) a g a c( d) d d \barMaior
+      d( e c) c \barMin
+      d c b a( g) g \barMaior
+      \mark\sipka f g a c b c a( g) g \barFinalis
+    }
+    \addlyrics {
+      O -- de dne zro -- ze -- ní je ti ur -- če -- no
+      vlád -- nout
+      v_po -- svát -- ném les -- ku:
+      zplo -- dil jsem tě před ji -- třen -- kou.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Žalm 110"
+      id = "vden-2ne-a1"
+      fial = "fial://antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacSedy
       \choralniRezim
       a4 a a g( f) g( a) a g a c( d) d d \barMaior
@@ -4198,6 +4267,30 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g g f g g( a) a \barMin
+      g a c b g g( a) \barMaior
+      a b c \mark\sipka a g g \barMin
+      g f g( a) g f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Na po -- čát -- ku by -- lo Slo -- vo,
+      a to Slo -- vo byl Bůh;
+      Bůh se nám na -- ro -- dil
+      ja -- ko Spa -- si -- tel svě -- ta.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Kol 1"
+      id = "vden-2ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \label #'respSlovoSeStalo
@@ -4323,6 +4416,44 @@
       g( bes c a4.) a4. f4 f a f e( d) d \barMaior
 
       c f \mark\sipka e( d) d \barFinalis
+    }
+    \addlyrics {
+      Dnes se na -- ro -- dil
+      Kris -- tus, náš Spa -- si -- tel,
+
+      dnes zpí -- va -- jí na ze -- mi an -- dě -- lé,
+      ra -- du -- jí se arch -- an -- dě -- lé,
+
+      dnes já -- sa -- jí spra -- ved -- li -- ví:
+      Slá -- va na vý -- sos -- tech Bo -- hu!
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "D"
+      psalmus = "Magnificat"
+      id = "vden-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      \key f \major
+
+      d4( g) g a( bes c) bes( a) a \barMin
+      bes g f g( a) f( e) d \barMaior
+
+      d d( g) g g a f g \mark\sipka g a a \barMin
+      c b c4. a g4 f f( g) g \barMaior
+
+      d d( g) g g a bes? c a \barMin
+      g( bes c a4.) a4. f4 f a f e( d) d \barMaior
+
+      c f e( d) d \barFinalis
     }
     \addlyrics {
       Dnes se na -- ro -- dil
