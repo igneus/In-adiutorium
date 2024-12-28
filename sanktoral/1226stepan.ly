@@ -123,7 +123,7 @@
   \relative c'' {
     \choralniRezim
     a4 c( e) e e( f) e d d( c) c b a( b c) b \barMaior
-    c c( d) d c d c b g a g f g g \barFinalis
+    c d d c b a g g a g f g g \barFinalis
   }
   \addlyrics {
     Má du -- še_* při -- lnu -- la k_to -- bě, můj Bo -- že,
@@ -136,7 +136,7 @@
     psalmus = "Žalm 63"
     id = "rch-a1"
     fons = "Vavrinec; jen prvni pulka"
-    fial = "fial://sanktoral/0810vavrinec.ly#rch-a1?zacatek"
+    fial = "fial://sanktoral/0810vavrinec.ly#rch-a1?zacatek=16"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -147,7 +147,7 @@
     g4 g g( c) g a g f a a g g \barMin
     c b( c a) g f( g) \barMaior
     a( b) c d c( b a b) b( a) \barMin
-    g g g g g( a) f f g g \barFinalis
+    a a g f g( a) f f g g \barFinalis
   }
   \addlyrics {
     Ště -- pán vi -- děl ne -- be -- sa o -- tev -- ře -- ná
