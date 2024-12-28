@@ -1409,9 +1409,9 @@
       \choralniRezim
       c4 c b c d c b a b g g \barMin
       f g a a c c c b a g( a) g g \barMaior
-      g( f) g g a a \barMin
-      b( c a) g a g g \barMaior
-      c( d c) b a g g g f g a f f( g) g \barFinalis
+      f g g a a \barMin
+      c b a( b) g g \barMaior
+      c c b a g g f g a f f( g) g \barFinalis
     }
     \addlyrics {
       Skr -- ze Pan -- nu Ma -- ri -- i se spl -- ni -- lo,

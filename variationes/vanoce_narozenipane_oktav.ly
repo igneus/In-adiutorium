@@ -179,7 +179,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 c b c d c b a b g g \barMin
       f \mark\sipka g a a c c c b a g( a) g g \barMaior
@@ -239,6 +239,59 @@
       \mark\sipka f g g a a \barMin
       c c b( a) g( a) a \barMaior
       c c d c a a c c b a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Skr -- ze Pan -- nu Ma -- ri -- i se spl -- ni -- lo,
+      co pro -- po -- ci před -- po -- vě -- dě -- li o Kris -- tu:
+      pan -- na po -- ča -- la,
+      pan -- nou zů -- sta -- la,
+      pan -- na po -- ro -- di -- la Spa -- si -- te -- le svě -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "27-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c b c d c b a b g g \barMin
+      f g a a c c c b a g( a) g g \barMaior
+      f g g a a \barMin
+      c \mark\sipka b a( b) g g \barMaior
+      c c b a g g f g a f f( g) g \barFinalis
+    }
+    \addlyrics {
+      Skr -- ze Pan -- nu Ma -- ri -- i se spl -- ni -- lo,
+      co pro -- po -- ci před -- po -- vě -- dě -- li o Kris -- tu:
+      pan -- na po -- ča -- la,
+      pan -- nou zů -- sta -- la,
+      pan -- na po -- ro -- di -- la Spa -- si -- te -- le svě -- ta.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "27-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c b c d c b a b g g \barMin
+      f g a a c c c b a g( a) g g \barMaior
+      f g g a a \barMin
+      \mark\sipka g f g( a) a( g) g \barMaior
+      c c b a g g f g a f f( g) g \barFinalis
     }
     \addlyrics {
       Skr -- ze Pan -- nu Ma -- ri -- i se spl -- ni -- lo,

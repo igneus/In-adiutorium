@@ -46,7 +46,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka f g g a a \barMin
     b( c a) g a g g \barMaior
@@ -89,6 +89,33 @@
     psalmus = "Žalm 119-Nun"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
     fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&jiny text"
+    id = "ne1-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g g a a \barMin
+    c \mark\sipka b a( b) g g \barMaior
+    c c b a g g f( g) a f g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- na po -- ča -- la,
+    pan -- nou zů -- sta -- la,
+    pan -- na po -- ro -- di -- la Krá -- le všech krá -- lů.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-Nun"
+    fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část jiný text"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?cast=1-2"
     id = "ne1-a1"
     piece = \markup {\sestavTitulek}
   }
