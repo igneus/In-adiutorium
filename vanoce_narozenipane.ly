@@ -273,7 +273,9 @@
       quid = "1. resp."
       modus = "VII"
       placet = "má úplně jiný ráz než klasická noční responsoria;
-      melodie _do nebeského_ úplně nesedí k rytmu fráze"
+      melodie _do nebeského_ úplně nesedí k rytmu fráze;
+      možná by bylo lepší nezpěvné _zpět_ přesunout na začátek následující
+      fráze, aby nebylo tak exponované"
       id = "vden-cte-r1"
       piece = \markup {\sestavTitulekResp}
     }
