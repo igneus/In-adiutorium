@@ -167,8 +167,8 @@
     \choralniRezim
     d4 c d f g f( d) d \barMin
     f g a g f g( a) a g g \barMaior
-    a( g f) e( d) c( d) d d( f) e d( e d) d \barMaior
-    c d e d \barFinalis
+    a a a a g f e( f d c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     Slo -- vo se sta -- lo tě -- lem
