@@ -1350,6 +1350,7 @@
       differentia = "g2"
       psalmus = ""
       annus = "C"
+      placet = "2 nic moc"
       id = "svrodiny-2ne-amagC"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
@@ -1523,6 +1524,7 @@
       differentia = "D"
       psalmus = "Žalm 72-II"
       fial = "pust_triduum.ly#ct-nesp-ant2?zacatek=12"
+      placet = "2 jako celek nepůsobí moc přesvědčivě, asi se spíš oddělit od zdroje"
       id = "29-mc-a3"
       piece = \markup {\sestavTitulek}
     }
