@@ -1107,6 +1107,32 @@
     \relative c' {
       \choralniRezim
       d4 f e f g f e f d d \barMin
+      d( f) d \mark\sipka f e d( c) c \barMaior
+      d f f f g f \barMin
+      g f g a( g) g \barMaior
+      a g f d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři si řek -- li me -- zi se -- bou:
+      Pojď -- me do Bet -- lé -- ma
+      po -- dí -- vat se na to,
+      co se tam sta -- lo,
+      jak nám to Pán o -- zná -- mil.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "II"
+      differentia = "D"
+      psalmus = "Benedictus"
+      id = "29-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 f e f g f e f d d \barMin
       \mark\sipka f f e d c c \barMaior
       d f f f g f \barMin
       g f g a( g) g \barMaior
