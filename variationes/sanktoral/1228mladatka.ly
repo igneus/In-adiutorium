@@ -807,6 +807,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a( c) c4 c4 b( c) a( g) g \barMin
+    \mark\sipka f g a g a( c) b \barMaior
+    c c b g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Z_úst dě -- tí a ne -- mluv -- ňat
+    sis při -- pra -- vil slá -- vu
+    na -- vzdo -- ry svým od -- půr -- cům.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    fons = "zacatek ze zaltare, so 4.t., rch, 3.a."
+    fial = "fial://antifony/tyden4_7sobota.ly#rch-ant3?beginning"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{
@@ -851,7 +875,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 \mark\sipka a a g( a) g \barMin
     \mark\sipka f g a a c b c d( c a) a \barMaior
@@ -930,6 +954,75 @@
     c b a g g \mark\sipka b( c) a a \barMax
 
     a( d e d) c c( d) c c( bes a) a \barFinalis
+  }
+  \addlyrics {
+    Ne -- vin -- né dě -- ti,
+    za -- vraž -- dě -- né u -- krut -- ným krá -- lem,
+    pro -- li -- ly svou krev pro Kris -- ta;
+
+    ny -- ní ho ná -- sle -- du -- jí,
+    Be -- rán -- ka bez po -- skvr -- ny,
+    a bez pře -- stá -- ní vo -- la -- jí:
+
+    Slá -- va to -- bě, Pa -- ne!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g( a) g \barMin
+    f g a a c b c d( c a) a \barMaior
+    c d e d d( c a) b( c a) g( a) a \barMax
+
+    a a a b( c) a g( a) a \barMin
+    c d e d( e) d c( d) c \barMaior
+    c b a g g b( c) a a \barMax
+
+    \mark\sipka a( d) d e( d) c c( bes a) a \barFinalis
+  }
+  \addlyrics {
+    Ne -- vin -- né dě -- ti,
+    za -- vraž -- dě -- né u -- krut -- ným krá -- lem,
+    pro -- li -- ly svou krev pro Kris -- ta;
+
+    ny -- ní ho ná -- sle -- du -- jí,
+    Be -- rán -- ka bez po -- skvr -- ny,
+    a bez pře -- stá -- ní vo -- la -- jí:
+
+    Slá -- va to -- bě, Pa -- ne!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) g \barMin
+    f g a a c b c d( c a) a \barMaior
+    c d e \mark\sipka d( e) c b( c) a a \barMax
+
+    a a a b( c) a g( a) a \barMin
+    c d e d( e) d c( d) c \barMaior
+    c b a g g b( c) a a \barMax
+
+    a( d) d e( d) c c( bes a) a \barFinalis
   }
   \addlyrics {
     Ne -- vin -- né dě -- ti,

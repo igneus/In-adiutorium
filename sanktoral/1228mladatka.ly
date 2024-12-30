@@ -194,9 +194,9 @@
 
     a a a b( c) a g( a) a \barMin
     c d e d( e) d c( d) c \barMaior
-    c b a g g g( a) a a \barMax
+    c b a g g b( c) a a \barMax
 
-    a( d e d) c c( d) c c( bes a) a \barFinalis
+    a( d) d e( d) c c( bes a) a \barFinalis
   }
   \addlyrics {
     Ne -- vin -- né dě -- ti,
