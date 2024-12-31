@@ -1584,6 +1584,31 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      c4 c c g( a) g \barMin
+      a g a c b a a \barMaior
+      \mark\sipka a( b c) a( g) g \barMin
+      g f g( a) a g g \barFinalis
+    }
+    \addlyrics {
+      U -- sta -- no -- vil jsem
+      své -- ho vy -- vo -- le -- né -- ho
+      nej -- vyš -- ším
+      me -- zi krá -- li ze -- mě.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 89-II"
+      id = "30-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \choralniRezim
       \mark\sipka c4 b a g( a) g \barMin
       a g a c b a a \barMaior
@@ -2283,6 +2308,34 @@
       a g a bes( c) g \barMin
       bes( a) g g( a) f g g \barMax
       g \mark\sipka a g f( g) f \barMin
+      f f e c e f d d \barFinalis
+    }
+    \addlyrics {
+      Dě -- ku -- je -- me ti,
+      Pan -- no Ma -- ri -- a,
+      žes da -- la svě -- tu
+      Kris -- ta Spa -- si -- te -- le,
+      o -- chra -- ňuj všech -- ny,
+      kdo se k_to -- bě u -- tí -- ka -- jí.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = "Magnificat"
+      id = "30-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a g a g \barMin
+      f g g a a \barMaior
+      a g a bes( c) g \barMin
+      bes( a) g g( a) f g g \barMax
+      \mark\sipka a g f e( f d) d \barMin
       f f e c e f d d \barFinalis
     }
     \addlyrics {
