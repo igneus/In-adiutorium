@@ -492,7 +492,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -505,6 +505,71 @@
       % R
       \neviditelna a
       g g( a) g( f) d d f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Slo -- vo se sta -- lo tě -- lem_*
+      a pře -- bý -- va -- lo me -- zi ná -- mi.
+      \Verse Všich -- ni jsme do -- sta -- li z_je -- ho pl -- nos -- ti._*
+      \Response A pře -- bý -- va -- lo me -- zi ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "svrodiny-1ne-resp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g f g( a) a( g) \barMax
+      \mark\sipka a g f d d f g g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a4 a a a( bes) a a g f g a a( g) \barMax
+      % R
+      \neviditelna a
+      \mark\sipka a g f d d f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Slo -- vo se sta -- lo tě -- lem_*
+      a pře -- bý -- va -- lo me -- zi ná -- mi.
+      \Verse Všich -- ni jsme do -- sta -- li z_je -- ho pl -- nos -- ti._*
+      \Response A pře -- bý -- va -- lo me -- zi ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "svrodiny-1ne-resp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g f g( a) a \barMax
+      g a a g f f g g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a4 a a a( bes) a a g f g a a( g) \barMax
+      % R
+      \neviditelna a
+      g a a g f f g g( f) f \barFinalis
       % Slava
       \respVIdoxologie \barFinalis
     }
@@ -1293,12 +1358,38 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 f f( g) f \barMin
       d e f e d c c \barMaior
       f f f g f f f g( a) g f d d \barMaior
       \mark\sipka f f e c d4. c4 d e( f) d d \barFinalis
+    }
+    \addlyrics {
+      Chla -- pec Je -- žíš
+      zů -- stal v_Je -- ru -- za -- lé -- mě,
+      a je -- ho ro -- di -- če ho mar -- ně hle -- da -- li
+      me -- zi pří -- buz -- ný -- mi a zná -- mý -- mi.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      annus = "C"
+      id = "svrodiny-1ne-amagC"
+      piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 f f( g) f \barMin
+      \mark\sipka f d f e d c c \barMaior
+      f f f g f f f g( a) g f d d \barMaior
+      f f e \mark\sipka d c( d) c c e( f) d d \barFinalis
     }
     \addlyrics {
       Chla -- pec Je -- žíš
@@ -1541,6 +1632,33 @@
       d( f) f f f( g) g \barMin
       g f e d( e d) d \barMaior
       f f \mark\sipka e( d c) c \barMin
+      d f f f e c d d \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu,
+      Bo -- ží -- mu Sy -- nu;
+      on byl pod -- dán
+      Ma -- ri -- i a Jo -- se -- fo -- vi.
+    }
+    \header {
+      quid = "ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = ""
+      fial = "sanktoral/0325zvestovanipane.ly#invit?zacatek=20"
+      id = "svrodiny-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( f) f \barMin
+      d( f) f f f( g) g \barMin
+      g f e d( e d) d \barMaior
+      f f \mark\sipka d( e) d( c) \barMin
       d f f f e c d d \barFinalis
     }
     \addlyrics {
@@ -2709,6 +2827,54 @@
   \score {
     \relative c' {
       \choralniRezim
+      f4 f f f f( g) f f \barMin
+      f g a g f \mark\sipka g( a) g g \barMin
+      a g f g f f \barMaior
+      g g f e d c f( e c d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če
+      pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 63"
+      id = "svrodiny-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f f f f( g) f f \barMin
+      f g a g f \mark\sipka g g a \barMin
+      a g f g f f \barMaior
+      g g f e d c f( e c d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- ží -- šo -- vi ro -- di -- če
+      pu -- to -- vá -- va -- li kaž -- dý rok
+      do Je -- ru -- za -- lé -- ma
+      na ve -- li -- ko -- noč -- ní svát -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 63"
+      id = "svrodiny-rch-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       f4 f f f \mark\sipka g( a) g g \barMin
       f g a g f \mark\sipka e( f) d d \barMin
       g a f g f f \barMaior
@@ -3696,6 +3862,33 @@
   }
 
   \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4( bes) \mark\sipka a g( a) \barMin
+      a g bes( a) g f g4. g \barMax
+      g4 g g g g g f e d d \barMaior
+      f e f( g) g \barMin
+      g a a a f( e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
     \relative c' {
       \choralniRezim
       \mark\sipka f4 f f( g a) \barMin
@@ -3767,6 +3960,32 @@
       quid = "1. ant."
       modus = "I"
       differentia = "f"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka a4 a g( a g) \barMin
+      g f g( a) g f g4. g \barMax
+      g4 g g g g g f e d d \barMaior
+      f e f( g) g \barMin
+      g a a a f( e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "g2"
       psalmus = "Žalm 122"
       id = "svrodiny-2ne-a1"
       piece = \markup {\sestavTitulek}
@@ -3871,6 +4090,29 @@
       quid = "1. ant."
       modus = "VIII"
       differentia = "G"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 b a g( a) g \barMin
+      a g f g( a g4.) g \barMaior
+    }
+    \addlyrics {
+      Po třech dnech na -- šli
+      Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "c"
       psalmus = "Žalm 122"
       id = "svrodiny-2ne-a1"
       piece = \markup {\sestavTitulek}
@@ -4771,6 +5013,23 @@
   }
 
   \pageBreak
+
+  \markup\justify{
+    V češtině se shoduje s druhou antifonou ranních chval;
+    v latině jsou texty nepatrně rozdílné.
+    Liturgia horarum:
+    \italic{
+      Puer Iesus crescébat et confortabátur plenus sapiéntia:
+      et grátia Dei erat super illum.
+    }
+    (srov. Lk 2, 40 - Nova Vulgata)
+    RCH A2:
+    \italic{
+      Puer autem crescébat et confortabátur plenus sapiéntia,
+      et grátia Dei erat in illo.
+    }
+    (Lk 2, 40 - Vulgata, doslova)
+  }
 
   \score {
     \relative c' {

@@ -3472,7 +3472,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -3498,6 +3498,42 @@
   \header {
     quid = "resp."
     modus = "VI"
+    id = "2ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g( a) a( g) \barMax
+    a g f d d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a( bes) a g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    a g f d d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Slo -- vo se sta -- lo tě -- lem_*
+    a pře -- bý -- va -- lo me -- zi ná -- mi.
+    \Verse To Slo -- vo při -- šlo na svět._*
+    \Response a pře -- bý -- va -- lo me -- zi ná -- mi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fial = "vanoce_narozenipane.ly#svrodiny-1ne-resp?jiny_vers"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

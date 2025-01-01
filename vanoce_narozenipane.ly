@@ -780,13 +780,13 @@
       % R
       \neviditelna f
       f4 f f g f g( a) a( g) \barMax
-      g g( a) g( f) d d f g g( f) f \barFinalis
+      a g f d d f g g( f) f \barFinalis
       % V
       \neviditelna a
       a4 a a a( bes) a a g f g a a( g) \barMax
       % R
       \neviditelna a
-      g g( a) g( f) d d f g g( f) f \barFinalis
+      a g f d d f g g( f) f \barFinalis
       % Slava
       \respVIdoxologie \barFinalis
     }
@@ -855,9 +855,9 @@
     \relative c' {
       \choralniRezim
       f4 f f( g) f \barMin
-      d e f e d c c \barMaior
+      f d f e d c c \barMaior
       f f f g f f f g( a) g f d d \barMaior
-      f f e c d4. c4 d e( f) d d \barFinalis
+      f f e d c( d) c c e( f) d d \barFinalis
     }
     \addlyrics {
       Chla -- pec Je -- žíš
