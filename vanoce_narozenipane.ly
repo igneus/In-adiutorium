@@ -1724,9 +1724,9 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d c e d c d \barMin
-      c d e f4. e \barMaior
-      d4 d c a a c c( d) d d \barFinalis
+      f4 a c c d c c \barMin
+      d e d d( c) c \barMaior
+      c c a g f g g( a) f f \barFinalis
     }
     \addlyrics {
       Ra -- duj -- te se, ne -- be -- sa,
@@ -1736,10 +1736,9 @@
     }
     \header {
       quid = "1. ant."
-      modus = "II"
-      differentia = "D"
+      modus = "V"
+      differentia = "a"
       psalmus = "Žalm 96"
-      placet = "docela pěkná, ale zkusit varianty"
       id = "31-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1799,7 +1798,7 @@
     \relative c'' {
       \choralniRezim
       c4 c c c c d c e( d) d \barMin
-      c d c c( b) a( g) g \barMaior
+      d e d c( b) a( g) g \barMaior
       a c a b( c) a a g g \barMax
       c4( d) d f e d e c( d) d \barMaior
       d c b a b c b g \barMin
