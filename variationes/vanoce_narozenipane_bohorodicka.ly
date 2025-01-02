@@ -912,6 +912,29 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacZelenyII
+      \choralniRezim
+      d4 b d( e d) d \barMin
+      d c b a \mark\sipka g g a a \barMin
+      a( b) a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
       \zvyraznovacSedy
       \choralniRezim
       d4 \mark\sipka b d( e d) d \barMin
@@ -1279,7 +1302,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4( a) g( f) e g a a g \barMin
       a( b) c a g( f) g \barMaior
@@ -1336,7 +1359,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacZelenyII
+      \zvyraznovacModry
       \choralniRezim
       g4( a) g( f) e g a a g \barMin
       a( b) c a g( f) g \barMaior
@@ -1716,6 +1739,36 @@
       d d d c b a c( d) d \barMaior
       f f( g) a f \mark\sipka g( f) e \barMin
       \mark\sipka f e d c c \barMin
+      d( f) e c( d) d \barMaior
+      e f d( c) d \barFinalis
+    }
+    \addlyrics {
+      Ma -- ri -- a nám
+      po -- ro -- di -- la Spa -- si -- te -- le.
+      Když ho Jan u -- vi -- děl, zvo -- lal:
+      Hle, Be -- rá -- nek Bo -- ží,
+      ten, kte -- rý sní -- má
+      hří -- chy svě -- ta.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "II"
+      differentia = "D"
+      psalmus = "Dan 3-III"
+      id = "bohorodicka-rch-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 d \mark\sipka c d
+      f e d d e c d d \barMaior
+      d d d c b a c( d) d \barMaior
+      f f( g) a f g( f) e \barMin
+      f e d c c \barMin
       d( f) e c( d) d \barMaior
       e f d( c) d \barFinalis
     }
