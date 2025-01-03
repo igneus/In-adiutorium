@@ -447,6 +447,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f d f( g) g \barMin
+    \mark\sipka g( a) f f( g) g \barMaior
+    a c c b( c a) a \barMin
+    c c c b a g g f a g g \barFinalis
+  }
+  \addlyrics {
+    Bet -- lém -- ské dí -- tě,
+    Sy -- nu Bo -- ží,
+    O -- tec tě po -- slal,
+    a -- by -- chom mě -- li ži -- vot skr -- ze te -- be.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{3. ledna}
