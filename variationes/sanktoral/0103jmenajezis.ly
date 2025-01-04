@@ -392,6 +392,78 @@
   }
 }
 
+\markup\justify{
+  (Pokus alespoň nápěvem částečně napravit to, že v češtině -
+  jako ostatně ani v latině a řečtině -
+  jméno \italic{Ježíš} nemá se \italic{spásou} nic společného,
+  takže ono _totiž_ bez znalosti semitského pozadí zůstává temné.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( e f d) d \barMaior
+    d d c d( e f) e f( g) g \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( e f d) d \barMaior
+    \mark\sipka f f e f( g a) g f( g) f \barMin
+    e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( e f d) d \barMaior
+    f f e f( g a) \mark\sipka f g( f) d \barMin
+    d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dáš mu jmé -- no Je -- žíš,
+    on to -- tiž spa -- sí svůj lid
+    z_je -- ho hří -- chů.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim

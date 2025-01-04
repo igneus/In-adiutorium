@@ -862,6 +862,29 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a \mark\sipka a( bes) a \barMin g4 f g( a) g g \barMaior
+    f g a( g) f g f d d \barMin c( f) e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Na -- še srd -- ce já -- sá sva -- tou ra -- dos -- tí,
+    ne -- boť svě -- tu se do -- sta -- lo věč -- né spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "3amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
     g4 g f g g( d') d \barMin e c d( e) d d \barMaior
