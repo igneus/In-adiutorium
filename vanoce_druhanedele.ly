@@ -50,7 +50,7 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "c"
-    psalmus = "Žalm 116"
+    psalmus = "Žalm 16"
     id = "ne1-a2"
     piece = \markup {\sestavTitulek}
   }
