@@ -342,7 +342,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Magnificat"
-    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    fial = "commune/commune_maria.ly#2ne-amag?cast=1-2"
     id = "ne2-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
