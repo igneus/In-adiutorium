@@ -142,6 +142,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "3 melismata na _muudrci_ a _viiděli_ moc nesedí"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -260,6 +261,7 @@
     differentia = "D"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#28-amag?konec&volne"
+    placet = "2 málo zpěvná, celkově slabší"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -415,6 +417,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
+    placet = "2 _Dnešního_ moc nesedí, zvlášť to melisma"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
