@@ -694,10 +694,10 @@
   \markup {\nadpisDen {8. ledna}}
 
   \score {
-    \relative c'' {
+    \relative c' {
       \choralniRezim
-      c4 c( d c) c \barMin c c c b a g( a) g g \barMaior a a \barMin
-      f g g( a) a a \barMin c c b a g( a) g \barMaior
+      d4 f( a g) g \barMin a c c c g a g f \barMaior g g \barMin
+      a g a a( c) c \barMin b c a g f( g) g \barMaior
       c( d c) c \barMin c c c c b g
       a g f( g) g \barFinalis
     }
@@ -710,7 +710,7 @@
     \header {
       quid = "ant. k Benedictus"
       modus = "VIII"
-      differentia = "c"
+      differentia = "G"
       psalmus = ""
       id = "8-aben"
       piece = \markup {\sestavTitulekBezZalmu}
