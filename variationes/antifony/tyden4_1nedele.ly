@@ -95,6 +95,15 @@
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
+\markup\justify{
+  Antifona se mi po žalmu nezačíná úplně dobře, tak jsem hledal,
+  jestli by se nezačínala lépe po diferenci III.a (zlepšení nepozoruji),
+  a jak jsou podobné případy ošetřeny v pramenech.
+  Chorální edice ovlivněné solesmeskou školou pro antifony modu III začínající
+  na e rutinně předepisují diferenci III.a2.
+  Středověké prameny znají a hojně užívají extra diferenci III.e.
+}
+
 \score {
   \relative c' {
     \choralniRezim
