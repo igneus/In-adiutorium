@@ -114,6 +114,30 @@
     g4 c4.( a) \barMin
     a4 b( c) c( b) b \barMaior
     d c( b) a( b) g f g a f f g g \barMaior
+    g g \mark\sipka f d f( g a) g \barFinalis
+  }
+  \addlyrics {
+    Náš Pán
+    a Spa -- si -- tel,
+    před ji -- třen -- kou a před vě -- ky zplo -- ze -- ný,
+    se dnes zje -- vil svě -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 c4.( a) \barMin
+    a4 b( c) c( b) b \barMaior
+    d c( b) a( b) g f g a f f g g \barMaior
     \mark\sipka g c b( c a) g a( g) g \barFinalis
   }
   \addlyrics {
@@ -338,7 +362,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 a g( c) c \barMin
     b a a( b g) g \barMaior
@@ -423,7 +447,6 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
     \choralniRezim
     g4 a g( c) c \barMin
     b a a( b g) g \barMaior
@@ -437,6 +460,35 @@
     ja -- ko o -- heň
     a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
     Krá -- li všech krá -- lů;
+    mu -- dr -- ci ji spa -- tři -- li
+    a při -- nes -- li mu da -- ry.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "1Tim 3"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g( c) c \barMin
+    b a a( b g) g \barMaior
+    g e( f) g( a) a g a( c b) a b( g) g \barMin
+    f( a) g f g g \barMax
+    a c c c b( c) a a \barMin
+    a \mark\sipka c c b a g g \barFinalis
+  }
+  \addlyrics {
+    Hvěz -- da zá -- ří
+    ja -- ko o -- heň
+    a u -- ka -- zu -- je ces -- tu k_Bo -- hu,
+    Krá -- li všech krá -- lů:
     mu -- dr -- ci ji spa -- tři -- li
     a při -- nes -- li mu da -- ry.
   }
@@ -1010,6 +1062,28 @@ ale na diferenci žalmového nápěvu?}
 \score {
   \relative c'' {
     \choralniRezim
+    c4 b c d d c b c d d \barMin
+    d c b \mark\sipka c( a g) g \barMaior
+    a f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Krá -- lo -- vé Tar -- ší -- še a os -- tro -- vů
+    při -- ne -- sou da -- ry
+    Bo -- hu, své -- mu Pá -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 72"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 b d c b a b a g g \barMaior
     a g f g( a) a \barMin
     b c a a g g \barFinalis
@@ -1055,7 +1129,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a c b( a) g \barMin a f a g g \barMaior
     \mark\sipka f g( a) g g \barFinalis
@@ -1080,6 +1154,28 @@ ale na diferenci žalmového nápěvu?}
     \choralniRezim
     c4 a c b( a) g \barMin \mark\sipka a a f e d
     f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 96"
+    fial = "antifony/tyden1_2pondeli.ly#rch-ant3?zacatek=7"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a c b( a) g \barMin a a \mark\sipka g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
@@ -1511,7 +1607,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g
     a a g f e f g g g \barMin
@@ -1542,6 +1638,33 @@ ale na diferenci žalmového nápěvu?}
     g4 g g
     a a g f e f g g g \barMin
     \mark\sipka a c b a c b g g \barMaior
+    c( d c a) a \barMin c c c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mu -- dr -- ci
+    o -- te -- vře -- li své po -- klad -- ni -- ce
+    a o -- bě -- to -- va -- li Pá -- nu
+    zla -- to, ka -- di -- dlo a myr -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g
+    a a \mark\sipka a g f g a g g \barMin
+    g a c a b a g g \barMaior
     c( d c a) a \barMin c c c c b g
     a g f( g) g \barFinalis
   }
@@ -2523,6 +2646,45 @@ ale na diferenci žalmového nápěvu?}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) f g a \barMaior
+    a b c c c b( a g4.) g4 \barMin
+    a f e e( g) g g \barMaior
+    g a b c c c d( c) a a \barMin
+    b4( c) a g g \barMax
+
+    g g g a g a a( c) c \barMin
+    d c b c a a \barMaior
+    a c c c b( c) a( g) g \barMin
+    f g a \mark\sipka c b c a( g) f( g) g \barMaior
+
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dneš -- ní -- ho dne
+    se za -- snou -- bi -- la cír -- kev
+    s_ne -- bes -- kým že -- ni -- chem,
+    pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
+    je -- jí vi -- ny;
+
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na krá -- lov -- skou svat -- bu
+    a hos -- té se ra -- du -- jí
+    z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
@@ -2768,6 +2930,55 @@ ale na diferenci žalmového nápěvu?}
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( c) c \barMin
+    c c \mark\sipka c c d c b( c) a a \barMin
+    a c b a g g \barMaior
+    a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a( c) c \barMin
+    c c \mark\sipka b a b a a g g \barMin
+    g a f g( a) g g \barMaior
+    f g a a b( c a) g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ta -- jem -- ství,
+    kte -- ré by -- lo skry -- té od vě -- ků
+    a od po -- ko -- le -- ní,
+    by -- lo nám teď od -- ha -- le -- no.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d( e f) \barMin
@@ -2994,6 +3205,30 @@ ale na diferenci žalmového nápěvu?}
   \relative c'' {
     \choralniRezim
     g4 a c( d) d \barMin
+    d c( d) e c c( d) d \barMaior
+    d d c b c a \mark\sipka g( a) g g \barMaior
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- šel
+    a zvěs -- to -- val po -- koj
+    vám, kte -- ří jste by -- li da -- le -- ko,
+    i těm, kte -- ří by -- li blíz -- ko.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
     \mark\sipka d f( e) d e c( d) d \barMaior
     d d c b c a a g g \barMaior
     f g a c b g a a \barFinalis
@@ -3040,6 +3275,20 @@ ale na diferenci žalmového nápěvu?}
 
 \pageBreak
 
+\markup\justify{
+  Tady \italic{nejde} o různé překlady stejného textu,
+  antifony se drobně liší i v latině.
+  Liturgia horarum zde:
+  \italic{
+    Ecce dedi te in lucem géntium, ut sis salus mea usque ad extrémum terræ.
+  } (doslova \make-bible-link "Iz 49, 6" Vulgáta)
+  vs. v žaltáři:
+  \italic{
+    Pósui te in lucem géntium, ut sis salus mea usque ad extrémum terræ.
+  }
+  (volnější citát, popř. citát nějakého mně zatím neznámého překladu)
+}
+
 % Antifona je zkopirovana z nespor ctvrtka 2. tydne zaltare:
 
 \score {
@@ -3054,11 +3303,39 @@ ale na diferenci žalmového nápěvu?}
     a -- by se má spá -- sa roz -- ší -- ři -- la až do kon -- čin ze -- mě.
   }
   \header {
+    textus_approbatus = "Hle, dám tě národům jako světlo,
+    aby se má spása rozšířila až do končin země."
     quid = "ant. odpoledne"
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = ""
+    fial = "antifony/tyden2_5ctvrtek.ly#ne-ant1"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "oficiální text"
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 c d d f f \barMin g f g( a g) g \barMaior
+    a a g f g( f d4.) d \barMin f4 e( f) d( c) c \barMaior
+    d f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, dám tě ná -- ro -- dům ja -- ko svět -- lo,
+    a -- by se má spá -- sa roz -- ší -- ři -- la
+    až do kon -- čin ze -- mě.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -3139,6 +3416,28 @@ ale na diferenci žalmového nápěvu?}
     d4 c( d) d d c( b) a( g) g \barMin
     \mark\sipka f g a a a( c) b \barMin
     c a c b g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
+    všech -- ny krá -- le svě -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 110"
+    fial = "vanoce_narozenipane.ly#vden-1ne-a1?zacatek=10"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c( d) d d c( b) a( g) g \barMin
+    f g a a a( c) b \barMin
+    c a \mark\sipka b( c) a g g \barFinalis
   }
   \addlyrics {
     Král mí -- ru a po -- ko -- je pře -- vy -- šu -- je slá -- vou
@@ -3660,6 +3959,30 @@ ale na diferenci žalmového nápěvu?}
     \choralniRezim
     g4 a c d d \barMin
     e f e d c d( e d) d \barMaior
+    c( b g a) a( g) \barMin
+    f g a a b c a \mark\sipka g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- ny ná -- ro -- dy,
+    kte -- ré jsi, Bo -- že, stvo -- řil,
+    při -- jdou
+    a bu -- dou se před te -- bou kla -- nět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d \barMin
+    e f e d c d( e d) d \barMaior
     c( b \mark\sipka a b) b( a) \barMin
     g a c c b c a g( a) a \barFinalis
   }
@@ -3858,7 +4181,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
 
@@ -3876,6 +4199,53 @@ ale na diferenci žalmového nápěvu?}
     a g f g( a) f( e d) d \barMin
 
     e4 f( d) c d \barFinalis
+  }
+  \addlyrics {
+    Sla -- ví -- me den
+    pro -- sla -- ve -- ný tře -- mi di -- vy:
+
+    dnes při -- ved -- la hvěz -- da
+    mu -- dr -- ce k_jes -- lič -- kám,
+
+    dnes by -- la na svat -- bě
+    pro -- mě -- ně -- na vo -- da ve ví -- no,
+
+    dnes chtěl být Kris -- tus
+    v_ře -- ce Jor -- dá -- nu po -- křtěn od Ja -- na,
+    a -- by nás vy -- kou -- pil.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+
+    d4 g f g \barMin
+    a f f f e f d d \barMax
+
+    d d c d e( f) f \barMin
+    g f e d d d \barMaior
+
+    d f g g( a) a a \barMin
+    bes g g g g a g( f) d d \barMaior
+
+    d4( f) e f f( g) g \barMin
+    g g a g g f g a( bes) a a \barMaior
+    a g f g( a) f( e d) d \barMin
+
+    \mark\sipka c4 f( e) c d \barFinalis
   }
   \addlyrics {
     Sla -- ví -- me den

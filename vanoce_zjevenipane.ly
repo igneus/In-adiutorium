@@ -61,8 +61,8 @@
     b a a( b g) g \barMaior
     g e( f) g( a) a g a( c b) a b( g) g \barMin
     f( a) g f g g \barMax
-    a c c c d( c) b( g) g \barMin
-    g a g f a g g \barFinalis
+    a c c c b( c) a a \barMin
+    a c c b a g g \barFinalis
   }
   \addlyrics {
     Hvěz -- da zá -- ří
@@ -197,8 +197,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a c b( a) g \barMin a f a g g \barMaior
-    f g( a) g g \barFinalis
+    c4 a c b( a) g \barMin a a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Klaň -- te se Bo -- hu v_je -- ho sva -- ty -- ni.
@@ -209,7 +209,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 96"
-    fial = "antifony/tyden1_2pondeli.ly#rch-ant3?+aleluja"
+    fial = "antifony/tyden1_2pondeli.ly#rch-ant3?zacatek=7"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -273,7 +273,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g
-    a a g f e f g g g \barMin
+    a a a g f g a g g \barMin
     g a c a b a g g \barMaior
     c( d c a) a \barMin c c c c b g
     a g f( g) g \barFinalis
@@ -592,7 +592,7 @@
     g g a g g f g a( bes) a a \barMaior
     a g f g( a) f( e d) d \barMin
 
-    e4 f( d) c d \barFinalis
+    c4 f( e) c d \barFinalis
   }
   \addlyrics {
     Sla -- ví -- me den
