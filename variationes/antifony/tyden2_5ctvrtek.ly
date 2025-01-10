@@ -961,6 +961,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4( f) d c f( g a) a \barMin a( c) a g( a) a \barMaior
+    a a g f g( f d4.) d \barMin
+    f4 e( f) d( c) c \barMaior
+    d f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dám tě ná -- ro -- dům ja -- ko svět -- lo,
+    a -- by se má spá -- sa
+    roz -- ší -- ři -- la
+    až do kon -- čin ze -- mě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 72-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \key f \major
     d4 d f g a a a \barMin a a a a a( bes) a a g( f) e( d) d \barFinalis
   }
