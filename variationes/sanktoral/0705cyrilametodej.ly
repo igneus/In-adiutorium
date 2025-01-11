@@ -778,6 +778,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin d c b a b g g \barMaior
+    a4 a a a g f g g( a) a \barMin c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    By -- li u -- če -- ní a vy -- na -- lez -- li pís -- mo,
+    a -- by moh -- li ús -- pěš -- ně hlá -- sat Bo -- ží slo -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e) d d \barMin d c b a b g g \barMaior
+    a4 a a a \mark\sipka b c a g( a) g \barMin f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    By -- li u -- če -- ní a vy -- na -- lez -- li pís -- mo,
+    a -- by moh -- li ús -- pěš -- ně hlá -- sat Bo -- ží slo -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
