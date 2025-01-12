@@ -1720,6 +1720,26 @@
   \score {
     \relative c'' {
       \choralniRezim
+      a4 a a g f g g( a) a \barMin g a g f e e \barMaior
+      \mark\sipka e f e d( e) d d \barMin f g a g f g e e \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci do -- sta -- li ve snu od an -- dě -- la po -- kyn,
+      a -- by se vrá -- ti -- li do své ze -- mě ji -- nou ces -- tou.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "11-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       a4 a a g f g g( a) a \barMin g a \mark\sipka b g a a \barMaior
       a g f g( a) g g f e d( c) c \barMin d f g( f) f \barFinalis
     }
@@ -1779,7 +1799,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 a a g f g g( a) a \barMin g a b g a a \barMaior
       a b a g( a) g g \mark\sipka \barMin f g a g f \mark\sipka e d( e) e \barFinalis
@@ -1803,6 +1823,27 @@
       \choralniRezim
       a4 a a g f g g( a) a \barMin g a b g a a \barMaior
       a \mark\sipka a a g( a) g f g f g a g f e e \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci do -- sta -- li ve snu od an -- dě -- la po -- kyn,
+      a -- by se vrá -- ti -- li do své ze -- mě ji -- nou ces -- tou.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "11-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a g f g g( a) a \barMin g a b g a a \barMaior
+      a a a g( a) g \mark\sipka g \barMin g f g a g f e e \barFinalis
     }
     \addlyrics {
       Mu -- dr -- ci do -- sta -- li ve snu od an -- dě -- la po -- kyn,
@@ -2005,7 +2046,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 a c c d( c e d) d \barMin
       \mark\sipka e d c( d) c c b c a g a g g \barMaior
@@ -2033,6 +2074,30 @@
       g4 a c c d( c e d) d \barMin
       e d c( d) c c b c a g a g g \barMaior
       \mark\sipka f g a( c b) a g( a) g g \barFinalis
+    }
+    \addlyrics {
+      V_ga -- li -- lej -- ské Ká -- ně
+      Je -- žíš u -- či -- nil po -- čá -- tek všech zna -- me -- ní,
+      a tím zje -- vil svou slá -- vu.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      fial = "antifony/mezidobi_nedeleC_02_10.ly#ne2c-ne2-mag?zacatek=10"
+      id = "12-aben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 a c c d( c e d) d \barMin
+      e d c( d) c c b c a g a g g \barMaior
+      \mark\sipka a c b( c a) a b( a) g g \barFinalis
     }
     \addlyrics {
       V_ga -- li -- lej -- ské Ká -- ně

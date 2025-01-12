@@ -867,7 +867,7 @@
     \relative c'' {
       \choralniRezim
       a4 a a g f g g( a) a \barMin g a b g a a \barMaior
-      a b a g( a) g g \barMin f g a g f e d( e) e \barFinalis
+      a a a g( a) g g \barMin g f g a g f e e \barFinalis
     }
     \addlyrics {
       Mu -- dr -- ci do -- sta -- li ve snu od an -- dě -- la po -- kyn,
@@ -890,7 +890,7 @@
       \choralniRezim
       g4 a c c d( c e d) d \barMin
       e d c( d) c c b c a g a g g \barMaior
-      a a f( g a) a c( b) g g \barFinalis
+      a c b( c a) a b( a) g g \barFinalis
     }
     \addlyrics {
       V_ga -- li -- lej -- ské Ká -- ně
