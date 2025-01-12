@@ -128,6 +128,7 @@ mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinal
     quid = "kantikum"
     modus = "II"
     differentia = "D"
+    placet = "jednotvárné, responsum příliš podobné verši"
     id = "ii"
     piece = \markup\sestavTitulekBezZalmu
   }
