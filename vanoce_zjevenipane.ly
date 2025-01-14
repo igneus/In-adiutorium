@@ -1428,7 +1428,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 110"
-      placet = "od _v něm_ do konce zjednodušit"
+      placet = "4 od _v něm_ do konce zjednodušit"
       id = "krtu-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -1516,6 +1516,7 @@
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "3 r1 je co do zpěvnosti bída"
       id = "krtu-2ne-resp"
       piece = \markup\sestavTitulekResp
     }
