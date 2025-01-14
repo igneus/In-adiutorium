@@ -1188,6 +1188,40 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g \barMin \mark\sipka g g g f g a g \barMax
+    f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a \barMin
+    a a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Je -- den Pán, jed -- na ví -- ra, je -- den křest._*
+    Je -- den Bůh a O -- tec všech.
+    \Verse On je na -- de vše -- mi,
+    pro -- ni -- ká všec -- ky a je ve všech._*
+    \Response Je -- den Bůh a O -- tec všech.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {

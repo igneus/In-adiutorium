@@ -1619,3 +1619,44 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka g \neviditelna g \bar ";"
+
+    g(^\markup\rubrJmenoSvateho a) a \bar ";"
+    f( g) g( a) a \bar ";"
+    g( a) f g( a) a \bar ";"
+    g a f g( a) a \bar ";"
+
+    c4 d c b d( a) a g f( g f) e e( a) a \barMax
+    a b( c) a b( c d a) a \barMin a( g a) g f f( g) g g \barMaior
+    d f( e) f g g( f e) d \barMin f f d c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý \markup\Nomen
+
+    Pe -- tře, % Damiani / Chrysolog / Kanisius
+    Va -- vřin -- če, % z Brindisi
+    Hi -- la -- ri -- e,
+    Bo -- na -- ven -- tu -- ro,
+
+    u -- či -- te -- li ví -- ry a svět -- lo círk -- ve,
+    tys čer -- pal moud -- rost z_Bo -- ží -- ho zá -- ko -- na;
+    při -- mlou -- vej se za nás u Bo -- ží -- ho Sy -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    fial = "commune/commune_pastyr.ly#2ne-amag1?cast=1,3-5"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
