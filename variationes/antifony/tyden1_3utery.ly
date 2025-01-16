@@ -1692,6 +1692,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g( a) g \barMin
+    f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, tvou moc
+    o -- sla -- ví -- me zpě -- vem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 21"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %tIuteryNespAntIII =
