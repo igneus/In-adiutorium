@@ -18,7 +18,13 @@
   \with-url #"http://dominican-liturgy.blogspot.com" {http://dominican-liturgy.blogspot.com)}
 }
 
+\markup\with-url "https://archive.org/details/breviariumiuxtar0002cath/page/646/mode/2up" {
+  Texty srov. \italic{Breviarium S.O.P.,} Řím 1962, sv. 2, s. 647nn
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
+
+\markup\italic{Praeco novus et caelicus}
 
 \markup\justify{
   Český překlad zachovává rytmus a smysl latinské předlohy,
@@ -131,6 +137,8 @@
 
 \pageBreak
 
+\markup\italic{Agonizans pro Christi nomine}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -182,6 +190,8 @@
 }
 
 \pageBreak
+
+\markup\italic{Liber carnis vinculo}
 
 \score {
   \relative c' {
@@ -555,6 +565,8 @@
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
+\markup\italic{Sitiebat servus Christi}
+
 \markup\justify{
   V napodobované antifoně je samozřejmě sled myšlenek opačný,
   ale pro adaptaci byla předloha uchopena jako forma,
@@ -671,6 +683,11 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  Motiv nočního bdění mnohem radikálněji a květnatěji pojednán v antifoně
+  \italic{Pernox cum Christo}
+}
 
 \score {
   \relative c' {
@@ -1376,6 +1393,8 @@
 }
 
 \pageBreak
+
+\markup\italic{Magne Pater sancte Dominice}
 
 \score {
   \relative c' {
