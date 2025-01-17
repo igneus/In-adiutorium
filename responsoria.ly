@@ -432,13 +432,13 @@ doxologieResponsoriumVI = \relative c'' {
       % R
       \neviditelna f
       f4 f f f f f g f g( a) a( g) \barMax
-      g g g f( d) f g g f f \barFinalis
+      g( a) g g \barMin f( d) f g g f f \barFinalis
       % V
       \neviditelna g
       a a g a g f g( a) a( g) \barMax
       % R
       \neviditelna g
-      g g g f( d) f g g f f \barFinalis
+      g( a) g g \barMin f( d) f g g f f \barFinalis
       % Slava
       \doxologieResponsoriumVI
     }

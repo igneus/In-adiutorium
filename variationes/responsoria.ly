@@ -1659,7 +1659,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -1691,7 +1691,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
-      \zvyraznovacZelenyII
+      \zvyraznovacModry
       \choralniRezim
 
       % R
