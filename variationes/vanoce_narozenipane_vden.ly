@@ -1389,6 +1389,28 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4( e f g a) g a( g a b c) a a( g) a a( \[ a g a \] \[ f f e \] \[ f g) \] \barMaior
+      d( e f g) \[ g( a \] \[ a g \] \[ a e) \]
+    }
+    \addlyrics {
+      Kris -- tus na -- ro -- dil se nám:
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      textus_approbatus = "Kristus se nám narodil: pojďme, klanějme se!"
+      fons_externus = "volně podle Liber hymnarius, s. 16"
+      quid = "ant."
+      modus = "IV"
+      differentia = "E"
+      psalmus = ""
+      id = "vden-invit"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \markup\nadpisSkupiny "podle písně"
 
   \score {

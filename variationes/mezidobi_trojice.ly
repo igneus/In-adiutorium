@@ -2724,6 +2724,28 @@ ciselnaRada = \markup\tiny\sans\concat{
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c( d) c c \barMin d( e) d c c( d) d \barMaior
+    \mark\sipka c( d) c b a g a g g a g f( g) g \barMaior
+    f g a a( c) b a g g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no po -- chá -- zí od te -- be, Bo -- že;
+    v_to -- bě a skr -- ze te -- be všech -- no ži -- je,
+    to -- bě buď slá -- va na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
