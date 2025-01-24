@@ -39,7 +39,7 @@
     g f e d f g g g a( g f) g \barMin
     g c( b a) c b a g f( g) g \barMaior
     g g f( g) \barMin a( b c) b a( g) a \barMaior
-    a a( c) b b( c) \barMin c c c c d( c b) a f( a) g \barFinalis
+    a b( c) a( g) g \barMin g g f d f g a( g) g \barFinalis
   }
   \addlyrics {
     Vy, kte -- ří jste o -- pus -- ti -- li všech -- no
