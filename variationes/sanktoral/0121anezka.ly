@@ -92,10 +92,61 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g f f f( g) g \barMin
     a a \mark\sipka b( c) a a( b) a( g) g \barMaior
+    c c c \[ c( d c \] \[ d e d c) \] b( a) \barMin
+    c c c b( a g) g a( g) f a g g \barFinalis
+  }
+  \addlyrics {
+    Jsem za -- snou -- be -- na to -- mu,
+    je -- muž slou -- ží an -- dě -- lé,
+    na je -- hož krá -- su
+    s_ú -- ža -- sem hle -- dí
+    mě -- síc i slun -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka f e d d f( g) g \barMin
+    a a b( c) a a( b) a( g) g \barMaior
+    c c c \[ c( d c \] \[ d e d c) \] b( a) \barMin
+    c c c b( a g) g a( g) f a g g \barFinalis
+  }
+  \addlyrics {
+    Jsem za -- snou -- be -- na to -- mu,
+    je -- muž slou -- ží an -- dě -- lé,
+    na je -- hož krá -- su
+    s_ú -- ža -- sem hle -- dí
+    mě -- síc i slun -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f e d d f( g) g \barMin
+    \mark\sipka g g a( c) c b( c) a( g) g \barMaior
     c c c \[ c( d c \] \[ d e d c) \] b( a) \barMin
     c c c b( a g) g a( g) f a g g \barFinalis
   }
@@ -120,10 +171,36 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) c \barMin
     c d c c d b a( g) g \barMaior
     a f e d( e) d d \barMin
+    e f g g a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se
+    a dě -- kuj -- te spo -- lu se mnou,
+    by -- la jsem při -- ja -- ta
+    do slav -- né -- ho spo -- le -- čen -- ství sva -- tých.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c d c c d b a( g) g \barMaior
+    \mark\sipka g f e d( e) d d \barMin
     e f g g a g f a a( g) g \barFinalis
   }
   \addlyrics {
@@ -297,7 +374,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 d e e( a) a g( a) b g \mark\sipka g( a) a \barMaior
     a g a \mark\sipka g f d e e \barFinalis
@@ -318,6 +395,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     e4 d e \mark\sipka g( a) a \barMin g( a) b g a a \barMaior
     a g a g f d e e \barFinalis

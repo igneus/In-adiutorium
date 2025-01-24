@@ -42,7 +42,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g f f f( g) g \barMin
+    g4 f e d d f( g) g \barMin
     a a b( c) a a( b) a( g) g \barMaior
     c c c \[ c( d c \] \[ d e d c) \] b( a) \barMin
     c c c b( a g) g a( g) f a g g \barFinalis
@@ -69,7 +69,7 @@
     \choralniRezim
     g4 a a( c) c \barMin
     c d c c d b a( g) g \barMaior
-    a f e d( e) d d \barMin
+    g f e d( e) d d \barMin
     e f g g a g f a a( g) g \barFinalis
   }
   \addlyrics {
@@ -137,6 +137,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 116-I"
+    placet = "3 nepříliš zpěvná - zvlášť ta stupnice ve druhé části"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -145,7 +146,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 d e e( a) a g( a) b g g( a) a \barMaior
+    e4 d e g( a) a \barMin g( a) b g a a \barMaior
     a g a g f d e e \barFinalis
   }
   \addlyrics {
