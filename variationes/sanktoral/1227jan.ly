@@ -454,7 +454,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a \mark\sipka g a a \barMin
     f f f \mark\sipka g f e( f) d d \barFinalis
@@ -515,6 +515,27 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g a a \barMin
+    a g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Jan je ten u -- čed -- ník,
+    kte -- ré -- ho Je -- žíš mi -- lo -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     f4 g a g( a) g g \barMin
     a a a g f e( f) d d \barFinalis
@@ -559,6 +580,26 @@
     \choralniRezim
     f4 f f g( a g) f f( g) \barMin
     g g g a g f( g) f f \barFinalis
+  }
+  \addlyrics {
+    Jan je ten u -- čed -- ník,
+    kte -- ré -- ho Je -- žíš mi -- lo -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 64"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g( a g) f f( g) \barMin
+    g \mark\sipka f g a a g f f \barFinalis
   }
   \addlyrics {
     Jan je ten u -- čed -- ník,

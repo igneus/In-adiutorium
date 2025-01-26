@@ -41,8 +41,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a g a a \barMin
-    f f f g f e( f) d d \barFinalis
+    f4 f g g a a \barMin
+    a g f g a g f f \barFinalis
   }
   \addlyrics {
     Jan je ten u -- čed -- ník,
@@ -50,10 +50,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 64"
-    placet = "půjde lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
