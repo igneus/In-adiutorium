@@ -638,7 +638,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d f e d d \barMin
     d( f) d e( f) d( c) c \barMaior
@@ -663,6 +663,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d f e d d \barMin
     d( f) d e( f) d( c) c \barMaior
@@ -949,7 +950,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -959,6 +960,39 @@
     % V
     \neviditelna a
     a4 a( bes) a a a a a g( a) g g \barMin g f g \mark\sipka g( a) a( g) \barMax
+    % R
+    \neviditelna f
+    f d f( g) g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Sva -- tý a -- po -- što -- le Pav -- le,_*
+    Pán si tě vy -- vo -- lil.
+    \Verse Byls pos -- lán hlá -- sat e -- van -- ge -- li -- um me -- zi po -- ha -- ny._*
+    \Response Pán si tě vy -- vo -- lil.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g f f f g( a) a( g) \barMax
+    f d f( g) g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 \mark\sipka a a a( bes) a a a g( a) g g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna f
     f d f( g) g f f \barFinalis
@@ -1229,13 +1263,41 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) f \barMin
     g( a g) f( e) d d f g a a( g) g \barMaior
     a bes a g f g \mark\sipka g \barMin
     f d d f e d c d c c \barMin
     d e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se
+    z_ob -- rá -- ce -- ní sva -- té -- ho Pav -- la,
+    ne -- boť Pán ho po -- vo -- lal,
+    a -- by se z_pro -- ná -- sle -- do -- va -- te -- le
+    stal je -- ho a -- po -- što -- lem.
+  }
+  \header {
+    fons_externus = "volně podle části ant. Celebremus conversionem, CANTUS 001777"
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g( a g) f( e) d d f g a a( g) g \barMaior
+    a bes a g f g g \barMin
+    f d d f e d c d c c \barMin
+    d \mark\sipka d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Ra -- duj -- me se
@@ -1536,11 +1598,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d4-- c d e( f) d d \barMaior
     c d d( f) f g( a g) f( e) d d \barMin
     e d c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pán ře -- kl Šav -- lo -- vi:
+    Já jsem Je -- žíš Na -- za -- ret -- ský,
+    kte -- ré -- ho ty pro -- ná -- sle -- du -- ješ.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4-- c d e( f) d d \barMaior
+    c d d( f) f g( a g) f( e) d d \barMin
+    \mark\sipka f f e c e f e d d \barFinalis
   }
   \addlyrics {
     Pán ře -- kl Šav -- lo -- vi:
@@ -2083,6 +2168,31 @@
     c d c b d( a) a g f g f e g a a \barMaior
     b c a g a g f g g( f) \barMin
     g f e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý a -- po -- što -- le Pav -- le,
+    hla -- sa -- te -- li prav -- dy a u -- či -- te -- li ná -- ro -- dů,
+    při -- mlou -- vej se za nás u Bo -- ha,
+    ne -- boť on si tě vy -- vo -- lil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a2"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#2ne-amag?jiny_text"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a g f g( a) a \barMin
+    c d c b d( a) a g f g f e g a a \barMaior
+    b c a g a g f \mark\sipka d d \barMin
+    e c d f e d( e) d d \barFinalis
   }
   \addlyrics {
     Sva -- tý a -- po -- što -- le Pav -- le,

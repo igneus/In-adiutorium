@@ -85,7 +85,7 @@
     d4 d c d f e d d \barMin
     d( f) d e( f) d( c) c \barMaior
     f g f g g( f) \barMin
-    e d c e( f) d d \barFinalis
+    f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Pa -- vel za -- čal v_sy -- na -- go -- gách
@@ -188,7 +188,7 @@
     f d f( g) g f f \barFinalis
     % V
     \neviditelna a
-    a4 a( bes) a a a a a g( a) g g \barMin g f g g( a) a( g) \barMax
+    a4 a a a( bes) a a a g( a) g g \barMin g f g g( a) a( g) \barMax
     % R
     \neviditelna f
     f d f( g) g f f \barFinalis
@@ -217,7 +217,7 @@
     g( a g) f( e) d d f g a a( g) g \barMaior
     a bes a g f g g \barMin
     f d d f e d c d c c \barMin
-    d e f d c c( d) d \barFinalis
+    d d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Ra -- duj -- me se
@@ -296,7 +296,7 @@
     \choralniRezim
     d4-- c d e( f) d d \barMaior
     c d d( f) f g( a g) f( e) d d \barMin
-    e d c d f e c d d \barFinalis
+    f f e c e f e d d \barFinalis
   }
   \addlyrics {
     Pán ře -- kl Šav -- lo -- vi:
