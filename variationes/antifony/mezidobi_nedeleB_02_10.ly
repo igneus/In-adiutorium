@@ -705,6 +705,26 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMaior
+    g g f e e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te za mnou;
+    u -- dě -- lám z_vás ry -- bá -- ře li -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne3b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 bes a( g a) g \barMaior
@@ -732,7 +752,7 @@
   \italic{Relíctis rétibus suis, secúti sunt Dóminum \bold{et Redemptórem, allelúia.}}
 }
 \markup\justify{
-  Antifona je tradiční, CANTUS 004607, česká verze vynecháním zbožného
+  Antifona je tradiční, \cantusid-link "004607" , česká verze vynecháním zbožného
   dodatku text vrací blíže ke střízlivému textu biblickému -
   ale o doslovný citát z ČLP ani pak nejde.
 }
@@ -987,6 +1007,26 @@
     \choralniRezim
     f4 g a a g( f g4.) g \barMaior
     g4 \mark\sipka f g a g a f f \barFinalis
+  }
+  \addlyrics {
+    Ne -- cha -- li své sí -- tě
+    a ná -- sle -- do -- va -- li Pá -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne3b-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g( a g4.) g \barMaior
+    g4 a g f g a f f \barFinalis
   }
   \addlyrics {
     Ne -- cha -- li své sí -- tě

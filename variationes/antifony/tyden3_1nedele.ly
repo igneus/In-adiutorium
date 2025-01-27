@@ -605,6 +605,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka c4( b d) c \barMin
+    b c a g a( g) f \barMaior
+    g a g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 b d d c b a( g) g \barMaior
     f a g g \barFinalis
   }
