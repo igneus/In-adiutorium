@@ -1826,6 +1826,28 @@ Potřebuje výraznější úpravu:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c c( b c) \barMin
+    c c c a g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv
+    na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny{1.2}
 
 \score {
@@ -1992,6 +2014,29 @@ Potřebuje výraznější úpravu:}
     g4 f g g a a \barMaior
     c c c b g
     a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv
+    na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a b c c b \barMin
+    b c a g g \barMin
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Zpí -- vej -- me chva -- lo -- zpěv
