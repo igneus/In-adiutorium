@@ -104,6 +104,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a g a c \mark\sipka c \barMin
+    d c b a( b g) g \barMin
+    a( g) f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 f g g a a \barMin
     c b c a( g) g \barMin
     a( g) f( g) a g g \barFinalis
@@ -147,7 +169,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g g a a \barMin
     \mark\sipka c c d c( b g) g \barMin
@@ -163,6 +185,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 19A"
+    placet = "začátek nepříliš zpěvný, půjde lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -304,6 +327,50 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 d d \mark\sipka c( b) a a \barMin
+    c b g a( g) g \barMin
+    a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d \mark\sipka c b a( g) \barMin
+    a g f g( a) a \barMin
+    b c a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a g a c c \barMin
     d c d e( d) d \barMaior
     c( a) b( c) a g g \barFinalis
@@ -391,6 +458,29 @@
     \choralniRezim
     d4 c a c d d \barMin
     f e f g( f d) d \barMin
+    d e c a( c d) d \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví
+    o Bo -- žím Slo -- vu,
+    Je -- ží -- ši Kris -- tu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 19A"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d( e) c c \barMin
+    d e f d d \barMaior
     d e c a( c d) d \barFinalis
   }
   \addlyrics {
