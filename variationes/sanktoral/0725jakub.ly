@@ -1054,7 +1054,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e d( c) d a'( g f e) e \barMaior
     a a( b) a g g( a) \barMaior
@@ -1070,6 +1070,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 126"
+    placet = "poměrně divoká; frázování není úplně nejšťastnější"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -1275,10 +1276,11 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     e4 d e g( a) a \barMin
     b a g a b a a \barMaior
-    a a a g e e f e d e e \barMaior
+    a a a g e e f e d e e \barFinalis
   }
   \addlyrics {
     Teh -- dy jim ře -- kl:
