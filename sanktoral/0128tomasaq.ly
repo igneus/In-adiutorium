@@ -41,7 +41,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c d d d c d d( c) c \barMaior
+    c4 c c d d d c d d( c) c \barMaior
     d d d d( e) d d \barMin d c( d) c b a( g) g \barMaior
     f a c b a g( a) g g \barFinalis
   }
