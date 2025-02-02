@@ -293,9 +293,9 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "c"
-    psalmus = ""
+    psalmus = "Žalm 63"
     id = "rch-a1"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -313,9 +313,9 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G"
-    psalmus = ""
+    psalmus = "Dan 3-III"
     id = "rch-a2"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
@@ -335,10 +335,10 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "a"
-    psalmus = ""
+    psalmus = "Žalm 149"
     placet = "na text takového pěkného rytmu a členění zkusit pár zpěvnějších variant"
     id = "rch-a3"
-    piece = \markup {\sestavTitulekBezZalmu}
+    piece = \markup {\sestavTitulek}
   }
 }
 
