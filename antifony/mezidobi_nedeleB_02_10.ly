@@ -176,7 +176,7 @@
     e4 e e( a) a a \barMin
     a b a g g( a) a \barMaior
     e e e e f e d( f) e e \barMin
-    g g( a) g f e e \barFinalis
+    g a g f e e \barFinalis
   }
   \addlyrics {
     No -- vé u -- če -- ní_–

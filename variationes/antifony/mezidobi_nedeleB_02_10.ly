@@ -1430,6 +1430,31 @@
     e4 e e( a) a a \barMin
     a b a g g( a) a \barMaior
     e e e e f e d( f) e e \barMin
+    g a g \mark\sipka f e e \barFinalis
+  }
+  \addlyrics {
+    No -- vé u -- če -- ní_–
+    a s_ta -- ko -- vou mo -- cí!
+    I ne -- čis -- tým du -- chům po -- rou -- čí
+    a po -- slou -- cha -- jí ho!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ne4b-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    e4 e e( a) a a \barMin
+    a b a g g( a) a \barMaior
+    e e e e f e d( f) e e \barMin
     g \mark\sipka g( a) g f e e \barFinalis
   }
   \addlyrics {
@@ -1506,6 +1531,26 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "ne4b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a b c a g g g f( g) g( a) a \barMaior
+    c b g b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- věst o Je -- ží -- šo -- vi se roz -- nes -- la
+    po ce -- lém ga -- li -- lej -- ském kra -- ji.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "ne4b-2ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
