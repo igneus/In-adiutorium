@@ -121,10 +121,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d f g a g g \barMaior
-    g g( a) g f( g) \barMin f d f e d( c) c \barMax
-    c( d) d d f( g a g) f( g) \barMin
-    a bes a g( f g) g \barMaior
+    f4 e d c f g a g g \barMaior
+    g g( a) g g \barMin f d f e d( c) c \barMax
+    d c d d( f) f \barMin
+    g a f f( g) g \barMaior
     f d d f e c( d) d \barFinalis
   }
   \addlyrics {
@@ -137,7 +137,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "D"
+    differentia = "f"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -429,7 +429,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f e f d d c( d) d( f) f \barMin
+    d4 c d e f d d c( d) d( f) f \barMin
     f f g a f e d d \barMaior
     f g g f \barMin
     f e c e f d d \barFinalis
@@ -480,7 +480,7 @@
     \choralniRezim
     g4 a c d d \barMin
     d c d e d c d( e) d d \barMaior
-    d d d c d c b c a a( g) g \barMax
+    d d d c d c b c a g g \barMax
     a a a a f( g) g( a) a \barMin
     c( d) e d( c d) d \barMaior
     e d c( d) c c \barMin

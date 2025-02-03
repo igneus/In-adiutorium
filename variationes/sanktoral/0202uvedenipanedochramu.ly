@@ -523,7 +523,7 @@
   Tradiční antifona (AR1912 529, CANTUS 004864).
   Český překlad je značně zplošťující.
 }
-\markup{
+\markup\justify{
   Liturgia horarum:
   \italic{
     Senex púerum portábat, puer autem senem regébat;
@@ -616,7 +616,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d f g a g g \barMaior
     g g( a) g f( g) \barMin f d f e d( c) c \barMax
@@ -719,6 +719,59 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 e d c f g a g g \barMaior
+    g g( a) g g \barMin f d f e d( c) c \barMax
+    d c d d( f) f \barMin
+    g a \mark\sipka f f( g) g \barMaior
+    f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sta -- řec dr -- ží v_ná -- ru -- čí dí -- tě
+    a vi -- dí v_něm své -- ho Spa -- si -- te -- le.
+    Pan -- na se kla -- ní
+    Bo -- ží -- mu Sy -- nu,
+    kte -- ré -- ho po -- ro -- di -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e d c f g a g g \barMaior
+    g g( a) g g \barMin f d f e d( c) c \barMax
+    d c d d( f) f \barMin
+    g a f f( g) g \barMaior
+    f d \mark\sipka f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sta -- řec dr -- ží v_ná -- ru -- čí dí -- tě
+    a vi -- dí v_něm své -- ho Spa -- si -- te -- le.
+    Pan -- na se kla -- ní
+    Bo -- ží -- mu Sy -- nu,
+    kte -- ré -- ho po -- ro -- di -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"invitatorium"}}
@@ -809,6 +862,31 @@
     a4( bes) a g( f g) g \barMaior
     g( a f d) d \barMin
     \mark\sipka e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Do své -- ho chrá -- mu při -- chá -- zí Pán,
+    vlád -- ce moc -- ný:
+    pojď -- me,
+    kla -- něj -- me se!
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d d d( a') a \mark\sipka g f g g( a) \barMin
+    a4( bes) a g( f g) g \barMaior
+    g( a f d) d \barMin
+    f e c( d) d \barFinalis
   }
   \addlyrics {
     Do své -- ho chrá -- mu při -- chá -- zí Pán,
@@ -2858,12 +2936,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f e f d d c( d) d( f) f \barMin
     f f g a f e d d \barMaior
     f g g f \barMin
     \mark\sipka f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Při -- nes -- li Hos -- po -- di -- nu svou o -- běť,
+    jak to před -- pi -- so -- val Zá -- kon:
+    pár hrd -- li -- ček
+    ne -- bo dvě ho -- lou -- ba -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka c d e f d d c( d) d( f) f \barMin
+    f f g a f e d d \barMaior
+    f g g f \barMin
+    f e c e f d d \barFinalis
   }
   \addlyrics {
     Při -- nes -- li Hos -- po -- di -- nu svou o -- běť,
@@ -3272,12 +3375,45 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c d d \barMin
     d c d e d c d( e) d d \barMaior
     d d d c d c b c a a( g) g \barMax
     a a a a \mark\sipka f( g) g( a) a \barMin
+    c( d) e d( c d) d \barMaior
+    e d c( d) c c \barMin
+    d d c b c a a( g) g \barMaior
+    g f( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    při -- nes -- la Je -- ží -- še do chrá -- mu,
+    a -- by ho za -- svě -- ti -- la Hos -- po -- di -- nu;
+    Si -- me -- on byl na -- pl -- něn
+    Du -- chem sva -- tým,
+    po -- znal v_dí -- tě -- ti
+    slí -- be -- né -- ho Me -- si -- á -- še
+    a ve -- le -- bil Bo -- ha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c d d \barMin
+    d c d e d c d( e) d d \barMaior
+    d d d c d c b c a \mark\sipka g g \barMax
+    a a a a f( g) g( a) a \barMin
     c( d) e d( c d) d \barMaior
     e d c( d) c c \barMin
     d d c b c a a( g) g \barMaior
