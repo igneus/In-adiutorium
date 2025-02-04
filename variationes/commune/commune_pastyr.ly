@@ -3054,7 +3054,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     a4( g a) a \barMin a bes a g e( f) d d \barMaior
@@ -3075,6 +3075,38 @@
     differentia = "a"
     psalmus = "Žalm 112"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (V latině se antifony liší jen tím, že svatojosefská má na začátku navíc
+  \italic{Ecce.} Tamní rodina i zdejší čeleď jsou v latině \italic{familia.})
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c b( c) a g a g g \barMaior
+    c c c c( d c) \barMin d( e d) c( b) a a \barMaior
+    c a( g) f( g) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Věr -- ný a roz -- váž -- ný slu -- žeb -- ník,
+    kte -- ré -- ho Pán
+    u -- sta -- no -- vil nad svou če -- le -- dí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 112"
+    fial = "sanktoral/0319josef.ly#1ne-amag?konec=39"
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

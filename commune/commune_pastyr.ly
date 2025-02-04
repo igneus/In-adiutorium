@@ -627,10 +627,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( g a) a \barMin a bes a g e( f) d d \barMaior
-    g a bes c( a) \barMin a( bes a) g( f) e e \barMin d e( f) e d d \barFinalis
+    c4 c c b( c) a g a g g \barMaior
+    c c c c( d c) \barMin d( e d) c( b) a a \barMaior
+    c a( g) f( g) a( g) g \barFinalis
 
-    c^\markup\rubrVelikAleluja f( e) d d \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Věr -- ný a roz -- váž -- ný slu -- žeb -- ník,
@@ -641,9 +642,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 112"
+    fial = "sanktoral/0319josef.ly#1ne-amag?konec=39"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
