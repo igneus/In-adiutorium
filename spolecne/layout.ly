@@ -36,7 +36,6 @@
   % of tagline at the end of each bookpart)
   oddFooterMarkup = \markup {
     \fill-line {
-      %% Tagline header field only on last page.
       \if \on-last-page \fromproperty #'header:tagline
     }
   }
