@@ -2722,6 +2722,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -2747,6 +2748,7 @@ doxologieResponsoriumVI = {}
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "torculus ve verši je netypický"
       id = "2po-rch"
       piece = \markup\sestavTitulekResp
     }
@@ -2850,6 +2852,7 @@ doxologieResponsoriumVI = {}
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
 
       % R
@@ -2863,7 +2866,7 @@ doxologieResponsoriumVI = {}
       \neviditelna g
       g a g g f d f g g f f \barFinalis
       % Slava
-      %\doxologieResponsoriumVI
+      \doxologieResponsoriumVI
     }
     \addlyrics {
       \Response Ra -- duj -- te se, spra -- ved -- li -- ví, z_Hos -- po -- di -- na:_*

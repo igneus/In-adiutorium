@@ -671,7 +671,7 @@ doxologieResponsoriumVI = \relative c'' {
       g a g g f d f g g f f \barFinalis
       % V
       \neviditelna a
-      a4 a a a a( bes a) g g( a) a( g) \barMax
+      a4 a a a g( a) g f( g) g( a) \barMax
       % R
       \neviditelna g
       g a g g f d f g g f f \barFinalis
@@ -688,7 +688,6 @@ doxologieResponsoriumVI = \relative c'' {
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "torculus ve verši je netypický"
       id = "2po-rch"
       piece = \markup\sestavTitulekResp
     }
