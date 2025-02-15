@@ -99,9 +99,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a g f e e \barMaior
-    d( f e) f( g) g \barMin
-    f g a a g f g( a) g e e \barFinalis
+    a4 a g f e f d d \barMaior
+    c( d) f( g) g \barMin
+    a a a a g f g( a) g f f \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl Ši -- mo -- no -- vi:
@@ -110,8 +110,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 63"
     fial = "fial://antifony/mezidobi_nedeleC_02_10.ly#ne5c-ne2-mag"
     id = "rch-a1"

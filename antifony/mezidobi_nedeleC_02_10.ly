@@ -223,9 +223,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f( g) f g( a) a \barMin
-    bes a g( a) g \barMin
-    g f( e) c e( f) d d \barFinalis
+    f4 f g( a) f f( g) g \barMin
+    bes a g( f) g \barMin
+    g f g g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Je -- žíš vstou -- pil na loď,
@@ -234,8 +234,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "f"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "C"
     id = "ne5c-ne1-mag"
@@ -270,9 +270,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a g f e e \barMaior
-    d( f e) f( g) g \barMin
-    f g a a g f g( a) g e e \barFinalis
+    a4 a g f e f d d \barMaior
+    c( d) f( g) g \barMin
+    a a a a g f g( a) g f f \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl Ši -- mo -- no -- vi:
@@ -281,8 +281,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "g"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "C"
     id = "ne5c-ne2-mag"
