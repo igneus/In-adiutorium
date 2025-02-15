@@ -263,10 +263,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g4.( a) a4( b) g e e \barMaior
-    d e d( b) b c( b) c d f e d e e \barMax
+    d4 e f g g e \barMaior
+    e e d d c d e f e d e e \barMax
     e e e( a) a \barMin a g a b( g) g \barMin
     f g( a) g( f e) e \barMaior
     d c d f e d( e) e \barFinalis
@@ -281,9 +281,8 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = ""
-    placet = "recitace a kudrlinky v plagálním tetrachordu jsou nezpěvné a tradiční repertoár takové věci prakticky nedělá"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
