@@ -18,7 +18,7 @@
     c4 c c c b a g g c d e c d \barMaior
     c c c c b a g( a) g g \barMin
     f g a a a( c b) a( g) g \barMax
-    a a g( a) g( f) e e \barMin
+    a a g( a g) f e e \barMin
     d f g a a g e e \barFinalis
   }
   \addlyrics {
@@ -31,7 +31,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "III"
-    differentia = "b"
+    differentia = "h"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -12,6 +12,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c b a g g c d e c d \barMaior
     c c c c b a g( a) g g \barMin
@@ -38,6 +39,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c c c b a g g c d e c d \barMaior
     c c c c b a g( a) g g \barMin
@@ -48,7 +50,7 @@
   \addlyrics {
     A -- gá -- ta šla do ža -- lá -- ře pl -- ná ra -- dos -- ti,
     ja -- ko kdy -- by by -- la po -- zvá -- na
-    na sva -- teb -- ní hos -- ti -- nu,
+    na slav -- nost -- ní hos -- ti -- nu,
     a svůj těž -- ký zá -- pas
     svě -- ři -- la v_mod -- lit -- bě Pá -- nu.
   }
