@@ -1612,10 +1612,36 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c a a \barMin
     a c b a( b) a( g) g \barMaior
+    f g a a g a c b \barMin
+    c c a g a g f \barMaior
+    d f g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c a a \barMin
+    a c \mark\sipka a b( c) a( g) g \barMaior
     f g a a g a c b \barMin
     c c a g a g f \barMaior
     d f g a( g) f( g) g \barFinalis
@@ -1762,6 +1788,34 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "ne5b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{(Kombinace prvků z verzí výše)}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c a a \barMin
+    a c a b( c) a( g) g \barMaior
+    c d e d c b a a \barMin
+    c c b g a g f \barMaior
+    d f g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer
+    a slun -- ce za -- pad -- lo,
+    při -- ná -- še -- li k_Je -- ží -- šo -- vi
+    ne -- moc -- né i po -- sed -- lé
+    a on je u -- zdra -- vil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "ne5b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}

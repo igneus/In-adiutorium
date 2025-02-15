@@ -220,9 +220,9 @@
   \relative c'' {
     \choralniRezim
     c4 b c a a \barMin
-    a c b a( b) a( g) g \barMaior
-    f g a a g a c b \barMin
-    c c a g a g f \barMaior
+    a c a b( c) a( g) g \barMaior
+    c d e d c b a a \barMin
+    c c b g a g f \barMaior
     d f g a( g) f( g) g \barFinalis
   }
   \addlyrics {
