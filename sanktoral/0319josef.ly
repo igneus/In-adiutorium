@@ -353,11 +353,11 @@
   \relative c'' {
     \choralniRezim
     g4 g g g( d' e) d( c) c( d) c a g f( g) g \barMaior
-    f g a c( b) c( d) d d c( b) a a \barMaior
+    f g a c b c d c( b) a a \barMaior
     c b( g) a g \barMin
     a g f a a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.

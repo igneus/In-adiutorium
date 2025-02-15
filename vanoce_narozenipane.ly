@@ -750,7 +750,7 @@
     \relative c'' {
       \choralniRezim
       g4 g g g( d' e) d( c) c( d) c a g f( g) g \barMaior
-      f g a c( b) c( d) d d c( b) a a \barMaior
+      f g a c b c d c( b) a a \barMaior
       c b( g) a g \barMin
       a g f a a( g) g \barFinalis
     }
@@ -767,7 +767,6 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Ef 1"
-      placet = "_děťátko_ by šlo přímočačeji bc ag g; první část zkusit sylabicky"
       id = "svrodiny-1ne-a3"
       piece = \markup {\sestavTitulek}
     }

@@ -265,7 +265,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g g g( d' e) d( c) c( d) c a g f( g) g \barMaior
       f g a c( b) c( d) d d c( b) a a \barMaior
@@ -283,6 +283,7 @@
       modus = "VII"
       differentia = "a"
       psalmus = "Ef 1"
+      placet = "_děťátko_ by šlo přímočačeji bc ag g; první část zkusit sylabicky"
       id = "svrodiny-1ne-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -303,6 +304,33 @@
       po -- lo -- že -- né v_jes -- lích.
     }
     \header {
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Ef 1"
+      id = "svrodiny-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g g( d' e) d( c) c( d) c a g f( g) g \barMaior
+      f g a \mark\sipka c b c d c( b) a a \barMaior
+      c b( g) a g \barMin
+      a g f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+      Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+      i dě -- ťát -- ko
+      po -- lo -- že -- né v_jes -- lích.
+    }
+    \header {
+      textus_approbatus = "Pastýři pospíchali do Betléma
+      a nalezli Marii a Josefa i děťátko položené v jeslích."
       quid = "3. ant."
       modus = "VII"
       differentia = "a"
