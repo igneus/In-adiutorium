@@ -357,6 +357,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 63"
+    placet = "4 divoká, lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -383,6 +384,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Dan 3-III"
+    placet = "4 divoká, lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -407,6 +409,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 149"
+    placet = "3 zejm. konec spíš lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

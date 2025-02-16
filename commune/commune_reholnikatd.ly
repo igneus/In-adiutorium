@@ -70,6 +70,7 @@
       modus = "VII"
       differentia = "a"
       psalmus = ""
+      placet = "3 jména spíš lépe"
       id = "rehol-amag2"
       fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
@@ -248,6 +249,7 @@
       modus = "I"
       differentia = "g"
       psalmus = ""
+      placet = "3 druhá půlka půjde lépe"
       id = "milo-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
