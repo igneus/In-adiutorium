@@ -732,6 +732,39 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g \mark\sipka g( a) a( g) \barMax
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \barMin g g g g g g g g f g \mark\sipka g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
+    do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \Verse Je -- jich jmé -- no ne -- bu -- de vy -- ma -- zá -- no
+    z_kni -- hy ži -- vo -- ta,_*
+    \Response do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
