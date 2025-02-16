@@ -26,12 +26,9 @@
   }
 }
 
-% melodie aleluja
-mal = { \bar "||" \neviditelna f f f d c \bar "||" \break }
-malal = { \bar "||" \neviditelna a a a( g) g f \breathe d f( g) g f \bar "||" \break }
-% text aleluja
-ial = \lyricmode { \markup\bold\large\with-color #red {A} -- le -- lu -- ja. }
+%%% spolecne
 
+% neoficiální krátká doxologie, zbylé výskyty je žádoucí vymýtit
 kantikumZjXIXdoxologiekratka = \lyricmode {
   \Verse \ial
   Slá -- va Ot -- ci i Sy -- nu i Du -- chu sva -- té -- mu
@@ -48,6 +45,8 @@ kantikumZjXIXtextII = \lyricmode {
   \kantikumZjXIXverse
   \kantikumZjXIXdoxologie
 }
+
+%%% modus I
 
 modIial = \relative c'' { \neviditelna a a4 c( b) a( b g) g( a) \barMax }
 modIal = \relative c' { \neviditelna f f4 e f( a) a \barFinalis }
@@ -106,6 +105,8 @@ modIalal = \relative c' { \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \b
     placet = "doxologii lépe a pokud možno standardní text"
   }
 }
+
+%%% modus II
 
 modIIial = \relative c' { \neviditelna d c4 d d( f) f \barMax }
 modIIal = \relative c' { \neviditelna d d d( e) d( c) c \barFinalis }
@@ -178,6 +179,8 @@ modIIalal = \relative c' { \neviditelna d d d( e) c c( a) c c( d) d d \barFinali
   }
 }
 
+%%% modus IV
+
 modIVial = \relative c'' { \neviditelna a a g g( a) a \barMax }
 modIVal = \relative c' { \neviditelna e e g g( a) a \barFinalis }
 modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin a g f( e d e) e \barFinalis \break }
@@ -235,6 +238,8 @@ modIValal = \relative c'' { \neviditelna a a a a( b) g \barMin a g f( e d e) e \
     id = "iv"
   }
 }
+
+%%% modus VII
 
 modVIIial = \relative c'' { \neviditelna c a c( b) c( d) d \barMax }
 modVIIal = \relative c'' { \neviditelna d c c c( d) d \barFinalis }
