@@ -302,6 +302,31 @@
     }
     \header {
       fons_externus = "podle Antiphonale Romanum, Romae 1912, 27*."
+      id = "vers-neuma"
+    }
+  }
+
+  \markup{Verše s aleluja:}
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \neviditelna c
+      c4 c c c c c c c c c c c c b c( b a g) a( b) b( a) \barFinalis
+    }
+    \addlyrics {
+      \Verse U -- čed -- ní -- ci se za -- ra -- do -- va -- li, a -- le -- lu -- ja,
+    }
+    \addlyrics {
+      \Response když vi -- dě -- li Pá -- na, _ _ _ _ a -- le -- lu -- ja.
+    }
+    \layout {
+      ragged-last = ##f
+    }
+    \header {
+      fons_externus = "podle Antiphonale Romanum, Romae 1912, 27*."
+      mobile_rubric = "verše s aleluja"
+      id = "vers-neuma-aleluja"
     }
   }
 
@@ -334,6 +359,7 @@
     }
     \header {
       fons_externus = "podle Antiphonale Romanum, Romae 1912, 693."
+      id = "vers-slavnostni"
     }
   }
 
@@ -356,6 +382,8 @@
     }
     \header {
       fons_externus = "podle Antiphonale Romanum, Romae 1912, 427."
+      mobile_rubric = "verše s aleluja"
+      id = "vers-slavnostni-aleluja"
     }
   }
 
@@ -387,6 +415,9 @@
     \layout {
       ragged-right = ##t
     }
+    \header {
+      id = "vers-prosty"
+    }
   }
 
   \markup\justify{Verše s aleluja:}
@@ -402,6 +433,10 @@
     }
     \addlyrics {
       \Response když vi -- dě -- li Pá -- na, _ _ _ _ \markup\underline{a} -- le -- \markup\underline{lu} -- ja.
+    }
+    \header {
+      mobile_rubric = "verše s aleluja"
+      id = "vers-prosty-aleluja"
     }
   }
 
@@ -428,6 +463,7 @@
     }
     \header {
       fons_externus = "podle Liber Usualis, Tournai - New York 1961, 630."
+      id = "vers-triduum-a"
     }
   }
 
@@ -447,6 +483,8 @@
     }
     \header {
       fons_externus = "podle Liber Usualis, Tournai - New York 1961, 631."
+      mobile_rubric = "nebo"
+      id = "vers-triduum-b"
     }
   }
 }
@@ -532,6 +570,7 @@
     }
     \header {
       fons_externus = "Mešní řád s modlitbami nad dary a s prefacemi, Praha 1984, s. 316."
+      quid = "požehnání"
       id = "konec-pozehnani"
       piece = ""
     }
@@ -556,6 +595,7 @@
     }
     \header {
       id = "konec-propusteni"
+      quid = "propuštění lidu"
       piece = ""
     }
     \layout {
@@ -588,6 +628,8 @@
       % zpívací misál má ovšem chybně umístěný klíč, my melodii reprodukujeme správně
       fons_externus = "Mešní řád s modlitbami nad dary a s prefacemi, Praha 1984, s. 316."
       id = "konec-propusteni-aleluja"
+      quid = "propuštění lidu"
+      mobile_rubric = "ve velikonočním oktávu"
       piece = ""
     }
     \layout {
@@ -623,6 +665,7 @@
       fons_externus = "podle Antiphonale Romanum 1912, 29*n." % absoluce pred ctenimi matutina
       placet = "měl by se nápěv amen sjednotit s předchozím?
       (podobně i požehnání na konci kompletáře)"
+      quid = "prosba o požehnání"
       id = "konec-prosba"
       piece = ""
     }
@@ -666,6 +709,7 @@
     }
     \header {
       id = "dobrorecme4"
+      mobile_rubric = "nebo"
       piece = ""
     }
   }

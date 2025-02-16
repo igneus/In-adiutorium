@@ -354,6 +354,7 @@
     \header {
       quid = "ant. k žalmům"
       quidbreve = "ant."
+      mobile_rubric = "nebo"
       modus = "II"
       differentia = "D"
       psalmus = ""

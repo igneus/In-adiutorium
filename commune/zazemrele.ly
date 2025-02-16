@@ -182,6 +182,7 @@
   }
   \header {
     quid = "3. ant."
+    mobile_rubric = "nebo"
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 150"
