@@ -33,6 +33,8 @@
   doplňujeme, aby se učinilo zadost přesnému textu podle breviáře.
 }
 
+%%% modus VI
+
 % melodie aleluja
 mial = { f4 f g f \barMin }
 mal = { \barFinalis \neviditelna f f f d c \barFinalis \break }
@@ -140,11 +142,15 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
   }
 }
 
+%%%
+
 \markup\justify {
   Podle velikonočních antifon modelu
   \italic{Alleluia, Lapis revolutus est.}
   Srov. \italic{Antiphonale Romanum II,} Solesmes 2009, s. 405.
 }
+
+%%% modus V
 
 % melodie aleluja
 mial = { c4 c d( e d) c( d) \barMin }

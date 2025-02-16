@@ -7,6 +7,8 @@
 
 \include "spolecne.ly"
 
+%%% spolecne
+
 tResp = \lyricmode { \Response Chval -- te Pá -- na, všech -- ny ná -- ro -- dy. }
 text = \lyricmode {
   \tResp
@@ -25,6 +27,8 @@ text = \lyricmode {
   \Verse Ja -- ko by -- la na po -- čát -- ku, i ny -- ní i vždyc -- ky_*
   a na vě -- ky vě -- ků. A -- men.
 }
+
+%%% I.f
 
 mRespI = \relative c' { \neviditelna f f4 f f( g) g \barMin g f g a a \barFinalis }
 \score {
@@ -62,6 +66,8 @@ mRespI = \relative c' { \neviditelna f f4 f f( g) g \barMin g f g a a \barFinali
   }
 }
 
+%%% I.a
+
 mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFinalis }
 \score {
   \relative c''  {
@@ -97,6 +103,8 @@ mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFina
     piece = \markup\sestavTitulekBezZalmu
   }
 }
+
+%%% II.D
 
 mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinalis }
 \score {
@@ -134,6 +142,8 @@ mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinal
   }
 }
 
+%%% VI.a
+
 mRespVI = \relative c' { \neviditelna f f4 f f( a) a \barMin g f g f f \barFinalis }
 \score {
   \relative c''  {
@@ -168,6 +178,8 @@ mRespVI = \relative c' { \neviditelna f f4 f f( a) a \barMin g f g f f \barFinal
     piece = \markup\sestavTitulekBezZalmu
   }
 }
+
+%%% VIII.c
 
 mRespVIII = \relative c'' { \neviditelna c c4 c c( d) c \barMin b c a g g \barFinalis }
 \score {
