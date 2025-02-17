@@ -553,7 +553,7 @@
     a a b( c) b g4. g \barMaior
     g4 f e d( e) d \barMin f g a a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Kdo vás při -- jí -- má, mne při -- jí -- má,

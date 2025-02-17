@@ -854,6 +854,62 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g g( a) a \barMin
+    a g f g( a) g \barMin
+    a a g f e f d( c) c \barMaior
+    d d \mark\sipka c d f e c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi kněz nej -- vyš -- ší -- ho,
+    zr -- cad -- lo ctnos -- ti,
+    do -- brý pas -- týř své -- ho li -- du:
+    v_to -- bě má Bůh za -- lí -- be -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g g( a) a \barMin
+    a g f g( a) g \barMin
+    a a g f e f d( c) c \barMaior
+    d d \mark\sipka d c f e c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi kněz nej -- vyš -- ší -- ho,
+    zr -- cad -- lo ctnos -- ti,
+    do -- brý pas -- týř své -- ho li -- du:
+    v_to -- bě má Bůh za -- lí -- be -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\italic{O knězi:}
@@ -1026,6 +1082,32 @@
     c4 a a c b a g( a g) \barMaior
     f g a a a b( c) a a \barMin
     c b \mark\sipka a g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pro všech -- ny jsem se stal vším,
+    a -- bych stůj co stůj za -- chrá -- nil
+    a -- le -- spoň něk -- te -- ré.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "1ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a a c b a g( a g) \barMaior
+    f g a a a b( c) a a \barMin
+    \mark\sipka g f a a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -2885,6 +2967,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g f( e) d( e) d4. d \barMin f4 e f( a) a \barMax
     a a b( c) b g4. g \barMaior
@@ -2906,6 +2989,35 @@
     psalmus = ""
     id = ""
     fons = "Cyril a Metoděj, v poledne; doplněno aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g f( e) d( e) d4. d \barMin f4 e f( a) a \barMax
+    a a b( c) b g4. g \barMaior
+    g4 f e d( e) d \barMin f g a a( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdo vás při -- jí -- má, mne při -- jí -- má,
+    a kdo mne při -- jí -- má,
+    při -- jí -- má to -- ho, kte -- rý mě po -- slal.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "sexta"
+    fons = "Cyril a Metoděj, v poledne; doplněno aleluja"
+    fial = "sanktoral/0705cyrilametodej.ly#sexta?+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
