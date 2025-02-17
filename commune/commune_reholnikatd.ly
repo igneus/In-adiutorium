@@ -82,7 +82,7 @@
   \score {
     \relative c' {
       \choralniRezim
-      e4 d e e( a g) g( a) a \barMin a g f g g g( a) e e \barMaior
+      e4 e e d( e) e( g) g \barMin a g f g g g( a) e e \barMaior
       d e f f g f g( a) g f e e \barFinalis
 
       f^\markup\rubrVelikAleluja f d( e) e \barFinalis
