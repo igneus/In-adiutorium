@@ -343,12 +343,13 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c b a a \barMaior
-    d d d d d( f) d d f( g) f e d d \barMaior
-    d e d c( b a) b c a a \barMin
-    c d e( f g) f e d e \barMax
-    e( f g) f( e) d d c f( e) d( e) d \barMaior
-    d( e) d c( b) a c( d e d) d \barMin e( f g) f( e) d( e) e( d) d \barFinalis
+    f4 g f e d d \barMin
+    d d e c d f f( e d) \barMin d e f d d \barMaior
+    f f e d c d c c \barMin
+    d e f d c d d \barMax
+    c d d( f) f f g( a) g f( e d) \barMaior
+    d d e c d( f e d) e \barMin
+    f( g) f d( e) d d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní jste,
@@ -356,7 +357,8 @@
     a po -- tu -- pí va -- še jmé -- no
     kvů -- li Sy -- nu člo -- vě -- ka;
     ra -- duj -- te se a já -- sej -- te,
-    má -- te to -- tiž v_ne -- bi vel -- kou od -- mě -- nu.
+    má -- te to -- tiž v_ne -- bi
+    vel -- kou od -- mě -- nu.
   }
   \header {
     quid = "ant. k Magnificat"

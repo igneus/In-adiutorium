@@ -1320,6 +1320,39 @@
   }
 }
 
+\markup\justify{
+  Antifona je atypická, možná k modu VI úplně nepatří,
+  ale drží pohromadě, je přiměřeně zpěvná,
+  a tenhle pokus částečně ji přiblížit normě
+  se každopádně nejeví jako cesta vpřed.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f e d( c) c \barMaior
+    c d d( f) f f g( a bes) a g f f \barMax
+
+    g \mark\sipka f g a a \barMin a g a bes a g( f) f \barMaior
+    d f f g g g( a bes) a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
+    ne -- boť va -- še je Bo -- ží krá -- lov -- ství.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní hla -- do -- ví -- te,
+    ne -- boť bu -- de -- te na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne6c-ne1-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1366,10 +1399,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g bes g a \barMin a g f \mark\sipka e( f) d d \barMaior
+    d c d f e c d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
+    ne -- boť se bu -- de -- te smát.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne6c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c b a a \barMaior
     d d d d d( f) d d f( g) f e d d \barMaior
@@ -1385,6 +1440,68 @@
     kvů -- li Sy -- nu člo -- vě -- ka;
     ra -- duj -- te se a já -- sej -- te,
     má -- te to -- tiž v_ne -- bi vel -- kou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne6c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f e d d \barMin
+    d d e c d f f( e d) \barMin d e f d d \barMaior
+    f f e d c d c c \barMin
+    d e f d c d d \barMax
+    c d d( f) f f g( a) g f( e d) \barMaior
+    d d e c d( f a g) f( g) \barMin
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jste,
+    když vás li -- dé vy -- lou -- čí ze své -- ho stře -- du
+    a po -- tu -- pí va -- še jmé -- no
+    kvů -- li Sy -- nu člo -- vě -- ka;
+    ra -- duj -- te se a já -- sej -- te,
+    má -- te to -- tiž v_ne -- bi
+    vel -- kou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne6c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g f e d d \barMin
+    d d e c d f f( e d) \barMin d e f d d \barMaior
+    f f e d c d c c \barMin
+    d e f d c d d \barMax
+    c d d( f) f f g( a) g f( e d) \barMaior
+    d d e c \mark\sipka d( f e d) e \barMin
+    f( g) f d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní jste,
+    když vás li -- dé vy -- lou -- čí ze své -- ho stře -- du
+    a po -- tu -- pí va -- še jmé -- no
+    kvů -- li Sy -- nu člo -- vě -- ka;
+    ra -- duj -- te se a já -- sej -- te,
+    má -- te to -- tiž v_ne -- bi
+    vel -- kou od -- mě -- nu.
   }
   \header {
     quid = "ant. k Magnificat"
