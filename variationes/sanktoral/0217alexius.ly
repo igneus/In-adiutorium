@@ -60,3 +60,23 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e f d( c) c \barMin
+    d e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Hle, jak je dob -- ré a mi -- lé,
+    když brat -- ři byd -- lí po -- spo -- lu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
