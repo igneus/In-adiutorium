@@ -1062,6 +1062,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       g4 a f( e) d \barMin f g a a( bes a) g g( a) a \barMaior
@@ -1087,6 +1088,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       \key f \major
       g4 a f( e) d \barMin f g a \mark\sipka a( bes) g g( a) a \barMaior
@@ -1104,6 +1106,31 @@
       quid = "ant. k Magnificat"
       modus = "I"
       differentia = "g"
+      psalmus = ""
+      id = "milo-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      g4 a f( e) d \barMin f g a a( bes) g g( a) a \barMaior
+      a g f g( a) g \barMin f g a a g f \mark\sipka g f f \barFinalis
+
+      g^\markup\rubrVelikAleluja a f f \barFinalis
+    }
+    \addlyrics {
+      Bla -- že -- ný je, kdo cí -- tí s_u -- bo -- žá -- ky;
+      kdo vě -- ří v_Bo -- ha, pro -- ka -- zu -- je mi -- lo -- sr -- den -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VI"
+      differentia = "F"
       psalmus = ""
       id = "milo-amag"
       piece = \markup {\sestavTitulekBezZalmu}

@@ -233,10 +233,10 @@
     \relative c'' {
       \choralniRezim
       \key f \major
-      g4 a f( e) d \barMin f g a a( bes a) g g( a) a \barMaior
-      a bes( g) bes bes( a) a \barMin g a g g a f e d d \barFinalis
+      g4 a f( e) d \barMin f g a a( bes) g g( a) a \barMaior
+      a g f g( a) g \barMin f g a a g f e d d \barFinalis
 
-      f^\markup\rubrVelikAleluja g( e) d d \barFinalis
+      e^\markup\rubrVelikAleluja f d d \barFinalis
     }
     \addlyrics {
       Bla -- že -- ný je, kdo cí -- tí s_u -- bo -- žá -- ky;
@@ -249,7 +249,6 @@
       modus = "I"
       differentia = "g"
       psalmus = ""
-      placet = "3 druhá půlka půjde lépe"
       id = "milo-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
