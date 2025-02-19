@@ -54,6 +54,7 @@
     modus = "III"
     differentia = "a"
     psalmus = "Žalm 147-II"
+    placet = "3 lépe"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -170,6 +171,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "3 divné nasazení druhé části, divný konec"
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -198,6 +200,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "3 lépe"
     id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -287,6 +290,7 @@
     differentia = "G"
     psalmus = "Žalm 19A"
     fial = "sanktoral/0916ludmila.ly#rch-a2?zacatek=18&konec=9&+aleluja"
+    placet = "3 aleluja lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -311,6 +315,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 45-I"
+    placet = "3 melisma na _sr_ moc prominentní"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -335,6 +340,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 45-II"
+    placet = "3 lépe"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -557,6 +563,7 @@
     modus = "V"
     differentia = "a"
     psalmus = ""
+    placet = "4 lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -606,6 +613,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "3 půjde zpěvněji"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -632,6 +640,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 122"
+    placet = "2 aleluja lépe"
     id = "2ne-a1"
     fial = "antifony/ferie_kantevgant.ly#t1-ut-mag?konec&+aleluja"
     piece = \markup {\sestavTitulek}
