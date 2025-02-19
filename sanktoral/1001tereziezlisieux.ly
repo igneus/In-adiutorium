@@ -17,7 +17,7 @@
   \relative c'' {
     \choralniRezim
     d4 d c a c d d \barMaior
-    a c d c( d) d \barMin
+    d c d e( d) d \barMin
     f f e d e c c( d) d \barMaior
     c a c b a( g) g \barMin
     f g a c b g a a \barFinalis
@@ -34,7 +34,6 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = ""
-    placet = "3 to nové nasazení na _Jestliže_ je něco, co tradiční repertoár nedělá"
     fial = "antifony/tyden3_3utery.ly#ne-ant2?konec=22"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}

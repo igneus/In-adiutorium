@@ -226,11 +226,39 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c a c d d \barMaior
     a c d c( d) d \barMin
     \mark\sipka f f e d e c c( d) d \barMaior
+    c a c b a( g) g \barMin
+    f g a c b g a a \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    Jest -- li -- že zno -- vu
+    ne -- bu -- de -- te ja -- ko dě -- ti,
+    jis -- tě ne -- ve -- jde -- te
+    do ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    placet = "3 to nové nasazení na _Jestliže_ je něco, co tradiční repertoár nedělá"
+    fial = "antifony/tyden3_3utery.ly#ne-ant2?konec=22"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c a c d d \barMaior
+    \mark\sipka c a c c( d) d \barMin
+    f f e d e c c( d) d \barMaior
     c a c b a( g) g \barMin
     f g a c b g a a \barFinalis
   }
@@ -254,9 +282,10 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c a c d d \barMaior
-    \mark\sipka c a c c( d) d \barMin
+    \mark\sipka d c d e( d) d \barMin
     f f e d e c c( d) d \barMaior
     c a c b a( g) g \barMin
     f g a c b g a a \barFinalis
