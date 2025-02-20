@@ -1155,6 +1155,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f f g( a) a( g) \barMax
+    g g f g( a) g g f d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g \mark\sipka f g g g( a) \barMax
+    % R
+    \neviditelna a
+    g g f g( a) g g f d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh vy -- dal svým an -- dě -- lům pří -- kaz,_*
+    a -- by tě stře -- ži -- li na všech tvých ces -- tách.
+    \Verse Na svých ru -- kou tě po -- ne -- sou,_*
+    \Response a -- by tě stře -- ži -- li na všech tvých ces -- tách.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
