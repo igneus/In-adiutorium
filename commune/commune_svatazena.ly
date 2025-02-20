@@ -38,23 +38,26 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g g \barMin f g a b c c c \barMaior
-    c c( d c) b( a) a( g) \barMin g g( a) f e e \barFinalis
+    g4 a a g g \barMin
+    g a b b c c c \barMaior
+    c c( d) b( c) a( g) \barMin
+    a g f g( a g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja a( g) f( g) e \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
-    Je -- ru -- za -- lé -- me, o -- sla -- vuj Hos -- po -- di -- na:
-    on po -- žeh -- nal tvým sy -- nům v_to -- bě.
+    Je -- ru -- za -- lé -- me,
+    o -- sla -- vuj Hos -- po -- di -- na:
+    on po -- žeh -- nal
+    tvým sy -- nům v_to -- bě.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "III"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 147-II"
-    placet = "3 lépe"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -93,13 +96,13 @@
     % R
     \neviditelna f
     f4 f f g f f g( a) a( g) \barMax
-    f d f( g) g f \barFinalis
+    f g a g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a g( a) g \barMin g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    f d f( g) g f \barFinalis
+    f g a g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -113,6 +116,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    fial = "responsoria.ly#2so-rch?cast=2"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -274,7 +278,7 @@
     c d c b g( a) \barMin
     c a a c b a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     V_moud -- ros -- ti
@@ -290,7 +294,6 @@
     differentia = "G"
     psalmus = "Žalm 19A"
     fial = "sanktoral/0916ludmila.ly#rch-a2?zacatek=18&konec=9&+aleluja"
-    placet = "3 aleluja lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -518,7 +521,7 @@
     d4 d c( d) c b a( g) \barMin
     a a( b) g g \barFinalis
 
-    a^\markup\rubrVelikAleluja b a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství
@@ -627,7 +630,7 @@
     g4 g a c( b c4.) a4. \barMaior
     c4( b) a4 \barMin g4( f) a a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Mé srd -- ce já -- sá
@@ -640,7 +643,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 122"
-    placet = "2 aleluja lépe"
     id = "2ne-a1"
     fial = "antifony/ferie_kantevgant.ly#t1-ut-mag?konec&+aleluja"
     piece = \markup {\sestavTitulek}
@@ -721,7 +723,7 @@
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f4 f f f e g a a \barMax
+    f4 f f f e g g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
