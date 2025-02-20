@@ -5654,6 +5654,7 @@ se bude hodit.}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 b c c4.( b) \barMaior
     a4( c) c c c c c d c d a( g) f4.( g) \barMaior
@@ -5669,6 +5670,7 @@ se bude hodit.}
     modus = "III"
     differentia = "a"
     psalmus = ""
+    placet = "oslovení s protaženou poslední slabikou zní obhrouble, neurvale, nekultivovaně"
     id = "t2-st-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -5702,6 +5704,29 @@ se bude hodit.}
     g4 a a( c) c \barMin
     c( d) c c c b a \mark\sipka b c a g( a) g \barMaior
     f g a a g( f) e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, roz -- ptyl ty,
+    kdo v_srd -- ci smý -- šle -- jí pyš -- ně
+    a po -- vyš po -- ní -- že -- né.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "III"
+    differentia = "g"
+    psalmus = ""
+    id = "t2-st-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c( d) c c c b a b c a g( a) g \barMaior
+    f g a \mark\sipka g f e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne, roz -- ptyl ty,
@@ -5808,6 +5833,7 @@ se bude hodit.}
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     e4 g a a \barMin a( g) a e \barMin
     f g a \mark\sipka g( a) g f d( e) e \barMaior
@@ -6034,7 +6060,7 @@ se bude hodit.}
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     a4 g f g e e \barMin
     f g a a b a b c( a) a \barMaior
@@ -6042,11 +6068,11 @@ se bude hodit.}
   }
   \addlyrics {
     Roz -- ptyl, Hos -- po -- di -- ne,
-    ty, kdo v_srd -- ci smý -- šle -- jí pyš -- ně
-    a po -- vyš po -- ní -- že -- né.
+    ty, kdo v_srd -- ci smý -- šle -- jí pyš -- ně,
+    a po -- vyš po -- ní -- že -- né!
   }
   \header {
-    textus_approbatus = "Hospodine, rozptyl ty, kdo v srdci smýšlejí pyšně a povyš ponížené."
+    textus_approbatus = "Hospodine, rozptyl ty, kdo v srdci smýšlejí pyšně, a povyš ponížené!"
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "g"

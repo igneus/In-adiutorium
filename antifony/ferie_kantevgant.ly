@@ -383,21 +383,21 @@ tIIstredaAntBenedictus = \score {
 tIIstredaAntMagnificat = \score {
   \relative c'' {
     \choralniRezim
-    a4 b c c4.( b) \barMaior
-    a4( c) c c c c c d c d a( g) f4.( g) \barMaior
-    g4 a b a g( f) e e4. \barFinalis
+    a4 g f g e e \barMin
+    f g a a b a b c( a) a \barMaior
+    g a g f g e e \barFinalis
   }
   \addlyrics {
-    Hos -- po -- di -- ne, roz -- ptyl ty,
-    kdo v_srd -- ci smý -- šle -- jí pyš -- ně,
+    Roz -- ptyl, Hos -- po -- di -- ne,
+    ty, kdo v_srd -- ci smý -- šle -- jí pyš -- ně,
     a po -- vyš po -- ní -- že -- né!
   }
   \header {
+    textus_approbatus = "Hospodine, rozptyl ty, kdo v srdci smýšlejí pyšně, a povyš ponížené!"
     quid = "ant. k Magnificat"
-    modus = "III"
-    differentia = "a"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
-    placet = "oslovení s protaženou poslední slabikou zní obhrouble, neurvale, nekultivovaně"
     id = "t2-st-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
