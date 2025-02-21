@@ -375,7 +375,7 @@
     f f f f e d d e e \barMin
     d c f e( d) d \barMaior
     d e f d( c) c \barMin
-    d c d f f e d c( d) d \barFinalis
+    d c d f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl své mat -- ce:

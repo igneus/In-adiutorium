@@ -1757,7 +1757,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f e d e( d) d \barMin
     c d f e d( e) e \barMaior
@@ -1787,6 +1787,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f f e d e( d) d \barMin
     c d f e d( e) e \barMaior
