@@ -239,6 +239,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d \barMin \mark\sipka d c a c d d \barMaior
+    d d f e f g g f
+    e( f) e d d \barMaior
+    d d d( c) c( d) d f e d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, můj Vy -- ku -- pi -- te -- li,
+    tě -- lo, kte -- rés mi u -- tvo -- řil
+    z_pra -- chu ze -- mě,
+    pro -- buď k_ži -- vo -- tu v_den po -- sled -- ní.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 40-I"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d \barMin d \mark\sipka c d e d d \barMaior
     d d f e f g g f
     e( f) e d d \barMaior
@@ -2151,6 +2175,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -2197,6 +2222,39 @@
     a( b g) g( e) \barMin f4 g a g f d( e) e \barFinalis
     % Slava
     e( a) a a( b) a g g( a) a \barMin a g f d( e) e e \barFinalis
+  }
+  \addlyrics {
+    \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*
+    dej jim od -- po -- či -- nu -- tí věč -- né.
+    \Verse Ty při -- jdeš sou -- dit ži -- vé i mrt -- vé,_*
+    \Response dej jim od -- po -- či -- nu -- tí věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "ne-resp2"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a g e e f e \mark\sipka d d( e) e \barMax
+    e d \barMin d c d f e d( e) e \barFinalis
+    % V
+    \neviditelna e
+    e e( a) a g( a b a) a \barMin a g f d( e) e \barMax
+    % R
+    \neviditelna a
+    e d \barMin d c d f e d( e) e \barFinalis
+    % Slava
+    d e e( a) a g a( b a) a \barMin a g f d( e) e e \barFinalis
   }
   \addlyrics {
     \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*

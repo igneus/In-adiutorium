@@ -452,16 +452,16 @@
 
     % R
     \neviditelna a
-    a4 a g e e f e f g( a) a \barMax
-    a( b a) g4.( e) f4 e d c d d( e) e \barFinalis
+    a4 a g e e f e d d( e) e \barMax
+    e d \barMin d c d f e d( e) e \barFinalis
     % V
     \neviditelna e
-    e e( a) a g( a f e) e \barMin f g g g( a) a \barMax
+    e e( a) a g( a b a) a \barMin a g f d( e) e \barMax
     % R
     \neviditelna a
-    a( b a) g4.( e) f4 e d c d d( e) e \barFinalis
+    e d \barMin d c d f e d( e) e \barFinalis
     % Slava
-    e( a b) a g( a) g f f( e) e \barMin e f g g( a) a a \barFinalis
+    d e e( a) a g a( b a) a \barMin a g f d( e) e e \barFinalis
   }
   \addlyrics {
     \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*
@@ -473,7 +473,6 @@
   \header {
     quid = "resp."
     modus = "IV"
-    placet = "3 slabší"
     id = "ne-resp2"
     piece = \markup {\sestavTitulekResp}
   }
