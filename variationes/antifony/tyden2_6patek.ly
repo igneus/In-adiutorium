@@ -1637,6 +1637,31 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 f g a a a a a c bes a a \barMin
+    bes bes a g \barMaior
+    f e f g \barMin
+    \mark\sipka a g f f \barFinalis
+  }
+  \addlyrics {
+    Ať se mi dos -- ta -- ne tvé -- ho sli -- to -- vá -- ní,
+    Hos -- po -- di -- ne,
+    a -- bych byl živ,
+    jak jsi slí -- bil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-י"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     \key f \major
