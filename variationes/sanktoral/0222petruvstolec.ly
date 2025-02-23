@@ -211,7 +211,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d f e c e f d d \barMaior
     c( d) d( f) f \barMin
@@ -240,6 +240,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d f e c e f d d \barMaior
     c( d) d( f) f \barMin
@@ -331,6 +332,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 c( b g) g \barMin a( g) f g( a) g( f) g \barMaior
     a c b \mark\sipka c( d) d \barMin c b g a g g \barFinalis
@@ -1443,7 +1445,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( f d) c f g g( a) a \barMaior
     a a a g a a a \mark\sipka b( c a) g( a) a( g) g \barMin
@@ -1466,6 +1468,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d d( f d) c f g g( a) a \barMaior
     a a a \mark\sipka c a g f g a a( g) g \barMin
@@ -1697,12 +1700,38 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c f g f( a) a \barMin
     a a g f g a \mark\sipka a( g) g \barMaior
     a a g f d e c c \barMin
     \mark\sipka d e f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi pas -- týř ov -- cí,
+    prv -- ní me -- zi a -- po -- što -- ly,
+    to -- bě by -- ly dá -- ny klí -- če
+    od ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, 512"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a a g f g a a( g) g \barMaior
+    a a g f d e c c \barMin
+    d e f \mark\sipka d d c d d \barFinalis
   }
   \addlyrics {
     Ty jsi pas -- týř ov -- cí,

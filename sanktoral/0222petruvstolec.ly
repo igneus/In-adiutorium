@@ -23,7 +23,7 @@
     d4 d c d f e c e f d d \barMaior
     c( d) d( f) f \barMin
     f f f g f f
-    g g a g f( d) d \barMaior
+    f g a g f( d) d \barMaior
     f f e c d4. c \barMin
     d4 c( d) d( f) f e( f) d c( d) d \barFinalis
   }
@@ -226,7 +226,7 @@
   \relative c' {
     \choralniRezim
     d4 d d d( f d) c f g g( a) a \barMaior
-    a a a g a a a b( c a) g( a) a( g) g \barMin
+    a a a c a g f g a a( g) g \barMin
     g f e e f d c( d) d \barFinalis
   }
   \addlyrics {
@@ -239,7 +239,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 126"
-    placet = "spíš lépe"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -276,7 +275,7 @@
     d4 c f g f( a) a \barMin
     a a g f g a a( g) g \barMaior
     a a g f d e c c \barMin
-    d e f e d c d d \barFinalis
+    d e f d d c d d \barFinalis
   }
   \addlyrics {
     Ty jsi pas -- týř ov -- cí,

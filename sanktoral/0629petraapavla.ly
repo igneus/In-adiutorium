@@ -518,7 +518,7 @@
     d4 c f g f( a) a \barMin
     a a g f g a a( g) g \barMaior
     a a g f d e c c \barMin
-    d e f e d c d d \barFinalis
+    d e f d d c d d \barFinalis
   }
   \addlyrics {
     Ty jsi pas -- týř ov -- cí,_*
