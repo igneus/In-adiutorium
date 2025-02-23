@@ -178,7 +178,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f g( a) a \barMin
     a b( c a) a \barMaior
@@ -227,6 +227,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 g f g( a) a \barMin
     a b( c a) a \barMaior

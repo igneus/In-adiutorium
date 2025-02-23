@@ -19,7 +19,7 @@
     a4 g f g( a) a \barMin
     a b( c a) a \barMaior
     c c( d) c b a( g) \barMin
-    a( g) f a a( g) g \barFinalis
+    a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Ši -- mo -- ne Pet -- ře,_*
