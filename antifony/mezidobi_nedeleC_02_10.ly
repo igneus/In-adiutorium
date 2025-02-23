@@ -376,9 +376,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g a a( c) c \barMin
-    b( c) a g a( g) \barMaior
-    a g f g( a) a a g \barFinalis
+    g4 g g a g a( c) c \barMin
+    d c b g( a) \barMaior
+    a g f g a a g \barFinalis
   }
   \addlyrics {
     Co chce -- te, a -- by li -- dé
@@ -401,12 +401,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( c) c( d) d \barMin
+    g4( a) c( d) d \barMin
     d c d e c d d d \barMaior
-    d c d c( a) a \barMin
-    a c b a g g a a( g) g \barMax
-    c d d( c) c \barMin
-    c b g g a g f( g) g \barFinalis
+    c d c a a \barMin
+    a c c b a g a g g \barMax
+    f g g( a) a \barMin
+    a c a a c b a( g) g \barFinalis
   }
   \addlyrics {
     Ne -- suď -- te,
@@ -431,7 +431,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c a c b a( g) g \barMaior
-    a g f g a c b( c) a a \barMin
+    f g a c c c b( c) a a \barMin
     c c c b a g f g a4. g \barFinalis
   }
   \addlyrics {
