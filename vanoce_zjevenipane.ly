@@ -1025,7 +1025,7 @@
       f( e) d f( e) d d \barMaior
       d f f f e f d c c \barMaior
       d d c d e f f
-      f g( a) f e c d d \barFinalis
+      f g f e d( e) d d \barFinalis
     }
     \addlyrics {
       Spa -- si -- tel se dal po -- křtít
@@ -1039,7 +1039,6 @@
       modus = "II"
       differentia = "D"
       psalmus = "Magnificat"
-      placet = "závěr nic moc"
       id = "krtu-1ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1211,7 +1210,7 @@
       \choralniRezim
       g4 a c( d) d \barMin
       e e d c d( e) d d \barMaior
-      c d c b( a g) \barMin
+      d c b c( a g) \barMin
       a g f a a( g) g \barMax
 
       a( c b) c( d) d \barMin
@@ -1341,7 +1340,7 @@
       a4 g a g f e e \barMaior
       d e f f
       g d f e e \barMaior
-      f g g( a) g f d( e) e \barFinalis
+      f g g( a) g f e4. e \barFinalis
     }
     \addlyrics {
       Jan Je -- ží -- šo -- vi ří -- kal:
@@ -1386,7 +1385,7 @@
       \choralniRezim
       e4 f e d e e \barMax
       e g( a) a \barMin
-      a g a( b) a g g( a) a \barMin
+      a g a b g g( a) a \barMin
       g f a g f( e) e \barMaior
       e f( g f) e d( e) e \barFinalis
     }
