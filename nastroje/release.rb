@@ -42,15 +42,13 @@ class Repository
   end
 
   def ly_to_compile
-    exist \
-      ids
+    ids
       .collect {|i| source_file xml_element i }
       .select {|i| i.end_with?('.ly') && !i.start_with?('http') }
   end
 
   def pdf_to_upload
-    exist \
-      ids
+    ids
       .collect {|i| pdf_file xml_element i }
       .select {|i| !i.start_with?('http') }
   end
@@ -96,16 +94,6 @@ class Repository
     end
   end
 
-  def exist(paths)
-    ok, missing = paths.partition {|f| File.exist? f }
-
-    unless missing.empty?
-      STDERR.puts ColorizedString.new("some files were not found: #{missing.inspect}").red
-    end
-
-    ok
-  end
-
   def religious_propers_dir(abbrev)
     Dir['reholni/*']
       .select {|i| File.directory? i }
@@ -120,17 +108,18 @@ class ReleaseCLI < Thor
   option :prod, type: :boolean, aliases: :p, default: true, desc: 'build production pdf (without point-and-click)'
   def build(srcdir=nil)
     # TODO list TeX and external files which must be handled manually
-    Repository
-      .from_dir(sources_dir(srcdir))
-      .ly_to_compile
-      .each {|f| do_command build_command(f, options[:prod]) }
+    exist(
+      Repository
+        .from_dir(sources_dir(srcdir))
+        .ly_to_compile
+    ).each {|f| do_command build_command(f, options[:prod]) }
   end
 
   desc 'upload WEB_SOURCES', 'upload pdfs to the server'
+  option :must_exist, type: :boolean, aliases: :e, default: :true, desc: 'stop if some of the files does not exist'
   def upload(srcdir=nil)
-    # TODO check that all files exist prior to attempting upload
     # TODO list TeX and external files which must be handled manually
-    do_command upload_command Repository.from_dir(sources_dir(srcdir)).pdf_to_upload
+    do_command upload_command exist(Repository.from_dir(sources_dir(srcdir)).pdf_to_upload, exception: options[:must_exist])
   end
 
   private
@@ -155,6 +144,17 @@ class ReleaseCLI < Thor
         STDERR.puts ColorizedString.new("command returned error status #{$?}").red
       end
     end
+  end
+
+  def exist(paths, exception: false)
+    ok, missing = paths.partition {|f| File.exist? f }
+
+    unless missing.empty?
+      STDERR.puts ColorizedString.new("some files were not found: #{missing.inspect}").red
+      raise('all files must exist') if exception
+    end
+
+    ok
   end
 
   def sources_dir(cmdline_dir)
