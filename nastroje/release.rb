@@ -63,7 +63,8 @@ class Repository
   end
 
   def xml_element(knihovna_element_symbol)
-    @xml.xpath("//vec[./symbol/text() = '#{knihovna_element_symbol}']")
+    @xml.xpath("//vec[./symbol/text() = '#{knihovna_element_symbol}']").first ||
+      raise("item with symbol #{knihovna_element_symbol.inspect} not found")
   end
 
   def source_file(el)
