@@ -90,7 +90,7 @@ class Repository
     when /^\d{4}/
       File.join 'sanktoral', basename
     when /^(\w+)_\d{4}/
-      File.join 'reholni', Regexp.last_match[1].upcase, basename
+      File.join religious_propers_dir(Regexp.last_match[1]), basename
     else
       basename
     end
@@ -104,6 +104,12 @@ class Repository
     end
 
     ok
+  end
+
+  def religious_propers_dir(abbrev)
+    Dir['reholni/*']
+      .select {|i| File.directory? i }
+      .find {|i| File.basename(i).downcase == abbrev.downcase }
   end
 end
 
