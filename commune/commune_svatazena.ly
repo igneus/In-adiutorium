@@ -159,10 +159,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a( g f) g g( f) \barMin a a a a a g( f) g \barMaior
-    f g g( f d) d \barMin d c( d) d e d c( d) d \barFinalis
+    a( g f) g g( f) \barMin f g a g f f( g) g \barMaior
+    a a g( f d) d \barMin d c d f e d d \barFinalis
 
-    c(^\markup\rubrVelikAleluja d e) f( e) d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Dej -- te jí z_vý -- těž -- ku je -- jích ru -- kou,
@@ -175,7 +175,6 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    placet = "3 divné nasazení druhé části, divný konec"
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -186,25 +185,26 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b c d d c \barMin
-    d d( e) d d c b a a \barMaior
-    c d d( e d) c( b) a( g) \barMin a g f( g) a g g \barFinalis
+    a4 a a c b c d d \barMin
+    d e d c d e e( d) d \barMaior
+    c d c b a( g) \barMin
+    a g f( g) a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Ze srd -- ce ať se ra -- du -- jí,
     kdo hle -- da -- jí Hos -- po -- di -- na,
-    ať se ho -- no -- sí je -- ho sva -- tým jmé -- nem.
+    ať se ho -- no -- sí
+    je -- ho sva -- tým jmé -- nem.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "VII"
-    differentia = "c"
+    differentia = "a"
     psalmus = ""
-    placet = "3 lépe"
     id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
