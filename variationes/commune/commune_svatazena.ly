@@ -2485,6 +2485,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a( c) b! c c
     c bes c d bes c c \barMaior
@@ -2500,6 +2501,55 @@
   \header {
     quid = "ant. dopoledne"
     modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c b c( d) d
+    d c d e c d d \barMaior
+    d( c b) a( g) a \barMin a( b) a g g \barFinalis
+  }
+  \addlyrics {
+    Na své slu -- žeb -- ní -- ky
+    a na své slu -- žeb -- ni -- ce
+    vy -- le -- ji své -- ho Du -- cha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c b c( d) d
+    d c d e c d d \barMaior
+    d( c b) \mark\sipka g( a) a( g) \barMin a( g) f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Na své slu -- žeb -- ní -- ky
+    a na své slu -- žeb -- ni -- ce
+    vy -- le -- ji své -- ho Du -- cha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
     differentia = "a"
     psalmus = ""
     id = "tercie"
@@ -2649,6 +2699,54 @@
     f g( f) d d( e) \barFinalis
 
     g^\markup\rubrVelikAleluja a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Já pat -- řím své -- mu mi -- lé -- mu
+    a on je můj.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e d( e f e) e \barMin f( g a) g f( g) e e \barMaior
+    f \mark\sipka g g d( e) \barFinalis
+
+    f^\markup\rubrVelikAleluja g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Já pat -- řím své -- mu mi -- lé -- mu
+    a on je můj.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e d( e f e) e \barMin f( g a) g f( g) e e \barMaior
+    \mark\sipka g a g d( e) \barFinalis
+
+    f^\markup\rubrVelikAleluja g f( e) e \barFinalis
   }
   \addlyrics {
     Já pat -- řím své -- mu mi -- lé -- mu

@@ -548,11 +548,11 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a( c) b! c c
-    c bes c d bes c c \barMaior
-    d( e f d) c( d c) c( a) \barMin g( a bes) c a( g f) f \barFinalis
+    g4 a c b c( d) d
+    d c d e c d d \barMaior
+    d( c b) a( g) a \barMin a( b) a g g \barFinalis
   }
   \addlyrics {
     Na své slu -- žeb -- ní -- ky
@@ -563,10 +563,9 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "V"
+    modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "4 lépe"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
