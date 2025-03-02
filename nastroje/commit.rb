@@ -7,6 +7,7 @@
 STANDARD_MESSAGES = [
   'more variants',
   'quality notices',
+  'duplicate variant deleted',
 ]
 
 class String
