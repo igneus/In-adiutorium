@@ -1225,26 +1225,6 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f e d f( g) g \barMin
-    a f a g g \barFinalis
-  }
-  \addlyrics {
-    Zpí -- vej -- me chva -- lo -- zpěv Pá -- nu,
-    na -- še -- mu Bo -- hu.
-  }
-  \header {
-    quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
-    psalmus = "Dan 3-II"
-    id = "rch-a2"
-    piece = \markup {\sestavTitulek}
-  }
-}
-
-\score {
-  \relative c'' {
-    \choralniRezim
     g4 c b c d c a a \barMin
     a b a g g \barFinalis
   }
