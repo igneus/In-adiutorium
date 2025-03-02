@@ -303,9 +303,9 @@
   \relative c'' {
     \choralniRezim
     d4 d d( e) d \barMin d c d e e e( f e d) d \barMaior
-    d d c b c( a) g f g a a g g \barFinalis
+    d d c b g( a) g g f g a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Sva -- té že -- ny dů -- vě -- řo -- va -- ly v_Bo -- ha
@@ -318,7 +318,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 45-I"
-    placet = "3 melisma na _sr_ moc prominentní"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -327,10 +326,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d c( b c) d e d \barMin
-    b a b g g \barFinalis
+    d4 c b c( a) g g \barMin
+    a f a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     S_ra -- dost -- ným já -- so -- tem
@@ -343,7 +342,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 45-II"
-    placet = "3 lépe"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
