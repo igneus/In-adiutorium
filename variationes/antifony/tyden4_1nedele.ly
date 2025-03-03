@@ -1731,6 +1731,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     c4 c c a( c) c b a g g \barMin
     g a g f g a a( g) g \barMaior
