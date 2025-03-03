@@ -104,7 +104,7 @@
 
     % R
     \neviditelna f
-    g4 f g g( a) \barMax
+    f4 f g g( a) \barMax
     g g( a) g( f) d f g g f f \barFinalis
     % V
     \neviditelna a
