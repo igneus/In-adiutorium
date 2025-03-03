@@ -553,6 +553,7 @@
     differentia = "A"
     psalmus = ""
     annus = "C"
+    placet = "2 ta bude spíš do modu I nebo (s jiným závěrem) VII"
     id = "ne9c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
