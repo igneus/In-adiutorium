@@ -32,7 +32,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 113"
-    fial = "commune/commune_kostel.ly#2ne-a3?zacatek"
+    fial = "commune/commune_kostel.ly#2ne-a3?cast=1,3,4"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
