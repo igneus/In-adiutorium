@@ -453,12 +453,12 @@
 \markup {\nadpisDen {"8. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 c c( f) f \barMin f g f d e d( c) \barMaior
-    f f f f f( g) f \barMin f e d f e( d) c \barMaior
-    d c d f e f d d \barMin
-    e c d( f) e c( d) d \barFinalis
+    g4 a g( c) c \barMin c d c a b a( g) \barMaior
+    a a a b g g a g f e d( e) e \barMaior
+    f g a g a( c) b a a \barMin
+    c a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Na -- před vyn -- dej ze své -- ho o -- ka trám,
@@ -468,8 +468,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "C"
     id = "ne8c-1ne-amag"
@@ -480,9 +480,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( b g) b a g a4.( b) a4 g a g g \barMaior
-    a f a( c) c c \barMin b4 a b g g \barMax
-    c c d c c( d c) c \barMin a g a a g g \barFinalis
+    d4 d b d( e) d d \barMin b-- c b g g g \barMaior
+    c c a( c) b b \barMin b c a g g \barMax
+    a a g f g( a) a \barMin g f a a g g \barFinalis
   }
   \addlyrics {
     Dob -- rý strom ne -- mů -- že nést špat -- né o -- vo -- ce,
@@ -493,8 +493,8 @@
     textus_approbatus = "Dobrý strom nemůže nést špatné ovoce, ani špatný strom dobré ovoce.
     Každý strom se pozná po vlastním ovoci."
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "c"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     annus = "C"
     id = "ne8c-rch-aben"
@@ -505,12 +505,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a g( a) f f \barMin
+    f4 g a a g( a) g g \barMin
     g f g a a a c g f g f( d) d \barMaior
     f e d c( d) c c \barMin
-    d( e f) e( d) c( d) d \barMax
+    d f e( c) d \barMax
     f( g a) f g( f) e \barMin
-    d c d( f) e d c( d) d \barFinalis
+    d c d d( f) e d d \barFinalis
   }
   \addlyrics {
     Dob -- rý člo -- věk vy -- ná -- ší
