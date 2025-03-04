@@ -656,6 +656,7 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
+    placet = "nudná, únavná, nezpěvná"
     id = "ne19c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

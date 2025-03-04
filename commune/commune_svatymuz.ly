@@ -91,6 +91,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Ef 1"
+    placet = "3 půjde lépe"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -159,6 +160,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "2 r1 nic moc"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }
@@ -215,6 +217,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "4 lépe"
     id = "1ne-amag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -300,6 +303,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 21"
+    placet = "4 lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -328,6 +332,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 92-I"
+    placet = "4 lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -352,6 +357,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 92-II"
+    placet = "4 lépe"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -407,6 +413,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "3 první půlku spíš lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -456,6 +463,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 149"
+    placet = "2 úplně zlá není, ale bude žádoucí dobře vyzkoušet alternativy"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -628,6 +636,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "4 lépe"
     id = "rch-aben2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
