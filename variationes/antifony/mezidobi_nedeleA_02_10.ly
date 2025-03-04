@@ -2573,9 +2573,36 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d e f f( g) g \barMin g a g f f( g) g \barMaior
+    a a g f e f d c d( c) c \barMaior
+    d c d f f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo má slo -- va sly -- ší a po -- dle nich jed -- ná,
+    po -- do -- bá se roz -- váž -- né -- mu mu -- ži,
+    kte -- rý si po -- sta -- vil dům na ská -- le.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatymuz.ly#1ne-amag1?-aleluja"
+    id = "ne9a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d( f) f \barMin f g a f f( g) g \barMaior
     a a g f e f d c d( c) c \barMaior
     d c d f f e c e( f) d d \barFinalis
   }
@@ -2650,10 +2677,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d e f f( g) g \barMin \mark\sipka g g g f e d( e) d d \barMaior
     a' a a a \mark\sipka c b c a g g( a) a \barMaior
+    a g f e f d c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo má slo -- va sly -- ší, a -- le po -- dle nich ne -- jed -- ná,
+    po -- do -- bá se po -- še -- ti -- lé -- mu mu -- ži,
+    kte -- rý si po -- sta -- vil dům na pís -- ku.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatymuz.ly#1ne-amag1?zacatek=8"
+    id = "ne9a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d( f) f \barMin f f g f e d( e) d d \barMaior
+    a' a a a c b c a g g( a) a \barMaior
     a g f e f d c e( f) d d \barFinalis
   }
   \addlyrics {

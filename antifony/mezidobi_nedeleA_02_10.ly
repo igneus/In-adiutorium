@@ -573,7 +573,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e f f( g) g \barMin g a g f f( g) g \barMaior
+    d4 d c d d( f) f \barMin f g a f f( g) g \barMaior
     a a g f e f d c d( c) c \barMaior
     d c d f f e c e( f) d d \barFinalis
   }
@@ -597,7 +597,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d e f f( g) g \barMin g g g f e d( e) d d \barMaior
+    d4 d c d d( f) f \barMin f f g f e d( e) d d \barMaior
     a' a a a c b c a g g( a) a \barMaior
     a g f e f d c e( f) d d \barFinalis
   }
