@@ -102,14 +102,14 @@
     % R
     \neviditelna f
     f4 f f f f f f g f g( a) a( g) \barMax
-    g g( a) g( f d) e^"!" d c \barMin d( f) g g( f) f \barFinalis
+    g g( a) g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a a a a a a a( bes) a g( a) g \barMaior
+    a4 a a a a a bes a a a a g( a) g \barMaior
     g g g g g g f g a a( g) \barMax
     % R
     \neviditelna a
-    g g( a) g( f d) e^"!" d c \barMin d( f) g g( f) f \barFinalis
+    g g( a) g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -124,7 +124,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "3 lépe"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -330,11 +329,11 @@
   \relative c' {
     \choralniRezim
     d4 d( f e) d c( d) d \barMin f f g a g g \barMaior
-    f f f g d \barMin f e c d d \barMaior
-    f( g) g g g a g a a( bes) a a \barMaior
+    f f f g d \barMin f e d c c \barMaior
+    f f f f g( a) g f f g g \barMaior
     a a a a g f e c f e c( d) d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Bůh se -- tře sva -- tým kaž -- dou sl -- zu z_o -- čí:
@@ -349,7 +348,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "_nářek_ lépe"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -358,14 +356,14 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g a a( c d) c a a \barMaior
-    g( e) f( e) e f g g g g a( b) a b( d) d \barMin
-    d d( a c) b( g) g( e) \barMaior
-    f( g a c) b( c) \barMin d( a c) b( g) g( a) a \barFinalis
+    d4 e c f( e d) c d d \barMaior
+    c( d) d( f) f \barMin g g g g g f d e( f) d
+    c c d d \barMaior
+    d( e f d) d( c) \barMin f e c( d) d \barFinalis
 
-    g^\markup\rubrVelikAleluja a a a \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Kris -- to -- vi mu -- čed -- ní -- ci_*
@@ -377,10 +375,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 63"
-    placet = "4 lépe"
+    fial = "commune/commune_vicemucedniku.ly#2ne-amag?cast=1&transposice=-4&ignoruj=melismata"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }

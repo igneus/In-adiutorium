@@ -37,6 +37,62 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d c( d) c c \barMaior
+    f f f g f a f f( g) g \barMax
+    g a g f f( g) f f \barMin
+    g f g( a) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a f f \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci na ze -- mi_*
+    pro Kris -- ta mno -- ho vy -- tr -- pě -- li,
+    a bez -- peč -- ně do -- sáh -- li věč -- né od -- mě -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-I+II"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d c( d) c c \barMaior
+    f f f g f a f f( g) g \barMax
+    g a \mark\sipka a a g( f) d d \barMin
+    e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci na ze -- mi_*
+    pro Kris -- ta mno -- ho vy -- tr -- pě -- li,
+    a bez -- peč -- ně do -- sáh -- li věč -- né od -- mě -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 118-I+II"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 a c( b) c d d( e) e \barMin
@@ -89,10 +145,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Mimo dobu velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -124,6 +183,43 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    g g( a) \mark\sipka g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a a \mark\sipka bes a a a a g( a) g \barMaior
+    g g g g g g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    g g( a) \mark\sipka g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Du -- še spra -- ved -- li -- vých jsou v_Bo -- ží ru -- ce,_*
+    a ne -- do -- tkne se jich u -- tr -- pe -- ní.
+    \Verse Je -- jich smrt by -- la po -- klá -- dá -- na za ne -- štěs -- tí,
+    do -- sáh -- li však věč -- né -- ho po -- ko -- je,_*
+    \Response a ne -- do -- tkne se jich u -- tr -- pe -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -375,7 +471,39 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( c) c \barMin
+    c d e d c d( e) e d d \barMin
+    a c b a g a( g) g \barMaior
+    a a( c a) \barMin g f g a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Na tom -- to svě -- tě_*
+    jste ztra -- ti -- li svůj ži -- vot pro mě
+    a pro e -- van -- ge -- li -- um;
+    já sám bu -- du va -- ší od -- mě -- nou.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 33-II"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-2ne-mag?cast=3"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d( f e) d c( d) d \barMin f f g a g g \barMaior
     f f f g d \barMin f e c d d \barMaior
@@ -383,6 +511,64 @@
     a a a a g f e c f e c( d) d \barFinalis
 
     c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- tře sva -- tým kaž -- dou sl -- zu z_o -- čí:
+    ne -- bu -- de už smrt a -- ni zá -- rmu -- tek,
+    ná -- řek a -- ni bo -- lest už ne -- bu -- de,
+    pro -- to -- že co dří -- ve by -- lo, po -- mi -- nu -- lo.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    placet = "_nářek_ lépe"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( f e) d c( d) d \barMin f f g a g g \barMaior
+    f f f g d \barMin f e \mark\sipka d c c \barMaior
+    f f f f g( a) g f f g g \barMaior
+    a a a a g f e c f e c( d) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- tře sva -- tým kaž -- dou sl -- zu z_o -- čí:
+    ne -- bu -- de už smrt a -- ni zá -- rmu -- tek,
+    ná -- řek a -- ni bo -- lest už ne -- bu -- de,
+    pro -- to -- že co dří -- ve by -- lo, po -- mi -- nu -- lo.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f e) d c( d) d \barMin f f g a g g \barMaior
+    f f f g d \barMin f e d c c \barMaior
+    f f f f g( a) g f f g g \barMaior
+    a a \mark\sipka g f g a g f e f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Bůh se -- tře sva -- tým kaž -- dou sl -- zu z_o -- čí:
@@ -431,6 +617,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a a( c d) c a a \barMaior
     g( e) f( e) e f g g g g a( b) a b( d) d \barMin
@@ -456,6 +643,38 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 e c f( e d) c d d \barMaior
+    c( d) d( f) f \barMin g g g g g f d e( f) d
+    c c d d \barMaior
+    d( e f d) d( c) \barMin f e c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- to -- vi mu -- čed -- ní -- ci_*
+    v_bo -- les -- tech o -- bra -- ce -- li svou my -- sl k_ne -- bi
+    a vo -- la -- li:
+    Pa -- ne, po -- má -- hej nám!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    fial = "commune/commune_vicemucedniku.ly#2ne-amag?cast=1&transposice=-4&ignoruj=melismata"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \markup\italic{Mimo dobu postní:}
 
