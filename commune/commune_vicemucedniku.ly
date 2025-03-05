@@ -32,6 +32,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 118-I+II"
+    placet = "4 lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -60,6 +61,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 118-III"
+    placet = "4 lépe"
     id = "1ne-a2"
     fons = "podle 3. ant. nešp. Zeleného čtvrtku" % hodně volný vztah, fial by tu ničemu nepomohl
     piece = \markup {\sestavTitulek}
@@ -85,6 +87,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "1 Petr 2"
+    placet = "3 lépe"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -121,6 +124,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "3 lépe"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -145,6 +149,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "4 lépe"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -261,6 +266,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 2"
+    placet = "3 lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -285,6 +291,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 33-I"
+    placet = "3 nuda"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -313,6 +320,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 33-II"
+    placet = "3 lépe"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -341,6 +349,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "_nářek_ lépe"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -371,6 +380,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 63"
+    placet = "4 lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -397,6 +407,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "4 lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -445,6 +456,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 149"
+    placet = "4 lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -712,6 +724,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 116-II"
+    placet = "2 půjde lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -741,6 +754,8 @@
     differentia = "A"
     psalmus = "Zj 4"
     fial = "commune/commune_vicemucedniku.ly#2ne-amag?zacatek=9"
+    placet = "3 lépe; spíš se odpoutat od zdroje, dvojí opakování motivu
+    v jedné hodince není moc vhodné"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

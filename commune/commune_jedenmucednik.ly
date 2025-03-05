@@ -610,6 +610,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "4 nesedí v modu, lépe; nezapomenout na kopii"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -638,6 +639,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "2 spíš lépe"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
