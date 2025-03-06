@@ -758,11 +758,61 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') f e g f d d \barMaior
     e( d) e f( a g) f g( a bes) a( g) f( e) d \barFinalis
 
     c^\markup\rubrVelikAleluja d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Zá -- stu -- py mu -- čed -- ní -- ků,_*
+    chval -- te Pá -- na na vý -- sos -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g g( a) a \barMaior
+    g( a g e) e \barMin f d c e d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Zá -- stu -- py mu -- čed -- ní -- ků,_*
+    chval -- te Pá -- na na vý -- sos -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f g g( a) a \barMaior
+    a a g( f d4.) d4 \barMin e d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Zá -- stu -- py mu -- čed -- ní -- ků,_*
