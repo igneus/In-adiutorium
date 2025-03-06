@@ -14,9 +14,9 @@
     \choralniRezim
     g4 g f g a( g) a c b( g) a \barMaior
     c d c d d( c) \barMin
-    c c c a g f a a( g) g \barFinalis
+    c c c b g a g f( g) g \barFinalis
 
-    f^\rubrVelikAleluja a a( g) g \barFinalis
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- leb, du -- še má, Hos -- po -- di -- na,
@@ -30,7 +30,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 103-I"
-    placet = "zkusit lépe"
     id = "cte-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -39,7 +38,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g g g a b c b \barMin c d b a a \barMaior
+    g a g a b c b \barMin c d b a a \barMaior
     g g a g f e d e e \barMin
     f g g a f a g g \barFinalis
 

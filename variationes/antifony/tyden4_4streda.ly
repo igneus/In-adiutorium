@@ -35,7 +35,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 \mark\sipka g f g a( g) \mark\sipka a c b( g) a \barMaior
     c d c \mark\sipka d d( c) \barMin
@@ -94,6 +94,33 @@
     c c c \mark\sipka b a g a a( g) g \barFinalis
 
     f^\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- leb, du -- še má, Hos -- po -- di -- na,
+    a ne -- za -- po -- meň
+    na žád -- né z_je -- ho do -- bro -- di -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 103-I"
+    id = "cte-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a( g) a c b( g) a \barMaior
+    c d c d d( c) \barMin
+    c c c \mark\sipka b g a g f( g) g \barFinalis
+
+    f^\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- leb, du -- še má, Hos -- po -- di -- na,
@@ -325,13 +352,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g g g a b c b \barMin c d b a a \barMaior
     g g a g f e \mark\sipka d e e \barMin
     \mark\sipka f g g a f a g g \barFinalis
 
     f^\rubrVelikAleluja \mark\sipka a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko se smi -- lo -- vá -- vá o -- tec nad sy -- ny,
+    tak se smi -- lo -- vá -- vá Hos -- po -- din
+    nad tě -- mi, kdo se ho bo -- jí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 103-II"
+    id = "cte-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g \mark\sipka a g a b c b \barMin c d b a a \barMaior
+    g g a g f e d e e \barMin
+    f g g a f a g g \barFinalis
+
+    f^\rubrVelikAleluja a a( g) g \barFinalis
   }
   \addlyrics {
     Ja -- ko se smi -- lo -- vá -- vá o -- tec nad sy -- ny,
@@ -380,6 +434,32 @@
   \relative c'' {
     \choralniRezim
     g g \mark\sipka f g a g g \barMin c b a g a \barMaior
+    g g a g f e d e e \barMin
+    f g g a f a g g \barFinalis
+
+    f^\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko se smi -- lo -- vá -- vá o -- tec nad sy -- ny,
+    tak se smi -- lo -- vá -- vá Hos -- po -- din
+    nad tě -- mi, kdo se ho bo -- jí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 103-II"
+    id = "cte-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g \mark\sipka a g a c b a \barMin g e f g g \barMaior
     g g a g f e d e e \barMin
     f g g a f a g g \barFinalis
 
