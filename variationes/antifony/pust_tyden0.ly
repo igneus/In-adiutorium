@@ -332,9 +332,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c f( g) f( a) a \barMin
+    a bes a g g f( a) a( g) g \barMaior
+    g f( g f d) e( d) \barMin
+    c d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Když dá -- váš al -- muž -- nu,
+    ať ne -- ví tvo -- je le -- vi -- ce,
+    co dě -- lá
+    tvo -- je pra -- vi -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f( g) \mark\sipka g( a) a \barMin
     a bes a g g f( a) a( g) g \barMaior
     g f( g f d) e( d) \barMin
     c d e( f) d d \barFinalis
@@ -1001,6 +1026,28 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "A"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) \barMin
+    f f f f g f g a g f( d) d \barMaior
+    f f f e( f) d d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
