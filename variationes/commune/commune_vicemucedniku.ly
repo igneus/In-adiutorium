@@ -702,6 +702,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a c( d) c \mark\sipka b a( g) \barMaior
+    f g a b( c) a a \barMin
+    g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Du -- še spra -- ved -- li -- vých,_*
+    zpí -- vej -- te s_an -- dě -- ly
+    Bo -- hu chva -- lo -- zpěv.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g g( a) a \barMin
+    a g f g f d \barMin
+    e c e( f) d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Du -- še spra -- ved -- li -- vých,_*
+    zpí -- vej -- te s_an -- dě -- ly
+    Bo -- hu chva -- lo -- zpěv.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době postní:}
