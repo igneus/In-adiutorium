@@ -128,9 +128,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e( d c) \barMin
-    d d c d d( f) f g f e d( e) d( c) \barMaior
-    a c d d d d f e c( d) d \barFinalis
+    c4 d d( f) \barMin
+    f f f f g f g a g f( d) d \barMaior
+    f f f e( f) d d e d c( d) d \barFinalis
   }
   \addlyrics {
     Při -- jdou dny,
@@ -142,7 +142,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "_dny_ melisma moc dobře nenese"
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -948,11 +948,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d4 f e( d c) \barMin
     \mark\sipka d d c d d( f) f g f e d( e) d( c) \barMaior
     a c d \mark\sipka d d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    placet = "_dny_ melisma moc dobře nenese"
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e( d c) \barMin
+    d d c d d( f) f g f e d( e) d( c) \barMaior
+    a c d d d d \mark\sipka e d c( d) d \barFinalis
   }
   \addlyrics {
     Při -- jdou dny,
@@ -974,7 +997,7 @@
     \choralniRezim
     d4 f e( d c) \barMin
     d d c d d( f) f g f e d( e) d( c) \barMaior
-    a c d d d d \mark\sipka e d c( d) d \barFinalis
+    a c d \mark\sipka d( e) d d f e c( d) d \barFinalis
   }
   \addlyrics {
     Při -- jdou dny,
@@ -1057,10 +1080,33 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d d( f) \barMin
     f f f f g f g a g f( d) d \barMaior
     f f f e( f) d d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) \barMin
+    g g f e d d d e d d( c) c \barMaior
+    d f e d( e) c c d e d d \barFinalis
   }
   \addlyrics {
     Při -- jdou dny,
@@ -1093,6 +1139,94 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a \barMin
+    a a a a g f g a g e4. e \barMaior
+    f4 e d f( g) g g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g \mark\sipka g( a) \barMin
+    a a a a g f g a g e4. e \barMaior
+    f4 e d f( g) g g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a \barMin
+    \mark\sipka g a b g a a g a g f( e) e \barMaior
+    f e d f( g) g g \mark\sipka f g e e \barFinalis
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a) f g \barMin
+    bes a g a g g f e c d( c) c \barMaior
+    d c d d( f) f f g f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- jdou dny,
+    kdy se bu -- dou hos -- té na svat -- bě pos -- tit,
+    pro -- to -- že zů -- sta -- nou bez že -- ni -- cha.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "pa-amag"
     piece = \markup {\sestavTitulekBezZalmu}
