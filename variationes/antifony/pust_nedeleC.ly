@@ -911,6 +911,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g a a \barMaior
+    a a a g f e e f g f d e e \barFinalis
+  }
+  \addlyrics {
+    O -- brať -- te se, pra -- ví Pán,
+    ne -- boť se při -- blí -- ži -- lo ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    fial = "antifony/advent_nedeleA.ly#iimag1?zacatek=4&konec=10"
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
