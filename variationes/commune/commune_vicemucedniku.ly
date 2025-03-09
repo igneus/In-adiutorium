@@ -388,6 +388,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
@@ -417,6 +419,88 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e( a) a b( a) g( f) e \barMin
+    f d d f g f e( d) e \barMaior
+    f \mark\sipka g a a e e \barMin
+    a a g f g g e e \barFinalis
+
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci pro -- li -- li_*
+    na ze -- mi pro Kris -- ta svou krev,
+    pro -- to do -- stá -- va -- jí
+    za od -- mě -- nu věč -- ný ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g( a) g g( f d) \barMin
+    e d c e f d c( d) d \barMaior
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci pro -- li -- li_*
+    na ze -- mi pro Kris -- ta svou krev,
+    pro -- to do -- stá -- va -- jí
+    za od -- mě -- nu věč -- ný ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g( a) g g \barMin
+    f g a a bes a g( a) a \barMaior
+    c c a g f f \barMin
+    g g f d c e d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci pro -- li -- li_*
+    na ze -- mi pro Kris -- ta svou krev,
+    pro -- to do -- stá -- va -- jí
+    za od -- mě -- nu věč -- ný ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 2"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -680,6 +764,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a c( d) c b( a) a \barMaior
     c d e d( c b a) b( a) g \barMin
@@ -720,6 +805,55 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) g f e( d) \barMaior
+    d c d d( f) f f \barMin
+    g f g( a) g( f) f \barMaior
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Du -- še spra -- ved -- li -- vých,_*
+    zpí -- vej -- te s_an -- dě -- ly
+    Bo -- hu chva -- lo -- zpěv.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c b c( d) d \barMin
+    d e d c( d) c c \barMin
+    c a c( b) a( g) g \barMaior
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Du -- še spra -- ved -- li -- vých,_*
+    zpí -- vej -- te s_an -- dě -- ly
+    Bo -- hu chva -- lo -- zpěv.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -1687,7 +1821,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g a b c a a \barMin
     \mark\sipka c a a g( f) g \barMaior
@@ -1695,6 +1829,36 @@
     f g( a) a g g \barFinalis
 
     g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci by -- li za -- bi -- ti_*
+    pro Bo -- ží slo -- vo
+    a pro svě -- dec -- tví,
+    kte -- ré vy -- da -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 116-II"
+    placet = "zejm. _byli zabiti_ není moc elegantní"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g f g g a a \barMin
+    c d c a a \barMaior
+    c d c b( c) a \barMin
+    a g( f) g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Mu -- čed -- ní -- ci by -- li za -- bi -- ti_*

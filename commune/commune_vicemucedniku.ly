@@ -389,10 +389,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a c( d) c b( a) a \barMaior
-    c d e d( c b a) b( a) g \barMin
-    f( g) g a( c) b( g) g \barMaior
-    a g( a) g g \barFinalis
+    g4 a c b c( d) d \barMin
+    d e d c( d) c c \barMin
+    c a c( b) a( g) g \barMaior
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Du -- še spra -- ved -- li -- vých,_*
@@ -405,7 +405,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
-    placet = "4 lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -701,12 +700,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a b c a a \barMin
-    c a a g( f) g \barMaior
-    c c( d c) b( a) g g \barMin
-    f g( a) a g g \barFinalis
+    g4 g g g f g g a a \barMin
+    c d c a a \barMaior
+    c d c b( c) a \barMin
+    a g( f) g( a) a( g) g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Mu -- čed -- ní -- ci by -- li za -- bi -- ti_*
@@ -721,7 +720,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 116-II"
-    placet = "2 půjde lépe"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
