@@ -1057,7 +1057,59 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d( f) f d c d c c \barMin
+    d e f e f g a( g) g \barMaior
+    a a a \mark\sipka a a g( f d4.) d4 \barMin
+    c d f( e) c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Po -- dle to -- ho všich -- ni po -- zna -- jí,
+    že jste mo -- ji u -- čed -- ní -- ci,
+    bu -- de -- te -li mít lás -- ku
+    k_so -- bě na -- vzá -- jem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vmagii"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d( f) f \mark\sipka e f d c c \barMin
+    d e f e f g a( g) g \barMaior
+    a a a g f e( f d) d \barMin
+    c d f( e) c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Po -- dle to -- ho všich -- ni po -- zna -- jí,
+    že jste mo -- ji u -- čed -- ní -- ci,
+    bu -- de -- te -li mít lás -- ku
+    k_so -- bě na -- vzá -- jem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "vmagii"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka f f e f d c c \barMin
     d e f e f g a( g) g \barMaior
     a a a g f e( f d) d \barMin
     c d f( e) c( d) d \barMaior

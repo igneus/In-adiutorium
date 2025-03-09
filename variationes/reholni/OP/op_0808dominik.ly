@@ -1339,6 +1339,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a g f g g \barMaior
+    bes a g( a g) g \barMin
+    g f( g) f e d( c) \barMaior
+    \mark\sipka d c d d( f) f \barMin g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- hnut sou -- ci -- tem a lás -- kou
+    pro -- dal kni -- hy
+    a všech -- no, co měl,
+    a da -- ro -- val to na vý -- ži -- vu chu -- dých.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 125"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
