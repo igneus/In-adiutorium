@@ -160,6 +160,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( f) d e f d( c) c \barMin
+    f g a g f( g) f f \barMax
+    a a \mark\sipka g( a) f f( g) g \barMin
+    f e c d( c) \barMaior
+    d f f f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se vrá -- til od Jor -- dá -- nu
+    pl -- ný Du -- cha sva -- té -- ho.
+    Duch ho vo -- dil pouš -- tí
+    čty -- ři -- cet dní
+    a ďá -- bel ho po -- kou -- šel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "imag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -201,7 +227,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e e a a g f \mark\sipka g( a) a \barMaior
     \mark\sipka g f d d( e) e \barMin
@@ -211,6 +237,42 @@
     e e e d( e d) c \mark\sipka d( e) e \barMaior
     e \mark\sipka g( a) a \barMin
     b a g e \mark\sipka f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    Ďá -- bel Je -- ží -- šo -- vi ře -- kl:
+    Jsi -- -li Syn Bo -- ží,
+    řek -- ni to -- mu -- to ka -- me -- ní,
+    ať se z_něj sta -- ne chléb! % orig.: "z neho"
+
+    Je -- žíš mu od -- po -- vě -- děl:
+    Je psá -- no:
+    Ne -- jen z_chle -- ba ži -- je člo -- věk.
+  }
+  \header {
+    textus_approbatus = "Ďábel Ježíšovi řekl:
+    Jsi-li Syn Boží, řekni tomuto kamení, ať se z něho stane chléb!
+    Ježíš mu odpověděl: Je psáno: Nejen z chleba žije člověk."
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e e a a g f g( a) a \barMaior
+    g f d d( e) e \barMin
+    g g a g a f e e \barMin
+    d d d g( f) g e \barMax
+
+    e e e \mark\sipka d c d( e) e \barMaior
+    e g( a) a \barMin
+    b a g e f( g) g e e \barFinalis
   }
   \addlyrics {
     Ďá -- bel Je -- ží -- šo -- vi ře -- kl:
@@ -334,6 +396,41 @@
     quid = "ant. k Benedictus"
     modus = "IV"
     differentia = "E"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g g a a g f g( a) a \barMaior
+    c b c a a \barMin
+    c a b c a g( a) g g \barMin
+    a a a g( f) a a( g) \barMax
+
+    g g g f e d( e) e \barMaior
+    f g( a) a \barMin
+    c b a g f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Ďá -- bel Je -- ží -- šo -- vi ře -- kl:
+    Jsi -- -li Syn Bo -- ží,
+    řek -- ni to -- mu -- to ka -- me -- ní,
+    ať se z_něj sta -- ne chléb! % orig.: "z neho"
+
+    Je -- žíš mu od -- po -- vě -- děl:
+    Je psá -- no:
+    Ne -- jen z_chle -- ba ži -- je člo -- věk.
+  }
+  \header {
+    textus_approbatus = "Ďábel Ježíšovi řekl:
+    Jsi-li Syn Boží, řekni tomuto kamení, ať se z něho stane chléb!
+    Ježíš mu odpověděl: Je psáno: Nejen z chleba žije člověk."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -516,6 +613,54 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c d d \barMin
+    c d e c \mark\sipka d d \barMaior
+    d c b a( g) a g \barMin
+    f g a bes c c a a \barFinalis
+  }
+  \addlyrics {
+    Když ďá -- bel do -- kon -- čil
+    všech -- na po -- ku -- še -- ní,
+    o -- pus -- til Je -- ží -- še
+    až do ur -- če -- né -- ho ča -- su.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c d d \barMin
+    c d e c d d \barMaior
+    \mark\sipka d a d c( b) a a \barMin
+    f g a c b c a a \barFinalis
+  }
+  \addlyrics {
+    Když ďá -- bel do -- kon -- čil
+    všech -- na po -- ku -- še -- ní,
+    o -- pus -- til Je -- ží -- še
+    až do ur -- če -- né -- ho ča -- su.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{2. neděle postní}
@@ -608,6 +753,37 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4 a g f g( a) a \barMin
+    bes c d c bes c a a \barMaior
+    a g a e \barMin
+    f g bes a g( a) a \barMax
+
+    a g( a) \barMin bes c d c bes c a a \barMaior
+    a bes a g( a) a c d( c) bes( a) a \barFinalis
+  }
+  \addlyrics {
+    Když se Je -- žíš mod -- lil,
+    vý -- raz tvá -- ře se mu změ -- nil
+    a je -- ho šat
+    o -- sl -- ni -- vě zbě -- lel.
+
+    A hle, roz -- mlou -- va -- li s_ním dva mu -- ži_–
+    by -- li to Moj -- žíš a E -- li -- áš.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
     psalmus = ""
     id = "iimag1"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -37,7 +37,7 @@
     g g a g a f e e \barMin
     d d d g( f) g e \barMax
 
-    e e e d( e d) c d( e) e \barMaior
+    e e e d c d( e) e \barMaior
     e g( a) a \barMin
     b a g e f( g) g e e \barFinalis
   }
