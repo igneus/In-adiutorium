@@ -316,6 +316,76 @@
   }
 }
 
+\markup\justify{
+  (Ten špatný nápad s melodií odkazující na zdroj textu
+  i pro češtinu)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    c4 e g g g \barMin c c b a g a g \barMax
+    c g d f g e e( d) c \barFinalis
+    % V
+    \neviditelna d
+    c e g( a) g \barMin a b c g g f e f g \barMax
+    % R
+    \neviditelna g
+    c g d f g f f( e) d \barFinalis
+    e c d d( e) \barMin a f( e) e \barMaior
+  }
+  \addlyrics {
+    \Response Pa -- ne, skloň se k_nám a smi -- luj se nad ná -- mi,_*
+    zhře -- ši -- li jsme pro -- ti to -- bě.
+    \Verse Kris -- te, vy -- slyš na -- še vo -- lá -- ní a od -- pusť nám,_*
+    \Response zhře -- ši -- li jsme pro -- ti to -- bě.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "V"
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "ne-ne"
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    \neviditelna g
+    g4 g a f g \barMin a b c a g a g \barMax
+    g f e d e f g g \barFinalis
+
+    \neviditelna g
+    e f g( a) g \barMin a b c g g f e f g \barMax
+    \neviditelna g
+    g f e d e f g g \barFinalis
+
+    e f g( a) g f e( f) g \barMin
+    a( b) c g e f g \barFinalis
+  }
+  \addlyrics {
+    \Response Pa -- ne, skloň se k_nám a smi -- luj se nad ná -- mi,_*
+    zhře -- ši -- li jsme pro -- ti to -- bě.
+
+    \Verse Kris -- te, vy -- slyš na -- še vo -- lá -- ní a od -- pusť nám,_*
+    \Response zhře -- ši -- li jsme pro -- ti to -- bě.
+
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VIII"
+    titulus = "neděle - nešpory"
+    piece = \markup\sestavTitulekRespII
+    id = "ne-ne"
+  }
+}
+
 \pageBreak
 
 \markup\justify{
