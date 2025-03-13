@@ -155,9 +155,9 @@
 % ale uryvek melodie nebyl samostatne pouzitelny.
 % Tato je tedy nova, nezavisla.
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4. a \barMin a4 a b a a g a f( e) e \barMaior
+    e4( a) a \barMin g a a( b) a g a g e e \barMaior
     d e f( g) g e e \barFinalis
   }
   \addlyrics {
@@ -167,7 +167,7 @@
   \header {
     quid = "1. ant."
     modus = "IV"
-    differentia = "g"
+    differentia = "E"
     psalmus = "Žalm 110"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
@@ -249,7 +249,7 @@
     a bes a g a f g e \barMin
     d d d c d f d f g f d d \barMaior
     a' g a g f e( f) d \barMin
-    c d d \barFinalis
+    e c d \barFinalis
   }
   \addlyrics {
     Co -- ko -- li jste u -- dě -- la -- li
