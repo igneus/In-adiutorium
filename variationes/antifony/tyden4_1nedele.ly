@@ -1590,6 +1590,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g( a) g g \barMin
+    g a g f g g f f \barMin
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   ... zato tady původní verze antifony slovní přízvuk přesouvala zcela nepochybně.
 }
