@@ -12,13 +12,14 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 b a g a( c d) d( c) c( d) \barMaior
-    e( d c) a a b g b c a( g) a \barMax
-    a c( d e) d c e( d c) d d( c) \barMin
-    b( a) g a( b) a a \barFinalis
-    g^\markup\rubrVelikAleluja a( b) a a \barFinalis
+    f4 f e d e( f) d d \barMin
+    f g a g f g f d( c) c \barMaior
+    f f e d c( d) c c \barMin
+    d c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Mu -- čed -- ní -- ci na ze -- mi_*
@@ -29,24 +30,23 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 118-I+II"
-    placet = "4 lépe"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a c( b) c d d( e) e \barMin
-    d e d c d d a a \barMaior
-    a a b g e e f f( e) e \barMin
-    e f g a( b a) a \barFinalis
+    c4 d d( f) e d d( f) f \barMin
+    g a g f g f d d \barMaior
+    d f f e d c d d( c) c \barMin
+    d f e d( e d4.) d4 \barFinalis
 
-    g^\markup\rubrVelikAleluja a b a \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Sva -- tí ví -- těz -- ně do -- šli_*
@@ -58,12 +58,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 118-III"
-    placet = "4 lépe"
     id = "1ne-a2"
-    fons = "podle 3. ant. nešp. Zeleného čtvrtku" % hodně volný vztah, fial by tu ničemu nepomohl
     piece = \markup {\sestavTitulek}
   }
 }
