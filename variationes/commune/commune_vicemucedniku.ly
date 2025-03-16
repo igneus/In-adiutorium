@@ -315,6 +315,108 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    %d4 d( a) a d c b a4. a \barMaior
+    %f4 g a a \barMin
+    a b c c4.( a4 g) a( b) a a \barFinalis
+
+    b^\markup\rubrVelikAleluja a g( a) a \barFinalis
+  }
+  \addlyrics {
+    %Mu -- čed -- ní -- ci po -- lo -- ži -- li_* ži -- vot pro Kris -- ta
+    a bu -- dou žít na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "1 Petr 2"
+    fial = "commune/commune_jedenmucednik.ly#2ne-a3?cast=3-4"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c a c b g( a) a \barMin
+    a c a b( c) a( g) g \barMaior
+    g f g g( a) \barMin c( b) g( a) a  \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci po -- lo -- ži -- li_*
+    svůj ži -- vot pro Kris -- ta
+    a bu -- dou žít na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Mučedníci položili život pro Krista
+    a budou žít navěky. Aleluja."
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = "1 Petr 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g a g g f g a g g \barMaior
+    g f g g( a) \barMin b( c) a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci po -- lo -- ži -- li_* ži -- vot pro Kris -- ta
+    a bu -- dou žít na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "1 Petr 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g a g g f g a g g \barMaior
+    \mark\sipka a b g g( e) \barMin f( e) d( e) e \barFinalis
+
+    f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci po -- lo -- ži -- li_* ži -- vot pro Kris -- ta
+    a bu -- dou žít na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "III"
+    differentia = "h"
+    psalmus = "1 Petr 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
