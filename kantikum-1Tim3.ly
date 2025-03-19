@@ -106,7 +106,7 @@ mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFina
 
 %%% II.D
 
-mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinalis }
+mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f g g f f \barFinalis }
 \score {
   \relative c'  {
     \choralniRezim
@@ -116,19 +116,19 @@ mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinal
     f f f f f e c d \barFinalis
     \mRespII
     \neviditelna d
-    f4 f f f g f f \barMaior
+    f4 f f g g f f \barMaior
     f f e c d d \barFinalis
     \mRespII
     \neviditelna d
-    f4 f f f g f f \barMaior
+    f4 f f g g f f \barMaior
     f e c d d \barFinalis
     \mRespII
     \neviditelna d
-    f4 f f f f g f \barMaior
+    f4 f f f g g f \barMaior
     f f e c d d \barFinalis
     \mRespII
     \neviditelna d
-    f4 f f f f f f f f f f f g f \barMaior
+    f4 f f f f f f f f f f g g f \barMaior
     f f f f f e c d \barFinalis
   }
   \addlyrics { \text }
@@ -136,7 +136,6 @@ mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinal
     quid = "kantikum"
     modus = "II"
     differentia = "D"
-    placet = "jednotvárné, responsum příliš podobné verši"
     id = "ii"
     piece = \markup\sestavTitulekBezZalmu
   }

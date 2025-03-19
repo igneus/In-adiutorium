@@ -106,6 +106,7 @@ mRespIa = \relative c'' { \neviditelna a a4 a g( a) g \barMin g f g a a \barFina
 mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinalis }
 \score {
   \relative c'  {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     \mRespII
@@ -134,6 +135,7 @@ mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinal
     quid = "kantikum"
     modus = "II"
     differentia = "D"
+    placet = "jednotvárné, responsum příliš podobné verši"
     id = "ii"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -150,6 +152,14 @@ mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinal
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim \neviditelna d c4 d d( f) f \barMin \mark\sipka f g g f f \barFinalis
+  }
+  \addlyrics { \tResp }
+}
+
+\score {
   \relative c' { \choralniRezim \neviditelna d f4 f e( f) d \barMin d c d f e \barFinalis }
   \addlyrics { \tResp }
 }
@@ -160,6 +170,42 @@ mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f e c d d \barFinal
     \choralniRezim \neviditelna f f4 f f f f f \mark\sipka g g f f \barMaior
   }
   \addlyrics { \Verse On při -- šel v_lid -- ské při -- ro -- ze -- nos -- ti,_* }
+}
+
+mRespII = \relative c' { \neviditelna d c4 d d( f) f \barMin f g g f f \barFinalis }
+\score {
+  \relative c'  {
+    \zvyraznovacModry
+    \choralniRezim
+    \mRespII
+    \neviditelna d
+    f4 f f f f f g g f f \barMaior
+    f f f f f e c d \barFinalis
+    \mRespII
+    \neviditelna d
+    f4 f f \mark\sipka g g f f \barMaior
+    f f e c d d \barFinalis
+    \mRespII
+    \neviditelna d
+    f4 f f \mark\sipka g g f f \barMaior
+    f e c d d \barFinalis
+    \mRespII
+    \neviditelna d
+    f4 f f f \mark\sipka g g f \barMaior
+    f f e c d d \barFinalis
+    \mRespII
+    \neviditelna d
+    f4 f f f f f f f f f f \mark\sipka g g f \barMaior
+    f f f f f e c d \barFinalis
+  }
+  \addlyrics { \text }
+  \header {
+    quid = "kantikum"
+    modus = "II"
+    differentia = "D"
+    id = "ii"
+    piece = \markup\sestavTitulekBezZalmu
+  }
 }
 
 mRespVI = \relative c' { \neviditelna f f4 f f( a) a \barMin g f g f f \barFinalis }
