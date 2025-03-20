@@ -861,6 +861,35 @@
     \choralniRezim
     d4 a c( d) d \barMin
     d c d f e \barMaior
+    e f d d d f e \mark\sipka c d c \barMin
+    d f e \mark\sipka d( e c) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta,
+    na -- še -- ho Pá -- na,
+    a o -- sla -- vuj -- me je -- ho pěs -- tou -- na,
+    sva -- té -- ho Jo -- se -- fa.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_maria.ly#invit2?zacatek=19"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a c( d) d \barMin
+    d c d f e \barMaior
     e f d d d f e \mark\sipka d( e) d( c) c \barMin
     d f e d( e d) c( d) d \barFinalis
 
@@ -1370,6 +1399,36 @@
     c c c b c a g( a) g \barMaior
     a a a a f( e) d
     f g( a) a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Jo -- sef se o -- de -- bral z_Na -- za -- re -- ta
+    vzhů -- ru do měs -- ta Da -- vi -- do -- va,
+    kte -- ré se jme -- nu -- je Bet -- lém,
+    a -- by se dal za -- psat
+    spo -- lu s_Ma -- ri -- í.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) g g f e f( g) g \barMaior
+    a( c) c d c c d c a a \barMin
+    c c c b c a g( a) g \barMaior
+    \mark\sipka g g f d f( g) g \barMin
+    a( b) a a g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
