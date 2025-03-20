@@ -1617,6 +1617,28 @@ Potřebuje výraznější úpravu:}
 \score {
   \relative c'' {
     \choralniRezim
+    g4 b c d d b d( e) d d \barMaior
+    d c b \mark\sipka g a g f( g) g \barMin
+    f^\markup\rubrMimoPust g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh vi -- děl všech -- no, co u -- dě -- lal,
+    a by -- lo to vel -- mi dob -- ré.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 104-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g a c c c d( e) d d \barMaior
     d c b a g a a( g) g \barMaior
     a^\markup\rubrMimoPust g f( a) g \barFinalis

@@ -318,6 +318,54 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a c( d) d \barMin d d d c d( e) d c( d) c c \barMaior
+    a b c a( g f) g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci_* po -- lo -- ži -- li ži -- vot pro Kris -- ta
+    a bu -- dou žít na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "1 Petr 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin d d d c d( e) \mark\sipka c d( e) d d \barMaior
+    d b c a( g) \barMin a( g) f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci_* po -- lo -- ži -- li ži -- vot pro Kris -- ta
+    a bu -- dou žít na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "1 Petr 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     %d4 d( a) a d c b a4. a \barMaior
     %f4 g a a \barMin
     a b c c4.( a4 g) a( b) a a \barFinalis
@@ -411,6 +459,31 @@
     quid = "3. ant."
     modus = "III"
     differentia = "h"
+    psalmus = "1 Petr 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e d d d e d c c \barMaior
+    d e f d( c) \barMin a( c) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci po -- lo -- ži -- li_* ži -- vot pro Kris -- ta
+    a bu -- dou žít na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    differentia = "D"
     psalmus = "1 Petr 2"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
