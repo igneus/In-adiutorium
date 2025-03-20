@@ -700,7 +700,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a f f( g) g \barMin
     a b c d c a g g \barMaior
@@ -731,6 +731,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g a f \mark\sipka g( a g) g \barMin
     a b c d c a g g \barMaior
@@ -925,6 +926,55 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    \mark\sipka a g f g( a) g \barMaior
+    g a a g f e f d c c \barMaior
+    d( e f d) d \barMin f g f e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Náš Pán Je -- žíš Kris -- tus
+    zlo -- mil moc smr -- ti
+    a při -- ne -- sl nám v_e -- van -- ge -- li -- u
+    svět -- lo ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a g f g( a) g \barMaior
+    g a a g f e f d c c \barMaior
+    \mark\sipka c( d f g) g \barMin a g f e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Náš Pán Je -- žíš Kris -- tus
+    zlo -- mil moc smr -- ti
+    a při -- ne -- sl nám v_e -- van -- ge -- li -- u
+    svět -- lo ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1041,6 +1091,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f \mark\sipka e( f d) c d \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Z_ob -- la -- ku se o -- zval hlas:
+    To je můj vy -- vo -- le -- ný Syn,
+    to -- ho po -- slou -- chej -- te!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/pust_nedeleB.ly#iimag2?zacatek=4&konec=22"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{3. neděle postní}
@@ -1072,6 +1145,26 @@
     \choralniRezim
     d4 f e d \mark\sipka f g a \barMaior
     a a \mark\sipka f g f d d \barMin c f e c d d \barFinalis
+  }
+  \addlyrics {
+    O -- brať -- te se, pra -- ví Pán,
+    ne -- boť se při -- blí -- ži -- lo ne -- bes -- ké krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d f g a \barMaior
+    a a f g f d d \barMin \mark\sipka e f d c( f) e( d) d \barFinalis
   }
   \addlyrics {
     O -- brať -- te se, pra -- ví Pán,

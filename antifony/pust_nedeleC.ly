@@ -93,7 +93,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a f f( g) g \barMin
+    g4 g a f g( a g) g \barMin
     a b c d c a g g \barMaior
     c c c b( a g) \barMin
     a a f e f( g) g \barMax
@@ -139,6 +139,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "2 začátek je pro modus VII netypický a naopak charakteristický pro modus I"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
