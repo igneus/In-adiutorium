@@ -3863,7 +3863,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       \key f \major
       a4( bes) f f( g a) \barMin
@@ -3871,6 +3871,34 @@
       g4 g g g g g f e d d \barMaior
       f e f( g) g \barMin
       g a a a \mark\sipka f( e) c( d) d \barFinalis
+    }
+    \addlyrics {
+      Po třech dnech
+      na -- šli Je -- ží -- še v_chrá -- mě,
+      jak se -- dí u -- pro -- střed u -- či -- te -- lů,
+      po -- slou -- chá je
+      a dá -- vá jim o -- táz -- ky.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Žalm 122"
+      id = "svrodiny-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \key f \major
+      a4( bes) f f( g a) \barMin
+      a g bes( a) g f g4. g \barMax
+      g4 g g g g g f e d d \barMaior
+      f e f( g) g \barMin
+      g a \mark\sipka g f e( f) d d \barFinalis
     }
     \addlyrics {
       Po třech dnech

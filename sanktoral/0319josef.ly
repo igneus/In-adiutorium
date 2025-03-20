@@ -631,9 +631,9 @@
     a g bes( a) g f g4. g \barMax
     g4 g g g g g f e d d \barMaior
     f e f( g) g \barMin
-    g a a a f( e) c( d) d \barFinalis
+    g a g f e( f) d d \barFinalis
 
-    f^\markup\rubrVelikAleluja e c( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Po třech dnech
