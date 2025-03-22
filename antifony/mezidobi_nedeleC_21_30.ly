@@ -416,9 +416,9 @@
     \choralniRezim
     f4 d f e d d \barMin
     f f f f g( a) g g f d e( d) \barMin
-    f f f f f e c c( d) d \barMaior
-    d d d d d c d e( f d4.) d \barMin
-    f4 f e( c) c( d) d \barFinalis
+    c d f f f g f e( d) d \barMaior
+    d d d d c e( f) e d d \barMin
+    e g f d d \barFinalis
   }
   \addlyrics {
     Sy -- nu, u -- vě -- dom si,

@@ -2075,13 +2075,149 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 d f e d d \barMin
     f f f f g( a) g g f d e( d) \barMin
     f f f f f e c c( d) d \barMaior
     d d d d d c d e( f \mark\sipka d4.) d \barMin
     \mark\sipka f4 f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně;
+    ny -- ní za -- tím -- co ty se trá -- píš,
+    on se ra -- du -- je.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    \mark\sipka c d f f f e c c( d) d \barMaior
+    d d d d d c d e( f d4.) d \barMin
+    f4 f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně;
+    ny -- ní za -- tím -- co ty se trá -- píš,
+    on se ra -- du -- je.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    c d f f f \mark\sipka g f e( d) d \barMaior
+    d d d d d c d e( f d4.) d \barMin
+    f4 f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně;
+    ny -- ní za -- tím -- co ty se trá -- píš,
+    on se ra -- du -- je.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    c d f f f g f e( d) d \barMaior
+    d d d d \mark\sipka c e( f) e d d \barMin
+    e c d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně;
+    ny -- ní za -- tím -- co ty se trá -- píš,
+    on se ra -- du -- je.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    c d f f f g f e( d) d \barMaior
+    d d d d c e( f) e d d \barMin
+    \mark\sipka g e f d d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně;
+    ny -- ní za -- tím -- co ty se trá -- píš,
+    on se ra -- du -- je.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    c d f f f g f e( d) d \barMaior
+    d d d d c e( f) e d d \barMin
+    \mark\sipka e g f d d \barFinalis
   }
   \addlyrics {
     Sy -- nu, u -- vě -- dom si,

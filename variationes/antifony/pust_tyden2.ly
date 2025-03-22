@@ -2664,6 +2664,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     f4 d f e d d \barMin
     f f f f g( a) g g f d e( d) \barMin
@@ -2680,6 +2681,54 @@
     differentia = "D"
     psalmus = ""
     fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-rch-ben?cast"
+    placet = "úryvek doslovně vystřižený z delší antifony nefunguje jako samostatný zpěv"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    \mark\sipka c d f g f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-rch-ben?cast=1-2"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    c d f \mark\sipka e d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-rch-ben?cast=1-2"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2991,11 +3040,56 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d f e f d( c) c \barMaior
     d e f e d e( d) d \barMaior
     f \mark\sipka g a f g f d d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
+    a -- le mě -- li strach z_li -- du,
+    pro -- to -- že ho po -- va -- žo -- val za pro -- ro -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f e f \mark\sipka d( e) d( c) \barMaior
+    d e f e d e( d) d \barMaior
+    f g a f g f d d e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dě -- li se Je -- ží -- še zmoc -- nit,
+    a -- le mě -- li strach z_li -- du,
+    pro -- to -- že ho po -- va -- žo -- val za pro -- ro -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f e \mark\sipka d d( e) d( c) \barMaior
+    d e f e d e( d) d \barMaior
+    f g a f g f d d e d c( d) d \barFinalis
   }
   \addlyrics {
     Hle -- dě -- li se Je -- ží -- še zmoc -- nit,

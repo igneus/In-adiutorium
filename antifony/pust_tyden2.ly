@@ -377,7 +377,7 @@
     \choralniRezim
     f4 d f e d d \barMin
     f f f f g( a) g g f d e( d) \barMin
-    f f f f f e c c( d) d \barFinalis
+    c d f g f e c c( d) d \barFinalis
   }
   \addlyrics {
     Sy -- nu, u -- vě -- dom si,
@@ -389,8 +389,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-rch-ben?cast"
-    placet = "úryvek doslovně vystřižený z delší antifony nefunguje jako samostatný zpěv"
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne26c-rch-ben?cast=1-2"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -449,7 +448,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d f e f d( c) c \barMaior
+    d4 d c d f e f d( e) d( c) \barMaior
     d e f e d e( d) d \barMaior
     f g a f g f d d e d c( d) d \barFinalis
   }
