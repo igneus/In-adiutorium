@@ -333,7 +333,7 @@
     c e g( a) g \barMin a b c g g f e f g \barMax
     % R
     \neviditelna g
-    c g d f g f f( e) d \barFinalis
+    c g d f g e e( d) c \barFinalis
     e c d d( e) \barMin a f( e) e \barMaior
   }
   \addlyrics {
@@ -366,7 +366,7 @@
     c e g( a) g \barMin a b c g g f e f g \barMax
     % R
     \neviditelna g
-    c g d f g f f( e) d \barFinalis
+    c g d f g e e( d) c \barFinalis
     \mark\sipka c e g( a) g \barMin a b c g g f e f g \barFinalis
   }
   \addlyrics {
