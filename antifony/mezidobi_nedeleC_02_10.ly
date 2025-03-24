@@ -536,9 +536,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( d) d \barMin e c d e d d \barMin
-    e e e d c b( c a g) g \barMaior
-    a c b( c a) a \barMin
+    g4 a c( d) d \barMin c d e c d d \barMin
+    d d d c a b( c a g) g \barMaior
+    f g g( a) a \barMin
     a c c b a b a g( a) a \barFinalis
   }
   \addlyrics {
@@ -553,7 +553,6 @@
     differentia = "A"
     psalmus = ""
     annus = "C"
-    placet = "2 ta bude spíš do modu I nebo (s jiným závěrem) VII"
     id = "ne9c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

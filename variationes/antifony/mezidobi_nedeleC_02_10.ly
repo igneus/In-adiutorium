@@ -2651,7 +2651,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c( d) d \barMin e c d e d d \barMin
     e e e d c b( c a g) g \barMaior
@@ -2670,6 +2670,7 @@
     differentia = "A"
     psalmus = ""
     annus = "C"
+    placet = "2 ta bude spíš do modu I nebo (s jiným závěrem) VII"
     id = "ne9c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2693,6 +2694,57 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin \mark\sipka c d e c d d \barMin
+    d d d c a b( c a g) g \barMaior
+    f g g( a) a \barMin
+    a c c b a b a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Je -- den set -- ník po -- slal k_Je -- ží -- šo -- vi
+    ži -- dov -- ské star -- ší s_pros -- bou,
+    a -- by při -- šel
+    a u -- zdra -- vil mu slu -- žeb -- ní -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "C"
+    id = "ne9c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin c d e c d d \barMin
+    d d d c a b( c a g) g \barMaior
+    f g g( a) a \barMin
+    a c c b a \mark\sipka g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- den set -- ník po -- slal k_Je -- ží -- šo -- vi
+    ži -- dov -- ské star -- ší s_pros -- bou,
+    a -- by při -- šel
+    a u -- zdra -- vil mu slu -- žeb -- ní -- ka.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = "ne9c-1ne-amag"
