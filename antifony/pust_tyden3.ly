@@ -64,7 +64,7 @@
     modus = "I"
     differentia = "a2"
     psalmus = "Flp 2"
-    fial = "pust_svatytyden.ly#ut-ne-amag?zacatek"
+    fial = "pust_svatytyden.ly#ut-ne-amag?cast=1-2"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }

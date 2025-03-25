@@ -69,7 +69,7 @@
     Ten začátek z delší antifony na takhle malé ploše použít nejde."
     id = "1ne-a2"
     fons = "1. část: Krista Krále, 1. nešp., k Magnificat"
-    fial = "mezidobi_kristakrale.ly#1ne-amag?zacatek"
+    fial = "mezidobi_kristakrale.ly#1ne-amag?cast=1-2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -338,7 +338,7 @@
     modus = "VIII"
     differentia = "G*"
     psalmus = ""
-    fial = "antifony/advent_tyden2.ly#ut-aben?zacatek"
+    fial = "antifony/advent_tyden2.ly#ut-aben?cast=1-3,6"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -675,7 +675,7 @@
     psalmus = "Žalm 130"
     id = "2ne-a2"
     fons = "1. část: 1. ne adventní, cyklus B, 2. nešp., k Magnificat"
-    fial = "fial://antifony/advent_nedeleB.ly#imag2?zacatek"
+    fial = "fial://antifony/advent_nedeleB.ly#imag2?cast=1-2"
     piece = \markup {\sestavTitulek}
   }
 }
