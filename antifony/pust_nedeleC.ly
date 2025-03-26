@@ -196,8 +196,8 @@
     g4 a a a g a g f e e \barMin
     f g a a g( a) a \barMaior
     a c c d c b g( a) a \barMaior
-    a a g( a) g f e e \barMin
-    f g f d( e) e \barFinalis
+    g f g( a) g f d d \barMin
+    e f d c( d) d \barFinalis
   }
   \addlyrics {
     Jest -- li -- že jsme o -- spra -- ve -- dl -- ně -- ni
@@ -208,10 +208,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "IV"
+    modus = "I"
     differentia = "g"
     psalmus = ""
-    placet = "_žijeme v pokoji s Bohem_ bez zvláštní přidané hodnoty utíká z obvyklého rozsahu; závěr je ne zcela uspokojivý"
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

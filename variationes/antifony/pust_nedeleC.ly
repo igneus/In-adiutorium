@@ -1283,13 +1283,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a g a g f e e \barMin
     f g a a g( a) a \barMaior
     a c c d c b g( a) a \barMaior
     \mark\sipka a a g( a) g f e e \barMin
     f g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že jsme o -- spra -- ve -- dl -- ně -- ni
+    na zá -- kla -- dě ví -- ry,
+    ži -- je -- me v_po -- ko -- ji s_Bo -- hem
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    placet = "_žijeme v pokoji s Bohem_ bez zvláštní přidané hodnoty utíká z obvyklého rozsahu; závěr je ne zcela uspokojivý"
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a g a g f e e \barMin
+    f g a a g( a) a \barMaior
+    a c c d c b g( a) a \barMaior
+    a a g( a) g f e e \barMin
+    \mark\sipka e f d d( e) e \barFinalis
   }
   \addlyrics {
     Jest -- li -- že jsme o -- spra -- ve -- dl -- ně -- ni
@@ -1315,6 +1342,88 @@
     f g a a g( a) a \barMaior
     a c c d c b g( a) a \barMaior
     \mark\sipka g f g( a) g f e e \barMin
+    f g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že jsme o -- spra -- ve -- dl -- ně -- ni
+    na zá -- kla -- dě ví -- ry,
+    ži -- je -- me v_po -- ko -- ji s_Bo -- hem
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Zdá se, že uspokojivější závěr má daná melodie na d:
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a a g a g f e e \barMin
+    f g a a g( a) a \barMaior
+    a c c d c b g( a) a \barMaior
+    g f g( a) g f \mark\sipka d d \barMin
+    e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že jsme o -- spra -- ve -- dl -- ně -- ni
+    na zá -- kla -- dě ví -- ry,
+    ži -- je -- me v_po -- ko -- ji s_Bo -- hem
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a g a g f e e \barMin
+    f g a a g( a) a \barMaior
+    a c c d c b g( a) a \barMaior
+    g f \mark\sipka g a g e e \barMin
+    e f d d( e) e \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že jsme o -- spra -- ve -- dl -- ně -- ni
+    na zá -- kla -- dě ví -- ry,
+    ži -- je -- me v_po -- ko -- ji s_Bo -- hem
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a g a g f e e \barMin
+    f g a a g( a) a \barMaior
+    a \mark\sipka g a c b g g( a) a \barMaior
+    a a g( a) g f e e \barMin
     f g f d( e) e \barFinalis
   }
   \addlyrics {
