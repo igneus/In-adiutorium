@@ -401,8 +401,8 @@
   \relative c' {
     \choralniRezim
     f g g a a \barMin
-    b( c a) g a g g \barMaior
-    c( d c) b a g g g f g a f f( g) g \barFinalis
+    c b a( b) g g \barMaior
+    c c b a g g f g a f f( g) g \barFinalis
 
     a^\markup\rubrVelikAleluja a g( a) g \barFinalis
   }
@@ -420,7 +420,7 @@
     psalmus = "Žalm 149"
     id = "rch-a3"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část; doplněno aleluja"
-    fial = "fial://vanoce_narozenipane.ly#27-amag?konec&+aleluja"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?cast&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }

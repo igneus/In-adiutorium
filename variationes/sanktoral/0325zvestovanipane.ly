@@ -2066,7 +2066,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka f g g a a \barMin
     b( c a) g a g g \barMaior
@@ -2089,6 +2089,37 @@
     id = "rch-a3"
     fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část; doplněno aleluja"
     fial = "fial://vanoce_narozenipane.ly#27-amag?cast=2&+aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g g a a \barMin
+    c b a( b) g g \barMaior
+    c c b a g g f g a f f( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Pan -- na po -- ča -- la,
+    pan -- nou zů -- sta -- la,
+    pan -- na po -- ro -- di -- la Spa -- si -- te -- le svě -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    fons = "oktáv Narození Páně, 27.12., k Magnificat, druhá část; doplněno aleluja"
+    fial = "fial://vanoce_narozenipane.ly#27-amag?cast&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
