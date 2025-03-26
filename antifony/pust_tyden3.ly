@@ -29,7 +29,7 @@
   \relative c' {
     \choralniRezim
     f4 g a a g f f( g) g \barMin f e d( c) c \barMaior
-    d f f g a g f f \barFinalis
+    d f f g f g( a) f f \barFinalis
   }
   \addlyrics {
     Při -- ne -- su ti o -- běť dí -- ků, Hos -- po -- di -- ne,
@@ -51,7 +51,7 @@
     a4 a g g( a) a \barMin
     f g f g a f e( f) d d \barMaior
     a' a g a c b g a( g) \barMin
-    g f e e( f d) c d d \barFinalis
+    f e f d c d d \barFinalis
   }
   \addlyrics {
     Dá -- vám svůj ži -- vot,
@@ -161,8 +161,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g g( a) f f( g) g \barMin
-    f g g( a) f e e \barMaior
+    f4 g a a( bes) g g( a) a \barMin
+    g f f( g) g e e \barMaior
     g f e d c d e( f) d d \barFinalis
   }
   \addlyrics {
@@ -173,7 +173,7 @@
   \header {
     quid = "2. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "f"
     psalmus = "Žalm 111"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
