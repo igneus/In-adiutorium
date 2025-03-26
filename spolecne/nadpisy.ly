@@ -90,7 +90,7 @@
 
 #(define-markup-command (cantusid-link layout props cantusid) (string?)
    "odkaz na CANTUS ID na CantusIndexu"
-   (let ((href (string-append "https://www.cantusindex.org/id/" cantusid))
+   (let ((href (string-append "https://cantusindex.org/id/" cantusid))
          (text (string-append "CANTUS " cantusid)))
      (interpret-markup layout props
        #{ \markup\with-url #href { #text } #} )))
