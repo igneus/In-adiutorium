@@ -179,6 +179,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f f \barMin \mark\sipka g f g( a) a( g) \barMax
+    f g a g( f d) f( g) g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a g( a) g g \barMin g g g g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    f g a g( f d) f( g) g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zr -- no, kte -- ré pad -- ne do ze -- mě a o -- du -- mře,_*
+    při -- ne -- se hoj -- ný u -- ži -- tek.
+    \Verse Kdo je o -- cho -- ten po -- lo -- žit ži -- vot za brat -- ry,_*
+    \Response při -- ne -- se hoj -- ný u -- ži -- tek.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
