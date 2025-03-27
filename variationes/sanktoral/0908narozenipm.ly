@@ -1212,12 +1212,40 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c( d) d \barMin
     c d e c d d d \barMaior
     a d b c a( g) \barMin
     f( g) a c( b) a a \barFinalis
+  }
+  \addlyrics {
+    Z_ko -- ře -- ne Jes -- se
+    vze -- šla Pan -- na Ma -- ri -- a,
+    kte -- rá po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 122"
+    id = "ne-a1"
+    fial = "sanktoral/0325zvestovanipane.ly#tercie?-aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d b c a( g) \barMin
+    f g a( c) a a \barFinalis
   }
   \addlyrics {
     Z_ko -- ře -- ne Jes -- se

@@ -22,7 +22,7 @@
     d f e d( c) a \barMin
     g( f g) bes a g( f) f \barFinalis
 
-    g^\markup\rubrVelikAleluja a f f \barFinalis
+    g^\markup\rubrVelikAleluja g( a g) f f \barFinalis
   }
   \addlyrics {
     Vy -- ra -- zí ra -- to -- lest
@@ -46,17 +46,18 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g a c( d a) \barMin
-    c b a b g( a) a a \barMaior
-    c c d( e d) c( b) a( g) \barMin
-    b( c a) g( a) a \barFinalis
+    a4 a g a a( c) \barMin
+    d c d e e d d \barMaior
+    d c d( e) d d( c a)
+    b( a) g( a) a \barFinalis
 
     b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
     Pán Bůh mu dá trůn
     je -- ho před -- ka Da -- vi -- da,
-    bu -- de kra -- lo -- vat na -- vě -- ky.
+    bu -- de kra -- lo -- vat
+    na -- vě -- ky.
 
     A -- le -- lu -- ja.
   }
@@ -65,11 +66,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 147-II"
-    placet = "Nedrží pohromadě, není náležitě celistvá a zaokrouhlená.
-    Ten začátek z delší antifony na takhle malé ploše použít nejde."
     id = "1ne-a2"
-    fons = "1. část: Krista Krále, 1. nešp., k Magnificat"
-    fial = "mezidobi_kristakrale.ly#1ne-amag?cast=1-2"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,7 +78,7 @@
       d4 c b c( a) a b c a g a( g) g \barMaior
       f f e d d( g) g \barMin g f g a c b g g \barFinalis
 
-    f^\markup\rubrVelikAleluja f f( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Věč -- né Slo -- vo, Syn Bo -- ží,
@@ -176,8 +173,8 @@
   \relative c'' {
     \choralniRezim
     a4 c( d) d \barMin
-    e d c b( c) a a g( a) a( g) g \barMaior
-    c d( e d) c b a-- a b c( a) a( g) g \barFinalis
+    e d c b( c) a a c( b) a( g) g \barMaior
+    a c b c a-- g f g( a) a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -193,7 +190,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "možná má falešný závěr"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -252,6 +248,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 2"
+    placet = "2 zkusit lépe, první půlka není moc zpěvná"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -260,7 +257,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d f( g) f e f d c( d) d \barMaior
+    d4 c d f( g) f d e d c( d) d \barMaior
     f g a f g f d d \barMin
     c d f e c c( d) d \barFinalis
 
@@ -541,7 +538,7 @@
     a4 g a c( d) d \barMin
     c d e c d d d \barMaior
     a d b c a( g) \barMin
-    f( g) a c( b) a a \barFinalis
+    f g a( c) a a \barFinalis
 
     b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
@@ -806,10 +803,10 @@
     differentia = "D"
     psalmus = ""
     id = "2ne-amag"
-    placet = "recyklace existující antifony je fajn,
-    antifona k Magnificat druhých nešpor slavnosti by si možná
-    zasloužila trochu víc nádhery; snad by bylo dobré tuto nechat
-    a připravit další, alternativní"
+    placet = "3 přilepený začátek je nejslabší částí,
+    ale celkově je to bída - už zdrojová antifona sama o sobě vyčerpává únosnou
+    délku nápěvu takto přilepeného na tónice;
+    bude lepší od předlohy se oddělit"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
     fial = "fial://advent_antifony.ly#spol-sexta?konec=24&+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}

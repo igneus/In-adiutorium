@@ -259,6 +259,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Benedictus"
+    placet = "2 ten začátek nevím, asi spíš lépe, typičtěji a zpěvněji"
     id = "ivben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

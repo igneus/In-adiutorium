@@ -233,7 +233,7 @@
     a4 g a c( d) d \barMin
     c d e c d d d \barMaior
     a d b c a( g) \barMin
-    f( g) a c( b) a a \barFinalis
+    f g a( c) a a \barFinalis
   }
   \addlyrics {
     Z_ko -- ře -- ne Jes -- se
