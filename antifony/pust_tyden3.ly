@@ -306,8 +306,8 @@
     d c d e c( a) a \barMin
     c b a g a g g \barMaior
     a a a g f g( a) a \barMin
-    c c b( c) a a
-    g f g \barFinalis
+    c b a( b) g g \barMin
+    a f g \barFinalis
   }
   \addlyrics {
     Ne -- mys -- le -- te,
@@ -356,8 +356,8 @@
   \relative c'' {
     \choralniRezim
     a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
-    d c b a( g a) g \barMin a( b c) a g( a) g f
-    g( a) a4. g \barFinalis
+    d c b a( g a) g \barMin a( b c) a g( a) g g \barMin
+    a f g \barFinalis
   }
   \addlyrics {
     Jest -- li -- že vy -- há -- ním zlé du -- chy prs -- tem Bo -- žím,
@@ -369,7 +369,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?zacatek=34"
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?cast=1-4"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

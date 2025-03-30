@@ -2389,7 +2389,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c c \barMin
     \mark\sipka d c d e c( a) a \barMin
@@ -2397,6 +2397,35 @@
     a a a g f g( a) a \barMin
     c c b( c) a a
     g f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- mys -- le -- te,
+    že jsem při -- šel zru -- šit
+    Zá -- kon ne -- bo Pro -- ro -- ky.
+    Ne -- při -- šel jsem je zru -- šit,
+    a -- le na -- pl -- nit,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c c \barMin
+    d c d e c( a) a \barMin
+    c b a g a g g \barMaior
+    a a a g f g( a) a \barMin
+    c \mark\sipka b a( b) g g \barMin
+    a f g \barFinalis
   }
   \addlyrics {
     Ne -- mys -- le -- te,
@@ -2585,6 +2614,30 @@
 \score {
   \relative c'' {
     \zvyraznovacModry
+    \choralniRezim
+    a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
+    d c b a( g a) g \barMin a( b c) a g( a) g g \barMin
+    \mark\sipka a f g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že vy -- há -- ním zlé du -- chy prs -- tem Bo -- žím,
+    pak už k_vám při -- šlo Bo -- ží krá -- lov -- ství,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne10b-mag1?cast=1-4"
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a( d) d( c) c( d) \barMin d e d c d c( a) a \barMaior
     d c b a( g a) g \barMin a( b c) a g( a) g \mark\sipka f
@@ -3412,6 +3465,33 @@
     \choralniRezim
     g4 g \mark\sipka f g a a( g) g \barMaior
     \mark\sipka a c d c b a a \barMin
+    c b c( d) c b a g a( g) g \barMaior
+    g g f d f g a g g \barMaior
+    a( c) c \barMin a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník zů -- stal stát vza -- du
+    a ne -- od -- va -- žo -- val  se
+    a -- ni po -- zdvih -- nout o -- či k_ne -- bi,
+    a -- le bil se v_pr -- sa a ří -- kal:
+    Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?konec=24"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g \mark\sipka a g f g( a) a \barMaior
+    a c d c b a a \barMin
     c b c( d) c b a g a( g) g \barMaior
     g g f d f g a g g \barMaior
     a( c) c \barMin a c c b a g( a) g g \barFinalis
