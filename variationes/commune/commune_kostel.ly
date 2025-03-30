@@ -4008,6 +4008,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g \mark\sipka f g g a \barMin
+    a g f g( a) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Do do -- mu Hos -- po -- di -- no -- va
+    pů -- jde -- me s_ra -- dos -- tí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 122"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu postní:}
