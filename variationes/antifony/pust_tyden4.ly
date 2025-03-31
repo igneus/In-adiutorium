@@ -179,6 +179,50 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 a c b( g) a \barMaior
+    \mark\sipka c d c \barMin
+    c b c a g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pro -- buď se, spá -- či,
+    vstaň z_mrt -- vých,
+    a Kris -- tus tě o -- sví -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b( g) a \barMaior
+    c d c \barMin
+    c \mark\sipka d b b c( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pro -- buď se, spá -- či,
+    vstaň z_mrt -- vých,
+    a Kris -- tus tě o -- sví -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a f f( g) g \barMaior
     a( c) b( c) a( g) \barMin
     g g f d f( g a) a( g) g \barFinalis
@@ -1316,10 +1360,115 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g b c a g a g f( a) \barMin
+    a b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
+    že Kris -- tus mu -- sí tr -- pět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g \mark\sipka a g f g g a a \barMin
+    a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
+    že Kris -- tus mu -- sí tr -- pět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g a g f g g a a \barMin
+    \mark\sipka c b g f a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
+    že Kris -- tus mu -- sí tr -- pět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c b c a g f a a \barMin
+    a b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
+    že Kris -- tus mu -- sí tr -- pět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f g g a bes a g a g f \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
+    že Kris -- tus mu -- sí tr -- pět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "1 Petr 2"
+    placet = "2 závěr typu dvojí punctum na finále si žádá obě puncta prodloužit,
+    ale to s _trpět_ nejde a tak to dosti hrubě drhne;
+    i začátek nejde úplně dobře do pusy, bez ohledu na to, jestli se hlavní
+    přízvuk položí na _naplnil_, nebo na _Bůh_ (a naplnil začíná nepřízvučnou);
+    recituje jednoznačně na kvartě, příslušnost k modu je pochybná"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f \mark\sipka f( g) g \barMin a bes a g a g f \barMin
     f e c e f d d \barFinalis
   }
   \addlyrics {
@@ -1410,6 +1559,32 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Závěr, který klade na _trpět_ malé melisma,
+  je rozhodně méně problematický než ten,
+  který nutí příslušnou notu prodloužit.
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 g g( a) a \barMin g a b g a a a \barMaior
+    a g e f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
+    že Kris -- tus mu -- sí tr -- pět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
     psalmus = "1 Petr 2"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}

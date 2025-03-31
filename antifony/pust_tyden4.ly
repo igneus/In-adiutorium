@@ -43,6 +43,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 130"
+    placet = "2 neobvyklý a nepříliš zpěvný začátek; _vstaň_ nenese dlouhé melisma úplně dobře"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -186,8 +187,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f g g a bes a g a g f \barMin
-    f e c e f d d \barFinalis
+    e4 g g( a) a \barMin g a b g a a a \barMaior
+    a g e f e d( e) e \barFinalis
   }
   \addlyrics {
     Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
@@ -195,8 +196,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "IV"
+    differentia = "E"
     psalmus = "1 Petr 2"
     id = "ne-2ne-a3"
     piece = \markup {\sestavTitulek}
