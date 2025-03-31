@@ -1,10 +1,13 @@
 \version "2.12.0"
-% -*- master: ../invitatorium_choralni.ly;
+
+\include "../spolecne.ly"
+\include "../../invitatoria/zalm95text.ly"
 
 strofa = { \bar "||" \break }
 
 % Vyrazne zjednodusena je formule zaveru strofy.
-zalmXCVtonusIID = \score {
+%zalmXCVtonusIID =
+\score {
   \relative c' {
     \choralniRezim
 
@@ -37,7 +40,7 @@ zalmXCVtonusIID = \score {
     d f f f f f f f f g g f \barMin
     f f f e d e( f) e( d) \barMaior
     d c d f f f e d e( f) e( d) \barMaior
-    c( a) c( d) d d d d f e d( e) e( d) \barFinalis
+    c( a) c( d) d \barMin d d d f e d( e) e( d) \barFinalis
 
     % Slava Otci
     d c d f f f( g) f \barMin f e d e( f) e d \barMaior
@@ -54,5 +57,19 @@ zalmXCVtonusIID = \score {
     fons_externus = \markup{volně podle \italic{Liber hymnarius,} Solesmes 1983, 133nn.}
     id = "ii-d"
     piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\markup\justify{
+  (Možná už řadu let jsem zvyklý na tuhle divisio vůbec nebrát zřetel.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c( a) c( d) d \mark\sipka d d d f e d( e) e( d) \barFinalis
+  }
+  \addlyrics {
+    Ne -- při -- jdou na mís -- to mé -- ho kli -- du.
   }
 }
