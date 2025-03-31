@@ -1702,6 +1702,37 @@
   }
 }
 
+\markup\justify{
+  Nezdá se, že by to melisma z hlediska uspokojivosti závěru něco přidávalo.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e) e \barMin
+    f f f f g( a) g f d e e \barMaior
+    a4 a c a g \barMin
+    a a a g f g g g( a) e \barMaior
+    a a a g( f e) d \barMin
+    f e f g a g f \mark\sipka e e \barFinalis
+  }
+  \addlyrics {
+    Vsta -- nu,
+    pů -- jdu k_své -- mu ot -- ci a řek -- nu mu:
+    Ot -- če, zhře -- šil jsem
+    pro -- ti Bo -- hu i pro -- ti to -- bě;
+    už ne -- jsem ho -- den,
+    a -- bych se na -- zý -- val tvým sy -- nem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ivmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \zvyraznovacZelenyII
@@ -1981,7 +2012,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4. d f4 f e d c( d) d \barMaior
     d f g f d( c) \barMin a c c( d) d \barMax
@@ -2111,6 +2142,71 @@
     Ale máme proč se veselit a radovat,
     protože tento tvůj bratr byl mrtev a zase žije,
     byl ztracen, a je zase nalezen."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4. d f4 f e d c( d) d \barMaior
+    \mark\sipka f g f e d( c) \barMin a c c( d) d \barMax
+
+    f g a g f g f d d d f( e) d( c) c \barMaior
+    d d d f d f g f e d d \barMin d c a c( d) d \barMaior
+    d f( g f d) e( d) \barMin c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, ty jsi po -- řád se mnou
+    a všech -- no, co
+    mám, %orig: je mo -- je,
+    je i tvo -- je.
+
+    A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
+    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev a za -- se ži -- je,
+    byl ztra -- cen, a je za -- se na -- le -- zen.
+  }
+  \header {
+    textus_approbatus = "Dítě, ty jsi pořád se mnou
+    a všechno, co je moje, je i tvoje.
+    Ale máme proč se veselit a radovat,
+    protože tento tvůj bratr byl mrtev a zase žije,
+    byl ztracen, a je zase nalezen."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4. d f4 f e d c( d) d \barMaior
+    \mark\sipka d f f e f d( c) c \barMin a c c( d) d \barMax
+
+    f g a g f g f d d d f( e) d( c) c \barMaior
+    d d d f d f g f e d d \barMin d c a c( d) d \barMaior
+    d f( g f d) e( d) \barMin c d f e c e d \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, ty jsi po -- řád se mnou
+    a všech -- no, co je mo -- je,
+    je i tvo -- je.
+
+    A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
+    pro -- to -- že ten -- to tvůj bra -- tr byl mr -- tev, a za -- se ži -- je,
+    byl ztra -- cen, a je za -- se na -- le -- zen.
+  }
+  \header {
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"

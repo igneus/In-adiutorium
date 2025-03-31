@@ -298,16 +298,15 @@
   \relative c' {
     \choralniRezim
     d4. d f4 f e d c( d) d \barMaior
-    d f g f d( c) \barMin a c c( d) d \barMax
+    d f f e f d( c) c \barMin a c c( d) d \barMax
 
     f g a g f g f d d d f( e) d( c) c \barMaior
     d d d f d f g f e d d \barMin d c a c( d) d \barMaior
-    d f( g f d) e( d) \barMin c d f e c d d \barFinalis
+    d f( g f d) e( d) \barMin c d f e c e d \barFinalis
   }
   \addlyrics {
     Dí -- tě, ty jsi po -- řád se mnou
-    a všech -- no, co
-    mám, %orig: je mo -- je,
+    a všech -- no, co je mo -- je,
     je i tvo -- je.
 
     A -- le má -- me proč se ve -- se -- lit a ra -- do -- vat,
@@ -315,11 +314,6 @@
     byl ztra -- cen, a je za -- se na -- le -- zen.
   }
   \header {
-    textus_approbatus = "Dítě, ty jsi pořád se mnou
-    a všechno, co je moje, je i tvoje.
-    Ale máme proč se veselit a radovat,
-    protože tento tvůj bratr byl mrtev, a zase žije,
-    byl ztracen, a je zase nalezen."
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
