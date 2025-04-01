@@ -1469,7 +1469,7 @@
   \relative c' {
     \choralniRezim
     d4 f \mark\sipka f( g) g \barMin a bes a g a g f \barMin
-    f e c e f d d \barFinalis
+    f e c \mark\sipka f e c( d) d \barFinalis
   }
   \addlyrics {
     Bůh na -- pl -- nil před -- po -- vě -- di pro -- ro -- ků,
