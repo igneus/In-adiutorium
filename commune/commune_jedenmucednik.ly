@@ -582,25 +582,24 @@
 \score {
   \relative c'' {
     \choralniRezim
-    \key f \major
-    g4( f) g bes( a) a( g) g \barMin
-    g f( g) g( bes c) bes c d d \barMaior
+    a4( g) a c( b) b( a) a \barMin
+    g a a( c) b c d d \bar ";"
 
-    <<
-    { d d f( d) c( a) a \barMin }
-    \new Staff { { \choralniRezim d d d( e c) c } \addlyrics { a -- by po -- znal, } }
-    >>
+    e d c( d) d( a) a \bar ";"
+    e' d c( d a) a \bar ";"
 
-    a c d d c( d) c( a) a \barMin
-    bes( a) g g( a) a \barFinalis
+    d d c b a( g) a a( g) \barMin
+    a c b( a b) a \barFinalis
 
-    a^\markup\rubrVelikAleluja bes bes( a) a \barFinalis
+    b^\markup\rubrVelikAleluja g g( a) a \barFinalis
   }
   \addlyrics {
     V_těž -- kém zá -- pa -- su
     ji_(ho) Bůh ve -- dl k_ví -- těz -- ství,
 
-    a -- by po -- znal -- a,
+    \markup{\Dagger a} -- by po -- znal -- a,
+    \markup{\Dagger a} -- by po -- znal,
+
     že na -- de vším ví -- tě -- zí Bo -- ží moud -- rost.
 
     A -- le -- lu -- ja.
@@ -610,7 +609,6 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
-    placet = "4 nesedí v modu, lépe; nezapomenout na kopii"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -1813,10 +1813,13 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     g4( f) g bes( a) a( g) g \barMin
@@ -1849,6 +1852,44 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( g) a c( b) b( a) a \barMin
+    g a a( c) b c d d \barMaior
+
+    e d c( d) d( a) a \barMin
+    d d c b a( g) a a( g) \barMin
+    a c b( a b) a \barFinalis
+
+    b^\markup\rubrVelikAleluja g g( a) a \barFinalis
+  }
+  \addlyrics {
+    V_těž -- kém zá -- pa -- su_*
+    je Bůh ve -- dl k_ví -- těz -- ství,
+
+    a -- by po -- zna -- li,
+    že na -- de vším ví -- tě -- zí Bo -- ží moud -- rost.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "tercie"
+    fons = "commune jednoho mučedníka; upraven text, odstraněna varianta melodie"
+    fial = "fial://commune/commune_jedenmucednik.ly#tercie?cast=1-2,3,4-6"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
