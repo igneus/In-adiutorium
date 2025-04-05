@@ -245,10 +245,10 @@
     \choralniRezim
     e4 e e( a) a b( a) g( f) e \barMin
     f d d f g f e( d) e \barMaior
-    f f d f e d \barMin
-    c c d e f g e e \barFinalis
+    f e f g a g \barMin
+    a a g f f g e e \barFinalis
 
-    e^\markup\rubrVelikAleluja f( d) f( e) e \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
     Mu -- čed -- ní -- ci pro -- li -- li_*
@@ -263,7 +263,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 2"
-    placet = "3 lépe"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -272,10 +271,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c c( d) c a( b) a a \barMaior
-    f( g) g( a) a \barMin c c c( d) c b a( g) g \barFinalis
+    c4 c b a b( c) a g( a) g g \barMaior
+    f( g) g( a) a \barMin c a b( c) a a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
@@ -288,7 +287,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 33-I"
-    placet = "3 nuda"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -297,12 +295,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c c( d) c \barMin
-    c a g g f g( a) a g g \barMin
-    g f g a g g( a) a \barMaior
-    c c( d c) \barMin a g a b a g g \barFinalis
+    c4 c c c( d) c \barMin
+    c c c b a g( a) a g g \barMin
+    g a g f a a( g) g \barMaior
+    g f( a) \barMin b c a g f g g \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Na tom -- to svě -- tě_*
@@ -317,7 +315,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 33-II"
-    placet = "3 lépe"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -722,14 +719,14 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( b) g c( b a) g a a \barMin
-    c( d) e d c d( c) b a g a a( g) g \barMaior
-    a a( b c a) a \barMin c c( d e) d c d( c d) c( b a) a \barMaior
-    f( g a) b( c) a g g( a) a \barFinalis
+    d4 c f g f( a) a \barMin
+    a a g f g( a g) g \barMin g f e d( c) c \barMaior
+    d f f f g a g f( e) d d \barMin
+    e f d c c( d) d \barFinalis
 
-    g^\markup\rubrVelikAleluja a( b) a a \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Sva -- tí mu -- čed -- ní -- ci_*
@@ -741,12 +738,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "I"
+    differentia = "D"
     psalmus = "Zj 4"
-    fial = "commune/commune_vicemucedniku.ly#2ne-amag?zacatek=9"
-    placet = "3 lépe; spíš se odpoutat od zdroje, dvojí opakování motivu
-    v jedné hodince není moc vhodné"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
