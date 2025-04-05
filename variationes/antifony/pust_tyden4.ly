@@ -2721,6 +2721,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b g g \barMin
+    a g f g a a( g) g \barMaior
+    a c b c( d) d \barMin \mark\sipka d( e) c c( d) d \barMaior
+    d c b b c a g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Já ne -- při -- jí -- mám
+    svě -- dec -- tví od člo -- vě -- ka,
+    a -- le co ří -- kám, ří -- kám pro -- to,
+    a -- by -- ste do -- sáh -- li spá -- sy,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -3207,7 +3233,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c f( g) f( a) a \barMin
     g a g f \mark\sipka g( f d) d \barMaior
@@ -3282,6 +3308,30 @@
   \relative c' {
     \choralniRezim
     d4 c f( g) f( a) a \barMin
+    g a g f g( f d) d \barMaior
+    f f f e d c( d) c c \barMin
+    d f \mark\sipka e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- vztá -- hl
+    na Je -- ží -- še ru -- ku,
+    pro -- to -- že ješ -- tě ne -- při -- šla
+    je -- ho ho -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f( g) f( a) a \barMin
     \mark\sipka a a g f g( f d) d \barMaior
     f f f e d \mark\sipka e d c \barMin
     d( f) e \mark\sipka c d d \barFinalis
@@ -3295,6 +3345,31 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 d c c( d) d \barMin
+    f g f e d d \barMaior
+    f f f e d e d c \barMin
+    \mark\sipka d f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- vztá -- hl
+    na Je -- ží -- še ru -- ku,
+    pro -- to -- že ješ -- tě ne -- při -- šla
+    je -- ho ho -- di -- na.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     id = "pa-amag"
