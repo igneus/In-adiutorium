@@ -13,6 +13,12 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\justify{
+  Texty podle webu
+  ww.oblati.cz [sic]
+  k roku 2015.
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
