@@ -130,10 +130,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d d( f d) c( d) d \barMin c( b) c b( a g) \barMaior
-    a f( g a) c( d) c( b) a a \barMin c c( d) c b( g a) a( g) g \barMax
-    d' d d d( f e) d( e) e \barMin d( c d) c( b) a g g( a) a \barMaior
-    a a( d c) b( g a) a( g) \barMin f( g) a g g \barFinalis
+    d4 d d d( f e) c( d) d \barMin c( d) c( b) g( a) \barMaior
+    a b c a g g f g( a) f g( a) g g \barMax
+    d' d d d( f e) c( d) d \barMin c b g a g g \barMaior
+    g f( g) g( a) a \barMin g( f) a g g \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství_* pat -- ří těm,
@@ -146,7 +146,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "4 lépe"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -446,6 +446,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     c4 c b a g a g g f g a g g \barMaior
     g f g g( a) \barMin b( c) a( g) g \barFinalis
@@ -510,8 +511,34 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
-    differentia = "D"
     psalmus = "1 Petr 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e( a) a b a g( f) e \barMin
+    f d e( f) f( e) e \barMaior
+    d c d d( e) \barMin f( g) e e \barFinalis
+
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Mu -- čed -- ní -- ci po -- lo -- ži -- li_*
+    ži -- vot pro Kris -- ta
+    a bu -- dou žít na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "1 Petr 2"
+    fial = "commune/commune_vicemucedniku.ly#mc-a1?zacatek=5"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -595,6 +622,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( f d) c( d) d \barMin c( b) c b( a g) \barMaior
     a f( g a) c( d) c( b) a a \barMin c c( d) c b( g a) a( g) g \barMax
@@ -616,6 +644,57 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d( f d) c( d) d \barMin c( d) c( b) g( a) \barMaior
+    a b c a g g f g( a) f g( a) g g \barMax
+    d' d d d( f e) c( d) d \barMin c b a g a( g) g \barMaior
+    g f( g) g( a) a \barMin b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství_* pat -- ří těm,
+    kdo o -- bě -- to -- va -- li svůj ži -- vot pro Kris -- ta.
+    Rou -- cho si vy -- pra -- li v_Be -- rán -- ko -- vě kr -- vi
+    a do -- sáh -- li věč -- né slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d \mark\sipka d( f e) c( d) d \barMin c( d) c( b) g( a) \barMaior
+    a b c a g g f g( a) f g( a) g g \barMax
+    d' d d d( f e) c( d) d \barMin c b \mark\sipka g a g g \barMaior
+    g f( g) g( a) a \barMin \mark\sipka g( f) a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství_* pat -- ří těm,
+    kdo o -- bě -- to -- va -- li svůj ži -- vot pro Kris -- ta.
+    Rou -- cho si vy -- pra -- li v_Be -- rán -- ko -- vě kr -- vi
+    a do -- sáh -- li věč -- né slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 
@@ -3124,6 +3203,34 @@
     g4 a c c c( d) d \barMin
     c d e d c d d \barMaior
     d( e f) \mark\sipka d( c) c( d) \barMaior
+    d d d c b c a a( g) g \barMin
+    a g f g a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- te se, sva -- tí,_*
+    před Be -- rán -- ko -- vým trů -- nem,
+    v_krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né
+    od za -- lo -- že -- ní svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    c d e d c d d \barMaior
+    \mark\sipka d( e f e) d( c) d \barMaior
     d d d c b c a a( g) g \barMin
     a g f g a g g \barMaior
     a g f( g) g \barFinalis
