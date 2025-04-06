@@ -3534,3 +3534,23 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d e d c \barMin
+    \mark\sipka d d c d f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy tak ne -- mlu -- vil,
+    ja -- ko mlu -- ví ten -- to člo -- věk.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
