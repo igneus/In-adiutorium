@@ -318,8 +318,17 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Mórtui sunt mártyres pro Christo, et vivent in aetérnum, allelúia.
+  }
+  (Nezdá se, že by šlo o antifonu známou z chorálního repertoáru.)
+}
+
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g c d d d d( f) e d( e) d d \barMaior
     d d d c( b c) a( g) a( g) g \barFinalis
@@ -519,6 +528,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     e4 e e( a) a b a g( f) e \barMin
     f d e( f) f( e) e \barMaior

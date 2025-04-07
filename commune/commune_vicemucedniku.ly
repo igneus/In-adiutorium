@@ -67,25 +67,27 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g f g c d d d d( f) e d( e) d d \barMaior
-    d d d c( b c) a( g) a( g) g \barFinalis
+    e4 e e( a) a b a g( f) e \barMin
+    f d e( f) f( e) e \barMaior
+    d c d d( e) \barMin f( g) e e \barFinalis
 
-    g^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
   }
   \addlyrics {
-    Mu -- čed -- ní -- ci po -- lo -- ži -- li_* ži -- vot pro Kris -- ta
+    Mu -- čed -- ní -- ci po -- lo -- ži -- li_*
+    ži -- vot pro Kris -- ta
     a bu -- dou žít na -- vě -- ky.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "IV"
+    differentia = "E"
     psalmus = "1 Petr 2"
-    placet = "3 lépe"
+    fial = "commune/commune_vicemucedniku.ly#mc-a1?zacatek=5"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
