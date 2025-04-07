@@ -140,7 +140,9 @@
                            ("Mt" . "Mt")
                            ("Mk" . "Mk")
                            ("Lk" . "L")
+                           ("Flp" . "Fp")
                            ("Jan" . "J")
+                           ("Žid" . "Zd")
                            ("Jak" . "Jk"))) ; map book shortcuts ČLP -> obohu.cz/bible/
           (bookCodes (map-in-order car bookCodeAlist))
           (bibleRefRegexp (string-append "(" (string-join bookCodes "|") ") ([0-9]+), ([0-9]+)"))

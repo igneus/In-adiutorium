@@ -224,7 +224,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a c( b g4.) g \barMin
     a4 \mark\sipka f a g g \barMaior
@@ -300,12 +300,36 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
     \choralniRezim
     g4 g a f( g a4.) a \barMin
     a4 b g a a \barMaior
     c c b c a( g) g \barMin
     g a f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Vlo -- žím svůj zá -- kon
+    do je -- jich srd -- ce,
+    bu -- du je -- jich Bo -- hem
+    a o -- ni bu -- dou mým li -- dem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 141"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g a f( g a4.) a4 \barMin
+    a b g a a \barMaior
+    \mark\sipka c b c d c a \barMin
+    a c c b c a g( a) g \barFinalis
   }
   \addlyrics {
     Vlo -- žím svůj zá -- kon
@@ -732,7 +756,8 @@
   }
 }
 \markup\justify{
-  LH cituje Žid 5, 8; DMC volně cituje Flp 2, 8
+  LH cituje \make-bible-link "Žid 5, 8" ;
+  DMC volně cituje \make-bible-link "Flp 2, 8"
 }
 
 \score {
@@ -968,7 +993,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c( d) d \barMin
     d( f) e d e c d d \barFinalis
@@ -1012,6 +1037,47 @@
     \choralniRezim
     c4 c( d) d \barMin
     \mark\sipka f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    stal ses mým po -- moc -- ní -- kem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c( d) d \barMin
+    f \mark\sipka g f e c d d \barFinalis
+  }
+  \addlyrics {
+    Můj Bo -- že,
+    stal ses mým po -- moc -- ní -- kem.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 c( d) d \barMin
+    f g \mark\sipka g f e d d \barFinalis
   }
   \addlyrics {
     Můj Bo -- že,
@@ -1445,6 +1511,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) e e \barMaior
+    \mark\sipka f g a( b) a a \barMin
+    g f g( a g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Při -- šla ho -- di -- na,
+    kdy Syn člo -- vě -- ka
+    bu -- de o -- sla -- ven.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "ne-rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
@@ -1629,6 +1717,28 @@
   \relative c' {
     \choralniRezim
     d4 d c f( g) g( a) a \barMin g( f) g( a) g g \barMaior
+    a a g f \mark\sipka g( a) f( e d) d( c) \barMin
+    d( f) e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) g( a) a \barMin g( f) g( a) g g \barMaior
     a a g f \mark\sipka e f d
     c e( f) d d \barFinalis
   }
@@ -1691,6 +1801,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) g( a) a \mark\sipka \barMin c b( c) a a \barMaior
+    a a g f e f d
+    c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   V dosavadních zněních _had_ hodně zaniká.
 }
@@ -1726,6 +1858,55 @@
     \mark\sipka e( f d) c( d) d d \barMaior
     \mark\sipka f g a g f( g) f f \barMin
     \mark\sipka e( d) c d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen
+    had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d d c( d) d( f) f \barMin
+    \mark\sipka g f( e) d d( c) \barMaior
+    d f f f g g f
+    d c( e) d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen
+    had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c( d) d( f) f \barMin
+    g f( e) d d( c) \barMaior
+    d f \mark\sipka e f d c c
+    f e( f) d d \barFinalis
   }
   \addlyrics {
     Ja -- ko byl vy -- vý -- šen

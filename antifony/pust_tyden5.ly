@@ -8,9 +8,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a c( b g4.) g \barMin
-    a4 f a g g \barMaior
-    f g a b c a \barMin
+    g4 g a f( g a4.) a4 \barMin
+    a b g a a \barMaior
+    c b c d c a \barMin
     a c c b c a g( a) g \barFinalis
   }
   \addlyrics {
@@ -22,7 +22,7 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = "Žalm 141"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -68,6 +68,9 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Flp 2"
+    placet = "od estetických kvalit zcela odhlédnuto
+    možná není úplně vhodné v řadové nedělní antifoně citovat nápěv
+    Christus factus est, protože to je _ten_ charakteristický zpěv tridua"
     id = "ne-1ne-a3"
     fial = "pust_triduum.ly#ct-resp?konec=17"
     piece = \markup {\sestavTitulek}
@@ -80,7 +83,7 @@
   \relative c' {
     \choralniRezim
     c4 c( d) d \barMin
-    d( f) e d e c d d \barFinalis
+    f g f e c d d \barFinalis
   }
   \addlyrics {
     Můj Bo -- že,
@@ -137,6 +140,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
+    placet = "nevím"
     id = "ne-rch-a3"
     piece = \markup {\sestavTitulek}
   }
