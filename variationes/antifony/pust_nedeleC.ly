@@ -2687,3 +2687,47 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d e c c( d) d \barMaior
+    d d c a c b a g g \barMaior
+    a g a c b a g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo tě ne -- od -- sou -- dil?
+    A -- ni já tě ne -- od -- su -- zu -- ji.
+    Jdi a od ny -- něj -- ška už ne -- hřeš!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e f e d( e) e \barMaior
+    f g a g f e d e e \barMaior
+    a \barMin g a a a g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo tě ne -- od -- sou -- dil?
+    A -- ni já tě ne -- od -- su -- zu -- ji.
+    Jdi a od ny -- něj -- ška už ne -- hřeš!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
