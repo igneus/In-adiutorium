@@ -165,6 +165,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 110"
+    placet = "2 moc se mi nezdají melismata na _had_ a _Syn_ a identický rytmus dvojího _vyvýšen_"
     id = "ne-ne2-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -247,7 +248,7 @@
     d e c c d d \barMaior
     d d c b a a g a a( c) c \barMin
     d e d c( b a) a \barMin
-    g a a \barFinalis
+    b g a \barFinalis
   }
   \addlyrics {
     Ne -- je -- nom já

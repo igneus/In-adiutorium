@@ -1823,6 +1823,95 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) g( a) a \mark\sipka a g( f) e e \barMaior
+    e f d c d( f g a) g( f e4.) e4 \barMin
+    e( f d) c d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) g( a) a a g( f) e e \barMaior
+    e f d c \mark\sipka d f f( e d) \barMin
+    d( e c) c d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d c f( g) g( a) a a g( f) e e \barMaior
+    e f d c \mark\sipka d( f) f( g) g \barMin
+    a f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) g( a) a a g( f) e e \barMaior
+    e f d c d( f) \mark\sipka f( e) d( c) \barMin
+    d( f e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   V dosavadních zněních _had_ hodně zaniká.
 }
@@ -2455,7 +2544,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 c d c( d) \barMin
     d e c c d d \barMaior
@@ -2482,6 +2571,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 c d c( d) \barMin
     d e c c d d \barMaior
