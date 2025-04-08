@@ -269,6 +269,58 @@
   \relative c' {
     \choralniRezim
     f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMaior
+    d f g \mark\sipka g f g( a) g g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    a -- le bu -- de mít svět -- lo ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "1ne-a2"
+    fial = "antifony/tyden3_4streda.ly#up-ant1?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( g) f f( g) g \barMin
+    a a a g a g( f) f \barMaior
+    d f g g f g( a) g \mark\sipka f( g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kdo mě ná -- sle -- du -- je, ne -- bu -- de cho -- dit ve tmě,
+    a -- le bu -- de mít svět -- lo ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118-III"
+    id = "1ne-a2"
+    fial = "antifony/tyden3_4streda.ly#up-ant1?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( g) f f( g) g \barMin
     a a a g a g( f) f \barMax
     \mark\sipka g g f e d( c) \barMin d( f e) d c d d \barFinalis
 
