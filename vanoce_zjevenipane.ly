@@ -118,7 +118,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c( d) d d f( e) d e c( d) d \barMin
+    d4 d c d f e d e c( d) d \barMin
     e c c d e d d \barMax
     d d d( g) g g a g f g f( d) d \barMaior
     f( d) d \barMin
@@ -128,7 +128,7 @@
     d f e c d d \barFinalis
   }
   \addlyrics {
-    Když mu -- dr -- ci vi -- dě -- li hvěz -- du,
+    Když mu -- dr -- ci u -- vi -- dě -- li hvěz -- du,
     řek -- li si me -- zi se -- bou:
     To je zna -- me -- ní ve -- li -- ké -- ho Krá -- le;
     pojď -- me,
@@ -138,11 +138,13 @@
     ka -- di -- dlo a myr -- hu.
   }
   \header {
+    textus_approbatus = "Když mudrci viděli hvězdu, řekli si mezi sebou:
+    To je znamení velikého Krále; pojďme, vyhledejme ho a obětujme mu dary:
+    zlato, kadidlo a myrhu."
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "3 melismata na _muudrci_ a _viiděli_ moc nesedí"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -742,7 +742,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( d) d d f( e) d e c( d) d \barMin
     e c c d e d d \barMax
@@ -764,6 +764,43 @@ ale na diferenci žalmového nápěvu?}
     ka -- di -- dlo a myr -- hu.
   }
   \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    placet = "3 melismata na _muudrci_ a _viiděli_ moc nesedí"
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka d c d f e d e c( d) d \barMin
+    e c c d e d d \barMax
+    d d d( g) g g a g f g f( d) d \barMaior
+    f( d) d \barMin
+    g f f d c \barMin
+    d f f f e c d d \barMaior
+    \mark\sipka e( f d c) c \barMin
+    d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Když mu -- dr -- ci u -- vi -- dě -- li hvěz -- du,
+    řek -- li si me -- zi se -- bou:
+    To je zna -- me -- ní ve -- li -- ké -- ho Krá -- le;
+    pojď -- me,
+    vy -- hle -- dej -- me ho
+    a o -- bě -- tuj -- me mu da -- ry:
+    zla -- to,
+    ka -- di -- dlo a myr -- hu.
+  }
+  \header {
+    textus_approbatus = "Když mudrci viděli hvězdu, řekli si mezi sebou:
+    To je znamení velikého Krále; pojďme, vyhledejme ho a obětujme mu dary:
+    zlato, kadidlo a myrhu."
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
