@@ -2944,13 +2944,44 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c c c d( e) d \barMaior
     d c d \mark\sipka e e e d c d e d d \barMin
     c d d \barMaior
     e d c c( d c a) a \barMin
     g \mark\sipka a c c b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Když vy -- tr -- vá -- te v_mém slo -- vu,
+    bu -- de -- te o -- prav -- du mý -- mi u -- čed -- ní -- ky,
+    pra -- ví Pán.
+    Po -- zná -- te prav -- du,
+    a prav -- da vás o -- svo -- bo -- dí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Nebude tady lepší - místo akcentu  na přízvučné -
+  nechat melodii vyklenout se na nepřízvučné dlouhé?
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c c c d( e) d \barMaior
+    d c d e e e d c d e d d \barMin
+    c d d \barMaior
+    \mark\sipka d e d c( d c a) a \barMin
+    g a c c b g g( a) a \barFinalis
   }
   \addlyrics {
     Když vy -- tr -- vá -- te v_mém slo -- vu,

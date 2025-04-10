@@ -325,7 +325,7 @@
     a4 g a c c c d( e) d \barMaior
     d c d e e e d c d e d d \barMin
     c d d \barMaior
-    e d c c( d c a) a \barMin
+    d e d c( d c a) a \barMin
     g a c c b g g( a) a \barFinalis
   }
   \addlyrics {
