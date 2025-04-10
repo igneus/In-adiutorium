@@ -243,9 +243,9 @@
   \relative c' {
     \choralniRezim
     d4 d d( f e) d f( g) g a g( f) e \barMin
-    f g f( d) d f( e) c c d d \barMaior
+    e f d( c) c d( f) e c d d \barMaior
     a c d d c e( f) d d \barMin
-    d f f f e c c( d) d \barMaior
+    c d f f e c d d \barMaior
     a' g f f g f d d \barMin
     c d e f( d) c( d) d \barFinalis
   }
@@ -263,7 +263,6 @@
     differentia = "D"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#28-amag?konec&volne"
-    placet = "2 málo zpěvná, celkově slabší"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }

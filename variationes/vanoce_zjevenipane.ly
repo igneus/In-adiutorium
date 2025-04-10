@@ -1474,7 +1474,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f e) d f( g) g a g( f) e \barMin
     f g f( d) d f( e) c c d d \barMaior
@@ -1482,6 +1482,66 @@ ale na diferenci žalmového nápěvu?}
     d f f f e c c( d) d \barMaior
     a' g f f g f d d \barMin
     \mark\sipka c d e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me to -- mu,
+    kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#28-amag?konec&volne"
+    placet = "2 málo zpěvná, celkově slabší"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f e) d f( g) g a g( f) e \barMin
+    f g f( d) d f( e) c c d d \barMaior
+    a c d d c e( f) d d \barMin
+    d f f f e c c( d) d \barMaior
+    a' g f f g f d d \barMin
+    \mark\sipka f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Dnes se zje -- vil svě -- tu Syn Bo -- ží,
+    na -- ro -- ze -- ný z_Pan -- ny Ma -- ri -- e;
+    mu -- dr -- ci se mu kla -- ně -- jí
+    a při -- ná -- še -- jí mu da -- ry;
+    všich -- ni se po -- kloň -- me to -- mu,
+    kte -- rý nás vy -- kou -- pil.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#28-amag?konec&volne"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f e) d f( g) g a g( f) e \barMin
+    \mark\sipka e f d( c) c d( f) e c d d \barMaior
+    a c d d c e( f) d d \barMin
+    \mark\sipka c d f f e c \mark\sipka d d \barMaior
+    a' g f f g f d d \barMin
+    c d e f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Dnes se zje -- vil svě -- tu Syn Bo -- ží,
@@ -1506,11 +1566,11 @@ ale na diferenci žalmového nápěvu?}
   \relative c' {
     \choralniRezim
     d4 d d( f e) d f( g) g a g( f) e \barMin
-    f g f( d) d f( e) c c d d \barMaior
+    e f d( c) c \mark\sipka d( c) f e d d \barMaior
     a c d d c e( f) d d \barMin
-    d f f f e c c( d) d \barMaior
+    c d f f e c d d \barMaior
     a' g f f g f d d \barMin
-    \mark\sipka f e c e( f) d d \barFinalis
+    c d e f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Dnes se zje -- vil svě -- tu Syn Bo -- ží,
