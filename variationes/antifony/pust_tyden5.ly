@@ -4025,7 +4025,7 @@
 }
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d f e( c) \barMin
     d d d f g f e d d \barMaior
@@ -4137,6 +4137,31 @@
     U -- ká -- zal jsem vám
     mno -- ho do -- brých skut -- ků, pra -- ví Pán.
     Pro kte -- rý z_nich mě chce -- te za -- bít?
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d f e( c) \barMin
+    d d d f g f e d d \barMaior
+    f e f d( c) \barMin
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- ká -- zal jsem vám
+    mno -- ho do -- brých skut -- ků, pra -- ví Pán.
+    Pro kte -- rý z_nich
+    mě chce -- te za -- bít?
   }
   \header {
     quid = "ant. k Benedictus"
@@ -4579,6 +4604,28 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g( a g) g \barMaior
+    f g a( c) b a( g) g a f g( a g) g \barMin
+    f( d) f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- mřel pro -- to,
+    a -- by roz -- ptý -- le -- né Bo -- ží dě -- ti
+    shro -- máž -- dil vjed -- no.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}

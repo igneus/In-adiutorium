@@ -424,7 +424,7 @@
     \choralniRezim
     d4 d d f e( c) \barMin
     d d d f g f e d d \barMaior
-    f g f e( d c) \barMin
+    f e f d( c) \barMin
     d f e c( d) d \barFinalis
   }
   \addlyrics {
