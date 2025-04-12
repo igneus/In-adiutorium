@@ -2667,7 +2667,7 @@ ale na diferenci žalmového nápěvu?}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) f g a \barMaior
     a b c c c b( a g4.) g4 \barMin
@@ -2700,6 +2700,7 @@ ale na diferenci žalmového nápěvu?}
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
+    placet = "2 _Dnešního_ moc nesedí, zvlášť to melisma"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2758,6 +2759,85 @@ ale na diferenci žalmového nápěvu?}
     f g a \mark\sipka c b c a( g) f( g) g \barMaior
 
     f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Dneš -- ní -- ho dne
+    se za -- snou -- bi -- la cír -- kev
+    s_ne -- bes -- kým že -- ni -- chem,
+    pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
+    je -- jí vi -- ny;
+
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na krá -- lov -- skou svat -- bu
+    a hos -- té se ra -- du -- jí
+    z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 f g g( a) \barMaior
+    a b c c c b( a g4.) g4 \barMin
+    a f e e( g) g g \barMaior
+    g a b c c c d( c) a a \barMin
+    b4( c) a g g \barMax
+
+    g g g a g a a( c) c \barMin
+    d c b c a a \barMaior
+    a c c c b( c) a( g) g \barMin
+    f g a a g f g( a) g g \barMaior
+
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dneš -- ní -- ho dne
+    se za -- snou -- bi -- la cír -- kev
+    s_ne -- bes -- kým že -- ni -- chem,
+    pro -- to -- že Kris -- tus smyl v_Jor -- dá -- ně
+    je -- jí vi -- ny;
+
+    mu -- dr -- ci spě -- cha -- jí s_da -- ry na krá -- lov -- skou svat -- bu
+    a hos -- té se ra -- du -- jí
+    z_vo -- dy pro -- mě -- ně -- né ve ví -- no.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g \mark\sipka a \barMaior
+    a b c c c b( a g4.) g4 \barMin
+    a f e e( g) g g \barMaior
+    g a b c c c d( c) a a \barMin
+    b4( c) a g g \barMax
+
+    g g g a g a a( c) c \barMin
+    d c b c a a \barMaior
+    a c c c b( c) a( g) g \barMin
+    f g a a g f g( a) g g \barMaior
+
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Dneš -- ní -- ho dne

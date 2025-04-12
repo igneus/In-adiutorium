@@ -387,7 +387,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) f g a \barMaior
+    g4 f g g( a) \barMaior
     a b c c c b( a g4.) g4 \barMin
     a f e e( g) g g \barMaior
     g a b c c c d( c) a a \barMin
@@ -418,7 +418,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Benedictus"
-    placet = "2 _Dnešního_ moc nesedí, zvlášť to melisma"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
