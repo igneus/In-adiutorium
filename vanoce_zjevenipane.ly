@@ -1488,8 +1488,8 @@
       % R
       \neviditelna f
       f4 f f f f f f g f \barMaior
-      f f f f f f g f \barMin f g f g a a( g) \barMax
-      g g a g( f d) d f g g( f) f \barFinalis
+      f f f f f f f f f g f g g( a) a( g) \barMax
+      g g f g( a) g \barMin f( d) f( g) g f \barFinalis
       % V
       \neviditelna a
       a4( bes) a a \barMin
@@ -1497,7 +1497,7 @@
       g f g g( a) \barMax
       % R
       \neviditelna a
-      g g a g( f d) d f g g( f) f \barFinalis
+      g g f g( a) g \barMin f( d) f( g) g f \barFinalis
       % Slava
       \respVIdoxologie \barFinalis
     }
@@ -1515,7 +1515,6 @@
     \header {
       quid = "resp."
       modus = "VI"
-      placet = "3 r1 je co do zpěvnosti bída"
       id = "krtu-2ne-resp"
       piece = \markup\sestavTitulekResp
     }

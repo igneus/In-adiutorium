@@ -3890,14 +3890,14 @@
     }
   }
 
-  \markup{
+  \markup\justify{
     Oprava na oficiální text:
     (repetenda je neúnosně dlouhá, možná by bylo lepší
     vrátit se k řešení atypickým nápěvem.)
   }
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
 
       % R
@@ -3913,6 +3913,47 @@
       % R
       \neviditelna a
       g g a g( f d) d f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Bůh u -- sta -- no -- vil své -- ho Sy -- na
+      pro -- střed -- ní -- kem smlou -- vy li -- du a svět -- lem ná -- ro -- dů,_
+      a vlo -- žil na něj své -- ho Du -- cha.
+      \Verse Po -- slal ho,
+      a -- by při -- ne -- sl chu -- dým
+      ra -- dost -- nou zvěst,_*
+      \Response a vlo -- žil na něj
+      své -- ho Du -- cha.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      placet = "3 r1 je co do zpěvnosti bída"
+      id = "krtu-2ne-resp"
+      piece = \markup\sestavTitulekResp
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f f f f f g f \barMaior
+      f f f f f f \mark\sipka f f f g f \mark\sipka g g( a) a( g) \barMax
+      g g \mark\sipka f g( a) g \barMin f( d) f( g) g f \barFinalis
+      % V
+      \neviditelna a
+      a4( bes) a a \barMin
+      a a a a a g( a) g \barMin
+      g f g g( a) \barMax
+      % R
+      \neviditelna a
+      g g \mark\sipka f g( a) g \barMin f( d) f( g) g f \barFinalis
       % Slava
       \respVIdoxologie \barFinalis
     }
