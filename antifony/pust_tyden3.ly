@@ -242,7 +242,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag?konec"
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag?konec=14"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
