@@ -4101,7 +4101,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 c c b a c d d \barMin
       d e d c b c g g \barMaior
@@ -4125,6 +4125,7 @@
       modus = "VII"
       differentia = "c"
       psalmus = "Magnificat"
+      placet = "závěr je chcíplý"
       id = "krtu-2ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -4260,6 +4261,37 @@
       b( c) a g g \barMaior
       g g g a g f g( a) a \barMin
       b c a \mark\sipka g( a g) g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš Kris -- tus nás mi -- lu -- je,
+      svou kr -- ví nás zba -- vil hří -- chů
+      a u -- dě -- lal z_nás krá -- lov -- ský ná -- rod
+      a kně -- ze Bo -- ha,
+      své -- ho Ot -- ce;
+      je -- mu buď slá -- va a vlá -- da
+      na věč -- né vě -- ky.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = "Magnificat"
+      id = "krtu-2ne-amag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c b a c d d \barMin
+      d e d c b c g g \barMaior
+      g4 a a a a g f g g( a) a \barMaior
+      a c c b( c a) a \barMin
+      b( c) a g g \barMaior
+      \mark\sipka a g f g( a) a a c( d c a) a \barMin
+      b c a g( a g) g \barFinalis
     }
     \addlyrics {
       Je -- žíš Kris -- tus nás mi -- lu -- je,

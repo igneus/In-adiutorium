@@ -1528,8 +1528,8 @@
       g4 a a a a g f g g( a) a \barMaior
       a c c b( c a) a \barMin
       b( c) a g g \barMaior
-      g g g a g f g( a) a \barMin
-      g f a a( g) g \barFinalis
+      a g f g( a) a a c( d c a) a \barMin
+      b c a g( a g) g \barFinalis
     }
     \addlyrics {
       Je -- žíš Kris -- tus nás mi -- lu -- je,
@@ -1545,7 +1545,6 @@
       modus = "VII"
       differentia = "c"
       psalmus = "Magnificat"
-      placet = "závěr je chcíplý"
       id = "krtu-2ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
