@@ -165,7 +165,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g f( a) a \barMaior
+    f4 g g( a) a \barMaior
     a a f g f d d \barMin f f e f d( c) c \barMaior
     d f f g a g f f \barFinalis
   }

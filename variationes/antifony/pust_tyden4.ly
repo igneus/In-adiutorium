@@ -1271,10 +1271,33 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g f( a) a \barMaior
     a a \mark\sipka f g f d d \barMin f f e f d( c) c \barMaior
+    d f f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ze mu -- ži,
+    kte -- rý se sli -- to -- vá -- vá kvů -- li Hos -- po -- di -- nu:
+    na -- vě -- ky ne -- za -- ko -- lí -- sá.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 112"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g \mark\sipka g( a) a \barMaior
+    a a f g f d d \barMin f f e f d( c) c \barMaior
     d f f g a g f f \barFinalis
   }
   \addlyrics {
