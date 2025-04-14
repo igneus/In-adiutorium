@@ -434,7 +434,7 @@
       \choralniRezim
       g4 a f g \barMin
       g f g g a a a g a c b a g a \barMaior
-      a( c) c b( c) a a \barMin
+      a c b( c) a a \barMin
       a b( g e4.) e \barMin
       d4 f f( e) e \barFinalis
     }
@@ -576,7 +576,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 d c c a c b g g \barMaior
+      c4 d d c b c a g g \barMaior
       a a a g f g( a) a \barMin
       a c b g g \barFinalis
     }
@@ -612,7 +612,7 @@
     \header {
       quid = "3. ant."
       modus = "I"
-      differentia = "a"
+      differentia = "a2"
       psalmus = "1 Petr 2"
       id = "ne-2ne-a3"
       piece = \markup {\sestavTitulek}
@@ -687,7 +687,7 @@
       c4 c c d( e) d \barMin
       d c a a c b a g g \barMaior
       f g a b c a \barMin
-      c c c b a g( a) g \barFinalis
+      a g f g a a( g) g \barFinalis
     }
     \addlyrics {
       Je o mně psá -- no:
