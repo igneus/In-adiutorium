@@ -782,7 +782,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c( d) d d e( d c) c( d) d4.( a) \barMin
     a4( b g) g( a) a \barFinalis
@@ -796,6 +796,9 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Flp 2"
+    placet = "od estetických kvalit zcela odhlédnuto
+    možná není úplně vhodné v řadové nedělní antifoně citovat nápěv
+    Christus factus est, protože to je _ten_ charakteristický zpěv tridua"
     id = "ne-1ne-a3"
     fial = "pust_triduum.ly#so-resp?cast&jiny_text"
     piece = \markup {\sestavTitulek}
@@ -930,6 +933,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f d d e( f) d( c) c \barMin
+    \mark\sipka f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží byl po -- sluš -- ný
+    až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 f d d \mark\sipka f f e( d c) \barMin
     d( f e) c( d) d \barFinalis
   }
@@ -956,6 +979,127 @@
   \addlyrics {
     Syn Bo -- ží byl po -- sluš -- ný
     až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    a4 c( d) d \barMin d e( f) d( c) c( a) \barMin
+    c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží byl po -- sluš -- ný
+    až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g( a) a \barMin
+    a g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží
+    byl po -- sluš -- ný až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a( c) c \barMin
+    c b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží
+    byl po -- sluš -- ný až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a( c) c \barMin
+    c b c a \mark\sipka g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží
+    byl po -- sluš -- ný až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b
+    g b c a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží
+    byl po -- sluš -- ný až k_smr -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d
+    d c b a a c( d) d \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží
+    byl po -- sluš -- ný až k_smr -- ti.
   }
   \header {
     quid = "3. ant."
@@ -1363,6 +1507,30 @@
     Vy -- svo -- boď nás, Bo -- že,
     svý -- mi po -- di -- vu -- hod -- ný -- mi skut -- ky
     a za -- chraň nás z_mo -- ci smr -- ti.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g( a) a \barMin
+    \mark\sipka g a c b a b g e g( a) a \barMaior
+    a g( f) e( d) d( e) \barMin
+    f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    Vy -- svo -- boď nás, Bo -- že,
+    svý -- mi po -- di -- vu -- hod -- ný -- mi skut -- ky
+    a za -- chraň nás
+    z_mo -- ci smr -- ti.
   }
   \header {
     quid = "2. ant."

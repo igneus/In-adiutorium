@@ -56,23 +56,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 c( d) d d e( d c) c( d) d4.( a) \barMin
-    a4( b g) g( a) a \barFinalis
+    g4 a( c) c \barMin
+    c b c a g f( g) g \barFinalis
   }
   \addlyrics {
-    Syn Bo -- ží byl po -- sluš -- ný
-    až k_smr -- ti.
+    Syn Bo -- ží
+    byl po -- sluš -- ný až k_smr -- ti.
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Flp 2"
-    placet = "od estetických kvalit zcela odhlédnuto
-    možná není úplně vhodné v řadové nedělní antifoně citovat nápěv
-    Christus factus est, protože to je _ten_ charakteristický zpěv tridua"
     id = "ne-1ne-a3"
-    fial = "pust_triduum.ly#ct-resp?konec=17"
     piece = \markup {\sestavTitulek}
   }
 }
