@@ -1956,6 +1956,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a f g g \barMaior
+    \mark\sipka g f g a a g f e( f) d d \barMin
+    e c d \barFinalis
+  }
+  \addlyrics {
+    Buď -- te mi -- lo -- srd -- ní,
+    ja -- ko je mi -- lo -- srd -- ný váš O -- tec,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

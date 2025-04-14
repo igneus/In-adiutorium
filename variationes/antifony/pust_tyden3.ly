@@ -1597,7 +1597,71 @@
   \relative c' {
     \choralniRezim
     d4 d d d f d c e d d \barMin
+    f \mark\sipka f f f e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
+    vzal na se -- be na -- še bo -- les -- ti.
+  }
+  \header {
+    textus_approbatus = "Kristus nesl naše utrpení
+    a vzal na sebe naše bolesti."
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f d c e d d \barMin
+    f f \mark\sipka e c e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní,
+    vzal na se -- be na -- še bo -- les -- ti.
+  }
+  \header {
+    textus_approbatus = "Kristus nesl naše utrpení
+    a vzal na sebe naše bolesti."
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f d c e d d \barMin
     \mark\sipka c d d f f e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní
+    a vzal na se -- be na -- še bo -- les -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d f d c e d d \barMin
+    \mark\sipka f e d( e) c c d( f) e c d d \barFinalis
   }
   \addlyrics {
     Kris -- tus ne -- sl na -- še u -- tr -- pe -- ní
