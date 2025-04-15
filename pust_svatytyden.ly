@@ -193,6 +193,10 @@
     \header {
       quid = "resp."
       modus = "I"
+      placet = "3 ten extravagantní torculus na _Klaníme_ je těžké vkusně zazpívat,
+      ohledně responsorií ranních chval a nešpor VPDMC 281 zvlášť zdůrazňuje,
+      že je má zpívat lid, a ve Svatém týdnu je třeba s reálnou možností veřejně
+      slavených nešpor počítat"
       id = "ne-resp"
       piece = \markup {\sestavTitulekResp}
     }

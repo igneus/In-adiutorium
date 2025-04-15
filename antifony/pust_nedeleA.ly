@@ -51,6 +51,7 @@
     differentia = "d"
     psalmus = ""
     annus = "A"
+    placet = "2 neuspokojivý závěr"
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -78,6 +79,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
+    placet = "2 závěr je ne zcela uspokojivý, možná je to dokonce závěr falešný"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -138,6 +140,7 @@
     psalmus = ""
     annus = "A"
     fial = "vanoce_zjevenipane.ly#krtu-2ne-a1"
+    placet = "3 viz zdroj"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
