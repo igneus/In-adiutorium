@@ -886,7 +886,7 @@
     \relative c'' {
       \choralniRezim
       g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
-      g g g g a( c) b( c) c c d( c) b( a) a \barMax
+      g g g g a c c c d( c) b( a) a \barMax
       a a a( g) g \barMin g f g g( a) a \barMaior
       c c b( a g) g \barMin a g f g a a( g) g \barFinalis
     }
@@ -901,7 +901,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "_vyvýšen_ se mi moc nezdá"
       id = "po-ne-amag"
       piece = \markup {\sestavTitulekBezZalmu}
     }

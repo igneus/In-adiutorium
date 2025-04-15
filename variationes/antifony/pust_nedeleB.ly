@@ -1764,7 +1764,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
     g g g g a( c) b( c) c c d( c) b( a) a \barMax
@@ -1837,6 +1837,35 @@
     id = "ivmag1"
     fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
     fial = "pust_svatytyden.ly#po-ne-amag?upraveno"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
+    g g g g \mark\sipka a c c c d( c) b( a) a \barMax
+    a a a( g) g \barMin g f g g( a) a \barMaior
+    a b c a a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko Moj -- žíš vy -- vý -- šil na pouš -- ti ha -- da,
+    tak mu -- sí být vy -- vý -- šen Syn člo -- vě -- ka,
+    a -- by kaž -- dý, kdo v_ně -- ho vě -- ří,
+    měl skr -- ze ně -- ho ži -- vot věč -- ný.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ivmag1"
+    fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
+    fial = "pust_svatytyden.ly#po-ne-amag?cast=1-4"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

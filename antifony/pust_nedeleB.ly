@@ -240,7 +240,7 @@
   \relative c'' {
     \choralniRezim
     g4 g g( c) c b( c) a( g) g a g f e( f g) g \barMaior
-    g g g g a( c) b( c) c c d( c) b( a) a \barMax
+    g g g g a c c c d( c) b( a) a \barMax
     a a a( g) g \barMin g f g g( a) a \barMaior
     a b c a a g f g( a g) g \barFinalis
   }
@@ -257,7 +257,7 @@
     psalmus = ""
     id = "ivmag1"
     fons = "rozsáhlá výpůjčka melodie z: pondělí Svatého týdne, ant. k Magnificat"
-    fial = "pust_svatytyden.ly#po-ne-amag?zacatek=46"
+    fial = "pust_svatytyden.ly#po-ne-amag?cast=1-4"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
