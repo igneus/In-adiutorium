@@ -214,6 +214,52 @@
     \choralniRezim
     d4 d c b a( b) a g g \barMaior
     a a g f g g( a) a \barMin
+    c c b( c) a a \barMin \mark\sipka b a g \barFinalis
+  }
+  \addlyrics {
+    Ne -- jen z_chle -- ba ži -- je člo -- věk,
+    a -- le z_kaž -- dé -- ho slo -- va,
+    kte -- ré vy -- chá -- zí z_Bo -- žích úst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a( b) a g g \barMaior
+    a a g f g g( a) a \barMin
+    c c b( c) a a \barMin \mark\sipka g( a) a4. g \barFinalis
+  }
+  \addlyrics {
+    Ne -- jen z_chle -- ba ži -- je člo -- věk,
+    a -- le z_kaž -- dé -- ho slo -- va,
+    kte -- ré vy -- chá -- zí z_Bo -- žích úst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a( b) a g g \barMaior
+    a a g f g g( a) a \barMin
     c \mark\sipka b a g g a f g \barFinalis
   }
   \addlyrics {
@@ -307,6 +353,7 @@
 \markup\justify{
   Textově příbuzná antifona je mezi antifonami k žalmům
   těch samých druhých nešpor 1. neděle postní,
+  \fial-link "antifony/pust_tyden1.ly#2ne-a1" ,
   proto je sjednocování nápěvů, i kdyby se nabízelo, nežádoucí.
 }
 
@@ -440,6 +487,36 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Není skutečná finála o tón níž?
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g g( a) a \barMaior
+    c b a b( c) a a \barMin
+    c d d c c \barMaior
+    d d \barMin d d e d c b c a( g) g \barMin
+    a \mark\sipka f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    O -- de -- jdi sa -- ta -- ne,
+    ne -- boť je psá -- no:
+    Pá -- nu, své -- mu Bo -- hu, se bu -- deš kla -- nět
+    a jen je -- mu slou -- žit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
     annus = "A"
     id = "imag2"
@@ -1164,6 +1241,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c d d( a' bes) a a \barMin
+    a a \mark\sipka bes a a g f g( a) \mark\sipka a( g) g \barMaior
+    a a g f e( f) d( c) c \barMin
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- stá -- vá ho -- di -- na,
+    kdy o -- prav -- do -- ví Bo -- ží cti -- te -- lé
+    bu -- dou Ot -- ce u -- ctí -- vat
+    v_du -- chu a v_prav -- dě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1792,11 +1894,35 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) f \barMin g g f g g( f) f \barMaior
     f d d f e d c c \barMaior
     d f e( f d) d \mark\sipka \barMin e c d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či
+    sle -- pé -- mu od na -- ro -- ze -- ní,
+    je -- nom Kris -- tus, Bo -- ží Syn.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ivmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin g g f \mark\sipka e d d \barMaior
+    f \mark\sipka f d f e d c c \barMaior
+    d f e( f d) d \barMin e c d \barFinalis
   }
   \addlyrics {
     Ni -- kdo ni -- kdy ne -- o -- te -- vřel o -- či

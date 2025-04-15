@@ -297,8 +297,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d d( f) f \barMin g g f g g( f) f \barMaior
-    f d d f e d c c \barMaior
+    c4 d d( f) f \barMin g g f e d d \barMaior
+    f f d f e d c c \barMaior
     d f e( f d) d \barMin e c d \barFinalis
   }
   \addlyrics {
