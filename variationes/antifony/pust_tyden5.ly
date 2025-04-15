@@ -2037,6 +2037,28 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d c f( g) g( a) a a g( f) e e \barMaior
+    e f d c d f \mark\sipka f
+    f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
+    tak mu -- sí být vy -- vý -- šen
+    Syn člo -- vě -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 110"
+    id = "ne-ne2-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacZelenyII
     \choralniRezim
     d4 d c f( g) g( a) a a g( f) e e \barMaior
