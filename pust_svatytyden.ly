@@ -1269,7 +1269,7 @@
       c4 c c( d) c c \barMin
       a c b g g \barMaior
       f g a c c d c d c b a a \barMin
-      a( c) c d c b a g g( a) a( g) g \barFinalis
+      c c b c a g a a g g \barFinalis
     }
     \addlyrics {
       Mis -- tr vzka -- zu -- je:
