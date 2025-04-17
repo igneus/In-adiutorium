@@ -275,8 +275,8 @@
   \relative c' {
     \choralniRezim
     f4 g g( a) a \barMaior
-    a a a g f g f d d \barMin
-    d e c c( d) d \barFinalis
+    a a a g f e f d d \barMin
+    c f e c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
