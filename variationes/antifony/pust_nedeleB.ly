@@ -489,13 +489,45 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g a g f g( a) g g \barMaior
     a g a a( c) c \barMin
     b( c) b a g g \barMaior
     c c c c d e d c( b) a a \barMin
     a c \mark\sipka c b g a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš byl před ni -- mi pro -- mě -- něn
+    a je -- ho o -- děv
+    zá -- ři -- vě zbě -- lel.
+    Zje -- vil se jim E -- li -- áš s_Moj -- ží -- šem
+    a roz -- mlou -- va -- li s_Je -- ží -- šem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "iimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Náprava toho, jak melodie klade důrazy.
+  V dosavadní verzi je hlavní důraz položen na to, jak Ježíšův oděv zbělel,
+  což je přitom jen dílčí detail proměnění.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g a g \mark\sipka a a( c) c c \barMaior
+    c c c c( d) c \barMin
+    b( c) b a g g \barMaior
+    c c c c d e d c( b) a a \barMin
+    a c c b g a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš byl před ni -- mi pro -- mě -- něn
