@@ -629,6 +629,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka f4 f d f e c( d) \barMin
+    c4( d) d( f) f f f f g a g f e f e c c \barMin
+    d c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tou -- žeb -- ně jsem si přál
+    jíst s_vá -- mi to -- ho -- to ve -- li -- ko -- noč -- ní -- ho be -- rán -- ka,
+    dří -- ve než bu -- du tr -- pět.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = ""
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d f e d( c) \barMin
     f g( a) a a g f g a g f e f e c c \barMin
     d c d f e c( d) d \barFinalis

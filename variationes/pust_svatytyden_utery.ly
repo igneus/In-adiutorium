@@ -433,6 +433,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f( g) g f( e d4.) d \barMin
+    f4 f e d e d c \barMin
+    \mark\sipka a c d( e) d d \barFinalis
+  }
+  \addlyrics {
+    O -- slav mě, Ot -- če, slá -- vou,
+    kte -- rou jsem měl u te -- be,
+    dří -- ve než byl svět.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ut-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a c c( d) d e( c d) d \barMaior
