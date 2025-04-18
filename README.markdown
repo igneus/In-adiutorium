@@ -15,28 +15,28 @@ License of the music:
 
 Liturgical texts are property of Czech bishops' conference.
 
+## Prerequisites
+
+* LilyPond (version 2.24 is currently used in development)
+* Ruby + the Rake build tool (required to build booklets and use development tools, not needed if you only want to build LilyPond music sheets)
+
 ## Building
 
-* .ly files in the root directory and in it's subdirectories [commune](./commune)
-and [sanktoral](./sanktoral) are mostly standalone sheets and are to be built simply
-running LilyPond over them
-* .ly files in other directories are included in other ones and shouldn't be compiled themselves
-* you can build all sheets at once by running `rake build` in the root directory
+* .ly files in the root directory and in its subdirectories [commune](./commune)
+and [sanktoral](./sanktoral) are mostly standalone sheets and are to be built simply by running LilyPond over them
+* .ly files in other directories are included in other ones and shouldn't be compiled on their own
+* `rake build` in the root directory builds all sheets at once
 * in directory [antifonar](./antifonar) volumes of the Czech antiphonal may be compiled by running rake tasks (run `rake -T` to see what is available)
 * in directory [sesity](./sesity) run `rake` to compile all the booklets at once or `rake -T` to see how to build them one by one
 
 The lilypond sheets often contain the author's personal
-notes concerning future development.
+notes concerning known issues and future development.
 To hide them, compile the .ly files with point-and-click disabled:
 
 `lilypond -dno-point-and-click FILE.ly`
 
 If you are using [Frescobaldi](https://frescobaldi.org/), there is the
 `LilyPond > Engrave (publish)` menu item for this.
-
-## LilyPond version
-
-LilyPond 2.24.x is currently being used in development.
 
 ## Contents
 
