@@ -951,6 +951,7 @@
       modus = "II"
       differentia = "D"
       psalmus = "Iz 38"
+      placet = "2 klonil bych se k tomu, vrátit se tady k předchozí verzi"
       id = "ut-rch-a2"
       piece = \markup {\sestavTitulek}
     }
@@ -1189,7 +1190,9 @@
       modus = "IV alt"
       differentia = "A"
       psalmus = ""
-      placet = "zbytečně velký rozsah. Zejm. recitace kvartu pod finálou je až nemravná"
+      placet = "zbytečně velký rozsah. Zejm. recitace kvartu pod finálou je až nemravná.
+      Změna slovosledu v závěru posouvá důraz - oficiální text má vypointovaný
+      protiklad mrtvých skutků x Bohu _živému_."
       id = "st-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
