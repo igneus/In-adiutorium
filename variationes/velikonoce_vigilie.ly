@@ -57,6 +57,46 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g f g a g f( g f) f \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) a \barMin
+    a a a b c a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g g f( e) d \barMin
@@ -90,6 +130,26 @@
     quid = "ant. po 2. čtení (Gn 22)"
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 16"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a b g \barMin
+    a g f g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 16"
     id = "mc-xa2"
     piece = \markup {\sestavTitulek}

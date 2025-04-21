@@ -1757,6 +1757,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c d d d f e f g f d d \barMaior
+    f f e f d( c) c \barMin
+    \mark\sipka d f e c( d) \barFinalis
+  }
+  \addlyrics {
+    Pi -- lát dal zho -- to -- vit_* a při -- pev -- nit na kříž ná -- pis:
+    Je -- žíš Na -- za -- ret -- ský, ži -- dov -- ský král.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    quidbreve = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d c( d) f( f) f \barMin
     f g f g f e d d \barMaior
     f f e d c c \barMin
@@ -5841,6 +5863,30 @@
     bes a g a f( g) \barMaior
     g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
     f f e d \mark\sipka c( d) c c \barMin d( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ře -- kl:_*
+    Zboř -- te ten -- to chrám,
+    a ve třech dnech jej za -- se po -- sta -- vím;
+    ře -- kl to však o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Flp 2"
+    id = "so-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g g( a) a \barMin
+    bes a g a f( g) \barMaior
+    g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f f \mark\sipka g f e( f) d d \barMin e c c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus ře -- kl:_*
