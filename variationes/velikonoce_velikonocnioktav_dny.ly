@@ -802,6 +802,30 @@
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g g( a) a \barMin
+      a bes a g f g g( a) a \barMaior
+      \mark\sipka a a a g( f) d \barMin
+      f g g( f) f \barFinalis
+    }
+    \addlyrics {
+      Rych -- le jdě -- te_*
+      a po -- věz -- te u -- čed -- ní -- kům,
+      že Pán vstal z_mrt -- vých.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "po-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \score {
