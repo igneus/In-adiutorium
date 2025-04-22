@@ -203,6 +203,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "2 aleluja spíš lépe"
     id = "up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
