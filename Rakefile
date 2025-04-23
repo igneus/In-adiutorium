@@ -24,7 +24,7 @@ task :psalmodie => 'psalmodie.ly'
 #
 
 standalone_ly_files =
-  %w{*.ly commune/*.ly sanktoral/*.ly reholni/*/*.ly cizojazycne/*/*.ly paraliturgicke/*.ly}
+  %w{*.ly commune/*.ly sanktoral/*.ly reholni/*/*.ly cizojazycne/*/*.ly paraliturgicke/*.ly jine/*.ly}
     .collect {|glob| `git ls-files #{glob}`.split }
     .flatten
 standalone_ly_files -= %w{spolecne.ly dilyresponsorii.ly}

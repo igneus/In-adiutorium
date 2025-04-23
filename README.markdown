@@ -22,9 +22,8 @@ Liturgical texts are property of Czech bishops' conference.
 
 ## Building
 
-* .ly files in the root directory and in its subdirectories [commune](./commune)
-and [sanktoral](./sanktoral) are mostly standalone sheets and are to be built simply by running LilyPond over them
-* .ly files in other directories are included in other ones and shouldn't be compiled on their own
+* .ly files in subdirectories `antifony`, `invitatoria` and `spolecne` are partial and library files included by other files and are not supposed to be compiled on their own
+* .ly files in the root directory and subdirectories not listed in the previous item are standalone sheets and are to be built simply by running LilyPond over them
 * `rake build` in the root directory builds all sheets at once
 * in directory [antifonar](./antifonar) volumes of the Czech antiphonal may be compiled by running rake tasks (run `rake -T` to see what is available)
 * in directory [sesity](./sesity) run `rake` to compile all the booklets at once or `rake -T` to see how to build them one by one
@@ -58,6 +57,7 @@ If you are using [Frescobaldi](https://frescobaldi.org/), there is the
 - `/reholni` some random chants proper to various institutes of consecrated life
 - `/rytmicke` mostly attempts of rythmical psalm settings with guitar accompaniment (you were warned)
 - `/cizojazycne` random pieces of LOTH music for vernacular versions other than the Czech one
+- `/jine` pieces not fitting in any of the categories above
 
 ### Project internals
 
