@@ -1132,11 +1132,34 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       c4 c c b a g \barMin
       a f a g g \barMaior
       f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din zá -- stu -- pů,_*
+      on je král slá -- vy.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 24"
+      id = "ut-mc-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c b a g \barMin
+      a f a g g \barMaior
+      \mark\sipka a g f( g) g \barFinalis
     }
     \addlyrics {
       Hos -- po -- din zá -- stu -- pů,_*
@@ -1741,6 +1764,42 @@
       a a a g a b c a g \mark\sipka a a g g \barMaior
       c( d c) a( g) g( a) \barMin
       a a( g f) g f d d \barMax
+
+      d d d f( g) g
+      a g f g g \barMaior
+      a a a a a g a a( c) c( a) \barMin
+      a f e d d \barMaior
+      f e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl:_* Ma -- ri -- e!
+      O -- na se k_ně -- mu o -- brá -- ti -- la a zvo -- la -- la:
+      Rab -- bo -- ni!_-
+      to zna -- me -- ná Mis -- tře!
+
+      Je -- žíš jí ře -- kl:
+      Ne -- za -- dr -- žuj mě!
+      Ne -- boť jsem ješ -- tě ne -- vy -- stou -- pil
+      ke své -- mu Ot -- ci.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = "ut-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f e( d) d d( a' g) g( a) a \barMaior
+      a a a g a b c a g a a g g \barMaior
+      c( d c) a( g) g( a) \barMin
+      a \mark\sipka g f f( g f) d d \barMax
 
       d d d f( g) g
       a g f g g \barMaior

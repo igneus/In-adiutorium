@@ -583,7 +583,7 @@
       \choralniRezim
       c4 c c b a g \barMin
       a f a g g \barMaior
-      f a a( g) g \barFinalis
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Hos -- po -- din zá -- stu -- pů,_*
