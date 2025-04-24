@@ -2339,6 +2339,28 @@
   \score {
     \relative c'' {
       \choralniRezim
+      g g a a( c) c \barMin
+      c c b a g( a) g \barMaior
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Ze -- mě se sy -- tí_*
+      plo -- dy tvé -- ho dí -- la.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 104-II"
+      id = "st-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       g g g f( e) d \barMin
       f g a a a( c) b \barMin
       a g f( g) g \barFinalis
@@ -3169,6 +3191,32 @@
       a c d c e d d \barMaior
       d e( f e) d( c) c b c a( g) g \barMin
       f g a a a a \mark\sipka b a g a a g g \barMaior
+      f g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš za -- čal od Moj -- ží -- še,_*
+      pro -- bral všech -- ny pro -- ro -- ky
+      a vy -- klá -- dal u -- čed -- ní -- kům,
+      co se ve všech čás -- tech Pís -- ma na něj vzta -- hu -- je.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "st-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c c( d) d c b a( g) g \barMin
+      a c d c e d d \barMaior
+      d e( f e) d( c) c b c a( g) g \barMin
+      f g a a a \mark\sipka b c a g f g( a) g g \barMaior
       f g( a) g g \barFinalis
     }
     \addlyrics {
