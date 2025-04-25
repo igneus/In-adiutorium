@@ -3864,6 +3864,30 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g f g( a) g g f e d( c) c \barMaior
+      d d c d \mark\sipka d f f \barMin
+      g g f g
+      a g f f \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- di -- no -- vým ří -- ze -- ním se tak sta -- lo,_*
+      je to po -- di -- vu -- hod -- né
+      v_na -- šich o -- čích.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 118-III"
+      id = "ct-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {"ranní chvály a nešpory"}}
