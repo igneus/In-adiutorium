@@ -1678,7 +1678,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f a g f \barMin
     g f g a \mark\sipka g \barMin
@@ -1694,6 +1694,7 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "až moc úsečná"
     id = "up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1818,6 +1819,29 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
     f4 f g g( a) a \barMin
     \mark\sipka a g f d4. c \barMin
     f4 g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vstal z_mrt -- vých,_*
+    už ne -- u -- mí -- rá.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "up-dopo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g f d4. c \barMin
+    \mark\sipka d4 f g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých,_*

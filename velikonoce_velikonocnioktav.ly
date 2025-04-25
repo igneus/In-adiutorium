@@ -164,9 +164,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f a g f \barMin
-    g f g a g \barMin
-    f g g( f) f \barFinalis
+    f4 f g g( a) a \barMin
+    a g f d4. c \barMin
+    d4 f g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus vstal z_mrt -- vých,_*
@@ -178,7 +178,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    placet = "až moc úsečná"
     id = "up-dopo"
     piece = \markup {\sestavTitulekBezZalmu}
   }
