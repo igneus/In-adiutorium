@@ -136,9 +136,9 @@
   \relative c'' {
     \choralniRezim
     g4( a g) f f( g) \barMin
-    g f g a a g( a) g f g( a) a \barMaior
-    c-- b a
-    c a a( g) g \barFinalis
+    g f g a a g f a a( g) g \barMaior
+    c d c \barMin
+    b c a( g) g \barFinalis
   }
   \addlyrics {
     U -- čed -- ník,_*
