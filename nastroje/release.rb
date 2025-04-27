@@ -116,7 +116,7 @@ class ReleaseCLI < Thor
   end
 
   desc 'upload WEB_SOURCES', 'upload pdfs to the server'
-  option :must_exist, type: :boolean, aliases: :e, default: :true, desc: 'stop if some of the files does not exist'
+  option :must_exist, type: :boolean, aliases: :e, default: true, desc: 'stop if some of the files does not exist'
   def upload(srcdir=nil)
     # TODO list TeX and external files which must be handled manually
     do_command upload_command exist(Repository.from_dir(sources_dir(srcdir)).pdf_to_upload, exception: options[:must_exist])
