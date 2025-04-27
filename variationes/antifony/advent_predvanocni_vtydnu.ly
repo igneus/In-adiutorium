@@ -1098,7 +1098,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d( f) e d d( a') a a \barMaior
@@ -1174,6 +1174,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     d4 d( f) e d d( a') a a \barMin

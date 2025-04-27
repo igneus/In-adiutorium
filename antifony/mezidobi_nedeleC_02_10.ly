@@ -98,10 +98,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d( f) e d d( a') a a \barMaior
+    d4 d( f) e d d( a') a a \barMin
     bes( g bes) a( g) g \barMaior
-    g f g( a) g f f( g) g \barMin
-    g a f e4.( d) \barFinalis
+    g f g a g f( g) f \barMin
+    f g f e( d) d \barFinalis
   }
   \addlyrics {
     Duch Pá -- ně je na -- de mnou,
