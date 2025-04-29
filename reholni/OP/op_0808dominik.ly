@@ -466,18 +466,23 @@
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a c( d) d \barMin
+    d c e d d \barMaior
+    c d c b a( g) \barMin
+    f g a c b c a( g) g( a) a \barFinalis
   }
   \addlyrics {
-    Měj -- te lás -- ku, buď -- te po -- kor -- ní,
-    va -- ším vlast -- nic -- tvím ať je do -- bro -- vol -- ná chu -- do -- ba.
+    Měj -- te lás -- ku,
+    buď -- te po -- kor -- ní,
+    va -- ším vlast -- nic -- tvím
+    ať je do -- bro -- vol -- ná chu -- do -- ba.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -487,7 +492,9 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d f f f f g a g f( g) f f \barMin
+    e f d c d c \barMaior
+    d f e c( d) d \barFinalis
   }
   \addlyrics {
     Byl to nej -- vět -- ší a nej -- lep -- ší tě -- ši -- tel
@@ -496,8 +503,8 @@
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
