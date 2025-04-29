@@ -323,10 +323,33 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c a c d c \mark\sipka f e( d) d \barMaior
     \mark\sipka f f g g f g g( f) d f e( d c) \barMin
+    c d d d \barFinalis
+  }
+  \addlyrics {
+    Co se na -- ro -- di -- lo z_tě -- la, je tě -- lo,
+    co se na -- ro -- di -- lo z_Du -- cha, je duch.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c a c d c f e( d) d \barMaior
+    f f g g f g \mark\sipka f( e) d f e( d c) \barMin
     c d d d \barFinalis
   }
   \addlyrics {
