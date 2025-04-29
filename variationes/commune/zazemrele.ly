@@ -482,10 +482,13 @@
   }
 }
 
+\pageBreak
+
 \markup\italic{Nebo:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 g f g( a) a \barMin
@@ -502,6 +505,29 @@
     id = "rch-a3-alt"
     fons = "4. t. žaltáře, neděle, ranní chvály, 3. ant. (Text jiný: ubráno aleluja a 'dýchá' změněno na 'žije')"
     fial = "antifony/tyden4_1nedele.ly#rch-ant3?jiny_text&-aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 g f g( a) a \barMin
+    a4 c( d) c4.( a) bes4 a \mark\sipka g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vše -- chno, co ži -- je, ať chvá -- lí Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 150"
+    id = "rch-a3-alt"
+    fons = "4. t. žaltáře, neděle, ranní chvály, 3. ant. (Text jiný: ubráno aleluja a 'dýchá' změněno na 'žije')"
+    fial = "antifony/tyden4_1nedele.ly#rch-ant3?zacatek=13&konec=4"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -1885,6 +1911,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     g4 g g( a) a a( g) a a( b) b \barMin
     b c d c b g a a \barMaior

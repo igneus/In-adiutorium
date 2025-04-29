@@ -175,7 +175,7 @@
     \choralniRezim
     \key f \major
     f4 g f g( a) a \barMin
-    a4 c( d) c4.( a) bes4 a g f \barFinalis
+    a4 c( d) c4.( a) bes4 a g( f) f \barFinalis
   }
   \addlyrics {
     Vše -- chno, co ži -- je, ať chvá -- lí Hos -- po -- di -- na.
@@ -188,7 +188,7 @@
     psalmus = "Žalm 150"
     id = "rch-a3-alt"
     fons = "4. t. žaltáře, neděle, ranní chvály, 3. ant. (Text jiný: ubráno aleluja a 'dýchá' změněno na 'žije')"
-    fial = "antifony/tyden4_1nedele.ly#rch-ant3?jiny_text&-aleluja"
+    fial = "antifony/tyden4_1nedele.ly#rch-ant3?zacatek=13&konec=4"
     piece = \markup {\sestavTitulek}
   }
 }
