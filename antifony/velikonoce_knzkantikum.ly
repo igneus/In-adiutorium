@@ -133,7 +133,7 @@ velikTIIpondeliNespAntIII = \score {
   \relative c'' {
     \choralniRezim
     c4 c c b( a) g g f( e) f f g g \barMaior
-    g g g( c b) b( c a4. g) a4 b a( g) g \barMaior
+    a c b( c a) a b a g g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {

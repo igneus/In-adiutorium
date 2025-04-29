@@ -1040,7 +1040,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c b( a) g g f( e) f f g g \barMaior
     g g g( c b) b( c a4. g) a4 b a( g) g \barMaior
@@ -1066,6 +1066,29 @@
     \choralniRezim
     c4 c c b( a) g g f( e) f f g g \barMaior
     \mark\sipka a c b( c a) a b a a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Všich -- ni jsme dos -- ta -- li_* z_je -- ho pl -- nos -- ti,
+    a to mi -- lost za mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "t2-po"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c b( a) g g f( e) f f g g \barMaior
+    a c b( c a) a b a \mark\sipka g g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
