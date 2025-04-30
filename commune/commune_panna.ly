@@ -422,7 +422,7 @@
     d c b a g a( g) g \barMaior
     a c b c a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Sva -- té pan -- ny,
@@ -589,7 +589,7 @@
     f e d f( g a g) g( a) \barMin a( b c d) c b a( g) a \barMin
     g( f g a) a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pro -- zí -- ra -- vá pan -- na
@@ -604,7 +604,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "2 od aleluja tohoto typu obecně ustupuji (jakkoli tady nijak zvlášť nelibě nevyčnívá)"
     id = "rch-aben2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -755,7 +754,7 @@
     f4 g a g f bes a g a g \barMaior
     g g f e d d g( a bes) a g( f) f \barFinalis
 
-    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
@@ -878,7 +877,7 @@
     e( f e d) c( d) d \barMin d c b g a a( g) \barMaior
     a f g( a) a \barMin a c c b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Je -- di -- nou o -- bě -- tí
