@@ -61,7 +61,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g( a) g g \barMin
+    a4 a g f g g( a) g g \barMin
     f d f e d c \barMaior
     d d d( a' bes) a a \barMin
     a a g f g( a g) g \barMaior
@@ -103,6 +103,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 _Ježíš_ nevím"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

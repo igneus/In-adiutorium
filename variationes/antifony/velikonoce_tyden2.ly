@@ -479,7 +479,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f g( a) g g \barMin
     f d f e d c \barMaior
@@ -527,6 +527,63 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "a"
+    psalmus = ""
+    fial = "antifony/tyden3_5ctvrtek.ly#mc-ant2?konec=18"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a \mark\sipka g f g g( a) g g \barMin
+    f d f e d c \barMaior
+    d d d( a' bes) a a \barMin
+    a a g f g( a g) g \barMaior
+    a( bes a) g( f) d d( e) c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem al -- fa i o -- me -- ga,
+    prv -- ní i po -- sled -- ní.
+    Já jsem vý -- ho -- nek Da -- vi -- do -- va ro -- du,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/tyden3_5ctvrtek.ly#mc-ant2?konec=18"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 f g f g g( a) g g \barMin
+    f d f e d c \barMaior
+    d d d( a' bes) a a \barMin
+    a a g f g( a g) g \barMaior
+    a( bes a) g( f) d d( e) c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Já jsem al -- fa i o -- me -- ga,
+    prv -- ní i po -- sled -- ní.
+    Já jsem vý -- ho -- nek Da -- vi -- do -- va ro -- du,
+    zá -- ři -- vá jitř -- ní hvěz -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     fial = "antifony/tyden3_5ctvrtek.ly#mc-ant2?konec=18"
     id = "ut-aben"
@@ -633,6 +690,50 @@
     g4 g f g a f f( g) g \barMaior
     a c b( a g) g f g a a( g) g \barMaior
     \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a f f( g) g \barMaior
+    \mark\sipka f g a( c) c b c a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f g a f f( g) g \barMaior
+    f g \mark\sipka a a a b a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Což nám ne -- ho -- ře -- lo srd -- ce,
