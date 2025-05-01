@@ -2545,6 +2545,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e f e f d( e) e \barMaior
+    e( a) a g g( a) \mark\sipka e e \barMin
+    e d c d( e) e \barMin
+    f( g a) g f d( e) e \barMax
+    a( g f) g( a) g f g( a) \barMin
+    a g f g( a) g f e e \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že pše -- nič -- né zr -- no
+    ne -- pad -- ne do ze -- mě
+    a ne -- o -- du -- mře,
+    zů -- sta -- ne sa -- mo;
+    o -- du -- mře -- -li však,
+    při -- ne -- se hoj -- ný u -- ži -- tek.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "vmag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
