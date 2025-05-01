@@ -1018,6 +1018,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "_oběť jejího_ je neelegantní"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1126,6 +1127,67 @@
     d \mark\sipka d( e d) d \barMin
     c a c b a g( a) g g \barMaior
     f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    o -- če -- ká -- va -- la ví -- těz -- ství ví -- ry
+    a je -- jí duch já -- sal
+    v_Bo -- hu, je -- jím spa -- si -- te -- li;
+    Bůh při -- jal
+    o -- běť je -- jí -- ho ži -- vo -- ta
+    se za -- lí -- be -- ním.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) a( g) g \barMin
+    f a c b a c a b g g \barMaior
+    c c c d d( c) c \barMin
+    d c b c d e e( d) d \barMax
+    d \mark\sipka e d
+    c( d c) c \barMin c b a g( a) g f
+    g a a g g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    o -- če -- ká -- va -- la ví -- těz -- ství ví -- ry
+    a je -- jí duch já -- sal
+    v_Bo -- hu, je -- jím spa -- si -- te -- li;
+    Bůh při -- jal
+    o -- běť je -- jí -- ho ži -- vo -- ta
+    se za -- lí -- be -- ním.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) a( g) g \barMin
+    f a c b a c a b g g \barMaior
+    c c c d d( c) c \barMin
+    d c b c d e e( d) d \barMax
+    d e d
+    c( d c) c \barMin c \mark\sipka c c b( c) a g
+    f a a g g \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí

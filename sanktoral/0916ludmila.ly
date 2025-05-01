@@ -207,9 +207,9 @@
     f a c b a c a b g g \barMaior
     c c c d d( c) c \barMin
     d c b c d e e( d) d \barMax
-    d d( e) d \barMin
-    d c b a g a g g \barMaior
-    f g a a( g) g \barFinalis
+    d e d
+    c( d c) c \barMin c b a g( a) g f
+    g a a g g \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí
@@ -225,7 +225,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "_oběť jejího_ je neelegantní"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
