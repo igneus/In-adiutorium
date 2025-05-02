@@ -1433,6 +1433,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d e d4. d \barMaior
+    f4 d f \mark\sipka e c e( f) d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus je stej -- ný_*
+    vče -- ra i dnes i na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "t2-ct"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f e d c c \barMaior
     d c d f e c d d \barMaior
     c d e d \barFinalis
