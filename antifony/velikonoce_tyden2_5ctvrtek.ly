@@ -70,6 +70,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 81"
+    placet = "3 nic moc"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
