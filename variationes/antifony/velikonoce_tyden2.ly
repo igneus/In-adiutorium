@@ -1812,7 +1812,7 @@
     Ten, kte -- rý ze -- mřel na kří -- ži,
     zlo -- mil moc smr -- ti
     a vlast -- ní mo -- cí
-    vstal \skip 1 tře -- tí -- ho dne z_mrt -- vých.
+    vstal tře -- tí -- ho dne z_mrt -- vých.
 
     A -- le -- lu -- ja.
   }
