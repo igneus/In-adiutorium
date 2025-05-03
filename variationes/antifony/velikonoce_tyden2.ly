@@ -1133,6 +1133,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g f g a a( g) g \barMaior
+    a c c b( a g) g f g a g g \barMaior
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- tec mi -- lu -- je Sy -- na
+    a všech -- no svě -- řil do je -- ho ru -- kou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g f \mark\sipka e f f( g) g \barMaior
     a c c c( b a) a g f a a( g) g \barMaior
     f g g g \barFinalis
@@ -1168,6 +1190,28 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g g( a) a \barMaior
+    a g f d d d e c c( d) d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    O -- tec mi -- lu -- je Sy -- na
+    a všech -- no svě -- řil do je -- ho ru -- kou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1272,6 +1316,28 @@
     d4 c d d( f) f \barMin
     g f e d c
     e f d d \barFinalis
+  }
+  \addlyrics {
+    Kdo vě -- ří v_Sy -- na,
+    má ži -- vot věč -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( f) f \mark\sipka
+    f g( a) g f( e d) d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Kdo vě -- ří v_Sy -- na,

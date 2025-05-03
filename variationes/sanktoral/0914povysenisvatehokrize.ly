@@ -1505,6 +1505,33 @@
   }
 }
 
+\markup\justify{
+  (Jen divisio; možná je takhle lépe vystiženo, jak jsem tu pasáž odjakživa zvyklý zpívat)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d( f e) d e( f) d d \barMaior
+    f( e d) c d d( c) c \barMax
+    d d( f e) f( e) f( g a g) g \barMaior
+    \[ g( a g-- \] \[ a bes a \] \[ g a g) \] \mark\sipka \barMin f f f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ten, kte -- rý ze -- mřel na kří -- ži,
+    zlo -- mil moc smr -- ti
+    a vlast -- ní mo -- cí
+    vstal tře -- tí -- ho dne z_mrt -- vých.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \score {
   \relative c'' {
     \choralniRezim
