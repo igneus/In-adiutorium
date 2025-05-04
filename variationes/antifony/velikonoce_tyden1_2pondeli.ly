@@ -240,6 +240,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f e f f( g) g \barMaior
+    g a g f g( a) f f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ať se ra -- du -- jí_* v_to -- bě všich -- ni,
+    kdo mi -- lu -- jí tvé jmé -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 5"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

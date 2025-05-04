@@ -1172,6 +1172,30 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 a c( d) d \barMaior
+    \mark\sipka d c d( e) d c c( d) d \barMaior
+    c d e( f e) d c( d) \barMin c( a) b a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja,
+    pojď -- me, klaň -- me se Kris -- tu; on je Pán a Král
+    a -- po -- što -- lů,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "invit-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify{
   Text velikonočního invitatoria je odlišný od potridentského breviáře,
   ale tradiční, \cantusid-link "001028"
@@ -1255,6 +1279,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
   \header {
     fons_externus = "volně podle CZ-Pn XV A 10, f. 227v"
+    fons_externus_url = "https://new.manuscriptorium.com/apis/resolver-api/en/browser/default/detail?url=https%3A//collectiones.manuscriptorium.com/assorted/AIPDIG/NMP___/0/AIPDIG-NMP___XV_A_10_____0MGV3O0-cs/&imageId=https://imagines.manuscriptorium.com/loris/AIPDIG-NMP___XV_A_10_____0MGV3O0-cs/ID0227V"
     quid = "ant."
     modus = "V"
     differentia = "a"
