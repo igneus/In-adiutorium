@@ -252,6 +252,7 @@
     differentia = "d"
     psalmus = ""
     placet = "lépe"
+    fial = "commune/commune_apostol.ly#invit?cast=3-5"
     id = "invit-velik"
     piece = \markup {\sestavTitulekBezZalmu}
   }
