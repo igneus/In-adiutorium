@@ -67,7 +67,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e f g f d d \barMaior
     c( d) d( f) f g a f g \barMin
@@ -75,6 +75,69 @@
 
     d d c d \mark\sipka e( f) d d \barMaior
     f g( f g a) g f g f( e d) \barMaior
+    f f e d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl svým u -- čed -- ní -- kům:
+    Při -- nes -- te ně -- ko -- lik ryb,
+    kte -- ré jste prá -- vě chy -- ti -- li.
+
+    Ši -- mon Pe -- tr vy -- stou -- pil
+    a tá -- hl na zem síť pl -- nou vel -- kých ryb.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e f g f d d \barMaior
+    c( d) d( f) f g a f g \barMin
+    \mark\sipka a g f e( f) d c d d \barMax
+
+    d d c d e( f) d d \barMaior
+    f g( f g a) g f g \mark\sipka g( f d) \barMaior
+    f f e d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl svým u -- čed -- ní -- kům:
+    Při -- nes -- te ně -- ko -- lik ryb,
+    kte -- ré jste prá -- vě chy -- ti -- li.
+
+    Ši -- mon Pe -- tr vy -- stou -- pil
+    a tá -- hl na zem síť pl -- nou vel -- kých ryb.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f g f d d \barMaior
+    \mark\sipka f f f g a f g \barMin
+    a g f e( f) d c d d \barMax
+
+    d d c d e( f) d d \barMaior
+    f g( f g a) g f g g( f d) \barMaior
     f f e d c
     e f d d \barFinalis
   }
@@ -289,6 +352,56 @@
     f g g f d e d c \barMin
     a c d d
     e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům
+    po svém zmrt -- vých -- vstá -- ní;
+    při -- stou -- pil k_nim a po -- dal jim
+    chléb a ry -- bu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) d d \barMin f( g f) e d c d( c) c \barMin
+    d d c d f( g) g \barMaior
+    f g \mark\sipka a g f g f d \barMin
+    f f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům
+    po svém zmrt -- vých -- vstá -- ní;
+    při -- stou -- pil k_nim a po -- dal jim
+    chléb a ry -- bu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f f e( d c) \barMin
+    d( e f) f g a a( g) g \barMin
+    f d f e d( c) c \barMaior
   }
   \addlyrics {
     Je -- žíš se už po -- tře -- tí zje -- vil u -- čed -- ní -- kům

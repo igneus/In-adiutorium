@@ -8,10 +8,10 @@
     \choralniRezim
     d4 d f e f g f d d \barMaior
     c( d) d( f) f g a f g \barMin
-    g f e e( f) d c d d \barMax
+    a g f e( f) d c d d \barMax
 
     d d c d e( f) d d \barMaior
-    f g( f g a) g f g f( e d) \barMaior
+    f g( f g a) g f g g( f d) \barMaior
     f f e d c
     e f d d \barFinalis
   }
