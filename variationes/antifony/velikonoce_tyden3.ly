@@ -945,7 +945,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g a g a c c \barMin
     c c c d c a a \barMaior
@@ -998,6 +998,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g g a g a c c \barMin
     c c c d c a a \barMaior
@@ -1237,12 +1238,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c c b a c( d) d d \barMaior
     d d( e) c( a) a \barMin
     c b a g( a) \mark\sipka a( g) g \barMaior
     f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus o -- čis -- til svět od hří -- chu
+    a za -- se -- dl
+    po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c b a c( d) d d \barMaior
+    d d( e) c( a) a \barMin
+    c b a g( a) \mark\sipka g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus o -- čis -- til svět od hří -- chu
@@ -1511,6 +1537,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c c d b c a g g \barMin
+    f \mark\sipka a c c
+    b a g( a) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka c4 a c d c e c d d \barMin
     c c b g
     a g f( g) g \barFinalis
@@ -1661,6 +1709,28 @@
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g( a) a \barMin a a g f d d
+    e f d( c) c \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 111"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}

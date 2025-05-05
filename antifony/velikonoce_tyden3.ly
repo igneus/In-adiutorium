@@ -185,7 +185,7 @@
     \choralniRezim
     g4 g g g a g a c c \barMin
     c c c d c a a \barMaior
-    a a( c) b c a g g( a g) \barMin
+    a c b a g( a) g g \barMin
     g f d f( g) a g g \barMaior
     f g( a) g g \barFinalis
   }
@@ -201,7 +201,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
-    placet = "_dosáhne svobody_ spíš lépe"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -236,8 +235,8 @@
     \choralniRezim
     g4 a c c b a c( d) d d \barMaior
     d d( e) c( a) a \barMin
-    c b a g( a) a( g) g \barMaior
-    f g( a) g g \barFinalis
+    c b a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Kris -- tus o -- čis -- til svět od hří -- chu
