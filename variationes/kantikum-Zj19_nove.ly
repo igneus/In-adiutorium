@@ -137,6 +137,7 @@ modIalal = \relative c' { \neviditelna d  d f e( f) d( c) \barMin f e c( d) d \b
 \markup{(Z dosavadní verze)}
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     \neviditelna d d4 d d( f) f( g) \barMin a f e( d) d \barFinalis
   }
