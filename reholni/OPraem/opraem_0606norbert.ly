@@ -8,7 +8,7 @@
 \header {
   title = \markup\titleSvatek
             "sv. Norberta, biskupa a zakladatele řádu"
-            památka
+            slavnost
             6.6.
             \textyOPraem
   composer = "Jakub Pavlík"
