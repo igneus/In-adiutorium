@@ -14,19 +14,47 @@
   composer = "Jakub Pavlík"
 }
 
-% TODO zkontrolovat oficiální proprium, text rubriky vzít přesně podle něj
 \markup\italic{
   Zpěvy modlitby se čtením, ranních chval a druhých nešpor jako 6. 6.,
   kromě následujících.
 }
 
+\markup\justify{
+  (I když podle toho, jak antifony vypadají, bych latinské předlohy čekal,
+  ve známých pramenech jsem je zatím nenašel.)
+}
+
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f g( a g) f g g \barMaior
+    a a g f d
   }
   \addlyrics {
-    Chvalme Krista Pána o přenesení svatého Norberta, aleluja.
+    Chval -- me Kris -- ta Pá -- na
+    o pře -- ne -- se -- ní sva -- té -- ho Nor -- ber -- ta,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a g) f g g \barMaior
+    a a g f f
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta Pá -- na
+    o pře -- ne -- se -- ní sva -- té -- ho Nor -- ber -- ta,
+    a -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k invitatoriu"
@@ -47,6 +75,35 @@
     d c d( e) d d \barMaior
     e( f e d) c( d) \barMin
     c a b c a g( a g4.) g4 \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Bo -- ží,
+    pří -- tel Že -- ni -- cha,
+    Nor -- bert,
+    slá -- va na -- še -- ho řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (divisiones)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c d( e) d d \barMin
+    e( f e d) c( d) \barMaior
+    c a b c a g( a g4.) g4 \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {

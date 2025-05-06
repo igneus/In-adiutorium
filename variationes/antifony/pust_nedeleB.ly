@@ -2785,6 +2785,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c d d e( c) c( d) d \barMaior
+    d( e) c( b a4.) a \barMin g4 a c b a( b a) a \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d c d d f( g f e) c( d) d \barMaior

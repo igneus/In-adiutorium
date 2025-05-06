@@ -25,7 +25,7 @@
   (Z matutina jen 9. responsorium.)
 }
 \markup\justify{
-  APraem1718: \with-url "https://books.google.cz/books?id=GzRHAAAAcAAJ" {
+  APraem1718: \with-url "https://books.google.cz/books?id=GzRHAAAAcAAJ&hl=cs&pg=PA336-IA2#v=onepage&q&f=false" {
     \italic{Antiphonarium Praemonstratense,} Virduni 1718},
   s. 336 (obsahuje i kompletní zpěvy matutina).
   S. 296 Translatio (jen rubrika, žádné další noty).
@@ -353,7 +353,8 @@
 \pageBreak
 
 \markup{
-  \italic{Magnus inter magnos,} APraem1934 674.
+  \italic{Magnus inter magnos,} APraem1934 674;
+  DF I 5 117r
 }
 \score {
   \relative c' {
