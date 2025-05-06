@@ -16,7 +16,7 @@
 
 % TODO zkontrolovat oficiální proprium, text rubriky vzít přesně podle něj
 \markup\italic{
-  Zpěvy modlitby se čtením, ranních chval a druhých nešpor jako 6. 6.,
+  Zpěvy modlitby se čtením, ranních chval a druhých nešpor jako 6. června,
   kromě následujících.
 }
 
