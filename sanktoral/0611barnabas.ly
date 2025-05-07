@@ -43,6 +43,11 @@
   }
 }
 
+\markup{
+  \chant-ref "rch-r" "commune/commune_evangelista.ly#rch-r" {}
+  \chant-ref "rch-r-pasch" "commune/commune_evangelista.ly#rch-r-pasch" {}
+}
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -74,6 +79,11 @@
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
+}
+
+\markup{
+  \chant-ref "ne-r" "commune/commune_evangelista.ly#ne-r" {}
+  \chant-ref "ne-r-pasch" "commune/commune_evangelista.ly#ne-r-pasch" {}
 }
 
 \score {

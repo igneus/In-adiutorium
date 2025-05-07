@@ -165,6 +165,16 @@
          #{ \markup\make-bible-link #header:scriptura #}
          empty-markup)))
 
+#(define-markup-command (chant-ref layout props as-chant-id fial text) (string? string? markup?)
+   "Odkaz na zpev z jineho formulare (argument as-chant-id funkce nepouziva,
+   je tu pro potreby nastroju, ktere zdrojovy kod zpracovavaji jako data;
+   jde o virtualni id, ktere je odkazovanemu zpevu prirazeno v odkazujicim formulari)"
+   (let ((urlWithScheme (string-append "fial://" fial)))
+     (interpret-markup layout props
+       (if (is-development-build layout props)
+           #{ \markup{ \with-url #urlWithScheme { #text } } #}
+           text))))
+
 % test function for \if detecting development build
 % (i.e. build with the point-and-click feature enabled)
 #(define (is-development-build layout props)

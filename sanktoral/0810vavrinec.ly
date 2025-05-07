@@ -165,8 +165,10 @@
   }
 }
 
-\markup\italic{Responsorium z ranních chval ze společných textů
-o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
+\markup\italic\chant-ref "rch-r" "commune/commune_jedenmucednik.ly#rch-resp" {
+  Responsorium z ranních chval ze společných textů
+  o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}
+}
 
 \score {
   \relative c'' {
@@ -236,10 +238,14 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
   }
 }
 
-\markup\italic{3. ant. je stejná jako 3. ant. ranních chval \concat{(\upright{"Svatý Vavřinec se modlil"});} k ní kantikum Zj 4.}
+\markup\italic\chant-ref "ne-a3" "sanktoral/0810vavrinec.ly#rch-a3" {
+  3. ant. je stejná jako 3. ant. ranních chval \concat{(\upright{"Svatý Vavřinec se modlil"});} k ní kantikum Zj 4.
+}
 
-\markup\italic{Responsorium z 2. nešpor ze společných textů
-o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}}
+\markup\italic\chant-ref "ne-r" "commune/commune_jedenmucednik.ly#2ne-resp" {
+  Responsorium z 2. nešpor ze společných textů
+  o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}
+}
 
 \score {
   \relative c'' {

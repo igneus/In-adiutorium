@@ -88,7 +88,7 @@
   }
 }
 
-\markup\italic{
+\markup\italic\chant-ref "rch-r" "commune/commune_svatazena.ly#rch-resp" {
   Responsorium \upright{Bůh se k ní sklonil}
   ze společných textů o svatých ženách.
 }
@@ -189,7 +189,7 @@
   }
 }
 
-\markup\italic{
+\markup\italic\chant-ref "ne-r" "commune/commune_svatazena.ly#2ne-resp" {
   Responsorium \upright{Bůh si ji vyvolil}
   ze společných textů o svatých ženách.
 }

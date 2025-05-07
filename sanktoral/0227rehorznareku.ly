@@ -12,7 +12,7 @@
 
 \markup\communia #'(#:ucitel #:reholnik)
 
-\markup\justify\italic{
+\markup\justify\italic\chant-ref "rch-aben" "commune/commune_ucitel.ly#rch-aben" {
   K Benedictus antifona \upright{Moudří se budou skvít}
   ze společných textů o učitelích církve.
 }

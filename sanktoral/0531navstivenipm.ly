@@ -124,8 +124,12 @@
 }
 
 \markup\justify\italic{
-  Responsorium \upright{Bůh si ji vyvolil od pradávna}
-  ze společných textů o Panně Marii.
+  \chant-ref "rch-r" "commune/commune_maria.ly#rch-resp" {
+    Responsorium \upright{Bůh si ji vyvolil od pradávna}
+  }
+  \chant-ref "rch-r-velik" "commune/commune_maria.ly#rch-resp-velik" {
+    ze společných textů o Panně Marii.
+  }
 }
 
 \score {
@@ -240,8 +244,12 @@
 }
 
 \markup\justify\italic{
-  Responsorium \upright{Buď zdráva, Maria}
-  ze společných textů o Panně Marii.
+  \chant-ref "ne-r" "commune/commune_maria.ly#2ne-resp" {
+    Responsorium \upright{Buď zdráva, Maria}
+  }
+  \chant-ref "ne-r-velik" "commune/commune_maria.ly#2ne-resp-velik" {
+    ze společných textů o Panně Marii.
+  }
 }
 
 \score {

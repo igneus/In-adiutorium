@@ -146,7 +146,14 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
-\markup\italic{Antifona ze společných textů o apoštolech.}
+\markup\italic{
+  \chant-ref "invit" "commune/commune_apostol.ly#invit" {
+    Antifona
+  }
+  \chant-ref "invit-velik" "commune/commune_apostol.ly#invit-velik" {
+    ze společných textů o apoštolech.
+  }
+}
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 

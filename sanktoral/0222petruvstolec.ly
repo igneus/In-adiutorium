@@ -13,7 +13,9 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
-\markup\italic{Antifona ze společných textů o apoštolech.}
+\markup\italic\chant-ref "invit" "commune/commune_apostol.ly#invit" {
+  Antifona ze společných textů o apoštolech.
+}
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -166,7 +168,9 @@
   }
 }
 
-\markup\italic{Responsorium ze společných textů o apoštolech.}
+\markup\italic\chant-ref "rch-r" "commune/commune_apostol.ly#rch-resp" {
+  Responsorium ze společných textů o apoštolech.
+}
 
 \score {
   \relative c'' {
@@ -267,7 +271,9 @@
   }
 }
 
-\markup\italic{Responsorium ze společných textů o apoštolech.}
+\markup\italic\chant-ref "ne-r" "commune/commune_apostol.ly#2ne-resp" {
+  Responsorium ze společných textů o apoštolech.
+}
 
 \score {
   \relative c' {
