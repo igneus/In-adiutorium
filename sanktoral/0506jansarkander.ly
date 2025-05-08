@@ -42,9 +42,9 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 f g f( e) d( e) e \barMin
+    g a g f( e) d( e) e \barMin
     f g a a g f g a g g \barMaior
     g a a a f( e) d
     f g f( e) e \barFinalis
@@ -59,7 +59,7 @@
   \header {
     quid = "2. ant."
     modus = "IV"
-    differentia = "E"
+    differentia = "g"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -154,9 +154,9 @@
   \relative c'' {
     \choralniRezim
     g4 g g a g f g g( a) \barMin
-    c( b) a c( b) g g \barMaior
-    a a a a f e d d \barMin
-    f g a( g) g \barFinalis
+    c( b) c d( c) a a \barMaior
+    a a g a g f e e \barMin
+    f e d( e) e \barFinalis
   }
   \addlyrics {
     Všich -- ni, kdo chtě -- jí zbož -- ně žít
@@ -166,8 +166,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "III"
+    differentia = "g"
     psalmus = "Žalm 116-I"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -200,9 +200,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 e c d d \barMin
-    d d d c b g a g g \barMin
-    f a g g \barFinalis
+    c4 d d c c \barMin
+    c c c b c a g( a) g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Když vy -- tr -- vá -- me,
@@ -211,8 +211,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Zj 4"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
