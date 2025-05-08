@@ -1327,6 +1327,46 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f e f d( c) c \barMaior
+    \mark\sipka d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f e f d( c) c \barMaior
+    d f \mark\sipka g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 d e d c \mark\sipka b c a g g \barMin
@@ -1494,6 +1534,26 @@
     \choralniRezim
     f4 f e d c c f g g( f) f \barMaior
     g a f f \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a a a g f g( f) f \barMin
+    d f g( f) f \barFinalis
   }
   \addlyrics {
     Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.

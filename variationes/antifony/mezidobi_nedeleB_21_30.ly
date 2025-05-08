@@ -1945,6 +1945,54 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g g e f4. d \barMaior
+    e4 e e e f g f e d( e) d d \barMax
+    f g \mark\sipka a a g f g( a) g( f) f \barMin
+    d f e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je pro te -- be lé -- pe,
+    a -- bys ve -- šel do ži -- vo -- ta bez ru -- ky,
+    než a -- bys s_o -- bě -- ma ru -- ka -- ma
+    při -- šel do pek -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne26b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g e f4. d \barMaior
+    e4 e e e f g f e d( e) d d \barMax
+    f g a a g f \mark\sipka g f d \barMin
+    c f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Je pro te -- be lé -- pe,
+    a -- bys ve -- šel do ži -- vo -- ta bez ru -- ky,
+    než a -- bys s_o -- bě -- ma ru -- ka -- ma
+    při -- šel do pek -- la.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne26b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c e d d \barMaior
   }
   \addlyrics {
