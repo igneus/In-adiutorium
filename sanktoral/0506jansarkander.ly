@@ -142,6 +142,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "2 zkusit lépe"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

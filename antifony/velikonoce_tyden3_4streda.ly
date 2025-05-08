@@ -45,6 +45,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Iz 33"
+    placet = "2 zkusit lépe"
     id = "rch-a2"
     fons = "Začátek melodie záměrně kopíruje vánoční Simeonovskou antifonu
     'Moje oči': Narození Páně, uprostřed dne, odpoledne"
@@ -118,6 +119,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 127"
+    placet = "2 druhá půlka není moc zpěvná"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
