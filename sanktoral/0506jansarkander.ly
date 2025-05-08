@@ -219,7 +219,7 @@
   }
 }
 
-\markup\italic{(Responsorium pro nešpory není vlastní, bere se ze společných textů.)}
+\markup\italic{(Pro nešpory formulář nemá vlastní responsorium.)}
 
 \score {
   \relative c' {
