@@ -191,7 +191,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 116-II"
-    fial = "pust_svatytyden.ly#st-rch-a2?zacatek"
+    fial = "pust_svatytyden.ly#st-rch-a2?cast=1&ignoruj=opakovani"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
