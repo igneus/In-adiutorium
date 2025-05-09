@@ -21,7 +21,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f g f \barMin
+    f4 f f f f f f g g f \barMin
     f f f e g a a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
@@ -52,14 +52,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c c \barMin
-    b a g( a) g g \barMin
-    f g a a a( c) b \barMaior
-    c c a g
-    a g f g g f f \barMaior
-    g a f f( g) g \barMin
-    a b c a g
-    a g f( g) g \barFinalis
+    a4 c c \barMin
+    d c d( e) d d \barMin
+    e f e d c( d) d \barMaior
+    d d c b
+    c a g a a g g \barMaior
+    a b g g( a) a \barMin
+    a a a c b
+    a b a( g) g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a,
@@ -73,8 +73,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
