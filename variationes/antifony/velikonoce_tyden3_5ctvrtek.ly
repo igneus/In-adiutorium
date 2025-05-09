@@ -294,6 +294,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a g bes( g) a \barMin
+    a g f
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Všech -- na zříd -- la mé spá -- sy_*
+    jsou v_to -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 87"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g g( a) g f g( a) a \barMin
@@ -779,6 +801,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g f g \mark\sipka g( a) a a b( c) a( g) g \barMaior
+    c a c c c d( c) b a b a g g \barMin
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na Si -- ó -- nu je ve -- li -- ký_*
+    a na -- de vše -- mi ná -- ro -- dy vy -- vý -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 99"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g g f g g( a) a g a c b \barMaior
     b c c b a g( a) g g f g( a) a( g) g \barMaior
     f g( a) g g \barFinalis
@@ -947,7 +991,7 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a( c) c c d e d c( d) d( c) c \barMaior
     d c( d a4.) a \barMin f4 g g( a) a \barMaior
@@ -1013,6 +1057,30 @@ zvlášť když jsou i navzájem obsahově příbuzné, zachovávaly jednotu mod
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 132-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c c d e d c( d) d( c) c \barMaior
+    d c( d a4.) a \barMin \mark\sipka c4 b a( g) g \barMaior
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus_*
+    je je -- di -- ný Pa -- nov -- ník,
+    Král krá -- lů a Pán pá -- nů.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 132-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
