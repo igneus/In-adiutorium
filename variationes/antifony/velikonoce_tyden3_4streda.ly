@@ -843,6 +843,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 c( b) c( d) d \barMin
+    c d e c d d \barMaior
+    d c b \mark\sipka c( a g4.) g4 \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 \mark\sipka g( a) c( d) d \barMin
     c d e c d d \barMaior
     d c b a g
@@ -955,6 +979,30 @@
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b g
+    b c a a g g \barMaior
+    a g f a( c) b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

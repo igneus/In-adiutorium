@@ -1565,6 +1565,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 a c( d) d \barMin
+    d c d f e \barMaior
+    e f d d d f e c( d) c \barMin
+    d e f( d) c( d) d \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Chval -- me Kris -- ta,
+    na -- še -- ho Pá -- na,
+    a o -- sla -- vuj -- me je -- ho Mat -- ku,
+    Pan -- nu Ma -- ri -- i!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
