@@ -2552,6 +2552,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c c( d) d \barMin f( e f) f( g) g \barMaior
     f e( f g) f( e) d d \barMaior
@@ -2697,6 +2698,30 @@
     \choralniRezim
     d4 f e c d( c) \barMin
     d( f) f( g) g \barMaior
+    g a g \mark\sipka f( g) d \barMin
+    c f d d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e c d( c) \barMin
+    d( f) f( g) g \barMaior
     \mark\sipka f g g f d
     c e d d \barFinalis
   }
@@ -2734,6 +2759,31 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 g f e d( c) \barMin
+    d( f) f( g) g \barMaior
+    g a \mark\sipka a g f
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -2887,7 +2937,8 @@
 }
 
 \markup\justify{
-  Velmi volně podle AR1912 43
+  Velmi volně podle AR1912 43;
+  \cantusid-link "001957"
 }
 \score {
   \relative c' {
@@ -2953,6 +3004,30 @@
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    id = "ne-amag-velik"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a \barMin
+    g bes( g) a \barMaior
+    g a f e( f) d \barMin
+    c f d d \barFinalis
+  }
+  \addlyrics {
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
+    a vy -- kou -- pil nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -547,7 +547,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?konec&+aleluja"
+    fial = "antifony/mezidobi_nedeleB_11_20.ly#ne20b-rch-ben?cast&+aleluja&divisiones=ignore"
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -556,9 +556,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d c c( d) d \barMin f( e f) f( g) g \barMaior
-    f e( f g) f( e) d d \barMaior
-    f e c d \barFinalis
+    f4 g f e d( c) \barMin
+    d( f) f( g) g \barMaior
+    g a a g f
+    g a f f \barFinalis
   }
   \addlyrics {
     U -- kři -- žo -- va -- ný vstal z_mrt -- vých
@@ -567,8 +568,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     fial = "commune/zazemrele.ly#ne-amag-velik"
     id = "pa-amag"

@@ -16,9 +16,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d c c( d) d \barMin f( e f) f( g) g \barMaior
-    f e( f g) f( e) d d \barMaior
-    f e c d \barFinalis
+    f4 g f e d( c) \barMin
+    d( f) f( g) g \barMaior
+    g a a g f
+    g a f f \barFinalis
   }
   \addlyrics {
     U -- kři -- žo -- va -- ný vstal z_mrt -- vých
@@ -27,8 +28,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VI"
+    differentia = "F"
     psalmus = "147-I"
     id = "1ne-a1"
     fons = "za zemřelé, nešpory, ant. k Magnificat v době velikonoční"

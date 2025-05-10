@@ -507,19 +507,21 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d c c( d) d \barMin f( e f) f( g) g \barMaior
-    f e( f g) f( e) d d \barMaior
-    f e c d \barFinalis
+    f4 g f e d( c) \barMin
+    d( f) f( g) g \barMaior
+    g a a g f
+    g a f f \barFinalis
   }
   \addlyrics {
-    U -- kři -- žo -- va -- ný vstal z_mrt -- vých
+    U -- kři -- žo -- va -- ný
+    vstal z_mrt -- vých
     a vy -- kou -- pil nás.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "ne-amag-velik"
     piece = \markup {\sestavTitulekBezZalmu}
