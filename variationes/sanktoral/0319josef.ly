@@ -2995,11 +2995,43 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f f( g) f f \barMin
     f g a g f g g f( e d) \barMin
     g a f g f f \barMaior
+    g g f e d c f( e c d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- vi ro -- di -- če
+    pu -- to -- vá -- va -- li kaž -- dý rok
+    do Je -- ru -- za -- lé -- ma
+    na ve -- li -- ko -- noč -- ní svát -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "tercie"
+    fial = "vanoce_narozenipane.ly#svrodiny-rch-a1?+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f f( g) f f \barMin
+    f g a g f g( a) g g \barMin
+    a g f g f f \barMaior
     g g f e d c f( e c d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
@@ -3318,6 +3350,67 @@
     differentia = "f"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#svrodiny-rch-a1?cast=3"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Po úpravě zdrojové antifony by beze všeho šlo tuto aktualisovat,
+  ale dosavadní nápěv mi přijde lepší a ten sdílený motiv není důležitý.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g( f) f( g) g \barMaior
+    f g a a g f \mark\sipka f g g \barMin a g f g f f \barMaior
+    d f e c( d) d \barFinalis
+
+    f^\markup\rubrVelikAleluja g f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- ží -- še ne -- na -- šli,
+    vrá -- ti -- li se je -- ho ro -- di -- če do Je -- ru -- za -- lé -- ma
+    \markup{\Dagger a} hle -- da -- li ho.
+
+    \markup{\Dagger a} hle -- da -- li ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#svrodiny-rch-a1?cast=3"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g( f) f( g) g \barMaior
+    \mark\sipka a a a a g f g f f \barMin g a f g f f \barMaior
+    d f e c( d) d \barFinalis
+
+    f^\markup\rubrVelikAleluja g f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Když Je -- ží -- še ne -- na -- šli,
+    vrá -- ti -- li se je -- ho ro -- di -- če do Je -- ru -- za -- lé -- ma
+    \markup{\Dagger a} hle -- da -- li ho.
+
+    \markup{\Dagger a} hle -- da -- li ho.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -1008,8 +1008,8 @@
     \relative c' {
       \choralniRezim
       f4 f f f f( g) f f \barMin
-      f g a g f g g f( e d) \barMin
-      g a f g f f \barMaior
+      f g a g f g( a) g g \barMin
+      a g f g f f \barMaior
       g g f e d c f( e c d) d \barFinalis
     }
     \addlyrics {
@@ -1023,7 +1023,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 63"
-      placet = "dlouhá recitace na začátku není moc elegantní; _rok_ špatně nese melisma"
+      placet = "2 dlouhá recitace na začátku není moc elegantní"
       id = "svrodiny-rch-a1"
       piece = \markup {\sestavTitulek}
     }

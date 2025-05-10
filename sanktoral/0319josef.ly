@@ -541,8 +541,8 @@
   \relative c' {
     \choralniRezim
     f4 f f f f( g) f f \barMin
-    f g a g f g g f( e d) \barMin
-    g a f g f f \barMaior
+    f g a g f g( a) g g \barMin
+    a g f g f f \barMaior
     g g f e d c f( e c d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
@@ -615,7 +615,6 @@
     modus = "I"
     differentia = "f"
     psalmus = ""
-    fial = "vanoce_narozenipane.ly#svrodiny-rch-a1?cast=3"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }

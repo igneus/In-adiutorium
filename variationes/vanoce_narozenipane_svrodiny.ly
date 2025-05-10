@@ -2805,7 +2805,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 f f f \mark\sipka f( g) f f \barMin
       f g a g f g g f( e d) \barMin
@@ -2823,6 +2823,7 @@
       modus = "I"
       differentia = "f"
       psalmus = "Žalm 63"
+      placet = "dlouhá recitace na začátku není moc elegantní; _rok_ špatně nese melisma"
       id = "svrodiny-rch-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -2854,6 +2855,7 @@
 
   \score {
     \relative c' {
+      \zvyraznovacModry
       \choralniRezim
       f4 f f f f( g) f f \barMin
       f g a g f \mark\sipka g( a) g g \barMin
