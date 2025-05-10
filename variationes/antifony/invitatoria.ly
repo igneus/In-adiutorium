@@ -1887,7 +1887,7 @@ pojdmeKlanmeSeCele = {
 }
 
 \markup\justify{
-  Shodný text má "fial://antifony/tyden1_6patek.ly#rch-ant3"
+  Shodný text má \fial-link "antifony/tyden1_6patek.ly#rch-ant3"
   ale tady jsem se od ní odchýlil (aniž jsem si toho v té době všiml),
   daná antifona ze žaltáře se mi jako invitatorium nezdá vhodná
   a snad je v daném případě i lepší, že daný text má pro každou funkci
@@ -1924,6 +1924,27 @@ pojdmeKlanmeSeCele = {
     \choralniRezim
     f( g a) g \barMin
     \mark\sipka g f g a a g f f \barFinalis
+  }
+  \addlyrics {
+    Vstup -- te
+    před Hos -- po -- di -- na s_já -- so -- tem.
+  }
+  \header {
+    dies = "čtvrtek"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    id = "t2ct"
+    fons = "žaltář, pátek 1.t., rch, 3.ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f( g a g) f( g) \barMin
+    g f g a a g f f \barFinalis
   }
   \addlyrics {
     Vstup -- te

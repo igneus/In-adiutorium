@@ -553,6 +553,30 @@ funkční, je nevyvážená.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d( c) c \barMin
+    \mark\sipka d d e f g a( g) g \barMin
+    a bes a g( f g4.) g4 \barMin
+    a f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ve svém tě -- le_*
+    vy -- ne -- sl na -- še hří -- chy
+    na dře -- vo kří -- že.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Jer 14"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

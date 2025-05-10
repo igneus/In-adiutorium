@@ -766,6 +766,7 @@
 
 \markup\justify{
   (Stejný text v žaltáři figuruje i jako invitatorium,
+  \fial-link "antifony/invitatoria.ly#t2ct" ,
   sbližování nápěvů je spíše nežádoucí.)
 }
 
