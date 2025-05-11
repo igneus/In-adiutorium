@@ -168,7 +168,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
-    fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?zacatek"
+    fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?cast=1-2"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
