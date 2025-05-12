@@ -115,7 +115,7 @@
     \choralniRezim
     f4 g( a) a a g f g f d( c) c \barMaior
     c d d( f) f g( a) f f \barMaior
-    g a a g f e f d c( d) d \barMaior
+    f g a g f e f d c( d) d \barMaior
     e f d d \barFinalis
   }
   \addlyrics {
@@ -137,10 +137,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g( a) a a g f g g( f) f \barMaior
-    g( a) g g f e d( c) \barMin
-    d f g a g f( g) f \barMin e( f) d c( d) d \barMaior
-    e f d( c) d \barFinalis
+    d4 d( a') a a g f g g( a) a \barMaior
+    g f g( a) g f e( d) \barMin
+    c d f g f g a g f e c
+    e f d d \barFinalis
   }
   \addlyrics {
     Můj O -- tec je vět -- ší než všich -- ni;
@@ -151,7 +151,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f"
+    differentia = "D"
     psalmus = ""
     id = "ivmag2"
     piece = \markup {\sestavTitulekBezZalmu}
