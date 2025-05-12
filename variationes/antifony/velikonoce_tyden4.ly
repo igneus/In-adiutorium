@@ -235,11 +235,34 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d \barMin
     d f e d c e( f d) c( d) d \barMaior
     \mark\sipka f g( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- te,
+    svou kr -- ví jsi nás vy -- kou -- pil.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4( f) f \barMin
+    f g f e d e( f d) c( d) d \barMaior
+    f g( f) d d \barFinalis
   }
   \addlyrics {
     Kris -- te,
@@ -478,6 +501,28 @@
     c4 a a c b c d d( c) \barMaior
     g b c a a \barMin b c a a g f f( g) g \barMaior
     \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- ze -- mřu, a -- le bu -- du žít
+    a vy -- pra -- vo -- vat o Hos -- po -- di -- no -- vých či -- nech.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a a c b c d d( c) \barMaior
+    g b c a a \barMin \mark\sipka c c c b a g a f
+    g a g g \barFinalis
   }
   \addlyrics {
     Ne -- ze -- mřu, a -- le bu -- du žít
@@ -929,6 +974,33 @@
     \choralniRezim
     g4 a c c c( d) d \barMin
     c d e c d d \barMaior
+    a4 d c( b a) a \barMin
+    \mark\sipka a b a g( a) g g \barMaior
+    a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    U -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry,
+    kde je Kris -- tus
+    po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?zacatek"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    c d e c d d \barMaior
     \mark\sipka c b a( g a) g \barMin
     a g f g( a) a( g) g \barMaior
     f g( a) g g \barFinalis
@@ -1005,7 +1077,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 b d d d( b d a) a \barMin
     g a a( b) a g( a) a( g) g \barMaior
@@ -1076,6 +1148,51 @@
     g4 b d d d( b d a) a \barMin
     g a a( b) a g( a) g g \barMaior
     a \mark\sipka a( b a) g g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý zá -- ří
+    ja -- ko svět -- lo v_tem -- no -- tách.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 112"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 b d d d( b d a) a \barMin
+    g a a( b) a g( a) g g \barMaior
+    a \mark\sipka a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý zá -- ří
+    ja -- ko svět -- lo v_tem -- no -- tách.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 112"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b d d d( b d a) a \barMin
+    g a a( b) a g( a) g g \barMaior
+    a \mark\sipka b a( g) g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vý zá -- ří
@@ -1518,6 +1635,36 @@
     differentia = "d"
     psalmus = ""
     fial = "mezidobi_nejsvsrdce.ly#1ne-a3?+aleluja"
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "Oficiální text"
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g( a g) g \barMaior
+    a-- g f g g( a) a \barMin
+    a \[ b( c \] \[ d b c) \] a4.( g) \barMin
+    a4 g f g( a g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem pas -- týř dob -- rý;
+    já pa -- su své ov -- ce
+    a dá -- vám
+    za ně svůj ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleB.ly#ivmag1?cast=1,3,5"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

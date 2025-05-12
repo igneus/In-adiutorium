@@ -30,8 +30,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4( d) d \barMin
-    d f e d c e( f d) c( d) d \barMaior
+    d4( f) f \barMin
+    f g f e d e( f d) c( d) d \barMaior
     f g( f) d d \barFinalis
   }
   \addlyrics {
@@ -178,8 +178,8 @@
   \relative c'' {
     \choralniRezim
     g4 b d d d( b d a) a \barMin
-    g a a( b) a g( a) a( g) g \barMaior
-    a b( a) g g \barFinalis
+    g a a( b) a g( a) g g \barMaior
+    a a( b) g g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vý zá -- ří
