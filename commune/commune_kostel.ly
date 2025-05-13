@@ -89,7 +89,7 @@
   \relative c'' {
     \choralniRezim
     g4 a c( d) d \barMin
-    d c d e f d c( d) d \barMaior
+    d d c d e c c( d) d \barMaior
     d c( b) a( g) a( g) \barMin
     g f g a c c b c a g g \barMin
     a g f( g) g \barFinalis
@@ -825,16 +825,20 @@
   \relative c'' {
     \choralniRezim
     c4( b c) a \barMin c d( e) d( c d) a \barMaior
-    a b c d( e f) e \barMin d( c b) g a a \barMaior
-    g a a( c d) \barMin c b g b c a a \barFinalis
+    a b c d( e f4.) e \barMin d4( c b) g a a \barMaior
+    g a a( c d) \barMin
+    c b g b c a a \barFinalis
 
-    g^\markup\rubrVelikAleluja a b( a) a \barFinalis
+    c^\markup\rubrVelikAleluja d c b a g g
+    b c a a \barFinalis
   }
   \addlyrics {
     Sva -- tý je dům Bo -- ží:
     dům, v_němž se vzý -- vá Bo -- ží jmé -- no
-    a kde Bůh pře -- bý -- vá me -- zi ná -- mi.
+    a kde Bůh
+    \markup{\Dagger pře} -- bý -- vá me -- zi ná -- mi.
 
+    \markup{\Dagger pře} -- bý -- vá me -- zi ná -- mi.
     A -- le -- lu -- ja.
   }
   \header {
