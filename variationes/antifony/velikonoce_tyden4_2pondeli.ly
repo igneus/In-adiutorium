@@ -112,6 +112,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a a g f g( a) g \barMaior
+    a a a g f
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Ať je nad ná -- mi_*
+    do -- bro -- ti -- vost Pá -- na,
+    na -- še -- ho Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 90"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny{II}
 
 \score {
@@ -515,6 +539,28 @@
     g4 g g a g a( c) c \barMin
     d c b a( b) a( g) g \barMaior
     \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din u -- sku -- teč -- ní_*
+    všech -- ny své zá -- mě -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 135-I"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a g a( c) c \barMin
+    d c b a( b) \mark\sipka a g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- sku -- teč -- ní_*

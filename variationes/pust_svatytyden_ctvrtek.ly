@@ -371,6 +371,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 f \mark\sipka g g( a) a \barMin
     a a g f g a f f \barFinalis

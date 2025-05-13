@@ -1524,6 +1524,19 @@
 
 \markup {\nadpisDen {Pondělí}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Ego sum pastor bonus, qui pasco oves meas,
+    et pro óvibus meis pono ánimam meam, allelúia.
+  }
+  \cantusid-link "002597"
+}
+\markup\justify{
+  Text je až na aleluja shodný s antifonou z prvních nešpor
+  Nejsvětějšího srdce Ježíšova.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -1644,6 +1657,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     c4 a c b g( a g) g \barMaior
     a-- g f g g( a) a \barMin
