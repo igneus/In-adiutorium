@@ -742,6 +742,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a g f f4.( d) \barMin
+    \mark\sipka f4 g g( a) a g f d
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Když pro -- chá -- zím sou -- že -- ním,_*
+    za -- cho -- vá -- váš mi ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 138"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a g f g g( a) \barMaior
@@ -853,7 +875,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d f e d e d( c) \barMaior
     f g \mark\sipka g( a) a a f e
@@ -869,6 +891,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 138"
+    placet = "na _život_ se nepěkně láme"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -898,11 +921,55 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
     \choralniRezim
     c4 d f e d e d( c) \barMaior
     f g g( a) a \mark\sipka g f d
     c e d d \barFinalis
+  }
+  \addlyrics {
+    Když pro -- chá -- zím sou -- že -- ním,_*
+    za -- cho -- vá -- váš mi ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 138"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d f e d e d( c) \barMaior
+    f g g( a) a g f d
+    \mark\sipka e f d d \barFinalis
+  }
+  \addlyrics {
+    Když pro -- chá -- zím sou -- že -- ním,_*
+    za -- cho -- vá -- váš mi ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 138"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f e d e d( c) \barMaior
+    \mark\sipka d f f( g) g f e c
+    e f d d \barFinalis
   }
   \addlyrics {
     Když pro -- chá -- zím sou -- že -- ním,_*
@@ -946,6 +1013,28 @@
     \choralniRezim
     c4 d f e d e d( c) \barMaior
     d d \mark\sipka d( f) f f g f
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Když pro -- chá -- zím sou -- že -- ním,_*
+    za -- cho -- vá -- váš mi ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 138"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 d c d e f d( c) \barMaior
+    d d d( f) f f g f
     e f d d \barFinalis
   }
   \addlyrics {

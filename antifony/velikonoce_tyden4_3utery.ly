@@ -103,8 +103,8 @@
   \relative c' {
     \choralniRezim
     c4 d f e d e d( c) \barMaior
-    f g g( a) a a f e
-    c f d d \barFinalis
+    f g g( a) a g f d
+    e f d d \barFinalis
   }
   \addlyrics {
     Když pro -- chá -- zím sou -- že -- ním,_*
@@ -116,7 +116,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 138"
-    placet = "na _život_ se nepěkně láme"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
