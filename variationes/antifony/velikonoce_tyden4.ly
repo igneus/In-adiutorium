@@ -1786,6 +1786,56 @@
     \choralniRezim
     g4 g d' c e d \barMin
     c a a c b g g \barMaior
+    f g a a c b a g g \barMin
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám
+    ve jmé -- nu své -- ho Ot -- ce,
+    vy -- dá -- va -- jí o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/pust_tyden4.ly#ct-amag?zacatek"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' c e d \barMin
+    c a a c b g g \barMaior
+    f g a a c b a g g \barMin
+    \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    Skut -- ky, kte -- ré ko -- nám
+    ve jmé -- nu své -- ho Ot -- ce,
+    vy -- dá -- va -- jí o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/pust_tyden4.ly#ct-amag?zacatek"
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g d' c e d \barMin
+    c a a c b g g \barMaior
     f g a a \mark\sipka g f g a a \barMin
     g f g g \barFinalis
   }

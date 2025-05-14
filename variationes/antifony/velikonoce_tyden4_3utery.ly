@@ -260,6 +260,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    b( d) d \barMin
+    d d( e) d d c b c( d) c( b) a \barMaior
+    g a b a a( g) g \barMin
+    \mark\sipka a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,_*
+    ať po -- zna -- jí všech -- ny ná -- ro -- dy,
+    že jsi mi -- lo -- srd -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "b"
+    psalmus = "Dan 3-II"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -1013,6 +1037,28 @@
     \choralniRezim
     c4 d f e d e d( c) \barMaior
     d d \mark\sipka d( f) f f g f
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Když pro -- chá -- zím sou -- že -- ním,_*
+    za -- cho -- vá -- váš mi ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 138"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f e d e d( c) \barMaior
+    \mark\sipka c d d( f) f f g f
     e f d d \barFinalis
   }
   \addlyrics {

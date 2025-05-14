@@ -192,6 +192,42 @@ modIalal = \relative c' { \neviditelna f f4 g g( a) g \barMin f e d( f e c) d \b
   }
 }
 
+\markup\justify{
+  Volně podle krátkých responsorií modu IV (např. AR1912 s. 51):
+}
+modIVial = \relative c' { \neviditelna f f4 g g f \barMaior }
+modIVal = \relative c' { \neviditelna f f4 d f e \barFinalis }
+modIValal = \relative c' { \neviditelna f g4 e f d( c) d f f e \barFinalis \break }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modIVial
+    f4 f f f f f f f f d e( f) g \barFinalis
+    \modIVal
+    \neviditelna f
+    f4 f f f f f f f f f f f d e( f) g \barFinalis
+    \modIValal
+
+    % Chvalte naseho Boha
+    \modIVial
+    f4 f f f f f f f f f d e f g \barFinalis
+    \modIVal
+    \neviditelna f
+    f4 f f f f f f f f d e( f) g \barFinalis
+    \modIValal
+  }
+  \addlyrics {
+    \kantikumZjXIXtext
+  }
+  \header {
+    modus = "IV"
+    id = "iv"
+  }
+}
+
 modVIIial = \relative c'' { \neviditelna a a4 c( b) c( d) d \barMaior }
 modVIIal = \relative c'' { \neviditelna c c4 c c( d) d \barFinalis }
 modVIIalal = \relative c'' { \neviditelna d e4 d c( d c) b c a g g \barFinalis \break }
