@@ -71,6 +71,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 144-I"
+    placet = "2 závěr ne zcela uspokojivý, půjde lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
