@@ -165,7 +165,7 @@ class ChildParentComparison
 
     n = strip_alleluia(n) if strip_aeuia
     n = delete_responsory_verse(n) if @fial.additional.has_key?('jiny_vers')
-    n = delete_key_signatures(n) if @fial.additional.has_key?('zacatek')
+    n = delete_key_signatures(n) if @fial.additional.has_key?('zacatek') || @fial.additional.has_key?('cast')
     n = delete_divisiones(n) if @fial.additional['divisiones'] == 'ignore'
 
     p n if @debug

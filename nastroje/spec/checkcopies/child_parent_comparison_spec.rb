@@ -202,6 +202,15 @@ describe ChildParentComparison do
           )
         ).not_to be_match
       end
+
+      it 'key signature of the child does not break match' do
+        expect(
+          described_class.new(
+            score(music: '\key f \major a bes a \barFinalis', fial: fial),
+            score(music: 'a c a bes a \barFinalis')
+          )
+        ).to be_match
+      end
     end
 
     describe 'with argument - specified sections of child melody are part of parent' do
