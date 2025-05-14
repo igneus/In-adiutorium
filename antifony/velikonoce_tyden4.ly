@@ -305,7 +305,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    fial = "antifony/pust_tyden4.ly#ct-amag?zacatek"
+    fial = "antifony/pust_tyden4.ly#ct-amag?cast=1"
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
