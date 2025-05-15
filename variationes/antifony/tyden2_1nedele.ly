@@ -2099,6 +2099,28 @@ Potřebuje výraznější úpravu:}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a b c c b \barMin
+    \mark\sipka c c c a g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv
+    na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisSkupiny{1}
