@@ -70,6 +70,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 146"
+    placet = "2 dlouhá recitace na začátku je nuda"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -114,6 +115,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 139-II"
+    placet = "2 ten dílčí závěr na _znají mne_ je v rámci modu výrazně netypický"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
