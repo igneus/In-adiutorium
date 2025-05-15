@@ -387,7 +387,7 @@
     psalmus = "Žalm 63"
     id = "rch-a1"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
-    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast=1-4"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
