@@ -48,6 +48,6 @@
 }
 
 \markup\justify\italic{
-  K Magnificat: antifona \upright{Ne vy jste vyvolili mne}
+  K Magnificat: antifona \upright\chant-ref "amag" "commune/commune_apostol.ly#1ne-amag" {Ne vy jste vyvolili mne}
   z prvních nešpor společných textů o apoštolech.
 }
