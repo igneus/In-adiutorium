@@ -2221,13 +2221,42 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( c) a( g) a \barMin
     g f g a a( g) g \barMaior
     a b c c( d c) b( a) a \barMaior
     c c a g a( g) \barMin
     g f g a \mark\sipka f f( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh ne -- po -- slal
+    své -- ho Sy -- na na svět,
+    a -- by svět od -- sou -- dil,
+    a -- le a -- by svět
+    byl skr -- ze ně -- ho spa -- sen.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( c) a( g) a \barMin
+    g f g a a( g) g \barMaior
+    a b c c( d c) b( a) a \barMaior
+    c c a g a( g) \barMin
+    g f g a f \mark\sipka g( a g) g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
