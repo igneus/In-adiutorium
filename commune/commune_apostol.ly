@@ -414,7 +414,7 @@
     psalmus = "Dan 3-III"
     id = "rch-a2"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 2. část"
-    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast=1-3,4"
     piece = \markup {\sestavTitulek}
   }
 }
