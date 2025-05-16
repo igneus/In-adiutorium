@@ -212,6 +212,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d d( f) f \barMin f e f d \barMaior
+    e f d c c d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Pro své jmé -- no,_* Hos -- po -- di -- ne,
+    za -- cho -- vej mě na -- ži -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 143"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin \mark\sipka g f e( f) d \barMaior
+    e f d c c d d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Pro své jmé -- no,_* Hos -- po -- di -- ne,
+    za -- cho -- vej mě na -- ži -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 143"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c f( d) d \barMin f e d( e) c \barMaior
     d e f d c d d \barMaior
     e f d d \barFinalis

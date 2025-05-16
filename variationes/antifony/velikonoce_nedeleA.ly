@@ -649,6 +649,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g a a \barMaior
+    a b g g a a \barMin
+    g f e( d) e e \barMaior
+    d c d f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Já jsem dve -- ře, pra -- ví Pán.
+    Kdo ve -- jde skr -- ze mě,
+    bu -- de za -- chrá -- něn
+    a na -- jde past -- vu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
