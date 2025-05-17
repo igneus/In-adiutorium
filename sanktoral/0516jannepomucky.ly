@@ -18,8 +18,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d d d f e d d f g a a( g) g \barMaior
-    f g a f e f d d \barFinalis
+    d4-- d d f e d d f g a a( g) g \barMaior
+    f g f e c f d d \barFinalis
 
     e^\markup\rubrVelikAleluja d c( d) d \barFinalis
   }
@@ -63,9 +63,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4( d) d( c) \barMin
-    c d e d c c d d \barMaior
-    d c( b a) g( a) a( g) \barMin
+    c4( d e) d \barMin
+    d c d e c c d d \barMaior
+    d d( c b) g( a) a( g) \barMin
     f( a) a g g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis
@@ -301,7 +301,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f g f \barMin f e g a a \barMax
+    f4 f f f f f f f f g f \barMin f e g g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
