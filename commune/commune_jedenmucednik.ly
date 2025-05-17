@@ -272,6 +272,7 @@
     psalmus = ""
     id = "invit"
     fial = "commune/commune_apostol.ly#invit?+aleluja"
+    fial_b = "commune/commune_apostol.ly#invit-velik?cast=5"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
