@@ -814,4 +814,52 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e g( a) a \barMaior
+    g b g a-- a a g a g f e e \barMaior
+    e f f e d \mark\sipka f g
+    a g e e \barFinalis
+  }
+  \addlyrics {
+    Krá -- li vě -- ků,_*
+    ne -- smr -- tel -- né -- mu a ne -- vi -- di -- tel -- né -- mu,
+    buď všech -- na čest a slá -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 145-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e g( a) a \barMaior
+    \mark\sipka a g f e-- e e f g f e d( e) e \barMaior
+    e f e f g a g
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Krá -- li vě -- ků,_*
+    ne -- smr -- tel -- né -- mu a ne -- vi -- di -- tel -- né -- mu,
+    buď všech -- na čest a slá -- va.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 145-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 % \score { \velikTIIpatekNespAntIII }
