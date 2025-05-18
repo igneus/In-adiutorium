@@ -66,6 +66,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 8"
+    placet = "2 _Bohu_ nevím"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
