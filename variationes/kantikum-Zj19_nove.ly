@@ -193,6 +193,97 @@ modIalal = \relative c' { \neviditelna f f4 g g( a) g \barMin f e d( f e c) d \b
 }
 
 \markup\justify{
+  (Opět v zásadě nápěv psalmodie I.g, ale terminace není všude doslovná
+  a bere ohled na text, jak se to u sólového přednesu sluší
+  a můžeme si dovolit.)
+}
+modIial = \relative c' { \neviditelna d c4 d d( a') a \barMaior }
+modIal = \relative c'' { \neviditelna g g4 f g( a) a \barFinalis }
+modIalal = \relative c' { \neviditelna f f4 g g( a) a \barMin g f e( f d c) d \barFinalis \break }
+
+\score {
+  \relative c'' {
+    \key f \major
+    \choralniRezim
+
+    % Vitezstvi
+    \modIial
+    a4 a a a a a a bes a a g a \barFinalis
+    \modIal
+    \neviditelna a
+    a4 a a a a a a a a g f g a g g \barFinalis
+    \modIalal
+
+    % Chvalte naseho Boha
+    \modIial
+    a4 a a a a a a a a bes a g a a \barFinalis
+    \modIal
+    \neviditelna a
+    a a a a a a a a g f g( a) g \barFinalis
+    \modIalal
+
+    % Pan, nas Buh
+    \modIial
+    a4 a a a a a a bes a g a a \barFinalis
+    \modIal
+    \neviditelna a
+    a4 a a a a a a a g f g( a) g \barFinalis
+    \modIalal
+
+    % Nebot nadesla
+    \modIial
+    a4 a a a a a a bes a g a \barFinalis
+    \modIal
+    \neviditelna a
+    a4 a a a g f g a g g \barFinalis
+    \modIalal
+
+    % Slava
+    \modIial
+    a4 a bes a a g a \barFinalis
+    \modIal
+    \neviditelna a
+    a4 g f g( a) g g \barFinalis
+    \modIalal
+
+    % Jako byla
+    \modIial
+    a4 a a a a a a a a bes a a g a \barFinalis
+    \modIal
+    \neviditelna a
+    a4 a a a g f g( a) g \barFinalis
+    \modIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtext
+  }
+  \header {
+    modus = "I"
+    id = "i"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \neviditelna f f4 g g( a) a \barMin g f \mark\sipka e( f d) d \barFinalis
+  }
+  \addlyrics {
+    \Response A -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a a a a a \mark\sipka g( f) g a g \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj -- me se, já -- sej -- me a vzdej -- me mu čest!
+  }
+}
+
+\markup\justify{
   Volně podle krátkých responsorií modu IV (např. AR1912 s. 51):
 }
 modIVial = \relative c' { \neviditelna f f4 g g f \barMaior }
