@@ -182,7 +182,7 @@
   \relative c' {
     \choralniRezim
     f4 g g a a g f g( a) g g \barMaior
-    a a g f g f d d \barMin
+    g g( a) g f g f d d \barMin
     c d f f
     g a g( f) f \barFinalis
   }
