@@ -2847,3 +2847,43 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c d d e( c) c( d) d \barMaior
+    \mark\sipka c( d) c( b a4.) a \barMin g4 a c b a( b a) a \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c d d \mark\sipka e( f e d) c( d) d \barMaior
+    c( d) c( b a4.) a \barMin \mark\sipka b4 g c b a( b a) a \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}

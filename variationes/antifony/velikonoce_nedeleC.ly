@@ -1662,6 +1662,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a) c( d) d \barMin
+    d d d e d c( d) c \barMin
+    c b g a( g) \barMaior
+    a g f g a a( g) g \barMaior
+    c d e d c c( d) \barMin
+    \mark\sipka c b a g g a f g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý,
+    kte -- ré -- ho O -- tec po -- šle
+    ve jmé -- nu mém,
+    ten vás na -- u -- čí vše -- mu
+    a při -- po -- me -- ne vám
+    všech -- no, co jsem vám ře -- kl já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
