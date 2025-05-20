@@ -281,7 +281,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
-    fial = "antifony/velikonoce_nedeleC.ly#viben?konec=46"
+    fial = "antifony/velikonoce_nedeleC.ly#viben?cast=2-7"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
