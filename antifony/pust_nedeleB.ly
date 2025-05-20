@@ -383,6 +383,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "2 _vy_ to extravagantní melisma moc dobře nenese"
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
