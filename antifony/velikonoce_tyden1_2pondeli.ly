@@ -8,7 +8,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g( a) a a g f d( e) d( c) \barMaior
+    f4 f g( a) g g f e d( c) c \barMaior
     c d f f g( a) f f \barMaior
     g a g( f) f \barFinalis
   }
@@ -55,7 +55,7 @@
   \relative c' {
     \choralniRezim
     f4 g a g f d f( g) g( f) f \barMaior
-    g a f f \barFinalis
+    g g( a) f f \barFinalis
   }
   \addlyrics {
     Pán bu -- de_* kra -- lo -- vat na -- vě -- ky.
@@ -99,10 +99,10 @@
   \relative c' {
     \choralniRezim
     f4 g g( a) a \barMin
-    g f g a g f d d \barMaior
-    a' a( g) f( g) g \barMin
-    f d f e c( d) d \barMaior
-    e f d d \barFinalis
+    g f g a g f d c \barMaior
+    f f( g) g( a) a \barMin
+    g f e c e( f d) d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- ne,_*
