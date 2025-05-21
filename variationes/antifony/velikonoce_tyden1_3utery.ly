@@ -593,13 +593,47 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a g a c( d) d( c) d \barMin
     d f( e) d e c a \barMin
     g a c c( d) d \barMaior
     d e d c( d) d( c) \barMin
     a g a c b \mark\sipka a a \barMaior
+    b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Od ny -- nějš -- ka pat -- ří ví -- těz -- ství
+    a krá -- lov -- ská vlá -- da
+    na -- še -- mu Bo -- hu
+    a pa -- no -- vá -- ní
+    je -- ho Po -- ma -- za -- né -- mu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 20"
+    id = "ne-a1"
+    fons = "začátek: žaltář, čt 2.t., nešp., 3.ant."
+    fial = "antifony/tyden2_5ctvrtek.ly#ne-ant3?zacatek=19"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+ (částečně zpět)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a g a c( d) d( c) d \barMin
+    d f( e) d e c a \barMin
+    \mark\sipka a b c c( d) d \barMaior
+    d e d c( d) d( c) \barMin
+    a g a c b a a \barMaior
     b g g( a) a \barFinalis
   }
   \addlyrics {
@@ -769,6 +803,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka c4 c a c b a g a( g) \barMin
     f g a a g g \barMaior
@@ -791,7 +826,51 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \choralniRezim
+    c4 c a c b a g a( g) \barMaior
+    f g a \mark\sipka g a( c) b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Při -- jal jsi svr -- cho -- va -- nou moc
+    a u -- jal ses vlá -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 21"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b a g \mark\sipka a \barMin
+    g f g a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Při -- jal jsi svr -- cho -- va -- nou moc
+    a u -- jal ses vlá -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 21"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     c4 c a c \mark\sipka d c b a( g) \barMin
     f g a a g g \barMaior

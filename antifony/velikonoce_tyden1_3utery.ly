@@ -79,7 +79,7 @@
     \choralniRezim
     a4 a a a g a c( d) d( c) d \barMin
     d f( e) d e c a \barMin
-    g a c c( d) d \barMaior
+    a b c c( d) d \barMaior
     d e d c( d) d( c) \barMin
     a g a c b a a \barMaior
     b g g( a) a \barFinalis
@@ -107,7 +107,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a c d c b a( g) \barMin
+    c4 c a c b a g a( g) \barMin
     f g a a g g \barMaior
     a g f( g) g \barFinalis
   }
