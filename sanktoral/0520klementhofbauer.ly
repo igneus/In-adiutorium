@@ -37,6 +37,7 @@
 }
 
 \markup\italic{
-  K Magnificat antifona \upright{Pro všechny jsem se stal vším}
+  K Magnificat antifona
+  \upright\chant-ref "amag" "commune/commune_pastyr.ly#1ne-amag2" {Pro všechny jsem se stal vším}
   z prvních nešpor společných textů o duchovních pastýřích.
 }
