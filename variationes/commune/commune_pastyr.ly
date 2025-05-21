@@ -2105,6 +2105,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( d a) a( b c) \barMin b( c d) c d( e f) d \barMaior
     c b g a a( g) \barMin
@@ -2205,6 +2206,33 @@
     differentia = "D"
     psalmus = "Žalm 63"
     fial = "antifony/mezidobi_nedeleA_02_10.ly#ne5a-rch-aben?zacatek=9"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a c b g( a g) g \barMaior
+    f g a b c( a) \barMin
+    c c b c a g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }

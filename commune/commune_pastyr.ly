@@ -339,11 +339,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d a) a( b c) \barMin b( c d) c d( e f) d \barMaior
-    c b g a a( g) \barMin
-    f g g a a a c( b g) g( a) a \barFinalis
+    c4 a c b g( a g) g \barMaior
+    f g a b c( a) \barMin
+    c c b c a g a g g \barFinalis
 
-    a^\markup\rubrVelikAleluja a( b) a a \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Vy jste svět -- lo svě -- ta.
@@ -354,10 +354,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 63"
-    placet = "4 divoká, lépe"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
