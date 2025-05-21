@@ -53,7 +53,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c d c c d c b( c a) a \barMin
+    c4 c c d c c d c b( c a) a \barMin
     a c b a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja a a( g) g \barFinalis
