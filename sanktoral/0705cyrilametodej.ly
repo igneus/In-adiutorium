@@ -290,9 +290,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c( d) d f e d d e d c( d) d \barMax
-    d d d d f( g) f d4. d \barMaior
-    e4 d c( d) d \barFinalis
+    d4 d c d f e d d e f d( c) c \barMaior
+    d f g g g( a) g f( d) d \barMin
+    e4 c c( d) d \barFinalis
   }
   \addlyrics {
     Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
@@ -304,7 +304,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Zj 15"
-    placet = "málo zpěvná - nikdy opravdu nevzlétne z tóniky, jsou to takové dva zrušené pokusy o start"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }

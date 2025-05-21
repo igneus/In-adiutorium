@@ -1597,10 +1597,33 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) d \mark\sipka f e d d e d c( d) d \barMax
     d d d d f( g) f d4. d \barMaior
+    e4 d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce,
+    je -- den pas -- týř.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    placet = "málo zpěvná - nikdy opravdu nevzlétne z tóniky, jsou to takové dva zrušené pokusy o start"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \mark\sipka \barMin f f e d e f d d \barMaior
+    d c d f g f d d \barMin
     e4 d c( d) d \barFinalis
   }
   \addlyrics {
@@ -1620,10 +1643,11 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-    d4 d c( d) d \mark\sipka \barMin f f e d e f d d \barMaior
-    d c d f g f d d \barMin
-    e4 d c( d) d \barFinalis
+    d4 d c d f e d d e f d( c) c \barMaior
+    d f g g g( a) g f( d) d \barMin
+    e4 c c( d) d \barFinalis
   }
   \addlyrics {
     Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su

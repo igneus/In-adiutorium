@@ -3255,6 +3255,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     g4 g f( g) g g bes a g a g f( g) g \barMax
@@ -3276,6 +3277,64 @@
     differentia = "G"
     psalmus = "Zj 15"
     id = ""
+    fons = "Cyril a Metoděj, 2. nešp., 3. ant.; doplněno aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d c( d) d f e d d e d c( d) d \barMax
+    d d d d f( g) f d4. d \barMaior
+    e4 d c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja d e d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce,
+    je -- den pas -- týř.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    fial = "sanktoral/0705cyrilametodej.ly#2ne-a3?+aleluja"
+    fons = "Cyril a Metoděj, 2. nešp., 3. ant.; doplněno aleluja"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f e d d e f d( c) c \barMaior
+    d f g g g( a) g f( d) d \barMin
+    e4 c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mo -- je ov -- ce u -- po -- slech -- nou mé -- ho hla -- su
+    a bu -- de jen jed -- no stád -- ce,
+    je -- den pas -- týř.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    fial = "sanktoral/0705cyrilametodej.ly#2ne-a3?+aleluja"
     fons = "Cyril a Metoděj, 2. nešp., 3. ant.; doplněno aleluja"
     piece = \markup {\sestavTitulek}
   }
