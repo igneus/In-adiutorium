@@ -6,11 +6,11 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f bes a f d \barMin
-    e e( g f) e f d d \barMaior
-    e g( f) d d \barFinalis
+    f4 g a g f g g \barMin
+    g f g a( bes) a a
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     U te -- be, Hos -- po -- di -- ne,
@@ -19,11 +19,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 36"
     id = "rch-a1"
-    placet = "dnes už značně netypická"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -81,9 +80,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d( e f) d( c) c f( g) g( a) a \barMin
+    d4 f d c f( g) g( a) a \barMin
     g f g( a) g g \barMaior
-    a a g( a) g f e f d( c) c \barMin
+    f g g( a) g f e f d( c) c \barMin
     d f e( d) d \barFinalis
   }
   \addlyrics {
