@@ -190,7 +190,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    scriptura = "Řím 6,9-10"
+    scriptura = "Řím 6, 9-10"
     adiutor_genre = "antiphon_standalone"
     id = "chresurgens"
     piece = \markup {\sestavTitulekBezZalmu}
