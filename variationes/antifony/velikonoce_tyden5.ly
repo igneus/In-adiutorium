@@ -2127,6 +2127,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a f g g( a) a \barMin
+    c d c b a g g \barMaior
+    f g \mark\sipka a a
+    b a g g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Středa}}
@@ -2368,6 +2392,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g f d g f g a g g \barMaior
+    \mark\sipka a c c c b( c) a a \barMin
+    c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a g \mark\sipka a b g a b a a \barMaior
     g a g f d e e \barMin
     f f d( e) e \barFinalis
@@ -2425,6 +2471,30 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d \barMin
+    c d e c d d \barMaior
+    a d b c a( g) a g \barMin
+    f( g) a( c) a a \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li
+    mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
