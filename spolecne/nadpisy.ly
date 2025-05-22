@@ -146,7 +146,7 @@
                            ("Žid" . "Zd")
                            ("Jak" . "Jk"))) ; map book shortcuts ČLP -> obohu.cz/bible/
           (bookCodes (map-in-order car bookCodeAlist))
-          (bibleRefRegexp (string-append "(" (string-join bookCodes "|") ") ([0-9]+), ([0-9]+)"))
+          (bibleRefRegexp (string-append "(" (string-join bookCodes "|") ") ([0-9]+), *([0-9]+)"))
           (matched (string-match bibleRefRegexp (markup->string arg)))
           (book (match:substring matched 1))
           (chapter (match:substring matched 2))
