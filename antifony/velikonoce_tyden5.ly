@@ -332,6 +332,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 _že jdu k Otci_ spíš lépe"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
