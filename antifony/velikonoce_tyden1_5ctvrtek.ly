@@ -34,8 +34,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f f e d c \barMin
-    e f d d \barFinalis
+    d4 f f e f g \barMin
+    f d e( d) d \barFinalis
   }
   \addlyrics {
     Pán_* vy -- kou -- pil svůj lid.
@@ -100,7 +100,7 @@
     \choralniRezim
     d4 d d c d f e d d \barMin
     f f g f d( c) c \barMaior
-    d f( e) d d \barFinalis
+    d f e( d) d \barFinalis
   }
   \addlyrics {
     By -- li jsme s_Bo -- hem u -- smí -- ře -- ni_*
