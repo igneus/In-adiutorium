@@ -2368,6 +2368,28 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a a g e a g a b a a \barMaior
+    a a \mark\sipka g a g( f) e e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     a4 a a g e a g a b a a \barMaior
