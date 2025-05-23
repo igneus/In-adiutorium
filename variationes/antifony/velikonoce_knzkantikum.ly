@@ -544,7 +544,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d( f) d d c d f g f g4.( a) \barMin g4 f g g \barMaior
     a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMin
@@ -558,6 +558,51 @@
   \header {
     quid = "3. ant."
     modus = "I"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "t1-ct"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d( f) d d c d f g f g4.( a) \barMin g4 f g g \barMaior
+    a g f g g4.( d) \barMin d4( e) f( g) g a f e( d) d \barMin
+    \mark\sipka e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo je me -- zi bo -- hy ja -- ko ty, Hos -- po -- di -- ne,_*
+    kdo je ja -- ko ty vzne -- še -- ný ve sva -- tos -- ti?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "t1-ct"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d f g f e d \barMin f e d( c) c \barMaior
+    d d c d f \barMin g f d e f d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo je me -- zi bo -- hy ja -- ko ty, Hos -- po -- di -- ne,_*
+    kdo je ja -- ko ty vzne -- še -- ný ve sva -- tos -- ti?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
     differentia = "D"
     psalmus = "Zj 11"
     id = "t1-ct"
