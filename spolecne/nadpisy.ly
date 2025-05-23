@@ -147,15 +147,19 @@
                            ("Jak" . "Jk"))) ; map book shortcuts ČLP -> obohu.cz/bible/
           (bookCodes (map-in-order car bookCodeAlist))
           (bibleRefRegexp (string-append "(" (string-join bookCodes "|") ") ([0-9]+), *([0-9]+)"))
-          (matched (string-match bibleRefRegexp (markup->string arg)))
-          (book (match:substring matched 1))
-          (chapter (match:substring matched 2))
-          (verse (match:substring matched 3))
-          (urlBook (or (assoc-ref bookCodeAlist book)
-                       (string-append "UNKNOWNBOOK:" book)))
-          (url (string-append "https://obohu.cz/bible/index.php?styl=KLP&v=" verse "&kv=" verse "&k=" urlBook "&kap=" chapter "#v" verse)))
-     (interpret-markup layout props
-       #{ \markup\with-url #url #arg #})))
+          (matched (string-match bibleRefRegexp (markup->string arg))))
+     (if (eq? #f matched)
+         (begin
+          (ly:warning "Failed to match a Scripture reference in ~s" arg)
+          (interpret-markup layout props arg))
+         (let* ((book (match:substring matched 1))
+                (chapter (match:substring matched 2))
+                (verse (match:substring matched 3))
+                (urlBook (or (assoc-ref bookCodeAlist book)
+                             (string-append "UNKNOWNBOOK:" book)))
+                (url (string-append "https://obohu.cz/bible/index.php?styl=KLP&v=" verse "&kv=" verse "&k=" urlBook "&kap=" chapter "#v" verse)))
+           (interpret-markup layout props
+                             #{ \markup\with-url #url #arg #})))))
 
 % Because it seems to be impossible to pass \fromproperty as an argument to another markup function
 #(define-markup-command (scriptura-link layout props) ()
