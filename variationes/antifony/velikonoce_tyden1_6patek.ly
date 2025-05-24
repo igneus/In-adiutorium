@@ -184,6 +184,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c c c( d) d \barMaior
+    d d( e d c) d( c) \barMin a g a c( b) g( a) a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Pa -- ne,_*
+    až při -- jdeš do své -- ho krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -314,6 +336,30 @@
     \choralniRezim
     c4 c( d) d \barMin
     e d c \mark\sipka c( d) d \barMaior
+    d-- c d c b a g g \barMin
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    O -- prav -- du,_*
+    ty jsi Bůh skry -- tý,
+    Bůh Iz -- ra -- e -- le, Spa -- si -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Iz 45"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c( d) d \barMin
+    \mark\sipka d e c c( d) d \barMaior
     d-- c d c b a g g \barMin
     a g f( a) g \barFinalis
   }
@@ -720,6 +766,26 @@
     \choralniRezim
     f4 g a g f g f d d \barMin
     f g \mark\sipka g( f) f \barFinalis
+  }
+  \addlyrics {
+    Služ -- te_* Hos -- po -- di -- nu s_ra -- dos -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 100"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g f d d \barMin
+    \mark\sipka c d f( g) f \barFinalis
   }
   \addlyrics {
     Služ -- te_* Hos -- po -- di -- nu s_ra -- dos -- tí.
@@ -1183,6 +1249,28 @@
   \relative c' {
     \choralniRezim
     d4 d d f e f d( c) c \barMin
+    d \mark\sipka c f e d( e) d d \barMaior
+    \mark\sipka e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus se pro nás stal chu -- dým,_*
+    a nám dal své bo -- hat -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 41"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f e f d( c) c \barMin
     d d f e \mark\sipka c d d \barMaior
     e f d d \barFinalis
   }
@@ -1523,6 +1611,30 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 46"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a g f
+    g a g f( e) d( c) \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Prou -- dy bys -- třin_*
+    jsou k_ra -- dos -- ti
+    Bo -- ží -- mu měs -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 46"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
