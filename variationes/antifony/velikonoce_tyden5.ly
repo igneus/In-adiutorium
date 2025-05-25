@@ -2936,3 +2936,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a c c b a c( d) d \barMin
+    d d( e c) c d d \barMaior
+    \mark\sipka a d b c a( g a4.) g \barMin
+    f4 g g( a) a a c b a a \barMaior
+    b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Prá -- vě pro -- to Kris -- tus u -- mřel
+    a vstal k_ži -- vo -- tu,
+    a -- by se stal Pá -- nem
+    nad mrt -- vý -- mi i nad ži -- vý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
