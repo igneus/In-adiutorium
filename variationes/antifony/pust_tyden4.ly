@@ -132,6 +132,29 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \mark\sipka d4 c a c( d) d \barMaior
+    e f d \barMin
+    f g g g f( e d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pro -- buď se, spá -- či,
+    vstaň z_mrt -- vých,
+    a Kris -- tus tě o -- sví -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \zvyraznovacZelenyII
     \choralniRezim

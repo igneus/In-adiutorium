@@ -281,6 +281,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d c f g f g a a \barMin
+    a a c a g f( a) a( g) g \barMaior
+    f( g f d) e( d) \barMin c d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Fran -- ti -- šek, chu -- dý a po -- kor -- ný,
+    ve -- šel do ne -- be bo -- ha -- tý,
+    ví -- tán ne -- bes -- ký -- mi zá -- stu -- py.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
