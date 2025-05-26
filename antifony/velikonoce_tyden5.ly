@@ -265,7 +265,7 @@
     a g f g a a( g) g \barMaior
     c d e d c c( d) \barMin
     d d c b g a a g \barMaior
-    f a g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Pří -- mluv -- ce, Duch sva -- tý,

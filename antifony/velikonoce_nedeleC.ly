@@ -248,8 +248,8 @@
     a a c b c d c a a \barMaior
     c c b g g a g f g g \barMax
 
-    g f( e) d d f( g) g \barMaior
-    a c b a g g f g a a g g \barMaior
+    g f e d f( g) g \barMaior
+    a c b a g g a g f g( a) a( g) g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -275,13 +275,13 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) c( d) d \barMin
+    a4 c( d) d \barMin
     d d d e d c( d) c \barMin
     c b g a( g) \barMaior
     a g f g a a( g) g \barMaior
     c d e d c c( d) \barMin
     d d c b g a a g \barMaior
-    f a g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý,
@@ -305,11 +305,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d d( f) f \barMin
-    g a g f g g \barMaior
+    d4 d c f g g( a) a \barMin
+    g f g a g g \barMaior
     a g f g f e d( c) \barMin
     e f d d \barMax
-    a' a a g f g f d d f e d c \barMin
+    c d f e f g f d d f e d c \barMin
     e f d d \barFinalis
   }
   \addlyrics {

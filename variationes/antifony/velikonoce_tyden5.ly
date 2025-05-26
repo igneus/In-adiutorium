@@ -1792,7 +1792,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a c( d) d \barMin
     d d d e d c( d) c \barMin
@@ -1817,6 +1817,40 @@
     differentia = "c"
     psalmus = ""
     fial = "antifony/velikonoce_nedeleC.ly#viben?konec=46"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d d d e d c( d) c \barMin
+    c b g a( g) \barMaior
+    a g f g a a( g) g \barMaior
+    c d e d c c( d) \barMin
+    d d c b g a a g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pří -- mluv -- ce, Duch sva -- tý,
+    kte -- ré -- ho O -- tec po -- šle
+    ve jmé -- nu mém,
+    ten vás na -- u -- čí vše -- mu
+    a při -- po -- me -- ne vám
+    všech -- no, co jsem vám ře -- kl já.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleC.ly#viben?cast=2-7"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
