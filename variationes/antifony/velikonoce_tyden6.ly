@@ -88,6 +88,52 @@
   \relative c'' {
     \choralniRezim
     g4 g g f g g( a) a \barMin
+    c b( c) a \mark\sipka g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-נ"
+    fial = "antifony/pust_nedeleB.ly#ivmag2?zacatek=12"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
+    c b( c) \mark\sipka a( g) g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-נ"
+    fial = "antifony/pust_nedeleB.ly#ivmag2?cast=1-2"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
     c \mark\sipka c( d) c b
     a g a( g) g \barFinalis
   }
@@ -978,7 +1024,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 b c c \barMin
     d c d e d \mark\sipka c( b) a a \barMin
@@ -1001,6 +1047,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 b c c \barMin
     d c d e d c( b) a a \barMin

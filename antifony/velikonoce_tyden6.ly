@@ -86,7 +86,7 @@
     \choralniRezim
     g4 b c c \barMin
     d c d e d c( b) a a \barMin
-    g f f( g) g \barFinalis
+    c b a( g) g \barFinalis
   }
   \addlyrics {
     To -- to je den,
@@ -98,7 +98,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 118"
-    placet = "závěr nelíbí"
     id = "ne-rch-a1"
     piece = \markup {\sestavTitulek}
   }
