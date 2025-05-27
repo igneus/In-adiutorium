@@ -23,6 +23,7 @@
     differentia = "G"
     psalmus = "Žalm 119-נ"
     fial = "antifony/pust_nedeleB.ly#ivmag2?zacatek=12"
+    placet = "nevím"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
