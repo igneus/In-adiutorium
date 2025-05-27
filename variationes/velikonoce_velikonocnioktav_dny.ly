@@ -58,9 +58,33 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 f f g( a) a a g f g( f) e \barMaior
+      f g f e d c \barMin d4 f e d d \barFinalis
+    }
+    \addlyrics {
+      Ja -- ko  laň prah -- ne po vo -- dách bys -- třin,_*
+      tak prah -- ne du -- še má po to -- bě, Bo -- že!
+    }
+    \header {
+      quid = "2. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 42"
+      fial = "antifony/velikonoce_tyden2_2pondeli.ly#rch-a1?-aleluja"
+      id = "zmrtvychvstani-mc-ant2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \markup\aktualisace
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 f g g( a) a a g f g( f) e \barMaior
       f g f e d c \barMin d4 f e d d \barFinalis
     }
     \addlyrics {

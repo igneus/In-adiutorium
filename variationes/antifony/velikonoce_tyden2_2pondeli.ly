@@ -29,7 +29,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g( a) a a g f g( f) e \barMaior
     \mark\sipka f g f e d c \barMin d4 f e d d \barMaior
@@ -54,6 +54,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f \mark\sipka g g( a) a a g f g( f) e \barMaior
     f g f e d c \barMin d4 f e d d \barMaior
@@ -67,7 +68,7 @@
   \header {
     textus_approbatus = "Jako  laň prahne po vodách bystřin,
     tak prahne má duše po tobě, Bože. Aleluja."
-    quid = "2. ant."
+    quid = "1. ant."
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 42"

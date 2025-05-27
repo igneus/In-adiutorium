@@ -8,7 +8,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f g( a) a a g f g( f) e \barMaior
+    f4 f g g( a) a a g f g( f) e \barMaior
     f g f e d c \barMin d4 f e d d \barMaior
     e f d( c) d \barFinalis
   }
