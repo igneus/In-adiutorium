@@ -734,6 +734,30 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    c d e c d d \barMaior
+    d c a \mark\sipka b c a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    U -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry,
+    ne o to, co je na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 49-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4 a c c c( d) d \barMin
