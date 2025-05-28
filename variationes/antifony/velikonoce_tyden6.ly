@@ -2808,7 +2808,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( c) a b \barMin
     b c a g a g f( e) e \barMaior
@@ -2830,12 +2830,44 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
+    placet = "Není úplně pěkné, když antifona začíná recitací na tónu,
+    na kterém skončila (tato konkrétní) žalmová diference."
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a a( c) a b \barMin
+    b c a g a g f( e) e \barMaior
+    f g a a a c( b c) d( c) a a \barMaior
+    a b c c( d) d a \barMin
+    a a a g a g f e e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ješ -- tě krát -- ký čas,
+    a svět mě už ne -- u -- vi -- dí,
+    a -- le vy mě zas u -- vi -- dí -- te,
+    pro -- to -- že já jsem živ
+    a ta -- ké vy bu -- de -- te ži -- vi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
     id = "ut-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \pageBreak
+
+\markup\cantusid-link "002607"
 
 \markup\justify{
   (nápěv řečí Páně z pašijí; urputně se mi vnucoval, takže jsem nemohl přijít na jiný)
