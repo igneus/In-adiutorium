@@ -56,8 +56,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a( c) c \barMin
-    b( c) a g a g f \barMin
+    c4 a c b \barMin
+    g b c a g f \barMin
     g a g g \barFinalis
   }
   \addlyrics {
@@ -70,7 +70,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 81"
-    placet = "3 nic moc"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
