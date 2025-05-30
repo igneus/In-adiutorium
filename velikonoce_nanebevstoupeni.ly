@@ -317,6 +317,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "2 půjde zpěvněji"
     id = "rch-a2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -424,6 +425,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "2 slabší"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -446,6 +448,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "2 slabší"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -470,6 +473,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 slabší"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -542,6 +546,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Zj 11"
+    placet = "má vícero míst, která už dnes působí neelegantně - zkusit lépe"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
