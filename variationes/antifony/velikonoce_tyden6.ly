@@ -3502,6 +3502,33 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 f( e) d( e) e \barMin
+    \mark\sipka e f g g g( a) a \barMaior
+    a g a a( b a g) g( e) \barMin
+    g a g f( e) \mark\sipka d d
+    f g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Váš zá -- rmu -- tek
+    se ob -- rá -- tí v_ra -- dost
+    a va -- ši ra -- dost
+    vám ni -- kdo ne -- vez -- me.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden3_4streda.ly#ne-a1?zacatek=6"
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Pátek}}
@@ -3658,6 +3685,28 @@
     quid = "ant. k Benedictus"
     modus = "III"
     differentia = "h"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c b g g \mark\sipka b( c) a g a( g) \barMin
+    g g g f e d d
+    f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš je ko -- ru -- no -- ván slá -- vou a ctí,
+    pro -- to -- že vy -- tr -- pěl smrt.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
