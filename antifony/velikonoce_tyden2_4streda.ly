@@ -31,8 +31,8 @@
   \relative c'' {
     \choralniRezim
     c4 c a c b g g \barMin
-    g f g a a
-    b a g g \barFinalis
+    g a a g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din u -- smr -- cu -- je
@@ -104,8 +104,8 @@
     \choralniRezim
     g4 a a( c) c \barMin
     c( d) c b a g a \barMaior
-    c c( d) d( c) c \barMin
-    c c b( c) a g g( a g) g \barMaior
+    a c( d) d( c) c \barMin
+    c c b c a g( a g4.) g4 \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -120,7 +120,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 67"
-    placet = "mdlá; možná je pravou finálou spíš a než g"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
