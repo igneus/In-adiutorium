@@ -79,6 +79,26 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 e f g( f) a g( f) e e \barMaior
+    f \mark\sipka g f e d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Ot -- ví -- rá svou dlaň chu -- dé -- mu,
+    u -- bo -- hým po -- dá -- vá po -- moc -- nou ru -- ku.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 g g a f g( a) g g \barMaior

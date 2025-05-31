@@ -68,8 +68,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a g f g f( d) f
-    g g f \barFinalis
+    f4 g a a g a g f d f g f \barFinalis
 
     g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
@@ -163,8 +162,8 @@
   \relative c'' {
     \choralniRezim
     a4 g a( c) b a g g \barMin c d e c c( d) d \barMaior
-    d c d( e d4.) d \barMin c4 b a( g) g \barMaior
-    a g f g a a( g) g \barFinalis
+    d c d( e d4.) d4 \barMin c4 b a( g) g \barMaior
+    a a a g f g( a g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -188,12 +187,12 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c( d c) c \barMin
-    c c b a g a a4. g \barFinalis
+    d4 d f f e f d d \barMin
+    c d e e( d) \barFinalis
 
-    a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    e4^\markup\rubrVelikAleluja d c( d) d \barFinalis
   }
   \addlyrics {
     Je -- jí tou -- hou
@@ -203,8 +202,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 122"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -238,10 +237,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a a g f g( a g) g \barMin
+    f4 g a a g f g( a g4.) g4 \barMin
     f d f g( f) f \barFinalis
 
-    g^\markup\rubrVelikAleluja a f f \barFinalis
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
   \addlyrics {
     Ne -- vy -- mi -- zí je -- jí chvá -- la
@@ -292,6 +291,7 @@
     V. Byl jsem nemocen, a navštívili jste mě,"
     quid = "resp."
     modus = "VI"
+    placet = "zkrácení responsa je opravdu agresivní zásah do oficiálního textu"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -341,7 +341,7 @@
     d4 e f g( f) a g( f) e e \barMaior
     f f f e d c f e c d d \barFinalis
 
-    c^\markup\rubrVelikAleluja d e( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Ot -- ví -- rá svou dlaň chu -- dé -- mu,
