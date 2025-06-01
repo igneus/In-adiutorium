@@ -73,6 +73,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g f bes a g f g g \barMaior
+    g f g \mark\sipka a g f g f f \barMaior
+    g a f f \barFinalis
+  }
+  \addlyrics {
+    Pů -- so -- bíš mi ra -- dost, Hos -- po -- di -- ne,_*
+    z_dí -- la tvých ru -- kou se ve -- se -- lím.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 92"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -147,11 +169,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a a( c) b g a \barMaior
     a g a g f d( e) e \barMaior
     f \mark\sipka f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Já dá -- vám ži -- vot i smrt,_*
+    já zra -- ňu -- ji i ho -- jím.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Dt 32"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a a( c) b g a \barMaior
+    a g a g f \mark\sipka e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Já dá -- vám ži -- vot i smrt,_*

@@ -31,8 +31,8 @@
   \relative c'' {
     \choralniRezim
     a4 g a a( c) b g a \barMaior
-    a g a g f d( e) e \barMaior
-    f f( g) e e \barFinalis
+    a g a g f e e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Já dá -- vám ži -- vot i smrt,_*
