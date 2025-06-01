@@ -48,7 +48,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Dan 3-III"
-    fial = "sanktoral/0530zdislava.ly#rch-a2?zacatek"
+    fial = "sanktoral/0530zdislava.ly#rch-a2?cast=1-3"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -86,14 +86,14 @@
 
     % R
     \neviditelna f
-    f4 f g a a( g) \barMax
-    f g( a) g( f) d f( g) g f \barFinalis
+    f4 f g g( a) a( g) \barMax
+    f g( a) g f g g f \barFinalis
     % V
     \neviditelna a
     a( bes) a a \barMin a a a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    f g( a) g( f) d f( g) g f \barFinalis
+    f g( a) g f g g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -174,6 +174,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "3 zaslouží trochu péče"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -193,14 +194,14 @@
 
     % R
     \neviditelna f
-    f4 f f f g( a) \barMax
-    a f g( a) g( f) d f g g( f) f \barFinalis
+    f4 f g g( a) a( g) \barMax
+    g f g( a) g( f) d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4( bes) a a a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    a f g( a) g( f) d f g g( f) f \barFinalis
+    g f g( a) g( f) d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

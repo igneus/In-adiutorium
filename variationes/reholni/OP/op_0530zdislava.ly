@@ -220,6 +220,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -249,6 +250,73 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g a a( g) \barMax
+    f g( a) \mark\sipka g f( d) f( g) g f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a \barMin a a a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f g( a) \mark\sipka g f( d) f( g) g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response S_čas -- ným ú -- svi -- tem_*
+    Bůh jí na po -- moc chvá -- tá.
+    \Verse Bůh je s_ní, pro -- to se ne -- zhrou -- tí ni -- kdy._*
+    \Response Bůh jí na po -- moc chvá -- tá.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g \mark\sipka g( a) a( g) \barMax
+    f g( a) \mark\sipka g f g g f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a \barMin a a a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f g( a) \mark\sipka g f g g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response S_čas -- ným ú -- svi -- tem_*
+    Bůh jí na po -- moc chvá -- tá.
+    \Verse Bůh je s_ní, pro -- to se ne -- zhrou -- tí ni -- kdy._*
+    \Response Bůh jí na po -- moc chvá -- tá.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 
@@ -393,6 +461,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -422,6 +491,73 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka g g( a) a( g) \barMax
+    \mark\sipka f g a g( f) d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka f g a g( f) d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- vo -- lil ji Bůh_*
+    a dal jí před -- nost pře -- de vše -- mi.
+    \Verse U -- ve -- dl ji do své -- ho stán -- ku._*
+    \Response A dal jí před -- nost pře -- de vše -- mi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f g g( a) a( g) \barMax
+    \mark\sipka g f g( a) g( f) d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g f g( a) g( f) d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- vo -- lil ji Bůh_*
+    a dal jí před -- nost pře -- de vše -- mi.
+    \Verse U -- ve -- dl ji do své -- ho stán -- ku._*
+    \Response A dal jí před -- nost pře -- de vše -- mi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \markup\italic{V době velikonoční:}
 
