@@ -23,7 +23,7 @@
     a g a bes( c bes a) a \barMin
     a g f e( f d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja d c( d) d \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me na -- vští -- ve -- ní Pan -- ny Ma -- ri -- e;
@@ -36,7 +36,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "sanktoral/0815nanebevzetipm.ly#invit?zacatek=4&konec=23&+aleluja"
+    fial = "sanktoral/0815nanebevzetipm.ly#invit?zacatek=4&cast=2"
+    fial_b = "commune/commune_maria.ly#invit1?cast=3-5"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -75,7 +76,7 @@
     \choralniRezim
     d4 d d f( g) g g a bes a g f g a f( e) d \barMaior
     f d d f( g a) g( f) g \barMin a bes a g f g g \barMaior
-    g g g g( a) g f( e d) d \barMin e( d) c c( d) d \barFinalis
+    g g g g( a) g f( e d) d \barMin d( e) c c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -136,8 +137,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    d4 d d f( g) g g a bes a g f g f f( g) g \barMaior
-    g( a f) e( d) d e d( c) c( d) d \barMax
+    d4 d d f( g) g g a bes a g f g a f( e) d \barMaior
+    f e c e f d d \barMax
     d( a' bes) a g a( bes a) g f( g) g \barMaior
     g g( a g) f e f d d \barMin d( e) c c( d) d \barFinalis
 
@@ -156,9 +157,12 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "není moc šťastné, když se navzájem textově i hudebně citují
+    dvě antifony v rámci jedné hodinky, navíc jedna v běžné psalmodii
+    a druhá při evangelním kantiku"
     id = "rch-aben"
     fons = "srov. tady 2. ant."
-    fial = "sanktoral/0531navstivenipm.ly#rch-a2?zacatek=11"
+    fial = "sanktoral/0531navstivenipm.ly#rch-a2?cast=1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

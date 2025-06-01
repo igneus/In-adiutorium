@@ -74,7 +74,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     c4 d d d f( g) f e( d) d \barMin f( g) f g a a \barMaior
@@ -100,8 +100,13 @@
   }
 }
 
+\markup\justify{
+  \aktualisace
+  (přidán odkaz na druhou zdrojovou antifonu, která má stejný závěr a s aleluja.)
+}
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     c4 d d d f( g) f e( d) d \barMin f( g) f g a a \barMaior
@@ -112,7 +117,7 @@
   }
   \addlyrics {
     O -- sla -- vuj -- me na -- vští -- ve -- ní Pan -- ny Ma -- ri -- e;
-    klaň -- me se Kris -- tu, je -- jí -- mu sy -- nu!
+    klaň -- me se Kris -- tu, je -- jí -- mu Sy -- nu!
 
     A -- le -- lu -- ja.
   }
@@ -121,7 +126,8 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "sanktoral/0815nanebevzetipm.ly#invit?zacatek&konec&+aleluja"
+    fial = "sanktoral/0815nanebevzetipm.ly#invit?zacatek=4&cast=2"
+    fial_b = "commune/commune_maria.ly#invit1?cast=3-5"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -454,11 +460,64 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 \mark\sipka d d f( g) g g a bes a g f g a f( e) d \barMaior
     \mark\sipka f d d f( g a) g( f) g \barMin a bes a g f g g \barMaior
     \mark\sipka g g g g( a) g f( e d) d \barMin e( d) c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le Alž -- bě -- ta u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
+    dí -- tě se ra -- dost -- ně po -- hnu -- lo v_je -- jím lů -- ně,
+    a by -- la na -- pl -- ně -- na Du -- chem sva -- tým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d f( g) g g a bes a g f g a f( e) d \barMaior
+    f d d f( g a) g( f) g \barMin a bes a g f g g \barMaior
+    g g g g( a) g f( e d) d \barMin \mark\sipka d( e) c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le Alž -- bě -- ta u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
+    dí -- tě se ra -- dost -- ně po -- hnu -- lo v_je -- jím lů -- ně,
+    a by -- la na -- pl -- ně -- na Du -- chem sva -- tým.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d f( g) g g a bes a g f g a f( e) d \barMaior
+    f d d f( g a) \mark\sipka g g \barMin a bes a g f g g \barMaior
+    g g g g( a) g f( e d) d \barMin d( e) c c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -639,7 +698,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d d f( g) g g a bes a g f g f f( g) g \barMaior
@@ -695,6 +754,38 @@
     psalmus = ""
     id = "rch-aben"
     fons = "srov. tady 2. ant."
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d d f( g) g g a bes a g f g a \mark\sipka f( e) d \barMaior
+    f e c e f d d \barMax
+    d( a' bes) a g a( bes a) g f( g) g \barMaior
+    g g( a g) f e f d d \barMin d( e) c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le Alž -- bě -- ta u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
+    zvo -- la -- la moc -- ným hla -- sem:
+    Jak jsem si za -- slou -- ži -- la,
+    že mat -- ka mé -- ho Pá -- na při -- šla ke mně?
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "srov. tady 2. ant."
+    fial = "sanktoral/0531navstivenipm.ly#rch-a2?cast=1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
