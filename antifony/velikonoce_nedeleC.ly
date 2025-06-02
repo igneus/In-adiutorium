@@ -336,11 +336,11 @@
   \relative c'' {
     \choralniRezim
     g4 g g( a) f f( g) g \barMaior
-    f g a a a( c) b \barMin c c b a g( a) g \barMin f g a g g \barMax
+    f g a a a( c) c \barMin c c b a g g f g a g g \barMax
     g g g g f( e) d \barMaior
     f g a( c) d b c a \barMin b c c( d) d \barMaior
-    d c d d( e d) c( b a) a \barMin b c a g g( a) g \barMaior
-    f g( a) g g \barFinalis
+    d c d d( e d) c( b a) a \barMin b c a a g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Pro -- sím ne -- jen za ně,
