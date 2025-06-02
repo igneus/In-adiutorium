@@ -283,6 +283,31 @@ modIalal = \relative c' { \neviditelna f f4 g g( a) a \barMin g f e( f d c) d \b
   }
 }
 
+modIIial = \relative c' { \neviditelna d c4 d d( f) f \barMaior }
+modIIal = \relative c' { \neviditelna f f4 d f e \barFinalis }
+modIIalal = \relative c' { \neviditelna d c4 d f e d e d4. d \barFinalis \break }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % Vitezstvi
+    \modIIial
+    f4 f f f f f f f f f g f \barFinalis
+    \modIIal
+    \neviditelna f
+    f4 f f f f f f f f f f f e c d \barFinalis
+    \modIIalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtext
+  }
+  \header {
+    modus = "II"
+    id = "ii"
+  }
+}
+
 \markup\justify{
   Volně podle krátkých responsorií modu IV (např. AR1912 s. 51):
 }
@@ -316,6 +341,18 @@ modIValal = \relative c' { \neviditelna f g4 e f d( c) d f f e \barFinalis \brea
   \header {
     modus = "IV"
     id = "iv"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \neviditelna d c4 d d( f) f \barMaior
+    f f f
+  }
+  \addlyrics {
+    \Verse \ial
+    Ví -- těz -- ství...
   }
 }
 

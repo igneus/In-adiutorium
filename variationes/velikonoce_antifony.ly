@@ -466,6 +466,30 @@
   \score {
     \relative c'' {
       \choralniRezim
+      c4( d) d \barMin
+      d c e d d \barMin e \mark\sipka f e d( c d4.) d \barMaior
+      d4 d c a b c a g g \barMin
+      f a g g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       c4( b c d) d \barMin
       c( d) e c d d \barMin d c b a( b) b \barMaior
       c c a g f g a c c \barMin
