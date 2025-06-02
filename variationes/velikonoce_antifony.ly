@@ -992,6 +992,41 @@
   }
 
   \markup\justify{
+    K nedělním laudám a všem malým hodinkám už ve františkánských rukopisech:
+  }
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 g( f) g( a) g
+      a b a f
+      f( a) a g g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      fons_externus = "CH-Fco : Ms 2, f. 49v.50r (františkánský konvent Fribourg, 13./14. stol.)"
+      fons_externus_url = "https://www.e-codices.unifr.ch/en/list/one/fcc/0002"
+      id = ""
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+  \markup\justify{
+    Srov. též
+    \with-url "https://digi.vatlib.it/view/MSS_Vat.lat.8737/0078" {
+      V-CVbav Vat. lat. 8737, f. 28r
+    }
+    (13. stol.)
+    Ten s jistotou přepsat nemůžu, ale obrys melodie vypadá přinejmenším velmi podobně.
+  }
+
+  \markup\justify{
     Antifoně AR1912 k nóně je při dostatečné dávce fantasie vzdáleně podobná
     tahle antifona z úterních velikonočních nešpor, s melodií podle antifony
     \italic{Inclinavit Dominus} (první antifona úterních nešpor per annum).
