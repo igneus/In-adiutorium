@@ -94,7 +94,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 123"
-    placet = "2 _tvůj Bůh_ se hůř zpívá"
+    placet = "2 _tvůj Bůh_ se hůř zpívá;
+    ohledně opakovaného nasazení _Hospodin_ a _bude_ nevím"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }

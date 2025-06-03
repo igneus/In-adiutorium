@@ -137,6 +137,7 @@
     differentia = "c"
     psalmus = ""
     fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek=7"
+    placet = "3 melisma na _ve_ nějak úplně nesedí"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
