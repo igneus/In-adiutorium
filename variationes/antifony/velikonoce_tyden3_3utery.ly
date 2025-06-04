@@ -222,7 +222,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f \mark\sipka f g g \barMin
     f g( a g) g \barMaior
@@ -239,6 +239,58 @@
     quid = "1. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 85"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup {
+  (jen divisio)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g g \barMin
+    f g( a g) g \barMaior
+    a a a a g f e f d( c) c \mark\sipka \barMin
+    d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, da -- ruj nám_*
+    svůj ži -- vot,
+    a -- by -- chom se v_to -- bě ra -- do -- va -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 85"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g g \barMin
+    f g( a g) g \barMaior
+    a a a a g f e f d( c) c \barMin
+    \mark\sipka d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, da -- ruj nám_*
+    svůj ži -- vot,
+    a -- by -- chom se v_to -- bě ra -- do -- va -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 85"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
