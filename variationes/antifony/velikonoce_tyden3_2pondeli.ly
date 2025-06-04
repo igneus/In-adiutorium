@@ -780,6 +780,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a a a g f g a g f( e) e \barMaior
+    \mark\sipka e d( g) \barMin g a g e e \barMaior
+    g a f( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din_* ti bu -- de na -- vě -- ky svět -- lem,
+    tvůj Bůh bu -- de tvou slá -- vou.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 123"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a a g f g a g g( f) f \barMaior
     g g( f d) \barMin f e c e( f d4.) d \barMin
     e c c( d) d \barFinalis
