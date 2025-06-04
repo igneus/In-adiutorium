@@ -860,10 +860,38 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c d d c d d( c) c \barMaior
     d d( e) d b \barMin
+    c c b g a g g \barMaior
+    a b g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup {
+  (jen rytmické znaménko)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c d d c d d( c) c \barMaior
+    d-- d( e) d b \barMin
     c c b g a g g \barMaior
     a b g g \barFinalis
   }
