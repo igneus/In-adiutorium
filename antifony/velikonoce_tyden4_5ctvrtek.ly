@@ -119,7 +119,9 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 144-II"
-    placet = "3 chcíplá; dva dílčí závěry na c (oba ve stejném postavení ve struktuře nápěvu) působí únavně"
+    placet = "3 chcíplá;
+    dva dílčí závěry na c (oba ve stejném postavení ve struktuře nápěvu) působí únavně;
+    melisma na _Ježíše_ nevím"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

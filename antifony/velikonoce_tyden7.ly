@@ -241,6 +241,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "3 začátek není moc pěkný"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
