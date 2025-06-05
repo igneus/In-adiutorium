@@ -2716,7 +2716,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"
@@ -2738,7 +2738,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"
@@ -2760,7 +2760,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
+    modus = "VII"
     differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"
