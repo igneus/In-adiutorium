@@ -465,6 +465,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacZelenyII
       \choralniRezim
       c4( d) d \barMin
       d c e d d \barMin e \mark\sipka f e d( c d4.) d \barMaior

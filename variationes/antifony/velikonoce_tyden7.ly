@@ -1361,7 +1361,7 @@
 }
 
 \markup\justify{
-  Je tu určitá podoba s "antifony/advent_nedeleC.ly#iiiben"
+  Je tu určitá podoba s \fial-link "antifony/advent_nedeleC.ly#iiiben"
   ale ne taková, aby mělo smysl zaznamenávat to pomocí fial.
 }
 
@@ -1439,6 +1439,50 @@
     f4 \mark\sipka e d f e f( g) \barMin
     f d e f d c( d) d \barMaior
     \mark\sipka c d e d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a \mark\sipka g a a( g) \barMin
+    f g a c b g( a) a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f d( c) \barMin
+    d e f e c c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Kris -- tus vás bu -- de křtít

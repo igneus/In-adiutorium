@@ -1085,6 +1085,32 @@
   \relative c' {
     \choralniRezim
     d4 d c d( f) e d( c) c \barMaior
+    f g a g f f( g) f f \barMaior
+    \mark\sipka f f g a g f( g f d) d \barMin
+    c4 f e c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Vzdá -- vej -- me dí -- ky Bo -- hu,_*
+    on nám po -- přá -- vá ví -- těz -- ství
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 144-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d( f) e d( c) c \barMaior
     f g a g f \mark\sipka g( a) g g \barMaior
     g f g a g f( e d c) c \barMin
     d f e c( d) d \barMaior
