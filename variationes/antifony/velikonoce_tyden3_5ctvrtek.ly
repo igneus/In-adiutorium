@@ -359,6 +359,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a c) c d( e) d d \barMin
+    d c a
+    b c a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- na zříd -- la mé spá -- sy_*
+    jsou v_to -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 87"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -492,6 +514,30 @@
     a a g \mark\sipka f g( a) g g \barMaior
     a a a g( a) g f d( c) c \barMin
     d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dob -- rý pas -- týř_*
+    shro -- maž -- ďu -- je be -- rán -- ky
+    a ve svém klí -- nu je ne -- se.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Iz 40"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a g f g( a) g g \barMaior
+    a a a g( a) g f \mark\sipka d d
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Dob -- rý pas -- týř_*
@@ -836,6 +882,28 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 99"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a g a( c) c c d( e) d d \barMaior
+    d c d c b a( b) g g a g f( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din na Si -- ó -- nu je ve -- li -- ký_*
+    a na -- de vše -- mi ná -- ro -- dy vy -- vý -- še -- ný.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 99"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
