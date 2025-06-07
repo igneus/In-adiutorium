@@ -2246,6 +2246,29 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka g g( a) a \barMin
+    c c b g b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "so-aben"
+    fial = "commune/commune_apostol.ly#sexta?konec"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     \mark\sipka g4 a f( g a4.) a \barMaior
