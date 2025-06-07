@@ -373,7 +373,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "so-aben"
-    fial = "commune/commune_apostol.ly#sexta?konec"
+    fial = "commune/commune_apostol.ly#sexta?konec=15"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
