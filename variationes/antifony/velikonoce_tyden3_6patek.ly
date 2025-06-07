@@ -256,11 +256,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g \barMin
     f g a c d c b a a \barMaior
     \mark\sipka b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,_*
+    smyj ze mne ú -- pl -- ně mou vi -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g \barMin
+    \mark\sipka g f g a c b g a a \barMaior
+    b c a( g) a \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
@@ -1099,11 +1122,34 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c c b \barMin
     a c c b \mark\sipka g a f e e \barMaior
     f g e e \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c b \barMin
+    a c c b g a f e e \barMaior
+    f \mark\sipka f( g) e e \barFinalis
   }
   \addlyrics {
     Já jsem Hos -- po -- din,_*

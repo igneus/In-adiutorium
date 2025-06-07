@@ -9,8 +9,8 @@
   \relative c'' {
     \choralniRezim
     a4 g \barMin
-    f g a c d c b a a \barMaior
-    b g g( a) a \barFinalis
+    g f g a c b g a a \barMaior
+    b c a( g) a \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
@@ -80,7 +80,7 @@
     \choralniRezim
     g4 a c c b \barMin
     a c c b g a f e e \barMaior
-    f g e e \barFinalis
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Já jsem Hos -- po -- din,_*
