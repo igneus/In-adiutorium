@@ -17,7 +17,7 @@
     c c( d c) b( g) a a( g) g \barMaior
     a a a g( f) g( a) a \barMin
     c b a( g) g \barMin
-    f a a( g) g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Vy -- šel jsem od Ot -- ce
@@ -62,11 +62,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d a'( g a) a( c) c( a) a a( b c) a( g) g \barMaior
-    f g g( a) a \barMin a a g a f e e \barMaior
-    d e f e( f) d d \barMax
+    a4 a b c a( g) g f( g) g( a) a \barMaior
+    a a g( a) a \barMin a a g a f e e \barMaior
+    d e f e( f) d d \barMin
     e d c( d) d \barFinalis
   }
   \addlyrics {
@@ -78,7 +78,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "a"
     psalmus = "Zj 11"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -112,6 +112,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "_příbytků_ poslední dlouhá je kandidátem na to druhé řešení mediace"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -180,7 +181,7 @@
     \choralniRezim
     c4 b c d( e) d \barMin
     e f e d c d d \barMaior
-    d d( e) e( d) d c b a( g) g \barMin
+    d e d c b c a( g) g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -275,25 +276,28 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) f g( a) a \barMin
-    c b( c) a g g( a g) g \barMaior
-    e( f g) g \barMin
-    g f g a( c) b( a) b c( b) a( g) g \barMaior
-    a( f) e f( a g) g \barMaior
+    g4 g b c d( c e d) d \barMin
+    d b c( d) a a( g) g \barMaior
+    f a( c) c \barMin
+    c b c d( e) d c b( c) a( g) g \barMaior
+    a f g( a g) g \barMaior
     f g( a) g g \barFinalis
   }
   \addlyrics {
     Li -- dé z_Ga -- li -- le -- je,
     proč hle -- dí -- te k_ne -- bi?
-    Je -- žíš,
+    Ten Je -- žíš,
     kte -- rý byl vzat od vás do ne -- be,
     za -- se při -- jde.
     A -- le -- lu -- ja.
   }
   \header {
+    textus_approbatus = "Lidé z Galileje, proč hledíte k nebi?
+    Ježíš, který byl vzat od vás do nebe, zase přijde. Aleluja."
+    fons_externus = "začátek podle AR1912 413"
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "rch-a1"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -484,7 +488,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( c) b c( d) c c \barMin
+    c4 c d( e) d d \barMin
     c a b c a a g g \barMaior
     a g f( g) g \barFinalis
   }
@@ -495,8 +499,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 110"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
