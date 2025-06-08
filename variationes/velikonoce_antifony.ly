@@ -368,12 +368,45 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4( e d) d \barMin
       d( c) b c d d \barMin \mark\sipka e g f e( d c d) d \barMaior
       d4 c d( e d) d \barMin \mark\sipka c( b) a c( b) a( g) g \barMaior
       f g a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = ""
+      placet = "Není úplně špatná a určitě se dá vkusně zazpívat
+      (byť by tady asi byla vhodná explicitní závazná rytmisace),
+      ale _Ducha svatého_ nezní dobře;
+      navíc je to teď stylově jedno z nejhonosnějších invitatorií
+      v celém korpusu, co by se hodilo pro nějakou slavnost,
+      ne pro řadu férií (a jedné neděle) slavnost připravujících"
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup{
+    (explicitní rytmisace)
+  }
+  \score {
+    \relative c'' {
+      \choralniRezim
+      d4( e d4.) d \barMin
+      d4( c) b c d4. d \barMin e4 g f e( d c d) d4. \barMaior
+      d4 c d( e d4.) d \barMin c4( b) a c( b) a( g) g4. \barMaior
+      f4 g a( g) g4. \barFinalis
     }
     \addlyrics {
       Pojď -- me,
@@ -465,12 +498,36 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacZelenyII
       \choralniRezim
       c4( d) d \barMin
       d c e d d \barMin e \mark\sipka f e d( c d4.) d \barMaior
       d4 d c a b c a g g \barMin
       f a g g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me,
+      klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+      on nám slí -- bil Du -- cha sva -- té -- ho,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4( d) d \barMin
+      d c e d d \barMin e f e d( c d4.) d \barMaior
+      d4 d c a b c a g g \barMin
+      \mark\sipka a g f( g) g \barFinalis
     }
     \addlyrics {
       Pojď -- me,

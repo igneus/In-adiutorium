@@ -74,10 +74,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      d4( e d) d \barMin
-      d( c) b c d d \barMin e g f e( d c d) d \barMaior
-      d4 c d( e d) d \barMin c( b) a c( b) a( g) g \barMaior
-      f g a( g) g \barFinalis
+      c4( d) d \barMin
+      d c e d d \barMin e f e d( c d4.) d \barMaior
+      d4 d c a b c a g g \barMin
+      a g f( g) g \barFinalis
     }
     \addlyrics {
       Pojď -- me,
@@ -88,9 +88,8 @@
     \header {
       quid = "ant."
       modus = "VII"
-      differentia = "d"
+      differentia = "c"
       psalmus = ""
-      placet = "lépe"
       id = "invit2"
       piece = \markup {\sestavTitulekBezZalmu}
     }
