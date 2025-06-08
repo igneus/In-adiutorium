@@ -114,7 +114,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( e g a) a \barMin
     a g a b( a) g( a) a \barMaior
@@ -134,6 +134,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 119-Kof"
+    placet = "_duch_ nenese melisma moc dobře"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -245,7 +246,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     c4( a c d) d \barMin
     d c d e( d) c( d) d \barMaior
@@ -540,6 +541,30 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Mdr 9"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c
+    d c e( d) d \barMin e f e( d) c( d) \barMaior
+    c d c b a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    zbu -- do -- val sis_* chrám a ol -- tář
+    na své sva -- té ho -- ře.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
     psalmus = "Mdr 9"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

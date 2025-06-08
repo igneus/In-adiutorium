@@ -27,7 +27,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( e g a) a \barMin a g a b( a) g( a) a \barMaior
     a g( a e) \barMin f e d( e) e \barFinalis
@@ -43,6 +43,51 @@
     psalmus = ""
     id = "ne21b-1ne-mag"
     fial = "antifony/velikonoce_tyden3_7sobota.ly#rch-a1?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( a c d) d \barMin d c d e( d) c( d) d \barMaior
+    c a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Slo -- va,_* kte -- rá jsem k_vám mlu -- vil,
+    jsou duch a jsou ži -- vot.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne21b-1ne-mag"
+    fial = "antifony/velikonoce_tyden3_7sobota.ly#rch-a1?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( a c d) d \barMin d c d e( d) c( d) d \barMaior
+    c a c b \mark\sipka g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Slo -- va,_* kte -- rá jsem k_vám mlu -- vil,
+    jsou duch a jsou ži -- vot.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne21b-1ne-mag"
+    fial = "antifony/velikonoce_tyden3_7sobota.ly#rch-a1?cast=1-2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

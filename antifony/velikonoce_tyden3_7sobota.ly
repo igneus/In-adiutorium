@@ -8,11 +8,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( e g a) a \barMin
-    a g a b( a) g( a) a \barMaior
-    a g( a e) \barMin
-    f e d( e) e \barMaior
-    f g f( e) e \barFinalis
+    c4( a c d) d \barMin
+    d c d e( d) c( d) d \barMaior
+    c a
+    c b a( g) g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Slo -- va,_*
@@ -23,10 +23,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV"
-    differentia = "g"
+    modus = "VII"
+    differentia = "c"
     psalmus = "Žalm 119-Kof"
-    placet = "_duch_ nenese melisma moc dobře"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
