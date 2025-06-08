@@ -359,8 +359,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a f( g a4.) a \barMaior
-    c4 c b g b c a a g g \barMaior
+    g4 f g( a) a \barMin
+    c c b g b c a a g g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -373,7 +373,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "so-aben"
-    fial = "commune/commune_apostol.ly#sexta?konec=15"
+    fial = "commune/commune_apostol.ly#sexta?cast=2-3"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
