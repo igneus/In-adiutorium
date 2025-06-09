@@ -14,7 +14,7 @@
   \relative c' {
     \key f \major
     \choralniRezim
-    d4( a') g f f( a) a \barMin
+    f4 f g g( a) a \barMin
     a bes bes a g a g f e f d d \barMaior
     e d c( d) d \barFinalis
   }
@@ -26,7 +26,7 @@
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "f"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -82,6 +82,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Zj 15"
+    placet = "2 _Duch_ melisma nese bídně, melisma na _Kristovu_ je také pochybné"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -231,6 +232,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 104-III"
+    placet = "2 nevím"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -268,7 +270,7 @@
   \relative c' {
     \choralniRezim
     f4 g f g g( a) a \barMin
-    a c( a) a bes( a g) g( a) \barMin
+    a g a a( bes a) g( a) \barMin
     a g f g( f) d( c) c \barMaior
     d f g( f) f \barFinalis
   }
@@ -415,6 +417,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "zaslouží trochu pozornosti"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -572,6 +575,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "_jazyků_ je kandidát na tu druhou mediaci"
     id = "2ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -581,7 +585,7 @@
   \relative c'' {
     \choralniRezim
     g4 a a( c) c \barMin
-    c c b a g( a) g \barMin
+    c c b a g( a g) g
     f f g a g g \barMaior
     b c a a a b( c) a g g \barMax
 
