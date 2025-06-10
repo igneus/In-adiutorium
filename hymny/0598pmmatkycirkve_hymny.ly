@@ -44,10 +44,11 @@
 \score {
   \relative c'' {
     \notime
+    \hide Stem
     a4 a g e d g a g \bar "|"
     a c b a g a b a \bar "|"
     d b d c b a g a \bar "|"
-    b c b a g a g g \bar "|."
+    b c b a g a g g \bar "||"
   }
   \addlyrics {
     Pan -- no, ty hvěz -- dou lás -- ky jsi
