@@ -30,6 +30,54 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 a a a \barMin
+    a a a b g g a( f) e e \barFinalis
+
+    f^\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- přej mi slu -- chu a za -- chraň mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 31-I"
+    id = "cte-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a \barMin
+    a a a b g \mark\sipka a g( f) e e \barFinalis
+
+    f^\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne,
+    po -- přej mi slu -- chu a za -- chraň mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 31-I"
+    id = "cte-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     g4 f g g( a) \barMin

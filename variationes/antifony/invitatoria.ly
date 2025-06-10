@@ -1248,6 +1248,7 @@ pojdmeKlanmeSeCele = {
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     c4 d e d c d c( b) c \barMaior
     \mark\sipka c d d c b c a g g \barFinalis
