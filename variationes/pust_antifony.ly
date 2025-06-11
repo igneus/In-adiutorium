@@ -786,6 +786,48 @@
     \relative c'' {
       \choralniRezim
 
+      \mark\sipka a4 a a g a c c b \barMin
+      a a a g a f g g \barFinalis
+    }
+    \addlyrics {
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "G*"
+      psalmus = ""
+      id = "tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+
+      c4 c c a c b a g \barMin
+      a a a g f a g g \barFinalis
+    }
+    \addlyrics {
+      Na -- sta -- ly nám dny po -- ká -- ní,
+      čas od -- puš -- tě -- ní a spá -- sy.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      id = "tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+
       a4 c b a b g g e \barMin
       f f f g a f e e \barFinalis
     }
