@@ -11,19 +11,20 @@
 }
 
 \markup\justify\italic{
-  Responsoria ranních chval i nešpor se berou
-  ze společných textů o evangelistech.
+  Další vlastní zpěvy, otištěné ve formuláři této památky
+  v některých svazcích a vydáních Denní modlitby církve,
+  jsou ve společných textech o evangelistech.
 }
 
 \score {
   \relative c'' {
     \choralniRezim
     g4( a c d) d \barMin
-    e( f) e d e c d( e) d d \barMaior
-    c d c( b a g) a( g) \barMin
-    g( a) f g a a a c c b a g g \barFinalis
+    d d c d( e) c d( e) d d \barMaior
+    a d c( b a g) a( g) \barMin
+    a a f( g) g( a) a a c c b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Pojď -- me,
@@ -53,9 +54,9 @@
     \choralniRezim
     g4 g g a g a a( c) c \barMin
     b c a g f( g) g \barMaior
-    a( c d) d( c) c \barMin
-    d c d( e) d c c( d) c \barMin
-    c a a c b g( a) g g \barMaior
+    c( d) c c \barMin
+    c c c b a g( a) g \barMin
+    a b c a g g( a) g g \barMaior
     a f g g a a \barMin
     c c b a g g \barFinalis
 

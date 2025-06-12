@@ -15,6 +15,22 @@
   ze společných textů o evangelistech.
 }
 
+\markup\justify{
+  Formulář památky sv. Barnabáše \bold{vypadá v každém tištěném vydání jinak:}
+  diurnál 1994 - z commune evangelistů, až na invitatorium a antifony k evangelním kantikům (IEA);
+  úplné vydání 2005 - sv. 2 jako na svátek sv. Marka, až na IEA,
+  sv. 3 z commune apoštolů, až na IEA a responsoria;
+  diurnál 2007 - tiskne kompletní formulář jako vlastní texty svátku.
+}
+\markup\justify{
+  Přitom není zjevné, že by realizací všech uvedených verzí měl být úplný
+  formulář odpovídající diurnálu 2007.
+  Když má památka vlastní jen evangelní antifony (diurnál 1994, sv. 3 úplného),
+  standardně nebere antifony k žalmům z commune.
+  Při rubrice odkazující na _svátek_ sv. Marka (sv. 2 úplného) je nárok na přivlastněné
+  antifony k žalmům pravděpodobnější, ale ne nesporný.
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -138,7 +154,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a c d) d \barMin
     e( f) e d e c d( e) d d \barMaior
@@ -171,7 +187,7 @@
     g4( a c d) d \barMin
     e( f) e d e c d( e) d d \barMaior
     c d c( b a g) a( g) \barMin
-    g( a g) f g a a a c c b a g g \barFinalis
+    \mark\sipka g( a g) f g a a a c c b a g g \barFinalis
 
     \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
@@ -187,6 +203,91 @@
     quid = "ant. invitatoria"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( a c d) d \barMin
+    \mark\sipka d d d e c d( e) d d \barMaior
+    c d c( b a g) a( g) \barMin
+    \mark\sipka a a f( g) g( a) a a c c b a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Du -- chu sva -- té -- mu;
+    on k_nám mlu -- ví
+    ús -- ty pro -- ro -- ků a u -- či -- te -- lů círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. invitatoria"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a c d) d \barMin
+    d d \mark\sipka c d( e) c d( e) d d \barMaior
+    \mark\sipka a d c( b a g) a( g) \barMin
+    a a f( g) g( a) a a c c b a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Du -- chu sva -- té -- mu;
+    on k_nám mlu -- ví
+    ús -- ty pro -- ro -- ků a u -- či -- te -- lů círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. invitatoria"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka d4( e d) d \barMin
+    d c d e c d( e) d d \barMaior
+    d d c( b a g) g( a) \barMin
+    a a b( c) a( g) g g f g a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se Du -- chu sva -- té -- mu;
+    on k_nám mlu -- ví
+    ús -- ty pro -- ro -- ků a u -- či -- te -- lů círk -- ve.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. invitatoria"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -430,13 +531,47 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g a g a a( c) c \barMin
     b c a g f( g) g \barMaior
     a( c d) d( c) c \barMin
     d c d( e) d c \mark\sipka c( d) c \barMin
     c a a c b g( a) g g \barMaior
+    a f g g a a \barMin
+    c c b a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bar -- na -- báš při -- ve -- dl Šav -- la
+    do An -- ti -- o -- chi -- e,
+    hlá -- sa -- li v_té -- to cír -- kev -- ní ob -- ci
+    Kris -- to -- vo e -- van -- ge -- li -- um
+    a vy -- u -- či -- li tam
+    vel -- ké množ -- ství li -- dí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g a g a a( c) c \barMin
+    b c a g f( g) g \barMaior
+    \mark\sipka c( d) c c \barMin
+    c c c b a g( a) g \barMin
+    a b c a g g( a) g g \barMaior
     a f g g a a \barMin
     c c b a g g \barFinalis
 
@@ -762,6 +897,38 @@
     d c d f f g a bes a g f( g) g \barMaior
     g f g a g g \barMaior
     \mark\sipka a bes a g f g g \barMin
+    f g f e c d d( c) \barMaior
+    d( f) e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ce -- lé shro -- máž -- dě -- ní ml -- če -- lo
+    a po -- slou -- cha -- lo Bar -- na -- bá -- še a Pav -- la,
+    když vy -- pra -- vo -- va -- li,
+    jak ve -- li -- ká zna -- me -- ní
+    vy -- ko -- nal Bůh skr -- ze ně
+    me -- zi po -- ha -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g f d d \barMaior
+    \mark\sipka f e d c c f g a g f f( g) g \barMaior
+    g f g a g g \barMaior
+    a bes a g f g g \barMin
     f g f e c d d( c) \barMaior
     d( f) e c d d \barFinalis
 
