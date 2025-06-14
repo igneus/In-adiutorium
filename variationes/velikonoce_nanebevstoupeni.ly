@@ -3930,6 +3930,28 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g a a( c) c \barMin
+    b g b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Vstou -- pil do ne -- be,
+    se -- dí po pra -- vi -- ci Ot -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
