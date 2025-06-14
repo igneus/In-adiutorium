@@ -17,8 +17,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g f g( a bes a) g( a) \barMin
-    a a g( a) g f g( f) f \barFinalis
+    a4 a g f g( a g) g \barMin
+    f g a g f g( f) f \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Kris -- ta,
@@ -84,7 +84,7 @@
   \relative c' {
     \choralniRezim
     e4 e e f d d( e) e \barMaior
-    e e( a) a a b g g( a) a \barMin
+    e e( a) a a g a b( a g) a \barMin
     a g f a( g) f( e) e \barFinalis
   }
   \addlyrics {
@@ -110,7 +110,7 @@
     g4 g g f a \barMin
     c b a c( b) a( g) g \barMaior
     a b c c d( c) d d( c) \barMin
-    a a c b a g( a) a( g) g \barFinalis
+    a a c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Kris -- to -- vou kr -- ví
@@ -179,13 +179,13 @@
     % R
     \neviditelna f
     f4 f( g) g f g( a) a( g) \barMax
-    g a g f f( g) g f \barFinalis
+    g a g f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a( bes) a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g a g f f( g) g f \barFinalis
+    g a g f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -253,9 +253,9 @@
     \choralniRezim
     g4 g g g( a) g g \barMaior
     g f g a c c
-    c d d c d c b a g g \barMaior
-    a a a f( e) d \barMin
-    d f g a a g g \barFinalis
+    c d c b c a g a g g \barMaior
+    g g g f( e) d \barMin
+    f f g a a g g \barFinalis
   }
   \addlyrics {
     Jste ja -- ko bu -- do -- va,
@@ -281,8 +281,8 @@
     c c b a g g f g a a( g) g \barMaior
     f g a g( a) a \barMin
     b c a g a g f \barMaior
-    g g a g a a c c b a g( a g) g \barMin
-    f g a( g) g \barFinalis
+    g g a g a a c c d c b( c a) a \barMin
+    g f a( g) g \barFinalis
   }
   \addlyrics {
     Kaž -- dé -- mu z_nás
@@ -307,8 +307,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g g a a \barMin
-    a c c c b g b( c) a a \barMaior
+    g4 g f g a a \barMin
+    a c c c b a g( a) g g \barMaior
     a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
@@ -388,7 +388,7 @@
     % V
     \neviditelna a
     a4 a a( bes) a a a a g( a) \barMin
-    a a a g( a) g g \barMaior
+    a g f g( a) g g \barMaior
     g g g a g f g g( a) a( g) \barMax
     % R
     \neviditelna a
