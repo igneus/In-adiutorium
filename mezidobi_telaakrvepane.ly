@@ -545,7 +545,9 @@
   }
 }
 
-\markup\italic{Responsorium jako v prvních nešporách.}
+\markup\italic\chant-ref "2ne-resp" "mezidobi_telaakrvepane.ly#1ne-resp" {
+  Responsorium jako v prvních nešporách.
+}
 
 \score {
   \relative c'' {
