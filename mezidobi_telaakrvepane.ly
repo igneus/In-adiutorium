@@ -98,9 +98,9 @@
   }
   \addlyrics {
     \Response Bůh jim dal chléb z_ne -- be._*
-    A -- le -- lu -- ja, a -- le -- lu -- ja.
+    \textRespAleluja
     \Verse Člo -- věk je -- dl chléb sil -- ných._*
-    \Response A -- le -- lu -- ja, a -- le -- lu -- ja.
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
@@ -364,9 +364,9 @@
   }
   \addlyrics {
     \Response Pa -- ne, dá -- váš nám za po -- krm své tě -- lo, o -- bě -- to -- va -- né za ži -- vot svě -- ta._*
-    A -- le -- lu -- ja, a -- le -- lu -- ja.
+    \textRespAleluja
     \Verse Dá -- váš nám svou krev, pro -- li -- tou na od -- puš -- tě -- ní hří -- chů._*
-    \Response A -- le -- lu -- ja, a -- le -- lu -- ja.
+    \Response \textRespAleluja
     \textRespDoxologie
   }
   \header {
