@@ -19,7 +19,7 @@ def score_id_line_number(file_path, score_id)
   grep_line_number `grep --no-messages --line-number --max-count=1 'id = "#{score_id}"' #{file_path}`
 end
 
-def edit_fial(fial, line, variationes: false, run_module: false)
+def edit_fial(fial, line, variationes: false)
   id_line = score_id_line_number fial.path, fial.id
 
   (file, id_line) =
@@ -47,17 +47,7 @@ def edit_fial(fial, line, variationes: false, run_module: false)
     grep_line_number(`head --lines #{id_line} #{file} | grep --line-number '\\\\score' | tail --lines 1`) +
     line.to_i
 
-  cmd =
-    if run_module
-      # the new Frescobaldi 4 way of running from source,
-      # importing an executable module
-      'python3 -m frescobaldi'
-    else
-      # with a 'frescobaldi' executable
-      'frescobaldi'
-    end
-
-  `#{cmd} --line #{score_line} #{file}`
+  `frescobaldi --line #{score_line} #{file}`
 
   true
 end
@@ -65,7 +55,6 @@ end
 
 
 variationes = false
-run_module = false
 OptionParser.new do |opts|
   opts.on '-V', '--variationes', 'open development version of the score' do
     variationes = true
@@ -82,9 +71,6 @@ OptionParser.new do |opts|
       exit 1
     end
   end
-  opts.on '-m', '--module', 'run Frescobaldi by importing a Python module rather than by calling an executable' do
-    run_module = true
-  end
 end.parse!
 
 STDERR.puts 'please specify FIAL' if ARGV.empty?
@@ -97,7 +83,7 @@ ARGV.each do |fial_str|
   end
   fial = FIAL.parse(fial_str)
 
-  success &&= edit_fial(fial, line, variationes: variationes || fial.additional.has_key?('open_variationes'), run_module: run_module)
+  success &&= edit_fial(fial, line, variationes: variationes || fial.additional.has_key?('open_variationes'))
 end
 
 exit 1 unless success
