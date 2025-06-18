@@ -58,10 +58,10 @@ velikTIuteryNespAntIII = \score {
 velikTIstredaNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
-    b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
+    d4 d c( d) c c \barMin d( e) d c c( d) d \barMaior
+    d( e) d d c b a g a g f( g) g \barMaior
     f g a a( c) b a g g \barMin
-    f a g g \barFinalis
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Všech -- no po -- chá -- zí_* od te -- be, Bo -- že:

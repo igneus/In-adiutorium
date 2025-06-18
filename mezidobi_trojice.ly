@@ -193,7 +193,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     d4 f( g) g \barMin
     a g g a g f g g( a) a \barMaior
     a g f e( f d) d \barMin
-    c d( f) e c( d) d \barFinalis
+    d d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Buď s_ná -- mi,
@@ -261,9 +261,9 @@ ciselnaRada = \markup\tiny\sans\concat{
 \score {
   \relative c' {
     \choralniRezim
-    d4-- c d f( g) f d( e c) c \barMaior
-    d c d( f) f f e( d) d \barMaior
-    f( g) f( e d) c e( f) d d \barFinalis
+    d4-- d c d( f) e d( c) c \barMaior
+    d c d( f) f f g( f) f \barMaior
+    g a f e( f) d d \barFinalis
   }
   \addlyrics {
     Chvá -- la a věč -- ná slá -- va
@@ -287,7 +287,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   \relative c'' {
     \choralniRezim
     a4 a g a a( c) b g g \barMaior
-    a a g f e d f( g) g \barMaior
+    a g f e d f g( a) a \barMaior
     a( c) b c( a) a g( f) f( g) g \barFinalis
   }
   \addlyrics {
@@ -312,7 +312,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     c( d) c b a( g) g \barMin
     a g f a a( g) g \barMaior
     c b c a g( a g) g \barMin
-    a g f a a( g) g \barFinalis
+    f g a f f( g) g \barFinalis
   }
   \addlyrics {
     Te -- be chvá -- lí,
@@ -326,7 +326,6 @@ ciselnaRada = \markup\tiny\sans\concat{
     modus = "VIII"
     differentia = "G"
     psalmus = "Dan 3-III"
-    placet = "stejný motiv na konci obou polovin není úplně libý a elegantní"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -335,8 +334,8 @@ ciselnaRada = \markup\tiny\sans\concat{
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( c) d d( c b a) \barMin d( e) d c d( c) c \barMaior
-    b( d) d d d( e) d c( d c) c \barMin b( a g) a a( g) g \barMaior
+    d4 d c( d) c c \barMin d( e) d c c( d) d \barMaior
+    d( e) d d c b a g a g f( g) g \barMaior
     f g a a( c) b a g g \barFinalis
   }
   \addlyrics {
