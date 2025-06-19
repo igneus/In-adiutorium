@@ -187,7 +187,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c b a( b) a g g \barMaior
     a a g f g g( a) a \barMin
@@ -204,6 +204,7 @@
     differentia = "d"
     psalmus = ""
     annus = "A"
+    placet = "2 neuspokojivý závěr"
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -261,6 +262,30 @@
     d4 d c b a( b) a g g \barMaior
     a a g f g g( a) a \barMin
     c \mark\sipka b a g g a f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- jen z_chle -- ba ži -- je člo -- věk,
+    a -- le z_kaž -- dé -- ho slo -- va,
+    kte -- ré vy -- chá -- zí z_Bo -- žích úst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c b a( b) a g g \barMaior
+    a a g f g g( a) a \barMin
+    c \mark\sipka c b a g a f g \barFinalis
   }
   \addlyrics {
     Ne -- jen z_chle -- ba ži -- je člo -- věk,

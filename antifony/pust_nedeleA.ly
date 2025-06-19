@@ -38,7 +38,7 @@
     \choralniRezim
     d4 d c b a( b) a g g \barMaior
     a a g f g g( a) a \barMin
-    c c b( c) a a \barMin g f g \barFinalis
+    c c b a g a f g \barFinalis
   }
   \addlyrics {
     Ne -- jen z_chle -- ba ži -- je člo -- věk,
@@ -51,7 +51,6 @@
     differentia = "d"
     psalmus = ""
     annus = "A"
-    placet = "2 neuspokojivý závěr"
     id = "iben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
