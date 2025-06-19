@@ -108,13 +108,13 @@ ciselnaRada = \markup\tiny\sans\concat{
     % R
     \neviditelna f
     f4 f f g f g( a) a( g) \barMax
-    g( a) g f( d) f g f \barFinalis
+    g( a) g f g g f \barFinalis
     % V
     \neviditelna a
     a4( bes) a a g( a) g \barMin g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g( a) g f( d) f g f \barFinalis
+    g( a) g f g g f \barFinalis
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
@@ -127,7 +127,6 @@ ciselnaRada = \markup\tiny\sans\concat{
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "r2 lépe"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

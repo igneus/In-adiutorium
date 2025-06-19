@@ -778,7 +778,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -810,7 +810,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
 
     % R
