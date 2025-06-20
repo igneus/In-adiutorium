@@ -391,7 +391,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     a4 c c b( c a4.) a \barMaior
     b4 g g a g f d d( e) \barMaior
     f4 f g( a) g( a) a \barMin
-    a( b g) g( e) \barMin e f( e) d( e) e \barFinalis
+    a( b g) g( e) \barMin e f( g) g( e) e \barFinalis
   }
   \addlyrics {
     Ten, kte -- rý všech -- no stvo -- řil
@@ -405,7 +405,6 @@ ciselnaRada = \markup\tiny\sans\concat{
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "_i navěky_ se mi vnucuje původní melodie a jsem na vážkách, jestli ji nevrátit"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -1108,8 +1108,62 @@ ciselnaRada = \markup\tiny\sans\concat{
     f4 f f g f g( a) a \barMin
     g a g f( d) d \barMaior
     d( c) d f g e e \barMin
+    e f e f g a bes a \mark\sipka g( a g) g \barMaior
+    g( a) g f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- je -- me ti, Bo -- že,
+    a kla -- ní -- me se
+    tvé -- mu je -- di -- né -- mu,
+    pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
+    ve třech o -- so -- bách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 f f g f g( a) a \barMin
+    g a g f( d) d \barMaior
+    d( c) d f g e e \barMin
     e f e f g a bes a \mark\sipka g( a g f) e( d) \barMaior
     c( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Dě -- ku -- je -- me ti, Bo -- že,
+    a kla -- ní -- me se
+    tvé -- mu je -- di -- né -- mu,
+    pra -- vé -- mu, svr -- cho -- va -- né -- mu bož -- ství
+    ve třech o -- so -- bách.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    f4 f f g f g( a) a \barMin
+    g a g f( d) d \barMaior
+    d( c) d f g e e \barMin
+    e f e f g a bes a g( a g f) e( d) \barMaior
+    \mark\sipka d( e) c c d d \barFinalis
   }
   \addlyrics {
     Dě -- ku -- je -- me ti, Bo -- že,
@@ -3240,13 +3294,44 @@ ciselnaRada = \markup\tiny\sans\concat{
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f g( a) a \barMin
     a4 c c b( c a4.) a \barMaior
     b4 g g a g f d d( e) \barMaior
     \mark\sipka f4 f g( a) g( a) a \barMin
     a( b g) g( e) \barMin e \mark\sipka f( e) d( e) e \barFinalis
+  }
+  \addlyrics {
+    Ten, kte -- rý všech -- no stvo -- řil
+    a všech -- no ří -- dí,
+    sva -- tý a troj -- je -- di -- ný Bůh,
+    ať je ve -- le -- ben
+    ny -- ní i na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    placet = "_i navěky_ se mi vnucuje původní melodie a jsem na vážkách, jestli ji nevrátit"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (závěr zpět)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) a \barMin
+    a4 c c b( c a4.) a \barMaior
+    b4 g g a g f d d( e) \barMaior
+    f4 f g( a) g( a) a \barMin
+    a( b g) g( e) \barMin e \mark\sipka f( g) g( e) e \barFinalis
   }
   \addlyrics {
     Ten, kte -- rý všech -- no stvo -- řil
