@@ -337,6 +337,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g( a) a a a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    f g a a g( a) \barMin g f \mark\sipka e e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
+    bu -- de za -- bit
+    a tře -- tí -- ho dne bu -- de vzkří -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-1ne-mag?zacatek"
+    id = "ne12c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -516,11 +540,62 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e e f e d( f) e e \barMin
     g( a) f( e) e \barMaior
     f g a a \mark\sipka g a g f g( a) a \barMin
+    g f d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
+    ztra -- tí ho,
+    a -- le kdo svůj ži -- vot pro mě ztra -- tí,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne12c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e e f e d( f) e e \barMin
+    g( a) f( e) e \barMaior
+    f g a a g a \mark\sipka b g g( a) a \barMin
+    g f d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo by chtěl svůj ži -- vot za -- chrá -- nit,
+    ztra -- tí ho,
+    a -- le kdo svůj ži -- vot pro mě ztra -- tí,
+    za -- chrá -- ní si ho.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "C"
+    id = "ne12c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e e f e \mark\sipka d( e) d d \barMin
+    a'( g) f( e) e \barMaior
+    f g a a g a b g g( a) a \barMin
     g f d e e \barFinalis
   }
   \addlyrics {

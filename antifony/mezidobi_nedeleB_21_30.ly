@@ -238,6 +238,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "3 _Syn člověka_ nesedí"
     id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

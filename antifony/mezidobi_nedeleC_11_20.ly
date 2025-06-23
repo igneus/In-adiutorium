@@ -95,7 +95,7 @@
     differentia = "g"
     psalmus = ""
     annus = "C"
-    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-1ne-mag?zacatek"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-1ne-mag?cast=1-2"
     id = "ne12c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -128,7 +128,7 @@
     \choralniRezim
     e4 e e e f e d( f) e e \barMin
     g( a) f( e) e \barMaior
-    f g a a g a g f g( a) a \barMin
+    f g a a g a b g g( a) a \barMin
     g f d e e \barFinalis
   }
   \addlyrics {

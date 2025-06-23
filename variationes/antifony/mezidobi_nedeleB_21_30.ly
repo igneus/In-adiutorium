@@ -1114,6 +1114,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 g( a) a a a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    f g a g( a) \barMin a( b) g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
+    bu -- de za -- bit
+    a po třech dnech vsta -- ne z_mrt -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne24b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \mark\sipka a( c) a a \barMin a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    f g a g( a) \barMin a( b) g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
+    bu -- de za -- bit
+    a po třech dnech vsta -- ne z_mrt -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ne24b-1ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

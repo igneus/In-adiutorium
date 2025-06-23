@@ -2534,6 +2534,28 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d d d( a') a \barMin g f g g( a) a \barMaior
+    a g f g( f) \barMin d f e c( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kdo chce jít za mnou, za -- při sám se -- be,
+    vez -- mi svůj kříž a ná -- sle -- duj mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 f g g( a) f f( g) g \barMaior
