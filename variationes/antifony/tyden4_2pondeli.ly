@@ -1381,6 +1381,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a g f g( a) g f
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Veď mé kro -- ky
+    po -- dle své -- ho vý -- ro -- ku,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 119-פ"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1450,6 +1472,26 @@
     \choralniRezim
     g4 g( c) c c d b c a-- g f g g \barMaior
     \mark\sipka c b c c \barMin c a b a g g \barFinalis
+  }
+  \addlyrics {
+    Jen je -- den je zá -- ko -- no -- dár -- ce a soud -- ce;
+    kdo však jsi ty, že sou -- díš bliž -- ní -- ho?
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 82"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) c c d b c a-- g f g g \barMaior
+    \mark\sipka g b c c \barMin a b a a g g \barFinalis
   }
   \addlyrics {
     Jen je -- den je zá -- ko -- no -- dár -- ce a soud -- ce;
