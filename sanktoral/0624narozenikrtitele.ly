@@ -122,10 +122,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d d d e( f d) d \barMin f g f d( c) c \barMaior
-    d( e f) d c( d) d \barMin
-    d c a c( d) d \barMin d d d c d d( f) e( d) d \barMaior
-    f( g a) g( f) e( f d) c( d) d \barFinalis
+    d4 f f e d e( f d) d \barMin d e f d( c) c \barMaior
+    d f f( g) g \barMin
+    g f g a g \barMin a bes a g f g( f) d( c) c \barMaior
+    d( f) e d( e) d d \barFinalis
   }
   \addlyrics {
     Když Za -- cha -- ri -- áš ve -- šel do chrá -- mu Pá -- ně,
@@ -178,7 +178,7 @@
     \choralniRezim
     a4 a g a a( bes) a a
     g a g f e e \barMaior
-    f f e f g a g f e f d d \barFinalis
+    f f e d f g g g g( a) g e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mě po -- vo -- lal
@@ -187,8 +187,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 21"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -320,7 +320,7 @@
     f4 g g( a) a \barMin
     g f g( a) g g f e d( c) c \barMaior
     d c d( f) f g( a) g( f) f \barMaior
-    g g g f e d c( d) d \barFinalis
+    g a g f e d c( d) d \barFinalis
   }
   \addlyrics {
     A ty, sy -- nu,
@@ -374,20 +374,17 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c b a g g f g a g \barMaior
-    a( c) b c( d) d \barMin d c d c b a( g) g \barMaior
+    c4 c b a g g g f g a g \barMaior
+    a a c b c( d) d \barMin d c d c b a( g) g \barMaior
     a a a a f e d d f( g) a a( g) g \barFinalis
   }
   \addlyrics {
     Za -- cha -- ri -- á -- šo -- vi se vrá -- ti -- la řeč,
-    % a on
+    a on
     za -- čal mlu -- vit a tak -- to chvá -- lil Bo -- ha:
     Po -- chvá -- len buď Hos -- po -- din, Bůh Iz -- ra -- e -- le!
   }
   \header {
-    textus_approbatus = "Zachariášovi se vrátila řeč,
-    a on začal mluvit a takto chválil Boha:
-    Pochválen buď Hospodin, Bůh Izraele!"
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
@@ -454,7 +451,7 @@
   \relative c'' {
     \choralniRezim
     g4 a c( d) d \barMin d e d c d( e) d d \barMaior
-    d c b c( a) g a g \barFinalis
+    d c b c( a) g a a( g) \barFinalis
   }
   \addlyrics {
     To -- to dí -- tě je ve -- li -- ké před Pá -- nem,
@@ -520,7 +517,7 @@
   \relative c' {
     \choralniRezim
     d4 c d( e f d) d \barMin
-    f f e c e( f) d d \barFinalis
+    f( g) f e( d) c e( f) d d \barFinalis
   }
   \addlyrics {
     Jan byl lam -- pa
@@ -536,17 +533,19 @@
   }
 }
 
-\markup\italic{Responsorium jako v 1. nešporách.}
+\markup\italic\chant-ref "2ne-resp" "sanktoral/0624narozenikrtitele.ly#1ne-resp" {
+  Responsorium jako v 1. nešporách.
+}
 
 \score {
   \relative c'' {
     \choralniRezim
-    c( d) d \barMin c d d d e d c( d) d \barMaior
-    d c b g( a) a( g) \barMaior
+    g4 a c c c c e c c( d) d \barMin
+    c b g a( g) g \barMaior
 
     f a a c b g g \barMax
 
-    a a g( a) a \barMin
+    a4 a g( a) a \barMin
     b c d e d c b( c) a a \barMaior
     a( b) c( d) d c d e( d c) d \barMin
     c a g( a) a \barFinalis
@@ -565,12 +564,11 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "c"
+    differentia = "A"
     psalmus = ""
-    placet = "3 slabší"
     id = "2ne-amag"
     fons = "2. část viz 1. nešp, 3. ant."
-    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?konec=34"
+    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?cast=4-7"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

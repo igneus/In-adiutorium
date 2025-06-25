@@ -2527,6 +2527,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c d d \barMin
+    c d e d c d \barMaior
+    d a d b c a( g) a( g) \barMin
+    f \mark\sipka g( bes) c bes a \barFinalis
+  }
+  \addlyrics {
+    To je svě -- dec -- tví,
+    kte -- ré vy -- dá -- val Jan:
+    Ten, kte -- rý při -- jde po mně,
+    byl dří -- ve než já.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify\italic{
   Sobota má texty z příslušného dne v předvánočním týdnu.
 }
