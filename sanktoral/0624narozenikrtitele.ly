@@ -494,8 +494,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d f( e d) d \barMin
-    f g f e c d d \barFinalis
+    d4 d f e d( e c) c \barMin
+    d f e d c d d \barFinalis
   }
   \addlyrics {
     Při -- šel ja -- ko svě -- dek,
@@ -506,8 +506,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 112"
-    placet = "3 lépe (jak jsou tři antifony krátké a do jisté míry na sebe
-    obsahově navazující, je potřeba hledět na to, aby vkusně fungovaly položené za sebou)"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }

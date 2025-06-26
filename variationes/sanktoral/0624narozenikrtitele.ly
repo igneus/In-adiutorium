@@ -3296,7 +3296,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d \mark\sipka f( e d) d \barMin
     f g f e c d d \barFinalis
@@ -3310,6 +3310,8 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 112"
+    placet = "3 lépe (jak jsou tři antifony krátké a do jisté míry na sebe
+    obsahově navazující, je potřeba hledět na to, aby vkusně fungovaly položené za sebou)"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -3478,7 +3480,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     d4 d f e d( e c) c \barMin
     d f e d c d d \barFinalis
