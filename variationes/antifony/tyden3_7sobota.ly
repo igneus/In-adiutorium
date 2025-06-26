@@ -722,7 +722,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c d c d f( e d) c \barMin
     b c( d) b a g \barFinalis
@@ -736,6 +736,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 117"
+    placet = "závěr je podezřelý"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -763,7 +764,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     f4 f g f g g( a) a \barMin
     \mark\sipka g f g( a) g( f) f \barFinalis
