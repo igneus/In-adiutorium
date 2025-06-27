@@ -558,6 +558,30 @@
   \relative c'' {
     \choralniRezim
     g4 a c( d) d \barMin
+    c d e e d c d( e) d d \barMaior
+    \mark\sipka d d d c a b c
+    a a g g \barFinalis
+  }
+  \addlyrics {
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
     c d e e d c \mark\sipka b( c) a a \barMaior
     c a a c d e( d c) d \barMin
     c a g( a) a \barFinalis

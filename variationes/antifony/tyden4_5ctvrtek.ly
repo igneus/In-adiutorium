@@ -991,6 +991,24 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh si za -- slou -- ží chvá -- ly.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 147-I"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tIIctvrtekAntBenedictus }
