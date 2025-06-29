@@ -699,7 +699,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f e d e( f) d d \barMin
     f g( a) g f g( a) a g g \barMaior
@@ -729,6 +729,32 @@
     f4 f e d e( f) d d \barMin
     f g( a) g f g( a) a g g \barMaior
     \mark\sipka f g a a g f d d \barMin
+    c d f e c e d \barFinalis
+  }
+  \addlyrics {
+    Liš -- ky ma -- jí dou -- pa -- ta
+    a ne -- beš -- tí ptá -- ci hníz -- da,
+    a -- le Syn člo -- vě -- ka ne -- má,
+    kam by hla -- vu po -- lo -- žil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    annus = "C"
+    id = "ne13c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f e d e( f) d d \barMin
+    \mark\sipka c d f f g( a) a g g \barMaior
+    f g a a g f \mark\sipka g( f) d \barMin
     c d f e c e d \barFinalis
   }
   \addlyrics {
@@ -939,7 +965,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f( g a) g \barMin
     \mark\sipka f e f( d) c( d) d \barFinalis
@@ -952,6 +978,28 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne13c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka f4 d f( g a) g \barMin
+    f e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jdi a zvěs -- tuj
+    Bo -- ží krá -- lov -- ství!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = "ne13c-rch-aben"
@@ -1010,7 +1058,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e f e e f g g( e) e \barMin
     e g a a g b a a \barMaior
@@ -1029,6 +1077,7 @@
     differentia = "E"
     psalmus = ""
     annus = "C"
+    placet = "začátek málo zpěvný"
     id = "ne13c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1177,6 +1226,32 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "a"
+    psalmus = ""
+    annus = "C"
+    id = "ne13c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d f e d f g g( a) a \barMin
+    a g a g f g( a) g g \barMaior
+    a a g f d d \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný, kdo po -- lo -- žil ru -- ku na pluh
+    a o -- hlí -- ží se za se -- be,
+    ne -- ní způ -- so -- bi -- lý
+    pro Bo -- ží krá -- lov -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne13c-2ne-amag"

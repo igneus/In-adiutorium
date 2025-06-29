@@ -154,8 +154,8 @@
   \relative c' {
     \choralniRezim
     f4 f e d e( f) d d \barMin
-    f g( a) g f g( a) a g g \barMaior
-    a a a a g f d d \barMin
+    c d f f g( a) a g g \barMaior
+    f g a a g f g( f) d \barMin
     c d f e c e d \barFinalis
   }
   \addlyrics {
@@ -178,7 +178,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d f( g a) g \barMin
+    f4 d f( g a) g \barMin
     f e f( d) c( d) d \barFinalis
   }
   \addlyrics {
@@ -188,7 +188,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "D"
+    differentia = "f"
     psalmus = ""
     annus = "C"
     id = "ne13c-rch-aben"
@@ -199,10 +199,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e f e e f g g( e) e \barMin
-    e g a a g b a a \barMaior
-    g a g f e e \barMin
-    e f d d e e \barFinalis
+    d4 d d f e d f g g( a) a \barMin
+    a g a g f g( a) g g \barMaior
+    a a g f d d \barMin
+    f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Žád -- ný, kdo po -- lo -- žil ru -- ku na pluh
@@ -212,8 +212,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "IV"
-    differentia = "E"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne13c-2ne-amag"
