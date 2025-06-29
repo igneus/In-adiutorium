@@ -16,7 +16,7 @@
     \choralniRezim
     a4 a g( b g) g( a) a \barMin g( a g) f e4. e \barMaior
     d4 e f f g( f) g( a) a \barMaior
-    a a a a( b) a g g( a) a \barMaior
+    a a a a b g g( a) a \barMaior
     a( b) g g( f e) \barMin f( d) f e e \barFinalis
   }
   \addlyrics {
@@ -31,6 +31,7 @@
     differentia = "g"
     psalmus = "Žalm 113"
     id = "1ne-a1"
+    placet = "2 postup na _smiloval se nad námi_ je v rámci modu netypický"
     fial = "mezidobi_nejsvsrdce.ly#rch-aben?zacatek"
     piece = \markup {\sestavTitulek}
   }
@@ -40,8 +41,8 @@
   \relative c'' {
     \choralniRezim
     c4 b a c( d) d( c) c \barMaior
-    c d e c( a) a \barMin c b( c) a g a( g) g \barMaior
-    g f g g( a) a \barMin c c b g a g f( g) g \barFinalis
+    c d e c( a) a \barMin c c b c a( g) g \barMaior
+    a f g g( a) a \barMin c c b g a g f( g) g \barFinalis
   }
   \addlyrics {
     Uč -- te se o -- de mě,
@@ -63,7 +64,7 @@
     \choralniRezim
     c4 c b a c( d) d \barMin
     d( e) c d( c) a4. a \barMaior
-    a4 g( a) a c b g g( a) a \barFinalis
+    a4 g a c b g b( c a) a \barFinalis
   }
   \addlyrics {
     Já jsem dob -- rý pas -- týř,
@@ -76,8 +77,7 @@
     differentia = "d"
     psalmus = "Zj 4"
     id = "1ne-a3"
-    fial = "pust_svatytyden.ly#po?zacatek"
-    fons = "první část a motiv třetí části: Svatý týden, modlitba uprostřed dne, ant. v poledne"
+    fial = "pust_svatytyden.ly#po?cast=1"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -186,7 +186,7 @@
     \choralniRezim
     d4 c d f e( f) d \barMin
     e e d c a a \barMaior
-    d d c d d( f) e c( d) d \barFinalis
+    d d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Bo -- že, vo -- lám k_to -- bě,
@@ -262,7 +262,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 63"
-    placet = "2 postup ve druhé části je v rámci modu netypický"
+    placet = "2 postup ve druhé části je v rámci modu netypický;
+    závěr nevím, nějak to úplně není ono"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -294,7 +295,7 @@
   \relative c'' {
     \choralniRezim
     a4 g a( bes) a g f( g) g \barMaior
-    d d d( g) f e d( c) c \barMin d( f) e c( d) d \barFinalis
+    d d d( g) f e d( c) c \barMin d( f) e d( e d) d \barFinalis
   }
   \addlyrics {
     Dej mi, sy -- nu, své srd -- ce,
@@ -415,7 +416,7 @@
     \choralniRezim
     a4 a g( a) e e \barMin
     a g a b a c b g a \barMaior
-    a a g( f e) e \barMin e( f) d d( e) e \barFinalis
+    a a g( f e) e f g g( e) e \barFinalis
   }
   \addlyrics {
     Je -- den z_vo -- já -- ků
@@ -437,16 +438,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( g) g \barMin f g a a a( c) a a \barMaior
-    a b c a( g) \barMin f e d( e) d d \barFinalis
+    g4 a c( d) d \barMin
+    c d e c d( e) d d \barMaior
+    d c b a( g) \barMin
+    a f g( a) g g \barFinalis
   }
   \addlyrics {
-    Pa -- nuj, Pa -- ne, u -- pro -- střed svých ne -- přá -- tel,
-    po -- drob je jhu, kte -- ré ne -- tla -- čí.
+    Pa -- nuj, Pa -- ne,
+    u -- pro -- střed svých ne -- přá -- tel,
+    po -- drob je jhu,
+    kte -- ré ne -- tla -- čí.
   }
   \header {
     quid = "1. ant."
-    modus = "I"
+    modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
     id = "2ne-a1"
@@ -469,7 +474,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 111"
-    fial = "mezidobi_telaakrvepane.ly#1ne-a1?zacatek&konec"
+    fial = "mezidobi_telaakrvepane.ly#1ne-a1?cast=1,2-3"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }

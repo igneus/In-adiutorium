@@ -228,8 +228,8 @@
     \choralniRezim
     c4 c b a c( d) d \barMin
     d( e) c d( c) a4. a \barMaior
-    a4 g( a) a c b g g( a) a \barMin
-    g a b a \barFinalis
+    a4 g a c b g b( c a) a \barMaior
+    b g g( a) a \barFinalis
   }
   \addlyrics {
     Já jsem dob -- rý pas -- týř,
