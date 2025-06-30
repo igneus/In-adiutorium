@@ -126,7 +126,7 @@
     f4 f g a a g g a g a g( f) f \barMaior
     g g g a g a( c) a a \barMin a b c a( g a) a \barMax
     a g a( c) c b( c a g) g \barMaior a a g f e f d( c) c \barMax
-    d d c d d( f) e( d) d \barMaior f( g a) g( f e) c e( f d4.) d \barFinalis
+    d d c d d( f) f f \barMin g a f e( f d4.) d \barFinalis
   }
   \addlyrics {
     Sva -- tí a -- poš -- to -- lo -- vé Pe -- tr a Pa -- vel_*
@@ -212,7 +212,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d \barMin f e f d \barMaior
+    d4 d \barMin f e f d( c) \barMaior
     d c
     d f f e d c e d \barFinalis
   }
@@ -281,7 +281,10 @@
     differentia = "c"
     psalmus = "Žalm 63"
     placet = "delší recitace na e je pro antifony VII. modu hodně netypická,
-    ale jsem nakloněn myslet si, že tady je to tolerovatelné"
+    ale jsem nakloněn myslet si, že tady je to tolerovatelné;
+    _a jsem ... dost moci_ nic moc - tři hodně krátké fráze, z toho dvě končí
+    stereotypně pes-punctum; tři dílčí závěry kolem tenoru působí už
+    únavně a přešponovaně"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -326,6 +329,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 149"
+    placet = "2 závěr slabší"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -338,18 +342,18 @@
     % R
     \neviditelna f
     f4 f g f g g( a) a( g) \barMax
-    g g( a) g g \barMaior
-    g g f g a g f( g) f \barMin
-    f( d) f g g( f) f \barFinalis
+    f g( a) g g \barMaior
+    g g f g a g g( f d4.) d \barMin
+    d4 f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a a g( a) g g \barMin
     g g g g f g a a( g) \barMax
     % R
     \neviditelna a
-    g g( a) g g \barMaior
-    g g f g a g f( g) f \barMin
-    f( d) f g g( f) f \barFinalis
+    f g( a) g g \barMaior
+    g g f g a g g( f d4.) d \barMin
+    d4 f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -409,9 +413,9 @@
     \choralniRezim
     d4 d c f g g( a) a \barMaior
     a( c) b( c a) a g( f) f( g) g \barMaior
-    a a a g a g f e d( c) c \barMaior
+    a g f g( a) g g f e d( c) c \barMaior
     d c( d) d( f) f \barMin g f g a( c) a a \barMaior
-    a g a g f e( d) d \barFinalis
+    g a f e f d d \barFinalis
   }
   \addlyrics {
     Když Pe -- tr ješ -- tě mlu -- vil,_*
@@ -456,7 +460,7 @@
   \relative c'' {
     \choralniRezim
     g4 a c d d e c c( d) d \barMin
-    d d d e d c b( c) a( g) g \barMaior
+    d d c d( e) d d c( b) a( g) g \barMaior
     a a b c a( g) \barMin a g f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -545,7 +549,9 @@
   }
 }
 
-\markup\italic{Responsorium jako v prvních nešporách.}
+\markup\italic\chant-ref "2ne-r" "sanktoral/0629petraapavla.ly#1ne-r" {
+  Responsorium jako v prvních nešporách.
+}
 
 \score {
   \relative c'' {
