@@ -220,7 +220,9 @@
   }
 }
 
-\markup\italic { Responsorium jako v ranních chválách. }
+\markup\italic\chant-ref "ne-resp" "sanktoral/0722mariemagdalena.ly#rch-resp" {
+  Responsorium jako v ranních chválách.
+}
 
 \score {
   \relative c'' {

@@ -117,7 +117,9 @@
   }
 }
 
-\markup\italic{Responsorium ze společných textů o Panně Marii.}
+\markup\italic\chant-ref "rch-r" "commune/commune_maria.ly#rch-resp" {
+  Responsorium ze společných textů o Panně Marii.
+}
 
 \score {
   \relative c'' {
@@ -300,7 +302,9 @@
   }
 }
 
-\markup\italic{Responsorium ze společných textů o Panně Marii.}
+\markup\italic\chant-ref "ne-r" "commune/commune_maria.ly#2ne-resp" {
+  Responsorium ze společných textů o Panně Marii.
+}
 
 \score {
   \relative c'' {

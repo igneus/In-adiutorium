@@ -187,7 +187,7 @@
   }
 }
 
-\markup\italic{
+\markup\italic\chant-ref "rch-r" "commune/commune_jedenmucednik.ly#rch-resp" {
   Responsorium \upright{Hospodin mi pomáhá}
   z ranních chval společných textů o jednom mučedníkovi.
 }

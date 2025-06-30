@@ -79,7 +79,7 @@
   }
 }
 
-\markup\justify\italic{
+\markup\italic\chant-ref "rch-r" "commune/commune_apostol.ly#rch-resp" {
   Responsorium ze společných textů o apoštolech \upright{Poslals je do celého světa.}
 }
 
@@ -171,7 +171,7 @@
   }
 }
 
-\markup\justify\italic{
+\markup\italic\chant-ref "ne-r" "commune/commune_apostol.ly#2ne-resp" {
   Responsorium ze společných textů o apoštolech \upright{Vypravujte mezi všemi národy.}
 }
 

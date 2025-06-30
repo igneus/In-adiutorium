@@ -109,7 +109,9 @@
   }
 }
 
-\markup\italic{Responsorium ze společných textů o duchovních pastýřích, \upright{Na tvých hradbách.}}
+\markup\italic\chant-ref "rch-r" "commune/commune_pastyr.ly#rch-resp" {
+  Responsorium ze společných textů o duchovních pastýřích, \upright{Na tvých hradbách.}
+}
 
 \score {
   \relative c' {
@@ -210,7 +212,9 @@
   }
 }
 
-\markup\italic{Responsorium ze společných textů o duchovních pastýřích, \upright{Dobrý pastýř.}}
+\markup\italic\chant-ref "ne-r" "commune/commune_pastyr.ly#2ne-resp" {
+  Responsorium ze společných textů o duchovních pastýřích, \upright{Dobrý pastýř.}
+}
 
 \score {
   \relative c'' {

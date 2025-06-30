@@ -180,7 +180,7 @@
   }
 }
 
-\markup\italic{
+\markup\italic\chant-ref "rch-r" "commune/commune_vicemucedniku.ly#rch-resp" {
   Responsorium \upright{Spravedliví žijí navěky}
   z ranních chval společných textů o více mučednících.
 }

@@ -713,7 +713,11 @@
   }
 }
 
-\markup\italic{Responsorium jako v 1. nešporách}
+\markup\italic{
+  Responsorium jako v 1. nešporách
+  \chant-ref "2ne-resp-post" "sanktoral/0319josef.ly#1ne-resp-post" {}
+  \chant-ref "2ne-resp-velik" "sanktoral/0319josef.ly#1ne-resp-velik" {}
+}
 
 \score {
   \relative c'' {

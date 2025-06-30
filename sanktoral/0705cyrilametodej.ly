@@ -13,7 +13,16 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
-\markup\italic{Viz rubriky v breviáři.}
+\markup\italic{
+  Antifony ze společných textů o duchovních pastýřích.
+  \chant-ref "1ne-a1" "commune/commune_pastyr.ly#1ne-a1" {}
+  \chant-ref "1ne-a2" "commune/commune_pastyr.ly#1ne-a2" {}
+  \chant-ref "1ne-a3" "commune/commune_pastyr.ly#1ne-a3" {}
+
+  \chant-ref "1ne-resp" "sanktoral/0705cyrilametodej.ly#2ne-resp" {
+    Responsorium jako ve druhých nešporách.
+  }
+}
 
 \score {
   \relative c'' {

@@ -86,7 +86,9 @@
   }
 }
 
-\markup\italic{Responsorium \upright{Buď zdráva, Maria,} viz společné texty o Panně Marii - 2. nešpory.}
+\markup\italic\chant-ref "rch-r" "commune/commune_maria.ly#2ne-resp" {
+  Responsorium \upright{Buď zdráva, Maria,} viz společné texty o Panně Marii - 2. nešpory.
+}
 
 \score {
   \relative c' {
@@ -182,7 +184,9 @@
   }
 }
 
-\markup\italic{Responsorium jako v ranních chválách.}
+\markup\italic\chant-ref "ne-r" "commune/commune_maria.ly#2ne-resp" {
+  Responsorium jako v ranních chválách.
+}
 
   \score {
     \relative c' {
