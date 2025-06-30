@@ -277,7 +277,7 @@
   \relative c'' {
     \choralniRezim
     g4 a a( c) c \barMin
-    c b a g( a) g \barMin
+    c b a g( a g4.) g4 \barMin
     a g f a a( g) g \barFinalis
   }
   \addlyrics {
