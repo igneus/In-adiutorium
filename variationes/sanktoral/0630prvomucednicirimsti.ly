@@ -504,7 +504,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) d d \barMin
     e f d c c( d) d \barMaior
@@ -524,6 +524,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "_navěky_ je v daném kontextu přetížené, rytmicky nepěkné"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -531,6 +532,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d d( f) d d \barMin
     e f d c c( d) d \barMaior
@@ -563,6 +565,32 @@
     c d f f f g f g f e d c c \barMaior
     d d c d( f g) f( e) d( c) \barMin
     \mark\sipka a( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ve svém ži -- vo -- tě
+    mi -- lo -- va -- li Kris -- ta
+    a sta -- li se mu po -- dob -- ný -- mi i ve smr -- ti;
+    pro -- to s_ním kra -- lu -- jí
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) d d \barMin
+    e f d c c( d) d \barMaior
+    c d f f f g \mark\sipka g g f g g f f \barMaior
+    f f d f( g a) g( f) e( d) \barMin
+    e( f) d d \barFinalis
   }
   \addlyrics {
     Ve svém ži -- vo -- tě
