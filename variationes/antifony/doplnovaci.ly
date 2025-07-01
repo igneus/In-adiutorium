@@ -97,7 +97,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d c( d) f( e) d d \barMin
     \mark\sipka f f g-- f( e) d \barFinalis
@@ -120,6 +120,27 @@
   \relative c' {
     \choralniRezim
     \mark\sipka d4 c d f e d( e) d d \barMin
+    f f g-- f( e) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je tvým o -- chrán -- cem
+    na všech tvých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "tercie-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 d c d f e( f) d d \barMin
     f f g-- f( e) d \barFinalis
   }
   \addlyrics {

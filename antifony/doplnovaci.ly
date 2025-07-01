@@ -30,7 +30,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d c( d) f( e) d d \barMin
+    d4 d c d f e( f) d d \barMin
     f f g-- f( e) d \barFinalis
   }
   \addlyrics {
