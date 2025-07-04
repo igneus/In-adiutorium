@@ -103,6 +103,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( f e) e \barMaior
+    \mark\sipka d e f g g f( g) e \barMin
+    d c d e g f( e) e \barMax
+
+    g a b a g a a \barMaior
+    a( b) a g( e) e \barMin f( g) a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    To -- máš ře -- kl:
+    Pa -- ne, ne -- ví -- me, kam jdeš.
+    Jak mů -- že -- me znát ces -- tu?
+
+    Je -- žíš mu od -- po -- vě -- děl:
+    Já jsem ces -- ta, prav -- da a ži -- vot.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -272,6 +300,14 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  na sv. Tomáše i o velikonočním oktávu identický text:
+  \italic{
+    Quia vidísti me, Thoma, credidísti; beáti qui non vidérunt et credidérunt, allelúia.
+  }
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -342,7 +378,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     a4 a a a a bes( a) g( f) e \barMin
@@ -383,6 +419,40 @@
     a4( g f) e( f) d d \barMax
     d4( g) f f g g \barMaior
     g g( a bes) g( a) g( f) f \barMin
+    f g f e \mark\sipka f d d
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pro -- to -- že jsi mě u -- vi -- děl,_*
+    To -- má -- ši,
+    u -- vě -- řil jsi.
+    Bla -- ho -- sla -- ve -- ní,
+    kdo ne -- vi -- dě -- li,
+    a přes -- to u -- vě -- ři -- li.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    fons = "Velikonoční oktáv, neděle v oktávu, 2. nešp., k Magnificat"
+    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2?jiny_text"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    a4 a a a a bes( a) g( f) e \barMin
+    f( g) g( a) a \barMaior
+    a4( g f) e( f) d d \barMax
+    d4( g) f f g g \barMaior
+    g g( a bes) g( a) g( f) f \barMin
     f g \mark\sipka g f e d c
     e f d d \barFinalis
   }
@@ -402,7 +472,7 @@
     psalmus = ""
     id = "rch-aben"
     fons = "Velikonoční oktáv, neděle v oktávu, 2. nešp., k Magnificat"
-    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2?jiny_text"
+    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2?cast=1-5"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
@@ -528,6 +598,32 @@
     f g a( b c) a \barMin c b c c( d) c a a \barMin
     g f( g) g( f) f \barMaior
     \mark\sipka f( g a g) f( g) \barMin g f( e) d( c) \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vlo -- žil jsem své prs -- ty do ran po hře -- bech
+    a svou ru -- ku do rá -- ny v_je -- ho bo -- ku
+    a ře -- kl jsem:
+    Pán můj a Bůh můj.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \mark\sipka g f g g( a) a \barMin g a f d d \barMaior
+    f g a( b c) a \barMin c b c c( d) c a a \barMin
+    g f( g) g( f) f \barMaior
+    f( g a g) f( g) \barMin g f( e) d( c) \barMin
     d f g( f) f \barFinalis
   }
   \addlyrics {

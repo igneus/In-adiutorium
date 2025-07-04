@@ -105,7 +105,7 @@
     a4( g f) e( f) d d \barMax
     d4( g) f f g g \barMaior
     g g( a bes) g( a) g( f) f \barMin
-    f g f e d c c
+    f g g f e d c
     e f d d \barFinalis
   }
   \addlyrics {
@@ -124,7 +124,7 @@
     psalmus = ""
     id = "rch-aben"
     fons = "Velikonoční oktáv, neděle v oktávu, 2. nešp., k Magnificat"
-    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2?zacatek=42"
+    fial = "velikonoce_velikonocnioktav.ly#ne2-mag2?cast=1-5"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

@@ -7472,4 +7472,34 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \key f \major
+      a4 a a a a bes( a) g( f) e \barMin
+      f( g) g( a) a \barMaior
+      a4( g f) e( f) d d \barMax
+      \mark\sipka d4( f) e f g g \barMaior
+      g g( a bes) g( a) g( f) f \barMin
+      f g f e c
+      e f d d \barFinalis
+    }
+    \addlyrics {
+      Pro -- to -- že jsi mě u -- vi -- děl,_*
+      To -- má -- ši,
+      u -- vě -- řil jsi.
+      Bla -- ho -- sla -- ve -- ní,
+      kdo ne -- vi -- dě -- li, a u -- vě -- ři -- li.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "I"
+      differentia = "a"
+      psalmus = ""
+      id = "ne2-mag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
 }
