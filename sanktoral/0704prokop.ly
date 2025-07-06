@@ -101,7 +101,7 @@
     \neviditelna e
     d e d c( d) c c \barMin c c c c b a g a g g \barFinalis
     % Slava
-    d'4 d e d c c( d) c \barMin
+    d'4 d d( e) d c c( d) c \barMin
     c b a c( d) d d \barFinalis
   }
   \addlyrics {
@@ -196,6 +196,7 @@
     differentia = "D"
     psalmus = "Žalm 112"
     status = "zruseno"
+    placet = "3 závěr nic moc"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
