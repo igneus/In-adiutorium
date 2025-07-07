@@ -2434,6 +2434,27 @@ tIInedeleLaudResp = \score {
 \score {
   \relative c' {
     \choralniRezim
+    f4 f f f g f g g( a) a \barMaior
+    \mark\sipka g f g( a) g f d \barMin
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din mi dá -- vá pro -- dlé -- vat na svě -- žích
+    past -- vi -- nách. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f f f g f g g( a) \mark\sipka a( g) \barMaior
     a g f g( a) g( f) f \barMaior
     g g( a) f f \barFinalis
