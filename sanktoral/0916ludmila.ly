@@ -165,6 +165,15 @@
 \markup\italic{
   Antifony k žalmům jako v ranních chválách.
   K nim Žalm 116-I, 116-II a kantikum Zj 4.
+
+  \chant-ref "ne-a1" "sanktoral/0916ludmila.ly#rch-a1" {}
+  \chant-ref-header "ne-a1" "psalmus" "Žalm 116-I"
+
+  \chant-ref "ne-a2" "sanktoral/0916ludmila.ly#rch-a2" {}
+  \chant-ref-header "ne-a2" "psalmus" "Žalm 116-II"
+
+  \chant-ref "ne-a3" "sanktoral/0916ludmila.ly#rch-a3" {}
+  \chant-ref-header "ne-a3" "psalmus" "Zj 4"
 }
 
 \score {

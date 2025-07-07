@@ -131,8 +131,19 @@
 
 \markup {\nadpisHodinka {"nešpory"}}
 
-\markup\italic{Antifony jako k ranním chválám.
-(K nim: Žalm 116-II; Žalm 126; kantikum Ef 1.)}
+\markup\italic{
+  Antifony jako k ranním chválám.
+  (K nim: Žalm 116-II; Žalm 126; kantikum Ef 1.)
+
+  \chant-ref "ne-a1" "sanktoral/0703tomas.ly#rch-a1" {}
+  \chant-ref-header "ne-a1" "psalmus" "Žalm 116-II"
+
+  \chant-ref "ne-a2" "sanktoral/0703tomas.ly#rch-a2" {}
+  \chant-ref-header "ne-a1" "psalmus" "Žalm 126"
+
+  \chant-ref "ne-a3" "sanktoral/0703tomas.ly#rch-a3" {}
+  \chant-ref-header "ne-a1" "psalmus" "Ef 1"
+}
 
 \score {
   \relative c'' {

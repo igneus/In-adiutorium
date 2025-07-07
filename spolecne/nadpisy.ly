@@ -180,6 +180,12 @@
            #{ \markup{ \with-url #urlWithScheme { #text } } #}
            text))))
 
+#(define-markup-command (chant-ref-header layout props chant-id key value) (string? string? string?)
+   "Nic nedela, ve zdrojovem kodu je pro nastroje, ktere ho zpracovavaji.
+   Znamena, ze kdyz se odkaz chant-ref s uvedenou hodnotou as-chant-id
+   preklada na kompletni zpev, v hlavicce se ma zmenit hodnota uvedeneho klice."
+   (interpret-markup layout props empty-markup))
+
 % test function for \if detecting development build
 % (i.e. build with the point-and-click feature enabled)
 #(define (is-development-build layout props)

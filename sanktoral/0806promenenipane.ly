@@ -13,7 +13,14 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
-\markup\italic{1. antifona viz 1. antifonu 2. nešpor: \upright{"\"Ježíš vzal s sebou\""} (Žalm 113)}
+\markup\italic{
+  1. antifona viz
+  \chant-ref "1ne-a1" "sanktoral/0806promenenipane.ly#2ne-a1" {
+    1. antifonu 2. nešpor: \upright{Ježíš vzal s sebou,}
+  }
+  k ní Žalm 113
+  \chant-ref-header "1ne-a1" "psalmus" "Žalm 113"
+}
 
 \score {
   \relative c' {
