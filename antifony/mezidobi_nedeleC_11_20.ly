@@ -227,9 +227,9 @@
   \relative c'' {
     \choralniRezim
     a4 a g f g( a) a \barMin
-    g f g a a g g \barMaior
-    a c d c b c a \barMin
-    a a g f g a a g( a) g g \barFinalis
+    g f g a g e e \barMaior
+    d e f e f g e \barMin
+    f g a a g a g f( e) d( e) e \barFinalis
   }
   \addlyrics {
     Žeň je si -- ce hoj -- ná,
@@ -239,8 +239,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G*"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "C"
     id = "ne14c-1ne-amag"
@@ -251,7 +251,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( f) e d e f f \barMin e( f) d d \barMaior
+    d4 d d f e d c( d) c c \barMin e( f) d d \barMaior
     f( g a g) f f g f d d \barMaior
     f f f f f f e d e d c \barMin
     d c d f e c c( d) d \barFinalis

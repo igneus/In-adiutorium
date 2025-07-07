@@ -31,9 +31,9 @@
   \relative c'' {
     \choralniRezim
     a4 a g f g( a) a \barMin
-    g f g a a g g \barMaior
-    a c d c b c a \barMin
-    a a g f g a a g( a) g g \barFinalis
+    g f g a g e e \barMaior
+    d e f e f g e \barMin
+    f g a a g a g f( e) d( e) e \barFinalis
   }
   \addlyrics {
     Žeň je si -- ce hoj -- ná,
@@ -43,8 +43,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G*"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "A"
     fial = "antifony/mezidobi_nedeleC_11_20.ly#ne14c-1ne-amag"
