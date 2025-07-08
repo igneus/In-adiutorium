@@ -1014,6 +1014,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( c) g a( g) f( g) g \barMaior
+    a( b c) c( d) b a a \barMax
+    c c b a \mark\sipka a( b) g g f g a g g \barMaior
+    g a a a a f( e) d f f g g \barFinalis
+  }
+  \addlyrics {
+    Jan při -- lnul ke Kris -- tu
+    ce -- lou svou lás -- kou
+    a on si ho vy -- vo -- lil za a -- po -- što -- la
+    a mi -- lo -- val ho ví -- ce než os -- tat -- ní.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
