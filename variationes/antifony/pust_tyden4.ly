@@ -200,6 +200,28 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e( c) d \barMaior
+    \mark\sipka a c( d) d \barMin
+    f g g g f( e d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pro -- buď se, spá -- či,
+    vstaň z_mrt -- vých,
+    a Kris -- tus tě o -- sví -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "ne-1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 a c b( g) a \barMaior
