@@ -243,7 +243,7 @@
     \choralniRezim
     c4 c c a( c) c b a g g \barMin
     g a g f g a a( g) g \barMaior
-    a b g g \barFinalis
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Plň -- te své sli -- by Hos -- po -- di -- nu

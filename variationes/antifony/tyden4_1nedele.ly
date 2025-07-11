@@ -1549,6 +1549,50 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c c d c b( c) \mark\sipka a a \barMaior
+    c c c b a b a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d c b( c) a a \barMaior
+    \mark\sipka a b c a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din při -- jde ve slá -- vě ob -- klo -- pen svý -- mi
+    sva -- tý -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c d d c( d) c c \barMaior
     c a a c b a g g \barMin
     f a g g \barFinalis
@@ -1708,7 +1752,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c a( c) c b a g g \barMin
     g a g f g a \mark\sipka a( g) g \barMaior
@@ -1735,6 +1779,29 @@
     c4 c c a( c) c b a g g \barMin
     g a g f g a a( g) g \barMaior
     \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    Plň -- te své sli -- by Hos -- po -- di -- nu
+    a při -- ná -- šej -- te mu da -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 76-II"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c a( c) c b a g g \barMin
+    g a g f g a a( g) g \barMaior
+    \mark\sipka f g( a) g g \barFinalis
   }
   \addlyrics {
     Plň -- te své sli -- by Hos -- po -- di -- nu
