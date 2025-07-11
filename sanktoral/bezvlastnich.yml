@@ -58,9 +58,13 @@
   titulus: Sv. Scholastiky, panny
   gradus: memorial_obligatory
   communia: [panna]
+  antiphonae:
+    aben: 'commune/commune_panna.ly#rch-aben2'
 - dies: '0221'
   titulus: Sv. Petra Damianiho, biskupa a učitele církve
   communia: [pastyr, ucitel]
+# 0227 sv. Rehor z Nareku by mohl byt vyresen tady, kdyby antifona k Magnificat
+# nebyla kdoviproc prelozena nekonkordantne
 - dies: '0304'
   titulus: Sv. Kazimíra
   communia: [muz]
@@ -74,6 +78,7 @@
 - dies: '0309'
   titulus: Sv. Františky Římské, řeholnice
   communia: [reholnice]
+# 0310 sv. Jan Ogilvie ted ma vlastni material, ale dal by se vyresit tady
 - dies: '0318'
   titulus: Sv. Cyrila Jeruzalémského, biskupa a učitele církve
   communia: ~ # nema, protoze jen pripominka
@@ -83,15 +88,16 @@
 - dies: '0323'
   titulus: Sv. Turibia z Mongroveja, biskupa
   communia: ~
-  antiphonae:
-    aben: 'commune/commune_pastyr.ly#rch-aben'
-    amag: 'commune/commune_pastyr.ly#2ne-amag1' # TODO: doplnuje se jmeno
+  antiphonae: pastyr # TODO: amag se doplnuje jmeno
 - dies: '0404'
   titulus: Sv. Izidora, biskupa a učitele církve
   communia: [pastyr, ucitel]
 - dies: '0405'
   titulus: Sv. Vincence Ferrerského, kněze
   communia: [pastyr]
+  antiphonae:
+    aben: 'commune/commune_pastyr.ly#rch-aben'
+    amag: 'commune/commune_pastyr.ly#1ne-amag2'
 - dies: '0407'
   titulus: Sv. Jana Křtitele de la Salle, kněze
   gradus: memorial_obligatory
@@ -308,6 +314,7 @@
   titulus: Sv. Bartoloměje, apoštola
   gradus: feast
   communia: [apostol]
+# 0825 sv. Pet bratri ma vlastni material, ale dali by se vyresit tady
 - dies: '0825'
   titulus: Sv. Ludvíka
   communia: [muz]
@@ -351,10 +358,6 @@
   titulus: Sv. Jeronýma, kněze a učitele církve
   gradus: memorial_obligatory
   communia: [ucitel]
-- dies: '1001'
-  titulus: Sv. Terezie od Dítěte Ježíše, panny a učitelky církve
-  gradus: memorial_obligatory
-  communia: [panna]
 - dies: '1005'
   titulus: Sv. Faustiny Kowalské, panny
   communia: [panna, reholnice]
@@ -445,6 +448,7 @@
 - dies: '1125'
   titulus: Sv. Kateřiny Alexandrijské, panny a mučednice
   communia: [mucednice, panna]
+# 1201 Edmund Kampian ma vlastni material, ale dal by se vyresit tady
 - dies: '1203'
   titulus: Sv. Františka Xaverského, kněze
   gradus: memorial_obligatory
@@ -483,9 +487,7 @@
 - dies: '1223'
   titulus: Sv. Jana Kentského, kněze
   communia: ~ # jen pripominka
-  antiphonae:
-    aben: 'commune/commune_reholnikatd.ly#milo-aben'
-    amag: 'commune/commune_reholnikatd.ly#milo-ne2-amag'
+  antiphonae: milosrdny
 - dies: '1229'
   titulus: Sv. Tomáše Becketa, biskupa a mučedníka
   communia: ~ # jen pripominka

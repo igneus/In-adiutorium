@@ -1,4 +1,5 @@
 require 'lyv'
+require_relative '../fial'
 
 # Convenient interface for loading parsed music
 class MusicRepository
