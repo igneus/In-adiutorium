@@ -302,6 +302,80 @@
     }
   }
 
+  \markup\justify{
+    Zohlednit všechny délky jmen v breviáři zastoupené,
+    jako příklady uvést světce, kteří se skutečně slaví se zpěvy z commune:
+  }
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a \neviditelna a \bar ";"
+      c(^\markup\rubrJmenoSvateho d) \bar ";"
+      c( d) d \bar ";"
+      c c( d) d \bar ";"
+      c d e c d d \barMaior
+      d e d c d c \barMin b c a g g \barMaior
+      a c c b a g( a) g g \barFinalis
+
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Sva -- tý \markup\Nomen
+      Jan % z Boha
+      A -- lois % Beda, Filip (Neri)
+      An -- to -- nín % opat; Romuald
+      hle -- dal své -- ho Pá -- na,
+      a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
+      a do -- ve -- dl ho ke spá -- se.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "rehol-amag2"
+      fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a \neviditelna a \bar ";"
+      c(^\markup\rubrJmenoSvateho d) \bar ";"
+      c( d) d \bar ";"
+      c c( d) d \bar ";"
+      c d e c d d \barMaior
+      d e d \mark\sipka c( d) c c \barMin a c b g( a) g \barMaior
+      g f g g( a) a g( a) g g \barFinalis
+
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Sva -- tý \markup\Nomen
+      Jan % z Boha
+      A -- lois % Beda, Filip (Neri)
+      An -- to -- nín % opat; Romuald
+      hle -- dal své -- ho Pá -- na,
+      a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
+      a do -- ve -- dl ho ke spá -- se.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "rehol-amag2"
+      fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup\italic{o řeholnici:}

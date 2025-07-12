@@ -1531,6 +1531,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    c4 d f f( g) g \barMin
+    a bes a g f a( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,
+    o -- sla -- vuj Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Žalm 147"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIIpatekAntBenedictus }
 
 \pageBreak

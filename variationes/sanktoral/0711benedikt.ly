@@ -186,6 +186,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e) e( d) d \barMin
+    e e e( f) e d c c( d e) e( d) d \barMaior
+    c b g( a) a( g) \barMin
+    f g \mark\sipka g( a) a c( d) c b( g a4.) g4 \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Be -- ne -- dikt
+    byl muž cti -- hod -- né -- ho ži -- vo -- ta,
+    po -- žeh -- na -- ný
+    mi -- los -- tí i po -- dle jmé -- na.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
