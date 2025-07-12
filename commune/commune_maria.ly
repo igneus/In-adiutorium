@@ -849,15 +849,25 @@
 
 \markup\italic{
   Invitatorium ze společných textů o Panně Marii.
+  \chant-ref "sob-invit1" "commune/commune_maria.ly#invit1" {}
+  \chant-ref "sob-invit2" "commune/commune_maria.ly#invit2" {}
 }
 
 \markup\nadpisHodinka "ranní chvály"
 
 \markup\italic\justify{
   Responsorium
-  \upright{Maria, Bůh si tě vyvolil} (viz výše, 1. nešpory),
-  \upright{Bůh si ji vyvolil od pradávna} (viz ranní chvály), nebo
-  \upright{Buď zdráva, Maria} (viz 2. nešpory).}
+  \chant-ref "sob-resp1" "commune/commune_maria.ly#1ne-resp" {
+    \upright{Maria, Bůh si tě vyvolil} (viz výše, 1. nešpory),
+  }
+  \chant-ref "sob-resp2" "commune/commune_maria.ly#rch-resp" {
+    \upright{Bůh si ji vyvolil od pradávna} (viz ranní chvály),
+  }
+  nebo
+  \chant-ref "sob-resp3" "commune/commune_maria.ly#2ne-resp" {
+    \upright{Buď zdráva, Maria} (viz 2. nešpory).
+  }
+}
 
 \score {
   \relative c'' {
