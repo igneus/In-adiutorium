@@ -286,6 +286,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) \mark\sipka a g f g g \barMaior
+    a c c b( c) a a \barMin
+    c c b a g( a) g g \barMaior
+    a a a f e d d f( g) g \barMaior
+    a b c a a \barMin
+    a( g) f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí Cy -- ril a Me -- to -- děj
+    jsou na -- ši ot -- co -- vé,
+    o -- prav -- do -- ví pas -- tý -- ři,
+    o -- ni nás po -- vo -- la -- li ze tmy
+    k_o -- prav -- do -- vé -- mu svět -- lu ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -1470,6 +1497,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d d( f) f f e( f) \mark\sipka d d \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Slo -- vo Pá -- ně se ší -- ři -- lo
+    po ce -- lé kra -- ji -- ně.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f g( a) g f g( a) a( g) g \barMin
     f d f( g) g f f \barFinalis
   }
@@ -1641,6 +1688,9 @@
   }
 }
 
+\markup\justify{
+  (Melodie počítá s přízvukem na _a_, ne na _bu_de)
+}
 \score {
   \relative c' {
     \zvyraznovacModry

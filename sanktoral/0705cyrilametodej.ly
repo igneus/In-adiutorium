@@ -117,6 +117,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "spíš se vrátit k předchozí, kde _si_ je na g"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -263,6 +264,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 15"
+    placet = "2 nic moc"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
