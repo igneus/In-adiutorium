@@ -327,10 +327,10 @@
   \relative c'' {
     \choralniRezim
     a4 a a a g( a) g \barMin
-    f g g( a) a a f e d( e) e \barMaior
-    e d e f g e e \barMaior
-    a g a b( g e) e \barMin
-    e f g a g f e e \barFinalis
+    f g g( a) a a b g a a \barMaior
+    a g a g f d( e) e \barMaior
+    a a a g( f e) e \barMin
+    e f e d f g e e \barFinalis
   }
   \addlyrics {
     Sa -- ma -- ri -- tán při -- šel
@@ -354,9 +354,9 @@
   \relative c'' {
     \choralniRezim
     a4 a a a g( a) g g \barMin
-    f g g a a f e d e e \barMaior
-    a g a( b g) g \barMin
-    f g g e \barFinalis
+    f g g a a c b g a a \barMaior
+    a c b( c a) a \barMin
+    g f g e \barFinalis
   }
   \addlyrics {
     Sa -- ma -- ri -- tán pro -- ká -- zal
