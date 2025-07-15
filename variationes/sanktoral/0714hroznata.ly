@@ -188,6 +188,30 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d c \barMin
+    b c a g( a) \mark\sipka g \barMaior
+    a c b a g a \barMin
+    g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    I kdy -- bych šel
+    tem -- no -- tou rok -- le,
+    ne -- za -- lek -- nu se zla,
+    vždyť Pán je se mnou.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d c d f e c c( d) d \barMaior
