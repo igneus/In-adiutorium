@@ -889,7 +889,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 c( b) c( d) d \barMin
     \mark\sipka c d e c d d \barMaior
@@ -907,6 +907,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 127"
+    placet = "2 druhá půlka není moc zpěvná"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -914,6 +915,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 c( b) c( d) d \barMin
     c d e c d d \barMaior
@@ -943,6 +945,30 @@
     c d e c d d \barMaior
     \mark\sipka d e c a a \barMin
     bes a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( b) c( d) d \barMin
+    c d e c d d \barMaior
+    d e c a a \barMin
+    \mark\sipka bes c bes( a) a \barFinalis
   }
   \addlyrics {
     Ať ži -- je -- me_*

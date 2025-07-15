@@ -105,8 +105,8 @@
     \choralniRezim
     a4 c( b) c( d) d \barMin
     c d e c d d \barMaior
-    d c b a g
-    b c a a \barFinalis
+    d c b c( a g4.) g4 \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Ať ži -- je -- me_*
@@ -116,10 +116,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 127"
-    placet = "2 druhá půlka není moc zpěvná"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
