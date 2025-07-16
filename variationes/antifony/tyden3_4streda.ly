@@ -1278,6 +1278,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4 d f e d e d c \barMin
+    \mark\sipka e f e d d \barFinalis
+  }
+  \addlyrics {
+    Já jsem chu -- dák a u -- bo -- žák,
+    Bo -- že, po -- moz mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 70"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka f4 f f d f e c d \barMin
     f e f d d \barFinalis
   }

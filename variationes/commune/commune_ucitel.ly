@@ -112,6 +112,38 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    \mark\sipka g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a g( a) g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ús -- ta spra -- ved -- li -- vé -- ho mlu -- ví moud -- ře;_*
+    to, co ří -- ká, je správ -- né.
+    \Verse Bo -- ží zá -- kon má ve svém srd -- ci;_*
+    \Response to, co ří -- ká, je správ -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup\italic{V době velikonoční:}
@@ -1084,6 +1116,62 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f f( g) \barMin a g f g f f \barMaior
+    g g f e d( c) c \barMin d f g a a g f g g \barMaior
+    a g f( g f4.) f4 \barMin e f d( c) c \barMaior
+    d f g g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c c( d) \barMin e d c d c c \barMaior
+    d d c b a( g) g \barMin \mark\sipka f g a c c b a c( d) d \barMaior
+    e d c( d c4.) c4 \barMin b c a( g) g \barMaior
+    \mark\sipka a g f g( a g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
+    a ti, kte -- ří mno -- hé při -- ved -- li ke spra -- ve -- dl -- nos -- ti,
+    bu -- dou zá -- řit ja -- ko hvěz -- dy
+    na věč -- né vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}

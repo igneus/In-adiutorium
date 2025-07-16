@@ -640,6 +640,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     a4 g \barMin f g a bes g bes a \barFinalis
   }

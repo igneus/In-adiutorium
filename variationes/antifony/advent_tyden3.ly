@@ -2479,6 +2479,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c g( a g) \barMin
+    g f g( a) g f g a a g g \barMaior
+    f g a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Jed -- nej -- te
+    po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    ne -- boť se již blí -- ží spá -- sa.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
