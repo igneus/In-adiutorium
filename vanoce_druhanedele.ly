@@ -219,9 +219,9 @@
     \choralniRezim
     \key f \major
     d4 d f( e) f( d) d \barMin
-    f( e) f f( g) g g a bes a g f( g) g \barMaior
+    f f g( a) g g a bes a g f( g) g \barMaior
 
-    a a a bes c bes a g( f) g \barMin
+    g g g a a g f f( g) g \barMin
     g( a) f e d d \barMax
 
     d d d c d f f f e d( e) d d \barMaior
@@ -245,7 +245,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Benedictus"
-    placet = "3 _Panna Maria_ nepřirozené; krok na _a to se_ raději pryč"
+    placet = "_Panna Maria_ nepřirozené"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

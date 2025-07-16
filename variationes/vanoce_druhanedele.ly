@@ -1477,6 +1477,17 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Virgo semper fidélis, et si Verbum génuit incarnátum,
+    virgo mansit et post partum,
+    quam laudántes omnes dícimus:
+    Benedícta tu in muliéribus.
+  }
+  \cantusid-link "005452" (s drobnými odchylkami od tradičního textu)
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -1520,7 +1531,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 d f( e) f( d) d \barMin
@@ -1587,6 +1598,44 @@
     modus = "I"
     differentia = "f"
     psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 d f( e) f( d) d \barMin
+    \mark\sipka f f g( a) g g a bes a g f( g) g \barMaior
+
+    g g g a \mark\sipka a g f f( g) g \barMin
+    g( a) f e d d \barMax
+
+    d d d c d f f f e d( e) d d \barMaior
+
+    a' g a d, \barMin
+    d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    s_ví -- rou při -- ja -- la věč -- né Bo -- ží Slo -- vo,
+
+    a to se v_je -- jím čis -- tém tě -- le
+    sta -- lo člo -- vě -- kem;
+
+    pro -- to ji všich -- ni chvá -- lí -- me a vo -- lá -- me:
+
+    Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    placet = "_Panna Maria_ nepřirozené"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1730,6 +1779,102 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Nápěv latinské předlohy se nezdá rozumně možné adaptovat,
+  protože je těsně svázaný se strukturou textu, mj. i s rýmem.
+  Zatím nevidím ani vkusnou možnost, jak zachovat charakteristické ozdoby.
+  Tak tady alespoň nějaké pokusy o nápěv stejného modu a vzdáleně podobného rázu.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g a( c) a a g a g f g( f) f \barMaior
+    f f f g g f e d( c) c \barMin
+    c d f( g) f f \barMax
+    f g a a g f g f e d( e) d d \barMaior
+    c d d( f) f \barMin
+    a g a f( g) f f \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    s_ví -- rou při -- ja -- la věč -- né Bo -- ží slo -- vo,
+    a to se v_je -- jím čis -- tém tě -- le
+    sta -- lo člo -- vě -- kem;
+    pro -- to ji všich -- ni chvá -- lí -- me a vo -- lá -- me:
+    Po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g a( c) a a g a g f \mark\sipka f( g) g \barMaior
+    g g g a a g f g( f) f \barMin
+    d f g( a) f f \barMax
+    f g a a g f g f e d( e) d d \barMaior
+    c d d( f) f \barMin
+    \mark\sipka f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    s_ví -- rou při -- ja -- la věč -- né Bo -- ží slo -- vo,
+    a to se v_je -- jím čis -- tém tě -- le
+    sta -- lo člo -- vě -- kem;
+    pro -- to ji všich -- ni chvá -- lí -- me a vo -- lá -- me:
+    Po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g a( c) a a g a g f f( g) g \barMaior
+    g g g a a g f g( f) f \barMin
+    \mark\sipka g f g( a) f f \barMax
+    f g a a g f g f e d( e) d d \barMaior
+    c d d( f) f \barMin
+    f g a \mark\sipka f( g) f f \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    s_ví -- rou při -- ja -- la věč -- né Bo -- ží slo -- vo,
+    a to se v_je -- jím čis -- tém tě -- le
+    sta -- lo člo -- vě -- kem;
+    pro -- to ji všich -- ni chvá -- lí -- me a vo -- lá -- me:
+    Po -- žeh -- na -- ná
+    jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Benedictus"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
