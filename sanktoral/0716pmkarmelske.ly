@@ -39,7 +39,7 @@
     \choralniRezim
     a4 a a g( a) g g f g g( a) a \barMaior
     c b a b g g a b( c) a a \barMaior
-    a a g f e f d d \barFinalis
+    g a g f e f d d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a sly -- še -- la Bo -- ží slo -- vo,

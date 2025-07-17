@@ -501,7 +501,7 @@
     \choralniRezim
     a4 a a g a g g a b c a a \barMaior
     c b a b g f g( a) a \barMaior
-    a a g f e f d d \barFinalis
+    g a g f e f d d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a na -- slou -- cha -- la Bo -- ží -- mu slo -- vu,
