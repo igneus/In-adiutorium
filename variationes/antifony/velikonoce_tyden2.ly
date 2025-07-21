@@ -663,7 +663,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a \mark\sipka f f( g) g \barMaior
     a c b( a g) g f g a a( g) g \barMaior
@@ -679,6 +679,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 _Ježíš_ nevím"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -800,6 +801,51 @@
     c4 a c c b a g( a) g \barMaior
     f g a( c) c b c a g g \barMaior
     f a g g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a c c b a g( a) g \barMaior
+    f g \mark\sipka g( a) a \barMin g f a g g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Což nám ne -- ho -- ře -- lo srd -- ce,
+    když k_nám Je -- žíš na ces -- tě mlu -- vil?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c c b a g( a) g \barMaior
+    f g g( a) a \barMin \mark\sipka a b a g g \barMaior
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Což nám ne -- ho -- ře -- lo srd -- ce,

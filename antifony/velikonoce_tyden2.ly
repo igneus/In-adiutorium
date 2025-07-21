@@ -89,9 +89,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f g a f f( g) g \barMaior
-    a c b( a g) g f g a a( g) g \barMaior
-    a g f( a) g \barFinalis
+    c4 a c c b a g( a) g \barMaior
+    f g g( a) a \barMin g f a g g \barMaior
+    f a g g \barFinalis
   }
   \addlyrics {
     Což nám ne -- ho -- ře -- lo srd -- ce,
@@ -101,9 +101,8 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
-    placet = "2 _Ježíš_ nevím"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
