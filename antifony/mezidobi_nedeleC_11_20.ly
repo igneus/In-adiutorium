@@ -380,8 +380,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b( a g) g \barMin a g f g( a) a( g) g \barMaior
-    a g a c c c( d) c c \barMin
+    c4 c c( d c) c \barMin c b a g( a) a( g) g \barMaior
+    f g a c b c d d \barMin
     c a c b g( a g) g \barFinalis
   }
   \addlyrics {
@@ -403,7 +403,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g f e f d d f( g) a a( g) g \barMaior
+    a4 a g f e f d d f( g) a g g \barMaior
     g a a g f e( f d) c d \barFinalis
   }
   \addlyrics {
@@ -426,7 +426,7 @@
     \choralniRezim
     d4 d d d c( d) d( f) f \barMin
     g a g f( e) d( c) \barMaior
-    d c d d( f) e c d d \barFinalis
+    d c d f e c d d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- e si vy -- bra -- la
