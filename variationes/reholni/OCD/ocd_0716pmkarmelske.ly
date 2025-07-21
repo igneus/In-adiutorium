@@ -142,6 +142,29 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c( d) c c b \mark\sipka a g( a) g \barMaior
+    f g a c c c d c a a \barMin
+    c c b a g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Bu -- deš se ra -- do -- vat ze svých sy -- nů,
+    ne -- boť v_to -- bě bu -- dou po -- žeh -- ná -- ni
+    a shro -- máž -- dě -- ni od Hos -- po -- di -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     c4 c c b( c) a a c b a( g) g \barMaior
     f g a c c c d e c c \barMin
@@ -209,7 +232,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c b( c) a a b a a( g) g \barMaior
     f g a c c c d c a a \barMin
