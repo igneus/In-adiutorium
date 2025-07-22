@@ -1578,6 +1578,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c c d c b c a a \barMin
+    c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
   (Pravděpodobně nejde o tradiční antifonu, ale o solesmeskou
   neogregoriánskou tvorbu.)
