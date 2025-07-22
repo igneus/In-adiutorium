@@ -1,7 +1,7 @@
 \version "2.19.80"
 
 \include "../../spolecne.ly"
-\include "../../spolecne/reholni.ly"
+\include "../../../spolecne/reholni.ly"
 \include "../../dilyresponsorii.ly"
 
 \header {
@@ -11,6 +11,24 @@
             "16. 7."
             "vlastní texty řádu karmelitánů (OCarm)"
   composer = "Jakub Pavlík"
+}
+
+\markup\justify{
+  \with-url "https://www.google.cz/books/edition/Breviarium_carmelitarum/g-ww_9IQc_8C?hl=cs&gbpv=1&pg=PA941&printsec=frontcover" {
+    \italic{
+      Breviarium Carmelitarum
+      secundum usum Ecclesiae Hierosolymitanae et dominici sepulchri,
+    }
+    Lugduni 1575,
+    s. 941
+  }
+  : žádné vlastní zpěvy, zato skoro pro každou hodinku jiná orace.
+
+  Pro většinu textů odkazuje na svátek Commemoratio,
+  jeho formulář je zřejmě na s. 209ff
+  a jde o ekvivalent sobotní památky PM (s. 210 vlevo) +
+  v době postní podobné votivní oficium o volných útercích.
+  Mariánské commune jsem v breviáři (zatím?) nenašel.
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}
@@ -190,8 +208,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g g( a) a \barMin
     a a g f g( a g) g \barMaior
@@ -214,6 +235,8 @@
     piece = \markup\sestavTitulek
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -238,25 +261,61 @@
 
 % antifonu pro vigilii breviar.cz (zatím?) nemá
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
   \relative c'' {
     \choralniRezim
-
+    g4 g g( a) g \barMin
+    c c c b a a( g) g \barMaior
+    c d e d c( b) a a \barMin
+    a g f g( a) g g \barFinalis
   }
   \addlyrics {
-    Přitahuj nás, neposkvrněná Panno, poběžíme za tebou, po vůni tvých mastí.
+    Při -- ta -- huj nás,
+    ne -- po -- skvr -- ně -- ná Pan -- no,
+    po -- bě -- ží -- me za te -- bou,
+    po vů -- ni tvých mas -- tí.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 63"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#rch-a1?cast=1-3"
     id = "rch-a1"
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g \barMin
+    c c c b a a( g) g \barMaior
+    c d e d c( b) a a \barMin
+    \mark\sipka c a g f( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- ta -- huj nás,
+    ne -- po -- skvr -- ně -- ná Pan -- no,
+    po -- bě -- ží -- me za te -- bou,
+    po vů -- ni tvých mas -- tí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#rch-a1?cast=1-3"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -312,27 +371,32 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
 
     % R
     \neviditelna f
-
+    f4 f f f f f f f f f g f g( a) a( g) \barMax
+    f d f g g f f \barFinalis
     % V
     \neviditelna a
-
+    a4 a a( bes) a a a g( a) g g \barMaior
+    g g g g g a a g f g a a( g) \barMax
     % R
     \neviditelna f
-
+    f d f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Tvoji synové volali v_dobách tísně k_tobě,_*
-    tys je v_nebi slyšela.
-    \Verse Slitovávala ses nad nimi a častokrát jim posílala zachránce,_*
-    \Response tys je v_nebi slyšela.
+    \Response Tvo -- ji sy -- no -- vé vo -- la -- li v_do -- bách tís -- ně k_to -- bě,_*
+    tys je v_ne -- bi sly -- še -- la.
+    \Verse Sli -- to -- vá -- va -- la ses nad ni -- mi
+    a čas -- to -- krát jim po -- sí -- la -- la za -- chrán -- ce,_*
+    \Response tys je v_ne -- bi sly -- še -- la.
     \textRespDoxologie
   }
   \header {
@@ -342,6 +406,42 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f \mark\sipka f( g) f f \barMin f f f f f g f g( a) a( g) \barMax
+    f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a a a g( a) g g \barMaior
+    g \mark\sipka a g g g g g g f g a a( g) \barMax
+    % R
+    \neviditelna f
+    f d f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Tvo -- ji sy -- no -- vé vo -- la -- li v_do -- bách tís -- ně k_to -- bě,_*
+    tys je v_ne -- bi sly -- še -- la.
+    \Verse Sli -- to -- vá -- va -- la ses nad ni -- mi
+    a čas -- to -- krát jim po -- sí -- la -- la za -- chrán -- ce,_*
+    \Response tys je v_ne -- bi sly -- še -- la.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
