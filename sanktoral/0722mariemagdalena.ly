@@ -122,6 +122,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "3 verš nic moc"
     id = "rch-resp"
     piece = \markup\sestavTitulekResp
   }
