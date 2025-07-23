@@ -347,7 +347,7 @@
   }
 }
 
-\markup\italic{
+\markup\italic\chant-ref "mc-avig" "commune/commune_svatymuz.ly#mc-avig" {
   Antifona ke kantikům vigilie jako ve společných textech
   o svatých mužích.
 }
@@ -672,7 +672,13 @@
   }
 }
 
-\markup\italic{\vspace #1 3. ant.: viz 2. ant. ranních chval \upright{Bůh jí dával sílu,} k ní kantikum Ef 1.}
+\markup{
+  \vspace #1
+  \italic\chant-ref "2ne-a3" "commune/commune_svatazena.ly#rch-a2" {
+    3. ant.: viz 2. ant. ranních chval \upright{Bůh jí dával sílu,} k ní kantikum Ef 1.
+  }
+  \chant-ref-header "2ne-a3" "psalmus" "Ef 1"
+}
 
 \markup\italic{Mimo dobu velikonoční:}
 
