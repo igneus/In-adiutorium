@@ -641,7 +641,7 @@
     differentia = "G"
     psalmus = "Žalm 122"
     id = "2ne-a1"
-    fial = "antifony/ferie_kantevgant.ly#t1-ut-mag?konec&+aleluja"
+    fial = "antifony/ferie_kantevgant.ly#t1-ut-mag?konec=15&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
