@@ -536,18 +536,31 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g a a bes a g a a \barMin
+    a a a a g f g( a) g( f) f \barMaior
+    f g a a c d c b c( a g) g \barMin
+    f g a a a a g f g g( f) f \barMaior
+    c' d( e) d d( c) c \barMin
+    c c c c c c c bes a g f g \barMaior
+    g( a bes a) a g( f) g f f \barMaior
+    g g( a) f f \barFinalis
   }
   \addlyrics {
-    Dnes slavíme Pannu Marii, ozdobu a Matku Karmelu.
-    Dnes si její milované děti připomínají její dobrodiní.
-    Dnes Hvězda mořská, znamení jisté naděje a útěchy, svítí svému lidu. Aleluja.
+    Dnes sla -- ví -- me Pan -- nu Ma -- ri -- i,
+    oz -- do -- bu a Mat -- ku Kar -- me -- lu.
+    Dnes si je -- jí mi -- lo -- va -- né dě -- ti
+    při -- po -- mí -- na -- jí je -- jí dob -- ro -- di -- ní.
+    Dnes Hvěz -- da moř -- ská,
+    zna -- me -- ní jis -- té na -- dě -- je a ú -- tě -- chy,
+    sví -- tí své -- mu li -- du.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#2ne-amag?cast=1,3-5"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

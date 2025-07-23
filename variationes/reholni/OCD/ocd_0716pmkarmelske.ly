@@ -23,6 +23,20 @@
   s. 91ff.
 }
 
+\markup\justify{
+  \with-url "https://www.google.cz/books/edition/Officia_propria_Sanctorum_et_aliarum_fes/9zFFAAAAcAAJ?hl=cs&gbpv=1&pg=PA285&printsec=frontcover" {
+    \italic{
+      Officia propria sanctorum et aliarum festivitatum ordinis Carmelitarum
+      pro eiusdem ordinis fratribus et monialibus discalceatis,
+    }
+    Antverpiae 1689,
+    s. 285ff.
+  }
+  -- od pozdější podoby se výrazně liší - méně zpěvů s odkazy na Karmel,
+  žádný odkaz na škapulíř, zpěvy vesměs zcela obecně mariánské,
+  k Magnificat \italic{Ave Regina caelorum} a \italic{Alma Redemptoris Mater.}
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -1070,6 +1084,30 @@
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a g f g( a g) g \barMaior
+    g a a g f e( f) d( c) c \barMin
+    \mark\sipka d d c d f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Při -- ve -- du je
+    na svou sva -- tou ho -- ru
+    a na -- pl -- ním je ra -- dos -- tí
+    ve svém do -- mě mod -- lit -- by.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 46"
     id = "mc-a2"
     piece = \markup\sestavTitulek

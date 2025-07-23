@@ -31,27 +31,36 @@
   Mariánské commune jsem v breviáři (zatím?) nenašel.
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 f e f g( a g) g \barMaior
+    f g g( a) a \barMin
+    a a b c b( g) g \barMin
+    a a a a f e d d f( g) g g \barMaior
+    a b c a g g( a g) g \barFinalis
   }
   \addlyrics {
-    Pohleď na své syny,
-    shromážděné od východu slunce až na jeho západ slovem Svatého,
-    jak se radují z Boha.
+    Po -- hleď na své sy -- ny,
+    shro -- máž -- dě -- né od vý -- cho -- du slun -- ce
+    až na je -- ho zá -- pad slo -- vem Sva -- té -- ho,
+    jak se ra -- du -- jí z_Bo -- ha.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup\sestavTitulek
   }
 }
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -133,22 +142,68 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\markup\justify{
+  To, že dva české překlady zjevně stejné předlohy mají úplně jiné
+  nápěvy, asi není moc žádoucí, ale forma textu je o tolik jiná,
+  že zatím nevidím, jak \fial-link "reholni/OCD/ocd_0716pmkarmelske.ly#1ne-amag"
+  pro překlad obutých vkusně adaptovat.
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g c( d) e d \barMaior
+    d( e f) e d c d( e) e( d) d \barMaior
+    d d d c b c( a g) g \barMin
+    f g a a g f g( a) \barMaior
+    a c( d e) d c b( a) \barMin
+    a g f g a a( g) g \barFinalis
   }
   \addlyrics {
-    Svatá Boží Rodičko,
-    slávo hory Karmelu,
-    odívej svými ctnostmi tobě zasvěcený lid
-    a vysvoboď jej od všeho nebezpečí.
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    slá -- vo ho -- ry Kar -- me -- lu,
+    o -- dí -- vej svý -- mi ctnost -- mi
+    to -- bě za -- svě -- ce -- ný lid
+    a vy -- svo -- boď jej
+    od vše -- ho ne -- bez -- pe -- čí.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
+    fial = "sanktoral/0908narozenipm.ly#ne-a3?cast=1"
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g c( d) e d \barMaior
+    d( e f) e d c d( e) e( d) d \barMaior
+    d d d c b c( a g) g \barMin
+    f g a a g f g( a) \barMaior
+    a c( d e) d c b( a) \barMin
+    a g \mark\sipka a c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    slá -- vo ho -- ry Kar -- me -- lu,
+    o -- dí -- vej svý -- mi ctnost -- mi
+    to -- bě za -- svě -- ce -- ný lid
+    a vy -- svo -- boď jej
+    od vše -- ho ne -- bez -- pe -- čí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    fial = "sanktoral/0908narozenipm.ly#ne-a3?cast=1"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -510,23 +565,31 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
+    c4 d c b a g a g \barMin
+    a a a g f g a a \barMin
 
   }
   \addlyrics {
-    Zalíbilo se mi hlásat jeho veliká znamení a jeho podivuhodné skutky.
+    Za -- lí -- bi -- lo se mi hlá -- sat
+    je -- ho ve -- li -- ká zna -- me -- ní
+    a je -- ho po -- di -- vu -- hod -- né skut -- ky.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
@@ -633,21 +696,70 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-
+    f4 g a a bes a g a a \barMin
+    a a a a g f g( a) g( f) f \barMaior
+    f g a a c d c b c( a g) g \barMin
+    f g a a a a g f g g( f) f \barMaior
+    c' d( e) d d( c) c \barMin
+    c c c c c c c bes a g f g \barMaior
+    g( a bes a) a g( f) g f f \barMaior
+    g g( a) f f \barFinalis
   }
   \addlyrics {
-    Dnes slavíme Pannu Marii, ozdobu a Matku Karmelu.
-    Dnes si její milované děti připomínají její dobrodiní.
-    Dnes Hvězda mořská, znamení jisté naděje a útěchy, svítí svému lidu. Aleluja.
+    Dnes sla -- ví -- me Pan -- nu Ma -- ri -- i,
+    oz -- do -- bu a Mat -- ku Kar -- me -- lu.
+    Dnes si je -- jí mi -- lo -- va -- né dě -- ti
+    při -- po -- mí -- na -- jí je -- jí dob -- ro -- di -- ní.
+    Dnes Hvěz -- da moř -- ská,
+    zna -- me -- ní jis -- té na -- dě -- je a ú -- tě -- chy,
+    sví -- tí své -- mu li -- du.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "V"
+    differentia = "a"
     psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#2ne-amag?cast=1,3-5"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a bes a g a a \barMin
+    a a a a g f g( a) g( f) f \barMaior
+    f g a a c d c b c( a g) g \barMin
+    f g a a a a g f g g( f) f \barMaior
+    c' d( e) d d( c) c \barMin
+    c c c \mark\sipka bes a c c bes a g f g \barMaior
+    g( a bes a) a g( f) g f f \barMaior
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Dnes sla -- ví -- me Pan -- nu Ma -- ri -- i,
+    oz -- do -- bu a Mat -- ku Kar -- me -- lu.
+    Dnes si je -- jí mi -- lo -- va -- né dě -- ti
+    při -- po -- mí -- na -- jí je -- jí dob -- ro -- di -- ní.
+    Dnes Hvěz -- da moř -- ská,
+    zna -- me -- ní jis -- té na -- dě -- je a ú -- tě -- chy,
+    sví -- tí své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#2ne-amag?cast=1,3-5"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
