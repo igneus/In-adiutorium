@@ -60,6 +60,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f e f g( a g) g \barMaior
+    \mark\sipka g a a( c) c \barMin
+    c c c c c( d) c \barMin
+    c c c c b a g f g( a) g g \barMaior
+    g g f e d f( g a) g \barFinalis
+  }
+  \addlyrics {
+    Po -- hleď na své sy -- ny,
+    shro -- máž -- dě -- né
+    od vý -- cho -- du slun -- ce
+    až na je -- ho zá -- pad slo -- vem Sva -- té -- ho,
+    jak se ra -- du -- jí z_Bo -- ha.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
@@ -527,38 +553,103 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
+    d d c d f( g a) g( f) e d \barMin
+    e( f) d d \barFinalis
   }
   \addlyrics {
-    Tys Matka nadmíru obdivuhodná, Maria, chceme si tě připomínat navěky.
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    chce -- me si tě při -- po -- mí -- nat
+    na -- vě -- ky.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-3"
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
+    d d c d \mark\sipka d f f f \barMin
+    g( f) d d \barFinalis
   }
   \addlyrics {
-    Sjednám s nimi věčnou smlouvu, že jim nepřestanu prokazovat dobro.
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    chce -- me si tě při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-3"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
+    d d c d \mark\sipka e f d c
+    c d d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    chce -- me si tě při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-3"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g f( g) a g g \barMaior
+    f g a g a( c) b \barMin
+    c a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Sjed -- nám s_ni -- mi věč -- nou smlou -- vu,
+    že jim ne -- pře -- sta -- nu
+    pro -- ka -- zo -- vat dob -- ro.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu
@@ -583,6 +674,92 @@
     quid = "ant. odpoledne"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c b a \mark\sipka b g g \barMin
+    a a a g f g a a \barMin
+  }
+  \addlyrics {
+    Za -- lí -- bi -- lo se mi hlá -- sat
+    je -- ho ve -- li -- ká zna -- me -- ní
+    a je -- ho po -- di -- vu -- hod -- né skut -- ky.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g a g g \barMin
+  }
+  \addlyrics {
+    Za -- lí -- bi -- lo se mi hlá -- sat
+    je -- ho ve -- li -- ká zna -- me -- ní
+    a je -- ho po -- di -- vu -- hod -- né skut -- ky.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d e c c( d) d \barMaior
+    c a a b c a g g \barMaior
+    f g a c b a b g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Za -- lí -- bi -- lo se mi hlá -- sat
+    je -- ho ve -- li -- ká zna -- me -- ní
+    a je -- ho po -- di -- vu -- hod -- né skut -- ky.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d d e c c( d) d \barMaior
+    c a a b c a g g \barMaior
+    f g a c \mark\sipka c c b g b( c a) a \barFinalis
+  }
+  \addlyrics {
+    Za -- lí -- bi -- lo se mi hlá -- sat
+    je -- ho ve -- li -- ká zna -- me -- ní
+    a je -- ho po -- di -- vu -- hod -- né skut -- ky.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu

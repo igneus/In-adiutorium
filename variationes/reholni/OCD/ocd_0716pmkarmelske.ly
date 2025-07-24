@@ -19,11 +19,13 @@
   viz \with-url "https://media.musicasacra.com/pdf/carmelite/Proprium_Carmelitarum.pdf" {
     \italic{Proprium missarum et officiorum ordinis Carmelitarum discalceatorum,}
     Parisiis-Tornaci-Romae 1950,
+    \bold{(pmo1950)}
   }
   s. 91ff.
 }
 
 \markup\justify{
+  \bold{ops1689}
   \with-url "https://www.google.cz/books/edition/Officia_propria_Sanctorum_et_aliarum_fes/9zFFAAAAcAAJ?hl=cs&gbpv=1&pg=PA285&printsec=frontcover" {
     \italic{
       Officia propria sanctorum et aliarum festivitatum ordinis Carmelitarum
@@ -38,6 +40,11 @@
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}
+
+\markup\justify{
+  \italic{Gloria Libani data est ei,}
+  pmo1950 91
+}
 
 \score {
   \relative c' {
@@ -60,6 +67,16 @@
     id = "1ne-a1"
     piece = \markup\sestavTitulek
   }
+}
+
+\pageBreak
+
+\markup\justify{
+  \italic{Tu gloria Ierusalem},
+  AR1912 493
+  (není v pmo1950 a nejde o starobylou antifonu,
+  je spojená až se svátkem Neposkvrněného početí -
+  srov. \cantusid-link "a01640" )
 }
 
 \score {
@@ -770,6 +787,10 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \markup\justify{
+  \italic{Quis ascendet},
+  pmo1950 99
+}
+\markup\justify{
   (Vyjít z textově příbuzné antifony ze žaltáře mi nepřišlo výhodné.)
 }
 
@@ -873,6 +894,11 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  \italic{Adducam eos},
+  pmo1950 114
+}
 
 \score {
   \relative c'' {
@@ -1140,6 +1166,12 @@
 
 \pageBreak
 
+\markup\justify{
+  Srov. \italic{Gloriosa dicta sunt de te,}
+  pmo1950 105 (ale tam na konci o ženě oděné sluncem, tady se pokračuje
+  ze stejného žalmu)
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -1273,6 +1305,12 @@
 % antifonu pro vigilii breviar.cz (zatím?) nemá
 
 \markup {\nadpisHodinka {"ranní chvály"}}
+
+\markup\justify{
+  Srov. \italic{In odorem unguentorum tuorum},
+  pmo1950 91
+  (antifona známá z římského breviáře)
+}
 
 \markup\justify{
   Tady latinské texty pravděpodobně přebírají beze změny antifonu z oficia Neposkvrněného početí
@@ -1430,7 +1468,37 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c d e c c( d) d \barMaior
+    a d b c a g a( g) \barMin
+    f g a a( c) b g a a \barFinalis
+  }
+  \addlyrics {
+    Při -- ta -- huj nás,
+    ne -- po -- skvr -- ně -- ná Pan -- no,
+    po -- bě -- ží -- me za te -- bou,
+    za vů -- ní tvé -- ho pů -- va -- bu.
+  }
+  \header {
+    fons_externus = "srov. AR1912 [65]"
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
+
+\markup\justify{
+  \italic{Ave Maria ... in mulieribus},
+  AR1912 564
+}
 
 \score {
   \relative c' {
@@ -1512,7 +1580,67 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f c d d( a' bes) a \barMin
+    a g f g a \barMin
+    f g d \barMaior
+    g g a g f \barMin
+    e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti pl -- ná,
+    Pán s_te -- bou,
+    po -- žeh -- na -- ná jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 564"
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?cast=2-3"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f c d d( a' bes) a \barMin
+    a g f g a \barMin
+    f g d \barMaior
+    g g a g f \mark\sipka
+    e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Buď zdrá -- va, Ma -- ri -- a,
+    mi -- los -- ti pl -- ná,
+    Pán s_te -- bou,
+    po -- žeh -- na -- ná jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 564"
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?cast=2-3"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
+
+\markup\justify{
+  (Přesně odpovídající tradiční předlohu jsem zatím nenašel,
+  ale je to přinejmenším textová koláž motivů z několika
+  známých mariánských antifon.)
+}
 
 \score {
   \relative c'' {

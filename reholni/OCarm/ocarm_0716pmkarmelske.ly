@@ -413,15 +413,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-
+    a4 c d d e c c( d) d \barMaior
+    c a a b c a g g \barMaior
+    f g a c c c b g b( c a) a \barFinalis
   }
   \addlyrics {
-    Zalíbilo se mi hlásat jeho veliká znamení a jeho podivuhodné skutky.
+    Za -- lí -- bi -- lo se mi hlá -- sat
+    je -- ho ve -- li -- ká zna -- me -- ní
+    a je -- ho po -- di -- vu -- hod -- né skut -- ky.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
