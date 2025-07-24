@@ -767,6 +767,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 122"
+    placet = "2 _Mé srdce_ úplně není ono, zkusit najít zpěvnější-přirozenější začátek"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -3516,4 +3516,49 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d( c e d) d \barMaior
+    f( e d c) d( c) \barMin a-- a( c) b a( g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Mé srd -- ce já -- sá
+    v_Bo -- hu, mém spa -- si -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 122"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a c( b a g) a( g) \barMin
+  }
+  \addlyrics {
+    Mé srd -- ce já -- sá
+    v_Bo -- hu, mém spa -- si -- te -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 122"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\italic{Nebo: stejně jako 1. ant. 2. nešpor (stejný text, snazší nápěv.)}
