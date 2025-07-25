@@ -16,19 +16,25 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 f e f g( a g) g \barMaior
+    g a a( c) c \barMin
+    c c c c c( d) c \barMin
+    c c c c b a g f g( a) g g \barMaior
+    g g f e d f( g a) g \barFinalis
   }
   \addlyrics {
-    Pohleď na své syny,
-    shromážděné od východu slunce až na jeho západ slovem Svatého,
-    jak se radují z Boha.
+    Po -- hleď na své sy -- ny,
+    shro -- máž -- dě -- né
+    od vý -- cho -- du slun -- ce
+    až na je -- ho zá -- pad slo -- vem Sva -- té -- ho,
+    jak se ra -- du -- jí z_Bo -- ha.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup\sestavTitulek
@@ -243,16 +249,23 @@
 \score {
   \relative c'' {
     \choralniRezim
-
+    g4 g g( a) g \barMin
+    c c c b a a( g) g \barMaior
+    c d e d c( b) a a \barMin
+    c a g f( a) g g \barFinalis
   }
   \addlyrics {
-    Přitahuj nás, neposkvrněná Panno, poběžíme za tebou, po vůni tvých mastí.
+    Při -- ta -- huj nás,
+    ne -- po -- skvr -- ně -- ná Pan -- no,
+    po -- bě -- ží -- me za te -- bou,
+    po vů -- ni tvých mas -- tí.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 63"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#rch-a1?cast=1-3"
     id = "rch-a1"
     piece = \markup\sestavTitulek
   }
@@ -318,21 +331,24 @@
 
     % R
     \neviditelna f
-
+    f4 f f( g) f f \barMin f f f f f g f g( a) a( g) \barMax
+    f d f g g f f \barFinalis
     % V
     \neviditelna a
-
+    a4 a a( bes) a a a g( a) g g \barMaior
+    g a g g g g g g f g a a( g) \barMax
     % R
     \neviditelna f
-
+    f d f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Tvoji synové volali v_dobách tísně k_tobě,_*
-    tys je v_nebi slyšela.
-    \Verse Slitovávala ses nad nimi a častokrát jim posílala zachránce,_*
-    \Response tys je v_nebi slyšela.
+    \Response Tvo -- ji sy -- no -- vé vo -- la -- li v_do -- bách tís -- ně k_to -- bě,_*
+    tys je v_ne -- bi sly -- še -- la.
+    \Verse Sli -- to -- vá -- va -- la ses nad ni -- mi
+    a čas -- to -- krát jim po -- sí -- la -- la za -- chrán -- ce,_*
+    \Response tys je v_ne -- bi sly -- še -- la.
     \textRespDoxologie
   }
   \header {
@@ -395,15 +411,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-
+    c4 c a g f( g) a g g \barMaior
+    f g a g a( c) b \barMin
+    c a g f g( a g) g \barFinalis
   }
   \addlyrics {
-    Sjednám s nimi věčnou smlouvu, že jim nepřestanu prokazovat dobro.
+    Sjed -- nám s_ni -- mi věč -- nou smlou -- vu,
+    že jim ne -- pře -- sta -- nu
+    pro -- ka -- zo -- vat dob -- ro.
   }
   \header {
     quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu

@@ -62,6 +62,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 f e f g( a g) g \barMaior
     \mark\sipka g a a( c) c \barMin
@@ -322,18 +323,93 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d c d f e d f( g) g g \barMin
+    g g a g f g g( a) a \barMaior
+    a a g f g f d( c) \barMin
+    d c d( f) e c d d \barFinalis
   }
   \addlyrics {
-    Budete-li mě skutečně poslouchat
-    a mou smlouvu zachovávat,
-    budete mým vlastnictvím
-    mezi všemi národy.
+    Bu -- de -- te -li mě sku -- teč -- ně po -- slou -- chat
+    a mou smlou -- vu za -- cho -- vá -- vat,
+    bu -- de -- te mým vlast -- nic -- tvím
+    me -- zi vše -- mi ná -- ro -- dy.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    id = "mc-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d f e d f( g) \mark\sipka g( a) a \barMaior
+    a a a( c) a g f g( a) g \barMaior
+    a a g f g f d( c) \barMin
+    d c d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- de -- te -li mě sku -- teč -- ně po -- slou -- chat
+    a mou smlou -- vu za -- cho -- vá -- vat,
+    bu -- de -- te mým vlast -- nic -- tvím
+    me -- zi vše -- mi ná -- ro -- dy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    id = "mc-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f d d c f g g a( g) f( g) g \barMaior
+    a a g f e f d( c) c \barMaior
+    d f g a g f e( d) \barMin
+    e c f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- de -- te -li mě sku -- teč -- ně po -- slou -- chat
+    a mou smlou -- vu za -- cho -- vá -- vat,
+    bu -- de -- te mým vlast -- nic -- tvím
+    me -- zi vše -- mi ná -- ro -- dy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    id = "mc-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f d d c f g g a( g) f( g) g \barMaior
+    a a g f e f d( c) c \barMaior
+    d f \mark\sipka e f d c d( c) \barMin
+    d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Bu -- de -- te -li mě sku -- teč -- ně po -- slou -- chat
+    a mou smlou -- vu za -- cho -- vá -- vat,
+    bu -- de -- te mým vlast -- nic -- tvím
+    me -- zi vše -- mi ná -- ro -- dy.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 87"
     id = "mc-a3"
     piece = \markup\sestavTitulek
@@ -373,6 +449,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g( a) g \barMin
     c c c b a a( g) g \barMaior
@@ -490,6 +567,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
@@ -612,6 +690,31 @@
     \choralniRezim
     d4 c d f g a g f g f d \barMin
     f( e) d( c) c \barMaior
+    d d c d d f f f \barMin
+    \mark\sipka e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    chce -- me si tě při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-3"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
     d d c d \mark\sipka e f d c
     c d d \barFinalis
   }
@@ -636,6 +739,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c a g f( g) a g g \barMaior
     f g a g a( c) b \barMin
