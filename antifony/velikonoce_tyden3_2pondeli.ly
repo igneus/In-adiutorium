@@ -80,7 +80,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c d d d c d e d c b( c d) d \barMaior
+    d4 d d d c d e d c b( c d) d \barMaior
     d d( e d) \barMin d4 c b c( a g4.) g \barMin
     a4 g f( g) g \barFinalis
   }
@@ -92,10 +92,9 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c"
+    differentia = "d"
     psalmus = "Žalm 123"
-    placet = "2 _tvůj Bůh_ se hůř zpívá;
-    ohledně opakovaného nasazení _Hospodin_ a _bude_ nevím"
+    placet = "2 _tvůj Bůh_ se hůř zpívá"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }

@@ -668,7 +668,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c d d d c d e d c b( c d) d \barMaior
     d d( e d) \barMin d4 c b c( a g4.) g \barMin
@@ -684,6 +684,8 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 123"
+    placet = "2 _tvůj Bůh_ se hůř zpívá;
+    ohledně opakovaného nasazení _Hospodin_ a _bude_ nevím"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -691,6 +693,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka d4 d d d c d e d c b( c d) d \barMaior
     d d( e d) \barMin d4 c b c( a g4.) g \barMin
