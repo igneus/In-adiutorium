@@ -209,6 +209,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 b a g c( d) e d \barMaior
     d( e f) e d c d( e) e( d) d \barMaior

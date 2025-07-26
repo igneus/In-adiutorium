@@ -122,21 +122,29 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 b a g c( d) e d \barMaior
+    d( e f) e d c d( e) e( d) d \barMaior
+    d d d c b c( a g) g \barMin
+    f g a a g f g( a) \barMaior
+    a c( d e) d c b( a) \barMin
+    a g a c b g( a) a \barFinalis
   }
   \addlyrics {
-    Svatá Boží Rodičko,
-    slávo hory Karmelu,
-    odívej svými ctnostmi tobě zasvěcený lid
-    a vysvoboď jej od všeho nebezpečí.
+    Sva -- tá Bo -- ží Ro -- dič -- ko,
+    slá -- vo ho -- ry Kar -- me -- lu,
+    o -- dí -- vej svý -- mi ctnost -- mi
+    to -- bě za -- svě -- ce -- ný lid
+    a vy -- svo -- boď jej
+    od vše -- ho ne -- bez -- pe -- čí.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "c"
     psalmus = ""
+    fial = "sanktoral/0908narozenipm.ly#ne-a3?cast=1"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
