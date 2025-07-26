@@ -25,6 +25,20 @@
 }
 
 \markup\justify{
+  \bold{brocd1859}
+  \with-url "https://www.google.cz/books/edition/Breviarium_romanum_ad_usum_fratrum_et_mo/AKp_pww1OtMC?hl=cs&gbpv=1&pg=PA576&printsec=frontcover" {
+    \italic{
+      Breviarium romanum
+      ad usum fratrum et monialium congregationis carmelitarum discalceatorum:
+    }
+    pars aestiva,
+    Venetiis 1859,
+    s. 576nn
+  }
+  -- už oficium v podobě, kterou známe z pmo1950 (zkontrolováno jen zběžně)
+}
+
+\markup\justify{
   \bold{ops1689}
   \with-url "https://www.google.cz/books/edition/Officia_propria_Sanctorum_et_aliarum_fes/9zFFAAAAcAAJ?hl=cs&gbpv=1&pg=PA285&printsec=frontcover" {
     \italic{
@@ -43,7 +57,8 @@
 
 \markup\justify{
   \italic{Gloria Libani data est ei,}
-  pmo1950 91
+  pmo1950 91;
+  AR1912 662
 }
 
 \score {
@@ -622,7 +637,7 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \markup{
-  (Vyšel jsem líně z "commune/commune_maria.ly#invit1" )
+  (Vyšel jsem líně z \fial-link "commune/commune_maria.ly#invit1" )
 }
 
 \score {

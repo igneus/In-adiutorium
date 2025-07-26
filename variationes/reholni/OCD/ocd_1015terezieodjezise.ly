@@ -14,6 +14,20 @@
   composer = "Jakub Pavlík"
 }
 
+\markup\justify{
+  Ke starším dějinám formování jejího oficia
+  \with-url "https://www.google.cz/books/edition/Acta_S_Teresiae_a_Jesu_Carmelitarum_stri/MDPwuCVub_oC?hl=cs&gbpv=1&pg=PA653&printsec=frontcover" {
+    Vandermoere J.:
+    \italic{
+      Acta S. Teresiae a Jesu,
+      Carmelitarum strictioris observantiae parentis,
+      commentario et observationibus illustrata,
+    }
+    Bruxellis: A. Greuse 1845,
+    s. 653nn.
+  }
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {

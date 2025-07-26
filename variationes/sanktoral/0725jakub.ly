@@ -197,6 +197,30 @@
     \choralniRezim
     c4 c c( d) c c \barMaior
     c b a g a b c d c c \barMin
+    c d d c b a( b g) g \barMaior
+    g f g a f \mark\sipka g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš u -- vi -- děl
+    Ze -- be -- de -- o -- va sy -- na Ja -- ku -- ba
+    a je -- ho brat -- ra Ja -- na,
+    a za -- vo -- lal je k_so -- bě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) c c \barMaior
+    c b a g a b c d c c \barMin
     c d d c b \mark\sipka a( g) a( g) \barMaior
     g f g a g f( g) g \barFinalis
   }
@@ -762,6 +786,46 @@
     \choralniRezim
     a4( d) d d c d e( d c) d \barMin d d d c( b a) g g( a) \barMaior
     a c c b \mark\sipka c e( d c) d \barMin c b g b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji, bu -- de -- te pít i vy,
+    a křest, kte -- rý já při -- jmu, ta -- ké vy při -- jme -- te.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d c d e( d c) d \barMin d d d c( b a) g g( a) \barMaior
+    a c c b c \mark\sipka a( g a) g \barMin f g a( c b) g a a \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji, bu -- de -- te pít i vy,
+    a křest, kte -- rý já při -- jmu, ta -- ké vy při -- jme -- te.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d c d e( d c) d \barMin d d d c( b a) g g( a) \barMaior
+    a c c b c a( g a) g \barMin f g \mark\sipka a c( b) g( a) a \barFinalis
   }
   \addlyrics {
     Ka -- lich, kte -- rý já pi -- ji, bu -- de -- te pít i vy,
