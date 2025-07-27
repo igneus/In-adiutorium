@@ -21,12 +21,12 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f g f g( a) g g \barMax
+    f4 f f f f f f f g f g g( a) a( g) \barMax
     g g( a) g( f d) d f( g) f \barFinalis
     % V
     \neviditelna a
     a4( bes) a a \barMin a g f g a a( g) g \barMaior
-    g g g g g a g f g g g( a) \barMax
+    g g g g g a g f g g( a) a( g) \barMax
     % R
     \neviditelna a
     g g( a) g( f d) d f( g) f \barFinalis

@@ -295,7 +295,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -306,6 +306,41 @@
     \neviditelna a
     a4( bes) a a \barMin a \mark\sipka g f g a a( g) g \barMaior
     g g g g g a g f g \mark\sipka g g( a) \barMax
+    % R
+    \neviditelna a
+    g g( a) g( f d) d f( g) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bůh nás ve své mi -- lo -- srd -- né lás -- ce na -- vští -- vil_*
+    a vy -- kou -- pil svůj lid.
+    \Verse Vzbu -- dil nám moc -- né -- ho spa -- si -- te -- le
+    z_ro -- du své -- ho slu -- žeb -- ní -- ka Da -- vi -- da_*
+    \Response a vy -- kou -- pil svůj lid.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f f g f \mark\sipka g g( a) a( g) \barMax
+    g g( a) g( f d) d f( g) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a \barMin a g f g a a( g) g \barMaior
+    g g g g g a g f g \mark\sipka g( a) a( g) \barMax
     % R
     \neviditelna a
     g g( a) g( f d) d f( g) f \barFinalis
@@ -908,6 +943,81 @@
     a( bes c) c bes a g f g( a bes) g( f) f( g) \barMaior
     g a g f( g) f e d( c) \barMin
     d d f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Slav -- ný rod Jes -- se
+    vy -- dal u -- šlech -- ti -- lý vý -- ho -- nek
+    a na něm roz -- kve -- tl květ
+    pl -- ný po -- di -- vu -- hod -- né vů -- ně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    e4 c d d( a' bes) a \barMin
+    a( bes c) c bes a g f g( a bes) g( f) f( g) \barMaior
+    g a g f( g) f e d( c) \barMin
+    d \mark\sipka c d f e d e d d \barFinalis
+  }
+  \addlyrics {
+    Slav -- ný rod Jes -- se
+    vy -- dal u -- šlech -- ti -- lý vý -- ho -- nek
+    a na něm roz -- kve -- tl květ
+    pl -- ný po -- di -- vu -- hod -- né vů -- ně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    e4 c d d( a' bes) a \barMin
+    a( bes c) c bes a g f g( a bes) g( f) f( g) \barMaior
+    g a g f( g) f e d( c) \barMin
+    d c d f e d \mark\sipka c d d \barFinalis
+  }
+  \addlyrics {
+    Slav -- ný rod Jes -- se
+    vy -- dal u -- šlech -- ti -- lý vý -- ho -- nek
+    a na něm roz -- kve -- tl květ
+    pl -- ný po -- di -- vu -- hod -- né vů -- ně.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    e4 c d d( a' bes) a \barMin
+    a( bes c) c bes a g f g( a bes) g( f) f( g) \barMaior
+    g a g f( g) f e d( c) \barMin
+    d c d f \mark\sipka f e c e( f d4.) d4 \barFinalis
   }
   \addlyrics {
     Slav -- ný rod Jes -- se
