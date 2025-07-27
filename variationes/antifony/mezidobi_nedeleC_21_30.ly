@@ -490,6 +490,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f d f e d c \barMaior
+    d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"22. neděle"}}

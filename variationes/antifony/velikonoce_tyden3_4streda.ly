@@ -1060,6 +1060,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    c4 d f f
+    g f g a g g \barMaior
+    a bes a g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Ať ži -- je -- me_*
+    ne -- bo u -- mí -- rá -- me,
+    pat -- ří -- me Pá -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "per"
+    differentia = ""
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacZeleny
     \choralniRezim
     f4 g( a) g g \barMin
