@@ -33,6 +33,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "spíš lépe"
     id = "invit"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -46,8 +47,8 @@
     d4 d d d f \barMin
     e d c c \barMaior
     d e f d c( d) d \barMaior
-    f g a g f( g) f \barMin
-    d f e c d d \barFinalis
+    f g a g f( e d) d \barMin
+    c f e c e d \barFinalis
   }
   \addlyrics {
     Už je to -- ho dost,
@@ -85,6 +86,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 28"
+    placet = "ještě to není úplně ono"
     id = "mc-a2"
     piece = \markup\sestavTitulek
   }
@@ -140,9 +142,9 @@
   \relative c'' {
     \choralniRezim
     c4( d) d c \barMin
-    c c b a b( c) a a c b a g g \barMaior
-    g f( g) \barMin
-    a b c a( g) f( g) g \barFinalis
+    c c b a b( c) a a g f g( a) a g \barMaior
+    f a
+    c b a a( b) g g \barFinalis
   }
   \addlyrics {
     Vy -- jdi ven
@@ -188,14 +190,14 @@
 
     % R
     \neviditelna f
-    f4 f f f g f g( a) a( g) \barMax
-    g a g g f( d) f g g f f \barFinalis
+    f4 f f f g f g g( a) \barMax
+    g f g( a) g \barMin f d f( g) g f f \barFinalis
     % V
     \neviditelna a
     a a a a g( a) g \barMin g f g g( a) \barMax
     % R
     \neviditelna a
-    g a g g f( d) f g g f f \barFinalis
+    g f g( a) g \barMin f d f( g) g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -251,7 +253,7 @@
   \relative c'' {
     \choralniRezim
     g4 b c d d c d e d \barMaior
-    c b a( b) g g a b g \barFinalis
+    c b a( b) g g a f g \barFinalis
   }
   \addlyrics {
     E -- li -- áš vo -- lal k_Hos -- po -- di -- nu
@@ -284,6 +286,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "melodie _pro Zákon_ moc nefunguje rytmicky; závěr by mohl být uspokojivější"
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -372,6 +375,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 11"
+    placet = "2 nic moc"
     id = "ne-a3"
     piece = \markup\sestavTitulek
   }
@@ -412,7 +416,7 @@
   \relative c' {
     \choralniRezim
     f4 f f f d f f( g) \barMin
-    g g f e d e d c c \barMaior
+    a a g f e f d c c \barMaior
     d( f) f g a g f( e d) d \barMin
     f f e c d( c) \barMin
     d f g f a g \barMaior
