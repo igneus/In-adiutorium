@@ -2155,6 +2155,32 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
+    d d( f) f \barMin
+    f f f f g( a g) f( e) d d \barMin
+    \mark\sipka e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    tvé dě -- ti
+    si tě bu -- dou při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 c d f g f g a g f e( d) \barMin
     e( c) c( d) d \barMaior
     d d( e d c) c \barMin

@@ -232,18 +232,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f d d c f g g a( g) f( g) g \barMaior
+    a a g f e f d( c) c \barMaior
+    d f e f d c d( c) \barMin
+    d f e d c d d \barFinalis
   }
   \addlyrics {
-    Budete-li mě skutečně poslouchat
-    a mou smlouvu zachovávat,
-    budete mým vlastnictvím
-    mezi všemi národy.
+    Bu -- de -- te -li mě sku -- teč -- ně po -- slou -- chat
+    a mou smlou -- vu za -- cho -- vá -- vat,
+    bu -- de -- te mým vlast -- nic -- tvím
+    me -- zi vše -- mi ná -- ro -- dy.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 87"
     id = "mc-a3"
     piece = \markup\sestavTitulek
@@ -401,16 +404,23 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
+    d d c d d f f f \barMin
+    e( f) d d \barFinalis
   }
   \addlyrics {
-    Tys Matka nadmíru obdivuhodná, Maria, chceme si tě připomínat navěky.
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    chce -- me si tě při -- po -- mí -- nat
+    na -- vě -- ky.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-2"
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
   }

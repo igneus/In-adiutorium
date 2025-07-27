@@ -395,6 +395,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 f d d c f g g a( g) f( g) g \barMaior
     a a g f e f d( c) c \barMaior
@@ -680,7 +681,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-3"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-2"
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -705,7 +706,33 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-3"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-2"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
+    d d c d d f f f \barMin
+    \mark\sipka e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    chce -- me si tě při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-2"
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -730,7 +757,32 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-3"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-2"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f g a g f g f d \barMin
+    f( e) d( c) c \barMaior
+    d d \mark\sipka d d c d d( f) f \barMin
+    e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Tys Mat -- ka nad -- mí -- ru ob -- di -- vu -- hod -- ná,
+    Ma -- ri -- a,
+    chce -- me si tě při -- po -- mí -- nat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#tercie?cast=1-2"
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
   }
