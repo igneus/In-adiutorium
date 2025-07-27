@@ -300,6 +300,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 21"
+    placet = "2 začátek půjde zpěvněji"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -336,7 +337,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g g( a) a \barMin c d d c e( d) d \barMaior
+    g4 a c( d) d \barMin c d e c d( e d) d \barMaior
     d d c b a g f a a g g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis

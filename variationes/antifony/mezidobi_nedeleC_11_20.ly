@@ -3963,6 +3963,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d c d d( f) f \barMin
+    f g f e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Měj -- te bed -- ra pře -- pá -- sa -- ná
+    a va -- še lam -- py ať ho -- ří.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne19c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"20. neděle"}}

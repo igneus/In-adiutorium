@@ -1483,6 +1483,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c c( d) d \barMin
+    d c d f f g f g a g g \barMaior
+    a a g f \mark\sipka e c f e c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý
+    žá -- dal od te -- be ži -- vot, Hos -- po -- di -- ne;
+    o -- zdo -- bils ho ctí a vzne -- še -- nos -- tí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 21"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1570,9 +1596,58 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g g( a) a \barMin c d d c \mark\sipka e( d) d \barMaior
+    d d c b a g f a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý po -- kve -- te jak pal -- ma,
+    po -- ros -- te jak ce -- dr na Li -- ba -- no -- nu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a c( d) d \barMin d f e d e( f d) d \barMaior
+    d d c b a g f a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý po -- kve -- te jak pal -- ma,
+    po -- ros -- te jak ce -- dr na Li -- ba -- no -- nu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d \barMin \mark\sipka c d e c d( e d) d \barMaior
     d d c b a g f a a g g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis
@@ -2093,6 +2168,27 @@
     g g( a g f) e( d) \barMin c d f( e) c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ať sva -- tí já -- sa -- jí chva -- lo -- zpě -- vem,
+    vždyť sla -- ví skvě -- lé ví -- těz -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d( e) c c d f f( g) g \barMaior
   }
   \addlyrics {
     Ať sva -- tí já -- sa -- jí chva -- lo -- zpě -- vem,
