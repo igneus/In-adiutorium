@@ -219,6 +219,28 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g a( c) b \barMin
+    c a b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův zá -- kon
+    ať je vždy ve va -- šich ús -- tech.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 92-I"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}

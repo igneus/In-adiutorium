@@ -2352,6 +2352,26 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    g4 f g a a g f g( a) \barMin
+    a( c) b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 115"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     c4 b a c b a b g \barMin

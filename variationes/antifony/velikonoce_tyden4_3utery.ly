@@ -462,6 +462,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c d e f d d \barMin
+    f f e( d) c c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
+    a můj za -- chrán -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 144-I"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d d d c d d( f) f \barMin
+    g f e( f) d c \barMin
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
+    a můj za -- chrán -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 144-I"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a a a c a g a \barMin
     a a g( f) d c \barMin
     d f g( f) f \barFinalis
