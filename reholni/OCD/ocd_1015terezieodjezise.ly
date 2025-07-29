@@ -139,7 +139,7 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
-\markup\italic{
+\markup\italic\chant-ref "invit" "commune/commune_ucitel.ly#invit" {
   Invitatorium ze společných textů o učitelích církve.
 }
 
@@ -287,7 +287,7 @@
   }
 }
 
-\markup\italic{
+\markup\italic\chant-ref "rch-r" "commune/commune_panna.ly#rch-resp" {
   Responsorium \upright{Slyš, Hospodine, můj hlas}
   ze společných textů o pannách.
 }
