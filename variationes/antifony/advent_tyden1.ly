@@ -1571,6 +1571,58 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a a( c) c \barMin
+    d( e) d \barMaior
+    c( d) c( b a4.) a \barMin
+    c4 c \mark\sipka b g a g f g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- jde Kris -- tus,
+    náš Král,
+    Be -- rá -- nek,
+    je -- hož pří -- chod o -- hla -- šo -- val Jan.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d( e) d \barMaior
+    \mark\sipka c( d) c c \barMin
+    c4 c b g a g f g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- jde Kris -- tus,
+    náš Král,
+    Be -- rá -- nek,
+    je -- hož pří -- chod o -- hla -- šo -- val Jan.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 114"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
     c4 c c( d) d \barMin

@@ -1594,6 +1594,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g( a) a \barMin
+    g f \mark\sipka e f g f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, tvou moc
+    o -- sla -- ví -- me zpě -- vem.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g2"
+    psalmus = "Žalm 21"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a g \barMin c( b) a( g a) \barMaior
     b( c d) c( b) a g a( f) e \barFinalis
   }
