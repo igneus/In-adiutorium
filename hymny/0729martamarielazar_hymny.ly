@@ -100,6 +100,9 @@
     quid = "hymnus"
     fons_externus = "AR1912 [66]"
     modus = "II"
+    placet = "2 zkusit najít nápěv, který bude s daným českým textem
+    znít o něco méně exoticky (Martoo, bratreem, totiiž, doměě -
+    občas se to snese, ale v téhle koncentraci už je to moc)"
     id = "mc-ch"
     titulus = "modlitba se čtením"
     piece = \markup\sestavTitulekRespII
@@ -124,6 +127,10 @@
     quid = "hymnus"
     fons_externus = "AR1912 [37]"
     modus = "VIII"
+    placet = "3 nesedí rytmicky - daný nápěv má dvě dlouhé
+    na konci druhého a čtvrtého verše, což v českém textu obvykle spíš
+    není dáno a i když asi jde zazpívat tak, aby to znělo tolerovatelně,
+    je to citelně neideální a k lidovému zpěvu nevlídné"
     id = "rch-ch"
     titulus = "ranní chvály a nešpory"
     piece = \markup\sestavTitulekRespII
