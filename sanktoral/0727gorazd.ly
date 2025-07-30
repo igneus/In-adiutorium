@@ -21,7 +21,7 @@
     g f e d( c) c \barMaior
     c( d) d( f) f \barMin
     g a g f g g( f) \barMaior
-    f e d c e f d d \barFinalis
+    f f e c e f d d \barFinalis
   }
   \addlyrics {
     Od -- vá -- ži -- li jsme se
@@ -46,7 +46,7 @@
     \choralniRezim
     g4 g( c) c a g a g g \barMin
     f g a( g) g \barMaior
-    g f( g a) a g( a) \barMin
+    g f g g( a) \barMin
     c c c b( c a) g a g g \barMin
     f g a g g \barFinalis
   }
@@ -62,7 +62,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "2 _každý z nich_ je těžkopádné"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

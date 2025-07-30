@@ -98,7 +98,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g a g g \barMaior
     g( a bes a) g( f) f \barMin
@@ -127,6 +127,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g g a g g \barMaior
     g( a bes a) g( f) f \barMin
@@ -134,6 +135,34 @@
     c( d) d( f) f \barMin
     g a g f g g( f) \barMaior
     f \mark\sipka f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Od -- vá -- ži -- li jsme se
+    s_dů -- vě -- rou
+    v_na -- še -- ho Bo -- ha
+    ká -- zat vám
+    ra -- dost -- nou Bo -- ží zvěst
+    i přes mno -- hý těž -- ký zá -- pas.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a g g \barMaior
+    g( a bes a) \mark\sipka f( g) g \barMin
+    g f e d( c) c \barMaior
+    c( d) d( f) f \barMin
+    g a g f g g( f) \barMaior
+    f f e c e f d d \barFinalis
   }
   \addlyrics {
     Od -- vá -- ži -- li jsme se
@@ -236,11 +265,39 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( c) c a g a g g \barMin
     f g a( g) g \barMaior
     g f( g a) \mark\sipka a g( a) \barMin
+    c c c b( c a) g a g g \barMin
+    f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo sá -- zí a kdo za -- lé -- vá,
+    jsou si rov -- ni,
+    a kaž -- dý z_nich
+    do -- sta -- ne vlast -- ní od -- mě -- nu
+    po -- dle své prá -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    placet = "2 _každý z nich_ je těžkopádné"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( c) c a g a g g \barMin
+    f g a( g) g \barMaior
+    g \mark\sipka f g g( a) \barMin
     c c c b( c a) g a g g \barMin
     f g a g g \barFinalis
   }
