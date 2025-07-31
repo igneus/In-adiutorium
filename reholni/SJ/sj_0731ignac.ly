@@ -486,12 +486,12 @@
     \choralniRezim
     c4 c d c b a g a( g) g \barMaior
     f g a g a( c) b( a) a \barMaior
-    c c c b( a g) \barMin
+    c c b( a g) \barMin
     f g a4. g \barFinalis
   }
   \addlyrics {
     No -- vé při -- ká -- zá -- ní vám dá -- vám,
-    mi -- lu -- j -- te se na -- vzá -- jem,
+    mi -- luj -- te se na -- vzá -- jem,
     jak jsem já
     mi -- lo -- val vás.
   }
