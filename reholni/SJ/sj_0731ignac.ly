@@ -502,7 +502,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Ef 1"
-    fial = "antifony/velikonoce_nedeleC.ly#vben?zacatek"
+    fial = "antifony/velikonoce_nedeleC.ly#vben?zacatek=14"
     id = "2ne-a3"
     piece = \markup\sestavTitulek
   }
