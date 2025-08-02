@@ -17,7 +17,7 @@
     \choralniRezim
     c4 b c d( e c) a b( a) a \barMaior
     g \[ a( c b \] \[ c4. d) \] \barMin c4 c d c e( d) d \barMaior
-    c c( d c) c( b a) \barMin a g f g a g g \barFinalis
+    c c( d c a) a \barMin c b a g a a( g) g \barFinalis
   }
   \addlyrics {
     Kéž mo -- hu po -- znat Kris -- ta

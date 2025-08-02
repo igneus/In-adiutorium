@@ -36,7 +36,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c d( e c) a b( a) a \barMaior
     g \[ a( c b \] \[ c4. d) \] \barMin c4 c d c e( d) d \barMaior
@@ -51,6 +51,51 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "c2"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 b c d( e c) a b( a) a \barMaior
+    g \[ a( c b \] \[ c4. d) \] \barMin c4 c d c e( d) d \barMaior
+    c \mark\sipka c( d c a) a \barMin c b a g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kéž mo -- hu po -- znat Kris -- ta
+    i moc je -- ho zmrt -- vých -- vstá -- ní
+    a ú -- čast na je -- ho u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c2"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka c c d( e c) a b( a) a \barMaior
+    g \[ a( c b \] \[ c4. d) \] \barMin c4 c d c e( d) d \barMaior
+    c c( d c) c( b a) \barMin a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Kéž mo -- hu po -- znat Kris -- ta
+    i moc je -- ho zmrt -- vých -- vstá -- ní
+    a ú -- čast na je -- ho u -- tr -- pe -- ní.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
