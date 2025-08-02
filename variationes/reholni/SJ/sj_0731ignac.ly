@@ -1385,6 +1385,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f a( g f g) g \barMaior
+    f g g( f d) d d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tys mi dal všech -- no;
+    to -- bě, Pa -- ne, všech -- no vra -- cím.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1605,6 +1625,50 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c c c e c c( d) d \barMaior
+    d e d c( d) c c \barMin
+    \mark\sipka a c b( a g) g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Kam -- ko -- li tě po -- šlu, pů -- jdeš,
+    a co ti roz -- ká -- žu,
+    bu -- deš mlu -- vit, pra -- ví Hos -- po -- din.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 27-I"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c e c c( d) d \barMaior
+    d e d c( d) c c \barMin
+    c \mark\sipka b a( b g) g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Kam -- ko -- li tě po -- šlu, pů -- jdeš,
+    a co ti roz -- ká -- žu,
+    bu -- deš mlu -- vit, pra -- ví Hos -- po -- din.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 27-I"
+    id = "2ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka a4 a a a a( c) b c( d) d \barMaior
     d e d c( d) c c \barMin
     c c b( a g) g f a a g g \barFinalis
@@ -1681,6 +1745,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1706,6 +1771,41 @@
     % slovosled verše je opravdu divný
     textus_approbatus = "Podle toho všichni poznají, * že jste moji učedníci.
     V. Budete-li mít k sobě lásku navzájem."
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup{
+  (Oficiální text bez úprav)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a \mark\sipka g a g f g( a) a g \barMax
+    % R
+    \neviditelna a
+    g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Pod -- le to -- ho všich -- ni po -- zna -- jí,_* že jste mo -- ji u -- čed -- ní -- ci.
+    \Verse Bu -- de -- te -li mít k_so -- bě lás -- ku na -- vzá -- jem,_*
+    \Response že jste mo -- ji u -- čed -- ní -- ci.
+    \textRespDoxologie
+  }
+  \header {
     quid = "resp."
     modus = "VI"
     id = "2ne-r"

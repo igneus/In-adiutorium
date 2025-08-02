@@ -518,7 +518,7 @@
     g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a a g( a) g \barMin g f g( a) a g \barMax
+    a4 a a a a g a g f g( a) a g \barMax
     % R
     \neviditelna a
     g g f d f g g( f) f \barFinalis
@@ -527,14 +527,11 @@
   }
   \addlyrics {
     \Response Pod -- le to -- ho všich -- ni po -- zna -- jí,_* že jste mo -- ji u -- čed -- ní -- ci.
-    \Verse Bu -- de -- te -li mít lás -- ku k_so -- bě na -- vzá -- jem,_*
+    \Verse Bu -- de -- te -li mít k_so -- bě lás -- ku na -- vzá -- jem,_*
     \Response že jste mo -- ji u -- čed -- ní -- ci.
     \textRespDoxologie
   }
   \header {
-    % slovosled verše je opravdu divný
-    textus_approbatus = "Podle toho všichni poznají, * že jste moji učedníci.
-    V. Budete-li mít k sobě lásku navzájem."
     quid = "resp."
     modus = "VI"
     id = "2ne-r"
