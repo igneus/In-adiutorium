@@ -77,6 +77,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Kol 1"
+    placet = "zejm. nasazení _že nám_ je neelegantní"
     id = "1ne-a3"
     piece = \markup\sestavTitulek
   }
@@ -135,6 +136,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "stálo by za to vyzkoušet jiné varianty frázování"
     id = "1ne-amag"
     piece = \markup\sestavTitulekBezZalmu
   }
