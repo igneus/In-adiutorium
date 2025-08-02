@@ -1041,6 +1041,28 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMaior
+    f \mark\sipka g f e f d d c \barMin
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Já znám svo -- je ov -- ce_*
+    a mo -- je ov -- ce zna -- jí mne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 139-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {
