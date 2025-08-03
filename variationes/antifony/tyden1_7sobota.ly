@@ -133,6 +133,46 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a g( a) g g \barMin f g g( a) a \barMaior
+    g f g a \mark\sipka g f( g) f e d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- ní -- ží ja -- ko dí -- tě,
+    ten je v_ne -- bes -- kém krá -- lov -- ství nej -- vět -- ší.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 131"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g g \barMin f g g( a) a \barMaior
+    g f g a \mark\sipka a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- ní -- ží ja -- ko dí -- tě,
+    ten je v_ne -- bes -- kém krá -- lov -- ství nej -- vět -- ší.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 131"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacZelenyII
     \choralniRezim
     a4 a g( a) g g \barMin f g g( a) a \barMaior
@@ -240,6 +280,26 @@
     \zvyraznovacModry
     \choralniRezim
     a4 a g( a) g g \barMin \mark\sipka a g f( e) e \barMaior
+    d f g a a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- ní -- ží ja -- ko dí -- tě,
+    ten je v_ne -- bes -- kém krá -- lov -- ství nej -- vět -- ší.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 131"
+    id = "mc-b-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a \mark\sipka a( b) g g \barMin a g f( e) e \barMaior
     d f g a a g( a) g f d e e \barFinalis
   }
   \addlyrics {
@@ -844,6 +904,31 @@
     differentia = "D"
     psalmus = "Žalm 105-III"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d d d d( a' bes) g g( a) a \barMin a g bes g a( g f) e \barMaior
+    d \mark\sipka f( e) d( e) c c e( f) d \barFinalis
+
+    e^\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din pa -- ma -- to -- val na své sva -- té slo -- vo,
+    a vy -- svo -- bo -- dil svůj lid.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 105-III"
+    id = "mc-a-ant3"
     piece = \markup {\sestavTitulek}
   }
 }
