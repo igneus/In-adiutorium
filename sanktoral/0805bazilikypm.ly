@@ -61,6 +61,8 @@
     differentia = "a"
     psalmus = ""
     fial = "marianske_antifony.ly#avemaria?cast=2-3"
+    placet = "2 začátek je jaksi úsečný - dobře funguje uprostřed delší zdrojové
+    antifony, ale jako úplný začátek nepůsobí úplně pěkně"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
