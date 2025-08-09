@@ -1025,6 +1025,30 @@ pojdmeKlanmeSeCele = {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4( a') a \barMin
+    c( bes) a a f g g( bes) a \barMaior
+    a4 \mark\sipka bes g a \barMin
+    a g f e( g) f d d \barMin
+    e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu;
+      jsme je -- ho lid a stád -- ce je -- ho past -- vy, a -- le -- lu -- ja.
+  }
+  \header {
+    dies = "neděle"
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    id = "t2ne"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisSkupiny II
 
 \score {
