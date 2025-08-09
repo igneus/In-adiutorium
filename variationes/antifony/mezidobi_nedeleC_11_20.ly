@@ -3595,7 +3595,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka f4( g) g( a) a \barMin a g f e f d( c) c \barMaior
     c d f f f g f a g g \barMaior
@@ -3610,6 +3610,30 @@
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) c c \barMin c b a g a a( g) g \barMaior
+    f g a a a a a b( c) a( g) g \barMaior
+    c c c( d c) c \barMin b c a g g a f g \barFinalis
+  }
+  \addlyrics {
+    Chraň -- te se před kaž -- dou cham -- ti -- vos -- tí,
+    ne -- boť i když má ne -- kdo nad -- by -- tek,
+    je -- ho ži -- vot ne -- ní za -- jiš -- těn tím, co má.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne18c-1ne-amag"
@@ -3714,6 +3738,29 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d f e d d e d c c( d) d \barMaior
+    \mark\sipka c a c c b \barMin
+    c a g g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a c d d e d c c( d) d \barMaior
     a d b c a( g) \barMin
     a g f g( a) a( g) g \barFinalis
@@ -3758,6 +3805,75 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a a g a g( f) f \barMaior
+    g g \mark\sipka g a f \barMin
+    f d f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a a g a g( f) f \barMaior
+    \mark\sipka f d f f g \barMin
+    g f g g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a a g \mark\sipka f g( a g) g \barMaior
+    a g f g f( d) \barMin
+    c d f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a a c c d c d d( c) c \barMaior
@@ -3773,6 +3889,52 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g g a g f g( a g) g \barMaior
+    f g a c b \barMin
+    c a g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g g a g f g( a g) g \barMaior
+    \mark\sipka a f g g a \barMin
+    c b a g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi,
+    kde je a -- ni mol,
+    a -- ni rez ne -- ka -- zí.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne18c-rch-aben"
@@ -3809,7 +3971,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g f e \barMin
     d d d e f d( e) d d \barMaior
@@ -3824,6 +3986,72 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g f e \barMin
+    d \mark\sipka c d f e d( e) d d \barMaior
+    c d f f e f d c d d \barFinalis
+  }
+  \addlyrics {
+    Mar -- ně se na -- má -- há,
+    kdo si hro -- ma -- dí po -- kla -- dy,
+    a -- le ne -- ní bo -- ha -- tý před Bo -- hem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b a g \barMin
+  }
+  \addlyrics {
+    Mar -- ně se na -- má -- há,
+    kdo si hro -- ma -- dí po -- kla -- dy,
+    a -- le ne -- ní bo -- ha -- tý před Bo -- hem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    annus = "C"
+    id = "ne18c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g a \barMin
+  }
+  \addlyrics {
+    Mar -- ně se na -- má -- há,
+    kdo si hro -- ma -- dí po -- kla -- dy,
+    a -- le ne -- ní bo -- ha -- tý před Bo -- hem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
     psalmus = ""
     annus = "C"
     id = "ne18c-2ne-amag"

@@ -526,11 +526,11 @@
 \markup {\nadpisDen {"18. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4( g) g( a) a \barMin a g f e f d( c) c \barMaior
-    c d f f f g f a g g \barMaior
-    a a a a g a g f f \barMin g a f \barFinalis
+    c4( d) c c \barMin c b a g a a( g) g \barMaior
+    f g a a a a a b( c) a( g) g \barMaior
+    c c c( d c) c \barMin b c a g g a f g \barFinalis
   }
   \addlyrics {
     Chraň -- te se před kaž -- dou cham -- ti -- vos -- tí,
@@ -539,8 +539,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VI"
-    differentia = "F"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "C"
     id = "ne18c-1ne-amag"
@@ -575,7 +575,7 @@
   \relative c' {
     \choralniRezim
     f4 f f g f e \barMin
-    d d d e f d( e) d d \barMaior
+    d c d f e d( e) d d \barMaior
     c d f f e f d c d d \barFinalis
   }
   \addlyrics {
