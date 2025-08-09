@@ -806,12 +806,64 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a c( d) d \barMin
     d e \mark\sipka d c( d) c \barMaior
     \mark\sipka a c c b( a g) g
     f a \mark\sipka a( g) g \barFinalis
+  }
+  \addlyrics {
+    Pří -- mluv -- ce, Duch sva -- tý,
+    pře -- bý -- vá u vás
+    a bu -- de ve vás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek=7"
+    placet = "3 melisma na _ve_ nějak úplně nesedí"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d e d c( d) c \barMaior
+    \mark\sipka c c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pří -- mluv -- ce, Duch sva -- tý,
+    pře -- bý -- vá u vás
+    a bu -- de ve vás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek=7"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d e \mark\sipka c a a \barMaior
+    c c c b g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Pří -- mluv -- ce, Duch sva -- tý,

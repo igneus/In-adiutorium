@@ -122,8 +122,8 @@
     \choralniRezim
     c4 c b a c( d) d \barMin
     d e d c( d) c \barMaior
-    a c c b( a g) g
-    f a a( g) g \barFinalis
+    c c c b g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Pří -- mluv -- ce, Duch sva -- tý,
@@ -137,7 +137,6 @@
     differentia = "c"
     psalmus = ""
     fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek=7"
-    placet = "3 melisma na _ve_ nějak úplně nesedí"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
