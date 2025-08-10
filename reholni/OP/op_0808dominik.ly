@@ -198,18 +198,23 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d f d c f g f( a) a \barMin
+    a g f g( a) a( g) g \barMaior
+    a a g f f( g) f f \barMin
+    f d d f e d( c) c \barMaior
+    d d d c d f g f d c( d) d \barFinalis
   }
   \addlyrics {
     Ty, o kte -- rých Pán pře -- dem vě -- děl,
     ty ta -- ké před -- ur -- čil,
-    a -- by by -- li ve sho -- dě s_ob -- ra -- zem je -- ho Sy -- na,
+    a -- by by -- li ve sho -- dě
+    s_ob -- ra -- zem je -- ho Sy -- na,
     a -- by tak on byl prv -- ní z_mno -- ha brat -- ří.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 1"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -217,19 +222,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g g( a) a \barMin a( c) b g g \barMaior
+    f f g f g g( a) a \barMin
+    a a a g f e f d( c) c \barMaior
+    d d f g g f e d( e d4.) d4 \barFinalis
   }
   \addlyrics {
     Bůh za -- zá -- řil v_na -- šem srd -- ci,
-    a -- by o -- sví -- til li -- di po -- zná -- ním je -- ho ve -- leb -- nos -- ti,
+    a -- by o -- sví -- til li -- di
+    po -- zná -- ním je -- ho ve -- leb -- nos -- ti,
     kte -- rá je na Kris -- to -- vě tvá -- ři.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a2"
     psalmus = "Žalm 2"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
@@ -239,18 +248,25 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4-- g f a g g \barMin
+    a a g f f g g f e d( c) \barMin
+    c d f f g( a) a( g) g \barMaior
+    a a a g a g f g f f \barMin
+    g g f e d( c) \barMin
+    d( f) f g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Bůh, dár -- ce na -- dě -- je,
-    ať vás na -- pl -- ní sa -- mou ra -- dos -- tí i po -- ko -- jem ve ví -- ře,
+    ať vás na -- pl -- ní sa -- mou ra -- dos -- tí
+    i po -- ko -- jem ve ví -- ře,
     a -- bys -- te pro -- spí -- va -- li v_na -- dě -- ji
-    s_moc -- nou po -- mo -- cí Du -- cha Sva -- té -- ho.
+    s_moc -- nou po -- mo -- cí
+    Du -- cha Sva -- té -- ho.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 24"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
@@ -512,9 +528,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c b a b c a g( a) g g \barMaior
+    f g a a a( c) b g g \barFinalis
   }
   \addlyrics {
     O -- prav -- do -- vě mi -- lo -- val chu -- do -- bu
@@ -522,8 +539,8 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
