@@ -3146,7 +3146,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c f g f( a) a \barMin
     \mark\sipka a a g( f g a) g \barMaior
@@ -3207,6 +3207,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c f g f( a) a \barMin
     \mark\sipka g f g( a g4.) g4 \barMaior
@@ -3332,6 +3333,32 @@
     c4 c( d) c c d( e d c) c( d) \barMin
     d c( d) c b a( g) \barMin
     \mark\sipka a g f g( a g) g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Jak krás -- né a slav -- né
+    je svě -- dec -- tví těch,
+    kdo ži -- li čis -- tě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka d c d d( e d) d \barMin
+    d c( d) c b a( g) \barMin
+    a g f g( a g) g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
@@ -4543,6 +4570,28 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c"
+    psalmus = ""
+    id = "2ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) g( a) a \barMin
+  }
+  \addlyrics {
+    Je -- di -- nou o -- bě -- tí
+    do -- sáh -- la dvo -- jí -- ho ví -- těz -- ství:
+    ja -- ko pan -- na i ja -- ko mu -- čed -- ni -- ce.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "2ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
