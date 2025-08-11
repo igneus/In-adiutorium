@@ -312,11 +312,22 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f( g) g( a) a \barMin
+    a( c) a a g f e( f) d c c( d) d \barMaior
+    f4 g f( d) d \barMin
+    f f e d c d c c f g g( a) a \barMin
+    b c a g( f g4.) g \barMaior
+    g4 a a a g f g f d \barMin
+    d e f d d c \barMaior
+    d c d f g a g f( g) d \barMin
+    f f f e c e( f) d d \barFinalis
   }
   \addlyrics {
-    Bla -- že -- ný Do -- mi -- nik po -- zdvi -- hl ru -- ce k_ne -- bi a pra -- vil:
-    Ot -- če sva -- tý, ty víš, že jsem o -- chot -- ně a vy -- tr -- va -- le pl -- nil tvou vů -- li
+    Bla -- že -- ný Do -- mi -- nik
+    po -- zdvi -- hl ru -- ce k_ne -- bi a pra -- vil:
+    Ot -- če sva -- tý,
+    ty víš, že jsem o -- chot -- ně a vy -- tr -- va -- le
+    pl -- nil tvou vů -- li
     a o -- chrá -- nil jsem a za -- cho -- val
     ty, kte -- ré jsi mi dal.
     Teď zas je do -- po -- rou -- čím to -- bě,
@@ -324,9 +335,81 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
+    fial = "sanktoral/0121anezka.ly#ne-amag?cast=3"
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f( g) g( a) a \barMin
+    a( c) a a g f e( f) d c c( d) d \barMaior
+    f4 g f( d) d \barMin
+    f f e d c d c c f g g( a) a \barMin
+    b c a g( f g4.) g \barMaior
+    g4 a a a g f g f d \barMin
+    d e f d d c \barMaior
+    d c d f g a g f( g) \mark\sipka g( f) \barMin
+    g g g f d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- že -- ný Do -- mi -- nik
+    po -- zdvi -- hl ru -- ce k_ne -- bi a pra -- vil:
+    Ot -- če sva -- tý,
+    ty víš, že jsem o -- chot -- ně a vy -- tr -- va -- le
+    pl -- nil tvou vů -- li
+    a o -- chrá -- nil jsem a za -- cho -- val
+    ty, kte -- ré jsi mi dal.
+    Teď zas je do -- po -- rou -- čím to -- bě,
+    za -- cho -- vej je a o -- chra -- ňuj.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0121anezka.ly#ne-amag?cast=3"
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f( g) g( a) a \barMin
+    a( c) a a g f e( f) d c c( d) d \barMaior
+    f4 g f( d) d \barMin
+    f f e d c d c c f g g( a) a \barMin
+    b c a g( f g4.) g \barMaior
+    g4 a a a g f g f d \barMin
+    d e f d d c \barMaior
+    d \mark\sipka d c f g a g f( g) d \barMin
+    f f f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Bla -- že -- ný Do -- mi -- nik
+    po -- zdvi -- hl ru -- ce k_ne -- bi a pra -- vil:
+    Ot -- če sva -- tý,
+    ty víš, že jsem o -- chot -- ně a vy -- tr -- va -- le
+    pl -- nil tvou vů -- li
+    a o -- chrá -- nil jsem a za -- cho -- val
+    ty, kte -- ré jsi mi dal.
+    Teď zas je do -- po -- rou -- čím to -- bě,
+    za -- cho -- vej je a o -- chra -- ňuj.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0121anezka.ly#ne-amag?cast=3"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
