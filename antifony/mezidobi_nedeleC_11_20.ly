@@ -599,8 +599,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g g( a) a \barMin
-    a a g f d f g( f) f \barFinalis
+    f4 d f f( g) g \barMin
+    a a g f g a f f \barFinalis
   }
   \addlyrics {
     Kde je váš po -- klad,
@@ -622,7 +622,7 @@
     \choralniRezim
     d4 d d e f d e d d \barMaior
     f f f e d c( d) c c \barMin
-    d( f) e c d \barFinalis
+    d c e( f) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní slu -- žeb -- ní -- ci,
@@ -643,8 +643,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d f e d d \barMin
-    f f f f( g) f e c( d) d \barFinalis
+    d4 d c d f e d c \barMin
+    d c d d( f) d c c( d) d \barFinalis
   }
   \addlyrics {
     Měj -- te bed -- ra pře -- pá -- sa -- ná
@@ -656,7 +656,6 @@
     differentia = "D"
     psalmus = ""
     annus = "C"
-    placet = "nudná, únavná, nezpěvná"
     id = "ne19c-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

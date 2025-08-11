@@ -1700,7 +1700,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d f e d d \barMin
     f f f f( g) f e
@@ -1715,6 +1715,38 @@
     \markup{\Dagger ho} -- ří.
 
     \markup{\Dagger ho} -- ří.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_11_20.ly#ne19c-2ne-amag?+aleluja"
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d f e d c \barMin
+    d c d
+    d( f) d c c( d) d \barFinalis
+
+    d(^\markup\rubrVelikAleluja f) f f e c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Měj -- te bed -- ra pře -- pá -- sa -- ná
+    a va -- še
+    \markup{\Dagger lam} -- py ať ho -- ří.
+
+    \markup{\Dagger lam} -- py ať ho -- ří.
     A -- le -- lu -- ja.
   }
   \header {

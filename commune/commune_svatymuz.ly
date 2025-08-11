@@ -361,19 +361,19 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d f e d d \barMin
-    f f f f( g) f e
-    c( d) d \barFinalis
+    d4 d c d f e d c \barMin
+    d c d
+    d( f) d c c( d) d \barFinalis
 
-    d^\markup\rubrVelikAleluja c
+    d(^\markup\rubrVelikAleluja f) f f e c
     e f d d \barFinalis
   }
   \addlyrics {
     Měj -- te bed -- ra pře -- pá -- sa -- ná
-    a va -- še lam -- py ať
-    \markup{\Dagger ho} -- ří.
+    a va -- še
+    \markup{\Dagger lam} -- py ať ho -- ří.
 
-    \markup{\Dagger ho} -- ří.
+    \markup{\Dagger lam} -- py ať ho -- ří.
     A -- le -- lu -- ja.
   }
   \header {
