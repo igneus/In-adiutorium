@@ -24,6 +24,11 @@
   ve známých pramenech jsem je zatím nenašel.)
 }
 
+\markup\justify{
+  Invitatorium přesně odpovídajícího textového modelu zatím máme v korpusu
+  jedno, \fial-link "reholni/OPraem/opraem_0714hroznata.ly#invit"
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -49,7 +54,8 @@
   \relative c' {
     \choralniRezim
     f4 f g( a g) f g g \barMaior
-    a a g f f
+    a a g f f g f e d( e) d( c) c \barMin
+    d f( e) d d \barFinalis
   }
   \addlyrics {
     Chval -- me Kris -- ta Pá -- na
@@ -58,8 +64,8 @@
   }
   \header {
     quid = "ant. k invitatoriu"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -132,6 +138,34 @@
     d d c d( e) d d \barMin
     e( f e d) c( d) \barMaior
     d d e d c b( c) a \barMin
+    c c c b a g( a) g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl mí -- ru,
+    hla -- sa -- tel po -- ká -- ní,
+    Nor -- bert,
+    moc -- ný slo -- vem i skut -- kem,
+    zna -- me -- ní -- mi i zá -- zra -- ky,
+    a -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d d c d( e) d d \barMin
+    e( f e d) c( d) \barMaior
+    d d e d c \mark\sipka c( d) c \barMin
     c c c b a g( a) g f
     g( a) a g g \barFinalis
   }

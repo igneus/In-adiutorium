@@ -2427,7 +2427,7 @@ tInedeleIInespAntI = \score {
   \relative c'' {
     \zvyraznovacZeleny
     \choralniRezim
-    g4 a g a( b) b c d c( b a) a \barMaior
+    g4 a g a( b) b c d c( b a4.) a4 \barMaior
     \mark\sipka c d e d( c) c( d) d \barMin
     d a( b) a( g) g \barFinalis
   }
