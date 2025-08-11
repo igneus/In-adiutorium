@@ -23,12 +23,6 @@
   Zkratky pramenů:
 }
 \markup\small\wordwrap{
-  % TODO: smazat, pokud z nej nepouzijeme nic, co nejde najit jinde
-  AOP4 -
-  \italic{Antiphonarium pro Liturgia horarum iuxta usum Ordinis Praedicatorum,} vol. IV,
-  \with-url "http://musicasacra.com/dominican/a4.pdf" {http://musicasacra.com/dominican/a4.pdf}
-}
-\markup\small\wordwrap{
   AG -
   \italic{Antiphonarium Sacri Ordinis Prædicatorum pro Diurnis Horis.}
   Martini Stanislai Gillet permissu editum.
