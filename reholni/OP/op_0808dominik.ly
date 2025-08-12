@@ -42,8 +42,8 @@
     \choralniRezim
     d4 c d f g f g a \barMaior
     a g a c d c( b a) g a \barMaior
-    a g f g a f e d \barMaior
-    f e f g f d c( d) d \barFinalis
+    a g f g a f e d( c) \barMaior
+    d c d f e d c( d) d \barFinalis
   }
   \addlyrics {
     Když ko -- nec vě -- ku nad -- chá -- zel,
@@ -117,7 +117,7 @@
 
     % R
     \neviditelna f
-    f4 f f f( g) f g f g( a) a( g) \barMax
+    f4 f f f f g f g( a) a( g) \barMax
     f( d) f( g) g f \barFinalis
     % V
     \neviditelna a
@@ -435,11 +435,11 @@
 
     % R
     \neviditelna f
-    f4 f f f g f g a a( g) \barMax
+    f4 f f f g f g g( a) a( g) \barMax
     f d f g g f \barFinalis
     % V
     \neviditelna a
-    a4 a a( bes) a g( a) g g \barMin a g f g( a) a( g) \barFinalis
+    a4 a a( bes) a g( a) g g \barMin g f g g( a) a( g) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -586,7 +586,7 @@
     f4 f g a g f g g \barMaior
     bes a g( a g) g \barMin
     g f( g) f e d( c) \barMaior
-    c d f f f g f e d c( d) d \barFinalis
+    d c d d( f) f \barMin g f e f d d \barFinalis
   }
   \addlyrics {
     Po -- hnut sou -- ci -- tem a lás -- kou
@@ -634,7 +634,7 @@
 
     % R
     \neviditelna f
-    f4 g g f f \barMin f f g g f g( a) a( g) \barMax
+    f4 g g f f \barMin f f f g f g( a) a( g) \barMax
     g f d f g g f \barFinalis
     % V
     \neviditelna a
@@ -659,11 +659,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( f e) d( c) f( g) a \barMin
+    d4( f e) d( c) f( g a) a \barMin
     c( b a4.) f4( e d) e( f e) d c( d) d \barMaior
     a' c d c( d) d c a( g a) f g( a) a \barMaior
     d, f( e) d( e) d d( c) \barMin
-    f g( a) a( g f) e( d c) e( f) e d d \barFinalis
+    f g( a) g f e c e( f d4.) d \barFinalis
   }
   \addlyrics {
     Vel -- ký Ot -- če,

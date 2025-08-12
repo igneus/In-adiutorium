@@ -61,7 +61,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d f g f g a \barMaior
     a g a c d c( b a) g a \barMaior
@@ -126,6 +126,32 @@
   }
   \header {
     fons_externus = "volně podle AOP4, 680"
+    quid = "1. ant."
+    modus = "I"
+    differentia = "g"
+    psalmus = "Žalm 141"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f g f g a \barMaior
+    a g a c d c( b a) g a \barMaior
+    a g f g a f e d( c) \barMaior
+    \mark\sipka d c d f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když ko -- nec vě -- ku nad -- chá -- zel,
+    ne -- bes -- ký no -- vý hla -- sa -- tel
+    Do -- mi -- nik chu -- do -- bou se skvěl,
+    v_před -- zvěs -- ti po -- do -- bu psa měl.
+  }
+  \header {
+    fons_externus = "volně podle MG 174"
     quid = "1. ant."
     modus = "I"
     differentia = "g"
@@ -252,7 +278,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -281,6 +307,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
@@ -920,7 +947,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -949,7 +976,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
 
     % R
@@ -958,7 +985,7 @@
     f d f g g f \barFinalis
     % V
     \neviditelna a
-    a4 a a( bes) a g( a) g g \barMin a g f g( a) a( g) \barFinalis
+    a4 a a( bes) a g( a) g g \barMin \mark\sipka g f g g( a) a( g) \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -1524,7 +1551,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g a g f g g \barMaior
     bes a g( a g) g \barMin
@@ -1573,6 +1600,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f g a g f g g \barMaior
     bes a g( a g) g \barMin
@@ -1746,7 +1774,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1801,13 +1829,42 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g g f f \barMin f f \mark\sipka f g f g( a) a( g) \barMax
+    g f d f g g f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a g( a) g g \barMin a g f g g( a) \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ní, kdo sly -- ší Bo -- ží slov -- o_*
+    a za -- cho -- vá -- va -- jí je.
+    \Verse Při -- ná -- še -- jí u -- ži -- tek v_tr -- pě -- li -- vos -- ti.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Magne Pater sancte Dominice}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f e) d( c) f( g) a \barMin
     c( b a4.) f4( e d) e( f e) d c( d) d \barMaior
@@ -1851,6 +1908,37 @@
   }
   \header {
     fons_externus = "volně podle AOP4, 708"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "g"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (částečně zpět)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f e) d( c) f( g a) a \barMin
+    c( b a4.) f4( e d) e( f e) d c( d) d \barMaior
+    a' c d \mark\sipka c( d) d c a( g a) f g( a) a \barMaior
+    d, f( e) \mark\sipka d( e) d d( c) \barMin
+    f g( a) g f e c e( f d4.) d \barFinalis
+  }
+  \addlyrics {
+    Vel -- ký Ot -- če,
+    sva -- tý Do -- mi -- ni -- ku,
+    v_ho -- di -- ně smr -- ti nás přij -- mi k_so -- bě,
+    a zde na ze -- mi
+    na nás po -- hlí -- žej vždy s_lás -- kou.
+  }
+  \header {
+    fons_externus = "volně podle AG 881"
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "g"
