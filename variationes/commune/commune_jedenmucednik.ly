@@ -2298,6 +2298,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     % Tahle antifona se mi zda zvlast krasna.
     d4 d d( c d) d( f) f \barMin
@@ -2327,10 +2328,94 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d( c d) d( f) f \barMin
+    f( g f) e( d) d e( d) c d d( c) c \barMaior
+    \mark\sipka d c d d( f) f \barMin
+    f e c e( f d4.) d4 \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh ji_(ho) o -- věn -- čil
+    ko -- ru -- nou spra -- ve -- dl -- nos -- ti
+    a dal jí_(mu) ú -- čast
+    na věč -- né slá -- vě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c( d) d( f) f \barMin
     g( a) g f e f d c c \barMaior
     d f f e( f d4.) d \barMin
     c4 a c c( d) d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh ji_(ho) o -- věn -- čil
+    ko -- ru -- nou spra -- ve -- dl -- nos -- ti
+    a dal jí_(mu) ú -- čast
+    na věč -- né slá -- vě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d( f) f \barMin
+    \mark\sipka g a g f e d c c \barMaior
+    d f e d( e c4.) c4 \barMin
+    d f e d( e d4.) d4 \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bůh ji_(ho) o -- věn -- čil
+    ko -- ru -- nou spra -- ve -- dl -- nos -- ti
+    a dal jí_(mu) ú -- čast
+    na věč -- né slá -- vě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) d( f) f \barMin
+    g a g f e d c c \barMaior
+    d f e d( e c4.) c4 \barMin
+    d f e \mark\sipka f( d c d) d \barFinalis
+
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {

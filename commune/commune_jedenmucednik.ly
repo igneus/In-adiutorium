@@ -618,12 +618,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    % Tahle antifona se mi zda zvlast krasna.
-    d4 d d( c d) d( f) f \barMin
-    f( g f) e( d) d e( d) c d d( c) c \barMaior
-    c d f g( a g f) g( d) \barMin
-    f( g f) e c e( f d) d \barFinalis
-    c^\markup\rubrVelikAleluja e( f) e( d) d \barFinalis
+    d4 d c( d) d( f) f \barMin
+    g a g f e d c c \barMaior
+    d f e d( e c4.) c4 \barMin
+    d f e f( d c d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Bůh ji_(ho) o -- věn -- čil
@@ -638,7 +638,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "2 spíš lépe"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
