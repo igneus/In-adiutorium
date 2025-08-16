@@ -145,9 +145,9 @@
 
     % R
     \neviditelna f
-    f4 f f f f f g f f \barMin
-    g g g f g a( g) g \barMaior
-    g a g g g g f g a \barMax
+    f4 f f f f f f f f
+    f f f f f g f \barMaior
+    f f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
@@ -169,7 +169,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "nic moc"
     id = "1ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }

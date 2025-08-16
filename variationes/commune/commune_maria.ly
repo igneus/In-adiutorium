@@ -905,7 +905,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -941,6 +941,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
@@ -1943,6 +1944,31 @@
     \mark\sipka f e f( d) c( d) d \barFinalis
 
     c^\markup\rubrVelikAleluja f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
+    Pan -- no Ma -- ri -- a.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 87"
+    fial = "antifony/tyden3_5ctvrtek.ly#rch-ant1?zacatek"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( a') a a bes a g c c a a \barMaior
+    f e \mark\sipka c c( d) d \barFinalis
+
+    c^\markup\rubrVelikAleluja e( f) d d \barFinalis
   }
   \addlyrics {
     Slav -- né vě -- ci se o to -- bě vy -- pra -- vu -- jí,
