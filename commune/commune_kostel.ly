@@ -40,7 +40,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g a c c d( e d4.) d \barMaior
+    g4 a c c c d( e d4.) d \barMaior
     d4 d d c a b( c a g) g \barFinalis
   }
   \addlyrics {
@@ -53,7 +53,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 147-I"
-    placet = "2 zvlášť začátek nic moc"
     id = "1ne-a1-pust"
     piece = \markup {\sestavTitulek}
   }

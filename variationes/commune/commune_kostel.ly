@@ -195,7 +195,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g a c c d( e d4.) d \barMaior
     d4 d d c a b( c a g) g \barFinalis
@@ -220,6 +220,69 @@
     \choralniRezim
     g4 g a c c d( e d4.) d \barMaior
     d4 \mark\sipka c b a g a( g f g) g \barFinalis
+  }
+  \addlyrics {
+    V_Hos -- po -- di -- no -- vě chrá -- mě
+    vo -- la -- jí všich -- ni: Slá -- va!
+  }
+  \header {
+    textus_approbatus = "V Hospodinově chrámě všichni volají: Sláva!"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a c c d( e d4.) d \barMaior
+    \mark\sipka d4 d c( d) c a b( c a g) g \barFinalis
+  }
+  \addlyrics {
+    V_Hos -- po -- di -- no -- vě chrá -- mě
+    všich -- ni vo -- la -- jí: Slá -- va!
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka a c c c d( e d4.) d \barMaior
+    d4 d d c a b( c a g) g \barFinalis
+  }
+  \addlyrics {
+    V_Hos -- po -- di -- no -- vě chrá -- mě
+    vo -- la -- jí všich -- ni: Slá -- va!
+  }
+  \header {
+    textus_approbatus = "V Hospodinově chrámě všichni volají: Sláva!"
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 147-I"
+    id = "1ne-a1-pust"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c \mark\sipka d( c e d) d \barMaior
+    d4 d d c a b( c a g) g \barFinalis
   }
   \addlyrics {
     V_Hos -- po -- di -- no -- vě chrá -- mě
