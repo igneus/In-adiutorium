@@ -287,7 +287,7 @@
     f f f a g( a) g \barMin
     f f( c') c4.( d4 \[ f e d c \] \[ d c) \] \barMin
     \key f \major c bes c c( d) c bes bes( c) c \barMaior
-    \key c \major c( d) c c( d) d c \barMin b a g a a g g \barMax
+    \key c \major c d d c c \barMin b a g a a g g \barMax
     c4 f e( d) d \barMin d f e d c c \barMaior
     c d d d d bes( a g) \barMin a g a f f \barFinalis
 
@@ -296,7 +296,7 @@
     a4 g( a) a \barMin a b c a g a a \barMin
     a g a c c b a a \barMaior
     c c d c d( e d c) b( a) \barMin c c d c d( e) d d \barMaior
-    c( d c) b g( a) g \barMax
+    c b g( a) g \barMax
     % R
     \neviditelna a
     c4 f e( d) d \barFinalis
@@ -446,14 +446,14 @@
 
     % R
     \neviditelna f
-    f4 f f f f( g) f f \barMin g f f f g a a( g) \barMax
-    g g g a g( f d) d \barMin f g g( f) f \barFinalis
+    f4 f f f f( g) f f \barMin f f g f g a a( g) \barMax
+    g g g a g( f d) d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a( bes) a a g( a) g f g g( a) \barMax
     % R
     \neviditelna a
-    g g g a g( f d) d \barMin f g g( f) f \barFinalis
+    g g g a g( f d) d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
