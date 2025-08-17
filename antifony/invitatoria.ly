@@ -111,6 +111,7 @@ tIctvrtekInvitatorium = \score {
     differentia = "D"
     dies = "čtvrtek"
     scriptura = "srov. Žalm 95, 6.7"
+    fial = "antifony/invitatoria.ly#t1ut"
     id = "t1ct"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -158,6 +159,7 @@ tIsobotaInvitatorium = \score {
     differentia = "D"
     dies = "sobota"
     scriptura = "srov. Žalm 95, 6.5"
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
     id = "t1so"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -228,6 +230,7 @@ tIIuteryInvitatorium = \score {
     modus = "II"
     differentia = "D"
     scriptura = "srov. Žalm 95, 6.3"
+    fial = "antifony/invitatoria.ly#t1ut"
     id = "t2ut"
     piece = \markup {\sestavTitulekBezZalmu}
   }
