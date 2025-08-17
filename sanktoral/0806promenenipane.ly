@@ -160,7 +160,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a a( b) g g a a \barMin
+    a4 a a b g g a a \barMin
     a g a g e \barFinalis
   }
   \addlyrics {
@@ -259,7 +259,7 @@
   \relative c' {
     \choralniRezim
     f4 g a a a( g a) \barMin a( b c b) a( g) g g( a g) f g g \barMaior
-    g a b c( a) \barMin c c b a g( a g) g \barFinalis
+    c b c a \barMin c c b a g( a g) g \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va tvář_* zá -- ři -- la ja -- ko slun -- ce
@@ -281,9 +281,9 @@
     a4 a a g( a) a( c) c \barMin
     c c d( e) d c( d) c c \barMin
     c b a g a a( g) g \barMax
-    f( g) g( a) a \barMin c b c d( e) d d \barMaior
-    d d e d c( d) c c \barMin
-    c c c b a g( a) g g \barFinalis
+    c( d) c c \barMin d e d c( b) a a \barMaior
+    c c b a g( a) g g \barMin
+    a a a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Moj -- žíš a E -- li -- áš_*
@@ -362,10 +362,10 @@
   \relative c'' {
     \choralniRezim
     d4 d d d c( b g) g a( c b) c c4.( d) \barMax
-    d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMin
-    g4( f) g4.( a4 b) b c b( d) d \barMin
-    d d c( d c) b( a g) f( g) g \barMax
-    g a g g \barFinalis
+    d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
+    g4( f) g4.( a4 b) b c b( d) d \barMaior
+    d d c( d c) b( a g) f( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Z_ob -- la -- ku se o -- zval Ot -- cův hlas:_*
@@ -379,10 +379,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    fial = "vanoce_zjevenipane.ly#krtu-2ne-a1?konec&+aleluja"
-    placet = "4 bude vhodné mírně prořezat;
-    _v něm mám zalíbení_ jinak - těžko se to zpívá a nemá to žádnou zvláštní
-    hodnotu, která by tu náročnost ospravedlňovala"
+    fial = "vanoce_zjevenipane.ly#krtu-2ne-a1?konec=50&+aleluja"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -455,6 +452,8 @@
     modus = "III"
     differentia = "a"
     psalmus = ""
+    placet = "2 závěr není úplně uspokojivý (dobře funguje jako dílčí závěr
+    v odvozené antifoně, méně už jako závěr definitivní)"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -467,7 +466,7 @@
     \choralniRezim
     a4 a a g f g( a) a \barMin c b a b g g \barMaior
     a c c( d) d \barMin e e d c d( e d) d \barMaior
-    d d( c b) a( g) g f g a( b) g g \barFinalis
+    d d c b a g a( b) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal s_se -- bou Pet -- ra,_* Ja -- ku -- ba a Ja -- na,
@@ -479,7 +478,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
-    placet = "2 _ukázal se_ spíš odlehčit"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }

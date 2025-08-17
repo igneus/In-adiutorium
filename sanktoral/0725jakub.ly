@@ -90,7 +90,7 @@
     \choralniRezim
     a4 a a g f g( a) a \barMin c b a b g g \barMaior
     a c c( d) d \barMin e e d c d( e d) d \barMaior
-    d d( c b) a( g) g f g a( b) g g \barFinalis
+    d d c b a g a( b) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal s_se -- bou Pet -- ra,_* Ja -- ku -- ba a Ja -- na,

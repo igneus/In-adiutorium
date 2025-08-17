@@ -10,7 +10,7 @@
     \choralniRezim
     a4 a a g f g( a) a \barMin c b a b g g \barMaior
     a c c( d) d \barMin e e d c d( e d) d \barMaior
-    d d( c b) a( g) g f g a( b) g g \barFinalis
+    d d c b a g a( b) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal s_se -- bou Pet -- ra,_* Ja -- ku -- ba a Ja -- na,
@@ -32,7 +32,7 @@
   \relative c' {
     \choralniRezim
     f4 g a a a( g a) \barMin a( b c b) a( g) g g( a g) f g g \barMaior
-    g a b c( a) \barMin c c b a g( a g) g \barFinalis
+    c b c a \barMin c c b a g( a g) g \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- va tvář_* zá -- ři -- la ja -- ko slun -- ce
