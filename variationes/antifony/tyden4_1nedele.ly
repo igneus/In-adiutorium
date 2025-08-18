@@ -1363,6 +1363,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a g f g( a) \barMin
+    \mark\sipka c b a g( a) g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo jí ten -- to chléb,
+    bu -- de žít na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 23"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 g a c b( g) \barMaior
     a g f a c c \barMin
     b a g g \barFinalis

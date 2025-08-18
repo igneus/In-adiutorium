@@ -2903,6 +2903,34 @@ je "\"skororepetice\"" melodie 2 v 4.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( a) a( c) c \barMin
+    d e c d( e d4.) d4 \barMaior
+    e( f e d) c( d) d( c) \barMin
+    c c b g a g f( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a
+    nám ji za -- se o -- te -- vře -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
