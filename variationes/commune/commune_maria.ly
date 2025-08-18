@@ -2911,7 +2911,7 @@ je "\"skororepetice\"" melodie 2 v 4.}
     e( f e d) c( d) d( c) \barMin
     c c b g a g f( g) g \barFinalis
 
-    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     E -- va nám za -- vře -- la
@@ -2925,6 +2925,54 @@ je "\"skororepetice\"" melodie 2 v 4.}
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c d( c) e( d) d \barMin
+    e f e d( c d4.) d4 \barMaior
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a
+    nám ji za -- se o -- te -- vře -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g a \barMin
+    g f a g g \barMaior
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a
+    nám ji za -- se o -- te -- vře -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Benedictus"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
