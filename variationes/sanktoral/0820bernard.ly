@@ -410,3 +410,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c c d c d e d d d \barMaior
+    d d c( d e) d c( d c a) a \barMaior
+    c c b a g( a) g g \barMin
+    g f g g( a) a g( f) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ber -- nard,
+    vel -- ký cti -- tel Pan -- ny Ma -- ri -- e,
+    jas -- ně zá -- ří v_círk -- vi
+    ja -- ko slav -- ný u -- či -- tel
+    a bdě -- lý pas -- týř své -- ho li -- du.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
