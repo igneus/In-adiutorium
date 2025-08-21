@@ -93,6 +93,30 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Bernárdus,
+    doctor mellífluus,
+    amícus Sponsi,
+    Vírginis Matris præco miríficus,
+    in Claraválle pastor effúlsit claríssimus.
+  }
+}
+\markup\justify{
+  Asi bych i měl pochopení pro to, že se tady překladatelé ve snaze
+  o hezky zaokrouhlený český text pustili cestou nepřekladu,
+  zachovávajícího jen zlomek motivů z předlohy.
+  Ale dráždí mě obrat \italic{pastýř svého lidu,}
+  který se zdá úplně míjet s tím, kdo sv. Bernard byl.
+  \italic{Svůj lid} má biskup nebo územní opat, v slabším smyslu slova farář.
+  Bernard byl \italic{pastor} pro svou komunitu
+  (kterou by bylo v monastickém kontextu neobvyklé
+  a eklesiologicky podivné nazývat \italic{jeho lidem});
+  rozsáhlé působení za zdmi kláštera se pak obracelo k lidem, kteří
+  žádným \italic{jeho lidem} nebyli.
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -360,7 +384,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 g g( a) a \barMin
     \mark\sipka c c b( a g) g \mark\sipka g( a) f f g g \barMaior
@@ -380,6 +404,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "3 nic moc, zvlášť první třetina"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -416,6 +441,59 @@
     \choralniRezim
     g4 a a( c) c \barMin
     c c d c d e d d d \barMaior
+    d d c( d e) d c( d c a) a \barMaior
+    c c b a g( a) g g \barMin
+    g f g g( a) a g( f) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ber -- nard,
+    vel -- ký cti -- tel Pan -- ny Ma -- ri -- e,
+    jas -- ně zá -- ří v_círk -- vi
+    ja -- ko slav -- ný u -- či -- tel
+    a bdě -- lý pas -- týř své -- ho li -- du.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c c d c d e \mark\sipka e d d \barMaior
+    d d c( d e) d c( d c a) a \barMaior
+    c c b a g( a) g g \barMin
+    g f g g( a) a g( f) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Ber -- nard,
+    vel -- ký cti -- tel Pan -- ny Ma -- ri -- e,
+    jas -- ně zá -- ří v_círk -- vi
+    ja -- ko slav -- ný u -- či -- tel
+    a bdě -- lý pas -- týř své -- ho li -- du.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c c \mark\sipka c c d c e d d \barMaior
     d d c( d e) d c( d c a) a \barMaior
     c c b a g( a) g g \barMin
     g f g g( a) a g( f) a g g \barFinalis

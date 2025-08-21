@@ -41,11 +41,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) a \barMin
-    c c b( a g) g g( a) f f g g \barMaior
-    a a a( c d) d d( e c a) a \barMaior
-    g a g f g a a \barMin
-    a c c b( a g) g f( g) a g g \barFinalis
+    g4 a a( c) c \barMin
+    c c d c d e e d d \barMaior
+    d d c( d e) d c( d c a) a \barMaior
+    c c b a g( a) g g \barMin
+    g f g g( a) a g( f) a g g \barFinalis
   }
   \addlyrics {
     Sva -- tý Ber -- nard,
@@ -56,10 +56,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "3 nic moc, zvlášť první třetina"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
