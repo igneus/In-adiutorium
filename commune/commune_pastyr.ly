@@ -484,7 +484,7 @@
     quid = "resp."
     modus = "VI"
     id = "rch-resp-velik"
-    placet = "repetenda musí být nutně více členěna"
+    placet = "2 repetenda je nelibě dlouhá - kandidát na příp. vlastní nápěv"
     piece = \markup {\sestavTitulekResp}
   }
 }

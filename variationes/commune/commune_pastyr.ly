@@ -2571,6 +2571,12 @@
   }
 }
 
+\markup\justify{
+  V roce 2014 jsem si k tomuto responsoriu poznamenal, že
+  \italic{repetenda musí být nutně více členěna,}
+  ale teď se přikláním k tomu, že stávající řešení je neideální,
+  ale stále ještě únosné, a v rámci daného nápěvového modelu nejlepší možné.
+}
 \score {
   \relative c' {
     \zvyraznovacModry
