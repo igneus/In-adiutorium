@@ -420,3 +420,29 @@ modVIIalal = \relative c'' { \neviditelna d e4 d c( d c) b c a g g \barFinalis \
     id = "vi"
   }
 }
+
+modEial = \relative c'' { \neviditelna a a4 bes g( a) a \barMaior }
+modEal = \relative c'' { \neviditelna g g4 g f a \barFinalis }
+modEalal = \relative c'' { \neviditelna a a4 bes a g( f) g bes bes a \barFinalis \break }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+
+    % Vitezstvi
+    \modEial
+    a4 a a a a a a a a a a g \barFinalis
+    \modEal
+    \neviditelna a
+    a4 a a a a a a a a a a a a g g \barFinalis
+    \modEalal
+  }
+  \addlyrics {
+    \kantikumZjXIXtext
+  }
+  \header {
+    modus = "E"
+    id = "x"
+  }
+}
