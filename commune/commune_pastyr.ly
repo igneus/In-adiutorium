@@ -390,12 +390,12 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d d( a' g a) a \barMin a g a c b a g a a \barMaior
-    f g( a) a( g) g \barMin g f g f( e) d c c( d) \barFinalis
+    c4 c c( d c) c \barMin c c c b c a g a( c) b \barMaior
+    a b( c) a( g) g( a) \barMin a g f g a a-- g \barFinalis
 
-    d^\markup\rubrVelikAleluja e( f) d( c) d \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bo -- ží slo -- vo je pl -- né ži -- vo -- ta a sí -- ly,
@@ -405,10 +405,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 149"
-    placet = "3 zejm. konec spíš lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

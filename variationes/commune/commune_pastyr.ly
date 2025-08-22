@@ -2269,6 +2269,35 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d( a' g a) a \barMin a g a( b c) a g( a) a \barMaior
+    a a g( a) g g \barMin a a g f e( f d c) c \barMaior
+    d c d d( f) f \barMin f f f e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tak ať sví -- tí va -- še svět -- lo  li -- dem,
+    a -- by vi -- dě -- li va -- še dob -- ré skut -- ky
+    a ve -- le -- bi -- li va -- še -- ho Ot -- ce v_ne -- be -- sích.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \zvyraznovacSedy
+    \choralniRezim
     d4 d d( a' g a) a \barMin a g a c b a g a a \barMaior
     f g( a) a( g) g \barMin g f g f( e) d c c( d) \barFinalis
 
@@ -2282,10 +2311,137 @@
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 149"
-    id = ""
+    placet = "3 zejm. konec spíš lépe"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a' g a) a \barMin a g a c b a g a a \barMaior
+    f g( a) a( g) g \barMin g f \mark\sipka e f d c( e) d \barFinalis
+
+    c^\markup\rubrVelikAleluja e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží slo -- vo je pl -- né ži -- vo -- ta a sí -- ly,
+    je os -- třej -- ší než kaž -- dý dvoj -- seč -- ný meč.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a' g a) a \barMin a g a c b a g a \mark\sipka g \barMaior
+    g f( g) g( a) a \barMin a g f e f d( c) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží slo -- vo je pl -- né ži -- vo -- ta a sí -- ly,
+    je os -- třej -- ší než kaž -- dý dvoj -- seč -- ný meč.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a' g a) a \barMin a g a c b a g a g \barMaior
+    g f( g) g( a) a \barMin a g f \mark\sipka e( f) d c d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží slo -- vo je pl -- né ži -- vo -- ta a sí -- ly,
+    je os -- třej -- ší než kaž -- dý dvoj -- seč -- ný meč.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (Cestou úplně nového nápěvu se pouštím hlavně proto,
+  že se mi v rámci dosavadního nedaří najít opravdu uspokojivé
+  řešení pro závěr na _dvojsečný meč_)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( d c) c \barMin c c c b c a g a( c) b \barMaior
+    a b( c) a( g) g( a) \barMin a g f g a a-- g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží slo -- vo je pl -- né ži -- vo -- ta a sí -- ly,
+    je os -- třej -- ší než kaž -- dý dvoj -- seč -- ný meč.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d( e d) d \barMin d c b c b a b g g \barMaior
+    a f g( a) a \barMin c b a g a a-- g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží slo -- vo je pl -- né ži -- vo -- ta a sí -- ly,
+    je os -- třej -- ší než kaž -- dý dvoj -- seč -- ný meč.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
 }
