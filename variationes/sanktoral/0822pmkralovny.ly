@@ -38,13 +38,39 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4( a' bes) a \barMin g( a) bes a g g \barMaior
     g a g f( e d c) c \barMax
     d c( d) d( f) f \barMin
     f g( a) g f e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu,
+    na -- še -- mu Pá -- nu;
+    on u -- či -- nil
+    svou Mat -- ku na -- ší Krá -- lov -- nou.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4( a' bes) a \barMin g( a) bes a g g \barMaior
+    g a g f( e d c) c \barMax
+    d c( d) d( f) f \barMin
+    f \mark\sipka g g f e f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -173,6 +199,30 @@
     c d e d( c) d c \barMaior
     b c d e c b a a \barMin
     c \mark\sipka c a g f( g a) g \barFinalis
+  }
+  \addlyrics {
+    Pan -- no Ma -- ri -- a,
+    vzne -- še -- ná Krá -- lov -- no,
+    tys nám po -- ro -- di -- la Kris -- ta,
+    spa -- si -- te -- le svě -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a c) b( a g) a \barMin
+    c d e d( c) d c \barMaior
+    b c d e c b a a \barMin
+    c c \mark\sipka b a g( a g) g \barFinalis
   }
   \addlyrics {
     Pan -- no Ma -- ri -- a,
@@ -390,7 +440,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin
     g4 a c( b) a( g) g \barMaior
@@ -398,6 +448,182 @@
     a a \mark\sipka g a c b a c d d \barMaior
     e d c b( c) a( g) a( g) \barMin
     f( g a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    placet = "2 úplně nedrží pohromadě"
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek=27"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    \mark\sipka f g a b c b a c( d) d d \barMaior
+    e d c b( c) \mark\sipka a g
+    f( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    f g a b c b a c( d) d d \barMaior
+    \mark\sipka d e c b( c) a a( g) \barMin
+    a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    f g a b c b a c( d) d d \barMaior
+    d e c b( c) a a( g) \barMin
+    \mark\sipka f( g a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek=33"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    f g a b c b a c( d) d d \barMaior
+    d e c b( c) a \mark\sipka a
+    c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    f g a b c b a c( d) d d \barMaior
+    d \mark\sipka d d d( e) c c( a) \barMin
+    b( c) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    tys u -- vě -- ři -- la, že se spl -- ní,
+    co ti by -- lo ře -- če -- no od Pá -- na;
+    ny -- ní s_ním kra -- lu -- ješ
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "amag"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin
+    g4 a c( b) a( g) g \barMaior
+    c d e e e d c a( g) g \barMin
+    f g a b c b a c( d) d d \barMaior
+    d d \mark\sipka c d( e d) c a( g) \barMin
+    a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi,

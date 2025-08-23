@@ -22,7 +22,7 @@
     d4( a' bes) a \barMin g( a) bes a g g \barMaior
     g a g f( e d c) c \barMax
     d c( d) d( f) f \barMin
-    f g( a) g f e f( d) c( d) d \barFinalis
+    f g g f e f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu,
@@ -74,8 +74,8 @@
     g4( c) c c( b) c a4. a \barMin
     g4 a c( b) a( g) g \barMaior
     c d e e e d c a( g) g \barMin
-    a a g a c b a c d d \barMaior
-    e d c b( c) a( g) a( g) \barMin
+    f g a b c b a c( d) d d \barMaior
+    d e c b( c) a a( g) \barMin
     f( g a) a( g) g \barFinalis
   }
   \addlyrics {
@@ -91,9 +91,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "2 úplně nedrží pohromadě"
     id = "amag"
-    fial = "commune/commune_maria.ly#2ne-amag?zacatek=27"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek=33"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
