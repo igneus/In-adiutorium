@@ -2238,10 +2238,37 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c b g( a g) g \barMaior
+    f g a \mark\sipka a g( a) \barMin
+    c c b c a g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( d a g) a( b c) \barMin b c d( e f) e d( e) e \barMaior
     d d c( a c) c( b) b \barMin c c b( c) a b( c d) d \barMaior
@@ -2261,6 +2288,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Dan 3-III"
+    placet = "4 divoká, lépe"
     id = ""
     piece = \markup {\sestavTitulek}
   }
@@ -2274,6 +2302,33 @@
     d c d d( f) f \barMin f f f e c e( f) d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tak ať sví -- tí va -- še svět -- lo  li -- dem,
+    a -- by vi -- dě -- li va -- še dob -- ré skut -- ky
+    a ve -- le -- bi -- li va -- še -- ho Ot -- ce v_ne -- be -- sích.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d( e f d) d \barMin f g g( a) f f( g) g \barMaior
+    a g f g g( f) \barMin g g f e d( e d c) c \barMaior
+    d c d d( f) f \barMin f f f e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Tak ať sví -- tí va -- še svět -- lo  li -- dem,

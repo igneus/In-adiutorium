@@ -363,13 +363,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a( d a g) a( b c) \barMin b c d( e f) e d( e) e \barMaior
-    d d c( a c) c( b) b \barMin c c b( c) a b( c d) d \barMaior
-    d d( f d) e( c) c( d) d( c) \barMin d c b a g g( a) a a \barFinalis
+    d4 c d( e f d) d \barMin f g g( a) f f( g) g \barMaior
+    a g f g g( f) \barMin g g f e d( e d c) c \barMaior
+    d c d d( f) f \barMin f f f e c e( f) d d \barFinalis
 
-    g^\markup\rubrVelikAleluja a( b) a a \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Tak ať sví -- tí va -- še svět -- lo  li -- dem,
@@ -380,10 +380,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "I"
+    differentia = "D"
     psalmus = "Dan 3-III"
-    placet = "4 divoká, lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
