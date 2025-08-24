@@ -263,10 +263,10 @@
   \relative c'' {
     \choralniRezim
     c4 c b a b( c) a a \barMaior
-    g a c( b) c( d) d \barMin
-    c d e e d c d( e) e \barMin
-    d e e( f e) e \barMaior
-    e d c b( c) a g a( g) \barMin f g a( c b g) g \barFinalis
+    g a c c( d) d \barMin
+    d d e f e d c( d) d \barMin
+    c b a( b) a( g) \barMaior
+    a a c d( c) a a \barMin c b g b( c a) a \barFinalis
   }
   \addlyrics {
     Vím, ko -- mu jsem u -- vě -- řil,_*
@@ -277,14 +277,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
+    modus = "IV alt"
     differentia = "c"
     psalmus = "Žalm 63"
-    placet = "delší recitace na e je pro antifony VII. modu hodně netypická,
-    ale jsem nakloněn myslet si, že tady je to tolerovatelné;
-    _a jsem ... dost moci_ nic moc - tři hodně krátké fráze, z toho dvě končí
-    stereotypně pes-punctum; tři dílčí závěry kolem tenoru působí už
-    únavně a přešponovaně"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }

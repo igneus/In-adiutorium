@@ -1914,7 +1914,7 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a b( c) a a \barMaior
     g a c( b) c( d) d \barMin
@@ -1932,6 +1932,64 @@
   \header {
     quid = "1. ant."
     modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    placet = "delší recitace na e je pro antifony VII. modu hodně netypická,
+    ale jsem nakloněn myslet si, že tady je to tolerovatelné;
+    _a jsem ... dost moci_ nic moc - tři hodně krátké fráze, z toho dvě končí
+    stereotypně pes-punctum; tři dílčí závěry kolem tenoru působí už
+    únavně a přešponovaně"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a b( c) a a \barMaior
+    g a \mark\sipka c c( d) d \barMin
+    c d e e d c \mark\sipka d d
+    c b a( b a g) g \barMaior
+    a a c d( c) e( d) d \barMin c b g b( c a) a \barFinalis
+  }
+  \addlyrics {
+    Vím, ko -- mu jsem u -- vě -- řil,_*
+    a jsem pře -- svěd -- čen,
+    že on, spra -- ved -- li -- vý soud -- ce,
+    má dost mo -- ci,
+    a -- by mi o -- chrá -- nil to, co mi svě -- řil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a b( c) a a \barMaior
+    g a c c( d) d \barMin
+    \mark\sipka d d e f e d c( d) d \barMin
+    c b a( b) a( g) \barMaior
+    a a c d( c) \mark\sipka a a \barMin c b g b( c a) a \barFinalis
+  }
+  \addlyrics {
+    Vím, ko -- mu jsem u -- vě -- řil,_*
+    a jsem pře -- svěd -- čen,
+    že on, spra -- ved -- li -- vý soud -- ce,
+    má dost mo -- ci,
+    a -- by mi o -- chrá -- nil to, co mi svě -- řil.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV alt"
     differentia = "c"
     psalmus = "Žalm 63"
     id = "rch-a1"
