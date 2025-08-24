@@ -357,6 +357,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 63"
+    placet = "2 _Nemůže se skrýt_ nevím"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
