@@ -160,6 +160,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d d c d e( f) d d \barMin
+    f g f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je tvým o -- chrán -- cem
+    na všech tvých ces -- tách.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 121"
+    id = "tercie-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d d f e d( e) c c \barMin
     d f d c( d) d \barFinalis
   }
