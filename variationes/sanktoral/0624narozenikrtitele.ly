@@ -362,7 +362,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a) a \barMin
     b c d e d c b( c) a a \barMaior
@@ -380,6 +380,7 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Ef 1"
+    placet = "2 postupy _kdo se narodili_ a _nepovstal_ v rámci modu málo obvyklé"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -427,6 +428,31 @@
     quid = "3. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin
+    f f g a g f e( f) d d \barMaior
+    f f f e d c( d) c \barMin
+    d f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -3728,6 +3754,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d( e f d) d \barMin
+    \mark\sipka f g f d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Jan byl lam -- pa
+    ho -- ří -- cí a zá -- ří -- cí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Responsorium jako v 1. nešporách.}
@@ -3915,7 +3961,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 a c c c c e c c( d) d \barMin
     c b g a( g) g \barMaior
@@ -3982,6 +4028,45 @@
     id = "2ne-amag"
     fons = "2. část viz 1. nešp, 3. ant."
     fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?konec=27"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d f f f f e d d( e) e \barMin
+    e f d d( c) c \barMaior
+
+    d d f g f d d \barMax
+
+    c4 d d( f) f \barMin
+    f f g a g f e( f) d d \barMaior
+    f f f e d c( d) c \barMin
+    d f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Dí -- tě, kte -- ré se nám na -- ro -- di -- lo,
+    je víc než pro -- rok.
+
+    Spa -- si -- tel o něm ře -- kl:
+
+    Me -- zi tě -- mi,
+    kdo se na -- ro -- di -- li ze že -- ny,
+    ne -- po -- vstal ni -- kdo vět -- ší
+    než Jan Křti -- tel.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    fons = "2. část viz 1. nešp, 3. ant."
+    fial = "sanktoral/0624narozenikrtitele.ly#1ne-a3?cast=4-7"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
