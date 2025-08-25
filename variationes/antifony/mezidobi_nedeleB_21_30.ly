@@ -1604,6 +1604,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin
+    g g f( e) d d \barMaior
+    d f e d e c c \barMin
+    d c d( f e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kdo se po -- vy -- šu -- je,
+    bu -- de po -- ní -- žen,
+    a kdo se po -- ni -- žu -- je,
+    bu -- de po -- vý -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ne25b-2ne-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"26. neděle"}}
