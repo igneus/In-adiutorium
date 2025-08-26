@@ -34,7 +34,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d4( a') a \barMin a a a( g f) e d e( d) e f e \barMaior
     f g a g f g g e e \barMin \mark\sipka f g e \barFinalis
@@ -55,6 +55,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4( a') a \barMin a \mark\sipka g f e d e( d) e f e \barMaior
     f g a g f g g e e \barMin f g e \barFinalis
