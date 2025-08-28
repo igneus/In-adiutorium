@@ -8,7 +8,6 @@
 #   release.rb upload
 
 require 'colorized_string'
-require 'dotenv/load'
 require 'nokogiri'
 require 'thor'
 
