@@ -33,6 +33,9 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = "Benedictus"
+    placet = "sice hodně sahá na kvartu a nárazově na kvintu,
+    ale dílčí závěry jsou výhradně a recitace převážně na tercii,
+    takže převládající ráz odpovídá možná spíš modu II"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -59,6 +62,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "3 _volal_ není ono"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
