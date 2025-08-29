@@ -184,7 +184,7 @@
     \choralniRezim
     \key f \major
     d4( a' bes) a \barMin a( bes) a g g \barMaior
-    g f g g( a) g g f e c( d) d \barFinalis
+    g f g g( a) g f e f e( d) d \barFinalis
   }
   \addlyrics {
     Hlá -- sal Bo -- ží zá -- kon,
@@ -196,7 +196,6 @@
     differentia = "D"
     psalmus = "Žalm 112"
     status = "zruseno"
-    placet = "3 závěr nic moc"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
