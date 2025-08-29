@@ -220,3 +220,55 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d d c d f e d d \barMaior
+    g f g g( a) a \barMin a4 a g f e e \barMaior
+    f4 d d c d e f d d \barMax
+    d \mark\sipka c( a c d) d f g( f d) d \barMaior
+    e e d e f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Poz -- dě jsem si tě za -- mi -- lo -- val,
+    krá -- so tak dáv -- ná, a pře -- ce tak no -- vá,
+    poz -- dě jsem si tě za -- mi -- lo -- val!
+    Tys vo -- lal a kři -- čel
+    a tak jsi pro -- ra -- zil mou hlu -- cho -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d d c d f e d d \barMaior
+    g f g g( a) a \barMin a4 a g f e e \barMaior
+    f4 d d c d e f d d \barMax
+    d \mark\sipka d( f) d f g( f d) d \barMaior
+    e e d e f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Poz -- dě jsem si tě za -- mi -- lo -- val,
+    krá -- so tak dáv -- ná, a pře -- ce tak no -- vá,
+    poz -- dě jsem si tě za -- mi -- lo -- val!
+    Tys vo -- lal a kři -- čel
+    a tak jsi pro -- ra -- zil mou hlu -- cho -- tu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
