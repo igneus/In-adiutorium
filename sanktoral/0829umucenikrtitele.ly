@@ -47,7 +47,7 @@
     a4 g a c( d) d
     c e( d) d \barMaior
     c d c b a( g) \barMin
-    g f g a a a c b g( a) a \barFinalis
+    g f g g a a c b g( a) a \barFinalis
   }
   \addlyrics {
     Hos -- po -- din vztá -- hl
@@ -214,7 +214,7 @@
     \choralniRezim
     d e f g f e f d( c) c \barMaior
     d d c a c( d) d \barMin
-    d c d f f f e( d) c( d) d \barFinalis
+    d f f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Ja -- no -- vi u -- čed -- ní -- ci při -- šli,
@@ -267,7 +267,7 @@
   \relative c' {
     \choralniRezim
     f4 g( a g) f g g g( a) \barMaior
-    a g( a) g \barMin
+    f g( a) g \barMin
     g f g f e d c c \barMaior
     d c d d( f) \barMin
     g f e c( d) d \barFinalis
