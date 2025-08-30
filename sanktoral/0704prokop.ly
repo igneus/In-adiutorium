@@ -204,8 +204,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f f( g) f d d \barMaior
-    f f e f g g f e d( c) c \barMin
+    a4 g f g( a) a g g \barMaior
+    g a g f g g f e d( c) c \barMin
     d c( d) d( f) f f e( f) d d \barFinalis
   }
   \addlyrics {
@@ -267,15 +267,15 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a( d c) c( d) d \barMaior
-    d d d d( f) d c c( d) d \barMaior
-    d d d c a a \barMin bes( a) g f g g \barMax
-    f g a b! c d( c) c( d) d \barMaior
-    d d d c d c( b a) \barMin
-    b c d d d( f e) c c( d) \barMaior
-    d d( c b) a( g) a( g) \barMin f( g a) b c( a g) g \barFinalis
+    d4 d d( a' g) g( a) a \barMaior
+    a a a a( c) a g g( a) a \barMaior
+    a a a g e e \barMin f( g) a g e e \barMax
+    d e f d c f( g) g( a) a \barMaior
+    a a a c b g( a) \barMin
+    a a g f e( f) d( c) c \barMaior
+    d c( d) d( f) f \barMin g( f e) c e( f d) d \barFinalis
   }
   \addlyrics {
     Sva -- tý Pro -- ko -- pe,
@@ -288,11 +288,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     status = "zruseno"
-    placet = "zejm. ta stupnice na _pomáhej nám svou přímluvou_ je nelibá"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

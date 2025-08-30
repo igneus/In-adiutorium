@@ -1403,7 +1403,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g f f( g) f d d \barMaior
     f f e f g g f e d( c) c \barMin
@@ -1429,6 +1429,29 @@
     \choralniRezim
     a4 g f \mark\sipka g( a) a g g \barMaior
     g a g g f g f e d( c) c \barMin
+    d c( d) d( f) f f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Bůh na něj shlé -- dl s_lás -- kou
+    a pro je -- ho po -- ko -- ru a skrom -- nost
+    jej po -- zve -- dl a po -- vý -- šil.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Zj 15"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g( a) a g g \barMaior
+    g a g \mark\sipka f g g f e d( c) c \barMin
     d c( d) d( f) f f e( f) d d \barFinalis
   }
   \addlyrics {
@@ -1621,10 +1644,140 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 f g f( g) \barMin g g g a f g( a g4.) g4 \barMaior
+    a bes g f e( f d c) c \barMax
+    d d d c d d f f \barMin f g( f) e c e( f d) d \barFinalis
+    % V
+    \neviditelna g
+    a4( g a) g \barMin f g a a( b c a) g( a) a \barMin
+    a g f f( g) f d d \barMaior
+    d f f e d f g a g g \barMin
+    a a g f e f d( c) c \barMax
+    % R
+    \neviditelna d
+    d d d c d d f f \barMin f g( f) e c e( f d) d \barFinalis
+    % Slava
+    a'4( g a4.) g4 \barMin f g a a( b c a) a \barMin
+    a g f e( f) d d( c) \barFinalis
+  }
+  \addlyrics {
+    \Response O -- de -- šel sám na o -- puš -- tě -- né mís -- to,
+    a -- by se tam mod -- lil._*
+    Mno -- zí ho ná -- sle -- do -- va -- li a chvá -- li -- li Bo -- ha.
+    \Verse Ro -- sou ne -- bes -- ké moud -- ros -- ti
+    svla -- žo -- val je -- jich srd -- ce
+    a rád -- lem své -- ho po -- u -- čo -- vá -- ní
+    zú -- rod -- ňo -- val je -- jich my -- sl._*
+    \Response Mno -- zí ho ná -- sle -- do -- va -- li a chvá -- li -- li Bo -- ha.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 f g f( g) \barMin g g g a f g( a g4.) g4 \barMaior
+    a bes g f e( f d c) c \barMax
+    d d d c d d f f \barMin f g( f) e c e( f d) d \barFinalis
+    % V
+    \neviditelna g
+    a4( g a) g \barMin f g a a( b c a) g( a) a \barMin
+    a g f f( g) f d d \barMaior
+    d f f e d f g a g g \barMin
+    a a \mark\sipka a a g f g( f d c) c \barMax
+    % R
+    \neviditelna d
+    d d d c d d f f \barMin f g( f) e c e( f d) d \barFinalis
+    % Slava
+    a'4( g a4.) g4 \barMin f g a a( b c a) a \barMin
+    a g f e( f) d d( c) \barFinalis
+  }
+  \addlyrics {
+    \Response O -- de -- šel sám na o -- puš -- tě -- né mís -- to,
+    a -- by se tam mod -- lil._*
+    Mno -- zí ho ná -- sle -- do -- va -- li a chvá -- li -- li Bo -- ha.
+    \Verse Ro -- sou ne -- bes -- ké moud -- ros -- ti
+    svla -- žo -- val je -- jich srd -- ce
+    a rád -- lem své -- ho po -- u -- čo -- vá -- ní
+    zú -- rod -- ňo -- val je -- jich my -- sl._*
+    \Response Mno -- zí ho ná -- sle -- do -- va -- li a chvá -- li -- li Bo -- ha.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  Opakování motivu _jejich srdce_ / _jejich mysl_
+  spíš není nápad hodný produkční verze,
+  ale přijde mi hodný uschování.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna d
+    d4 f g f( g) \barMin g g g a f g( a g4.) g4 \barMaior
+    a bes g f e( f d c) c \barMax
+    d d d c d d f f \barMin f g( f) e c e( f d) d \barFinalis
+    % V
+    \neviditelna g
+    a4( g a) g \barMin f g a a( b c a) g( a) a \barMin
+    a g f f( g) f d d \barMaior
+    d f f e d f g a g g \barMin
+    a a g f \mark\sipka g( a) g e e \barMax
+    % R
+    \neviditelna d
+    d d d c d d f f \barMin f g( f) e c e( f d) d \barFinalis
+    % Slava
+    a'4( g a4.) g4 \barMin f g a a( b c a) a \barMin
+    a g f e( f) d d( c) \barFinalis
+  }
+  \addlyrics {
+    \Response O -- de -- šel sám na o -- puš -- tě -- né mís -- to,
+    a -- by se tam mod -- lil._*
+    Mno -- zí ho ná -- sle -- do -- va -- li a chvá -- li -- li Bo -- ha.
+    \Verse Ro -- sou ne -- bes -- ké moud -- ros -- ti
+    svla -- žo -- val je -- jich srd -- ce
+    a rád -- lem své -- ho po -- u -- čo -- vá -- ní
+    zú -- rod -- ňo -- val je -- jich my -- sl._*
+    \Response Mno -- zí ho ná -- sle -- do -- va -- li a chvá -- li -- li Bo -- ha.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "I"
+    id = ""
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( d c) c( d) d \barMaior
     d d d d( f) d c c( d) d \barMaior
@@ -1648,6 +1801,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "zejm. ta stupnice na _pomáhej nám svou přímluvou_ je nelibá"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1693,6 +1847,37 @@
     f g a a a g( a) \barMin
     b c a a c( d) d b( a g) \barMaior
     g f( g) g( a) a \barMin g( f e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Pro -- ko -- pe,
+    du -- chov -- ní vůd -- ce svých brat -- ří,
+    ví -- tě -- zi nad tě -- lem, svě -- tem a ďáb -- lem,
+    po -- má -- hej nám svou pří -- mlu -- vou,
+    a -- by -- chom ja -- ko ty
+    bo -- jo -- va -- li dob -- rý boj
+    a do -- sáh -- li slá -- vy v_ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( a' g) g( a) a \barMaior
+    a a a a( c) a g g( a) a \barMaior
+    a a a g e e \barMin \mark\sipka f( g) a g e e \barMax
+    \mark\sipka d e f d c f( g) g( a) a \barMaior
+    a a a c b g( a) \barMin
+    a a g f e( f) d( c) c \barMaior
+    d c( d) d( f) f \barMin g( f e) c e( f d) d \barFinalis
   }
   \addlyrics {
     Sva -- tý Pro -- ko -- pe,
