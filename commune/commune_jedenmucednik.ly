@@ -837,8 +837,8 @@
     e( a) a g g( a) a a \barMin
     a a a a( e) e \barMin
     f( e f) d f f( e) e \barMax
-    a( g f) g( a) g f g( a) \barMin
-    a g f g( a) g f e e \barMaior
+    a( g f) g( a) a a e \barMin
+    a g f g( a) g f e e \barMin
     f f d( e) e \barFinalis
   }
   \addlyrics {
