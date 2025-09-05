@@ -52,10 +52,10 @@
 tIInedeleInespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    g4 f( g) a( c) c c b( c a4.) a \barMaior
-    c4 c d c c b a b( c) c c \barMin
-    d c a b a g g \barMaior
-    f g( a) g g \barFinalis
+    g4 a c c c d( c e d) d \barMaior
+    e4 d c( d) c c b c a g g \barMaior
+    a c b a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Při Je -- ží -- šo -- vě jmé -- nu
@@ -65,10 +65,9 @@ tIInedeleInespAntIII = \score {
   }
   \header {
     quid = "3. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Flp 2"
-    placet = "_koleno_ jaksi drhne"
     id = "1ne-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -238,9 +237,9 @@ tIInedeleInespAntIII = \score {
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f g f g( a) a g \barMin
-    g f g( a) g f f \barMaior
-    d f g( f) f \barFinalis
+    f4 f f f g f g( a) g g \barMaior
+    g f g( a) g f d \barMin
+    f g g( f) f \barFinalis
   }
   \addlyrics {
     Hos -- po -- din mi dá -- vá pro -- dlé -- vat na svě -- žích
@@ -251,7 +250,6 @@ tIInedeleInespAntIII = \score {
     modus = "VI"
     differentia = "F"
     psalmus = "Žalm 23"
-    placet = "_prodlévat_ je podezřelé"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
   }

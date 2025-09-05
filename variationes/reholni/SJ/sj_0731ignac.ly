@@ -905,7 +905,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f( g) a( c) c c b( c a4.) a \barMaior
     c4 c d c c b a b( c) c c \barMaior
@@ -995,6 +995,55 @@
     differentia = "G"
     psalmus = "Žalm 47"
     fial = "antifony/tyden2_1nedele.ly#1ne-ant3?zacatek"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c d( c e d) d \barMaior
+    e4 d c( d) c c b c a g g \barMaior
+    a c c \barMin b c a g f g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi, na ze -- mi i v_pod -- svě -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 47"
+    fial = "antifony/tyden2_1nedele.ly#1ne-ant3?cast=1-2"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c c d( c e d) d \barMaior
+    e4 d c( d) c c b c a g g \barMaior
+    a c c \barMin b c a g \mark\sipka g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při Je -- ží -- šo -- vě jmé -- nu
+    mu -- sí po -- klek -- nout kaž -- dé ko -- le -- no
+    na ne -- bi, na ze -- mi i v_pod -- svě -- tí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 47"
+    fial = "antifony/tyden2_1nedele.ly#1ne-ant3?cast=1-2"
     id = "mc-a2"
     piece = \markup\sestavTitulek
   }

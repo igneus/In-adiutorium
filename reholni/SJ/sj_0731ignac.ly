@@ -195,10 +195,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f( g) a( c) c c b( c a4.) a \barMaior
-    c4 c d c c b a b( c) c c \barMaior
-    c( d) c c \barMin
-    c b a g a g g \barFinalis
+    g4 a c c c d( c e d) d \barMaior
+    e4 d c( d) c c b c a g g \barMaior
+    a c c \barMin b c a g g( a) g g \barFinalis
   }
   \addlyrics {
     Při Je -- ží -- šo -- vě jmé -- nu
@@ -207,10 +206,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 47"
-    fial = "antifony/tyden2_1nedele.ly#1ne-ant3?zacatek=23"
+    fial = "antifony/tyden2_1nedele.ly#1ne-ant3?cast=1-2"
     id = "mc-a2"
     piece = \markup\sestavTitulek
   }
