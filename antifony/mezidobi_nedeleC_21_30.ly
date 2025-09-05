@@ -77,25 +77,25 @@
 \markup {\nadpisDen {"22. neděle"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a a g a f g g( a) a \barMaior
+    d4 f d d c f g g( a) a \barMaior
     a a g( f) f \barMin g g g f d d \barMax
-    d c d d d f e d f( g a) a( g) g \barMaior
+    d f f e d c d c f( g) g( a) a \barMaior
     a a g f f( g) f d d \barMin
-    c d e f g f e( f) d d \barFinalis
+    f f f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Když bu -- deš po -- zván na hos -- ti -- nu,
     jdi si sed -- nout na po -- sled -- ní mís -- to,
-    a po -- zve -- -li tě hos -- ti -- tel do -- pře -- du,
+    a po -- zve -li tě hos -- ti -- tel do -- pře -- du,
     bu -- de ti to ke cti u těch,
     kte -- ří bu -- dou s_te -- bou u sto -- lu.
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "a"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne22c-ne1-mag"
@@ -129,11 +129,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g a f( g) g( a) a \barMaior
-    f( g) f d \barMin f f e f d c c d d \barMaior
-    d f e d f( g a) a( g) g \barMin
+    d4 f e d( e) d( c) c \barMaior
+    f( g) g f \barMin f f e f d c d c c \barMaior
+    d d f d f( g) a( g) g \barMin
     a a g f e( f) d c( d) d \barFinalis
   }
   \addlyrics {
@@ -144,8 +144,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne22c-ne2-mag"

@@ -707,7 +707,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g a f g g( a) a \barMaior
     a a g( f) f \barMin \mark\sipka g g g f d d \barMax
@@ -789,10 +789,45 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f d d c f g g( a) a \barMaior
+    a a g( f) f \barMin g g g f d d \barMax
+    d \mark\sipka f f e d c d c f( g) g( a) a \barMaior
+    a a g f f( g) f d d \barMin
+    f f f f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Když bu -- deš po -- zván na hos -- ti -- nu,
+    jdi si sed -- nout na po -- sled -- ní mís -- to,
+    a po -- zve -li tě hos -- ti -- tel do -- pře -- du,
+    bu -- de ti to ke cti u těch,
+    kte -- ří bu -- dou s_te -- bou u sto -- lu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne22c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Zbabělý úhyb před tím, co by mohlo sklízet opovržlivé pohledy
+  jako hudební akcent na pomocném slovesu.
+  Předchozí varianta je ale o mnoho libější.
+  _budeš_ se v ní samozřejmě musí zazpívat lehce - je to prostě ozdobná počáteční
+  formule, naprosto ne hudební akcent na slovo.)
+}
+\score {
+  \relative c' {
     \choralniRezim
     \mark\sipka d4 d d f d f g g( a) a \barMaior
     a a g( f) f \barMin g g g f d d \barMax
-    d \mark\sipka f f e d c d c f( g) g( a) a \barMaior
+    d f f e d c d c f( g) g( a) a \barMaior
     a a g f f( g) f d d \barMin
     f f f f e c e( f) d d \barFinalis
   }
@@ -925,7 +960,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a f( g) g( a) a \barMaior
     f( g) f d \barMin f f e f d c c d d \barMaior
@@ -966,6 +1001,57 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne22c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d( e) d( c) c \barMaior
+    f( g) g f \barMin f f e f d c d c c \barMaior
+    d f e d f( g) a( g) g \barMin
+    a a g f g a f f \barFinalis
+  }
+  \addlyrics {
+    Když stro -- jíš hos -- ti -- nu,
+    po -- zvi ty, kdo ti ne -- ma -- jí čím od -- pla -- tit,
+    a do -- sta -- neš od -- mě -- nu
+    při vzkří -- še -- ní spra -- ved -- li -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    id = "ne22c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d( e) d( c) c \barMaior
+    f( g) g f \barMin f f e f d c d c c \barMaior
+    d \mark\sipka d f d f( g) a( g) g \barMin
+    a a g f \mark\sipka e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když stro -- jíš hos -- ti -- nu,
+    po -- zvi ty, kdo ti ne -- ma -- jí čím od -- pla -- tit,
+    a do -- sta -- neš od -- mě -- nu
+    při vzkří -- še -- ní spra -- ved -- li -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
     differentia = "D"
     psalmus = ""
     annus = "C"
