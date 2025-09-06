@@ -362,7 +362,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e f d( c) \barMin
     d d d f( e) f( g) g \barMaior
@@ -426,6 +426,35 @@
     f g f e d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Buď po -- chvá -- len Bůh,
+    on si nás vy -- vo -- lil,
+    a -- by -- chom by -- li sva -- tí
+    a ne -- po -- skvr -- ně -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka d e f d( c) \barMin
+    d f g a( g) f( g) g \barMaior
+    a a a g \mark\sipka f g( a g f) e( d) \barMin
+    c e f e d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Buď po -- chvá -- len Bůh,
@@ -1458,11 +1487,38 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c c( d) d \barMin
     \mark\sipka d c d f f g f g a g g \barMaior
     a a g f \mark\sipka g(^- f) d f e c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý
+    žá -- dal od te -- be ži -- vot, Hos -- po -- di -- ne;
+    o -- zdo -- bils ho ctí a vzne -- še -- nos -- tí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 21"
+    placet = "2 začátek půjde zpěvněji"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c c( d) d \barMin
+    d c d f f g f g a g g \barMaior
+    a a g f \mark\sipka e c f e c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d d \barFinalis
   }
@@ -1485,12 +1541,13 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-    d4 c c( d) d \barMin
-    d c d f f g f g a g g \barMaior
-    a a g f \mark\sipka e c f e c( d) d \barFinalis
+    \mark\sipka c4 d d( f) f \barMin
+    f f g f f g f g a g g \barMaior
+    a a g f \mark\sipka g^- a f e c( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vý

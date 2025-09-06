@@ -71,12 +71,12 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f e f d( c) \barMin
-    d d d f( e) f( g) g \barMaior
-    a a a g a g( f) f \barMin
-    f g f e d d \barFinalis
+    d4 d e f d( c) \barMin
+    d f g a( g) f( g) g \barMaior
+    a a a g f g( a g f) e( d) \barMin
+    c e f e d d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Buď po -- chvá -- len Bůh,
@@ -282,11 +282,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c c( d) d \barMin
-    d c d f f g f g a g g \barMaior
-    a a g f g(^- f) d f e c( d) d \barFinalis
+    c4 d d( f) f \barMin
+    f f g f f g f g a g g \barMaior
+    a a g f g^- a f e c( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vý
@@ -300,7 +300,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 21"
-    placet = "2 začátek půjde zpěvněji"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
