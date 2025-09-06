@@ -16,7 +16,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4( a') a \barMin a g f e d e( d) e f e \barMaior
+    d4( a') a \barMin a4 g f e d e( d) e f e \barMaior
     f g a g f g g e e \barMin f g e \barFinalis
   }
   \addlyrics {
