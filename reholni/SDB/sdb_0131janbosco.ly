@@ -129,7 +129,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VI"
-    differentia = "f"
+    differentia = "F"
     psalmus = ""
     id = "1ne-am"
     piece = \markup {\sestavTitulekBezZalmu}

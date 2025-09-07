@@ -157,7 +157,7 @@
     \header {
       quid = "ant."
       modus = "III"
-      differentia = "b"
+      differentia = "h"
       psalmus = ""
       fons_externus = "AR 1912, 14"
       id = "prima"

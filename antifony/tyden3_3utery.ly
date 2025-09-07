@@ -245,7 +245,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV"
+    modus = "IV alt"
     differentia = "A"
     psalmus = "Žalm 131"
     id = "ne-ant2"
