@@ -134,7 +134,7 @@
   \header {
     quid = "3. ant."
     modus = "VII"
-    differentia = "b"
+    differentia = "h"
     psalmus = "Žalm 19 A"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}

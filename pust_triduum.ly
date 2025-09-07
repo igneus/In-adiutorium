@@ -30,7 +30,7 @@
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "b"
+    differentia = "h"
     psalmus = "Žalm 72-I"
     id = "ct-nesp-ant1"
     fial = "mezidobi_kristakrale.ly#rch-aben"

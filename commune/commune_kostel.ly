@@ -380,7 +380,7 @@
   \header {
     quid = "ant. ke kantikům vigilie"
     modus = "VII"
-    differentia = "b"
+    differentia = "h"
     psalmus = ""
     fial = "antifony/tyden2_2pondeli.ly#rch-ant3?zacatek"
     id = "mc-avig"
@@ -429,7 +429,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "b"
+    differentia = "h"
     psalmus = "Dan 3-III"
     fial = "antifony/tyden2_2pondeli.ly#rch-ant3?jiny_text&+aleluja"
     id = "rch-a2"

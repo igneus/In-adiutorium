@@ -254,7 +254,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VII"
-    differentia = "b"
+    differentia = "h"
     psalmus = ""
     fial = "vanoce_narozenipane.ly#svrodiny-1ne-a2?+aleluja"
     id = "ivben"

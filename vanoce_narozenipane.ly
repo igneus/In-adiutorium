@@ -739,7 +739,7 @@
     \header {
       quid = "2. ant."
       modus = "VII"
-      differentia = "b"
+      differentia = "h"
       psalmus = "Žalm 147-II"
       id = "svrodiny-1ne-a2"
       piece = \markup {\sestavTitulek}

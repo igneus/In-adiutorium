@@ -410,8 +410,8 @@
   }
   \header {
     modus = "VII"
-    differentia = "b"
-    id = "VII-b"
+    differentia = "h"
+    id = "VII-h"
     piece = \markup\sestavTitulekBezZalmu
   }
   \layout { \layoutPsalmodie }
