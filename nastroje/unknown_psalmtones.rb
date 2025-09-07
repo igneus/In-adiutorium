@@ -43,7 +43,7 @@ ly_files = ARGV[1..-1]
 
 
 PsalmToneGroup.from_file(tones_file).each_pair do |name,tone|
-  tone.all.each {|t| tones << [t.name, t.diff] }
+  tone.all.each {|t| tones << [t.name.gsub('_', ''), t.diff] }
 end
 
 errors = 0

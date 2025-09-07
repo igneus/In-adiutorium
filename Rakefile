@@ -217,8 +217,8 @@ namespace :sanity do
   desc 'Report scores referencing unknown psalm tones'
   task :psalm_tones do
     ruby 'nastroje/unknown_psalmtones.rb',
-         '--add-tone=II.A', # TODO should we add it to psalmodie/zakladni.ly?
-         'psalmodie/zakladni.yml', *all_ly_files
+         'psalmodie/zakladni.yml',
+         *all_ly_files
   end
 end
 
