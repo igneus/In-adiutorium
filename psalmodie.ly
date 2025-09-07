@@ -322,22 +322,6 @@
     d4 c( d)
     d\breve*1/8 d4^! \parenthesize c c \barMin
     d\breve*1/8 c4 d e^! \parenthesize d d \barMaior
-    d\breve*1/8 c4 d e c^! \parenthesize a a( b) \barFinalis
-  }
-  \header {
-    modus = "IV alt"
-    differentia = "A*"
-    id = "IValt-A*"
-    piece = \markup\sestavTitulekBezZalmu
-  }
-  \layout { \layoutPsalmodie }
-}
-\score{
-  \relative c'' {
-    \choralniRezimPsalmodie
-    d4 c( d)
-    d\breve*1/8 d4^! \parenthesize c c \barMin
-    d\breve*1/8 c4 d e^! \parenthesize d d \barMaior
     d\breve*1/8 c4 d e c^! \parenthesize d d \barFinalis
   }
   \header {
