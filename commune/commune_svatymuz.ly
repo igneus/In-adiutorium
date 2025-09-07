@@ -392,9 +392,9 @@
   \relative c' {
     \choralniRezim
     d4 c e( f) d d f( g) f d( c) c \barMaior
-    d c d d( f) f \barMin f e c e( f d) c( d) d \barFinalis
+    d c d d( f) f \barMin f e c e( f) d d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Pán je za -- hr -- nul věč -- nou slá -- vou

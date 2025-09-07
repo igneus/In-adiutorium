@@ -1897,12 +1897,61 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c e( f) d d f( g) f d( c) c \barMaior
     d c d d( f) f \barMin \mark\sipka f e c e( f d) c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pán je za -- hr -- nul věč -- nou slá -- vou
+    a dal jim ú -- čast na věč -- ném dě -- dic -- tví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c e( f) d d f( g) f d( c) c \barMaior
+    d c d d( f) f \barMin f e c \mark\sipka e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán je za -- hr -- nul věč -- nou slá -- vou
+    a dal jim ú -- čast na věč -- ném dě -- dic -- tví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d d( f) d d f( g) f d( c) c \barMaior
+    d c d d( f) f \barMin f e c e( f) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Pán je za -- hr -- nul věč -- nou slá -- vou
@@ -2010,6 +2059,30 @@
     quid = "1. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g f g( a) a g g \barMaior
+    a g a a( c) c \barMin b c a g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pán je za -- hr -- nul věč -- nou slá -- vou
+    a dal jim ú -- čast na věč -- ném dě -- dic -- tví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -3071,6 +3144,34 @@
     g f e \mark\sipka f d d \barMaior
     d f e c d( c) \barMin
     d f e d( e) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Žád -- né lid -- ské o -- ko
+    ne -- vi -- dě -- lo, Bo -- že,
+    cos při -- pra -- vil těm,
+    kdo v_te -- be dou -- fa -- jí.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin
+    \mark\sipka e f d c c( d) d \barMaior
+    d \mark\sipka f e f d( c) \barMin
+    d \mark\sipka d f e( f) d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
