@@ -1729,6 +1729,29 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( e) e f( e) d( e) e \barMin
+    d e f g g a a g f
+    f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Ne -- be a ze -- mě po -- mi -- nou, a -- le má slo -- va ne -- po -- mi -- nou,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 119-IX"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d c d f e d( c) d \barMin f( g) d4. d c4 c f e d d \barFinalis
