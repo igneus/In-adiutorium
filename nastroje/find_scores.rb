@@ -1,6 +1,7 @@
 # Finds scores matching the specified condition(s)
 
 require 'optparse'
+require 'yaml'
 
 require 'lyv'
 
@@ -13,10 +14,18 @@ fail_found = false
 fail_not_found = false
 
 conditions = []
+header_values = {}
 
 OptionParser.new do |opts|
   opts.on '-m', '--matching=CODE', 'piece of Ruby code, variables `x` and `score` refer to the score, variable `header` is available' do |c|
     conditions << c
+  end
+  opts.on '-H', '--header=YAML', 'YAML mapping of score header fields and values' do |h|
+    hdr = YAML.load h
+    unless hdr.is_a? Hash
+      raise ArgumentError.new('Unexpected argument type, value of --header must be a YAML mapping (hash, dictionary), #{hdr.class} found')
+    end
+    header_values.update hdr
   end
 
   opts.separator 'Output'
@@ -44,7 +53,9 @@ matches_conditions = lambda do |x|
   header = x.header
   music = x.music
   fial = x.header['fial']&.yield_self {|f| FIAL.parse f }
-  conditions.all? {|c| eval c }
+
+  header_values <= x.header &&
+    conditions.all? {|c| eval c }
 end
 
 found = 0
