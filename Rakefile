@@ -213,6 +213,13 @@ namespace :sanity do
     ruby 'nastroje/identical_scores.rb',
          *all_dev_files.reject {|i| i.end_with? 'kratkeverse.ly' } # false positives; not very important, rarely edited
   end
+
+  desc 'Report scores referencing unknown psalm tones'
+  task :psalm_tones do
+    ruby 'nastroje/unknown_psalmtones.rb',
+         '--add-tone=II.A', # TODO should we add it to psalmodie/zakladni.ly?
+         'psalmodie/zakladni.yml', *all_ly_files
+  end
 end
 
 desc "All sanity checks"
