@@ -1163,10 +1163,42 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d d d( e f d) d \barMaior
     d c d d \mark\sipka f( g) f d d \barMaior
+    f g( f) f \barMin
+    g f g g( a) a \barMaior
+    a a a a( b c) a a \barMin
+    a a g f g( f) f \barMaior
+    g g g f d c d d d \barFinalis
+  }
+  \addlyrics {
+    Kdo při -- chá -- zí ke mně
+    a ne -- kla -- de své -- ho ot -- ce,
+    svou mat -- ku,
+    že -- nu a dě -- ti_–
+    a -- no i sám se -- be_–
+    až na dru -- hé mís -- to,
+    ne -- mů -- že být mým u -- čed -- ní -- kem.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne23c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d d d( e f d) d \barMaior
+    \mark\sipka c d f f f( g) f d d \barMaior
     f g( f) f \barMin
     g f g g( a) a \barMaior
     a a a a( b c) a a \barMin
