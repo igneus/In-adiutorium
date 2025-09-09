@@ -2380,7 +2380,7 @@ tInedeleIInespAntI = \score {
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g a( b) b c d c( b a) a \barMaior
     c( d e) d c c d d \barMin
@@ -2425,7 +2425,7 @@ tInedeleIInespAntI = \score {
 
 \score {
   \relative c'' {
-    \zvyraznovacZeleny
+    \zvyraznovacModry
     \choralniRezim
     g4 a g a( b) b c d c( b a4.) a4 \barMaior
     \mark\sipka c d e d( c) c( d) d \barMin
@@ -2612,6 +2612,46 @@ tInedeleIInespAntIII = \score {
 }
 
 \score { \tInedeleIInespAntIII }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a \barMin g f g( a) g \barMaior
+    g f g g( a) g( f) f \barMin
+    d4 f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán, náš Bůh vše -- mo -- hou -- cí, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a \barMin g f g( a) g \barMaior
+    g \mark\sipka a g f( g) f f
+    d4 f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán, náš Bůh vše -- mo -- hou -- cí, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \pageBreak
 

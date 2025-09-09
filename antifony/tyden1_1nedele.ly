@@ -317,8 +317,8 @@ tInedeleInespAntIII = \score {
 tInedeleIInespAntI = \score {
   \relative c'' {
     \choralniRezim
-    g4 a g a( b) b c d c( b a) a \barMaior
-    c( d e) d c c d d \barMin
+    g4 a g a( b) b c d c( b a4.) a4 \barMaior
+    c d e d( c) c( d) d \barMin
     d a( b) a( g) g \barFinalis
   }
   \addlyrics {
