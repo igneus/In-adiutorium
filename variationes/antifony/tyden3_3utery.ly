@@ -1634,6 +1634,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a g a c( a g) a \barMin
+    g f g( a) g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je všu -- de
+    ko -- lem své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 125"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c c b g \barMin
     f g a a a( g) g \barFinalis
   }
@@ -1897,6 +1917,26 @@
     \choralniRezim
     g4 g g g a g \barMin
     f g a f f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je všu -- de
+    ko -- lem své -- ho li -- du.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 125"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) a \barMin
+    g f g a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je všu -- de
