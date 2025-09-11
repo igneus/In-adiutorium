@@ -1872,7 +1872,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 c d d( e) d d \barMin
     d d c d c b a( g) g \barMin
@@ -1894,6 +1894,7 @@
     psalmus = ""
     annus = "A"
     fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    placet = "od _který vyšel_ lépe - nedrží pohromadě, nemá spád"
     id = "ne25a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2064,6 +2065,63 @@
     psalmus = ""
     annus = "A"
     fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d d c d c b a( g) g \barMin
+    a \mark\sipka a c a c d e( d) d \barMaior
+    d( e) d c( d) c c \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d \mark\sipka e f e d c c( d) d \barMaior
+    d d c a b c a( g) g \barMaior
+    f g g( a) a a \barMin
+    c a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?cast=1"
     id = "ne25a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

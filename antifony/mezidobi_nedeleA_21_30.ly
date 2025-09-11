@@ -347,9 +347,9 @@
   \relative c'' {
     \choralniRezim
     a4 c d d( e) d d \barMin
-    d d c d c b a( g) g \barMin
-    a a g f g a a( g) g \barMaior
-    a( c d) e d( c) c( d) d \barMin
+    d e f e d c c( d) d \barMaior
+    d d c a b c a( g) g \barMaior
+    f g g( a) a a \barMin
     c a c( b) a( g) g \barFinalis
   }
   \addlyrics {
@@ -365,8 +365,7 @@
     differentia = "a"
     psalmus = ""
     annus = "A"
-    fial = "commune/commune_svatazena.ly#rch-aben?zacatek"
-    placet = "od _který vyšel_ lépe - nedrží pohromadě, nemá spád"
+    fial = "commune/commune_svatazena.ly#rch-aben?cast=1"
     id = "ne25a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
