@@ -4041,6 +4041,11 @@
     Díliges Dóminum Deum tuum in toto corde tuo.
     \bold{[non plus]}
   }
+  \cantusid-link "003659"
+}
+\markup\justify{
+  Identická latinská antifona je \fial-link "antifony/pust_tyden3.ly#pa-aben" ,
+  kde ji DMC překládá věrně.
 }
 
 \score {
@@ -4091,6 +4096,58 @@
     psalmus = ""
     annus = "A"
     fial = "antifony/mezidobi_nedeleB_31_33.ly#ne31b-1ne-mag?zacatek&zjednoduseno"
+    id = "ne30a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \barMin \mark\sipka f( g) f d d \barMin
+    f e c c( d) d \barMaior
+    d c a c( d) d \barMin
+    d f( g) f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem,
+    ce -- lou svou du -- ší
+    a ce -- lou svou mys -- lí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleB_31_33.ly#ne31b-1ne-mag?cast=1"
+    id = "ne30a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c( d) d \barMin f( g) f d d \barMin
+    \mark\sipka d e c c( d) d \barMaior
+    d c a c( d) d \barMin
+    d f( g) f e d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj Pá -- na, své -- ho Bo -- ha,
+    ce -- lým svým srd -- cem,
+    ce -- lou svou du -- ší
+    a ce -- lou svou mys -- lí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/mezidobi_nedeleB_31_33.ly#ne31b-1ne-mag?cast=1"
     id = "ne30a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -4185,6 +4242,27 @@
     \choralniRezim
     f4 f g f g( a) g g \barMin
     \mark\sipka f d f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj své -- ho bliž -- ní -- ho
+    ja -- ko sám se -- be.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne30a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f \mark\sipka g g( a) a \barMin
+    g f g( a g) f f \barFinalis
   }
   \addlyrics {
     Mi -- luj své -- ho bliž -- ní -- ho
@@ -4314,7 +4392,7 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     f4 g a g f g g \barMaior
     \mark\sipka a a a g a g( f) d
@@ -4327,8 +4405,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "A"
     id = "ne30a-2ne-amag"
@@ -4387,6 +4465,29 @@
     d4 f d d c f( g a4.) a \barMaior
     a4( c) a a( g f) \barMin
     g f e( f) d c c d d \barFinalis
+  }
+  \addlyrics {
+    Na při -- ká -- zá -- ní lás -- ky
+    spo -- čí -- vá
+    ce -- lý Zá -- kon i Pro -- ro -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne30a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f d d c f( g a4.) a \barMaior
+    a4( c) a a( g f) \barMin
+    g \mark\sipka g f( g) f e d( e) d d \barFinalis
   }
   \addlyrics {
     Na při -- ká -- zá -- ní lás -- ky
