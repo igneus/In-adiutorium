@@ -130,10 +130,10 @@
     g( a) g g a( c d c) c( d) \barMin d d e d c( d) c c \barMaior
     b( c a) g g( a) g \barMax
 
-    g f g g( a) a \barMin
-    a c( d c) b a g a a \barMaior
-    c b c a \barMin
-    a a a g f g( a) a g g \barFinalis
+    g f g a( c) c \barMin
+    c d c d e d d \barMaior
+    c d d c \barMin
+    a c c b a g( f) a g g \barFinalis
   }
   \addlyrics {
     Tvé na -- ro -- ze -- ní, pa -- nen -- ská Bo -- ho -- ro -- dič -- ko,
@@ -188,8 +188,8 @@
   \relative c'' {
     \choralniRezim
     a4 a a a g( f d) e e( d) \barMin f g a a g( a) a \barMaior
-    a g( c) b( a) g( a) a \barMin g( a g) f e e \barMax
-    d( f g) a a \barMin a a g b c a a \barMaior f( e) f( d) c( d) d \barFinalis
+    a g( c) b( a) g( a) a \barMin g( a g) f e e \barMaior
+    d( f g) a a \barMin a a g b c a a \barMin f g( f) e( d) d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a se zro -- di -- la z_krá -- lov -- ské -- ho ro -- du
@@ -201,7 +201,6 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
-    placet = "závěr spíš lépe"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -211,7 +210,7 @@
   \relative c' {
     \choralniRezim
     f g g( a) a \barMin a a g a c( a g) a \barMaior
-    g( f) e( f d) d \barMin c d d( f) e c c( d) d \barFinalis
+    a g( f d4.) d4 \barMin c d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Ce -- lým srd -- cem o -- sla -- vuj -- me Kris -- ta
@@ -282,8 +281,8 @@
     c4 b a g c( d) e d \barMaior
     f e d e d \barMin
     d e e d c b c a g g \barMaior
-    a a c b a( g) g \barMin
-    f g a g g \barFinalis
+    a a a c b g \barMin
+    a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Sva -- tá Bo -- ží Ro -- dič -- ko,
@@ -309,7 +308,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( f e4.) e \barMin d4 e f g f e g a a a \barMaior
+    a4 g( f e4.) e \barMin d4 e f f e d f g g( a) a \barMaior
     a g a b g g a a \barMin g( a) g e e \barMaior
     f f f e( d) d( e) e \barMin f g g( a) g f( e) e \barFinalis
   }
