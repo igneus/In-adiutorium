@@ -1093,7 +1093,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) a a \mark\sipka a a g a c c b b \barMaior
     a a e( f d) e \barMaior
@@ -1109,6 +1109,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "3 _Syn člověka_ nesedí"
     id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1138,6 +1139,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 \mark\sipka a( c) a a \barMin a a g a c c b b \barMaior
     a a e( f d) e \barMaior

@@ -314,7 +314,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g( a) a a a a g a c c b b \barMaior
     a a e( f d) e \barMaior
@@ -356,6 +356,33 @@
     psalmus = ""
     annus = "C"
     fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-1ne-mag?zacatek"
+    id = "ne12c-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( c) a a \barMin a a g a c c b b \barMaior
+    a a e( f d) e \barMaior
+    f g a a g( a) \barMin g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Syn člo -- vě -- ka bu -- de mu -- set mno -- ho tr -- pět,
+    bu -- de za -- bit
+    a tře -- tí -- ho dne bu -- de vzkří -- šen.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleB_21_30.ly#ne24b-1ne-mag?cast=1-3"
     id = "ne12c-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

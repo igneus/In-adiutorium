@@ -224,7 +224,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g( a) a a a a g a c c b b \barMaior
+    a4 a( c) a a \barMin a a g a c c b b \barMaior
     a a e( f d) e \barMaior
     f g a g( a) \barMin a( b) g f( e) e \barFinalis
   }
@@ -238,7 +238,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
-    placet = "3 _Syn člověka_ nesedí"
     id = "ne24b-1ne-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
