@@ -410,6 +410,23 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Cum iucunditáte Nativitátem beátæ Maríæ \concat{celebr\bold{émus,}}
+    ut ipsa pro nobis intercédat ad \bold{Dóminum} Iesum \bold{Christum.}
+  }
+  \cantusid-link "002016"
+}
+\markup\justify{
+  Srov. latinským textem hodně podobnou \fial-link "commune/commune_maria.ly#sob-aben1"
+  (ale po hudební stránce samostatnou \cantusid-link "001596"),
+  kterou DMC překládá mnohem těsněji při předloze, ale štítí se myšlenky,
+  že bychom si snad slavením svátku získávali přízeň nebeské přímluvkyně,
+  a přání \italic{ut ipsa pro nobis intercédat}
+  mění na konstatování faktu \italic{ona za nás oroduje.}
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -466,6 +483,32 @@
     \mark\sipka a( c b) g( a) a( g) \barMaior
     c d c b( c) a a \barMin
     g( f) a a( g) g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    sla -- ví -- me tvé na -- ro -- ze -- ní,
+    Ma -- ri -- a,
+    pros za nás Je -- ží -- še,
+    své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4( g) g( a) a \barMin
+    c c b a g a a( g) g \barMin
+    a( g) f( g) g \barMaior
+    c d c b( c) a a \barMin
+    g( f) a \mark\sipka g g \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí
