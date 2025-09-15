@@ -35,7 +35,7 @@
     psalmus = ""
     placet = "melisma na _Spasiteli_ je divné"
     id = "invit"
-    fial = "sanktoral/0624narozenikrtitele.ly#invit?zacatek"
+    fial = "sanktoral/0624narozenikrtitele.ly#invit?cast=1-2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
