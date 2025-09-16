@@ -89,7 +89,7 @@
     \choralniRezim
     a4 a( b) a( g) a \barMin
     a c( d) d c e d \barMaior
-    c( d c) b a g g f( g) a g g \barFinalis
+    c( d c) b a g g f( a) a g g \barFinalis
   }
   \addlyrics {
     Bůh roz -- ho -- dl,
@@ -160,6 +160,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "2 _neboť tys vytrvala_ a _v nebeské slávě_ je slabší"
     id = "rch-aben"
     fons = "melodie vznikla upravováním melodie 1. ant. r.ch. z Nanebevzetí"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -219,8 +220,8 @@
     \choralniRezim
     d4 d d d f e d( e) c \barMin
     d f e e d \barMaior
-    f f f f e( f d c) c \barMin
-    d d d f e d c( d e) d \barFinalis
+    f f f f g( f d4.) d \barMin
+    c4 d f f e d c( d e) d \barFinalis
   }
   \addlyrics {
     V_Kris -- tu má -- me vy -- kou -- pe -- ní
