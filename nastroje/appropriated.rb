@@ -11,7 +11,7 @@ require_relative 'lib/music_repository'
 class AppropriatedAntiphons
   def initialize(data, repo=nil)
     @data = data
-    @repo ||= MusicRepository.new
+    @repo = repo || MusicRepository.new
   end
 
   Celebration = Struct.new(:date, :title, :rank, :communia, :ant_benedictus, :ant_magnificat) do
