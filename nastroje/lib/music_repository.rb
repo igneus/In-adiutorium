@@ -3,9 +3,10 @@ require_relative '../fial'
 
 # Convenient interface for loading parsed music
 class MusicRepository
-  def initialize
+  def initialize(base_dir: nil)
     @repo = Hash.new do |hash, key|
-      hash[key] = Lyv::LilyPondMusic.new key
+      path = base_dir ? File.join(base_dir, key) : key
+      hash[key] = Lyv::LilyPondMusic.new path
     end
   end
 
