@@ -86,8 +86,9 @@ class AppropriatedAntiphons
     end
 
     path = "commune/commune_#{_common}.ly"
-    unless File.exist? path
-      raise "File #{path} doesn't exist"
+    music = @repo.music_by_path(path)
+    unless music
+      raise "File #{path} not found"
     end
 
     [
@@ -100,8 +101,12 @@ class AppropriatedAntiphons
           .gsub(/((rehol|vych|milo)-)rch-/, '\1') # TODO standardize those chant IDs
           .gsub(/((rehol|vych|milo)-)2ne/, '\1ne2')
 
-      fial = "#{path}##{chant_id}"
-      @repo.music_by_path(path)[chant_id] ? fial : fial + '1'
+      ids = [chant_id, chant_id + '1']
+
+      ids
+        .find {|i| music[i] }
+        &.yield_self {|i| "#{path}##{i}" } ||
+        raise("None of #{ids.inspect} found in #{path}")
     end
   end
 end
