@@ -802,6 +802,28 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a a( b c) a a \barMaior
+    g f e( f d) d \mark\sipka c( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus mu -- sel tr -- pět
+    a vstát z_mrt -- vých,
+    a tak ve -- jít do své slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacZelenyII
     \choralniRezim
     d4 c f g f( a) a \barMin
@@ -1021,12 +1043,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c( d) c c \barMin d e d c( b a g) g \barMaior
     a a a \mark\sipka a g f g a a \barMin
     c c b a g( a) g g \barMin
     f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kří -- žem za -- čí -- ná Kris -- to -- va vlá -- da,
+    před ním se skloň kaž -- dé ko -- le -- no
+    na ne -- bi i na ze -- mi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 8"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c( d) c c \barMin d e d c( b a g) g \barMaior
+    a a a a g f g a a \barMin
+    c c b a g( a) g \mark\sipka f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Kří -- žem za -- čí -- ná Kris -- to -- va vlá -- da,
@@ -1163,6 +1210,59 @@
   }
   \header {
     textus_approbatus = "Svatý kříži, ty jediný jsi byl hoden nést Krále a Pána nebe. Aleluja."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 96"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a \barMin
+    a c c b a g( a) a \barMaior
+    a( g f) g-- d d \mark\sipka d( e) c c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý kří -- ži,
+    %ty je -- di -- ný jsi byl ho -- den
+    ty je -- di -- nýs byl ho -- den
+    nést Krá -- le a Pá -- na ne -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Svatý kříži, ty jediný jsi byl hoden nést Krále a Pána nebe. Aleluja."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 96"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (oficiální text)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a \barMin
+    a \mark\sipka c b a4.( g) f4 g g( a) a \barMaior
+    a( g f) g-- d d d( f) e c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý kří -- ži,
+    ty je -- di -- ný jsi byl ho -- den
+    nést Krá -- le a Pá -- na ne -- be.
+    A -- le -- lu -- ja.
+  }
+  \header {
     quid = "3. ant."
     modus = "I"
     differentia = "D"
@@ -1997,6 +2097,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a( g) g( a) \barMin a( c) c c b g b( c) a a \barMaior
+    a g f g( a) a g f g e e \barMax
+    \mark\sipka d f g( a) a a \barMin c b a( b) g g \barMaior
+    \mark\sipka f( g a) g( f) e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás, Kris -- te, náš Vy -- ku -- pi -- te -- li,
+    ve -- li -- kou mo -- cí a si -- lou kří -- že;
+    ty jsi za -- chrá -- nil Pet -- ra na mo -- ři,
+    smi -- luj se i nad ná -- mi.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    fons = "melodie volně podle následující"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2214,6 +2339,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a b c b a b \barMin
+    b b c d c b a a \barMaior
+    a a g g f( e d e) d \barMin
+    f \mark\sipka g( a) a( c) b \barMin b( c a) g f( g a) g \barFinalis
+  }
+  \addlyrics {
+    Po -- di -- vu -- hod -- né dí -- lo
+    Bo -- ží mi -- lo -- srd -- né lás -- ky!
+    Smrt mu -- se -- la ze -- mřít,
+    když na kří -- ži ze -- mřel ži -- vot.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 d b d e d d \barMin
     d d d b c b g g \barMaior
     c c c a c b \barMaior
@@ -2323,13 +2472,42 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( d) d d d( c d) e c c( d) d \barMaior
     d e( d) c( d) c \barMin
     a g a a( c) b a b a a \barMax
     c d e d( c b) a \barMin
     \mark\sipka b a g b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Tvé -- mu kří -- ži se kla -- ní -- me, Pa -- ne,
+    a sla -- ví -- me
+    pa -- mát -- ku tvé -- ho u -- mu -- če -- ní;
+    tr -- pěl jsi za nás,
+    smi -- luj se nad ná -- mi.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 116-II"
+    placet = "na _a slavíme_ nedrží dobře pohromadě"
+    id = "2ne-a2"
+    fial = "pust_triduum.ly#pa-rch-ant3?zacatek=15"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a( d) d d d( c d) e c c( d) d \barMaior
+    d \mark\sipka c( d) c( a) a \barMin
+    a g a a( c) b a b a a \barMax
+    c d e \mark\sipka d( c) b( a) \barMin
+    c b g b( c) a a \barFinalis
   }
   \addlyrics {
     Tvé -- mu kří -- ži se kla -- ní -- me, Pa -- ne,
@@ -2446,6 +2624,14 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    O crux gloriósa, * In te triumphávit \bold{Rex angelórum. [et non plus]}
+    V. Et cruóre suo vúlnera nostra lavit.
+  }
+}
 
 \score {
   \relative c' {

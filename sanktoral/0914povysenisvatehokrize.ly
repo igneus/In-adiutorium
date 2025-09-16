@@ -197,8 +197,8 @@
     \choralniRezim
     d4 d c( d) c c \barMin d e d c( b a g) g \barMaior
     a a a a g f g a a \barMin
-    c c b a g( a) g g \barMin
-    f g( a) g g \barFinalis
+    c c b a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Kří -- žem za -- čí -- ná Kris -- to -- va vlá -- da,
@@ -334,6 +334,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "2 _znamení_ úplně nesedí"
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -360,6 +361,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 63"
+    placet = "2 _vlastní_ divné a přetížené"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -581,10 +583,10 @@
   \relative c'' {
     \choralniRezim
     a4 a a( d) d d d( c d) e c c( d) d \barMaior
-    d e( d) c( d) c \barMin
+    d c( d) c( a) a \barMin
     a g a a( c) b a b a a \barMax
-    c d e d( c b) a \barMin
-    b a g b( c) a a \barFinalis
+    c d e d( c) b( a) \barMin
+    c b g b( c) a a \barFinalis
   }
   \addlyrics {
     Tvé -- mu kří -- ži se kla -- ní -- me, Pa -- ne,
