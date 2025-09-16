@@ -27,6 +27,8 @@ class AppropriatedAntiphons
   end
 
   def each
+    return to_enum(__method__) unless block_given?
+
     @data.each do |item|
       yield Celebration.new(
               item['dies'].match(/^(\d{2})(\d{2})$/) do |m|
