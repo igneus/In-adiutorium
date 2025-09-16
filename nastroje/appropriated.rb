@@ -16,7 +16,11 @@ class AppropriatedAntiphons
 
   Celebration = Struct.new(:date, :title, :rank, :communia, :ant_benedictus, :ant_magnificat) do
     def antiphons
-      [ant_benedictus, ant_magnificat].compact
+      @antiphons ||= [ant_benedictus, ant_magnificat].compact
+    end
+
+    def has_antiphons?
+      !antiphons.empty?
     end
   end
 
