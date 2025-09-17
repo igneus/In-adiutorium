@@ -1020,7 +1020,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) a( g) g \barMin
     f a c b a c a b g g \barMaior
