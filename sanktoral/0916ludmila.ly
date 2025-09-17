@@ -69,8 +69,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g g( a) g g \barMin
-    a a g f g a a( g) g \barMaior
+    g4 f g g( a) a a \barMin
+    c c b a g a a( g) g \barMaior
     g a c c d d c d d( c) c \barMin
     a a( c) b a g( a) g g \barFinalis
   }
@@ -102,7 +102,7 @@
     f f f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a g( a) g \barMin g g g g g g g g g f g( a) a( g) \barMax
+    a4 a a( bes) a \barMin a a a a g a g f g g g( a) a( g) \barMax
     % R
     \neviditelna a
     g g g a g( f) d d \barMin

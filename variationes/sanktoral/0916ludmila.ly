@@ -452,10 +452,35 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 f g g( a) g g \barMin
     a a g f g a a( g) g \barMaior
+    g a c c d d c d d( c) c \barMin
+    a a( c) b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    By -- la si vě -- do -- ma
+    hro -- zí -- cí -- ho ne -- bez -- pe -- čí,
+    a pro -- to se u -- tí -- ka -- la k_Bo -- hu
+    a vrouc -- ně se mod -- li -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g g( a) \mark\sipka a a \barMin
+    c c b a g a a( g) g \barMaior
     g a c c d d c d d( c) c \barMin
     a a( c) b a g( a) g g \barFinalis
   }
@@ -584,7 +609,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -624,6 +649,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
