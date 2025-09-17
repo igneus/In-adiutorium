@@ -57,13 +57,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 c c( d) d \barMaior
-    f e d e( f) d d \barMin
-    f g g f f \barMaior
-    g g \barMin g g a g f e f d( c) c \barMin
-    d c d( f) e c( d) d \barFinalis
+    a4 g g( a) a \barMaior
+    c b a b( c) a a \barMin
+    c d d c c \barMaior
+    d d \barMin d d e d c b c a( g) g \barMin
+    a g f a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš ře -- kl:
@@ -74,11 +74,10 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "A"
-    placet = "2 závěr je ne zcela uspokojivý, možná je to dokonce závěr falešný"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

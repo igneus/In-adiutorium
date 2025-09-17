@@ -466,7 +466,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c c( d) d \barMaior
     f e d e( f) d d \barMin
@@ -487,6 +487,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
+    placet = "2 závěr je ne zcela uspokojivý, možná je to dokonce závěr falešný"
     id = "imag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -542,6 +543,34 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G*"
+    psalmus = ""
+    annus = "A"
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g g( a) a \barMaior
+    c b a b( c) a a \barMin
+    c d d c c \barMaior
+    d d \barMin d d e d c b c a( g) g \barMin
+    a \mark\sipka g f a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    O -- de -- jdi sa -- ta -- ne,
+    ne -- boť je psá -- no:
+    Pá -- nu, své -- mu Bo -- hu, se bu -- deš kla -- nět
+    a jen je -- mu slou -- žit.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     id = "imag2"
