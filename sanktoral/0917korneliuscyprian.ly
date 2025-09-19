@@ -35,10 +35,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    d c d f f \barMin
-    g( a) g f( e d) d \barMaior
-    f e d c c \barMin
-    d f e( d c d) d \barFinalis
+    d4 f e d c \barMin
+    f g a( g f) g \barMaior
+    a f e d d \barMin
+    e c f( e c d) d \barFinalis
   }
   \addlyrics {
     Círk -- vi Kris -- to -- va,
@@ -48,7 +48,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "amag"

@@ -298,7 +298,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d c d f f \barMin
     g( a) g f( e d) d \barMaior
@@ -335,6 +335,31 @@
     Círk -- vi Kris -- to -- va,
     na -- še mat -- ko,
     krev mu -- čed -- ní -- ků je tvou slá -- vou.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d c \barMin
+    f g a( g f) g \barMaior
+    \mark\sipka a f e d d \barMin
+    e c f( e c d) d \barFinalis
+  }
+  \addlyrics {
+    Círk -- vi Kris -- to -- va,
+    na -- še mat -- ko,
+    krev mu -- čed -- ní -- ků
+    je tvou slá -- vou.
   }
   \header {
     quid = "ant. k Magnificat"
