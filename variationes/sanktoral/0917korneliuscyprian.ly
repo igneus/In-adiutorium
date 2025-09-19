@@ -334,7 +334,7 @@
   \addlyrics {
     Círk -- vi Kris -- to -- va,
     na -- še mat -- ko,
-    krev mu -- čed -- ní -- ků je tvu slá -- vou.
+    krev mu -- čed -- ní -- ků je tvou slá -- vou.
   }
   \header {
     quid = "ant. k Magnificat"
