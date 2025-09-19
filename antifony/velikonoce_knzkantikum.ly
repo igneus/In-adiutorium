@@ -12,9 +12,9 @@
 velikTIpondeliNespAntIII = \score {
   \relative c' {
     \choralniRezim
-    d4 d d f g g a( g a c b) a4. a \barMaior
-    a4( g) g( d) d \barMin d( e) f g f e( f d) d \barMin
-    e c c( d) d \barFinalis
+    e4 e e g a a b( g) g( a) a \barMaior
+    g( a) g( f e4.) e \barMin f4 g a g f( e) e \barMaior
+    f f d( e) e \barFinalis
   }
   \addlyrics {
     Až bu -- du ze ze -- mě vy -- vý -- šen,_*
@@ -23,8 +23,8 @@ velikTIpondeliNespAntIII = \score {
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "D"
+    modus = "IV"
+    differentia = "E"
     psalmus = "Ef 1"
     id = "t1-po"
     fial = "antifony/pust_nedeleB.ly#vmag2?+aleluja"

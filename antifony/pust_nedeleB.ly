@@ -371,8 +371,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d f g g a( g a c b) a4. a \barMaior
-    a4( g) g( d) d \barMin d( e) f g f e( f d) d \barFinalis
+    e4 e e g a a b( g) g( a) a \barMaior
+    g( a) g( f e4.) e \barMin f4 g a g f( e) e \barFinalis
   }
   \addlyrics {
     Až bu -- du ze ze -- mě vy -- vý -- šen,
@@ -380,10 +380,9 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "D"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
-    placet = "2 _vy_ to extravagantní melisma moc dobře nenese"
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }

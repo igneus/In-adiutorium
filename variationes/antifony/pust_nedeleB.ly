@@ -2765,6 +2765,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d f g g a( g a c b) a4. a \barMaior
     a4( g) g( d) d \barMin d( e) f g f e( f d) d \barFinalis
@@ -2778,6 +2779,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
+    placet = "2 _vy_ to extravagantní melisma moc dobře nenese"
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2967,6 +2969,47 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e g a a b( g) a a \barMaior
+    a( b) g( f e4.) e \barMin f4 g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e g a a b( g) \mark\sipka g( a) a \barMaior
+    \mark\sipka g( a) g( f e4.) e \barMin f4 g a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
