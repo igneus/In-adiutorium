@@ -6,7 +6,9 @@ require 'open3'
 
 require 'highline'
 
-stdin, stdout = Open3.popen2 'ruby', 'nastroje/antigrep.rb', *ARGV
+editfial_args, antigrep_args = ARGV.partition {|x| x == '-V' }
+
+stdin, stdout = Open3.popen2 'ruby', 'nastroje/antigrep.rb', *antigrep_args
 options = stdout.each_line.to_a
 
 highline = HighLine.new
@@ -18,4 +20,4 @@ end
 
 fial = chosen.split.last
 
-system 'ruby', 'nastroje/editfial.rb', '--variationes', fial
+system 'ruby', 'nastroje/editfial.rb', *editfial_args, fial
