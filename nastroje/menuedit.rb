@@ -11,8 +11,14 @@ require 'highline'
 editfial_args, antigrep_args = ARGV.partition {|x| x == '-V' }
 
 options = []
-Open3.popen2('ruby', 'nastroje/antigrep.rb', *antigrep_args) do |_, stdout|
+Open3.popen2('ruby', 'nastroje/antigrep.rb', *antigrep_args) do |_, stdout, wait_thr|
   options = stdout.each_line.to_a
+
+  status = wait_thr.value
+  if status != 0
+    STDERR.puts "antigrep.rb failed (#{status}), exiting"
+    exit status.exitstatus
+  end
 end
 
 chosen = HighLine.new.choose do |c|
@@ -23,4 +29,4 @@ end
 
 fial = chosen.split.last
 
-system 'ruby', 'nastroje/editfial.rb', *editfial_args, fial
+exec 'ruby', 'nastroje/editfial.rb', *editfial_args, fial
