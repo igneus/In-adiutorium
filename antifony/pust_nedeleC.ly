@@ -121,12 +121,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g c d c( e) e \barMin
-    d b c a( g) g \barMaior
-    f g a a a c b c d d \barMin
-    d( e d c) d( c) \barMin c c c c b a g a g g \barFinalis
+    d4 c f g f( a) a \barMin
+    g e f d( c) c \barMaior
+    d f f e d f g a g g \barMaior
+    a( bes a g) f( g) \barMin g a g f e d c e( f) d d \barFinalis
   }
   \addlyrics {
     Náš Pán Je -- žíš Kris -- tus
@@ -136,10 +136,9 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
-    placet = "2 začátek je pro modus VII netypický a naopak charakteristický pro modus I"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

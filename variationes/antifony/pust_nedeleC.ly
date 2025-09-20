@@ -903,7 +903,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g c d c( e) e \barMin
     d b c a( g) g \barMaior
@@ -920,6 +920,32 @@
     quid = "ant. k Benedictus"
     modus = "VII"
     differentia = "a"
+    psalmus = ""
+    placet = "2 začátek je pro modus VII netypický a naopak charakteristický pro modus I"
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    g e f d( c) c \barMaior
+    \mark\sipka d f f e d f g a g g \barMaior
+    a( bes a g) f( g) \barMin g a g f e d c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Náš Pán Je -- žíš Kris -- tus
+    zlo -- mil moc smr -- ti
+    a při -- ne -- sl nám v_e -- van -- ge -- li -- u
+    svět -- lo ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -958,6 +984,54 @@
     a g f g( a) g \barMaior
     g a a g f e f d c c \barMaior
     \mark\sipka c( d f g) g \barMin a g f e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Náš Pán Je -- žíš Kris -- tus
+    zlo -- mil moc smr -- ti
+    a při -- ne -- sl nám v_e -- van -- ge -- li -- u
+    svět -- lo ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a g f g( a) g \barMaior
+    g a a g f e f d c c \barMaior
+    \mark\sipka d( f g a) a( g) \barMin f g a g f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Náš Pán Je -- žíš Kris -- tus
+    zlo -- mil moc smr -- ti
+    a při -- ne -- sl nám v_e -- van -- ge -- li -- u
+    svět -- lo ne -- po -- mí -- je -- jí -- cí -- ho ži -- vo -- ta.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "iiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a g f g( a) g \barMaior
+    g a a g f e f d c c \barMaior
+    \mark\sipka d( c d) d( f) \barMin g a g f e d c e( f) d d \barFinalis
   }
   \addlyrics {
     Náš Pán Je -- žíš Kris -- tus
