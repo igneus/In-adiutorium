@@ -1,3 +1,5 @@
+# menuedit.rb [options for editfial.rb] [arguments for antigrep.rb]
+#
 # Finds scores by lyrics,
 # lets the user interactively select one,
 # opens it in an editor.
@@ -8,11 +10,12 @@ require 'highline'
 
 editfial_args, antigrep_args = ARGV.partition {|x| x == '-V' }
 
-stdin, stdout = Open3.popen2 'ruby', 'nastroje/antigrep.rb', *antigrep_args
-options = stdout.each_line.to_a
+options = []
+Open3.popen2('ruby', 'nastroje/antigrep.rb', *antigrep_args) do |_, stdout|
+  options = stdout.each_line.to_a
+end
 
-highline = HighLine.new
-chosen = highline.choose do |c|
+chosen = HighLine.new.choose do |c|
   c.prompt = 'Choose chant to edit (the first one is default):'
   c.choices(*options)
   c.default = options.first
