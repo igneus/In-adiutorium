@@ -235,9 +235,9 @@
   \relative c'' {
     \choralniRezim
     a4 g( a) \barMin a g a c( a) a \barMin a a g f e( f d c) c \barMaior
-    d f f f g f g g a g f f( g) f f \barMaior
+    d f f f g f g a a g f f( g) f f \barMaior
     f g f f e f d c c \barMin
-    d c d e( f d) c( d) d \barFinalis
+    d f e f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Kdo z_vás, když má sto ov -- cí a jed -- nu z_nich ztra -- tí,
@@ -260,8 +260,8 @@
   \relative c' {
     \choralniRezim
     f4 f f f g( a) f f( g) g \barMin
-    a a g f e f d d c c \barMaior
-    c d f g f g g \barMaior
+    a a g f g a g f( e) d d( c) \barMaior
+    d f f e d f( g) g \barMaior
     a g f( g) f f \barMin e f d c( d) d \barFinalis
   }
   \addlyrics {
@@ -289,8 +289,8 @@
     a a g f g f g g( f) f \barMin
     f g g g f( e d c) c \barMaior
     c d d( f) f g( a) f f \barMin
-    f g f f e( f) d( c) d( c) \barMin
-    d c d e( f d) c( d) d \barFinalis
+    f g a g f( e) d( c) d( c) \barMin
+    d f e f( d) c( d) d \barFinalis
   }
   \addlyrics {
     Kte -- rá že -- na,
