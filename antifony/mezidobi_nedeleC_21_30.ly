@@ -343,8 +343,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( a) a f g g( a) a \barMaior
-    a b( c a) a \barMin a a b a g g \barFinalis
+    g4 g g( a) g f g g( a) a \barMaior
+    c c b a g f a g g \barFinalis
   }
   \addlyrics {
     Kdo je věr -- ný v_ma -- lič -- kos -- ti,
@@ -364,10 +364,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g g a a \barMin
-    a a a g( f) f g( f) g g( f) f \barMaior
-    g a g f d( c) c \barMin
-    f f f g( a) g( f) f \barFinalis
+    f4 g g( a) g g \barMin
+    a bes a g( f) f g( f) e d( c) c \barMaior
+    d d c d d( f) f \barMin
+    g f g g( a) g( f) f \barFinalis
   }
   \addlyrics {
     Žád -- ný slu -- žeb -- ník
