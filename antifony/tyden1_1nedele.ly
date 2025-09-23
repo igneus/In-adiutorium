@@ -43,6 +43,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 142"
+    placet = "2 úzká samohláska _ú_děl dlouhé melisma moc dobře nenese"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }
