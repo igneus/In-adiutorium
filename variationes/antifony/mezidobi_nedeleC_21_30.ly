@@ -2512,6 +2512,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 b d( e) d d \barMin
+    d d d c a c b g g \barMaior
+    a a f g g( a) a \barMin
+    c a a c( b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Žád -- ný slu -- žeb -- ník
+    ne -- mů -- že slou -- žit dvě -- ma pá -- nům.
+    Ne -- mů -- že -- te slou -- žit
+    Bo -- hu i ma -- mo -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "C"
+    id = "ne25c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"26. neděle"}}
