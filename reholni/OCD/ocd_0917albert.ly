@@ -97,17 +97,25 @@
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a a c b g \barMin
+    a a f e d e e \barMaior
+    e f( g a) g \barMin
+    g a b b b( c) b b d c b b \barMaior
+    g a g f e e \barFinalis
   }
   \addlyrics {
-    Pojďte za mnou všichni, kdo horlíte pro zákon! A mnozí, kdo hledali právo a spravedlnost, odcházeli na poušť.
+    Pojď -- te za mnou všich -- ni,
+    kdo hor -- lí -- te pro zá -- kon!
+    A mno -- zí,
+    kdo hle -- da -- li prá -- vo a spra -- ve -- dl -- nost,
+    od -- chá -- ze -- li na poušť.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "III"
+    differentia = "a"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
