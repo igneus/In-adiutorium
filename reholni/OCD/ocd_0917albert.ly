@@ -59,15 +59,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c d d( f) f \barMin
+    f f g g f e d d \barFinalis
   }
   \addlyrics {
-    Hospodinův zákon ať je vždy ve vašich ústech.
+    Hos -- po -- di -- nův zá -- kon
+    ať je vždy ve va -- šich ús -- tech.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 92-I"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
