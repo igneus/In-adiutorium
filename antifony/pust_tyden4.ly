@@ -27,11 +27,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 a c b( a) a \barMaior
-    f( g a) c a \barMin
-    c d d d c( b a) g( a) a \barFinalis
+    f4 d f e( c) d \barMaior
+    a c( d) d \barMin
+    f g g g f( e d) c( d) d \barFinalis
   }
   \addlyrics {
     Pro -- buď se, spá -- či,
@@ -40,10 +40,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 130"
-    placet = "2 neobvyklý a nepříliš zpěvný začátek; _vstaň_ nenese dlouhé melisma úplně dobře"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }

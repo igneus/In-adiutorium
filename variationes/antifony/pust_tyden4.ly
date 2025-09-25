@@ -54,6 +54,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 a c b( a) a \barMaior
     f( g a) c a \barMin
@@ -69,6 +70,7 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Žalm 130"
+    placet = "2 neobvyklý a nepříliš zpěvný začátek; _vstaň_ nenese dlouhé melisma úplně dobře"
     id = "ne-1ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -201,6 +203,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 d f e( c) d \barMaior
     \mark\sipka a c( d) d \barMin
