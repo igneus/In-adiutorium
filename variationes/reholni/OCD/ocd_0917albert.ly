@@ -89,6 +89,66 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin f( g) a f f( g) g \barMaior
+    a a g f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Pá -- nu,
+    nej -- vyš -- ší -- mu Zá -- ko -- no -- dár -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin \mark\sipka g a f f( g) g \barMaior
+    a a g f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Pá -- nu,
+    nej -- vyš -- ší -- mu Zá -- ko -- no -- dár -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin \mark\sipka g f a g g \barMaior
+    a a g f e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Pá -- nu,
+    nej -- vyš -- ší -- mu Zá -- ko -- no -- dár -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -111,6 +171,52 @@
     quid = "1. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 21"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g a g g \barMin
+    a a a g f g( a) a( g) g \barMaior
+    a a a c b g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý má za -- lí -- be -- ní
+    v_Hos -- po -- di -- no -- vě zá -- ko -- ně
+    a pře -- mí -- tá o něm dnem i no -- cí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 21"
+    id = "mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g a g g \barMin
+    a a a g f g( a) a( g) g \barMaior
+    a a a c b g \mark\sipka \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý má za -- lí -- be -- ní
+    v_Hos -- po -- di -- no -- vě zá -- ko -- ně
+    a pře -- mí -- tá o něm
+    dnem i no -- cí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 21"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -385,56 +491,118 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c d d( f) f \barMin
+    g a g f( e) d( c) \barMin
+    d d c d e f d c c( d) d \barFinalis
   }
   \addlyrics {
-    Dej mi poznat cestu, kterou mám kráčet, neboť k tobě pozvedám svou duši.
+    Dej mi po -- znat ces -- tu,
+    kte -- rou mám krá -- čet,
+    ne -- boť k_to -- bě po -- zve -- dám svou du -- ši.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 15"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c \barMin c c c b a g a g g \barMaior
+    g f g( a) a g \barMin f g a g a( c) b g g \barFinalis
   }
   \addlyrics {
-    Synu, zachovávej má přikázání a můj zákon střež jako zřítelnici oka.
+    Sy -- nu, za -- cho -- vá -- vej má při -- ká -- zá -- ní
+    a můj zá -- kon střež
+    ja -- ko zří -- tel -- ni -- ci o -- ka.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 112"
+    fial = "commune/commune_reholnikatd.ly#vych-amag?cast=1"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( c) c \barMin c c c b a g a g g \barMaior
+    g \mark\sipka a f e d \barMin f g a g f a g g \barFinalis
   }
   \addlyrics {
-    Pán je spravedlivý ve všem, milostivý ve všech svých skutcích.
+    Sy -- nu, za -- cho -- vá -- vej má při -- ká -- zá -- ní
+    a můj zá -- kon střež
+    ja -- ko zří -- tel -- ni -- ci o -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 112"
+    fial = "commune/commune_reholnikatd.ly#vych-amag?cast=1"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c \barMin c c c b a g a g g \barMaior
+    g a f e d \barMin f g a \mark\sipka c b a g g \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, za -- cho -- vá -- vej má při -- ká -- zá -- ní
+    a můj zá -- kon střež
+    ja -- ko zří -- tel -- ni -- ci o -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 112"
+    fial = "commune/commune_reholnikatd.ly#vych-amag?cast=1"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f e d f( g) g \barMaior
+    a g f( g) f \barMin
+    e f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pán je spra -- ved -- li -- vý ve všem,
+    mi -- los -- ti -- vý
+    ve všech svých skut -- cích.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 15"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
