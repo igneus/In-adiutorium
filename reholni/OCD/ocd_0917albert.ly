@@ -145,18 +145,22 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( c) c \barMin c c c b a g a g g \barMaior
+    a c b g a \barMin g f g a a a g g \barFinalis
   }
   \addlyrics {
-    Synu, zachovávej má přikázání a můj zákon střež jako zřítelnici oka.
+    Sy -- nu, za -- cho -- vá -- vej má při -- ká -- zá -- ní
+    a můj zá -- kon střež
+    ja -- ko zří -- tel -- ni -- ci o -- ka.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 112"
+    fial = "commune/commune_reholnikatd.ly#vych-amag?cast=1"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

@@ -578,6 +578,51 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c \barMin c c c b a g a g g \barMaior
+    g a f e d \barMin \mark\sipka e f g a a a g g \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, za -- cho -- vá -- vej má při -- ká -- zá -- ní
+    a můj zá -- kon střež
+    ja -- ko zří -- tel -- ni -- ci o -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 112"
+    fial = "commune/commune_reholnikatd.ly#vych-amag?cast=1"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( c) c \barMin c c c b a g a g g \barMaior
+    \mark\sipka a c b g a \barMin g f g a a a g g \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, za -- cho -- vá -- vej má při -- ká -- zá -- ní
+    a můj zá -- kon střež
+    ja -- ko zří -- tel -- ni -- ci o -- ka.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 112"
+    fial = "commune/commune_reholnikatd.ly#vych-amag?cast=1"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
