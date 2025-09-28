@@ -39,17 +39,21 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c b a g a g g \barMin
+    a a a g f g( a) a( g) g \barMaior
+    a a a c b g a g f( g) g \barFinalis
   }
   \addlyrics {
-    Spravedlivý má zalíbení v Hospodinově zákoně a přemítá o něm dnem i nocí.
+    Spra -- ved -- li -- vý má za -- lí -- be -- ní
+    v_Hos -- po -- di -- no -- vě zá -- ko -- ně
+    a pře -- mí -- tá o něm dnem i no -- cí.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 21"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}

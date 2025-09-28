@@ -149,6 +149,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g( a) g f f( g) g \barMin
+    a a g f g a g f f \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Pá -- nu,
+    nej -- vyš -- ší -- mu Zá -- ko -- no -- dár -- ci.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
@@ -179,6 +199,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c c b a g a g g \barMin
     a a a g f g( a) a( g) g \barMaior
@@ -492,12 +513,34 @@
   \relative c' {
     \choralniRezim
     d4 d c d d( f) f \barMin
-    g a g f( e) d( c) \barMin
+    g a g f( e) d( c) \barMaior
     d d c d e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Dej mi po -- znat ces -- tu,
     kte -- rou mám krá -- čet,
+    ne -- boť k_to -- bě po -- zve -- dám svou du -- ši.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka c4 d d( f) f \barMin
+    g f g a g f( e) d( c) \barMaior
+    d d c d e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Dej mi po -- znat
+    ces -- tu, kte -- rou mám krá -- čet,
     ne -- boť k_to -- bě po -- zve -- dám svou du -- ši.
   }
   \header {
@@ -647,20 +690,94 @@
   }
 }
 
-\pageBreak
-
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d f f e d f( g) g \barMaior
+    a g f( g) f \barMin
+    e f \mark\sipka d( c) c( d) d \barFinalis
   }
   \addlyrics {
-    Kristova nauka ať je u vás ve své plné síle; z celého srdce s vděčností zpívejte Bohu.
+    Pán je spra -- ved -- li -- vý ve všem,
+    mi -- los -- ti -- vý
+    ve všech svých skut -- cích.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c c b a g( a) g \barMaior
+    f g g( a) a \barMin
+    a c b g g \barFinalis
+  }
+  \addlyrics {
+    Pán je spra -- ved -- li -- vý ve všem,
+    mi -- los -- ti -- vý
+    ve všech svých skut -- cích.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 15"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c c \barMin
+    c c c c b c a g g( a) g \barMaior
+    g f g g( a) a \barMin
+    b c a c a b g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- to -- va na -- u -- ka
+    ať je u vás ve své pl -- né sí -- le;
+    z_ce -- lé -- ho srd -- ce
+    s_vděč -- nos -- tí zpí -- vej -- te Bo -- hu.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c c \barMin
+    c c a g a g f g g( a) a \barMaior
+    a b c a g a g f \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- to -- va na -- u -- ka
+    ať je u vás ve své pl -- né sí -- le;
+    z_ce -- lé -- ho srd -- ce
+    s_vděč -- nos -- tí zpí -- vej -- te Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
