@@ -137,7 +137,7 @@
     f4 a g g \barMin
     a g f g a g f d d \barMaior
     d c d f( g) g \barMin
-    f g g( a) g f f \barFinalis
+    g f g( a) g f f \barFinalis
   }
   \addlyrics {
     Ke kaž -- dé -- mu,

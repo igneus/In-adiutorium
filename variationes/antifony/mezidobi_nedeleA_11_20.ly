@@ -658,12 +658,40 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 a g g \barMin
     a g f g a g f d d \barMaior
     d c d f( g) g \barMin
     f g g( a) g f f \barFinalis
+  }
+  \addlyrics {
+    Ke kaž -- dé -- mu,
+    kdo se ke mně při -- zná před lid -- mi,
+    i já se při -- znám
+    před svým Ot -- cem v_ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#1ne-a1?-aleluja"
+    id = "ne12a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 a g g \barMin
+    a g f g a g f d d \barMaior
+    d c d f( g) g \barMin
+    g f g( a) g f f \barFinalis
   }
   \addlyrics {
     Ke kaž -- dé -- mu,

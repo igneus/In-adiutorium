@@ -17,9 +17,9 @@
     f4 a g g \barMin
     a g f g a g f d d \barMaior
     d c d f( g) g \barMin
-    f g g( a) g f f \barFinalis
+    g f g( a) g f f \barFinalis
 
-    g^\markup\rubrVelikAleluja a f f \barFinalis
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
     Ke kaž -- dé -- mu,
@@ -283,7 +283,7 @@
   \relative c' {
     \choralniRezim
     d4 d d c d d f e f d d
-    g f g( d) d \barMaior
+    f g f( d) d \barMaior
     d e f f g g g f( e) d d \barMin
     e c c( d) d \barFinalis
 
