@@ -2851,6 +2851,33 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 d f e d d \barMin
+    f f f f g( a) g g f d e( d) \barMin
+    c d f f f g f e( d) d \barMaior
+    \mark\sipka c d f f f g( a) g f( d) d \barMin
+    e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Sy -- nu, u -- vě -- dom si,
+    že ty ses měl do -- bře už za ži -- va,
+    La -- zar na -- pro -- ti to -- mu špat -- ně;
+    ny -- ní za -- tím -- co ty se trá -- píš,
+    on se ra -- du -- je.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne26c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2996,6 +3023,40 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f e d( c) c \barMaior
+    c d d( f) f f g( a bes) a g f f \barMax
+
+    g g g f d \barMin g f g bes a g g \barMaior
+    d f g g g g( a bes) a g( f) f \barMax
+
+    g f f g g \barMin \mark\sipka a bes a g f f \barMaior
+    g f g a g a f \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní, vy chu -- dí,
+    ne -- boť va -- še je Bo -- ží krá -- lov -- ství.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní hla -- do -- ví -- te,
+    ne -- boť bu -- de -- te na -- sy -- ce -- ni.
+
+    Bla -- ho -- sla -- ve -- ní, kdo ny -- ní plá -- če -- te,
+    ne -- boť se bu -- de -- te smát.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne6c-ne1-amag?zacatek=50"
+    id = "ne26c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"27. neděle"}}
@@ -3051,8 +3112,12 @@
   (Obsahuje vůbec tradiční repertoár nějakou až takhle krátkou?)
 }
 \markup\justify{
-  Mimochodem, Liturgia horarum má text delší:
-  \italic{Dixérunt apóstoli Dómino: Adáuge nobis fidem! allelúia.}
+  Liturgia horarum má text delší:
+  \italic{
+    \bold{Dixérunt apóstoli Dómino:}
+    Adáuge nobis fidem!
+    \bold{allelúia.}
+  }
 }
 \markup\justify{
   Stejný fígl, kdy oproti předloze uřízli vypravěčský úvod a tak evangelní průpověď
