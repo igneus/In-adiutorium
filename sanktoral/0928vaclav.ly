@@ -61,6 +61,7 @@
     modus = "III"
     differentia = "g"
     psalmus = ""
+    placet = "2 druhá půle nevím"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -168,13 +169,13 @@
     % R
     \neviditelna f
     f4 f f g f f g f g( a) a( g) \barMax
-    g g( a) g g f( d) f( g) g( f) f \barFinalis
+    f g( a) g g f( d) f( g) g f \barFinalis
     % V
     \neviditelna a
     a a g( a) g \barMin g g g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g( a) g g f( d) f( g) g( f) f \barFinalis
+    f g( a) g g f( d) f( g) g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -302,6 +303,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 116-I"
+    placet = "2 neelegantní postupy v druhé třetině"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
   }
