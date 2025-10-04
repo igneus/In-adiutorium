@@ -248,7 +248,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 e f d e c d \barMaior
+    d4 e f d c d d \barMaior
     f g g g a f g f d d \barMin
     d e f d c c \barMaior
     c d d( f) f f g( a g) f d d \barMin
@@ -361,6 +361,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 8"
+    placet = "2 začátek nevím"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -451,7 +452,7 @@
     \choralniRezim
     g4 g g( c) a g a g f g g \barMaior
     a( c) c \barMin c d c d d( c) c \barMaior
-    c b g a g f( g) g \barFinalis
+    a g a a( c) b g g \barFinalis
   }
   \addlyrics {
     An -- děl Ga -- bri -- el ře -- kl Ma -- ri -- i:
