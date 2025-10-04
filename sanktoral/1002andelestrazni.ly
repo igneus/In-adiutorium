@@ -245,7 +245,7 @@
     g g f g( a) g g f d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a g( a) g g f g g( a) \barMax
+    a4 a g( a) g f g g g( a) \barMax
     % R
     \neviditelna a
     g g f g( a) g g f d f( g) g( f) f \barFinalis
