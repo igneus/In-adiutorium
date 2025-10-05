@@ -2776,13 +2776,68 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( a') g g a a a( c) b g a a \barMaior
     a a a g f f g f d d \barMaior
     f f e d c c e f \mark\sipka f( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
+    bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
+    ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne4a-2ne-amag?cast=1"
+    id = "rch-aben2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') g g a a a( c) b g a a \barMaior
+    a a a g f f g f d d \barMaior
+    f f e d c c e f f( d) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
+    bla -- ho -- sla -- ve -- ní čis -- té -- ho srd -- ce,
+    ne -- boť o -- ni bu -- dou vi -- dět Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne4a-2ne-amag?cast=1"
+    id = "rch-aben2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a') g g a a a( c) b g a a \barMaior
+    a a a g f f g f d d \barMaior
+    f f e d c c e f f( d) d \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( f) d d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
@@ -2917,6 +2972,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    \mark\sipka d c d( e) d d \barMaior
+    a d b c a( g a4.) g4 \barMin
+    g f g g a a a c b g a a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kdo za -- cho -- vá -- vá
+    slo -- vo Kris -- to -- vo,
+    v_tom je Bo -- ží lás -- ka
+    o -- prav -- du při -- ve -- de -- na k_do -- ko -- na -- los -- ti.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -3019,6 +3102,34 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( c a4.) a \barMin
+    a4( g) a g f e f f( a) a \barMaior
+    a a( c b g) g \barMin
+    f e f g f d e e \barFinalis
+
+    f^\markup\rubrVelikAleluja f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Kdo pl -- ní vů -- li_*
+    mé -- ho ne -- bes -- ké -- ho Ot -- ce,
+    ten ve -- jde do ne -- bes -- ké -- ho krá -- lov -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden4_3utery.ly#rch-a1?cast=2,4-5"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }

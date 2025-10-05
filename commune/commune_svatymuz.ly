@@ -616,7 +616,7 @@
     a a a g f f g f d d \barMaior
     f f e d c c e f f( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    f^\markup\rubrVelikAleluja g( f) d d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní tvůr -- ci po -- ko -- je,
