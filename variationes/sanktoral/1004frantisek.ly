@@ -262,6 +262,29 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka d4( e) d d \barMin c b c c d d \barMaior
+    d d d c b a( b) a a \barMaior
+    c a c b a g a g g \barFinalis
+  }
+  \addlyrics {
+    Fran -- ti -- šek, chu -- dý a po -- kor -- ný,
+    ve -- šel do ne -- be bo -- ha -- tý,
+    ví -- tán ne -- bes -- ký -- mi zá -- stu -- py.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "sanktoral/1111martin.ly#rch-a3?cast=3"
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c b c a g( a) g g \barMin
     f g a c b c d d \barMaior
     d( e d c) d( c) \barMin b c a g a g g \barFinalis
