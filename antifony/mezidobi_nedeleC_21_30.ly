@@ -499,9 +499,9 @@
     d4 d d c d d( f) f \barMin
     g f g( a) g f d d \barMaior
     f f d f e d c c \barMaior
-    f g a a g a a \barMin
-    a c a g a( g) f( d) d \barMaior
-    f e d e d \barFinalis
+    f g a g a( c) a a \barMin
+    a a g f g( f) d( c) c \barMaior
+    d f e c c( d) \barFinalis
   }
   \addlyrics {
     Kdy -- by -- ste mě -- li ví -- ru
@@ -525,9 +525,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b a c b g g \barMaior
+    c4 c a c b g g \barMaior
     f g g a a \barMin
-    c c b a c b a g( a) g g \barFinalis
+    c c b a b c a g( a) g g \barFinalis
   }
   \addlyrics {
     Jsme je -- nom slu -- žeb -- ní -- ci.
