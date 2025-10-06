@@ -1527,6 +1527,36 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( a') a \barMin
+    a( g a) g f e e \mark\sipka f g f( e) g( a) a \barMaior
+    a g a c a \barMin
+    c b c a( g) g( a) a \barMaior
+    a( g) f e( f d4.) d4 \barMin d c d d( f) e d d \barMax
+    f g a a( bes a) a \barMin
+    g a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý kří -- ži,
+    po -- di -- vu -- hod -- né zna -- me -- ní spá -- sy,
+    Kris -- tus svou kr -- ví
+    na to -- bě pro -- li -- tou
+    zlo -- mil pý -- chu sta -- ré -- ho ne -- pří -- te -- le
+    a z_je -- ho mo -- ci
+    vy -- svo -- bo -- dil ce -- lý svět.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
