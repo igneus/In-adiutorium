@@ -182,6 +182,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 148"
+    placet = "_Chvalte_ nevím"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
   }
