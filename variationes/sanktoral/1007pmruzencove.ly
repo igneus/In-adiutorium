@@ -393,6 +393,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka e4( a b) a g( a) a a g e f e d( e) \barMaior
+    g f d d e e \barMax
+    e f e e f( g f e) e \barMaior
+    e( a b a) g a( g a) g( f) f( g) \barMin g f g e \barFinalis
+  }
+  \addlyrics {
+    Vy -- vý -- še -- na je Pan -- na Ma -- ri -- a
+    nad sbo -- ry an -- dě -- lů
+    a na je -- jí hla -- vě
+    zá -- ří ko -- ru -- na
+    z_dva -- nác -- ti hvězd.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Responsorium \upright{Buď zdráva, Maria,} viz společné texty o Panně Marii - 2. nešpory.}
@@ -790,12 +815,39 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 a c b c( d) c \barMin
     a g f g g \barMaior
     c c( d c) \barMin
     d f e( d) c( a) a \barMin
+    g f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se a ple -- sej,
+    Pan -- no Ma -- ri -- a,
+    tvůj Syn
+    slav -- ně vstal z_hro -- bu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 a c b c( d) c \barMin
+    a g f g g \barMaior
+    c c( d c) \barMin
+    d f \mark\sipka e d( c a) a \barMin
     g f g( f) f \barFinalis
   }
   \addlyrics {
@@ -1068,6 +1120,80 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d d c d e d c d d \barMaior
+    f f f e f \mark\sipka f( g) f f \barMin
+    e f d c( d) d( c) \barMaior
+    d f e d e d c( d) d  \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+    vše -- chno, co by -- lo ře -- če -- no
+    o je -- jím Sy -- nu,
+    a roz -- va -- žo -- va -- la o tom.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#vden-asexta?cast=1"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d e d c d d \barMaior
+    f f f e f f( g) f f \barMin
+    \mark\sipka d e d c( d) d( c) \barMaior
+    d f e d e d c( d) d  \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+    vše -- chno, co by -- lo ře -- če -- no
+    o je -- jím Sy -- nu,
+    a roz -- va -- žo -- va -- la o tom.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#vden-asexta?cast=1"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d c d e d c d d \barMaior
+    f f f e \mark\sipka d c( d) c c \barMin
+    d e f d d \barMaior
+    d e d c a c d d  \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a u -- cho -- vá -- va -- la v_srd -- ci
+    vše -- chno, co by -- lo ře -- če -- no o je -- jím Sy -- nu,
+    a roz -- va -- žo -- va -- la o tom.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "vanoce_narozenipane.ly#vden-asexta?cast=1,4"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 d d c d e d c d d \barMaior
@@ -1142,4 +1268,3 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
-

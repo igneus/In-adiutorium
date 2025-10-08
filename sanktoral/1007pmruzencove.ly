@@ -164,7 +164,7 @@
     f4 a c b c( d) c \barMin
     a g f g g \barMaior
     c c( d c) \barMin
-    d f e( d) c( a) a \barMin
+    d f e d( c a) a \barMin
     g f g( f) f \barFinalis
   }
   \addlyrics {
