@@ -63,10 +63,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4( d e) e( a b a) g( a) a a g e f e d( e) \barMaior
-    g f d d e e \barMax
-    e f e e f( g f e) e \barMaior
-    e( a b a) g a( g a) g( f) f( g) \barMin g f g e \barFinalis
+    e4( a b) a g( a) a a g e f e d( e) \barMin
+    g f d d e e \barMaior
+    e f e e f( g a) g \barMaior
+    g( a b) a g( a g) f( d) d( e) \barMin f g g e \barFinalis
   }
   \addlyrics {
     Vy -- vý -- še -- na je Pan -- na Ma -- ri -- a
@@ -80,7 +80,6 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 149"
-    placet = "nevím"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

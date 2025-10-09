@@ -237,6 +237,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c e d d \barMaior
+    d e( f) d( c) c \barMin
+    c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    S_te -- bou, Mat -- ko,
+    chvá -- lí -- me Pá -- na;
+    když u -- mí -- ral,
+    svě -- řil nás do tvé o -- chra -- ny.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -319,7 +343,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4( d e) e( a b a) g( a) a a g e f e d( e) \barMaior
     g f d d e e \barMax
@@ -395,11 +419,12 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-    \mark\sipka e4( a b) a g( a) a a g e f e d( e) \barMaior
-    g f d d e e \barMax
-    e f e e f( g f e) e \barMaior
-    e( a b a) g a( g a) g( f) f( g) \barMin g f g e \barFinalis
+    \mark\sipka e4( a b) a g( a) a a g e f e d( e) \barMin
+    g f d d e e \barMaior
+    e f e e \mark\sipka f( g a) g \barMaior
+    g( a b) a g( a g) f( d) d( e) \barMin f g g e \barFinalis
   }
   \addlyrics {
     Vy -- vý -- še -- na je Pan -- na Ma -- ri -- a
