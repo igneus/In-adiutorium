@@ -744,13 +744,13 @@
 
     % R
     \neviditelna f
-    f f f f f f g a g f f \barMin
-    g f e d e f d d \barMaior
-    d f f f f e g a \barMax
+    f f f f f f f f f f f \bar ""
+    f f f f f f g f \barMin
+    f f f f f e g a \barMax
     \respVIalelujaResponsum \barFinalis
     % V
     \neviditelna f
-    f f f f f g f f e g a \barMax
+    f f f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
@@ -768,7 +768,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "lépe"
     id = "2ne-resp-velik"
     piece = \markup {\sestavTitulekResp}
   }

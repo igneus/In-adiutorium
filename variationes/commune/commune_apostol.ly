@@ -3706,6 +3706,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -3717,6 +3718,81 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     % V
     \neviditelna f
     f f f f f g f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých či -- nech,
+    o -- sla -- vuj -- te je -- ho jmé -- no._* \textRespAleluja
+    \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f f f f f f \mark\sipka f f g f f \barMin
+    f f f f g a g g \barMaior
+    f g f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f g f f e g a \barMax
+    % R
+    \neviditelna a
+    \respVIalelujaResponsum \barFinalis
+    % Slava
+    \respVIalelujaDoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vuj -- te me -- zi vše -- mi ná -- ro -- dy
+    o Hos -- po -- di -- no -- vých či -- nech,
+    o -- sla -- vuj -- te je -- ho jmé -- no._* \textRespAleluja
+    \Verse Roz -- hla -- šuj -- te den po dni je -- ho spá -- su,_*
+    \Response \textRespAleluja
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-resp-velik"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  Repetenda sice \italic{je} pro tento nápěvový model neúnosně dlouhá, ale ze všech
+  zatím známých špatných řešení je toto špatné nejméně.
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f f f f f f f f f f f \bar ""
+    f f f f f f g f \barMin
+    f f f f f e g a \barMax
+    \respVIalelujaResponsum \barFinalis
+    % V
+    \neviditelna f
+    f f f f f f f f e g a \barMax
     % R
     \neviditelna a
     \respVIalelujaResponsum \barFinalis
