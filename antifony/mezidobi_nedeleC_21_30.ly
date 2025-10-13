@@ -572,7 +572,7 @@
     \choralniRezim
     d4 c f g f( a) a \barMin
     a a g f g( a) a( g) g \barMaior
-    a g f e( f) d c f e c( d) d \barFinalis
+    a g f e( f d) d \barMin c f e c( d) d \barFinalis
   }
   \addlyrics {
     Je -- den z_ma -- lo -- moc -- ných,
@@ -593,7 +593,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 g a \barMin
+    f4 g g( a) \barMin
     a g( a) g f e f d d \barFinalis
   }
   \addlyrics {
