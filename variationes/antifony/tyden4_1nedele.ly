@@ -581,6 +581,55 @@
   }
 }
 
+\markup{
+  Oficiální text:
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g \barMaior
+    f g a g f g f e d4.( c) f4 g g f f \barMaior
+    g4 g( a) f f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    ne -- boť je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118"
+    fial = "velikonoce_velikonocnioktav.ly#pa-mc-a1?cast=1"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g g \barMaior
+    f g a \mark\sipka a g f g f d \barMin f4 g g f f \barMaior
+    g4 g( a) f f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- te Hos -- po -- di -- na,
+    ne -- boť je -- ho mi -- lo -- sr -- den -- ství tr -- vá na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 118"
+    fial = "velikonoce_velikonocnioktav.ly#pa-mc-a1?cast=1"
+    id = "rch-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1183,7 +1232,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     f4 f g g a \barMin
     g f g( a) g f d \barMin
@@ -1272,7 +1321,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g f g \barMaior
     \mark\sipka a b c( a) g( a) g g \barMin
@@ -1955,6 +2004,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( f) g( a) a g a c( d) d d \barMaior
+    d4( e c4.) c d4 c b a( g) g \barMaior
+    \mark\sipka a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout
+    v_po -- svát -- ném les -- ku.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "2ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2179,6 +2250,30 @@
     c4 b c d d \barMin
     d e d c a a \barMin
     c \mark\sipka c b c a( g) g \barMaior
+    f g a a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo lač -- ní a žíz -- ní
+    po spra -- ve -- dl -- nos -- ti,
+    ne -- boť o -- ni bu -- dou na -- sy -- ce -- ni.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 112"
+    id = "2ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b c d d \barMin
+    \mark\sipka e e d c a a \barMin
+    c c b c a( g) g \barMaior
     f g a a a a c b g g \barFinalis
   }
   \addlyrics {

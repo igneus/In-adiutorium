@@ -194,11 +194,11 @@
 \noPageBreak
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 a g f g \barMaior
-    a b c( a) g( a) g g \barMin
-    f e f( g) g \barFinalis
+    f4 f g g a \barMin
+    g f g( a) g f d \barMin
+    f g g f \barFinalis
   }
   \addlyrics {
     Kdo jí ten -- to chléb,
@@ -207,8 +207,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VIII"
-    differentia = "G"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 23"
     id = "up-ant1"
     piece = \markup {\sestavTitulek}
@@ -279,6 +279,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
+    placet = "3 aleluja spíš lépe"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
   }
