@@ -1510,6 +1510,68 @@
   }
 }
 
+\markup\nadpisSkupiny 3
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g e g a b a a \barMin
+    b c a g( e) e \barMin
+    f e d e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a( b a4.) a \barMin
+    a4 g a( b) a g f e e \barFinalis
+  }
+  \addlyrics {
+    Šťast -- ný ná -- rod, je -- hož Bo -- hem je Hos -- po -- din.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 144-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4( b) g a a \barMin
+    a4 g a( b) a g f e e \barFinalis
+  }
+  \addlyrics {
+    Šťast -- ný ná -- rod, je -- hož Bo -- hem je Hos -- po -- din.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 144-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIIctvrtekNespAntIII }
 
 %\score { \tIIctvrtekAntMagnificat }
