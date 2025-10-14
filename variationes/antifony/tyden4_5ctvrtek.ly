@@ -1437,6 +1437,29 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
+    f4 g g a g bes a g a g \barMaior
+    g f g g( a) a \barMin
+    g f g f f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé mi -- lo -- sr -- den -- ství,
+    mé ú -- to -- čiš -- tě
+    a můj ú -- tu -- lek.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 144-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4( g a) f g g \barMin
     f4 g a( g) f g \mark\sipka g f f \barFinalis
   }

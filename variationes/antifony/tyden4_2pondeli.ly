@@ -1340,9 +1340,52 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 \mark\sipka a a( c) c \barMin
+    c c b a g( a) g f
+    g a \mark\sipka g g \barFinalis
+  }
+  \addlyrics {
+    Veď mé kro -- ky
+    po -- dle své -- ho vý -- ro -- ku,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-פ"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g g( a) a \barMaior
     g f g a c( d) a a \barMin
     f g a g \barFinalis
+  }
+  \addlyrics {
+    Veď mé kro -- ky
+    po -- dle své -- ho vý -- ro -- ku,
+    Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-פ"
+    id = "up-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 d f( g) g \barMaior
+    f g a g a( c) b a g a g g \barFinalis
   }
   \addlyrics {
     Veď mé kro -- ky
