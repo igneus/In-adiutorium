@@ -874,6 +874,84 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g \barMin
+    f g a a bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- zpí -- vám ti no -- vou pí -- seň.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Za -- zpí -- vám ti no -- vou pí -- seň, Bo -- že.
+  }
+  \header {
+    textus_approbatus = "Bože, zazpívám ti novou píseň."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Za -- zpí -- vám ti no -- vou pí -- seň, Bo -- že.
+  }
+  \header {
+    textus_approbatus = "Bože, zazpívám ti novou píseň."
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g( a) g \barMin
+    f g bes g bes a \barFinalis
+  }
+  \addlyrics {
+    Za -- zpí -- vám ti
+    no -- vou pí -- seň, Bo -- že.
+  }
+  \header {
+    textus_approbatus = "Bože, zazpívám ti novou píseň."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tIIuteryAntBenedictus }

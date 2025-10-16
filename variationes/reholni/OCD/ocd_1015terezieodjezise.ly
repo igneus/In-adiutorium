@@ -2345,3 +2345,75 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 a c c b \mark\sipka a g( a) g g \barMin
+    f g a a a( c) b
+    a c b a g g \barMaior
+    a a f( e) d \barMin f g a g g \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še srd -- ce ne -- chvě -- je!
+    V_do -- mě mé -- ho Ot -- ce
+    je mno -- ho pří -- byt -- ků.
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b a c( d) e( d) d \barMaior
+    e d e( f) e d( c) d \barMin
+    c b g a g g \barMaior
+    f g a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še srd -- ce ne -- chvě -- je!
+    V_do -- mě mé -- ho Ot -- ce
+    je mno -- ho pří -- byt -- ků.
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b a c( d) e( d) d \barMaior
+    e d e( f) e d( c) d \barMin
+    \mark\sipka d c b a g g \barMaior
+    f g a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še srd -- ce ne -- chvě -- je!
+    V_do -- mě mé -- ho Ot -- ce
+    je mno -- ho pří -- byt -- ků.
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
