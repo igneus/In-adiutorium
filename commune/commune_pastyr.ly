@@ -339,9 +339,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 a c b g( a g) g \barMaior
-    f g a b c( a) \barMin
-    c c b c a g a g g \barFinalis
+    c4 c b a g( a g) g \barMaior
+    f g a a g( a) \barMin
+    c c b c a g g( a) g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
@@ -355,9 +355,8 @@
   \header {
     quid = "1. ant."
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = "Žalm 63"
-    placet = "2 _Nemůže se skrýt_ nevím"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }

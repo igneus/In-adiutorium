@@ -2213,7 +2213,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a c b g( a g) g \barMaior
     f g a b c( a) \barMin
@@ -2258,6 +2258,233 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 c b a g( a g) g \barMaior
+    f g a a g( a) \barMin
+    c c b c a g \mark\sipka g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g( a g) g \barMaior
+    f g a a g( a) \barMin
+    c c b c a g \mark\sipka a( g) f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c a g( a g) g \barMaior
+    a a f e d \barMin
+    f g a c b c a( g) f( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 b c a g( a g) g \barMaior
+    a a f e d \barMin
+    f g a c b \mark\sipka a g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) f f( g) g \barMaior
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f g( a g) g \barMaior
+    f g a a g( a) \barMin
+    c c b c a g g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f d f( g) g \barMaior
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g e g( a) a \barMaior
+    g a b g g( a) \barMin
+    a a g a g f e( f) e e \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g e g( a) a \barMaior
+    g a b g g( a) \barMin
+    a a g a g f \mark\sipka g( a) g( f e) e \barFinalis
+
+    f^\markup\rubrVelikAleluja f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Vy jste svět -- lo svě -- ta.
+    Ne -- mů -- že se skrýt
+    měs -- to po -- lo -- že -- né na ho -- ře.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
