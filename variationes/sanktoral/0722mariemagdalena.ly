@@ -1018,7 +1018,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1067,6 +1067,41 @@
     % R
     \neviditelna g
     f g( a) g( f) f \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- e, proč plá -- češ?_* Pán vstal z_mrt -- vých.
+    \Verse Jdi a po -- věz je -- ho u -- čed -- ní -- kům:_*
+    \Response Pán vstal z_mrt -- vých.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup\sestavTitulekResp
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna c
+    f4 f f g( f) g( a) a( g) \barMax
+    f-- g( a) g( f) f \barFinalis
+
+    % V
+    \neviditelna g
+    a4 a g a g f g g g( a) \mark\sipka a( g) \barMax
+
+    % R
+    \neviditelna g
+    f-- g( a) g( f) f \barFinalis
 
     % Slava
     \respVIdoxologie \barFinalis

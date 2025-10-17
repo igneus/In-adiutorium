@@ -100,15 +100,15 @@
     % R
     \neviditelna c
     f4 f f g( f) g( a) a( g) \barMax
-    f g( a) g( f) f \barFinalis
+    f-- g( a) g( f) f \barFinalis
 
     % V
     \neviditelna g
-    a4 a a( bes) a a a g f g( a) a( g) \barMax
+    a4 a g a g f g g g( a) a( g) \barMax
 
     % R
     \neviditelna g
-    f g( a) g( f) f \barFinalis
+    f-- g( a) g( f) f \barFinalis
 
     % Slava
     \respVIdoxologie \barFinalis
@@ -122,7 +122,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "3 verš nic moc"
     id = "rch-resp"
     piece = \markup\sestavTitulekResp
   }
