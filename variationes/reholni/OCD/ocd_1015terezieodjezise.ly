@@ -2417,3 +2417,52 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b a \mark\sipka c d d \barMaior
+    e d e( f) e \mark\sipka d d \barMin
+    d c b a g g \barMaior
+    f g a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še srd -- ce ne -- chvě -- je!
+    V_do -- mě mé -- ho Ot -- ce
+    je mno -- ho pří -- byt -- ků.
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c b a c d d \barMaior
+    \mark\sipka d c d( e) e d d \barMin
+    d c b a g g \barMaior
+    f g a a a c b g g \barFinalis
+  }
+  \addlyrics {
+    Ať se va -- še srd -- ce ne -- chvě -- je!
+    V_do -- mě mé -- ho Ot -- ce
+    je mno -- ho pří -- byt -- ků.
+    Od -- chá -- zím vám při -- pra -- vit mís -- to.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
