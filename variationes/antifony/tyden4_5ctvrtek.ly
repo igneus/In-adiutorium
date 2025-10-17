@@ -1499,6 +1499,25 @@
   \relative c' {
     \choralniRezim
     f4( g a) f g g \barMin
+    f4 g \mark\sipka a g f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Šťast -- ný ná -- rod, je -- hož Bo -- hem je Hos -- po -- din.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 144-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g a) f g g \barMin
     f4 \mark\sipka e f( g) a a g f f \barFinalis
   }
   \addlyrics {
