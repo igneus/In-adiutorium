@@ -19,8 +19,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b a c b g g \barMin
-    a a g f g a a( g) g \barFinalis
+    c4 c b a g a g g \barMin
+    f g a a a( c) b g g \barFinalis
   }
   \addlyrics {
     Vý -- klad tvých slov o -- svě -- cu -- je,

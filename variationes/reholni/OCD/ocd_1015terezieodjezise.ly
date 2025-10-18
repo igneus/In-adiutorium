@@ -32,7 +32,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a c b g g \barMin
     a a g f g a a( g) g \barFinalis
@@ -76,6 +76,27 @@
     \choralniRezim
     c4 c b a c b g g \barMin
     \mark\sipka f g a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Vý -- klad tvých slov o -- svě -- cu -- je,
+    po -- u -- ču -- je pros -- té li -- di.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a \mark\sipka g a g g \barMin
+    f g a a a( c) b g g \barFinalis
   }
   \addlyrics {
     Vý -- klad tvých slov o -- svě -- cu -- je,
@@ -763,6 +784,30 @@
     c( d e) d c( d) \barMin c d c b a g g \barMaior
     a \mark\sipka g a c c b a( g) a \barMin
     a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tá mat -- ko Te -- re -- zi -- e,
+    u -- kaž nám ces -- tu do -- ko -- na -- los -- ti,
+    po kte -- ré při -- jde -- me s_Kris -- tem
+    do věč -- ných pří -- byt -- ků.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a c b a a \barMaior
+    c( d e) d c( d) \barMin c d c b a g g \barMaior
+    \mark\sipka f g a c b a c( d e d) c( d) \barMin
+    c b g a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Sva -- tá mat -- ko Te -- re -- zi -- e,
