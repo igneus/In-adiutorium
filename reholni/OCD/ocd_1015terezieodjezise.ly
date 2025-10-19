@@ -39,8 +39,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a c b g g \barMin a g f g( a) g g \barMaior
-    g f d f g a a g g \barFinalis
+    c4 c a c b g g \barMin a g f g( a) a( g) g \barMaior
+    a g a c c c b g g \barFinalis
   }
   \addlyrics {
     Li -- dé si vy -- prá -- vě -- jí
@@ -52,7 +52,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 146"
-    fial = "sanktoral/1101vsichnisvati.ly#sexta?zacatek"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?cast=1"
     id = "1ne-a2"
     piece = \markup\sestavTitulek
   }
@@ -75,6 +75,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Ef 1"
+    placet = "spíš lépe"
     id = "1ne-a3"
     piece = \markup\sestavTitulek
   }

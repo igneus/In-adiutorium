@@ -378,6 +378,29 @@
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
+    c4 c a c b g g \barMin a g f g( a) \mark\sipka a( g) g \barMaior
+    \mark\sipka a g a c c c b g g \barFinalis
+  }
+  \addlyrics {
+    Li -- dé si vy -- prá -- vě -- jí
+    o je -- jí moud -- ros -- ti,
+    cír -- kev ji ne -- pře -- stá -- vá chvá -- lit.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 146"
+    fial = "sanktoral/1101vsichnisvati.ly#sexta?cast=1"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     c4 c a c b g g \barMin a g f g( a) g g \barMaior
     \mark\sipka g f d f g a a g g \barFinalis
   }
