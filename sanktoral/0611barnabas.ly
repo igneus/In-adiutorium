@@ -10,11 +10,8 @@
   composer = "Jakub Pavlík"
 }
 
-\markup\justify\italic{
-  Další vlastní zpěvy, otištěné ve formuláři této památky
-  v některých svazcích a vydáních Denní modlitby církve,
-  jsou ve společných textech o evangelistech.
-}
+% tak diurnál 1994; v ostatních vydáních různě, viz variationes
+\markup\communia #'(#:evangelista)
 
 \score {
   \relative c'' {
@@ -42,11 +39,6 @@
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
-}
-
-\markup{
-  \chant-ref "rch-r" "commune/commune_evangelista.ly#rch-r" {}
-  \chant-ref "rch-r-pasch" "commune/commune_evangelista.ly#rch-r-pasch" {}
 }
 
 \score {
@@ -80,11 +72,6 @@
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
-}
-
-\markup{
-  \chant-ref "ne-r" "commune/commune_evangelista.ly#ne-r" {}
-  \chant-ref "ne-r-pasch" "commune/commune_evangelista.ly#ne-r-pasch" {}
 }
 
 \score {

@@ -17,7 +17,7 @@
 
 \markup\justify{
   Formulář památky sv. Barnabáše \bold{vypadá v každém tištěném vydání jinak:}
-  diurnál 1994 - z commune evangelistů, až na invitatorium a antifony k evangelním kantikům (IEA);
+  diurnál 1994 - z commune evangelistů, až na invitatorium a antifony k evangelním kantikům (dále IEA);
   úplné vydání 2005 - sv. 2 jako na svátek sv. Marka, až na IEA,
   sv. 3 z commune apoštolů, až na IEA a responsoria;
   diurnál 2007 - tiskne kompletní formulář jako vlastní texty svátku.
