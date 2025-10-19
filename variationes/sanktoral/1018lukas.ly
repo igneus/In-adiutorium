@@ -159,6 +159,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g a( c) c \barMin
+    c( d c a) a c b a g( a g) \barMaior
+    g g g f g g( a) a \barMin c d c b( c a) a \barMaior
+    c d e d( c) d4. a \barMin
+    d4 c b c( a) g g \barMin a4( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    E -- van -- ge -- lis -- ta Lu -- káš
+    hlá -- sal ra -- dost -- nou zvěst
+    o mi -- lo -- srd -- né lás -- ce na -- še -- ho Bo -- ha,
+    s_kte -- rou nás na -- vští -- vil
+    ten, kte -- rý vy -- chá -- zí z_vý -- sos -- ti.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII" % std. rozsah modu VIII opousti az v zaveru
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -205,6 +231,7 @@
 \markup\justify{
   Slabika _-sal_ nese melisma mnohem lépe než _-psal_.
   (Nebo je to jenom můj mylný dojem?)
+  Stejně tak _hlá-_ mnohem lépe než _na-_, ale tam je to samozřejmé.
 }
 
 \score {
@@ -557,6 +584,62 @@
     c b a g( a) g \barMaior
     c d e d c( d c a) a \barMin
     c( b) a g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Lu -- káš
+    na -- psal e -- van -- ge -- li -- um
+    o do -- bro -- tě a mi -- lo -- sr -- den -- ství
+    Bo -- ží -- ho Sy -- na;
+    pro -- to ho dnes chvá -- lí
+    ce -- lá cír -- kev.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c c b a g( a) g g \barMaior
+    a a a a a f e d e d \barMin
+    f g a a( g) g \barMaior
+    a b c c c( d c a) a \barMin
+    c b( a) g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Lu -- káš
+    na -- psal e -- van -- ge -- li -- um
+    o do -- bro -- tě a mi -- lo -- sr -- den -- ství
+    Bo -- ží -- ho Sy -- na;
+    pro -- to ho dnes chvá -- lí
+    ce -- lá cír -- kev.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c c b a g( a) g g \barMaior
+    a a a \mark\sipka f e d f g a a \barMin
+    c d c b( c a) a \barMaior
+    c d e d c( d c a) a \barMin
+    c b( a) g( a g4.) g \barFinalis
   }
   \addlyrics {
     Sva -- tý Lu -- káš
