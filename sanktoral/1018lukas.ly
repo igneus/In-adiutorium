@@ -57,6 +57,7 @@
     modus = "VIII" % std. rozsah modu VIII opousti az v zaveru
     differentia = "G"
     psalmus = ""
+    placet = "3 _hlásal_ je divoké, zvlášť to druhé melisma; _radostnou zvěst_ zvláštní"
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -85,6 +86,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 _o dobrotě a milosrdenství_ je nepříliš zpěvné; _napsal_ spíš už neústrojně přetížené"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
