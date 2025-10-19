@@ -100,6 +100,9 @@
   }
 }
 
+% Antifona ke kantikům na breviar.cz není vlastní, ale z příslušného commune
+% (commune svatých mužů, protože pastýři v dodatku s vigiliemi nejsou vedeni jako extra kategorie).
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

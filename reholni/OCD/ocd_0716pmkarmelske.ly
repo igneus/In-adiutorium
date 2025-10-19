@@ -250,7 +250,23 @@
   }
 }
 
-% antifonu pro vigilii breviar.cz (zatím?) nemá
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    K vrcholu Karmelu, ke Kristu, nebes životu, pozdvihni nás, Maria.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 

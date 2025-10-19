@@ -116,6 +116,13 @@
   }
 }
 
+\markup\italic\chant-ref "mc-avig" "reholni/OCD/ocd_0720elias.ly#rch-a2" {
+  Ke kantikům vigilie viz 2. antifonu ranních chval \upright{Vyjdi ven.}
+  (Texty se v detailech liší, ale i kdyby se snad ukázalo, že ty drobné rozdíly
+  jsou důležité, doslovný oficiální text antifony k vigilii lze zazpívat
+  na nápěv odkazované antifony z ranních chval.)
+}
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {

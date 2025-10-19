@@ -220,7 +220,23 @@
   }
 }
 
-% antifonu pro vigilii breviar.cz (zatím?) nemá
+\score {
+  \relative c' {
+    \choralniRezim
+
+  }
+  \addlyrics {
+    Planula jsem horlivostí pro čest svého Snoubence Ježíše Krista, který mi řekl: Jako pravá snoubenka budeš horlit pro mou čest.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = ""
+    differentia = ""
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
