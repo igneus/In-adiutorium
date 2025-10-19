@@ -866,7 +866,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
 
@@ -975,12 +975,13 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
 
     % R
     \neviditelna f
-    f4 f \mark\sipka f( g) f f \barMin f f f f f g f g g( a) a( g) \barMax
+    f4 f \mark\sipka f( g) f f \barMin f f f f f f g f g( a) a( g) \barMax
     f d f g g( f) f \barFinalis
     % V
     \neviditelna a
@@ -1363,12 +1364,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
     c d \mark\sipka e d c( d c a) a \barMin c b a g a a( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Všech -- no dě -- lám pro hlá -- sá -- ní e -- van -- ge -- li -- a,
+    a -- bych zís -- kal po -- díl na je -- ho za -- slí -- be -- ních.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 126"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
+    c d e d c( d c a) a \barMin c b a g a a( g) g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Všech -- no dě -- lám pro hlá -- sá -- ní e -- van -- ge -- li -- a,

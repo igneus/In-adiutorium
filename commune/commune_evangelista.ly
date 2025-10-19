@@ -109,7 +109,7 @@
 
     % R
     \neviditelna f
-    f4 f f f f f f f f f f g f g( a) a( g) \barMax
+    f4 f f( g) f f \barMin f f f f f f g f g( a) a( g) \barMax
     f d f g g( f) f \barFinalis
     % V
     \neviditelna a
@@ -208,7 +208,7 @@
     g4( a) g a( c) c \barMin d( e d) c( b) a4. a \barMin c4 a b a( g) g \barMaior
     c d e d c( d c a) a \barMin c b a g a a( g) g \barFinalis
 
-    f^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Všech -- no dě -- lám pro hlá -- sá -- ní e -- van -- ge -- li -- a,
