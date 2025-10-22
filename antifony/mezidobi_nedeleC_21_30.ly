@@ -629,17 +629,18 @@
     differentia = "g"
     psalmus = ""
     annus = "C"
+    placet = "2 ~"
     id = "ne29c-ne1-mag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 g g( d' e) d d f e c d d \barMin
-    d d d d d( e) d c b c a( g) g \barMaior
-    a f g a a a( c) b g g \barFinalis
+    d4 f g a a g b c a a \barMaior
+    a a g f e( f) d d e f d( c) c \barMaior
+    d c d d4.( f) f4 f( g) f d d \barFinalis
   }
   \addlyrics {
     Bůh se za -- sta -- ne svých vy -- vo -- le -- ných,
@@ -648,8 +649,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "a"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "C"
     id = "ne29c-rch-ben"
