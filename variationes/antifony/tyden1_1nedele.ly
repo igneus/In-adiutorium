@@ -316,6 +316,28 @@ je atypická a může bt těžké z ní přejít na žalm.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d( c) c \barMin
+    f g g( a) a \barMaior
+    g( f) g( a) g \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Tys mé ú -- to -- čiš -- tě, Hos -- po -- di -- ne,
+    můj ú -- děl v_ze -- mi ži -- vých.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 142"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisSkupiny{1}

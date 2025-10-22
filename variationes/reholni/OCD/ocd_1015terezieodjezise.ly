@@ -982,7 +982,86 @@
 
 \pageBreak
 
-% antifonu pro vigilii breviar.cz (zatím?) nemá
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g a a( g) g \barMin
+    f g a a b c a b c a g g \barMaior
+    g f d f( g) g \barMaior
+    a b c a g( a) a( g) g \barMin
+    a a f e f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu -- la jsem hor -- li -- vos -- tí
+    pro čest své -- ho Snou -- ben -- ce Je -- ží -- še Kris -- ta,
+    kte -- rý mi ře -- kl:
+    Ja -- ko pra -- vá snou -- ben -- ka
+    bu -- deš hor -- lit pro mou čest.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g a a( g) g \barMin
+    f g a a b c a b c a g g \barMaior
+    \mark\sipka g g g f( e) d \barMaior
+    e f g g a( b) a( g) g \barMin
+    a b c a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu -- la jsem hor -- li -- vos -- tí
+    pro čest své -- ho Snou -- ben -- ce Je -- ží -- še Kris -- ta,
+    kte -- rý mi ře -- kl:
+    Ja -- ko pra -- vá snou -- ben -- ka
+    bu -- deš hor -- lit pro mou čest.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Myslel jsem, že bude vhodné a možné začátkem nápěvu odkázat na
+  \fial-link "reholni/OCD/ocd_0720elias.ly#rch-a3" , ale moc schůdně
+  tahle cesta nakonec nevypadá.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b d d e d c( d) d \barMin
+  }
+  \addlyrics {
+    Pla -- nu -- la jsem hor -- li -- vos -- tí
+    pro čest své -- ho Snou -- ben -- ce Je -- ží -- še Kris -- ta,
+    kte -- rý mi ře -- kl:
+    Ja -- ko pra -- vá snou -- ben -- ka
+    bu -- deš hor -- lit pro mou čest.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
