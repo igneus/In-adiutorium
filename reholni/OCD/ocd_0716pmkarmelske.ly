@@ -253,15 +253,23 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f g g( a) g g \barMaior
+    a( bes) a a \barMin
+    g f g( a) a( g) g \barMaior
+    a( bes) a g f( d) \barMin
+    f( e) c( d) d \barFinalis
   }
   \addlyrics {
-    K vrcholu Karmelu, ke Kristu, nebes životu, pozdvihni nás, Maria.
+    K_vr -- cho -- lu Kar -- me -- lu,
+    ke Kris -- tu,
+    ne -- bes ži -- vo -- tu,
+    po -- zdvih -- ni nás,
+    Ma -- ri -- a.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}
