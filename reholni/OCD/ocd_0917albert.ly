@@ -21,15 +21,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) f \barMin g a f f( g) g \barMaior
+    a a g f e f d c( d) d \barFinalis
   }
   \addlyrics {
-    Pojďme, klaňme se Pánu, nejvyššímu Zákonodárci.
+    Pojď -- me, klaň -- me se Pá -- nu,
+    nej -- vyš -- ší -- mu Zá -- ko -- no -- dár -- ci.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -176,15 +178,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d f f e d f( g) g \barMaior
+    a g f( g) d \barMin
+    d e c c( d) d \barFinalis
   }
   \addlyrics {
-    Pán je spravedlivý ve všem, milostivý ve všech svých skutcích.
+    Pán je spra -- ved -- li -- vý ve všem,
+    mi -- los -- ti -- vý
+    ve všech svých skut -- cích.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 15"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
