@@ -43,7 +43,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 16"
-    placet = "byl by vhodnější nápěv jiného modu, aby byla psalmodie rozmanitější"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }
