@@ -221,17 +221,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a c c d e e( d) d \barMaior
+    d d c d e d d e f e d( c) d \barMin
+    d c d d( c) c \barMaior
+    d d c b c( a) a( g) g \barMin
+    a a g f g( a) g g \barFinalis
   }
   \addlyrics {
-    Planula jsem horlivostí pro čest svého Snoubence Ježíše Krista, který mi řekl: Jako pravá snoubenka budeš horlit pro mou čest.
+    Pla -- nu -- la jsem hor -- li -- vos -- tí
+    pro čest své -- ho Snou -- ben -- ce Je -- ží -- še Kris -- ta,
+    kte -- rý mi ře -- kl:
+    Ja -- ko pra -- vá snou -- ben -- ka
+    bu -- deš hor -- lit pro mou čest.
   }
   \header {
     quid = "ant. ke kantikům vigilie"
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "mc-avig"
     piece = \markup {\sestavTitulekBezZalmu}

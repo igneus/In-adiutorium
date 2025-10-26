@@ -1061,6 +1061,59 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c d e e( d) d \barMin
+    d d c d e d d e f e d( c) d \barMin
+    d c d d( c) c \barMaior
+    g4 a c c d( e) e( d) d \barMin
+    e d c( d a) a c( b) g( a) g \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu -- la jsem hor -- li -- vos -- tí
+    pro čest své -- ho Snou -- ben -- ce Je -- ží -- še Kris -- ta,
+    kte -- rý mi ře -- kl:
+    Ja -- ko pra -- vá snou -- ben -- ka
+    bu -- deš hor -- lit pro mou čest.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c d e e( d) d \barMaior
+    d d c d e d d e f e d( c) d \barMin
+    d c d d( c) c \barMaior
+    \mark\sipka d d c b c( a) a( g) g \barMin
+    a a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pla -- nu -- la jsem hor -- li -- vos -- tí
+    pro čest své -- ho Snou -- ben -- ce Je -- ží -- še Kris -- ta,
+    kte -- rý mi ře -- kl:
+    Ja -- ko pra -- vá snou -- ben -- ka
+    bu -- deš hor -- lit pro mou čest.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
