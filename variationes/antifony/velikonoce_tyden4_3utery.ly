@@ -413,7 +413,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d f g f d d \barMin
     f e d( e) c c \barMin
@@ -429,6 +429,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 144-I"
+    placet = "2 závěr ne zcela uspokojivý, půjde lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -465,6 +466,29 @@
     d4 d d c d e f d d \barMin
     f f e( d) c c \barMin
     e f d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
+    a můj za -- chrán -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 144-I"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c d f e d d \barMaior
+    f f e( d) c c \barMin
+    a c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé ú -- to -- čiš -- tě_*
@@ -1126,6 +1150,26 @@
     \mark\sipka d4 d c d e f d( c) \barMaior
     d d d( f) f f g f
     e f d d \barFinalis
+  }
+  \addlyrics {
+    Když pro -- chá -- zím sou -- že -- ním,_*
+    za -- cho -- vá -- váš mi ži -- vot.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 138"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d \mark\sipka f e d( c) \barMaior
   }
   \addlyrics {
     Když pro -- chá -- zím sou -- že -- ním,_*

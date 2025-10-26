@@ -57,9 +57,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c d f g f d d \barMin
-    f e d( e) c c \barMin
-    d f e( d) d \barFinalis
+    d4 d d c d f e d d \barMaior
+    f f e( d) c c \barMin
+    a c c( d) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je mé ú -- to -- čiš -- tě_*
@@ -71,7 +71,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 144-I"
-    placet = "2 závěr ne zcela uspokojivý, půjde lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
