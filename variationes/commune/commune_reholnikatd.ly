@@ -138,7 +138,7 @@
   }
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 g \neviditelna g \bar ";"
       a(^\markup\rubrJmenoSvateho b c) c \bar ";"
@@ -306,6 +306,80 @@
     Zohlednit všechny délky jmen v breviáři zastoupené,
     jako příklady uvést světce, kteří se skutečně slaví se zpěvy z commune:
   }
+  \markup\justify{
+    (Nová divisio zachycuje, jak jsem antifonu odjakživa zvyklý zpívat.)
+  }
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      \mark\sipka g4 a \neviditelna a \bar ";"
+      a(^\markup\rubrJmenoSvateho c) \bar ";"
+      a( c) c \bar ";"
+      c c( d) d \barMaior
+      d( e c d) c( b) \mark\sipka \barMin a( g) a g g \barMaior
+      g f g a( c b) c( d) d \barMin d d( f e) d( c) d c \barMaior
+      d c b a g a( b) g g \barFinalis
+
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Sva -- tý \markup\Nomen
+      Jan % z Boha
+      A -- lois % Beda, Filip (Neri)
+      An -- to -- nín % opat; Romuald
+      hle -- dal své -- ho Pá -- na,
+      a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
+      a do -- ve -- dl ho ke spá -- se.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "rehol-amag2"
+      fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a \neviditelna a \bar ";"
+      \mark\sipka c(^\markup\rubrJmenoSvateho d) \bar ";"
+      c( d) d \bar ";"
+      c c( d) d \barMaior
+      d( e c d) c4.( b) a4( g) a g g \barMaior
+      g f g a( c b) c( d) d \barMin d d( f e) d( c) d c \barMaior
+      d c b a g a( b) g g \barFinalis
+
+      a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Sva -- tý \markup\Nomen
+      Jan % z Boha
+      A -- lois % Beda, Filip (Neri)
+      An -- to -- nín % opat; Romuald
+      hle -- dal své -- ho Pá -- na,
+      a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
+      a do -- ve -- dl ho ke spá -- se.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "a"
+      psalmus = ""
+      id = "rehol-amag2"
+      fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \score {
     \relative c'' {
       \choralniRezim

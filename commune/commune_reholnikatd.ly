@@ -46,10 +46,11 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g \neviditelna g \bar ";"
-      a(^\markup\rubrJmenoSvateho b c) c \bar ";"
-      a( b c) d( c) c \bar ";"
-      d( e c d) c( b) a( g) a g g \barMaior
+      g4 a \neviditelna a \bar ";"
+      a(^\markup\rubrJmenoSvateho c) \bar ";"
+      a( c) c \bar ";"
+      c c( d) d \barMaior
+      d( e c d) c( b) \barMin a( g) a g g \barMaior
       g f g a( c b) c( d) d \barMin d d( f e) d( c) d c \barMaior
       d c b a g a( b) g g \barFinalis
 
@@ -57,8 +58,9 @@
     }
     \addlyrics {
       Sva -- tý \markup\Nomen
-      Mar -- tin
-      Be -- ne -- dikt
+      Jan % z Boha
+      A -- lois % Beda, Filip (Neri)
+      An -- to -- nín % opat; Romuald
       hle -- dal své -- ho Pá -- na,
       a Pán ho pro -- vá -- zel svým po -- žeh -- ná -- ním
       a do -- ve -- dl ho ke spá -- se.
@@ -70,7 +72,6 @@
       modus = "VII"
       differentia = "a"
       psalmus = ""
-      placet = "3 jména spíš lépe"
       id = "rehol-amag2"
       fons = "11.7. sv. Benedikt, k Magnificat; upraveno, přidáno aleluja"
       piece = \markup {\sestavTitulekBezZalmu}
