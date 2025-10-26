@@ -96,8 +96,8 @@
   \relative c' {
     \choralniRezim
     f4 f f f g a g f f( g) g \barMaior
-    a a g f d e d c c \barMin
-    d c d d( f) e d( e) d d \barFinalis
+    g a a a g f g f d \barMin
+    f f f e c e( f) d d \barFinalis
   }
   \addlyrics {
     E -- li -- áš se na -- je -- dl a na -- pil
@@ -116,7 +116,7 @@
   }
 }
 
-\markup\italic\chant-ref "mc-avig" "reholni/OCD/ocd_0720elias.ly#rch-a2" {
+\markup\justify\italic\chant-ref "mc-avig" "reholni/OCD/ocd_0720elias.ly#rch-a2" {
   Ke kantikům vigilie viz 2. antifonu ranních chval \upright{Vyjdi ven.}
   (Texty se v detailech liší, ale i kdyby se snad ukázalo, že ty drobné rozdíly
   jsou důležité, doslovný oficiální text antifony k vigilii lze zazpívat
