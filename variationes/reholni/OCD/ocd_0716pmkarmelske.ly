@@ -3,51 +3,29 @@
 \include "../../spolecne.ly"
 \include "../../../spolecne/reholni.ly"
 \include "../../dilyresponsorii.ly"
+\include "../../../reholni/OCD/ocd.ly"
 
 \header {
   title = \markup\titleSvatek
             "Panny Marie Karmelské"
             slavnost
             "16. 7."
-           "vlastní texty řádu bosých karmelitánů"
+           \textyOCD
   composer = "Jakub Pavlík"
 }
 
+\markuplist\pramenyOCDvse
 \markup\justify{
   Při skládání první verze zpěvů jsem na to nehleděl,
   ale některé antifony mají latinskou předlohu s nápěvem -
-  viz \with-url "https://media.musicasacra.com/pdf/carmelite/Proprium_Carmelitarum.pdf" {
-    \italic{Proprium missarum et officiorum ordinis Carmelitarum discalceatorum,}
-    Parisiis-Tornaci-Romae 1950,
-    \bold{(pmo1950)}
-  }
-  s. 91ff.
+  viz pmo1950, s. 91ff.
 }
-
 \markup\justify{
-  \bold{brocd1859}
-  \with-url "https://www.google.cz/books/edition/Breviarium_romanum_ad_usum_fratrum_et_mo/AKp_pww1OtMC?hl=cs&gbpv=1&pg=PA576&printsec=frontcover" {
-    \italic{
-      Breviarium romanum
-      ad usum fratrum et monialium congregationis carmelitarum discalceatorum:
-    }
-    pars aestiva,
-    Venetiis 1859,
-    s. 576nn
-  }
+  brocd1859, s. 576nn
   -- už oficium v podobě, kterou známe z pmo1950 (zkontrolováno jen zběžně)
 }
-
 \markup\justify{
-  \bold{ops1689}
-  \with-url "https://www.google.cz/books/edition/Officia_propria_Sanctorum_et_aliarum_fes/9zFFAAAAcAAJ?hl=cs&gbpv=1&pg=PA285&printsec=frontcover" {
-    \italic{
-      Officia propria sanctorum et aliarum festivitatum ordinis Carmelitarum
-      pro eiusdem ordinis fratribus et monialibus discalceatis,
-    }
-    Antverpiae 1689,
-    s. 285ff.
-  }
+  ops1689, s. 285ff.
   -- od pozdější podoby se výrazně liší - méně zpěvů s odkazy na Karmel,
   žádný odkaz na škapulíř, zpěvy vesměs zcela obecně mariánské,
   k Magnificat \italic{Ave Regina caelorum} a \italic{Alma Redemptoris Mater.}

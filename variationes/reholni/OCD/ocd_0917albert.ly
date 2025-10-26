@@ -16,12 +16,9 @@
 
 \markup\communia #'(#:pastyr)
 
+\markuplist\pramenyOCDvse
 \markup\justify{
-  \with-url "https://media.musicasacra.com/pdf/carmelite/Proprium_Carmelitarum.pdf" {
-    \italic{Proprium missarum et officiorum ordinis Carmelitarum discalceatorum,}
-    Parisiis-Tornaci-Romae 1950,
-  }
-  s. 159:
+  pmo1950, s. 159:
   neměl žádné vlastní zpěvy, všechno se bralo z commune.
 }
 
@@ -472,6 +469,11 @@
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
+
+\markup\justify{
+  \italic{Qui habet zelum legis,} pmo1950, s. (214)
+  - tam k Magnificat o sv. Janu od Kříže
+}
 
 \markup\justify{
   Narozdíl od většiny mých antifon modu III z DMC

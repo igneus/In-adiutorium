@@ -14,6 +14,8 @@
   composer = "Jakub Pavlík"
 }
 
+\markuplist\pramenyOCDvse
+
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
@@ -899,11 +901,7 @@
 }
 
 \markup\justify{
-  Začátek volně podle
-  \with-url "https://media.musicasacra.com/pdf/carmelite/Proprium_Carmelitarum.pdf" {
-    \italic{Proprium missarum et officiorum ordinis Carmelitarum discalceatorum,}
-    Parisiis-Tornaci-Romae 1950,
-  }
+  Začátek volně podle pmo1950,
   s. 126. (Latinská antifona má výrazně delší text.)
 }
 
