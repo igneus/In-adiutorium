@@ -2222,6 +2222,13 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \pageBreak
 
+\markup\justify{
+  \italic{Tu gloria Ierusalem},
+  AR1912 493
+  (nejde o starobylou antifonu, je spojená až se svátkem Neposkvrněného početí -
+  srov. \cantusid-link "a01640" )
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -4047,6 +4054,32 @@ je "\"skororepetice\"" melodie 2 v 4.}
     quid = "2. ant."
     modus = "VII"
     differentia = "a"
+    psalmus = "Žalm 127"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f f( g) g \barMaior
+    a g f g( f d) d \barMin
+    c d f e d d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jsem slu -- žeb -- ni -- ce Pá -- ně:
+    ať se mi sta -- ne
+    po -- dle tvé -- ho slo -- va.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 127"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}

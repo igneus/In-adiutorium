@@ -1111,6 +1111,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     f4 g g( a) a \barMin
     a a g f g( a g) g \barMaior
@@ -1756,6 +1757,35 @@
     a b c a a \barMaior
     c c( d c) b( a g) g \barMin
     a g f g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi,
+    Pan -- no Ma -- ri -- a,
+    ne -- boť jsi zro -- di -- la to -- ho,
+    kte -- rý tě stvo -- řil,
+    a na -- vě -- ky
+    zů -- stá -- váš pan -- nou.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 149"
+    fial = "commune/commune_maria.ly#1ne-a2?konec&-aleluja"
+    id = "rch-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g g \barMin
+    a g f g g \barMaior
+    g g g f e d f( g) g \barMin
+    a b c a a \barMaior
+    c c( d c) b( a g) g \barMin
+    \mark\sipka a( g f) g( a) a g g \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ná jsi,
