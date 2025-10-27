@@ -4607,6 +4607,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g \mark\sipka g a a \barMin
+    a \mark\sipka a b( c) a a b( c) a g g \barMaior
+    g g f d f g a g g \barMaior
+    a( c) c \barMin a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník se ne -- od -- va -- žo -- val
+    a -- ni po -- zdvih -- nout o -- či k_ne -- bi,
+    a -- le bil se v_pr -- sa a ří -- kal:
+    Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "C"
+    id = "ne30c-ne1-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -4687,7 +4712,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d( f) f d d \barMin f e c d d \barMaior
     a' g \mark\sipka f g g( a) a \barMaior
@@ -4729,6 +4754,82 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne30c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f f e d e f d c c \barMaior
+    f g a( c) a g( a) a \barMaior
+    a g f f g f d d \barMin
+    e c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník se vrá -- til do -- mů o -- spra -- ve -- dl -- něn,
+    ne však fa -- ri -- ze -- us,
+    kte -- rý si za -- klá -- dal na tom,
+    že je spra -- ved -- li -- vý.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne30c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c d f f e d e f d c c \barMaior
+    f g a( c) a g( a) a \barMaior
+    \mark\sipka a g f f( g) f f \barMin
+    e f d c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník se vrá -- til do -- mů o -- spra -- ve -- dl -- něn,
+    ne však fa -- ri -- ze -- us,
+    kte -- rý si za -- klá -- dal
+    na tom, že je spra -- ved -- li -- vý.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne30c-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 g f f( g) f d d \barMin f e d c c \barMaior
+    f g a( c) a g( a) a \barMaior
+    a g f f( g) f f \barMin
+    e f d c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník se vrá -- til do -- mů o -- spra -- ve -- dl -- něn,
+    ne však fa -- ri -- ze -- us,
+    kte -- rý si za -- klá -- dal
+    na tom, že je spra -- ved -- li -- vý.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "C"
     id = "ne30c-rch-ben"

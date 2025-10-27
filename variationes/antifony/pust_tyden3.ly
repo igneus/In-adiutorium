@@ -3554,6 +3554,33 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g f g a a( g) g \barMaior
+    a c d c b a a \barMin
+    \mark\sipka a a b( c) a a b( c) a g g \barMaior
+    g g f d f g a g g \barMaior
+    a( c) c \barMin a c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Cel -- ník zů -- stal stát vza -- du
+    a ne -- od -- va -- žo -- val  se
+    a -- ni po -- zdvih -- nout o -- či k_ne -- bi,
+    a -- le bil se v_pr -- sa a ří -- kal:
+    Bo -- že, buď mi -- los -- tiv mně hříš -- né -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_21_30.ly#ne30c-ne1-mag?konec=31"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g \mark\sipka a g f g( a) a \barMaior
     a c d c b a a \barMin
     c b c( d) c b a g a( g) g \barMaior

@@ -712,8 +712,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( f) f d d \barMin f e c d d \barMaior
-    a' g f g g( a) a \barMaior
+    d4 c d f f e d e f d c c \barMaior
+    f g a( c) a g( a) a \barMaior
     a g f f( g) f f \barMin
     e f d c f e c( d) d \barFinalis
   }
