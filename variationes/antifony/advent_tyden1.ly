@@ -463,6 +463,46 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e( a) a \mark\sipka a( b) g g( a) a \barMin
+    a a a g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Pán při -- jde s_vel -- kou mo -- cí
+    a kaž -- dý člo -- věk ho u -- vi -- dí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e( a) a a( b) g g( a) a \barMin
+    a \mark\sipka g f g( a) g f d e e \barFinalis
+  }
+  \addlyrics {
+    Pán při -- jde s_vel -- kou mo -- cí
+    a kaž -- dý člo -- věk ho u -- vi -- dí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
