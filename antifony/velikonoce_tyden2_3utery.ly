@@ -35,8 +35,8 @@
   \relative c' {
     \choralniRezim
     d4 c d f f e d e( d) c \barMin
-    d c d f( e d4.) d \barMaior
-    e4 f d( c) d \barFinalis
+    d e f d d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
@@ -104,11 +104,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g a c( d) d \barMin
-    d e c b( c) a( g) g \barMin
-    f a g g \barFinalis
+    d4 c d d( f) f \barMin
+    f g f e( f) d d( c) \barMin
+    a c c( d) d \barFinalis
   }
   \addlyrics {
     Bůh vy -- svo -- bo -- dil
@@ -117,10 +117,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 49-II"
-    placet = "nic moc"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
