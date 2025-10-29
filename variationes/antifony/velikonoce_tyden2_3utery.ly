@@ -389,6 +389,29 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 c d f f e d e( d) c \barMin
+    \mark\sipka c a c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Tys, Pa -- ne, za -- chrá -- nil mou du -- ši
+    z_pro -- pas -- ti zhou -- by.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Iz 38"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     d4 c d f f e d e( d) c \barMin
     \mark\sipka d e f d d
