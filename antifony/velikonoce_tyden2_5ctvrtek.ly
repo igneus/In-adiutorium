@@ -30,10 +30,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d c) b( c) c \barMin
-    c d e e( f d) c c( a b) a4.( g) \barMaior
-    a4 b c( a) b( a g4.) g \barMaior
-    a4 g f( g) g \barFinalis
+    c4( d) c c \barMin
+    c a g g( a) f g( a) a \barMin
+    a bes g f f \barMaior
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí
@@ -43,12 +43,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
+    modus = "V"
     differentia = "a"
     psalmus = "Iz 12"
     id = "rch-a2"
-    placet = "Modus VII není příliš vhodný, protože kantikum má řadu krátkých veršů;
-    mám ji takhle rád, ale takový krásný text si zaslouží pár pokusů o ještě lepší melodii"
     piece = \markup {\sestavTitulek}
   }
 }

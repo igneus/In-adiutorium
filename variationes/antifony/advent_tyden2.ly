@@ -2097,6 +2097,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4( d c) b( c) c \barMin
     c d e e( f d) c c( a b) a4.( g) \barMaior
@@ -2116,6 +2117,33 @@
     fons = "doba velikonoční, feriální cyklus, čt. 2.t., r.ch., 2. ant.; ubráno aleluja;
     na tomto místě bylo 'čerpat', ale to je, myslím, jen inkonsistence překladu
     a staré vážit je půvabnější než obyčejné čerpat a lépe se zpívá"
+    fial = "fial://antifony/velikonoce_tyden2_5ctvrtek.ly#rch-a2?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) c c \barMin
+    c a g g( a) f g( a) a \barMin
+    a bes g f f \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    bu -- de -- te vá -- žit vo -- du
+    z_pra -- me -- nů spá -- sy.
+  }
+  \header {
+    textus_approbatus = "S radostí budete čerpat vodu z pramenů spásy."
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "pa-amag"
     fial = "fial://antifony/velikonoce_tyden2_5ctvrtek.ly#rch-a2?-aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }

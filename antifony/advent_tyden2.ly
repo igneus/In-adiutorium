@@ -465,9 +465,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d c) b( c) c \barMin
-    c d e e( f d) c c( a b) a4.( g) \barMaior
-    a4 b c( a) b( a g4.) g \barFinalis
+    c4( d) c c \barMin
+    c a g g( a) f g( a) a \barMin
+    a bes g f f \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí
@@ -475,12 +475,9 @@
     z_pra -- me -- nů spá -- sy.
   }
   \header {
-    % na tomto místě bylo 'čerpat', ale to je, myslím, (oproti velikonočnímu
-    % výskytu stejného textu) jen inkonsistence překladu
-    % a staré vážit je půvabnější než obyčejné čerpat a lépe se zpívá
     textus_approbatus = "S radostí budete čerpat vodu z pramenů spásy."
     quid = "ant. k Magnificat"
-    modus = "VII"
+    modus = "V"
     differentia = "a"
     psalmus = ""
     id = "pa-amag"

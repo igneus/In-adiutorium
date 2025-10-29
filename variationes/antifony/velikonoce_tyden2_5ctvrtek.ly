@@ -245,7 +245,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( d c) b( c) c \barMin
     c d e e( f d) c c( a b) a4.( g) \barMaior
@@ -263,6 +263,8 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Iz 12"
+    placet = "Modus VII není příliš vhodný, protože kantikum má řadu krátkých veršů;
+    mám ji takhle rád, ale takový krásný text si zaslouží pár pokusů o ještě lepší melodii"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -429,6 +431,83 @@
   \header {
     quid = "2. ant."
     modus = "VII"
+    differentia = "a"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c d d
+    d( e) d c( a) a \barMaior
+    c b a g( a g4.) g4 \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí bu -- de -- te
+    vá -- žit vo -- du
+    z_pra -- me -- mů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (Odpovídající latinská antifona je také modu V, ale tím podobnost končí.
+  Rozumnou možnost adaptace nápěvu nevidím.)
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) c c \barMin
+    c a g g( a) f f( g) g \barMin
+    g a g f f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    bu -- de -- te vá -- žit vo -- du
+    z_pra -- me -- nů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Iz 12"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( d) c c \barMin
+    c a g g( a) f \mark\sipka g( a) a \barMin
+    a bes g f f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    bu -- de -- te vá -- žit vo -- du
+    z_pra -- me -- nů spá -- sy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
     differentia = "a"
     psalmus = "Iz 12"
     id = "rch-a2"

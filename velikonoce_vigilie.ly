@@ -88,9 +88,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d c) b( c) c \barMin
-    c d e e( f d) c c( a b) a4.( g) \barMaior
-    a4 b c( a) b( a g4.) g \barFinalis
+    c4( d) c c \barMin
+    c a g g( a) f g( a) a \barMin
+    a bes g f f \barFinalis
   }
   \addlyrics {
     S_ra -- dos -- tí
@@ -99,10 +99,10 @@
   }
   \header {
     quid = "ant. po 5. čtení (Iz 55)"
-    modus = "VII"
+    modus = "V"
     differentia = "a"
     psalmus = "Iz 12"
-    fial = "antifony/velikonoce_tyden2_5ctvrtek.ly#rch-a2?-aleluja"
+    fial = "antifony/advent_tyden2.ly#pa-amag"
     id = "mc-xa5"
     piece = \markup {\sestavTitulek}
   }
