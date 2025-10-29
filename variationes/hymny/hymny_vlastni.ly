@@ -6,7 +6,9 @@
 }
 
 \include "../../spolecne/layout.ly"
+\include "../../spolecne/tiraz.ly"
 \include "../../spolecne/hymnar.ly"
+\include "../../spolecne/variationes.ly"
 
 notime = {
   \override Score.TimeSignature.stencil = ##f
