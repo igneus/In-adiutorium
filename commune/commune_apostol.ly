@@ -455,7 +455,7 @@
     g f g( a) g g \barMin g f d f( g) g( f) \barFinalis
     % V
     \neviditelna a
-    a a a g( a) g f g( a) a( g) \barMax
+    a( bes) a a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
     g f g( a) g g \barMin g f d f( g) g( f) \barFinalis
@@ -776,12 +776,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g f( g) d d \barMin g f g g a f d f( g) \barMaior
-    g f g f e d( c) c \barMax
-    c d d d d( f) e d( c) \barMin d f e f( g) g \barMaior
-    f g a( f e d) d \barMin f e f g f e d c( d) d \barFinalis
+    d4 d c( d) a a \barMin d c d d e c a c( d) \barMin
+    d c d c b a( g) g \barMaior
+    a a g a a( c) b a( g) \barMin a c b c( d) d \barMaior
+    c d e( c b a) a \barMin c b c d c b a g( a) a \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
     Až Syn člo -- vě -- ka
@@ -794,8 +794,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "I"
-    differentia = "g"
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
