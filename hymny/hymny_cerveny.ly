@@ -837,6 +837,26 @@ notime = {
 
 \score {
   \relative c'' {
+    \key d \major
+
+    \time 3/4
+    b4 ais b | cis2 d4 | e8[ d] cis2 | b \breathe
+    b4 | ais2 b4 | cis2 d4 | e8[ d] cis2 | b \breathe
+    b4 | a b cis | b8[ a] gis2 | fis \breathe
+    fis4 | a b cis | b8[ a] gis2 | fis r4 |
+    \time 4/4
+    fis4 a g fis | e4. d8 d2 \breathe |
+    d4 fis e d | cis4. b8 b2 \bar "|."
+  }
+  \header {
+    fons = "s. 136"
+    metrum = "8.8.7.7.7.7"
+    id = "174"
+  }
+}
+
+\score {
+  \relative c'' {
     \key e \dorian
     \notime
 
