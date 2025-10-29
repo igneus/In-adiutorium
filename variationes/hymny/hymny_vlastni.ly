@@ -83,3 +83,32 @@ notime = {
     metrum = "8.8.7.7.7.7"
   }
 }
+
+\score {
+  \relative c'' {
+    \key d \dorian
+    \notime
+    \autoBeamOff
+
+    \repeat unfold 2 { a4 a b g a c b a2 \bar "|" }
+
+    \repeat unfold 2 { c4 c d d a a g2 \bar "|" }
+
+    a4 a f e g g g2 \bar "|"
+    a4 a f e d f g2 \bar "|."
+  }
+  \addlyrics {
+    Pra -- vý Bo -- že na vý -- sos -- ti,
+    pře -- div -- ný jsi v_své moud -- ros -- ti,
+
+    kte -- rou všech -- no spat -- řu -- ješ,
+    ne -- be, ze -- mi spra -- vu -- ješ.
+
+    Chvá -- la Vše -- mo -- hou -- cí -- mu,
+    chvá -- la Vše -- vě -- dou -- cí -- mu!
+  }
+  \header {
+    occasio = "žaltář, sudé týdny, neděle, druhé nešpory"
+    metrum = "8.8.7.7.7.7"
+  }
+}
