@@ -1577,6 +1577,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin b c a g a g f \barMaior
+    c' d d c \barMin \mark\sipka b c a g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \zvyraznovacModry
     \choralniRezim
@@ -1623,6 +1643,26 @@
     \choralniRezim
     g4 g g( a) a \barMin b c a g a g f \barMaior
     c' b c a \barMin g f \mark\sipka g a( g) g \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
+    vzdá -- vej -- me čest všem je -- ho sva -- tým.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin b c a g a g f \barMaior
+    c' b c a \barMin g \mark\sipka a f g( a g) g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
@@ -1863,7 +1903,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 d e c d d \barMaior
     c d c b a g \mark\sipka f( a) a g g \barFinalis
@@ -1882,8 +1922,14 @@
   }
 }
 
+\markup\justify{
+  (Částečně zpět. Poznámka výše, která vyústila v odstranění ozdoby,
+  je výrazem nedostatečného pochopení, jaké funkce melisma v nápěvu
+  může plnit.)
+}
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d e c d d \barMaior
     c d c b a g \mark\sipka a( g f) a g g \barFinalis
@@ -2247,7 +2293,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d d( f) e d( c) c d e d d \barMaior
     f f d f e d( c) c \barMaior
@@ -2301,6 +2347,51 @@
     Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
     ko -- na -- li spra -- ve -- dl -- nost
     a do -- sáh -- li to -- ho, co ji by -- lo slí -- be -- no.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d d( f) e d( c) c d e d d \barMaior
+    f f d f e d( c) c \barMaior
+    d c( d) d( f) f \barMin g \mark\sipka f g a f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
+    ko -- na -- li spra -- ve -- dl -- nost
+    a do -- sáh -- li to -- ho, co jim by -- lo slí -- be -- no.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) e d( c) c d e d d \barMaior
+    f f d f e d( c) c \barMaior
+    d c( d) d( f) f \barMin \mark\sipka f f g g f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
+    ko -- na -- li spra -- ve -- dl -- nost
+    a do -- sáh -- li to -- ho, co jim by -- lo slí -- be -- no.
   }
   \header {
     quid = "ant. odpoledne"
@@ -2572,6 +2663,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 d d d d( f e c) c( d) \barMin
+    \mark\sipka d c( d) c b c a a( g) g \barMaior
+    a f g a a \mark\sipka \barMin c( d e) c d( c) b \barMin
+    a g a b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je pou -- ze zkou -- šel
+    a shle -- dal, že jsou ho hod -- ni;
+    pro -- to ob -- dr -- ží z_je -- ho ru -- kou
+    od -- mě -- nu věč -- né slá -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 116-II"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 d \mark\sipka c d d( f e c) c( d) \barMin
     c b( c) c b c a g( a) a \barMaior
     g f g a a c( d e) c d( c) b \barMin
@@ -2673,6 +2788,28 @@
     c4( d) d \barMin d e d f e d c d \barMaior
     d d d c( d) c \barMin b a g c b c c a a \barMaior
     \mark\sipka c d e d c c( d) \barMin d d d e c b( c) a a \barFinalis
+  }
+  \addlyrics {
+    Kris -- te, svou kr -- ví jsi nás vy -- kou -- pil
+    z_kaž -- dé -- ho kme -- ne, ja -- zy -- ka, li -- du i ná -- ro -- da
+    a vy -- tvo -- řil jsi z_nás na -- še -- mu Bo -- hu krá -- lov -- ství.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d \barMin d \mark\sipka f g f e d c d \barMaior
+    d d d c( d) c \barMin b a g c b c c a a \barMaior
+    c d e d c \mark\sipka b( a) \barMin f f f b c b( c) a a \barFinalis
   }
   \addlyrics {
     Kris -- te, svou kr -- ví jsi nás vy -- kou -- pil
@@ -2818,6 +2955,38 @@
     % R
     \neviditelna c
     f f f( g) f \barMin g \mark\sipka g g f g( a) a( g) \barMax
+    g( a) g( f) d d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a a g( a) g g \barMin g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g( f) d d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Všich -- ni sva -- tí, o -- sla -- vuj -- te Bo -- ha;_*
+    ra -- duj -- te se, spra -- ved -- li -- ví.
+    \Verse On si vás vy -- vo -- lil za svůj ma -- je -- tek;_*
+    \Response ra -- duj -- te se, spra -- ved -- li -- ví.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna c
+    f f f( g) f \barMin \mark\sipka f f g f g( a) a( g) \barMax
     g( a) g( f) d d f g g( f) f \barFinalis
     % V
     \neviditelna a

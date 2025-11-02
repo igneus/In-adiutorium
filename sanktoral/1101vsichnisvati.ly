@@ -343,6 +343,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
+    placet = "3 _čest_ spíš lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -386,7 +387,7 @@
   \relative c'' {
     \choralniRezim
     c4 d e c d d \barMaior
-    c d c b a g f( a) a g g \barFinalis
+    c d c b a g a( g f) a g g \barFinalis
   }
   \addlyrics {
     Sva -- tí bu -- dou zá -- řit
@@ -451,7 +452,7 @@
     \choralniRezim
     d4 d c d d( f) e d( c) c d e d d \barMaior
     f f d f e d( c) c \barMaior
-    d c( d) d( f) f \barMin g g f e f d c d d \barFinalis
+    d c( d) d( f) f \barMin g f g a f e d( e) d d \barFinalis
   }
   \addlyrics {
     Sva -- tí ví -- rou zví -- tě -- zi -- li nad ří -- še -- mi,
@@ -510,6 +511,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 116-II"
+    placet = "3 _a shledal, že jsou ho hodni_ nezpěvné"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -565,6 +567,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "2 ten atypický akcent na _oslavujte_ nevím"
     id = "2ne-r"
     piece = \markup {\sestavTitulekResp}
   }
