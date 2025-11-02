@@ -33,14 +33,56 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f a \barMin c c c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ze -- mě je pl -- ná
+    Hos -- po -- di -- no -- vy mi -- los -- ti.
+  }
+  \header {
+    quid = "ant. po 1. čtení (Gn 1-2)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 33"
+    fial = "antifony/velikonoce_tyden1_3utery.ly#rch-a3?-aleluja"
+    id = "mc-xa1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 f g g( a) a \barMin
+    c b a b c a g g \barFinalis
+  }
+  \addlyrics {
+    O -- chraň mě, Bo -- že,
+    ne -- boť se u -- tí -- kám k_to -- bě.
+  }
+  \header {
+    quid = "ant. po 2. čtení (Gn 22)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 16"
+    placet = "daný závěr s daným textem je málo zpěvný, _tobě_ musí být jinak"
+    id = "mc-xa2"
+    piece = \markup {\sestavTitulek}
+  }
+}
 
 \score {
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     g4 f g g( a) a \barMin
-    c b a b c a g g \barFinalis
+    c b a b c a \mark\sipka g( a g) g \barFinalis
   }
   \addlyrics {
     O -- chraň mě, Bo -- že,
@@ -263,7 +305,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a a a g f g g \barMin
     a b c a g f \mark\sipka f( g) g \barFinalis
@@ -277,6 +319,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 30"
+    placet = "melodie tíhne k důrazu na pomocné sloveso _jsi_"
     id = "mc-xa4"
     piece = \markup {\sestavTitulek}
   }
@@ -344,6 +387,46 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g a a a b c a a \barMaior
+    c c b \mark\sipka a g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
+    ne -- boť jsi mě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. po 4. čtení (Iz 54)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 30"
+    id = "mc-xa4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g f e d d f g a g \barMaior
+    a b c d c a g( f) g \barFinalis
+  }
+  \addlyrics {
+    Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
+    ne -- boť jsi mě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. po 4. čtení (Iz 54)"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 30"
+    id = "mc-xa4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a a g f g a g g \barMaior
@@ -377,6 +460,27 @@
     quid = "ant. po 4. čtení (Iz 54)"
     modus = "I"
     differentia = "f"
+    psalmus = "Žalm 30"
+    id = "mc-xa4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a a g f \mark\sipka e f f( g) g \barMaior
+    a a g f g a f f \barFinalis
+  }
+  \addlyrics {
+    Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
+    ne -- boť jsi mě vy -- svo -- bo -- dil.
+  }
+  \header {
+    quid = "ant. po 4. čtení (Iz 54)"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 30"
     id = "mc-xa4"
     piece = \markup {\sestavTitulek}

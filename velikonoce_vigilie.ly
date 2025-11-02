@@ -45,7 +45,7 @@
   \relative c'' {
     \choralniRezim
     g4 f g g( a) a \barMin
-    c b a b c a g g \barFinalis
+    c b a b c a g( a g) g \barFinalis
   }
   \addlyrics {
     O -- chraň mě, Bo -- že,
@@ -56,7 +56,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 16"
-    placet = "daný závěr s daným textem je málo zpěvný, _tobě_ musí být jinak"
     id = "mc-xa2"
     piece = \markup {\sestavTitulek}
   }
@@ -65,10 +64,10 @@
 \markup\italic{Po 3. čtení (Ex 14) viz MČ ZP, 1. ant.}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    g4 f g a a a g f g g \barMin
-    a b c a g f f( g) g \barFinalis
+    f4 g a a g f e f f( g) g \barMaior
+    a a g f g a f f \barFinalis
   }
   \addlyrics {
     Chci tě o -- sla -- vo -- vat, Hos -- po -- di -- ne,
@@ -76,10 +75,9 @@
   }
   \header {
     quid = "ant. po 4. čtení (Iz 54)"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 30"
-    placet = "melodie tíhne k důrazu na pomocné sloveso _jsi_"
     id = "mc-xa4"
     piece = \markup {\sestavTitulek}
   }
