@@ -10,6 +10,20 @@
 \include "../../spolecne/hymnar.ly"
 \include "../../spolecne/variationes.ly"
 
+\paper {
+  scoreTitleMarkup = \markup\column {
+    \fill-line {
+      ""
+      \fromproperty #'header:occasio
+      ""
+    }
+    \fill-line {
+      ""
+      \tiny\fromproperty #'header:metrum
+    }
+  }
+}
+
 notime = {
   \override Score.TimeSignature.stencil = ##f
   \cadenzaOn
@@ -52,7 +66,8 @@ notime = {
     a tou -- hu na -- pl -- ni -- ti.
   }
   \header {
-    piece = "nešpory"
+    occasio = "Vzpomínka na všechny věrné zemřelé, nešpory"
+    metrum = "8.8.7.7"
   }
 }
 
