@@ -1762,6 +1762,31 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g( a) a \barMin g f g a a( g) g \barMaior
+    a g f( g) \mark\sipka f( d) d \barMin c4 d d( f) f g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+
+  }
+  \addlyrics {
+    Hlá -- sa -- li Bo -- ží spra -- ve -- dl -- nost
+    a všem ná -- ro -- dům zvěs -- to -- va -- li Bo -- ží slá -- vu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 97"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
