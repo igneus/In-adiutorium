@@ -78,11 +78,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 c d f e d c a b( c) c \barMaior
-    c( d c) b( g) c a a \barMaior
-    b g g( a) a \barFinalis
+    d4 c d f f e d e( f) d d \barMin
+    c a c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Hos -- po -- din vy -- svo -- bo -- dil můj ži -- vot_*
@@ -91,11 +91,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 116-I"
-    placet = "postup _vysvobodil můj život_ (zvlášť jeho konec) je v rámci modu hodně netypický
-    a nápěv celkově není nijak zvlášť hodnotný - předělat"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
