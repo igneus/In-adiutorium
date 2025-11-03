@@ -560,6 +560,14 @@
 
 \pageBreak
 
+\markup\justify{
+  \cantusid-link "003585"
+  (Normálně bez aleluja; s aleluja ji má Hartker,
+  Cod. Sang. 390, s. 134,
+  ale daný zpěv se nejspíš neudržel dost dlouho na to,
+  aby pronikl do diastematických rukopisů.)
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -701,6 +709,133 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d d c b c( a g) g \barMin
+    a g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g e f g f( e) d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "podle AR1912 286"
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g e f g \mark\sipka f e( d) e \barMin
+    f f( g) e e \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g \mark\sipka f g f e d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a g f e( f) g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 148"
     id = "rch-ant3"
     piece = \markup {\sestavTitulek}
