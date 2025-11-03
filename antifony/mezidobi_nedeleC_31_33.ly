@@ -60,7 +60,7 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "III"
-    differentia = "a"
+    differentia = "h"
     psalmus = ""
     annus = "C"
     id = "ne31c-2ne-amag"
