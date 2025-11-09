@@ -667,7 +667,7 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \mark\sipka f4 g a a a g f g f d \barMin
     e4. c e4( f) d d \barMaior
@@ -675,6 +675,32 @@
   }
   \addlyrics {
     Hos -- po -- din_* bu -- de vlád -- nout na -- vě -- ky,
+    tvůj Bůh, Si -- ó -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 146"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (kombinace dvou variant výše)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4 a f g f g a f f d \barMin
+    e4. c e4( f) d d \barMaior
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din bu -- de vlád -- nout na -- vě -- ky,_*
     tvůj Bůh, Si -- ó -- ne.
     A -- le -- lu -- ja.
   }

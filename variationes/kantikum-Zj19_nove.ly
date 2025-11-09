@@ -421,6 +421,16 @@ modVIIalal = \relative c'' { \neviditelna d e4 d c( d c) b c a g g \barFinalis \
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \neviditelna e e4 d c( d) c \barMin b c a( g) f( g) \barFinalis
+  }
+  \addlyrics {
+    \Response A -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+}
+
 modEial = \relative c'' { \neviditelna a a4 bes g( a) a \barMaior }
 modEal = \relative c'' { \neviditelna g g4 g f a \barFinalis }
 modEalal = \relative c'' { \neviditelna a a4 bes a g( f) g bes bes a \barFinalis \break }
