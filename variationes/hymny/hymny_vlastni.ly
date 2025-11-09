@@ -7,6 +7,7 @@
 
 \include "../../spolecne/layout.ly"
 \include "../../spolecne/tiraz.ly"
+\include "../../spolecne/nadpisy.ly"
 \include "../../spolecne/hymnar.ly"
 \include "../../spolecne/variationes.ly"
 
@@ -15,6 +16,11 @@
     \fill-line {
       ""
       \fromproperty #'header:occasio
+      ""
+    }
+    \if #(property-exists-checker 'header:notitia) \fill-line {
+      ""
+      \small\italic\fromproperty #'header:notitia
       ""
     }
     \fill-line {
@@ -94,7 +100,7 @@ notime = {
   }
   \header {
     occasio = "žaltář, sudé týdny, neděle, druhé nešpory"
-    notitia = "Nápěv č. 88 s přeuspořádanými melismaty"
+    notitia = "nápěv č. 88 s přeuspořádanými melismaty"
     metrum = "8.8.7.7.7.7"
   }
 }
@@ -124,6 +130,35 @@ notime = {
   }
   \header {
     occasio = "žaltář, sudé týdny, neděle, druhé nešpory"
+    metrum = "8.8.7.7.7.7"
+  }
+}
+
+\score {
+  \relative c' {
+    \key d \dorian
+    \notime
+
+    d2 f4 d c d f e d2 \bar "|"
+    f2 g4 g a f g g a2 \bar "|"
+    a4 c2 a4 g2 f4 e2 d \bar "|"
+    f4 g2 g4 a f g2 a \bar "|"
+    a4 c a f g g f2 \bar "|"
+    g4 g a f e2 d4 d2 \bar "|."
+  }
+  \addlyrics {
+    Pra -- vý Bo -- že na vý -- sos -- ti,
+    pře -- div -- ný jsi v_své moud -- ros -- ti,
+
+    kte -- rou všech -- no spat -- řu -- ješ,
+    ne -- be, ze -- mi spra -- vu -- ješ.
+
+    Chvá -- la Vše -- mo -- hou -- cí -- mu,
+    chvá -- la Vše -- vě -- dou -- cí -- mu!
+  }
+  \header {
+    occasio = "žaltář, sudé týdny, neděle, druhé nešpory"
+    notitia = "začátek podle nápěvu č. 36"
     metrum = "8.8.7.7.7.7"
   }
 }
