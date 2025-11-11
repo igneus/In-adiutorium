@@ -187,12 +187,43 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka a4 g f g g( a) g g \barMin
     f g g( f) f \barMaior
     a a a( c) g( f) f \barMin
     g g a g f f \barFinalis
+  }
+  \addlyrics {
+    Pe -- tr stá -- le vy -- zná -- vá_*
+    v_ce -- lé cír -- kvi:
+    Ty jsi Me -- si -- áš,
+    Syn ži -- vé -- ho Bo -- ha!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Jen rytmické znaménko.
+  Odjakživa zpívám s důrazem na _Syn_, který spíš než v délce
+  spočívá snad v minipauze po, ale divisio se jeví jako příliš tvrdý
+  a potenciálně destruktivní notační prostředek pro její reprezentaci.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g f g g( a) g g \barMin
+    f g g( f) f \barMaior
+    a a a( c) g( f) f \barMin
+    \mark\sipka g-- g a g f f \barFinalis
   }
   \addlyrics {
     Pe -- tr stá -- le vy -- zná -- vá_*

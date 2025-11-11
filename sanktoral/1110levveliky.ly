@@ -48,7 +48,7 @@
     a4 g f g g( a) g g \barMin
     f g g( f) f \barMaior
     a a a( c) g( f) f \barMin
-    g g a g f f \barFinalis
+    g-- g a g f f \barFinalis
   }
   \addlyrics {
     Pe -- tr stá -- le vy -- zná -- vá_*
