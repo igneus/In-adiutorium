@@ -74,7 +74,7 @@
   \relative c'' {
     \choralniRezim
     d4 b d( e f d) d \barMin
-    c b g a g g \barFinalis
+    d c b a( b) a( g) g \barFinalis
   }
   \addlyrics {
     Bůh nás vzkří -- sí
@@ -94,8 +94,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 b d( e) d d \barMin c( b) a b a( g) g \barMaior
-    a a g f g( a) a c b g g \barFinalis
+    d4 b d( e) d d \barMin e( f) d c c( d) d \barMaior
+    d d c b a g a b g g \barFinalis
   }
   \addlyrics {
     Ti, kdo do -- sáh -- nou vzkří -- še -- ní z_mrt -- vých,
@@ -115,7 +115,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a g f g( a) a \barMin c c b( c a) a \barMaior
+    g4 a a f e d( e) d \barMin f g g( a) a \barMaior
     c c b( a g) g f a a g g \barFinalis
   }
   \addlyrics {
