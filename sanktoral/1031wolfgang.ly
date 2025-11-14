@@ -18,7 +18,7 @@
     f4 g a a g4.( a) g4 f g g \barMin
     a a g f d( c) c \barMaior
     f g g( a) a \barMin
-    c c bes a g( a) \barMin
+    c c bes a g( a) \barMaior
     a a g f e f d d \barFinalis
   }
   \addlyrics {

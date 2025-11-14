@@ -91,7 +91,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a a g4.( a) g4 f g g \barMin
     \mark\sipka a a g f d( c) c \barMaior
@@ -121,6 +121,7 @@
 }
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g a a g4.( a) g4 f g g \barMin
     a a g f d( c) c \barMaior
