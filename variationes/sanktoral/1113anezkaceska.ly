@@ -315,6 +315,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -349,6 +350,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
@@ -398,6 +400,40 @@
     a a g a g( f e) e \barMin f( d) f f e e \barFinalis
     % Slava
     a4 a a g a \mark\sipka c a \barMin \mark\sipka c d d c( b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    \Response Lá -- mej chléb hla -- do -- vé -- mu,
+    po -- přej po -- hos -- tin -- ství blou -- dí -- cím u -- bo -- žá -- kům;_*
+    ne -- od -- mí -- tej po -- moc své -- mu bliž -- ní -- mu.
+    \Verse Když vi -- díš na -- hé -- ho, ob -- leč ho,_*
+    \Response ne -- od -- mí -- tej po -- moc své -- mu bliž -- ní -- mu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 e g f e d d \barMaior
+    c d e g a e \barMin g a c b a b a \barMax
+    a a \mark\sipka a a g( f e) e \barMin f( d) f f e e \barFinalis
+    % V
+    \neviditelna a
+    a4 g a c b a b( g) g( a) a \barMax
+    % R
+    \neviditelna a
+    a a \mark\sipka a a g( f e) e \barMin f( d) f f e e \barFinalis
+    % Slava
+    a4 a a g a c( a) a \barMin a b g g( a) a a \barFinalis
   }
   \addlyrics {
     \Response Lá -- mej chléb hla -- do -- vé -- mu,
@@ -575,11 +611,56 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a( c) c d c e e d \barMaior
     c c c d( c) b \barMin
     \mark\sipka a g a c c b a g a a \barFinalis
+  }
+  \addlyrics {
+    Mís -- to to -- ho, co je do -- čas -- né,
+    bu -- deš mít po -- díl
+    na slá -- vě ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 a a( c) c \barMin d c e e d \barMaior
+    c c c d( c) b \barMin
+    a g a c c b a g a a \barFinalis
+  }
+  \addlyrics {
+    Mís -- to to -- ho, co je do -- čas -- né,
+    bu -- deš mít po -- díl
+    na slá -- vě ne -- bes -- ké -- ho krá -- lov -- ství.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin d c e e d \barMaior
+    \mark\sipka c d e c( b) a( g) \barMin
+    a g a c c b a g a a \barFinalis
   }
   \addlyrics {
     Mís -- to to -- ho, co je do -- čas -- né,
@@ -683,6 +764,46 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) g g( a) a \barMin
+    a c b a b a g g \barFinalis
+  }
+  \addlyrics {
+    Moud -- rá pan -- na
+    si vy -- bra -- la lep -- ší ú -- děl.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ef 1"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4( e) g g( a) a \barMin
+    a c b a b a g g \barFinalis
+  }
+  \addlyrics {
+    Moud -- rá pan -- na
+    si vy -- bra -- la lep -- ší ú -- děl.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Ef 1"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
@@ -818,6 +939,42 @@
     % R
     \neviditelna a
     g g g a g( f d) d \barMin f \mark\sipka g a g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Kdo je me -- zi vá -- mi nej -- vět -- ší,
+    ať je ja -- ko nej -- men -- ší._*
+    To je vů -- le Bo -- ží: va -- še po -- svě -- ce -- ní.
+    \Verse Kdo -- je před -- sta -- ve -- ný,
+    ať je ja -- ko ten, kdo dru -- hým slou -- ží._*
+    \Response To je vů -- le Bo -- ží: va -- še po -- svě -- ce -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f f  \barMin
+    f f g f g a a( g) \barMax
+    g g g a g( f d) d \barMin f g a g \mark\sipka f f \barFinalis
+    % V
+    \neviditelna a
+    a a a( bes) a g( a) g \barMin
+    g g g g g g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g a g( f d) d \barMin f g a g \mark\sipka f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -1001,12 +1158,95 @@
 }
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka d4( a') a \barMin c c b a b c a a \barMaior
     f( g) g( a) a \barMin g f g( a) g f( e) d d( c) \barMax
 
     d4 d d( c d) \barMin f g g g f a( g) g \barMaior
+    a a a( g f) e( f) d \barMin c d( f) e d c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,
+    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
+
+    Měl jsem hlad, a da -- li jste mi na -- jíst;
+    byl jsem na ces -- tě, a u -- ja -- li jste se mě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/pust_tyden1.ly#po-aben?zacatek=18"
+    placet = "_hlad_ melisma moc dobře nenese"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a \barMin c c b a b c a a \barMaior
+    f( g) g( a) a \barMin g f g( a) g f( e) d d( c) \barMax
+
+    \mark\sipka d4( f) f d \barMin f g g g f a( g) g \barMaior
+    a a a( g f) e( f) d \barMin c d( f) e d c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,
+    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
+
+    Měl jsem hlad, a da -- li jste mi na -- jíst;
+    byl jsem na ces -- tě, a u -- ja -- li jste se mě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/pust_tyden1.ly#po-aben?zacatek=18"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a') a \barMin c c b a b c a a \barMaior
+    f( g) g( a) a \barMin g f g( a) g f( e) d d( c) \barMax
+
+    d4( f) f \mark\sipka c \barMin d f g a f f( g) g \barMaior
+    a a a( g f) e( f) d \barMin c d( f) e d c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,
+    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
+
+    Měl jsem hlad, a da -- li jste mi na -- jíst;
+    byl jsem na ces -- tě, a u -- ja -- li jste se mě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/pust_tyden1.ly#po-aben?zacatek=18"
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( a') a \barMin c c b a b c a a \barMaior
+    f( g) g( a) a \barMin g f g( a) g f( e) d d( c) \barMax
+
+    d4( f) f c \barMin d f g \mark\sipka g f a( g) g \barMaior
     a a a( g f) e( f) d \barMin c d( f) e d c d d \barFinalis
   }
   \addlyrics {

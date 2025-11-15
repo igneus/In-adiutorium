@@ -91,7 +91,7 @@
     \neviditelna a
     a a g a g( f e) e \barMin f( d) f f e e \barFinalis
     % Slava
-    a4 a a g a c( a) a \barMin a b g g a a \barFinalis
+    a4 a a g a c( a) a \barMin a b g g( a) a a \barFinalis
   }
   \addlyrics {
     \Response Lá -- mej chléb hla -- do -- vé -- mu,
@@ -159,7 +159,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a( c) c d c e e d \barMaior
+    g4 a a( c) c \barMin d c e e d \barMaior
     c c c d( c) b \barMin
     a g a c c b a g a a \barFinalis
   }
@@ -240,7 +240,7 @@
     d4( a') a \barMin c c b a b c a a \barMaior
     f( g) g( a) a \barMin g f g( a) g f( e) d d( c) \barMax
 
-    d4 d d( c d) \barMin f g g g f a( g) g \barMaior
+    d4( f) f c \barMin d f g a f f( g) g \barMaior
     a a a( g f) e( f) d \barMin c d( f) e d c d d \barFinalis
   }
   \addlyrics {
