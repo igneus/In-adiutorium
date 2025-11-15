@@ -40,15 +40,14 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c c c d( e d4.) d \barMaior
-    d4 d d c a b( c a g) g \barFinalis
+    g4 a c c c d( c e d) d \barMaior
+    e4 d c( d) c a b( c a g) g \barFinalis
   }
   \addlyrics {
     V_Hos -- po -- di -- no -- vě chrá -- mě
-    vo -- la -- jí všich -- ni: Slá -- va!
+    všich -- ni vo -- la -- jí: Slá -- va!
   }
   \header {
-    textus_approbatus = "V Hospodinově chrámě všichni volají: Sláva!"
     quid = "1. ant."
     modus = "VII"
     differentia = "a"
@@ -235,7 +234,7 @@
   \relative c'' {
     \choralniRezim
     d4( e c d) d \barMin c( a) b c d d \barMin
-    e f e d( c d) d \barMaior
+    e f e d( c d4.) d4 \barMaior
     d c b c( a g) g \barMin g f g a4. g \barFinalis
     a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
@@ -290,7 +289,7 @@
   \relative c' {
     \choralniRezim
     d4( f) d d f( g) f e d d \barMaior
-    f( g a) g f e( f) d c c( d) d \barFinalis
+    c( d) d( f) f \barMin g f e d( e d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -313,10 +312,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c c( d c) c \barMin a c b( a) g g \barMaior
+    c d c a c b a g \barMin
     a a f e f g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja a g( a) g \barFinalis
   }
   \addlyrics {
     Jak mi -- lý je tvůj pří -- by -- tek,
@@ -393,9 +392,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c( d c) \barMin c a c b a g g \barFinalis
+    c4 c( d c) \barMin c a c b g( a) g g \barFinalis
 
-    a^\markup\rubrVelikAleluja b g g \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Můj dům má být do -- mem mod -- lit -- by.
@@ -538,13 +537,14 @@
 \score {
   \relative c' {
     \choralniRezim
+    \key f \major
     f4 f f( g) g \barMin
     a( bes) a g \barMin f g a f( e) d \barMaior
     f e f g( a) f e d d \barMax
 
     a' a g f g f d( f) e \barMin
     f g( a bes) a g bes a a \barMaior
-    g( a bes a) g( a) \barMin f g f e d c f e d d \barMaior
+    bes( c bes a) g( a) \barMin f g f e d c f e d d \barMaior
 
     e^\markup\rubrMimoPust f d( c) d \barFinalis
   }
@@ -705,8 +705,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g a f g g \barMin
-    f g f e d( c) c \barMaior
+    f4 f g f g g( a) a \barMin
+    g a g f g( f d) c \barMaior
     d f g( f) f \barFinalis
   }
   \addlyrics {
