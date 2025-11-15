@@ -397,7 +397,7 @@
     \neviditelna a
     a a g a g( f e) e \barMin f( d) f f e e \barFinalis
     % Slava
-    a4 a a g a \mark\sipka c a \barMin \mark\sipka c d d c( b) g( a) a a \barFinalis
+    a4 a a g a \mark\sipka c a \barMin \mark\sipka c d d c( b) g( a) a \barFinalis
   }
   \addlyrics {
     \Response Lá -- mej chléb hla -- do -- vé -- mu,
