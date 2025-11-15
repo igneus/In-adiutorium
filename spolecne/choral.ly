@@ -40,6 +40,14 @@ choralniRezimPsalmodie = {
   % aby se obloucky melismat nevyhybaly znackam akcentu (ktere jsou vzdy nad notou)
   \stemDown
   \slurDown
+
+  % znamenko staccatissimo, zneuzite pro vyznaceni akcentu,
+  % naklonit, aby vic pripominalo latinsky akcent
+  \override Script.rotation = #'(-25 0 -0.5)
+  \override HorizontalBracketText.rotation = #'(-25 0 -0.5)
+
+  % breve hranate
+  \override Staff.NoteHead.style = #'baroque
 }
 
 layoutPsalmodie = \layout {
