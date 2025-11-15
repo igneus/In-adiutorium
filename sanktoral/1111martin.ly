@@ -175,7 +175,7 @@
     f g a( g f) d e( f) d d \barFinalis
   }
   \addlyrics {
-    Pa -- ne, jsem -- -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
+    Pa -- ne, jsem -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
     ne -- od -- mí -- tám dál pra -- co -- vat;
     ať se sta -- ne tvá vů -- le.
   }
