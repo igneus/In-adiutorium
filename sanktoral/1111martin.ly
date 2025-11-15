@@ -221,12 +221,12 @@
     \choralniRezim
     g4 a c( d) d d c d e d \barMin
     d e d c b a( g) g \barMaior
-    a g f g a a g( a g) g \barMax
+    g a g f g a a( g) g \barMax
 
     c c c c c d e c c( d) d \barMin
     c a c b a g a g g \barMaior
-    a a g f g( a) a a \barMin c( d e) d c( b) a a \barMaior
-    g f g( a) a g g \barFinalis
+    a a b g a( c) c c \barMin d( e) d c( b) a a( g) \barMaior
+    a f g( a) a g g \barFinalis
   }
   \addlyrics {
     Sva -- tý bis -- kup z_ce -- lé -- ho srd -- ce

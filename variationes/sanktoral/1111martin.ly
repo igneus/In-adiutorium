@@ -1059,6 +1059,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 b d e d( e) d \barMin d b c b g g g \barMaior
+    c c c c c a c b \barMin
+    a g a c b g g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, jsem -- -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
+    ne -- od -- mí -- tám dál pra -- co -- vat;
+    ať se sta -- ne tvá vů -- le.
+  }
+  \header {
+    textus_approbatus = "Pane, jsem-li dosud tvému lidu potřebný,
+    neodmítám dále pracovat; ať se stane tvá vůle."
+    fons_externus = "volně podle AR1912 765"
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 112"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
@@ -1430,7 +1455,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c( d) d d c d e d \barMin
     \mark\sipka d e d c b a( g) g \barMaior
@@ -1440,6 +1465,71 @@
     c \mark\sipka a c b a g a g g \barMaior
     a a g f g( a) a a \barMin c( d e) d c( b) a a \barMaior
     g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý bis -- kup z_ce -- lé -- ho srd -- ce
+    mi -- lo -- val Kris -- ta krá -- le
+    a ne -- za -- le -- kl se moc -- ných;
+
+    ne -- skon -- čil si -- ce po -- zem -- ský ži -- vot
+    me -- čem pro -- ná -- sle -- do -- va -- te -- le,
+    a -- le přes -- to do -- sá -- hl pal -- my ví -- těz -- ství
+    ja -- ko mu -- čed -- ní -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c( d) d d c d e d \barMin
+    d e d c b a( g) g \barMaior
+    \mark\sipka g a g f g a a( g) g \barMax
+
+    c c c c c d e c c( d) d \barMin
+    c a c b a g a g g \barMaior
+    a a \mark\sipka b g a( c) c c \barMin d( e) d c( b) a a( g) \barMaior
+    a f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý bis -- kup z_ce -- lé -- ho srd -- ce
+    mi -- lo -- val Kris -- ta krá -- le
+    a ne -- za -- le -- kl se moc -- ných;
+
+    ne -- skon -- čil si -- ce po -- zem -- ský ži -- vot
+    me -- čem pro -- ná -- sle -- do -- va -- te -- le,
+    a -- le přes -- to do -- sá -- hl pal -- my ví -- těz -- ství
+    ja -- ko mu -- čed -- ní -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d d c \mark\sipka e d d \barMin
+    d e d c b a( g) g \barMaior
+    g a g f g a a( g) g \barMax
+
+    c c c c c d e c c( d) d \barMin
+    c a c b a g a g g \barMaior
+    a a b g a( c) c c \barMin d( e) d c( b) a a( g) \barMaior
+    a f g( a) a g g \barFinalis
   }
   \addlyrics {
     Sva -- tý bis -- kup z_ce -- lé -- ho srd -- ce
