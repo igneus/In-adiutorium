@@ -61,6 +61,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4( d) d e f e d( c d) d \barMaior
+    d d d d \mark\sipka e d c( d) c c \barMin
+    a g f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Chval -- me na -- še -- ho Bo -- ha;
+    vy -- zná -- vej -- me ho svým ži -- vo -- tem
+    ja -- ko sva -- tý Mar -- tin!
+  }
+  \header {
+    quid = "ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka d4( e) d e f e d( c d) d \barMaior
     d d d d c b c( a) a( g) g \barMin
     a f g( a) a g g \barFinalis
@@ -940,10 +962,35 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d \barMin d d d d f f e d e d c \barMaior
     \mark\sipka d e f e d d( e) d d \barMaior
+    f g a( g f) d e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne, jsem -- -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
+    ne -- od -- mí -- tám dál pra -- co -- vat;
+    ať se sta -- ne tvá vů -- le.
+  }
+  \header {
+    textus_approbatus = "Pane, jsem-li dosud tvému lidu potřebný,
+    neodmítám dále pracovat; ať se stane tvá vůle."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    placet = "2 třetí část (_neodmítám ..._) není moc zpěvná"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( d) d \barMin d d d d f f e d e d c \barMaior
+    d e f e d \mark\sipka e( f) d d \barMaior
     f g a( g f) d e( f) d d \barFinalis
   }
   \addlyrics {
@@ -965,9 +1012,10 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     c4( d) d \barMin d d d d f f e d e d c \barMaior
-    d e f e d \mark\sipka e( f) d d \barMaior
+    d e f e \mark\sipka c d( e) d d \barMaior
     f g a( g f) d e( f) d d \barFinalis
   }
   \addlyrics {
@@ -1061,13 +1109,14 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 b d e d( e) d \barMin d b c b g g g \barMaior
     c c c c c a c b \barMin
     a g a c b g g \barFinalis
   }
   \addlyrics {
-    Pa -- ne, jsem -- -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
+    Pa -- ne, jsem -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
     ne -- od -- mí -- tám dál pra -- co -- vat;
     ať se sta -- ne tvá vů -- le.
   }

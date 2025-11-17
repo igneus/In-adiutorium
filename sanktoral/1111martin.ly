@@ -168,11 +168,11 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    c4( d) d \barMin d d d d f f e d e d c \barMaior
-    d e f e d d( e) d d \barMaior
-    f g a( g f) d e( f) d d \barFinalis
+    d4 b d e d( e) d \barMin d b c b g g g \barMaior
+    c c c c c a c b \barMin
+    a g a c b g g \barFinalis
   }
   \addlyrics {
     Pa -- ne, jsem -li do -- sud tvé -- mu li -- du po -- třeb -- ný,
@@ -182,11 +182,11 @@
   \header {
     textus_approbatus = "Pane, jsem-li dosud tvému lidu potřebný,
     neodmítám dále pracovat; ať se stane tvá vůle."
+    fons_externus = "volně podle AR1912 765"
     quid = "2. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 112"
-    placet = "2 třetí část (_neodmítám ..._) není moc zpěvná"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
