@@ -139,7 +139,7 @@
   \relative c' {
     \choralniRezim
     f4 f g g( a) a \barMin
-    a a g f g f e f d \barFinalis
+    a a a f g g g f d \barFinalis
   }
   \addlyrics {
     Dej -- te si po -- zor,
@@ -185,14 +185,13 @@
   \relative c' {
     \choralniRezim
     f4 g g a a \barMin
-    a a g f d f g( f) f \barFinalis
+    a a g f g( a) f f \barFinalis
   }
   \addlyrics {
     Vy -- tr -- va -- los -- tí
-    za -- chrá -- ní -- te svo -- ji du -- ši.
+    za -- chrá -- ní -- te svou du -- ši.
   }
   \header {
-    textus_approbatus = "Vytrvalostí zachráníte svou duši."
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"

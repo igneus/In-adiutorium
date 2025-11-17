@@ -1221,6 +1221,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 f g g( a) a \barMin
     a a a \mark\sipka f g g g f d \barFinalis
@@ -1242,7 +1243,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g g( a) a \barMin
     a a \mark\sipka g f g f e f d \barFinalis
@@ -1393,7 +1394,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g a a \barMin
     a a g f d f g( f) f \barFinalis
@@ -1404,6 +1405,31 @@
   }
   \header {
     textus_approbatus = "Vytrvalostí zachráníte svou duši."
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "C"
+    fial = "commune/commune_apostol.ly#nona?-aleluja"
+    id = "ne33c-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g a a \barMin
+    a a g f g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Vy -- tr -- va -- los -- tí
+    za -- chrá -- ní -- te svou du -- ši.
+  }
+  \header {
     quid = "ant. k Magnificat"
     modus = "VI"
     differentia = "F"
