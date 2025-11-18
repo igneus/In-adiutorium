@@ -138,15 +138,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c d d( f) f \barMin
+    g a g f( e) d( c) \barMaior
+    d d c d e f d c c( d) d \barFinalis
   }
   \addlyrics {
-    Dej mi poznat cestu, kterou mám kráčet, neboť k tobě pozvedám svou duši.
+    Dej mi po -- znat ces -- tu,
+    kte -- rou mám krá -- čet,
+    ne -- boť k_to -- bě po -- zve -- dám svou du -- ši.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 15"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -198,17 +202,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c c c( d) c c \barMin
+    c c c c b c a g g( a g4.) g4 \barMaior
+    f g a g( a) a \barMin
+    b c a g f a g g \barFinalis
   }
   \addlyrics {
-    Kristova nauka ať je u vás ve své plné síle; z celého srdce s vděčností zpívejte Bohu.
+    Kris -- to -- va na -- u -- ka
+    ať je u vás ve své pl -- né sí -- le;
+    z_ce -- lé -- ho srd -- ce
+    s_vděč -- nos -- tí zpí -- vej -- te Bo -- hu.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

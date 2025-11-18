@@ -514,6 +514,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c d d( f) f \barMin
     g a g f( e) d( c) \barMaior
@@ -527,6 +528,54 @@
   \header {
     quid = "1. ant."
     modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin
+    g a g f( e) d( c) \barMaior
+    d d c d \mark\sipka f( g f) e( d) c \barMin
+    e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Dej mi po -- znat ces -- tu,
+    kte -- rou mám krá -- čet,
+    ne -- boť k_to -- bě po -- zve -- dám
+    svou du -- ši.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d( f) f \barMin
+    g a g f( e) d( c) \barMaior
+    d d \mark\sipka f d f( g) a( g) g \barMin
+    f( d) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Dej mi po -- znat ces -- tu,
+    kte -- rou mám krá -- čet,
+    ne -- boť k_to -- bě po -- zve -- dám
+    svou du -- ši.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 15"
     id = "ne-a1"
@@ -788,6 +837,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c c c( d) c c \barMin
     c c c c b c a g \mark\sipka g( a g4.) g4 \barMaior
@@ -828,6 +878,30 @@
     quid = "ant. k Magnificat"
     modus = "V"
     differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c c \barMin
+    c c a g a g f g g( a) a \barMaior
+    a b c a g a g f \barMin
+    g a \mark\sipka a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- to -- va na -- u -- ka
+    ať je u vás ve své pl -- né sí -- le;
+    z_ce -- lé -- ho srd -- ce
+    s_vděč -- nos -- tí zpí -- vej -- te Bo -- hu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
