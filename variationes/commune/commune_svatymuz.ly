@@ -63,6 +63,62 @@
   }
 }
 
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g g( a) a \barMin
+    g f d f g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g f g( f d) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te na -- še -- ho Bo -- ha,
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    fial = "commune/commune_kostel.ly#2ne-a3?cast=1,3,4"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g g( a) a \barMin
+    \mark\sipka a a g f g( a f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g f g( f d) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te na -- še -- ho Bo -- ha,
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    fial = "commune/commune_kostel.ly#2ne-a3?cast=1,3,4"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {

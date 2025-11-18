@@ -162,3 +162,32 @@ notime = {
     metrum = "8.8.7.7.7.7"
   }
 }
+
+\score {
+  \relative c' {
+    \key d \dorian
+    \notime
+
+    d2 f4 d c d f e d2 \bar "|"
+    f2 g4 g a f g g a2 \bar "|"
+    a4 c2 a4 g2 f4 e2 d \bar "|"
+    f4 g2 g4 a f g2 \mark\sipka f \bar "|"
+    g4 g a f g g f2 \bar "|"
+    g4 g a f e2 d4 d2 \bar "|."
+  }
+  \addlyrics {
+    Pra -- vý Bo -- že na vý -- sos -- ti,
+    pře -- div -- ný jsi v_své moud -- ros -- ti,
+
+    kte -- rou všech -- no spat -- řu -- ješ,
+    ne -- be, ze -- mi spra -- vu -- ješ.
+
+    Chvá -- la Vše -- mo -- hou -- cí -- mu,
+    chvá -- la Vše -- vě -- dou -- cí -- mu!
+  }
+  \header {
+    occasio = "žaltář, sudé týdny, neděle, druhé nešpory"
+    notitia = "začátek podle nápěvu č. 36"
+    metrum = "8.8.7.7.7.7"
+  }
+}
