@@ -281,7 +281,7 @@
     \choralniRezim
     g4 b c d( e) d \barMin
     e f e d c d d \barMaior
-    c b a c b a( g) g \barFinalis
+    d c a c b a( g) g \barFinalis
   }
   \addlyrics {
     E -- li -- áš pla -- nul
@@ -293,7 +293,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "melodie _pro Zákon_ moc nefunguje rytmicky; závěr by mohl být uspokojivější"
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu
   }
