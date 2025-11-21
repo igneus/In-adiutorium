@@ -1937,7 +1937,7 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
     \mark\sipka f4 g g( a) a \barMin a a a g( a) a a c a g( a) a \barMaior
     g f e( f d) d \barMin e( d) c( d) d \barFinalis
@@ -2188,6 +2188,50 @@
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
+    psalmus = "Žalm 32"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g f \mark\sipka g( a g) f d( c) \barMin
+    f g a a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Šťast -- ný je člo -- věk,
+    kte -- ré -- mu Hos -- po -- din
+    ne -- při -- čí -- tá vi -- nu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 32"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g f \mark\sipka e( f) d d
+    c d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Šťast -- ný je člo -- věk,
+    kte -- ré -- mu Hos -- po -- din
+    ne -- při -- čí -- tá vi -- nu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 32"
     id = "ne-ant2"
     piece = \markup {\sestavTitulek}
