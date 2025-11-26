@@ -2066,7 +2066,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
 \markup\justify{
   Liturgia horarum:
   \italic{Ecce vir Oriens nomen eius; sedébit et dominábitur, et loquétur pacem géntibus.}
-  V latině volný citát Zach 6, 12-13.
+  V latině volný citát \make-bible-link "Zach 6, 12-13" .
 }
 
 \score {
@@ -2280,7 +2280,7 @@ bylo v první redakci tohoto oficia víc - tvořily jakýsi jeho hudební motiv.
   \italic{Magnificábitur usque ad términos terræ, et erit iste pax.}
 }
 \markup\justify{
-  V latině doslovný citát z Mich 5,4-5 (Vulgáta),
+  V latině doslovný citát z \make-bible-link "Mich 5,4-5" (Vulgáta),
   v češtině mělká explicitní teologická výpověď.
 }
 

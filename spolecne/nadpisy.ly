@@ -137,6 +137,8 @@
                            ("Žalm" . "Z")
                            ("Iz" . "Iz")
                            ("Sir" . "Sir")
+                           ("Mich" . "Mi")
+                           ("Zach" . "Za")
                            ("Mt" . "Mt")
                            ("Mk" . "Mk")
                            ("Lk" . "L")
