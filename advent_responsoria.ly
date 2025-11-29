@@ -166,6 +166,6 @@
   }
 }
 
-\markup{
-  17. a 18. prosince se o nešporách zpívá responsorium \italic{Ukaž nám,} viz výše pro neděle.
+\markup\italic{
+  17. a 18. prosince se o nešporách zpívá responsorium \upright{Ukaž nám,} viz výše pro neděle.
 }
