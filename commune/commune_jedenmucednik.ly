@@ -448,7 +448,7 @@
   \relative c'' {
     \choralniRezim
     a4 a( d) c c( d) \barMaior
-    e d c d c( b a) \barMin b g a a \barFinalis
+    e d c d d( c a) \barMin a( b) g a a \barFinalis
 
     b4^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }

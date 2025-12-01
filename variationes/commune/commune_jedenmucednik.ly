@@ -1990,10 +1990,35 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a( d) c c( d) \barMaior
     e d c d c( b a) \barMin b g a a \barFinalis
+
+    b4^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kdo zví -- tě -- zí,
+    bu -- de ja -- ko sloup v_Bo -- žím chrá -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a( d) c c( d) \barMaior
+    e d c d \mark\sipka d( c a) \barMin a( b) g a a \barFinalis
 
     b4^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
@@ -2056,6 +2081,30 @@
     quid = "3. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( g) g( a) a \barMaior
+    c c b c a \barMin b a g g \barFinalis
+
+    a4^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo zví -- tě -- zí,
+    bu -- de ja -- ko sloup v_Bo -- žím chrá -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
