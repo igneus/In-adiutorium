@@ -200,6 +200,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g g( a) a \barMin
+    a a a a g f e f d( c) c \barMaior
+    c d f f g( f) f \barMaior
+    \mark\sipka g a a g f e d e f d c c d d \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by hos -- po -- dář vě -- děl,
+    v_kte -- rou noč -- ní do -- bu při -- jde zlo -- děj,
+    jis -- tě by byl vzhů -- ru
+    a ne -- do -- vo -- lil by mu pod -- ko -- pat se do do -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -547,6 +571,87 @@
     A -- le -- lu -- ja.
   }
   \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( d) f( g) g \barMin g g g a g f
+    g g( a) a \barMaior
+    a( b c b) a( g) g \barMaior
+    a g g g g f( e) d
+    f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 190"
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 f( g) g \barMin g g g a g f
+    g g( a) a \barMaior
+    a( b c b) a( g) g \barMaior
+    \mark\sipka g( a) g g g g f( e) d
+    f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 190"
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "imag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f( g) g \barMin g g g a g f
+    g g( a) a \barMaior
+    a( b c b) a( g) g \barMaior
+    \mark\sipka g( a g f) d \barMin a' a a g g( f d)
+    f f( g) g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý na te -- be se -- stou -- pí,
+    Ma -- ri -- a:
+    Ne -- boj se,
+    poč -- neš Bo -- ží -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 190"
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
