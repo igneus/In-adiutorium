@@ -91,11 +91,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c c c( e) d \barMin
     d c d e e e d e d c d d \barMaior
     \mark\sipka d d d c d c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a a Jo -- sef
+    při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
+    a -- by ho před -- sta -- vi -- li Pá -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a c c c( e) d \barMin
+    d c d e e e d e d c d d \barMaior
+    \mark\sipka d c a b c a a g g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a a Jo -- sef

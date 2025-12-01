@@ -19,7 +19,7 @@
     \choralniRezim
     g4 a c c c( e) d \barMin
     d c d e e e d e d c d d \barMaior
-    d d d c d c b a( g) g \barFinalis
+    d c a b c a a g g \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a a Jo -- sef

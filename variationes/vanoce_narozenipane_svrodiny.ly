@@ -1110,7 +1110,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 a c c d d c d e c d d \barMaior
       d d d c d c b a( g) g \barFinalis
@@ -1125,14 +1125,18 @@
       differentia = "a"
       psalmus = "Magnificat"
       annus = "B"
+      placet = "neuspokojivý závěr"
       fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
       id = "svrodiny-1ne-amagB"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
   }
 
+  \markup\aktualisace
+
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       g4 a c c d d c d e c d d \barMaior
       d \mark\sipka c a b c a a g g \barFinalis
@@ -1147,7 +1151,7 @@
       differentia = "a"
       psalmus = "Magnificat"
       annus = "B"
-      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?cast=2"
       id = "svrodiny-1ne-amagB"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }

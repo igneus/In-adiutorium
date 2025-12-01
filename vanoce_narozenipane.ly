@@ -831,7 +831,7 @@
     \relative c'' {
       \choralniRezim
       g4 a c c d d c d e c d d \barMaior
-      d d d c d c b a( g) g \barFinalis
+      d c a b c a a g g \barFinalis
     }
     \addlyrics {
       Při -- nes -- li Je -- ží -- še do Je -- ru -- za -- lé -- ma,
@@ -843,8 +843,7 @@
       differentia = "a"
       psalmus = "Magnificat"
       annus = "B"
-      placet = "neuspokojivý závěr"
-      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?konec"
+      fial = "sanktoral/0202uvedenipanedochramu.ly#1ne-a1?cast=2"
       id = "svrodiny-1ne-amagB"
       piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
     }
