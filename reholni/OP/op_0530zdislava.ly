@@ -153,8 +153,8 @@
     a' a( b c a) g( a) a b( c) a a \barMaior
     a g( f) g g( a) \barMin
     g a b a b( c) a \barMaior
-    a g( f g) g( a) a g f e( f d) d( c) \barMin
-    d e f e d d \barFinalis
+    g f( g) g( a) a g f e( f d) d( c) \barMin
+    d f e d( e) d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -174,7 +174,6 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    placet = "3 zaslouží trochu péče"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

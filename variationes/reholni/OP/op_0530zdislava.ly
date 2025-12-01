@@ -416,7 +416,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d e( f) d d \barMin
     e f g f e f d d \barMaior
@@ -427,6 +427,41 @@
     d e f e d d \barFinalis
 
     \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Svět -- lo Zdi -- sla -- vy,
+    pa -- ní sva -- té -- ho ži -- vo -- ta,
+    tak sví -- ti -- lo před lid -- mi,
+    že vi -- dě -- li
+    je -- jí dob -- ré skut -- ky
+    a chvá -- li -- li za ně Ot -- ce,
+    kte -- rý je v_ne -- be -- sích.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d e( f) d d \barMin
+    e f g f e f d d \barMaior
+    a' a( b c a) g( a) a b( c) a a \barMaior
+    a g( f) g g( a) \barMin
+    g a b a b( c) a \barMaior
+    \mark\sipka g f( g) g( a) a g f e( f d) d( c) \barMin
+    d \mark\sipka f e d( e) d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Svět -- lo Zdi -- sla -- vy,
