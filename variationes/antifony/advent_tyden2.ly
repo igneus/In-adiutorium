@@ -1567,6 +1567,34 @@
     \choralniRezim
     g4 g g( a) a \barMin
     c c c b a g( a) g \barMaior
+    c c( d c a) a \barMin
+    c c c \mark\sipka b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bu -- de se -- dět
+    na Da -- vi -- do -- vě trů -- nu
+    a vlád -- nout
+    po všech -- ny vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Bude sedět na Davidově trůnu
+    a bude vládnout po všechny věky. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin
+    c c c b a g( a) g \barMaior
     c \mark\sipka c( d c b) a( g) \barMin
     a a a g f
     g a a( g) g \barFinalis

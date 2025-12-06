@@ -65,7 +65,7 @@
     \choralniRezim
     d4 d c d f e d( e) d d \barMin
     f g( a) g f f g g \barMaior
-    a a a g f f e( f) d( c) c \barMin
+    a g f g( a) g g f( e) d( c) c \barMin
     d c d f e c c( d) d \barFinalis
   }
   \addlyrics {
@@ -214,7 +214,7 @@
   \relative c' {
     \choralniRezim
     f g a a g bes a \barMin g g g a g f( e) d \barMaior
-    g g g( a) g f e( d) d d( e) c c d d \barFinalis
+    g g g( a) g f e c d( f) e c d d \barFinalis
   }
   \addlyrics {
     V_něm bu -- dou po -- žeh -- ná -- na všech -- na ple -- me -- na ze -- mě,
@@ -225,7 +225,6 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 72-II"
-    placet = "3 melisma na _budou_ spíš pryč"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -314,8 +313,8 @@
     f4 g a a g( a) \barMin
     g( f) g g a a \barMaior
     g f g a g f d c c \barMaior
-    d d d d( f g) \barMin
-    f( e) d \barFinalis
+    f g f e( d c) \barMin
+    e( f) d \barFinalis
   }
   \addlyrics {
     Tvá je, Pa -- ne, moc,
@@ -586,7 +585,7 @@
   \relative c' {
     \choralniRezim
     f4 f f( d) d d f( e) g f \barMin g a a( g f) g \barMaior
-    f f f g f e d( e) d \barMin e f g g( f) f \barFinalis
+    g g g g( a) g f f( g) f \barMin d f g g( f) f \barFinalis
   }
   \addlyrics {
     Je -- ho jmé -- no je: Král krá -- lů a Pán pá -- nů.
@@ -598,7 +597,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
-    placet = "slabší"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
