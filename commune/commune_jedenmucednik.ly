@@ -166,6 +166,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = ""
+    placet = "začátek by byl žádoucí zpěvnější"
     id = "1ne-amag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
