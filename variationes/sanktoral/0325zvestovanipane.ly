@@ -1412,7 +1412,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g f g \barMaior
     a b c c( d) c a a \barMin
@@ -1434,6 +1434,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 2"
+    placet = "2 zkusit lépe, první půlka není moc zpěvná"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -1525,9 +1526,10 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka g4 f g a a g \barMaior
-    a b c c( d) c a a \barMin
+    g a c c( d) c a a \barMin
     c c c b g a g f \barMaior
     d f g a( g) f( g) g \barFinalis
 
@@ -4210,7 +4212,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    \mark\sipka d4 d c c( d) d \barMin d( e f d) d c d e( f) d d \barMaior
+    d4 d c c( d) d \barMin d( e f d) d c d e( f) d d \barMaior
 
     \mark\sipka c d( f) f \barMin
     g f g g( f) f \barMin
@@ -4236,6 +4238,39 @@
     id = "2ne-amag"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
     fial = "fial://advent_antifony.ly#spol-sexta?konec=11&+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c c( d) d \mark\sipka f g f d c d d \barMaior\barMaior
+
+    d4 f( d) d
+    d e f g( f) e \barMin
+    d c( d) d \barMaior
+    d d c d d f e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
+
+    Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+    Pán s_te -- bou!
+    Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    fons = "druhá část: advent, uprostřed dne, ant. v poledne"
+    fial = "fial://advent_antifony.ly#spol-sexta?konec=27&+aleluja"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }

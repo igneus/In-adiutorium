@@ -226,10 +226,10 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a g f g \barMaior
-    a b c c( d) c a a \barMin
+    g4 f g a a g \barMaior
+    g a c c( d) c a a \barMin
     c c c b g a g f \barMaior
     d f g a( g) f( g) g \barFinalis
 
@@ -248,7 +248,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 2"
-    placet = "2 zkusit lépe, první půlka není moc zpěvná"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
