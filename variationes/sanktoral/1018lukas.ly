@@ -604,6 +604,34 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 g a( c) c \barMin
+    d c \mark\sipka d e c( b) a a \barMaior
+    c c c b \mark\sipka a g a a g g \barMin
+    f g a a( g) g \barMaior
+    \mark\sipka g g a f g( a) a \barMin
+    c b( a) g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Lu -- káš
+    na -- psal e -- van -- ge -- li -- um
+    o do -- bro -- tě a mi -- lo -- sr -- den -- ství
+    Bo -- ží -- ho Sy -- na;
+    pro -- to ho dnes chvá -- lí
+    ce -- lá cír -- kev.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 a a( c) c \barMin

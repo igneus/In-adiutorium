@@ -2428,6 +2428,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c \barMin
+    d c d( e) d d \barMaior
+    c( d e) c b a a \barMin
+    c c c b a \mark\sipka g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Ze Si -- ó -- nu
+    vy -- jde na -- u -- ka,
+    z_Je -- ru -- za -- lé -- ma
+    Hos -- po -- di -- no -- vo slo -- vo.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Čtvrtek 1. týdne}}

@@ -624,6 +624,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d
+    f g a f f( g) g \barMaior
+    g a a g f e( f) d c
+    \mark\sipka d( f) e d d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že,
+    na -- vští -- vil jsi ze -- mi
+    a na -- pl -- nils ji mi -- los -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 65"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
     d4 d \barMin

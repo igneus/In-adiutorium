@@ -4308,6 +4308,58 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c a c d c
+    b a g g \barMin
+    g a
+    f g a a g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b c a
+    g a c b \barMin
+    a b
+    c a a a g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ny -- ní je o -- sla -- ven
+    Syn člo -- vě -- ka
+    a Bůh
+    je o -- sla -- ven v_něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 11"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 c b c a a c b( a) g g \barMaior
     g f4.( a) \barMin
     a4 b a g g \barMaior

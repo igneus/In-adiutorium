@@ -4139,6 +4139,98 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g \neviditelna g \bar ";"
+
+    g(^\markup\rubrJmenoSvateho a) \bar ";"
+    g( a) a \bar ";"
+    \mark\sipka g( a) a a \bar ";"
+    g( a) f g( a) a \bar ";"
+    g a f g( a) a \bar ";"
+
+    a4 a a( b c) b c c( d) c b a a \barMaior
+    g g g g( a e) \barMin
+    f g a a b a c b a a \barMaior
+    c c c c( d c) b( g a) a \barMin
+    g( a) e f( g) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý \markup\Nomen
+
+    Jan % Bosco a další
+    Raj -- mund % z Peñafortu
+    Fa -- bi -- án
+    Hi -- la -- ri -- us
+    Bo -- na -- ven -- tu -- ra
+
+    je ten věr -- ný a roz -- váž -- ný správ -- ce,
+    kte -- ré -- ho Pán
+    u -- sta -- no -- vil nad svým slu -- žeb -- nic -- tvem,
+    a -- by jim roz -- dá -- val
+    po -- krm ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka f \neviditelna g \bar ";"
+
+    g(^\markup\rubrJmenoSvateho a) \bar ";"
+    g( a) a \bar ";"
+    \mark\sipka g g( a) a \bar ";"
+    g a g( a) a \bar ";"
+    g a g g( a) a \bar ";"
+
+    a4 a a( b c) b c c( d) c b a a \barMaior
+    g g g g( a e) \barMin
+    f g a a b a c b a a \barMaior
+    c c c c( d c) b( g a) a \barMin
+    g( a) e f( g) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý \markup\Nomen
+
+    Jan % Bosco a další
+    Raj -- mund % z Peñafortu
+    Fa -- bi -- án
+    Hi -- la -- ri -- us
+    Bo -- na -- ven -- tu -- ra
+
+    je ten věr -- ný a roz -- váž -- ný správ -- ce,
+    kte -- ré -- ho Pán
+    u -- sta -- no -- vil nad svým slu -- žeb -- nic -- tvem,
+    a -- by jim roz -- dá -- val
+    po -- krm ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 \mark\sipka f \neviditelna g \bar ";"
 
     g(^\markup\rubrJmenoSvateho a) \bar ";"
