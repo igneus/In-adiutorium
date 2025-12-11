@@ -1437,6 +1437,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g g \barMin
+    c c c b a a( g) g \barMaior
+    \mark\sipka a f e d d \barMin
+    f f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Jde -- me za te -- bou,
+    ne -- po -- skvr -- ně -- ná Pan -- no,
+    při -- ta -- ho -- vá -- ni
+    pří -- kla -- dem tvé sva -- tos -- ti.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1709,10 +1733,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a g c b a b \barMaior
     c c c b a g g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bím Hos -- po -- di -- na,
+    ne -- boť mi pro -- ká -- zal své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    fial = "fial://commune/commune_svatazena.ly#1ne-a1?-aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a g c b a b \barMaior
+    c c c b a g g f a a g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím Hos -- po -- di -- na,

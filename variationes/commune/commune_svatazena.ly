@@ -89,6 +89,31 @@
     \zvyraznovacModry
     \choralniRezim
     g4 a g c b a b \barMaior
+    c c c b a g g f a a g g \barFinalis
+
+    \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bím Hos -- po -- di -- na,
+    ne -- boť mi pro -- ká -- zal své mi -- lo -- sr -- den -- ství.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    g4 a g c b a b \barMaior
     c c c b a g g \mark\sipka a g f g g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis

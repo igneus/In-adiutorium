@@ -423,7 +423,7 @@
   \relative c'' {
     \choralniRezim
     g4 a g c b a b \barMaior
-    c c c b a g g a g f g g \barFinalis
+    c c c b a g g f a a g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím Hos -- po -- di -- na,
