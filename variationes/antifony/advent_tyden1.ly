@@ -2724,6 +2724,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c( d) \mark\sipka d d c b a g g \barMaior
+    f a c c d d c d d( c) \barMin
+    b a g f g( a) g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Syn Bo -- ží se sta -- ne člo -- vě -- kem
+    a za -- sed -- ne na krá -- lov -- ský trůn
+    své -- ho před -- ka Da -- vi -- da.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 c( d) d \barMin
     d c b a g a \barMaior
     g a c c d d c d d( c) \barMin
