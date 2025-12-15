@@ -324,6 +324,32 @@
     }
   }
 
+  \markup\justify{
+    Volně podle invitatoria \italic{Regem venturum Dominum}
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f g g( a) a \barMin
+      a g f g( a) a( g) \barMaior
+      g f( d) f g g f f \barFinalis
+    }
+    \addlyrics {
+      Klaň -- me se Kris -- tu,
+      na -- še -- mu Pá -- nu;
+      on při -- jde a spa -- sí nás.
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-invit2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
   \pageBreak
 
   \markup {\nadpisHodinka {invitatorium - po 16. prosinci}}
@@ -502,6 +528,26 @@
       \choralniRezim
       f4 \mark\sipka f g( a) a \barMin
       g f g a \mark\sipka g( f) f \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 g g( a) a \barMaior
+      g( a g f) d f g g f \barFinalis
     }
     \addlyrics {
       Pán je blíz -- ko,
