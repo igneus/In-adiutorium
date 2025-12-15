@@ -180,10 +180,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a g f g a a \barMin c c b a g( a g) g \barMaior
-    g g g g g f g a b g g \barMin a( g) f( g) g \barMaior
-    g( c) d d( c) \barMin d c d c( b) a \barMaior
-    c c c b c a g f( a) g g \barFinalis
+    c4 b a g a g g \bar "" f g a a g g \barMaior
+    a a a c b g \barMin g a a g f g( a) a( g) g \barMaior
+    c( d) d c \barMin c b a g( a) a( g) \barMaior
+    g a a g f d d f( g) g g \barFinalis
   }
   \addlyrics {
     Jan sly -- šel ve vě -- ze -- ní
@@ -196,7 +196,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
     id = "iiiben"
     piece = \markup {\sestavTitulekBezZalmu}
