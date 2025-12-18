@@ -1180,7 +1180,7 @@
     d4 d( f) e d d( a') a a \barMin
     bes( g bes) a( g) g \barMaior
     g f g a g f( g) f \barMin
-    \mark\sipka f g f e( d) d \barFinalis
+    \mark\sipka f g f e( d) \barFinalis
   }
   \addlyrics {
     Duch Pá -- ně je na -- de mnou,
