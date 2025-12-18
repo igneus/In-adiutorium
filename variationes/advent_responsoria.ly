@@ -928,6 +928,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyIII
     \choralniRezim
 
     % R

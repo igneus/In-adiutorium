@@ -1611,6 +1611,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a c( b) c d d( c) \barMaior
+    c g( a) g \barMin
+    f g a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Z_ne -- be při -- jde Vlád -- ce a Pán,
+    má v_ru -- ce
+    krá -- lov -- skou moc a vlá -- du.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "G*"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2340,6 +2362,28 @@
     quid = "ant. k Benedictus"
     modus = "V"
     differentia = "a"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c g( a g) \barMin
+    f g a( c) a a c( d) c b a a \barMaior
+    a a g f \mark\sipka f( g) g e e \barFinalis
+  }
+  \addlyrics {
+    Jed -- nej -- te
+    po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    ne -- boť se již blí -- ží spá -- sa.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "h"
     psalmus = ""
     id = "pa-aben"
     piece = \markup {\sestavTitulekBezZalmu}
