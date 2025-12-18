@@ -247,6 +247,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "půjde zpěvněji, zvlášť začátek"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
