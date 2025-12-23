@@ -88,8 +88,8 @@
     \relative c' {
       \choralniRezim
       d4 c d f e d e d( c) \barMaior
-      f g a g f f( g) f f \barMin
-      e( f d) c c d d \barFinalis
+      f g a g f g f d \barMin
+      d( e) c c d d \barFinalis
     }
     \addlyrics {
       Pro -- ro -- ci před -- po -- ví -- da -- li,

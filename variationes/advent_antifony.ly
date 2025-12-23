@@ -546,6 +546,26 @@
   \score {
     \relative c' {
       \choralniRezim
+      f4 f g( f g) g( a) \barMaior
+      g f g a f f \barFinalis
+    }
+    \addlyrics {
+      Pán je blíz -- ko,
+      pojď -- me, kla -- něj -- me se!
+    }
+    \header {
+      quid = "ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = ""
+      id = "spol-invit3"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
       f4 g g( a) a \barMaior
       g( a g f) d f g g f \barFinalis
     }
@@ -1172,7 +1192,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 c d f e d e d( c) \barMaior
       f g a g f f( g) f f \barMin
@@ -1207,6 +1227,30 @@
       z_Pan -- ny Ma -- ri -- e.
     }
     \header {
+      quid = "ant. dopoledne"
+      modus = "I"
+      differentia = "D"
+      psalmus = ""
+      id = "spol-tercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 c d f e d e d( c) \barMaior
+      f g a g f g f d \barMin
+      d( e) c c d d \barFinalis
+    }
+    \addlyrics {
+      Pro -- ro -- ci před -- po -- ví -- da -- li,
+      že se Spa -- si -- tel na -- ro -- dí
+      z_Pan -- ny Ma -- ri -- e.
+    }
+    \header {
+      fons_externus = "volně podle AR1912, 210."
       quid = "ant. dopoledne"
       modus = "I"
       differentia = "D"
