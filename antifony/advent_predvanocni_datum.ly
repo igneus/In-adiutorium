@@ -493,6 +493,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "3 _Bůh zástupů_ nevím"
     id = "predvanocni-24-rch-a3"
     piece = \markup {\sestavTitulekBezZalmu}
   }

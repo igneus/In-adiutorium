@@ -2519,6 +2519,43 @@ podobně.}
   }
 }
 
+\markup\justify{
+  (Ale: všechny dříve excerpované staročeské prameny rovněž mají vokativ
+  _Emanueli_ a melismata kladou jako původní verze tady, tzn. 11221.
+  Editio Vaticana má na _Emanuel_ 2221.)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    c( f f e) \mark\sipka f( d) e d c( d) d \barMin
+    d( e) d d d e( f) d e d c \barMaior
+    d d d a( d) d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a g f d( e) d( c) c \barMax
+    c( f) e f d d( c a) a \barMaior
+    c( d) f c e d \barFinalis
+  }
+  \addlyrics {
+    Ó E -- ma -- nu -- e -- li,
+    krá -- li náš a zá -- ko -- no -- dár -- ce,
+    na te -- be če -- ka -- jí ná -- ro -- dy,
+    a -- bys je za -- chrá -- nil:
+    přijď a dej nám spá -- su,
+    Pa -- ne, náš Bo -- že!
+  }
+  \header {
+    textus_approbatus = "Emanueli, králi náš a zákonodárce,
+    na tebe čekají národy, abys je zachránil:
+    přijď a dej nám spásu, Pane, náš Bože!"
+    fons_externus = "volně podle AR1912, 208."
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Magnificat"
+    id = "predvanocni-23-o"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {24. prosince}}
@@ -3092,6 +3129,50 @@ podobně.}
     c4 d d e( d) c b( c g4.) g \barMaior
     a4 b c a a \barMin
     g( f) \mark\sipka f g g \barFinalis
+  }
+  \addlyrics {
+    Zít -- ra k_vám při -- jde spá -- sa,
+    pra -- ví Hos -- po -- din,
+    Bůh zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d e( d) c b( c g4.) g \barMaior
+    a4 b c a a \barMin
+    \mark\sipka c-- b( a) g g \barFinalis
+  }
+  \addlyrics {
+    Zít -- ra k_vám při -- jde spá -- sa,
+    pra -- ví Hos -- po -- din,
+    Bůh zá -- stu -- pů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-24-rch-a3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d e( d) c b( c g4.) g \barMaior
+    a4 b c a a \barMin
+    \mark\sipka c-- c b( a g) g \barFinalis
   }
   \addlyrics {
     Zít -- ra k_vám při -- jde spá -- sa,
