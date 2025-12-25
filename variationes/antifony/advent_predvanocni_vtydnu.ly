@@ -569,11 +569,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c c( b) a( g) g \barMin
     a f f e e f f( g) g \barMaior
     \mark\sipka a( c) c b( g) g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- stou -- pí
+    ze své -- ho sva -- té -- ho síd -- la,
+    při -- jde spa -- sit svůj lid.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "predvanocni-zlm-ut-a1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c c( b) a( g) g \barMin
+    a \mark\sipka a a f e f f( g) g \barMaior
+    a( c) c b( g) g f( a) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din se -- stou -- pí
