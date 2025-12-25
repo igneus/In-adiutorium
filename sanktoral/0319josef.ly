@@ -88,7 +88,7 @@
   }
   \addlyrics {
     Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
-    by -- la za -- snou -- ne -- na s_Jo -- se -- fem.
+    by -- la za -- snou -- be -- na s_Jo -- se -- fem.
     A -- le dří -- ve než spo -- lu za -- ča -- li byd -- let,
     u -- ká -- za -- lo se,
     že po -- ča -- la z_Du -- cha sva -- té -- ho.
