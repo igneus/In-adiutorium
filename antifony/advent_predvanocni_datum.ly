@@ -392,6 +392,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
+    placet = "nevím, jestli se nevrátit k původnímu _zachránil_ - tohle je proti němu takové přízemní a mdlé"
     id = "predvanocni-23-o"
     piece = \markup {\sestavTitulekBezZalmu}
   }

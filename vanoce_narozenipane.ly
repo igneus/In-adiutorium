@@ -33,6 +33,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 113"
+      placet = "malicherná úprava textu, pokud možno upravit na oficiální"
       id = "vden-1ne-a1"
       piece = \markup {\sestavTitulek}
     }
