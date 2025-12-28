@@ -715,6 +715,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a b g g( a) a \barMin
+  }
+  \addlyrics {
+    Ni -- kdo ne -- mo -- hl ob -- stát
+    před je -- ho moud -- ros -- tí
+    a Du -- chem,
+    kte -- rý z_ně -- ho mlu -- vil.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 17"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -811,10 +832,33 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 c( e) e e( f) e d d( c) c b a( b c) b \barMaior
     c \mark\sipka d d c b a g g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Má du -- še_* při -- lnu -- la k_to -- bě, můj Bo -- že,
+    mé tě -- lo by -- lo pro te -- be ka -- me -- no -- vá -- no.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    fons = "Vavrinec; jen prvni pulka"
+    fial = "fial://sanktoral/0810vavrinec.ly#rch-a1?zacatek=16"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c( e) e e( f) e d d( c) c b a( b c) b \barMaior
+    c \mark\sipka c( d) d c b a g g a g f g g \barFinalis
   }
   \addlyrics {
     Má du -- še_* při -- lnu -- la k_to -- bě, můj Bo -- že,
@@ -1036,6 +1080,28 @@
     d4 c d e d c e e d d \barMaior
     d c b c( a) a( g) g \barMaior
     a b( c a) a \barMin a g f g( a) \mark\sipka g g \barFinalis
+  }
+  \addlyrics {
+    Hle, vi -- dím ne -- be -- sa o -- tev -- ře -- ná
+    a Sy -- na člo -- vě -- ka,
+    jak sto -- jí po Bo -- ží pra -- vi -- ci.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 \barMin c d e d c e e d d \barMin
+    d \mark\sipka e c c d d \barMaior
+    d c( b a g) a( g) \barMin a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Hle, vi -- dím ne -- be -- sa o -- tev -- ře -- ná

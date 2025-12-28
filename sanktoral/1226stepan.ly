@@ -123,7 +123,7 @@
   \relative c'' {
     \choralniRezim
     a4 c( e) e e( f) e d d( c) c b a( b c) b \barMaior
-    c d d c b a g g a g f g g \barFinalis
+    c c( d) d c b a g g a g f g g \barFinalis
   }
   \addlyrics {
     Má du -- še_* při -- lnu -- la k_to -- bě, můj Bo -- že,
