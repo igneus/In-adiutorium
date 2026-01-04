@@ -722,9 +722,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d( a) a d c b a4. a \barMaior
-    f4 g a a \barMin a b c c4.( a4 g) a( b) a a \barFinalis
-    b^\markup\rubrVelikAleluja a g( a) a \barFinalis
+    d4 d( a) a d c b a4. a \barMin
+    b4 c a( g) g \barMaior g f g g( a) \barMin c4( b) g( a) a \barFinalis
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
   }
   \addlyrics {
     Kdo ztra -- tí svůj ži -- vot pro mne,
@@ -736,7 +736,6 @@
     modus = "IV alt"
     differentia = "d"
     psalmus = "Zj 4"
-    placet = "tíhne možná spíš k VII. modu"
     id = "2ne-a3"
     piece = \markup {\sestavTitulek}
   }
