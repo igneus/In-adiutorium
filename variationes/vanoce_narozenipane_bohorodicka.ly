@@ -867,7 +867,7 @@
   }
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 \mark\sipka b d( e d) d \barMin
       d c b a b a g g \barMin
@@ -912,11 +912,33 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacZelenyII
       \choralniRezim
       d4 b d( e d) d \barMin
       d c b a \mark\sipka g g a a \barMin
       a( b) a g g \barFinalis
+    }
+    \addlyrics {
+      Bo -- ží Moud -- rost
+      si zbu -- do -- va -- la pří -- by -- tek
+      me -- zi lid -- mi.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 87"
+      id = "bohorodicka-mc-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 b d( e d) d \barMin
+      d c b a g g a a \barMin
+      \mark\sipka b a g g \barFinalis
     }
     \addlyrics {
       Bo -- ží Moud -- rost

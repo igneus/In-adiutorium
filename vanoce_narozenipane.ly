@@ -2009,8 +2009,8 @@
     \relative c'' {
       \choralniRezim
       d4 b d( e d) d \barMin
-      d c b a b a g g \barMin
-      f( a) a g g \barFinalis
+      d c b a g g a a \barMin
+      b a g g \barFinalis
     }
     \addlyrics {
       Bo -- ží Moud -- rost
