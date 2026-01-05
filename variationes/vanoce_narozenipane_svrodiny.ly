@@ -343,6 +343,32 @@
   \score {
     \relative c'' {
       \choralniRezim
+      g4 g g g( d' e) \mark\sipka d c( d) c a g f( g) g \barMaior
+      f g a c b c d c( b) a a \barMaior
+      c b( g) a g \barMin
+      a g f a a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pas -- tý -- ři po -- spí -- cha -- li do Bet -- lé -- ma.
+      Na -- lez -- li Ma -- ri -- i a Jo -- se -- fa
+      i dě -- ťát -- ko
+      po -- lo -- že -- né v_jes -- lích.
+    }
+    \header {
+      textus_approbatus = "Pastýři pospíchali do Betléma
+      a nalezli Marii a Josefa i děťátko položené v jeslích."
+      quid = "3. ant."
+      modus = "VII"
+      differentia = "a"
+      psalmus = "Ef 1"
+      id = "svrodiny-1ne-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
       g4 g g \mark\sipka d' e d c a g f( g) g \barMaior
       f g a c( b) c( d) d d c( b) a a \barMaior
       c b( g) a g \barMin
@@ -566,6 +592,38 @@
       % R
       \neviditelna a
       \mark\sipka a g f d d f g g( f) f \barFinalis
+      % Slava
+      \respVIdoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Slo -- vo se sta -- lo tě -- lem_*
+      a pře -- bý -- va -- lo me -- zi ná -- mi.
+      \Verse Všich -- ni jsme do -- sta -- li z_je -- ho pl -- nos -- ti._*
+      \Response A pře -- bý -- va -- lo me -- zi ná -- mi.
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "svrodiny-1ne-resp"
+      piece = \markup {\sestavTitulekResp}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      % R
+      \neviditelna f
+      f4 f f g f g( a) a( g) \barMax
+      a g f d d f g g( f) f \barFinalis
+      % V
+      \neviditelna a
+      a4 a a a( bes) a a g f g \mark\sipka g( a) a( g) \barMax
+      % R
+      \neviditelna a
+      a g f d d f g g( f) f \barFinalis
       % Slava
       \respVIdoxologie \barFinalis
     }
@@ -1897,6 +1955,50 @@
       \choralniRezim
       a4 a a g a g f( g) f f \barMaior
       \mark\sipka g g f e d( e c4.) c \barMin
+      d4 d f g g f f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      a4 a a g a \mark\sipka f f g g \barMaior
+      a a g f e( f d4.) d4 \barMin
+      c4 d f g g f f \barFinalis
+    }
+    \addlyrics {
+      Mu -- dr -- ci vstou -- pi -- li do do -- mu
+      a spat -- ři -- li dí -- tě
+      s_je -- ho mat -- kou Ma -- ri -- í.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VI"
+      differentia = "F"
+      psalmus = "Žalm 46"
+      id = "svrodiny-cte-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka f4 f f g a f f g g \barMaior
+      a a g f \mark\sipka f( g f4.) f4 \barMin
       d4 d f g g f f \barFinalis
     }
     \addlyrics {
@@ -4471,7 +4573,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d c b c( d) d \barMin
       c d c b a a \barMaior
@@ -4524,6 +4626,31 @@
       d4 d d c b c( d) d \barMin
       c d c b a a \barMaior
       c \mark\sipka b a g a g
+      f g a g g \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš se s_ni -- mi vy -- dal
+      na zpá -- teč -- ní ces -- tu,
+      šel do Na -- za -- re -- ta
+      a po -- slou -- chal je.
+    }
+    \header {
+      quid = "2. ant."
+      modus = "VII"
+      differentia = "d"
+      psalmus = "Žalm 127"
+      id = "svrodiny-2ne-a2"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d d c b c( d) d \barMin
+      c d c b a a \barMaior
+      c b \mark\sipka c a g g
       f g a g g \barFinalis
     }
     \addlyrics {

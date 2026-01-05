@@ -3707,7 +3707,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c b c( d) d \barMin
     c d c b a a \barMaior
@@ -3715,6 +3715,39 @@
     f g a g g \barFinalis
 
     a^\markup\rubrVelikAleluja \mark\sipka g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš se s_ni -- mi vy -- dal
+    na zpá -- teč -- ní ces -- tu,
+    šel do Na -- za -- re -- ta
+    a po -- slou -- chal je.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Zj 15"
+    fons = "Svaté Rodiny, 2. nešp., 2. ant. + aleluja"
+    fial = "vanoce_narozenipane.ly#svrodiny-2ne-a2?+aleluja"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d c b c( d) d \barMin
+    c d c b a a \barMaior
+    c b c a g g
+    f g a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš se s_ni -- mi vy -- dal
