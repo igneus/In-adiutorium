@@ -526,6 +526,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c c b g
     b c a a g g \barMaior
@@ -550,7 +551,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c b g
     b c a a g g \barMaior
@@ -1785,6 +1786,42 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka d4 c d( f g) f( e) d( c) \barMin
+    f g a( bes) a a bes c bes a g( f) g \barMaior
+
+    g g g a a g f f( g) g \barMin
+    g( a) f e d d \barMax
+
+    d d d c d f f f e d( e) d d \barMaior
+
+    a' g a d, \barMin
+    d f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    s_ví -- rou při -- ja -- la věč -- né Bo -- ží slo -- vo,
+
+    a to se v_je -- jím čis -- tém tě -- le
+    sta -- lo člo -- vě -- kem;
+
+    pro -- to ji všich -- ni chvá -- lí -- me a vo -- lá -- me:
+
+    Po -- žeh -- na -- ná jsi me -- zi že -- na -- mi.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify{
   (Nápěv latinské předlohy se nezdá rozumně možné adaptovat,
   protože je těsně svázaný se strukturou textu, mj. i s rýmem.
@@ -2800,6 +2837,29 @@
     \choralniRezim
     g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
     \mark\sipka c d c b( a) g g \barMin
+    a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,
+    ne -- boť tys no -- si -- la
+    Sy -- na věč -- né -- ho Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Magnificat"
+    fial = "commune/commune_maria.ly#2ne-amag?zacatek"
+    id = "ne2-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4( c) c c( b) c a4. a \barMin g4 a c( b) a( g) g \barMaior
+    c d \mark\sipka e c( b a) g a( g) \barMin
     a g f g a g g \barFinalis
   }
   \addlyrics {

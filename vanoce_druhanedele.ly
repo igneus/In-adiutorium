@@ -62,7 +62,7 @@
     c4 c c b g
     b c a a g g \barMaior
     f a( c) c \barMin
-    b c a( g) f( g) g \barFinalis
+    b a g( a) g g \barFinalis
   }
   \addlyrics {
     Na -- ro -- dil se nám ten,
