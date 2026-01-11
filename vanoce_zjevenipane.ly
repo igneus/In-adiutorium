@@ -191,6 +191,7 @@
     modus = "VII"
     differentia = "c"
     psalmus = "Žalm 72"
+    placet = "3 začátek nic moc; oddělení poslední části úplně nesedí"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -234,6 +235,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 97"
+    placet = "2 začátek nic moc"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
