@@ -70,6 +70,7 @@ strofa = { \barFinalis \break }
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     \mark\sipka d4( a' bes) \bar "" a a \bar "" a \bar "" a a a a \bar "" a g \bar "" a( bes a) a \barMax
   }
@@ -112,6 +113,7 @@ strofa = { \barFinalis \break }
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyII
     \choralniRezim
     d4 \bar "" d c \bar "" d \bar "" d( a' bes) a \mark\sipka g( a) a \barMin g a \bar "" a( bes a) a \barMax
   }
