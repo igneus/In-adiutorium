@@ -640,7 +640,7 @@
 
       c d f e f g f( d) d \barMaior
       f d d f e d c c \barMaior
-      c a( c d) d d( f) e c( d) d \barMax
+      c a c d( f) e c( d) d \barMaior
 
       e f d( c) d \barFinalis
     }
@@ -674,7 +674,7 @@
       b c b a g g c d e d e f e \barMax
       d c d c b a \barMin
       d d c d c b a a \barMaior
-      g( a c d) c \barMin b g g a g g \barFinalis
+      g( a c d) c \barMin b c a a g g \barFinalis
     }
     \addlyrics {
       Jak -- mi -- le mu -- dr -- ci u -- vi -- dě -- li hvěz -- du,
@@ -776,7 +776,7 @@
       \choralniRezim
       d4 d d d d c a c( d) d d \barMaior
       f f e d c d c c f( g) a a g g \barMaior
-      a a g f e c e( f d4.) d \barFinalis
+      f g f e d c d( f e d4.) d4 \barFinalis
     }
     \addlyrics {
       He -- ro -- des se mu -- dr -- ců vy -- ptá -- val
