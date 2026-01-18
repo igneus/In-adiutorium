@@ -1342,7 +1342,7 @@
       a4 g a g f e e \barMaior
       d e f f
       g d f e e \barMaior
-      f g g( a) g f e4. e \barFinalis
+      g f g a g( f) e4. e \barFinalis
     }
     \addlyrics {
       Jan Je -- ží -- šo -- vi ří -- kal:
