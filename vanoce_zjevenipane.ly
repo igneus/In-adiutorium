@@ -37,8 +37,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 c b c d4.( b) a4( g) g \barMax
-    a a b( c a4.) a b4 a a g g \barFinalis
+    g4 c b c d4.( b) a4( g) g \barMaior
+    a a b( c a4.) a g4 f g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- li -- ký je Pán, náš Bůh,
@@ -177,21 +177,20 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c d d c b c d d \barMin
-    d c b b( c) a g g \barMaior
-    a( g) f g( a g4.) g \barFinalis
+    a4 g a c c b a c d d \barMaior
+    d e d d( c a) a
+    b c a a g g \barFinalis
   }
   \addlyrics {
     Krá -- lo -- vé Tar -- ší -- še a os -- tro -- vů
-    při -- ne -- sou da -- ry Bo -- hu,
-    své -- mu Pá -- nu.
+    při -- ne -- sou da -- ry
+    Bo -- hu, své -- mu Pá -- nu.
   }
   \header {
     quid = "1. ant."
     modus = "VII"
-    differentia = "c"
+    differentia = "a"
     psalmus = "Žalm 72"
-    placet = "3 začátek nic moc; oddělení poslední části úplně nesedí"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
