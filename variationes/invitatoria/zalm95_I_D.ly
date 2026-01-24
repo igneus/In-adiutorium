@@ -121,3 +121,13 @@ strofa = { \barFinalis \break }
     Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- su:
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \bar "" d c \bar "" d \bar "" d( a' bes) a g( a) a \mark\sipka g a \bar "" a( bes a) a \barMax
+  }
+  \addlyrics {
+    Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- su:
+  }
+}

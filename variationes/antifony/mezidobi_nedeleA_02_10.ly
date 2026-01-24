@@ -125,6 +125,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 c b a g g \barMaior
+    a a a g a \barMin a b c d c a( b) a a \barMaior
+    a g a a g f e \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví:
+    Po mně při -- jde ten, kte -- rý má vět -- ší dů -- stoj -- nost,
+    ne -- boť byl dří -- ve než já.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "III"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne2a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -181,6 +204,29 @@
     d4 e c d( e) d d \barMin
     d d c d c b a( g) g \barMaior
     a \mark\sipka f( g a) a c b a g g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý se -- stou -- pil
+    ja -- ko ho -- lu -- bi -- ce z_ne -- be
+    a zů -- stal na Je -- ží -- šo -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne2a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e d c( b) a( g) g \barMin
+    a a c c b a c( d) d \barMaior
+    d c( b a g) a( g) \barMin a g f g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý se -- stou -- pil

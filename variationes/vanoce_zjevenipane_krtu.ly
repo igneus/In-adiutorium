@@ -171,6 +171,28 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 a a g f g g( a) a a \barMaior
+      a c \mark\sipka a c b g a \barMaior
+      a a g f g a g f e e \barFinalis
+    }
+    \addlyrics {
+      Jan Křti -- tel vy -- stou -- pil na pouš -- ti
+      a hlá -- sal křest po -- ká -- ní,
+      a -- by by -- ly od -- puš -- tě -- ny hří -- chy.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "III"
+      differentia = "g"
+      psalmus = "Žalm 135-I"
+      id = "krtu-1ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
