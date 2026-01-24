@@ -44,6 +44,7 @@
     differentia = "a"
     psalmus = ""
     annus = "A"
+    placet = "3 zejm. začátek půjde lépe"
     id = "ne2a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
