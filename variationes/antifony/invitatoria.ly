@@ -972,6 +972,53 @@ pojdmeKlanmeSeCele = {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    d4 d f e f f( g) g g a a f e d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu;
+    je -- mu ná -- le -- ží ze -- mě i všech -- no, co je na ní.
+  }
+  \header {
+    textus_approbatus = "Pojďme, klaňme se Hospodinu; jemu náleží země i to, co je na ní."
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    dies = "sobota"
+    scriptura = "srov. Žalm 95, 6.5"
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
+    id = "t1so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    d4 d f e f f( g) g \barMin a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu;
+    je -- mu ná -- le -- ží ze -- mě i to, co je na ní.
+  }
+  \header {
+    textus_approbatus = "Pojďme, klaňme se Hospodinu; jemu náleží země i to, co je na ní."
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    dies = "sobota"
+    scriptura = "srov. Žalm 95, 6.5"
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
+    id = "t1so"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 % LICHE TYDNY --------------------------------------------
