@@ -160,8 +160,8 @@
     f g a a( bes) a a \barMaior
     a g a g f g g f e d e d d \barMaior
     d( e f) d d d c d e( f) d d \barMaior
-    a' g g a a c b a( b) a \barMin
-    f g g( a) a a g( a) f e c d d \barFinalis
+    a' g g a a-- f e d( e) d \barMin
+    c d d( f) f f g f e d( e) d d \barFinalis
   }
   \addlyrics {
     Když Je -- žíš u -- vi -- děl zá -- stu -- py,
@@ -208,7 +208,7 @@
   \relative c' {
     \choralniRezim
     d4( a') g g a a a( c) b g a a \barMaior
-    f g a a g f d( e) d( c) c \barMin
+    f g a a g f e( f) d( c) c \barMin
     d f e d( e d) d \barFinalis
   }
   \addlyrics {
