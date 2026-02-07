@@ -473,7 +473,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     \label #'respInesp
@@ -501,6 +501,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "zbytečně moc roztrhané"
     id = "1ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
@@ -522,6 +523,45 @@
     % R
     \neviditelna g
     g f g( a) g g \barMin f( d) f g g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su,_*
+    kte -- rou při -- pra -- vil pro všech -- ny ná -- ro -- dy.
+    \Verse Všech -- ny kon -- či -- ny ze -- mě u -- zře -- ly spá -- su na -- še -- ho Bo -- ha,_*
+    \Response kte -- rou při -- pra -- vil pro všech -- ny ná -- ro -- dy.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\markup\justify{
+  (_ve známost_ sic, se slovním přízvukem na předložce,
+  ale zvýšením na nepřízvučné dlouhé)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    \label #'respInesp
+
+    % R
+    \neviditelna f
+    f4 f f \mark\sipka f f f f g f f g( a) a( g) \barMax
+    g f g( a) g g \mark\sipka f( d) f g g f f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a a a g( a) g g \barMin g g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna g
+    g f g( a) g g \mark\sipka f( d) f g g f f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -3105,6 +3145,30 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 e d e f d d c( d) d( f) f \barMin
+    f f g a f e d d \barMaior
+    f g g f \barMin
+    f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Při -- nes -- li Hos -- po -- di -- nu svou o -- běť,
+    jak to před -- pi -- so -- val Zá -- kon:
+    pár hrd -- li -- ček
+    ne -- bo dvě ho -- lou -- ba -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 130"
+    id = "2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 b a g a g g f( g) g( a) a \barMin
@@ -3167,9 +3231,12 @@
   přeci je hloupý, biblické texty nemá načteny a nerozumí jim.
   A ovšem převyprávění zatemňující, že zdrojová antifona patří k řadě \italic{Hodie} antifon:
 }
-\markup\justify\italic{
-  Hódie beáta Virgo María púerum Iesum præsentávit in templo,
-  et Símeon replétus Spíritu Sancto accépit eum in ulnas suas, et benedíxit Deum.
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Hódie beáta Virgo María púerum Iesum præsentávit in templo,
+    et Símeon replétus Spíritu Sancto accépit eum in ulnas suas, et benedíxit Deum.
+  }
 }
 
 \score {
