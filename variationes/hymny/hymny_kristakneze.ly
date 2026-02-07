@@ -85,6 +85,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a a g f g a a g \barMaior \break
+    a c c( d) d \barMin c a c b a g g \barMaior \break
+    g g g g( a) a \barMin c b a g a( g) g \barMaior \break
+    g e f g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- ši, ty jsi na -- ším ve -- le -- kně -- zem,
+    pro -- střed -- ní -- kem, též u Ot -- ce pří -- mluv -- cem,
+    pro -- to tě vzý -- vá a zde o -- sla -- vu -- je
+    dnes lid -- stvo ce -- lé.
+  }
+  \layout {
+    ragged-last = ##t
+  }
+  \header {
+    quid = "hymnus"
+    modus = "VIII"
+    id = "mc"
+    titulus = "modlitba se čtením"
+    piece = \markup\sestavTitulekRespII
+  }
+}
+
 \pageBreak
 
 \markup\justify\italic{
