@@ -280,10 +280,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c( d) c b( c) a a \barMin
-    c c b a c b a( g) g \barMaior
-    c d e( d) c( b a) a \barMin
-    g( f) g( a g) g \barFinalis
+    c4 c d c c( d) c c \barMin
+    d d c d e c c( d) d \barMaior
+    e d c( b) a a( g) \barMin
+    f g( a g) g \barFinalis
   }
   \addlyrics {
     Buď -- te ja -- ko sví -- til -- na
@@ -293,7 +293,7 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VIII"
+    modus = "VII"
     differentia = "c"
     psalmus = ""
     annus = "A"
