@@ -11,7 +11,11 @@
   Tyto texty nejsou součástí Denní modlitby církve
   ani jiných platných liturgických knih římského ritu.
   Jde o překlady dalších Ó-antifon, které se vyskytují v některých
-  středověkých pramenech.
+  středověkých pramenech
+  (viz např. v jiřském antifonáři
+  \with-url #"https://www.manuscriptorium.com/apis/resolver-api/cs/browser/default/detail?url=https%3A//collectiones.manuscriptorium.com/assorted/AIPDIG/NKCR__/F/AIPDIG-NKCR__XIV_B_13____2P77ZSF-cs/&imageId=https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__XIV_B_13____2P77ZSF-cs/ID0009v" {
+    CZ-Pu XIV B 13, f. 9v-10r).
+  }
   Určeno pro soukromou potřebu.
 }
 
@@ -23,6 +27,7 @@
   audi tuos famulos,
   veni ad salvandum nos,
   iam noli tardare!
+  \cantusid-link "004012"
 }
 
 \score {
@@ -75,9 +80,58 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c( f f e) f d e( d) c( d) d \barMin
+    d d( f) d d e f d e d c \barMaior
+    d d e f g( a g a bes) a \barMin
+    a a g f d( e f) f c \barMaior
+    c c( f) e f d e( d) c( d) d( c a) \barMin
+    c d f c e d \barFinalis
+  }
+  \addlyrics {
+    Ó Krá -- li po -- ko -- je,
+    tys zro -- ze -- ný pře -- de vše -- mi vě -- ky;
+    vy -- jdi zla -- tou bra -- nou,
+    na -- vštiv ty, ježs vy -- kou -- pil,
+    a po -- vo -- lej je o -- pět tam,
+    od -- kud vi -- nou pad -- li.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "orexpacifice"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\justify\italic{
   \bold{O summe Artifex,} polique Rector siderum altissime,
   ad homines descende, sedentes in tenebris et umbra mortis!
+  \cantusid-link "004082"
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+  }
+  \addlyrics {
+    Ó svrchovaný Tvůrce,
+    hvězdné oblohy řiditeli nejvyšší,
+    sestup k lidem,
+    kteří sedí v temnotě a ve stínu smrti.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "osummeartifex"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
 }
 
 \markup\nadpisDen{Mariánské}
@@ -86,6 +140,7 @@
   \bold{O mundi Domina,} regio ex semine orta,
   ex tuo iam Christus processit alvo tamquam sponsus de thalamo,
   hic iacet in praesepio, qui et sidera regit.
+  \cantusid-link "004048"
 }
 \score {
   \relative c' {
@@ -175,16 +230,54 @@
   \bold{O Virgo virginum,} quomodo fiet istud?
   Quia nec primam similem visa est[?], nec habere sequentem.
   Filiae Ierusalem, quid me admiramini? Divinum est mysterium, hoc quod cernitis.
+  \cantusid-link "004091" ;
+  srov. AR1912 [115]
 }
 \score {
   \relative c' {
     \choralniRezim
-
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d e f d( c) c \barMaior
+    d d d d a( d) d d e d d e f g( a g a bes a) \barMin
+    a a g f d( e f) f c \barMaior
+    c( f) e f d c d d \barMin d e f d d c \barMaior
+    d f f d e( d) c( d) d( c a) \barMin c( d) f( e) c e d \barFinalis
   }
   \addlyrics {
-    Ó panno panen, jak se to stane?
-    Neboť ani dříve ti nebylo podobné, ani druhá nebude.
-    Dcery jeruzalémské, co se mi divíte? Božské je to tajemství, na něž hledíte.
+    Ó pan -- no pa -- nen,
+    jak se to sta -- ne?
+    Ne -- boť a -- ni dří -- ve ti ne -- by -- lo po -- dob -- né,
+    a -- ni dru -- há ne -- bu -- de.
+    Dce -- ry je -- ru -- za -- lém -- ské, co se mi di -- ví -- te?
+    Bož -- ské je to ta -- jem -- ství, na něž hle -- dí -- te.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ovirgovirginum"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d e f d( c) c \barMaior
+    d d d d a( d) d d e d d e f g( a g a bes a) \barMin
+    a a g f \mark\sipka d( e f) f c \barMaior
+    c( f) e f d c d d \barMin d e f d d c \barMaior
+    \mark\sipka c( f) f d e( d) c( d) d( c a) \barMin \mark\sipka c d f( e) c e d \barFinalis
+  }
+  \addlyrics {
+    Ó pan -- no pa -- nen,
+    jak se to sta -- ne?
+    Ne -- boť a -- ni dří -- ve ti ne -- by -- lo po -- dob -- né,
+    a -- ni dru -- há ne -- při -- jde.
+    Dce -- ry je -- ru -- za -- lém -- ské, co se mi di -- ví -- te?
+    Bož -- ské je ta -- jem -- ství, na kte -- ré hle -- dí -- te.
   }
   \header {
     quid = "ant. k Magnificat"
@@ -201,6 +294,7 @@
 \markup\justify\italic{
   \bold{O Gabriel,} nuntius caelorum, qui ianuis clausis ad me intrasti et verbum nuntiasti:
   Concipies et paries, Emmanuel vocabitur.
+  \cantusid-link "004028"
 }
 \markup\justify{
   (Tady čárky, resp. vztahy větných členů, nejsou zcela jisté. Smysl dává jak
@@ -269,6 +363,7 @@
   \bold{O Ierusalem,} civitas Dei summi,
   leva in circuitu oculos tuos et vide Dominum Deum tuum,
   quia iam veniet solvere te a vinculis!
+  \cantusid-link "004034"
 }
 
 \score {
