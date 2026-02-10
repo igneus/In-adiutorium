@@ -134,6 +134,33 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f d e d c( d) d \barMin
+    d d d( e) d d d d e d e f g( a g a bes a) \barMaior
+    a( g) f d( e) d( c) \barMaior
+    f e f d e( d) c( d) d( c a) \barMin
+    c( d) f e c c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Tvůr -- ce svr -- cho -- va -- ný,
+    hvězd -- né ob -- lo -- hy ři -- di -- te -- li nej -- vyš -- ší,
+    se -- stup k_li -- dem,
+    kte -- ří se -- dí v_tem -- no -- tě
+    a ve stí -- nu smr -- ti.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-21-o?cast=4-5"
+    id = "osummeartifex"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \markup\nadpisDen{Mariánské}
 
 \markup\justify\italic{
