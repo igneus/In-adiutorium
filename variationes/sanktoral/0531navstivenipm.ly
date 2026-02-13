@@ -379,6 +379,16 @@
 
 \pageBreak
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Ut audívit salutatiónem Maríæ Elísabeth,
+    exsultávit infans in útero eius, et repléta est Spíritu Sancto.
+  }
+  ~ \cantusid-link "201635" ;
+  AR1912 650
+}
+
 \score {
   \relative c' {
     \zvyraznovacSedy
@@ -602,6 +612,17 @@
 \markup\justify\italic{
   Responsorium \upright{Bůh si ji vyvolil od pradávna}
   ze společných textů o Panně Marii.
+}
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Cum audísset salutatiónem Maríæ,
+    Elísabeth exclamávit voce magna et dixit:
+    Unde hoc mihi, ut véniat mater Dómini mei ad me?
+  }
+  \cantusid-link "a02735" ;
+  AR1912 651
 }
 
 \score {
