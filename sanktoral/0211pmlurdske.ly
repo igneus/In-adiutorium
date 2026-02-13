@@ -18,9 +18,9 @@
     d4 d( f d) c d e d d \barMin
     f f e( f) d( c) c \barMaior
     d c d d( f) f \barMin
-    g( a g) f e f d c c \barMaior
-    d f f e c \barMin
-    d c d f e d( e) d d \barFinalis
+    g( a g) f g a a g g \barMaior
+    a g f g d \barMin
+    c d f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Jas -- ná jit -- řen -- ko spá -- sy,
@@ -32,7 +32,7 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "aben"
