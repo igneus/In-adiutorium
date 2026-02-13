@@ -12,7 +12,8 @@
   ani jiných platných liturgických knih římského ritu.
   Jde o překlady dalších Ó-antifon, které se vyskytují v některých
   středověkých pramenech
-  (viz např. v jiřském antifonáři
+  (ty z nich, jejichž výskyt zasahuje i do středoevropského regionu,
+  viz např. v jiřském antifonáři
   \with-url #"https://www.manuscriptorium.com/apis/resolver-api/cs/browser/default/detail?url=https%3A//collectiones.manuscriptorium.com/assorted/AIPDIG/NKCR__/F/AIPDIG-NKCR__XIV_B_13____2P77ZSF-cs/&imageId=https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__XIV_B_13____2P77ZSF-cs/ID0009v" {
     CZ-Pu XIV B 13, f. 9v-10r).
   }
@@ -33,14 +34,97 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d d d( e) d d d d e d e f g( a g a bes) a \barMaior
+    a g f d e d( c) \barMin
+    f e f d e( d) c( d) d( c a)
+    c d e d \barFinalis
   }
   \addlyrics {
-    Ó Pane nebes,
-    "...."
-    své služebníky slyš,
-    zachránit je pospěš, již
-    neprodlévej!
+    Ó Pa -- ne ne -- bes,
+    jenž jsi s_Ot -- cem a sva -- tým Du -- chem spo -- lu věč -- ný,
+    své slu -- žeb -- ní -- ky slyš,
+    za -- chrá -- nit je po -- spěš, již
+    ne -- pro -- dlé -- vej!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ocaelorumdomine"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d d d( e) d d d d e d e f g( a g a bes) a \barMaior
+    a g f d e d( c) \barMin
+    f \mark\sipka d e( d) c( d) d( c a) \barMin
+    c( d) f e c( e) d \barFinalis
+  }
+  \addlyrics {
+    Ó Pa -- ne ne -- bes,
+    jenž jsi s_Ot -- cem a sva -- tým Du -- chem spo -- lu věč -- ný,
+    své slu -- žeb -- ní -- ky slyš,
+    přijď a za -- chraň nás,
+    už ne -- pro -- dlé -- vej!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-19-o?cast=5"
+    id = "ocaelorumdomine"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d d d( e) d d d d e d e f g( a g a bes) a \barMaior
+    a g f d e d( c) \barMin
+    f d \mark\sipka e( f) d( c) c \barMin
+    d f c e d \barFinalis
+  }
+  \addlyrics {
+    Ó Pa -- ne ne -- bes,
+    jenž jsi s_Ot -- cem a sva -- tým Du -- chem spo -- lu věč -- ný,
+    své slu -- žeb -- ní -- ky slyš,
+    přijď a za -- chraň nás,
+    už ne -- pro -- dlé -- vej!
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ocaelorumdomine"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d d d( e) d d d d e d e f g( a g a bes) a \barMaior
+    a g f \mark\sipka g f d \barMin
+    f d e( f) d( c) c \barMin
+    d f c e d \barFinalis
+  }
+  \addlyrics {
+    Ó Pa -- ne ne -- bes,
+    jenž jsi s_Ot -- cem a sva -- tým Du -- chem spo -- lu věč -- ný,
+    své slu -- žeb -- ní -- ky slyš,
+    přijď a za -- chraň nás,
+    už ne -- pro -- dlé -- vej!
   }
   \header {
     quid = "ant. k Magnificat"
@@ -57,18 +141,27 @@
   per auream egredere portam, redemptos tuos visita et eos illuc revoca, unde ruerunt per culpam!
 }
 
+\markup\justify{
+  (Ten ukecaný překlad \italic{Rex pacificus} je pro konkordantnost s antifonami
+  prvních nešpor slavnosti Narození Páně.)
+}
 \score {
   \relative c' {
     \choralniRezim
-
+    c( f f e) f d d e f d d c \barMin
+    d a( d) d d d d e d e( f) g( a g a bes a) \barMaior
+    a a g f d( e) d( c) \barMin
+    f e f d e( f d) d c \barMaior
+    c c( f) e f d e( d) c( d) d( c a) \barMin
+    c d f c e d \barFinalis
   }
   \addlyrics {
-    Ó Králi míru a pokoje,
-    tys zrozený přede všemi věky;
-    vyjdi zlatou branou,
-    navštiv ty, kterés vykoupil,
-    a povolej je opět tam,
-    odkud vinou padli.
+    Ó Krá -- li mí -- ru a po -- ko -- je,
+    tys zro -- ze -- ný pře -- de vše -- mi vě -- ky;
+    vy -- jdi zla -- tou bra -- nou,
+    na -- vštiv ty, ježs vy -- kou -- pil,
+    a po -- vo -- lej je o -- pět tam,
+    od -- kud vi -- nou pad -- li.
   }
   \header {
     quid = "ant. k Magnificat"
