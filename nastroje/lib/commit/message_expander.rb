@@ -43,15 +43,22 @@ class MessageExpander
   ].inject({}) {|memo, i| memo[i.initial] = i; memo }.freeze
 
   def self.call(input)
-    STANDARD_MESSAGES.find {|i| i.start_with? input } ||
-      input
+    iinput = input.downcase
+
+    STANDARD_MESSAGES.find {|i| i.start_with?(iinput) && !iinput.empty? } ||
+      iinput
         .scan(/(\d+)([#{ELEMENTS.keys.join}])/)
         .collect {|num, letter| "#{num} #{ELEMENTS[letter].pluralize(num.to_i)}" }
         .yield_self do |elems|
-      unless elems.empty?
-        elems[elems.rindex {|i| i !~ /copies/ }] += ' revised'
-        elems.join(' + ')
+      next if elems.empty?
+
+      if input.start_with? '+'
+        elems[0] = '+ ' + elems[0]
+      else
+        elems[elems.rindex {|i| i !~ /cop(y|ies)/ }] += ' revised'
       end
+
+      elems.join(' + ')
     end
   end
 end
