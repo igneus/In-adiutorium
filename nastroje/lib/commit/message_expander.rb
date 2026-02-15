@@ -1,24 +1,35 @@
-class String
-  def initial
-    self[0]
+module Initial
+  refine String do
+    def initial
+      self[0]
+    end
   end
 
-  def call(quantity)
-    self + (quantity > 1 ? 's' : '')
+  refine Array do
+    def initial
+      self[0].initial
+    end
   end
 end
 
-class Array
-  def initial
-    self[0].initial
+module Pluralize
+  refine String do
+    def pluralize(quantity)
+      self + (quantity > 1 ? 's' : '')
+    end
   end
 
-  def call(quantity)
-    self[quantity > 1 ? 1 : 0]
+  refine Array do
+    def pluralize(quantity)
+      self[quantity > 1 ? 1 : 0]
+    end
   end
 end
 
 class MessageExpander
+  using Initial
+  using Pluralize
+
   STANDARD_MESSAGES = [
     'more variants',
     'quality notices',
@@ -35,7 +46,7 @@ class MessageExpander
     STANDARD_MESSAGES.find {|i| i.start_with? input } ||
       input
         .scan(/(\d+)([#{ELEMENTS.keys.join}])/)
-        .collect {|num, letter| "#{num} #{ELEMENTS[letter].(num.to_i)}" }
+        .collect {|num, letter| "#{num} #{ELEMENTS[letter].pluralize(num.to_i)}" }
         .yield_self do |elems|
       unless elems.empty?
         elems[elems.rindex {|i| i !~ /copies/ }] += ' revised'
