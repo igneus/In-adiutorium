@@ -1,35 +1,22 @@
-module Initial
-  refine String do
-    def initial
-      self[0]
+class Pluralizable
+  def initialize(data)
+    if data.is_a? String
+      return initialize([data, data + 's'])
     end
+
+    @singular, @plural = data
   end
 
-  refine Array do
-    def initial
-      self[0].initial
-    end
-  end
-end
-
-module Pluralize
-  refine String do
-    def pluralize(quantity)
-      self + (quantity > 1 ? 's' : '')
-    end
+  def initial
+    @singular[0]
   end
 
-  refine Array do
-    def pluralize(quantity)
-      self[quantity > 1 ? 1 : 0]
-    end
+  def pluralize(quantity)
+    quantity > 1 ? @plural : @singular
   end
 end
 
 class MessageExpander
-  using Initial
-  using Pluralize
-
   STANDARD_MESSAGES = [
     'more variants',
     'quality notices',
@@ -40,7 +27,7 @@ class MessageExpander
     'ant.',
     'resp.',
     ['copy', 'copies']
-  ].inject({}) {|memo, i| memo[i.initial] = i; memo }.freeze
+  ].inject({}) {|memo, i| Pluralizable.new(i).yield_self {|x| memo[x.initial] = x }; memo }.freeze
 
   def self.call(input)
     iinput = input.downcase
