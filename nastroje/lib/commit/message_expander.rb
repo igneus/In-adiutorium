@@ -23,11 +23,15 @@ class MessageExpander
     'duplicate variant deleted',
   ].freeze
 
-  ELEMENTS = [
-    'ant.',
-    'resp.',
-    ['copy', 'copies']
-  ].inject({}) {|memo, i| Pluralizable.new(i).yield_self {|x| memo[x.initial] = x }; memo }.freeze
+  ELEMENTS =
+    [
+      'ant.',
+      'resp.',
+      ['copy', 'copies']
+    ].collect {|i| Pluralizable.new(i) }
+      .collect {|i| [i.initial, i] }
+      .to_h
+      .freeze
 
   def self.call(input)
     iinput = input.downcase
