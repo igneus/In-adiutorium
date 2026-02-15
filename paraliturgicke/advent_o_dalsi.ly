@@ -33,19 +33,25 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d d d( e) d d d d e d e f g( a g a bes) a \barMaior
+    a g f d e d( c) \barMin
+    f d e( d) c( d) d( c a) \barMin
+    c( d) f e c( e) d \barFinalis
   }
   \addlyrics {
     Ó Pa -- ne ne -- bes,
     jenž jsi s_Ot -- cem a sva -- tým Du -- chem spo -- lu věč -- ný,
     své slu -- žeb -- ní -- ky slyš,
-    za -- chrá -- nit je po -- spěš, již
-    ne -- pro -- dlé -- vej!
+    přijď a za -- chraň nás,
+    už ne -- pro -- dlé -- vej!
   }
   \header {
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
     psalmus = ""
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-19-o?cast=5"
     id = "ocaelorumdomine"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -161,6 +167,12 @@
 \score {
   \relative c' {
     \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d e f d( c) c \barMaior
+    d d d d a( d) d d e d d e f g( a g a bes a) \barMin
+    a a g f d( e f) f c \barMaior
+    c( f) e f d c d d \barMin d e f d d c \barMaior
+    c f f d e( d) c( d) d( c a) \barMin c( d) f e c e d \barFinalis
   }
   \addlyrics {
     Ó pan -- no pa -- nen,
@@ -168,9 +180,10 @@
     Ne -- boť a -- ni dří -- ve ti ne -- by -- lo po -- dob -- né,
     a -- ni dru -- há ne -- bu -- de.
     Dce -- ry je -- ru -- za -- lém -- ské, co se mi di -- ví -- te?
-    Bož -- ské je to ta -- jem -- ství, na něž hle -- dí -- te.
+    Je to bož -- ské ta -- jem -- ství_- to, na co hle -- dí -- te.
   }
   \header {
+    fons_externus = "srov. AR1912 [115]"
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"

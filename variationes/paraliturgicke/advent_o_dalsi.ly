@@ -59,7 +59,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyIII
+    \zvyraznovacModry
     \choralniRezim
     c4( f f e) f( d) e( d) c( d) d \barMin
     d d d( e) d d d d e d e f g( a g a bes) a \barMaior
@@ -140,6 +140,7 @@
 \markup\justify\italic{
   \bold{O Rex pacifice,} tu ante saecula nate,
   per auream egredere portam, redemptos tuos visita et eos illuc revoca, unde ruerunt per culpam!
+  \cantusid-link "004080"
 }
 
 \markup\justify{
@@ -209,6 +210,12 @@
   \cantusid-link "004082"
 }
 
+\markup\justify{
+  (\italic{Sedentes in tenebris...} vědomě a dobrovolně překládám nekonkordantně
+  vůči O Oriens, protože mám za to, že překlad \italic{kteří žijí...}
+  nečiní zadost expresivitě předlohy. Jakýpak život - stav nespaseného lidstva
+  se tu podle všeho přirovnává k pobytu v temnici.)
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -385,6 +392,12 @@
   \cantusid-link "004091" ;
   srov. AR1912 [115]
 }
+
+\markup\justify{
+  (\italic{nec primam similem ... nec habere sequentem} je topos, který se vyskytuje
+  i v antifonách mariánského commune. Vědomě a dobrovolně překládám nekonkordantně,
+  doslovněji než DMC.)
+}
 \score {
   \relative c' {
     \choralniRezim
@@ -455,11 +468,41 @@
     Ó pan -- no pa -- nen,
     jak se to sta -- ne?
     Ne -- boť a -- ni dří -- ve ti ne -- by -- lo po -- dob -- né,
-    a -- ni dru -- há ne -- při -- jde.
+    a -- ni dru -- há ne -- bu -- de.
     Dce -- ry je -- ru -- za -- lém -- ské, co se mi di -- ví -- te?
     To, na co hle -- dí -- te, je bož -- ské ta -- jem -- ství.
   }
   \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ovirgovirginum"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d e f d( c) c \barMaior
+    d d d d a( d) d d e d d e f g( a g a bes a) \barMin
+    a a g f d( e f) f c \barMaior
+    c( f) e f d c d d \barMin d e f d d c \barMaior
+    \mark\sipka c f f d e( d) c( d) d( c a) \barMin c( d) f e c e d \barFinalis
+  }
+  \addlyrics {
+    Ó pan -- no pa -- nen,
+    jak se to sta -- ne?
+    Ne -- boť a -- ni dří -- ve ti ne -- by -- lo po -- dob -- né,
+    a -- ni dru -- há ne -- bu -- de.
+    Dce -- ry je -- ru -- za -- lém -- ské, co se mi di -- ví -- te?
+    Je to bož -- ské ta -- jem -- ství_- to, na co hle -- dí -- te.
+  }
+  \header {
+    fons_externus = "srov. AR1912 [115]"
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "D"
@@ -545,6 +588,34 @@
     \choralniRezim
     c4( f f e) f( d) e( d) c( d) d \barMin
     d( f) d e( f) d( c) c \barMaior
+    \mark\sipka d d d d a( d) d e d d d e( f) g( a g a bes a) \barMin
+    a a g f d( e f) f c \barMaior
+    c( f) f d e( d) c( d) d( c a) \barMin
+    c d f e c e d \barFinalis
+  }
+  \addlyrics {
+    Ó Gab -- ri -- e -- li,
+    po -- sle ne -- bes -- ký,
+    ty jsi ke mně při -- šel za -- vře -- ný -- mi dveř -- mi
+    a slo -- vo mi zvěs -- to -- val:
+    Po -- čneš a po -- ro -- díš;
+    bu -- de zván E -- ma -- nu -- el.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ogabriel"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    d( f) d e( f) d( c) c \barMaior
     d d \mark\sipka a( d) d e d e d d d e( f) g( a g a bes a) \barMin
     a a g f d( e f) f c \barMaior
     c( f) f d e( d) c( d) d( c a) \barMin
@@ -554,6 +625,34 @@
     Ó Gab -- ri -- e -- li,
     po -- sle ne -- bes -- ký,
     jenž jsi ke mně při -- šel za -- vře -- ný -- mi dveř -- mi
+    a slo -- vo mi zvěs -- to -- val:
+    Po -- čneš a po -- ro -- díš;
+    bu -- de zván E -- ma -- nu -- el.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "ogabriel"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4( f f e) f( d) e( d) c( d) d \barMin
+    \mark\sipka d f d e( f) d( c) c \barMaior
+    d d d d a( d) d e d d d e( f) g( a g a bes a) \barMin
+    a a g f d( e f) f c \barMaior
+    c( f) f d e( d) c( d) d( c a) \barMin
+    c d f e c e d \barFinalis
+  }
+  \addlyrics {
+    Ó Gab -- ri -- e -- li,
+    tys po -- sel ne -- bes -- ký,
+    ty jsi ke mně při -- šel za -- vře -- ný -- mi dveř -- mi
     a slo -- vo mi zvěs -- to -- val:
     Po -- čneš a po -- ro -- díš;
     bu -- de zván E -- ma -- nu -- el.
