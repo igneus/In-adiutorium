@@ -11,11 +11,10 @@
   Tyto texty nejsou součástí Denní modlitby církve
   ani jiných platných liturgických knih římského ritu.
   Jde o překlady dalších Ó-antifon, které se vyskytují v některých
-  středověkých pramenech
-  (ty z nich, jejichž výskyt zasahuje i do středoevropského regionu,
-  viz např. v jiřském antifonáři
+  středověkých pramenech.
+  (Ty běžnější z nich viz např. v jiřském antifonáři
   \with-url #"https://www.manuscriptorium.com/apis/resolver-api/cs/browser/default/detail?url=https%3A//collectiones.manuscriptorium.com/assorted/AIPDIG/NKCR__/F/AIPDIG-NKCR__XIV_B_13____2P77ZSF-cs/&imageId=https://imagines.manuscriptorium.com/loris/AIPDIG-NKCR__XIV_B_13____2P77ZSF-cs/ID0009v" {
-    CZ-Pu XIV B 13, f. 9v-10r).
+    CZ-Pu XIV B 13, f. 9v-10r.)
   }
   Určeno pro soukromou potřebu.
 }
@@ -192,6 +191,8 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\pageBreak % ZLOM
 
 \markup\nadpisDen{Jiné}
 
