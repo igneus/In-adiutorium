@@ -10,18 +10,26 @@ describe MessageExpander do
     ['2a', '2 ant.s revised'],
     ['5a2r', '5 ant.s + 2 resp.s revised'],
     ['2r5a', '2 resp.s + 5 ant.s revised', 'input order is preserved'],
+    [' 5a  2r ', '5 ant.s + 2 resp.s revised', 'whitespace around items is ignored'],
     ['1a1c', '1 ant. revised + 1 copy'],
     ['1a2c', '1 ant. revised + 2 copies'],
     ['+1a', '+ 1 ant.'],
     ['+1a2r', '+ 1 ant. + 2 resp.s'],
 
+    # substandard input
+    ['1a1a', '1 ant. + 1 ant. revised', 'countable items are repeatable'],
+    ['x1ax', '1 ant. revised', 'unrecognized characters around items are ignored'],
+
     # invalid input
+    ['mq', nil, 'non-countable items can\'t be combined'],
+    ['mm', nil, 'non-countable items can\'t be repeated'],
     ['a', nil, 'quantity is required for countable items'],
     ['ar', nil],
     ['1', nil],
     ['x', nil],
     ['1s', nil],
-    ['', nil] # TODO
+    ['', nil],
+    [' ', nil],
   ].each do |(given, expected, label)|
     it(label || given.inspect) do
       expect(described_class.call(given)).to eq expected
