@@ -1149,6 +1149,32 @@
   }
 
   \score {
+    \relative c'' {
+      \choralniRezim
+      c4-- d( e) d c( d) \barMin
+      c a c b a( g) g \barMin
+      a g f g a a( g) g \barFinalis
+
+      f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    }
+    \addlyrics {
+      Bůh žeh -- ná těm,
+      kdo ho o -- sla -- vu -- jí
+      v_bra -- trs -- kém spo -- le -- čen -- ství.
+
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "VII"
+      differentia = "c"
+      psalmus = ""
+      id = "rehol-ne2-amag2"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
     \relative c' {
       \choralniRezim
       e4 g( a g a) a \barMin
