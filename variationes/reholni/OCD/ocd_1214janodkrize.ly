@@ -17,17 +17,23 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( a) a( c) c \barMin
+    d e d c d d \barMaior
+    d e d c( b) a( g) g \barMin
+    a g a c b a g( a) a a \barFinalis
   }
   \addlyrics {
-    V modlitbě otevřel svá ústa, a Pán ho naplnil duchem moudrosti a poznání.
+    V_mod -- lit -- bě
+    o -- te -- vřel svá ús -- ta,
+    a Pán ho na -- pl -- nil
+    du -- chem moud -- ros -- ti a po -- zná -- ní.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -74,6 +80,32 @@
     quid = "3. ant."
     modus = "I"
     differentia = "f"
+    psalmus = "Zj 4"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 a g f e f d d \barMin
+    f g a a c b a( b) a \barMin
+    a a a a g f g f d( c) c \barMaior
+    d d d e f d( c) \barMin
+    d f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    A -- ni o -- ko ne -- vi -- dě -- lo,
+    a -- ni u -- cho ne -- sly -- še -- lo
+    a na my -- sl lid -- skou ne -- vstou -- pi -- lo,
+    co Bůh při -- pra -- vil těm,
+    kte -- ří ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
     psalmus = "Zj 4"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
