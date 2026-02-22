@@ -43,15 +43,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4-- f f g f e( f) d d \barMin
+    c d f e d c d d \barFinalis
   }
   \addlyrics {
-    Pán mu dal skryté poklady a utajená bohatství.
+    Pán mu dal skry -- té po -- kla -- dy
+    a uta -- je -- ná bo -- hat -- ství.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 146"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -106,6 +108,32 @@
     quid = "3. ant."
     modus = "I"
     differentia = "a"
+    psalmus = "Zj 4"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f e f d d \barMin
+    f g a a c b a( b) a \barMin
+    a a a a g f g f d( c) c \barMaior
+    d \mark\sipka c d f f \barMin
+    g g f g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    A -- ni o -- ko ne -- vi -- dě -- lo,
+    a -- ni u -- cho ne -- sly -- še -- lo
+    a na my -- sl lid -- skou ne -- vstou -- pi -- lo,
+    co Bůh při -- pra -- vil
+    těm, kte -- ří ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Zj 4"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
