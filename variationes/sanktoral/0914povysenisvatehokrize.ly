@@ -185,6 +185,29 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4-- f g a g f g \barMaior
+    g f e e( f) d c d d \barMin
+    \mark\sipka c d e d \barFinalis
+  }
+  \addlyrics {
+    Kříž, kte -- rý zna -- me -- nal smrt,
+    stal se nám stro -- mem ži -- vo -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "147-II"
+    fial = "antifony/tyden1_1nedele.ly#mc-ant1?konec&+aleluja"
+    id = "1ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4-- c d f e d c \barMin
     d e f e( f) d c d d \barMaior
     e f d d \barFinalis
@@ -345,11 +368,38 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e d f( g a g) g \barMaior
     g \[ \mark\sipka a( bes a g \] \[ f g) \] \barMaior
     g4 f e f( d c) c \barMin d( f) e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- ší je -- di -- nou chlou -- bou
+    je kříž
+    na -- še -- ho Pá -- na Je -- ží -- še Kris -- ta.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    fial = "pust_svatytyden.ly#odpo?konec=15"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (rytmická znaménka)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d f e d f( g a g) g \barMaior
+    g \[ a( bes a g \] \[ f4. g) \] \barMaior
+    g4 f e f( d c4.) c4 \barMin d( f) e d c( d) d \barFinalis
   }
   \addlyrics {
     Na -- ší je -- di -- nou chlou -- bou
@@ -2234,12 +2284,42 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 a' a g b( c a) a \barMin
     g f f g g e e \barMax
     a \mark\sipka g a c a \barMin c b c a( g) g( a) a \barMaior
     \mark\sipka f d f( g a) g f( g) \barMin
+    e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Za -- chraň nás svým kří -- žem,
+    Pa -- ne Je -- ží -- ši Kris -- te;
+    ty jsi svou smr -- tí na -- ši smrt pře -- mo -- hl
+    a svým vzkří -- še -- ním
+    ob -- no -- vils ži -- vot.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (rytmická znaménka)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 a' a g b( c a4.) a4 \barMin
+    g f f g g e e \barMax
+    a g a c a \barMin c b c a( g) g( a) a \barMaior
+    f d f( g a) g f( g) \barMin
     e( f) d c c( d) d \barFinalis
   }
   \addlyrics {
@@ -2582,12 +2662,40 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 f g f e d d \barMin
     \mark\sipka d g a g f e \barMaior
     a g a b( g e) e \barMin
     \mark\sipka e f( a g) f( d) d e \barFinalis
+  }
+  \addlyrics {
+    Kla -- ní -- me se ti, Kris -- te,
+    a ve -- le -- bí -- me tě,
+    ne -- boť svým kří -- žem
+    jsi vy -- kou -- pil svět.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Zj 4"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (rytmická znaménka)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 f g f e d d \barMin
+    d g a g f e \barMaior
+    a g a b( g e4.) e4 \barMin
+    e f( a g) f( d) d e \barFinalis
   }
   \addlyrics {
     Kla -- ní -- me se ti, Kris -- te,
@@ -2834,12 +2942,43 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 f g( a c) c \barMin
     d d d f e d c d( c bes c) c \barMaior
     bes( c d) c \barMin
     d c( d) c a c a g \barMin f( g a) a g a f( g f) f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý kří -- ži,
+    zna -- me -- ní ví -- těz -- ství a spá -- sy,
+    veď nás,
+    ať ví -- těz -- ně do -- jde -- me do ne -- bes -- ké slá -- vy.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    placet = "text je radostný, ne že ne, ale melodie je tak nějak neseriózní"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (jen rytmická znaménka)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    f4 f g( a c4.) c4 \barMin
+    d d d f e d c d( c bes c) c \barMaior
+    bes( c d) c \barMin
+    d c( d) c a c a g \barMin f( g a) a g a f( g f4.) f4 \barFinalis
   }
   \addlyrics {
     Sva -- tý kří -- ži,

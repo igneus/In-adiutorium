@@ -187,7 +187,7 @@
     g a a f d e \barMax
     d e f g( a) a g bes a a \barMaior
     a g( bes a g) f( g) \barMaior
-    g f e f( d c) c \barMin
+    g f e f( d c4.) c4 \barMin
     d( f) e d c( d) d \barFinalis
   }
   \addlyrics {

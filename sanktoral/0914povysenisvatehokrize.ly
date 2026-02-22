@@ -65,8 +65,8 @@
   \relative c' {
     \choralniRezim
     d4 d f e d f( g a g) g \barMaior
-    g \[ a( bes a g \] \[ f g) \] \barMaior
-    g4 f e f( d c) c \barMin d( f) e d c( d) d \barFinalis
+    g \[ a( bes a g \] \[ f4. g) \] \barMaior
+    g4 f e f( d c4.) c4 \barMin d( f) e d c( d) d \barFinalis
   }
   \addlyrics {
     Na -- ší je -- di -- nou chlou -- bou
@@ -528,7 +528,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 a' a g b( c a) a \barMin
+    d4 a' a g b( c a4.) a4 \barMin
     g f f g g e e \barMax
     a g a c a \barMin c b c a( g) g( a) a \barMaior
     f d f( g a) g f( g) \barMin
@@ -611,7 +611,7 @@
     \choralniRezim
     e4 f g f e d d \barMin
     d g a g f e \barMaior
-    a g a b( g e) e \barMin
+    a g a b( g e4.) e4 \barMin
     e f( a g) f( d) d e \barFinalis
   }
   \addlyrics {
@@ -670,10 +670,10 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 f g( a c) c \barMin
+    f4 f g( a c4.) c4 \barMin
     d d d f e d c d( c bes c) c \barMaior
     bes( c d) c \barMin
-    d c( d) c a c a g \barMin f( g a) a g a f( g f) f \barFinalis
+    d c( d) c a c a g \barMin f( g a) a g a f( g f4.) f4 \barFinalis
   }
   \addlyrics {
     Sva -- tý kří -- ži,
