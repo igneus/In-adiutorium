@@ -1556,6 +1556,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a a( c) c d e d c d d \barMaior
+    \mark\sipka d e d c b a( g) g \barMin
+    f g a( c) c b c a g a a \barFinalis
+  }
+  \addlyrics {
+    Hle, jde -- me vzhů -- ru do Je -- ru -- za -- lé -- ma
+    a tam se spl -- ní všech -- no,
+    co je psá -- no o Sy -- nu člo -- vě -- ka.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "1 Petr 2"
+    id = "ne-2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{Pondělí}
