@@ -38,7 +38,7 @@
     \choralniRezim
     d4 d c b a( b) a g g \barMaior
     a a g f g g( a) a \barMin
-    c c b a g a f g \barFinalis
+    c b a( b) g g \barMin a f g \barFinalis
   }
   \addlyrics {
     Ne -- jen z_chle -- ba ži -- je člo -- věk,

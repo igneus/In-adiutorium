@@ -285,6 +285,30 @@
     \choralniRezim
     d4 d c b a( b) a g g \barMaior
     a a g f g g( a) a \barMin
+    c b \mark\sipka a( b) g g \barMin a f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- jen z_chle -- ba ži -- je člo -- věk,
+    a -- le z_kaž -- dé -- ho slo -- va,
+    kte -- ré vy -- chá -- zí z_Bo -- žích úst.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "iben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    d4 d c b a( b) a g g \barMaior
+    a a g f g g( a) a \barMin
     c \mark\sipka c b a g a f g \barFinalis
   }
   \addlyrics {
