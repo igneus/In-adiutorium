@@ -3,13 +3,14 @@
 \include "../../spolecne.ly"
 \include "../../spolecne/reholni.ly"
 \include "../../dilyresponsorii.ly"
+\include "ocarm.ly"
 
 \header {
   title = \markup\titleSvatek
             "Panny Marie Karmelské"
             slavnost
             "16. 7."
-            "vlastní texty řádu karmelitánů (OCarm)"
+            \textyOCarm
   composer = "Jakub Pavlík"
 }
 
