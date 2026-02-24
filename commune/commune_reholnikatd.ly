@@ -296,7 +296,7 @@
       d d d c d f d f g f d d \barMaior
       a' g a g f e( f) d \barMax
 
-      d( a') a \barMin c c b a b c a a \barMaior
+      d4( a') a \barMin c c b a b c a a \barMaior
       f( g) g( a) a a g a( c) b a( b) a a \barMaior
       a a a g f g g f( e) d \barMin
       e d c e f d d \barFinalis
