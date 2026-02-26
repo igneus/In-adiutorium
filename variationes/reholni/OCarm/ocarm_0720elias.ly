@@ -14,6 +14,14 @@
   composer = "Jakub Pavlík"
 }
 
+\markup{
+  \with-url "http://digital.wlb-stuttgart.de/purl/bsz411095153" {
+    D-Sl Cod.Bibl.fol.062,
+  }
+  f. 70r ff
+  (bezprostředně předchází Elizeus)
+}
+
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
@@ -39,27 +47,192 @@
   }
 }
 
+\pageBreak
+
 \markup{
-  \italic{Usquequo claudicatis} pmo1950 (126)
+  \italic{Usquequo claudicatis} pmo1950 (126);
   \cantusid-link "205709"
 }
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    \key f \major
+    d4 d c d f e d( e) d( c) \barMin
+    f g( a) \[ a( bes g \] \[ a bes a bes) \] a \barMaior
+    a a a g f e f g \barMin
+    f d e( d) d \barFinalis
   }
   \addlyrics {
-    Jak dlouho budete kulhat na dvě strany?
-    Jestliže Hospodin je Bůh, jděte za ním!
+    Jak dlou -- ho bu -- de -- te kul -- hat
+    na dvě stra -- ny?
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
   }
   \header {
+    fons_externus = "volně podle pmo1950, s. (126)"
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 115"
     id = "1ne-a2"
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d c d f e d( e) d( c) \barMin
+    f g( a) \[ a( bes g \] \[ a bes a bes) \] a \barMaior
+    a a a g f e f g \barMin
+    \mark\sipka g( a) f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Jak dlou -- ho bu -- de -- te kul -- hat
+    na dvě stra -- ny?
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    fons_externus = "volně podle pmo1950, s. (126)"
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 115"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g g( a) a \barMin
+    g f g( f) f \barMaior
+    g a a g f g f d \barMin
+    f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jak dlou -- ho bu -- de -- te kul -- hat
+    na dvě stra -- ny?
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 115"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f g f g g( a) a \barMin
+    \mark\sipka a( bes) g g( a) a \barMaior
+    a g f g a g f e( d) \barMin
+    d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jak dlou -- ho bu -- de -- te kul -- hat
+    na dvě stra -- ny?
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 115"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    f4 f f g f g g( a) a \barMin
+    a( bes) g \mark\sipka a( bes a bes) a \barMaior
+    a g f g a g f e( d) \barMin
+    d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jak dlou -- ho bu -- de -- te kul -- hat
+    na dvě stra -- ny?
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 115"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\justify{
+  Tenhle model předpokládá dvě dlouhé slabiky na konci
+  obou polovin, což český text nesplňuje a zní proto nepěkně.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d e e d d \barMin
+    b( c d) b g g \barMaior
+    c c c c a c c b \barMin
+    a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Jak dlou -- ho bu -- de -- te kul -- hat
+    na dvě stra -- ny?
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    fons_externus = "volně podle D-Sl Cod.Bibl.fol.062, f. 70r"
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 115"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d e e d d \barMin
+    \mark\sipka d( b c) b g g \barMaior
+    c c c c a c c b \barMin
+    a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Jak dlou -- ho bu -- de -- te kul -- hat
+    na dvě stra -- ny?
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    fons_externus = "volně podle D-Sl Cod.Bibl.fol.062, f. 70r"
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 115"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -477,6 +650,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c d e e d c d \barMin
+    d c d d( c) c \barMaior
+    d d e( f) d d c b a g g \barMin
+    a a b c a a g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Žád -- né z_Hos -- po -- di -- no -- vých slov
+    ne -- pad -- lo na zem,
+    vše, co Hos -- po -- din mlu -- vil, vy -- ko -- nal
+    skr -- ze své -- ho slu -- žeb -- ní -- ka E -- li -- á -- še.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \score {
@@ -485,6 +682,29 @@
     d4 d d b d d c b g g \barMaior
     a f( g) g( a) a \barMin
     b c a g g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův o -- heň spa -- dl z_ne -- be
+    a se -- že -- hl
+    E -- li -- á -- šův ce -- lo -- pal.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0720elias.ly#nona?cast=1"
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d b d d c b g g \barMaior
+    a f( g) g( a) a \barMin
+    b c a g \mark\sipka a g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- di -- nův o -- heň spa -- dl z_ne -- be
@@ -574,18 +794,22 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f( g) g( a) a \barMin
+    a a g f g( a) a( g) g \barMaior
+    f( g) f e d( c) \barMin
+    d c e( f) d d \barFinalis
   }
   \addlyrics {
-    Eliáš vystoupil ve vichřici do nebe.
-    Elizeus ho už nespatřil.
+    E -- li -- áš vy -- stou -- pil
+    ve vich -- ři -- ci do ne -- be.
+    E -- li -- ze -- us
+    ho už ne -- spat -- řil.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Zj 15"
-    placet = "2 nic moc"
     id = "2ne-a3"
     piece = \markup\sestavTitulek
   }
@@ -625,7 +849,7 @@
 
 \markup{
   \italic{Ecce ego mittam}
-  pmo1950 (129)
+  pmo1950 (129);
   \cantusid-link "205710"
 }
 \score {
