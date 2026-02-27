@@ -159,7 +159,7 @@
 
 \markup\justify\italic{
   \bold{O Virgo virginum,} quomodo fiet istud?
-  Quia nec primam similem visa est[?], nec habere sequentem.
+  Quia nec primam similem visa es, nec habere sequentem.
   Filiae Ierusalem, quid me admiramini? Divinum est mysterium, hoc quod cernitis.
 }
 
