@@ -556,7 +556,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( f f e) f( d) e( d) c( d) d \barMin
     d( f) d e( f) d( c) c \barMaior
@@ -585,6 +585,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4( f f e) f( d) e( d) c( d) d \barMin
     d( f) d e( f) d( c) c \barMaior

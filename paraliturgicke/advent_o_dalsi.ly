@@ -214,7 +214,7 @@
   \addlyrics {
     Ó Gab -- ri -- e -- li,
     po -- sle ne -- bes -- ký,
-    jenž jsi ke mně při -- šel za -- vře -- ný -- mi dveř -- mi
+    ty jsi ke mně při -- šel za -- vře -- ný -- mi dveř -- mi
     a slo -- vo mi zvěs -- to -- val:
     Po -- čneš a po -- ro -- díš;
     bu -- de zván E -- ma -- nu -- el.
