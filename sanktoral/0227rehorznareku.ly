@@ -23,9 +23,9 @@
     d4 f e d d e d c( d) d \barMin
     e d f e d( c) c \barMaior
     d d e f \[ g( a g \] \[ a bes a) \] \barMaior
-    a a g f e f d d c c \barMax
-    d( e f) d( e) d( c) \barMin
-    d e f d c( d) d \barFinalis
+    a a g f d e f d d c \barMax
+    d d( f) f \barMin
+    e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Vy -- ni -- ka -- jí -- cí u -- či -- te -- li,
@@ -41,6 +41,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    fial = "commune/commune_ucitel.ly#2ne-amag?-aleluja&konec=7"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

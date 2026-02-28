@@ -56,7 +56,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f e d d e d c( d) d \barMin
     e d f e d( c) c \barMaior
@@ -150,8 +150,127 @@
     e d f e d( c) c \barMaior
     d d e f \[ g( a g \] \[ a bes a) \] \barMaior
     a a g f e f d d c c \barMax
+    \mark\sipka c d( f) f \barMin
+    e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vy -- ni -- ka -- jí -- cí u -- či -- te -- li,
+    svět -- lo sva -- té cír -- kve,
+    sva -- tý Ře -- ho -- ři,
+    mi -- lov -- ní -- ku bož -- ské -- ho zá -- ko -- na,
+    pros za nás
+    u Bo -- ží -- ho Sy -- na.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, [47]"
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d d e d c( d) d \barMin
+    e d f e d( c) c \barMaior
+    d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f e f d d c c \barMax
+    \mark\sipka c( d) d( f) f \barMin
+    e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vy -- ni -- ka -- jí -- cí u -- či -- te -- li,
+    svět -- lo sva -- té cír -- kve,
+    sva -- tý Ře -- ho -- ři,
+    mi -- lov -- ní -- ku bož -- ské -- ho zá -- ko -- na,
+    pros za nás
+    u Bo -- ží -- ho Sy -- na.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, [47]"
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e d d e d c( d) d \barMin
+    e d f e d( c) c \barMaior
+    d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f e f d d c c \barMax
     \mark\sipka f f( e d) d \barMin
     f f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vy -- ni -- ka -- jí -- cí u -- či -- te -- li,
+    svět -- lo sva -- té cír -- kve,
+    sva -- tý Ře -- ho -- ři,
+    mi -- lov -- ní -- ku bož -- ské -- ho zá -- ko -- na,
+    pros za nás
+    u Bo -- ží -- ho Sy -- na.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, [47]"
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#2ne-amag?-aleluja&konec=7"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d d e d c( d) d \barMin
+    e d f e d( c) c \barMaior
+    d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f \mark\sipka d e f d d c \barMax
+    d d( f) f \barMin
+    e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vy -- ni -- ka -- jí -- cí u -- či -- te -- li,
+    svět -- lo sva -- té cír -- kve,
+    sva -- tý Ře -- ho -- ři,
+    mi -- lov -- ní -- ku bož -- ské -- ho zá -- ko -- na,
+    pros za nás
+    u Bo -- ží -- ho Sy -- na.
+  }
+  \header {
+    fons_externus = "volně podle AR1912, [47]"
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "commune/commune_ucitel.ly#2ne-amag?-aleluja&konec=7"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka e f d d e d c( d) d \barMin
+    e d f e d( c) c \barMaior
+    d d e f \[ g( a g \] \[ a bes a) \] \barMaior
+    a a g f d e f d d c \barMax
+    d d( f) f \barMin
+    e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Vy -- ni -- ka -- jí -- cí u -- či -- te -- li,
