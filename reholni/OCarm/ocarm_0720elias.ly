@@ -40,17 +40,24 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    \key f \major
+    f4 f f g f g g( a) a \barMin
+    a( bes) g a( bes a bes) a \barMaior
+    a g f g a g f e( d) \barMin
+    d( e) c c( d) d \barFinalis
   }
   \addlyrics {
-    Jak dlouho budete kulhat na dvě strany?
-    Jestliže Hospodin je Bůh, jděte za ním!
+    Jak dlou -- ho bu -- de -- te kul -- hat
+    na dvě stra -- ny?
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 115"
     id = "1ne-a2"
     piece = \markup\sestavTitulek
@@ -423,17 +430,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-
+    d4 d d b d d c b g g \barMaior
+    a f( g) g( a) a \barMin
+    c b a g a g g \barFinalis
   }
   \addlyrics {
-    Hospodinův oheň spadl z nebe
-    a sežehl Eliášův celopal.
+    Hos -- po -- di -- nův o -- heň spa -- dl z_ne -- be
+    a se -- že -- hl
+    E -- li -- á -- šův ce -- lo -- pal.
   }
   \header {
     quid = "ant. odpoledne"
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    fial = "reholni/OCD/ocd_0720elias.ly#nona?cast=1"
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
   }

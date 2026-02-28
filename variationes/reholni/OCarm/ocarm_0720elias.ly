@@ -155,6 +155,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4 f f g f g g( a) a \barMin
@@ -445,6 +446,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c'' {
     \choralniRezim
@@ -468,6 +471,32 @@
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d c \barMin
+    c c b a b( c) a a g f g( a) a g \barMaior
+    \mark\sipka a \barMin
+    c b a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- jdi ven
+    a po -- stav se na ho -- ře před Hos -- po -- di -- nem.
+    Hle: Hos -- po -- din pře -- chá -- zí.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    fial = "reholni/OCD/ocd_0720elias.ly#rch-a2?cast=1-2,4"
+    id = "rch-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c'' {
@@ -653,6 +682,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c d e e d c d \barMin
+    d \mark\sipka c d d( c) c \barMaior
+    \mark\sipka d d d( e) d d c b a g g \barMin
+    a a f g g a a a a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    Žád -- né z_Hos -- po -- di -- no -- vých slov
+    ne -- pad -- lo na zem,
+    vše, co Hos -- po -- din mlu -- vil, vy -- ko -- nal
+    skr -- ze své -- ho slu -- žeb -- ní -- ka E -- li -- á -- še.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 c d e e d c d \barMin
     d c d d( c) c \barMaior
     d d e( f) d d c b a g g \barMin
@@ -724,6 +777,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d b d d c b g g \barMaior
     a f( g) g( a) a \barMin
