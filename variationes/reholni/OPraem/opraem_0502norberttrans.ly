@@ -129,6 +129,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    d c d( e) d d \barMin
+    e( f e d) c( d) \barMaior
+    c a b c a \mark\sipka g( a g) f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Bo -- ží,
+    pří -- tel Že -- ni -- cha,
+    Nor -- bert,
+    slá -- va na -- še -- ho řá -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
