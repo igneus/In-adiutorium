@@ -189,7 +189,7 @@
       \choralniRezim
       a4 a g f g a a c( d) d( c) c \barMaior
       c c( d c a) a \barMin
-      c b a g( a) g \barFinalis
+      c b a g( a g) g \barFinalis
     }
     \addlyrics {
       Slun -- ce spra -- ve -- dl -- nos -- ti vy -- chá -- zí
@@ -247,8 +247,8 @@
       % V
       \neviditelna a
       \[ g( a g \] \[ c d) \] c \barMin d e d c c( d) d \barMaior
-      d d d d c b c b \barMin
-      a b c( d) c b c d d d \barFinalis
+      d d c b a g a g \barMin
+      f g a( c) b a c d d d \barFinalis
 
       d d d \barFinalis
     }
