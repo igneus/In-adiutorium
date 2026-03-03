@@ -411,16 +411,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-
+    c4 c d e e d c d \barMin
+    d c d d( c) c \barMaior
+    d d d( e) d d c b a g g \barMin
+    a a f g g a a a a( c) b g g \barFinalis
   }
   \addlyrics {
-    Žádné z Hospodinových slov nepadlo na zem,
-    vše, co Hospodin mluvil, vykonal skrze svého služebníka Eliáše.
+    Žád -- né z_Hos -- po -- di -- no -- vých slov
+    ne -- pad -- lo na zem,
+    vše, co Hos -- po -- din mlu -- vil, vy -- ko -- nal
+    skr -- ze své -- ho slu -- žeb -- ní -- ka E -- li -- á -- še.
   }
   \header {
     quid = "ant. v poledne"
     modus = "VII"
-    differentia = "a"
+    differentia = "c"
     psalmus = ""
     id = "sexta"
     piece = \markup\sestavTitulekBezZalmu

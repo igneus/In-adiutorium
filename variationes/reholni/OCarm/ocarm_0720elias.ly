@@ -681,6 +681,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c d e e d c d \barMin
     d \mark\sipka c d d( c) c \barMaior
@@ -904,6 +905,7 @@
 \markup{
   \italic{Ecce ego mittam}
   pmo1950 (129);
+  D-Sl Cod.Bibl.fol.062, f. 71v;
   \cantusid-link "205710"
 }
 \score {
