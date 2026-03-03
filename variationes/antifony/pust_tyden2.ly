@@ -1357,6 +1357,27 @@
   \relative c'' {
     \choralniRezim
     a4 a a g( f) g( a) a g a c( d) d d \barMaior
+    d4( e c a) a \barMin c4 b a \mark\sipka g( a g) g \barFinalis
+  }
+  \addlyrics {
+    O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout
+    v_po -- svát -- ném les -- ku.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    fial = "antifony/tyden4_1nedele.ly#2ne-ant1?zacatek"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g( f) g( a) a g a c( d) d d \barMaior
     d4( e c a) a \barMin c4 b a \mark\sipka g g \barFinalis
   }
   \addlyrics {
@@ -1829,6 +1850,28 @@
     \choralniRezim
     d4 f g f e d \barMaior
     f f f g a g f \mark\sipka e( f) d d \barMin
+    e c d \barFinalis
+  }
+  \addlyrics {
+    Buď -- te mi -- lo -- srd -- ní,
+    ja -- ko je mi -- lo -- srd -- ný váš O -- tec,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f g f e d \barMaior
+    f f \mark\sipka g a a g f e( f) d d \barMin
     e c d \barFinalis
   }
   \addlyrics {
