@@ -860,11 +860,62 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f \mark\sipka g( a) g g f e d( c) c \barMaior
     f e d f( g) a( g) g \barMin
     g a g f( e) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
+    do -- kud Syn člo -- vě -- ka
+    ne -- bu -- de vzkří -- šen z_mrt -- vých.
+  }
+  \header {
+    textus_approbatus = "Nikomu o tom vidění neříkejte, dokud nebude Syn člověka vzkříšen z mrtvých."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/0806promenenipane.ly#2ne-a3?cast=2"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g f g( a) g g f e d( c) c \barMaior
+    f e d f( g) a( g) g \barMin
+    g \mark\sipka f e e( f) d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
+    do -- kud Syn člo -- vě -- ka
+    ne -- bu -- de vzkří -- šen z_mrt -- vých.
+  }
+  \header {
+    textus_approbatus = "Nikomu o tom vidění neříkejte, dokud nebude Syn člověka vzkříšen z mrtvých."
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/0806promenenipane.ly#2ne-a3?cast=2"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f g( a) g g f e d( c) c \barMaior
+    f e d f( g) a( g) g \barMin
+    g \mark\sipka f g g( a f) e c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
@@ -984,6 +1035,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a g f \mark\sipka e( f) d d c d f( g) g \barMaior
+    g f g a a a g f d \barMin
+  }
+  \addlyrics {
+    Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
+    do -- kud ne -- bu -- de Syn člo -- vě -- ka
+    vzkří -- šen z_mrt -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c b a g( a) g g c( d) e d d \barMaior
     e f e d( c) c( d) d \barMin
     c a a a( c) b g g \barFinalis
@@ -997,6 +1070,52 @@
     textus_approbatus = "Nikomu o tom vidění neříkejte, dokud nebude Syn člověka vzkříšen z mrtvých."
     quid = "ant. k Magnificat"
     modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g( a) g g c( d) e d d \barMaior
+    \mark\sipka e d e f e d c d d \barMin
+    c( a c b) a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
+    do -- kud ne -- bu -- de Syn člo -- vě -- ka
+    vzkří -- šen z_mrt -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "iimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g( a) g g \mark\sipka a c c( d) d \barMaior
+    d c d e e e d c a \barMin
+    b( g c b) a g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
+    do -- kud ne -- bu -- de Syn člo -- vě -- ka
+    vzkří -- šen z_mrt -- vých.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
     differentia = "c"
     psalmus = ""
     annus = "A"

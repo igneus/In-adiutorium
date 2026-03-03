@@ -149,7 +149,7 @@
     \choralniRezim
     a4 a a g f g( a) g g f e d( c) c \barMaior
     f e d f( g) a( g) g \barMin
-    g a g f( e) d c( d) d \barFinalis
+    g f e e( f) d c( d) d \barFinalis
   }
   \addlyrics {
     Ni -- ko -- mu o tom vi -- dě -- ní ne -- ří -- kej -- te,
