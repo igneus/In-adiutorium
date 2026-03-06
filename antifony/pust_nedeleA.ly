@@ -120,10 +120,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d c( b g) g a( c b) c c4.( d) \barMax
-    d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
-    g4( f) g4.( a4 b) b c b( d) d \barMaior
-    d d c( d c) b( a g) f( g) g \barFinalis
+    a4 a a g f e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e d( c) c \barMaior
+    d c d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Z_ne -- be se o -- zval Ot -- cův hlas:
@@ -133,12 +133,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "VII"
-    differentia = "d"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     annus = "A"
     fial = "vanoce_zjevenipane.ly#krtu-2ne-a1"
-    placet = "3 viz zdroj"
     id = "iiben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

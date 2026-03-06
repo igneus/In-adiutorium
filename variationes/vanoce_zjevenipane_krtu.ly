@@ -3534,6 +3534,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       d4 d d c( b g) g a( c b) c c4.( d) \barMax
       d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
@@ -3551,7 +3552,7 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 110"
-      placet = "od _v něm_ do konce zjednodušit"
+      placet = "4 od _v něm_ do konce zjednodušit"
       id = "krtu-2ne-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -3672,6 +3673,57 @@
       modus = "VII"
       differentia = "d"
       psalmus = "Žalm 110"
+      id = "krtu-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 a a g f e( f) d( c) c \barMaior
+      d d d( f g) \barMin f g a f g \barMaior
+      f d f e d( c) c \barMaior
+      d c d( f) e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Z_ne -- be se o -- zval Ot -- cův hlas:
+      To je můj mi -- lo -- va -- ný Syn,
+      v_něm mám za -- lí -- be -- ní;
+      to -- ho po -- slou -- chej -- te.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Žalm 110"
+      fial = "sanktoral/0806promenenipane.ly#2ne-a2?cast=2-3"
+      id = "krtu-2ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      \mark\sipka a4 g f g f e f d \barMaior
+      c d d( f g) \barMin f g a f g \barMaior
+      f d f e d( c) c \barMaior
+      d c d( f) e c( d) d \barFinalis
+    }
+    \addlyrics {
+      Z_ne -- be se o -- zval Ot -- cův hlas:
+      To je můj mi -- lo -- va -- ný Syn,
+      v_něm mám za -- lí -- be -- ní;
+      to -- ho po -- slou -- chej -- te.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "I"
+      differentia = "a"
+      psalmus = "Žalm 110"
+      fial = "sanktoral/0806promenenipane.ly#2ne-a2?cast=3"
       id = "krtu-2ne-a1"
       piece = \markup {\sestavTitulek}
     }

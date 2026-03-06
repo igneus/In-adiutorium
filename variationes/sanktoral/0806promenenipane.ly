@@ -2104,7 +2104,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d c( b g) g a( c b) c c4.( d) \barMax
     d4( f) e( d) c4.( b) c4( b c) d( e) c b a \barMaior
@@ -2151,6 +2151,61 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g f e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    f d f e d( c) c \barMaior
+    d c d f e( f) g \barMin
+    f d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Z_ob -- la -- ku se o -- zval Ot -- cův hlas:_*
+    To je můj mi -- lo -- va -- ný Syn,
+    v_něm mám za -- lí -- be -- ní;
+    to -- ho po -- slou -- chej -- te.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "vanoce_zjevenipane.ly#krtu-2ne-a1?cast=2-4"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a g f e( f) d( c) c \barMaior
+    d d d( f g) \barMin f g a f g \barMaior
+    bes a g a g g \barMaior
+    f d f e d( c) c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Z_ob -- la -- ku se o -- zval Ot -- cův hlas:_*
+    To je můj mi -- lo -- va -- ný Syn,
+    v_něm mám za -- lí -- be -- ní;
+    to -- ho po -- slou -- chej -- te.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "vanoce_zjevenipane.ly#krtu-2ne-a1?cast=2-3,5"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
