@@ -653,6 +653,48 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c d d c d e d \barMaior
+    \mark\sipka b c b a g g \barFinalis
+  }
+  \addlyrics {
+    E -- li -- áš vo -- lal k_Hos -- po -- di -- nu,
+    a on ho vy -- sly -- šel.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0720elias.ly#tercie?cast=1"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c d d c \mark\sipka b a( b) b \barMaior
+    b c a a g g \barFinalis
+  }
+  \addlyrics {
+    E -- li -- áš vo -- lal k_Hos -- po -- di -- nu,
+    a on ho vy -- sly -- šel.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "reholni/OCD/ocd_0720elias.ly#tercie?zacatek=6"
+    id = "tercie"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \score {
