@@ -324,6 +324,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g f g g( f) f \barMaior
+    d f \mark\sipka e d c \barMin
+    d c d( f) f f g f f
+    g a f e d d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- nův an -- děl mu ře -- kl:
+    Vstaň a na -- jez se,
+    ne -- boť ces -- ta by pro te -- be
+    by -- la pří -- liš dlou -- há.
+  }
+  \header {
+    textus_approbatus = "Hospodinův anděl mu řekl: Vstaň a najez se,
+    neboť cesta by byla pro tebe příliš dlouhá."
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 28"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {

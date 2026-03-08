@@ -21,19 +21,21 @@
     \choralniRezim
     d4 d d f( g) g \barMin a( bes) a g( f g) g \barMaior
     g a g f( e d) d \barMin
-    c f e d( e) d d \barFinalis
+    e c f e d( e) d d \barFinalis
   }
   \addlyrics {
     E -- li -- áš po -- vstal ja -- ko o -- heň
     a je -- ho slo -- vo
-    plá -- lo jak po -- cho -- deň.
+    plá -- lo ja -- ko po -- cho -- deň.
   }
   \header {
+    textus_approbatus = "Eliáš povstal jako oheň
+    a jeho slovo plálo jak pochodeň."
     quid = "1. ant."
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 111"
-    fial = "reholni/OCD/ocd_0720elias.ly#ne-a1?cast=1-3&konec=7"
+    fial = "reholni/OCD/ocd_0720elias.ly#ne-a1"
     id = "1ne-a1"
     piece = \markup\sestavTitulek
   }
@@ -95,7 +97,7 @@
     f d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
-    a4 a a a( bes) a g( a) g g \barMin g f g g( a) \barMax
+    a4 a g( a) g g \barMin g g g f g g( a) a( g) \barMax
     % R
     \neviditelna a
     f d f( g) g( f) f \barFinalis
@@ -282,7 +284,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-
+    c4( d) d c \barMin
+    c c b a b( c) a a g f g( a) a g \barMaior
+    f( a) \barMin
+    c b a a( b) g g \barFinalis
   }
   \addlyrics {
     Vy -- jdi ven
@@ -294,6 +299,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Dan 3-III"
+    fial = "reholni/OCD/ocd_0720elias.ly#rch-a2?cast=1-2,4"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
@@ -392,17 +398,19 @@
 \score {
   \relative c'' {
     \choralniRezim
-
+    g4 b c d d c b a( b) b \barMaior
+    b c a a g g \barFinalis
   }
   \addlyrics {
-    Eliáš volal k Hospodinu,
-    a on ho vyslyšel.
+    E -- li -- áš vo -- lal k_Hos -- po -- di -- nu,
+    a on ho vy -- sly -- šel.
   }
   \header {
     quid = "ant. dopoledne"
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    fial = "reholni/OCD/ocd_0720elias.ly#tercie?zacatek=6"
     id = "tercie"
     piece = \markup\sestavTitulekBezZalmu
   }
@@ -510,7 +518,6 @@
     modus = ""
     differentia = ""
     psalmus = "Zj 15"
-    placet = "2 nic moc"
     id = "2ne-a3"
     piece = \markup\sestavTitulek
   }

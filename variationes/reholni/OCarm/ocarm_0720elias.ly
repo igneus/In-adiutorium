@@ -26,6 +26,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d f( g) g \barMin a( bes) a g( f g) g \barMaior
     g a g f( e d) d \barMin
@@ -42,6 +43,37 @@
     differentia = "D"
     psalmus = "Žalm 111"
     fial = "reholni/OCD/ocd_0720elias.ly#ne-a1?cast=1-3&konec=7"
+    id = "1ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\justify{
+  Rozdíl v textu je zanedbatelný,
+  nezakládá seriosní důvod pro samostatnou variantu nápěvu,
+  a zdrojový nápěv je prostě lepší.
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d f( g) g \barMin a( bes) a g( f g) g \barMaior
+    g a g f( e d) d \barMin
+    e c f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    E -- li -- áš po -- vstal ja -- ko o -- heň
+    a je -- ho slo -- vo
+    plá -- lo ja -- ko po -- cho -- deň.
+  }
+  \header {
+    textus_approbatus = "Eliáš povstal jako oheň
+    a jeho slovo plálo jak pochodeň."
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 111"
+    fial = "reholni/OCD/ocd_0720elias.ly#ne-a1"
     id = "1ne-a1"
     piece = \markup\sestavTitulek
   }
@@ -256,8 +288,11 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -283,10 +318,46 @@
     quid = "resp."
     modus = "VI"
     fial = "reholni/OCD/ocd_0720elias.ly#ne-r?cast=2"
+    placet = "verš je nesmyslný, zjevně jsem ho při zakládání formuláře přehlédl"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f g( a) a( g) \barMax
+    f d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a \mark\sipka g( a) g g \barMin g g g f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Šťast -- ni jsou, E -- li -- á -- ši,_* kdo tě vi -- dě -- li.
+    \Verse A tvým přá -- tel -- stvím by -- li vy -- zna -- me -- ná -- ni,_*
+    \Response kdo tě vi -- dě -- li.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    fial = "reholni/OCD/ocd_0720elias.ly#ne-r?cast=2"
+    id = "1ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -450,6 +521,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4( d) d c \barMin
     c c b a b( c) a a g f g( a) a g \barMaior
@@ -676,6 +748,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 b c d d c \mark\sipka b a( b) b \barMaior
     b c a a g g \barFinalis
