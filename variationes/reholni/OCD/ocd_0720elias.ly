@@ -2675,6 +2675,27 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g a g f e( d) \barMin
+    d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že Hos -- po -- din je Bůh,
+    jdě -- te za ním!
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 115"
+    fial = "reholni/OCarm/ocarm_0720elias.ly#1ne-a2?cast"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
