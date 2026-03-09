@@ -1536,7 +1536,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 c d d( a' bes) a a \barMin
     a a c a a g f g( a) g g \barMaior
@@ -1562,9 +1562,60 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     e4 c d d( a' bes) a a \barMin
-    a a \mark\sipka bes a a g f g( a) \mark\sipka a( g) g \barMaior
+    a a c a a g f g( a) \mark\sipka a( g) g \barMaior
+    a a g f e( f) d( c) c \barMin
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- stá -- vá ho -- di -- na,
+    kdy o -- prav -- do -- ví Bo -- ží cti -- te -- lé
+    bu -- dou Ot -- ce u -- ctí -- vat
+    v_du -- chu a v_prav -- dě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c d d( a' bes) a a \barMin
+    a a c a a g f g( a) a( g) g \barMaior
+    a a g f e( f) d( c) c \barMin
+    d f e \mark\sipka d( e d) d \barFinalis
+  }
+  \addlyrics {
+    Na -- stá -- vá ho -- di -- na,
+    kdy o -- prav -- do -- ví Bo -- ží cti -- te -- lé
+    bu -- dou Ot -- ce u -- ctí -- vat
+    v_du -- chu a v_prav -- dě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "iiiben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c d d( a' bes) a a \barMin
+    a a \mark\sipka bes a a g f g( a) a( g) g \barMaior
     a a g f e( f) d( c) c \barMin
     d f e c( d) d \barFinalis
   }
@@ -1687,6 +1738,30 @@
     \choralniRezim
     d4 d c d f e d d \barMaior
     f \mark\sipka g( a) a \barMin
+    a4 a g f e( f) d d c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ta -- ké my jsme u -- vě -- ři -- li,
+    a ví -- me,
+    že Je -- žíš je sku -- teč -- ně Spa -- si -- tel svě -- ta.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d \mark\sipka f d c e d d \barMaior
+    f g( a) a \barMin
     a4 a g f e( f) d d c f e c( d) d \barFinalis
   }
   \addlyrics {

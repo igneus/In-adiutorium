@@ -199,7 +199,7 @@
   \relative c' {
     \choralniRezim
     e4 c d d( a' bes) a a \barMin
-    a a c a a g f g( a) g g \barMaior
+    a a c a a g f g( a) a( g) g \barMaior
     a a g f e( f) d( c) c \barMin
     d f e c( d) d \barFinalis
   }
