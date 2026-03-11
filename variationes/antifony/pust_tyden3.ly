@@ -2024,6 +2024,27 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka d4 d f f e d e e \barMaior
+    d c e d c d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš pro -- šel je -- jich stře -- dem
+    a u -- bí -- ral se dál.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/mezidobi_nedeleC_02_10.ly#ne4c-ne2-mag?konec"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g g( a) a g f f( g) g \barMin
     g f g a g f \barFinalis
   }
@@ -2357,6 +2378,30 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka d4 d d d( e) c c( d) d \barMin
+    c a a c b a g g \barMaior
+    \mark\sipka f a c d e d c( b a) a \barMin
+    a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že své -- mu brat -- ru
+    ze srd -- ce ne -- od -- pus -- tí -- te,
+    a -- ni můj ne -- bes -- ký O -- tec
+    vám ne -- od -- pus -- tí.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
