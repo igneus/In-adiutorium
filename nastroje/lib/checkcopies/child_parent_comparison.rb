@@ -84,7 +84,8 @@ class ChildParentComparison
           normalized_parent.include? i
         end
       else
-        return false unless normalized_parent.include? strip_wrappers(normalized_child)
+        unwrapped = strip_wrappers(normalized_child)
+        return false unless normalized_parent.include?(unwrapped) || normalized_parent.include?(delete_initial_duration(unwrapped))
       end
     end
 
@@ -197,6 +198,12 @@ class ChildParentComparison
     music
       .sub(/^\\relative.+?\{\s*(\\choralniRezim\s*)?/, '')
       .sub(/\s*(\\barFinalis\s*)?\}$/, '')
+  end
+
+  # accepts normalized music with wrappers stripped,
+  # deletes duration of the first note
+  def delete_initial_duration(music)
+    music.sub(/(?<=\A[a-g])4/, '')
   end
 
   def normalize_last_bar(music)

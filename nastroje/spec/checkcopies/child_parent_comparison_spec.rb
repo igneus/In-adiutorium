@@ -211,6 +211,24 @@ describe ChildParentComparison do
           )
         ).to be_match
       end
+
+      it 'initial duration of the child does not break match' do
+        expect(
+          described_class.new(
+            score(music: 'a4 bes a \barFinalis', fial: fial),
+            score(music: 'a c a bes a \barFinalis')
+          )
+        ).to be_match
+      end
+
+      it 'duration anywhere else breaks match (of course)' do
+        expect(
+          described_class.new(
+            score(music: 'a bes4 a \barFinalis', fial: fial),
+            score(music: 'a c a bes a \barFinalis')
+          )
+        ).not_to be_match
+      end
     end
 
     describe 'with argument - specified sections of child melody are part of parent' do
