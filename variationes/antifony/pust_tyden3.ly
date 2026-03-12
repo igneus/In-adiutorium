@@ -2591,13 +2591,42 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c c \barMin
     d c d e c( a) a \barMin
     c b a g a g g \barMaior
     a a a g f g( a) a \barMin
     c \mark\sipka b a( b) g g \barMin
+    a f g \barFinalis
+  }
+  \addlyrics {
+    Ne -- mys -- le -- te,
+    že jsem při -- šel zru -- šit
+    Zá -- kon ne -- bo Pro -- ro -- ky.
+    Ne -- při -- šel jsem je zru -- šit,
+    a -- le na -- pl -- nit,
+    pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d c c \barMin
+    d c d e c( a) a \barMin
+    c b a g a g g \barMaior
+    a a a g f g( a) a \barMin
+    c b a( b) g g \mark\sipka
     a f g \barFinalis
   }
   \addlyrics {

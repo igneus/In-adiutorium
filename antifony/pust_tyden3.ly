@@ -306,7 +306,7 @@
     d c d e c( a) a \barMin
     c b a g a g g \barMaior
     a a a g f g( a) a \barMin
-    c b a( b) g g \barMin
+    c b a( b) g g
     a f g \barFinalis
   }
   \addlyrics {
