@@ -485,19 +485,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-
+    d4 d d f f e f d c c \barMaior
+    d c d f f g f d d \barMin
+    e c d( f) e d c( d) d \barFinalis
   }
   \addlyrics {
-    Hospodin řekl Eliášovi:
-    Jdi a ukaž se Achabovi,
-    neboť sešlu déšť na zem.
+    Hos -- po -- din ře -- kl E -- li -- á -- šo -- vi:
+    Jdi a u -- kaž se A -- cha -- bo -- vi,
+    ne -- boť se -- šlu déšť na zem.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 112"
     id = "2ne-a2"
     piece = \markup\sestavTitulek
@@ -507,16 +509,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f( g) g( a) a \barMin
+    a c a g f( a) a( g) g \barMaior
+    a g f( e) d( c) \barMin
+    d c e( f) d d \barFinalis
   }
   \addlyrics {
-    Eliáš vystoupil ve vichřici do nebe.
-    Elizeus ho už nespatřil.
+    E -- li -- áš vy -- stou -- pil
+    ve vich -- ři -- ci do ne -- be.
+    E -- li -- ze -- us
+    ho už ne -- spat -- řil.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Zj 15"
     id = "2ne-a3"
     piece = \markup\sestavTitulek

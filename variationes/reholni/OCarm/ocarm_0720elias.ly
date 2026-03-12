@@ -963,10 +963,121 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 d c b( a g) \barMin
+    a f a g g \barMaior
+    f g a b c( a) a a b( c) \mark\sipka a g a g g \barFinalis
+  }
+  \addlyrics {
+    Teď te -- dy vím,
+    že jsi muž Bo -- ží
+    a že Bo -- ží slo -- vo v_tvých ús -- tech je prav -- di -- vé.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c \barMin
+    c d d c c \barMaior
+    c c b c a( g) g f a( c) b g a g g \barFinalis
+  }
+  \addlyrics {
+    Teď te -- dy vím,
+    že jsi muž Bo -- ží
+    a že Bo -- ží slo -- vo v_tvých ús -- tech je prav -- di -- vé.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c \barMin
+    c d d c c \barMaior
+    c c b \mark\sipka a g( a) g f a( c) b g a g g \barFinalis
+  }
+  \addlyrics {
+    Teď te -- dy vím,
+    že jsi muž Bo -- ží
+    a že Bo -- ží slo -- vo v_tvých ús -- tech je prav -- di -- vé.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a c \barMin
+    c d d c c \barMaior
+    \mark\sipka d c d e c( a) a a b( c) a g a g g \barFinalis
+  }
+  \addlyrics {
+    Teď te -- dy vím,
+    že jsi muž Bo -- ží
+    a že Bo -- ží slo -- vo v_tvých ús -- tech je prav -- di -- vé.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a \mark\sipka c( d) \barMin
+    d c d d( c) c \barMaior
+    d c d e c( a) a a b( c) a g a g g \barFinalis
+  }
+  \addlyrics {
+    Teď te -- dy vím,
+    že jsi muž Bo -- ží
+    a že Bo -- ží slo -- vo v_tvých ús -- tech je prav -- di -- vé.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "2ne-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d f f e f d c c \barMaior
     d c d f f g f d d \barMin
@@ -1044,6 +1155,31 @@
     a c a g f( a) a( g) g \barMaior
     a a \mark\sipka g( f) e( d) \barMin
     e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    E -- li -- áš vy -- stou -- pil
+    ve vich -- ři -- ci do ne -- be.
+    E -- li -- ze -- us
+    ho už ne -- spat -- řil.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f( g) g( a) a \barMin
+    a c a g f( a) a( g) g \barMaior
+    a \mark\sipka g f( e) d( c) \barMin
+    d c e( f) d d \barFinalis
   }
   \addlyrics {
     E -- li -- áš vy -- stou -- pil
