@@ -3436,6 +3436,28 @@
     \choralniRezim
     d4 d b d( e) d d \barMin
     c b a( b a) g g \barMaior
+    g a f g( a) a \mark\sipka c b a b g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- vat bliž -- ní -- ho
+    ja -- ko sám se -- be
+    je víc než všech -- ny o -- bě -- ti a da -- ry.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "pa-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d( e) d d \barMin
+    c b a( b a) g g \barMaior
     g a a \mark\sipka f( g a) a \barMin c c c b g g \barFinalis
   }
   \addlyrics {
