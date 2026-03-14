@@ -1231,26 +1231,181 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f g f \mark\sipka g g( a) \barMax
+    g g f g( a) g g \barMin g a g g f d d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a( bes) a a \barMin a a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g f g( a) g g \barMin g a g g f d d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response E -- li -- ze -- us zdvi -- hl plášť E -- li -- á -- šův,_*
+    u -- de -- řil o vo -- du, a ta se roz -- dě -- li -- la na dvě stra -- ny.
+    \Verse Byl ob -- da -- řen du -- chem E -- li -- á -- šo -- vým,_*
+    \Response u -- de -- řil o vo -- du, a ta se roz -- dě -- li -- la na dvě stra -- ny.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
+
 \markup{
   \italic{Ecce ego mittam}
   pmo1950 (129);
   D-Sl Cod.Bibl.fol.062, f. 71v;
   \cantusid-link "205710"
 }
+
+\markup\justify{
+  Přihlížím k pmo1950, ale nedává tu smysl mluvit ani o volné adaptaci.
+  Nanejvýš je možné někde identifikovat stopu převzatého motivu.
+}
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d( a' bes) a a \barMin
+    a g f g g g( a) a \barMaior
+    g( a) g f d d \barMin f f e d c c d e f d d \barMax
+    a'( g a) a( g e) e f g f e d( e) e \barMin
+    e d c d f e( f d) d \barFinalis
   }
   \addlyrics {
-    Hle, pošlu vám proroka Eliáše,
-    dříve než přijde veliký a strašný Hospodinův den.
-    Obrátí srdce otců k synům a srdce synů k otcům.
+    Hle, po -- šlu vám
+    pro -- ro -- ka E -- li -- á -- še,
+    dří -- ve než při -- jde
+    ve -- li -- ký a straš -- ný Hos -- po -- di -- nův den.
+    Ob -- rá -- tí srd -- ce ot -- ců k_sy -- nům
+    a srd -- ce sy -- nů k_ot -- cům.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a' bes) a a \barMin
+    a g f g g g( a) a \barMaior
+    g( a) g f d d \barMin f f e d c c d e f d d \barMax
+    a'( g a) a( g e) e f g f e d( e) e \barMin
+    e \mark\sipka f e d c e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, po -- šlu vám
+    pro -- ro -- ka E -- li -- á -- še,
+    dří -- ve než při -- jde
+    ve -- li -- ký a straš -- ný Hos -- po -- di -- nův den.
+    Ob -- rá -- tí srd -- ce ot -- ců k_sy -- nům
+    a srd -- ce sy -- nů k_ot -- cům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a' bes) a a \barMin
+    a g f g g g( a) a \barMaior
+    g( a) g f d d \barMin f f e d c c d e f d d \barMax
+    a'( g a) \mark\sipka f( e d) d e f d c d( f) f \barMin
+    f g f e c e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, po -- šlu vám
+    pro -- ro -- ka E -- li -- á -- še,
+    dří -- ve než při -- jde
+    ve -- li -- ký a straš -- ný Hos -- po -- di -- nův den.
+    Ob -- rá -- tí srd -- ce ot -- ců k_sy -- nům
+    a srd -- ce sy -- nů k_ot -- cům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( a' bes) a a \barMin
+    a g f g g g( a) a \barMaior
+    g( a) g f d d \barMin f f e d c c d e f d d \barMax
+    a'( g a) f( e d) \mark\sipka d( f) \barMin g g f e d( c) c \barMaior
+    d f f e c e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, po -- šlu vám
+    pro -- ro -- ka E -- li -- á -- še,
+    dří -- ve než při -- jde
+    ve -- li -- ký a straš -- ný Hos -- po -- di -- nův den.
+    Ob -- rá -- tí srd -- ce ot -- ců k_sy -- nům
+    a srd -- ce sy -- nů k_ot -- cům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d( a' bes) a a \barMin
+    a g f g g g( a) a \barMaior
+    g( a) g f d d \barMin f f e d c c d e f d d \barMax
+    \mark\sipka a'( b c a) g( a) a \barMin a g b c a a \barMaior
+    f g f d d e( c f d) d \barFinalis
+  }
+  \addlyrics {
+    Hle, po -- šlu vám
+    pro -- ro -- ka E -- li -- á -- še,
+    dří -- ve než při -- jde
+    ve -- li -- ký a straš -- ný Hos -- po -- di -- nův den.
+    Ob -- rá -- tí srd -- ce ot -- ců k_sy -- nům
+    a srd -- ce sy -- nů k_ot -- cům.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup\sestavTitulekBezZalmu

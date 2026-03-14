@@ -565,17 +565,24 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d( a' bes) a a \barMin
+    a g f g g g( a) a \barMaior
+    g( a) g f d d \barMin f f e d c c d e f d d \barMax
+    a'( b c a) g( a) a \barMin a g b c a a \barMaior
+    f g f d d e( c f d) d \barFinalis
   }
   \addlyrics {
-    Hle, pošlu vám proroka Eliáše,
-    dříve než přijde veliký a strašný Hospodinův den.
-    Obrátí srdce otců k synům a srdce synů k otcům.
+    Hle, po -- šlu vám
+    pro -- ro -- ka E -- li -- á -- še,
+    dří -- ve než při -- jde
+    ve -- li -- ký a straš -- ný Hos -- po -- di -- nův den.
+    Ob -- rá -- tí srd -- ce ot -- ců k_sy -- nům
+    a srd -- ce sy -- nů k_ot -- cům.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup\sestavTitulekBezZalmu
