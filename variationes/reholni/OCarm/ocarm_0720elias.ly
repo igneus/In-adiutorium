@@ -19,7 +19,6 @@
     D-Sl Cod.Bibl.fol.062,
   }
   f. 70r ff
-  (bezprostředně předchází Elizeus)
 }
 
 \markup {\nadpisHodinka {"1. nešpory"}}

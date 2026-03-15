@@ -14,6 +14,14 @@
   composer = "Jakub Pavlík"
 }
 
+\markup{
+  \with-url "http://digital.wlb-stuttgart.de/purl/bsz411095153" {
+    D-Sl Cod.Bibl.fol.062,
+  }
+  f. 67r ff
+  (náš formulář z tohoto nepřebírá ani jeden zpěv)
+}
+
 \markup\communia #'(#:muz)
 
 \markup {\nadpisHodinka {"invitatorium"}}
@@ -42,6 +50,8 @@
   Antifony a žalmy ze společných textů o svatých mužích.
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
@@ -64,6 +74,56 @@
     piece = \markup {\sestavTitulek}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) f f( g) g \barMin
+    a g c b a b \barMaior
+    b c c
+    a g a g f a g g \barFinalis
+  }
+  \addlyrics {
+    Ať Ná -- man při -- jde ke mně,
+    ře -- kl E -- li -- ze -- us,
+    a po -- zná,
+    že je v_Iz -- ra -- e -- li pro -- rok.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g( a) f f( g) g \barMin
+    a g c b a b \barMaior
+    b \mark\sipka c( a g) g \barMin
+    a f g a a a g g \barFinalis
+  }
+  \addlyrics {
+    Ať Ná -- man při -- jde ke mně,
+    ře -- kl E -- li -- ze -- us,
+    a po -- zná,
+    že je v_Iz -- ra -- e -- li pro -- rok.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -101,6 +161,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -133,6 +195,40 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f( g) f f \barMin f g f f g( f) g( a) a( g) \barMax
+    g4 f g a g g \barMin g \mark\sipka g g( f d) f g g g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g4 f g a g g \barMin g \mark\sipka g g( f d) f g g g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response E -- li -- áš vy -- stou -- pil ve vich -- ři -- ci do ne -- be._*
+    A duch E -- li -- á -- šův spo -- či -- nul na E -- li -- ze -- o -- vi.
+    \Verse E -- li -- ze -- us zdvi -- hl plášť E -- li -- á -- šův.
+    \Response A duch E -- li -- á -- šův spo -- či -- nul na E -- li -- ze -- o -- vi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -265,22 +361,26 @@
 \pageBreak
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c b g b c a g a g f \barMaior
+    g a a b c a a b c a a g g \barFinalis
   }
   \addlyrics {
-    Elizeus s prorockými žáky šli, aby si zbudovali místo k přebývání.
+    E -- li -- ze -- us s_pro -- roc -- ký -- mi žá -- ky šli,
+    a -- by si zbu -- do -- va -- li mís -- to k_pře -- bý -- vá -- ní.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 112"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -339,7 +439,9 @@
 
   }
   \addlyrics {
-    Elizeus dnes na Karmelu velebí Hospodina zástupů; ústy svého proroka Hospodin sesazuje mocné z trůnu a povyšuje ponížené. Sláva tobě, Pane, jenž jsi přijal Božího muže do království pokoje.
+    Elizeus dnes na Karmelu velebí Hospodina zástupů;
+    ústy svého proroka Hospodin sesazuje mocné z trůnu a povyšuje ponížené.
+    Sláva tobě, Pane, jenž jsi přijal Božího muže do království pokoje.
   }
   \header {
     quid = "ant. k Magnificat"
