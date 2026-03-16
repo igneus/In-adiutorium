@@ -230,6 +230,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( a f g) g( f) \barMin d c d f f f \barMaior
+    g \mark\sipka g g f g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Slyš -- te, všich -- ni bo -- ha -- boj -- ní,
+    co pro -- ká -- zal Bůh mé du -- ši.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 66-II"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {

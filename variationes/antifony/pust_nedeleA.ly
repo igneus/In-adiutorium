@@ -2232,6 +2232,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMaior
+    f f f g f e f d d \barMin
+    d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ře -- kl:
+    Mu -- sí -- me ko -- nat skut -- ky to -- ho,
+    kte -- rý mě po -- slal.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ivben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
