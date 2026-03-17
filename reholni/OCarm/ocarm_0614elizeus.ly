@@ -250,15 +250,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g( a g) g \barMin
+    a( bes a) g f( g) g \barMaior
+    g( a) g g f e d( c) c \barMin
+    d c d f e c c d d \barFinalis
   }
   \addlyrics {
-    Král řekl: Vyprávěj mi o všech velikých skutcích, které Elizeus učinil.
+    Král ře -- kl:
+    Vy -- prá -- věj mi
+    o všech ve -- li -- kých skut -- cích,
+    kte -- ré E -- li -- ze -- us u -- či -- nil.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Zj 15"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}

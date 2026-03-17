@@ -126,17 +126,21 @@
 \pageBreak
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a a g f g( a g) g \barMaior
+    a c d c e d d \barMin
+    d d d c b c( a) g f g a g g \barFinalis
   }
   \addlyrics {
-    Když hudebník hrál žalmy, byla nad Elizeem Hospodinova ruka a prorokoval.
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -144,17 +148,65 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a a g f g( a g) g \barMaior
+    \mark\sipka f g a g a c c \barMin
+    d e d c b a( g) g f g a g g \barFinalis
   }
   \addlyrics {
-    Za svého života se nechvěl před vládcem a nikdo nad ním neměl moci.
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g f g( a g) g \barMaior
+    f g a g a c c \barMin
+    \mark\sipka d d d c d c( b) a g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d( e) d d \barMin
+    d c b a( b) g g \barMaior
+    g a a g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Za své -- ho ži -- vo -- ta se ne -- chvěl před vlád -- cem a ni -- kdo nad ním ne -- měl mo -- ci.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -358,6 +410,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g a g g \barMaior
+    \mark\sipka f g g a a \barMin
+    a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    E -- li -- ze -- us od -- po -- vě -- děl:
+    Ži -- je Hos -- po -- din,
+    před nímž sto -- jím.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -384,21 +458,30 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
-
+    f4 g( a g) g \barMin
+    a( bes a) g f( g) g \barMaior
+    g( a) g g f e d( c) c \barMin
+    d c d f e c c d d \barFinalis
   }
   \addlyrics {
-    Král řekl: Vyprávěj mi o všech velikých skutcích, které Elizeus učinil.
+    Král ře -- kl:
+    Vy -- prá -- věj mi
+    o všech ve -- li -- kých skut -- cích,
+    kte -- ré E -- li -- ze -- us u -- či -- nil.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Zj 15"
     id = "ne-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \score {
   \relative c' {
