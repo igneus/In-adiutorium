@@ -114,7 +114,7 @@ class ReleaseCLI < Thor
       Repository
         .from_dir(sources_dir(srcdir))
         .ly_to_compile
-    ).each {|f| do_command build_command(f, options[:prod]) }
+    ).each {|f| do_command build_command f }
   end
 
   desc 'upload WEB_SOURCES', 'upload pdfs to the server'
@@ -126,10 +126,10 @@ class ReleaseCLI < Thor
 
   private
 
-  def build_command(ly_path, prod)
+  def build_command(ly_path)
     'lilypond ' +
       '--silent ' +
-      (prod ? '-dno-point-and-click ' : '') +
+      (options[:prod] ? '-dno-point-and-click ' : '') +
       '-o ' + ly_path.sub(/\.ly$/, '') + ' ' + # to have output in the same directory as the source
       ly_path
   end
