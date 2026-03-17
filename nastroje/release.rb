@@ -89,6 +89,9 @@ class Repository
     when /^(\w+)_\d{4}/
       File.join religious_propers_dir(Regexp.last_match[1]), basename
     else
+      path = File.join 'paraliturgicke', basename
+      return path if File.exist? path
+
       basename
     end
   end
