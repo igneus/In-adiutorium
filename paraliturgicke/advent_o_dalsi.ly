@@ -46,7 +46,7 @@
     už ne -- pro -- dlé -- vej!
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
@@ -80,7 +80,7 @@
     od -- kud vi -- nou pad -- li.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
@@ -111,7 +111,7 @@
     a ve stí -- nu smr -- ti.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
@@ -148,7 +148,7 @@
     ten, jenž i hvěz -- dám vlád -- ne.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
@@ -183,7 +183,7 @@
   }
   \header {
     fons_externus = "srov. AR1912 [115]"
-    quid = "ant. k Magnificat"
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
@@ -220,7 +220,7 @@
     bu -- de zván E -- ma -- nu -- el.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
@@ -253,7 +253,7 @@
     ne -- boť už při -- chá -- zí vy -- pros -- tit tě z_o -- ko -- vů.
   }
   \header {
-    quid = "ant. k Magnificat"
+    quid = "ant."
     modus = "II"
     differentia = "D"
     psalmus = ""
