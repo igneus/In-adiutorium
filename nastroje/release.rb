@@ -105,6 +105,7 @@ end
 
 class ReleaseCLI < Thor
   class_option :dry_run, type: :boolean, aliases: :d, desc: 'print commands, do not execute them'
+  class_option :output_dir, type: :string, aliases: :o, desc: 'build to and upload from a directory other than cwd'
 
   desc 'build WEB_SOURCES', 'build pdfs for the latest release'
   option :prod, type: :boolean, aliases: :p, default: true, desc: 'build production pdf (without point-and-click)'
@@ -126,16 +127,33 @@ class ReleaseCLI < Thor
 
   private
 
+  def output_dir
+    options[:output_dir]
+  end
+
   def build_command(ly_path)
     'lilypond ' +
       '--silent ' +
       (options[:prod] ? '-dno-point-and-click ' : '') +
-      '-o ' + ly_path.sub(/\.ly$/, '') + ' ' + # to have output in the same directory as the source
+      '-o ' + output_path(ly_path) + ' ' + # to have output in the same directory as the source
       ly_path
   end
 
+  def output_path(ly_path)
+    f = ly_path.sub(/\.ly$/, '')
+    if output_dir
+      File.join output_dir, File.basename(f)
+    else
+      f
+    end
+  end
+
   def upload_command(pdf_paths)
-    'rsync ' + pdf_paths.join(' ') + ' ' + (UPLOAD_DESTINATION || raise('please define UPLOAD_DESTINATION'))
+    'rsync ' +
+      pdf_paths
+        .collect { |f| output_dir ? File.join(output_dir, File.basename(f)) : f }
+        .join(' ') +
+      ' ' + (UPLOAD_DESTINATION || raise('please define UPLOAD_DESTINATION'))
   end
 
   def do_command(command)
