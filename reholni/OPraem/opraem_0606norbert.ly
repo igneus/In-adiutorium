@@ -472,15 +472,20 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4( g a) g \barMin
+    g a g f g f f \barFinalis
 
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
   }
   \addlyrics {
-    Mnozí jsme jedno tělo v Kristu.
+    Mno -- zí jsme jed -- no tě -- lo v_Kris -- tu.
+
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}

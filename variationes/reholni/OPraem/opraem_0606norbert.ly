@@ -868,6 +868,30 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4( g a) g \barMin
+    g \mark\sipka a g f g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Mno -- zí jsme jed -- no tě -- lo v_Kris -- tu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     a4 g--
@@ -979,6 +1003,33 @@
     quid = "ant. v poledne"
     modus = "V"
     differentia = "a"
+    psalmus = ""
+    fial = "commune/commune_svatymuz.ly#2ne-amag1?zacatek=5"
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f a( c) c d c c b( c) a( g) g \barMaior
+    f( g a) g \barMaior
+    a c b c a g \mark\sipka f a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku věr -- ný a roz -- váž -- ný,
+    ve -- jdi
+    k_ra -- dost -- né hos -- ti -- ně své -- ho Pá -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     fial = "commune/commune_svatymuz.ly#2ne-amag1?zacatek=5"
     id = "sexta"
