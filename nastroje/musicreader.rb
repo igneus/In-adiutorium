@@ -151,10 +151,10 @@ class LilyPondMusic
   attr_reader :preamble
 
   def [](i)
-    if i.is_a? Fixnum then
-      return @scores[i]
-    elsif i.is_a? String then
+    if i.is_a? String then
       return @id_index[i]
+    else
+      @scores[i]
     end
   end
 
