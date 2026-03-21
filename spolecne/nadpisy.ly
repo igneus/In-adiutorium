@@ -188,11 +188,6 @@
    preklada na kompletni zpev, v hlavicce se ma zmenit hodnota uvedeneho klice."
    (interpret-markup layout props empty-markup))
 
-% test function for \if detecting development build
-% (i.e. build with the point-and-click feature enabled)
-#(define (is-development-build layout props)
-  (ly:get-option 'point-and-click))
-
 % returns a function testing property availability,
 % suitable as argument for \if or \unless
 #(define* ((property-exists-checker name) layout props)

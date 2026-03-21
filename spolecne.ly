@@ -7,6 +7,11 @@
 % rozprskany do kousku v adresari 'spolecne'.)
 #(ly:set-option 'relative-includes #t)
 
+% test function for \if detecting development build
+% (i.e. build with the point-and-click feature enabled)
+#(define (is-development-build layout props)
+  (ly:get-option 'point-and-click))
+
 \include "spolecne/layout.ly"
 \include "spolecne/tiraz.ly"
 
