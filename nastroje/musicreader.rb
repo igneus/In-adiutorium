@@ -138,8 +138,10 @@ class LilyPondMusic
       load_from src
     elsif src.is_a? String and src.include? '\score' then
       load_from StringIO.new src
-    elsif src.is_a? String and File.exist? src
-      load_from File.open(src, "r"), src
+    elsif src.is_a? String and File.exist? src then
+      File.open(src, "r") do |fr|
+        load_from fr, src
+      end
     else
       raise ArgumentError.new("Unable to load LilyPond music from #{src.inspect}.")
     end
