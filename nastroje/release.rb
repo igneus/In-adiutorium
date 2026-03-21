@@ -29,9 +29,14 @@ class Repository
   end
 
   def initialize(knihovna_xml, novinky_txt)
+    @knihovna_path = knihovna_xml
+    @novinky_path = novinky_txt
+
     @xml = Nokogiri::XML File.read knihovna_xml
     @release = Nokogiri::HTML.fragment latest_release File.read(novinky_txt)
   end
+
+  attr_reader :knihovna_path, :novinky_path
 
   # ids of materials changed in the current release
   def ids
@@ -121,8 +126,13 @@ class ReleaseCLI < Thor
   desc 'upload WEB_SOURCES', 'upload pdfs to the server'
   option :must_exist, type: :boolean, aliases: :e, default: true, desc: 'stop if some of the files does not exist'
   def upload(srcdir=nil)
+    repo = Repository.from_dir(sources_dir(srcdir))
+
     # TODO list TeX and external files which must be handled manually
-    do_command upload_command exist(Repository.from_dir(sources_dir(srcdir)).pdf_to_upload, exception: options[:must_exist])
+    do_command upload_command(exist(repo.pdf_to_upload, exception: options[:must_exist]), 'public/materialy')
+
+    do_command upload_command [repo.novinky_path]
+    do_command upload_command [repo.knihovna_path], 'public'
   end
 
   private
@@ -148,12 +158,13 @@ class ReleaseCLI < Thor
     end
   end
 
-  def upload_command(pdf_paths)
+  def upload_command(pdf_paths, dest_dir = '')
     'rsync ' +
       pdf_paths
         .collect { |f| output_dir ? File.join(output_dir, File.basename(f)) : f }
         .join(' ') +
-      ' ' + (UPLOAD_DESTINATION || raise('please define UPLOAD_DESTINATION'))
+      ' ' + (UPLOAD_DESTINATION || raise('please define UPLOAD_DESTINATION')) +
+      '/' + dest_dir
   end
 
   def do_command(command)
