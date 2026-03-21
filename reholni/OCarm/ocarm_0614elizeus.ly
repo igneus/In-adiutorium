@@ -151,8 +151,11 @@
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
-\markup{
-  TODO Podrobně zkontrolovat rozdíly oproti commune
+\markup\justify\italic{
+  Antifony ze společných textů o svatých mužích,
+  kromě následující.
+  \chant-ref "tercie" "commune/commune_svatymuz.ly#tercie" {}
+  \chant-ref "sexta" "commune/commune_svatymuz.ly#sexta" {}
 }
 
 \score {
@@ -161,43 +164,7 @@
 
   }
   \addlyrics {
-
-  }
-  \header {
-    quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
-    psalmus = ""
-    id = "tercie"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-
-  }
-  \addlyrics {
-
-  }
-  \header {
-    quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
-    psalmus = ""
-    id = "sexta"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-
-  }
-  \addlyrics {
-
+    Ani oko nevidělo co všechno Bůh připravil těm, kdo ho milují.
   }
   \header {
     quid = "ant. odpoledne"
