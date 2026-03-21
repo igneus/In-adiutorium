@@ -75,26 +75,31 @@
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f f( g) f \barMin f f f g f f g( a) a( g) \barMax
+    g4 g f d f g g( f) f \barFinalis
 
     % V
     \neviditelna a
+    a4 a a a( bes) a a a a g( a) g \barMin g g g g g f g g( a) a( g) \barMax
 
     % R
     \neviditelna a
+    g4 g f d f g g( f) f \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Bůh, který řekl: Ze tmy ať zazáří světlo,_*
-    zazářil i v našich srdcích.
-    \Verse Abychom poznali Boží slávu, která září z tváře Kristovy._*
-    \Response Zazářil i v našich srdcích.
+    \Response Bůh, kte -- rý ře -- kl: Ze tmy ať za -- zá -- ří svět -- lo,_*
+    za -- zá -- řil i v_na -- šich srd -- cích.
+    \Verse A -- by -- chom po -- zna -- li Bo -- ží slá -- vu, kte -- rá zá -- ří z_tvá -- ře Kris -- to -- vy._*
+    \Response Za -- zá -- řil i v_na -- šich srd -- cích.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }

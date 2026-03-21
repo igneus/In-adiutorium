@@ -144,29 +144,35 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f f( g) f \barMin f f f g f f g( a) a( g) \barMax
+    g4 g f d f g g( f) f \barFinalis
 
     % V
     \neviditelna a
+    a4 a a a( bes) a a a a g( a) g \barMin g g g g g f g g( a) a( g) \barMax
 
     % R
     \neviditelna a
+    g4 g f d f g g( f) f \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Bůh, který řekl: Ze tmy ať zazáří světlo,_*
-    zazářil i v našich srdcích.
-    \Verse Abychom poznali Boží slávu, která září z tváře Kristovy._*
-    \Response Zazářil i v našich srdcích.
+    \Response Bůh, kte -- rý ře -- kl: Ze tmy ať za -- zá -- ří svět -- lo,_*
+    za -- zá -- řil i v_na -- šich srd -- cích.
+    \Verse A -- by -- chom po -- zna -- li Bo -- ží slá -- vu, kte -- rá zá -- ří z_tvá -- ře Kris -- to -- vy._*
+    \Response Za -- zá -- řil i v_na -- šich srd -- cích.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "1ne-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -259,6 +265,50 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d( f) e d( e) d d \barMaior
+    d c a c( d) d d \barMin
+    d f e d c( d) c c d( f) e c d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dal jsem moud -- rost v_mod -- lit -- bě
+    a je -- jím po -- zná -- ním
+    jsem pro se -- be na -- le -- zl vel -- ké bo -- hat -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d( f) e d( e) d d \barMaior
+    d c \mark\sipka d d( f) f f \barMin
+    f g f e d( e) d d d( e) c c d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dal jsem moud -- rost v_mod -- lit -- bě
+    a je -- jím po -- zná -- ním
+    jsem pro se -- be na -- le -- zl vel -- ké bo -- hat -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
