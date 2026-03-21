@@ -1,7 +1,7 @@
 \version "2.19.80"
 
 
-dnesniDatum = #(strftime "%d.%m.%Y" (localtime (current-time)))
+dnesniDatum = #(strftime "%-d. %-m. %Y" (localtime (current-time)))
 rok = #(strftime "%Y" (localtime (current-time)))
 
 projectUrl = #"http://www.inadiutorium.cz"
