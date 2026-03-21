@@ -191,6 +191,50 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f d c f( g a) a \barMaior
+    a a c a g a g \barMin
+    a a a g f e( f) d c f e d d \barFinalis
+  }
+  \addlyrics {
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f d c f( g a) a \barMaior
+    a a c a g a \mark\sipka a \barMin
+    a a a g f e( f) d c f e d d \barFinalis
+  }
+  \addlyrics {
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -199,6 +243,26 @@
     d4 d b d( e) d d \barMin
     d c b a( b) g g \barMaior
     g a a g f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Za své -- ho ži -- vo -- ta se ne -- chvěl před vlád -- cem a ni -- kdo nad ním ne -- měl mo -- ci.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d( e) d d \barMin
+    d c b a( b) g g \barMaior
+    g \mark\sipka f g a b c a g g \barFinalis
   }
   \addlyrics {
     Za své -- ho ži -- vo -- ta se ne -- chvěl před vlád -- cem a ni -- kdo nad ním ne -- měl mo -- ci.
@@ -285,25 +349,42 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f d d c f( g a) a \barMin
+    a( c) a a g( f) f( g) g \barMaior
+    a a g f d d e f d c d c c \barMaior
+    f g g( a) a \barMin
+    a a b c a g g( a) a \barMaior
+    g a a a a g f g g f e f d c c \barMin
+    d( f) e c( d) d \barFinalis
   }
   \addlyrics {
-    Požehnaný Král nebes, Hospodin proroků, jenž ústy svých svatých dává zákon věřícím, ukazuje cestu pokoje a spásy a na Elizeovu přímluvu nám připravuje místo v nebi.
+    Po -- žeh -- na -- ný Král ne -- bes,
+    Hos -- po -- din pro -- ro -- ků,
+    jenž ús -- ty svých sva -- tých dá -- vá zá -- kon vě -- ří -- cím,
+    u -- ka -- zu -- je
+    ces -- tu po -- ko -- je a spá -- sy
+    a na E -- li -- ze -- o -- vu pří -- mlu -- vu nám při -- pra -- vu -- je
+    mís -- to v_ne -- bi.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
-\markup{
-  TODO Podrobně zkontrolovat rozdíly oproti commune
+\markup\justify\italic{
+  Antifony ze společných textů o svatých mužích,
+  kromě následující.
+  \chant-ref "tercie" "commune/commune_svatymuz.ly#tercie" {}
+  \chant-ref "sexta" "commune/commune_svatymuz.ly#sexta" {}
 }
 
 \score {
@@ -312,43 +393,7 @@
 
   }
   \addlyrics {
-
-  }
-  \header {
-    quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
-    psalmus = ""
-    id = "tercie"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-
-  }
-  \addlyrics {
-
-  }
-  \header {
-    quid = "ant. v poledne"
-    modus = ""
-    differentia = ""
-    psalmus = ""
-    id = "sexta"
-    piece = \markup {\sestavTitulekBezZalmu}
-  }
-}
-
-\score {
-  \relative c' {
-    \choralniRezim
-
-  }
-  \addlyrics {
-
+    Ani oko nevidělo co všechno Bůh připravil těm, kdo ho milují.
   }
   \header {
     quid = "ant. odpoledne"
