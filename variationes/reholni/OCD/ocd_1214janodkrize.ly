@@ -474,35 +474,80 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f g f f g g( a) a( g) \barMax
+    f4 g a g( f) g g f f \barFinalis
 
     % V
     \neviditelna a
+    a4 a a g( a) g g \barMin g f g g( a) a( g) \barFinalis
 
     % R
     \neviditelna a
+    f4 g a g( f) g g f f \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Tvé světlo zazáří v temnotách,_*
-    noc jako den se rozjasní.
-    \Verse Hospodin naplní tvou duši světlem,_*
-    \Response noc jako den se rozjasní.
+    \Response Tvé svět -- lo za -- zá -- ří v_tem -- no -- tách,_*
+    noc ja -- ko den se roz -- jas -- ní.
+    \Verse Hos -- po -- din na -- pl -- ní tvou du -- ši svět -- lem,_*
+    \Response noc ja -- ko den se roz -- jas -- ní.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f g f f g g( a) a( g) \barMax
+    \mark\sipka g4 a g f d f( g) g( f) f \barFinalis
+
+    % V
+    \neviditelna a
+    a4 a a g( a) g g \barMin g f g g( a) a( g) \barFinalis
+
+    % R
+    \neviditelna a
+    \mark\sipka g4 a g f d f( g) g( f) f \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Tvé svět -- lo za -- zá -- ří v_tem -- no -- tách,_*
+    noc ja -- ko den se roz -- jas -- ní.
+    \Verse Hos -- po -- din na -- pl -- ní tvou du -- ši svět -- lem,_*
+    \Response noc ja -- ko den se roz -- jas -- ní.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -560,23 +605,45 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 f e d e d c \barMin d c e f d d \barFinalis
   }
   \addlyrics {
-    V mlčení a naději bude vaše síla.
+    V_ml -- če -- ní a na -- dě -- ji bu -- de va -- še sí -- la.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a g a g \barMin f g bes g bes a \barFinalis
+  }
+  \addlyrics {
+    V_ml -- če -- ní a na -- dě -- ji bu -- de va -- še sí -- la.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "g3"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
@@ -639,21 +706,26 @@
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    g4 g g g f g( a) g \barMin f d f g g( f) f \barFinalis
 
     % V
     \neviditelna a
+    a4 a a a a g( a) g g \barMin a g f g g( a) a( g) \barMax
 
     % R
     \neviditelna a
+    g4 g g g f g( a) g \barMin f d f g g( f) f \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Silná jako smrt je láska,_*
-    žár její je žár ohně, plamen Hospodinův.
-    \Verse Kdo by nás mohl odloučit od lásky Kristovy?_*
-    \Response Žár její je žár ohně, plamen Hospodinův.
+    \Response Sil -- ná ja -- ko smrt je lás -- ka,_*
+    žár je -- jí je žár oh -- ně, pla -- men Hos -- po -- di -- nův.
+    \Verse Kdo by nás mo -- hl od -- lou -- čit od lás -- ky Kris -- to -- vy?_*
+    \Response žár je -- jí je žár oh -- ně, pla -- men Hos -- po -- di -- nův.
     \textRespDoxologie
   }
   \header {
@@ -664,20 +736,57 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d f e f d c d( c) \barMaior
+    f g a g f g f e d d c \barMaior
+    f f g a g f d c d c c \barMin
+    d f g \barMaior
+    g a g f g f f \barFinalis
   }
   \addlyrics {
-    Otče, chci, aby tam, kde jsem já, byli se mnou i ti, které jsi mi dal;
-    aby láska, kterou jsi mě miloval, byla v nich a abych byl i já v nich.
+    Ot -- če, chci, a -- by tam, kde jsem já,
+    by -- li se mnou i ti, kte -- ré jsi mi dal;
+    a -- by lás -- ka, kte -- rou jsi mě mi -- lo -- val,
+    by -- la v_nich
+    a a -- bych byl i já v_nich.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
+    fial = "antifony/velikonoce_nedeleC.ly#viimag2?zacatek=30"
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e f d c d( c) \barMaior
+    f g a g f g f e d d c \barMaior
+    f f g a g f d c d c c \barMin
+    d f g \barMaior
+    \mark\sipka f g g f g g( a f4.) f4 \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, chci, a -- by tam, kde jsem já,
+    by -- li se mnou i ti, kte -- ré jsi mi dal;
+    a -- by lás -- ka, kte -- rou jsi mě mi -- lo -- val,
+    by -- la v_nich
+    a a -- bych byl i já v_nich.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "antifony/velikonoce_nedeleC.ly#viimag2?zacatek=30"
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

@@ -285,26 +285,31 @@
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f g f f g g( a) a( g) \barMax
+    g4 a g f d f( g) g( f) f \barFinalis
 
     % V
     \neviditelna a
+    a4 a a g( a) g g \barMin g f g g( a) a( g) \barFinalis
 
     % R
     \neviditelna a
+    g4 a g f d f( g) g( f) f \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Tvé světlo zazáří v temnotách,_*
-    noc jako den se rozjasní.
-    \Verse Hospodin naplní tvou duši světlem,_*
-    \Response noc jako den se rozjasní.
+    \Response Tvé svět -- lo za -- zá -- ří v_tem -- no -- tách,_*
+    noc ja -- ko den se roz -- jas -- ní.
+    \Verse Hos -- po -- din na -- pl -- ní tvou du -- ši svět -- lem,_*
+    \Response noc ja -- ko den se roz -- jas -- ní.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
