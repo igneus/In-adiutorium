@@ -478,8 +478,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      f4 f f g a g f d f f e d \barMaior
-      d d c d f g g \barMin
+      f4 f f g a g f d f f e d \barMin
+      d d c d f g g \barMaior
       a g f a a f e d( e) d d \barFinalis
     }
     \addlyrics {
@@ -1054,8 +1054,8 @@
   \score {
     \relative c' {
       \choralniRezim
-      d4 d f e f d( c) c \barMaior
-      d d c d f g g \barMin
+      d4 d f e f d( c) c \barMin
+      d d c d f g g \barMaior
       a g f a a f e d( e) d d \barFinalis
     }
     \addlyrics {
@@ -1070,7 +1070,7 @@
       psalmus = "Žalm 149"
       id = "svrodiny-rch-a3"
       piece = \markup {\sestavTitulek}
-      fial = "fial://vanoce_narozenipane.ly#vden-atercie?konec=19"
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?cast=2-3"
     }
   }
 

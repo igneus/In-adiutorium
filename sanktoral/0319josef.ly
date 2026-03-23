@@ -78,8 +78,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f f g( a) g f g f \barMin
-    f f g f g a f e d \barMaior
+    f4 f f f g( a) f f g g \barMin
+    f g a g f g f d d \barMaior
     c d d( f) f \barMin f f f g a f f( g) g \barMaior
     f g f e d \barMin g f( e) d( c) c \barMin
     d( f g a) g f( g) f f \barFinalis
@@ -382,8 +382,8 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f g a g f d f f e d \barMaior
-    d d c d f g g \barMin
+    f4 f f g a g f d f f e d \barMin
+    d d c d f g g \barMaior
     a g f a a f e d( e) d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis

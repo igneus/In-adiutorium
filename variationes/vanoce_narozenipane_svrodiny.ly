@@ -3138,7 +3138,7 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       d4 d f e f d( c) c \barMaior
       d d c d f g g \barMin
@@ -3157,6 +3157,58 @@
       id = "svrodiny-rch-a3"
       piece = \markup {\sestavTitulek}
       fial = "fial://vanoce_narozenipane.ly#vden-atercie?jiny_text"
+    }
+  }
+
+  \markup\aktualisace
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      d4 d f e f d( c) c \barMin
+      d d c d f g g \barMaior
+      a g f a a f e d( e) d d \barFinalis
+    }
+    \addlyrics {
+      Je -- ho o -- tec i mat -- ka
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "D"
+      psalmus = "Žalm 149"
+      id = "svrodiny-rch-a3"
+      piece = \markup {\sestavTitulek}
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?cast=2-3"
+    }
+  }
+
+  \markup{
+    (Napojení první části podobnější zdroji)
+  }
+  \score {
+    \relative c' {
+      \choralniRezim
+      \mark\sipka f4 f g f g f( e) d \barMin
+      d d c d f g g \barMaior
+      a g f a a f e d( e) d d \barFinalis
+    }
+    \addlyrics {
+      Je -- ho o -- tec i mat -- ka
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "I"
+      differentia = "f"
+      psalmus = "Žalm 149"
+      id = "svrodiny-rch-a3"
+      piece = \markup {\sestavTitulek}
+      fial = "fial://vanoce_narozenipane.ly#vden-atercie?cast=2-3"
     }
   }
 

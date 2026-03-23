@@ -3618,10 +3618,33 @@
 
   \score {
     \relative c' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       f4 f f g a g f d f f e d \barMaior
       d d c d f g \mark\sipka g \barMin
+      a g f a a f e d( e) d d \barFinalis
+    }
+    \addlyrics {
+      Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+      by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+      kte -- rá o něm sly -- še -- li.
+    }
+    \header {
+      quid = "ant. dopoledne"
+      modus = "I"
+      differentia = "f"
+      psalmus = "dopoledne"
+      id = "vden-atercie"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \zvyraznovacModry
+      \choralniRezim
+      f4 f f g a g f d f f e d \mark\sipka \barMin
+      d d c d f g g \barMaior
       a g f a a f e d( e) d d \barFinalis
     }
     \addlyrics {

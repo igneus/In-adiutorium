@@ -377,7 +377,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f f g( a) g f g f \barMin
     f f g f g a f e d \barMaior
@@ -390,6 +390,67 @@
   \addlyrics {
     Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
     by -- la za -- snou -- ne -- na s_Jo -- se -- fem.
+    A -- le dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se,
+    že po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g( a) \mark\sipka f f g g \barMin
+    g g a g f g f e d \barMaior
+    c d d( f) f \barMin f f f g a f f( g) g \barMaior
+    f g f e d \barMin g f( e) d( c) c \barMin
+    d( f g a) g f( g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+    by -- la za -- snou -- be -- na s_Jo -- se -- fem.
+    A -- le dří -- ve než spo -- lu za -- ča -- li byd -- let,
+    u -- ká -- za -- lo se,
+    že po -- ča -- la z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f f g( a) f f g g \barMin
+    \mark\sipka f g a g f g f \mark\sipka d d \barMaior
+    c d d( f) f \barMin f f f g a f f( g) g \barMaior
+    f g f e d \barMin g f( e) d( c) c \barMin
+    d( f g a) g f( g) f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+    by -- la za -- snou -- be -- na s_Jo -- se -- fem.
     A -- le dří -- ve než spo -- lu za -- ča -- li byd -- let,
     u -- ká -- za -- lo se,
     že po -- ča -- la z_Du -- cha sva -- té -- ho.
@@ -1985,10 +2046,41 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f g a g f d f f e d \barMaior
     d d c d f g g \barMin
+    a g f a a f e d( e) d d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Jo -- sef a Je -- ží -- šo -- va mat -- ka Ma -- ri -- a
+    by -- li pl -- ni ú -- di -- vu nad slo -- vy,
+    kte -- rá o něm sly -- še -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Dan 3-III"
+    fial = "fial://vanoce_narozenipane.ly#vden-atercie?+aleluja"
+    fons = "Narození Páně, uprostřed dne, ant. dopoledne + aleluja"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f g a g f d f f e d \barMin
+    d d c d f g g \barMaior
     a g f a a f e d( e) d d \barFinalis
 
     \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
@@ -3195,6 +3287,32 @@
     \choralniRezim
     \mark\sipka f4 f g a f f( g) g \barMin
     a a g f d d e f d d( c) c \barMin
+    d c d d f f f g f e f d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Když se vra -- ce -- li do -- mů,
+    zů -- stal chla -- pec Je -- žíš v_Je -- ru -- za -- lé -- mě,
+    a je -- ho ro -- di -- če to ne -- zpo -- zo -- ro -- va -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a f f( g) g \barMin
+    a a g f d d \mark\sipka f e d c c \barMin
     d c d d f f f g f e f d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
