@@ -231,7 +231,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    fial = "commune/commune_jedenmucednik.ly#1ne-a2?cast=1-4"
+    fial = "commune/commune_jedenmucednik.ly#1ne-a2?cast"
     id = "po-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
