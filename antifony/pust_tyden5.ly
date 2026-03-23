@@ -33,7 +33,7 @@
   \relative c'' {
     \choralniRezim
     a4 a g a g f g( a) g g \barMaior
-    f g g( a) a \barMin a g a bes a g( a) a \barMaior
+    f g a a \barMin a g a bes a g( a) a \barMaior
     a g f g a g g( f d) d \barMin
     d( e) c c( d) d \barFinalis
   }
@@ -147,9 +147,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d c f( g) g( a) a \barMin g( f) g( a) g g \barMaior
-    a a g f e( f) d( c) c \barMin
-    d( f e) c d d \barFinalis
+    d4 d c f( g) g( a) a a g( f) e e \barMaior
+    e f g g f e d
+    c e( f) d d \barFinalis
   }
   \addlyrics {
     Ja -- ko byl vy -- vý -- šen had na pouš -- ti,
@@ -161,7 +161,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 110"
-    placet = "2 moc se mi nezdají melismata na _had_ a _Syn_ a identický rytmus dvojího _vyvýšen_"
     id = "ne-ne2-a1"
     piece = \markup {\sestavTitulek}
   }
