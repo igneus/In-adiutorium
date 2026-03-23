@@ -1328,7 +1328,9 @@
 
   \markup{
     ant. k Magnificat - rok \bold{B} :
-    viz ranní chvály, ant. \italic{Dítě rostlo a sílilo.}
+    \italic{viz ant.}
+    \chant-ref "svrodiny-2ne-amagB" "vanoce_narozenipane.ly#svrodiny-rch-a2" {Dítě rostlo a sílilo}
+    \italic{z ranních chval.}
   }
 
   \score {
@@ -1920,7 +1922,9 @@
   }
 
   \markup\italic{
-    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
+    Responsorium
+    \upright\chant-ref "bohorodicka-2ne-resp" "vanoce_narozenipane.ly#narozeni-2ne-resp" {Slovo se stalo tělem}
+    ze slavnosti Narození Páně,
     s. \page-ref #'respSlovoSeStalo "0" "?" .
   }
 
@@ -2178,7 +2182,9 @@
   }
 
   \markup\italic{
-    Responsorium \upright{Hospodin uvedl ve známost svou spásu} ze slavnosti Narození Páně,
+    Responsorium
+    \upright\chant-ref "bohorodicka-rch-resp" "vanoce_narozenipane.ly#narozeni-rch-resp" {Hospodin uvedl ve známost svou spásu}
+    ze slavnosti Narození Páně,
     s. \page-ref #'respHospodinUvedl "0" "?" .
   }
 
@@ -2214,7 +2220,16 @@
     Antifony k žalmům jako v 1. nešporách,
     s. \page-ref #'slavMatkyBoziNesporyI "00" "?" ,
     s nimi žalmy 122, 127 a kantikum Ef 1.
-    Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně,
+    \chant-ref "bohorodicka-2ne-a1" "vanoce_narozenipane.ly#narozeni-1ne-a1" {}
+    \chant-ref-header "bohorodicka-2ne-a1" "psalmus" "Žalm 122"
+    \chant-ref "bohorodicka-2ne-a2" "vanoce_narozenipane.ly#narozeni-1ne-a2" {}
+    \chant-ref-header "bohorodicka-2ne-a2" "psalmus" "Žalm 127"
+    \chant-ref "bohorodicka-2ne-a3" "vanoce_narozenipane.ly#narozeni-1ne-a3" {}
+    \chant-ref-header "bohorodicka-2ne-a3" "psalmus" "Ef 1"
+
+    Responsorium
+    \upright\chant-ref "bohorodicka-2ne-resp" "vanoce_narozenipane.ly#narozeni-2ne-resp" {Slovo se stalo tělem}
+    ze slavnosti Narození Páně,
     s. \page-ref #'respSlovoSeStalo "0" "?" .
   }
 
