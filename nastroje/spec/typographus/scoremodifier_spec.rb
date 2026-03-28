@@ -7,6 +7,8 @@ RSpec::Matchers.define :eq_regardlessof_whitespace do |expected|
   match do |actual|
     actual.gsub(/\s+/, '') == expected.gsub(/\s+/, '')
   end
+
+  diffable
 end
 
 describe Typographus::ScoreModifier do
@@ -255,6 +257,67 @@ describe Typographus::ScoreModifier do
   }
 }'
       expect(subject.remove_optional_alleluia(ly))
+        .to eq_regardlessof_whitespace '\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b c a) a \barMin c d e c d d \barMaior
+    c( d) c b( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- ny za -- svě -- ce -- né Pá -- nu,
+    chval -- te Pá -- na na -- vě -- ky.
+  }
+}'
+    end
+  end
+
+  describe '#remove_alleluia' do
+    it 'removes alleluia that is not optional' do
+      ly = '\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b c a) a \barMin c d e c d d \barMaior
+    c( d) c b( g) a a g g \barFinalis
+
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- ny za -- svě -- ce -- né Pá -- nu,
+    chval -- te Pá -- na na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+}'
+      expect(subject.remove_alleluia(ly)).to eq_regardlessof_whitespace '\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b c a) a \barMin c d e c d d \barMaior
+    c( d) c b( g) a a g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- ny za -- svě -- ce -- né Pá -- nu,
+    chval -- te Pá -- na na -- vě -- ky.
+  }
+}'
+    end
+
+    it 'removes optional alleluia' do
+      ly = '\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b c a) a \barMin c d e c d d \barMaior
+    c( d) c b( g) a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pan -- ny za -- svě -- ce -- né Pá -- nu,
+    chval -- te Pá -- na na -- vě -- ky.
+
+    A -- le -- lu -- ja.
+  }
+}'
+      expect(subject.remove_alleluia(ly))
         .to eq_regardlessof_whitespace '\score {
   \relative c'' {
     \choralniRezim

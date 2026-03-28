@@ -7,6 +7,7 @@ require_relative 'development_files_finder'
 require_relative 'indenter'
 require_relative '../../fial'
 require_relative '../checkcopies/child_parent_comparison'
+require_relative '../typographus/scoremodifier'
 
 # knows how to find new official versions of chants in
 # development files and introduce them in production files
@@ -107,8 +108,16 @@ class Updater
     main_music.scores.each do |production_score|
       next unless simple_copy? production_score
 
-      parent = @music_repository.score_by_fial production_score.header['fial']
+      fial_str = production_score.header['fial']
+      parent = @music_repository.score_by_fial fial_str
       next if ChildParentComparison.new(production_score, parent).match?
+
+      fial = FIAL.parse fial_str
+      if fial.additional.keys == ['-aleluja']
+        parent = Lyv::LilyPondScore.new(
+          Typographus::ScoreModifier.remove_alleluia(parent.text)
+        )
+      end
 
       updated = update_copy production_score, parent
       changes +=
@@ -184,11 +193,24 @@ class Updater
   end
 
   def simple_copy?(score)
-    str = score.header['fial']
-    str && FIAL.parse(str).simple_copy?
+    fial_str = score.header['fial']
+    return false if fial_str.nil?
+
+    fial = FIAL.parse(fial_str)
+    source = @music_repository.score_by_fial fial_str
+
+    fial.simple_copy? ||
+      (fial.additional.keys == ['-aleluja'] &&
+       normalized_lyrics(source.lyrics_readable) == normalized_lyrics(score.lyrics_readable + ' Aleluja.'))
   end
 
   def grave(str)
     ColorizedString.new(str).colorize(color: :magenta, mode: :bold)
+  end
+
+  def normalized_lyrics(str)
+    str
+      .downcase
+      .gsub(/[[:punct:]]/, '')
   end
 end

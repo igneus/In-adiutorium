@@ -7,7 +7,7 @@ module Typographus
     extend self
 
     ALLELUIA_MUSIC_RE = /\^(\\markup){,1}\\rubrVelikAleluja/
-    ALLELUIA_LYRICS_RE = /(a\s+--\s+le\s+--\s+lu\s+--\s+ja[\.!])[^\}]*\}/i
+    ALLELUIA_LYRICS_RE = /[\n\s]*a\s+--\s+le\s+--\s+lu\s+--\s+ja[\.\!]/i
 
     def remove_optional_alleluia(ly)
       unless ly =~ ALLELUIA_MUSIC_RE
@@ -26,13 +26,30 @@ module Typographus
       end
       lyr_end = ly.index '}', lyr_start
       lyrics = ly[lyr_start .. lyr_end]
-      # this will only work for antiphons with a single alleluia,
-      # but I don't know a single one (in the modern breviary)
-      # with optional alleluia that would have more of them.
-      lyrics.sub!(/a\s+--\s+le\s+--\s+lu\s+--\s+ja[\.\!]/i, '')
+      lyrics.sub!(ALLELUIA_LYRICS_RE, '')
       ly[lyr_start .. lyr_end] = lyrics
 
       return ly
+    end
+
+    def remove_alleluia(ly)
+      music_closing_brace_i = ly.index /\}\s*\\addlyrics/m
+      raise 'end of music not found' unless music_closing_brace_i
+      i = ly.rindex "\n", music_closing_brace_i
+      ii = ly.rindex "\n", i - 1
+      ly[ii .. i] = ''
+
+      lyr_start = ly.index '\addlyrics'
+      if lyr_start == nil then
+        # no lyrics
+        return ly
+      end
+      lyr_end = ly.index '}', lyr_start
+      lyrics = ly[lyr_start .. lyr_end]
+      lyrics.sub!(ALLELUIA_LYRICS_RE, '')
+      ly[lyr_start .. lyr_end] = lyrics
+
+      ly
     end
 
     def layout(ly, layout)
