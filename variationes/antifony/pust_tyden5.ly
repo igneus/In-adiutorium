@@ -4364,6 +4364,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d e d c \barMin
+    d( f) f \barMin g a f \barFinalis
+  }
+  \addlyrics {
+    Dří -- ve než byl A -- bra -- hám,
+    já jsem, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ct-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup\nadpisDen{Pátek}
