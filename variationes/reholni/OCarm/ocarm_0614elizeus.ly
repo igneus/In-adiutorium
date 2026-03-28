@@ -388,18 +388,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g f e f d d \barMin
+    f g a f f g g \barMaior
+    g f g g( a) f f \barFinalis
   }
   \addlyrics {
-    Ani oko nevidělo co všechno Bůh připravil těm, kdo ho milují.
+    A -- ni o -- ko ne -- vi -- dě -- lo
+    co všech -- no Bůh při -- pra -- vil
+    těm, kdo ho mi -- lu -- jí.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
+    fial = "reholni/OCD/ocd_1214janodkrize.ly#1ne-a3?cast=1,3"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -459,6 +464,28 @@
   \relative c'' {
     \choralniRezim
     c4 c b a g a g g \barMaior
+    f a c c b \mark\sipka \barMin
+    c a g g \barFinalis
+  }
+  \addlyrics {
+    E -- li -- ze -- us od -- po -- vě -- děl:
+    Ži -- je Hos -- po -- din,
+    před nímž sto -- jím.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a g a g g \barMaior
     \mark\sipka f g g a a \barMin
     a( c) b g g \barFinalis
   }
@@ -471,6 +498,50 @@
     quid = "1. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f f( g) g \barMaior
+    a a g f d \barMin
+    e c d d \barFinalis
+  }
+  \addlyrics {
+    E -- li -- ze -- us od -- po -- vě -- děl:
+    Ži -- je Hos -- po -- din,
+    před nímž sto -- jím.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 15"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f e f d d \barMaior
+    c d f g g \barMin
+    a g f f \barFinalis
+  }
+  \addlyrics {
+    E -- li -- ze -- us od -- po -- vě -- děl:
+    Ži -- je Hos -- po -- din,
+    před nímž sto -- jím.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 15"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
