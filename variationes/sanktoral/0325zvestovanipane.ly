@@ -754,6 +754,70 @@
     % R
     \neviditelna f
     f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
+    g( a) g g( f d) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a( bes) a g a g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g g( f d) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- ra -- zi -- la ra -- to -- lest z_pa -- hý -- lu Jes -- se,_*
+    hvěz -- da vy -- šla z_Ja -- ku -- ba.
+    \Verse Pan -- na po -- ro -- di -- la Spa -- si -- te -- le,_*
+    \Response hvěz -- da vy -- šla z_Ja -- ku -- ba.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
+    g( a) g g( f d) d f( g) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a a g a g g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g g( f d) d f( g) g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- ra -- zi -- la ra -- to -- lest z_pa -- hý -- lu Jes -- se,_*
+    hvěz -- da vy -- šla z_Ja -- ku -- ba.
+    \Verse Pan -- na po -- ro -- di -- la Spa -- si -- te -- le,_*
+    \Response hvěz -- da vy -- šla z_Ja -- ku -- ba.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f( g) f f \barMin g f f g( a) a( g) \barMax
     g( a) g \mark\sipka g( f) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
@@ -1140,6 +1204,35 @@
     a c( d c) b a g4. g4 f g( a) g g \barFinalis
 
     a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý
+    na te -- be se -- stou -- pí, Ma -- ri -- a,
+    a moc Nej -- vyš -- ší -- ho tě za -- stí -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Duch svatý sestoupí na tebe, Maria,
+    a moc Nejvyššího tě zastíní. Aleluja."
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    fial = "antifony/advent_nedeleA.ly#imag2?zacatek=16"
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) a a g f g( a) g g \barMin
+    f g( a) a \barMaior
+    \mark\sipka c c b a g4. g4 f g( a) a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Duch sva -- tý
@@ -4146,6 +4239,39 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka d4 c d d( f) f \barMin e f d c c d d \barMax
+
+    d4 f( d) d
+    d e f g( f) e \barMin
+    d c( d) d \barMaior
+    d d c d d f e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
+
+    Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+    Pán s_te -- bou!
+    Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "2ne-amag"
+    fons = "druhá část: advent, uprostřed dne, ant. v poledne"
+    fial = "fial://advent_antifony.ly#spol-sexta?konec&+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka c4 d e( f) d d e d c d d c c \barMaior
 
     d4 f( d) d
@@ -4271,6 +4397,64 @@
     id = "2ne-amag"
     fons = "druhá část: advent, uprostřed dne, ant. v poledne"
     fial = "fial://advent_antifony.ly#spol-sexta?konec=27&+aleluja"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( d') d d c b a g a g g \barMaior
+    g g( d') d c b c c( d) d \barMin
+    d4.( e4 f) d( c) c \barMaior
+    d d c( b) a-- a b a a g g \barFinalis
+
+    a(^\markup\rubrVelikAleluja b) a g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
+    Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+    Pán s_te -- bou!
+    Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 566"
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( d') d d \mark\sipka e f d c b( c) a( g) g \barMaior
+    g g( d') d \mark\sipka d c b c( d) d \barMin
+    d4.( e4 f) d( c) c \barMaior
+    d d c( b) a \mark\sipka a g f g( a) g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    An -- děl Ga -- bri -- el ře -- kl Pan -- ně Ma -- ri -- i:
+    Buď zdrá -- va, mi -- lo -- sti -- pl -- ná!
+    Pán s_te -- bou!
+    Po -- že -- hna -- ná jsi me -- zi že -- na -- mi!
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 566"
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
