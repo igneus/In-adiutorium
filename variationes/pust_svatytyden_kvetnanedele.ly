@@ -60,6 +60,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g( a) a a bes a g a f( g a4.) a \barMaior
+    a4 a( g) f e f e d d \barMax
+    \mark\sipka f g g g a bes a a \barMin
+    g a f e f d d \barFinalis
+  }
+  \addlyrics {
+    Tak dlou -- ho jsem u -- čil u vás v_chrá -- mě,
+    a ne -- zmoc -- ni -- li jste se mě;
+    ny -- ní jste mě zbi -- čo -- va -- li
+    a ve -- de -- te mě na kříž.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 119-נ"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \key f \major
     f4 g( a) a a bes a \mark\sipka bes a f( g a4.) a \barMaior
     a4 a( g) f e f e d d \barMax
@@ -187,6 +211,28 @@
     a4 a a bes( a g) f( d) d \barMin
     e e f a a g g( a) a \barMaior
     a \mark\sipka a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus se po -- ní -- žil
+    a byl po -- sluš -- ný až k_smr -- ti,
+    a to k_smr -- ti na kří -- ži.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a bes( a g) f( d) d \barMin
+    \mark\sipka f f g a a g g( a) a \barMaior
+    a a g f e( f) d d \barFinalis
   }
   \addlyrics {
     Kris -- tus se po -- ní -- žil
@@ -2279,6 +2325,44 @@
   }
 }
 
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    d4 d d( f d) c f g a( g) g \barMaior
+    a g g g a( bes c) bes( a) g \barMin
+    a( g f) g f( d) d \barMaior
+    c d e( f) d d \barMaior
+    f g a \mark\sipka g \barMin
+    g a bes c bes a g g g( a g) \barMin
+    g f e d c \barMaior
+    d f g f( e) d \barMin
+    f g( a g f) e( d) \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Ce -- lý zá -- stup u -- čed -- ní -- ků
+    ra -- dost -- ně a hla -- si -- tě
+    chvá -- lil Bo -- ha.
+    Pro -- vo -- lá -- va -- li:
+    Po -- žeh -- na -- ný
+    ten, kte -- rý při -- chá -- zí ja -- ko král
+    ve jmé -- nu Pá -- ně!
+    Na ne -- bi po -- koj
+    a slá -- va
+    na vý -- sos -- tech!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    annus = "C"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-rch-aben-C"
+    piece = \markup {\sestavTitulekBezZalmu \rocniCyklus}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
@@ -2307,7 +2391,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d f f f e d e d d \barMaior
     f4( a) a a g( d) \barMin f4( e) c d d \barFinalis
@@ -2328,6 +2412,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 \mark\sipka c d f f f e d e d d \barMaior
     f4( a) a a g( d) \barMin f4( e) c d d \barFinalis
