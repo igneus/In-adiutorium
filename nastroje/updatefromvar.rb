@@ -81,7 +81,9 @@ begin
         .collect {|f| f.sub "#{DEV_DIR}/", '' }
   end
 
-  files.each do |f|
+  files
+    .flat_map {|f| File.directory?(f) ? Dir[File.join(f, '**', '*.ly')] : [f] }
+    .each do |f|
     updater.update f
   end
 rescue RuntimeError => ex
