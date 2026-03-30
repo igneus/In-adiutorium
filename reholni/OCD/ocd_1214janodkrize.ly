@@ -53,17 +53,25 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g f e f d d \barMin
+    f g a a g f f( g) g \barMin
+    a a( c) a a g f g f d( c) c \barMaior
+    d c d f f \barMin
+    g g f g g( a) f f \barFinalis
   }
   \addlyrics {
-    Ani oko nevidělo, ani ucho neslyšelo a na mysl lidskou nevstoupilo, co Bůh připravil těm, kteří ho milují.
+    A -- ni o -- ko ne -- vi -- dě -- lo,
+    a -- ni u -- cho ne -- sly -- še -- lo
+    a na my -- sl lid -- skou ne -- vstou -- pi -- lo,
+    co Bůh při -- pra -- vil
+    těm, kte -- ří ho mi -- lu -- jí.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = "Zj 4"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}

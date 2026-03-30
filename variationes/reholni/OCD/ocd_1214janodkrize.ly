@@ -142,7 +142,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     a4 a g f e f d d \barMin
     f g a a \mark\sipka g f f( g) g \barMin
