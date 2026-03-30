@@ -56,6 +56,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d c f g f( a) a \barMin
     g f g g g( a) g \barMaior
@@ -63,7 +64,10 @@
     d c d f e c c( d) d \barFinalis
   }
   \addlyrics {
-    Ať Ná -- man při -- jde ke mně, ře -- kl E -- li -- ze -- us, a po -- zná, že je v_Iz -- ra -- e -- li pro -- rok.
+    Ať Ná -- man při -- jde ke mně,
+    ře -- kl E -- li -- ze -- us,
+    a po -- zná,
+    že je v_Iz -- ra -- e -- li pro -- rok.
   }
   \header {
     quid = "1. ant."
@@ -239,13 +243,16 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d b d( e) d d \barMin
     d c b a( b) g g \barMaior
     g a a g f g( a) a g g \barFinalis
   }
   \addlyrics {
-    Za své -- ho ži -- vo -- ta se ne -- chvěl před vlád -- cem a ni -- kdo nad ním ne -- měl mo -- ci.
+    Za své -- ho ži -- vo -- ta
+    se ne -- chvěl před vlád -- cem
+    a ni -- kdo nad ním ne -- měl mo -- ci.
   }
   \header {
     quid = "3. ant."
@@ -265,7 +272,9 @@
     g \mark\sipka f g a b c a g g \barFinalis
   }
   \addlyrics {
-    Za své -- ho ži -- vo -- ta se ne -- chvěl před vlád -- cem a ni -- kdo nad ním ne -- měl mo -- ci.
+    Za své -- ho ži -- vo -- ta
+    se ne -- chvěl před vlád -- cem
+    a ni -- kdo nad ním ne -- měl mo -- ci.
   }
   \header {
     quid = "3. ant."
@@ -348,6 +357,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 f d d c f( g a) a \barMin
     a( c) a a g( f) f( g) g \barMaior
@@ -389,6 +399,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a g f e f d d \barMin
     f g a f f g g \barMaior
@@ -506,6 +517,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g a a g f f( g) g \barMaior
     a a g f d \barMin
@@ -552,6 +564,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4 c b g b c a g a g f \barMaior
     g a a b c a a b c a a g g \barFinalis
@@ -632,20 +645,129 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
+    d4 f d d c f g g( a) a \barMin
+    a( c) a a \barMin a a g f g( f) d( c) c \barMaior
+    d d d( f) e d( e) d d \barMin
+    f f g a a g f g a g g \barMin
+    g f g a a g f d( c) c \barMaior
 
   }
   \addlyrics {
-    Elizeus dnes na Karmelu velebí Hospodina zástupů;
-    ústy svého proroka Hospodin sesazuje mocné z trůnu a povyšuje ponížené.
-    Sláva tobě, Pane, jenž jsi přijal Božího muže do království pokoje.
+    E -- li -- ze -- us dnes na Kar -- me -- lu
+    ve -- le -- bí Hos -- po -- di -- na zá -- stu -- pů;
+    ús -- ty své -- ho pro -- ro -- ka
+    Hos -- po -- din se -- sa -- zu -- je moc -- né z_trů -- nu
+    a po -- vy -- šu -- je po -- ní -- že -- né.
+    Slá -- va to -- bě, Pa -- ne,
+    jenž jsi při -- jal Bo -- ží -- ho mu -- že
+    do krá -- lov -- ství po -- ko -- je.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f d d c f g g( a) a \barMaior
+    a( c) a a \barMin a a g f g( f) d( c) c \barMaior
+    d d d( f) e d( e) d d \barMin
+    f f g a a \mark\sipka a a c b a a \barMin
+    a f g a a g f d( c) c \barMaior
+    d d d( f) e d( c) c \barMin
+    f g g( a) a c b c a a \barMin
+    a( g f) e( f) d d e( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    E -- li -- ze -- us dnes na Kar -- me -- lu
+    ve -- le -- bí Hos -- po -- di -- na zá -- stu -- pů;
+    ús -- ty své -- ho pro -- ro -- ka
+    Hos -- po -- din se -- sa -- zu -- je moc -- né z_trů -- nu
+    a po -- vy -- šu -- je po -- ní -- že -- né.
+    Slá -- va to -- bě, Pa -- ne,
+    jenž jsi při -- jal Bo -- ží -- ho mu -- že
+    do krá -- lov -- ství po -- ko -- je.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    d4 f d d c f g g( a) a \barMin
+    a( c) a a \barMin a a g f g( f) d( c) c \barMaior
+    d d d( f) e d( e) d d \barMin
+    f f g a a a a c b a a \barMin
+    a f g a a g f d( c) c \barMaior
+    d d d( f) e d( c) c \barMin
+    f g g( a) a c b c a a \barMin
+    a( g f) e( f) d \mark\sipka c c d d \barFinalis
+  }
+  \addlyrics {
+    E -- li -- ze -- us dnes na Kar -- me -- lu
+    ve -- le -- bí Hos -- po -- di -- na zá -- stu -- pů;
+    ús -- ty své -- ho pro -- ro -- ka
+    Hos -- po -- din se -- sa -- zu -- je moc -- né z_trů -- nu
+    a po -- vy -- šu -- je po -- ní -- že -- né.
+    Slá -- va to -- bě, Pa -- ne,
+    jenž jsi při -- jal Bo -- ží -- ho mu -- že
+    do krá -- lov -- ství po -- ko -- je.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f d d c f g g( a) a \barMin
+    a( c) a a \barMin a a g f g( f) d( c) c \barMaior
+    d d d( f) e d( e) d d \barMin
+    f f g a a a a c b a a \barMin
+    a f g a a g f d( c) c \barMaior
+    d d d( f) e d( c) c \barMin
+    f g g( a) a c b c a a \barMin
+    \mark\sipka a g( f) e( d) c d( f) e( d) d \barFinalis
+  }
+  \addlyrics {
+    E -- li -- ze -- us dnes na Kar -- me -- lu
+    ve -- le -- bí Hos -- po -- di -- na zá -- stu -- pů;
+    ús -- ty své -- ho pro -- ro -- ka
+    Hos -- po -- din se -- sa -- zu -- je moc -- né z_trů -- nu
+    a po -- vy -- šu -- je po -- ní -- že -- né.
+    Slá -- va to -- bě, Pa -- ne,
+    jenž jsi při -- jal Bo -- ží -- ho mu -- že
+    do krá -- lov -- ství po -- ko -- je.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

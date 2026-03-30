@@ -40,6 +40,9 @@
 
 \markup\justify\italic{
   Antifony a žalmy ze společných textů o svatých mužích.
+  \chant-ref "mc-a1" "commune/commune_svatymuz.ly#mc-a1" {}
+  \chant-ref "mc-a2" "commune/commune_svatymuz.ly#mc-a2" {}
+  \chant-ref "mc-a3" "commune/commune_svatymuz.ly#mc-a3" {}
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -47,15 +50,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d c f g f( a) a \barMin
+    g f g g g( a) g \barMaior
+    a f( e) d( c) \barMin
+    d c d f e c c( d) d \barFinalis
   }
   \addlyrics {
-    Ať Náman přijde ke mně, řekl Elizeus, a pozná, že je v Izraeli prorok.
+    Ať Ná -- man při -- jde ke mně,
+    ře -- kl E -- li -- ze -- us,
+    a po -- zná,
+    že je v_Iz -- ra -- e -- li pro -- rok.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
@@ -81,17 +90,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    d4 d b d( e) d d \barMin
+    d c b a( b) g g \barMaior
+    g a a g f g( a) a g g \barFinalis
   }
   \addlyrics {
-    Za svého života se nechvěl před vládcem a nikdo nad ním neměl moci.
+    Za své -- ho ži -- vo -- ta
+    se ne -- chvěl před vlád -- cem
+    a ni -- kdo nad ním ne -- měl mo -- ci.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -134,15 +147,27 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f d d c f( g a) a \barMin
+    a( c) a a g( f) f( g) g \barMaior
+    a a g f d d e f d c d c c \barMaior
+    f g g( a) a \barMin
+    a a b c a g g( a) a \barMaior
+    g a a a a g f g g f e f d c c \barMin
+    d( f) e c( d) d \barFinalis
   }
   \addlyrics {
-    Požehnaný Král nebes, Hospodin proroků, jenž ústy svých svatých dává zákon věřícím, ukazuje cestu pokoje a spásy a na Elizeovu přímluvu nám připravuje místo v nebi.
+    Po -- žeh -- na -- ný Král ne -- bes,
+    Hos -- po -- din pro -- ro -- ků,
+    jenž ús -- ty svých sva -- tých dá -- vá zá -- kon vě -- ří -- cím,
+    u -- ka -- zu -- je
+    ces -- tu po -- ko -- je a spá -- sy
+    a na E -- li -- ze -- o -- vu pří -- mlu -- vu nám při -- pra -- vu -- je
+    mís -- to v_ne -- bi.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -159,18 +184,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 a g f e f d d \barMin
+    f g a f f g g \barMaior
+    g f g g( a) f f \barFinalis
   }
   \addlyrics {
-    Ani oko nevidělo co všechno Bůh připravil těm, kdo ho milují.
+    A -- ni o -- ko ne -- vi -- dě -- lo
+    co všech -- no Bůh při -- pra -- vil
+    těm, kdo ho mi -- lu -- jí.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
+    fial = "reholni/OCD/ocd_1214janodkrize.ly#1ne-a3?cast=1,3"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -181,15 +211,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    f4 g a a g f f( g) g \barMaior
+    a a g f d \barMin
+    e c d d \barFinalis
   }
   \addlyrics {
-    Elizeus odpověděl: Žije Hospodin, před nímž stojím.
+    E -- li -- ze -- us od -- po -- vě -- děl:
+    Ži -- je Hos -- po -- din,
+    před nímž sto -- jím.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 15"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
@@ -197,17 +231,19 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    c4 c b g b c a g a g f \barMaior
+    g a a b c a a b c a a g g \barFinalis
   }
   \addlyrics {
-    Elizeus s prorockými žáky šli, aby si zbudovali místo k přebývání.
+    E -- li -- ze -- us s_pro -- roc -- ký -- mi žá -- ky šli,
+    a -- by si zbu -- do -- va -- li mís -- to k_pře -- bý -- vá -- ní.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 112"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
