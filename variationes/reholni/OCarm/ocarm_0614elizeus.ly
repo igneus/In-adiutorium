@@ -50,8 +50,6 @@
   Antifony a žalmy ze společných textů o svatých mužích.
 }
 
-\pageBreak
-
 \markup {\nadpisHodinka {"ranní chvály"}}
 
 \score {
