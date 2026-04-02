@@ -1170,7 +1170,7 @@
       a a a4.( e) \barMin
       e4 f e f e g a a a g a c( b a) a \barMaior
       a b c c( d) d c( b a4.) a \barMin
-      a4( b g) g e f( g a) a \barFinalis
+      b4 g e f( g a4.) a \barFinalis
     }
     \addlyrics {
       Kris -- tus při -- ne -- sl Bo -- hu
@@ -1179,20 +1179,14 @@
       Je -- ho krev
       o -- čis -- tí na -- še svě -- do -- mí od mrt -- vých skut -- ků,
       a -- by -- chom moh -- li slou -- žit
-      ži -- vé -- mu Bo -- hu.
+      Bo -- hu ži -- vé -- mu.
     }
     \header {
-      textus_approbatus = "Kristus přinesl Bohu skrze věčného Ducha
-      sám sebe jako oběť bez poskvrny.
-      Jeho krev očistí naše svědomí od mrtvých skutků,
-      abychom mohli sloužit Bohu živému."
       quid = "ant. k Benedictus"
       modus = "IV alt"
       differentia = "A"
       psalmus = ""
-      placet = "zbytečně velký rozsah. Zejm. recitace kvartu pod finálou je až nemravná.
-      Změna slovosledu v závěru posouvá důraz - oficiální text má vypointovaný
-      protiklad mrtvých skutků x Bohu _živému_."
+      placet = "zbytečně velký rozsah. Zejm. recitace kvartu pod finálou je až nemravná."
       id = "st-rch-aben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -1247,7 +1241,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      a4 a a a f e d d \barMin
+      a4 a g f e f d d \barMin
       f g a a g \barMaior
       g a f e f d d \barFinalis
     }

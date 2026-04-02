@@ -600,7 +600,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g( a) g f g( a) a \barMin
     a \mark\sipka g a c c b( c a g) g \barMaior
@@ -628,6 +628,9 @@
     modus = "IV alt"
     differentia = "A"
     psalmus = ""
+    placet = "zbytečně velký rozsah. Zejm. recitace kvartu pod finálou je až nemravná.
+    Změna slovosledu v závěru posouvá důraz - oficiální text má vypointovaný
+    protiklad mrtvých skutků x Bohu _živému_."
     id = "st-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -676,6 +679,37 @@
     e4 f e f e g a a a g a c( b a) a \barMaior
     a b c c( d) d c( b a4.) a \barMin
     \mark\sipka a4 b g e( g a) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus při -- ne -- sl Bo -- hu
+    skr -- ze věč -- né -- ho Du -- cha
+    sám se -- be ja -- ko o -- běť bez po -- skvr -- ny.
+    Je -- ho krev
+    o -- čis -- tí na -- še svě -- do -- mí od mrt -- vých skut -- ků,
+    a -- by -- chom moh -- li slou -- žit
+    Bo -- hu ži -- vé -- mu.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "st-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g( a) g f g( a) a \barMin
+    a g a c c b( c a g) g \barMaior
+    a a( d) d c d d( e d) c b c a a \barMax
+    a a a4.( e) \barMin
+    e4 f e f e g a a a g a c( b a) a \barMaior
+    a b c c( d) d c( b a4.) a \barMin
+    \mark\sipka b4 g e f( g a4.) a \barFinalis
   }
   \addlyrics {
     Kris -- tus při -- ne -- sl Bo -- hu
@@ -1428,7 +1462,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a f e d d \barMin
     f g a a g \barMaior
@@ -1444,6 +1478,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Kol 1"
+    placet = "_vykoupení_ neobvyklý a nepříliš zpěvný postup"
     id = "st-ne-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -1451,6 +1486,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a \mark\sipka g f e f d d \barMin
     f g a a g \barMaior
@@ -1582,6 +1618,30 @@
     a c b g g \barMaior
     f g a c c d c d c b a a \barMaior
     \mark\sipka c( b c d) d( c) \barMin c c c b g a g g \barFinalis
+  }
+  \addlyrics {
+    Mis -- tr vzka -- zu -- je:
+    Můj čas je blíz -- ko;
+    bu -- du u te -- be se svý -- mi u -- čed -- ní -- ky
+    sla -- vit ve -- li -- ko -- noč -- ní ve -- če -- ři.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "st-ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d) c c \barMin
+    a c b g g \barMaior
+    f g a c c d c d c b a a \barMaior
+    \mark\sipka c( b a g) a( g) \barMin a g f g a a g g \barFinalis
   }
   \addlyrics {
     Mis -- tr vzka -- zu -- je:
