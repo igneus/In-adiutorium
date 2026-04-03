@@ -77,6 +77,9 @@
     modus = "I"
     differentia = "D"
     psalmus = "Zj 11"
+    placet = "to, že je svědectví svatých tak zdůrazněno oproti
+    Beránkově krvi, je čistě z důvodu pěkného spádu melodie,
+    ale jeví se to nepatřičné"
     id = "ct-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
