@@ -115,7 +115,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-21-o?cast=4-5"
+    fial = "antifony/advent_predvanocni_datum.ly#predvanocni-21-o?cast=4,5"
     id = "osummeartifex"
     piece = \markup {\sestavTitulekBezZalmu}
   }
