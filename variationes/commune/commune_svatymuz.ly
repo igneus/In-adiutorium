@@ -37,7 +37,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g a f g g \barMin
     f d f g g( f) f \barFinalis
@@ -96,6 +96,61 @@
   \relative c' {
     \choralniRezim
     f4 f g f g g( a) a \barMin
+    g f \mark\sipka g a g( f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g f g( f d) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te na -- še -- ho Bo -- ha,
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 113"
+    fial = "commune/commune_kostel.ly#2ne-a3?cast=1,3,4"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g g( a) a \barMin
+    g f g a \mark\sipka f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g f g( f d) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te na -- še -- ho Bo -- ha,
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 113"
+    fial = "commune/commune_kostel.ly#2ne-a3?cast=1,3,4"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g f g g( a) a \barMin
     \mark\sipka a a g f g( a f) f \barFinalis
 
     g^\markup\rubrVelikAleluja a g f g( f d) c \barMaior
@@ -110,8 +165,35 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 113"
+    fial = "commune/commune_kostel.ly#2ne-a3?cast=1,3,4"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g f g g( a) a \barMin
+    \mark\sipka g g a g f( g f) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g f g( f d) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te na -- še -- ho Bo -- ha,
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+
+    \markup{\Dagger všich} -- ni je -- ho sva -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 113"
     fial = "commune/commune_kostel.ly#2ne-a3?cast=1,3,4"
     id = "1ne-a1"
