@@ -612,6 +612,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d e f d( c) \barMin
+    d f g a( g) f( g) g \barMaior
+    a a a g f g( a g f) e( d) \barMin
+    c \mark\sipka f e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Buď po -- chvá -- len Bůh,
+    on si nás vy -- vo -- lil,
+    a -- by -- chom by -- li sva -- tí
+    a ne -- po -- skvr -- ně -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
