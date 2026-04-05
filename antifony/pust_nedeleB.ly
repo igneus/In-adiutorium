@@ -193,7 +193,7 @@
     \choralniRezim
     a a g a f( g) \barMin g( bes) a a \barMaior
     g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
-    f e d f( g) g g \barMin f4( g f) e c( d) d \barFinalis
+    f e d c( d) c c \barMin d( f) e c( d) d \barFinalis
   }
   \addlyrics {
     Zboř -- te ten -- to chrám, pra -- ví Pán,

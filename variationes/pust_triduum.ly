@@ -5809,7 +5809,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f g g( a) a \barMin
     bes a g a f( g) \barMaior
@@ -5827,6 +5827,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Flp 2"
+    placet = "závěr lépe"
     id = "so-nesp-ant3"
     piece = \markup {\sestavTitulek}
   }
@@ -5862,6 +5863,55 @@
     f g g( a) a \barMin
     bes a g a f( g) \barMaior
     g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f f e d f( g) g g \barMin \mark\sipka g( a) f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ře -- kl:_*
+    Zboř -- te ten -- to chrám,
+    a ve třech dnech jej za -- se po -- sta -- vím;
+    ře -- kl to však o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Flp 2"
+    id = "so-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g g( a) a \barMin
+    bes a g a f( g) \barMaior
+    g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f f e d f( g) g g \barMin g( a) \mark\sipka g f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ře -- kl:_*
+    Zboř -- te ten -- to chrám,
+    a ve třech dnech jej za -- se po -- sta -- vím;
+    ře -- kl to však o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Flp 2"
+    id = "so-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f g g( a) a \barMin
+    bes a g a f( g) \barMaior
+    g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
     f f e d \mark\sipka c( d) c c \barMin d( f) e c( d) d \barFinalis
   }
   \addlyrics {
@@ -5887,6 +5937,30 @@
     bes a g a f( g) \barMaior
     g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
     f f \mark\sipka g f e( f) d d \barMin e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus ře -- kl:_*
+    Zboř -- te ten -- to chrám,
+    a ve třech dnech jej za -- se po -- sta -- vím;
+    ře -- kl to však o chrá -- mu své -- ho tě -- la.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Flp 2"
+    id = "so-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f g g( a) a \barMin
+    bes a g a f( g) \barMaior
+    g g( a) f f( d) \barMin d4 c d d( f e) d d \barMax
+    f f \mark\sipka g a f( e) d d \barMin d( e) c c( d) d \barFinalis
   }
   \addlyrics {
     Kris -- tus ře -- kl:_*
