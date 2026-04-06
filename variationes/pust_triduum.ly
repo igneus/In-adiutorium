@@ -397,6 +397,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c f g f( a) a \barMin a a g f a g \barMaior
+    f \mark\sipka g( f d) d \barMin f( e) c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí zví -- tě -- zi -- li_* Be -- rán -- ko -- vou kr -- ví
+    a slo -- vem své -- ho svě -- dec -- tví.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 11"
+    id = "ct-nesp-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1794,6 +1814,34 @@
     quid = "ant. k Benedictus"
     quidbreve = "ant."
     modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "pa-rch-ben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Úvodní motiv volně podle AR1912 369
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 c d d( a' bes) a a \barMin
+    a a g f g( a) g e e \barMaior
+    f d f e d( c) c \barMin
+    d e f4. d \barFinalis
+  }
+  \addlyrics {
+    Pi -- lát dal zho -- to -- vit_*
+    a při -- pev -- nit na kříž ná -- pis:
+    Je -- žíš Na -- za -- ret -- ský,
+    ži -- dov -- ský král.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    quidbreve = "ant."
+    modus = "I"
     differentia = "D"
     psalmus = ""
     id = "pa-rch-ben"
