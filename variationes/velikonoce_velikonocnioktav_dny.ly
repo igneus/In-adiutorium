@@ -1823,6 +1823,42 @@
       f4 f e( d) d d( a' g) g( a) a \barMaior
       a a a g a b c a g a a g g \barMaior
       c( d c) a( g) g( a) \barMin
+      a a( g f) g f d d \barMax
+
+      d d d f( g) g
+      a g f g g \barMaior
+      a a a \mark\sipka g a a c c( a) a \barMin
+      a f e d d \barMaior
+      \mark\sipka e d c( d) d \barFinalis
+    }
+    \addlyrics {
+      Je -- žíš ře -- kl:_* Ma -- ri -- e!
+      O -- na se k_ně -- mu o -- brá -- ti -- la a zvo -- la -- la:
+      Rab -- bo -- ni!_-
+      to zna -- me -- ná Mis -- tře!
+
+      Je -- žíš jí ře -- kl:
+      Ne -- za -- dr -- žuj mě!
+      Ne -- boť jsem ješ -- tě ne -- vy -- stou -- pil
+      ke své -- mu Ot -- ci.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Benedictus"
+      modus = "I"
+      differentia = "f"
+      psalmus = ""
+      id = "ut-ben"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      f4 f e( d) d d( a' g) g( a) a \barMaior
+      a a a g a b c a g a a g g \barMaior
+      c( d c) a( g) g( a) \barMin
       a \mark\sipka g f f( g f) d d \barMax
 
       d d d f( g) g
@@ -2056,7 +2092,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       a4 g f e e d( f) f( e) e \barMaior
       a a g a b g a a \barMin
@@ -2104,6 +2140,29 @@
       \choralniRezim
       a4 g f \mark\sipka e d e( f) e e \barMaior
       a a g a b g a a \barMin
+      g f d( e) e \barFinalis
+    }
+    \addlyrics {
+      Když jsem pla -- ka -- la u hro -- bu,_*
+      spat -- ři -- la jsem své -- ho Pá -- na.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. k Magnificat"
+      modus = "IV"
+      differentia = "g"
+      psalmus = ""
+      id = "ut-mag"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      a4 g f e d e( f) \mark\sipka f( e) e \barMaior
+      f g a a b g a a \barMin
       g f d( e) e \barFinalis
     }
     \addlyrics {
