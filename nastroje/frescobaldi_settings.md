@@ -24,6 +24,6 @@ Include project-specific **custom headings:**
 `\\nadpis(Den|Hodinka)\s*\{"?(?P<title>.*?)"?\}`
 
 Have **scores represented as score IDs** (instead of just `\score`):
-`\\score(?s:.)*?[^\w]id\s*=\s*"(?P<title>.*?)"`
+`\\score(?s:.)*?[^\w]id\s*=\s*"(?P<title>.+?)"`
 Make sure that it's higher in the list than the default pattern
 `(?P<title>\\(score|book|bookpart))\b`
