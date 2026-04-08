@@ -641,6 +641,7 @@
       modus = "VI"
       differentia = "F"
       psalmus = "Žalm 66-II"
+      placet = "2 _slyšte_ slabší"
       id = "ut-mc-a3"
       piece = \markup {\sestavTitulek}
     }
