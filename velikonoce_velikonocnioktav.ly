@@ -1235,7 +1235,12 @@
 
   \markup {\nadpisHodinka {"modlitba se čtením"}}
 
-  \markup\italic{Žalmy a antifony jako o velikonočním pondělí.}
+  \markup\italic{
+    Žalmy a antifony jako o velikonočním pondělí.
+    \chant-ref "ne2-mc-a1" "velikonoce_velikonocnioktav.ly#po-mc-a1" {}
+    \chant-ref "ne2-mc-a2" "velikonoce_velikonocnioktav.ly#po-mc-a2" {}
+    \chant-ref "ne2-mc-a3" "velikonoce_velikonocnioktav.ly#po-mc-a3" {}
+  }
 
   \markup {\nadpisHodinka {"ranní chvály a 2. nešpory"}}
 
