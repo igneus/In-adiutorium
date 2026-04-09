@@ -714,7 +714,7 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 g g f e f( g) g \barMin
+      g4 g g f g g( a) a \barMin
       a c a b g g \barMaior
       a g f( g) g \barFinalis
     }
@@ -728,7 +728,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 104-I"
-      placet = "tahle trojice je stále výrazně jednotvárná - stejná délka, členění, stejný modus, skoro stejné uzlové body melodie"
       id = "st-mc-a1"
       piece = \markup {\sestavTitulek}
     }
@@ -737,9 +736,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g a g g( c) c \barMin
-      a b c a g g \barMaior
-      f g g( a) g \barFinalis
+      g a b c a \barMin
+      c c b c a g
+      f a g g \barFinalis
     }
     \addlyrics {
       Ze -- mě se sy -- tí_*
@@ -760,8 +759,8 @@
     \relative c'' {
       \choralniRezim
       g g( c) c b g \barMin
-      a g f g a g g \barMaior
-      a g f( g) g \barFinalis
+      a a a g f g( a g4.) g4 \barMaior
+      a4 g f( g) g \barFinalis
     }
     \addlyrics {
       Nechť věč -- ně tr -- vá_*
@@ -812,8 +811,8 @@
       a4 a a( g) g \barMin
       f g a a g a a \barMaior
       a b c a a b( g) g( e) e \barMaior
-      e d( e) \barMin
-      f e e f e f g a( g) g \barMaior
+      e g( a) \barMin
+      a b c a a b g g( a) a \barMaior
       a( b a) g( f) e e \barMin
       e f e d d
       f g f( e) e \barFinalis
@@ -833,7 +832,6 @@
       modus = "IV"
       differentia = "g"
       psalmus = ""
-      placet = "2 _pronesl nad ním požehnání_ není právě zpěvné"
       id = "st-mag"
       piece = \markup {\sestavTitulekBezZalmu}
     }
