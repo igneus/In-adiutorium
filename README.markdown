@@ -55,7 +55,7 @@ If you are using [Frescobaldi](https://frescobaldi.org/), there is the
 - `/nechoral` pieces of character other than plainchant
 - `/paraliturgicke` chants for paraliturgical use, not taken from official liturgical books
 - `/reholni` some random chants proper to various institutes of consecrated life
-- `/rytmicke` mostly attempts of rythmical psalm settings with guitar accompaniment (you were warned)
+- `/rytmicke` mostly attempts of rythmical psalm settings with guitar accompaniment (you have been warned)
 - `/cizojazycne` random pieces of LOTH music for vernacular versions other than the Czech one
 - `/jine` pieces not fitting in any of the categories above
 
