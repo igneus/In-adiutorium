@@ -69,7 +69,7 @@ begin
   updater.compare_music_only = setup[:compare_music_only]
   updater.dry_run = setup[:dry_run]
   if setup[:interactive]
-    updater.filter_proc = InteractiveFilter.new highline
+    updater.filters << InteractiveFilter.new(highline)
   end
 
   files = ARGV

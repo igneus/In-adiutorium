@@ -21,17 +21,23 @@ class Updater
 
     # options
     @partial_files = true
-    @filter_proc = proc { true }
+    @filters = []
     @compare_music_only = false
     @dry_run = false
   end
 
-  attr_accessor :partial_files, :filter_proc, :compare_music_only, :dry_run
+  attr_accessor :partial_files, :filters, :compare_music_only, :dry_run
 
   def update(main_file)
     @log.puts "Updating #{main_file}"
 
-    main_src = File.read main_file
+    fial = FIAL.is_fial?(main_file) && FIAL.parse(main_file)
+    if fial
+      @filters.unshift(lambda {|production_score, _| production_score.header['id'] == fial.id })
+    end
+
+    main_path = fial ? fial.path : main_file
+    main_src = File.read(main_path)
     main_music = Lyv::LilyPondMusic.new main_src
 
     # note: main_src is modified by the methods
@@ -40,10 +46,12 @@ class Updater
       update_from_development(main_file, main_src, main_music)
 
     if changes > 0 && !dry_run
-      File.open(main_file, 'w') do |fw|
+      File.open(main_path, 'w') do |fw|
         fw.write(main_src)
       end
     end
+
+    @filters.shift if fial
 
     @log.puts "Finished updating #{main_file}, total of #{changes} scores modified"
   end
@@ -130,7 +138,7 @@ class Updater
   end
 
   def do_conditional_update(main_src, production_score, updated_score_text)
-    return 0 unless @filter_proc.call(production_score, updated_score_text)
+    return 0 unless @filters.all? {|f| f.call(production_score, updated_score_text) }
 
     score_id = production_score.header['id']
     @log.puts "updating ##{score_id}"
