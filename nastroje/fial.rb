@@ -22,11 +22,9 @@ class FIAL
     end || raise(ArgumentError.new("invalid FIAL #{str.inspect}"))
   end
 
-  class << self
-    def is_fial?(str)
-      str.start_with?('fial://') ||
-        (str.include?('#') && str !~ %r{^\w+://})
-    end
+  def self.is_fial?(str)
+    str.start_with?('fial://') ||
+      (str.include?('#') && str !~ %r{^\w+://})
   end
 
   attr_accessor :path 
@@ -36,20 +34,11 @@ class FIAL
   def to_s
     s = "fial://"+@path+"#"+@id
     unless @additional.empty?
-      s += "?"
-      i = 0
-      @additional.each_pair do |key,value|
-        if i > 0 then
-          s += "&"
-        end
-        
-        s += key
-        if value != nil then
-          s += "="+value
-        end
-
-        i += 1
+      params = @additional.each_pair.with_index.collect do |(key, value), i|
+        key +
+          (value ? ('=' + value) : '')
       end
+      s = s + '?' + params.join('&')
     end
     return s
   end
