@@ -1172,10 +1172,10 @@
   \score {
     \relative c'' {
       \choralniRezim
-      g4 f g a g g \barMin
-      g a g f( g a) a \barMin
+      g4 a f g a a \barMin
+      a c c b( c a) a \barMin
       a b c c c c b a g g \barMaior
-      a g f g a a c( d) c( a) a \barMaior
+      a g f g a a c( d) d( c) c \barMaior
       c c d c d( e d c) b( a) \barMin
       c c c a g
       f a a( g) g \barFinalis
@@ -1194,8 +1194,6 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      placet = "začátek až po _Magdalské_ je dost těžkopádný, ale nevím,
-      jestli se mi kdy podaří takovýhle text zhudebnit výrazně lépe"
       id = "so-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }

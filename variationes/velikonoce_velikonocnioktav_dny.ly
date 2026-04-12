@@ -7159,7 +7159,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       g4 f g a g g \barMin
       g a g f( g a) a \barMin
@@ -7183,6 +7183,8 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
+      placet = "začátek až po _Magdalské_ je dost těžkopádný, ale nevím,
+      jestli se mi kdy podaří takovýhle text zhudebnit výrazně lépe"
       id = "so-ben"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -7220,6 +7222,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacModry
       \choralniRezim
       \mark\sipka g4 a f g a a \barMin
       a c c b( c a) a \barMin
