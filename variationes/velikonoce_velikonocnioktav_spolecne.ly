@@ -2443,6 +2443,32 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 \score {
   \relative c'' {
     \choralniRezim
+    g a c( d) d \barMin
+    c d e( c) c( d) d \barMaior
+    a d b c a( g) \mark\sipka a( g) \barMin
+    f g a b c a
+    g b a a \barFinalis
+  }
+  \addlyrics {
+    Když jste s_Kris -- tem_*
+    by -- li vzkří -- še -- ni,
+    u -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "up-odpo"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4( f) d f( g) g f g a( bes) g g \barMaior
 
   }
