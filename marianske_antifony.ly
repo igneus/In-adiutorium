@@ -242,7 +242,7 @@
     Pan -- no slav -- ná a po -- žeh -- na -- ná!
   }
   \header {
-    fons_externus = "volně podle AR 1912, [92]; text Kancionál, 008"
+    fons_externus = "volně podle AR1912, [92]; text Kancionál, 008"
     quid = "ant."
     modus = "VII"
     differentia = ""

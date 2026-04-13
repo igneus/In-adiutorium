@@ -159,7 +159,7 @@
       modus = "III"
       differentia = "h"
       psalmus = ""
-      fons_externus = "AR 1912, 14"
+      fons_externus = "AR1912, 14"
       id = "prima"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -182,7 +182,7 @@
       modus = "VIII"
       differentia = "G"
       psalmus = ""
-      fons_externus = "AR 1912, 25"
+      fons_externus = "AR1912, 25"
       id = "tercie"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -205,7 +205,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = ""
-      fons_externus = "AR 1912, 29"
+      fons_externus = "AR1912, 29"
       id = "sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }
@@ -227,7 +227,7 @@
       modus = "II"
       differentia = "D"
       psalmus = ""
-      fons_externus = "AR 1912, 34"
+      fons_externus = "AR1912, 34"
       id = "nona"
       piece = \markup {\sestavTitulekBezZalmu}
     }
