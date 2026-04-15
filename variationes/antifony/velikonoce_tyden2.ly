@@ -580,7 +580,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a \mark\sipka g f g g( a) g g \barMin
     f d f e d c \barMaior
@@ -609,6 +609,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka f4 f g f g g( a) g g \barMin
     f d f e d c \barMaior
@@ -869,6 +870,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZeleny
     \choralniRezim
     d4 d f g a f f( g) g \barMaior
     a g f( g d) d \barMin d e c c( d) d \barMaior

@@ -59,9 +59,9 @@
 \markup {\nadpisDen {Úterý}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g f g g( a) g g \barMin
+    f4 f g f g g( a) g g \barMin
     f d f e d c \barMaior
     d d d( a' bes) a a \barMin
     a a g f g( a g) g \barMaior
@@ -78,7 +78,7 @@
   \header {
     quid = "ant. k Benedictus"
     modus = "I"
-    differentia = "a"
+    differentia = "f"
     psalmus = ""
     fial = "antifony/tyden3_5ctvrtek.ly#mc-ant2?konec=18"
     id = "ut-aben"
