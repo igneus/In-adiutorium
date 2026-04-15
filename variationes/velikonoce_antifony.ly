@@ -809,6 +809,32 @@
     \relative c'' {
       \choralniRezim
       g4( c) c c c( d) c b a( g) g \barMin
+      a g f( g a) g g \barMaior
+      \mark\sipka a a a f( e d) \barMin
+      d( f) e f f g( a g) g \barMaior
+      f g( a) a( g) g \barFinalis
+    }
+    \addlyrics {
+      Pojď -- me a klaň -- me se to -- mu,
+      kte -- rý vstal z_mrt -- vých:
+      vždyť skr -- ze kříž
+      vze -- šla svě -- tu ra -- dost.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant. ke kantikům vigilie"
+      modus = "VIII"
+      differentia = "G"
+      psalmus = ""
+      id = "mc-avig"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4( c) c c c( d) c b a( g) g \barMin
       \mark\sipka f g a a( g) g \barMaior
       g g g f( e d) \barMin
       d( f) e f f g( a g) g \barMaior
