@@ -129,8 +129,8 @@
 
   \markup\justify{Následující antifony pocházejí
   z \italic{Antiphonale Romanum,} Romae 1912.
-  Původně náležejí čtyřem malým denním hodinkám,
-  primě, tercii, sextě a noně, a zpívaly se ve velikonoční době
+  Původně náležejí čtyřem malým denním hodinkám –
+  primě, tercii, sextě a noně – a zpívaly se ve velikonoční době
   každý den. V současné době lze tam, kde se během dne slaví jen
   jedna hodinka,
   buďto použít jednu vybranou (např. tu, která odpovídá denní době,
