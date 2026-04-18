@@ -92,6 +92,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 72-I"
+    placet = "2 bylo by žádoucí nezpívat celou nešporní psalmodii na jediný nápěv psalmodie"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }

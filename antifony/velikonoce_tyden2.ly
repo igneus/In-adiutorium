@@ -191,6 +191,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 půjde lépe"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
