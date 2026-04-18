@@ -95,11 +95,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c d( e) d c4.( d) \barMaior
     c4 a c b a( g) g \barMin
     \mark\sipka f a g g \barFinalis
+  }
+  \addlyrics {
+    Já jsem vin -- ný kmen,
+    vy jste ra -- to -- les -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 80"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c d( e) d c4.( d) \mark\sipka \barMin
+    c4 a c b a( g) g \barMin
+    f a g g \barFinalis
   }
   \addlyrics {
     Já jsem vin -- ný kmen,
@@ -198,6 +221,40 @@
     quid = "1. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 80"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Ego sum vitis, vos pálmites, allelúia.
+  }
+  (Od tradiční antifony \cantusid-link "002604"
+  se text v LH liší nejen absencí vloženého aleluja)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e g g a \barMin
+    e f d c \barMaior
+    f f f e g a \barMin
+    a a( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Já jsem vin -- ný kmen,
+    a -- le -- lu -- ja,
+    vy jste ra -- to -- les -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "srov. AR1912 391"
+    textus_approbatus = "Já jsem vinný kmen, vy jste ratolesti. Aleluja."
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 80"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
