@@ -944,6 +944,7 @@
 
   \score {
     \relative c'' {
+      \zvyraznovacSedy
       \choralniRezim
       c4 c c( d) \[ c( b \] \[ c d c) \] \barMin
       a( \grace c) c( b a g) a f
@@ -960,6 +961,35 @@
       differentia = "c"
       psalmus = ""
       fons_externus = "AR 1912, 29"
+      id = "sexta"
+      piece = \markup {\sestavTitulekBezZalmu}
+    }
+  }
+
+  \markup\justify{
+    Likvescenci z předlohy tady nemá smysl reprodukovat,
+    protože aleluja českých liturgických knih nemá na hranici slabik
+    sousedící souhlásky \italic{al-le-}
+  }
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      c4 c c( d) \[ c( b \] \[ c d c) \] \barMin
+      \mark\sipka a( c) c( b a g) a f
+      a b( a) g g \barFinalis
+    }
+    \addlyrics {
+      A -- le -- lu -- ja,_*
+      a -- le -- lu -- ja,
+      a -- le -- lu -- ja.
+    }
+    \header {
+      quid = "ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = ""
+      fons_externus = "AR1912, 29"
       id = "sexta"
       piece = \markup {\sestavTitulekBezZalmu}
     }

@@ -192,7 +192,7 @@
     \relative c'' {
       \choralniRezim
       c4 c c( d) \[ c( b \] \[ c d c) \] \barMin
-      a( \grace c) c( b a g) a f
+      a( c) c( b a g) a f
       a b( a) g g \barFinalis
     }
     \addlyrics {
