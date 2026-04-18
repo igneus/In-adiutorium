@@ -594,6 +594,39 @@ myDescendens = #(define-music-function (note)
     }
   }
 
+  \score {
+    \relative c' {
+      \choralniRezim
+
+      %R
+      \neviditelna d
+      f4 f \mark\sipka f g f f f e g a \barMax
+      \respVIalelujaResponsum \barFinalis
+
+      %V
+      \neviditelna f
+      f f f f f f e g a a \barMax
+      \neviditelna d
+      \respVIalelujaResponsum \barFinalis
+
+      % Slava
+      \respVIalelujaDoxologie \barFinalis
+    }
+    \addlyrics {
+      \Response Pán se u -- ká -- zal svým u -- če -- dní -- kům._*
+      \textRespAleluja
+      \Verse Vi -- dě -- li ho a ra -- do -- va -- li se.
+      \Response \textRespAleluja
+      \textRespDoxologie
+    }
+    \header {
+      quid = "resp."
+      modus = "VI"
+      id = "ferie-ne"
+      piece = "pondělí až první nešpory neděle - nešpory (VI)"
+    }
+  }
+
 }
 %{
 \score {

@@ -1685,6 +1685,50 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d c d d( c) c \barMaior
+    c a c b( g) \barMin g a( g) f( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus je stej -- ný_*
+    vče -- ra i dnes i na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 11"
+    id = "t2-ct"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g a f f( g) g \barMaior
+    a g f e( f) d c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš Kris -- tus je stej -- ný_*
+    vče -- ra i dnes i na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Zj 11"
+    id = "t2-ct"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %velikTIIpatekNespAntIII =
