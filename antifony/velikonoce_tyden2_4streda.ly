@@ -104,7 +104,7 @@
     \choralniRezim
     g4 a a( c) c \barMin
     c( d) c b a g a \barMaior
-    a c( d) d( c) c \barMin
+    c d( c) d d( c) \barMin
     c c b c a g( a g4.) g4 \barMaior
     a g f( g) g \barFinalis
   }
