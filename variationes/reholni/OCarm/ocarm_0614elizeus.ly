@@ -194,6 +194,48 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g f g( a g) g \barMaior
+    f g a g a c c \barMin
+    \mark\sipka c c c b c a( g) f f g a g g \barFinalis
+  }
+  \addlyrics {
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 c b a a c( d e d) d \barMaior
+  }
+  \addlyrics {
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d f d c f( g a) a \barMaior
@@ -231,6 +273,50 @@
     quid = "2. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g( a g) g \barMaior
+    a bes a g f g g \barMin
+    g g g f g f( e) d c e f d d \barFinalis
+  }
+  \addlyrics {
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g( a g) g \barMaior
+    a bes a g f g g \barMin
+    g g g f g \mark\sipka g( a) g f g a f f \barFinalis
+  }
+  \addlyrics {
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
