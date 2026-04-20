@@ -355,10 +355,33 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c d c d d( e) d d \barMin
     c d c b a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci po -- zna -- li Je -- ží -- še
+    při lá -- má -- ní chle -- ba.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "iiimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c d c d d( e) d d \barMin
+    \mark\sipka c b a c b( a) g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
