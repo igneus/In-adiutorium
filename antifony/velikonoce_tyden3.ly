@@ -163,7 +163,7 @@
     \choralniRezim
     g4 e g a a g \barMin
     a b g a g f e \barMaior
-    f g e e \barFinalis
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din kra -- lu -- je,

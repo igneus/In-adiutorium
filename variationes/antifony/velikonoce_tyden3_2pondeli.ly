@@ -1014,7 +1014,7 @@ závěr je ten na "\"volní\"" a ten na Aleluja je falešný.
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 e g a a g \barMin
     a b g a( g f) e \barMaior
@@ -1042,6 +1042,32 @@ závěr je ten na "\"volní\"" a ten na Aleluja je falešný.
     g4 e g a a g \barMin
     a b g \mark\sipka a( g) f( e) \barMin
     f g e e \barFinalis
+  }
+  \addlyrics {
+    Léč -- ka se pře -- trh -- la_*
+    a my jsme vol -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 124"
+    fial = "antifony/velikonoce_tyden3.ly#ne-rch-a1?zacatek=6&konec=4"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 e g a a g \barMin
+    a b g a( g f) e \barMaior
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*

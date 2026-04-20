@@ -131,6 +131,30 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a a g( a) a( c) c \barMin
+    d e d c d( e) d d \barMaior
+    d c b a \mark\sipka c a( g) g \barMin
+    f( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je po -- vzne -- sen
+    na -- de všech -- na ne -- be -- sa,
+    sla -- bé -- ho zdvi -- há z_pra -- chu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 113"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a a g( a) \mark\sipka c( d) d \barMin
     c d e c d( e) d d \barMaior
     d c b a g a( g) g \barMin
@@ -832,9 +856,36 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e d) c( d) \barMaior
+    a a g a g f \barMin a g a( g) f \barMaior
+    a g f \mark\sipka a( c) c c \barMaior
+    c b c( d c) a \barMin a g( a g) f f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Ká -- men byl od -- va -- len,
+    a -- le -- lu -- ja.
+    Od vcho -- du do hrob -- ky.
+    A -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Aleluja. Kámen od vchodu do hrobky byl odvalen. Aleluja."
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 145-I"
+    id = "ne-mc-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\justify{
-  Latinská antifona (\italic{Alleluia Quem quaeris, mulier}) kombinuje J 20, 15 a Lk 24, 5;
-  v DMC je čistý citát z Lk 24, 5.
+  Latinská antifona (\italic{Alleluia Quem quaeris, mulier})
+  kombinuje \make-bible-link "Jan 20, 15" a \make-bible-link "Lk 24, 5" ;
+  v DMC je čistý citát z \make-bible-link "Lk 24, 5" .
 }
 \score {
   \relative c'' {
@@ -842,6 +893,32 @@
     c4 c d( e d) c( d) \barMaior
     a a a a g a( g) f \barMin a g a( g) f \barMaior
     a g a c c \barMaior
+    c b c( d c) a \barMin a g( a g) f f \barFinalis
+  }
+  \addlyrics {
+    A -- le -- lu -- ja.
+    Proč hle -- dá -- te ži -- vé -- ho,
+    a -- le -- lu -- ja.
+    Me -- zi mrt -- vý -- mi?
+    A -- le -- lu -- ja, a -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Aleluja. Proč hledáte živého mezi mrtvými? Aleluja."
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 145-II"
+    id = "ne-mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d( e d) c( d) \barMaior
+    a a a \mark\sipka g a g f \barMin a g a( g) f \barMaior
+    a g \mark\sipka f a( c) c \barMaior
     c b c( d c) a \barMin a g( a g) f f \barFinalis
   }
   \addlyrics {
@@ -894,10 +971,34 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 e g a a g \barMin
     a b g a g f e \barMaior
     f g e e \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din kra -- lu -- je,
+    o -- děl se ve -- leb -- nos -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 93"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 e g a a g \barMin
+    a b g a g f e \barMaior
+    \mark\sipka f f( g) e e \barFinalis
   }
   \addlyrics {
     Hos -- po -- din kra -- lu -- je,
@@ -952,6 +1053,32 @@
     a a( c) b c a g g( a g) \barMin
     g f d f( g) a g g \barMaior
     f \mark\sipka g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Tvor -- stvo bu -- de vy -- svo -- bo -- ze -- no
+    z_po -- ro -- by po -- ru -- še -- ní
+    a do -- sáh -- ne svo -- bo -- dy
+    ve slá -- vě Bo -- žích dě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a g a c c \barMin
+    c c c d c a a \barMaior
+    a a( c) \mark\sipka b( a g4.) g4 \barMin a( g) f( g) g \barMaior
+    g f d f( g) a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Tvor -- stvo bu -- de vy -- svo -- bo -- ze -- no
@@ -1342,6 +1469,28 @@
     c4 c c b( a g) g a \mark\sipka a g( a) g \barMin
     a a f( e) d
     f g g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se -- slal vy -- kou -- pe -- ní
+    své -- mu li -- du.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 111"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b( a g) g a a g( a) g \barMin
+    \mark\sipka f g a a
+    a( c) b g g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din se -- slal vy -- kou -- pe -- ní

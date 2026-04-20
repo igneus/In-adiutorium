@@ -105,7 +105,7 @@
     \choralniRezim
     g4 e g a a g \barMin
     a b g a( g f) e \barMaior
-    f g e e \barFinalis
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Léč -- ka se pře -- trh -- la_*
