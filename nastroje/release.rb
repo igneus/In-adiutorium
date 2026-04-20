@@ -131,8 +131,8 @@ class ReleaseCLI < Thor
     # TODO list TeX and external files which must be handled manually
     do_command upload_command(exist(repo.pdf_to_upload, exception: options[:must_exist]), 'public/materialy')
 
-    do_command upload_command [repo.novinky_path]
-    do_command upload_command [repo.knihovna_path], 'public'
+    do_command upload_command [repo.novinky_path], is_output: false
+    do_command upload_command [repo.knihovna_path], 'public', is_output: false
   end
 
   private
@@ -158,10 +158,10 @@ class ReleaseCLI < Thor
     end
   end
 
-  def upload_command(pdf_paths, dest_dir = '')
+  def upload_command(pdf_paths, dest_dir = '', is_output: true)
     'rsync ' +
       pdf_paths
-        .collect { |f| output_dir ? File.join(output_dir, File.basename(f)) : f }
+        .collect { |f| (is_output && output_dir) ? File.join(output_dir, File.basename(f)) : f }
         .join(' ') +
       ' ' + (UPLOAD_DESTINATION || raise('please define UPLOAD_DESTINATION')) +
       '/' + dest_dir
