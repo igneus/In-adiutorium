@@ -1437,6 +1437,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b a c( d) d d \barMaior
+    \mark\sipka d e( f) d( c) c \barMin
+    b c a g( a) g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus o -- čis -- til svět od hří -- chu
+    a za -- se -- dl
+    po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2187,6 +2211,78 @@
     To je sku -- tek, kte -- rý žá -- dá Bůh,
     a -- by -- ste vě -- ři -- li v_to -- ho,
     ko -- ho on po -- slal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c a g a g f( g) \barMaior
+    a b c c d c a a \barMin
+    c \mark\sipka b a g g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    To je sku -- tek, kte -- rý žá -- dá Bůh,
+    a -- by -- ste vě -- ři -- li v_to -- ho,
+    ko -- ho on po -- slal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c a g a g f( g) \barMaior
+    a b c c d c a a \barMin
+    c b a \mark\sipka g( a g) f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    To je sku -- tek, kte -- rý žá -- dá Bůh,
+    a -- by -- ste vě -- ři -- li v_to -- ho,
+    ko -- ho on po -- slal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( c) c a g a g f( g) \barMaior
+    a b c \mark\sipka c( d) c c \barMin
+    c a b( c) a a g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    To je sku -- tek, kte -- rý žá -- dá Bůh,
+    a -- by -- ste vě -- ři -- li
+    v_to -- ho, ko -- ho on po -- slal.
     A -- le -- lu -- ja.
   }
   \header {
