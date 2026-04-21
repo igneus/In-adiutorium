@@ -26,6 +26,7 @@ velikTIpondeliNespAntIII = \score {
     modus = "IV"
     differentia = "E"
     psalmus = "Ef 1"
+    placet = "3 závěr únavný"
     id = "t1-po"
     fial = "antifony/pust_nedeleB.ly#vmag2?+aleluja"
     piece = \markup {\sestavTitulek}
