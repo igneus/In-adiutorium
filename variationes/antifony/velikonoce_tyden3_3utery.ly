@@ -707,6 +707,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \key f \major
+    \choralniRezim
+    \mark\sipka d4 d d( a' bes) a a g a( bes) a a \barMaior
+    a a g f g f d f e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ze -- mě vy -- da -- la svou ú -- ro -- du;_*
+    nechť se li -- dé ra -- du -- jí a já -- sa -- jí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 67"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -1419,6 +1442,26 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    f4 \mark\sipka f( g) \barMin a a g f \mark\sipka g f d( c) c \barMaior
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 d e d c \mark\sipka b c a g g \barMin
@@ -1606,6 +1649,26 @@
     \choralniRezim
     f4 g a a a a g f g( f) f \barMin
     d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g f f \barMin d f g g
+    a g f f \barFinalis
   }
   \addlyrics {
     Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
