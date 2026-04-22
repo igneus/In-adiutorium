@@ -310,15 +310,29 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 f d d c f g g( a) a \barMin
+    a( c) a a \barMin a a g f g( f) d( c) c \barMaior
+    d d d( f) e d( e) d d \barMin
+    f f g a a a a c b a a \barMin
+    a f g a a g f d( c) c \barMaior
+    d d d( f) e d( c) c \barMin
+    f g g( a) a c b c a a \barMin
+    a( g f) e( f) d c c d d \barFinalis
   }
   \addlyrics {
-    Elizeus dnes na Karmelu velebí Hospodina zástupů; ústy svého proroka Hospodin sesazuje mocné z trůnu a povyšuje ponížené. Sláva tobě, Pane, jenž jsi přijal Božího muže do království pokoje.
+    E -- li -- ze -- us dnes na Kar -- me -- lu
+    ve -- le -- bí Hos -- po -- di -- na zá -- stu -- pů;
+    ús -- ty své -- ho pro -- ro -- ka
+    Hos -- po -- din se -- sa -- zu -- je moc -- né z_trů -- nu
+    a po -- vy -- šu -- je po -- ní -- že -- né.
+    Slá -- va to -- bě, Pa -- ne,
+    jenž jsi při -- jal Bo -- ží -- ho mu -- že
+    do krá -- lov -- ství po -- ko -- je.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}

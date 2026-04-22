@@ -795,7 +795,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyIII
+    \zvyraznovacModry
     \choralniRezim
     d4 f d d c f g g( a) a \barMin
     a( c) a a \barMin a a g f g( f) d( c) c \barMaior
