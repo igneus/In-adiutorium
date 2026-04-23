@@ -32,7 +32,9 @@
 
   }
   \addlyrics {
-    Pojďme, klaňme se Hospodinu, který skrze proroky vykonal podivuhodné činy.
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
+    kte -- rý skr -- ze pro -- ro -- ky
+    vy -- ko -- nal po -- di -- vu -- hod -- né či -- ny.
   }
   \header {
     quid = "ant."
@@ -195,6 +197,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 a a g f g( a g) g \barMaior
     f g a g a c c \barMin

@@ -72,17 +72,21 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a a g f g( a g) g \barMaior
+    f g a g a c c \barMin
+    c c c b c a( g) f f g a g g \barFinalis
   }
   \addlyrics {
-    Když hudebník hrál žalmy, byla nad Elizeem Hospodinova ruka a prorokoval.
+    Když hu -- deb -- ník hrál žal -- my,
+    by -- la nad E -- li -- ze -- em
+    Hos -- po -- di -- no -- va ru -- ka a pro -- ro -- ko -- val.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
