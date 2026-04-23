@@ -2889,10 +2889,69 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c f g f( a) a \barMin
     a \mark\sipka g f g( a) g \barMaior
+    a a a g( f d) d \barMin
+    f e c d c \barMin
+    f e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, kdo vi -- dí Sy -- na
+    a vě -- ří v_ně -- ho,
+    má ži -- vot věč -- ný
+    a já ho vzkří -- sím v_den po -- sled -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Každý, kdo vidí Syna a věří v něho,
+    má život věčný a já ho vzkřísím v poslední den. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a g f \mark\sipka g( a g) g \barMaior
+    a a a g( f d) d \barMin
+    f e c d c \barMin
+    f e d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, kdo vi -- dí Sy -- na
+    a vě -- ří v_ně -- ho,
+    má ži -- vot věč -- ný
+    a já ho vzkří -- sím v_den po -- sled -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Každý, kdo vidí Syna a věří v něho,
+    má život věčný a já ho vzkřísím v poslední den. Aleluja."
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f g f( a) a \barMin
+    a \mark\sipka b( c a) g g( a) a \barMaior
     a a a g( f d) d \barMin
     f e c d c \barMin
     f e d d \barMaior
@@ -2974,6 +3033,33 @@
     differentia = "a"
     psalmus = ""
     fial = "commune/zazemrele.ly#ne-amag?+aleluja"
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a bes a g f g g( a) a \barMaior
+    g( a) g f( d) d \barMax
+    d d c( d) d f( e f g) g \barMaior
+    \mark\sipka a a g f e f d d \barMin
+    e4 c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
+    při -- jde ke mně,
+    a kdo ke mně při -- jde,
+    to -- ho jis -- tě ne -- od -- mít -- nu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "commune/zazemrele.ly#ne-amag?cast=1-3"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
