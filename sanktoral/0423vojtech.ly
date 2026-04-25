@@ -139,8 +139,8 @@
     d4 e f( d) d \barMin
     c d e d d \barMaior
     d f e f( g) g \barMin
-    g g g a g f e( f) d( c) c \barMin
-    d d c d f e f d c \barMin
+    g g g a g f e( f) d( c) c \barMaior
+    d d c d f e f d d( c) \barMin
     d f e c( d) d \barMaior
     e f d( c) d \barFinalis
   }
