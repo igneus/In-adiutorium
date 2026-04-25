@@ -98,10 +98,10 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
-    g f e( f) d d \barMaior
+    a4 a g a c( b) a a \barMin c b c a g g a a \barMaior
+    g f e( f) d d \barMin
     e d c( d) d \barFinalis
   }
   \addlyrics {
@@ -116,7 +116,7 @@
     differentia = "a"
     psalmus = "Žalm 135-II"
     id = "ne-a2"
-    fial = "pust_svatytyden.ly#ne-rch-aben-B?+aleluja&konec=23"
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?cast=1-2,3"
     piece = \markup {\sestavTitulek}
   }
 }

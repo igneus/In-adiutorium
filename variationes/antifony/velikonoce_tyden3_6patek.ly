@@ -1290,7 +1290,7 @@ funkční, je nevyvážená.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a'4 a g a c( b) a a \barMin c b c a g g a a \barMin
     g f e( f) d d \barMaior
@@ -1309,6 +1309,34 @@ funkční, je nevyvážená.}
     psalmus = "Žalm 135-II"
     id = "ne-a2"
     fial = "pust_svatytyden.ly#ne-rch-aben-B?+aleluja&konec"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (divisiones)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a c( b) a a \barMin c b c a g g a a \barMaior
+    g f e( f) d d \barMin
+    e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na né krá -- lov -- ství_*
+    na -- še -- ho ot -- ce Da -- vi -- da,
+    kte -- ré při -- chá -- zí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 135-II"
+    id = "ne-a2"
+    fial = "pust_svatytyden.ly#ne-rch-aben-B?cast=1-2,3"
     piece = \markup {\sestavTitulek}
   }
 }
