@@ -462,9 +462,9 @@
   \relative c'' {
     \choralniRezim
     g4 a a( c) c \barMin
-    d( a) a \barMin
-    b c( a) g f g( a g) g \barMaior
-    f g( a) g4 g \barFinalis
+    d( e) d \barMaior
+    c d( e) d c a g
+    f a g g \barFinalis
   }
   \addlyrics {
     Zve -- dl ru -- ce,
@@ -474,10 +474,9 @@
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "VIII"
-    differentia = "G"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "2 slabší"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }

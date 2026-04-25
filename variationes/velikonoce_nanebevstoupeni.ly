@@ -3513,7 +3513,7 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 a a( c) c \barMin
     d( a) a \barMin
@@ -3567,6 +3567,31 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     d( a) a \barMaior
     \mark\sipka a b( c) a a g f
     g a g g \barFinalis
+  }
+  \addlyrics {
+    Zve -- dl ru -- ce,
+    žeh -- nal
+    a vzná -- šel se k_ne -- bi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a a( c) c \barMin
+    \mark\sipka d( c d) d( c) \barMaior
+    a b( c) a g g( a g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Zve -- dl ru -- ce,
@@ -3663,6 +3688,31 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     d( e) d \barMaior
     d c( d) c b \mark\sipka c a
     g f g g \barFinalis
+  }
+  \addlyrics {
+    Zve -- dl ru -- ce,
+    žeh -- nal
+    a vzná -- šel se k_ne -- bi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d( e) d \barMaior
+    \mark\sipka c d( e) d c a g
+    f a g g \barFinalis
   }
   \addlyrics {
     Zve -- dl ru -- ce,
