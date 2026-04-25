@@ -30,7 +30,7 @@ OptionParser.new do |opts|
 
   opts.separator 'Output'
   opts.on '-v', '--verbose', 'verbose output' do
-    verbose = 1
+    verbose = (verbose || 0) + 1
   end
   opts.on '--very-verbose', 'very verbose output' do
     verbose = 2
