@@ -30,10 +30,7 @@ OptionParser.new do |opts|
 
   opts.separator 'Output'
   opts.on '-v', '--verbose', 'verbose output' do
-    verbose = (verbose || 0) + 1
-  end
-  opts.on '--very-verbose', 'very verbose output' do
-    verbose = 2
+    verbose = true
   end
   opts.on '-x', '--xargs', 'output score FIALs arranged in a way suitable for being fed to xargs' do
     xargs = true
@@ -60,15 +57,18 @@ end
 
 found = 0
 ARGV.each do |path|
-  if verbose
-    puts "= #{path}"
-    puts
-  end
+  found_in_path = false
 
   Lyv::LilyPondMusic.new(path).scores.each do |score|
     id = score.header['id']
+
     if matches_conditions.call(score)
       found += 1
+      if verbose && !found_in_path
+        puts "= #{path}"
+        puts
+        found_in_path = true
+      end
 
       if xargs
         puts "#{path}##{id}"
@@ -76,14 +76,15 @@ ARGV.each do |path|
         puts "#{path}##{id} #{score.lyrics_readable}"
       end
 
-      if verbose && verbose > 1
+      if verbose
+        puts
         puts score.text
         puts
       end
     end
   end
 
-  puts if verbose
+  puts if verbose && found_in_path
 end
 
 unless xargs
