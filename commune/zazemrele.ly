@@ -481,10 +481,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a bes a g f g g( a) a \barMaior
-    g( a) g f( d) d \barMax
+    a4 a bes a g f g g( a) a \barMin
+    g( a) g f( d) d \barMaior
     d d c( d) d f( e f g) g \barMaior
-    a g f( d) d f e d4. d \barFinalis
+    a g f( d) d f e d d \barFinalis
   }
   \addlyrics {
     Kaž -- dý, ko -- ho mi O -- tec dá -- vá,

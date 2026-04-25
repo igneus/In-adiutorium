@@ -441,10 +441,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a bes a g f g g( a) a \barMaior
-    g( a) g f( d) d \barMax
+    a4 a bes a g f g g( a) a \barMin
+    g( a) g f( d) d \barMaior
     d d c( d) d f( e f g) g \barMaior
-    a g f( d) d f e d4. d \barMaior
+    a g f( d) d f e d d \barMaior
 
     e4 f d( c) d \barFinalis
   }

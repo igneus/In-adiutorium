@@ -2452,6 +2452,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a bes a g f g g( a) a \barMaior
     g( a) g f( d) d \barMax
@@ -2480,6 +2481,35 @@
     a4 a bes a g f g g( a) a \barMin
     g( a) g f( d) d \barMaior
     d d c( d) d f( e f g) g \barMin
+    a g f( d) d f e d d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
+    při -- jde ke mně,
+    a kdo ke mně při -- jde,
+    to -- ho jis -- tě ne -- od -- mít -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Není to tak hezky symetrické, ale už léta to zpívám
+  a spádu melodie to nejlépe odpovídá takhle:)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a bes a g f g g( a) a \barMin
+    g( a) g f( d) d \barMaior
+    d d c( d) d f( e f g) g \mark\sipka \barMaior
     a g f( d) d f e d d \barFinalis
   }
   \addlyrics {
