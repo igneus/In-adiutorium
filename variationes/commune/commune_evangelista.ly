@@ -1017,6 +1017,42 @@
 
     % R
     \neviditelna f
+    f4 f f( g) f f \barMin f f f f f f g f g( a) a( g) \barMax
+    f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a( bes) a a \barMin
+    a a a \mark\sipka g a g g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Vy -- pra -- vo -- va -- li o slav -- ných
+    Hos -- po -- di -- no -- vých či -- nech_*
+    a o je -- ho mo -- ci.
+    \Verse Mlu -- vi -- li
+    o je -- ho po -- di -- vu -- hod -- ných skut -- cích_*
+    \Response a o je -- ho mo -- ci.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
     f4 f f f f \mark\sipka g f f \barMin f f g f g g( a) a( g) \barMax
     f d f g g( f) f \barFinalis
     % V

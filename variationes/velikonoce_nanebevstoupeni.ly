@@ -3229,6 +3229,50 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka b c d( c e d) d \barMin
+    e f e d c b( c) a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Svou ve -- leb -- nos -- tí
+    pře -- vý -- šils, Bo -- že, ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 b c d( c e d) d \barMin
+    e f e d c \mark\sipka d( c) a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Svou ve -- leb -- nos -- tí
+    pře -- vý -- šils, Bo -- že, ne -- be -- sa.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 c d f( g) g \barMin
@@ -3418,6 +3462,28 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     \choralniRezim
     c4 c c( a) a c b a g g \barMaior
     f g a a a( c) b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vy -- šel od Ot -- ce z_ne -- be
+    a vrá -- til se k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c b g b( c) a a g g \barMaior
+    f g a g a( c) b \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {

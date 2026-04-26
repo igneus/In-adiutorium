@@ -110,8 +110,79 @@
     \choralniRezim
     d4( f) f \barMin
     d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    f4 f f( e d c) d4.( c) \barMin d4 f \mark\sipka f g g \barMin
+    f d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#invit?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    f4 f f( e d c) d4.( c) \barMin \mark\sipka bes4 c c d d \barMin
+    f e d4. d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "pust_svatytyden.ly#invit?cast=1-3"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
     \mark\sipka c4 d f( g f e) d4.( c) \barMin d4 f e( f) d d \barMaior
     c d f( e d e) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on k_nám mlu -- ví v_e -- van -- ge -- li -- u.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k invitatoriu"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    d( f) f f f( g) g \barMin f( g) f e d4. d \barMaior
+    c4 d \mark\sipka f f g f e d d \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
