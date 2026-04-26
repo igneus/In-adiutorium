@@ -36,8 +36,8 @@
     \choralniRezim
     a4( d) d \barMin
     c d c b c4.( d) \barMin c4 d( e d) d \barMaior
-    d d c( d) c( b) a( g) g \barMaior
-    f g a( g) g \barFinalis
+    d d c( d) c( b) a( g) g \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Bo -- že,_*
