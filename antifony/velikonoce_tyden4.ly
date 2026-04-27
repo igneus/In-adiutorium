@@ -83,8 +83,8 @@
   \relative c'' {
     \choralniRezim
     c4 a a c b c d d( c) \barMaior
-    g b c a a \barMin b c a a g f f( g) g \barMaior
-    f g( a) g g \barFinalis
+    g b c a a \barMin b c a a g f g a
+    a a g g \barFinalis
   }
   \addlyrics {
     Ne -- ze -- mřu, a -- le bu -- du žít

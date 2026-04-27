@@ -496,11 +496,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 a a c b c d d( c) \barMaior
     g b c a a \barMin b c a a g f f( g) g \barMaior
     \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- ze -- mřu, a -- le bu -- du žít
+    a vy -- pra -- vo -- vat o Hos -- po -- di -- no -- vých či -- nech.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 118"
+    id = "ne-rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 a a c b c d d( c) \barMaior
+    g b c a a \barMin b c a a g f \mark\sipka g a
+    a a g g \barFinalis
   }
   \addlyrics {
     Ne -- ze -- mřu, a -- le bu -- du žít
@@ -603,6 +626,50 @@
     quid = "2. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Dan 3-II"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 e d c \barMin
+    bes c d f e c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- né
+    je tvé slav -- né sva -- té jmé -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-II"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a g \barMin
+    f g a c b g \mark\sipka a( c) b \barMin
+    c a g( f) g \barFinalis
+  }
+  \addlyrics {
+    Po -- žeh -- na -- né
+    je tvé slav -- né sva -- té jmé -- no.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Dan 3-II"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
