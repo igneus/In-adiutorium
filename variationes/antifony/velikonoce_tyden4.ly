@@ -1015,6 +1015,33 @@
     g4 a c c c( d) d \barMin
     c d e c d d \barMaior
     a4 d c( b a) a \barMin
+    \mark\sipka c b a g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    U -- si -- luj -- te o to,
+    co po -- chá -- zí shů -- ry,
+    kde je Kris -- tus
+    po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    fial = "antifony/velikonoce_tyden2_3utery.ly#ne-a1?zacatek"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c c( d) d \barMin
+    c d e c d d \barMaior
+    a4 d c( b a) a \barMin
     \mark\sipka c c c g( a) g f
     g a a( g) g \barFinalis
   }
@@ -1282,6 +1309,28 @@
     a b d d d( b d a) a \barMin
     g a a( b) a \mark\sipka g g g \barMaior
     a b( a) g g \barFinalis
+  }
+  \addlyrics {
+    Spra -- ved -- li -- vý zá -- ří
+    ja -- ko svět -- lo v_tem -- no -- tách.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "b"
+    psalmus = "Žalm 112"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c d( c e d) d \barMaior
+    d c d( e) d c b a( g) \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- vý zá -- ří
