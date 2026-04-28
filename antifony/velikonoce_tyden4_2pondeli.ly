@@ -10,8 +10,8 @@
     \choralniRezim
     c4 d d c c \barMin
     b c a g a( c) b \barMaior
-    c c c a g
-    a g f( g) g \barFinalis
+    a b c a g
+    f a g g \barFinalis
   }
   \addlyrics {
     Ať je nad ná -- mi_*

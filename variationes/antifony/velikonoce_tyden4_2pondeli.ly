@@ -218,12 +218,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d c c \barMin
     b c a g a( c) b \barMaior
     c c c a g
     \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať je nad ná -- mi_*
+    do -- bro -- ti -- vost Pá -- na,
+    na -- še -- ho Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 90"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d c c \barMin
+    b c a g a( c) b \barMaior
+    \mark\sipka a b c a g
+    f a g g \barFinalis
   }
   \addlyrics {
     Ať je nad ná -- mi_*
@@ -1048,6 +1073,31 @@
     A -- le -- lu -- ja.
   }
   \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 136-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 e d f( g) g \barMaior
+    a g f g f4. d \barMin
+    f4 g g f \barMaior
+    g a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Mi -- luj -- me Bo -- ha,_*
+    pro -- to -- že on dří -- ve
+    mi -- lo -- val nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Milujme Boha, protože on napřed miloval nás. Aleluja."
     quid = "2. ant."
     modus = "VI"
     differentia = "F"
