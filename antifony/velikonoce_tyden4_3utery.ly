@@ -36,7 +36,7 @@
     b( d) d \barMin
     d d( e) d d c b c( d) c( b) a \barMaior
     g a b a a( g) g \barMin
-    a b g g \barFinalis
+    a a( b) g g \barFinalis
   }
   \addlyrics {
     Bo -- že,_*

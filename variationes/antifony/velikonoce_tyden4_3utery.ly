@@ -237,7 +237,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     b( d) d \barMin
     \mark\sipka d d( e) d d c b \mark\sipka c( d) c( b) a \barMaior
@@ -262,6 +262,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     b( d) d \barMin
     d d( e) d d c b c( d) c( b) a \barMaior
@@ -277,7 +278,7 @@
   \header {
     quid = "2. ant."
     modus = "VII"
-    differentia = "b"
+    differentia = "h"
     psalmus = "Dan 3-II"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -435,6 +436,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a c d c a a \barMin
+    c b a( b) g g \barMin
+    \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
+    a můj za -- chrán -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 144-I"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup{
   (Druhý díl ze starší verze výše)
 }
@@ -506,6 +529,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g a c b a a \barMaior
+    c c b( a) g g \barMin
+    \mark\sipka f g g( a) a \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
+    a můj za -- chrán -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 144-I"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d d d c d d( f) f \barMin
@@ -521,6 +566,28 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
+    psalmus = "Žalm 144-I"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g a g f g g( a) a \barMin
+    c b a( b) g g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je mé ú -- to -- čiš -- tě_*
+    a můj za -- chrán -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 144-I"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
