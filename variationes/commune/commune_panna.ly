@@ -3752,6 +3752,32 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g g( a) a \barMin a g f g( a g) g \barMaior
+    a g f e( f) d d f \mark\sipka e f f( g) g \barMaior
+    a-- g f e c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    To -- bě jsem za -- svě -- ti -- la ce -- lý svůj ži -- vot,
+    to -- bě jdu na -- pro -- ti s_ho -- ří -- cí lam -- pou,
+    můj Že -- ni -- chu, Kris -- te.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
