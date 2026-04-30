@@ -20,13 +20,13 @@
   }
 }
 
-\markup\justify {
+\markup\justify\small {
   Nápěv podle velikonočních krátkých responsorií;
   kratší responsum podle velikonočních antifon modelu
   \italic{Pax vobis, ego sum} (srov. AR1912 390).
   Převzat z webu
   \with-url "http://www.kleingraduale.nl/LiturgiaHorarum/" {
-    \italic {Liturgia horarum in cantu gregoriano} (http://www.kleingraduale.nl/LiturgiaHorarum/).
+    \italic {Liturgia horarum in cantu gregoriano} (kleingraduale.nl/LiturgiaHorarum/).
   }
   Srov. též \italic{Antiphonale Romanum II,} Solesmes 2009, s. 457 a par.
   Aleluja na začátku veršů, v latinských zpěvnících vynechané (proto zde v závorkách),
@@ -144,7 +144,7 @@ alal = \lyricmode { \Response A -- le -- lu -- ja, a -- le -- lu -- ja. }
 
 %%%
 
-\markup\justify {
+\markup\justify\small {
   Podle velikonočních antifon modelu
   \italic{Alleluia, Lapis revolutus est.}
   Srov. \italic{Antiphonale Romanum II,} Solesmes 2009, s. 405.
