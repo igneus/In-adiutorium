@@ -367,7 +367,7 @@
     g4 g( c) a( g) a \barMin
     g f g a a( g) g \barMaior
     a b c c( d c) b( a) a \barMaior
-    c c a g a( g) \barMin
+    c b a g a( g) \barMin
     g f g a f g( a g) g \barMaior
     f g( a) g g \barFinalis
   }
