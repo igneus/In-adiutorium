@@ -31,7 +31,7 @@
   \relative c'' {
     \choralniRezim
     a4 g e g a a \barMaior
-    a g a b a g a g e e \barMin
+    a a a g e e f g e e \barMin
     f d d( e) e \barFinalis
   }
   \addlyrics {
@@ -52,7 +52,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 f f e( f) d d f g a g \barMaior
+    f4 e d c( d) c c f g a g \barMaior
     a a f g d \barMin
     c d f f e c
     e f d d \barFinalis
@@ -66,7 +66,7 @@
   \header {
     quid = "3. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "f"
     psalmus = "Žalm 147-I"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
