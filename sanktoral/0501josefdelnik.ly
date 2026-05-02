@@ -71,9 +71,9 @@
     \choralniRezim
     f4 f g g( a) a \barMin
     a g f g a a g g \barMaior
-    a a g f e( f) d( c) c \barMin
+    a a g f e( f) d d \barMin
     c d f f
-    g a f f \barFinalis
+    g a g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,

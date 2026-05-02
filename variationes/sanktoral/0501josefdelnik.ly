@@ -938,13 +938,41 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g g( a) a \barMin
     a g f g a a g g \barMaior
     a a g f e( f) d( c) c \barMin
     c d f f
     g a f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus, Syn Bo -- ží,
+    vy -- růs -- tal v_do -- mě děl -- ní -- ka
+    a ne -- chal se na -- zý -- vat
+    je -- ho sy -- nem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "antifony/tyden3_4streda.ly#mc-ant2?zacatek=6"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g( a) a \barMin
+    a g f g a a g g \barMaior
+    a a g f e( f) \mark\sipka d d \barMin
+    c d f f
+    g a \mark\sipka g( f) f \barFinalis
   }
   \addlyrics {
     Kris -- tus, Syn Bo -- ží,
