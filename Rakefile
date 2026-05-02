@@ -249,3 +249,8 @@ task :spec do
      'nastroje/spec',
      'antifonar/skripty/spec'
 end
+
+desc "Open sheet music for today's day hours"
+task :pray do
+  ruby 'nastroje/pray.rb'
+end
