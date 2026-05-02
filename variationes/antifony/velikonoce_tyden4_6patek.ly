@@ -132,11 +132,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a) c b c c \barMin c( d) e d( c) d \barMaior
     d c( b) a( g a) g \barMin a g f g( a g) g \barMaior
     \mark\sipka f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- ru -- za -- lé -- me,_* měs -- to Bo -- ží,
+    bu -- deš zá -- řit ve -- li -- kým svět -- lem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Tob 13"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (jen rytmické znaménko)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) c b c c \barMin c( d) e d( c) d \barMaior
+    d c( b) a( g a4.) g4 \barMin a g f g( a g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- ru -- za -- lé -- me,_* měs -- to Bo -- ží,
@@ -589,6 +615,29 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Žalm 145-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 e f g g e \barMin
+    e e d d c d e f e d e e \barMaior
+    a g f( g f) e \barFinalis
+  }
+  \addlyrics {
+    Tak Bůh mi -- lo -- val svět,_*
+    že dal své -- ho jed -- no -- ro -- ze -- né -- ho Sy -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 145-I"
+    fial = "antifony/pust_nedeleB.ly#ivben?cast=1,2"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
