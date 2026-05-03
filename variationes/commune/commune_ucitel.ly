@@ -1103,6 +1103,11 @@
   \relative c' {
     \choralniRezim
     d4( a') a a g f g( a) \barMin a g b( c a) g a a \barMaior
+    a4 a g a a( bes) a \barMin a g f g a g f e e \barMaior
+    c d d( a' bes) a a( c a) g g( a) a \barMaior
+    g( a) f( e) d e( d c) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Moud -- ří se bu -- dou skvít ja -- ko zář ob -- lo -- hy
