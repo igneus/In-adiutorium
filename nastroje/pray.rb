@@ -24,12 +24,20 @@ end
 
 parser = OptionParser.new do |opts|
   opts.on '-d', '--dry-run', 'print command instead of executing it'
+  opts.on '-y', '--yesterday'
+  opts.on '-t', '--tomorrow'
 end
 options = {}
 parser.parse ARGV, into: options
 date =
   ARGV[1]&.yield_self {|x| Date.parse x } ||
-  Date.today
+  if options[:yesterday]
+    Date.today - 1
+  elsif options[:tomorrow]
+    Date.today + 1
+  else
+    Date.today
+  end
 
 
 
@@ -49,33 +57,53 @@ end
 
 
 
-docs = []
 c = celebration
 skip_psalter_on_sunday = lambda {|d| c.sunday? ? d[1..-1] : d }
-if c.cycle == :temporale && (c.sunday? || c.ferial?)
-  docs =
-    case day.season
-    when CR::Seasons::ADVENT
-      %w(antifony.pdf advent_responsoria.pdf advent_antifony.pdf)
-        .yield_self(&skip_psalter_on_sunday)
-    when CR::Seasons::LENT
-      %w(antifony.pdf pust_responsoria.pdf pust_antifony.pdf)
-        .yield_self(&skip_psalter_on_sunday)
-    when CR::Seasons::EASTER
-      %w(velikonoce_zaltar.pdf velikonoce_responsoria.pdf velikonoce_antifony.pdf)
-        .yield_self(&skip_psalter_on_sunday)
-    when CR::Seasons::ORDINARY
-      %w(antifony.pdf responsoria.pdf).yield_self do |d|
-        c.sunday? ? (d + ['mezidobi_nedele.pdf']) : d
+docs =
+  if c.cycle == :temporale
+    if c.symbol == :easter_sunday ||
+       (day.season == CR::Seasons::EASTER && (day.season_week == 1 || (day.season_week == 2 && date.sunday?)))
+      ['velikonoce_velikonocnioktav.pdf']
+    elsif day.season == CR::Seasons::TRIDUUM
+      ['pust_triduum.pdf']
+    elsif day.season == CR::Seasons::LENT && day.season_week == 6
+      ['pust_svatytyden.pdf']
+    elsif c.sunday? || c.ferial?
+      case day.season
+      when CR::Seasons::ADVENT
+        %w(antifony.pdf advent_responsoria.pdf advent_antifony.pdf)
+          .yield_self do |d|
+          if date.day >= 17
+            d[1..-1]
+          else
+            skip_psalter_on_sunday.(d)
+          end
+        end
+      when CR::Seasons::LENT
+        %w(antifony.pdf pust_responsoria.pdf pust_antifony.pdf)
+          .yield_self(&skip_psalter_on_sunday)
+      when CR::Seasons::EASTER
+        %w(velikonoce_zaltar.pdf velikonoce_responsoria.pdf velikonoce_antifony.pdf)
+          .yield_self(&skip_psalter_on_sunday)
+      when CR::Seasons::ORDINARY
+        %w(antifony.pdf responsoria.pdf).yield_self do |d|
+          c.sunday? ? (d + ['mezidobi_nedele.pdf']) : d
+        end
       end
-    else
-      []
     end
-end
+  else
+    propers = Dir[sprintf('sanktoral/%02i%02i*.pdf', c.date.month, c.date.day)]
+    if propers.size == 1
+      # TODO Common + referenced files + psalter as needed
+      # TODO doesn't work well for days with multiple sanctorale celebrations
+      #   and for movable sanctorale celebrations
+      propers
+    end
+  end
 
 
 
-if docs.empty?
+if docs.nil?
   STDERR.puts "Cannot determine sheet music for '#{c}' yet."
 else
   cmd = ['bash', 'nastroje/open.sh', *docs]
