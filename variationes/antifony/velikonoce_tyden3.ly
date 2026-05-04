@@ -541,6 +541,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4( b) g e \barMin e g a a a c b a a b g g( a) a \barMaior
+    e g a a g( a b) a a \barMin \mark\sipka a( b) g e e \barMaior
+    f g a a g f g g e e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Bo -- ží Syn se na -- u -- čil svým u -- tr -- pe -- ním po -- sluš -- nos -- ti,
+    a tak se stal pří -- či -- nou věč -- né spá -- sy
+    pro všech -- ny, kte -- ří ho po -- slou -- cha -- jí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}

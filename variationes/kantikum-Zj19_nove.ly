@@ -275,6 +275,7 @@ modIalal = \relative c' { \neviditelna f f4 g g( a) a \barMin g f e( f d c) d \b
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     a4 a a a a a a a \mark\sipka g( f) g a g \barFinalis
   }
