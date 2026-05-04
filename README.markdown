@@ -13,7 +13,7 @@ http://www.inadiutorium.cz
 License of the music:
 [Creative Commons Attribution Share-Alike 3.0 Unported.](http://creativecommons.org/licenses/by-sa/3.0/deed.en)
 
-Liturgical texts are property of Czech bishops' conference.
+Liturgical texts are property of the Czech Bishops’ Conference.
 
 ## Prerequisites
 
@@ -44,6 +44,9 @@ If you are using [Frescobaldi](https://frescobaldi.org/), there is the
 - `/` chants from the ordinary, psalter and proper of seasons (temporale)
 - `/antifony`, `/invitatoria` partial files for some of the larger materials in `/`
 - `/antifonar` books and larger booklets typeset with LaTeX, pulling in scores from various LilyPond files as needed
+  - `/antifonar/zalmy` all psalms and canticles of Czech Liturgy of the Hours
+    in the format used by [pslm](https://github.com/igneus/pslm)
+    psalm pointing tool
 - `/sesity` booklets for Lauds and Vespers of Sundays and major feasts (one hour per booklet, all proper chants and common tones included)
 - `/commune` chants from the common of saints
 - `/sanktoral` chants from the proper of saints
