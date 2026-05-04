@@ -843,6 +843,31 @@
   }
 }
 
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    e4 d e g( a) a \barMaior
+    a g a b a g a( g e) e \barMin
+    f e d f g g e \barMaior
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Klaň -- me se Pá -- nu:
+    on stvo -- řil ne -- be i ze -- mi,
+    mo -- ře i pra -- me -- ny vod.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Dan 3-III"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1117,9 +1142,32 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a f( g) g \barMaior
+    a b( c) a a \barMin c b a g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Pán vstal z_mrt -- vých
+    a za -- se -- dl po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    placet = "nic moc, zejm. začátek"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4-- \mark\sipka f g( a) a \barMaior
     a b( c) a a \barMin c b a g( a) a( g) g \barMaior
     f g( a) g g \barFinalis
   }
@@ -1140,10 +1188,33 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
-    g4-- \mark\sipka f g( a) a \barMaior
-    a b( c) a a \barMin c b a g( a) a( g) g \barMaior
-    f g( a) g g \barFinalis
+    \mark\sipka g4-- g f a \barMaior
+    a b( c) a a \barMin c b a g( a) \mark\sipka g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pán vstal z_mrt -- vých
+    a za -- se -- dl po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4-- g f a \barMaior
+    a \mark\sipka c( a c) b( g) a \barMin a a a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Pán vstal z_mrt -- vých
@@ -1242,6 +1313,46 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g \barMaior
+  }
+  \addlyrics {
+    Pán vstal z_mrt -- vých
+    a za -- se -- dl po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = ""
+    differentia = ""
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    a4 c c( d) d \barMaior
+  }
+  \addlyrics {
+    Pán vstal z_mrt -- vých
+    a za -- se -- dl po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 110"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}

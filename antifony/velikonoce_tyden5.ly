@@ -160,9 +160,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a f( g) g \barMaior
-    a b( c) a a \barMin c b a g( a) a( g) g \barMaior
-    f g( a) g g \barFinalis
+    g4-- g f a \barMaior
+    a b( c) a a \barMin c b a g( a) g f
+    g( a) a g g \barFinalis
   }
   \addlyrics {
     Pán vstal z_mrt -- vých
@@ -174,7 +174,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 110"
-    placet = "nic moc, zejm. začátek"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }
