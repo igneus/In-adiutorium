@@ -211,8 +211,8 @@
   \relative c' {
     \choralniRezim
     d4 d \barMin
-    f e d c c \barMaior
-    d f d c( d) d \barMax
+    f e f f( g) f
+    e f d c( d) d \barMax
 
     f4 d d \barMin f f e f g f e d( e) d d \barMaior
     f g( a) g f( e f) \barMin d( e f g) f d d \barMin
@@ -233,7 +233,7 @@
     differentia = "D"
     psalmus = ""
     % vznikla upravou a spojenim dvou antifon z filipojakubskeho svatku
-    fial = "sanktoral/0503filipjakub.ly#rch-a1?zacatek=10"
+    fial = "sanktoral/0503filipjakub.ly#rch-a1?zacatek=5"
     fial_b = "sanktoral/0503filipjakub.ly#rch-a2?konec=37"
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}

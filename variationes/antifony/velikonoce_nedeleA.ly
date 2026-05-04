@@ -1299,7 +1299,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d \barMin
     f e d c c \barMaior
@@ -1326,6 +1326,73 @@
     % vznikla upravou a spojenim dvou antifon z filipojakubskeho svatku
     fial = "sanktoral/0503filipjakub.ly#rch-a1?zacatek=10"
     fial_b = "sanktoral/0503filipjakub.ly#rch-a2?konec=37"
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \barMin
+    f e \mark\sipka f f( g) f
+    e f d c( d) d \barMax
+
+    f4 d d \barMin f f e f g f e d( e) d d \barMaior
+    f g( a) g f( e f) \barMin d( e f g) f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    u -- kaž nám Ot -- ce,
+    a to nám sta -- čí.
+
+    Fi -- li -- pe, tak dlou -- ho jsem s_vá -- mi, a ne -- znáš mě?
+    Kdo vi -- děl mne, vi -- děl Ot -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    % vznikla upravou a spojenim dvou antifon z filipojakubskeho svatku
+    fial = "sanktoral/0503filipjakub.ly#rch-a1?zacatek=5"
+    fial_b = "sanktoral/0503filipjakub.ly#rch-a2?konec=37"
+    id = "vmag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d \barMin
+    f e f f( g) f
+    e f d c( d) d \barMax
+
+    \mark\sipka f4 d d( f d4. c) \barMin d4 d e f g f e d( e) d d \barMaior
+    f g( a) g f( e f) \barMin d( e f g) f d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pa -- ne,
+    u -- kaž nám Ot -- ce,
+    a to nám sta -- čí.
+
+    Fi -- li -- pe, tak dlou -- ho jsem s_vá -- mi, a ne -- znáš mě?
+    Kdo vi -- děl mne, vi -- děl Ot -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    % vznikla upravou a spojenim dvou antifon z filipojakubskeho svatku
+    fial = "sanktoral/0503filipjakub.ly#rch-a1?zacatek=5"
+    fial_b = "sanktoral/0503filipjakub.ly#rch-a2?konec=29"
     id = "vmag2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
