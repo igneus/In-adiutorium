@@ -24,6 +24,7 @@
     modus = "I"
     differentia = "D"
     psalmus = "Žalm 141"
+    placet = "3 daná klausule na _oběť_ vyžaduje obě noty dlouhé, což slovo špatně nese"
     id = "ne-1ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -173,6 +174,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 110"
+    placet = "nic moc, zejm. začátek"
     id = "ne-2ne-a1"
     piece = \markup {\sestavTitulek}
   }

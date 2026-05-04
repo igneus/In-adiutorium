@@ -72,6 +72,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Flp 2"
+    placet = "2 _Syn_ nenese melisma moc dobře"
     id = "ne-1ne-a3"
     piece = \markup {\sestavTitulek}
   }

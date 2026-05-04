@@ -176,6 +176,7 @@
     differentia = "a"
     psalmus = ""
     fial = "antifony/velikonoce_tyden4.ly#pa-aben?konec=24"
+    placet = "2 má rezervy co do zpěvnosti"
     id = "vmag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -200,6 +201,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "nevím"
     id = "vben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
