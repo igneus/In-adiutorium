@@ -179,6 +179,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e g a a b( g) g( a) a \barMaior
+    g( a) g( f e4.) e \barMin \mark\sipka f4 e f g a g
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,_*
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Ef 1"
+    id = "t1-po"
+    fial = "antifony/pust_nedeleB.ly#vmag2?cast=1-2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
