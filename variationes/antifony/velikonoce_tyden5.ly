@@ -2201,7 +2201,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a a a \mark\sipka f g g( a) a \barMaior
     c d c b a g g \barMin
@@ -2219,6 +2219,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 _že jdu k Otci_ spíš lépe"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2298,6 +2299,55 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 a a a f g g( a) a \barMin
+    c d c b a g \mark\sipka a \barMaior
+    a a a( c) b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a f g g( a) a \barMin
+    c d c b a g a \barMin
+    \mark\sipka a( c) b g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \choralniRezim
     a4 a g f g a g g \barMin
     f g bes a g a a \barMaior
@@ -2314,6 +2364,30 @@
     quid = "ant. k Magnificat"
     modus = "IV"
     differentia = "g"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f g a g g \barMaior
+    \mark\sipka f g a g a c b \barMin
+    a g f( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
     psalmus = ""
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}

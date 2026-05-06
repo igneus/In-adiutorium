@@ -317,10 +317,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a a f g g( a) a \barMaior
-    c d c b a g g \barMin
-    a f g( a g) g \barMaior
-    f g( a) g g \barFinalis
+    g4 a a a f g g( a) a \barMin
+    c d c b a g a \barMaior
+    a a a( c) b \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Kdy -- by -- ste mě mi -- lo -- va -- li,
@@ -333,7 +333,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "2 _že jdu k Otci_ spíš lépe"
     id = "ut-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
