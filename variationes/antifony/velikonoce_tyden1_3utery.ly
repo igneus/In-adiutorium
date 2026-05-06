@@ -803,7 +803,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 c a c b a g a( g) \barMin
     f g a a g g \barMaior
@@ -1031,6 +1031,31 @@
     c d e d c( d) \barMaior
     a d b c a( g) a( g) \barMin
     f( g) a( c) a a \barFinalis
+  }
+  \addlyrics {
+    Při -- jal jsi
+    svr -- cho -- va -- nou moc
+    a u -- jal ses vlá -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = "Žalm 21"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4( a) c( d) d \barMin
+    \mark\sipka f e d c d \barMaior
+    c a b c a a \barMin
+    b g g( a) a \barFinalis
   }
   \addlyrics {
     Při -- jal jsi

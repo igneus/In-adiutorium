@@ -107,19 +107,21 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c a c b a g a( g) \barMin
-    f g a a g g \barMaior
-    a g f( g) g \barFinalis
+    g4( a) c( d) d \barMin
+    f e d c d \barMaior
+    c a b c a a \barMin
+    b g g( a) a \barFinalis
   }
   \addlyrics {
-    Při -- jal jsi svr -- cho -- va -- nou moc
+    Při -- jal jsi
+    svr -- cho -- va -- nou moc
     a u -- jal ses vlá -- dy.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = "VIII"
-    differentia = "c"
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 21"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
