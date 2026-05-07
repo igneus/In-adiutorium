@@ -57,6 +57,32 @@ end
 
 
 
+def commune_path(category)
+  "commune/commune_#{category}.pdf"
+end
+
+# explicit mapping is necessary only where the Scheme keyword
+# doesn't match the file name segment
+COMMUNIA = [
+  [[:mucednik, :mucednice], :jedenmucednik],
+  [[:muz], :svatymuz],
+  # TODO many cases not covered
+].flat_map do |keys, val|
+  keys.collect {|k| [k, commune_path(val)] }
+end.to_h
+
+# returns Array of all commune documents referenced by the specified
+# sanctorale document
+def commons(sanctorale_pdf)
+  src = File.read sanctorale_pdf.sub(/\.pdf$/, '.ly')
+  src.match(/\\communia #'\((.*?)\)/) do |m|
+    m[1].split.collect do |kw|
+      kw = kw[2..-1].to_sym
+      COMMUNIA[kw] || commune_path(kw)
+    end
+  end
+end
+
 c = celebration
 skip_psalter_on_sunday = lambda {|d| c.sunday? ? d[1..-1] : d }
 docs =
@@ -94,6 +120,9 @@ docs =
   else
     propers = Dir[sprintf('sanktoral/%02i%02i*.pdf', c.date.month, c.date.day)]
     if propers.size == 1
+      propers += commons(propers[0])
+      propers += Dir[sprintf('hymny/%02i%02i*.pdf', c.date.month, c.date.day)]
+
       # TODO Common + referenced files + psalter as needed
       # TODO doesn't work well for days with multiple sanctorale celebrations
       #   and for movable sanctorale celebrations
