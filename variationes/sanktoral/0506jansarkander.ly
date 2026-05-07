@@ -381,6 +381,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g a g f( e) d( e) e \barMin
+    f g a a g f g a g g \barMaior
+    g a a a f( e) d
+    \mark\sipka f g g g \barFinalis
+  }
+  \addlyrics {
+    Svou smr -- tí za -- ne -- chal
+    vše -- mu li -- du
+    pří -- klad sta -- teč -- nos -- ti
+    a pa -- mát -- ku ctnos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -555,6 +580,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d d( e) c c d d \barMaior
+    f e d e c \mark\sipka d d \barMaior
+    a d d c b a g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    To bu -- de ú -- děl ví -- tě -- ze:
+    Já bu -- du je -- ho Bo -- hem
+    a on bu -- de mým sy -- nem.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -690,6 +739,32 @@
     quid = "ant. k Benedictus"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    f g f g a a( g) g \barMaior
+    a \mark\sipka bes a( g f) g \barMin
+    d g g f d e f d d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Po -- kud ži -- ji,
+      chci chvá -- lit Hos -- po -- di -- na,
+    po -- kud bu -- du,
+      chci o -- pě -- vo -- vat své -- ho Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1381,6 +1456,28 @@
   \header {
     quid = "3. ant."
     modus = "VIII"
+    differentia = "c"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d c e( d) d \barMaior
+    d c b a b c a g g \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Když vy -- tr -- vá -- me,
+    bu -- de -- me s_Kris -- tem i kra -- lo -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
     differentia = "c"
     psalmus = "Zj 4"
     id = "ne-a3"

@@ -2394,6 +2394,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g f \mark\sipka e f d d \barMaior
+    f g a g a c b \barMin
+    a g f( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Kdy -- by -- ste mě mi -- lo -- va -- li,
+    ra -- do -- va -- li by -- ste se,
+    že jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {Středa}}
