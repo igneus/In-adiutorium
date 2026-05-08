@@ -2660,6 +2660,51 @@
     \zvyraznovacModry
     \choralniRezim
     a4 a a g e a g a b a a \barMaior
+    a a g \mark\sipka f g e e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g e a g a b a a \barMaior
+    a a g f \mark\sipka f( g) e e \barMin
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    Za -- cho -- vá -- te -li mo -- je při -- ká -- zá -- ní,
+    zů -- sta -- ne -- te v_mé lás -- ce.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "ct-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
+    a4 a a g e a g a b a a \barMaior
     \mark\sipka g a g f d e e \barMin
     f f d( e) e \barFinalis
   }
@@ -2673,6 +2718,8 @@
     modus = "IV"
     differentia = "g"
     psalmus = ""
+    placet = "je méně šťastné, když se hned na začátku _zůstanete_
+    melodie dává do pohybu"
     id = "ct-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2768,6 +2815,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacZeleny
     \choralniRezim
     g4 a c d d \barMin
     c d e c d d \barMaior

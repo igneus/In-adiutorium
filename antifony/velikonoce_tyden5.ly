@@ -398,7 +398,7 @@
   \relative c'' {
     \choralniRezim
     a4 a a g e a g a b a a \barMaior
-    g a g f d e e \barMin
+    a a g f g e e \barMin
     f f d( e) e \barFinalis
   }
   \addlyrics {
