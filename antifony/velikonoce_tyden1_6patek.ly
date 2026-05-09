@@ -90,6 +90,7 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 41"
+    placet = "3 druhou část lépe"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -101,7 +102,7 @@
     c4( a) c b( g) a \barMin
     a a g f
     g a a g g \barMaior
-    a g f( g) g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     Prou -- dy bys -- třin_*

@@ -165,6 +165,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 c d e c c( d) d \barMaior
+    d \mark\sipka e( f e d) c( d) \barMin d c b a( b) g g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pa -- ma -- tuj na mě, Pa -- ne,_*
+    až při -- jdeš do své -- ho krá -- lov -- ství.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 51"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     \mark\sipka d4 d d d( e) c c( d) d \barMaior
     d c( b a g) a( g) \barMin f g a b( c a) g( a) a \barMaior
     g a b a \barFinalis
@@ -1594,12 +1616,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( a) c b( g) a \barMin
     a a g f
     g a a g g \barMaior
     a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Prou -- dy bys -- třin_*
+    jsou k_ra -- dos -- ti
+    Bo -- ží -- mu měs -- tu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 46"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4( a) c b( g) a \barMin
+    a a g f
+    g a a g g \barMaior
+    a g \mark\sipka f( a) g \barFinalis
   }
   \addlyrics {
     Prou -- dy bys -- třin_*
