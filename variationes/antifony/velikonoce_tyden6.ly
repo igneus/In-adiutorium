@@ -39,7 +39,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f g g( a) a \barMin
     c b( c) a a
@@ -88,6 +88,29 @@
   \relative c'' {
     \choralniRezim
     g4 g g f g g( a) a \barMin
+    c b( c) a a
+    \mark\sipka g f a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo jed -- ná po -- dle prav -- dy,
+    jde ke svět -- lu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 119-נ"
+    fial = "antifony/pust_nedeleB.ly#ivmag2?zacatek=12"
+    id = "ne-1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f g g( a) a \barMin
     c b( c) a \mark\sipka g
     f a g g \barFinalis
   }
@@ -109,6 +132,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g f g g( a) a \barMin
     c b( c) \mark\sipka a( g) g \barMin
@@ -2002,6 +2026,50 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4( g) a( g) f( d) \barMin f g a g f g \barMaior
+    g f e d c
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Od mo -- del jste se o -- brá -- ti -- li
+    k_ži -- vé -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 115"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g) f( d) e \barMin f g a a g a \barMaior
+    a b g e e
+    f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Od mo -- del jste se o -- brá -- ti -- li
+    k_ži -- vé -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 115"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 d d d d e c c( d) d \barMin
     d c b a g
     b c a a \barFinalis
@@ -2038,6 +2106,36 @@
     quid = "2. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 115"
+    id = "ne-2ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  Nevzpomínám si, že bych postup jako tady na _od model_
+  kdy viděl v tradičním repertoáru,
+  ale moc dobře vím, odkud moje hudební paměť tento motiv ukradla:
+  z novodvorské mariánské antifony \italic{Společně setrvávali na stejném místě}
+  z jedné z denních hodinek.
+}
+\score {
+  \relative c' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    d4 a a( c d) \barMin d c e f d d \barMaior
+    f g f e c
+    e f d d\barFinalis
+  }
+  \addlyrics {
+    Od mo -- del jste se o -- brá -- ti -- li
+    k_ži -- vé -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 115"
     id = "ne-2ne-a2"
     piece = \markup {\sestavTitulek}
