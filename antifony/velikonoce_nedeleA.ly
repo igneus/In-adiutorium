@@ -245,10 +245,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g f g( a) a \barMaior
+    a4 a g f g g( a) a \barMaior
     a g( f e4.) e \barMin e4 f g f e d( e) e \barMaior
-    f g a a g a b( g) g \barMin
-    a g f( e) e \barFinalis
+    f g a a a( b) g g( a) a \barMin
+    g f d( e) e \barFinalis
   }
   \addlyrics {
     Já bu -- du pro -- sit Ot -- ce
@@ -270,7 +270,7 @@
   \relative c' {
     \choralniRezim
     d4 d d( f) e d( e) d d \barMaior
-    f g a g( a) a \barMin
+    f g a a( g f g) g \barMin
     a g f g( d) d d e d c d d \barMaior
     e f d( c) d \barFinalis
   }
@@ -285,7 +285,7 @@
     modus = "I"
     differentia = "D"
     psalmus = ""
-    fial = "velikonoce_seslaniduchasv.ly#mc-avig?zacatek=10&konec=19"
+    fial = "velikonoce_seslaniduchasv.ly#mc-avig?zacatek=10&konec=18"
     id = "viben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

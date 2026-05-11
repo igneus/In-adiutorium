@@ -1477,12 +1477,37 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g f g( a) a \barMaior
     a g( f e4.) e \barMin \mark\sipka e4 f g f e d( e) e \barMaior
     f g a a g a b( g) g \barMin
     a g f( e) e \barFinalis
+  }
+  \addlyrics {
+    Já bu -- du pro -- sit Ot -- ce
+    a dá vám ji -- né -- ho Po -- moc -- ní -- ka,
+    a -- by s_vá -- mi zů -- stal na -- vždy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "vimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a \mark\sipka g f g g( a) a \barMaior
+    a g( f e4.) e \barMin e4 f g f e d( e) e \barMaior
+    f g a a \mark\sipka a( b) g g( a) a \barMin
+    g f d( e) e \barFinalis
   }
   \addlyrics {
     Já bu -- du pro -- sit Ot -- ce
@@ -1603,7 +1628,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) e d( e) d d \barMaior
     f g a g( a) a \barMin
@@ -1622,6 +1647,32 @@
     differentia = "D"
     psalmus = ""
     fial = "velikonoce_seslaniduchasv.ly#mc-avig?zacatek=10&konec=24"
+    id = "viben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f) e d( e) d d \barMaior
+    f g a \mark\sipka a( g f g) g \barMin
+    a g f g( d) d d e d c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- ne -- chám vás si -- rot -- ky;
+    za -- se k_vám při -- jdu,
+    a va -- še srd -- ce se bu -- de ra -- do -- vat.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    fial = "velikonoce_seslaniduchasv.ly#mc-avig?zacatek=10&konec=18"
     id = "viben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
