@@ -853,6 +853,13 @@
   Ten ale nutně vyžaduje to aleluja uprostřed,
   které Liturgia horarum vypustila, a na konci aleluja dvě.
 }
+\markup\justify{
+  Ohledně vhodnosti použití v pokoncilním oficiu jsem na vážkách.
+  Na jednu stranu jsou to antifony neodolatelně zpěvné a snadné,
+  na druhou stranu, když se zpívají ke třem bezprostředně po sobě následujícím
+  žalmům (zatímco původně šlo o antifony super psalmos k jednotlivým
+  nokturnům matutina), působí dost únavně.
+}
 
 \score {
   \relative c'' {
