@@ -278,6 +278,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
+    placet = "2 poslední třetina je taková chcíplá"
     id = "po-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
