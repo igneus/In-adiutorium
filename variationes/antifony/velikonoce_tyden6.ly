@@ -2681,6 +2681,34 @@
     d c d( e) d d \barMin
     c( b) a( g) g \barMaior
     a g f g a a g g \barMaior
+    a c b c d c b g a a \barMin
+    \mark\sipka a b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a a g g \barMaior
     a c b c d c b \mark\sipka a g g \barMin
     a g f( g) g \barFinalis
   }
@@ -2738,6 +2766,146 @@
     c( b) a( g) g \barMaior
     a g f g a a g g \barMaior
     \mark\sipka a a a c b a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a a g g \barMaior
+    \mark\sipka a a( c) c \barMin b c a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a a g g \barMaior
+    a a( c) c \barMin \mark\sipka d c b c a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    a g f g a a g g \barMaior
+    \mark\sipka g f( e) d \barMin f g a g a c b \barMin
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    \mark\sipka f g a c b c d d \barMaior
+    d c( d) c \barMin b c a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Duch prav -- dy,
+    kte -- rý vy -- chá -- zí
+    od Ot -- ce,
+    ten vy -- dá o mně svě -- de -- ctví.
+    Vy ta -- ké vy -- dá -- vej -- te svě -- de -- ctví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c( d) d \barMin
+    d c d( e) d d \barMin
+    c( b) a( g) g \barMaior
+    f g a c b c d d \barMaior
+    d \mark\sipka e d c b a g a g g \barMin
     f a g g \barFinalis
   }
   \addlyrics {
