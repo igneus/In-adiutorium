@@ -127,6 +127,18 @@ docs =
       # TODO doesn't work well for days with multiple sanctorale celebrations
       #   and for movable sanctorale celebrations
       propers
+    else
+      require 'yaml'
+      require_relative 'appropriated'
+
+      AppropriatedAntiphons
+        .new(YAML.load(File.read('sanktoral/bezvlastnich.yml')))
+        .each.find {|i| i.date =~ Date.today }
+        &.yield_self(&:communia)
+        &.collect do |kw|
+        # TODO communia referenced by appropriated antiphons
+        COMMUNIA[kw.to_sym] || commune_path(kw)
+      end
     end
   end
 

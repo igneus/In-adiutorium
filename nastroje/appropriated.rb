@@ -28,6 +28,11 @@ class AppropriatedAntiphons
     def to_s
       sprintf '%02i/%02i', month, day
     end
+
+    def =~(other)
+      other.month == month &&
+        other.day == day
+    end
   end
 
   def each
