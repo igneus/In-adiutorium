@@ -657,7 +657,7 @@
     a c( b) a( g) g \barMaior
     f g a a( c) b a g g \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Bůh po -- svě -- til
@@ -825,19 +825,15 @@
     \choralniRezim
     c4( b c) a \barMin c d( e) d( c d) a \barMaior
     a b c d( e f4.) e \barMin d4( c b) g a a \barMaior
-    g a a( c d) \barMin
-    c b g b c a a \barFinalis
+    g a a( c d) \barMin c b g b c a a \barFinalis
 
-    c^\markup\rubrVelikAleluja d c b a g g
-    b c a a \barFinalis
+    b^\markup\rubrVelikAleluja g g( a) a \barFinalis
   }
   \addlyrics {
     Sva -- tý je dům Bo -- ží:
     dům, v_němž se vzý -- vá Bo -- ží jmé -- no
-    a kde Bůh
-    \markup{\Dagger pře} -- bý -- vá me -- zi ná -- mi.
+    a kde Bůh pře -- bý -- vá me -- zi ná -- mi.
 
-    \markup{\Dagger pře} -- bý -- vá me -- zi ná -- mi.
     A -- le -- lu -- ja.
   }
   \header {
