@@ -1312,6 +1312,32 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    c( d) c b a g a \barMaior
+    c d( c) d d( c) \barMin
+    \mark\sipka a g a c b g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Ať tě, Bo -- že,
+    ve -- le -- bí ná -- ro -- dy
+    a já -- sa -- jí,
+    že jim po -- sí -- láš spá -- su.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 67"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     c4 d d( f) f \barMin

@@ -3449,6 +3449,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a a a g f g a g e e \barMaior
+    d e f f f f g f g e \barMax
+    f g g( a) a g b( c a) a \barMaior
+    \mark\sipka a b g g( e) \barMin e d e f g
+    g f e e \barFinalis
+  }
+  \addlyrics {
+    Měl bych vám ješ -- tě mno -- ho ji -- né -- ho ří -- ci,
+    a -- le teď by -- ste to ne -- moh -- li snést.
+    Až však při -- jde Duch prav -- dy,
+    u -- ve -- de vás do ce -- lé prav -- dy.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    id = "st-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
