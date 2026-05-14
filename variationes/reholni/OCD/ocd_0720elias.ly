@@ -20,7 +20,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f) f \barMin
     g f f g( a) g f f( g) g \barMaior
@@ -80,6 +80,30 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    id = "invit"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f) f \barMin
+    g f f g( a) g f f( g) g \barMaior
+    f4 f \mark\sipka f( e d c) d( c) \barMin d( f e) d c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me,
+    klaň -- me se ži -- vé -- mu Bo -- hu,
+    on k_nám mlu -- ví ús -- ty pro -- ro -- ků.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "0425marek.ly#invit?cast=1,3"
     id = "invit"
     piece = \markup\sestavTitulekBezZalmu
   }

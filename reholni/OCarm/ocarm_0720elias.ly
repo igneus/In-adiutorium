@@ -157,7 +157,7 @@
     \choralniRezim
     d4( f) f \barMin
     g f f g( a) g f f( g) g \barMaior
-    f e f( d c) c d f e( f) d d \barFinalis
+    f4 f f( e d c) d( c) \barMin d f e( f) d d \barFinalis
   }
   \addlyrics {
     Pojď -- me,
@@ -169,7 +169,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "reholni/OCD/ocd_0720elias.ly#invit?zacatek=21"
+    fial = "reholni/OCD/ocd_0720elias.ly#invit?cast=1-3"
     id = "invit"
     piece = \markup\sestavTitulekBezZalmu
   }
