@@ -648,9 +648,8 @@
     \relative c'' {
       \choralniRezim
       \neviditelna c
-      \stemUp % kvuli poloze akcentovych znacek
-      c4 c c c c c c c-! a \barMin
-      c c b a c-! c \barMin \break
+      c4 c c c c c c c a \barMin
+      c c b a c c \barMin \break
       c c c c c c c c c a a \barFinalis
       \neviditelna c
       b c \barFinalis
