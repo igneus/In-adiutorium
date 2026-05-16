@@ -484,6 +484,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c d f f e d c d d( c) \barMaior
+    f g a a g f g( f) f \barMin
+    d \mark\sipka c f e c d \barMaior
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Ve svě -- tě bu -- de -- te mít sou -- že -- ní.
+    A -- le buď -- te do -- bré mys -- li.
+    Já jsem pře -- mo -- hl svět.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "po-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     \mark\sipka f4 d d f f e d c d d( c) \barMaior
     f g a a g f g( f) f \barMin
     f d f e c d \barMaior

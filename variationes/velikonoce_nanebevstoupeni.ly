@@ -295,6 +295,56 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( c') c c \barMin
+    c c( d c) b( g) a a( g) g \barMaior
+    a a a \mark\sipka f( g) g( a) a \barMin
+    c b a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- šel jsem od Ot -- ce
+    a při -- šel jsem na svět;
+    za -- se svět o -- pouš -- tím a jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f( c') c c \barMin
+    c c( d c) b( g) a a( g) g \barMaior
+    a \mark\sipka f e d( f) g( a) a \barMin
+    c b a( g) g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Vy -- šel jsem od Ot -- ce
+    a při -- šel jsem na svět;
+    za -- se svět o -- pouš -- tím a jdu k_Ot -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 113"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup{Zdá se mi nějak beztvará, plytká.
@@ -783,6 +833,34 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4( c) c \barMin
+    b c a g a g f( g) g \barMaior
+    g f d f( g) g \barMaior
+    a c c b( c a) a \barMin
+    b a g f g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ot -- če,
+    zje -- vil jsem tvé jmé -- no li -- dem;
+    ny -- ní jdu k_to -- bě
+    a pro -- sím za ty,
+    kte -- ré jsi mi dal.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -3779,6 +3857,30 @@ Nebo možná spíš forma nesedí k obsahu, slova jsou divně rozezvučena.}
     d( e) d \barMaior
     \mark\sipka c d( e) d c a g
     f a g g \barFinalis
+  }
+  \addlyrics {
+    Zve -- dl ru -- ce,
+    žeh -- nal
+    a vzná -- šel se k_ne -- bi.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a( c) c \barMin
+    d( e) d \barMaior
+    c d( e) \mark\sipka e d c a
+    c b a( g) g \barFinalis
   }
   \addlyrics {
     Zve -- dl ru -- ce,
