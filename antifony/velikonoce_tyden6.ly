@@ -402,9 +402,9 @@
   \relative c'' {
     \choralniRezim
     c4 c c c a c b g g \barMin
-    f g g \barMaior
+    a f g \barMaior
     g g g f e d d f g g( a) a \barMaior
-    a g a a( c) b g g \barMin
+    a a g a( c) b g g \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
@@ -431,7 +431,7 @@
     f g a a g( a) a \barMaior
     a g a a( b a g) g( e) \barMin
     g a g f( e) d( e) e \barMaior
-    g g( a) f( e) e \barFinalis
+    f f( g) e e \barFinalis
   }
   \addlyrics {
     Váš zá -- rmu -- tek
