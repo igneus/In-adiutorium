@@ -4694,6 +4694,59 @@
     e4 g a a g a a \barMaior
     a a g f g a a g( a g) f e e \barMin
     f d f e \barMaior
+    \mark\sipka f( g) a a \barMin
+    g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    O co -- ko -- li bu -- de -- te pro -- sit Ot -- ce
+    ve jmé -- nu mém,
+    dá vám to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g a a \barMaior
+    a a g f g a a g( a g) f e e \barMin
+    f d f e \barMaior
+    \mark\sipka f( g a g) f( e) e \barMin
+
+    f f d( e) e \barFinalis
+  }
+  \addlyrics {
+    A -- men, a -- men, pra -- vím vám:
+    O co -- ko -- li bu -- de -- te pro -- sit Ot -- ce
+    ve jmé -- nu mém,
+    dá vám to.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g a a \barMaior
+    a a g f g a a g( a g) f e e \barMin
+    f d f e \barMaior
     \mark\sipka f e d
     f g f( e) e \barFinalis
   }
