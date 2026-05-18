@@ -1492,6 +1492,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b a c( d) d d \barMaior
+    \mark\sipka d d( e f) d( c) c \barMin
+    c b a g( a) g f
+    g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus o -- čis -- til svět od hří -- chu
+    a za -- se -- dl
+    po Bo -- ží pra -- vi -- ci.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 110"
+    id = "ne-2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
