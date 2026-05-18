@@ -342,6 +342,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
+    placet = "2 melisma na _to_ je pochybné"
     id = "viimag1"
     piece = \markup {\sestavTitulekBezZalmu}
   }
