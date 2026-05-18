@@ -1930,11 +1930,99 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c( d) c a a( c) \barMin
     \mark\sipka c c b a g( a) g \barMaior
     f g a a \mark\sipka b( c) a g a( g) g \barMaior
+    c d c d e d c d( c a) a \barMin
+    g( f) g( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Věč -- ný ži -- vot je to,
+    že po -- zna -- jí te -- be,
+    je -- di -- né -- ho pra -- vé -- ho Bo -- ha
+    a to -- ho, kte -- ré -- ho jsi po -- slal,
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "viimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup{
+  (částečné zpět)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c( d) c a a( c) \barMin
+    c c b a g( a) g \barMaior
+    f g a a \mark\sipka b c a g( a g) g \barMaior
+    c d c d e d c d( c a) a \barMin
+    g( f) g( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Věč -- ný ži -- vot je to,
+    že po -- zna -- jí te -- be,
+    je -- di -- né -- ho pra -- vé -- ho Bo -- ha
+    a to -- ho, kte -- ré -- ho jsi po -- slal,
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "viimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka b c d d c \barMin
+    c c b a g( a) g \barMaior
+    f g a a b c a g( a g) g \barMaior
+    c d c d e d c d( c a) a \barMin
+    g( f) g( a) a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Věč -- ný ži -- vot je to,
+    že po -- zna -- jí te -- be,
+    je -- di -- né -- ho pra -- vé -- ho Bo -- ha
+    a to -- ho, kte -- ré -- ho jsi po -- slal,
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "viimag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka d e( d) c d d( c) \barMin
+    c c b a g( a) g \barMaior
+    f g a a b c a g( a g) g \barMaior
     c d c d e d c d( c a) a \barMin
     g( f) g( a) a g g \barMaior
     a g f( g) g \barFinalis
@@ -2206,6 +2294,37 @@
     a4 a a a( c b) c( d) d \barMin
     c d e c d( e d) d \barMaior
     \mark\sipka c( b) a( g) a( g) \barMin f g a c c b( c) a( g) g \barMaior
+    a b c a g a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Až při -- jde Pří -- mluv -- ce,
+    kte -- ré -- ho vám po -- šlu,
+    Duch prav -- dy, kte -- rý vy -- chá -- zí od Ot -- ce,
+    ten vy -- dá o mně svě -- dec -- tví.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "viimag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Melodie sama o sobě pěkná, ale _Duch_ na horním okraji rozsahu
+  a před dlouhým melismatem
+  je ještě citelně horší zřetelně vyslovit.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a( c b) c( d) d \barMin
+    c d e c d( e d) d \barMaior
+    \mark\sipka f e( d c) d \barMin e d c a a c( b) a( g) g \barMaior
     a b c a g a g g \barMin
     f a g g \barFinalis
   }
