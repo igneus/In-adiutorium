@@ -857,7 +857,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b a c( d) d \barMin
     d e d c( d) c \barMaior
@@ -887,6 +887,32 @@
     c4 c b a c( d) d \barMin
     d e \mark\sipka c a a \barMaior
     c c c b g
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Pří -- mluv -- ce, Duch sva -- tý,
+    pře -- bý -- vá u vás
+    a bu -- de ve vás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden5.ly#po-amag?zacatek=7"
+    id = "po-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d e c \mark\sipka d d \barMaior
+    d c b a( b) a( g) \barMin
     a g f( g) g \barFinalis
   }
   \addlyrics {
