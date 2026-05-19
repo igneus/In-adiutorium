@@ -111,7 +111,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e e g a a b( g) g( a) a \barMaior
     g( a) g( f e4.) e \barMin f4 g a g f( e) e \barMaior
@@ -127,6 +127,7 @@
     modus = "IV"
     differentia = "E"
     psalmus = "Ef 1"
+    placet = "3 závěr únavný"
     id = "t1-po"
     fial = "antifony/pust_nedeleB.ly#vmag2?+aleluja"
     piece = \markup {\sestavTitulek}
@@ -139,6 +140,53 @@
     e4 e e g a a b( g) g( a) a \barMaior
     g( a) g( f e4.) e \barMin \mark\sipka d4 e f f g g
     f g e e \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,_*
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Ef 1"
+    id = "t1-po"
+    fial = "antifony/pust_nedeleB.ly#vmag2?cast=1-2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 e e g a a b( g) g( a) a \barMaior
+    g( a) g( f e4.) e \barMin d4 e f \mark\sipka g a g
+    f g e e \barFinalis
+  }
+  \addlyrics {
+    Až bu -- du ze ze -- mě vy -- vý -- šen,_*
+    po -- táh -- nu všech -- ny li -- di k_so -- bě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Ef 1"
+    id = "t1-po"
+    fial = "antifony/pust_nedeleB.ly#vmag2?cast=1-2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 e e g a a b( g) g( a) a \barMaior
+    g( a) g( f e4.) e \barMin d4 e f g a g
+    \mark\sipka f e d( e) e \barFinalis
   }
   \addlyrics {
     Až bu -- du ze ze -- mě vy -- vý -- šen,_*
