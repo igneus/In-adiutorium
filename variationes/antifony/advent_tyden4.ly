@@ -404,6 +404,46 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f) f \barMin g f g( a g) g \barMaior
+    a a g( f d e) e( d) \barMin c( d) e d d \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- šla pl -- nost ča -- su:
+    Bůh nám po -- slal své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b g a g f( g) g \barMaior
+    a a f( e d) d f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Hle, při -- šla pl -- nost ča -- su:
+    Bůh nám po -- slal své -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Flp 2"
+    id = "ne-1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
