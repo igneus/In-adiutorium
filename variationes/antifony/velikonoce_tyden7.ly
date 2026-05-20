@@ -990,12 +990,37 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c d d c d d( c) c \barMaior
     d-- d( e) d b \barMin
     c c b g a g g \barMaior
     a b g g \barFinalis
+  }
+  \addlyrics {
+    Já -- sej -- me a ra -- duj -- me se všich -- ni!
+    Pán vstal z_mrt -- vých,
+    on kra -- lu -- je na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "ut-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c d d c d d( c) c \barMaior
+    d-- d( e) d b \barMin
+    c c b g a \mark\sipka a g \barMaior
+    a a( b) g g \barFinalis
   }
   \addlyrics {
     Já -- sej -- me a ra -- duj -- me se všich -- ni!
@@ -1283,11 +1308,41 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g a( c) c \barMin d c b( c) a a \barMaior
     a c c c b a g( a) g \barMin
     g f g a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Do -- sta -- ne -- te sí -- lu Du -- cha sva -- té -- ho
+    a bu -- de -- te mý -- mi svěd -- ky
+    až na ko -- nec ze -- mě.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "ut-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Částečně zpět, protože dosavadní závěr vyžaduje prodloužení
+  obou slabik posledního slova, a i když to zazpívat jde,
+  není to daným slabikám vlastní a jde to špatně do pusy.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g f g a( c) c \barMin d c b( c) a a \barMaior
+    a c c c b a g( a) g \barMin
+    g f g a \mark\sipka a( g) g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {

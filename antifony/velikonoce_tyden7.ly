@@ -149,8 +149,8 @@
     \choralniRezim
     c4 c c c d d c d d( c) c \barMaior
     d-- d( e) d b \barMin
-    c c b g a g g \barMaior
-    a b g g \barFinalis
+    c c b g a a g \barMaior
+    a a( b) g g \barFinalis
   }
   \addlyrics {
     Já -- sej -- me a ra -- duj -- me se všich -- ni!
@@ -173,7 +173,7 @@
     \choralniRezim
     g4 g f g a( c) c \barMin d c b( c) a a \barMaior
     a c c c b a g( a) g \barMin
-    g f g a g g \barMaior
+    g f g a a( g) g \barMaior
     a g f( g) g \barFinalis
   }
   \addlyrics {
