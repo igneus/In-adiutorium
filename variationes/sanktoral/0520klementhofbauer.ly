@@ -324,7 +324,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g g( a) g g bes a g( a) g \barMaior
     g a g f( g f) f \barFinalis
@@ -335,6 +335,107 @@
     Le -- ží mi na srd -- ci pro -- spěch círk -- ve
     a spá -- sa du -- ší.
 
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g( a) g g bes a g( a) g \barMaior
+    g \mark\sipka g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Le -- ží mi na srd -- ci pro -- spěch círk -- ve
+    a spá -- sa du -- ší.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) g g bes a g( a) g \barMaior
+    g g( a) g f f \barFinalis
+
+    \mark\sipka g^\markup\rubrVelikAleluja g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Le -- ží mi na srd -- ci pro -- spěch círk -- ve
+    a spá -- sa du -- ší.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) g g bes a g( a) g \barMaior
+    g g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja g( a) g f \mark\sipka d
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Le -- ží mi na srd -- ci pro -- spěch círk -- ve
+    \markup{\Dagger a} spá -- sa du -- ší.
+
+    \markup{\Dagger a} spá -- sa du -- ší.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g( a) g g bes a g( a) g \barMaior
+    g g( a) g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja \mark\sipka a g f d
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Le -- ží mi na srd -- ci pro -- spěch círk -- ve
+    \markup{\Dagger a} spá -- sa du -- ší.
+
+    \markup{\Dagger a} spá -- sa du -- ší.
     A -- le -- lu -- ja.
   }
   \header {

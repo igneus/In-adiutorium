@@ -16,7 +16,7 @@
   \relative c' {
     \choralniRezim
     f4 f g g( a) g g bes a g( a) g \barMaior
-    g a g f( g f) f \barFinalis
+    g g( a) g f f \barFinalis
 
     g^\markup\rubrVelikAleluja a g( f) f \barFinalis
   }
