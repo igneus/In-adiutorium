@@ -1390,7 +1390,7 @@
 \markup {\nadpisDen {Středa}}
 
 \markup\justify{
-  V LH má stejné znění jako zdrojová antifona:
+  V Liturgia horarum má stejné znění jako zdrojová antifona:
   \italic{Grátias Deo, qui dedit nobis victóriam per Dóminum nostrum Iesum Christum, allelúia.}
 }
 
@@ -1546,6 +1546,95 @@
 }
 
 \score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g f f( g) \barMin
+    g g a g f g( f) f \barMaior
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f f( g) \barMin
+    \mark\sipka a g f d f g( f) f \barMaior
+    g g( a) f f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f f( g) \barMaior
+    \mark\sipka a( bes) a g( f) g \barMin g a g
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f f( g) \barMaior
+    a( bes) a g( f) g \barMin g \mark\sipka f d
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     \mark\sipka c4 c c d( e) d c( d) \barMin
@@ -1569,7 +1658,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 d d f e f( g) \barMin
     f d e f d c( d) d \barMaior
@@ -1585,6 +1674,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
+    placet = "3 začátek není moc pěkný"
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -1628,6 +1718,50 @@
     quid = "ant. k Magnificat"
     modus = "II"
     differentia = "A"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 \mark\sipka c c b a g( a g4.) \barMin
+    f4 g a c b g( a) a \barMaior
+    b c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "A"
+    psalmus = ""
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a g( a g4.) \barMin
+    \mark\sipka a4 g f g a a( g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus vás bu -- de křtít
+    Du -- chem sva -- tým a oh -- něm.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     id = "st-amag"
     piece = \markup {\sestavTitulekBezZalmu}
