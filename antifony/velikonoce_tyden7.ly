@@ -199,9 +199,9 @@
     \choralniRezim
     d4 d c d( f) e d( c) c \barMaior
     f g a g f f( g) f f \barMaior
-    f d f e d c c \barMin
-    d( f) e d c( d) d \barMaior
-    e f d( c) d \barFinalis
+    f g a g f g( f d4.) d \barMin
+    c4 f e d( e d) d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Vzdá -- vej -- me dí -- ky Bo -- hu,_*
@@ -214,7 +214,7 @@
     textus_approbatus = "Děkujme Bohu,
     on nám popřává vítězství skrze našeho Pána Ježíše Krista. Aleluja."
     quid = "ant. k Benedictus"
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = ""
     fial = "antifony/velikonoce_tyden4_5ctvrtek.ly#ne-a2"

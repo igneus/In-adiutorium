@@ -1000,7 +1000,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d( f) e d( c) c \barMaior
     f g a g f \mark\sipka f( g) f f \barMaior
@@ -1020,6 +1020,9 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 144-II"
+    placet = "3 druhá půlka chcíplá;
+    dva dílčí závěry na c (oba ve stejném postavení ve struktuře nápěvu) působí únavně;
+    melisma na _Ježíše_ nevím"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -1123,6 +1126,66 @@
     quid = "2. ant."
     modus = "I"
     differentia = "D"
+    psalmus = "Žalm 144-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  (Vědomě opouštím jednotu antifon k dílům téhož žalmu,
+  protože zejm. kvůli rozdílné délce a rozletu textu se mi nepodařilo
+  obě dobře vtěsnat do modu I ani II - a i když by nejspíš šlo
+  obě složit v jiném, je to při existenci nápěvů jinak uspokojivých
+  špatně investované úsilí.)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c d( f) e d( c) c \barMaior
+    f g a g f f( g) f f \barMaior
+    f g a g f g( f d4.) d \barMin
+    c4 f e \mark\sipka d( e d) d \barMaior
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Vzdá -- vej -- me dí -- ky Bo -- hu,_*
+    on nám po -- přá -- vá ví -- těz -- ství
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 144-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d( f) e d( c) c \barMaior
+    f g a g f f( g) f f \barMaior
+    f g a \mark\sipka a a g( f g4.) g4 \barMin
+    g a g f d
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vzdá -- vej -- me dí -- ky Bo -- hu,_*
+    on nám po -- přá -- vá ví -- těz -- ství
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
     psalmus = "Žalm 144-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
@@ -1356,6 +1419,32 @@
   \header {
     quid = "2. ant."
     modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 144-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c a c c( d) d \barMaior
+    f d f e d c( d) c c \barMaior
+    d e f f f g( f g) g( f) \barMin
+    d( f) e d c( d) d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Vzdá -- vej -- me dí -- ky Bo -- hu,_*
+    on nám po -- přá -- vá ví -- těz -- ství
+    skr -- ze na -- še -- ho Pá -- na
+    Je -- ží -- še Kris -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 144-II"
     id = "ne-a2"

@@ -103,9 +103,9 @@
     \choralniRezim
     d4 d c d( f) e d( c) c \barMaior
     f g a g f f( g) f f \barMaior
-    f d f e d c c \barMin
-    d( f) e d c( d) d \barMaior
-    e f d( c) d \barFinalis
+    f g a g f g( f d4.) d \barMin
+    c4 f e d( e d) d \barMaior
+    e c c( d) d \barFinalis
   }
   \addlyrics {
     Vzdá -- vej -- me dí -- ky Bo -- hu,_*
@@ -116,12 +116,9 @@
   }
   \header {
     quid = "2. ant."
-    modus = "II"
+    modus = "I"
     differentia = "D"
     psalmus = "Žalm 144-II"
-    placet = "3 chcíplá;
-    dva dílčí závěry na c (oba ve stejném postavení ve struktuře nápěvu) působí únavně;
-    melisma na _Ježíše_ nevím"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
