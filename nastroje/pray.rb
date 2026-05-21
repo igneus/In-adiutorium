@@ -118,15 +118,17 @@ docs =
       end
     end
   else
-    propers = Dir[sprintf('sanktoral/%02i%02i*.pdf', c.date.month, c.date.day)]
-    if propers.size == 1
+    propers = Dir[sprintf('sanktoral/%02i%02i*.ly', c.date.month, c.date.day)]
+    # TODO if there are multiple celebrations, match them to documents
+    #   by name similarity
+    if propers.size > 0
       propers += commons(propers[0])
-      propers += Dir[sprintf('hymny/%02i%02i*.pdf', c.date.month, c.date.day)]
+      propers += Dir[sprintf('hymny/%02i%02i*.ly', c.date.month, c.date.day)]
 
       # TODO Common + referenced files + psalter as needed
       # TODO doesn't work well for days with multiple sanctorale celebrations
       #   and for movable sanctorale celebrations
-      propers
+      propers.collect {|i| i.sub /\.ly$/, '.pdf' }
     else
       require 'yaml'
       require_relative 'appropriated'

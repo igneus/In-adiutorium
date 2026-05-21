@@ -6,3 +6,4 @@ set -o xtrace # print executed commands
 
 evince "$@" &
 rake "$@"
+evince "$@" &
