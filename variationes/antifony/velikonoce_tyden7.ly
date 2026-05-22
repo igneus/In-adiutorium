@@ -2365,6 +2365,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \zvyraznovacZeleny
+    \choralniRezim
+    c4 c b a c( d) d \barMin
+    d c d e c d \barMaior
+    \mark\sipka d d e f d d c
+    a c c b a g g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Kris -- tus Je -- žíš ze -- mřel,
+    a -- no i z_mrt -- vých vstal,
+    je po Bo -- ží pra -- vi -- ci
+    a při -- mlou -- vá se za nás.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = ""
+    id = "pa-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
