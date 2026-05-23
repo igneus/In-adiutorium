@@ -30,7 +30,7 @@ end
 options = {}
 parser.parse ARGV, into: options
 date =
-  ARGV[1]&.yield_self {|x| Date.parse x } ||
+  ARGV[0]&.yield_self {|x| Date.parse x } ||
   if options[:yesterday]
     Date.today - 1
   elsif options[:tomorrow]
