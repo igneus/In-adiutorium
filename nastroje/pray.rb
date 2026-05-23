@@ -87,6 +87,26 @@ def extract_commons(sanctorale_ly)
   end || []
 end
 
+# accepts an AppropriatedAntiphons::Celebration instance,
+# returns an Array which may or may not contain a path
+# to an ad hoc generated document with appropriated antiphons for the occasion
+def appropriated_antiphons(data)
+  aa = data.antiphons
+  return [] if aa.empty?
+
+  path = 'ad_hoc.pdf'
+  header = <<~LY
+  \\include \"spolecne.ly\"
+  \\header {
+    title = \"#{data.title}\"
+    subtitle = \"(ad hoc)\"
+  }
+  LY
+  spawn "{ echo '#{header}'; ruby nastroje/getfial.rb #{aa.join(' ')}; } | lilypond --output=#{path.split('.')[0]} -"
+
+  [path]
+end
+
 c = celebration
 skip_psalter_on_sunday = lambda {|d| c.sunday? ? d[1..-1] : d }
 docs =
@@ -137,13 +157,15 @@ docs =
       require 'yaml'
       require_relative 'appropriated'
 
-      AppropriatedAntiphons
-        .new(YAML.load(File.read('sanktoral/bezvlastnich.yml')))
-        .each.find {|i| i.date =~ date }
-        &.yield_self(&:communia)
-        &.flat_map do |kw|
-        # TODO communia referenced by appropriated antiphons
-        COMMUNIA[kw.to_sym] || [commune_path(kw)]
+      entry =
+        AppropriatedAntiphons
+          .new(YAML.load(File.read('sanktoral/bezvlastnich.yml')))
+          .each.find {|i| i.date =~ date }
+
+      if entry
+        entry.communia.flat_map do |kw|
+          COMMUNIA[kw.to_sym] || [commune_path(kw)]
+        end + appropriated_antiphons(entry)
       end
     end
   end
