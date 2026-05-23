@@ -1169,6 +1169,28 @@ funkční, je nevyvážená.}
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a c c b \barMin
+    a c c b g a f e e \barMaior
+    f \mark\sipka e d( e) e \barFinalis
+  }
+  \addlyrics {
+    Já jsem Hos -- po -- din,_*
+    tvůj spa -- si -- tel a vy -- ku -- pi -- tel.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "III"
+    differentia = "g"
+    psalmus = "Žalm 135-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 a a c c \barMin
     c b c a g f a g g \barMaior
     f a g g \barFinalis
