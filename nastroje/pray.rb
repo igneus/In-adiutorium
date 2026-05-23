@@ -135,7 +135,7 @@ docs =
 
       AppropriatedAntiphons
         .new(YAML.load(File.read('sanktoral/bezvlastnich.yml')))
-        .each.find {|i| i.date =~ Date.today }
+        .each.find {|i| i.date =~ date }
         &.yield_self(&:communia)
         &.collect do |kw|
         # TODO communia referenced by appropriated antiphons
