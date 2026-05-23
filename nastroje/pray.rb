@@ -77,14 +77,14 @@ end.to_h
 
 # returns Array of all commune documents referenced by the specified
 # sanctorale document
-def extract_commons(sanctorale_pdf)
-  src = File.read sanctorale_pdf.sub(/\.pdf$/, '.ly')
+def extract_commons(sanctorale_ly)
+  src = File.read sanctorale_ly
   src.match(/\\communia #'\((.*?)\)/) do |m|
     m[1].split.flat_map do |kw|
       kw = kw[2..-1].to_sym
       COMMUNIA[kw] || [commune_path(kw)]
     end
-  end
+  end || []
 end
 
 c = celebration
