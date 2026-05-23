@@ -64,11 +64,15 @@ end
 # explicit mapping is necessary only where the Scheme keyword
 # doesn't match the file name segment
 COMMUNIA = [
-  [[:mucednik, :mucednice], :jedenmucednik],
-  [[:muz], :svatymuz],
-  # TODO many cases not covered
+  [[:mucednici], [:vicemucedniku]],
+  [[:mucednik, :mucednice], [:jedenmucednik]],
+  [[:papez], [:pastyr]],
+  [[:muz], [:svatymuz]],
+  [[:reholnik, :milosrdny, :vychovatel], [:reholnikatd, :svatymuz]],
+  [[:reholnice, :milosrdna, :vychovatelka], [:reholnikatd, :svatazena]],
 ].flat_map do |keys, val|
-  keys.collect {|k| [k, commune_path(val)] }
+  paths = val.collect {|v| commune_path(v) }
+  keys.collect {|k| [k, paths] }
 end.to_h
 
 # returns Array of all commune documents referenced by the specified
@@ -76,9 +80,9 @@ end.to_h
 def commons(sanctorale_pdf)
   src = File.read sanctorale_pdf.sub(/\.pdf$/, '.ly')
   src.match(/\\communia #'\((.*?)\)/) do |m|
-    m[1].split.collect do |kw|
+    m[1].split.flat_map do |kw|
       kw = kw[2..-1].to_sym
-      COMMUNIA[kw] || commune_path(kw)
+      COMMUNIA[kw] || [commune_path(kw)]
     end
   end
 end
@@ -137,9 +141,9 @@ docs =
         .new(YAML.load(File.read('sanktoral/bezvlastnich.yml')))
         .each.find {|i| i.date =~ date }
         &.yield_self(&:communia)
-        &.collect do |kw|
+        &.flat_map do |kw|
         # TODO communia referenced by appropriated antiphons
-        COMMUNIA[kw.to_sym] || commune_path(kw)
+        COMMUNIA[kw.to_sym] || [commune_path(kw)]
       end
     end
   end
