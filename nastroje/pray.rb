@@ -77,7 +77,7 @@ end.to_h
 
 # returns Array of all commune documents referenced by the specified
 # sanctorale document
-def commons(sanctorale_pdf)
+def extract_commons(sanctorale_pdf)
   src = File.read sanctorale_pdf.sub(/\.pdf$/, '.ly')
   src.match(/\\communia #'\((.*?)\)/) do |m|
     m[1].split.flat_map do |kw|
@@ -126,7 +126,7 @@ docs =
     # TODO if there are multiple celebrations, match them to documents
     #   by name similarity
     if propers.size > 0
-      propers += commons(propers[0])
+      propers += extract_commons(propers[0])
       propers += Dir[sprintf('hymny/%02i%02i*.ly', c.date.month, c.date.day)]
 
       # TODO Common + referenced files + psalter as needed
