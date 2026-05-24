@@ -2611,6 +2611,29 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    \mark\sipka g4( a) f g( a) a \barMin
+    c c b g b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "so-aben"
+    fial = "commune/commune_apostol.ly#sexta?cast=2-3"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 a f( g a4.) a \barMaior
@@ -2651,6 +2674,73 @@
     differentia = "G"
     psalmus = "so-aben"
     fial = "commune/commune_apostol.ly#sexta?konec"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c d( c d) d( c) \barMin
+    c4 c b g b c a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "so-aben"
+    fial = "commune/commune_apostol.ly#sexta?cast=2-3"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) d e( d e) e( d) \barMaior
+    c b a( b) g \barMin f g a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = "so-aben"
+    id = "so-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka c4 c d( c e d) d \barMaior
+    c b a( b) g \barMin f g a a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Já jsem s_vá -- mi
+    po všech -- ny dny až do kon -- ce svě -- ta.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "c"
+    psalmus = "so-aben"
     id = "so-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
