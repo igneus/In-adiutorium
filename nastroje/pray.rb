@@ -95,16 +95,28 @@ DAY_PROPERS = {
   saturday_memorial_bvm: ['antifony.pdf', 'commune/commune_maria.pdf'],
 }
 
-# returns Array of all commune documents referenced by the specified
-# sanctorale document
-def extract_commons(sanctorale_ly)
-  src = File.read sanctorale_ly
-  src.match(/\\communia #'\((.*?)\)/) do |m|
-    m[1].split.flat_map do |kw|
-      kw = kw[2..-1].to_sym
-      COMMUNIA[kw] || [commune_path(kw)]
-    end
-  end || []
+class SourceFile
+  def initialize(path)
+    @src = File.read path
+  end
+
+  # referenced Commons documents
+  def commons
+    @src.match(/\\communia #'\((.*?)\)/) do |m|
+      m[1].split.flat_map do |kw|
+        kw = kw[2..-1].to_sym
+        COMMUNIA[kw] || [commune_path(kw)]
+      end
+    end || []
+  end
+
+  # referenced sources of individual chants
+  def referenced
+    @src
+      .scan(/\\chant-ref ".*?" "(.*?)"/)
+      .flatten
+      .collect {|fial| fial.split('#')[0].sub(/\.ly$/, '.pdf') }
+  end
 end
 
 # accepts an AppropriatedAntiphons::Celebration instance,
@@ -177,12 +189,23 @@ docs =
     # TODO if there are multiple celebrations, match them to documents
     #   by name similarity
     if propers.size > 0
-      propers += extract_commons(propers[0])
+      src = SourceFile.new(propers[0])
+      propers +=
+        src.commons + src.referenced +
+        # TODO do this also for the appropriated chants below
+        # TODO and for the day propers above
+        # TODO handle seasonal midday prayer
+        if c.rank.solemnity?
+          []
+        else
+          if day.season == CR::Seasons::EASTER
+            ['velikonoce_zaltar.pdf']
+          else
+            ['antifony.pdf']
+          end
+        end
       propers += Dir[sprintf('hymny/%02i%02i*.ly', c.date.month, c.date.day)]
 
-      # TODO Common + referenced files + psalter as needed
-      # TODO doesn't work well for days with multiple sanctorale celebrations
-      #   and for movable sanctorale celebrations
       propers.collect {|i| i.sub /\.ly$/, '.pdf' }
     else
       require 'yaml'
@@ -200,6 +223,8 @@ docs =
       end
     end
   end
+
+docs.uniq!
 
 
 
