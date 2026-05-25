@@ -449,6 +449,7 @@ modVIIalal = \relative c'' { \neviditelna d e4 d c( d c) b c a g g \barFinalis \
 
 \score {
   \relative c'' {
+    \zvyraznovacZelenyII
     \choralniRezim
     \neviditelna e e4 d c( d) c \barMin b c a( g) f( g) \barFinalis
   }
