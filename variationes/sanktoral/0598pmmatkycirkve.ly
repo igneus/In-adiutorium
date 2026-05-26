@@ -35,6 +35,29 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a c c d c e d d \barMin
+    d d d c a b a g \barMaior
+    f g a a a( c) b g g g \barFinalis
+  }
+  \addlyrics {
+    U -- čed -- ní -- ci jed -- no -- my -- sl -- ně
+    se -- tr -- vá -- va -- li v_mod -- lit -- bách
+    s_Je -- ží -- šo -- vou mat -- kou Ma -- ri -- í.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec=26&-aleluja"
+    id = "aben"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \score {
