@@ -32,6 +32,7 @@
     differentia = "c"
     psalmus = ""
     fial = "antifony/velikonoce_tyden7.ly#pa-amag?konec=26&-aleluja"
+    placet = "2 dlouhá recitace na začátku je slabší"
     id = "aben"
     piece = \markup\sestavTitulekBezZalmu
   }
