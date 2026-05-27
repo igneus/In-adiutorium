@@ -168,7 +168,7 @@
   \relative c' {
     \choralniRezim
     d4 d d( f d c) c d( e) d \barMax
-    a c d e( d) d \barMaior
+    d c a c( d) d \barMaior
     d e f f e d e d c \barMin
     d d( f e) c( d) \barMaior
     e f d( c) d \barFinalis
@@ -214,12 +214,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 c c( d) c a( c b g) g( a) \barMin
-    a b c a g g \barMaior
-    a a( d) d( c) c e d( c b) b \barMin
-    a( g a) c( b) g( a) a \barFinalis
+    f4 f f( g) f d( f e c) c( d) \barMin
+    d e f d c c \barMaior
+    d f e f a g( f e) e \barMin
+    d( c d) f( e) c( e) d \barFinalis
   }
   \addlyrics {
     Se -- šli své -- ho Du -- cha,
@@ -229,10 +229,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "IV alt"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 104-III"
-    placet = "2 nevím"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -270,7 +269,7 @@
   \relative c' {
     \choralniRezim
     f4 g f g g( a) a \barMin
-    a g a a( bes a) g( a) \barMin
+    a g a bes( a g) g( a) \barMin
     a g f g( f) d( c) c \barMaior
     d f g( f) f \barFinalis
   }
@@ -375,9 +374,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c( d) d e( f e) d( c) d d \barMin
-    d c b c a g g
-    f a a( g) g \barFinalis
+    g4 a c( d) d e( f e) d c( d) d \barMaior
+    c d c b a g g
+    f a g g \barFinalis
   }
   \addlyrics {
     Ko -- mu hří -- chy od -- pus -- tí -- te,
@@ -426,23 +425,22 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4( d) d d e d c( d) d( c a) a \barMaior
-    a a( g a) b( c) a( g) \barMin
-    c c d( a) a g a a \barMaior
-    b c a a \barFinalis
+    a4( d) d d e d c( d) d( c a4.) a4 \barMaior
+    a c( d) d c e( f d) d \barMaior
+    c a b( c) a( g) g \barMin
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Roz -- množ v_nás, Pa -- ne, svou ví -- ru
-    a o -- svěť nás
-    svět -- lem Du -- cha sva -- té -- ho.
+    a o -- svěť nás svět -- lem
+    Du -- cha sva -- té -- ho.
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. v poledne"
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
-    placet = "od třetího dílu lépe"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -525,8 +523,8 @@
     \choralniRezim
     c4 c b a g a g g
     a( c) b c( d) d \barMaior
-    d d c b c( a g) g
-    f a a( g) g \barFinalis
+    d d c b a( b g) g
+    a g f( g) g \barFinalis
   }
   \addlyrics {
     Všich -- ni by -- li na -- pl -- ně -- ni
