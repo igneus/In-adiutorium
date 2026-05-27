@@ -21,7 +21,7 @@
     \choralniRezim
     d4( f) f \barMin
     g f f g( a) g f f( g) g \barMaior
-    f4 f f( e d c) d( c) \barMin d( f e) d c d d \barFinalis
+    f4 f f( e d c) d4.( c) \barMin d4( f e) d c d d \barFinalis
   }
   \addlyrics {
     Pojď -- me,
@@ -33,7 +33,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "0425marek.ly#invit?cast=1,3"
+    fial = "sanktoral/0425marek.ly#invit?cast=1,3"
     id = "invit"
     piece = \markup\sestavTitulekBezZalmu
   }
