@@ -600,7 +600,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( d) d( a) a b( g) g \barMin
     a g a c b a a \barMaior
@@ -638,6 +638,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4( d) d( a) a b( g) g \barMin
     a g a c b a a \barMaior

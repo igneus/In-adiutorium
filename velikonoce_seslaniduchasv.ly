@@ -99,9 +99,9 @@
     a g a c b a a \barMaior
     a4 a( g f) g( f) g( a) \barMin g( f) e f d d \barMax
 
-    d4 d d( a') a( g a) g( f) f( g) g g \barMin
+    d4 f g a a g( f) f( g) g \barMin
     a( b c) b g a a \barMaior
-    a g a( c) c c b( g) g \barMin
+    a g a c b a( g) a \barMin
     a( b a) g( f) f( g a) g g \barMaior
 
     f g( a) g g \barFinalis
@@ -123,7 +123,6 @@
     modus = "VIII"
     differentia = "c"
     psalmus = ""
-    placet = "kvintová pes na _shro_ je nepříliš zpěvná, recitace kvartu pod finálou ke zpěvákům surová"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
