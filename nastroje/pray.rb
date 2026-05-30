@@ -66,9 +66,9 @@ def commune_path(category)
   "commune/commune_#{category}.pdf"
 end
 
-# explicit mapping is necessary only where the Scheme keyword
-# doesn't match the file name segment
 COMMUNIA = [
+  # explicit mapping is necessary only where the Scheme keyword
+  # doesn't match the file name segment
   [[:mucednici], [:vicemucedniku]],
   [[:mucednik, :mucednice], [:jedenmucednik]],
   [[:papez], [:pastyr]],
@@ -80,6 +80,7 @@ COMMUNIA = [
   paths = val.collect {|v| commune_path(v) }
   keys.collect {|k| [k, paths] }
 end.to_h
+COMMUNIA.default_proc = lambda {|hash, key| [commune_path(key)] }
 
 DAY_PROPERS = {
   ascension: 'velikonoce_nanebevstoupeni.pdf',
@@ -106,7 +107,7 @@ class SourceFile
     @src.match(/\\communia #'\((.*?)\)/) do |m|
       m[1].split.flat_map do |kw|
         kw = kw[2..-1].to_sym
-        COMMUNIA[kw] || [commune_path(kw)]
+        COMMUNIA[kw]
       end
     end || []
   end
@@ -218,9 +219,8 @@ docs =
           .each.find {|i| i.date =~ date }
 
       if entry
-        (entry.communia&.flat_map do |kw|
-          COMMUNIA[kw.to_sym] || [commune_path(kw)]
-        end || []) + appropriated_antiphons(entry, dry_run: options[:'dry-run'])
+        (entry.communia&.flat_map {|kw| COMMUNIA[kw.to_sym] } || []) +
+          appropriated_antiphons(entry, dry_run: options[:'dry-run'])
       end
     end
   end
