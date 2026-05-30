@@ -15,10 +15,10 @@
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 a g f g( a g) g \barMin
-    f g a g f g( f) f \barFinalis
+    e4 g a a g( a g e) e \barMin
+    d e f e d d( e) e \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me Kris -- ta,
@@ -26,10 +26,9 @@
   }
   \header {
     quid = "ant."
-    modus = "VI"
-    differentia = "F"
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
-    placet = "2 vyznívá banálně"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -418,7 +417,7 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f f e d d \barMin
+    f4 f f e d d
     f g g( a) a \barMaior
     a bes a a c a g( a) a \barMaior
     a a a g( f) f \barMin

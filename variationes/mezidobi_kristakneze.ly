@@ -13,7 +13,7 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
-\markup\italic{
+\markup{
   Latinské texty:
   \italic{
     Christo qui sempitérnum habet sacerdótium, glóriam reddámus.
@@ -219,7 +219,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g f \mark\sipka g( a g) g \barMin
     f g a g f g( f) f \barFinalis
@@ -232,6 +232,108 @@
     quid = "ant."
     modus = "VI"
     differentia = "F"
+    psalmus = ""
+    placet = "2 vyznívá banálně"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g( a g e) e \barMin
+    e e f e d d( e) e \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g( a g e) e \barMin
+    \mark\sipka d e f g f d( e) e \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g( a g e) e \barMin
+    d e f g \mark\sipka g e e \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    e4 g a a g( a g e) e \barMin
+    d e f \mark\sipka e d d( e) e \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g a a g( a g e) e \barMin
+    d e \mark\sipka f( g) f e d( e) e \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Kris -- ta,
+    je -- ho kněž -- ství je věč -- né.
+  }
+  \header {
+    quid = "ant."
+    modus = "IV"
+    differentia = "E"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -3256,6 +3358,29 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g f g a a \barMin
+    a c c c b a g( a) g g \barMaior
+    \mark\sipka g f d f( g) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din pří -- sa -- hal
+    a ne -- bu -- de to -- ho li -- to -- vat:
+    Ty jsi kněz na -- vě -- ky.
+
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 110"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 f g g a a \barMin
     a c c c b a g( a) g g \barMaior
     \mark\sipka a a c b( c) a( g) g \barFinalis
@@ -4144,13 +4269,40 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f f e d d \barMin
     f g g( a) a \barMaior
     a bes a a c a g( a) a \barMaior
     a a a g( f) f \barMin
     e f g \mark\sipka a f e d d \barFinalis
+  }
+  \addlyrics {
+    Ot -- če, pro -- sím za ně,
+    vždyť jsou tvo -- ji,
+    a pro ně se za -- svě -- cu -- ji,
+    a -- by i o -- ni
+    by -- li po -- svě -- ce -- ni v_prav -- dě.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f f e d d \mark\sipka
+    f g g( a) a \barMaior
+    a bes a a c a g( a) a \barMaior
+    a a a g( f) f \barMin
+    e f g a f e d d \barFinalis
   }
   \addlyrics {
     Ot -- če, pro -- sím za ně,
