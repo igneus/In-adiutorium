@@ -29,6 +29,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
+    placet = "2 vyznívá banálně"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -346,6 +347,7 @@
     psalmus = "Žalm 111"
     % motiv není převzat doslovně
     fial = "antifony/pust_tyden4.ly#ne-1ne-a3?konec=5"
+    placet = "3 nedrží pohromadě, nepříliš zpěvná"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
