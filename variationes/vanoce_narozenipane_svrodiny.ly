@@ -92,6 +92,30 @@
     }
   }
 
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g f g g a a \barMin
+      a \mark\sipka c b( c) a a \barMaior
+      a a a a( b c) a( g) g a( g) g( f d) \barMin
+      f f g a g g \barFinalis
+    }
+    \addlyrics {
+      Ja -- kub byl O -- tec Jo -- se -- fa,
+      mu -- že Ma -- ri -- e,
+      z_kte -- ré se na -- ro -- dil Je -- žíš,
+      na -- zý -- va -- ný Kris -- tus.
+    }
+    \header {
+      quid = "1. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 113"
+      id = "svrodiny-1ne-a1"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
   \pageBreak
 
   \score {
