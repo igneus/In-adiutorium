@@ -2171,12 +2171,37 @@ ultramelismaticky zpívat lze, jen na to nejsme zvyklí.}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 \mark\sipka f e f( d) d c d e d d \barMaior
     f f( g a) f e \barMin
     d d d f e d c c( d) d \barMaior
     c d e d \barFinalis
+  }
+  \addlyrics {
+    Byl vy -- dán na smrt pro na -- še hří -- chy,_*
+    a vstal z_mrt -- vých
+    pro na -- še o -- spra -- ve -- dl -- ně -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "up-po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e f( d) d c d e d d \barMaior
+    f f( g a) f e \barMin
+    d d d f \mark\sipka f e d c c
+    e f d d \barFinalis
   }
   \addlyrics {
     Byl vy -- dán na smrt pro na -- še hří -- chy,_*

@@ -188,8 +188,8 @@
     \choralniRezim
     d4 f e f( d) d c d e d d \barMaior
     f f( g a) f e \barMin
-    d d d f e d c c( d) d \barMaior
-    c d e d \barFinalis
+    d d d f f e d c c
+    e f d d \barFinalis
   }
   \addlyrics {
     Byl vy -- dán na smrt pro na -- še hří -- chy,_*
@@ -202,7 +202,6 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    placet = "2 aleluja spíš lépe"
     id = "up-po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
