@@ -73,6 +73,7 @@ COMMUNIA = [
   [[:mucednik, :mucednice], [:jedenmucednik]],
   [[:papez], [:pastyr]],
   [[:muz], [:svatymuz]],
+  [[:zena], [:svatazena]],
   [[:reholnik, :milosrdny, :vychovatel], [:reholnikatd, :svatymuz]],
   [[:reholnice, :milosrdna, :vychovatelka], [:reholnikatd, :svatazena]],
 ].flat_map do |keys, val|
