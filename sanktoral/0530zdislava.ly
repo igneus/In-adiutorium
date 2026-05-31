@@ -229,6 +229,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 127"
+    placet = "2 má rezervy"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -267,31 +268,30 @@
     % R
     \neviditelna f
     f4 f f f f f g f g( a) a( g) \barMax
-    g( a) g g \barMin f d f g g f f \barFinalis
+    g4( a) g g a bes a g f g g \barMaior
+    g g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a a \barMin a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g( a) g g \barMin f d f g g f f \barFinalis
+    g4( a) g g a bes a g f g g \barMaior
+    g g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
   \addlyrics {
     \Response Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,_*
-    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
+    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né.
     \Verse Byl jsem ne -- mo -- cen, a na -- vští -- vi -- li jste mě,_*
-    \Response při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství.
-    %kte -- ré je pro vás při -- pra -- ve -- né.
+    \Response při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né.
     \textRespDoxologie
   }
   \header {
-    textus_approbatus = "Pojďte, požehnaní mého Otce, *
-    přijměte jako úděl království, které je pro vás připravené.
-    V. Byl jsem nemocen, a navštívili jste mě,"
     quid = "resp."
     modus = "VI"
-    placet = "zkrácení responsa je opravdu agresivní zásah do oficiálního textu"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

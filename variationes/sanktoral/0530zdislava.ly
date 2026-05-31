@@ -298,6 +298,32 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c c( d) c \barMin d e d c c( d) d \barMaior
+    d \mark\sipka e d c b a( g) \barMin
+    a g f g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Moud -- rá že -- na bu -- do -- va -- la svůj dům,
+    šla čest -- ně ži -- vo -- tem,
+    chvá -- li -- la Hos -- po -- di -- na.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c( d) c \barMin \mark\sipka c c a g a( c) c( d c) \barMaior
     c d e c b a( g) \barMin
     a g f g a g g \barFinalis
@@ -840,6 +866,32 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a( c) \mark\sipka d c( b) a g \barMin c d e c c( d) d \barMaior
+    d c d( e d4.) d4 \barMin c4 b a( g) g \barMaior
+    a a a g f g( a g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Slun -- ce vy -- chá -- ze -- jí -- cí na vý -- ši -- nách Pá -- ně,
+    to je krá -- sa do -- bré že -- ny
+    v_u -- spo -- řá -- da -- ném do -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -1063,6 +1115,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin g f e( f d) d \barMin
+    c d e e( d) \barFinalis
+
+    e4^\markup\rubrVelikAleluja d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- jí tou -- hou
+    by -- lo pat -- řit na Bo -- ží chrám.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 122"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1252,7 +1328,7 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 127"
     id = "ne-a2"
@@ -1276,7 +1352,31 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c d c \mark\sipka b a g a( g) g \barMin
+    f a c c b g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Když po -- má -- ha -- la své -- mu li -- du,
+    ne -- šet -- ři -- la své -- ho ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 127"
     id = "ne-a2"
@@ -1302,6 +1402,30 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e c c( d) d \barMin c b a( b) a( g) \barMaior
+    f a c c b g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Když po -- má -- ha -- la své -- mu li -- du,
+    ne -- šet -- ři -- la své -- ho ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
@@ -1595,6 +1719,79 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g( a) a( g) \barMax
+    g g g g g \mark\sipka f g a g g \barMin
+    g g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a a \barMin a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g g f g( a) a g( a) g g \barMaior
+    g g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,_*
+    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né.
+    \Verse Byl jsem ne -- mo -- cen, a na -- vští -- vi -- li jste mě,_*
+    \Response při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f g f g( a) a( g) \barMax
+    \mark\sipka g4( a) g g a bes a g f g g \barMaior
+    g g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a a \barMin a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g4( a) g g a bes a g f g g \barMaior
+    g g g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Pojď -- te, po -- žeh -- na -- ní mé -- ho Ot -- ce,_*
+    při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né.
+    \Verse Byl jsem ne -- mo -- cen, a na -- vští -- vi -- li jste mě,_*
+    \Response při -- jmě -- te ja -- ko ú -- děl krá -- lov -- ství,
+    kte -- ré je pro vás při -- pra -- ve -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
 \markup\nadpisSkupiny "zkrácený text"
 
 \markup\justify{
@@ -1640,7 +1837,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1670,6 +1867,7 @@
     V. Byl jsem nemocen, a navštívili jste mě,"
     quid = "resp."
     modus = "VI"
+    placet = "zkrácení responsa je opravdu agresivní zásah do oficiálního textu"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }
