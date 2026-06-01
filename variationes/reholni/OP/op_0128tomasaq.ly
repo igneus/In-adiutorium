@@ -175,3 +175,28 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c f g f( a) a \barFinalis
+    a( c) a a g f \mark\sipka g( a g4.) g4 \barMaior
+    g a a a a g f e( f) d d( c) \barMin
+    d f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- pro -- střed shro -- máž -- dě -- ní
+    o -- te -- vřel mu Pán ús -- ta
+    a na -- pl -- nil ho du -- chem moud -- ros -- ti
+    a ro -- zu -- mu.
+  }
+  \header {
+    fons_externus = "velmi volně podle CANTUS 003255"
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "ne-b-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
