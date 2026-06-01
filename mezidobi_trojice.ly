@@ -16,7 +16,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   "]"
 }
 
-\markup\justify{
+\markup\justify\small{
   Oficium Nejsvětější Trojice bylo jedním z prvních, kde antifony
   tvořily řady procházející postupně jednotlivé mody v číselném pořadí.
   \italic{Liturgia horarum} značnou část tradičních antifon přebírá,
