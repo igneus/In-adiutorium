@@ -2115,6 +2115,8 @@
 
 \pageBreak
 
+\markup\cantusid-link "001743"
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -2188,6 +2190,51 @@
   \relative c'' {
     \zvyraznovacModry
     \choralniRezim
+    g4 g a f a g g \barMaior
+    a b c a a \barMin
+    g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Do -- brý boj jsem bo -- jo -- val,_*
+    svůj běh jsem skon -- čil,
+    ví -- ru u -- cho -- val.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a f a g g \barMaior
+    a b c \mark\sipka a( g) g \barMin
+    a f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Do -- brý boj jsem bo -- jo -- val,_*
+    svůj běh jsem skon -- čil,
+    ví -- ru u -- cho -- val.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
+    \choralniRezim
     a4 a g f g a a \barMaior
     a b c a( g) g \barMin
     f e c d d \barFinalis
@@ -2202,6 +2249,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 149"
+    placet = "2 závěr slabší"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -2311,6 +2359,33 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\justify{
+  V pramenech při stejném průběhu melodie přiřazení modu
+  kolísá mezi I a II.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f e( f) d d \barMaior
+    f g a g( f) f \barMin
+    e( f) d c d d \barFinalis
+  }
+  \addlyrics {
+    Do -- brý boj jsem bo -- jo -- val,_*
+    svůj běh jsem skon -- čil,
+    ví -- ru u -- cho -- val.
+  }
+  \header {
+    fons_externus = "volně podle středověkých pramenů"
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}

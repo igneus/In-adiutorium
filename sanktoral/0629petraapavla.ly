@@ -310,9 +310,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g f g a a \barMaior
-    a b c a( g) g \barMin
-    f e c d d \barFinalis
+    g4 g a f a g g \barMaior
+    a b c a a \barMin
+    g f g( a) g g \barFinalis
   }
   \addlyrics {
     Do -- brý boj jsem bo -- jo -- val,_*
@@ -321,10 +321,9 @@
   }
   \header {
     quid = "3. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 149"
-    placet = "2 závěr slabší"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
