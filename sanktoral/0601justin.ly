@@ -15,11 +15,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d d( f) e d( c) c f( g) f( a) a \barMaior
+    d4 d c d( f) e d( c) c f( g) f( a) a \barMaior
     a( c) a( g) g( a) \barMin
     a a a g f e( f d) d \barMaior
     d d c d d( f) f g a g f f \barMin
-    g f e d c e( f) d d \barFinalis
+    f g f e c e( f) d d \barFinalis
 
     e^\markup\rubrVelikAleluja d c( d) d \barFinalis
   }
