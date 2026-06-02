@@ -408,7 +408,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a( c) c \barMin
     c( d c a) a c b g( a) g g \barMaior
@@ -430,6 +430,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
+    placet = "2 _o dobrotě a milosrdenství_ je nepříliš zpěvné; _napsal_ spíš už neústrojně přetížené"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -630,6 +631,41 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\markup\justify{
+  (To, že obě antifony až dosud měly na začátku kolem jména
+  evangelisty společný motiv, opouštím vědomě a dobrovolně.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 g a f g( a g) g \barMin
+    a( b c) b a g g \barMaior
+    a a a g f g f g a a \barMin
+    c( d c) b( g) c c( a) a \barMaior
+    c d e d c( d c a) a \barMin
+    c b( a) g( a g4.) g \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Lu -- káš na -- psal
+    e -- van -- ge -- li -- um
+    o do -- bro -- tě a mi -- lo -- sr -- den -- ství
+    Bo -- ží -- ho Sy -- na;
+    pro -- to ho dnes chvá -- lí
+    ce -- lá cír -- kev.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\nadpisSkupiny "B"
 
 \score {
   \relative c'' {

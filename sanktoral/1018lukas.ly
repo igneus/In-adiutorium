@@ -64,18 +64,18 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g a( c) c \barMin
-    c( d c a) a c b g( a) g g \barMaior
+    g4 g a f g( a g) g \barMin
+    a( b c) b a g g \barMaior
     a a a g f g f g a a \barMin
     c( d c) b( g) c c( a) a \barMaior
     c d e d c( d c a) a \barMin
     c b( a) g( a g4.) g \barFinalis
   }
   \addlyrics {
-    Sva -- tý Lu -- káš
-    na -- psal e -- van -- ge -- li -- um
+    Sva -- tý Lu -- káš na -- psal
+    e -- van -- ge -- li -- um
     o do -- bro -- tě a mi -- lo -- sr -- den -- ství
     Bo -- ží -- ho Sy -- na;
     pro -- to ho dnes chvá -- lí
@@ -86,7 +86,7 @@
     modus = "VIII"
     differentia = "G"
     psalmus = ""
-    placet = "2 _o dobrotě a milosrdenství_ je nepříliš zpěvné; _napsal_ spíš už neústrojně přetížené"
+    placet = "2 _o dobrotě a milosrdenství_ je nepříliš zpěvné"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
