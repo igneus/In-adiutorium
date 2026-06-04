@@ -21,16 +21,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    f f e d c( d) c c \barMin
+    d c d f f f e c c( d) d \barFinalis
   }
   \addlyrics {
-    Pojďme, klaňme se Hospodinu, který skrze proroky vykonal podivuhodné činy.
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
+    kte -- rý skr -- ze pro -- ro -- ky
+    vy -- ko -- nal po -- di -- vu -- hod -- né či -- ny.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -122,13 +127,13 @@
     % R
     \neviditelna f
     f4 f f f( g) f f \barMin f g f f g( f) g( a) a( g) \barMax
-    g4 f g a g g \barMin g f d f g g g g( f) f \barFinalis
+    g4 f g a g g \barMin g( a) g g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a a a( bes) a a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-    g4 f g a g g \barMin g f d f g g g g( f) f \barFinalis
+    g4 f g a g g \barMin g( a) g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -142,7 +147,6 @@
   \header {
     quid = "resp."
     modus = "VI"
-    placet = "3 r2 pokud možno lépe"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }

@@ -26,10 +26,42 @@
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
+\markup\justify{
+  (Takové to, když mám melodii, která na text pěkně sedí,
+  ale vzápětí se ukáže, že jsem špatně četl a prozpěvuji si
+  text významně odlišný od oficiálního.)
+}
 \score {
   \relative c' {
     \choralniRezim
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    f e d c( d) c c \barMin
+    d c d f f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
+    on skr -- ze pro -- ro -- ky
+    ko -- ná po -- di -- vu -- hod -- né či -- ny.
+  }
+  \header {
+    textus_approbatus = "Pojďme, klaňme se Hospodinu,
+    který skrze proroky vykonal podivuhodné činy."
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    \mark\sipka f f e d c( d) c c \barMin
+    d d c d f f e c d d \barFinalis
   }
   \addlyrics {
     Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
@@ -38,13 +70,109 @@
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    f f e d c( d) c c \barMin
+    \mark\sipka d c d f f f e c d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
+    kte -- rý skr -- ze pro -- ro -- ky
+    vy -- ko -- nal po -- di -- vu -- hod -- né či -- ny.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    f f e d c( d) c c \barMin
+    d c d f f f e c \mark\sipka c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
+    kte -- rý skr -- ze pro -- ro -- ky
+    vy -- ko -- nal po -- di -- vu -- hod -- né či -- ny.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    f f e d c( d) c c \mark\sipka f( g a) g g \barMin
+    a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
+    kte -- rý skr -- ze pro -- ro -- ky vy -- ko -- nal
+    po -- di -- vu -- hod -- né či -- ny.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d( f) f \barMin g f f e d e( f) d \barMaior
+    f f e d c( d) c c f( g a) g g \barMin
+    a \mark\sipka a a g f e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- me, klaň -- me se Hos -- po -- di -- nu,
+    kte -- rý skr -- ze pro -- ro -- ky vy -- ko -- nal
+    po -- di -- vu -- hod -- né či -- ny.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "antifony/invitatoria.ly#t1ut?cast=1-2"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -377,6 +505,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -422,6 +551,39 @@
     % R
     \neviditelna a
     g4 f g a g g \barMin g \mark\sipka g g( f d) f g g g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response E -- li -- áš vy -- stou -- pil ve vich -- ři -- ci do ne -- be._*
+    A duch E -- li -- á -- šův spo -- či -- nul na E -- li -- ze -- o -- vi.
+    \Verse E -- li -- ze -- us zdvi -- hl plášť E -- li -- á -- šův.
+    \Response A duch E -- li -- á -- šův spo -- či -- nul na E -- li -- ze -- o -- vi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f( g) f f \barMin f g f f g( f) g( a) a( g) \barMax
+    g4 f g a g g \barMin \mark\sipka g( a) g g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a a( bes) a a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g4 f g a g g \barMin \mark\sipka g( a) g g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
