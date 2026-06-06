@@ -219,6 +219,10 @@ docs =
           .each.find {|i| i.date =~ date }
 
       if entry
+        puts entry.title
+        puts entry.rank
+        p entry.communia
+
         (entry.communia&.flat_map {|kw| COMMUNIA[kw.to_sym] } || []) +
           appropriated_antiphons(entry, dry_run: options[:'dry-run'])
       end
