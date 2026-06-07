@@ -7,21 +7,6 @@ require 'calendarium-romanum/cr'
 
 require_relative 'lib/pray/music_sheet_finder.rb'
 
-I18n.locale = :cs
-
-module CalendariumRomanum
-  class Celebration
-    # reasonable representation in HighLine
-    alias to_s title
-
-    # required for HighLine completion and default:
-    alias to_str to_s # support implicit conversion to String
-    def size
-      to_s.size
-    end
-  end
-end
-
 
 
 parser = OptionParser.new do |opts|
@@ -45,6 +30,21 @@ date =
 
 
 
+I18n.locale = :cs
+
+module CalendariumRomanum
+  class Celebration
+    # reasonable representation in HighLine
+    alias to_s title
+
+    # required for HighLine completion and default:
+    alias to_str to_s # support implicit conversion to String
+    def size
+      to_s.size
+    end
+  end
+end
+
 calendar = CR::PerpetualCalendar.new sanctorale: CR::Data['czech-praha-cs'].load_with_parents, temporale_options: {extensions: [CR::Temporale::Extensions::ChristEternalPriest]}
 ycalendar = calendar.calendar_for(date)
 day = calendar[date]
@@ -66,19 +66,18 @@ end
 
 docs = MusicSheetFinder.call(day, celebration, dry_run: options[:'dry-run'])
 
-
-
 if options[:debug]
   STDERR.puts "#{date.to_s} #{celebration.symbol}"
 end
+
 if docs.nil?
   STDERR.puts "Cannot determine sheet music for '#{c}' yet."
   exit 1
+end
+
+cmd = ['bash', 'nastroje/open.sh', *docs]
+if options[:'dry-run']
+  puts cmd.join ' '
 else
-  cmd = ['bash', 'nastroje/open.sh', *docs]
-  if options[:'dry-run']
-    puts cmd.join ' '
-  else
-    exec(*cmd)
-  end
+  exec(*cmd)
 end
