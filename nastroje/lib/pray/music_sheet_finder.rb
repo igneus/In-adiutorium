@@ -1,3 +1,7 @@
+require 'calendarium-romanum/cr'
+
+# Knows which music sheets are required for any occasion
+# of the liturgical year.
 class MusicSheetFinder
   # Hash<Symbol => Array[1..n]<String>>
   # maps symbols of Commons as used in the \communia markup command
