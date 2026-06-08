@@ -3306,7 +3306,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d f e f f( g) g( f) f \barMin
     g f \mark\sipka d( e) d d( c) \barMin
