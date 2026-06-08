@@ -230,6 +230,49 @@
 
 \score {
   \relative c' {
+    \zvyraznovacZelenyIII
+    \choralniRezim
+    \mark\sipka c4 d d( f) f \barMin
+    g( f) e d f e d \barMax
+    f e( c) d e f \barMin
+    e( c) f d4. d4. \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g( f) e d f e d \barMax
+    f \mark\sipka e d e d( c) \barMin
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
     \choralniRezim
     c4 d d( f) f \barMin
     g( f) e d e d( c) c \barMaior
@@ -340,6 +383,27 @@
     f d f e d( c) c \barMaior
     \mark\sipka d d c d d( f) \barMin
     g f d d \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f( e) d( e) e( d) \barMin
+    d( c) d d f e d \barMaior
+    f g e f d( c) \barMin
+    a c c( d) d \barFinalis
   }
   \addlyrics {
     O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
