@@ -891,13 +891,46 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g a g f g f d d \barMaior
     d c d f f g a bes a g f( g) g \barMaior
     g f g a g g \barMaior
     \mark\sipka a bes a g f g g \barMin
     f g f e c d d( c) \barMaior
+    d( f) e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ce -- lé shro -- máž -- dě -- ní ml -- če -- lo
+    a po -- slou -- cha -- lo Bar -- na -- bá -- še a Pav -- la,
+    když vy -- pra -- vo -- va -- li,
+    jak ve -- li -- ká zna -- me -- ní
+    vy -- ko -- nal Bůh skr -- ze ně
+    me -- zi po -- ha -- ny.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "f"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g a g f g f d d \barMaior
+    d c d f f g a bes a g f( g) g \barMaior
+    g f g a g g \barMaior
+    a bes a g f g g \barMin
+    f g f e \mark\sipka d c d( c) \barMaior
     d( f) e c d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis

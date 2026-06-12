@@ -81,7 +81,7 @@
     d c d f f g a bes a g f( g) g \barMaior
     g f g a g g \barMaior
     a bes a g f g g \barMin
-    f g f e c d d( c) \barMaior
+    f g f e d c d( c) \barMaior
     d( f) e c d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
