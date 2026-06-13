@@ -30,18 +30,18 @@ class MusicSheetFinder
     end
 
   DAY_PROPERS = {
-    ascension: 'velikonoce_nanebevstoupeni.pdf',
-    pentecost: 'velikonoce_seslaniduchasv.pdf',
-    mother_of_church: 'sanktoral/0598pmmatkycirkve.pdf',
-    christ_eternal_priest: 'mezidobi_kristakneze.pdf',
-    holy_trinity: 'mezidobi_trojice.pdf',
-    corpus_christi: 'mezidobi_telaakrvepane.pdf',
-    sacred_heart: 'mezidobi_nejsvsrdce.pdf',
-    immaculate_heart: 'sanktoral/0599neposkvrnenehosrdcepm.pdf',
-    all_souls: 'commune/zazemrele.pdf',
-    christ_king: 'mezidobi_kristakrale.pdf',
+    ascension: 'velikonoce_nanebevstoupeni.ly',
+    pentecost: 'velikonoce_seslaniduchasv.ly',
+    mother_of_church: 'sanktoral/0598pmmatkycirkve.ly',
+    christ_eternal_priest: 'mezidobi_kristakneze.ly',
+    holy_trinity: 'mezidobi_trojice.ly',
+    corpus_christi: 'mezidobi_telaakrvepane.ly',
+    sacred_heart: 'mezidobi_nejsvsrdce.ly',
+    immaculate_heart: 'sanktoral/0599neposkvrnenehosrdcepm.ly',
+    all_souls: 'commune/zazemrele.ly',
+    christ_king: 'mezidobi_kristakrale.ly',
 
-    saturday_memorial_bvm: ['antifony.pdf', 'commune/commune_maria.pdf'],
+    saturday_memorial_bvm: ['antifony.ly', 'commune/commune_maria.ly'],
   }.freeze
 
   def self.call(day, celebration, dry_run: false)
@@ -64,7 +64,12 @@ class MusicSheetFinder
 
   def music_sheets
     if DAY_PROPERS[c.symbol]
-      [DAY_PROPERS[c.symbol]].flatten
+      f = DAY_PROPERS[c.symbol]
+      if f.is_a? Array
+        f
+      else
+        with_commons_and_psalter SourceFile.new f
+      end
     elsif c.cycle == :temporale
       temporale
     else
@@ -125,58 +130,67 @@ class MusicSheetFinder
     propers = Dir[sprintf('sanktoral/%02i%02i*.ly', c.date.month, c.date.day)]
     # TODO if there are multiple celebrations, match them to documents
     #   by name similarity
-    if propers.size > 0
-      src = SourceFile.new(propers[0])
-      propers +=
-        src.commons + src.referenced +
-        # TODO do this also for the appropriated chants below
-        # TODO and for the day propers above
-        # TODO handle seasonal midday prayer
-        if c.rank.solemnity?
-          []
-        else
-          if day.season == CR::Seasons::EASTER
-            ['velikonoce_zaltar.pdf']
-          else
-            ['antifony.pdf']
-          end
-        end
-      propers += Dir[sprintf('hymny/%02i%02i*.ly', c.date.month, c.date.day)]
-
-      propers.collect {|i| i.sub /\.ly$/, '.pdf' }.uniq
-    else
-      require 'yaml'
-      require_relative '../../appropriated'
-
-      entry =
+    src =
+      if propers.size > 0
+        SourceFile.new(propers[0])
+      else
+        require 'yaml'
+        require_relative '../../appropriated'
         AppropriatedAntiphons
           .new(YAML.load(File.read('sanktoral/bezvlastnich.yml')))
           .each.find {|i| i.date =~ date }
+          &.yield_self do |entry|
+          # TODO side effect, move it away
+          puts entry.title
+          puts entry.rank
+          p entry.communia
 
-      if entry
-        # TODO side effect, move it away
-        puts entry.title
-        puts entry.rank
-        p entry.communia
-
-        (entry.communia&.flat_map {|kw| COMMUNIA[kw.to_sym] } || []) +
-          appropriated_antiphons(entry)
+          AACelebrationAdapter.new(entry)
+        end
       end
-    end
+
+    with_commons_and_psalter(src)
+  end
+
+  # Accepts a SourceFile, returns an Array of file names.
+  def with_commons_and_psalter(src)
+    files =
+      (src.path&.yield_self {|x| [x] } || []) +
+      src.commons +
+      src.referenced +
+      appropriated_antiphons(src) +
+
+      c.date.yield_self do |date|
+        date && Dir[sprintf('hymny/%02i%02i*.ly', date.month, date.day)] || []
+      end +
+
+      # TODO do this also for the day propers above
+      # TODO handle seasonal midday prayer
+      if c.rank.solemnity?
+        []
+      else
+        if day.season == CR::Seasons::EASTER
+          ['velikonoce_zaltar.pdf']
+        else
+          ['antifony.pdf']
+        end
+      end
+
+    files.collect {|i| i.sub /\.ly$/, '.pdf' }.uniq
   end
 
   # accepts an AppropriatedAntiphons::Celebration instance,
   # returns an Array which may or may not contain a path
   # to an ad hoc generated document with appropriated antiphons for the occasion
-  def appropriated_antiphons(data)
-    aa = data.antiphons
+  def appropriated_antiphons(src)
+    aa = src.appropriated_antiphons
     return [] if aa.empty?
 
     path = 'ad_hoc.pdf'
     header = <<~LY
     \\include \"spolecne.ly\"
     \\header {
-      title = \"#{data.title}\"
+      title = \"#{src.title}\"
       subtitle = \"(ad hoc)\"
     }
     LY
@@ -187,8 +201,11 @@ class MusicSheetFinder
 
   class SourceFile
     def initialize(path)
+      @path = path
       @src = File.read path
     end
+
+    attr_reader :path
 
     # referenced Commons documents
     def commons
@@ -206,6 +223,29 @@ class MusicSheetFinder
         .scan(/\\chant-ref ".*?" "(.*?)"/)
         .flatten
         .collect {|fial| fial.split('#')[0].sub(/\.ly$/, '.pdf') }
+    end
+
+    def appropriated_antiphons
+      []
+    end
+  end
+
+  # wraps a AppropriatedAntiphons::Celebration,
+  # exposes interface compatible with SourceFile
+  class AACelebrationAdapter < SimpleDelegator
+    def path
+    end
+
+    def commons
+      communia&.flat_map {|kw| COMMUNIA[kw] } || []
+    end
+
+    def referenced
+      []
+    end
+
+    def appropriated_antiphons
+      antiphons
     end
   end
 end
