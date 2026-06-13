@@ -267,7 +267,7 @@
     \choralniRezim
     c4 b a c( d) d( c) c \barMaior
     c d e c( a) a \barMin c c b c a( g) g \barMaior
-    a f g g( a) a \barMin c c b g a g f( g) g \barFinalis
+    g f g g( a) a \barMin c c b a g a g g \barFinalis
   }
   \addlyrics {
     Uč -- te se o -- de mě,

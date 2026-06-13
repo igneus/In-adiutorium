@@ -42,7 +42,7 @@
     \choralniRezim
     c4 b a c( d) d( c) c \barMaior
     c d e c( a) a \barMin c c b c a( g) g \barMaior
-    a f g g( a) a \barMin c c b g a g f( g) g \barFinalis
+    g f g g( a) a \barMin c c b a g a g g \barFinalis
   }
   \addlyrics {
     Uč -- te se o -- de mě,
@@ -206,7 +206,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) c( d) d \barMin c d d e c c( d) d \barMaior
+    g4( a) c( d) d \barMin d c d e c c( d) d \barMaior
     a( d b c) a( g) \barMin f g a c( b a) a \barFinalis
   }
   \addlyrics {
@@ -250,8 +250,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g4.( a) \barMin a4 b a b b( d) d \barMaior
-    d4 d( e c d) d \barMin d c( b a) g g( a) a b g g \barFinalis
+    \key f \major
+    a4 a g( a) \barMin f g f g g( a) a \barMaior
+    c4 c( d bes c) c \barMin c bes( a g) f f( g) g a f f \barFinalis
   }
   \addlyrics {
     Je -- žíš stál a hla -- si -- tě vo -- lal:
@@ -259,11 +260,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
+    modus = "V"
     differentia = "a"
     psalmus = "Žalm 63"
-    placet = "2 postup ve druhé části je v rámci modu netypický;
-    závěr nevím, nějak to úplně není ono"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }
