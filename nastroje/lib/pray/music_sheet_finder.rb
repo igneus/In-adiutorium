@@ -99,27 +99,23 @@ class MusicSheetFinder
         ['pust_svatytyden.pdf']
       else
         %w(antifony.pdf pust_responsoria.pdf pust_antifony.pdf)
-          .yield_self(&skip_psalter_on_sunday)
       end
     when CR::Seasons::CHRISTMAS
-      if date.month == 12
+      if date.month == 12 || c.symbol == :mother_of_god
         ['vanoce_narozenipane.pdf']
       elsif date >= Date.new(date.year, 1, 6)
-        ['vanoce_zjevenipane.pdf']
-      elsif date.sunday?
-        ['vanoce_druhanedele.pdf']
+        if %i[epiphany baptism_of_lord].include? c.symbol
+          ['vanoce_zjevenipane.pdf']
+        else
+          ['antifony.pdf', 'vanoce_zjevenipane.pdf']
+        end
       else
-        ['antifony.pdf', 'vanoce_narozenipane.pdf', 'vanoce_ferie.pdf']
+        ['antifony.pdf', 'vanoce_narozenipane.pdf',
+         (date.sunday? ? 'vanoce_druhanedele.pdf' : 'vanoce_ferie.pdf')]
       end
     when CR::Seasons::ADVENT
       %w(antifony.pdf advent_responsoria.pdf advent_antifony.pdf)
-        .yield_self do |d|
-        if date.day >= 17
-          d[1..-1]
-        else
-          skip_psalter_on_sunday.(d)
-        end
-      end
+        .yield_self(&skip_psalter_on_sunday)
     when CR::Seasons::ORDINARY
       %w(antifony.pdf responsoria.pdf).yield_self do |d|
         c.sunday? ? (d + ['mezidobi_nedele.pdf']) : d

@@ -17,8 +17,9 @@ describe MusicSheetFinder do
       I18n.with_locale(:cs, &example)
     end
 
-    def self.yt(title, date, expected, celebration_index: 0)
+    def self.yt(title, date, expected, celebration_index: 0, pending: false)
       it title do
+        self.pending pending if pending
         day = calendar[date]
         c = day.celebrations[celebration_index]
         expect(c.title).to eq title
@@ -34,11 +35,86 @@ describe MusicSheetFinder do
          %w[antifony.pdf responsoria.pdf]
     end
 
+    describe 'Lent' do
+      yt 'Popeleční středa', Date.new(2026, 2, 18),
+         %w[antifony.pdf pust_responsoria.pdf pust_antifony.pdf]
+      yt '1. neděle postní', Date.new(2026, 2, 22),
+         %w[antifony.pdf pust_responsoria.pdf pust_antifony.pdf]
+      yt 'Pondělí po 1. neděli postní', Date.new(2026, 2, 23),
+         %w[antifony.pdf pust_responsoria.pdf pust_antifony.pdf]
+    end
+
+    describe 'Holy Week' do
+      yt 'Květná neděle', Date.new(2026, 3, 29),
+         %w[pust_svatytyden.pdf]
+      yt 'Čtvrtek Svatého týdne', Date.new(2026, 4, 2),
+         %w[pust_svatytyden.pdf]
+    end
+
+    describe 'Triduum' do
+      yt 'Velký pátek', Date.new(2026, 4, 3),
+         %w[pust_triduum.pdf]
+      yt 'Bílá sobota', Date.new(2026, 4, 4),
+         %w[pust_triduum.pdf]
+      yt 'Zmrtvýchvstání Páně', Date.new(2026, 4, 5),
+         %w[velikonoce_velikonocnioktav.pdf]
+    end
+
     describe 'Eastertide' do
       yt '3. neděle velikonoční', Date.new(2026, 4, 19),
          %w[velikonoce_responsoria.pdf velikonoce_antifony.pdf]
       yt 'Pondělí po 3. neděli velikonoční', Date.new(2026, 4, 20),
          %w[velikonoce_zaltar.pdf velikonoce_responsoria.pdf velikonoce_antifony.pdf]
+    end
+
+    describe 'solemnities of the Lord' do
+      yt 'Nejsvětější Trojice', Date.new(2026, 5, 31),
+         %w[mezidobi_trojice.pdf]
+      yt 'Těla a krve Páně', Date.new(2026, 6, 4),
+         %w[mezidobi_telaakrvepane.pdf]
+      yt 'Nejsvětějšího srdce Ježíšova', Date.new(2026, 6, 12),
+         %w[mezidobi_nejsvsrdce.pdf]
+      yt 'Ježíše Krista krále', Date.new(2026, 11, 22),
+         %w[mezidobi_kristakrale.pdf]
+    end
+
+    describe 'Advent' do
+      yt '1. neděle adventní', Date.new(2026, 11, 29),
+         %w[advent_responsoria.pdf advent_antifony.pdf]
+      yt 'Středa po 1. neděli adventní', Date.new(2026, 12, 2),
+         %w[antifony.pdf advent_responsoria.pdf advent_antifony.pdf]
+      yt '17. prosince', Date.new(2026, 12, 17),
+         %w[antifony.pdf advent_responsoria.pdf advent_antifony.pdf]
+    end
+
+    describe 'Christmastide' do
+      describe 'Nativity + octave' do
+        yt 'Narození Páně', Date.new(2026, 12, 25),
+           %w[vanoce_narozenipane.pdf]
+        yt 'Sv. Štěpána, prvomučedníka', Date.new(2026, 12, 26),
+           %w[sanktoral/1226stepan.pdf commune/commune_jedenmucednik.pdf vanoce_narozenipane.pdf],
+           pending: 'propers of the octave'
+        yt 'Svaté rodiny Ježíše, Marie a Josefa', Date.new(2026, 12, 27),
+           %w[vanoce_narozenipane.pdf]
+        yt 'Oktáv Narození Páně. Matky Boží, Panny Marie', Date.new(2027, 1, 1),
+           %w[vanoce_narozenipane.pdf]
+      end
+
+      describe 'days in between' do
+        yt '2. neděle po Narození Páně', Date.new(2026, 1, 4),
+           %w[antifony.pdf vanoce_narozenipane.pdf vanoce_druhanedele.pdf]
+        yt 'Pondělí po oktávu Narození Páně', Date.new(2026, 1, 5),
+           %w[antifony.pdf vanoce_narozenipane.pdf vanoce_ferie.pdf]
+      end
+
+      describe 'Epiphany + pseudo-octave' do
+        yt 'Zjevení Páně', Date.new(2027, 1, 6),
+           %w[vanoce_zjevenipane.pdf]
+        yt 'Pátek po Zjevení Páně', Date.new(2027, 1, 8),
+           %w[antifony.pdf vanoce_zjevenipane.pdf]
+        yt 'Křtu Páně', Date.new(2027, 1, 10),
+           %w[vanoce_zjevenipane.pdf]
+      end
     end
 
     describe 'sanctorale' do
@@ -53,9 +129,9 @@ describe MusicSheetFinder do
 
         it 'needs Commons, but not psalter'
 
-        it 'needs Psalter, but not Commons'
+        it 'needs psalter, but not Commons'
 
-        it 'neither psalter, nor Commons needed'
+        it 'neither psalter, nor Commons needed (despite being listed in the source file)'
 
         it 'seasonal propers'
       end
