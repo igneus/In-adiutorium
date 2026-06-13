@@ -44,15 +44,16 @@ class MusicSheetFinder
     saturday_memorial_bvm: ['antifony.ly', 'commune/commune_maria.ly'],
   }.freeze
 
-  def self.call(day, celebration, dry_run: false)
-    new(day, celebration, dry_run: dry_run).music_sheets
+  def self.call(*args, **kwargs)
+    new(*args, **kwargs).music_sheets
   end
 
-  def initialize(day, celebration, dry_run: false)
+  def initialize(day, celebration, dry_run: false, output: STDOUT)
     @day = day
     @celebration = celebration
 
     @dry_run = dry_run
+    @output = output
   end
 
   attr_reader :day, :celebration, :dry_run
@@ -141,9 +142,9 @@ class MusicSheetFinder
           .each.find {|i| i.date =~ date }
           &.yield_self do |entry|
           # TODO side effect, move it away
-          puts entry.title
-          puts entry.rank
-          p entry.communia
+          @output.puts entry.title
+          @output.puts entry.rank
+          @output.puts entry.communia.inspect
 
           AACelebrationAdapter.new(entry)
         end

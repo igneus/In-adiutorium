@@ -10,6 +10,8 @@ describe MusicSheetFinder do
     )
   end
 
+  let(:dev_null) { double.tap {|x| allow(x).to receive :puts } }
+
   describe 'example days' do
     around(:example) do |example|
       I18n.with_locale(:cs, &example)
@@ -20,7 +22,7 @@ describe MusicSheetFinder do
         day = calendar[date]
         c = day.celebrations[celebration_index]
         expect(c.title).to eq title
-        expect(described_class.call(day, c, dry_run: true))
+        expect(described_class.call(day, c, dry_run: true, output: dev_null))
           .to eq expected
       end
     end
@@ -102,7 +104,7 @@ describe MusicSheetFinder do
       it "finds some music for #{date}" do
         day = calendar[date]
         day.celebrations.each do |c|
-          music = described_class.call(day, c, dry_run: true)
+          music = described_class.call(day, c, dry_run: true, output: dev_null)
           expect(music).not_to be_nil
           expect(music).not_to be_empty
         end
