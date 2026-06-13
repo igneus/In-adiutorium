@@ -80,7 +80,11 @@
   }
 }
 
-\markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
+\markup\italic{
+  Responsorium
+  \upright\chant-ref "ne1-r" "vanoce_narozenipane.ly#narozeni-2ne-resp" {Slovo se stalo tělem}
+  ze slavnosti Narození Páně.
+}
 
 \score {
   \relative c'' {
@@ -110,7 +114,10 @@
 
 \markup\italic{
   Antifony k žalmům se berou ze žaltáře.
-  Antifona ke kantikům vigilie jako o slavnosti Narození Páně.
+
+  \chant-ref "mc-avig" "vanoce_narozenipane.ly#vden-cte-avig" {
+    Antifona ke kantikům vigilie jako o slavnosti Narození Páně.
+  }
 }
 
 \markup {\nadpisHodinka {"ranní chvály"}}
@@ -323,7 +330,11 @@
   }
 }
 
-\markup\italic{Responsorium \upright{Slovo se stalo tělem} ze slavnosti Narození Páně.}
+\markup\italic{
+  Responsorium
+  \upright\chant-ref "ne2-r" "vanoce_narozenipane.ly#narozeni-2ne-resp" {Slovo se stalo tělem}
+  ze slavnosti Narození Páně.
+}
 
 \score {
   \relative c'' {
