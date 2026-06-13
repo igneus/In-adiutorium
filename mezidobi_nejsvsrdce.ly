@@ -32,7 +32,7 @@
     psalmus = "Žalm 113"
     id = "1ne-a1"
     placet = "2 postup na _smiloval se nad námi_ je v rámci modu netypický"
-    fial = "mezidobi_nejsvsrdce.ly#rch-aben?zacatek"
+    fial = "mezidobi_nejsvsrdce.ly#rch-aben?cast=1-2"
     piece = \markup {\sestavTitulek}
   }
 }
