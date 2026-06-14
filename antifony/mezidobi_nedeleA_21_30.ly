@@ -581,11 +581,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f g a a \barMaior
-    c c b g b( c) a a \barMin
-    a g f e f d( c) c \barMaior
+    d4 c a c d d \barMaior
+    f f e c e( f) d d \barMin
+    f g f e d c c \barMin
     d( f) e d( e) d d \barFinalis
   }
   \addlyrics {
@@ -596,11 +596,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
-    fial = "mezidobi_telaakrvepane.ly#mc-a1?zacatek=15"
+    fial = "mezidobi_telaakrvepane.ly#mc-a1?cast=1-2"
     id = "ne28a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

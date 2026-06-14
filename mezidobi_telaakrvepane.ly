@@ -168,11 +168,11 @@
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 g f g a a \barMaior
-    c c b g b( c) a a \barMin
-    g( a) f e( f) d( c) c \barMin
+    d4 c a c d d \barMaior
+    f f e c e( f) d d \barMin
+    f( g) f e( f) d( c) c \barMin
     d f e( d) d \barFinalis
   }
   \addlyrics {
@@ -183,8 +183,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "I"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 23"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
@@ -456,9 +456,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g g( a) a a \barMin
-    c c b a g( a) g \barMaior
-    f g( a) g g \barFinalis
+    c4 b a g( a) g g \barMin
+    f g a a a( c) b \barMaior
+    c a g( a) g \barFinalis
   }
   \addlyrics {
     Po -- zna -- li Je -- ží -- še
@@ -468,7 +468,7 @@
   \header {
     quid = "ant. odpoledne"
     modus = "VIII"
-    differentia = "G"
+    differentia = "c"
     psalmus = ""
     id = "up-nona"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -482,7 +482,7 @@
     \choralniRezim
     g4 f( a) a \barMin
     a b( c) a( g) g \barMin
-    a a g f g f g a g g \barMaior
+    a a g f g a a a g g \barMaior
     g f g g( a) a \barMin
     c b a g g f g a g g \barFinalis
   }
