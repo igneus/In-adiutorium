@@ -82,10 +82,10 @@ ciselnaRada = \markup\tiny\sans\concat{
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4( d) d d f4.( d) \barMin e4 f d c c( d) d \barMaior
-    d c b a( g) a \barMin a b a g( a) g g \barFinalis
+    f4 a c( d) c \barMin d f e d c( a) a \barMaior
+    c bes a g( f) g \barMin g a g f( g) f f \barFinalis
   }
   \addlyrics {
     Slá -- va a čest je -- di -- né -- mu Bo -- hu:
@@ -93,7 +93,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
+    modus = "V"
     differentia = "a"
     psalmus = "Ef 1"
     id = "1ne-a3"
@@ -139,7 +139,7 @@ ciselnaRada = \markup\tiny\sans\concat{
     f4 f f g f g( a) a \barMin
     g a g f( d) d \barMaior
     d( c) d f g e e \barMin
-    e f e f g a bes a g( a bes) bes( a) \barMaior
+    e f e f g a bes a g( a) a \barMaior
     g( a) f e d d \barFinalis
   }
   \addlyrics {
@@ -154,7 +154,6 @@ ciselnaRada = \markup\tiny\sans\concat{
     modus = "I"
     differentia = "f"
     psalmus = ""
-    placet = "lépe: od _tvému jedinému_ neobvyklá, _božství_ hrozné"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -203,7 +202,7 @@ ciselnaRada = \markup\tiny\sans\concat{
   \header {
     quid = "1. ant."
     modus = "I"
-    differentia = "D"
+    differentia = "D2"
     psalmus = "Žalm 8"
     series = "M1"
     id = "mc-a1"
@@ -578,7 +577,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a a( c) c b c( d c) c \barMin
+    g4 a a( c) c b c( d c4.) c4 \barMin
     b4 c a g f( g) g \barMaior
     g f e d e g4. g \barMaior
     g4 a c c b a b g g \barMaior
@@ -586,7 +585,7 @@ ciselnaRada = \markup\tiny\sans\concat{
 
     a4( c b) c( d) d d c d c a a \barMin
     c b a g a g g \barMaior
-    g f g a( c) b a g g \barFinalis
+    g a g g( f d4.) d4 \barMin f( g a) a( g) g \barFinalis
   }
   \addlyrics {
     Ce -- lým srd -- cem i ús -- ty
