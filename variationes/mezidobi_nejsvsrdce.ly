@@ -2050,6 +2050,27 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \key f \major
+    a4 a g( a) \barMin f g f g g( a) a \barMaior
+    c4 c( d bes c) c \barMin c \mark\sipka bes a g( f) g a f f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš stál a hla -- si -- tě vo -- lal:
+    Kdo žíz -- ní, ať při -- jde ke mně a pi -- je.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g f( g) \barMin g a g a a( c) c \barMaior
     c c( d c a) a \barMin c c( b a) g a( g) f a g g \barFinalis
   }
