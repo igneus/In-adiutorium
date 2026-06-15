@@ -30,8 +30,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 f g f d c \barMaior
-    e f g a g \barMin
+    a4 f g f d c \barMin
+    f e f f( g) g \barMin
     a a g f e( f) d d \barFinalis
   }
   \addlyrics {
@@ -43,7 +43,6 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 116"
-    placet = "krok c-e na začátku druhého dílu je značně nezpěvný"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }

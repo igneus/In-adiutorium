@@ -52,7 +52,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 f g f d c \barMaior
     e f g a g \barMin
@@ -67,6 +67,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 116"
+    placet = "krok c-e na začátku druhého dílu je značně nezpěvný"
     id = "1ne-ant2"
     piece = \markup {\sestavTitulek}
   }
@@ -95,9 +96,31 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 f g f d c \barMin
     f e f \mark\sipka f( g) g \barMin
+    a a g f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Vez -- mu ka -- lich spá -- sy a bu -- du vzý -- vat
+    jmé -- no Hos -- po -- di -- no -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 116"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 f g f d c \barMin
+    f \mark\sipka a f f( g) g \barMin
     a a g f e( f) d d \barFinalis
   }
   \addlyrics {
@@ -983,6 +1006,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 g g f g \mark\sipka a a g a b( c) a( g) g \barMaior
+    a4 g f( a) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- va pra -- vi -- ce mě po -- zved -- la.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118-II"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g g f a c c b b c( a) a( g) g \barMaior
     f a a( g) g \barFinalis
   }
@@ -1052,6 +1095,28 @@
     g4 a c c b \barMin
     c4 c b a f( a) g \mark\sipka \barMaior
     f4 a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je Hos -- po -- din
+    a do -- přál nám svět -- lo.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 118-III"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b \barMin
+    c4 c b a \mark\sipka g f
+    g a g g \barFinalis
   }
   \addlyrics {
     Bůh je Hos -- po -- din
