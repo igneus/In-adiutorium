@@ -131,6 +131,7 @@ doxologieResponsoriumVI = \relative c'' {
     \header {
       quid = "resp."
       modus = "VI"
+      placet = "2 melisma na _moudře_ drhne"
       id = "1ne-1ne"
       piece = \markup\sestavTitulekResp
     }
