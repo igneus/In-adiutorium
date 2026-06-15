@@ -241,7 +241,7 @@
     \choralniRezim
     \key f \major
     d4 c d f g f \barMin
-    g g a bes a bes c bes a g g \barMaior
+    f f g a a bes c bes a g g \barMaior
     d d d d f d( c) c \barMin
     d f g f a g g \barMax
     a bes c d( c a bes) a \barMin g( a) g f g( f e) \barMaior
@@ -267,8 +267,6 @@
     modus = "I"
     differentia = "D"
     psalmus = "Dan 3-III"
-    placet = "krok na _budou (před Bohem)_ není nejelegantnější, ale nenašel jsem
-    srovnatelně pěkné řešení bez něj a antifona jako celek se mi líbí"
     id = "ne-rch-a2"
     piece = \markup {\sestavTitulek}
   }

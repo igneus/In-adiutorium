@@ -1026,6 +1026,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d4 c d f g f \barMin
@@ -1048,6 +1049,45 @@
     A -- le -- lu -- ja.
   }
   \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    placet = "krok na _budou (před Bohem)_ není nejelegantnější, ale nenašel jsem
+    srovnatelně pěkné řešení bez něj a antifona jako celek se mi líbí"
+    id = "ne-rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d4 c d f g f \barMin
+    \mark\sipka f f g a a bes c bes a g g \barMaior
+    d d d d f d( c) c \barMin
+    d f g f a g g \barMax
+    a bes c d( c a bes) a \barMin g( a) g f g( f e) \barMaior
+    d d d d( f) e c c d d \barMax
+    d( c d) f( g f e) c( f) d \barFinalis
+  }
+  \addlyrics {
+    Ho -- ry a pa -- hor -- ky
+    bu -- dou před Bo -- hem zpí -- vat pí -- seň chvá -- ly
+    a všech -- ny les -- ní stro -- my
+    bu -- dou tles -- kat ru -- ka -- ma,
+    % ne -- boť
+    pro -- to -- že
+    při -- jde Vlád -- ce a Pán
+    a bu -- de kra -- lo -- vat na -- vě -- ky.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Hory a pahorky budou před Bohem zpívat píseň chvály
+    a všechny lesní stromy budou tleskat rukama,
+    neboť přijde Vládce a Pán a bude kralovat navěky. Aleluja."
     quid = "2. ant."
     modus = "I"
     differentia = "D"
