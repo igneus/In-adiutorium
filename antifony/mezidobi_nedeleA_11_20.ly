@@ -8,7 +8,7 @@
   \relative c'' {
     \choralniRezim
     c4 c c c b c a g f g g \barMaior
-    f a c d c d e d c b c( a g) g \barMaior
+    f a c c c d e d c b c( a g) g \barMaior
     a a g f g a f f \barFinalis
   }
   \addlyrics {

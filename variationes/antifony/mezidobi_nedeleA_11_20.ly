@@ -239,7 +239,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c c b c a g f g g \barMaior
     f a c d c d e d c b c( a g) g \barMaior
@@ -267,6 +267,30 @@
     c4 c c c b c a g f g g \barMaior
     f a c d c d e d c \mark\sipka d d( c) c \barMaior
     b c a g a g f f \barFinalis
+  }
+  \addlyrics {
+    Je -- ží -- šo -- vi by -- lo lí -- to zá -- stu -- pů,
+    pro -- to -- že by -- li vy -- sí -- le -- ní a skles -- lí
+    ja -- ko ov -- ce bez pas -- tý -- ře.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne11a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c c b c a g f g g \barMaior
+    f a c \mark\sipka c c d e d c b c( a g) g \barMaior
+    a a g f g a f f \barFinalis
   }
   \addlyrics {
     Je -- ží -- šo -- vi by -- lo lí -- to zá -- stu -- pů,
