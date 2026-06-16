@@ -3869,6 +3869,22 @@
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Sacérdos in ætérnum Christus Dóminus
+    secúndum órdinem Melchísedech,
+    panem et vinum óbtulit.
+  }
+  \cantusid-link "204335"
+}
+\markup\justify{
+  Protože čtenář je hloupý, nezná Písmo svaté, SZ referenci nepochopí
+  a určitě bude pohoršen nízkou eucharistickou teologií.
+  (Mimochodem dokonce ani redakce Orel+Hejčl, při vší své snaze o explicitně
+  zbožné čtení i na úkor věrnosti překladu, na tuhle antifonu ruku nevztáhla.)
+}
+
 \markup{Suverénně nejhroznější melodie z první redakce tohoto oficia.}
 \score {
   \relative c' {
