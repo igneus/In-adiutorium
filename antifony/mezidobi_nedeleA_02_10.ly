@@ -391,11 +391,11 @@
 \markup {\nadpisDen {"7. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 g g g f g f f \barMaior
-    f d f f f g( f) f \barMin g f g a a g g \barMaior
-    a a g f g( f d) d \barMin
+    a4 a g f e f d d \barMaior
+    c d f f f g( f) f \barMin g f g a a g g \barMaior
+    a a g f e( f d) d \barMin
     c d f g a g f f \barFinalis
   }
   \addlyrics {
@@ -418,8 +418,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g( a) g f g( a) a \barMin
-    a g a( c d) c b a a \barMin
+    g4 g f g g( a) a \barMin
+    a a g a( c) c c( d c a) a \barMin
     c b g a g g \barMaior
     g a a a f( e d) \barMin
     f g a a a c b a g g \barFinalis
@@ -445,9 +445,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c b c( d) d \barMaior
-    d d d d( e) d c( d) d( c) \barMin
-    c c b g a( g) g \barFinalis
+    g4 g f g g( a) a \barMaior
+    c c c d b c a( g) \barMin
+    a a g f g( a g) g \barFinalis
   }
   \addlyrics {
     Buď -- te do -- ko -- na -- lí,
@@ -456,8 +456,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "a"
+    modus = "VIII"
+    differentia = "G"
     psalmus = ""
     annus = "A"
     id = "ne7a-2ne-amag"
