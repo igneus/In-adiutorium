@@ -523,16 +523,15 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    \key f \major
-    f4 c d d( a' bes) a a \barMin
-    a a a g a( bes a g) \barMin
-    f g a f( e) d( c) \barMaior
-    d c d d( f) f f \barMin
-    g a g f( e d) c( d) d \barFinalis
+    a4 a a g( a) g g \barMin
+    f g a( c) a g( a) \barMin
+    f g f d( c) c \barMaior
+    d c d f( g) f f \barMin
+    f e c e( f) d d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te pře -- de -- vším
@@ -546,9 +545,9 @@
   \header {
     quid = "ant. v poledne"
     modus = "I"
-    differentia = "f"
+    differentia = "a"
     psalmus = ""
-    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne8a-2ne-amag?+aleluja&zacatek=21&konec=18"
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne8a-2ne-amag?+aleluja&cast=3-5"
     id = "sexta"
     piece = \markup {\sestavTitulekBezZalmu}
   }

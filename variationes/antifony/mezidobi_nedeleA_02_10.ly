@@ -2756,12 +2756,138 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c b a c( b) a( g) g \barMaior
     a g g f g g( a) a \barMin
     c b c d c b c a a( g) g \barMaior
     \mark\sipka g a f( e d) d \barMin f e f g a a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se na ptá -- ky:
+    Ne -- se -- jí a -- ni ne -- žnou
+    a váš ne -- bes -- ký O -- tec je ži -- ví.
+    Co -- pak ne -- jste o mno -- ho cen -- něj -- ší než o -- ni?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 c c b a c( b) a( g) g \barMaior
+    \mark\sipka a a a f g g( a) a \barMin
+    c b c d c b c a \mark\sipka g g \barMaior
+    g a f( e) d \barMin f e f g a a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se na ptá -- ky:
+    Ne -- se -- jí a -- ni ne -- žnou
+    a váš ne -- bes -- ký O -- tec je ži -- ví.
+    Co -- pak ne -- jste o mno -- ho cen -- něj -- ší než o -- ni?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a c( b) a( g) g \barMaior
+    a a a f g g( a) a \barMin
+    \mark\sipka a g a( c) c c d c b a( g) g \barMaior
+    a a f( e d) d \barMin f e f g a a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se na ptá -- ky:
+    Ne -- se -- jí a -- ni ne -- žnou
+    a váš ne -- bes -- ký O -- tec je ži -- ví.
+    Co -- pak ne -- jste o mno -- ho cen -- něj -- ší než o -- ni?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a c( b) a( g) g \barMaior
+    a a a f \mark\sipka e d( e) d \barMin
+    f g a a a b c a g g \barMaior
+    c d c( b) g( a) \barMin a g f g a a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se na ptá -- ky:
+    Ne -- se -- jí a -- ni ne -- žnou
+    a váš ne -- bes -- ký O -- tec je ži -- ví.
+    Co -- pak ne -- jste o mno -- ho cen -- něj -- ší než o -- ni?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a c( b) a( g) g \barMaior
+    a a a f e d( e) d \barMin
+    f g a a a b c a g g \barMaior
+    c d \mark\sipka d( c) c \barMin b c a b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Po -- dí -- vej -- te se na ptá -- ky:
+    Ne -- se -- jí a -- ni ne -- žnou
+    a váš ne -- bes -- ký O -- tec je ži -- ví.
+    Co -- pak ne -- jste o mno -- ho cen -- něj -- ší než o -- ni?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c b a c( b) a( g) g \barMaior
+    a a a f e d( e) d \barMin
+    f g a a a b c a g g \barMaior
+    c d d( c) c \barMin \mark\sipka a b c a g f a g g \barFinalis
   }
   \addlyrics {
     Po -- dí -- vej -- te se na ptá -- ky:
@@ -2973,7 +3099,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 c d d( a' bes) a a \barMin
@@ -2996,6 +3122,7 @@
     differentia = "f"
     psalmus = ""
     annus = "A"
+    placet = "nepříliš zpěvná, zvlášť _království_ a _ostatní_ drhne"
     id = "ne8a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -3023,6 +3150,91 @@
     quid = "ant. k Magnificat"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    e4 c d d( a' bes) a a \barMin
+    a g a( c) a g( a) \barMin
+    a g f g f d( c) c \barMaior
+    f g a g( a) g g( f d) \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te nej -- pr -- ve
+    Bo -- ží krá -- lov -- ství
+    a je -- ho spra -- ve -- dl -- nost
+    a všech -- no o -- stat -- ní
+    vám bu -- de při -- dá -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    e4 c d d( a' bes) a a \barMin
+    a g a( c) a g( a) \barMin
+    a g f g f d( c) c \barMaior
+    f g a \mark\sipka g f f( g) \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te nej -- pr -- ve
+    Bo -- ží krá -- lov -- ství
+    a je -- ho spra -- ve -- dl -- nost
+    a všech -- no o -- stat -- ní
+    vám bu -- de při -- dá -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne8a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    e4 c d d( a' bes) a a \barMin
+    a g a( c) a g( a) \barMin
+    a g f g f d( c) c \barMaior
+    \mark\sipka d c d f( g) f f \barMin
+    f e c e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Hle -- dej -- te nej -- pr -- ve
+    Bo -- ží krá -- lov -- ství
+    a je -- ho spra -- ve -- dl -- nost
+    a všech -- no o -- stat -- ní
+    vám bu -- de při -- dá -- no.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "ne8a-2ne-amag"

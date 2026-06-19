@@ -471,9 +471,9 @@
   \relative c'' {
     \choralniRezim
     c4 c c b a c( b) a( g) g \barMaior
-    a g g f g g( a) a \barMin
-    c b c d c b c a a( g) g \barMaior
-    g a f( e d) d \barMin f e f g a a a g g \barFinalis
+    a a a f g g( a) a \barMin
+    c b c d c b c a g g \barMaior
+    g a f( e) d \barMin f e f g a a a g g \barFinalis
   }
   \addlyrics {
     Po -- dí -- vej -- te se na ptá -- ky:
@@ -519,11 +519,11 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 c d d( a' bes) a a \barMin
-    a a a g a( bes a g) \barMin
-    f g a f e d( e) d( c) \barMaior
-    d c d d( f) f f \barMin
-    g a g f( e d) c( d) d \barFinalis
+    e4 c d d( a' bes) a a \barMin
+    a g a( c) a g( a) \barMin
+    a g f g f d( c) c \barMaior
+    d c d f( g) f f \barMin
+    f e c e( f) d d \barFinalis
   }
   \addlyrics {
     Hle -- dej -- te nej -- pr -- ve
@@ -533,10 +533,9 @@
     vám bu -- de při -- dá -- no.
   }
   \header {
-    fons_externus = "volně podle AR1912, 474"
     quid = "ant. k Magnificat"
     modus = "I"
-    differentia = "f"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "ne8a-2ne-amag"
