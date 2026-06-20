@@ -1777,7 +1777,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g g g( a) g g \barMin
     g a g a a c \mark\sipka c( b a) \barMaior
@@ -1796,6 +1796,86 @@
     quid = "ant. dopoledne"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g g( a) g g \barMin
+    g a g a a c c( b a) \barMaior
+    a c b a c b a g g \barFinalis
+
+    \mark\sipka f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš k_so -- bě po -- vo -- lal
+    ty, kte -- ré si vy -- vo -- lil;
+    a o -- ni ho ná -- sle -- do -- va -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f f( g) f f \barMin
+    g g f g g a a( g) \barMaior
+    f g a g f g g f f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš k_so -- bě po -- vo -- lal
+    ty, kte -- ré si vy -- vo -- lil;
+    a o -- ni ho ná -- sle -- do -- va -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    placet = "antifony připomínající nápěv krátkých responsorií nejsou v sanktorálu vhodné"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g a a( bes) a a \barMin
+    a a g f g g g( a) \barMaior
+    a a g f e f e d d \barFinalis
+
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš k_so -- bě po -- vo -- lal
+    ty, kte -- ré si vy -- vo -- lil;
+    a o -- ni ho ná -- sle -- do -- va -- li.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}

@@ -499,11 +499,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g g( a) g g \barMin
-    g a g a a c c( b a) \barMaior
-    a c b a c b a g g \barFinalis
+    a4 a g a a( bes) a a \barMin
+    a a g f g g g( a) \barMaior
+    a a g f e f e d d \barFinalis
 
-    g^\markup\rubrVelikAleluja a a( g) g \barFinalis
+    e^\markup\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Je -- žíš k_so -- bě po -- vo -- lal
@@ -514,8 +514,8 @@
   }
   \header {
     quid = "ant. dopoledne"
-    modus = "VIII"
-    differentia = "G"
+    modus = "I"
+    differentia = "a"
     psalmus = ""
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
