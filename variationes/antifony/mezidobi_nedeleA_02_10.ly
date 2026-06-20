@@ -3562,6 +3562,30 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d d( f) f \barMin f f g f e d( e) d d \barMaior
+    a' a \mark\sipka g a b c a g a a( g f) f \barMaior
+    g f e d c c f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Kdo má slo -- va sly -- ší, a -- le po -- dle nich ne -- jed -- ná,
+    po -- do -- bá se po -- še -- ti -- lé -- mu mu -- ži,
+    kte -- rý si po -- sta -- vil dům na pís -- ku.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatymuz.ly#1ne-amag1?zacatek=8"
+    id = "ne9a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d d( f) f \barMin f f g f g a( bes) a a \barMaior
     a a g f g f e d e d( c) c \barMaior
     d c d f f e c e( f) d d \barFinalis
