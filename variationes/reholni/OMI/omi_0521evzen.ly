@@ -407,7 +407,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c c b c e( d) d \barMaior
     e e e e d e d c c d b c a( g) g \barMaior
@@ -426,6 +426,34 @@
     quid = "3. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Ef 1"
+    placet = "nesedí v modu"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f \mark\sipka g f g g( a) a \barMaior
+    a a a a g a g f f \barMin g e f d( c) c \barMaior
+    \mark\sipka d c d f e c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Co -- by slu -- žeb -- ník cír -- kve
+    ne -- ú -- nav -- ně za ni bo -- jo -- val si -- lou a mo -- cí,
+    kte -- rá po -- chá -- zí od Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -683,6 +711,42 @@
     a g f g a g g \barFinalis
 
     \mark\sipka a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Před -- ur -- čen
+    k_zvěs -- to -- vá -- ní e -- van -- ge -- li -- a,
+    sva -- tý Ev -- žen od -- váž -- ně krá -- čel
+    ve šlé -- pě -- jích a -- po -- što -- lů;
+
+    slo -- vem a pří -- kla -- dem
+    vy -- u -- čo -- val chu -- dé
+    to -- mu, kdo je to Kris -- tus.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( c b) c( d) d \barMin
+    d d d \mark\sipka c d e e d d \barMaior
+    d d d d e f e d( e d4.) d \barMin
+    d4 d c b c a a( g) g \barMaior
+
+    a g a c d c \barMin
+    d e d c d c \barMin
+    a g f g a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
   }
   \addlyrics {
     Před -- ur -- čen
@@ -1143,6 +1207,34 @@
     a g f g d d \barMaior
     d( e f) d( c) c( d) d( c) \barMin
     d e f \mark\sipka f e c e( f d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko moud -- rý sta -- vi -- tel
+    bu -- do -- val chrám Bo -- ží
+    na zá -- kla -- dech
+    u -- kři -- žo -- va -- né -- ho Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a a( bes) a a \barMin
+    g a g f g( f d) d \barMaior
+    c d d( f) f \barMin
+    g g f e f d c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
@@ -2169,7 +2261,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f a c b c d c c \barMaior \key f \major
     c a bes a g a bes c c \barMin
@@ -2215,6 +2307,58 @@
   \header {
     quid = "ant. odpoledne"
     modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g b d d e c d d \barMaior
+    f e d( e) d d \barMin
+    d d c b a b a g g \barMaior
+    g a g f a a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    To -- to je je -- ho při -- ká -- zá -- ní:
+    Vě -- řit ve jmé -- no
+    je -- ho Sy -- na Je -- ží -- še Kris -- ta
+    a na -- vzá -- jem se mi -- lo -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g b d d c b g( a) a \barMaior
+  }
+  \addlyrics {
+    To -- to je je -- ho při -- ká -- zá -- ní:
+    Vě -- řit ve jmé -- no
+    je -- ho Sy -- na Je -- ží -- še Kris -- ta
+    a na -- vzá -- jem se mi -- lo -- vat.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
     differentia = "a"
     psalmus = ""
     id = "nona"

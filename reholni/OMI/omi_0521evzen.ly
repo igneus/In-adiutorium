@@ -76,13 +76,13 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c b c e( d) d \barMaior
-    e e e e d e d c c d b c a( g) g \barMaior
-    f g a c b a g g \barFinalis
+    f4 f g f g g( a) a \barMaior
+    a a a a g a g f f \barMin g e f d( c) c \barMaior
+    d c d f e c d d \barFinalis
 
-    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Co -- by slu -- žeb -- ník cír -- kve
@@ -93,8 +93,8 @@
   }
   \header {
     quid = "3. ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "I"
+    differentia = "f"
     psalmus = "Ef 1"
     id = "1ne-a3"
     piece = \markup {\sestavTitulek}
@@ -556,26 +556,26 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    f4 f a c b c d c c \barMaior \key f \major
-    c a bes a g a bes c c \barMin
-    d( f c) d bes bes( c) c \barMaior
-    c bes a g a g f f \barFinalis
+    g4 g b d d e c d d \barMaior
+    f e d( e) d d \barMin
+    d d c b a b a g g \barMaior
+    g a g f a a g g \barFinalis
 
-    g^\markup\rubrVelikAleluja a( g) f f \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     To -- to je je -- ho při -- ká -- zá -- ní:
-    Vě -- řit ve jmé -- no je -- ho Sy -- na
-    Je -- ží -- še Kris -- ta
+    Vě -- řit ve jmé -- no
+    je -- ho Sy -- na Je -- ží -- še Kris -- ta
     a na -- vzá -- jem se mi -- lo -- vat.
 
     A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = "V"
+    modus = "VII"
     differentia = "a"
     psalmus = ""
     id = "nona"
