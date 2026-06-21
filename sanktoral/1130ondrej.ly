@@ -110,7 +110,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 b( c) a a \barMin c b a g a g \barMin
+    c4 c( d) c c \barMin c b a g a g \barMin
     f g( a) a g g \barFinalis
   }
   \addlyrics {

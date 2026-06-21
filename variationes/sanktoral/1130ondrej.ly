@@ -643,9 +643,30 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 b( c) a a \barMin c b a g a g \barMin
+    f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Pán u -- vi -- děl Pet -- ra a On -- dře -- je
+    a po -- vo -- lal je.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G*"
+    psalmus = "Žalm 116-II"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka c4 c( d) c c \barMin c b a g a g \barMin
     f g( a) a g g \barFinalis
   }
   \addlyrics {
