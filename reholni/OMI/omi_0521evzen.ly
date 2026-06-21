@@ -287,6 +287,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 92-I"
+    placet = "2 závěr spíš lépe"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -369,6 +370,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Dan 3-III"
+    placet = "lépe"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
