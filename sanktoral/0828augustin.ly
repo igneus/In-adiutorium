@@ -47,7 +47,7 @@
     f4 d d c d f e d d \barMaior
     g f g g( a) a \barMin a4 a g f e e \barMaior
     f4 d d c d e f d d \barMax
-    d c( d e f) d f g( f d) d \barMaior
+    d c( a c d) d c e( f d) d \barMaior
     e e d e f e d c d d \barFinalis
   }
   \addlyrics {
@@ -62,7 +62,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Magnificat"
-    placet = "3 _volal_ není ono"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
