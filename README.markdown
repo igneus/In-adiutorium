@@ -80,7 +80,7 @@ If you are using [Frescobaldi](https://frescobaldi.org/), there is the
 ## Related tools
 
 - directory `/nastroje` contains scripts automating various tasks
-- [extension for Frescobaldi 3](https://github.com/igneus/in-adiutorium-frescobaldi)
+- [extension for Frescobaldi](https://github.com/igneus/in-adiutorium-frescobaldi)
   supporting the project's workflow
   (prior to the advent of the extensions API a customized
   [fork of the editor itself](https://github.com/igneus/frescobaldi)
