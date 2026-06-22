@@ -79,6 +79,9 @@ If you are using [Frescobaldi](https://frescobaldi.org/), there is the
 
 ## Related tools
 
+- run `rake -T` for a list of tasks instrumented in `Rakefile`
+  - `rake pray` builds (if necessary) and opens sheet music
+    for the current liturgical day
 - directory `/nastroje` contains scripts automating various tasks
 - [extension for Frescobaldi](https://github.com/igneus/in-adiutorium-frescobaldi)
   supporting the project's workflow
