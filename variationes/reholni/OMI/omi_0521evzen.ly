@@ -1502,6 +1502,34 @@
 \score {
   \relative c'' {
     \choralniRezim
+    \mark\sipka c4 c b a c b c d c b a \barMin
+    a a( c) b g a g g \barMaior
+    f g a a \mark\sipka a( b c a) a \barMin
+    g f g a a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ka do -- bré -- ho a věr -- né -- ho
+    Duch Pá -- ně si vy -- vo -- lil,
+    a -- by všu -- de ší -- řil
+    vů -- ni po -- zná -- ní Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c c c b c a g a c b \barMin
     a b( c) a g a g g \barMaior
     g g g g f( e) d \barMin
@@ -1683,6 +1711,34 @@
     differentia = "c"
     psalmus = "Žalm 149"
     placet = "_Kristovou_ drhne"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c b a c d d \barMin
+    d-- d( e) c \mark\sipka d d \barMaior
+    e f d c b c a( g) g \barMin
+    f g a g g \barFinalis
+
+    a^\markup\rubrVelikAleluja g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Duch sva -- tý ti u -- lo -- žil
+    pást cír -- kev Bo -- ží,
+    kte -- rá by -- la vy -- kou -- pe -- na
+    Kris -- to -- vou kr -- ví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
