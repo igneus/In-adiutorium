@@ -1777,6 +1777,34 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f f f g f g( a) a( g) \barMax
+    g f d f g g f f \barFinalis
+    % V
+    \neviditelna a
+    \mark\sipka a4( bes) a a \barMin a g( f) g g( a) \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Zvěs -- tuj -- te me -- zi lid -- mi_*
+    Hos -- po -- di -- no -- vy zá -- zra -- ky.
+    \Verse Hlá -- sej -- te všem ná -- ro -- dům.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacModry
     \choralniRezim
 
