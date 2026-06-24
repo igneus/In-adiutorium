@@ -298,8 +298,8 @@
     \choralniRezim
     a4 a g f g a a \barMin
     a g f g d d \barMaior
-    d( e f) d( c) c( d) d( c) \barMin
-    d e f g f d c( d) d \barFinalis
+    c d d( f) f \barMin
+    g g f e f d c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }

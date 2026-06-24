@@ -1173,7 +1173,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g f g a a \barMin
     a g f g d d \barMaior
@@ -1195,6 +1195,7 @@
     modus = "I"
     differentia = "a"
     psalmus = "Žalm 92-II"
+    placet = "_na základech_ přetížené k nezpěvnosti"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -1207,6 +1208,35 @@
     a g f g d d \barMaior
     d( e f) d( c) c( d) d( c) \barMin
     d e f \mark\sipka f e c e( f d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko moud -- rý sta -- vi -- tel
+    bu -- do -- val chrám Bo -- ží
+    na zá -- kla -- dech
+    u -- kři -- žo -- va -- né -- ho Kris -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Žalm 92-II"
+    id = "mc-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a g f g a a \barMin
+    a g f g d d \barMaior
+    \mark\sipka c d d( f) f \barMin
+    g g f e f d c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
