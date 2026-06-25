@@ -41,7 +41,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g( a) g g \bar ""
+    a4 a a g( a) g g \bar ""
     f g a a a( c) b \barMaior
     c c b c a \barMin
     g a g f f \barFinalis
@@ -124,7 +124,7 @@
     d4 f f e d e( f d) d \barMin d e f d( c) c \barMaior
     d f f( g) g \barMin
     g f g a g \barMin a bes a g f g( f) d( c) c \barMaior
-    d( f) e d( e) d d \barFinalis
+    d f e( f d) c( d) d \barFinalis
   }
   \addlyrics {
     Když Za -- cha -- ri -- áš ve -- šel do chrá -- mu Pá -- ně,
@@ -537,10 +537,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    c4 d f f f f e d d( e) e \barMin
-    e f d d( c) c \barMaior
+    c4 d f f e d c d d( f) f \barMin
+    f g f d d \barMaior
 
-    d d f g f d d \barMax
+    f e c e f d d \barMax
 
     c4 d d( f) f \barMin
     f f g a g f e( f) d d \barMaior
