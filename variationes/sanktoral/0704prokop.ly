@@ -453,6 +453,28 @@
   \relative c'' {
     \choralniRezim
     a4( e) e a g f e e \barMaior
+    d c d e( g) \barMin a g f g a( g) g \barMaior
+    a a \mark\sipka a( b a4.) a4 \barMin g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Zře -- kl se svět -- ské slá -- vy
+    a Bůh mu dal za od -- mě -- nu ži -- vot,
+    jak to slí -- bil těm, kdo ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( e) e a g f e e \barMaior
     d c d \mark\sipka e f e f g a( g) g \barMaior
     a g a( b a) g f( d) \barMin e f( g) f e e \barFinalis
   }
