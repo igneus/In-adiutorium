@@ -8,7 +8,7 @@
 \header {
   title = \markup\titleSvatek
             "Přenesení sv. Norberta, našeho otce"
-            "svátek/památka"
+            "Strahov: svátek, Nová Říše: památka"
             2.5.
             \textyOPraem
   composer = "Jakub Pavlík"
