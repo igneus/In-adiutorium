@@ -138,6 +138,11 @@ describe MusicSheetFinder do
            # feast with all chants proper
            %w[sanktoral/0125obracenipavla.pdf]
 
+        yt 'Sv. Václava, mučedníka, hlavního patrona českého národa', Date.new(2026, 9, 28),
+           ['sanktoral/0928vaclav.pdf',
+            # specifically referenced appropriated chants
+            'commune/commune_jedenmucednik.pdf']
+
         it 'seasonal propers'
       end
 
@@ -154,6 +159,12 @@ describe MusicSheetFinder do
 
         yt 'Sv. Antonína, opata', Date.new(2026, 1, 17),
            %w[commune/commune_reholnikatd.pdf commune/commune_svatymuz.pdf antifony.pdf]
+
+        describe 'celebrations local/regional' do
+          yt 'Výročí posvěcení katedrály sv. Víta, Václava a Vojtěcha', Date.new(2026, 5, 12),
+             %w[commune/commune_kostel.pdf],
+             pending: 'no music sheet, no entry in bezvlastnich.yml'
+        end
       end
 
       describe 'in Eastertide' do
@@ -172,8 +183,6 @@ describe MusicSheetFinder do
          %w[commune/zazemrele.pdf]
     end
   end
-
-  describe 'Dedication'
 
   describe 'Te Deum'
 

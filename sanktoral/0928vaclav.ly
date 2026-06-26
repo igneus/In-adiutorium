@@ -14,6 +14,13 @@
 
 \markup {\nadpisHodinka {"1. nešpory"}}
 
+\markup\italic{
+  Antifony, žalmy a kantikum ze společných textů o jednom mučedníkovi.
+  \chant-ref "ne-a1" "commune/commune_jedenmucednik.ly#2ne-a1" {}
+  \chant-ref "ne-a2" "commune/commune_jedenmucednik.ly#2ne-a2" {}
+  \chant-ref "ne-a3" "commune/commune_jedenmucednik.ly#2ne-a3" {}
+}
+
 \score {
   \relative c' {
     \choralniRezim
