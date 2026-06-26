@@ -127,11 +127,16 @@ describe MusicSheetFinder do
             'commune/commune_svatazena.pdf',
             'antifony.pdf']
 
+        yt 'Sv. Ludmily, mučednice', Date.new(2026, 9, 16),
+           %w[sanktoral/0916ludmila.pdf commune/commune_jedenmucednik.pdf antifony.pdf]
+
         it 'needs Commons, but not psalter'
 
         it 'needs psalter, but not Commons'
 
-        it 'neither psalter, nor Commons needed (despite being listed in the source file)'
+        yt 'Obrácení svatého Pavla, apoštola', Date.new(2025, 1, 25),
+           # feast with all chants proper
+           %w[sanktoral/0125obracenipavla.pdf]
 
         it 'seasonal propers'
       end

@@ -1,4 +1,5 @@
 require 'calendarium-romanum/cr'
+require 'lyv'
 
 # Knows which music sheets are required for any occasion
 # of the liturgical year.
@@ -161,16 +162,14 @@ class MusicSheetFinder
         date && Dir[sprintf('hymny/%02i%02i*.ly', date.month, date.day)] || []
       end +
 
-      # TODO do this also for the day propers above
-      # TODO handle seasonal midday prayer
-      if c.rank.solemnity?
-        []
-      else
+      if needs_psalter?(src)
         if day.season == CR::Seasons::EASTER
           ['velikonoce_zaltar.pdf']
         else
           ['antifony.pdf']
         end
+      else
+        []
       end
 
     files.collect {|i| i.sub /\.ly$/, '.pdf' }.uniq
@@ -196,10 +195,24 @@ class MusicSheetFinder
     [path]
   end
 
+  def needs_psalter?(src)
+    if c.rank.solemnity? ||
+       src.all_psalm_antiphons_proper?(c.rank)
+      false
+    else
+      true
+    end
+  end
+
   class SourceFile
     def initialize(path)
       @path = path
       @src = File.read path
+      @score_ids = Set.new(
+        Lyv::LilyPondMusic.new(path)
+          .scores
+          .collect {|s| s.header['id'] }
+      )
     end
 
     attr_reader :path
@@ -225,6 +238,17 @@ class MusicSheetFinder
     def appropriated_antiphons
       []
     end
+
+    def all_psalm_antiphons_proper?(rank)
+      required =
+        if rank.solemnity?
+          Set.new(%w[1ne-a1 rch-a1 tercie 2ne-a1])
+        else
+          Set.new(%w[rch-a1 tercie ne-a1])
+        end
+
+      required < @score_ids
+    end
   end
 
   # wraps a AppropriatedAntiphons::Celebration,
@@ -243,6 +267,10 @@ class MusicSheetFinder
 
     def appropriated_antiphons
       antiphons
+    end
+
+    def all_psalm_antiphons_proper?(*)
+      false
     end
   end
 end
