@@ -17,17 +17,23 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4( a) a( c) c \barMin
+    d e d c d d \barMaior
+    d e d c( b) a( g) g \barMin
+    a g a c b a g( a) a a \barFinalis
   }
   \addlyrics {
-    V modlitbě otevřel svá ústa, a Pán ho naplnil duchem moudrosti a poznání.
+    V_mod -- lit -- bě
+    o -- te -- vřel svá ús -- ta,
+    a Pán ho na -- pl -- nil
+    du -- chem moud -- ros -- ti a po -- zná -- ní.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "IV alt"
+    differentia = "A"
     psalmus = "Žalm 113"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
@@ -346,16 +352,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d d( a') a \barMin a g f g f( d) d \barMaior
+    d f g f4.( g) \barMin f4 e( d e) d c c( d) d \barFinalis
   }
   \addlyrics {
-    Kdo chce jít za mnou, ať zapře sám sebe, vezme svůj kříž a následuje mě.
+    Kdo chce jít za mnou, ať za -- pře sám se -- be,
+    vez -- me svůj kříž a ná -- sle -- du -- je mě.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
+    fial = "commune/commune_jedenmucednik.ly#2ne-a1?cast=1,3"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
