@@ -43,15 +43,17 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d d f e d( e) c c \barMin
+    d d f e d c d d \barFinalis
   }
   \addlyrics {
-    Pán mu dal skryté poklady a utajená bohatství.
+    Pán mu dal skry -- té po -- kla -- dy
+    a uta -- je -- ná bo -- hat -- ství.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 146"
     id = "1ne-a2"
     piece = \markup {\sestavTitulek}
@@ -467,21 +469,26 @@
     \choralniRezim
 
     % R
-    \neviditelna a
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    g4 g g g f g( a) g \barMin f d f g g( f) f \barFinalis
 
     % V
     \neviditelna a
+    a4 a a a a g( a) g g \barMin g g f g g( a) a( g) \barMax
 
     % R
     \neviditelna a
+    g4 g g g f g( a) g \barMin f d f g g( f) f \barFinalis
 
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Silná jako smrt je láska,_*
-    žár její je žár ohně, plamen Hospodinův.
-    \Verse Kdo by nás mohl odloučit od lásky Kristovy?_*
-    \Response Žár její je žár ohně, plamen Hospodinův.
+    \Response Sil -- ná ja -- ko smrt je lás -- ka,_*
+    žár je -- jí je žár oh -- ně, pla -- men Hos -- po -- di -- nův.
+    \Verse Kdo by nás mo -- hl od -- lou -- čit od lás -- ky Kris -- to -- vy?_*
+    \Response žár je -- jí je žár oh -- ně, pla -- men Hos -- po -- di -- nův.
     \textRespDoxologie
   }
   \header {
