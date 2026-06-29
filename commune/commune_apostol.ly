@@ -166,7 +166,7 @@
   }
   \header {
     quid = "resp."
-    modus = "VI"
+    modus = "IV"
     fial = "commune/commune_apostol.ly#1ne-resp?cast=1-3,7-8,12"
     fial_b = "sanktoral/0423vojtech.ly#rch-r?cast=5-6"
     id = "1ne-resp-velik"
