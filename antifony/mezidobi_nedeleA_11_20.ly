@@ -207,11 +207,11 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a f g( a) a( g) g \barMin
-    a a a a( c) a
+    g4 f( a) a \barMin a a a
     b c a g g \barMin
-    g g g f e d f g g \barMaior
-    a( b c) a( g) g \barMin a f g( a) a( g) g \barFinalis
+    a g f g( a g a) a \barMaior
+    c c c b c a g( a) g g \barMaior
+    c( d) c c \barMin a g( f) g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Kdo po -- dá ně -- ko -- mu

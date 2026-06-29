@@ -919,13 +919,121 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 \mark\sipka a f g( a) a( g) g \barMin
     a a a a( c) a
     b c a g g \barMin
     g g g f e d f g g \barMaior
     \mark\sipka a( b c) a( g) g \barMin a f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo po -- dá ně -- ko -- mu
+    tře -- ba jen čí -- ši
+    stu -- de -- né vo -- dy,
+    pro -- to -- že je to můj u -- čed -- ník,
+    ne -- při -- jde o svou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    placet = "3 bez spádu"
+    id = "ne13a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 \mark\sipka f( a) a \barMin a a a
+    b c a g g \barMin
+    a g f g( a g) g \barMaior
+  }
+  \addlyrics {
+    Kdo po -- dá ně -- ko -- mu
+    tře -- ba jen čí -- ši
+    stu -- de -- né vo -- dy,
+    pro -- to -- že je to můj u -- čed -- ník,
+    ne -- při -- jde o svou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne13a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( a) a \barMin a a a
+    b c a g g \barMin
+    a g f \mark\sipka g( a g a) a \barMaior
+    c c c b c a g( a) g g \barMaior
+    a f( e) d \barMin f g( a) a g g \barFinalis
+  }
+  \addlyrics {
+    Kdo po -- dá ně -- ko -- mu
+    tře -- ba jen čí -- ši
+    stu -- de -- né vo -- dy,
+    pro -- to -- že je to můj u -- čed -- ník,
+    ne -- při -- jde o svou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne13a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f( a) a \barMin a a a
+    b c a g g \barMin
+    a g f g( a g a) a \barMaior
+    c c c b c a g( a) g g \barMaior
+    \mark\sipka c( d) b( c) a( g) \barMin a f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Kdo po -- dá ně -- ko -- mu
+    tře -- ba jen čí -- ši
+    stu -- de -- né vo -- dy,
+    pro -- to -- že je to můj u -- čed -- ník,
+    ne -- při -- jde o svou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne13a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f( a) a \barMin a a a
+    b c a g g \barMin
+    a g f g( a g a) a \barMaior
+    c c c b c a g( a) g g \barMaior
+    \mark\sipka c( d) c c \barMin a g( f) g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Kdo po -- dá ně -- ko -- mu
@@ -1029,6 +1137,37 @@
   \header {
     textus_approbatus = "Velebím tě, Otče, Pane nebe a země,
     že jsi tajemství Božího království skryl před moudrými a odhalil jsi je maličkým."
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne14a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Oficiální text - v téhle podobě melodie není důvod dál držet upravený.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    g4 a c c c( e) d \barMin
+    d c d( e) d c d d \barMaior
+    e d c( d) \mark\sipka c c \barMin a b c a g g \barMaior
+    a-- f g g( a) a \barMin
+    a c c \mark\sipka c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ve -- le -- bím tě, Ot -- če,
+    Pa -- ne ne -- be a ze -- mě,
+    že jsi ta -- jem -- ství Bo -- ží -- ho krá -- lov -- ství
+    skryl před moud -- rý -- mi
+    a od -- ha -- lil jsi je ma -- lič -- kým.
+  }
+  \header {
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"
