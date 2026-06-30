@@ -111,7 +111,7 @@
     \choralniRezim
     c4 c b a b( c) a a \barMaior
     g a c c( d) d \barMin
-    d d e f e d c( d) d \barMin
+    c d e f e d c( d) d \barMin
     c b a( b) a( g) \barMaior
     a a c d( c) a a \barMin c b g b( c a) a \barFinalis
   }

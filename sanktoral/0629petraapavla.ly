@@ -264,7 +264,7 @@
     \choralniRezim
     c4 c b a b( c) a a \barMaior
     g a c c( d) d \barMin
-    d d e f e d c( d) d \barMin
+    c d e f e d c( d) d \barMin
     c b a( b) a( g) \barMaior
     a a c d( c) a a \barMin c b g b( c a) a \barFinalis
   }
@@ -432,8 +432,8 @@
   \relative c'' {
     \choralniRezim
     c4 c a c b a g g \barMaior
-    f g a c b c( d) d( c) c \barMin
-    b c a g( a g) g \barFinalis
+    f g( a) a c b c( d) a a \barMin
+    g f g a( g) g \barFinalis
   }
   \addlyrics {
     Když by -- lo ko -- lem po -- led -- ne,_*
@@ -453,8 +453,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 a c d d e c c( d) d \barMin
-    d d c d( e) d d c( b) a( g) g \barMaior
+    g4 a c d d e c c( d) d \barMaior
+    d( e) d d \barMin d c b a( b) a a( g) \barMaior
     a a b c a( g) \barMin a g f g( a) g g \barFinalis
   }
   \addlyrics {
