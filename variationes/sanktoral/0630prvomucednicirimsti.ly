@@ -65,6 +65,30 @@
     \choralniRezim
     g4 g g f d f g a( g) g \barMaior
     a a a a a( c) a b c a g g \barMaior
+    a a f e d \mark\sipka \barMin
+    d f( g) a g g \barFinalis
+  }
+  \addlyrics {
+    Ne -- smír -- né množ -- ství mu -- čed -- ní -- ků
+    spo -- jo -- va -- la vjed -- no bra -- trs -- ká lás -- ka,
+    byl v_nich je -- den duch
+    a jed -- na ví -- ra.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g f d f g a( g) g \barMaior
+    a a a a a( c) a b c a g g \barMaior
     a a \mark\sipka a a f( e d)
     d f( g) a g g \barFinalis
   }
@@ -532,7 +556,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d d( f) d d \barMin
     e f d c c( d) d \barMaior
@@ -590,6 +614,59 @@
     e f d c c( d) d \barMaior
     c d f f f g \mark\sipka g g f g g f f \barMaior
     f f d f( g a) g( f) e( d) \barMin
+    e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ve svém ži -- vo -- tě
+    mi -- lo -- va -- li Kris -- ta
+    a sta -- li se mu po -- dob -- ný -- mi i ve smr -- ti;
+    pro -- to s_ním kra -- lu -- jí
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) d d \barMin
+    e f d c c( d) d \barMaior
+    c d f f f g g g f \mark\sipka e d( e) d d \barMaior
+    d d c d( f g) f( e) d( c) \barMin
+    e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Ve svém ži -- vo -- tě
+    mi -- lo -- va -- li Kris -- ta
+    a sta -- li se mu po -- dob -- ný -- mi i ve smr -- ti;
+    pro -- to s_ním kra -- lu -- jí
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) d d \barMin
+    e f d c c( d) d \barMaior
+    c d f f f g g g f e \mark\sipka d c c \barMaior
+    d d c d( f g) f( e) d( c) \barMin
     e( f) d d \barFinalis
   }
   \addlyrics {

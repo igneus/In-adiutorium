@@ -40,7 +40,7 @@
     \choralniRezim
     c4 d d( f) d d \barMin
     e f d c c( d) d \barMaior
-    c d f f f g f g f e d c c \barMaior
+    c d f f f g g g f e d c c \barMaior
     d d c d( f g) f( e) d( c) \barMin
     e( f) d d \barFinalis
   }
