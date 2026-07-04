@@ -232,6 +232,50 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    f4 f e d c( d) c c \barMin d( f) e c d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je zá -- šti -- ta mé -- ho ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-IV"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f e d c( d) c c \mark\sipka d( f) e c d d \barFinalis
+
+    e^\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je zá -- šti -- ta mé -- ho ži -- vo -- ta.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 18-IV"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 d d( c) c \barMin
@@ -402,7 +446,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 e f d d c \barMaior
     \mark\sipka d f f f( g) f \barMin
@@ -429,6 +473,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 e f d d c \barMaior
     \mark\sipka d c d d( f) f \barMin
@@ -1426,6 +1471,24 @@
   \relative c' {
     \choralniRezim
     d4 c d e f( d) d \barMin \mark\sipka c d e d \barFinalis
+  }
+  \addlyrics {
+    Veď mě ve své prav -- dě, Hos -- po -- di -- ne.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 25-I"
+    id = "up-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d \mark\sipka f e( f) d \barMin c d e d \barFinalis
   }
   \addlyrics {
     Veď mě ve své prav -- dě, Hos -- po -- di -- ne.

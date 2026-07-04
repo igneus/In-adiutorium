@@ -59,10 +59,10 @@
   \relative c' {
     \choralniRezim
     d4 e f d d c \barMaior
-    d f f f( g) f \barMin
-    e c f e d d \barFinalis
+    d c d d( f) f \barMin
+    e c e f d d \barFinalis
 
-    e^\rubrVelikAleluja f d( c) d \barFinalis
+    e^\rubrVelikAleluja c c( d) d \barFinalis
   }
   \addlyrics {
     Ať ži -- je Hos -- po -- din,
