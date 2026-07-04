@@ -322,7 +322,7 @@
     modus = "I"
     differentia = ""
     psalmus = ""
-    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?zacatek"
+    fial = "sanktoral/1208pmpocatebezposkvrny.ly#2ne-amag?cast=1-5"
     id = "avemaria"
     piece = \markup {\sestavTitulekBezZalmu}
   }
