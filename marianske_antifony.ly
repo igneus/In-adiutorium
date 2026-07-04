@@ -316,8 +316,8 @@
     smr -- ti na -- ší. A -- men.
   }
   \header {
-    fons_externus = "volně podle Liber Usualis, Solesmes 1961, s. 1861"
-    % http://gregobase.selapa.net/chant.php?id=1860
+    fons_externus = "volně podle DMC. Hymny, Praha 1989, s. 370"
+    % cf. http://gregobase.selapa.net/chant.php?id=1860
     quid = "ant."
     modus = "I"
     differentia = ""
