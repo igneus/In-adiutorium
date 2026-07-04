@@ -592,7 +592,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g f g( a) a \barMin g a f d d \barMaior
     f g a( b c) a \barMin c b c c( d) c a a \barMin
@@ -619,6 +619,33 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    a4 a g f g( a) a \barMin g a f d d \barMaior
+    f g a( b c) a \barMin c b c c( d) c a a \barMin
+    g f( g) g( f) f \barMaior
+    f( g a g) f( g) \barMin g f( e) d( c) \barMin
+    \mark\sipka f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vlo -- žil jsem své prs -- ty do ran po hře -- bech
+    a svou ru -- ku do rá -- ny v_je -- ho bo -- ku
+    a ře -- kl jsem:
+    Pán můj a Bůh můj.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 \mark\sipka g f g g( a) a \barMin g a f d d \barMaior
     f g a( b c) a \barMin c b c c( d) c a a \barMin
