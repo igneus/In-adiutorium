@@ -66,7 +66,7 @@
     \choralniRezim
     a4( e) e a g f e e \barMaior
     d c d e( g) \barMin a g f g a( g) g \barMaior
-    a g a( b a) g f( d) \barMin e f( g) f e e \barFinalis
+    a g a( b a4.) a4 \barMin g a g f e e \barFinalis
   }
   \addlyrics {
     Zře -- kl se svět -- ské slá -- vy
@@ -78,7 +78,6 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
-    placet = "2 ohledně melismat na _dal_ a _těm_ nevím"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }

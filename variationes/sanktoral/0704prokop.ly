@@ -406,7 +406,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( e) e a g f e e \barMaior
     d c d e( g) \mark\sipka \barMin a g f g a( g) g \barMaior
@@ -422,6 +422,7 @@
     modus = "IV"
     differentia = "g"
     psalmus = "Žalm 149"
+    placet = "2 ohledně melismat na _dal_ a _těm_ nevím"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
@@ -455,6 +456,51 @@
     a4( e) e a g f e e \barMaior
     d c d e( g) \barMin a g f g a( g) g \barMaior
     a a \mark\sipka a( b a4.) a4 \barMin g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Zře -- kl se svět -- ské slá -- vy
+    a Bůh mu dal za od -- mě -- nu ži -- vot,
+    jak to slí -- bil těm, kdo ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4( e) e a g f e e \barMaior
+    d c d e( g) \barMin a g f g a( g) g \barMaior
+    a \mark\sipka g a( b a4.) a4 \barMin g a g f e e \barFinalis
+  }
+  \addlyrics {
+    Zře -- kl se svět -- ské slá -- vy
+    a Bůh mu dal za od -- mě -- nu ži -- vot,
+    jak to slí -- bil těm, kdo ho mi -- lu -- jí.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( e) e a g f e e \barMaior
+    d c d e( g) \barMin a g f g a( g) g \barMaior
+    a a \mark\sipka g( f e4.) e4 \barMin e f e d e e \barFinalis
   }
   \addlyrics {
     Zře -- kl se svět -- ské slá -- vy
@@ -1380,6 +1426,27 @@
   \relative c' {
     \choralniRezim
     \key f \major
+    d4( a' bes) a \barMin a( bes) a g g \barMaior
+    g f g \mark\sipka g( a g) f e( d) \barMin d( e) c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Hlá -- sal Bo -- ží zá -- kon,
+    a mno -- zí chvá -- li -- li je -- ho moud -- rost.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 112"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
     \mark\sipka d4( a') a a( bes) a g g \barMaior
     g f g g( a) g g f e c( d) d \barFinalis
   }
@@ -1475,6 +1542,28 @@
     a4 g f g( a) a g g \barMaior
     g a g \mark\sipka f g g f e d( c) c \barMin
     d c( d) d( f) f f e( f) d d \barFinalis
+  }
+  \addlyrics {
+    Bůh na něj shlé -- dl s_lás -- kou
+    a pro je -- ho po -- ko -- ru a skrom -- nost
+    jej po -- zve -- dl a po -- vý -- šil.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "a"
+    psalmus = "Zj 15"
+    id = "ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g( a) \mark\sipka g e e \barMaior
+    e f e f g g f e d( c) c \barMin
+    d c( d) d( f) f f g( f) d d \barFinalis
   }
   \addlyrics {
     Bůh na něj shlé -- dl s_lás -- kou
