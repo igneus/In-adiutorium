@@ -284,6 +284,7 @@ tIIpondeliAntBenedictus = \score {
     modus = "VII"
     differentia = "c"
     psalmus = ""
+    placet = "zkusit lépe"
     id = "t2-po-ben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
