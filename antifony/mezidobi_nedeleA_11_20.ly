@@ -238,20 +238,18 @@
     \choralniRezim
     g4 a c c c( e) d \barMin
     d c d( e) d c d d \barMaior
-    e d c( d) d( c) c \barMin a b c a g g \barMaior
+    e d c( d) c c \barMin a b c a g g \barMaior
     a-- f g g( a) a \barMin
-    a c c b a g( a) g g \barFinalis
+    a c c c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Ve -- le -- bím tě, Ot -- če,
     Pa -- ne ne -- be a ze -- mě,
     že jsi ta -- jem -- ství Bo -- ží -- ho krá -- lov -- ství
     skryl před moud -- rý -- mi
-    a od -- ha -- lils je ma -- lič -- kým.
+    a od -- ha -- lil jsi je ma -- lič -- kým.
   }
   \header {
-    textus_approbatus = "Velebím tě, Otče, Pane nebe a země,
-    že jsi tajemství Božího království skryl před moudrými a odhalil jsi je maličkým."
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "a"

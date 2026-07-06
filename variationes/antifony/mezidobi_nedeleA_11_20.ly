@@ -1119,7 +1119,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 a c c c( e) d \barMin
     d c d( e) d c d d \barMaior
@@ -1152,7 +1152,7 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
+    \zvyraznovacModry
     \choralniRezim
     g4 a c c c( e) d \barMin
     d c d( e) d c d d \barMaior
@@ -1345,6 +1345,27 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a c c b \barMaior
+    \mark\sipka a c c b a g( a) g g \barMin a f g \barFinalis
+  }
+  \addlyrics {
+    Mé jho ne -- tla -- čí
+    a mé bře -- me -- no ne -- tí -- ží, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne14a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 f g a a \barMaior
     a c c b a b a g \barMin f a g \barFinalis
   }
@@ -1368,6 +1389,27 @@
     \choralniRezim
     \mark\sipka g4 f g a a \barMin
     a c c b a \mark\sipka g( a) g g \barMin a a g \barFinalis
+  }
+  \addlyrics {
+    Mé jho ne -- tla -- čí
+    a mé bře -- me -- no ne -- tí -- ží, pra -- ví Pán.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne14a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 a f g g \barMin
+    a c c b a g( a) g g \barMin a f g \barFinalis
   }
   \addlyrics {
     Mé jho ne -- tla -- čí
