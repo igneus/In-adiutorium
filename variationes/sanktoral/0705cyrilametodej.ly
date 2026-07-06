@@ -769,6 +769,26 @@
   \relative c'' {
     \choralniRezim
     a4 a f g g( a) \barMin a c b a b g g \barMaior
+    a4 a g f g a g f( e d4.) \mark\sipka c \barMin d4( f) e c( d) d \barFinalis
+  }
+  \addlyrics {
+    By -- li u -- če -- ní a vy -- na -- lez -- li pís -- mo,
+    a -- by moh -- li ús -- pěš -- ně hlá -- sat Bo -- ží slo -- vo.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "a2"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a f g g( a) \barMin a c b a b g g \barMaior
     a4 a g f g a g f( e d4.) d \barMin \mark\sipka c4 d e( d) d \barFinalis
   }
   \addlyrics {
