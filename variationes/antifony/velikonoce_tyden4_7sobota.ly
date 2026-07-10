@@ -1016,6 +1016,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( g) f g f( d) d \barMaior
+    f d f g a g g \barMaior
+    g \mark\sipka a g f d
+    f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Všech -- no je na -- še,_*
+    my však pat -- ří -- me Kris -- tu
+    a Kris -- tus Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 8"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny 2
 
 \score {

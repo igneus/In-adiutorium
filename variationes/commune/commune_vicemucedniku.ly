@@ -2927,6 +2927,7 @@
     et quia pro eius amóre sánguinem suum fudérunt,
     ídeo cum Christo regnábunt in ætérnum.
   }
+  AR1912 [36]
 }
 \markup\justify{
   Můj nápěv posouvá význam proti českému překladu -
@@ -3039,6 +3040,115 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f e d d( f) f \barMin
+    f g f g g( a f) f \barMaior
+  }
+  \addlyrics {
+    Sva -- tí mu -- čed -- ní -- ci_*
+    se ra -- du -- jí v_ne -- bi,
+    pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
+    a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
+    bu -- dou s_ním kra -- lo -- vat
+    na -- vě -- ky.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 [36]"
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f e d d( f) f \barMin
+    f g f g \mark\sipka a( bes a bes) a \barMaior
+    a g f g a g f g g( f) f \barMin
+    g g g f d e( f) d c d( c) c \barMaior
+    d c d d( f) f f
+    g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí mu -- čed -- ní -- ci_*
+    se ra -- du -- jí v_ne -- bi,
+    pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
+    a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
+    bu -- dou s_ním kra -- lo -- vat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f e d d( f) f \barMin
+    f g f g a( bes a bes) a \barMaior
+    a g f g a g f g g( f) f \barMin
+    g g g f d \mark\sipka e f d c d( c) \barMaior
+    d c d d( f) f f
+    g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí mu -- čed -- ní -- ci_*
+    se ra -- du -- jí v_ne -- bi,
+    pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
+    a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
+    bu -- dou s_ním kra -- lo -- vat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    id = "2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f e d d( f) f \barMin
+    f g f g a( bes a bes) a \barMaior
+    a g f g a g f g g( f) f \barMin
+    g g g \mark\sipka a g f e d d c \barMaior
+    d c d d( f) f f
+    g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí mu -- čed -- ní -- ci_*
+    se ra -- du -- jí v_ne -- bi,
+    pro -- to -- že ná -- sle -- do -- va -- li Kris -- ta
+    a z_lás -- ky k_ně -- mu pro -- li -- li svou krev;
+    bu -- dou s_ním kra -- lo -- vat
+    na -- vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     id = "2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
