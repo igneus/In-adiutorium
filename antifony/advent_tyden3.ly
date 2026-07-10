@@ -433,7 +433,7 @@
     \choralniRezim
     a4( g a) a( g) g \barMin
     f g a( c) a a c( d) c b a a \barMaior
-    a a g f f g e e \barFinalis
+    a a g f f( g) g e e \barFinalis
   }
   \addlyrics {
     Jed -- nej -- te
