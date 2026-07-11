@@ -271,7 +271,7 @@
     modus = "VI"
     differentia = "F"
     psalmus = ""
-    fial = "sanktoral/0125obracenipavla.ly#invit?zacatek"
+    fial = "sanktoral/0125obracenipavla.ly#invit?cast=1"
     id = "invit2"
     piece = \markup {\sestavTitulekBezZalmu}
   }
