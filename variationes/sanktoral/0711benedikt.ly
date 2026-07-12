@@ -12,6 +12,14 @@
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Fuit vir vitæ venerábilis, grátia Benedíctus et nómine.
+  }
+  \cantusid-link "002906"
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -237,6 +245,26 @@
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
+
+\markup\justify{
+  Liturgia horarum:
+  \italic{
+    Hic accépit benedictiónem a Dómino et misericórdiam a Deo salutári suo;
+    quia hæc est generátio quæréntium Dóminum.
+  }
+}
+\markup\justify{
+  LH má (v drobnostech poupravený) biblických úryvek
+  \make-bible-link "Žalm 24, 5-6"
+  s narážkou na jméno světce,
+  která není přeložitelná;
+  DMC rezignuje na biblickou referenci
+  a skládá prvoplánově zbožnou/hagiografickou parafrázi.
+}
+\markup\justify{
+  (Podle všeho jde o antifonu nově zavedenou v LH,
+  ne o tradiční text.)
+}
 
 \score {
   \relative c'' {

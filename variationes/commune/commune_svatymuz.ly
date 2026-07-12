@@ -2232,6 +2232,30 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d f( e d) e e( d) \barMin c( d) e d d \barMaior
+    f g f e( d) c \barMin d f e d( e c) c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pán je za -- hr -- nul věč -- nou slá -- vou
+    a dal jim ú -- čast na věč -- ném dě -- dic -- tví.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 c a g f g( a) a g g \barMaior
@@ -4255,6 +4279,31 @@
     \choralniRezim
     d4 d d( f) e d e( f) d d \barMaior
     d f f e d c( d) c c \barMin d e f d c( d) d \barFinalis
+
+    f^\markup\rubrVelikAleluja g( f) d d \barFinalis
+  }
+  \addlyrics {
+    By -- li věr -- ní až do smr -- ti
+    a ob -- dr -- že -- li od Pá -- na za od -- mě -- nu ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0506jansarkander.ly#ne-amag?cast=1,4&ignoruj=opakovane noty"
+    id = "2ne-amag2"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) e d e( f) d d \barMaior
+    d f f e d c( d) c c \barMin d e f \mark\sipka g f( d c d) d \barFinalis
 
     f^\markup\rubrVelikAleluja g( f) d d \barFinalis
   }

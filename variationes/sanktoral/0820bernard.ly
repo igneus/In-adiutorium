@@ -104,6 +104,17 @@
   }
 }
 \markup\justify{
+  Figuruje v novodobých knihách
+  (benediktinských, ne cisterciáckých!):
+
+  \with-url "https://books.google.cz/books?id=Ce_x3oeHVdwC&hl=cs&pg=PA232#v=onepage&q&f=false" {
+    \italic{Supplementum ad Vesperale Romanum pro omnibus sub Regula S. P. N. Benedicti militantibus,}
+    Ratisbonae 1895, s. 232;
+  }
+
+  AM1934, s. 1022.
+}
+\markup\justify{
   Asi bych i měl pochopení pro to, že se tady překladatelé ve snaze
   o hezky zaokrouhlený český text pustili cestou nepřekladu,
   zachovávajícího jen zlomek motivů z předlohy.
