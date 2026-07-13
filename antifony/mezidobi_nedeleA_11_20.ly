@@ -310,7 +310,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c c c c( d c) a a \barMin c b g g \barFinalis
+    c4 c c c c( d c) b g( a) \barMin b a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš mlu -- vil k_zá -- stu -- pům v_po -- do -- ben -- stvích.
@@ -353,7 +353,7 @@
   \relative c'' {
     \choralniRezim
     c4 c b a b a a( g) g \barMin
-    f g a a g g \barMaior
+    f f g a g g \barMaior
     a( c) c \barMin d c b( c) a a \barMin
     g f a a g g \barFinalis
   }
