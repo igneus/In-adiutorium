@@ -2927,6 +2927,7 @@
     et quia pro eius amóre sánguinem suum fudérunt,
     ídeo cum Christo regnábunt in ætérnum.
   }
+  \cantusid-link "002927"
   AR1912 [36]
 }
 \markup\justify{
