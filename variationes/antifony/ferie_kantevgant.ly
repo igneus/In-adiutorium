@@ -1271,6 +1271,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) c c( b g) \barMin
+  }
+  \addlyrics {
+    Ve -- le -- bí má du -- še Hos -- po -- di -- na,
+    ne -- boť shlé -- dl
+    na svou ne -- pa -- tr -- nou slu -- žeb -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-po-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 % utery

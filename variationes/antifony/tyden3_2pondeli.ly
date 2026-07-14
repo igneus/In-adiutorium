@@ -2057,6 +2057,46 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka a4 g g( a) a a a b c a g g \barMin
+    f f f g g g f g e e \barFinalis
+  }
+  \addlyrics {
+    Na -- še o -- či hle -- dí na Hos -- po -- di -- na,
+    do -- kud se nad ná -- mi ne -- smi -- lu -- je.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 123"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 \mark\sipka a g( a) a a a b c a g g \barMin
+    f f f g g g f g e e \barFinalis
+  }
+  \addlyrics {
+    Na -- še o -- či hle -- dí na Hos -- po -- di -- na,
+    do -- kud se nad ná -- mi ne -- smi -- lu -- je.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Žalm 123"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
