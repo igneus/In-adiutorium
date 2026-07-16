@@ -3069,7 +3069,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -3083,6 +3083,41 @@
     % R
     \neviditelna f
     g g( a) g \barMin f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ra -- dos -- tí bu -- du já -- sat v_Hos -- po -- di -- nu,_*
+    má du -- še za -- ple -- sá v_mém Bo -- hu.
+    \Verse Ne -- boť mi ob -- lé -- kl rou -- cho spá -- sy,
+    o -- děl mě ša -- tem spra -- ve -- dl -- nos -- ti,_*
+    \Response má du -- še za -- ple -- sá v_mém Bo -- hu.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "2ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f f f g f g( a) a( g) \barMax
+    \mark\sipka f g( a) g \barMin f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a a( bes) a a a a g( a) g \barMaior
+    g g g a g g f g a a( g) \barMax
+    % R
+    \neviditelna f
+    \mark\sipka f g( a) g \barMin f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }

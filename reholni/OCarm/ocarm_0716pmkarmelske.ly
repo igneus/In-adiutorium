@@ -548,14 +548,14 @@
     % R
     \neviditelna f
     f4 f f f f f f g f g( a) a( g) \barMax
-    g g( a) g \barMin f d f g g( f) f \barFinalis
+    f g( a) g \barMin f d f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a a( bes) a a a a g( a) g \barMaior
     g g g a g g f g a a( g) \barMax
     % R
     \neviditelna f
-    g g( a) g \barMin f d f g g( f) f \barFinalis
+    f g( a) g \barMin f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
