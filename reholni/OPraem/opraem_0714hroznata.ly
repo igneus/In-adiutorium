@@ -170,8 +170,8 @@
 
     % R
     \neviditelna f
-    f4 f g( a) a( g) \barMax
-    a-- g( f) f \barFinalis
+    f4 g g( a) a( g) \barMax
+    f g( a f) f \barFinalis
 
     % V
     \neviditelna a

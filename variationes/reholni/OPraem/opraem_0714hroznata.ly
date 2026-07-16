@@ -1309,7 +1309,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1320,6 +1320,97 @@
     % V
     \neviditelna a
     a4 a g f g( a) a( g) \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response  Od -- vrať, Pa -- ne,_*
+    mé o -- či.
+    \Verse Ať ne -- vi -- dí mar -- nost.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 \mark\sipka g g( a) a( g) \barMax
+    \mark\sipka g( a) g( f) f \barFinalis
+
+    % V
+    \neviditelna a
+    a4 a g f g( a) a( g) \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response  Od -- vrať, Pa -- ne,_*
+    mé o -- či.
+    \Verse Ať ne -- vi -- dí mar -- nost.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g g( a) a( g) \barMax
+    \mark\sipka f g( a f) f \barFinalis
+
+    % V
+    \neviditelna a
+    a4 a g f g( a) a( g) \barFinalis
+
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response  Od -- vrať, Pa -- ne,_*
+    mé o -- či.
+    \Verse Ať ne -- vi -- dí mar -- nost.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 g g( a) a( g) \barMax
+    f g( a f) f \barFinalis
+
+    % V
+    \neviditelna a
+    \mark\sipka a4 a( bes) a a g( a) g \barFinalis
 
     % Slava
     \respVIdoxologie \barFinalis
