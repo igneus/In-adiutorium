@@ -595,6 +595,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "2 závěr verše je nepříliš elegantní, ale zatím nevidím výrazně lepší řešení"
     id = "2ne-r"
     piece = \markup {\sestavTitulekResp}
   }
