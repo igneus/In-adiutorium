@@ -295,11 +295,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g g( a) a \barMin
     a a g f g( a g) g \barMaior
     a g f e( f d) d( c) \barMin
+    c d f f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Při -- ve -- du je
+    na svou sva -- tou ho -- ru
+    a dám jim ra -- dost
+    ve svém do -- mě mod -- lit -- by.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 46"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#mc-a2?cast=1-2,4"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g g( a) a \barMin
+    a a g f g( a g) g \barMaior
+    \mark\sipka g a g f( e d) d( c) \barMin
     c d f f g( a) g( f) f \barFinalis
   }
   \addlyrics {
