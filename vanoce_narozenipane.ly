@@ -1775,8 +1775,9 @@
   \score {
     \relative c'' {
       \choralniRezim
-      c4 a c d d c \barMin b c a a g g \barMin
-      a g f( g) g \barFinalis
+      g4 g g a g f g( a) a( c) c \barMaior
+      c d( c a4.) a4 \barMin
+      c b a( g) g \barFinalis
     }
     \addlyrics {
       Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
@@ -1785,9 +1786,9 @@
     \header {
       quid = "3. ant."
       modus = "VIII"
-      differentia = "c"
+      differentia = "G"
       psalmus = "Žalm 98"
-      placet = "tady daný popěvkovitý nápěv úplně nesedí, půjde lépe"
+      fial = "velikonoce_velikonocnioktav.ly#so-mc-a2?cast=1"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
     }

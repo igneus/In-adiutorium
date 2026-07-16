@@ -2935,7 +2935,7 @@
 
   \score {
     \relative c'' {
-      \zvyraznovacModry
+      \zvyraznovacSedy
       \choralniRezim
       \mark\sipka c4 a c d d c \barMin b c a a g g \barMin
       a g f( g) g \barFinalis
@@ -2949,6 +2949,7 @@
       modus = "VIII"
       differentia = "c"
       psalmus = "Žalm 98"
+      placet = "tady daný popěvkovitý nápěv úplně nesedí, půjde lépe"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
     }
@@ -3022,6 +3023,46 @@
       c4 c c d c b a( b) a( g) g \barMaior
       f g( a) a \barMin
       c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 c a g( a) g g f g a a c b \barMin
+      c a g( a) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "c"
+      psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      c4 \mark\sipka b a g( a) g g f g a a c b \barMin
+      c a g( a) g \barFinalis
     }
     \addlyrics {
       Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
@@ -3297,6 +3338,51 @@
       modus = "VIII"
       differentia = "G"
       psalmus = "Žalm 98"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \zvyraznovacModry
+      \choralniRezim
+      g4 g g a g f g( a) \mark\sipka a( c) c \barMaior
+      c d( c a4.) a4 \barMin
+      c b a( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 98"
+      fial = "velikonoce_velikonocnioktav.ly#so-mc-a2?cast=1"
+      id = "31-mc-a3"
+      piece = \markup {\sestavTitulek}
+    }
+  }
+
+  \score {
+    \relative c'' {
+      \choralniRezim
+      g4 g g a g f g( a) a( c) c \barMaior
+      c \mark\sipka c( d b c) a( g) \barMin
+      a g f( g) g \barFinalis
+    }
+    \addlyrics {
+      Hos -- po -- din u -- ve -- dl ve zná -- most svou spá -- su.
+      A -- le -- lu -- ja.
+    }
+    \header {
+      quid = "3. ant."
+      modus = "VIII"
+      differentia = "G"
+      psalmus = "Žalm 98"
+      fial = "velikonoce_velikonocnioktav.ly#so-mc-a2?cast=1"
       id = "31-mc-a3"
       piece = \markup {\sestavTitulek}
     }
