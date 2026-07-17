@@ -811,6 +811,78 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f d f( g) a( g) g \barMin
+    a b g g f g a a( g) g \barMaior
+    g b c d c( b) a( b) b \barMaior
+    c a g a( b) a g( a) a( g) \barMaior
+    g b c d c e( d) d \barMin
+    c( b a) g f( g) g \barFinalis
+
+    c(^\markup\rubrVelikAleluja b a) g a g
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le Alž -- bě -- ta
+    u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
+    zvo -- la -- la moc -- ným hla -- sem:
+    Jak jsem si za -- slou -- ži -- la,
+    že mat -- ka mé -- ho Pá -- na
+    \markup{\Dagger při} -- šla ke mně?
+
+    \markup{\Dagger při} -- šla ke mně?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 651"
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f d f( g) a( g) g \barMin
+    a b g g f g a a( g) g \barMaior
+    g b c d c( b) a( b) b \barMaior
+    c a g a( b) a g( a) a( g) \barMaior
+    g b c d c e( d) d \barMin
+    c( b a) g \mark\sipka a( b g) g \barFinalis
+
+    c(^\markup\rubrVelikAleluja b a) g a g
+    f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jak -- mi -- le Alž -- bě -- ta
+    u -- sly -- še -- la Ma -- ri -- in po -- zdrav,
+    zvo -- la -- la moc -- ným hla -- sem:
+    Jak jsem si za -- slou -- ži -- la,
+    že mat -- ka mé -- ho Pá -- na
+    \markup{\Dagger při} -- šla ke mně?
+
+    \markup{\Dagger při} -- šla ke mně?
+    A -- le -- lu -- ja.
+  }
+  \header {
+    fons_externus = "volně podle AR1912 651"
+    quid = "ant. k Benedictus"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}

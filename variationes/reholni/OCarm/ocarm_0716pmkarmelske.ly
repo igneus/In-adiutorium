@@ -501,6 +501,31 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) g \barMin
+    c c c b a a( g) g \barMaior
+    c d e d c( b) a a \barMin
+    \mark\sipka c b a g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Při -- ta -- huj nás,
+    ne -- po -- skvr -- ně -- ná Pan -- no,
+    po -- bě -- ží -- me za te -- bou,
+    po vů -- ni tvých mas -- tí.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 63"
+    fial = "reholni/OCD/ocd_0716pmkarmelske.ly#rch-a1?cast=1-3"
+    id = "rch-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
@@ -839,6 +864,28 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c a g f( g) a g g \barMaior
+    f g a g a( c) b \barMin
+    c \mark\sipka c a g g( a g) g \barFinalis
+  }
+  \addlyrics {
+    Sjed -- nám s_ni -- mi věč -- nou smlou -- vu,
+    že jim ne -- pře -- sta -- nu
+    pro -- ka -- zo -- vat dob -- ro.
+  }
+  \header {
+    quid = "ant. v poledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "sexta"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
 \pageBreak
 
 \score {
@@ -846,7 +893,6 @@
     \choralniRezim
     c4 d c b a g a g \barMin
     a a a g f g a a \barMin
-
   }
   \addlyrics {
     Za -- lí -- bi -- lo se mi hlá -- sat
@@ -943,6 +989,50 @@
     quid = "ant. odpoledne"
     modus = "IV alt"
     differentia = "A"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d e c c( d) d \barMaior
+    \mark\sipka d c d e d c d d( c) \barMaior
+    c b a b c a g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Za -- lí -- bi -- lo se mi hlá -- sat
+    je -- ho ve -- li -- ká zna -- me -- ní
+    a je -- ho po -- di -- vu -- hod -- né skut -- ky.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup\sestavTitulekBezZalmu
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d e c c( d) d \barMaior
+    d c d e d c d d( c) \barMaior
+    \mark\sipka a b c a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Za -- lí -- bi -- lo se mi hlá -- sat
+    je -- ho ve -- li -- ká zna -- me -- ní
+    a je -- ho po -- di -- vu -- hod -- né skut -- ky.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "nona"
     piece = \markup\sestavTitulekBezZalmu
