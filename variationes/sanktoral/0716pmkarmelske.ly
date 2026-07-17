@@ -98,6 +98,28 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 d c d f e f f( g f d) d \barMaior
+    d f e d e \mark\sipka e( d) \barMin
+    c d e f d d \barFinalis
+  }
+  \addlyrics {
+    V_mod -- lit -- bě jsem hle -- da -- la mou -- drost
+    a ob -- dr -- že -- la jsem
+    je -- jí prv -- ní plo -- dy.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d c d f e \mark\sipka d d( e d c) c \barMaior
     d c d d f f \barMin
     g f e f d d \barFinalis
@@ -234,7 +256,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g( a) g g f g g( a) a \barMaior
     c b a b g g a b( c) a a \barMaior
@@ -301,10 +323,11 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a g( a) g g f g g( a) a \barMaior
     c b a b g g \mark\sipka a( b) c a a \barMaior
-    a g f e f d c( d) d \barFinalis
+    g a g f e f d d \barFinalis
   }
   \addlyrics {
     Ma -- ri -- a sly -- še -- la Bo -- ží slo -- vo,

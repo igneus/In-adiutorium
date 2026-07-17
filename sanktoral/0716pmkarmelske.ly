@@ -38,7 +38,7 @@
   \relative c'' {
     \choralniRezim
     a4 a a g( a) g g f g g( a) a \barMaior
-    c b a b g g a b( c) a a \barMaior
+    c b a b g g a( b) c a a \barMaior
     g a g f e f d d \barFinalis
   }
   \addlyrics {
