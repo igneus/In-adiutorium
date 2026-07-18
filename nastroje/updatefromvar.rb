@@ -5,13 +5,11 @@
 # chants marked as selected for inclusion in the main file
 # and updates the main file.
 
-# The script expects being run in the project root directory
-# and receiving relative paths as arguments.
+# The script expects to run in the project root directory
+# and receives relative paths as arguments.
 # Development file for a given file path.ly is file
 # variationes/path.ly and all files matching pattern
 # variationes/path_*.ly
-# (this convention expects a particular discipline when giving
-# names to main files).
 
 require 'stringio'
 require 'optparse'
