@@ -440,6 +440,18 @@
 
 \pageBreak
 
+\markup\justify{
+  \italic{
+    Alma Dei Genitrix,
+      Carmeli gloria montis,
+    veste tua indutos
+      pariter virtutibus orna,
+    semper et a cunctis
+      clemens defende periclis.
+  }
+  brocarm1886 611 (k Magnificat pro dny během oktávu)
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -890,7 +902,8 @@
 
 \markup\justify{
   \italic{Adducam eos},
-  pmo1950 114
+  pmo1950 114 (L A2);
+  brocarm1886 605 (V1 A4)
 }
 
 \score {
@@ -1383,8 +1396,11 @@
 
 \markup\justify{
   Srov. \italic{In odorem unguentorum tuorum},
-  pmo1950 91
-  (antifona známá z římského breviáře)
+  pmo1950 91 (V1 A3),
+  brocarm1575 218 (L A3)
+  (známá z římského breviáře, součást všeobecně rozšířeného repertoáru,
+  ale vidíme, že byla součástí středověkého karmelitánského formuláře
+  PM Karmelské)
 }
 
 \markup\justify{
@@ -2166,6 +2182,14 @@
 
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
+\markup\justify{
+  \italic{
+    Supra modum Mater mirabilis,
+    et bonorum memoria digna.
+  }
+  brocarm1886 609 (L A2)
+}
+
 \score {
   \relative c' {
     \choralniRezim
@@ -2478,6 +2502,16 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  \italic{
+    Laetetur anima vestra in misericordia eius,
+    et non confundemini laude ipsius.
+  }
+  brocarm1886 s. 609 (L A5).
+  (Zajímavé je, že obutí tuhle antifonu dnes ve svém propriu nemají.
+  Místo ní mají jinou antifonu z téže historické podoby formuláře.)
+}
 
 \score {
   \relative c' {

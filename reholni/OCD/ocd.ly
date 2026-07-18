@@ -4,7 +4,36 @@ textyOCD = "vlastní texty řádu bosých karmelitánů"
 
 % vsechny zname prameny, pro pouziti ve variationes
 pramenyOCDvse = \markuplist{
-  \large\bold{Prameny:}
+  \huge\bold{Prameny:}
+
+  \large\bold{OCarm} % --------------------
+
+  \justify\with-url "https://www.google.cz/books/edition/Breviarium_carmelitarum/g-ww_9IQc_8C?hl=cs&gbpv=1&pg=PA941&printsec=frontcover" {
+    \bold{brocarm1575}
+    \italic{
+      Breviarium Carmelitarum
+      secundum usum Ecclesiae Hierosolymitanae et dominici sepulchri,
+    }
+    Lugduni 1575.
+  }
+
+  \justify\with-url "https://sammlungen.ub.uni-frankfurt.de/msma/content/pageview/4722921" {
+    \bold{frankf47}
+    D-F : Ms Lat qu 0047
+    - breviarium notatum karmelitánského kláštera ve Frankfurtu n. M., 15. stol.
+  }
+
+  \justify\with-url "https://www.google.cz/books/edition/Breviarium_Ordinis_fratrum_beatissimae_V/68w-AAAAYAAJ?hl=cs&gbpv=1&pg=PA605&printsec=frontcover" {
+    \bold{brocarm1886}
+    \italic{
+      Breviarium Ordinis fratrum Beatissimae Virginis Mariae de monte Carmelo
+      juxta Hierosolymitanae Ecclesiae antiquam consuetudinem,
+    }
+    pars aestiva,
+    Tornaci Nerviorum 1886.
+  }
+
+  \large\bold{OCD} % --------------------
 
   \justify\with-url "https://media.musicasacra.com/pdf/carmelite/Proprium_Carmelitarum.pdf" {
     \bold{pmo1950}

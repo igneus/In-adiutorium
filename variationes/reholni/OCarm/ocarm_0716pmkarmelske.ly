@@ -2,6 +2,7 @@
 
 \include "../../spolecne.ly"
 \include "../../../spolecne/reholni.ly"
+\include "../../../reholni/OCD/ocd.ly"
 \include "../../dilyresponsorii.ly"
 
 \header {
@@ -13,15 +14,10 @@
   composer = "Jakub Pavlík"
 }
 
+\markuplist\pramenyOCDvse
+
 \markup\justify{
-  \with-url "https://www.google.cz/books/edition/Breviarium_carmelitarum/g-ww_9IQc_8C?hl=cs&gbpv=1&pg=PA941&printsec=frontcover" {
-    \italic{
-      Breviarium Carmelitarum
-      secundum usum Ecclesiae Hierosolymitanae et dominici sepulchri,
-    }
-    Lugduni 1575,
-    s. 941
-  }
+  brocarm1575 s. 941
   : žádné vlastní zpěvy, zato skoro pro každou hodinku jiná orace.
 
   Pro většinu textů odkazuje na svátek Commemoratio,
@@ -30,10 +26,29 @@
   v době postní podobné votivní oficium o volných útercích.
   Mariánské commune jsem v breviáři (zatím?) nenašel.
 }
+\markup\justify{
+  frankf47 f. 197v
+  : předběžně se zdá co do textů odpovídat brocarm1575,
+  ale chybí zpěvy k (obojím) nešporám
+}
+\markup\justify{
+  brocarm1886, s. 605nn
+  : podle všeho úplně nové oficium, nezaznamenal jsem žádnou shodu s brocarm1575
+}
 
 \pageBreak
 
 \markup {\nadpisHodinka {"1. nešpory"}}
+
+\markup\justify{
+  \italic{
+    Vide collectos filios tuos
+    ab oriente sole usque ad occidentem
+    in verbo Sancti
+    gaudentes Dei memoria.
+  }
+  V1 A3, brocarm1886 s. 605
+}
 
 \score {
   \relative c'' {
@@ -840,6 +855,14 @@
 }
 
 \pageBreak
+
+\markup\justify{
+  \italic{
+    Feriam eis pactum sempiternum,
+    et non desinam eis benefacere.
+  }
+  brocarm1886 s. 605 (V1 A5)
+}
 
 \score {
   \relative c'' {
