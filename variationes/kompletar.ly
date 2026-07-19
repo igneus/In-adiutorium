@@ -253,9 +253,51 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka d4 c( d) d( f) f \barMin
+    g( f) e d f e d \barMax
+    f e( c) d e f \barMin
+    e( c) f d4. d4. \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     c4 d d( f) f \barMin
     g( f) e d f e d \barMax
     f \mark\sipka e d e d( c) \barMin
+    a c c( d) d \barFinalis
+  }
+  \addlyrics {
+    O -- chrá -- ní tě svý -- mi pe -- ru -- tě -- mi;
+    ne -- mu -- síš se bát noč -- ní hrů -- zy.
+  }
+  \header {
+    quid = "ant."
+    modus = "II"
+    differentia = "D"
+    piece = "neděle po 2. nešporách"
+    id = "neii"
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g( f) e d f e d \barMax
+    \mark\sipka c d e f d( c) \barMin
     a c c( d) d \barFinalis
   }
   \addlyrics {
