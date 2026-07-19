@@ -1,7 +1,12 @@
 # automation of a few tasks.
 # For tasks building books see antifonar/Rakefile
 
-require 'colorize'
+begin
+  require 'colorize'
+rescue LoadError => e
+  STDERR.puts '!!! Missing dependency, some tasks will crash:'
+  STDERR.puts '!!! ' + e.message
+end
 
 require_relative 'nastroje/rakefile_common'
 
