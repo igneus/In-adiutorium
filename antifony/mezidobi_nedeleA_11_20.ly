@@ -380,8 +380,8 @@
   \relative c'' {
     \choralniRezim
     a4 c d d( e) d d \barMin
-    d d c d c( b) a( g) g \barMaior
-    a a c( b a g) a( g) \barMin
+    d d c b c( a) a( g) g \barMaior
+    a c b( c a) a \barMin
     a a g f g a a g g \barFinalis
   }
   \addlyrics {
@@ -405,10 +405,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a a g( a) g g \barMin g f g g( a) \barMaior
-    c c b a b( c a) a \barMin
-    a f g a a a a g f e e \barMaior
-    f g a a c b a( g) g \barFinalis
+    a4 a a g( a) g g \barMin f g g e \barMaior
+    f g a a g( a) a \barMin
+    a c b g g f g a a g g \barMaior
+    f g a g f e d( e) e \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství je ja -- ko kvas,
@@ -421,8 +421,8 @@
     textus_approbatus = "Nebeské království je jako kvas, který vzala žena
     a zadělala ho do tří měřic mouky, až se všechno prokvasilo."
     quid = "ant. k Benedictus"
-    modus = "VIII"
-    differentia = "G*"
+    modus = "IV"
+    differentia = "g"
     psalmus = ""
     annus = "A"
     id = "ne16a-rch-aben"
@@ -434,8 +434,8 @@
   \relative c'' {
     \choralniRezim
     a4 a a g \barMin
-    f g  g( a) a a g( a g) f e e \barMaior
-    d( f g a) g f e d( e) e \barFinalis
+    f g g( a) a a a( c) b g g \barMaior
+    f( g a) g f e d( e) e \barFinalis
   }
   \addlyrics {
     Spra -- ved -- li -- ví
