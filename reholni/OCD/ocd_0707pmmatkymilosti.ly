@@ -16,16 +16,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4( c) b c( d) d \barMin
+    e f e d c d d \barMin
+    d c b a( b) a( g) g \barMaior
+    a( c) c c d e d d \barMin
+    e f e d c e d d \barMaior
+    d d d c b a( b) g g
+    a g f a g g \barFinalis
   }
   \addlyrics {
-    Já jsem Matka krásného milování a svaté naděje;
-    ve mně je každá milost poznání cesty a pravdy;
-    u mě je každá naděje života a ctnosti.
+    Já jsem Mat -- ka
+    krás -- né -- ho mi -- lo -- vá -- ní
+    a sva -- té na -- dě -- je;
+    ve mně je kaž -- dá mi -- lost
+    po -- zná -- ní ces -- ty a prav -- dy;
+    u mě je kaž -- dá na -- dě -- je
+    ži -- vo -- ta a ctnos -- ti.
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = ""
-    differentia = ""
+    scriptura = "srov. Sir 24, 24-25 (Vulg.)"
+    modus = "VII"
+    differentia = "a"
     psalmus = ""
     id = "aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -33,18 +45,27 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    f4 g g( a) a a g f f( g) g \barMin
+    f e d( c) c \barMaior
+    d d( f) f \barMin
+    f g a g f( g) f e d d \barMin
+    d c d d( f) e d c( d) d \barFinalis
   }
   \addlyrics {
-    Naše spása je ve tvých rukou, Matko naše;
-    stůj při nás a budeme s radostí sloužit našemu Králi a Pánu.
+    Na -- še spá -- sa je ve tvých ru -- kou,
+    Mat -- ko na -- še;
+    stůj při nás
+    a bu -- de -- me s_ra -- dos -- tí slou -- žit
+    na -- še -- mu Krá -- li a Pá -- nu.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "f"
     psalmus = ""
+    fial = "sanktoral/0508pmprostrednice.ly#ne-amag?zacatek=8&cast=3-5"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
