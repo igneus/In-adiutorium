@@ -63,9 +63,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g a( f g4.) g \barMin
-    f4( g) f e d( c) c \barMaior
-    d f g a g g( f) f \barFinalis
+    f4 f g g( a) a \barMin
+    g f a g g \barMaior
+    a g f e d f( g f) f \barFinalis
   }
   \addlyrics {
     Dě -- kuj -- me Pá -- nu,
@@ -77,7 +77,6 @@
     modus = "VI"
     differentia = "F"
     psalmus = "Kol 1"
-    placet = "zejm. nasazení _že nám_ je neelegantní"
     id = "1ne-a3"
     piece = \markup\sestavTitulek
   }
@@ -118,10 +117,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g( c) c \barMin
+    g4 a a( c) c \barMin
     d c d( e) d d \barMaior
     d d c( d) c b a g a( g) g \barMaior
-    a g f g g( a) a \barMin
+    a a f g g( a) a \barMin
     c c b a g g \barFinalis
   }
   \addlyrics {
@@ -136,7 +135,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = ""
-    placet = "stálo by za to vyzkoušet jiné varianty frázování"
     id = "1ne-amag"
     piece = \markup\sestavTitulekBezZalmu
   }
