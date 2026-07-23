@@ -962,6 +962,24 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c d c b( c) a a a g f a g g \barFinalis
+  }
+  \addlyrics {
+    V_ml -- če -- ní a na -- dě -- ji bu -- de va -- še sí -- la.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     a4 a a a g a g \barMin f g bes g bes a \barFinalis
   }
   \addlyrics {
@@ -981,6 +999,24 @@
   \relative c' {
     \choralniRezim
     a4 c( d) d c e( f) d d \barMin e c e f d d \barFinalis
+  }
+  \addlyrics {
+    V_ml -- če -- ní a na -- dě -- ji bu -- de va -- še sí -- la.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) \barMin f e( f) d d \barMin e c e f d d \barFinalis
   }
   \addlyrics {
     V_ml -- če -- ní a na -- dě -- ji bu -- de va -- še sí -- la.

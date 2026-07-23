@@ -2284,6 +2284,8 @@
   }
 }
 
+\markup\nadpisSkupiny 2
+
 \score {
   \relative c' {
     \choralniRezim
@@ -2365,6 +2367,40 @@
     % R
     \neviditelna a
     g g g \mark\sipka g g f g( a) g \barMin f d f g f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Bla -- ho -- sla -- ve -- ná jsi, Pan -- no Ma -- ri -- a,_*
+    pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \Verse Bez smr -- ti jsi do -- sáh -- la mu -- čed -- nic -- ké pal -- my,_*
+    \Response pro -- to -- že jsi vy -- tr -- va -- la pod kří -- žem Pá -- na.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "ne-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    \key f \major
+
+    % R
+    \neviditelna f
+    f f f \mark\sipka f f f g f g g( a) a( g) \barMax
+    g g g g \mark\sipka f g g( a) g \barMin f( d) f g g f \barFinalis
+    % V
+    \neviditelna g
+    a4 a a a g( a) g g \barMin g g \mark\sipka f g g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    g g g g \mark\sipka f g g( a) g \barMin f( d) f g g f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
