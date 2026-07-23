@@ -20,7 +20,7 @@
   \addlyrics {
     Já jsem Matka krásného milování a svaté naděje;
     ve mně je každá milost poznání cesty a pravdy;
-    u mně je každá naděje života a ctnosti.
+    u mě je každá naděje života a ctnosti.
   }
   \header {
     quid = "ant. k Benedictus"

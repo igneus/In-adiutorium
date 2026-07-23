@@ -40,7 +40,7 @@
     a sva -- té na -- dě -- je;
     ve mně je kaž -- dá mi -- lost
     po -- zná -- ní ces -- ty a prav -- dy;
-    u mně je kaž -- dá na -- dě -- je
+    u mě je kaž -- dá na -- dě -- je
     ži -- vo -- ta a ctnos -- ti.
   }
   \header {
@@ -71,7 +71,7 @@
     a sva -- té na -- dě -- je;
     ve mně je kaž -- dá mi -- lost
     po -- zná -- ní ces -- ty a prav -- dy;
-    u mně je kaž -- dá na -- dě -- je
+    u mě je kaž -- dá na -- dě -- je
     ži -- vo -- ta a ctnos -- ti.
   }
   \header {
