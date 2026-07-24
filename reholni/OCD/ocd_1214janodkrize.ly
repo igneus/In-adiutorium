@@ -393,15 +393,15 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    c4 d d( f) \barMin f g( f) d d \barMin e c e f d d \barFinalis
   }
   \addlyrics {
-    V mlčení a naději bude vaše síla.
+    V_ml -- če -- ní a na -- dě -- ji bu -- de va -- še sí -- la.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
