@@ -1459,6 +1459,50 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 f f e d e( f) d d \barMaior
+    \mark\sipka e d d( c a) \barMin
+    c d d4. d \barFinalis
+  }
+  \addlyrics {
+    Bůh vy -- svo -- bo -- dil mou du -- ši
+    z_pod -- svě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 49-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f f e d \mark\sipka c( d) c c \barMaior
+    a c c( d) \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh vy -- svo -- bo -- dil mou du -- ši
+    z_pod -- svě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 49-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 f f f e
     d c d d e e \barMin
     f e d d \barFinalis

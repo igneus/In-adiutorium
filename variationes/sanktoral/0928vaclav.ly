@@ -318,6 +318,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a b c d c b g a a \barMaior
+    \mark\sipka a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Do -- ros -- tl k_sva -- tos -- ti za krát -- ký čas,
+    a na -- pl -- nil mno -- hé vě -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 b a b c a g f g g \barMaior
     a c( d) c a b a g g \barFinalis
   }
