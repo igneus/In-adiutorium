@@ -1325,7 +1325,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c d d( f) f \barMin
     f g f e( f) d d( c) \barMin
@@ -1370,9 +1370,32 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 c d d( f) f \barMin
     f g f \mark\sipka e d c \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    Bůh vy -- svo -- bo -- dil
+    mou du -- ši z_pod -- svě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 49-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d d( f) f \barMin
+    f \mark\sipka e d c( d) c c
     e f d d \barFinalis
   }
   \addlyrics {
@@ -1582,6 +1605,72 @@
     quid = "2. ant."
     modus = "IV"
     differentia = "E"
+    psalmus = "Žalm 49-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a a g g( f) \barMin
+    a c b a( b) g g
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh vy -- svo -- bo -- dil
+    mou du -- ši z_pod -- svě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 49-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d d c c \barMin
+    c a c b a g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh vy -- svo -- bo -- dil
+    mou du -- ši z_pod -- svě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 49-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d b c a \barMin
+    a b c a g g \barMin
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh vy -- svo -- bo -- dil
+    mou du -- ši z_pod -- svě -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Žalm 49-II"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}

@@ -107,8 +107,8 @@
   \relative c' {
     \choralniRezim
     d4 c d d( f) f \barMin
-    f g f e( f) d d( c) \barMin
-    a c c( d) d \barFinalis
+    f g f e d c \barMin
+    e f d d \barFinalis
   }
   \addlyrics {
     Bůh vy -- svo -- bo -- dil
@@ -120,7 +120,6 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 49-II"
-    placet = "2 nic moc"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }
