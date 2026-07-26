@@ -892,43 +892,6 @@
     subtitle = "VII. Závěrečné mariánské antifony"
   }
 
-  \markup\sekce{VI.1 Přiřazení antifon liturgickým dobám}
-
-  \markup\justify{
-    1. Platné \italic{Uspořádání Denní modlitby církve} (viz breviář)
-    užívání závěrečných mariánských antifon vzhledem k liturgickým
-    dobám nijak neomezuje. "(\"Použije se" některá ze závěrečných
-    mariánských "antifon.\")." Jediné závazné ustanovení určuje,
-    aby se v době velikonoční vždy zpívala antifona
-    \italic{Regina caeli}
-    (\italic{Všeobecné pokyny k Denní modlitbě církve}, odst. 92).
-  }
-  \markup\justify{
-    2. Jako vodítko lze doporučit schéma z potridentského římského breviáře:
-    \italic{Alma Redemptoris Mater}
-    od prvních nešpor 1. adventní neděle
-    do 2. nešpor Uvedení Páně do chrámu.
-
-    % Pozn.: Je rozšířené přesvědčení, že svátkem Uvedení Páně do chrámu
-    % (resp. tehdy Očišťování PM) v předkoncilním kalendáři končila doba vánoční,
-    % ale to není pravda. Svátek tvoří předěl pouze v repertoáru "mariánské periferie" -
-    % mariánské votivní mše, malého mariánského oficia a právě závěrečných mariánských
-    % antifon.
-    \italic{Ave, Regina caelorum}
-    od 2. nešpor Uvedení Páně do chrámu
-    do kompletáře středy Svatého týdne.
-
-    \italic{Regina caeli}
-    od kompletáře Zmrtvýchvstání Páně
-    do kompletáře v pátek po Seslání Ducha svatého.
-
-    \italic{Salve regina}
-    od prvních nešpor Nejsvětější Trojice
-    do nony v sobotu před 1. nedělí adventní.
-  }
-
-  \markup\sekce{VI.2 Zdroje nápěvů}
-
   \markup\justify{
     1. Latinské znění s jednoduchými chorálními nápěvy je
     ve zpěvníku \italic{Denní modlitba církve. Hymny}, Praha 1989, s. 366nn.
