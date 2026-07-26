@@ -37,7 +37,7 @@
     }
     \header {
       piece = ""
-      fons_externus = "podle Antiphonale Romanum, Romae 1912, 3*."
+      fons_externus = "podle AR1912 3*"
       id = "zacatek-prvni"
     }
   }
@@ -45,8 +45,6 @@
   \markup\sekce{I.2 Ostatní hodinky}
 
   \markup\sekce{I.2.1 nápěvy podle \italic{Antiphonale Romanum (1912)}}
-
-  \markup{Podle \italic{Antiphonale Romanum,} Romae 1912, 1*nn.}
 
   \score {
     \relative c'' {
@@ -80,6 +78,7 @@
       % block_end:pust
     }
     \header {
+      fons_externus = "podle AR1912 1*"
       id = "zacatek-nedele"
       piece = "k ranním chválám a nešporám nedělí a svátků"
     }
@@ -117,6 +116,7 @@
       % block_end:pust
     }
     \header {
+      fons_externus = "podle AR1912 2*"
       id = "zacatek-bezny"
       piece = "k ostatním příležitostem"
     }
@@ -156,6 +156,7 @@
       % block_end:nepust
     }
     \header {
+      fons_externus = "podle AR1912 2*"
       id = "zacatek-slavnost"
       piece = "volitelně k nešporám slavností"
     }
@@ -301,7 +302,7 @@
       ragged-last = ##f
     }
     \header {
-      fons_externus = "podle Antiphonale Romanum, Romae 1912, 27*."
+      fons_externus = "podle AR1912 27*"
       id = "vers-neuma"
     }
   }
@@ -324,7 +325,7 @@
       ragged-last = ##f
     }
     \header {
-      fons_externus = "podle Antiphonale Romanum, Romae 1912, 27*."
+      fons_externus = "podle AR1912 27*"
       mobile_rubric = "verše s aleluja"
       id = "vers-neuma-aleluja"
     }
@@ -358,7 +359,7 @@
       ragged-last = ##f
     }
     \header {
-      fons_externus = "podle Antiphonale Romanum, Romae 1912, 693."
+      fons_externus = "podle AR1912 693"
       id = "vers-slavnostni"
     }
   }
@@ -381,7 +382,7 @@
       ragged-last = ##f
     }
     \header {
-      fons_externus = "podle Antiphonale Romanum, Romae 1912, 427."
+      fons_externus = "podle AR1912 427"
       mobile_rubric = "verše s aleluja"
       id = "vers-slavnostni-aleluja"
     }
@@ -661,7 +662,7 @@
       \Response A -- men.
     }
     \header {
-      fons_externus = "podle Antiphonale Romanum 1912, 29*n." % absoluce pred ctenimi matutina
+      fons_externus = "podle AR1912 29*n" % absoluce pred ctenimi matutina
       placet = "měl by se nápěv amen sjednotit s předchozím?
       (podobně i požehnání na konci kompletáře)"
       quid = "prosba o požehnání"
@@ -686,7 +687,7 @@
       \Response Bo -- hu dí -- ky.
     }
     \header {
-      fons_externus = "Volně podle Antiphonale Romanum, Romae 1912, 47*."
+      fons_externus = "Volně podle AR1912 47*"
       id = "dobrorecme2"
       piece = ""
     }
@@ -734,7 +735,7 @@
       \Response A -- men.
     }
     \header {
-      fons_externus = "podle Antiphonale Romanum, Romae 1912, 44."
+      fons_externus = "podle AR1912 44"
       modus = "II"
       id = "pokojnounoc"
       piece = ""
