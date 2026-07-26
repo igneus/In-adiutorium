@@ -893,21 +893,24 @@
   }
 
   \markup\justify{
-    1. Latinské znění s jednoduchými chorálními nápěvy je
+    1. Latinské znění s původními nápěvy:
+    např. \with-url "https://archive.org/details/antiphonale00anonuoft/page/n81/mode/2up" {
+      \italic{Antiphonale Romanum}, Romae 1912, s. 54nn.
+    }
+  }
+
+  \markup\justify{
+    2. Latinské znění s novověkými jednoduššími nápěvy je mj.
     ve zpěvníku \italic{Denní modlitba církve. Hymny}, Praha 1989, s. 366nn.
   }
 
   \markup\justify{
-    2. Latinské znění s bohatšími a náročnějšími chorálními nápěvy:
-    např. \italic{Antiphonale Romanum}, Romae 1912, s. 54nn.
-  }
-
-  \markup\justify{
-    3. České písně oficiálně schválené pro použití jako závěrečné mariánské antifony
+    3. České písňové parafráze schválené pro použití v dané liturgické funkci
     jsou ve zpěvníku \italic{Denní modlitba církve. Hymny}, Praha 1989, s. 363nn.
   }
 
   \markup\justify{
-    4. České překlady závěrečných mariánských antifon jsou v samostatném notovém materiálu.
+    4. České překlady s jednoduššími chorálními nápěvy
+    jsou v samostatném notovém materiálu.
   }
 }
