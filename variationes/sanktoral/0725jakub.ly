@@ -841,6 +841,26 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4( d) d d c d e( d c) d \barMin d \mark\sipka c b a g g( a) \barMaior
+    a c c b a b( c a) a \barMin a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Ka -- lich, kte -- rý já pi -- ji, bu -- de -- te pít i vy,
+    a křest, kte -- rý já při -- jmu, ta -- ké vy při -- jme -- te.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
