@@ -491,11 +491,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 c d d f f f g a g f( e d4.) d \barMin
-    e4 e e e( f) d c d d \barMaior
-    a c c( d) d \barMin c d d d f g f e( d) d \barMaior
+    d4 c d d f f f g a g f( e d4.) d4 \barMin
+    e4 e d e( f) d c d d \barMaior
+    a c c( d) d \barMin d d d c d f g f( e d) d \barMaior
     e c a a \barMaior
-    a c c( d) d \barMin f g f e( f) d d \barMaior
+    a c c( d) d \barMin d f g f( e) d d \barMaior
     f f e d e d c e( f) d d \barFinalis
   }
   \addlyrics {
@@ -525,8 +525,8 @@
     a a g f e f d d \barMin
     f f e f d c c \barMaior
     d c d d f f \barMaior
-    g a g f g f e d( e) d d( c) \barMaior
-    d( e f) d( c) c \barMin f f f g f d d \barFinalis
+    f f f f g a g f( g) f f \barMaior
+    f( e d) c( d) d( c) \barMin d c d f e c( d) d \barFinalis
   }
   \addlyrics {
     Kaž -- dý u -- či -- tel Zá -- ko -- na,
