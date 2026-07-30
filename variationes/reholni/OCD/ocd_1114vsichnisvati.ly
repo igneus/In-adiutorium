@@ -174,26 +174,30 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    a4 a g f f g g( f) f \barFinalis
     % V
     \neviditelna a
-
+    a4( bes) a a \barMin a a a a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-
+    a4 a g f f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Radujte se z_Hospodina_*
-    a těšte se spravedliví.
-    \Verse Jásejte všichni, kdo jste upřímného srdce,_*
-    \Response a těšte se spravedliví.
+    \Response Ra -- duj -- te se z_Hos -- po -- di -- na_*
+    a těš -- te se spra -- ved -- li -- ví.
+    \Verse Já -- sej -- te všich -- ni, kdo jste u -- přím -- né -- ho srd -- ce,_*
+    \Response a těš -- te se spra -- ved -- li -- ví.
     \textRespDoxologie
   }
   \header {
@@ -203,6 +207,40 @@
     piece = \markup {\sestavTitulekResp}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    \mark\sipka g4 g( a) g f f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a \barMin a a a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g4 g( a) g f f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ra -- duj -- te se z_Hos -- po -- di -- na_*
+    a těš -- te se spra -- ved -- li -- ví.
+    \Verse Já -- sej -- te všich -- ni, kdo jste u -- přím -- né -- ho srd -- ce,_*
+    \Response a těš -- te se spra -- ved -- li -- ví.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = ""
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -274,22 +312,57 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
+    d4 c c( d) d \barMin
+    d d c d( f g) f( e) d( c) \barMin
+    d d d d c a c( d) d \barMaior
   }
   \addlyrics {
-    Uslyšel jsem jakoby mocný hlas velkého zástupu v nebi: Aleluja! Vítězství, sláva a moc našemu Bohu.
+    U -- sly -- šel jsem
+    ja -- ko -- by moc -- ný hlas
+    vel -- ké -- ho zá -- stu -- pu v_ne -- bi:
+    Ale -- lu -- ja!
+    Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 4"
     id = "ne-a3"
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c c( d) d \barMin
+    d d c d( f g) f( e) d( c) \barMin
+    d d d d \mark\sipka e c a( c d) d \barMaior
+  }
+  \addlyrics {
+    U -- sly -- šel jsem
+    ja -- ko -- by moc -- ný hlas
+    vel -- ké -- ho zá -- stu -- pu v_ne -- bi:
+    Ale -- lu -- ja!
+    Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

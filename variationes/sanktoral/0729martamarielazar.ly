@@ -38,6 +38,35 @@
   }
 }
 
+\markup\justify{
+  _pojď_ jsem odjakživa zpíval s trochu větším důrazem
+  na poslední notu, ale váhám, jestli by kodifikace v notovém zápisu
+  neudělala víc škody než užitku.
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d c d d( f) f \barMin
+    f g a g f( g) f d d \barMaior
+    f( g a g) f( e d) d( c) \barMin
+    \mark\sipka e( f d^-) d \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš ob -- rá -- til o -- či vzhů -- ru
+    a za -- vo -- lal moc -- ným hla -- sem:
+    La -- za -- re,
+    pojď ven!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \score {
   \relative c' {
     \choralniRezim
