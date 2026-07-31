@@ -141,17 +141,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    c4 d f f e d f( g) g \barMaior
+    a bes a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Svatí a světice Boží, velebte Pána navěky.
+    Sva -- tí a svě -- ti -- ce Bo -- ží,
+    ve -- leb -- te Pá -- na na -- vě -- ky.
   }
   \header {
     quid = "2. ant."
-    modus = ""
+    modus = "per"
     differentia = ""
     psalmus = "Dan 3-III"
+    fial = "commune/commune_jedenmucednik.ly#rch-a2?-aleluja&konec=14"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
@@ -287,6 +291,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -312,6 +318,56 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a a g f d d \barMax
+    \mark\sipka d d f d c( d) f( g) g \barMaior
+    a a g f g a g f( e) d( c) \barMaior
+    c d d( f) f \barMin g f e d d \barFinalis
+  }
+  \addlyrics {
+    Už vás ne -- na -- zý -- vám slu -- žeb -- ní -- ky,
+    a -- le svý -- mi přá -- te -- li,
+    ne -- boť jsem vám o -- zná -- mil všech -- no,
+    co jsem sly -- šel od své -- ho Ot -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 112"
+    fial = "commune/commune_apostol.ly#2ne-a3?cast=1"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g g a a a g f d d \barMax
+    d d f d c( d) f( g) g \barMaior
+    a a g f g a g f( e) d( c) \barMaior
+    \mark\sipka d f e( f d) d \barMin d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Už vás ne -- na -- zý -- vám slu -- žeb -- ní -- ky,
+    a -- le svý -- mi přá -- te -- li,
+    ne -- boť jsem vám o -- zná -- mil všech -- no,
+    co jsem sly -- šel od své -- ho Ot -- ce.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 112"
+    fial = "commune/commune_apostol.ly#2ne-a3?cast=1"
+    id = "ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
@@ -320,12 +376,14 @@
     d4 c c( d) d \barMin
     d d c d( f g) f( e) d( c) \barMin
     d d d d c a c( d) d \barMaior
+    c d f( e) f( d) \barMaior
+    f( g) f f \barMin g( a) g f e( d) \barMin d e c c( d) d \barFinalis
   }
   \addlyrics {
     U -- sly -- šel jsem
     ja -- ko -- by moc -- ný hlas
     vel -- ké -- ho zá -- stu -- pu v_ne -- bi:
-    Ale -- lu -- ja!
+    A -- le -- lu -- ja!
     Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu.
   }
   \header {
@@ -344,12 +402,14 @@
     d4 c c( d) d \barMin
     d d c d( f g) f( e) d( c) \barMin
     d d d d \mark\sipka e c a( c d) d \barMaior
+    c d f( e) f( d) \barMaior
+    f( g) f f \barMin g( a) g f e( d) \barMin d e c c( d) d \barFinalis
   }
   \addlyrics {
     U -- sly -- šel jsem
     ja -- ko -- by moc -- ný hlas
     vel -- ké -- ho zá -- stu -- pu v_ne -- bi:
-    Ale -- lu -- ja!
+    A -- le -- lu -- ja!
     Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu.
   }
   \header {
