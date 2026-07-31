@@ -213,9 +213,16 @@ class MusicSheetFinder
           .scores
           .collect {|s| s.header['id'] }
       )
+      @date = File.basename(path).match(/^(\d{2})(\d{2})/) do |m|
+        AppropriatedAntiphons::AbstractDate.new(*m[1..2].collect(&:to_i))
+      end
     end
 
-    attr_reader :path
+    attr_reader :path, :date
+
+    def title
+      @src.match(/^\s*title\s*=.*?"(.*?)"/m) {|m| m[1] }
+    end
 
     # referenced Commons documents
     def commons

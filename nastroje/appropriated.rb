@@ -33,6 +33,12 @@ class AppropriatedAntiphons
       other.month == month &&
         other.day == day
     end
+
+    def <=>(other)
+      m = month <=> other.month
+
+      m != 0 ? m : day <=> other.day
+    end
   end
 
   def each
@@ -41,7 +47,7 @@ class AppropriatedAntiphons
     @data.each do |item|
       yield Celebration.new(
               item['dies'].match(/^(\d{2})(\d{2})$/) do |m|
-                AbstractDate.new(*1.upto(2).collect {|i| m[i].to_i })
+                AbstractDate.new(*m[1..2].collect(&:to_i))
               end,
               item['titulus'],
               item['gradus']&.to_sym || :memorial_optional,
