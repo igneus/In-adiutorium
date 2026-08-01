@@ -126,14 +126,19 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4 a a( c) c \barMin
+    c c d d d c b a b a a( g) \barMaior
+    a b c a( g) g f g( a) a g g \barFinalis
   }
   \addlyrics {
-    Tvoji svatí, kteří setrvávali na modlitbách, uvidí, Pane, tvou moc a slávu.
+    Tvo -- ji sva -- tí,
+    kte -- ří se -- tr -- vá -- va -- li na mod -- lit -- bách,
+    u -- vi -- dí, Pa -- ne, tvou moc a slá -- vu.
   }
   \header {
     quid = "1. ant."
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "G"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup\sestavTitulek
@@ -142,6 +147,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     c4 d f f e d f( g) g \barMaior
     a bes a g f g( a) a( g) g \barFinalis
@@ -164,15 +170,23 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a g f e f d d \barMin
+    f g a a g f f( g) g \barMaior
+    a g f( g) f e d( c) \barMin
+    d f e( f) d d \barFinalis
   }
   \addlyrics {
-    Ani oko nevidělo, ani ucho neslyšelo, co Bůh připravil těm, kdo ho milují.
+    A -- ni o -- ko ne -- vi -- dě -- lo,
+    a -- ni u -- cho ne -- sly -- še -- lo,
+    co Bůh při -- pra -- vil těm,
+    kdo ho mi -- lu -- jí.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "a"
     psalmus = "Žalm 149"
+    fial = "reholni/OCD/ocd_1214janodkrize.ly#1ne-a3?cast=1-2"
     id = "rch-a3"
     piece = \markup\sestavTitulek
   }
@@ -206,7 +220,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }
@@ -238,7 +252,7 @@
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }

@@ -132,17 +132,21 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
+    c4 d f f e d f( g) g \barMaior
+    a bes a g f g( a) a( g) g \barFinalis
   }
   \addlyrics {
-    Svatí a světice Boží, velebte Pána navěky.
+    Sva -- tí a svě -- ti -- ce Bo -- ží,
+    ve -- leb -- te Pá -- na na -- vě -- ky.
   }
   \header {
     quid = "2. ant."
-    modus = ""
+    modus = "per"
     differentia = ""
     psalmus = "Dan 3-III"
+    fial = "commune/commune_jedenmucednik.ly#rch-a2?-aleluja&konec=14"
     id = "rch-a2"
     piece = \markup\sestavTitulek
   }
