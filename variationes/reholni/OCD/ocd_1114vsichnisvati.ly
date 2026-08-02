@@ -436,6 +436,58 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c c( d) d \barMin
+    d d c d( f g) f( e) d( c) \barMin
+    d d d d e c a( c d) d \barMaior
+    \mark\sipka f e f( d) c( a) \barMaior
+    c( d) d( f) f \barMin g( a) g f \mark\sipka g( f) \barMin f e c e( f d) d \barFinalis
+  }
+  \addlyrics {
+    U -- sly -- šel jsem
+    ja -- ko -- by moc -- ný hlas
+    vel -- ké -- ho zá -- stu -- pu v_ne -- bi:
+    A -- le -- lu -- ja!
+    Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c c( d) d \barMin
+    d d c d( f g) f( e) d( c) \barMin
+    d d d d e c a( c d) d \barMaior
+    f e f( d) c( a) \barMaior
+    c( d) \mark\sipka e( d) d \barMin f( g) a g f( d) \barMin d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    U -- sly -- šel jsem
+    ja -- ko -- by moc -- ný hlas
+    vel -- ké -- ho zá -- stu -- pu v_ne -- bi:
+    A -- le -- lu -- ja!
+    Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Zj 4"
+    id = "ne-a3"
+    piece = \markup\sestavTitulek
+  }
+}
+
 \pageBreak
 
 \score {
