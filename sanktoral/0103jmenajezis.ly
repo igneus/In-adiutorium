@@ -4,7 +4,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "Nejsvětějšího jména Ježíš"
+            "Nejsvětějšího Jména Ježíš"
             "nezávazná památka"
             3.1.
   composer = "Jakub Pavlík"
