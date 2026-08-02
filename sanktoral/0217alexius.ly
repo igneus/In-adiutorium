@@ -4,7 +4,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "sv. Alexia a druhů, řeholníků"
+            "Sv. Alexia a druhů, řeholníků"
             "nezávazná památka"
             17.2.
   composer = "Jakub Pavlík"

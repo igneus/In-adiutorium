@@ -4,7 +4,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "sv. Kornélia, papeže, a Cypriána, biskupa, mučedníků"
+            "Sv. Kornélia, papeže, a Cypriána, biskupa, mučedníků"
             "nezávazná památka"
             "17. 9."
   composer = "Jakub Pavlík"

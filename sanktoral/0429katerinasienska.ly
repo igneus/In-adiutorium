@@ -4,7 +4,7 @@
 
 \header {
   title = \markup\titleSvatek
-            \center-column{ "sv. Kateřiny Sienské," "panny a učitelky církve, patronky Evropy" }
+            \center-column{ "Sv. Kateřiny Sienské," "panny a učitelky církve, patronky Evropy" }
             "svátek"
             "29. 4."
   composer = "Jakub Pavlík"

@@ -5,7 +5,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "sv. Anežky České, panny"
+            "Sv. Anežky České, panny"
             památka
             13.11.
   composer = "Jakub Pavlík"

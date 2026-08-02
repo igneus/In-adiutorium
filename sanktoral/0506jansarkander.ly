@@ -5,7 +5,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "sv. Jana Sarkandra, kněze a mučedníka"
+            "Sv. Jana Sarkandra, kněze a mučedníka"
             "nezávazná památka"
             6.5.
   composer = "Jakub Pavlík"

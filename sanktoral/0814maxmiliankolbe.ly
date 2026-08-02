@@ -4,7 +4,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "sv. Maxmiliána Marie Kolbeho, kněze a mučedníka"
+            "Sv. Maxmiliána Marie Kolbeho, kněze a mučedníka"
             "památka"
             "14. 8."
   composer = "Jakub Pavlík"

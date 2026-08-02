@@ -4,7 +4,7 @@
 
 \header {
   title = \markup\titleSvatek
-            "sv. Jana Ogilvie, kněze a mučedníka"
+            "Sv. Jana Ogilvie, kněze a mučedníka"
             "pro připomínku"
             "10. 3."
   composer = "Jakub Pavlík"

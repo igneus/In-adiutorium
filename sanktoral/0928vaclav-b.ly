@@ -5,7 +5,7 @@
 
 \header {
   title = \markup\titleSvatek
-            \center-column{ "sv. Václava, mučedníka,"
+            \center-column{ "Sv. Václava, mučedníka,"
             "hlavního patrona českého národa" }
             slavnost
             28.9.
