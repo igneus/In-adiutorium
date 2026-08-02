@@ -46,7 +46,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 g f e( f) d d \barMaior
     d c( d e f) f g( f) g g( f) \barMaior
@@ -62,7 +62,33 @@
     modus = "II"
     differentia = "D"
     psalmus = "Žalm 147-I"
-    fial = "sanktoral/0731ignac.ly#amag?konec"
+    fial = "sanktoral/0731ignac.ly#amag?konec=24"
+    id = "1ne-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 g f e( f) d d \barMaior
+    d c( d) d( f) \barMin g( f) g g( f) \barMaior
+    g g g( a) f d e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Co plat -- no člo -- vě -- ku,
+    když zís -- ká ce -- lý svět,
+    a -- le ztra -- tí svou du -- ši?
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 147-I"
+    fial = "sanktoral/0731ignac.ly#amag?konec=24"
     id = "1ne-a2"
     piece = \markup\sestavTitulek
   }

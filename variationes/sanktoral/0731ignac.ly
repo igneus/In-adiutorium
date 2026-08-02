@@ -218,10 +218,33 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 \mark\sipka g f e f d d \barMaior
     d c( d e f) f g( f) g g( f) \barMaior
+    g g g( a) f d e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Co pro -- spě -- je člo -- vě -- ku,
+    když zí -- ská ce -- lý svět,
+    a -- le ztra -- tí svou du -- ši?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    placet = "2 úzká samohláska _í_ dlouhé melisma moc dobře nenese"
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g f e f d d \barMaior
+    \mark\sipka c d( f) f g( f) g g( f) \barMaior
     g g g( a) f d e( f d) d \barFinalis
   }
   \addlyrics {
@@ -241,9 +264,10 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 g f e f d d \barMaior
-    \mark\sipka c d( f) f g( f) g g( f) \barMaior
+    \mark\sipka d c( d) d( f) \barMin g( f) g g( f) \barMaior
     g g g( a) f d e( f d) d \barFinalis
   }
   \addlyrics {
