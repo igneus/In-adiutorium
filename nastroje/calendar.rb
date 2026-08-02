@@ -6,12 +6,11 @@ require 'yaml'
 require_relative 'appropriated.rb'
 require_relative 'lib/pray/music_sheet_finder.rb'
 
-apath = 'sanktoral/bezvlastnich.yml'
 entries =
   Dir['sanktoral/*.ly']
     .collect {|f| MusicSheetFinder::SourceFile.new f } +
   AppropriatedAntiphons
-    .new(YAML.load(File.read(apath)))
+    .new(YAML.load(File.read('sanktoral/bezvlastnich.yml')))
     .each.collect {|c| MusicSheetFinder::AACelebrationAdapter.new c }
 
 entries
@@ -20,7 +19,8 @@ entries
   .each_pair do |month, celebrations|
   puts "= #{month}"
   celebrations.each do |c|
-    puts "#{c.date.day} : #{c.title} : #{File.basename(c.path || apath)}"
+    puts "#{c.date.day} : #{c.title}" +
+         (c.path ? " : #{c.path}" : '')
   end
   puts
 end
