@@ -260,14 +260,23 @@
 \score {
   \relative c' {
     \choralniRezim
+    d4 c c( d) d \barMin
+    d d c d( f g) f( e) d( c) \barMin
+    d d d d e c a( c d) d \barMaior
+    c d f( e) f( d) \barMaior
+    f( g) f f g( a) g f e( d) \barMin d e c c( d) d \barFinalis
   }
   \addlyrics {
-    Uslyšel jsem jakoby mocný hlas velkého zástupu v nebi: Aleluja! Vítězství, sláva a moc našemu Bohu.
+    U -- sly -- šel jsem
+    ja -- ko -- by moc -- ný hlas
+    vel -- ké -- ho zá -- stu -- pu v_ne -- bi:
+    A -- le -- lu -- ja!
+    Ví -- těz -- ství, slá -- va a moc na -- še -- mu Bo -- hu.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = "Zj 4"
     id = "ne-a3"
     piece = \markup\sestavTitulek
