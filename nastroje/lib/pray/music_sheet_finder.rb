@@ -1,6 +1,8 @@
 require 'calendarium-romanum/cr'
 require 'lyv'
 
+require_relative '../../appropriated'
+
 # Knows which music sheets are required for any occasion
 # of the liturgical year.
 class MusicSheetFinder
@@ -133,7 +135,6 @@ class MusicSheetFinder
         SourceFile.new(propers[0])
       else
         require 'yaml'
-        require_relative '../../appropriated'
         AppropriatedAntiphons
           .new(YAML.load(File.read('sanktoral/bezvlastnich.yml')))
           .each.find {|i| i.date =~ date }
