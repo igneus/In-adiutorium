@@ -554,7 +554,7 @@
     \choralniRezim
     g4 g g a a g f g a g-- g
     a a( c) c \barMaior
-    c c d c b( c) a a \barMin
+    c c c( d) c b( c) a a \barMin
     a c c c b a g a f g( a) g g \barFinalis
   }
   \addlyrics {
@@ -578,9 +578,9 @@
   \relative c'' {
     \choralniRezim
     c4 c c c d c b c a a \barMaior
-    g a a( c) c \barMaior
-    d( e d) c b a a \barMin
-    a c c b a g( a) g g \barFinalis
+    g a a( c) c \barMin
+    d( e d) c b a a \barMaior
+    a c c a g f( g) a( g) g \barFinalis
   }
   \addlyrics {
     Je -- žíš vzal pět chle -- bů a dvě ry -- by,
