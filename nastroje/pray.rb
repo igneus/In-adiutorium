@@ -15,6 +15,7 @@ parser = OptionParser.new do |opts|
   opts.on '-y', '--yesterday'
   opts.on '-t', '--tomorrow'
   opts.on '-I', '--[no-]interaction'
+  opts.on '-c', '--calendar=NAME', 'calendarium-romanum built-in calendar name'
 end
 options = {}
 args = parser.parse ARGV, into: options
@@ -45,7 +46,8 @@ module CalendariumRomanum
   end
 end
 
-calendar = CR::PerpetualCalendar.new sanctorale: CR::Data['czech-praha-cs'].load_with_parents, temporale_options: {extensions: [CR::Temporale::Extensions::ChristEternalPriest]}
+calendar_code = options[:calendar] || ENV['PRAY_CALENDAR'] || 'czech-praha-cs'
+calendar = CR::PerpetualCalendar.new sanctorale: CR::Data[calendar_code].load_with_parents, temporale_options: {extensions: [CR::Temporale::Extensions::ChristEternalPriest]}
 ycalendar = calendar.calendar_for(date)
 day = calendar[date]
 celebration = day.celebrations.yield_self do |cs|
