@@ -412,6 +412,8 @@
   titulus: Sv. Šimona a Judy, apoštolů
   gradus: feast
   communia: [apostol]
+# dies: '1102' Dušičky jsou případ tak speciální, že se asi nevyplatí
+# zavádět tady vokabulář pro jejich správné ošetření
 - dies: '1104'
   titulus: Sv. Karla Boromejského, biskupa
   gradus: memorial_obligatory
