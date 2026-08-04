@@ -208,7 +208,7 @@ tIIpondeliInvitatorium = \score {
     modus = "VII"
     differentia = "c"
     scriptura = "srov. Žalm 95, 2"
-    placet = "_zajásejme_ lépe"
+    placet = "_zajásejme_ lépe; dlouhé melisma na _písněmi_ nevím"
     id = "t2po"
     piece = \markup {\sestavTitulekBezZalmu}
   }
