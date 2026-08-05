@@ -4,6 +4,8 @@
 
 set -o xtrace # print executed commands
 
-evince "$@" &
-rake "$@"
-evince "$@" &
+ARGS=$(echo "$@" | sed 's/\.ly/.pdf/g')
+
+evince $ARGS &
+rake $ARGS
+evince $ARGS &
