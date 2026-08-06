@@ -8,6 +8,10 @@ sestavInvitTitulek = \markup {
 
 % LICHE TYDNY --------------------------------------------
 
+\markup\justify{
+  \cantusid-link "001180" (+aleluja)
+}
+
 %tInedeleInvitatorium =
 \score {
   \relative c' {
@@ -112,6 +116,8 @@ sestavInvitTitulek = \markup {
 }
 
 \pageBreak
+
+\markup\cantusid-link "001116"
 
 \markup\justify{
   Tato verze se mi delší dobu dosti hrubě nezamlouvá.
@@ -377,6 +383,8 @@ pojdmeKlanmeSeCele = {
   c d f e c4. d \barFinalis
 }
 
+\markup\cantusid-link "001135"
+
 %tIuteryInvitatorium =
 \score {
   \relative c' {
@@ -398,6 +406,8 @@ pojdmeKlanmeSeCele = {
 }
 
 \pageBreak
+
+\markup\cantusid-link "001011"
 
 %tIstredaInvitatorium =
 \score {
@@ -563,6 +573,10 @@ pojdmeKlanmeSeCele = {
 }
 
 \pageBreak
+
+\markup{
+  Srov. \cantusid-link "005348"
+}
 
 %tIctvrtekInvitatorium =
 \score {
@@ -1022,6 +1036,10 @@ pojdmeKlanmeSeCele = {
 \pageBreak
 
 % LICHE TYDNY --------------------------------------------
+
+\markup\justify{
+  \cantusid-link "001113" (+aleluja)
+}
 
 %tIInedeleInvitatorium =
 \score {
