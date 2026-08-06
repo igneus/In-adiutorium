@@ -1255,6 +1255,24 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    f4 g f f g( a g f) f( g) \barMin bes a g g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Ne -- mů -- že -- te slou -- žit Bo -- hu i ma -- mo -- nu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 49-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     f4 f f f f f( g) a c bes( a) a \barMin g( a) f4. f \barFinalis
@@ -1277,6 +1295,24 @@
     \zvyraznovacSedy
     \choralniRezim
     f4 g a g f bes a g a g \barMin f g f \barFinalis
+  }
+  \addlyrics {
+    Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi, pra -- ví Pán.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 49-II"
+    id = "ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g g bes a f g( a g) g \barMin g a f \barFinalis
   }
   \addlyrics {
     Shro -- maž -- ďuj -- te si po -- kla -- dy v_ne -- bi, pra -- ví Pán.
