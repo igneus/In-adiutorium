@@ -106,12 +106,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d d c( d) d c( b c) c( d) \barMin
-    d d d d d( f e) d c( d) c( b a) a \barMaior
-    g g g( a) a c( b) c a a \barMin
-    c c( d) d d e d d c d d c c \barMaior
-    d d d c b a( g) g \barMin
-    a a( c) b g g \barFinalis
+    d d e c d( e d) d \barMin
+    d d d d e( f d) c b( c) a( g) g \barMaior
+    g a a( c) c \barMin d( e) d c( b a) a \barMaior
+    c c c c c( d) c c d c e d d \barMaior
+    d e d c b a a \barMin
+    g( f) g( a) a g g \barFinalis
   }
   \addlyrics {
     Je -- žíš Kris -- tus zje -- vil_*
@@ -126,7 +126,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
-    placet = "4 lépe"
     id = "1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -307,7 +306,7 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4( a) a \barMin g a g f g a a \barMaior
+    g4( a) a \barMin a a g f g a a \barMaior
     a c( d) c( a) a \barMin b( c) a g a g g \barMaior
     g f g a b( c) a a \barMin
     a c c b a g( a) g g \barFinalis
