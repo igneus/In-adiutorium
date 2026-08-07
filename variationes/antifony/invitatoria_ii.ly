@@ -249,6 +249,27 @@
   \relative c' {
     \choralniRezim
     f4 f f f g f g g( a) \barMaior
+    \mark\sipka f g( a) g f( e) d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    scriptura = "srov. Žalm 95, 2"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f g f g g( a) \barMaior
     \mark\sipka f g a g f f g g f \barFinalis
   }
   \addlyrics {
@@ -271,6 +292,26 @@
     \choralniRezim
     f4 f f f g f g g( a) \barMaior
     \mark\sipka g a a g f f g g f \barFinalis
+  }
+  \addlyrics {
+    O -- sla -- vuj -- me Hos -- po -- di -- na
+    a pís -- ně -- mi mu za -- já -- sej -- me!
+  }
+  \header {
+    dies = "pondělí"
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    scriptura = "srov. Žalm 95, 2"
+    id = "t2po"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f( g) g g f g g( a) \barMaior
   }
   \addlyrics {
     O -- sla -- vuj -- me Hos -- po -- di -- na
