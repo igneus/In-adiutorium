@@ -298,6 +298,7 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Dan 3-III"
+    placet = "2 zvl. poslední třetina je šedá nuda"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
   }
@@ -379,6 +380,7 @@
     modus = "I"
     differentia = "a"
     psalmus = ""
+    placet = "skutečný závěr je spíš na c, aleluja ho přebíjí závěrem falešným"
     fial = "vanoce_zjevenipane.ly#krtu-2ne-a1?cast=2-3,5"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
