@@ -1,5 +1,6 @@
 # Open sheet music required to sing the current day's day hours
 
+require 'delegate'
 require 'optparse'
 
 require 'highline'
@@ -47,6 +48,13 @@ module CalendariumRomanum
   end
 end
 
+class FirstVespers < SimpleDelegator
+  def to_s
+    "[první nešpory] #{super}"
+  end
+  alias to_str to_s
+end
+
 calendar_code = options[:calendar] || ENV['PRAY_CALENDAR'] || 'czech-praha-cs'
 calendar = CR::PerpetualCalendar.new(
   sanctorale: CR::Data[calendar_code].load_with_parents,
@@ -55,26 +63,28 @@ calendar = CR::PerpetualCalendar.new(
 )
 ycalendar = calendar.calendar_for(date)
 day = calendar[date]
-celebration =
-  if day.vespers && Time.now.hour >= 18
-    STDERR.puts 'first Vespers' if options[:debug]
-    day.vespers
+celebrations = day.celebrations.dup.tap do |cs|
+  if day.vespers
+    cs.public_send(
+      Time.now.hour >= 18 ? :unshift : :push,
+      FirstVespers.new(day.vespers)
+    )
+  end
+end
+celebration = celebrations.yield_self do |cs|
+  default = cs.first
+  if cs.size == 1
+    cs.first
+  elsif false == options[:interaction]
+    default
   else
-    day.celebrations.yield_self do |cs|
-      default = cs.first
-      if cs.size == 1
-        cs.first
-      elsif false == options[:interaction]
-        default
-      else
-        HighLine.new.choose do |c|
-          c.prompt = 'Please choose a celebration:'
-          c.choices(*cs)
-          c.default = default
-        end
-      end
+    HighLine.new.choose do |c|
+      c.prompt = 'Please choose a celebration:'
+      c.choices(*cs)
+      c.default = default
     end
   end
+end
 
 
 
