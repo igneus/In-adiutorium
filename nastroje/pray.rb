@@ -15,9 +15,10 @@ parser = OptionParser.new do |opts|
   opts.on '-y', '--yesterday'
   opts.on '-t', '--tomorrow'
   opts.on '-I', '--[no-]interaction'
+  opts.on '-V', '--[no-]vespers', 'should in the evening music for the first Vespers of the following day be provided?'
   opts.on '-c', '--calendar=NAME', 'calendarium-romanum built-in calendar name'
 end
-options = {}
+options = {vespers: true}
 args = parser.parse ARGV, into: options
 date =
   args[0]&.yield_self {|x| Date.parse x } ||
@@ -47,29 +48,39 @@ module CalendariumRomanum
 end
 
 calendar_code = options[:calendar] || ENV['PRAY_CALENDAR'] || 'czech-praha-cs'
-calendar = CR::PerpetualCalendar.new sanctorale: CR::Data[calendar_code].load_with_parents, temporale_options: {extensions: [CR::Temporale::Extensions::ChristEternalPriest]}
+calendar = CR::PerpetualCalendar.new(
+  sanctorale: CR::Data[calendar_code].load_with_parents,
+  temporale_options: {extensions: [CR::Temporale::Extensions::ChristEternalPriest]},
+  vespers: options[:vespers]
+)
 ycalendar = calendar.calendar_for(date)
 day = calendar[date]
-celebration = day.celebrations.yield_self do |cs|
-  if cs.size == 1
-    cs.first
-  elsif false == options[:interaction]
-    cs[1] # take first which is not a ferial
+celebration =
+  if day.vespers && Time.now.hour >= 18
+    STDERR.puts 'first Vespers' if options[:debug]
+    day.vespers
   else
-    HighLine.new.choose do |c|
-      c.prompt = 'Please choose a celebration:'
-      c.choices(*cs)
-      c.default = cs.first
+    day.celebrations.yield_self do |cs|
+      if cs.size == 1
+        cs.first
+      elsif false == options[:interaction]
+        cs[1] # take first which is not a ferial
+      else
+        HighLine.new.choose do |c|
+          c.prompt = 'Please choose a celebration:'
+          c.choices(*cs)
+          c.default = cs.first
+        end
+      end
     end
   end
-end
 
 
 
 docs = MusicSheetFinder.call(day, celebration, dry_run: options[:'dry-run'])
 
 if options[:debug]
-  STDERR.puts "#{date.to_s} #{celebration.symbol}"
+  STDERR.puts "#{date.to_s} #{celebration.symbol.inspect} #{celebration.title}"
 end
 
 if docs.nil?
