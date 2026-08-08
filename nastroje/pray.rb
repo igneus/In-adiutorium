@@ -61,15 +61,16 @@ celebration =
     day.vespers
   else
     day.celebrations.yield_self do |cs|
+      default = cs.first
       if cs.size == 1
         cs.first
       elsif false == options[:interaction]
-        cs[1] # take first which is not a ferial
+        default
       else
         HighLine.new.choose do |c|
           c.prompt = 'Please choose a celebration:'
           c.choices(*cs)
-          c.default = cs.first
+          c.default = default
         end
       end
     end
