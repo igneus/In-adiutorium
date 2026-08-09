@@ -918,12 +918,65 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 f d c f( g) g( a) a \barMin
     a( c) a g( a) a \barMaior
     a a g f g a g g \barMin
     \mark\sipka g g f d d f e d( c) c \barMaior
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když Do -- mi -- nik po -- sí -- lal
+    brat -- ry ká -- zat,
+    pro -- sil je a na -- po -- mí -- nal,
+    a -- by hor -- li -- vě pra -- co -- va -- li
+    na spá -- se du -- ší.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f d c f( g) g( a) a \barMin
+    a( c) a g( a) a \barMaior
+    a a g f g a g g \barMin
+    g g \mark\sipka g( a) g g f e d( c) c \barMaior
+    d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když Do -- mi -- nik po -- sí -- lal
+    brat -- ry ká -- zat,
+    pro -- sil je a na -- po -- mí -- nal,
+    a -- by hor -- li -- vě pra -- co -- va -- li
+    na spá -- se du -- ší.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f d c f( g) g( a) a \barMin
+    a( c) a g( a) a \barMaior
+    a a g f g a g g \barMaior
+    \mark\sipka a a g f f g f d( c) c \barMin
     d f e c( d) d \barFinalis
   }
   \addlyrics {
@@ -1600,7 +1653,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g a g f g g \barMaior
     bes a g( a g) g \barMin
@@ -1625,6 +1678,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     f4 \mark\sipka g a a g f g g \barMaior
     bes a g( a g) g \barMin
