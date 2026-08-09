@@ -19,7 +19,7 @@ parser = OptionParser.new do |opts|
   opts.on '-V', '--[no-]vespers', 'should in the evening music for the first Vespers of the following day be provided?'
   opts.on '-c', '--calendar=NAME', 'calendarium-romanum built-in calendar name'
 end
-options = {vespers: true}
+options = {interaction: true, vespers: true}
 args = parser.parse ARGV, into: options
 date =
   args[0]&.yield_self {|x| Date.parse x } ||
@@ -75,7 +75,7 @@ celebration = celebrations.yield_self do |cs|
   default = cs.first
   if cs.size == 1
     cs.first
-  elsif false == options[:interaction]
+  elsif not options[:interaction]
     default
   else
     HighLine.new.choose do |c|
