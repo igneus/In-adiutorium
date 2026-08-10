@@ -3772,6 +3772,29 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 e f d d \barMaior
+    c( d) d( f) f g f g( a) g g \barMin
+    \mark\sipka f g f e f d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer,
+    vy -- stou -- pil Je -- žíš na ho -- ru,
+    a -- by se o sa -- mo -- tě mod -- lil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -3843,7 +3866,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4( e d4.) d \barMin
     \mark\sipka f4 g g g a a g f g( a) g g \barMin
@@ -3868,6 +3891,73 @@
     quid = "ant. k Benedictus"
     modus = "I"
     differentia = "f"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( c d4.) d \barMin
+    d4 d d c d f f f g( f) d d \barMin
+    f e d( e) c c \barMaior
+    d f e d e c c( d) d \barMax
+    d c a c( d) d \barMin
+    f( g) f f \barMaior
+    g( a) g g( f d) \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    K_rá -- nu
+    u -- vi -- dě -- li u -- čed -- ní -- ci Je -- ží -- še
+    krá -- čet po mo -- ři
+    a stra -- chem za -- ča -- li kři -- čet.
+    On jim však ře -- kl:
+    Vzmuž -- te se!
+    To jsem já,
+    ne -- boj -- te se!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( c d4.) d \barMin
+    d4 d d c d f f f g( f) d d \barMin
+    f e d( e) c c \barMaior
+    d f e d e c c( d) d \barMax
+    d c a c( d) d \barMin
+    f( g) f f \barMaior
+    \mark\sipka g a g( f d) \barMin
+    e f d d \barFinalis
+  }
+  \addlyrics {
+    K_rá -- nu
+    u -- vi -- dě -- li u -- čed -- ní -- ci Je -- ží -- še
+    krá -- čet po mo -- ři
+    a stra -- chem za -- ča -- li kři -- čet.
+    On jim však ře -- kl:
+    Vzmuž -- te se!
+    To jsem já,
+    ne -- boj -- te se!
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "ne19a-rch-aben"
@@ -3911,13 +4001,68 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( c) d a a \barMaior
     f( g) g( a) a \mark\sipka \barMin c c b a g( a) g
     g g( a) a a \barMaior
     \mark\sipka c( d e) d c( b) a( g) \barMin
     a g b c a a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vztá -- hl ru -- ku,
+    za -- chy -- til to -- nou -- cí -- ho Pet -- ra
+    a ře -- kl mu:
+    Ma -- lo -- věr -- ný,
+    proč jsi po -- chy -- bo -- val?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d d( c) d a a \barMaior
+    \mark\sipka f g( a) a \barMin c c b a g( a) g
+    g \mark\sipka b( c) a a \barMaior
+    d c d a \barMin
+    c b a b a a \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš vztá -- hl ru -- ku,
+    za -- chy -- til to -- nou -- cí -- ho Pet -- ra
+    a ře -- kl mu:
+    Ma -- lo -- věr -- ný,
+    proč jsi po -- chy -- bo -- val?
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne19a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( c) d a a \barMaior
+    f g( a) a \barMin c c b a g( a) g
+    g b( c) a a \barMaior
+    d c d a \barMin
+    \mark\sipka f g a c b( a) a \barFinalis
   }
   \addlyrics {
     Je -- žíš vztá -- hl ru -- ku,

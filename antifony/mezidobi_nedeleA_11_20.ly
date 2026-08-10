@@ -652,14 +652,14 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4( e d4.) d \barMin
-    f4 g g g a a g f g( a) g g \barMin
-    a g a( c) a a \barMaior
-    a g f e f d c( d) d \barMax
-    f e f d( c) c
-    f( g) g f \barMaior
+    d4( c d4.) d \barMin
+    d4 d d c d f f f g( f) d d \barMin
+    f e d( e) c c \barMaior
+    d f e d e c c( d) d \barMax
+    d c a c( d) d \barMin
+    f( g) f f \barMaior
     g a g( f d) \barMin
-    e c c( d) d \barFinalis
+    e f d d \barFinalis
   }
   \addlyrics {
     K_rá -- nu
@@ -673,8 +673,8 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "I"
-    differentia = "f"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
     id = "ne19a-rch-aben"
@@ -686,10 +686,10 @@
   \relative c'' {
     \choralniRezim
     d4 d d( c) d a a \barMaior
-    f( g) g( a) a \barMin c c b a g( a) g
-    g g( a) a a \barMaior
-    c( d e) d c( b) a( g) \barMin
-    a g b c a a \barFinalis
+    f g( a) a \barMin c c b a g( a) g
+    g b( c) a a \barMaior
+    d c d a \barMin
+    f g a c b( a) a \barFinalis
   }
   \addlyrics {
     Je -- žíš vztá -- hl ru -- ku,
