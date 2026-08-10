@@ -376,6 +376,7 @@ tInedeleIInespAntIII = \score {
     modus = "VI"
     differentia = "F"
     psalmus = "Zj 19"
+    placet = "2 melisma na úzké samohlásce v _Bůh_ se těžko vyslovuje, přitom je hodně exponované"
     id = "2ne-ant3"
     piece = \markup {\sestavTitulek}
   }
