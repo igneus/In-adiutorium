@@ -760,16 +760,11 @@
     (např. Svatojanský kancionál: na nápěv V.a), jak tomu ostatně
     vychází vstříc i dělení textu na verše a poloverše
     v breviáři.
-    Toto jednoduché řešení může být výhodné pro pěvecky slabší
-    společenství.
   }
 
   \markup\justify{
-    3. Adaptace jednoho z tradičních latinských nápěvů
-    pro český text. (Mírně ztrátová - některé melodické ozdoby nebylo
-    lze smysluplně převést; místy je v jednom verši řečeno to, co je v latině
-    rozděleno do dvou. Text je doslovně převzat z Denní modlitby církve,
-    ale dělení na verše je místy upraveno podle latinské předlohy.)
+    3. Adaptace jednoho z tradičních chorálních nápěvů
+    pro český text:
   }
 
   \score {
