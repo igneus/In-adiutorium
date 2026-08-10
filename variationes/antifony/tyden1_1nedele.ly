@@ -2741,6 +2741,26 @@ tInedeleIInespAntIII = \score {
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a \barMin g f \mark\sipka f( g) g \barMaior
+    g a g f e d( c) \barMin
+    d4 f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán, náš Bůh vše -- mo -- hou -- cí, se u -- jal krá -- lov -- ství. A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Zj 19"
+    id = "2ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 tInedeleIInespResp = \score {

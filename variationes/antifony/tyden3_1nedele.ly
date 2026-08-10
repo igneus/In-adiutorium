@@ -399,6 +399,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d f e f g g \barMin g f a g g \barMaior
+    g \mark\sipka a( bes a g) f( g) \barMin f e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Věr -- ný je Hos -- po -- din ve všech svých sli -- bech
+    a sva -- tý ve všech svých či -- nech.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 145-III"
+    id = "mc-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\markup{
 %  Koná-li se vigilie: antifona viz neděle 1. týdne,
 %  s. \page-ref #'vigilieAntMezidobi "0" "?"
