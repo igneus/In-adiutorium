@@ -166,8 +166,7 @@
 }
 
 \markup\italic\chant-ref "rch-r" "commune/commune_jedenmucednik.ly#rch-resp" {
-  Responsorium z ranních chval ze společných textů
-  o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}
+  Responsorium ze společných textů o jednom mučedníkovi.
 }
 
 \score {
@@ -243,8 +242,7 @@
 }
 
 \markup\italic\chant-ref "ne-r" "commune/commune_jedenmucednik.ly#2ne-resp" {
-  Responsorium z 2. nešpor ze společných textů
-  o jednom mučedníkovi \concat{(\upright{"Zkoušel jsi nás"}).}
+  Responsorium ze společných textů o jednom mučedníkovi.
 }
 
 \score {
