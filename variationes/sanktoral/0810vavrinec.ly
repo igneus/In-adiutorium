@@ -616,6 +616,26 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
 
 \score {
   \relative c' {
+    \choralniRezim
+    d4 d d d( f d) d c( e) d c c d d \barMaior
+    d \mark\sipka c( d) d( f) f \barMin g f e c e f d d \barFinalis
+  }
+  \addlyrics {
+    Vav -- ři -- nec vy -- dal svě -- dec -- tví o Kris -- tu,_*
+    a vstou -- pil tak do zá -- stu -- pu mu -- čed -- ní -- ků.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-I"
+    id = "ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
     \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) d c c( d) d \barMaior
@@ -692,6 +712,30 @@ o jednom mučedníkovi \concat{(\upright{"Hospodin mi pomáhá"}).}}
     f g a g f( g) f \barMin
     e f d c d( c) \barMin
     d( f) e d c d d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Va -- vři -- nec zvo -- lal:_*
+    Ra -- du -- ji se z_to -- ho,
+    že se mo -- hu stát
+    o -- bě -- tí pro Kris -- ta.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 116-II"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e f d( c) c \barMaior
+    f g a g f( g) f \barMin
+    e f d c d( c) \barMaior
+    \mark\sipka c d d( f) \barMin e( f) d d \barFinalis
   }
   \addlyrics {
     Sva -- tý Va -- vři -- nec zvo -- lal:_*
