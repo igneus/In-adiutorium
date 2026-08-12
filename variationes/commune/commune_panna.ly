@@ -5285,3 +5285,29 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c \mark\sipka b a c( d) \barMin
+    c d c b a g a g g \barMaior
+    a b( c) a( g) g \barMin a-- g f g a g g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    To je po -- ko -- le -- ní
+    těch, kdo tou -- ží po Hos -- po -- di -- nu,
+    kdo hle -- da -- jí tvář Ja -- ku -- bo -- va Bo -- ha.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "2ne-amag3"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
