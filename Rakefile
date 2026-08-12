@@ -130,13 +130,19 @@ task :cantus_ids do
       .flat_map {|path| File.read(path).scan(/\\cantusid-link\s*"(.+?)"/).flatten }
       .sort
       .uniq
+
+  STDERR.puts "Checking #{cantus_ids.size} CANTUS IDs"
+  missing = []
   cantus_ids.each do |cid|
-    sh 'wget', '-O/dev/null', "https://cantusindex.org/id/#{cid}" do |success, exit_code|
+    sh 'wget', '--quiet', '-O/dev/null', "https://cantusindex.org/id/#{cid}" do |success, exit_code|
       unless success
-        STDERR.puts "Cantus ID '#{cid}' not found on CantusIndex".colorize(:red)
+        STDERR.puts "#{cid} not found on CantusIndex".colorize(:red)
+        missing << cid
       end
     end
   end
+
+  STDERR.puts "#{missing.size} chants missing on CantusIndex: #{missing.inspect}" if missing.size > 0
 end
 
 #
