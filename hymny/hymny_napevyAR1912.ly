@@ -115,36 +115,3 @@ v \italic{Antiphonale Romanum 1912} (AR).
     piece = \markup {\sestavTitulek}
   }
 }
-
-\markup\nadpisHodinka{"modlitba se čtením"}
-\score {
-  <<
-  \chords {
-    c4 g2 a4:m g2.
-    a4:m g4 c4
-    c2 g2.
-    a4:m f4 c4 g4 c4
-  }
-  \relative c'' {
-    \time 2/4
-    c4 b8 g a g e f g4 \breathe
-    r8 g8 a g e f d4 c |
-    c'4 d8 c b g a g g4 \breathe
-    r8 e8 f g e c d4 c \bar "|."
-  }
-  \addlyrics {
-    Vstá -- va -- jí ze sna pas -- tý -- ři
-    a di -- ví se a žas -- nou.
-    A bez vá -- há -- ní za -- mí -- ří,
-    kde vi -- dí hvěz -- du jas -- nou.
-  }
-  >>
-  \header {
-    quid = "hymnus"
-    modus = ""
-    fonstexti = "HBM 14"
-    fonsmelodiae = "J.P."
-    id = ""
-    piece = \markup {\sestavTitulek}
-  }
-}
