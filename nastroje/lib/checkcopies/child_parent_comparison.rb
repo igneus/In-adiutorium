@@ -34,6 +34,23 @@ end
 # Comparison of two scores, checking if 'child' is (still) a copy
 # (or deterministically modified copy) of 'parent'.
 class ChildParentComparison
+  class Result
+    def self.call(*args)
+      new(*args)
+    end
+  end
+
+  class Success < Result
+  end
+
+  class Failure < Result
+    def initialize(cause)
+      @cause = cause
+    end
+
+    attr_reader :cause
+  end
+
   # Is the FIAL considered auto-verifiable?
   # Auto-verifiable is FIAL for which ChildParentComparison
   # can reliably tell if the child matches the parent
@@ -63,14 +80,22 @@ class ChildParentComparison
   attr_reader :child, :parent, :scores, :fial_keys
 
   def match?
+    result.is_a? Success
+  end
+
+  def result
+    @result ||= call
+  end
+
+  def call
     if @fial_keys < Set.new(%w(+aleluja -aleluja)) &&
        child.header['modus'] != parent.header['modus']
-      return false
+      return Failure.('modus')
     end
 
     if @fial_keys < Set.new(%w(+aleluja -aleluja zacatek)) &&
        differentia_mismatch?
-      return false
+      return Failure.('differentia')
     end
 
     if @fial.additional.has_key?('cast')
@@ -80,12 +105,12 @@ class ChildParentComparison
           MusicSections
             .new(strip_wrappers(normalized_child))[parts]
             .yield_self {|x| x.is_a?(Array) ? x : [x] }
-        return false unless child_sections.all? do |i|
+        return Failure.('cast') unless child_sections.all? do |i|
           normalized_parent.include? i
         end
       else
         unwrapped = strip_wrappers(normalized_child)
-        return false unless normalized_parent.include?(unwrapped) || normalized_parent.include?(delete_initial_duration(unwrapped))
+        return Failure.('cast (unindexed)') unless normalized_parent.include?(unwrapped) || normalized_parent.include?(delete_initial_duration(unwrapped))
       end
     end
 
@@ -105,7 +130,7 @@ class ChildParentComparison
         @logger.info "expected common beginning of size #{size}, found #{shared_size}"
       end
 
-      return false unless shared_size >= size
+      return Failure.('zacatek') unless shared_size >= size
     end
 
     if @fial.additional.has_key?('konec')
@@ -131,16 +156,20 @@ class ChildParentComparison
         @logger.info "expected common end of size #{size}, found #{shared_size}"
       end
 
-      return false unless shared_size >= size
+      return Failure.('konec') unless shared_size >= size
     end
 
-    return true if Set.new(%w(zacatek konec cast)).intersect? @fial_keys
+    return Success.() if Set.new(%w(zacatek konec cast)).intersect? @fial_keys
 
-    normalized_parent == normalized_child ||
-      (@fial.simple_copy? &&
-       both_lyrics_end_with_alleluia? &&
-       difference_in_last_bar_only? &&
-       one_alleluia_is_optional?)
+    if normalized_parent == normalized_child ||
+       (@fial.simple_copy? &&
+        both_lyrics_end_with_alleluia? &&
+        difference_in_last_bar_only? &&
+        one_alleluia_is_optional?)
+      return Success.()
+    end
+
+    Failure.('simple copy')
   end
 
   def normalized_child

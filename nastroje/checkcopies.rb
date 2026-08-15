@@ -171,7 +171,7 @@ arguments.each do |file_or_fial|
       next
     end
 
-    puts header + 'MISMATCH'
+    puts header + "MISMATCH (#{comparison.result.cause})"
     debug.(comparison)
     mismatches << score_ref
     if diffing_makes_sense?(parent_ref) || options[:'diff-all']
