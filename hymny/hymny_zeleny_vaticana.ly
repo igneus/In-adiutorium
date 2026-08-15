@@ -17,6 +17,28 @@
   Pokrytí liturgického roku je proto jen fragmentární.
 }
 
+%{
+  \score {
+    \relative c' {
+      \choralniRezim
+
+    }
+    \addlyrics {
+
+
+      A -- men.
+    }
+    \header {
+      quid = "hymnus"
+      fons_externus = "AR1912 "
+      modus = ""
+      id = ""
+      titulus = ""
+      piece = \markup\sestavTitulekRespII
+    }
+  }
+%}
+
 \bookpart {
   \header {
     title = "Doba adventní"
@@ -112,6 +134,73 @@
       chorálu českého secundum Pavlíkum jsou zvláště _zemský je_ a _vladaři_
       hrubší/exotičtější místa, která bych, kdyby to byly moje nápěvy, opravoval"
       id = "vanoce-rch"
+      titulus = "ranní chvály"
+      piece = \markup\sestavTitulekRespII
+    }
+  }
+}
+
+\bookpart {
+  \header {
+    title = "Zjevení Páně"
+    subtitle = ""
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 e f g( a) d, e( g) f( e) e \barMaior
+      g a( c) c c( b) a( g) a( b) b b \barMax
+      a a( c d) c c( b) a( g) a g( f) \[ e( d \] \[ f g a) \] \barMaior
+      d, e f g( a) g( f) g f e \barFinalis
+
+      e( f e) d( e) \barFinalis
+    }
+    \addlyrics {
+      Když u -- zří Dí -- tě krá -- lo -- vé,
+      pa -- da -- jí v_prach a da -- ry své
+      zla -- to i myr -- hu s_ka -- di -- dlem
+      mu ne -- sou s_lás -- kou v_srd -- ci svém.
+
+      A -- men.
+    }
+    \header {
+      quid = "hymnus"
+      fons_externus = "srov. AR1912 269"
+      modus = "III"
+      fial = "hymny/hymny_zeleny_vaticana.ly#vanoce-rch"
+      id = "epifanie-mc"
+      placet = "jaký nápěv bere LH, jaký Sandhofe, Bry, jaký antverpský antifonář?;
+      hodně drsné je dlouhé melisma na _drť_"
+      titulus = "modlitba se čtením"
+      piece = \markup\sestavTitulekRespII
+    }
+  }
+
+  \score {
+    \relative c' {
+      \choralniRezim
+      d4 e f g( a) d, e( g) f( e) e \barMaior
+      g a( c) c c( b) a( g) a( b) b b \barMax
+      a a( c d) c c( b) a( g) a g( f) \[ e( d \] \[ f g a) \] \barMaior
+      d, e f g( a) g( f) g f e \barFinalis
+
+      e( f e) d( e) \barFinalis
+    }
+    \addlyrics {
+      Kdo -- ko -- li Kris -- ta hle -- dá -- te,
+      do vý -- šin o -- či ob -- rať -- te.
+      Tam u -- vi -- dí -- te je -- den -- krát
+      zna -- me -- ní věč -- né slá -- vy plát.
+
+      A -- men.
+    }
+    \header {
+      quid = "hymnus"
+      fons_externus = "AR1912 269"
+      modus = "III"
+      fial = "hymny/hymny_zeleny_vaticana.ly#vanoce-rch"
+      id = "epifanie-rch"
       titulus = "ranní chvály"
       piece = \markup\sestavTitulekRespII
     }
