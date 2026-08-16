@@ -16,6 +16,12 @@
   a to jen ty, které jsou překlady hymnů latinských.
   Pokrytí liturgického roku je proto jen fragmentární.
 }
+\markup\justify{
+  Hvězdička před údajem o prameni nápěvu znamená,
+  že v odkazovaném prameni není přímo odpovídající hymnus,
+  ale byl použit nápěv vhodný pro metrum textu
+  a příležitost.
+}
 
 %{
   \score {

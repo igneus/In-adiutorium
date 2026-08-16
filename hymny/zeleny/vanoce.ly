@@ -94,7 +94,7 @@
     }
     \header {
       quid = "hymnus"
-      fons_externus = "srov. AR1912 269"
+      fons_externus = "* AR1912 269"
       modus = "III"
       fial = "hymny/zeleny/vanoce.ly#vanoce-rch"
       id = "epifanie-mc"
