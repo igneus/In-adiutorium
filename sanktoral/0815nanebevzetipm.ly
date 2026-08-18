@@ -385,6 +385,9 @@
     differentia = "c"
     psalmus = "Žalm 63"
     fial = "commune/commune_maria.ly#rch-a1?cast=1-4"
+    placet = "3 nedrží pohromadě, poslední třetina je jako špatně přivázané prodloužení
+    a závěr je neuspokojivý. Antifona se na začátku rozlétne víc, než pak stihne
+    vkusně ubrzdit."
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
   }

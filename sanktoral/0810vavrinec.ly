@@ -51,6 +51,7 @@
   \header {
     quid = "1. resp."
     modus = "VIII"
+    placet = "3 verš lépe"
     id = "cte-r1"
     piece = \markup {\sestavTitulekResp}
   }
@@ -87,6 +88,7 @@
   \header {
     quid = "2. resp."
     modus = "VII"
+    placet = "3 lépe"
     id = "cte-r2"
     piece = \markup {\sestavTitulekResp}
   }
