@@ -262,8 +262,8 @@ task :spec do
 end
 
 desc "Open sheet music for today's day hours"
-task :pray do
-  ruby 'nastroje/pray.rb'
+task :pray do |task, args|
+  ruby 'nastroje/pray.rb', *args.extras
 end
 
 desc 'List all covered sanctorale celebrations in calendrical order'
