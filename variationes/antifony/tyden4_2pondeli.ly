@@ -1655,6 +1655,46 @@
 \score {
   \relative c' {
     \choralniRezim
+    f4 g a g f \mark\sipka g( f) d \barMin
+    d e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    K_Hos -- po -- di -- nu jsem vo -- lal,
+    a vy -- sly -- šel mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 120"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka f4 f f d f f( g) g \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    K_Hos -- po -- di -- nu jsem vo -- lal,
+    a vy -- sly -- šel mě.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 120"
+    id = "up-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 f g f g a( bes a) a \barMin
     g f g g( f) f \barFinalis
   }
