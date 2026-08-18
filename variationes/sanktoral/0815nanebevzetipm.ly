@@ -277,12 +277,36 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d( f) d( c) d \barMin
     d d( f g) \mark\sipka f e( d) d e d c( d) d \barMaior
     f( g a) g f e d d \barMin
     \mark\sipka c f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    je vy -- vý -- še -- na nad ne -- be -- sa;
+    chval -- me za to Kris -- ta, je -- jí -- ho Sy -- na.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Ef 1"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d( f) d( c) d \barMin
+    d d( f g) f e( d) d e d c( d) d \barMaior
+    f( g a) g f e d d \barMin
+    c f e \mark\sipka d( e d) d \barFinalis
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a
@@ -567,6 +591,41 @@
     % R
     \neviditelna a
     g f g a g( f d) d f g \mark\sipka g f f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ma -- ri -- a by -- la vza -- ta do ne -- be,_*
+    ra -- duj -- me se z_to -- ho spo -- lu s_an -- dě -- ly.
+    \Verse Dár -- ce ži -- vo -- ta
+    ne -- do -- pus -- til,
+    a -- by nad ní pa -- no -- va -- la smrt,_*
+    \Response ra -- duj -- me se z_to -- ho spo -- lu s_an -- dě -- ly.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "1ne-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f f g f g a a( g) \barMax
+    g f g a g( f d) d \barMin f \mark\sipka f g( a) g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a a a( bes) a a a a g( a) g \barMin
+    g g g g a g f g g( a) \barMax
+    % R
+    \neviditelna a
+    g f g a g( f d) d \barMin f \mark\sipka f g( a) g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
@@ -1122,7 +1181,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     f4 a c( d) c c \barMin
@@ -1154,6 +1213,32 @@
     c d f e d c d c bes( c) c \barMaior
     c c bes( a) g( a) a \barMin
     \mark\sipka g( a) g f f \barFinalis
+  }
+  \addlyrics {
+    Pán ji vy -- vo -- lil
+    a vy -- zna -- me -- nal ji pře -- de vše -- mi,
+    dal jí pří -- by -- tek
+    ve svém stán -- ku.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Žalm 46"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    f4 a c( d) c c \barMin
+    c d f e d c d c bes( c) c \barMaior
+    \mark\sipka a c bes( a) g( a) a \barMin
+    g a f f \barFinalis
   }
   \addlyrics {
     Pán ji vy -- vo -- lil
@@ -1594,7 +1679,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g( a) a \barMin
     g f g a a \barMaior
@@ -1602,6 +1687,77 @@
     f g a a g g \barMax
     a a a c b g \barMaior
     a c d d \mark\sipka d( e d c) d( c) \barMin
+    b( c) a g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mat -- ka Bo -- ží,
+    Pan -- na Ma -- ri -- a,
+    by -- la vza -- ta s_tě -- lem i du -- ší
+    do ne -- bes -- ké slá -- vy
+    a má už dnes po -- díl
+    na Kris -- to -- vě slav -- ném
+    ví -- těz -- ství nad smr -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Matka Boží, Panna Maria,
+    byla vzata s tělem i duší do nebeské slávy
+    a má už dnes podíl na slavném vítězství Kristově nad smrtí. Aleluja."
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g( a) a \barMin
+    g f g a a \barMaior
+    a a c b c( d) c b \mark\sipka a a \barMin
+    c c b a g( a g4.) g4 \barMax
+    a a a c b g \barMaior
+    a c d d d( e d c) d( c) \barMin
+    b( c) a g a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Mat -- ka Bo -- ží,
+    Pan -- na Ma -- ri -- a,
+    by -- la vza -- ta s_tě -- lem i du -- ší
+    do ne -- bes -- ké slá -- vy
+    a má už dnes po -- díl
+    na Kris -- to -- vě slav -- ném
+    ví -- těz -- ství nad smr -- tí.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    textus_approbatus = "Matka Boží, Panna Maria,
+    byla vzata s tělem i duší do nebeské slávy
+    a má už dnes podíl na slavném vítězství Kristově nad smrtí. Aleluja."
+    quid = "ant. ke kantikům vigilie"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g( a) a \barMin
+    g f g a a \barMaior
+    \mark\sipka c b c( d) d c( d) c b a a \barMin
+    c c b a g( a g4.) g4 \barMax
+    a a a c b g \barMaior
+    a c d d d( e d c) d( c) \barMin
     b( c) a g a g g \barMaior
     f g( a) g g \barFinalis
   }
@@ -2012,6 +2168,34 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d d( f) d( c) d \barMin
+    d d( f g) f e( d) d \barMin
+    \mark\sipka f g( a) g( f) f g( f) e( d) c \barMax
+    d( g f) e( f) d c d( c) c \barMaior
+    d c d d( f) f \barMin
+    f( g f) e( d) c d f( e d) d \barFinalis
+  }
+  \addlyrics {
+    Pan -- na Ma -- ri -- a
+    je vy -- vý -- še -- na nad zá -- stu -- py an -- dě -- lů;
+    ra -- duj -- me se všich -- ni
+    a spo -- lu s_ni -- mi
+    o -- sla -- vuj -- me Bo -- ha.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    fial = "sanktoral/0815nanebevzetipm.ly#1ne-a3?zacatek"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2278,7 +2462,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4( a b4.) g \barMin g4 b( c) a( f) g4. \barMin
     g4 e f g a( b) b a( g) g \barMaior
@@ -2303,6 +2487,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     c4( a b4.) g \barMin g4 b( c) a( f) g4. \barMin
     g4 e f g a( b) b a( g) g \barMaior

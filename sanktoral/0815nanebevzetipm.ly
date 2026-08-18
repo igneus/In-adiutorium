@@ -70,7 +70,7 @@
     d4 d d( f) d( c) d \barMin
     d d( f g) f e( d) d e d c( d) d \barMaior
     f( g a) g f e d d \barMin
-    c f e c( d) d \barFinalis
+    c f e d( e d) d \barFinalis
   }
   \addlyrics {
     Pan -- na Ma -- ri -- a
@@ -193,6 +193,7 @@
     modus = "VIII"
     differentia = "c"
     psalmus = "Žalm 24"
+    placet = "závěr nic moc"
     id = "mc-a1"
     piece = \markup {\sestavTitulek}
   }
@@ -204,7 +205,7 @@
     \choralniRezim
     f4 a c( d) c c \barMin
     c d f e d c d c bes( c) c \barMaior
-    c c bes( a) g( a) a \barMin
+    a c bes( a) g( a) a \barMin
     g a f f \barFinalis
   }
   \addlyrics {
@@ -329,8 +330,8 @@
     \choralniRezim
     g4 g g( a) a \barMin
     g f g a a \barMaior
-    a a c b c( d) c b a( g) g \barMin
-    f g a a g g \barMax
+    a a c b c( d) c b a a \barMin
+    c c b a g( a g4.) g4 \barMax
     a a a c b g \barMaior
     a c d d d( e d c) d( c) \barMin
     b( c) a g a g g \barMaior
@@ -480,7 +481,7 @@
     \choralniRezim
     c4( a b4.) g \barMin g4 b( c) a( f) g4. \barMin
     g4 e f g a( b) b a( g) g \barMaior
-    g4 f g a g( b c4.) c \barMin b4( c) a c d d c4. c \barMin
+    g4 g a g g( b c4.) c \barMin b4( c) a c d d c4. c \barMin
     b4( c) a( g) g \barFinalis
   }
   \addlyrics {
