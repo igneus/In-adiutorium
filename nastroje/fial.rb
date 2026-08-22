@@ -8,9 +8,13 @@ class FIAL
     @additional = additional
   end
 
+  RE = %r{^((?<protocol>\w+)://)?(?<path>[^#?]+)#(?<id>[^?]+)(\?(?<additional>.*))?$}
+
   # str - String, a valid FIAL (Fons In Adiutorium Locator)
   def self.parse(str)
-    return %r{^(fial://)?(?<path>[^#]+)#(?<id>[^?]+)(\?(?<additional>.*))?$}.match(str) do |match|
+    RE.match(str) do |match|
+      next nil if match['protocol'] && match['protocol'] != 'fial'
+
       new(
           match['path'],
           match['id'],
@@ -24,7 +28,8 @@ class FIAL
 
   def self.is_fial?(str)
     str.start_with?('fial://') ||
-      (str.include?('#') && str !~ %r{^\w+://})
+      str.match?(RE) &&
+      str !~ %r{^\w+://}
   end
 
   attr_accessor :path 

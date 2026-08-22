@@ -14,19 +14,23 @@ describe FIAL do
       ['filename#id?arg=value', FIAL.new('filename', 'id', {'arg' => 'value'})],
       ['filename#id?arg=value&arg2=value', FIAL.new('filename', 'id', {'arg' => 'value', 'arg2' => 'value'})],
     ].each do |fial, expected|
-      it { expect(FIAL.parse(fial)).to eq expected }
+      it(fial) { expect(FIAL.parse(fial)).to eq expected }
     end
 
     describe 'invalid input' do
       [
         '',
         'filename_only',
-        'filename?additional',
+        'fial://',
+        'fial://filename_only',
+        'filename_without_id?additional',
         '#id_without_filename',
         '?additional_alone',
-        '#id?additional'
+        '#id?additional',
+        'path?query#anchor',
+        'http://host#anchor',
       ].each do |fial|
-        it { expect { FIAL.parse(fial) }.to raise_exception ArgumentError }
+        it(fial) { expect { FIAL.parse(fial) }.to raise_exception ArgumentError }
       end
     end
   end
@@ -41,23 +45,28 @@ describe FIAL do
       ['fial://filename#id?arg=value', FIAL.new('filename', 'id', {'arg' => 'value'})],
       ['fial://filename#id?arg=value&arg2=value', FIAL.new('filename', 'id', {'arg' => 'value', 'arg2' => 'value'})],
     ].each do |expected, fial|
-      it { expect(fial.to_s).to eq expected }
+      it(expected) { expect(fial.to_s).to eq expected }
     end
   end
 
   describe '.is_fial?' do
     [
       '',
+      'str',
+      'path?query#anchor',
       'http://host#anchor',
     ].each do |i|
-      it { expect(FIAL.is_fial?(i)).to be false }
+      it(i) { expect(FIAL.is_fial?(i)).to be false }
     end
 
     [
-      'fial://',
       'a.ly#id',
+      # string explicitly declaring to be a FIAL is considered one,
+      # even if it's not valid and can't be successfully parsed:
+      'fial://',
+      'fial://a.ly',
     ].each do |i|
-      it { expect(FIAL.is_fial?(i)).to be true }
+      it(i) { expect(FIAL.is_fial?(i)).to be true }
     end
   end
 
@@ -69,7 +78,7 @@ describe FIAL do
       'filename#id?+aleluja',
       'filename#id?-aleluja',
     ].each do |i|
-      it { expect(FIAL.parse(i).simple_copy?).to be false }
+      it(i) { expect(FIAL.parse(i).simple_copy?).to be false }
     end
   end
 end
