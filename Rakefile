@@ -263,6 +263,9 @@ end
 
 desc "Open sheet music for today's day hours"
 task :pray do |task, args|
+  # Multiple arguments to a Rake task must be comma-separated,
+  # like `$ rake pray[-y,-d]`
+  # and must be in a single shell argument (use quotes if whitespace is included)
   ruby 'nastroje/pray.rb', *args.extras
 end
 
