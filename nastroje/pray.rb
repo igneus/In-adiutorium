@@ -16,10 +16,9 @@ parser = OptionParser.new do |opts|
   opts.on '-y', '--yesterday'
   opts.on '-t', '--tomorrow'
   opts.on '-I', '--[no-]interaction'
-  opts.on '-V', '--[no-]vespers', 'should in the evening music for the first Vespers of the following day be provided?'
   opts.on '-c', '--calendar=NAME', 'calendarium-romanum built-in calendar name'
 end
-options = {interaction: true, vespers: true}
+options = {interaction: true}
 args = parser.parse ARGV, into: options
 date =
   args[0]&.yield_self {|x| Date.parse x } ||
@@ -59,7 +58,7 @@ calendar_code = options[:calendar] || ENV['PRAY_CALENDAR'] || 'czech-praha-cs'
 calendar = CR::PerpetualCalendar.new(
   sanctorale: CR::Data[calendar_code].load_with_parents,
   temporale_options: {extensions: [CR::Temporale::Extensions::ChristEternalPriest]},
-  vespers: options[:vespers]
+  vespers: true,
 )
 ycalendar = calendar.calendar_for(date)
 day = calendar[date]
