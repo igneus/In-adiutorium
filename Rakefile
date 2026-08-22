@@ -261,6 +261,13 @@ task :spec do
      'antifonar/skripty/spec'
 end
 
+namespace :hooks do
+  desc 'Compare provided git hooks with those currently installed'
+  task :install do
+    sh 'meld', 'nastroje/hooks', '.git/hooks'
+  end
+end
+
 desc "Open sheet music for today's day hours"
 task :pray do |task, args|
   # Multiple arguments to a Rake task must be comma-separated,
