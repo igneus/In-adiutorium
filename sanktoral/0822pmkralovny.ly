@@ -47,7 +47,7 @@
     \choralniRezim
     a4 a g( a c) b( a g) a \barMin
     c d e d( c) d c \barMaior
-    b c d e c b a a \barMin
+    c c d e c b a a \barMin
     c c a g f( g a) g \barFinalis
   }
   \addlyrics {
