@@ -563,6 +563,27 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d \mark\sipka c d f g g f \barMaior
+    f g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Po -- sled -- ní bu -- dou prv -- ní -- mi
+    a prv -- ní po -- sled -- ní -- mi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "C"
+    id = "ne21c-ne2-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     c4 c a g a c c b \barMaior
