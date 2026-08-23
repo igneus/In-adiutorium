@@ -251,12 +251,12 @@
 tIIpatekNespAntIII = \score {
   \relative c'' {
     \choralniRezim
-    g4 g g f4. g4 a g f( g) g4. \barMin a4 a a( b) g4. \barMin
-    a4( g) f g g e4. \barFinalis
+    g4 g g f-- g4 a g f( g) g \barMaior
+    a4 a a( b) g \barMin a4( g) f g g e \barFinalis
   }
   \addlyrics {
-    Spra -- ve -- dli -- vé a spo -- le -- hli -- vé jsou tvé ces -- ty,
-    krá -- li ná -- ro -- dů.
+    Spra -- ve -- dli -- vé a spo -- le -- hli -- vé
+    jsou tvé ces -- ty, krá -- li ná -- ro -- dů.
   }
   \header {
     quid = "3. ant."

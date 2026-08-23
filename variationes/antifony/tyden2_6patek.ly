@@ -2497,6 +2497,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g f4. g4 a g f( g) g4. \barMin a4 a a( b) g4. \barMin
     a4( g) f g g e4. \barFinalis
@@ -2535,8 +2536,12 @@
   }
 }
 
+\markup{
+  (jen differentiae a rytmická znaménka)
+}
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g g f-- g4 a g f( g) g \barMaior
     a4 a a( b) g \barMin a4( g) f g g e \barFinalis
