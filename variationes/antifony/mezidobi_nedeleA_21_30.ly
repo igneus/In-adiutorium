@@ -289,12 +289,88 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g( a) f g( a) g g \barMin
     a b c c c c( d) c( a) a \barMaior
     c c c b a g( a) g g \barMin
     a a f e f a a g g \barFinalis
+  }
+  \addlyrics {
+    Co svá -- žeš na ze -- mi,
+    bu -- de svá -- zá -- no na ne -- bi,
+    a co roz -- vá -- žeš na ze -- mi,
+    bu -- de roz -- vá -- zá -- no na ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g( a) f g( a) g g \barMin
+    a b c c c c( d) c( a) a \barMaior
+    c c c \mark\sipka a c b a g \barMin
+    a a g f g a a g g \barFinalis
+  }
+  \addlyrics {
+    Co svá -- žeš na ze -- mi,
+    bu -- de svá -- zá -- no na ne -- bi,
+    a co roz -- vá -- žeš na ze -- mi,
+    bu -- de roz -- vá -- zá -- no na ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) f g( a) g g \barMin
+    a b c c c c( d) c( a) a \barMaior
+    c c c a c b a g \barMin
+    \mark\sipka a g f g a f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Co svá -- žeš na ze -- mi,
+    bu -- de svá -- zá -- no na ne -- bi,
+    a co roz -- vá -- žeš na ze -- mi,
+    bu -- de roz -- vá -- zá -- no na ne -- bi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne21a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g( a) f g( a) g g \barMin
+    a b c c c c( d) c( a) a \barMaior
+    c c c a c b a g \barMin
+    a \mark\sipka a g a g f g( a) g g \barFinalis
   }
   \addlyrics {
     Co svá -- žeš na ze -- mi,

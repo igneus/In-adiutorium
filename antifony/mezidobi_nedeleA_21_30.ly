@@ -54,8 +54,8 @@
     \choralniRezim
     g4 g( a) f g( a) g g \barMin
     a b c c c c( d) c( a) a \barMaior
-    c c c b a g( a) g g \barMin
-    a a f e f a a g g \barFinalis
+    c c c a c b a g \barMin
+    a a g f g a a g g \barFinalis
   }
   \addlyrics {
     Co svá -- žeš na ze -- mi,
