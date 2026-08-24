@@ -2643,6 +2643,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 f g a \barMin a bes bes a g
+    f g g( a) a \barMin f d e d d \barFinalis
+  }
+  \addlyrics {
+    Spra -- ve -- dli -- vé a spo -- le -- hli -- vé
+    jsou tvé ces -- ty, krá -- li ná -- ro -- dů.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 %\score { \tIIpatekNespAntIII }
 
 %\score { \tIIpatekAntMagnificat }
