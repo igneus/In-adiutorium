@@ -46,8 +46,8 @@
     \choralniRezim
     a4 g a c( d) d
     c e( d) d \barMaior
-    c d c b a( g) \barMin
-    g f g g a a c b g( a) a \barFinalis
+    f e d e c( d) \barMin
+    d c b a( b) g g a g f( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din vztá -- hl
@@ -57,8 +57,8 @@
   }
   \header {
     quid = "1. ant."
-    modus = "IV alt"
-    differentia = "A"
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}

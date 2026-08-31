@@ -275,7 +275,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 g a c( d) d
     c e( d) d \barMaior
@@ -292,6 +292,55 @@
     quid = "1. ant."
     modus = "IV alt"
     differentia = "A"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d
+    c e( d) d \barMaior
+    c d c b a( g) \barMin
+    \mark\sipka a c b a( b) g g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din vztá -- hl
+    svou ru -- ku,
+    do -- tkl se mých úst
+    a dal mě ná -- ro -- dům za pro -- ro -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c( d) d
+    c e( d) d \barMaior
+    \mark\sipka f e d e c( d) \barMin
+    d c b a( b) g g a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din vztá -- hl
+    svou ru -- ku,
+    do -- tkl se mých úst
+    a dal mě ná -- ro -- dům za pro -- ro -- ka.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 63"
     id = "rch-a1"
     piece = \markup {\sestavTitulek}
