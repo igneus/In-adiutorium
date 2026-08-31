@@ -586,6 +586,28 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    c4( d) c c \barMin c d e c a
+    c b a( g) g \barMaior
+    f a g g \barFinalis
+  }
+  \addlyrics {
+    U te -- be je hoj -- ná ra -- dost,
+    Hos -- po -- di -- ne.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Žalm 16"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     e4 g a a b g g( a) a \barMin
