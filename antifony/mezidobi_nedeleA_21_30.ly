@@ -79,11 +79,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d f e d c d e d d \barMaior
+    d4 d d( f) e d c d c c e f d d \barMaior
     d d d c d d( f) \barMin g a g f g g \barMaior
-    a g f e( f) e( d) \barMax
-    f e f d( c) c \barMaior
-    d d c d d( f) \barMin f e c c( d) d \barFinalis
+    g a g f( d) d \barMax
+    f e c d( c) c \barMaior
+    d d c d d( f) \barMin f g f d d \barFinalis
   }
   \addlyrics {
     Je -- žíš za -- čal svým u -- čed -- ní -- kům na -- zna -- čo -- vat,
@@ -132,9 +132,9 @@
     \choralniRezim
     d4 d c d d( f) f \barMin
     g f f g( a) a g g \barMin
-    a g f e( f) d( c) c \barMaior
-    d d d f e d c( d) c c \barMin
-    f g f e c( d) d d \barFinalis
+    a bes a g( f) f( g) g \barMaior
+    a g f e( f) d d f( e) d( c) c \barMin
+    d d f e d( e) d d \barFinalis
   }
   \addlyrics {
     Syn člo -- vě -- ka při -- jde
