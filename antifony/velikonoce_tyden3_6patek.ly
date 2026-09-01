@@ -105,7 +105,7 @@
     e d c( d) d \barFinalis
   }
   \addlyrics {
-    Po -- žeh -- na né krá -- lov -- ství_*
+    Po -- žeh -- na -- né krá -- lov -- ství_*
     na -- še -- ho ot -- ce Da -- vi -- da,
     kte -- ré při -- chá -- zí.
     A -- le -- lu -- ja.
