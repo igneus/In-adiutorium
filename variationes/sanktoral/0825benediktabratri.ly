@@ -243,7 +243,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g f e d f g g g a( g f) g \barMin
     g c( b a) c b a g f( g) g \barMaior
@@ -268,6 +268,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g f e d f g g g a( g f) g \barMin
     g c( b a) c b a g f( g) g \barMaior
