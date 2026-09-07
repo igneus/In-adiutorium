@@ -157,12 +157,13 @@
 \markup {\nadpisDen {"23. neděle"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    e4 e e( d) d a' g a g e e \barMaior
-    f g a c b a \barMin b c d b a g g \barMaior
-    f g a a g f e e \barMin
-    f f f d f f( e) e \barFinalis
+    a4 a g( f) f g f g f d d \barMaior
+    c d f e d( e) d( c) \barMin
+    d f g f a g g \barMaior
+    a a g f g f d d \barMin
+    c d f e c c( d) d \barFinalis
   }
   \addlyrics {
     Když tvůj bra -- tr zhře -- ší pro -- ti to -- bě,
@@ -173,10 +174,11 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "III"
+    modus = "I"
     differentia = "a"
     psalmus = ""
     annus = "A"
+    fial = "antifony/mezidobi_nedeleA_02_10.ly#ne6a-2ne-amag?cast=1"
     id = "ne23a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
