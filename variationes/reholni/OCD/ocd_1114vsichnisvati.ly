@@ -57,6 +57,8 @@
   }
 }
 
+\pageBreak
+
 \score {
   \relative c' {
     \choralniRezim
@@ -77,6 +79,48 @@
     piece = \markup\sestavTitulek
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f f \barMin
+    f g f e c e( f d4.) d4 \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá dě -- dic -- tví
+    těm, kdo ctí je -- ho jmé -- no.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 61"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d c d d f f \mark\sipka
+    f g f e c e( f d4.) d4 \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din dá dě -- dic -- tví
+    těm, kdo ctí je -- ho jmé -- no.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 61"
+    id = "mc-a2"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {

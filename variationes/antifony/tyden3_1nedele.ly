@@ -906,6 +906,27 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a a g f g( f) d \barMin
+    f g g f \barFinalis
+  }
+  \addlyrics {
+    Chval -- te
+    Hos -- po -- di -- na z_ne -- bes.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 148"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 %\score { \tInedeleLaudResp }
