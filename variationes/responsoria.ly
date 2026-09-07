@@ -610,7 +610,7 @@ doxologieResponsoriumVI = {}
       g \mark\sipka f g g( a) g \barMin g f d f g g f f \barFinalis
       % V
       \neviditelna e
-      a( bes) a g( a) g \barMin g g \mark\sipka a g g f g( a) a( g) \barMax
+      a( bes) a g( a) g \barMin g g a g g f g( a) a( g) \barMax
       % R
       \neviditelna g
       g \mark\sipka f g g( a) g \barMin g f d f g g f f \barFinalis
