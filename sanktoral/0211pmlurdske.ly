@@ -28,7 +28,7 @@
     z_te -- be nám vze -- šlo
     slun -- ce spra -- ve -- dl -- nos -- ti,
     na -- vští -- vil nás ten,
-    kte -- rý vy -- chá -- zí s_vý -- sos -- ti.
+    kte -- rý vy -- chá -- zí z_vý -- sos -- ti.
   }
   \header {
     quid = "ant. k Benedictus"
