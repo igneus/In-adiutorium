@@ -3134,6 +3134,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g a c( d) d \barMin
+    c d e c d d d \barMaior
+    a d \mark\sipka b( c) a a \barMin
+    g( f) g a( c) a a \barFinalis
+
+    b^\markup\rubrVelikAleluja c a( g) a \barFinalis
+  }
+  \addlyrics {
+    Z_ko -- ře -- ne Jes -- se
+    vze -- šla Pan -- na Ma -- ri -- a,
+    kte -- rá po -- ča -- la
+    z_Du -- cha sva -- té -- ho.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {

@@ -476,7 +476,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4( a g) f( g) g \barMin
     f g a a c b c( d) d( c) \barMin
@@ -521,6 +521,57 @@
     quid = "3. ant."
     modus = "VIII"
     differentia = "G"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d b d( e) d d \barMin
+    d d b c b g g g \barMaior
+    c b a b( c) a a \barMin
+    g( f) a g g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí sla -- ví -- me
+    tvé na -- ro -- ze -- ní, Ma -- ri -- a,
+    pros za nás Je -- ží -- še,
+    své -- ho Sy -- na.
+  }
+  \header {
+    fons_externus = "volně podle AR19121, 706"
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d b d( e) d d \barMin
+    d d b c b g g g \barMaior
+    \mark\sipka c c c a c b \barMin
+    a( c) b g g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí sla -- ví -- me
+    tvé na -- ro -- ze -- ní, Ma -- ri -- a,
+    pros za nás Je -- ží -- še,
+    své -- ho Sy -- na.
+  }
+  \header {
+    fons_externus = "volně podle AR19121, 706"
+    quid = "3. ant."
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 149"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
@@ -1484,7 +1535,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a a c b c( d) d \barMin \mark\sipka c d e( c) c( d) d \barMaior
     d d d c( d) c b c( a) a( g) g \barMin
@@ -1507,6 +1558,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a a c b c( d) d \barMin c d e( c) c( d) d \barMaior
     d d d \mark\sipka d( e) d c b( c) a( g) g \barMin
