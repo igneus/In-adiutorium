@@ -47,3 +47,5 @@
 
 \include "zeleny/advent.ly"
 \include "zeleny/vanoce.ly"
+
+\include "zeleny/zaltar_tyden1.ly"
