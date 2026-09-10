@@ -36,7 +36,7 @@
   \addlyrics {
     Pojď -- te,
     klaň -- me se Je -- ží -- ši,
-    sy -- nu Pan -- ny Ma -- rie.
+    sy -- nu Pan -- ny Ma -- ri -- e.
     A -- le -- lu -- ja.
   }
   \header {
@@ -48,6 +48,32 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    g f g g( a) g g \barMaior
+    \mark\sipka a( g f g) g( f) \barMin e( f) d c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te,
+    klaň -- me se Je -- ží -- ši,
+    sy -- nu Pan -- ny Ma -- ri -- e.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"modlitba se čtením"}}
 
@@ -448,16 +474,20 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) f \barMin f g f g g( f) f \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
-    Počneš a porodíš syna a dáš mu jméno Ježíš. Aleluja.
+    Po -- čneš a po -- ro -- díš sy -- na
+    a dáš mu jmé -- no Je -- žíš.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fial = "sanktoral/0929archandele.ly#ne-amag?zacatek=15&transposice=-5"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
