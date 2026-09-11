@@ -222,7 +222,7 @@
   }
   \addlyrics {
     Hos -- po -- din Bůh ře -- kl ha -- do -- vi:
-    „Ne -- přá -- tel -- ství usta -- no -- vu -- ji me -- zi te -- bou a že -- nou,
+    „Ne -- přá -- tel -- ství u -- sta -- no -- vu -- ji me -- zi te -- bou a že -- nou,
     me -- zi po -- tom -- stvem tvým a je -- jím.
     A je -- jí po -- tom -- stvo za -- sáh -- ne tvou hla -- vu.“
     A -- le -- lu -- ja.
