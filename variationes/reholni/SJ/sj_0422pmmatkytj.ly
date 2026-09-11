@@ -103,41 +103,90 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 c( d) d \barMin
+    e d c b( c) a( g) g \barMaior
+    a c b c a-- g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Duch Svatý sestoupí na tebe a moc Nejvyššího tě zastíní. Aleluja.
+    Duch Sva -- tý
+    se -- stou -- pí na te -- be
+    a moc Nej -- vyš -- ší -- ho tě za -- stí -- ní.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 46"
+    fial = "sanktoral/0325zvestovanipane.ly#1ne-amag?zacatek=10&cast=3,4"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 c( d) d \barMin
+    e d c b( c) \mark\sipka a a \barMaior
+    c c b c a-- g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Maria řekla: „Jsem služebnice Páně, ať se mi stane podle tvého slova.“ Aleluja.
+    Duch Sva -- tý
+    se -- stou -- pí na te -- be
+    a moc Nej -- vyš -- ší -- ho tě za -- stí -- ní.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 46"
+    fial = "sanktoral/0325zvestovanipane.ly#1ne-amag?zacatek=10&cast=4"
+    id = "mc-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 g a c( d) d \barMaior
+    d c d e c c( d) d \barMaior
+    d c b c( a g) g \barMin
+    f g a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ma -- ri -- a řek -- la:
+    „Jsem slu -- žeb -- ni -- ce Pá -- ně,
+    ať se mi sta -- ne
+    pod -- le tvé -- ho slo -- va.“
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 87"
+    fial = "commune/commune_maria.ly#2ne-a2?cast=3-4,5"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
 }
+
+\pageBreak
 
 \markup {\nadpisHodinka {"ranní chvály"}}
 
@@ -172,6 +221,39 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f d) c d e d d \barMin
+    f f e( f) d( c) c \barMaior
+    d c d d( f) f \barMin
+    g( a g) f g a a g g \barMaior
+    a g f g d \barMin
+    c d f e c e( f) d d \barMaior
+    e \mark\sipka c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Jas -- ná jit -- řen -- ko spá -- sy,
+    Pan -- no Ma -- ri -- a,
+    z_te -- be nám vze -- šlo
+    slun -- ce spra -- ve -- dl -- nos -- ti,
+    na -- vští -- vil nás ten,
+    kte -- rý vy -- chá -- zí z_vý -- sos -- ti.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    fial = "sanktoral/0211pmlurdske.ly#aben?+aleluja"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
 \markup\justify{
   K latinským textům jsem se zatím nedostal, ale mohlo by jít o tradiční
   (ovšem co do doloženosti v pramenech spíš obskurní) antifonu
@@ -185,15 +267,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d d( f) f \barMin g a g f f( g) \barMaior
+    a a g f d \barMin d( e) c d d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
-    Matka přečistá, neposkvrněná, zasloužila si nosit Boha. Aleluja.
+    Mat -- ka pře -- čis -- tá, ne -- po -- skvr -- ně -- ná,
+    za -- slou -- ži -- la si no -- sit Bo -- ha.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -298,16 +384,25 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d f( g) f d e d c( d) d \barMaior
+    f g a f g( f d) d \barMin
+    c d f \barMaior
+    f f e f g f e d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
-    Když Kristus přicházel na svět, řekl: „Připravils mi tělo; tady jsem, abych plnil, Bože, tvou vůli.“ Aleluja.
+    Když Kris -- tus při -- chá -- zel na svět, ře -- kl:
+    „Při -- pra -- vils mi tě -- lo;
+    ta -- dy jsem,
+    a -- bych pl -- nil, Bo -- že, tvou vů -- li.“
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fial = "sanktoral/0325zvestovanipane.ly#mc-a2?zacatek=17"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -341,23 +436,55 @@
   }
 }
 
-\score {
-  \relative c' {
-    \choralniRezim
+\pageBreak
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b \barMin
+    c c c b g a g f g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Žije Hospodin: Naplnil mě svým milosrdenstvím. Aleluja.
+    Ži -- je Hos -- po -- din:
+    Na -- pl -- nil mě svým mi -- lo -- sr -- den -- stvím.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
+    fial = "reholni/OCarm/ocarm_0720elias.ly#rch-a1?cast=1"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c c b \barMaior
+    c a g( a) g \barMin f g a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ži -- je Hos -- po -- din:
+    Na -- pl -- nil mě svým mi -- lo -- sr -- den -- stvím.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    fial = "reholni/OCarm/ocarm_0720elias.ly#rch-a1?cast=1"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
 

@@ -62,36 +62,52 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 c( d) d \barMin
+    e d c b( c) a( g) g \barMaior
+    a c b c a-- g f g( a) a( g) g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Duch Svatý sestoupí na tebe a moc Nejvyššího tě zastíní. Aleluja.
+    Duch Sva -- tý
+    se -- stou -- pí na te -- be
+    a moc Nej -- vyš -- ší -- ho tě za -- stí -- ní.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 46"
+    fial = "sanktoral/0325zvestovanipane.ly#1ne-amag?zacatek=10&cast=3,4"
     id = "mc-a2"
     piece = \markup {\sestavTitulek}
   }
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    a4 g a c( d) d \barMaior
+    d c d e c c( d) d \barMaior
+    d c b c( a g) g \barMin
+    f g a a g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Maria řekla: „Jsem služebnice Páně, ať se mi stane podle tvého slova.“ Aleluja.
+    Ma -- ri -- a řek -- la:
+    „Jsem slu -- žeb -- ni -- ce Pá -- ně,
+    ať se mi sta -- ne
+    pod -- le tvé -- ho slo -- va.“
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "3. ant."
-    modus = ""
-    differentia = ""
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 87"
+    fial = "commune/commune_maria.ly#2ne-a2?cast=3-4,5"
     id = "mc-a3"
     piece = \markup {\sestavTitulek}
   }
