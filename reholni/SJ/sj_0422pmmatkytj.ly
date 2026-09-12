@@ -438,16 +438,20 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) f \barMin f g f g g( f) f \barMaior
+    d c d f e c( d) d \barFinalis
   }
   \addlyrics {
-    Počneš a porodíš syna a dáš mu jméno Ježíš. Aleluja.
+    Po -- čneš a po -- ro -- díš sy -- na
+    a dáš mu jmé -- no Je -- žíš.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fial = "sanktoral/0929archandele.ly#ne-amag?zacatek=15&transposice=-5"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

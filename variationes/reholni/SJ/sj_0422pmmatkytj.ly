@@ -14,10 +14,9 @@
 }
 
 \markup\justify{
-  Až na invitatorium a rch-a2 jde buďto doslova (nebo s minirozdíly,
-  které jsou spíš věcí nekonkordantního překladu než čeho jiného)
+  Až na invitatorium a rch-a2 jde buďto doslova
   o antifony vyzkytující se jinde v breviáři,
-  nebo o variace na ně (kratší texty, o nepodstatný kousek delší texty).
+  nebo o variace na ně (kratší texty, o nepodstatný kousek delší texty, drobné rozdíly překladu).
   Přitom se texty až na nemnoho výjimek drží krotce v mezích toho,
   co bible explicitně říká o Mariině úloze ve vtělení Božího Syna,
   v Ježíšově působení a v prvních dnech církve.
@@ -32,6 +31,30 @@
     g f g g( a) g g \barMaior
     a a g f e( f) d( c) c \barMin
     d f e( d) d \barFinalis
+  }
+  \addlyrics {
+    Pojď -- te,
+    klaň -- me se Je -- ží -- ši,
+    sy -- nu Pan -- ny Ma -- ri -- e.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin
+    g f g g( a) g g \barMaior
+    a a g f \mark\sipka e( f d) c( d) d \barMin
+    e f d( c) d \barFinalis
   }
   \addlyrics {
     Pojď -- te,
@@ -360,7 +383,7 @@
   }
   \addlyrics {
     Hos -- po -- din Bůh ře -- kl ha -- do -- vi:
-    „Ne -- přá -- tel -- ství usta -- no -- vu -- ji me -- zi te -- bou a že -- nou,
+    „Ne -- přá -- tel -- ství u -- sta -- no -- vu -- ji me -- zi te -- bou a že -- nou,
     me -- zi po -- tom -- stvem tvým a je -- jím.
     A je -- jí po -- tom -- stvo za -- sáh -- ne tvou hla -- vu.“
     A -- le -- lu -- ja.
@@ -600,6 +623,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4( f) f \barMin f g f g g( f) f \barMaior
     d c d f e c( d) d \barFinalis
