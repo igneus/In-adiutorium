@@ -826,6 +826,46 @@
 \score {
   \relative c'' {
     \choralniRezim
+    a4 a a g f g g( a g) \barMin
+    f d f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- va věr -- nost
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 117"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a g f \mark\sipka g( a g) g \barMin
+    f d f( g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- no -- va věr -- nost
+    tr -- vá na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 117"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 g g f g a( c) c \barMin
     b c a( g) f( g) g \barFinalis
   }

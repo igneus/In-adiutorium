@@ -2717,6 +2717,11 @@ je "\"skororepetice\"" melodie 2 v 4.}
 
 \pageBreak
 
+\markup\justify{
+  Srov. \cantusid-link "004214"
+  (text není identický, ale rozdíly jsou malé a nepodstatné)
+}
+
 \score {
   \relative c'' {
     \zvyraznovacSedy
@@ -3061,6 +3066,97 @@ je "\"skororepetice\"" melodie 2 v 4.}
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Odpovídající latinská antifona je dost typická
+  antifona modu I, ale český text má jiné pořadí větných členů
+  a jinou kvantitu, takže se pro přímou adaptaci nehodí.
+}
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f e( f) d d
+    e f d c c \barMaior
+    d d( f) f( g) \barMin
+    a a g f e( f d) c c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a
+    nám ji za -- se o -- te -- vře -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "I"
+    differentia = "a"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    d4 d c f( g) g( a) a \barMin
+    a bes g a( bes a bes) a \barMaior
+    f( g a) f( e) d( c) \barMin
+    d f g g a g f( g) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a
+    nám ji za -- se o -- te -- vře -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Benedictus"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \key f \major
+    \mark\sipka a4 a a g( a) g g \barMin
+    a bes g a( bes a bes) a \barMaior
+    f( g a) f( e) d( c) \barMin
+    d f g g a g f( g) f \barFinalis
+
+    g^\markup\rubrVelikAleluja a g( f) f \barFinalis
+  }
+  \addlyrics {
+    E -- va nám za -- vře -- la
+    ne -- bes -- kou brá -- nu,
+    Ma -- ri -- a
+    nám ji za -- se o -- te -- vře -- la.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
     psalmus = "Benedictus"
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
