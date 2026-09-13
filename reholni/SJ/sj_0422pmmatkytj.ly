@@ -306,18 +306,23 @@
 }
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-
+    g4 a c c b \barMin
+    c c c b g a g f g g \barMaior
+    f g( a) g g \barFinalis
   }
   \addlyrics {
-    Žije Hospodin: Naplnil mě svým milosrdenstvím. Aleluja.
+    Ži -- je Hos -- po -- din:
+    Na -- pl -- nil mě svým mi -- lo -- sr -- den -- stvím.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. odpoledne"
-    modus = ""
-    differentia = ""
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
+    fial = "reholni/OCarm/ocarm_0720elias.ly#rch-a1?cast=1"
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }

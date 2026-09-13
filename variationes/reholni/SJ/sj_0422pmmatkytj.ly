@@ -53,7 +53,7 @@
     \choralniRezim
     d4( f) f \barMin
     g f g g( a) g g \barMaior
-    a a g f \mark\sipka e( f d) c( d) d \barMin
+    a a g f \mark\sipka e( f d) c( d) d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -311,6 +311,30 @@
 
 \score {
   \relative c' {
+    \choralniRezim
+    \mark\sipka d4 d f e( d) c \barMin f g a g f( g) \barMaior
+    \mark\sipka a g f g d \barMin d( e) c d d \barMaior
+    e f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Mat -- ka pře -- čis -- tá, ne -- po -- skvr -- ně -- ná,
+    za -- slou -- ži -- la si no -- sit Bo -- ha.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\pageBreak
+
+\score {
+  \relative c' {
     \key f \major
     \choralniRezim
     f4 a bes c c \barMin
@@ -402,6 +426,8 @@
   }
 }
 
+\pageBreak
+
 \markup {\nadpisHodinka {"modlitba uprostřed dne"}}
 
 \score {
@@ -430,6 +456,35 @@
     piece = \markup {\sestavTitulekBezZalmu}
   }
 }
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 c d f( g) f d e d c( d) d \barMaior
+    f g a f g( f d) d \mark\sipka \barMaior
+    c d f \barMin
+    f f e f g f e d d \barMin
+    e c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Když Kris -- tus při -- chá -- zel na svět, ře -- kl:
+    „Při -- pra -- vils mi tě -- lo;
+    ta -- dy jsem,
+    a -- bych pl -- nil, Bo -- že, tvou vů -- li.“
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    fial = "sanktoral/0325zvestovanipane.ly#mc-a2?zacatek=17"
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\pageBreak
 
 \score {
   \relative c' {
@@ -463,6 +518,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 a c c b \barMin
     c c c b g a g f g g \barMaior
@@ -502,6 +558,28 @@
     differentia = "c"
     psalmus = ""
     fial = "reholni/OCarm/ocarm_0720elias.ly#rch-a1?cast=1"
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka g4 f g a a \barMaior
+    c b a( b) g \barMin f g a a g g \barMaior
+    f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Ži -- je Hos -- po -- din:
+    Na -- pl -- nil mě svým mi -- lo -- sr -- den -- stvím.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
     id = "nona"
     piece = \markup {\sestavTitulekBezZalmu}
   }
