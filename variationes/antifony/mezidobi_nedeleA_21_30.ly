@@ -1777,11 +1777,58 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 f g f g a g f( g) f f \barMaior
     e f d( c) c \barMin
     d f f \mark\sipka g( a g) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
+    pro -- pus -- til ho
+    a dluh mu od -- pus -- til.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f g g g f e d c c \barMaior
+    c d d( f) f \barMin
+    g a g f( g f) e( f) f \barFinalis
+  }
+  \addlyrics {
+    Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
+    pro -- pus -- til ho
+    a dluh mu od -- pus -- til.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    f4 f g g g f e d c c \barMaior
+    c d d( f) f \barMin
+    g a g \mark\sipka f( g) g( f) f \barFinalis
   }
   \addlyrics {
     Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
@@ -1868,7 +1915,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 c b c a g g \barMaior
     a b c d c d( e) d d \barMin
@@ -1893,6 +1940,40 @@
     quid = "ant. k Magnificat"
     modus = "IV alt"
     differentia = "c"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 d e d c( d) c c \barMaior
+    c c a c d e d d \barMin
+    e f e d c c( d) d \barMaior
+    \mark\sipka d e d c d d( c) \barMin
+    c c a c b a( g) g \barMaior
+    a a g a c c b g b4( c) a a \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku ni -- čem -- ný,
+    ce -- lý dluh jsem ti od -- pus -- til,
+    pro -- to -- že jsi mě pro -- sil;
+    ne -- měl ses ta -- ké ty
+    smi -- lo -- vat nad svým dru -- hem,
+    ja -- ko jsem se smi -- lo -- val já nad te -- bou?
+  }
+  \header {
+    textus_approbatus = "Služebníku ničemný,
+    celý dluh jsem ti odpustil, protože jsi mě prosil;
+    neměl ses tedy i ty smilovat nad svým druhem,
+    jako jsem se smiloval já nad tebou?"
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
     psalmus = ""
     annus = "A"
     id = "ne24a-2ne-amag"

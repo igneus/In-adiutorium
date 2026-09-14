@@ -269,9 +269,9 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 f g f g a g f( g) f f \barMaior
-    e f d( c) c \barMin
-    d f f g( a g) g( f) f \barFinalis
+    f4 f g g g f e d c c \barMaior
+    c d d( f) f \barMin
+    g a g f( g) g( f) f \barFinalis
   }
   \addlyrics {
     Pán se nad slu -- žeb -- ní -- kem smi -- lo -- val,
@@ -292,12 +292,12 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 c b c a g g \barMaior
-    a b c d c d( e) d d \barMin
+    d4 d e d c( d) c c \barMaior
+    c c a c d e d d \barMin
     e f e d c c( d) d \barMaior
-    e d c b c a( g) \barMin
-    a c c d c e( d) d \barMaior
-    e e d c b c a( g) \barMin a4.( c) b4( c) a a \barFinalis
+    d e d c d d( c) \barMin
+    c c a c b a( g) g \barMaior
+    a a g a c c b g b4( c) a a \barFinalis
   }
   \addlyrics {
     Slu -- žeb -- ní -- ku ni -- čem -- ný,
@@ -314,7 +314,7 @@
     jako jsem se smiloval já nad tebou?"
     quid = "ant. k Magnificat"
     modus = "IV alt"
-    differentia = "c"
+    differentia = "d"
     psalmus = ""
     annus = "A"
     id = "ne24a-2ne-amag"
