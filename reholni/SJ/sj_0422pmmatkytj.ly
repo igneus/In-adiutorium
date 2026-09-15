@@ -18,15 +18,21 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4( f) f \barMin
+    g f g g( a) g g \barMaior
+    a a g f e( f) d( c) c \barMin
+    d f e( d) d \barFinalis
   }
   \addlyrics {
-    Pojďte, klaňme se Ježíši, synu Panny Marie. Aleluja.
+    Pojď -- te,
+    klaň -- me se Je -- ží -- ši,
+    sy -- nu Pan -- ny Ma -- ri -- e.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = ""
     id = "invit"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -149,15 +155,19 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 d f e( d) c \barMin f g a g f( g) \barMaior
+    a g f g d \barMin d( e) c c( d) d \barMaior
+    e f d( c) d \barFinalis
   }
   \addlyrics {
-    Matka přečistá, neposkvrněná, zasloužila si nosit Boha. Aleluja.
+    Mat -- ka pře -- čis -- tá, ne -- po -- skvr -- ně -- ná,
+    za -- slou -- ži -- la si no -- sit Bo -- ha.
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "2. ant."
-    modus = ""
-    differentia = ""
+    modus = "I"
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
@@ -262,16 +272,25 @@
 \score {
   \relative c' {
     \choralniRezim
-
+    d4 c d f( g) f d e d c( d) d \barMaior
+    f g a f g( f d) d \barMin
+    c d f \barMaior
+    f f e f g f e d d \barMin
+    e c c( d) d \barFinalis
   }
   \addlyrics {
-    Když Kristus přicházel na svět, řekl: „Připravils mi tělo; tady jsem, abych plnil, Bože, tvou vůli.“ Aleluja.
+    Když Kris -- tus při -- chá -- zel na svět, ře -- kl:
+    „Při -- pra -- vils mi tě -- lo;
+    ta -- dy jsem,
+    a -- bych pl -- nil, Bo -- že, tvou vů -- li.“
+    A -- le -- lu -- ja.
   }
   \header {
     quid = "ant. dopoledne"
-    modus = ""
-    differentia = ""
+    modus = "II"
+    differentia = "D"
     psalmus = ""
+    fial = "sanktoral/0325zvestovanipane.ly#mc-a2?zacatek=17"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }

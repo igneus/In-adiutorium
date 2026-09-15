@@ -17,15 +17,20 @@
   Až na invitatorium a rch-a2 jde buďto doslova
   o antifony vyzkytující se jinde v breviáři,
   nebo o variace na ně (kratší texty, o nepodstatný kousek delší texty, drobné rozdíly překladu).
-  Přitom se texty až na nemnoho výjimek drží krotce v mezích toho,
-  co bible explicitně říká o Mariině úloze ve vtělení Božího Syna,
-  v Ježíšově působení a v prvních dnech církve.
+}
+\markup\justify{
+  Antifony modlitby se čtením jsou o Zvěstování.
+  Ranní chvály o Vtělení - z vysokého nadhledu, v kontextu celých dějin spásy.
+  Nešpory o Panně Marii v době Ježíšova veřejného působení a v prvních dnech církve,
+  ale responsorium a antifona k Magnificat se zase vrací k prorockým předpovědím a
+  ke Zvěstování.
 }
 
 \markup {\nadpisHodinka {"invitatorium"}}
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4( f) f \barMin
     g f g g( a) g g \barMaior
@@ -311,9 +316,10 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \mark\sipka d4 d f e( d) c \barMin f g a g f( g) \barMaior
-    \mark\sipka a g f g d \barMin d( e) c d d \barMaior
+    \mark\sipka a g f g d \barMin d( e) c \mark\sipka c( d) d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {
@@ -432,6 +438,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 c d f( g) f d e d c( d) d \barMaior
     f g a f g( f d) d \barMin
@@ -463,7 +470,7 @@
     d4 c d f( g) f d e d c( d) d \barMaior
     f g a f g( f d) d \mark\sipka \barMaior
     c d f \barMin
-    f f e f g f e d d \barMin
+    f f e f g f e d d \barMaior
     e c c( d) d \barFinalis
   }
   \addlyrics {
