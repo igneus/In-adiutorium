@@ -243,6 +243,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f) f \barMin g g g f e d d \barMaior
+    d \mark\sipka f f e( f) d c c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, stal ses mým po -- moc -- ní -- kem,
+    má du -- še při -- lnu -- la k_to -- bě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -1497,6 +1517,58 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g( a) a \barMin
+    a a g a( b a) a \barMaior
+    a a a g f e( d) e \barMin f g g e e \barMax
+    a4 a g a( b a4.) a4 \barMin
+    g a g f( e d e) e \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se,
+    bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 g( a) a \barMin
+    a a g a( b a) a \barMaior
+    a a a g f e( d) e \barMin f g g e e \barMax
+    a4 a g \mark\sipka a( b g4.) g4 \barMin
+    g a g f( e d e) e \barFinalis
+  }
+  \addlyrics {
+    Ra -- duj se,
+    bo -- lest -- ná Mat -- ko,
+    ne -- boť tys vy -- tr -- va -- la pod kří -- žem Pá -- na;
+    ny -- ní s_ním vlád -- neš
+    v_ne -- bes -- ké slá -- vě.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"nešpory"}}
@@ -1814,6 +1886,30 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g( a) a \barMin
+    a b c a a \barMaior
+    c b( c) a a \barMin
+    a a g f g a g g \barFinalis
+  }
+  \addlyrics {
+    Při -- stup -- me k_měs -- tu
+    ži -- vé -- ho Bo -- ha
+    a k_Je -- ží -- ši,
+    pro -- střed -- ní -- ku no -- vé smlou -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup{
   Podle "antifony/velikonoce_tyden2_3utery.ly#rch-a1"
 }
@@ -1883,6 +1979,78 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) g( a) a \barMin
+    a g f g a a( g) g \barMaior
+    a g( f) d d \barMin
+    d d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Při -- stup -- me
+    k_měs -- tu ži -- vé -- ho Bo -- ha
+    a k_Je -- ží -- ši,
+    pro -- střed -- ní -- ku no -- vé smlou -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 f f f( g) g \barMin
+    a g f g( a g) g \barMaior
+    a f( e) d d \barMin
+    d d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Při -- stup -- me k_měs -- tu
+    ži -- vé -- ho Bo -- ha
+    a k_Je -- ží -- ši,
+    pro -- střed -- ní -- ku no -- vé smlou -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 127"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g( a) a \barMin
+    a( bes) g g f g g( a) a \barMaior
+    a g( a) f( e d4.) d4 \barMin
+    d d c d f e d d \barFinalis
+  }
+  \addlyrics {
+    Při -- stup -- me
+    k_měs -- tu ži -- vé -- ho Bo -- ha
+    a k_Je -- ží -- ši,
+    pro -- střed -- ní -- ku no -- vé smlou -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "f"
     psalmus = "Žalm 127"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
