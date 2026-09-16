@@ -174,25 +174,28 @@
     \choralniRezim
 
     % R
-    \neviditelna a
-
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    g4 g f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-
+    a4( bes) a a \barMin a a a a g a g f g( a) a( g) \barMax
     % R
     \neviditelna a
-
+    g4 g f d f g g( f) f \barFinalis
     % Slava
+    \respVIdoxologie \barFinalis
   }
   \addlyrics {
-    \Response Radujte se z Hospodina_* a těšte se spravedliví.
-    \Verse Jásejte všichni, kdo jste upřímného srdce,_*
-    \Response a těšte se spravedliví.
+    \Response Ra -- duj -- te se z_Hos -- po -- di -- na_*
+    a těš -- te se spra -- ved -- li -- ví.
+    \Verse Já -- sej -- te všich -- ni, kdo jste u -- přím -- né -- ho srd -- ce,_*
+    \Response a těš -- te se spra -- ved -- li -- ví.
     \textRespDoxologie
   }
   \header {
     quid = "resp."
-    modus = ""
+    modus = "VI"
     id = "rch-r"
     piece = \markup {\sestavTitulekResp}
   }

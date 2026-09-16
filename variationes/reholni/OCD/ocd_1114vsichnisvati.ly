@@ -21,7 +21,9 @@
     \choralniRezim
   }
   \addlyrics {
-    Pojďme, klaňme se Kristu, našemu Pánu; on je synem Panny Marie a pramenem každé svatosti.
+    Pojď -- me, klaň -- me se Kris -- tu, na -- še -- mu Pá -- nu;
+    on je sy -- nem Pan -- ny Ma -- rie
+    a pra -- me -- nem kaž -- dé sva -- tos -- ti.
   }
   \header {
     quid = "ant."
@@ -41,6 +43,28 @@
     c4 d d f f \barMin
     f g f e f d d \barMaior
     c d f e d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bla -- ho -- sla -- ve -- ní,
+    kdo Bo -- ží slo -- vo sly -- ší
+    a za -- cho -- vá -- va -- jí ho.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 1"
+    id = "mc-a1"
+    piece = \markup\sestavTitulek
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 f e f d( c) \barMin
+    d f f g g f f \barMaior
+    f e f d c c( d) d \barFinalis
   }
   \addlyrics {
     Bla -- ho -- sla -- ve -- ní,
@@ -284,6 +308,39 @@
     % R
     \neviditelna a
     \mark\sipka g4 g( a) g f f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Ra -- duj -- te se z_Hos -- po -- di -- na_*
+    a těš -- te se spra -- ved -- li -- ví.
+    \Verse Já -- sej -- te všich -- ni, kdo jste u -- přím -- né -- ho srd -- ce,_*
+    \Response a těš -- te se spra -- ved -- li -- ví.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-r"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g( a) a( g) \barMax
+    \mark\sipka g4 g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4( bes) a a \barMin a a a a g a g f g( a) a( g) \barMax
+    % R
+    \neviditelna a
+    \mark\sipka g4 g f d f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
   }
