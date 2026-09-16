@@ -149,7 +149,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4( c) b c( d) d \barMin
     e f e d c d d \barMin
@@ -181,6 +181,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4( c) b c( d) d \barMin
     e f e d c d d \barMin

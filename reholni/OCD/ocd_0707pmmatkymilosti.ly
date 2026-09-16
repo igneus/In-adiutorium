@@ -19,7 +19,7 @@
     a4( c) b c( d) d \barMin
     e f e d c d d \barMin
     d c b a( b) a( g) g \barMaior
-    a( c) c c d e d d \barMin
+    a( c) c c d c e( d) d \barMin
     e f e d c e d d \barMaior
     d d d c b a( b) g g
     a g f a g g \barFinalis
