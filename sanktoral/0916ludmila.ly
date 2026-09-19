@@ -23,7 +23,7 @@
     f g a( bes) g g( a) a \barMin
     a( c) d c( b a b) c( a) \barMaior
     g( a g d) d \barMin
-    c d d( f) e d d \barFinalis
+    d( c) d d( f) e d d \barFinalis
   }
   \addlyrics {
     Ne -- sy -- pa -- la ka -- did -- lo
@@ -69,9 +69,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 f g g( a) a a \barMin
-    c c b a g a a( g) g \barMaior
-    g a c c d d c d d( c) c \barMin
+    g4 g f g( a) g g \barMin
+    a c c a c b a( g) g \barMaior
+    c c c c d d c d d( c) c \barMin
     a a( c) b a g( a) g g \barFinalis
   }
   \addlyrics {
@@ -98,14 +98,14 @@
     \neviditelna f
     f4 f f f f g f g g( f) \barMin
     f f f g f g( a) a( g) \barMax
-    g g g a g( f) d d \barMin
+    g f g a g( f) d d \barMin
     f f f g g( f) f \barFinalis
     % V
     \neviditelna a
     a4 a a( bes) a \barMin a a a a g a g f g g g( a) a( g) \barMax
     % R
     \neviditelna a
-    g g g a g( f) d d \barMin
+    g f g a g( f) d d \barMin
     f f f g g( f) f \barFinalis
     % Slava
     \respVIdoxologie \barFinalis
