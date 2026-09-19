@@ -221,8 +221,8 @@
   \relative c' {
     \choralniRezim
     \key f \major
-    f4 g g g g bes a f f( g) g4. \barMin
-    a4 bes( g) g f( d) d \barMin
+    f4 g g g g bes a f f( g) g \barMin
+    a4 bes g f( d) d \barMin
     e c c d d \barFinalis
   }
   \addlyrics {
@@ -235,7 +235,6 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 144-I"
-    placet = "_útočiště_, zejm. začátek, je postup v tradičním repertoáru neobvyklý"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }

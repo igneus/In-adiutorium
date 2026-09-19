@@ -1233,6 +1233,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4 g g g g bes a f f( g) g4. \barMin
@@ -1249,6 +1250,7 @@
     modus = "I"
     differentia = "f"
     psalmus = "Žalm 144-I"
+    placet = "_útočiště_, zejm. začátek, je postup v tradičním repertoáru neobvyklý"
     id = "ne-ant1"
     piece = \markup {\sestavTitulek}
   }
@@ -1256,6 +1258,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4 g g g g bes a f f( g) g \barMin
