@@ -1453,6 +1453,36 @@
 \score {
   \relative c'' {
     \choralniRezim
+    g4( a) a( g) g \barMin
+    f a c b a c a b g g \barMaior
+    c c c d d( c) c \barMin
+    d c b c d e e( d) d \barMax
+    \mark\sipka a c( d) d \barMin
+    c( b a g) a( g) \barMin a a a g( a) g f
+    g a a g g \barFinalis
+  }
+  \addlyrics {
+    S_ra -- dos -- tí
+    o -- če -- ká -- va -- la ví -- těz -- ství ví -- ry
+    a je -- jí duch já -- sal
+    v_Bo -- hu, je -- jím spa -- si -- te -- li;
+    Bůh při -- jal
+    o -- běť je -- jí -- ho ži -- vo -- ta
+    se za -- lí -- be -- ním.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4( a) \mark\sipka g( f) g \barMin
     f a c b a c a b g g \barMaior
     c c c d d( c) c \barMin
