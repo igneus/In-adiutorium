@@ -327,8 +327,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g a g f g a a \barMaior
-    a c( d c4.) c \barMin c4 a a c b a( g) g \barFinalis
+    g4 g g a g f g( a) a g \barMaior
+    c c( d c4.) c \barMin c4 c a c b a( g) g \barFinalis
   }
   \addlyrics {
     Jdě -- te i vy na mou vi -- ni -- ci
@@ -376,10 +376,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    c4 b c a a \barMin
+    g4 f g g( a) a \barMin
     c c c g a g f g( a) g g \barMaior
-    g f g g( a) a \barMin
-    c a a c( b) a( g) g \barFinalis
+    c d c b( c) a \barMin
+    c b a g( a) a( g) g \barFinalis
   }
   \addlyrics {
     Když na -- stal ve -- čer,
@@ -390,10 +390,9 @@
   \header {
     quid = "ant. k Magnificat"
     modus = "VIII"
-    differentia = "c"
+    differentia = "G"
     psalmus = ""
     annus = "A"
-    fial = "antifony/mezidobi_nedeleB_02_10.ly#ne5b-1ne-mag?zacatek=5"
     id = "ne25a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

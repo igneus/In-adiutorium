@@ -1981,6 +1981,72 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e d c( d) c c \barMaior
+    c c a c d e d d \barMin
+    e f e d c c( d) d \barMaior
+    d e d c d d( c) \barMin
+    c c a c b a( g) g \barMaior
+    a a g a c \mark\sipka d c b g( b) a a \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku ni -- čem -- ný,
+    ce -- lý dluh jsem ti od -- pus -- til,
+    pro -- to -- že jsi mě pro -- sil;
+    ne -- měl ses ta -- ké ty
+    smi -- lo -- vat nad svým dru -- hem,
+    ja -- ko jsem se smi -- lo -- val já nad te -- bou?
+  }
+  \header {
+    textus_approbatus = "Služebníku ničemný,
+    celý dluh jsem ti odpustil, protože jsi mě prosil;
+    neměl ses tedy i ty smilovat nad svým druhem,
+    jako jsem se smiloval já nad tebou?"
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d e d c( d) c c \barMaior
+    c c a c \mark\sipka b a g g \barMin
+    a g f g a a( g) g \barMaior
+    a c c d( c) d d( c) \barMin
+    d e d c b a( g) g \barMaior
+    a a g a c c b g b4( c) a a \barFinalis
+  }
+  \addlyrics {
+    Slu -- žeb -- ní -- ku ni -- čem -- ný,
+    ce -- lý dluh jsem ti od -- pus -- til,
+    pro -- to -- že jsi mě pro -- sil;
+    ne -- měl ses ta -- ké ty
+    smi -- lo -- vat nad svým dru -- hem,
+    ja -- ko jsem se smi -- lo -- val já nad te -- bou?
+  }
+  \header {
+    textus_approbatus = "Služebníku ničemný,
+    celý dluh jsem ti odpustil, protože jsi mě prosil;
+    neměl ses tedy i ty smilovat nad svým druhem,
+    jako jsem se smiloval já nad tebou?"
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    annus = "A"
+    id = "ne24a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisDen {"25. neděle"}}
@@ -2010,7 +2076,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g g a g f g a a \barMaior
     a c( d c4.) c \barMin c4 a a c b a( g) g \barFinalis
@@ -2065,6 +2131,49 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne25a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g a g f g( a) a g \barMaior
+    c c( d c4.) c \barMin c4 \mark\sipka c a c b a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jdě -- te i vy na mou vi -- ni -- ci
+    a dám vám, co bu -- de spra -- ved -- li -- vé.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne25a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4( b) c d d( c) \barMin c a c( b) a( g) g \barMaior
+    f g( a) a \barMin c b a g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Jdě -- te i vy na mou vi -- ni -- ci
+    a dám vám, co bu -- de spra -- ved -- li -- vé.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
     psalmus = ""
     annus = "A"
     id = "ne25a-1ne-amag"
@@ -2554,6 +2663,34 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c d d( e) d d \barMin
+    d e f e d c c( d) d \barMaior
+    d d c a b c a( g) g \barMaior
+    f g g( a) a a \barMin
+    c a \mark\sipka b( c a) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né hos -- po -- dá -- ři,
+    kte -- rý vy -- šel čas -- ně zrá -- na
+    na -- jmout děl -- ní -- ky
+    na svou vi -- ni -- ci.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    annus = "A"
+    fial = "commune/commune_svatazena.ly#rch-aben?cast=1"
+    id = "ne25a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
@@ -2786,7 +2923,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 b c a a \barMin
     c c c g a g f g( a) g g \barMaior
@@ -2858,6 +2995,62 @@
     psalmus = ""
     annus = "A"
     fial = "antifony/mezidobi_nedeleB_02_10.ly#ne5b-1ne-mag?zacatek=5"
+    id = "ne25a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  Recyklovat tady úryvek nápěvu z textu o aftermath kázání v Kafarnaum
+  nebylo moc vhodné. Úplně jinak nastává a chutná večer nádeníka v práci
+  a hosta na návštěvě.
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka g4 f g g( a) a \barMin
+    c c c g a g f g( a) g g \barMaior
+    c d c \mark\sipka b( c) a \barMin
+    c b a g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer,
+    za -- vo -- lal pán vi -- ni -- ce děl -- ní -- ky
+    a vy -- pla -- til jim
+    slí -- be -- nou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne25a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 f g g( a) a \barMin
+    c c c g a g f g( a) g g \barMaior
+    c d c b( c) a \barMin
+    \mark\sipka a g f g( a) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Když na -- stal ve -- čer,
+    za -- vo -- lal pán vi -- ni -- ce děl -- ní -- ky
+    a vy -- pla -- til jim
+    slí -- be -- nou od -- mě -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
     id = "ne25a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
