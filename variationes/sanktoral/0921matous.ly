@@ -827,6 +827,54 @@ působí poněkud těžkopádně.}
     d4 d c b a b \barMin
     c c a g a g f \barMaior
     g a a a a a c( d) c c d( e) d c d( c) \barMin
+    a g \mark\sipka a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť, pra -- ví Pán.
+    Ne -- při -- šel jsem to -- tiž po -- vo -- lat spra -- ved -- li -- vé,
+    a -- le hříš -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a b \barMin
+    c c a g a g f \barMaior
+    g a a a a a c( d) c c d( e) d c d( c) \barMin
+    a g \mark\sipka a( c b) g( a) a \barFinalis
+  }
+  \addlyrics {
+    Mi -- lo -- sr -- den -- ství chci,
+    a ne o -- běť, pra -- ví Pán.
+    Ne -- při -- šel jsem to -- tiž po -- vo -- lat spra -- ved -- li -- vé,
+    a -- le hříš -- ní -- ky.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV alt"
+    differentia = "d"
+    psalmus = ""
+    id = "amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d c b a b \barMin
+    c c a g a g f \barMaior
+    g a a a a a c( d) c c d( e) d c d( c) \barMin
     \mark\sipka b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
