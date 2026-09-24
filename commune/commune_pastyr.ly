@@ -756,7 +756,7 @@
     g( a) a \bar ";"
     f( g) g( a) a \bar ";"
     g( a) f g( a) a \bar ";"
-    g a f g( a) a \bar ";"
+    a g f g( a) a \bar ";"
 
     a4 a a( b c) b c c( d) c b a a \barMaior
     g g g g( a e) \barMin
