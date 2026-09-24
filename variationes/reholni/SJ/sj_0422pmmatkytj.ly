@@ -14,6 +14,11 @@
 }
 
 \markup\justify{
+  (Oficiální vydání formuláře jsem neviděl, ale varianty bez aleluja
+  jsem nepřipravoval proto, že svátek padá jen do doby velikonoční.
+  Resp. výjimečně padne do Svatého týdne, ale tehdy je potlačen úplně.)
+}
+\markup\justify{
   Až na invitatorium a rch-a2 jde buďto doslova
   o antifony vyzkytující se jinde v breviáři,
   nebo o variace na ně (kratší texty, o nepodstatný kousek delší texty, drobné rozdíly překladu).
