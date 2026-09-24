@@ -3890,7 +3890,6 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
     \choralniRezim
 
     % R
