@@ -59,6 +59,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "2 závěr netypický, spíš lépe"
     id = "amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
