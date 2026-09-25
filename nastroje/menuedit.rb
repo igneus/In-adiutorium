@@ -10,16 +10,13 @@ require 'highline'
 
 editfial_args, antigrep_args = ARGV.partition {|x| x == '-V' }
 
-options = []
-Open3.popen2('ruby', 'nastroje/antigrep.rb', *antigrep_args) do |_, stdout, wait_thr|
-  options = stdout.each_line.to_a
-
-  status = wait_thr.value
-  if status != 0
-    STDERR.puts "antigrep.rb failed (#{status}), exiting"
-    exit status.exitstatus
-  end
+stdout, status = Open3.capture2('ruby', 'nastroje/antigrep.rb', *antigrep_args)
+if status != 0
+  STDERR.puts "antigrep.rb failed (#{status}), exiting"
+  exit status.exitstatus
 end
+
+options = stdout.lines
 
 chosen = HighLine.new.choose do |c|
   c.prompt = 'Choose chant to edit (the first one is default):'
