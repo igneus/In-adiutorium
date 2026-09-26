@@ -363,10 +363,10 @@
     f4 f f f e c c( f) d d \barMaior
     f g a \[ a( bes a \] \[ c a) \] g( a) a \barMin
     a a g( f) f f g f g f d d \barMaior
-    d( e) d c d( f) g f d d \barMin
+    d c d( f) f g f d d \barMin
     d f f e d f( g) g f g g( f) f \barMaior
     g g g g( a) g g( f d) \barMin
-    d d( e f) e( f) d c( d) d \barFinalis
+    d f e c e( f d4.) d4 \barFinalis
   }
   \addlyrics {
     Při -- ná -- šíš -li svůj dar k_ol -- tá -- ři
