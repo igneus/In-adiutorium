@@ -4076,6 +4076,28 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 c b a g( a) g f g \mark\sipka g g( a) a \barMaior
+    c d b( c) a( g) \barMin
+    a g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din se u -- jal svých slu -- žeb -- ní -- ků,
+    pa -- ma -- to -- val
+    na své mi -- lo -- sr -- den -- ství.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-pa-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 d d d d( e) d d c b a( g) g \barMaior
     f g a( c) c \barMin
     b c a g f g g \barFinalis
