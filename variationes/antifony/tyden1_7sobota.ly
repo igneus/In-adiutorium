@@ -1139,10 +1139,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 f g a b c4. c \barMin c4 d c b( g) a \barMaior
     \mark\sipka g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- din je má sí -- la, jej o -- pě -- vu -- ji,
+    stal se mou spá -- sou.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Ex 15"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup{
+  (jen rytmická znaménka)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 f g a b c-- c \barMin c4 d c b( g) a \barMaior
+    g f a a( g) g \barFinalis
   }
   \addlyrics {
     Hos -- po -- din je má sí -- la, jej o -- pě -- vu -- ji,
