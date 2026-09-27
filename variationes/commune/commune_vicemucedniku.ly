@@ -1273,6 +1273,34 @@
 }
 
 \score {
+  \relative c' {
+    \choralniRezim
+    d4 d( f e) d c( d) d \barMin f f g a g g \barMaior
+    f f f g d \barMin f e d c c \barMaior
+    f f f f g( a) g f \mark\sipka g( a) g g \barMaior
+    a a a a g f e c f e c( d) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- tře sva -- tým kaž -- dou sl -- zu z_o -- čí:
+    ne -- bu -- de už smrt a -- ni zá -- rmu -- tek,
+    ná -- řek a -- ni bo -- lest už ne -- bu -- de,
+    pro -- to -- že co dří -- ve by -- lo, po -- mi -- nu -- lo.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. ke kantikům vigilie"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "mc-avig"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
   \relative c'' {
     \choralniRezim
     g4 f( e d) d f( g) g \barMin
@@ -1612,6 +1640,30 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( e f) d d c e d d \barMaior
+    f f e( f d4.) d4 \barMin e d c( d) d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Zá -- stu -- py mu -- čed -- ní -- ků,_*
+    chval -- te Pá -- na na vý -- sos -- tech.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 149"
+    id = "rch-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\italic{Mimo dobu velikonoční:}
@@ -1685,7 +1737,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -1761,6 +1813,40 @@
     % V
     \neviditelna a
     a4 a a( bes) a a a a \mark\sipka g a g g \barMin g f g a a( g) \barMax
+    % R
+    \neviditelna a
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % Slava
+    \respVIdoxologie \barFinalis
+  }
+  \addlyrics {
+    \Response Spra -- ved -- li -- ví ži -- jí na -- vě -- ky,_*
+    do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \Verse Je -- jich jmé -- no ne -- bu -- de vy -- ma -- zá -- no
+    z_kni -- hy ži -- vo -- ta,_*
+    \Response do -- sáh -- li věč -- né od -- mě -- ny v_ne -- bi.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "VI"
+    id = "rch-resp"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna f
+    f4 f f f g f g a a( g) \barMax
+    g( a) g g \barMin g f d f g g( f) f \barFinalis
+    % V
+    \neviditelna a
+    a4 a a( bes) a a a a g a g g \barMin g f g \mark\sipka g( a) a( g) \barMax
     % R
     \neviditelna a
     g( a) g g \barMin g f d f g g( f) f \barFinalis
