@@ -403,10 +403,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 a g a c b a c( d) d d \barMin
-    d c d e( d) d \barMaior
-    d d( e c d) c( b) \barMin c a g( a) g f g a a g g \barMaior
-    a b c a( g) f( g) g \barFinalis
+    a4 a a a c b a c( d) e( d) d \barMin
+    e f e d( c d) d \barMaior
+    d e( d c d) d( c) \barMin b c a( g) g f g a a g g \barMaior
+    a-- b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Jest -- li -- že se zlo -- či -- nec od -- vrá -- tí
@@ -428,10 +428,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    f4 e f d d \barMaior
+    d4 c e( f) d d \barMaior
     f g a g f g f e f d c c \barMin
     d e f g a g f( g) \barMaior
-    f d d f e c( d) d \barFinalis
+    f e d e d c( d) d \barFinalis
   }
   \addlyrics {
     A -- men, pra -- vím vám:
@@ -455,8 +455,8 @@
     \choralniRezim
     d4 d d c d e d e f d( c) c \barMaior
     f( g a bes) a \barMin a g a g f f g g \barMaior
-    a a g f e f d( c) c \barMin
-    d c d f e c c( d) d \barFinalis
+    a a g f e f d d \barMin
+    c d f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Ne kaž -- dý, kdo mi ří -- ká Pa -- ne, Pa -- ne,

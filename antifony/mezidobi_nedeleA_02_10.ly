@@ -550,8 +550,8 @@
     \choralniRezim
     d4 d d c d e d e f d( c) c \barMaior
     f( g a bes) a \barMin a g a g f f g g \barMaior
-    a a g f e f d( c) c \barMin
-    d c d f e c c( d) d \barFinalis
+    a a g f e f d d \barMin
+    c d f f e c c( d) d \barFinalis
   }
   \addlyrics {
     Ne kaž -- dý, kdo mi ří -- ká Pa -- ne, Pa -- ne,

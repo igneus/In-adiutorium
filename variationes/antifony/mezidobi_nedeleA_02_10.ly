@@ -3425,7 +3425,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d c d e d e f d( c) c \barMaior
     f( g a bes) a \barMin a g a g f f g g \barMaior
@@ -3476,6 +3476,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 d d c d e d e f d( c) c \barMaior
     f( g a bes) a \barMin a g a g f f g g \barMaior

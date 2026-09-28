@@ -3113,12 +3113,63 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a g a c b a \mark\sipka c( d) d d \barMin
     d c d e( d) d \barMaior
     d d( e c d) c( b) \barMin c a g( a) g f g a a g g \barMaior
     a b c a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že se zlo -- či -- nec od -- vrá -- tí
+    od svých zlých skut -- ků
+    a jed -- ná po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    sám se -- be za -- chrá -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne26a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a a c b a c( d) e( d) d \barMin
+    e f e d( c d) d \barMaior
+    d c( b) a( g) \barMin a a a( c) a a b c a g g \barMaior
+    a-- b c a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Jest -- li -- že se zlo -- či -- nec od -- vrá -- tí
+    od svých zlých skut -- ků
+    a jed -- ná po -- dle prá -- va a spra -- ve -- dl -- nos -- ti,
+    sám se -- be za -- chrá -- ní.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "a"
+    psalmus = ""
+    annus = "A"
+    id = "ne26a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a a c b a c( d) e( d) d \barMin
+    e f e d( c d) d \barMaior
+    d \mark\sipka e( d c d) d( c) \barMin b c a( g) g f g a a g g \barMaior
+    a-- b c a( g) f( g) g \barFinalis
   }
   \addlyrics {
     Jest -- li -- že se zlo -- či -- nec od -- vrá -- tí
@@ -3219,12 +3270,38 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4 e f d d \barMaior
     \mark\sipka f g a g f g f e f d c c \barMin
     d e f g a g f( g) \barMaior
     f d d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    A -- men, pra -- vím vám:
+    Cel -- ní -- ci a ne -- věst -- ky vás před -- chá -- ze -- jí
+    do Bo -- ží -- ho krá -- lov -- ství,
+    pro -- to -- že u -- vě -- ři -- li.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne26a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 c e( f) d d \barMaior
+    f g a g f g f e f d c c \barMin
+    d e f g a g f( g) \barMaior
+    \mark\sipka f e d e d c( d) d \barFinalis
   }
   \addlyrics {
     A -- men, pra -- vím vám:
