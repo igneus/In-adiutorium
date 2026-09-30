@@ -362,7 +362,9 @@
   }
 }
 
-\markup\italic{Responsorium jako v 1. nešporách.}
+\markup\italic\chant-ref "2ne-r" "sanktoral/0928vaclav.ly#1ne-r" {
+  Responsorium jako v 1. nešporách.
+}
 
 \score {
   \relative c' {
