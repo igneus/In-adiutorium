@@ -94,7 +94,7 @@
     g4 d f g a( g) f( g) g \barMin
     a c c b a g( a) g g \barMaior
     c c d c b( c) a \barMaior
-    a g f g( a) a \barMin
+    g f g g( a) a \barMin
     c c b a b c a g a g g \barFinalis
   }
   \addlyrics {
@@ -147,7 +147,7 @@
   \relative c' {
     \choralniRezim
     c4 d d( f) f \barMin
-    f f g f g g a a \barMaior
+    f f g f g g( a) g g \barMaior
     a a a a( c) a g( a) a \barMin g a a g f e( f) d d \barMax
     d4( a' g) a \barMin c( b a b) a \barMin g( f d e) e( d) \barFinalis
   }
@@ -223,7 +223,7 @@
     g f g g( a) g \barMin f d f g g( f) f \barFinalis
     % V
     \neviditelna a
-    a4( bes) a a g( a) g \barMin g f g g( a) a( g) \barMax
+    a4 a a g( a) g g f g g( a) a( g) \barMax
     % R
     \neviditelna a
     g f g g( a) g \barMin f d f g g( f) f \barFinalis
@@ -345,11 +345,11 @@
 \markup {\nadpisHodinka {"nešpory"}}
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    a4 b c d c \barMin
-    d e c d c a \barMin
-    g( f) a a g g \barFinalis
+    d4 e f g f \barMin
+    g a f g f d \barMin
+    d( e) c c d d \barFinalis
   }
   \addlyrics {
     Svou ve -- leb -- nos -- tí
@@ -358,10 +358,9 @@
   }
   \header {
     quid = "1. ant."
-    modus = "VII"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = "Žalm 8"
-    placet = "2 začátek nevím"
     id = "ne-a1"
     piece = \markup {\sestavTitulek}
   }
