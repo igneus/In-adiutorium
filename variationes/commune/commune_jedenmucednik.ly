@@ -476,6 +476,34 @@
   }
 }
 
+\markup{
+  (divisiones)
+}
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f g g a g f f( g) g \barMin g( a g f) d d g f d( c) c \barMaior
+    d c d f f g f a( g) g \barMaior a( bes a) g( f) d \barMin d e c c d d \barFinalis
+
+    e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Ja -- ko se na nás ze všech stran va -- lí Kris -- to -- vo u -- tr -- pe -- ní,
+    tak se nám ta -- ké skr -- ze Kris -- ta
+    do -- stá -- vá vše -- stran -- né ú -- tě -- chy.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "1Petr 2"
+    id = "1ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \markup\justify{
