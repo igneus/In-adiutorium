@@ -33,7 +33,7 @@ zalmXCVtonusID = \score {
     a a \bar "" a g f \bar "" e d \bar "" c( d) d( e4. d) \strofa
 
     % Kez byste dnes
-    c4 \bar "" d( a') a \bar "" a \bar "" a a a a \bar "" a g \bar "" a( bes a) a \barMax
+    d4 \bar "" d c \bar "" d \bar "" d( a' bes) a g( a) a g a \bar "" a( bes a) a \barMax
     f g a a a \bar "" a \bar "" a a \bar "" a g \bar "" a( bes) a( g) a \barMax
     a a \bar "" a a \bar "" g f \bar "" e( d) e d \barMax
     f \bar "" g \bar "" a a a \bar "" a g \bar "" a( bes) a( g) a \barMax
@@ -61,7 +61,6 @@ zalmXCVtonusID = \score {
     differentia = "D"
     fons_externus = \markup\justify{volně podle \italic{Antiphonarium Cisterciense,} Westmalle: Typographia ordinis cisterciensium strictioris observantiae 1947, 271*nn.}
     piece = \markup\sestavTitulekBezZalmu
-    placet = "ta kvintová pes na _byste_ je důrazná pěst na oko"
     id = "i-d"
   }
 }

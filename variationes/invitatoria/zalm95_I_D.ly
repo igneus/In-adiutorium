@@ -64,6 +64,7 @@ strofa = { \barFinalis \break }
     differentia = "D"
     fons_externus = \markup\justify{volně podle \italic{Antiphonarium Cisterciense,} Westmalle: Typographia ordinis cisterciensium strictioris observantiae 1947, 271*nn.}
     piece = \markup\sestavTitulekBezZalmu
+    placet = "ta kvintová pes na _byste_ je důrazná pěst na oko"
     id = "i-d"
   }
 }
@@ -73,6 +74,16 @@ strofa = { \barFinalis \break }
     \zvyraznovacZelenyII
     \choralniRezim
     \mark\sipka d4( a' bes) \bar "" a a \bar "" a \bar "" a a a a \bar "" a g \bar "" a( bes a) a \barMax
+  }
+  \addlyrics {
+    Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- su:
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4( a') \bar "" a( bes) a \bar "" a \bar "" a \bar "" a a a a \bar "" a g \bar "" a( bes a) a \barMax
   }
   \addlyrics {
     Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- su:
@@ -113,7 +124,6 @@ strofa = { \barFinalis \break }
 
 \score {
   \relative c' {
-    \zvyraznovacZelenyII
     \choralniRezim
     d4 \bar "" d c \bar "" d \bar "" d( a' bes) a \mark\sipka g( a) a \barMin g a \bar "" a( bes a) a \barMax
   }
@@ -124,6 +134,7 @@ strofa = { \barFinalis \break }
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     d4 \bar "" d c \bar "" d \bar "" d( a' bes) a g( a) a \mark\sipka g a \bar "" a( bes a) a \barMax
   }
