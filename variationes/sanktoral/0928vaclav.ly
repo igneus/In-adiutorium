@@ -957,9 +957,34 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g \mark\sipka g( a) a \barMaior
+    a c b a c( a) a \barMin
+    a g a g( f) e e \barMaior
+    d f g a( g) g \barFinalis
+  }
+  \addlyrics {
+    V_no -- ci vstá -- val
+    a s_po -- svát -- nou báz -- ní
+    vstu -- po -- val do chrá -- mu,
+    a -- by se mod -- lil.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 \mark\sipka f g( a) a \barMaior
     a c b a c( a) a \barMin
     a g a g( f) e e \barMaior
     d f g a( g) g \barFinalis
@@ -1134,6 +1159,26 @@
     \choralniRezim
     e4 a g d g f e e \barMaior
     d d c d e \mark\sipka e( g) f g e e \barFinalis
+  }
+  \addlyrics {
+    Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
+    a v_něm na -- chá -- zel ra -- dost a sí -- lu.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "E"
+    psalmus = "Žalm 149"
+    id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    e4 a g d g f e e \barMaior
+    d \mark\sipka c d f f g g f e e \barFinalis
   }
   \addlyrics {
     Z_ol -- tá -- ře při -- jí -- mal Kris -- ta
@@ -1700,6 +1745,26 @@
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka d4 f g a( g) f( g) g \barMin
+    a a a a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Za -- čá -- tek moud -- ros -- ti
+    je u -- přím -- ná tou -- ha po -- u -- čit se.
+  }
+  \header {
+    quid = "ant. dopoledne"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "tercie"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     f4 g a f( g) a( g) g \barMin
     a a a a g f f g f f \barFinalis
   }
@@ -2089,9 +2154,82 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4( bes) a a \barMin
+    g a f e f d d \barMaior
+    c d \mark\sipka d( f) f-- f g f( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- do -- pusť,
+    a -- by tě zlo pře -- moh -- lo,
+    a -- le pře -- má -- hej zlo dob -- rem.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4( bes) a a \barMin
+    a a g f g( a) a( g) g \barMaior
+    f e d( e) c-- c d e( d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- do -- pusť,
+    a -- by tě zlo pře -- moh -- lo,
+    a -- le pře -- má -- hej zlo dob -- rem.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \key f \major
+    a4( bes) a a \barMin
+    a a g f g( a) a( g) g \barMaior
+    \mark\sipka a g f( g) d-- d c e( f d) d \barFinalis
+  }
+  \addlyrics {
+    Ne -- do -- pusť,
+    a -- by tě zlo pře -- moh -- lo,
+    a -- le pře -- má -- hej zlo dob -- rem.
+  }
+  \header {
+    quid = "ant. odpoledne"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "nona"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \markup {\nadpisHodinka {"2. nešpory"}}
+
+\markup\justify{
+  (První ze dvou antifon k dělenému žalmu!)
+}
 
 \score {
   \relative c'' {
@@ -2220,6 +2358,50 @@
     quid = "1. ant."
     modus = "VII"
     differentia = "c"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b a g( a) g g \barMaior
+    a a( c d) \barMin e d c d d( c) \barMaior
+    a b c a( g f) a g g \barFinalis
+  }
+  \addlyrics {
+    Byl sta -- teč -- ným vla -- da -- řem
+    a Pán, je -- ho Bůh, byl s_ním
+    a dal mu věč -- nou slá -- vu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
+    psalmus = "Žalm 116-I"
+    id = "2ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 c b a g( a) g g \barMaior
+    a a( c d) \barMin e d c d d( c) \barMaior
+    a b c \mark\sipka a g a( g f g) g \barFinalis
+  }
+  \addlyrics {
+    Byl sta -- teč -- ným vla -- da -- řem
+    a Pán, je -- ho Bůh, byl s_ním
+    a dal mu věč -- nou slá -- vu.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "a"
     psalmus = "Žalm 116-I"
     id = "2ne-a1"
     piece = \markup {\sestavTitulek}
