@@ -142,10 +142,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 e e d
+    d4-- e e d
     c b( c) a( g) g \barMaior
-    a g f g a a \barMin
-    c b a a( b) g g \barFinalis
+    a c b a c b \barMin
+    a g a a( b) g g \barFinalis
   }
   \addlyrics {
     Bůh po -- sí -- lá
@@ -284,6 +284,7 @@
     modus = "VII"
     differentia = "d"
     psalmus = ""
+    placet = "první půlka nevím - když se dobře zazpívá, líbí se mi, ale postup je dost netypický"
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }

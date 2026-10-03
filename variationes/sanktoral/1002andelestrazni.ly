@@ -63,6 +63,29 @@
   \relative c' {
     \choralniRezim
     f4( g) f g a f g g \barMaior
+    g f \mark\sipka g( a g) f d( c) \barMin
+    f g( a) g( f) f \barFinalis
+  }
+  \addlyrics {
+    Chval -- me na -- še -- ho Bo -- ha;
+    on nám po -- sí -- lá
+    své an -- dě -- ly.
+  }
+  \header {
+    quid = "ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = ""
+    fial = "sanktoral/0125obracenipavla.ly#invit?zacatek"
+    id = "invit"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4( g) f g a f g g \barMaior
     \mark\sipka bes a g( a) g g \barMin
     f g( a) g( f) f \barFinalis
   }
@@ -746,7 +769,56 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    d4-- e e d
+    c b( c) a( g) g \barMaior
+    a c b \mark\sipka a c b \barMin
+    a b c a( g) f( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
+    \choralniRezim
+    d4-- e e d
+    c b( c) a( g) g \barMaior
+    a c b a c b \barMin
+    a \mark\sipka g a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     d4 e e d
     c b( c) a( g) g \barMaior
@@ -845,6 +917,56 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4 e e d
+    c d( e) e( d) d \barMaior
+    d c b \mark\sipka a( b) g g \barMin
+    a g f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "sanktoral/1002andelestrazni.ly#rch-a2?cast=1"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 e e d
+    c d( e) e( d) d \barMaior
+    d c b a( b) g g \barMin
+    \mark\sipka f g a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    fial = "sanktoral/1002andelestrazni.ly#rch-a2?cast=1"
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4 c( d) c c \barMin
     a c( b) a( g) g \barMaior
     a g f g a a \barMin
@@ -860,6 +982,79 @@
     quid = "ant. k Benedictus"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( e) d d \barMin
+    c( a) b( c) a( g) g \barMaior
+    a g f g a a \barMin
+    c b a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    d4 d( e) d d \barMin
+    \mark\sipka b c( d) a( g) g \barMaior
+    a g f g a a \barMin
+    c b a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
+    psalmus = ""
+    id = "rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    d4 d( e) d \mark\sipka d( c a) \barMin
+    a b( c) a( g) g \barMaior
+    a g f g a a \barMin
+    c b a a( b) g g \barFinalis
+  }
+  \addlyrics {
+    Bůh po -- sí -- lá
+    své an -- dě -- ly,
+    a -- by nás chrá -- ni -- li
+    na ces -- tě ke spá -- se.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -1416,6 +1611,28 @@
     quid = "ant. k Magnificat"
     modus = "VII"
     differentia = "c"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    \mark\sipka d4 b d e e( d) \barMin
+    c b a( g) g \barMaior
+    f g a( c) c b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Je -- jich an -- dě -- lé
+    stá -- le hle -- dí
+    na tvář mé -- ho ne -- bes -- ké -- ho Ot -- ce.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VII"
+    differentia = "d"
     psalmus = ""
     id = "ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
