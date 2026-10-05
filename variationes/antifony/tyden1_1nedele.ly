@@ -747,6 +747,27 @@ je atypická a může bt těžké z ní přejít na žalm.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a f e d e e \barMaior
+    f g a a g a a( b) g g \barMin
+    a( g) f( e) e \barFinalis
+  }
+  \addlyrics {
+    Pán Je -- žíš se po -- ní -- žil, pro -- to ho ta -- ké Bůh
+    po -- vý -- šil na -- vě -- ky.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "IV"
+    differentia = "g"
+    psalmus = "Flp 2"
+    id = "1ne-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
