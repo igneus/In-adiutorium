@@ -481,10 +481,10 @@
 \score {
   \relative c' {
     \choralniRezim
-    e4 e e f e d e f e e \barMaior
+    d4 e f f e d e f e e \barMaior
     e( a) a g a e e \barMin
     d e f g f d e e \barMaior
-    f( g a) g f g g e e \barFinalis
+    d d( a') a a g( f g) f e \barFinalis
   }
   \addlyrics {
     Když se při -- blí -- ži -- lo vi -- no -- bra -- ní,
@@ -531,10 +531,10 @@
 \score {
   \relative c'' {
     \choralniRezim
-    g4 g g g a a g a g( f g) g( f) f \barMaior
-    a b c( d) c a( b) a a \barMax
-    c b c d d( c) \barMaior
-    c c c b g a g f a a g g \barFinalis
+    g4 g g g a a g f g( a) g g \barMin
+    a b c c c( d) c( a) a \barMaior
+    c b c d d( c) \barMin
+    c c c b g g g a g f g g \barFinalis
   }
   \addlyrics {
     Ká -- men,

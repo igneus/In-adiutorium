@@ -3560,12 +3560,38 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     e4 e \mark\sipka e f e d e f e e \barMaior
     e( a) a g a e e \barMin
     d e f g f d e e \barMaior
     f( g a) g f g g e e \barFinalis
+  }
+  \addlyrics {
+    Když se při -- blí -- ži -- lo vi -- no -- bra -- ní,
+    po -- slal pán vi -- ni -- ce
+    k_vi -- na -- řům své slu -- žeb -- ní -- ky
+    vy -- zved -- nout z_ní vý -- tě -- žek.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "E"
+    psalmus = ""
+    annus = "A"
+    id = "ne27a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka d4 e f f e d e f e e \barMaior
+    e( a) a g a e e \barMin
+    d e f g f d e e \barMaior
+    \mark\sipka d d( a') a a g( f g) f e \barFinalis
   }
   \addlyrics {
     Když se při -- blí -- ži -- lo vi -- no -- bra -- ní,
@@ -3636,6 +3662,10 @@
   }
 }
 
+\markup\justify{
+  Tato verze je výrazně zpěvnější,
+  ale dosavadní svým celkovým rázem lépe odpovídá tomu, o čem se zpívá.
+}
 \score {
   \relative c' {
     \zvyraznovacZeleny
@@ -3644,6 +3674,31 @@
     \mark\sipka a( bes) a g f g g \barMin
     f g f e d c d c \barMaior
     d f e d c d d \barFinalis
+  }
+  \addlyrics {
+    Když se při -- blí -- ži -- lo vi -- no -- bra -- ní,
+    po -- slal pán vi -- ni -- ce
+    k_vi -- na -- řům své slu -- žeb -- ní -- ky
+    vy -- zved -- nout z_ní vý -- tě -- žek.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    id = "ne27a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d f f e d f g a g \barMaior
+    a( bes) a g f g g \barMin
+    f g f e d c d c \barMaior
+    \mark\sipka d d f e d( e) d d \barFinalis
   }
   \addlyrics {
     Když se při -- blí -- ži -- lo vi -- no -- bra -- ní,
@@ -3802,7 +3857,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka g4 g g g a a g a g( f g) g( f) f \barMaior
     a b c( d) c a( b) a a \barMax
@@ -3860,6 +3915,85 @@
     a b c a g( a) g g \barMaior
     c b c d d( c) \barMaior
     c c c b g a g f a a g g \barFinalis
+  }
+  \addlyrics {
+    Ká -- men,
+    kte -- rý sta -- vi -- te -- lé od -- vrh -- li,
+    stal se kvád -- rem ná -- rož -- ním.
+    U -- či -- nil to Pán
+    a v_na -- šich o -- čích je to po -- di -- vu -- hod -- né.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne27a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a a g f \mark\sipka g( a) a( g) g \barMin
+    a b c c c( d) c( a) a \barMaior
+    c b c d d( c) \barMin
+    c c c b g g g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Ká -- men,
+    kte -- rý sta -- vi -- te -- lé od -- vrh -- li,
+    stal se kvád -- rem ná -- rož -- ním.
+    U -- či -- nil to Pán
+    a v_na -- šich o -- čích je to po -- di -- vu -- hod -- né.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne27a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    g4 g g g a a g f g( a) \mark\sipka g g \barMin
+    a b c c c( d) c( a) a \barMaior
+    c b c d d( c) \barMin
+    c c c b g g g a g f g g \barFinalis
+  }
+  \addlyrics {
+    Ká -- men,
+    kte -- rý sta -- vi -- te -- lé od -- vrh -- li,
+    stal se kvád -- rem ná -- rož -- ním.
+    U -- či -- nil to Pán
+    a v_na -- šich o -- čích je to po -- di -- vu -- hod -- né.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "G"
+    psalmus = ""
+    annus = "A"
+    id = "ne27a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g g g a a g f g( a) g g \barMin
+    a b c c c( d) c( a) a \barMaior
+    c \mark\sipka c b a g( a g4.) \barMin
+    g4 g g a a g f g a a g g \barFinalis
   }
   \addlyrics {
     Ká -- men,
