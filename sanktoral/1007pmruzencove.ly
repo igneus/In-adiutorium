@@ -37,12 +37,12 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    d4 b c( b) a \barMin
-    c d e d d \barMaior
-    d b( c) c( b) b \barMin
-    a g a c b a g g \barFinalis
+    c4 d d( f) f \barMin
+    g f e d d \barMaior
+    f e( f) d( c) c \barMin
+    d c d f e c d d \barFinalis
   }
   \addlyrics {
     S_te -- bou, Mat -- ko,
@@ -52,8 +52,8 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "d"
+    modus = "II"
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}

@@ -188,7 +188,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 b c( b) a \barMin
     c d e d d \barMaior
@@ -205,6 +205,57 @@
     quid = "2. ant."
     modus = "VII"
     differentia = "d"
+    psalmus = "Dan 3-III"
+    placet = "melodie sama o sobě je pěkná, struktuře a zvukovým vlastnostem
+    textu dobře odpovídající, ale její ráz neodpovídá tomu, o čem se zpívá"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    c4 d d( f) f \barMin
+    g f e d d \barMaior
+    f e( f) d( c) c \barMin
+    d c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    S_te -- bou, Mat -- ko,
+    chvá -- lí -- me Pá -- na;
+    když u -- mí -- ral,
+    svě -- řil nás do tvé o -- chra -- ny.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    \mark\sipka d4 e f( d) d \barMin
+    c d e d d \barMaior
+    f e( f) d( c) c \barMin
+    d c d f e c d d \barFinalis
+  }
+  \addlyrics {
+    S_te -- bou, Mat -- ko,
+    chvá -- lí -- me Pá -- na;
+    když u -- mí -- ral,
+    svě -- řil nás do tvé o -- chra -- ny.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Dan 3-III"
     id = "rch-a2"
     piece = \markup {\sestavTitulek}
