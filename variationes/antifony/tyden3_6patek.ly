@@ -1096,6 +1096,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    d4( f) e c c d d \barMaior
+    a g a \barMin a \mark\sipka b c a a g g \barFinalis
+  }
+  \addlyrics {
+    Vel -- ký je Hos -- po -- din
+    a náš Pán je na -- de vše -- mi Bo -- hy.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 135-I"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     d4 a c d d d4. \barMin e4 d c b c a( g) g \barMaior
     a( d) b( c) a g \mark\sipka f a a( g) g \barFinalis
   }
