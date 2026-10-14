@@ -365,6 +365,26 @@
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d c d e d d \barMaior
+    f f g g f d c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bra -- tr, kte -- ré -- mu  po -- má -- há bra -- tr,
+    je jak o -- pev -- ně -- né měs -- to.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
