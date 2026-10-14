@@ -610,11 +610,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d c d d d f e d e d d \barMaior
+    d4 d c d f f f g f e f d d \barMaior
     a' a a( c) a a \barMin a g f g g( a) a \barMax
     a b c c d c b( a) a \barMin
-    a g a g f e e \barMaior
-    d c e( f) d d \barFinalis
+    a g a g f e d( c) \barMaior
+    d f e( f) d d \barFinalis
   }
   \addlyrics {
     Sva -- teb -- ní hos -- ti -- na je si -- ce při -- pra -- ve -- na,
