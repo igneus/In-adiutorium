@@ -66,6 +66,33 @@
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c( d) d \barMin
+    c d e c d d \barMaior
+    \mark\sipka a d c( b a) a \barMin
+    f g a c b g a \barFinalis
+  }
+  \addlyrics {
+    Hle -- dám to -- ho,
+    kte -- rý pro nás ze -- mřel,
+    tou -- žím po tom,
+    kte -- rý pro nás
+    % vstal z_mrt -- vých.
+    z_mrt -- vých vstal. % zda se mi zpevnejsi
+  }
+  \header {
+    textus_approbatus = "Hledám toho, který pro nás zemřel, toužím po tom, který pro nás vstal z mrtvých."
+    quid = "ant. k Benedictus"
+    modus = "IV alt"
+    differentia = "A"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
 \pageBreak
 
 \score {
