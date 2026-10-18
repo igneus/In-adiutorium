@@ -72,9 +72,8 @@ celebrations = day.celebrations.dup.tap do |cs|
 end
 celebration = celebrations.yield_self do |cs|
   default = cs.first
-  if cs.size == 1
-    cs.first
-  elsif not options[:interaction]
+  if cs.size == 1 || !options[:interaction]
+    puts default
     default
   else
     HighLine.new.choose do |c|
