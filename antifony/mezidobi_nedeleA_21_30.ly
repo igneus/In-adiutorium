@@ -641,9 +641,9 @@
     \choralniRezim
     g4( a) a \barMin
     a a g a b g a a \barMaior
-    a a b a
-    g f e e
-    d f f( e) e \barFinalis
+    a a g( a) e \barMin
+    f g a g
+    f e d( e) e \barFinalis
   }
   \addlyrics {
     Mis -- tře,
@@ -667,8 +667,8 @@
 \score {
   \relative c'' {
     \choralniRezim
-    a4 g f g( a) g g \barMin
-    f g g( f) f \barFinalis
+    a4 g f g( a bes) a g( a) \barMin
+    g f g( f) f \barFinalis
   }
   \addlyrics {
     Dá -- vej -- te kaž -- dé -- mu,
