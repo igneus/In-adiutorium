@@ -1072,6 +1072,46 @@ je atypická a může bt těžké z ní přejít na žalm.}
   }
 }
 
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) \barMin
+    f g g f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův kříž
+    je pro nás stro -- mem ži -- vo -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 1"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) \barMin
+    f \mark\sipka e c f e d( e) d d \barFinalis
+  }
+  \addlyrics {
+    Kris -- tův kříž
+    je pro nás stro -- mem ži -- vo -- ta.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 1"
+    id = "mc-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \pageBreak
 
 \score {
