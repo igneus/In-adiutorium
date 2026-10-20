@@ -27,7 +27,7 @@ zalmXCVtonusID = \score {
 
     % Pojdme, padneme
     d4( a' bes) a \bar "" a a g \bar "" a( bes) a( g) a \barMax
-    a a a a \bar "" g f \bar "" g( a) g4.( f) \bar "" e4( c) g'( f) e( d e) d \barMax
+    a a a a \bar "" g f \bar "" g( a) g( f) \barMin e4( c) g'( f) e( d e) d \barMax
     f g( a) \bar "" a( bes) \bar "" a \bar "" a( g) \bar "" a \barMax
     f \bar "" g( a) \bar "" a \bar "" a \bar "" a g \bar "" a( bes a) a \barMin
     a a \bar "" a g f \bar "" e d \bar "" c( d) d( e4. d) \strofa

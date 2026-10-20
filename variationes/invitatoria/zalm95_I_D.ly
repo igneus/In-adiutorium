@@ -69,6 +69,22 @@ strofa = { \barFinalis \break }
   }
 }
 
+\markup\justify{
+  (úprava notačních konvencí, ne nápěvu)
+}
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( a' bes) a \bar "" a a g \bar "" a( bes) a( g) a \barMax
+    a a a a \bar "" g f \bar "" g( a) \mark\sipka g( f) \barMin e4( c) g'( f) e( d e) d \barMax
+  }
+  \addlyrics {
+    Pojď -- me, pad -- ně -- me, klaň -- me se,
+    po -- klek -- ně -- me před svým tvůr -- cem, Hos -- po -- di -- nem!
+  }
+}
+
 \score {
   \relative c' {
     \zvyraznovacZelenyII
