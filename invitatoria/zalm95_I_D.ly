@@ -50,7 +50,7 @@ zalmXCVtonusID = \score {
     d4( a' bes) a \bar "" a( bes) a \bar "" g \bar "" g( a) a \barMax
     a \bar "" g f \bar "" g( f) e( d e) d \barMax
     f g \bar "" a a \bar "" a a a a \bar "" a \bar "" a( bes) a \bar "" g g( a) a \barMax
-    a \bar "" a( bes) a a \bar "" f( g) f( e d) \barMin c( d) d( e4. d) \strofa
+    a \bar "" a( bes) a a \bar "" f( g) f( e d) \bar "" c( d) d( e4. d) \strofa
   }
   \addlyrics {
     \zalmXCVtextBezZnamenek

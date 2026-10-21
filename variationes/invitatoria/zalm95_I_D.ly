@@ -158,3 +158,18 @@ strofa = { \barFinalis \break }
     Kéž bys -- te dnes u -- po -- slech -- li je -- ho hla -- su:
   }
 }
+
+\markup\justify{
+  (Divisio pryč - už léta jsem zvyklý ji ignorovat a zapomněl jsem, že tam je.
+  V předloze také není.)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a \bar "" a( bes) a a \bar "" f( g) f( e d) \mark\sipka \bar "" c( d) d( e4. d) \strofa
+  }
+  \addlyrics {
+    a na vě -- ky vě -- ků. A -- men.
+  }
+}
