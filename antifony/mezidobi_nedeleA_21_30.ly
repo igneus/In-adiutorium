@@ -712,7 +712,7 @@
   \relative c' {
     \choralniRezim
     d4 d c( d) d \barMin d( e) f d d \barMin
-    e d c c( d) d \barMaior
+    c a c c( d) d \barMaior
     d e f f( g f) e \barMin
     d f d c c( d) d \barFinalis
   }
@@ -728,7 +728,7 @@
     differentia = "D"
     psalmus = ""
     annus = "A"
-    fial = "antifony/mezidobi_nedeleB_31_33.ly#ne31b-1ne-mag?zacatek&zjednoduseno"
+    fial = "antifony/mezidobi_nedeleB_31_33.ly#ne31b-1ne-mag?cast=1-3"
     placet = "snad ujde, ale významný text si zaslouží něco práce na pokusech o ještě lepší"
     id = "ne30a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
@@ -751,6 +751,7 @@
     differentia = "F"
     psalmus = ""
     annus = "A"
+    placet = "nic moc"
     id = "ne30a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
