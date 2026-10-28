@@ -2127,6 +2127,28 @@ Potřebuje výraznější úpravu:}
 \score {
   \relative c'' {
     \choralniRezim
+    g4( a) a( c) c \barMin c( d) c c( b g) \barMin
+    a g f g( a g) g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv
+    na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     g4 f a c c b \barMaior
     c c c a g
     f a g g \barFinalis
@@ -2229,6 +2251,28 @@ Potřebuje výraznější úpravu:}
     quid = "2. ant."
     modus = "VIII"
     differentia = "G*"
+    psalmus = "Dan 3"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c c( d) c c( b c) \barMin
+    a b a g g \barMaior
+    a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Zpí -- vej -- me chva -- lo -- zpěv
+    na -- še -- mu Bo -- hu.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
     psalmus = "Dan 3"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
