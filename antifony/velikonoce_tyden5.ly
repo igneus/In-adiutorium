@@ -447,11 +447,11 @@
 \score {
   \relative c' {
     \choralniRezim
-    d4 d d4.( f4 g) a g a a \barMaior
+    d4 d c f g f( a) a \barMaior
     a( c) a g f g( f) d d \barMin
     d c d f( g f) \barMin g( f) e f d \barMaior
 
-    e4 f d d \barFinalis
+    e4 f d( c) d \barFinalis
   }
   \addlyrics {
     To je mé při -- ká -- zá -- ní:
@@ -476,7 +476,7 @@
     \choralniRezim
     \key f \major
     d f g( a) a a( g) a c( bes) a g g( a) \barMaior
-    a bes a g( a) f( d) d \barMin e( d c) d( f) e c d d \barMaior
+    a bes a g( a) f( d) d \barMin f e c e( f) d d \barMaior
     e f d( c) d \barFinalis
   }
   \addlyrics {

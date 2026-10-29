@@ -1968,7 +1968,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d4.( f4 g) a g a a \barMaior
     a( c) a g f g( f) d d \barMin
@@ -1991,6 +1991,37 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     id = "rch-a1"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
     fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast=1-4"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 \mark\sipka d c f g f( a) a \barMaior
+    a( c) a g f g( f) d d \barMin
+    d c d f( g f) \barMin g( f) e f d \barFinalis
+
+    \mark\sipka e4^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    To je mé při -- ká -- zá -- ní:
+    Mi -- luj -- te se na -- vzá -- jem,
+    ja -- ko jsem já mi -- lo -- val vás.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Žalm 63"
+    id = "rch-a1"
+    fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 1. část; dopl. aleluja"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast&+aleluja"
     piece = \markup {\sestavTitulek}
   }
 }
@@ -2025,7 +2056,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     d f g( a) a a( g) a c( bes) a g g( a) \barMaior
@@ -2047,6 +2078,36 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
     id = "rch-a2"
     fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 2. část"
     fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    \key f \major
+    d f g( a) a a( g) a c( bes) a g g( a) \barMaior
+    a bes a g( a) f( d) d \barMin f e c e( f) d d \barMaior
+
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Ni -- kdo ne -- má vět -- ší lás -- ku než ten,
+    kdo za své přá -- te -- le po -- lo -- ží svůj ži -- vot.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    fons = "6. neděle velikonoční, B, 2. nešp., ant. k Magnificat, 2. část"
+    fial = "antifony/velikonoce_nedeleB.ly#vimag2?cast=1-3,4"
     piece = \markup {\sestavTitulek}
   }
 }
