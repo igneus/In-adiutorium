@@ -169,9 +169,9 @@
     d4 d c f g g( a) a \barMin
     a g f g( a) g \barMin
     a a g f e f d( c) c \barMaior
-    d d d f e d c( d) d \barFinalis
+    d d d4. f e4 d c( d) d \barFinalis
 
-    e^\markup\rubrVelikAleluja f d d \barFinalis
+    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Ty jsi kněz nej -- vyš -- ší -- ho,

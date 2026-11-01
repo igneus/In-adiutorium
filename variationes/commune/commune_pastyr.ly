@@ -827,7 +827,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c f g g( a) a \barMin
     a g f g( a) g \barMin
@@ -835,6 +835,35 @@
     d d d f e d c( d) d \barFinalis
 
     e^\markup\rubrVelikAleluja f d d \barFinalis
+  }
+  \addlyrics {
+    Ty jsi kněz nej -- vyš -- ší -- ho,
+    zr -- cad -- lo ctnos -- ti,
+    do -- brý pas -- týř své -- ho li -- du:
+    v_to -- bě má Bůh za -- lí -- be -- ní.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    id = "1ne-amag1"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d c f g g( a) a \barMin
+    a g f g( a) g \barMin
+    a a g f e f d( c) c \barMaior
+    d d \mark\sipka d4. f e4 d c( d) d \barFinalis
+
+    \mark\sipka e^\markup\rubrVelikAleluja f d( c) d \barFinalis
   }
   \addlyrics {
     Ty jsi kněz nej -- vyš -- ší -- ho,
