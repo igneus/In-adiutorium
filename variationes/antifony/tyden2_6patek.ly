@@ -2349,6 +2349,26 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 a a c b c a( g) \barMaior
+    f g g( a) a \barMin c c b g( a) a \barFinalis
+  }
+  \addlyrics {
+    Náš Bůh je mi -- lo -- srd -- ný,
+    po -- mo -- hl mi, když jsem byl v_bí -- dě.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "II"
+    differentia = "A"
+    psalmus = "Žalm 116"
+    id = "ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     d4 d d f e d c \barMin

@@ -1049,9 +1049,64 @@
 
 \score {
   \relative c'' {
+    \choralniRezim
+    c4 b a c \mark\sipka a b g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 b a( g) \barMin f g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
     \zvyraznovacModry
     \choralniRezim
     c4( d) d c \barMin
+    a c b g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 c c( d c) \barMin
     a c b g g \barFinalis
   }
   \addlyrics {
@@ -1079,6 +1134,60 @@
     quid = "2. ant."
     modus = "VIII"
     differentia = "c"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a a g a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g a g f a a( g) g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 d f e d e d d \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
     psalmus = "Dt 32"
     id = "rch-ant2"
     piece = \markup {\sestavTitulek}
@@ -1165,6 +1274,43 @@
     \choralniRezim
     f4 a c \barMin
     c a b g g \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 a c \barMin
+    d b c a( g f) f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "V"
+    differentia = "a"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a c b a b g g \barFinalis
   }
   \addlyrics {
     Vzdej -- te čest na -- še -- mu Bo -- hu.
@@ -1392,6 +1538,26 @@
 }
 
 \score {
+  \relative c'' {
+    \zvyraznovacZelenyII
+    \choralniRezim
+    a4( g) a f \barMin
+    d f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     \mark\sipka d4 f g \barMin
@@ -1434,6 +1600,24 @@
     \choralniRezim
     f4 g a \barMin
     g f g g( f) f \barFinalis
+  }
+  \addlyrics {
+    Vzdej -- te čest na -- še -- mu Bo -- hu.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Dt 32"
+    id = "rch-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f g f f \barFinalis
   }
   \addlyrics {
     Vzdej -- te čest na -- še -- mu Bo -- hu.
