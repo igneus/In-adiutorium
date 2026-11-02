@@ -268,7 +268,7 @@
     quid = "resp."
     modus = "I"
     placet = "zkusit tradiční nápěv"
-    fial = "pust_svatytyden.ly#ne-resp?cast=9-10&zanedbat=delky"
+    fial = "pust_svatytyden.ly#ne-resp?cast=9-10&ignoruj=delky"
     id = "ne-r"
     piece = \markup {\sestavTitulekResp}
   }
