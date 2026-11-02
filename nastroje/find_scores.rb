@@ -49,6 +49,8 @@ matches_conditions = lambda do |x|
   score = x
   header = x.header
   music = x.music
+  lyrics = x.lyrics_readable
+  lyrics_raw = x.lyrics_raw
   fial = x.header['fial']&.yield_self {|f| FIAL.parse f }
 
   header_values <= x.header &&
