@@ -78,7 +78,7 @@
     psalmus = ""
     annus = "A"
     placet = "takhle je to o něco lepší, ale šev po _služebníkem_ je stále hodně nestandardní"
-    fial = "sanktoral/0725jakub.ly#ne-amag?zacatek"
+    fial = "sanktoral/0725jakub.ly#ne-amag?cast=1-2&ignoruj=opakovani"
     id = "ne31a-2ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
