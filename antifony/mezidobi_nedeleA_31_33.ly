@@ -23,6 +23,7 @@
     psalmus = ""
     annus = "A"
     fial = "antifony/pust_tyden2.ly#ut-amag?zacatek=7"
+    placet = "2 slabší; klidně se oddělit od zdroje"
     id = "ne31a-1ne-amag"
     piece = \markup {\sestavTitulekBezZalmu}
   }
