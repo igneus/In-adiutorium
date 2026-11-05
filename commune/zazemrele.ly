@@ -374,7 +374,7 @@
     f( d) d f e d d \barFinalis
   }
   \addlyrics {
-    Bu -- deš -- -li u -- cho -- vá -- vat
+    Bu -- deš -li u -- cho -- vá -- vat
     v_pa -- mě -- ti vi -- ny, Hos -- po -- di -- ne,
     Pa -- ne, kdo ob -- sto -- jí?
   }
@@ -461,7 +461,7 @@
     \neviditelna a
     e d \barMin d c d f e d( e) e \barFinalis
     % Slava
-    d e e( a) a g a( b a) a \barMin a g f d( e) e e \barFinalis
+    e4( a b) a g( a) g f d( e) e \barMin d c d d( f) e e \barFinalis
   }
   \addlyrics {
     \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*
@@ -483,8 +483,8 @@
     \choralniRezim
     a4 a bes a g f g g( a) a \barMin
     g( a) g f( d) d \barMaior
-    d d c( d) d f( e f g) g \barMaior
-    a g f( d) d f e d d \barFinalis
+    c d f f g( f a g) g \barMaior
+    a g f( d) d f e d-- d \barFinalis
   }
   \addlyrics {
     Kaž -- dý, ko -- ho mi O -- tec dá -- vá,

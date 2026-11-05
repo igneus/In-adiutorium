@@ -1069,7 +1069,7 @@
     modus = "II"
     differentia = "D"
     psalmus = ""
-    fial = "antifony/tyden1_4streda.ly#up-ant3?zacatek=7&konec=5"
+    fial = "antifony/tyden1_4streda.ly#up-ant3?zacatek=7&konec=6"
     id = "tercie"
     piece = \markup {\sestavTitulekBezZalmu}
   }
@@ -2289,7 +2289,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
 
     % R
@@ -2304,6 +2304,39 @@
     e d \barMin d c d f e d( e) e \barFinalis
     % Slava
     d e e( a) a g a( b a) a \barMin a g f d( e) e e \barFinalis
+  }
+  \addlyrics {
+    \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*
+    dej jim od -- po -- či -- nu -- tí věč -- né.
+    \Verse Ty při -- jdeš sou -- dit ži -- vé i mrt -- vé,_*
+    \Response dej jim od -- po -- či -- nu -- tí věč -- né.
+    \textRespDoxologie
+  }
+  \header {
+    quid = "resp."
+    modus = "IV"
+    id = "ne-resp2"
+    piece = \markup {\sestavTitulekResp}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+
+    % R
+    \neviditelna a
+    a4 a g e e f e d d( e) e \barMax
+    e d \barMin d c d f e d( e) e \barFinalis
+    % V
+    \neviditelna e
+    e e( a) a g( a b a) a \barMin a g f d( e) e \barMax
+    % R
+    \neviditelna a
+    e d \barMin d c d f e d( e) e \barFinalis
+    % Slava
+    \mark\sipka e4( a b) a g( a) g f d( e) e \barMin d c d d( f) e e \barFinalis
   }
   \addlyrics {
     \Response Pa -- ne, smi -- luj se nad ze -- mře -- lý -- mi,_*
@@ -2505,7 +2538,7 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a bes a g f g g( a) a \barMin
     g( a) g f( d) d \barMaior
@@ -2559,6 +2592,31 @@
     g( a) g f( d) d \barMaior
     c d f \mark\sipka f g( a g f) f( g) \barMin
     a g f( d) d f e c( d) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
+    při -- jde ke mně,
+    a kdo ke mně při -- jde,
+    to -- ho jis -- tě ne -- od -- mít -- nu.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    id = "ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a bes a g f g g( a) a \barMin
+    g( a) g f( d) d \barMaior
+    c d f f \mark\sipka g( f a g) g \barMaior
+    a g f( d) d f e d-- d \barFinalis
   }
   \addlyrics {
     Kaž -- dý, ko -- ho mi O -- tec dá -- vá,

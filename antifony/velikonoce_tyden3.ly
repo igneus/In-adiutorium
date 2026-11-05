@@ -444,8 +444,8 @@
     \choralniRezim
     a4 a bes a g f g g( a) a \barMin
     g( a) g f( d) d \barMaior
-    d d c( d) d f( e f g) g \barMaior
-    a g f( d) d f e d d \barMaior
+    c d f f g( f a g) g \barMaior
+    a g f( d) d f e d-- d \barMaior
 
     e4 f d( c) d \barFinalis
   }

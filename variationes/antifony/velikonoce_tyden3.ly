@@ -3097,12 +3097,44 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a bes a g f g g( a) a \barMin
     g( a) g f( d) d \barMaior
     d d c( d) d f( e f g) g \barMaior
     a g f( d) d f e d d \barMaior
+
+    e4 f d( c) d \barFinalis
+  }
+  \addlyrics {
+    Kaž -- dý, ko -- ho mi O -- tec dá -- vá,
+    při -- jde ke mně,
+    a kdo ke mně při -- jde,
+    to -- ho jis -- tě ne -- od -- mít -- nu.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "a"
+    psalmus = ""
+    fial = "commune/zazemrele.ly#ne-amag?+aleluja"
+    id = "st-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\aktualisace
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a bes a g f g g( a) a \barMin
+    g( a) g f( d) d \barMaior
+    c d f f g( f a g) g \barMaior
+    a g f( d) d f e d-- d \barMaior
 
     e4 f d( c) d \barFinalis
   }
