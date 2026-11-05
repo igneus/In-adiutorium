@@ -2637,7 +2637,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d d d d( f e c) c( d) \barMin
     c b( c) c b c a g( a) a \barMaior
@@ -2655,7 +2655,33 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 116-II"
+    placet = "3 _a shledal, že jsou ho hodni_ nezpěvné"
     id = ""
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d d d d( f e c) c( d) \barMin
+    \mark\sipka d c a b c a g( a) a \barMaior
+    g f g a a c( d e) c d( c) b \barMin
+    a g a b( c) a g g \barFinalis
+  }
+  \addlyrics {
+    Bůh je pou -- ze zkou -- šel
+    a shle -- dal, že jsou ho hod -- ni;
+    pro -- to ob -- dr -- ží z_je -- ho ru -- kou
+    od -- mě -- nu věč -- né slá -- vy.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 116-II"
+    id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }
 }

@@ -786,7 +786,7 @@
     \choralniRezim
     c4 d d( a' bes a) g( a) a \barMin a( c g) a g( e) f( e) \barMaior
     f g a a( bes) a a a( c) g g( a) a \barMax
-    a a a g( f e) e \barMin d d( e f) g( a) a( g) g \barMin a( b c) a( g) f( e d e) d \barFinalis
+    a a a g( f e) e \barMin d f g( a) a( g) g \barMin a( b c) a( g) f( e d e) d \barFinalis
 
     d^\markup\rubrVelikAleluja d( f e d) e( c) d \barFinalis
   }

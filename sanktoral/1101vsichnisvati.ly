@@ -70,7 +70,7 @@
     \choralniRezim
     c4 d d( a' bes a) g( a) a \barMin a( c g) a g( e) f( e) \barMaior
     f g a a( bes) a a a( c) g g( a) a \barMax
-    a a a g( f e) e \barMin d d( e f) g( a) a( g) g \barMin a( b c) a( g) f( e d e) d \barMax
+    a a a g( f e) e \barMin d f g( a) a( g) g \barMin a( b c) a( g) f( e d e) d \barMax
 
     d d( f e d) e( c) d \barFinalis
   }
@@ -496,7 +496,7 @@
   \relative c'' {
     \choralniRezim
     d4 d d d d( f e c) c( d) \barMin
-    c b( c) c b c a g( a) a \barMaior
+    d c a b c a g( a) a \barMaior
     g f g a a c( d e) c d( c) b \barMin
     a g a b( c) a g g \barFinalis
   }
@@ -511,7 +511,6 @@
     modus = "VII"
     differentia = "d"
     psalmus = "Žalm 116-II"
-    placet = "3 _a shledal, že jsou ho hodni_ nezpěvné"
     id = "2ne-a2"
     piece = \markup {\sestavTitulek}
   }

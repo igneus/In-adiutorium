@@ -3947,12 +3947,40 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \key f \major
     \choralniRezim
     \mark\sipka c4 d d( a' bes a) g( a) a \barMin a( c g) a g( e) f( e) \barMaior
     f g a a( bes) a a a( c) g g( a) a \barMax
     a a a g( f e) e \barMin d d( e f) g( a) a( g) g \barMin a( b c) a( g) f( e d e) d \barFinalis
+
+    d^\markup\rubrVelikAleluja d( f e d) e( c) d \barFinalis
+  }
+  \addlyrics {
+    Sva -- tí zpí -- va -- li pí -- seň no -- vou
+    před trů -- nem Bo -- žím a Be -- rán -- ko -- vým
+    a spo -- lu s_ni -- mi se o -- zý -- va -- la zpě -- vem ze -- mě.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Zj 15"
+    id = "2ne-a3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    c4 d d( a' bes a) g( a) a \barMin a( c g) a g( e) f( e) \barMaior
+    f g a a( bes) a a a( c) g g( a) a \barMax
+    a a a g( f e) e \barMin d \mark\sipka f g( a) a( g) g \barMin a( b c) a( g) f( e d e) d \barFinalis
 
     d^\markup\rubrVelikAleluja d( f e d) e( c) d \barFinalis
   }
