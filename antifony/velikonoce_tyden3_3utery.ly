@@ -99,9 +99,10 @@
 
 \score {
   \relative c'' {
+    \key f \major
     \choralniRezim
-    c4 d e d c d c b a( g) g \barMaior
-    a g f( g) g \barFinalis
+    a4 g \barMin f g bes a g bes a a \barMaior
+    g a bes( g) a \barFinalis
   }
   \addlyrics {
     Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
@@ -109,10 +110,10 @@
   }
   \header {
     quid = "2. ant."
-    modus = "VII"
-    differentia = "c"
+    modus = "I"
+    differentia = "g3"
     psalmus = "Žalm 131"
-    placet = "2 nevím"
+    placet = "vyřešit odkaz na zdroj (nejde o adaptaci nápěvu z jednoho konkrétního pramene)"
     id = "ne-a2"
     piece = \markup {\sestavTitulek}
   }

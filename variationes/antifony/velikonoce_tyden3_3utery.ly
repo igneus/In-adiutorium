@@ -1361,10 +1361,30 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \mark\sipka c4 d e d c d c b a( g) g \barMaior
     \mark\sipka a g f( g) g \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "VII"
+    differentia = "c"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4 d e d c d c b a( g) g \barMaior
+    a g \mark\sipka f( a) g \barFinalis
   }
   \addlyrics {
     Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
@@ -1694,6 +1714,28 @@
     \choralniRezim
     a4( g) a( g) \barMin f g a bes g bes a a \barMaior
     bes bes g( bes) a \barFinalis
+  }
+  \addlyrics {
+    Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "g3"
+    psalmus = "Žalm 131"
+    id = "ne-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \key f \major
+    \choralniRezim
+    a4 g \barMin f g bes a g bes a a \barMaior
+    g a bes( g) a \barFinalis
   }
   \addlyrics {
     Dou -- fej, Iz -- ra -- e -- li, v_Hos -- po -- di -- na.
