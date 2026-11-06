@@ -332,7 +332,7 @@
   \relative c' {
     \choralniRezim
     f4 g g( a) a \barMin b c a g a g f \barMaior
-    c' d d d( c) \barMin a g f g( a g) g \barFinalis
+    c' b c a \barMin g f a g g \barFinalis
   }
   \addlyrics {
     O -- sla -- vuj -- me všech -- ny Bo -- ží přá -- te -- le,
@@ -343,7 +343,6 @@
     modus = "VIII"
     differentia = "G"
     psalmus = "Žalm 149"
-    placet = "3 _čest_ spíš lépe"
     id = "rch-a3"
     piece = \markup {\sestavTitulek}
   }
