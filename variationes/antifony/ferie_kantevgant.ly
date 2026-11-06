@@ -2624,6 +2624,26 @@
 \score {
   \relative c'' {
     \choralniRezim
+    c4 d d c b c a( g) g \barMaior
+    g a a \mark\sipka g f a( c b) a( g) g \barFinalis
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "VIII"
+    differentia = "c"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
     c4-- d \mark\sipka b c a g f( g) g \barMaior
     g f g a a a( b) g g \barFinalis
   }
@@ -2635,6 +2655,25 @@
     quid = "ant. k Magnificat"
     modus = "VIII"
     differentia = "c"
+    psalmus = ""
+    id = "t1-ct-mag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    c4-- d b c a g \mark\sipka a( g) f \barMaior
+  }
+  \addlyrics {
+    Bůh se -- sa -- dil moc -- né z_trů -- nu
+    a po -- ní -- že -- né po -- vý -- šil.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = ""
+    differentia = ""
     psalmus = ""
     id = "t1-ct-mag"
     piece = \markup {\sestavTitulekBezZalmu}
