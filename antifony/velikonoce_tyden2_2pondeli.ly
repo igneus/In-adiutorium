@@ -72,7 +72,7 @@
     quid = "3. ant."
     modus = "II"
     differentia = "D"
-    psalmus = "Žalm 19-A"
+    psalmus = "Žalm 19A"
     id = "rch-a3"
     fons = "Druha cast z:"
     fial = "commune/commune_apostol.ly#rch-aben?konec=19"
