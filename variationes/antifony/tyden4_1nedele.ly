@@ -2046,6 +2046,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g( f) g( a) a g a c( d) d d \barMaior
     d4( e c4.) c d4 c b a( g) g \barMaior
@@ -2068,6 +2069,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 a a g( f) g( a) a g a c( d) d d \barMaior
     d4( e c4.) c d4 c b a( g) g \barMaior

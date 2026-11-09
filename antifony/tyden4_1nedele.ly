@@ -267,7 +267,7 @@
     \choralniRezim
     a4 a a g( f) g( a) a g a c( d) d d \barMaior
     d4( e c4.) c d4 c b a( g) g \barMaior
-    g a g( f) g \barFinalis
+    a g f( a) g \barFinalis
   }
   \addlyrics {
     O -- de dne zro -- ze -- ní je ti ur -- če -- no vlád -- nout
@@ -279,7 +279,6 @@
     modus = "VII"
     differentia = "a"
     psalmus = "Žalm 110"
-    placet = "3 aleluja spíš lépe"
     id = "2ne-ant1"
     piece = \markup {\sestavTitulek}
   }
