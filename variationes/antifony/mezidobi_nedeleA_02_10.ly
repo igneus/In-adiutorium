@@ -80,7 +80,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     c4 d c a c b( a) \barMaior
     g g g( a) f g \barMin a b c \mark\sipka d c a( b) a a \barMaior
@@ -143,6 +143,31 @@
     differentia = "a"
     psalmus = ""
     annus = "A"
+    id = "ne2a-rch-aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 f e d( e) \mark\sipka d d \barMaior
+    c d d( f) f \barMin f f f f g f e( f) d d \barMaior
+    e d c d f e d \barFinalis
+  }
+  \addlyrics {
+    Jan vy -- dal svě -- dec -- tví:
+    Po mně při -- jde ten, kte -- rý má vět -- ší dů -- stoj -- nost,
+    ne -- boť byl dří -- ve než já.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "II"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "sanktoral/1227jan.ly#mc-a1?zacatek=5"
     id = "ne2a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }

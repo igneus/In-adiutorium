@@ -27,11 +27,11 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 d c a c b( a) \barMaior
-    g g g( a) f g \barMin a b c d c a( b) a a \barMaior
-    a g a a g f e \barFinalis
+    d4 f e d( e) d d \barMaior
+    c d d( f) f \barMin f f f f g f e( f) d d \barMaior
+    e d c d f e d \barFinalis
   }
   \addlyrics {
     Jan vy -- dal svě -- dec -- tví:
@@ -40,11 +40,11 @@
   }
   \header {
     quid = "ant. k Benedictus"
-    modus = "III"
-    differentia = "a"
+    modus = "II"
+    differentia = "D"
     psalmus = ""
     annus = "A"
-    placet = "3 zejm. začátek půjde lépe"
+    fial = "sanktoral/1227jan.ly#mc-a1?zacatek=5"
     id = "ne2a-rch-aben"
     piece = \markup {\sestavTitulekBezZalmu}
   }
