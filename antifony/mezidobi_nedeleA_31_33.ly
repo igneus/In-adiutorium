@@ -93,7 +93,7 @@
     a4 a a g( a) g g \barMin
     f g a a a b g a a \barMaior
     a a g f d( e) e \barMaior
-    e f( g a) g \barMin f g a a g e e \barFinalis
+    e f( g a) g \barMin a g f g g e e \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství
@@ -139,8 +139,8 @@
     \choralniRezim
     d4( f d c) c \barMin
     d d e f( g) a g \barMaior
-    a a g f e d d
-    e f( d) c( d) d \barFinalis
+    a a g f d e d( c) \barMin
+    d f( e) c( d) d \barFinalis
   }
   \addlyrics {
     Bdě -- te,

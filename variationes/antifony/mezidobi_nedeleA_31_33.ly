@@ -487,12 +487,38 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     a4 a a g( a) g g \barMin
     f g a a a b g a a \barMaior
     a a g f d( e) e \barMaior
     e \mark\sipka f( g a) g \barMin f g a a g e e \barFinalis
+  }
+  \addlyrics {
+    Ne -- bes -- ké krá -- lov -- ství
+    je po -- dob -- né de -- se -- ti pan -- nám,
+    kte -- ré vza -- ly lam -- py
+    a vy -- šly na -- pro -- ti že -- ni -- cho -- vi.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "IV"
+    differentia = "g"
+    psalmus = ""
+    annus = "A"
+    id = "ne32a-1ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    a4 a a g( a) g g \barMin
+    f g a a a b g a a \barMaior
+    a a g f d( e) e \barMaior
+    e f( g a) g \barMin \mark\sipka a g f g g e e \barFinalis
   }
   \addlyrics {
     Ne -- bes -- ké krá -- lov -- ství
@@ -650,7 +676,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4( f d c) c \barMin
     d d e f( g) a g \barMaior
@@ -680,6 +706,107 @@
     d4( f d c) c \barMin
     d d e f( g) a g \barMaior
     a a g f \mark\sipka e( f) d d \barMin
+    e f( d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te,
+    pro -- to -- že ne -- ví -- te,
+    kte -- rý den a ho -- di -- nu váš Pán při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/advent_nedeleA.ly#imag1?zacatek=13"
+    id = "ne32a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f d c) c \barMin
+    d d e f( g) a g \barMaior
+    a a g f \mark\sipka f( g) f f \barMin
+    f e( f d) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te,
+    pro -- to -- že ne -- ví -- te,
+    kte -- rý den a ho -- di -- nu váš Pán při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/advent_nedeleA.ly#imag1?zacatek=13&konec=7"
+    id = "ne32a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4( f d c) c \barMin
+    d d e f( g) a g \barMaior
+    a a g f \mark\sipka d e d( c) \barMin
+    d f( e) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te,
+    pro -- to -- že ne -- ví -- te,
+    kte -- rý den a ho -- di -- nu váš Pán při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/advent_nedeleA.ly#imag1?zacatek=13"
+    id = "ne32a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f d c) c \barMin
+    d d e f( g) a g \barMaior
+    a a g \mark\sipka a g f f
+    f g( f) e( d) d \barFinalis
+  }
+  \addlyrics {
+    Bdě -- te,
+    pro -- to -- že ne -- ví -- te,
+    kte -- rý den a ho -- di -- nu váš Pán při -- jde.
+  }
+  \header {
+    quid = "ant. k Magnificat"
+    modus = "I"
+    differentia = "D"
+    psalmus = ""
+    annus = "A"
+    fial = "antifony/advent_nedeleA.ly#imag1?zacatek=13"
+    id = "ne32a-2ne-amag"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4( f d c) c \barMin
+    d d e f( g) a g \barMaior
+    a a \mark\sipka a a g f e( d) \barMin
     e f( d) c( d) d \barFinalis
   }
   \addlyrics {
