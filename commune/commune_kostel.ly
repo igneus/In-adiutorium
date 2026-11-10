@@ -757,7 +757,7 @@
     % R
     \neviditelna f
     f4 f f f f f( g) f f \barMaior
-    g g g f g a a( g) \barMax
+    f f g f g a a( g) \barMax
     g g g f g a g( f) d f( g) g( f) f \barFinalis
     % V
     \neviditelna a
