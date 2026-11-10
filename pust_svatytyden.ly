@@ -495,7 +495,7 @@
       c c b c a \barMin
       g g f( g) g( a) a \barMin
       g( a) g f e e \barMaior
-      a a g a c( b) a a \barMin c b c a g g a a \barMin
+      a4 a g a c( b) a a \barMin c b c a g g a a \barMin
       g f e( f) d d \barFinalis
     }
     \addlyrics {
