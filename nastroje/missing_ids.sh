@@ -2,5 +2,5 @@
 
 ruby nastroje/find_scores.rb \
      --fail-if-found \
-     --matching='header["id"].yield_self {|id| id.nil? || id.empty? }' \
+     --matching='!h_id?' \
      "$@"

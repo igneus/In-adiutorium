@@ -3,7 +3,7 @@
 
 ruby nastroje/find_scores.rb \
      --fail-if-found \
-     --matching='header["quid"]&.include?("ant.")' \
+     --matching='h_quid&.include?("ant.")' \
      --matching='music.include?("\\barMax")' \
      --matching='!music.include?("\\barMaior")' \
      "$@"
