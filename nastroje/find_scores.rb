@@ -1,5 +1,6 @@
 # Finds scores matching the specified condition(s)
 
+require 'forwardable'
 require 'optparse'
 require 'yaml'
 
@@ -45,17 +46,39 @@ OptionParser.new do |opts|
   end
 end.parse!
 
-matches_conditions = lambda do |x|
-  score = x
-  header = x.header
-  music = x.music
-  lyrics = x.lyrics_readable
-  lyrics_raw = x.lyrics_raw
-  fial = x.header['fial']&.yield_self {|f| FIAL.parse f }
+class ConditionMatcher
+  extend Forwardable
 
-  header_values <= x.header &&
-    conditions.all? {|c| eval c }
+  def self.call(conditions, score)
+    new(conditions, score).match?
+  end
+
+  def initialize(conditions, score)
+    @conditions = conditions
+    @score = score
+  end
+
+  # Does score match all conditions?
+  def match?
+    @conditions.all? {|c| instance_eval c }
+  end
+
+  attr_reader :score
+  alias x score
+
+  def_delegators :@score, :header, :music, :lyrics_raw, :lyrics_readable
+  alias lyrics lyrics_readable
+
+  def fial
+    header['fial']&.yield_self {|f| FIAL.parse f }
+  end
 end
+
+matches_conditions =
+  ConditionMatcher
+    .method(:call)
+    .curry
+    .call(conditions)
 
 found = 0
 ARGV.each do |path|
@@ -64,7 +87,7 @@ ARGV.each do |path|
   Lyv::LilyPondMusic.new(path).scores.each do |score|
     id = score.header['id']
 
-    if matches_conditions.call(score)
+    if header_values <= score.header && matches_conditions.call(score)
       found += 1
       if verbose && !found_in_path
         puts "= #{path}"
