@@ -856,7 +856,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     f4( g) g \barMin
     a g f d f g g f \barFinalis
@@ -876,6 +876,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     a4 g \barMin
     f g a a bes g bes a \barFinalis
@@ -894,9 +895,66 @@
 }
 
 \score {
+  \relative c'' {
+    \choralniRezim
+    a4 g f g f f \barMin
+    d f g( f) f \barFinalis
+  }
+  \addlyrics {
+    Bo -- že, za -- zpí -- vám ti no -- vou pí -- seň.
+  }
+  \header {
+    quid = "3. ant."
+    modus = "VI"
+    differentia = "F"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
   \relative c' {
     \choralniRezim
     f4 g a a g f e f d d \barFinalis
+  }
+  \addlyrics {
+    Za -- zpí -- vám ti no -- vou pí -- seň, Bo -- že.
+  }
+  \header {
+    textus_approbatus = "Bože, zazpívám ti novou píseň."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    f4 g a g f d f g g f \barFinalis
+  }
+  \addlyrics {
+    Za -- zpí -- vám ti no -- vou pí -- seň, Bo -- že.
+  }
+  \header {
+    textus_approbatus = "Bože, zazpívám ti novou píseň."
+    quid = "3. ant."
+    modus = "I"
+    differentia = "f"
+    psalmus = "Žalm 144"
+    id = "rch-ant3"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    c4 d d( f) f \barMin g f e f d d \barFinalis
   }
   \addlyrics {
     Za -- zpí -- vám ti no -- vou pí -- seň, Bo -- že.
