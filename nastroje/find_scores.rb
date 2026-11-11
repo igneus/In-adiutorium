@@ -74,19 +74,26 @@ class ConditionMatcher
   end
 
   def psalm_tone
-    "#{modus}.#{differentia}"
+    "#{h_modus}.#{h_differentia}"
   end
 
   def method_missing(symbol, *args)
     return super unless args.empty?
 
-    key = symbol.to_s
-    if key.end_with? '?'
-      key = key[0..-2]
-      header.has_key?(key) && !header[key].empty?
-    else
-      header[key]
+    # support writing just `h_quid` instead of `header['quid']`
+    symbol.to_s.match(/^h(eader)?_(?<key>.*?)(?<predicate>\?)?$/) do |m|
+      key = m[:key]
+
+      r =
+        if m[:predicate]
+          header.has_key?(key) && !header[key].empty?
+        else
+          header[key]
+        end
+      return r
     end
+
+    super
   end
 end
 
