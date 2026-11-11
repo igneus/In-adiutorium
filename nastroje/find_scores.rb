@@ -72,6 +72,22 @@ class ConditionMatcher
   def fial
     header['fial']&.yield_self {|f| FIAL.parse f }
   end
+
+  def psalm_tone
+    "#{modus}.#{differentia}"
+  end
+
+  def method_missing(symbol, *args)
+    return super unless args.empty?
+
+    key = symbol.to_s
+    if key.end_with? '?'
+      key = key[0..-2]
+      header.has_key?(key) && !header[key].empty?
+    else
+      header[key]
+    end
+  end
 end
 
 matches_conditions =
