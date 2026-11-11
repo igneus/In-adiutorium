@@ -23,7 +23,7 @@ OptionParser.new do |opts|
   opts.on '-H', '--header=YAML', 'YAML mapping of score header fields and values' do |h|
     hdr = YAML.load h
     unless hdr.is_a? Hash
-      raise ArgumentError.new('Unexpected argument type, value of --header must be a YAML mapping (hash, dictionary), #{hdr.class} found')
+      raise ArgumentError.new("Unexpected argument type, value of --header must be a YAML mapping (hash, dictionary), #{hdr.class} found")
     end
     header_values.update hdr
   end
