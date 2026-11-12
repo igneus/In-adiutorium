@@ -45,7 +45,7 @@
 
 \score {
   \relative c'' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     g4 g f g g( a g) g \barMin
     a b c a( g) f( g) g \barMaior
@@ -85,6 +85,66 @@
     c c c d c c( d) c \barMin
     c c a( c g f) f \barMaior
     \mark\sipka g g f g g( a) a \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Pe -- tr mlu -- ví_*
+    ús -- ty svých ná -- stup -- ců,
+    zů -- stá -- vá stá -- le pev -- ný
+    ja -- ko ská -- la
+    a ne -- pouš -- tí z_ru -- kou
+    kor -- mid -- lo cír -- kve.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 g \mark\sipka a f g( a g) g \barMin
+    a b c a( g) f( g) g \barMaior
+    c c c d c c( d) c \barMin
+    c c a( c g f) f \barMaior
+    f g f g g( a) a \barMin
+    g a g f f \barFinalis
+  }
+  \addlyrics {
+    Sva -- tý Pe -- tr mlu -- ví_*
+    ús -- ty svých ná -- stup -- ců,
+    zů -- stá -- vá stá -- le pev -- ný
+    ja -- ko ská -- la
+    a ne -- pouš -- tí z_ru -- kou
+    kor -- mid -- lo cír -- kve.
+  }
+  \header {
+    quid = "ant. k Benedictus"
+    modus = "V"
+    differentia = "a"
+    psalmus = ""
+    id = "aben"
+    piece = \markup {\sestavTitulekBezZalmu}
+  }
+}
+
+\markup\justify{
+  (Pro snazší návaznost na žalmový nápěv na konci kantika)
+}
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    \mark\sipka a4 g f g g( a g) g \barMin
+    a b c a( g) f( g) g \barMaior
+    c c c d c c( d) c \barMin
+    c c a( c g f) f \barMaior
+    f g f g g( a) a \barMin
     g a g f f \barFinalis
   }
   \addlyrics {
