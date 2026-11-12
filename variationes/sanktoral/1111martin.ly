@@ -314,12 +314,37 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 c f g f( a) a \barMin
     a( c) a a g f g( a) g \barMaior
     g \mark\sipka f g f( e) d( c) \barMin
     d f \mark\sipka f f e( c) c( d) d \barFinalis
+  }
+  \addlyrics {
+    Mar -- tin po -- zdvi -- ho -- val
+    o -- či i ru -- ce k_ne -- bi
+    a ne -- ú -- nav -- ně
+    se -- tr -- vá -- val v_mod -- lit -- bě.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "I"
+    differentia = "D"
+    psalmus = "Dan 3-III"
+    id = "rch-a2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 c f g f( a) a \barMin
+    a( c) a a g f g( a) g \barMaior
+    g \mark\sipka a g f( e) d( c) \barMin
+    d f f f e( c) c( d) d \barFinalis
   }
   \addlyrics {
     Mar -- tin po -- zdvi -- ho -- val
