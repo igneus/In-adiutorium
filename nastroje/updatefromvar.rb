@@ -49,7 +49,7 @@ optparse = OptionParser.new do|opts|
     setup[:interactive] = true
   end
 
-  opts.separator 'Output'
+  opts.separator 'Effects'
 
   opts.on "-d", "--dry-run", "Perform all actions, but don't save the results" do
     setup[:dry_run] = true
@@ -76,12 +76,13 @@ begin
       `git ls-files --modified`
         .split
         .select {|f| f.start_with? DEV_DIR }
-        .collect {|f| f.sub "#{DEV_DIR}/", '' }
+        .collect {|f| f.sub "#{DEV_DIR}/", '' } # TODO: this doesn't handle partial files
+  end
+  files = files.flat_map do |f|
+    File.directory?(f) ? Dir[File.join(f, '**', '*.ly')] : [f]
   end
 
-  files
-    .flat_map {|f| File.directory?(f) ? Dir[File.join(f, '**', '*.ly')] : [f] }
-    .each do |f|
+  files.each do |f|
     updater.update f
   end
 rescue RuntimeError => ex
