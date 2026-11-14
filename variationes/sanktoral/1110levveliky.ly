@@ -107,6 +107,7 @@
 
 \score {
   \relative c'' {
+    \zvyraznovacModry
     \choralniRezim
     g4 g \mark\sipka a f g( a g) g \barMin
     a b c a( g) f( g) g \barMaior
@@ -138,7 +139,6 @@
 }
 \score {
   \relative c'' {
-    \zvyraznovacModry
     \choralniRezim
     \mark\sipka a4 g f g g( a g) g \barMin
     a b c a( g) f( g) g \barMaior
