@@ -390,7 +390,7 @@
     \choralniRezim
     \key f \major
     f4( a) g g \barMin a bes a g a f d( e) d \barMaior
-    f g a bes bes bes a( g) a \barMaior
+    f f g bes bes bes a( g) a \barMaior
     bes( g a f) d \barMin d d( e) c c d d \barFinalis
 
     e^\markup\rubrVelikAleluja f d( c) d \barFinalis

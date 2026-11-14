@@ -91,7 +91,7 @@
     \neviditelna a
     a a g a g( f e) e \barMin f( d) f f e e \barFinalis
     % Slava
-    a4 a a g a c( a) a \barMin a b g g( a) a a \barFinalis
+    a4 a a g a c b \barMin a b g g( a) a a \barFinalis
   }
   \addlyrics {
     \Response Lá -- mej chléb hla -- do -- vé -- mu,
@@ -114,7 +114,7 @@
     \choralniRezim
     \key f \major
     f4( a) g g \barMin a bes a g a f d( e) d \barMaior
-    f g a bes bes bes a( g) a \barMaior
+    f f g bes bes bes a( g) a \barMaior
     bes( g a f) d \barMin d d( e) c c d d \barFinalis
   }
   \addlyrics {
@@ -229,6 +229,7 @@
   \header {
     quid = "resp."
     modus = "VI"
+    placet = "_posvěcení_ nevím"
     id = "ne-resp"
     piece = \markup {\sestavTitulekResp}
   }

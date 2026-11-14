@@ -1900,7 +1900,7 @@
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     \key f \major
     f4( a) g g \barMin a bes a g a f d( e) d \barMaior
@@ -1955,6 +1955,7 @@
 
 \score {
   \relative c' {
+    \zvyraznovacModry
     \choralniRezim
     \key f \major
     f4( a) g g \barMin a bes a g a f d( e) d \barMaior
