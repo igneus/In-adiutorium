@@ -45,15 +45,19 @@ class Updater
       update_simple_copies(main_src, main_music) +
       update_from_development(main_file, main_src, main_music)
 
-    if changes > 0 && !dry_run
-      File.open(main_path, 'w') do |fw|
-        fw.write(main_src)
+    modified =
+      if changes > 0 && !dry_run
+        File.open(main_path, 'w') do |fw|
+          fw.write(main_src)
+        end
+        true
       end
-    end
 
     @filters.shift if fial
 
     @log.puts "Finished updating #{main_file}, total of #{changes} scores modified"
+
+    modified
   end
 
   # updates main_src with scores marked as production versions

@@ -24,7 +24,8 @@ setup = {
   partial_files: true,
   modified: false,
   interactive: false,
-  music_changes_only: false
+  music_changes_only: false,
+  git_add: false,
 }
 
 optparse = OptionParser.new do|opts|
@@ -54,6 +55,10 @@ optparse = OptionParser.new do|opts|
   opts.on "-d", "--dry-run", "Perform all actions, but don't save the results" do
     setup[:dry_run] = true
   end
+
+  opts.on "-a", "--add", "`git add` all modified files" do
+    setup[:git_add] = true
+  end
 end
 
 optparse.parse!
@@ -82,8 +87,12 @@ begin
     File.directory?(f) ? Dir[File.join(f, '**', '*.ly')] : [f]
   end
 
-  files.each do |f|
+  modified = files.select do |f|
     updater.update f
+  end
+
+  if setup[:git_add]
+    exec 'ruby', 'nastroje/add.rb', *modified
   end
 rescue RuntimeError => ex
   STDERR.puts ex.message
