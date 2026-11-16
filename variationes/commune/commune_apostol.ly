@@ -122,7 +122,7 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 
 \score {
   \relative c' {
-    \zvyraznovacModry
+    \zvyraznovacSedy
     \choralniRezim
     d4 d c d f g f e d c d d \barMaior
     d f \mark\sipka f e f d( c) c \barMin
@@ -178,11 +178,64 @@ rubrVelikAleluja = \markup\small\italic{V době velikonoční:}
 }
 \score {
   \relative c'' {
-    \zvyraznovacZelenyII
     \choralniRezim
     d4 d c d e e d c d( e) e d d \barMin
     d c d c b a( g) g \barMaior
     f g a a c b a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš k_so -- bě po -- vo -- lal své u -- čed -- ní -- ky
+    a vy -- vo -- lil z_nich dva -- náct,
+    kte -- ré na -- zval a -- po -- što -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 117"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \zvyraznovacModry
+    \choralniRezim
+    d4 d \mark\sipka d d e e d c d( e) e d d \barMin
+    d c d c b a( g) g \barMaior
+    f g a a c b a( g) g \barFinalis
+
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Je -- žíš k_so -- bě po -- vo -- lal své u -- čed -- ní -- ky
+    a vy -- vo -- lil z_nich dva -- náct,
+    kte -- ré na -- zval a -- po -- što -- ly.
+
+    A -- le -- lu -- ja.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VII"
+    differentia = "d"
+    psalmus = "Žalm 117"
+    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-1ne-amag?cast=2&ignoruj=melismata"
+    id = "1ne-a1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c'' {
+    \choralniRezim
+    a4 a g a c d d d e c c( d) d \barMaior
+    d e f e d c( d) d( c) \barMin
+    b c a g a g f( g) g \barFinalis
 
     f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }

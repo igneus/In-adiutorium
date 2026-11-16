@@ -164,9 +164,9 @@
 \score {
   \relative c'' {
     \choralniRezim
-    d4 d d( e) d c d( e) e d d \barMin
+    d4-- d e d c d( e) e d d \barMin
     d c d c b a g g \barMaior
-    f( g) g( a) a \barMin c c b a g( a) g g \barFinalis
+    a g f a c b a g( a) g g \barFinalis
   }
   \addlyrics {
     Pán si za -- vo -- lal slu -- žeb -- ní -- ky
@@ -211,10 +211,10 @@
 }
 
 \score {
-  \relative c'' {
+  \relative c' {
     \choralniRezim
-    c4 c c c d( e d) \barMin c b a( g) g \barMaior
-    a a g f g( a) a( g) g \barFinalis
+    f4 g a a g4.( a) g4 f f( g) g \barMaior
+    g g g g a( bes a) g( f) f \barFinalis
   }
   \addlyrics {
     Kaž -- dé -- mu, kdo má, bu -- de dá -- no,
@@ -222,8 +222,8 @@
   }
   \header {
     quid = "ant. k Magnificat"
-    modus = "VII"
-    differentia = "c"
+    modus = "VI"
+    differentia = "F"
     psalmus = ""
     annus = "A"
     id = "ne33a-2ne-amag"

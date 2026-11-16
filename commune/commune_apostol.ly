@@ -12,13 +12,13 @@
 \markup {\nadpisHodinka {"1. nešpory"}}
 
 \score {
-  \relative c' {
+  \relative c'' {
     \choralniRezim
-    d4 d c d f g f e d c d d \barMaior
-    d f f e f d( c) c \barMin
-    a c d d e d c( d) d \barFinalis
+    d4 d d d e e d c d( e) e d d \barMin
+    d c d c b a( g) g \barMaior
+    f g a a c b a( g) g \barFinalis
 
-    e^\markup\rubrVelikAleluja f d( c) d \barFinalis
+    f^\markup\rubrVelikAleluja g( a) g g \barFinalis
   }
   \addlyrics {
     Je -- žíš k_so -- bě po -- vo -- lal své u -- čed -- ní -- ky
@@ -29,9 +29,10 @@
   }
   \header {
     quid = "1. ant."
-    modus = "II"
-    differentia = "D"
+    modus = "VII"
+    differentia = "d"
     psalmus = "Žalm 117"
+    fial = "antifony/mezidobi_nedeleA_31_33.ly#ne33a-1ne-amag?cast=2&ignoruj=melismata"
     id = "1ne-a1"
     piece = \markup {\sestavTitulek}
   }
