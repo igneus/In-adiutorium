@@ -79,6 +79,27 @@ nejsu úplně marné, ale na původní nemají.}
   }
 }
 
+\score {
+  \relative c'' {
+    \choralniRezim
+    g4 a g b c d c \barMaior
+    \mark\sipka d c e( f e) c( d) d \barMin
+    d e c b( c) a( g) \barMin f g( a) g g \barFinalis
+  }
+  \addlyrics {
+    Hos -- po -- di -- ne, slyš můj hlas,
+    ja -- ko ka -- di -- dlo ať k_to -- bě stou -- pá má mo -- dlit -- ba.
+  }
+  \header {
+    quid = "1. ant."
+    modus = "VIII"
+    differentia = "G"
+    psalmus = "Žalm 141"
+    id = "1ne-ant1"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
 \markup\nadpisSkupiny{2}
 
 \score {
@@ -363,6 +384,28 @@ je atypická a může bt těžké z ní přejít na žalm.}
 \score {
   \relative c' {
     \choralniRezim
+    \mark\sipka d4 f e f d( c) c \barMin
+    d f f( g) g \barMaior
+    a4 g( f) e( d) \barMin
+    d4( e) c d d \barFinalis
+  }
+  \addlyrics {
+    Tys mé ú -- to -- čiš -- tě, Hos -- po -- di -- ne,
+    můj ú -- děl v_ze -- mi ži -- vých.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 142"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
     d4 d f e d( c) c \barMin
     f g g( a) a \barMaior
     g( f) g( a) g \barMin
@@ -396,7 +439,29 @@ je atypická a může bt těžké z ní přejít na žalm.}
   }
   \header {
     quid = "2. ant."
-    modus = "I"
+    modus = "II"
+    differentia = "D"
+    psalmus = "Žalm 142"
+    id = "1ne-ant2"
+    piece = \markup {\sestavTitulek}
+  }
+}
+
+\score {
+  \relative c' {
+    \choralniRezim
+    d4 \mark\sipka f e f d d \barMin
+    f e d( c) c \barMaior
+    d d( f) f \barMin
+    f( g) f d d \barFinalis
+  }
+  \addlyrics {
+    Tys mé ú -- to -- čiš -- tě, Hos -- po -- di -- ne,
+    můj ú -- děl v_ze -- mi ži -- vých.
+  }
+  \header {
+    quid = "2. ant."
+    modus = "II"
     differentia = "D"
     psalmus = "Žalm 142"
     id = "1ne-ant2"
